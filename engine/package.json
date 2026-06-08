@@ -1,0 +1,13 @@
+{
+  "name": "corporate-law-tracker-engine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Nightly ingestion + multi-source enrichment pipeline for Corporate Law Tracker.",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  }
+}

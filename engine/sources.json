@@ -1,0 +1,32 @@
+{
+  "note": "Source registry for triangulation. 'trust' 1-5 (5 = highest). The enrichment prompt instructs Claude to corroborate every deal across as many of these as possible, PRIORITISING government / regulator / exchange / company-official sources. Primary (Bar & Bench) is the ingestion spine; the rest are corroborators found via web search.",
+  "ingestion_spine": {
+    "name": "Bar & Bench — Dealstreet",
+    "api": "https://www.barandbench.com/api/v1/stories?section-id=14032&limit=30&fields=headline,slug,url,last-published-at",
+    "main_feed": "https://www.barandbench.com/stories.rss",
+    "trust": 4
+  },
+  "corroborators": [
+    { "name": "SEBI", "domain": "sebi.gov.in", "type": "regulator", "trust": 5, "priority": true },
+    { "name": "Reserve Bank of India (RBI)", "domain": "rbi.org.in", "type": "regulator", "trust": 5, "priority": true },
+    { "name": "Competition Commission of India (CCI)", "domain": "cci.gov.in", "type": "regulator", "trust": 5, "priority": true },
+    { "name": "IBBI", "domain": "ibbi.gov.in", "type": "regulator", "trust": 5, "priority": true },
+    { "name": "Ministry of Corporate Affairs (MCA)", "domain": "mca.gov.in", "type": "regulator", "trust": 5, "priority": true },
+    { "name": "DIPAM", "domain": "dipam.gov.in", "type": "government", "trust": 5, "priority": true },
+    { "name": "Press Information Bureau (PIB)", "domain": "pib.gov.in", "type": "government", "trust": 5, "priority": true },
+    { "name": "MeitY", "domain": "meity.gov.in", "type": "government", "trust": 5, "priority": true },
+    { "name": "BSE", "domain": "bseindia.com", "type": "exchange", "trust": 5, "priority": true },
+    { "name": "NSE", "domain": "nseindia.com", "type": "exchange", "trust": 5, "priority": true },
+    { "name": "Company press release / investor relations", "domain": "*", "type": "company-official", "trust": 5, "priority": true },
+    { "name": "LiveLaw", "domain": "livelaw.in", "type": "legal", "trust": 4 },
+    { "name": "SCC Online", "domain": "scconline.com", "type": "legal", "trust": 4 },
+    { "name": "Reuters", "domain": "reuters.com", "type": "wire", "trust": 4 },
+    { "name": "Mint", "domain": "livemint.com", "type": "business", "trust": 4 },
+    { "name": "The Economic Times", "domain": "economictimes.indiatimes.com", "type": "business", "trust": 4 },
+    { "name": "Business Standard", "domain": "business-standard.com", "type": "business", "trust": 4 },
+    { "name": "The Hindu BusinessLine", "domain": "thehindubusinessline.com", "type": "business", "trust": 4 },
+    { "name": "Moneycontrol", "domain": "moneycontrol.com", "type": "business", "trust": 3 },
+    { "name": "VCCircle", "domain": "vccircle.com", "type": "business", "trust": 3 },
+    { "name": "Financial Express", "domain": "financialexpress.com", "type": "business", "trust": 3 }
+  ]
+}
