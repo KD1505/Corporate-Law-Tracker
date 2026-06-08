@@ -6,11 +6,13 @@
 
 const UA = "CorporateLawTrackerBot/1.0 (+https://www.corporatelawtracker.com)";
 
+// ONLY the Dealstreet section — these are curated corporate deals (M&A, ECM, PE,
+// financings) with named law-firm teams. We deliberately do NOT ingest the general
+// News section: in free (rule-based) mode there's no reliable way to separate
+// corporate-relevant rulings from general criminal/political litigation, which would
+// pollute the tracker. (AI mode can be extended to gate News items later.)
 const DEALSTREET_API =
   "https://www.barandbench.com/api/v1/stories?section-id=14032&limit=30&fields=headline,slug,url,last-published-at";
-// Section 14017 = News (covers regulatory + litigation rulings relevant to corporates)
-const NEWS_API =
-  "https://www.barandbench.com/api/v1/stories?section-id=14017&limit=30&fields=headline,slug,url,last-published-at";
 
 async function getJSON(url) {
   const r = await fetch(url, { headers: { "User-Agent": UA }, redirect: "follow" });
@@ -53,7 +55,7 @@ async function fetchArticleBody(url) {
 
 function idFromSlug(slug) {
   // slug like "dealstreet/khaitan-co-acts-on-hfcl-555-crore-preferential-issue"
-  return slug.split("/").pop().slice(0, 80);
+  return slug.split("/").pop().slice(0, 120);
 }
 
 /**
@@ -61,12 +63,8 @@ function idFromSlug(slug) {
  * @param {number} maxNew            cap on number of new items to enrich per run
  */
 export async function fetchNewItems(existingIds, maxNew = 12) {
-  const [ds, news] = await Promise.all([
-    getJSON(DEALSTREET_API).catch(() => ({ stories: [] })),
-    getJSON(NEWS_API).catch(() => ({ stories: [] })),
-  ]);
-
-  const stories = [...(ds.stories || []), ...(news.stories || [])];
+  const ds = await getJSON(DEALSTREET_API).catch(() => ({ stories: [] }));
+  const stories = [...(ds.stories || [])];
   const seen = new Set();
   const candidates = [];
   for (const s of stories) {

@@ -17,10 +17,22 @@ import { extractItem } from "./extract.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const HTML = path.join(__dirname, "..", "index.html");
+const SEEN = path.join(__dirname, "seen.json");
 const START = "/* DEALS-START";
 const END = "/* DEALS-END */";
 const MAX_NEW = Number(process.env.CLT_MAX_NEW || 12);
 const USE_AI = !!process.env.ANTHROPIC_API_KEY;
+
+// Safety-net relevance gate: drop anything that is clearly NOT a corporate/commercial
+// matter, even if it somehow reaches us. Dealstreet is already deal-only, so this
+// rarely triggers — it's belt-and-braces against criminal/political/PIL noise.
+const JUNK = /\b(bail|murder|rape|fire|assault|custody|election|poll|assembly|MLA|MP\b|PIL|FIR|arrest|harass|defamation|divorce|gymkhana|polo)\b/i;
+function isRelevant(item) { return !JUNK.test(item.headline || ""); }
+
+async function loadSeen() {
+  try { return new Set(JSON.parse(await readFile(SEEN, "utf8"))); }
+  catch { return new Set(); }
+}
 
 function existingIds(html) {
   const a = html.indexOf(START), b = html.indexOf(END);
@@ -47,11 +59,13 @@ async function structure(item) {
 
 async function main() {
   let html = await readFile(HTML, "utf8");
-  const have = existingIds(html);
-  console.log(`Existing deals: ${have.size}. Mode: ${USE_AI ? "AI enrichment" : "FREE rule-based"}.`);
+  const seen = await loadSeen();
+  const have = new Set([...existingIds(html), ...seen]); // dedupe vs page AND ledger
+  console.log(`Known items: ${have.size} (page + ledger). Mode: ${USE_AI ? "AI enrichment" : "FREE rule-based"}.`);
 
-  const items = await fetchNewItems(have, MAX_NEW);
-  console.log(`New candidate items fetched: ${items.length}`);
+  let items = await fetchNewItems(have, MAX_NEW);
+  items = items.filter(isRelevant); // belt-and-braces relevance gate
+  console.log(`New relevant items fetched: ${items.length}`);
   if (!items.length) { console.log("Nothing new. Exiting clean."); return; }
 
   const deals = [];
@@ -80,7 +94,12 @@ async function main() {
   html = html.replace(/Updated \d{1,2} [A-Za-z]{3,} \d{4}/g, `Updated ${todayLabel()}`);
 
   await writeFile(HTML, html, "utf8");
-  console.log(`Added ${deals.length} deal(s). index.html updated.`);
+
+  // record what we ingested so it is never added twice
+  for (const d of deals) seen.add(d.id);
+  await writeFile(SEEN, JSON.stringify([...seen], null, 2), "utf8");
+
+  console.log(`Added ${deals.length} deal(s). index.html + seen.json updated.`);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });
