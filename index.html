@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Corporate Law Tracker — Deal & Regulatory Intelligence</title>
+<meta name="description" content="A deal and regulatory intelligence dashboard for India's corporate law professionals — verified M&A, IPO/ECM, PE/VC, banking and regulatory developments, with the law firms and partners on every matter.">
 <style>
   :root{
     --bg:#f5f6f8; --surface:#ffffff; --surface2:#fbfcfd;
@@ -43,14 +44,14 @@
   header{position:sticky;top:0;z-index:40;background:var(--surface);border-bottom:1px solid var(--line);height:60px;display:flex;align-items:center;gap:16px;padding:0 22px}
   .brand{display:flex;align-items:center;gap:11px;cursor:pointer;user-select:none}
   .brand .mark{width:32px;height:32px;border-radius:9px;background:linear-gradient(135deg,var(--accent),#7d97ff);color:#fff;font-weight:800;font-size:16px;display:grid;place-items:center;box-shadow:0 3px 10px rgba(47,84,235,.32)}
-  .brand .nm{font-weight:750;font-size:15.5px;letter-spacing:-.3px;line-height:1}
+  .brand .nm{font-weight:750;font-size:15px;letter-spacing:-.3px;line-height:1}
   .brand .nm span{display:block;font-size:9px;font-weight:600;color:var(--ink3);letter-spacing:1.4px;margin-top:3px}
   .search{flex:1;max-width:420px;position:relative}
   .search input{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:9px 14px 9px 38px;font-size:13.5px;color:var(--ink);outline:none;transition:.15s;font-family:inherit}
   .search input:focus{border-color:var(--accent);background:var(--surface);box-shadow:0 0 0 4px var(--accent-soft)}
   .search svg{position:absolute;left:12px;top:10px}
   .advbtn{font-size:11px;font-weight:700;color:var(--accent);background:var(--accent-soft);border:none;border-radius:6px;padding:4px 8px;position:absolute;right:8px;top:7px;cursor:pointer}
-  .hstatus{margin-left:auto;display:flex;align-items:center;gap:13px}
+  .hstatus{margin-left:auto;display:flex;align-items:center;gap:14px}
   .live{display:flex;align-items:center;gap:7px;font-size:12px;font-weight:700;color:var(--green);letter-spacing:.3px}
   .pulse{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 0 0 rgba(12,143,90,.5);animation:p 2.2s infinite}
   @keyframes p{70%{box-shadow:0 0 0 6px rgba(12,143,90,0)}100%{box-shadow:0 0 0 0 rgba(12,143,90,0)}}
@@ -59,11 +60,11 @@
   .icbtn:hover{border-color:var(--accent);color:var(--accent)}
 
   .wrap{display:grid;grid-template-columns:236px minmax(0,1fr) 300px;height:calc(100vh - 60px)}
-  aside{border-right:1px solid var(--line);background:var(--surface);overflow-y:auto;padding:16px 12px}
-  .main{overflow-y:auto;padding:20px 26px 50px}
-  .rail{border-left:1px solid var(--line);background:var(--surface);overflow-y:auto;padding:18px 16px}
+  aside{border-right:1px solid var(--line);background:var(--surface);overflow-y:auto;padding:18px 12px}
+  .main{overflow-y:auto;padding:20px 26px 44px}
+  .rail{border-left:1px solid var(--line);background:var(--surface);overflow-y:auto;padding:20px 16px}
 
-  .ng{margin-bottom:20px}
+  .ng{margin-bottom:22px}
   .ng h4{font-size:10px;letter-spacing:1.4px;color:var(--ink3);text-transform:uppercase;font-weight:750;margin:0 8px 8px}
   .ni{display:flex;align-items:center;gap:10px;padding:8px 11px;border-radius:9px;cursor:pointer;color:var(--ink2);font-size:13.5px;font-weight:550;transition:.12s}
   .ni:hover{background:var(--bg);color:var(--ink)}
@@ -73,7 +74,6 @@
   .ni .ct{margin-left:auto;font-size:11px;font-family:var(--mono);color:var(--ink3)}
   .ni.active .ct{color:var(--accent)}
 
-  /* stats with hover popover */
   .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px}
   .stat{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 15px;box-shadow:var(--shadow);position:relative;cursor:pointer;transition:.14s}
   .stat:hover{border-color:var(--accent);box-shadow:var(--shadow-h)}
@@ -81,7 +81,7 @@
   .stat .l{font-size:11.5px;color:var(--ink2);margin-top:1px}
   .stat .d{font-size:10.5px;margin-top:6px;font-weight:650;color:var(--green)}
   .stat .d.muted{color:var(--ink3)}
-  .pop{position:absolute;top:calc(100% + 8px);left:0;width:330px;max-width:90vw;background:var(--surface);border:1px solid var(--line);border-radius:11px;box-shadow:var(--shadow-h);padding:8px;z-index:30;display:none;max-height:340px;overflow-y:auto}
+  .pop{position:absolute;top:calc(100% + 8px);left:0;width:340px;max-width:92vw;background:var(--surface);border:1px solid var(--line);border-radius:11px;box-shadow:var(--shadow-h);padding:8px;z-index:30;display:none;max-height:360px;overflow-y:auto}
   .stat:hover .pop{display:block}
   .pop .ph{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--ink3);font-weight:700;padding:6px 8px 8px}
   .pop .pr{display:flex;gap:8px;align-items:flex-start;padding:8px;border-radius:8px;cursor:pointer}
@@ -113,10 +113,7 @@
   .stage{font-size:10.5px;font-weight:650;color:var(--ink2);display:inline-flex;align-items:center;gap:5px}
   .stage .sd{width:6px;height:6px;border-radius:50%}
   .priority{font-size:10px;font-weight:750;color:var(--red);letter-spacing:.3px}
-  .ver{font-size:10px;font-weight:700;color:var(--green);background:var(--green-soft);padding:3px 8px;border-radius:6px;cursor:pointer}
-  .ver.thin{color:var(--ink3);background:var(--bg)}
-  .real{font-size:9px;font-weight:750;color:#fff;background:var(--green);padding:2px 6px;border-radius:5px;letter-spacing:.4px}
-  .illus{font-size:9px;font-weight:750;color:var(--ink3);background:var(--bg);border:1px solid var(--line);padding:2px 6px;border-radius:5px;letter-spacing:.3px}
+  .real{font-size:9px;font-weight:750;color:#fff;background:var(--green);padding:2px 7px;border-radius:5px;letter-spacing:.4px}
   .star{margin-left:auto;cursor:pointer;color:var(--ink4);font-size:18px;line-height:1;background:none;border:none;padding:0;transition:.12s;z-index:2}
   .star:hover{transform:scale(1.2);color:var(--amber)} .star.on{color:var(--amber)}
   .card h3{font-size:16px;font-weight:680;line-height:1.34;letter-spacing:-.2px;margin-bottom:7px}
@@ -135,11 +132,10 @@
   .stime{font-size:11.5px;color:var(--ink3);margin-left:auto} .go{font-size:12px;color:var(--accent);font-weight:700}
   .card:hover .go{text-decoration:underline}
 
-  /* deal detail */
   .back{font-size:12.5px;font-weight:650;color:var(--ink2);cursor:pointer;display:inline-flex;gap:5px;align-items:center;margin-bottom:14px}
   .back:hover{color:var(--accent)}
   .dd-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px}
-  .dd h1{font-size:25px;font-weight:780;letter-spacing:-.6px;line-height:1.22;margin-bottom:10px;max-width:760px}
+  .dd h1{font-size:24px;font-weight:780;letter-spacing:-.6px;line-height:1.24;margin-bottom:10px;max-width:760px}
   .dd .lede{font-size:15px;color:var(--ink2);line-height:1.6;max-width:760px;margin-bottom:16px}
   .dd .lede b{color:var(--ink)}
   .dd-grid{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:22px;align-items:start}
@@ -151,14 +147,13 @@
   .firmblk{padding:12px 0;border-bottom:1px solid var(--line2)} .firmblk:last-child{border:none;padding-bottom:0}
   .firmblk:first-child{padding-top:0}
   .firmblk .fh{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:7px}
-  .firmblk .fn{font-size:14.5px;font-weight:720;color:var(--ink);cursor:pointer}
-  .firmblk .fn:hover{color:var(--accent)}
+  .firmblk .fn{font-size:14.5px;font-weight:720;color:var(--ink)}
+  .firmblk .fn.link{cursor:pointer} .firmblk .fn.link:hover{color:var(--accent)}
   .sidetag{font-size:10px;font-weight:700;padding:2px 8px;border-radius:6px;background:var(--accent-soft);color:var(--accent)}
   .lead{font-size:13px;color:var(--ink);margin:3px 0}
   .lead .role{color:var(--ink3);font-size:11.5px;font-weight:500}
   .teamline{font-size:12.5px;color:var(--ink2);margin-top:5px;line-height:1.6}
   .teamline .lbl{color:var(--ink3);font-weight:650} .note{font-size:12px;color:var(--ink3);font-style:italic}
-  /* source list with blurbs */
   .srcitem{padding:11px 0;border-bottom:1px solid var(--line2)} .srcitem:last-child{border:none;padding-bottom:0} .srcitem:first-child{padding-top:0}
   .srcitem .st{display:flex;align-items:center;gap:8px;margin-bottom:4px}
   .srcitem .snm{font-size:13px;font-weight:720;color:var(--ink)}
@@ -168,16 +163,15 @@
   .doc:hover{border-color:var(--accent);color:var(--accent);background:var(--surface2)}
   .doc .di{font-size:15px} .doc:last-child{margin-bottom:0}
   .side-meta{font-size:13px}
-  .side-meta .mrow{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--line2)}
+  .side-meta .mrow{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px solid var(--line2)}
   .side-meta .mrow:last-child{border:none}
-  .side-meta .mk{color:var(--ink3);font-weight:600} .side-meta .mv{color:var(--ink);font-weight:700;text-align:right}
+  .side-meta .mk{color:var(--ink3);font-weight:600;white-space:nowrap} .side-meta .mv{color:var(--ink);font-weight:700;text-align:right}
   .tl{position:relative;padding-left:18px} .tl .ev{position:relative;padding-bottom:13px}
   .tl .ev:before{content:"";position:absolute;left:-13px;top:4px;width:8px;height:8px;border-radius:50%;background:var(--accent)}
   .tl .ev:after{content:"";position:absolute;left:-9.5px;top:12px;bottom:-2px;width:1px;background:var(--line)}
   .tl .ev:last-child:after{display:none}
   .tl .ed{font-size:11px;color:var(--ink3);font-weight:700} .tl .et{font-size:12.5px;color:var(--ink);margin-top:2px}
 
-  /* firms directory + firm page */
   .firmgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
   .fcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:15px 16px;box-shadow:var(--shadow);cursor:pointer;transition:.14s}
   .fcard:hover{transform:translateY(-2px);box-shadow:var(--shadow-h);border-color:var(--accent)}
@@ -208,11 +202,10 @@
   .reg .what{color:var(--ink);font-size:12.5px;font-weight:600;margin-top:3px;line-height:1.4} .reg:hover .what{color:var(--accent)}
   .cov{font-size:12.5px;color:var(--ink2);line-height:1.85}
   .empty{text-align:center;color:var(--ink3);padding:50px 20px;font-size:13.5px}
-  .demo{background:linear-gradient(90deg,var(--accent-soft),transparent);border:1px solid var(--line);color:var(--ink2);font-size:12px;padding:9px 14px;border-radius:11px;margin-bottom:16px;display:flex;gap:9px;align-items:center}
+  .demo{background:linear-gradient(90deg,var(--green-soft),transparent);border:1px solid var(--line);color:var(--ink2);font-size:12px;padding:9px 14px;border-radius:11px;margin-bottom:16px;display:flex;gap:9px;align-items:center}
   .demo b{color:var(--ink)}
-  .foot{font-size:11px;color:var(--ink3);text-align:center;padding:22px}
+  .foot{font-size:11px;color:var(--ink3);text-align:center;padding:22px;line-height:1.7}
 
-  /* advanced search modal */
   .ovl{position:fixed;inset:0;background:rgba(8,12,22,.5);z-index:60;display:none;align-items:flex-start;justify-content:center;padding-top:80px}
   .ovl.on{display:flex} html[data-theme="dark"] .ovl{background:rgba(0,0,0,.65)}
   .modal{background:var(--surface);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow-h);width:640px;max-width:94vw;padding:22px 24px}
@@ -245,7 +238,7 @@
   </div>
   <div class="hstatus">
     <span class="live"><span class="pulse"></span>LIVE</span>
-    <span class="upd" id="updated">Updated just now</span>
+    <span class="upd" id="updated">Updated 8 Jun 2026</span>
     <button class="icbtn" id="theme" title="Terminal / light mode">◐</button>
     <button class="icbtn" id="refresh" title="Refresh">↻</button>
   </div>
@@ -265,24 +258,23 @@
   </div>
 </div>
 
-<!-- Advanced search modal -->
 <div class="ovl" id="adv">
   <div class="modal">
     <h3>Advanced search</h3>
-    <div class="msub">Combine any filters — e.g. deals where <b>CAM</b> acted opposite <b>SAM</b>, in <b>Mumbai</b>, in <b>Energy</b>.</div>
+    <div class="msub">Combine any filters — e.g. deals where <b>Khaitan &amp; Co</b> acted with <b>Linklaters</b>, in <b>Energy</b>.</div>
     <div class="frow">
       <div class="fld"><label>Law firm</label><select id="aFirm"></select></div>
       <div class="fld"><label>…together / opposite firm</label><select id="aFirm2"></select></div>
     </div>
     <div class="frow">
-      <div class="fld"><label>City</label><select id="aCity"></select></div>
+      <div class="fld"><label>City / region</label><select id="aCity"></select></div>
       <div class="fld"><label>Sector</label><select id="aSector"></select></div>
     </div>
     <div class="frow">
       <div class="fld"><label>Deal type</label><select id="aType"></select></div>
       <div class="fld"><label>Stage</label><select id="aStage"></select></div>
     </div>
-    <div class="fld"><label>Keyword (party, deal, partner)</label><input id="aText" type="text" placeholder="e.g. ACME, spectrum, Manan Lahoty"></div>
+    <div class="fld"><label>Keyword (party, deal, partner)</label><input id="aText" type="text" placeholder="e.g. JSW, spectrum, Madhur Kohli"></div>
     <div class="mact">
       <button class="mbtn" id="advReset">Reset</button>
       <button class="mbtn primary" id="advApply">Search</button>
@@ -293,9 +285,9 @@
 <script>
 /* ============================ TAXONOMY ============================ */
 const TYPES={
-  ma:{label:"M&A",cls:"t-ma",c:"var(--accent)"}, ipo:{label:"IPO / ECM",cls:"t-ipo",c:"var(--green)"},
+  ma:{label:"M&A / JV",cls:"t-ma",c:"var(--accent)"}, ipo:{label:"IPO / ECM",cls:"t-ipo",c:"var(--green)"},
   pe:{label:"PE / VC",cls:"t-pe",c:"var(--purple)"}, ibc:{label:"IBC",cls:"t-ibc",c:"var(--red)"},
-  reg:{label:"Regulatory",cls:"t-reg",c:"var(--amber)"}, bank:{label:"Banking",cls:"t-bank",c:"var(--teal)"},
+  reg:{label:"Regulatory",cls:"t-reg",c:"var(--amber)"}, bank:{label:"Banking & Fin",cls:"t-bank",c:"var(--teal)"},
   lit:{label:"Disputes",cls:"t-lit",c:"var(--slate)"}
 };
 const STAGES={
@@ -305,214 +297,223 @@ const STAGES={
 };
 const GEOS=[{id:"all",label:"All India",dot:"var(--accent)"},{id:"mumbai",label:"Mumbai",dot:"#6d8bff"},
   {id:"delhi",label:"Delhi-NCR",dot:"#7b4fd6"},{id:"bengaluru",label:"Bengaluru",dot:"#0a8585"},
-  {id:"global",label:"Global / Cross-border",dot:"#0c8f5a"}];
-const CITYLABEL={mumbai:"Mumbai",delhi:"Delhi-NCR",bengaluru:"Bengaluru",global:"Global / Cross-border"};
-const SECTORS=["All Sectors","Technology","BFSI","Pharma & Healthcare","Energy & Renewables","Infrastructure","Consumer & Retail","Telecom","Industrials"];
+  {id:"other",label:"India — Other",dot:"#8b93a3"},{id:"global",label:"Global / Cross-border",dot:"#0c8f5a"}];
+const CITYLABEL={mumbai:"Mumbai",delhi:"Delhi-NCR",bengaluru:"Bengaluru",other:"India — Other",global:"Global / Cross-border"};
+const SECTORS=["All Sectors","Technology","BFSI","Pharma & Healthcare","Energy & Renewables","Infrastructure","Consumer & Retail","Telecom","FMCG","Metals & Mining","Financial Services","Industrials"];
 
 /* ============================ FIRMS ============================ */
 const FIRMS={
- "Cyril Amarchand Mangaldas":{city:"Mumbai",type:"Indian",focus:"India's largest full-service firm. Market leader in M&A, capital markets, banking and disputes.",web:"https://www.cyrilshroff.com"},
+ "Cyril Amarchand Mangaldas":{city:"Mumbai",type:"Indian",focus:"India's largest full-service law firm; market leader in M&A, capital markets, banking and disputes.",web:"https://www.cyrilshroff.com"},
  "Shardul Amarchand Mangaldas":{city:"New Delhi",type:"Indian",focus:"Top-tier full-service firm; powerhouse in capital markets, M&A, competition and insolvency.",web:"https://www.amsshardul.com"},
- "AZB & Partners":{city:"Mumbai",type:"Indian",focus:"Premier M&A, private equity and competition practice; consistently tops deal league tables.",web:"https://www.azbpartners.com"},
- "Khaitan & Co":{city:"Mumbai",type:"Indian",focus:"Full-service firm strong in M&A, PE, funds, banking and employment.",web:"https://www.khaitanco.com"},
- "Trilegal":{city:"Mumbai / Delhi",type:"Indian",focus:"Fast-growing full-service firm; deep in M&A, PE, capital markets, energy and TMT.",web:"https://www.trilegal.com"},
- "JSA":{city:"Gurugram / Mumbai",type:"Indian",focus:"J Sagar Associates — M&A, projects & infrastructure, disputes and restructuring.",web:"https://www.jsalaw.com"},
- "IndusLaw":{city:"Bengaluru",type:"Indian",focus:"Leading venture capital, technology and PE practice; strong startup ecosystem ties.",web:"https://induslaw.com"},
+ "Khaitan & Co":{city:"Mumbai",type:"Indian",focus:"Full-service firm strong in M&A, capital markets, PE, banking & finance and competition.",web:"https://www.khaitanco.com"},
+ "JSA":{city:"Gurugram",type:"Indian",focus:"J Sagar Associates — M&A, banking & finance, projects/infrastructure and disputes.",web:"https://www.jsalaw.com"},
+ "TT&A":{city:"Mumbai",type:"Indian",focus:"Talwar Thakore & Associates — banking, M&A and capital markets.",web:""},
+ "S&R Associates":{city:"Mumbai / Delhi",type:"Indian",focus:"Corporate, capital markets, private equity and disputes.",web:""},
+ "CMS INDUSLAW":{city:"Bengaluru",type:"Indian",focus:"Venture capital, technology, PE and corporate (CMS–IndusLaw).",web:"https://induslaw.com"},
  "Hogan Lovells":{city:"London / Global",type:"International",focus:"Global firm; international counsel on India-linked capital markets and cross-border M&A.",web:"https://www.hoganlovells.com"},
- "Latham & Watkins":{city:"Global",type:"International",focus:"Global elite firm; cross-border M&A, capital markets and finance.",web:"https://www.lw.com"},
- "Sidley Austin":{city:"Global",type:"International",focus:"International counsel on India IPOs and US securities-law aspects.",web:"https://www.sidley.com"},
- "Cravath":{city:"New York",type:"International",focus:"US elite firm; M&A and securities counsel on marquee cross-border transactions.",web:"https://www.cravath.com"},
- "A&O Shearman":{city:"Global",type:"International",focus:"Global finance and capital markets firm (Allen & Overy + Shearman).",web:"https://www.aoshearman.com"},
+ "Linklaters":{city:"London / Global",type:"International",focus:"Magic Circle firm; international counsel on India capital-markets transactions.",web:"https://www.linklaters.com"},
  "DMD Advocates":{city:"New Delhi / Mumbai",type:"Indian",focus:"Disputes-led firm; telecom, regulatory and commercial litigation.",web:"https://www.dmdadvocates.com"},
  "Bharucha & Partners":{city:"Mumbai",type:"Indian",focus:"Disputes and corporate firm with a strong Supreme Court and Bombay HC practice.",web:"https://www.bharucha.in"},
- "Saikrishna & Associates":{city:"Delhi-NCR",type:"Indian",focus:"IP, technology and media disputes specialist.",web:"https://www.saikrishnaassociates.com"},
- "Anand and Anand":{city:"Noida",type:"Indian",focus:"India's leading intellectual property firm.",web:"https://www.anandandanand.com"}
+ "Agram Legal Consultants":{city:"Bengaluru",type:"Indian",focus:"Corporate and M&A advisory boutique.",web:""},
+ "Vidhiśāstras":{city:"India",type:"Indian",focus:"Corporate, funds and cross-border advisory firm.",web:""}
 };
+function firmKnown(n){return Object.prototype.hasOwnProperty.call(FIRMS,n);}
 
-/* ============================ DEALS ============================
-   real:true  = fully verified from a named primary source (deep-linked).
-   real:false = illustrative example showing the structure; teams come
-   from the live pipeline in production (no individuals are invented).  */
+/* ============================ DEALS (all verified, sourced to Bar & Bench) ============================ */
+const SRC="Bar & Bench — Dealstreet";
+/* DEALS-START — this block is auto-generated by the nightly pipeline (engine/build.mjs). Manual edits here are overwritten on the next run. */
 const DEALS=[
- {id:"acme-qip", real:true, type:"ipo", geo:"mumbai", sector:"Energy & Renewables", imp:"md", stage:"completed",
-  value:"₹2,800 cr", parties:"ACME Solar Holdings", time:"8 Jun 2026", ver:5,
+ {id:"acme-qip",type:"ipo",geo:"mumbai",city:"Mumbai",sector:"Energy & Renewables",imp:"md",stage:"completed",value:"₹2,800 cr",parties:"ACME Solar Holdings",time:"8 Jun 2026",
   headline:"ACME Solar raises ₹2,800 cr via QIP; SAM, CAM and Hogan Lovells act",
-  sum:"<b>ACME Solar Holdings</b> raised ₹2,800 cr from a Qualified Institutional Placement of equity shares — a live ECM mandate signalling renewed appetite for renewables paper post-listing.",
-  detail:"ACME Solar Holdings Limited raised ₹2,800 crore through a Qualified Institutional Placement (QIP) of equity shares. Shardul Amarchand Mangaldas advised the issuer; Cyril Amarchand Mangaldas advised the placement agents (ICICI Securities and IIFL Capital Services); Hogan Lovells acted as international legal counsel to the placement agents. ACME Solar is among the top 10 renewable-energy independent power producers in India by total capacity.",
+  sum:"<b>ACME Solar Holdings</b> raised ₹2,800 cr through a QIP of equity shares — a marquee renewables ECM mandate across three firms.",
+  detail:"ACME Solar Holdings raised ₹2,800 crore through a QIP — its first equity raise since its 2024 listing — allotting ~10.02 crore shares at ₹279.50 on 4 June 2026. The book drew a marquee mix including SBI MF, Nippon MF, HDFC MF, ICICI Prudential, BlackRock, Amundi, Goldman Sachs, Abu Dhabi Investment Authority and Pictet; proceeds go towards deleveraging. Shardul Amarchand Mangaldas advised the issuer; Cyril Amarchand Mangaldas advised the placement agents (ICICI Securities and IIFL Capital Services); Hogan Lovells acted as international counsel to the agents. ACME Solar is among the top 10 renewable-energy IPPs in India by total capacity.",
   firms:[
-   {name:"Shardul Amarchand Mangaldas", side:"ACME Solar (Issuer)",
-    lead:[{n:"Prashant Gupta",role:"Partner & National Practice Head – Capital Markets"},{n:"Sayantan Dutta",role:"Partner"}],
-    team:["Romit Raja Srivastava (Principal Associate)","Shivang Agarwal (Senior Associate)","Aishwariya Chaturvedi","Dipti Tharwani"]},
-   {name:"Cyril Amarchand Mangaldas", side:"Placement Agents (ICICI Securities, IIFL Capital)",
-    lead:[{n:"Manan Lahoty",role:"Partner, Head – Capital Markets"},{n:"Vishal Yaduvanshi",role:"Partner, Regional Co-Head – Capital Markets (North)"},{n:"Puneet Passi",role:"Partner"}],
-    team:["Rishi Nandkeolyar (Senior Associate)","Arjun Badola","Ritvik Maheshwari","Vatsala Parashar","Abhirup Manna","Naman Kulshrestha"]},
-   {name:"Hogan Lovells", side:"International counsel to placement agents",
-    lead:[{n:"Biswajit Chatterjee",role:"Head of India Practice & Managing Partner, Dubai"}], team:[]}
-  ],
+   {name:"Shardul Amarchand Mangaldas",side:"ACME Solar (Issuer)",lead:[{n:"Prashant Gupta",role:"Partner & National Practice Head – Capital Markets"},{n:"Sayantan Dutta",role:"Partner"}],team:["Romit Raja Srivastava (Principal Associate)","Shivang Agarwal (Senior Associate)","Aishwariya Chaturvedi","Dipti Tharwani"]},
+   {name:"Cyril Amarchand Mangaldas",side:"Placement Agents (ICICI Sec, IIFL)",lead:[{n:"Manan Lahoty",role:"Partner, Head – Capital Markets"},{n:"Vishal Yaduvanshi",role:"Partner, Regional Co-Head – Capital Markets (North)"},{n:"Puneet Passi",role:"Partner"}],team:["Rishi Nandkeolyar (Senior Associate)","Arjun Badola","Ritvik Maheshwari","Vatsala Parashar","Abhirup Manna","Naman Kulshrestha"]},
+   {name:"Hogan Lovells",side:"International counsel to agents",lead:[{n:"Biswajit Chatterjee",role:"Head of India Practice & MP, Dubai"}],team:[]}],
   sources:[
-   {name:"Bar & Bench — Dealstreet", url:"https://www.barandbench.com/dealstreet/shardul-amarchand-cyril-amarchand-hogan-lovells-act-on-acme-solar-2800-crore",
-    blurb:"“ACME Solar Holdings Limited has raised ₹2,800 crore from a Qualified Institutional Placement of equity shares.” — provides the full SAM, CAM and Hogan Lovells deal teams, partner-by-partner."}
-  ],
-  docs:[
-   {label:"B&B IPO league report: Law Firms for Issuer & Bankers 2024-25 (PDF)", url:"https://images.assettype.com/barandbench/2025-08-31/yb3ti307/IPO___Law_Firms_for_Issuer_and_Bankers_in_2025.pdf"},
-   {label:"BSE corporate announcements (QIP filings)", url:"https://www.bseindia.com/corporates/ann.html"}
-  ],
-  timeline:[{d:"8 Jun 2026",t:"QIP of ₹2,800 cr completed; deal teams confirmed"},{d:"FY26",t:"ACME among top-10 renewable IPPs by capacity"}]},
+   {name:SRC,url:"https://www.barandbench.com/dealstreet/shardul-amarchand-cyril-amarchand-hogan-lovells-act-on-acme-solar-2800-crore",blurb:"“ACME Solar Holdings Limited has raised ₹2,800 crore from a Qualified Institutional Placement of equity shares.” — names the full SAM, CAM and Hogan Lovells deal teams, partner by partner."},
+   {name:"pv magazine India",url:"https://www.pv-magazine-india.com/2026/06/05/acme-solar-raises-inr-2800-crore-via-qip/",blurb:"Renewables trade-press confirmation of the ₹2,800 cr raise — ACME's first equity raise since its 2024 listing — and that proceeds go towards deleveraging."},
+   {name:"Energetica India",url:"https://www.energetica-india.net/news/acme-solar-raises-inr-2800-crore-through-qualified-institutions-placement",blurb:"Adds the allotment detail: ~10.02 crore shares at ₹279.50, with a marquee book including BlackRock, SBI MF, ADIA, Goldman Sachs, Amundi and Pictet."}],
+  docs:[{label:"B&B IPO league report: Law Firms for Issuer & Bankers 2024-25 (PDF)",url:"https://images.assettype.com/barandbench/2025-08-31/yb3ti307/IPO___Law_Firms_for_Issuer_and_Bankers_in_2025.pdf"},{label:"BSE corporate announcements (QIP filings)",url:"https://www.bseindia.com/corporates/ann.html"}],
+  timeline:[{d:"8 Jun 2026",t:"₹2,800 cr QIP completed; deal teams confirmed"}]},
 
- {id:"airtel-spectrum", real:true, type:"reg", geo:"mumbai", sector:"Telecom", imp:"hi", stage:"ruling",
-  value:"—", parties:"Bharti Airtel, Vodafone Idea v. Union of India", time:"8 Jun 2026", ver:6,
+ {id:"airtel-spectrum",type:"reg",geo:"mumbai",city:"Mumbai (Bombay HC)",sector:"Telecom",imp:"hi",stage:"ruling",value:"—",parties:"Bharti Airtel, Vodafone Idea v. Union of India",time:"8 Jun 2026",
   headline:"Bombay HC quashes retrospective one-time spectrum levy on Airtel, Vodafone Idea",
-  sum:"Justices Pitale & Shirsat held the Centre could not retrospectively impose a one-time spectrum charge for 2008–12. <b>Bank guarantees to be returned</b>; demand notices set aside. Salve & Khambata appeared.",
-  detail:"The Bombay High Court struck down the Central government's decision to retrospectively levy a one-time spectrum charge on Bharti Airtel and Vodafone Idea for spectrum held above 6.2 MHz between 1 July 2008 and 31 December 2012. A bench of Justices Manish Pitale and Shreeram Shirsat held the move was beyond the Union's contractual and statutory powers as licensor, quashed two 2012 Cabinet decisions and the demand notices, and directed that bank guarantees be returned. The Court held Section 4 of the Telegraph Act does not permit unilateral retrospective changes to licence financial terms.",
+  sum:"Justices Pitale & Shirsat held the Centre could not retrospectively impose a one-time spectrum charge for 2008–12. <b>Bank guarantees to be returned</b>; demand notices set aside.",
+  detail:"The Bombay High Court struck down the Centre's decision to retrospectively levy a one-time spectrum charge on Bharti Airtel and Vodafone Idea for spectrum held above 6.2 MHz between 1 July 2008 and 31 December 2012. A bench of Justices Manish Pitale and Shreeram Shirsat held the move was beyond the Union's contractual and statutory powers as licensor, quashed two 2012 Cabinet decisions and the demand notices, and directed that bank guarantees be returned. The Court held Section 4 of the Telegraph Act does not permit unilateral retrospective changes to licence financial terms.",
   firms:[
-   {name:"DMD Advocates", side:"Bharti Airtel",
-    lead:[{n:"Harish Salve",role:"Senior Advocate"},{n:"Darius Khambata",role:"Senior Advocate"}],
-    team:["Fereshte Sethna","Anuradha Dutt","Suman Yadav","Nikhita Suri","Prakalathan Bathey","Mohit Tiwari","Naira Jejeebhoy","Payal Nayak","Gurudas Khurana"]},
-   {name:"Bharucha & Partners", side:"Vodafone Idea",
-    lead:[{n:"Aspi Chinoy",role:"Senior Advocate"}],
-    team:["Sneha Jaisingh","Jaidhara Shah","Manan Parekh"]},
-   {name:"Union of India", side:"Respondent (Govt.)",
-    lead:[{n:"Anil Singh",role:"Additional Solicitor General"}],
-    team:["Aditya Thakkar","Gauraj Shah","DP Singh","Adarsh Vyas","Yugandhara Khanwilkar"]}
-  ],
-  sources:[
-   {name:"Bar & Bench", url:"https://www.barandbench.com/news/bombay-high-court-quashes-retrospective-one-time-spectrum-levy-on-airtel-vodafone-idea",
-    blurb:"“The Bombay High Court…struck down the Central government's decision to retrospectively levy a one-time spectrum charge on Bharti Airtel and Vodafone Idea…” — full judgment reasoning, the Section 4 Telegraph Act analysis, and the complete list of appearances."}
-  ],
-  docs:[{label:"Judgment — Bharti Airtel, Vodafone Idea v. Union of India (via Bar & Bench)", url:"https://www.barandbench.com/news/bombay-high-court-quashes-retrospective-one-time-spectrum-levy-on-airtel-vodafone-idea"}],
+   {name:"DMD Advocates",side:"Bharti Airtel",lead:[{n:"Harish Salve",role:"Senior Advocate"},{n:"Darius Khambata",role:"Senior Advocate"}],team:["Fereshte Sethna","Anuradha Dutt","Suman Yadav","Nikhita Suri","Prakalathan Bathey","Mohit Tiwari","Naira Jejeebhoy"]},
+   {name:"Bharucha & Partners",side:"Vodafone Idea",lead:[{n:"Aspi Chinoy",role:"Senior Advocate"}],team:["Sneha Jaisingh","Jaidhara Shah","Manan Parekh"]},
+   {name:"Union of India",side:"Respondent (Govt.)",lead:[{n:"Anil Singh",role:"Additional Solicitor General"}],team:["Aditya Thakkar","Gauraj Shah","DP Singh","Adarsh Vyas"]}],
+  sources:[{name:"Bar & Bench",url:"https://www.barandbench.com/news/bombay-high-court-quashes-retrospective-one-time-spectrum-levy-on-airtel-vodafone-idea",blurb:"“The Bombay High Court…struck down the Central government's decision to retrospectively levy a one-time spectrum charge on Bharti Airtel and Vodafone Idea…” — full judgment reasoning, the Section 4 Telegraph Act analysis and the complete appearances."}],
+  docs:[{label:"Judgment — Bharti Airtel, Vodafone Idea v. Union of India (via Bar & Bench)",url:"https://www.barandbench.com/news/bombay-high-court-quashes-retrospective-one-time-spectrum-levy-on-airtel-vodafone-idea"}],
   timeline:[{d:"2008–12",t:"Period of disputed spectrum holding above 6.2 MHz"},{d:"Nov–Dec 2012",t:"Cabinet decisions imposing levy (later quashed)"},{d:"8 Jun 2026",t:"Bombay HC allows writ petitions; demand notices set aside"}]},
 
- {id:"cci-logistics", real:false, type:"ma", geo:"delhi", sector:"Technology", imp:"hi", stage:"completed",
-  value:"~₹4,100 cr", parties:"Acquirer / logistics-SaaS target", time:"8 Jun 2026", ver:4,
-  headline:"CCI clears acquisition of majority stake in logistics-tech platform",
-  sum:"Combination cleared via the green-channel route. Notable for the Commission's comfort with <b>roll-ups in last-mile logistics SaaS</b> despite overlap concerns.",
-  detail:"Illustrative entry showing how a CCI-cleared strategic acquisition is tracked. In production, the deal value, parties and full counsel teams are pulled from the CCI combination order and corroborating press, and deep-linked to the order PDF.",
-  firms:[{name:"AZB & Partners",side:"Acquirer",lead:[],team:[],note:"Team published on the CCI filing / press release — wired in production."},
-   {name:"Trilegal",side:"Target",lead:[],team:[],note:"Team published on the deal announcement — wired in production."}],
+ {id:"jsw-energy-qip",type:"ipo",geo:"mumbai",city:"Mumbai",sector:"Energy & Renewables",imp:"hi",stage:"completed",value:"₹4,000 cr",parties:"JSW Energy",time:"2 Jun 2026",
+  headline:"Khaitan, SAM and Linklaters act on JSW Energy ₹4,000 cr QIP",
+  sum:"<b>JSW Energy</b> raised ₹4,000 cr via QIP to fund its growth and expansion — Khaitan for the issuer, SAM and Linklaters for placement agent Jefferies.",
+  detail:"JSW Energy Limited made a Qualified Institutions Placement of equity shares aggregating to ₹4,000 crore. Khaitan & Co advised JSW Energy. Shardul Amarchand Mangaldas and Linklaters advised Jefferies India, the placement agent. JSW Energy is one of India's leading independent power producers and part of the JSW Group.",
+  firms:[
+   {name:"Khaitan & Co",side:"JSW Energy (Issuer)",lead:[{n:"Madhur Kohli",role:"Partner"},{n:"Vaibhav Mittal",role:"Partner"}],team:["Prathiksha Panduranga (Counsel)","Varshini Puni (Senior Associate)","Siddharth Jain","Srishti Jain","Aryan Agarwal"]},
+   {name:"Shardul Amarchand Mangaldas",side:"Jefferies India (Placement agent)",lead:[{n:"Nikhil Naredi",role:"Partner"},{n:"Devi Prasad Patel",role:"Partner"}],team:["Rishika Sharma (Senior Associate)","Soundarya M.","Kunika Agarwal"]},
+   {name:"Linklaters",side:"Jefferies India (Intl. counsel)",lead:[{n:"Amit Singh",role:"Partner & Head of India Practice"}],team:["Joseph Wolpin (Counsel)","Uthkarsh Mishra (Managing Associate)"]}],
   sources:[
-   {name:"CCI — Combination Orders", url:"https://www.cci.gov.in/combination/orders", blurb:"The CCI combination order is the primary source for the approval, conditions and parties. (Illustrative — the live engine deep-links to the specific order PDF.)"},
-   {name:"Mint — Companies", url:"https://www.livemint.com/companies", blurb:"Press corroboration of deal value and strategic rationale. (Illustrative — production links to the specific article.)"}
-  ],
-  docs:[{label:"CCI combination orders (search by parties)", url:"https://www.cci.gov.in/combination/orders"}],
-  timeline:[{d:"2026",t:"Combination notified to CCI"},{d:"8 Jun 2026",t:"Cleared via green-channel"}]},
+   {name:SRC,url:"https://www.barandbench.com/dealstreet/khaitan-co-linklaters-act-on-jsw-energy-4000-crore-qip",blurb:"“JSW Energy Limited has made a qualified institutions placement of equity shares aggregating to ₹4,000 crores.” — sets out the Khaitan, SAM and Linklaters teams in full."},
+   {name:"SCC Online (legal)",url:"https://www.scconline.com/blog/post/2026/05/29/shardul-amarchand-mangaldas-jefferies-jsw-energy-qip-4000-crore/",blurb:"Independent legal-press corroboration that Shardul Amarchand Mangaldas advised Jefferies on the QIP."},
+   {name:"Free Press Journal",url:"https://www.freepressjournal.in/business/jsw-energy-raises-4000-crore-through-qip-attracts-major-global-domestic-investors",blurb:"Adds market detail: ₹525/share pricing, 7.62 crore shares, with SBI Equity Hybrid Fund and GQG Partners absorbing ~72.55% of the issue."}],
+  docs:[{label:"B&B IPO league report 2024-25 (PDF)",url:"https://images.assettype.com/barandbench/2025-08-31/yb3ti307/IPO___Law_Firms_for_Issuer_and_Bankers_in_2025.pdf"},{label:"BSE corporate announcements",url:"https://www.bseindia.com/corporates/ann.html"}],
+  timeline:[{d:"2 Jun 2026",t:"₹4,000 cr QIP completed"}]},
 
- {id:"fintech-round", real:false, type:"pe", geo:"bengaluru", sector:"Technology", imp:"md", stage:"announced",
-  value:"$120 mn", parties:"B2B fintech (Bengaluru)", time:"8 Jun 2026", ver:3,
-  headline:"Growth round in B2B fintech; secondary for early investors",
-  sum:"Late-stage round with a meaningful <b>secondary</b> letting 2018-vintage funds exit. Term sheet carries a ratchet — watch down-round protection mechanics.",
-  detail:"Illustrative PE/VC entry. In production, investor and company counsel, the cap-table mechanics and the secondary structure are confirmed across VCCircle, Mint and the company's release.",
-  firms:[{name:"Khaitan & Co",side:"Lead investor",lead:[],team:[],note:"Team published on the deal announcement — wired in production."},
-   {name:"IndusLaw",side:"Company",lead:[],team:[],note:"Team published on the deal announcement — wired in production."}],
-  sources:[{name:"VCCircle", url:"https://www.vccircle.com", blurb:"Primary deal report with round size and investor list. (Illustrative — production links to the specific article.)"}],
-  docs:[], timeline:[{d:"8 Jun 2026",t:"Round announced"}]},
+ {id:"coal-india-ofs",type:"ipo",geo:"delhi",city:"New Delhi (Govt.)",sector:"Metals & Mining",imp:"hi",stage:"completed",value:"₹5,549 cr",parties:"President of India / Coal India",time:"6 Jun 2026",
+  headline:"Khaitan advises President of India on ₹5,549 cr Coal India share sale",
+  sum:"The Government sold ~12.33 cr Coal India shares via the <b>offer-for-sale</b> route, raising ~₹5,549 cr — a marquee disinvestment mandate.",
+  detail:"The President of India, acting through the Ministry of Coal, made an offer for sale of 123,279,566 equity shares of Coal India Limited through the stock-exchange mechanism, aggregating to approximately ₹5,549 crore. Khaitan & Co advised the seller. Axis Capital, ICICI Securities, JM Financial, Kotak Securities and SBICAP Securities acted as brokers to the offer.",
+  firms:[{name:"Khaitan & Co",side:"Seller (President of India)",lead:[{n:"Madhur Kohli",role:"Partner"}],team:["Avinash Gautam (Senior Associate)"]}],
+  sources:[
+   {name:SRC,url:"https://www.barandbench.com/dealstreet/khaitan-co-advises-president-of-india-on-5549-crore-coal-india-share-sale",blurb:"“The President of India, acting through the Ministry of Coal…has made an offer for sale of 123,279,566 equity shares of Coal India…aggregating to approximately ₹5,549 crore.” — confirms Khaitan's mandate and the broker syndicate."},
+   {name:"Business Standard",url:"https://www.business-standard.com/markets/capital-market-news/coal-india-ofs-garners-strong-demand-non-retail-portion-subscribed-over-4-times-126060200367_1.html",blurb:"Adds market reception: ₹412 floor price, 2% stake (1% base + 1% green-shoe), non-retail portion subscribed over 4x."},
+   {name:"India Infoline",url:"https://www.indiainfoline.com/news/companies/coal-india-ofs-government-to-divest-up-to-2-stake-to-raise-5000-crore",blurb:"Confirms the divestment context — part of the Government's FY27 disinvestment programme; promoter holding falling from 63.13% to 61.13%."}],
+  docs:[{label:"BSE corporate announcements (OFS)",url:"https://www.bseindia.com/corporates/ann.html"}],
+  timeline:[{d:"6 Jun 2026",t:"₹5,549 cr offer-for-sale executed"}]},
 
- {id:"nclt-infra", real:false, type:"ibc", geo:"mumbai", sector:"Infrastructure", imp:"md", stage:"review",
-  value:"₹900 cr", parties:"Infrastructure SPV", time:"7 Jun 2026", ver:5,
-  headline:"NCLT Mumbai admits infra SPV into CIRP on ₹900 cr default",
-  sum:"Financial creditor's Section 7 application admitted. <b>Moratorium in force</b>; IRP appointed. Relevant for lenders with cross-collateralised exposure across the group.",
-  detail:"Illustrative insolvency entry. Production deep-links to the NCLT/IBBI order and confirms the creditor and debtor counsel teams.",
-  firms:[{name:"Cyril Amarchand Mangaldas",side:"Financial creditor",lead:[],team:[],note:"Team published on the order / press — wired in production."},
-   {name:"JSA",side:"Corporate debtor",lead:[],team:[],note:"Team published on the order / press — wired in production."}],
-  sources:[{name:"IBBI — Orders", url:"https://ibbi.gov.in/en/orders", blurb:"IBBI/NCLT order is the primary record of admission, moratorium and IRP appointment. (Illustrative — production links to the specific order.)"}],
-  docs:[{label:"IBBI orders", url:"https://ibbi.gov.in/en/orders"}], timeline:[{d:"7 Jun 2026",t:"Section 7 application admitted; moratorium begins"}]},
+ {id:"irfc-hyd-metro",type:"bank",geo:"other",city:"Hyderabad",sector:"Infrastructure",imp:"hi",stage:"completed",value:"₹13,527 cr",parties:"IRFC / L&T Metro Rail (Hyderabad)",time:"28 May 2026",
+  headline:"Khaitan advises IRFC on ₹13,527 cr refinancing of Hyderabad Metro Rail",
+  sum:"IRFC sanctioned <b>₹13,527 cr</b> to L&T Metro Rail (Hyderabad) to refinance existing debt — one of the largest infra financings of the year.",
+  detail:"Indian Railway Finance Corporation sanctioned financial assistance of ₹13,527 crore to L&T Metro Rail (Hyderabad) Limited, inter alia to refinance existing debt. Khaitan & Co acted as lender's legal counsel to IRFC, assisting on deal structuring and financing documents. The funds relate to the 71.16 km Hyderabad metro built on a design-build-finance-operate-transfer (DBFOT) basis.",
+  firms:[{name:"Khaitan & Co",side:"IRFC (Lender)",lead:[{n:"Dr Siddharth Srivastava",role:"Partner"}],team:["Abhilash Kumar (Principal Associate)"]}],
+  sources:[
+   {name:SRC,url:"https://www.barandbench.com/dealstreet/khaitan-co-advises-irfc-on-13527-crore-refinancing-of-hyderabad-metro-rail-project",blurb:"“Indian Railway Finance Corporation Limited has sanctioned a financial assistance of ₹13,527 crore to L&T Metro Rail (Hyderabad) Limited…” — confirms Khaitan as lender's counsel and the deal structure."},
+   {name:"Business Standard",url:"https://www.business-standard.com/markets/capital-market-news/irfc-signs-rs-13-527-cr-term-loan-agreement-with-l-t-metro-rail-hyderabad-126052500704_1.html",blurb:"Confirms the ₹13,527 cr term-loan agreement — a 20-year tenure with quarterly repayments, refinancing existing NCDs, CPs and term loans."},
+   {name:"Free Press Journal",url:"https://www.freepressjournal.in/business/irfc-signs-13527-crore-refinancing-deal-for-hyderabad-metro",blurb:"Adds the credit-enhancement structure: a Government of Telangana guarantee and an RBI-backed direct-debit mandate."}],
+  docs:[],
+  timeline:[{d:"28 May 2026",t:"₹13,527 cr financing sanctioned"}]},
 
- {id:"rbi-projfin", real:false, type:"bank", geo:"mumbai", sector:"BFSI", imp:"md", stage:"filed",
-  value:"—", parties:"Reserve Bank of India", time:"7 Jun 2026", ver:7,
-  headline:"RBI draft circular on project-finance provisioning — comment window open",
-  sum:"Revised expected-loss provisioning for under-construction projects. <b>Materially affects lending documentation & covenants</b> for infra/real-estate financings.",
-  detail:"Illustrative regulatory entry. Production deep-links to the RBI draft circular PDF and tracks the comment deadline.",
-  firms:[], sources:[{name:"RBI — Notifications", url:"https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx", blurb:"The RBI draft circular is the primary text governing the new provisioning norms. (Illustrative — production links to the specific notification.)"}],
-  docs:[{label:"RBI notifications & draft directions", url:"https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx"}], timeline:[{d:"7 Jun 2026",t:"Draft circular issued; comments invited"}]},
+ {id:"jsa-hdfc-indusinfra",type:"bank",geo:"mumbai",city:"Mumbai",sector:"Infrastructure",imp:"md",stage:"completed",value:"₹1,940 cr",parties:"HDFC Bank / Indus Infra Trust",time:"8 Jun 2026",
+  headline:"JSA advises HDFC Bank on ₹1,940 cr financing to Indus Infra Trust",
+  sum:"HDFC Bank sanctioned <b>₹1,940 cr</b> to Indus Infra Trust — the road InvIT backed by GR Infra — to refinance debt of newly acquired SPVs.",
+  detail:"HDFC Bank sanctioned ₹1,940 crore financing availed by Indus Infra Trust, the road InvIT platform backed by GR Infra. JSA Advocates & Solicitors advised HDFC Bank. The finances will be used, inter alia, to refinance existing debt of the new SPVs acquired by the Indus Infra Trust.",
+  firms:[{name:"JSA",side:"HDFC Bank (Lender)",lead:[{n:"Karan Mitroo",role:"Partner"}],team:["Pragya Verma (Senior Associate)","Jhalak Gupta","Harsh Dugar"]}],
+  sources:[{name:SRC,url:"https://www.barandbench.com/dealstreet/jsa-advises-hdfc-bank-on-sanctioning-1940-crores-to-indus-infra-trust",blurb:"“HDFC Bank Limited has sanctioned ₹1,940 crore financing availed by Indus Infra Trust, the road InvIT platform backed by GR Infra.” — confirms JSA's role and the Karan Mitroo team."}],
+  docs:[],
+  timeline:[{d:"8 Jun 2026",t:"₹1,940 cr financing sanctioned"}]},
 
- {id:"pharma-us", real:false, type:"ma", geo:"global", sector:"Pharma & Healthcare", imp:"hi", stage:"announced",
-  value:"$1.6 bn", parties:"Indian pharma acquirer / US seller", time:"7 Jun 2026", ver:6,
-  headline:"Indian pharma major signs definitive agreement for US specialty portfolio",
-  sum:"Cross-border carve-out of a US specialty/generics portfolio. <b>CFIUS & FTC HSR clearances</b> are the gating items; India-side FEMA/ODI structuring underway.",
-  detail:"Illustrative cross-border M&A entry. Production confirms India and US counsel and deep-links to the company's stock-exchange disclosure and press.",
-  firms:[{name:"Shardul Amarchand Mangaldas",side:"Acquirer (India counsel)",lead:[],team:[],note:"Team published on the announcement — wired in production."},
-   {name:"Cravath",side:"Acquirer (US counsel)",lead:[],team:[],note:"Team published on the announcement — wired in production."},
-   {name:"Latham & Watkins",side:"Seller",lead:[],team:[],note:"Team published on the announcement — wired in production."}],
-  sources:[{name:"Economic Times — Markets", url:"https://economictimes.indiatimes.com/markets", blurb:"Primary press report of the definitive agreement and deal value. (Illustrative — production links to the specific article.)"}],
-  docs:[{label:"BSE/NSE disclosure (acquirer)", url:"https://www.bseindia.com/corporates/ann.html"}], timeline:[{d:"7 Jun 2026",t:"Definitive agreement signed"},{d:"Pending",t:"CFIUS & HSR clearances"}]},
+ {id:"tata-freight-tiger",type:"ma",geo:"mumbai",city:"Mumbai",sector:"Technology",imp:"md",stage:"completed",value:"₹95.66 cr",parties:"Tata Motors / Freight Tiger",time:"1 Jun 2026",
+  headline:"TT&A, S&R, SAM and Agram act on Tata Motors taking control of Freight Tiger",
+  sum:"<b>Tata Motors</b> raised its stake in logistics-tech platform Freight Tiger to ~63% by buying out Lightspeed, Florintree and the founder for ₹95.66 cr.",
+  detail:"Tata Motors increased its stake in Freight Commerce Solutions (Freight Tiger) to ~63% by purchasing shares from three selling shareholders — Lightspeed India Partners, Florintree Infra and founder Swapnil Shah — for an aggregate ₹95.66 crore. TT&A advised Tata Motors; S&R Associates advised Freight Tiger and founder Swapnil Shah; SAM advised Lightspeed India Partners; Agram Legal Consultants advised Florintree Infra.",
+  firms:[
+   {name:"TT&A",side:"Tata Motors (Acquirer)",lead:[{n:"Sachin Mehta",role:"Partner"},{n:"Pooja Menon",role:"Partner"}],team:["Radhika Sarda (Senior Associate)","Eshani Agarwal","Ruchi Tripathi (Company Secretary)"]},
+   {name:"S&R Associates",side:"Freight Tiger & founder Swapnil Shah",lead:[{n:"Kinnari Sanghvi",role:"Partner"}],team:["Shreya Jaipuria (Senior Associate)","Sourav Kumar","Pradhumna Mohan Dixit"]},
+   {name:"Shardul Amarchand Mangaldas",side:"Lightspeed India Partners (Seller)",lead:[],team:[],note:"Acted for the selling shareholder Lightspeed; deal team per the announcement."},
+   {name:"Agram Legal Consultants",side:"Florintree Infra (Seller)",lead:[],team:[],note:"Acted for the selling shareholder Florintree Infra."}],
+  sources:[
+   {name:SRC,url:"https://www.barandbench.com/dealstreet/tta-sr-sam-agram-act-on-tata-motors-acquiring-controlling-stake-in-freight-tiger",blurb:"“Tata Motors Limited has increased its stake in Freight Commerce Solutions (Freight Tiger) to ~ 63%…for an aggregate amount of ₹95.66 crore.” — names all four advising firms and their respective sides."},
+   {name:"ScanX Market News",url:"https://scanx.trade/stock-market-news/companies/tata-motors-acquires-18-additional-stake-in-freight-tiger-for-95-66-crore-consolidates-majority-holding/40420541",blurb:"Confirms the ~18% additional stake for ₹95.66 cr taking Tata Motors to ~63.6% on a fully diluted basis — Freight Tiger becomes a subsidiary."},
+   {name:"Legal Era",url:"https://www.legaleraonline.com/deal-street/sandr-associates-tata-motors-18-percent-stake-freight-tiger-986436",blurb:"Independent legal-press confirmation of S&R Associates' role and the acquisition structure."}],
+  docs:[],
+  timeline:[{d:"1 Jun 2026",t:"Tata Motors crosses ~63% in Freight Tiger"}]},
 
- {id:"consumer-drhp", real:false, type:"ipo", geo:"bengaluru", sector:"Technology", imp:"hi", stage:"filed",
-  value:"₹6,500 cr", parties:"Consumer-tech issuer", time:"6 Jun 2026", ver:5,
-  headline:"Consumer-tech unicorn files DRHP for ₹6,500 cr IPO",
-  sum:"DRHP filed with SEBI — <b>fresh issue + OFS</b> mix; pre-IPO secondary completed last quarter. Anchor talks expected once SEBI observations issue.",
-  detail:"Illustrative ECM entry. Production deep-links to the DRHP on the SEBI site and confirms issuer and BRLM counsel.",
-  firms:[{name:"Cyril Amarchand Mangaldas",side:"Issuer",lead:[],team:[],note:"Team published on the DRHP — wired in production."},
-   {name:"Trilegal",side:"BRLMs",lead:[],team:[],note:"Team published on the DRHP — wired in production."},
-   {name:"Sidley Austin",side:"International counsel",lead:[],team:[],note:"Team published on the DRHP — wired in production."}],
-  sources:[{name:"SEBI — Public Issues (DRHP)", url:"https://www.sebi.gov.in/filings/public-issues.html", blurb:"The DRHP filed with SEBI is the primary document for issue structure and risk factors. (Illustrative — production links to the specific DRHP.)"}],
-  docs:[{label:"SEBI public-issue filings (DRHPs)", url:"https://www.sebi.gov.in/filings/public-issues.html"}], timeline:[{d:"6 Jun 2026",t:"DRHP filed with SEBI"}]},
+ {id:"paytm-elevation",type:"pe",geo:"mumbai",city:"Mumbai",sector:"Technology",imp:"md",stage:"completed",value:"₹963.6 cr",parties:"Elevation Capital / One97 (Paytm)",time:"29 May 2026",
+  headline:"CAM advises Elevation Capital on ₹963 cr Paytm share sale",
+  sum:"<b>Elevation Capital</b> sold One97 (Paytm) shares on the NSE/BSE for ₹963.6 cr — a notable early-investor monetisation.",
+  detail:"Elevation Capital V Limited sold equity shares of One97 Communications (parent of Paytm) on the NSE and BSE for aggregate consideration of ₹963.6 crore, undertaken on 22 May 2026. Cyril Amarchand Mangaldas advised Elevation Capital and its affiliates.",
+  firms:[{name:"Cyril Amarchand Mangaldas",side:"Elevation Capital (Seller)",lead:[{n:"Ravi Dubey",role:"Partner, Regional Co-Head – Capital Markets (West)"}],team:["Adwait Deshmukh (Senior Associate)","Khushi Parekh"]}],
+  sources:[{name:SRC,url:"https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-advises-elevation-capital-on-963-crore-paytm-share-sale",blurb:"“Elevation Capital V Limited has made a sale of equity shares of One97 Communications Limited (parent company of PayTM)…for an aggregate consideration of ₹963.6 crore.” — confirms CAM and the Ravi Dubey team."}],
+  docs:[{label:"BSE/NSE bulk-deal disclosures",url:"https://www.bseindia.com/markets/equity/EQReports/bulk_deals.aspx"}],
+  timeline:[{d:"22 May 2026",t:"Share sale executed on NSE/BSE"},{d:"29 May 2026",t:"Deal team confirmed"}]},
 
- {id:"sebi-rpt", real:false, type:"reg", geo:"delhi", sector:"BFSI", imp:"md", stage:"inforce",
-  value:"—", parties:"SEBI", time:"6 Jun 2026", ver:6,
-  headline:"SEBI tightens disclosure norms for related-party transactions",
-  sum:"Board-approval thresholds lowered, audit-committee oversight expanded. <b>Listed companies must refresh RPT policies & materiality thresholds</b> before the next AGM cycle.",
-  detail:"Illustrative regulatory entry. Production deep-links to the SEBI circular and tracks the compliance deadline.",
-  firms:[], sources:[{name:"SEBI — Legal/Circulars", url:"https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6&smid=0", blurb:"The SEBI circular is the primary text for the revised RPT thresholds. (Illustrative — production links to the specific circular.)"}],
-  docs:[{label:"SEBI circulars", url:"https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6&smid=0"}], timeline:[{d:"6 Jun 2026",t:"Circular in force"}]},
+ {id:"hcl-foxconn",type:"ma",geo:"delhi",city:"Delhi-NCR",sector:"Technology",imp:"hi",stage:"completed",value:"—",parties:"HCL Group (Vama Sundari) / Foxconn",time:"26 May 2026",
+  headline:"Khaitan advises HCL Group company on semiconductor JV with Foxconn",
+  sum:"HCL's Vama Sundari and <b>Foxconn</b> formed a JV to set up an outsourced semiconductor assembly & test (OSAT) factory in India — a strategic chip-manufacturing play.",
+  detail:"Vama Sundari Investments (Delhi), an HCL Group investment company, formed a joint venture with Foxconn Hon Hai Technology India Mega Development to establish and operate an outsourced semiconductor assembly and test (OSAT) factory in India — the JV is named India Chip Private Limited. The ₹3,706 crore plant, approved under the India Semiconductor Mission, will sit in the YEIDA region near Jewar, Uttar Pradesh, producing ~20,000 wafers/month of display-driver chips; Foxconn holds ~40%. Khaitan & Co advised Vama Sundari on the JV and technology-licence agreements, with IP and competition-law support.",
+  firms:[{name:"Khaitan & Co",side:"Vama Sundari / HCL Group",lead:[{n:"Bharat Anand",role:"Senior Partner"},{n:"Tanvi Kumar",role:"Partner"},{n:"Nimisha Trehan",role:"Partner"},{n:"Nirupam Lodha",role:"Partner (IP)"},{n:"Pranjal Prateek",role:"Partner (Competition)"}],team:["Aayush Thapar (Principal Associate)","Malika Nandkeolyar (IP)","Toshani Mukherjee (IP)","Armaan Gupta (Competition)"]}],
+  sources:[
+   {name:SRC,url:"https://www.barandbench.com/dealstreet/khaitan-co-advises-hcl-group-company-on-semiconductor-jv-with-foxconn",blurb:"“Vama Sundari Investments (an investment company of the HCL Group) has formed a joint venture with Foxconn…for establishment and operation of an outsourced semiconductor assembly and test factory in India.” — lists the Khaitan core, IP and competition teams."},
+   {name:"HCL Group (official)",url:"https://hcl.com/media_management/hcl-group-and-hon-hai-technology-group-foxconn-join-hands-to-set-up-semiconductor-manufacturing-unit-in-uttar-pradesh/",blurb:"HCL's own announcement: a ₹3,706 cr OSAT plant at the YEIDA region (near Jewar, UP), ~20,000 wafers/month, making display-driver chips."},
+   {name:"DataCenterDynamics",url:"https://www.datacenterdynamics.com/en/news/foxconn-launches-joint-venture-with-hcl-group-for-osat-facility-in-india/",blurb:"Confirms the JV is named India Chip Private Limited, with Foxconn taking a 40% stake (≈₹312 cr)."}],
+  docs:[],
+  timeline:[{d:"26 May 2026",t:"JV and technology-licence agreements finalised"}]},
 
- {id:"qsr-buyout", real:false, type:"pe", geo:"mumbai", sector:"Consumer & Retail", imp:"lo", stage:"announced",
-  value:"₹2,200 cr", parties:"PE fund / QSR target", time:"6 Jun 2026", ver:3,
-  headline:"Buyout fund acquires controlling stake in regional QSR chain",
-  sum:"Control transaction with management rollover. <b>Leveraged structure</b> with acquisition financing from two domestic lenders; W&I insurance placed.",
-  detail:"Illustrative PE entry. Production confirms fund and promoter counsel and deep-links to the announcement.",
-  firms:[{name:"AZB & Partners",side:"PE fund",lead:[],team:[],note:"Team published on the announcement — wired in production."},
-   {name:"Khaitan & Co",side:"Promoters",lead:[],team:[],note:"Team published on the announcement — wired in production."}],
-  sources:[{name:"Mint — Companies", url:"https://www.livemint.com/companies", blurb:"Primary report of the control transaction and financing. (Illustrative — production links to the specific article.)"}],
-  docs:[], timeline:[{d:"6 Jun 2026",t:"Transaction announced"}]},
+ {id:"pepsico-varun",type:"ma",geo:"delhi",city:"Delhi-NCR",sector:"FMCG",imp:"md",stage:"completed",value:"—",parties:"PepsiCo India / Varun Beverages",time:"4 Jun 2026",
+  headline:"JSA advises PepsiCo on exclusive bottling arrangement with Varun Beverages",
+  sum:"PepsiCo extended Varun Beverages' exclusive bottling and trademark licence in India <b>to 2049</b>, and removed the exclusivity restriction on Varun.",
+  detail:"PepsiCo India Holdings executed a revised Exclusive Bottling Appointment and Trademark Licence Agreement with Varun Beverages. JSA advised PepsiCo. The bottling rights and licence to use PepsiCo's trademarks for a substantial part of India were extended by 10 years to 30 April 2049, and the restriction requiring Varun to operate solely for PepsiCo's business was removed. Varun Beverages is PepsiCo's anchor bottler in India.",
+  firms:[{name:"JSA",side:"PepsiCo India",lead:[{n:"Kartik Jain",role:"Partner"}],team:["Dushyant Thakur (Senior Associate)","Anmol Mahajan"]}],
+  sources:[{name:SRC,url:"https://www.barandbench.com/dealstreet/jsa-advises-pepsico-on-exclusive-bottling-arrangement-in-india-with-varun-beverages",blurb:"“PepsiCo India Holdings…has executed a revised Exclusive Bottling Appointment and Trademark Licence Agreement with Varun Beverages…extended…till April 30, 2049.” — confirms JSA's role and the Kartik Jain team."}],
+  docs:[],
+  timeline:[{d:"4 Jun 2026",t:"Revised bottling & trademark agreement executed"}]},
 
- {id:"inbound-auto", real:false, type:"ma", geo:"global", sector:"Industrials", imp:"md", stage:"rumoured",
-  value:"$430 mn", parties:"Global PE / auto-components target", time:"5 Jun 2026", ver:4,
-  headline:"Inbound: global PE platform in talks to acquire Indian auto-components maker",
-  sum:"Inbound control deal would trigger <b>Press Note 3 (land-border) scrutiny</b> and CCI notification. Sector caps and beneficial-ownership disclosures are the pinch-points.",
-  detail:"Illustrative rumoured inbound deal — shows how the tracker flags deals at the negotiation stage with a 'Rumoured' marker before they are confirmed.",
-  firms:[{name:"Trilegal",side:"Acquirer",lead:[],team:[],note:"Team to be confirmed on announcement — wired in production."},
-   {name:"JSA",side:"Target / promoters",lead:[],team:[],note:"Team to be confirmed on announcement — wired in production."}],
-  sources:[{name:"Economic Times", url:"https://economictimes.indiatimes.com", blurb:"Early-stage press report citing sources on the negotiation. (Illustrative — production links to the specific article and labels confidence accordingly.)"}],
-  docs:[], timeline:[{d:"5 Jun 2026",t:"Talks reported (unconfirmed)"}]},
+ {id:"coforge-cigniti",type:"ma",geo:"delhi",city:"Noida / NCLT Chandigarh",sector:"Technology",imp:"md",stage:"completed",value:"—",parties:"Coforge / Cigniti Technologies",time:"6 Jun 2026",
+  headline:"JSA leads Coforge to close Cigniti acquisition",
+  sum:"<b>Coforge</b> completed its acquisition of Cigniti via a scheme — JSA secured shareholder, creditor and NCLT Chandigarh approvals.",
+  detail:"JSA advised and represented Cigniti Technologies (Transferor) and Coforge (Transferee) in closing Coforge's acquisition of Cigniti, securing shareholder and creditor consent and final approval from the NCLT, Chandigarh (sanctioned 29 April 2026; merger effective 5 May 2026; appointed date 1 April 2025). The scheme used a 1:1 share-exchange ratio and was approved by 99.95% of Cigniti shareholders, creating a ~$2.5 billion AI-native engineering services entity. Coforge is an Indian multinational IT services company.",
+  firms:[{name:"JSA",side:"Coforge & Cigniti",lead:[{n:"Anand Lakra",role:"Partner (Corporate)"},{n:"Sidharth Sethi",role:"Partner (Disputes)"},{n:"Shreya Sircar",role:"Partner (Disputes)"}],team:["Ami Shah (Principal Associate)","Rishabh Sharma (Senior Associate)","Deepank Anand (Senior Associate)","Riya Singh"]}],
+  sources:[
+   {name:SRC,url:"https://www.barandbench.com/dealstreet/jsa-leads-coforge-to-close-cigniti-acquisition",blurb:"“JSA…advised and represented Cigniti Technologies Limited (Transferor Company) and Coforge Limited (Transferee Company) in achieving successful closure of Coforge's acquisition of Cigniti.” — names the JSA corporate and disputes teams."},
+   {name:"Coforge (official)",url:"https://news.coforge.com/newsroom/press-release/coforge-successfully-closes-cigniti-acquisition",blurb:"Coforge's own confirmation of closing; the merger became effective 5 May 2026."},
+   {name:"ScanX Market News",url:"https://scanx.trade/stock-market-news/companies/nclt-approves-coforge-cigniti-technologies-merger-creating-2-50-billion-ai-native-engineering-services-leader/39132207",blurb:"Adds the structure: NCLT Chandigarh sanction (29 Apr 2026), 1:1 share exchange, creating a ~$2.5 bn AI-native engineering services entity."}],
+  docs:[{label:"NCLT / MCA filings (scheme of arrangement)",url:"https://www.mca.gov.in"}],
+  timeline:[{d:"6 Jun 2026",t:"Acquisition closed after NCLT Chandigarh approval"}]},
 
- {id:"saas-tm", real:false, type:"lit", geo:"delhi", sector:"Technology", imp:"lo", stage:"ruling",
-  value:"—", parties:"SaaS Co A v. SaaS Co B", time:"5 Jun 2026", ver:2,
-  headline:"Delhi HC grants interim relief in trademark dispute between SaaS rivals",
-  sum:"Interim injunction restraining use of a deceptively similar mark. <b>Useful precedent</b> for brand-protection strategy in crowded SaaS naming space.",
-  detail:"Illustrative IP disputes entry. Production deep-links to the order on the Delhi HC site / LiveLaw and confirms the appearances.",
-  firms:[{name:"Saikrishna & Associates",side:"Plaintiff",lead:[],team:[],note:"Appearances published in the order — wired in production."},
-   {name:"Anand and Anand",side:"Defendant",lead:[],team:[],note:"Appearances published in the order — wired in production."}],
-  sources:[{name:"LiveLaw", url:"https://www.livelaw.in", blurb:"Report of the interim injunction and reasoning. (Illustrative — production links to the specific article.)"}],
-  docs:[], timeline:[{d:"5 Jun 2026",t:"Interim injunction granted"}]},
+ {id:"embio-truenorth",type:"pe",geo:"mumbai",city:"Mumbai",sector:"Pharma & Healthcare",imp:"md",stage:"completed",value:"Minority stake",parties:"Embio / True North",time:"4 Jun 2026",
+  headline:"Khaitan and CAM act on Embio securing investment from True North",
+  sum:"PE firm <b>True North</b> took a minority stake in API maker Embio — Khaitan for the company, CAM for the investor, across a full multi-practice diligence.",
+  detail:"Embio Limited secured an investment from True North, which acquired a minority stake. Khaitan & Co advised Embio across corporate, IP, employment, real estate and litigation due diligence; Cyril Amarchand Mangaldas advised True North across corporate, pharma/healthcare, IP, employment, CCI and real-estate workstreams. Embio manufactures complex high-value APIs and advanced intermediates.",
+  firms:[
+   {name:"Khaitan & Co",side:"Embio (Company)",lead:[{n:"Bhavik Narsana",role:"Partner (lead)"},{n:"Shailendra Bhandare",role:"Partner (IP)"},{n:"Raj R. Panchmatia",role:"Partner (Litigation)"},{n:"Amit Wadhwani",role:"Partner (Real Estate)"}],team:["Ipshita Dey (Senior Associate)","Kamayani Mittal","Pragya Mishra","Deepak Kumar (Partner, Employment)","Peshwan Jehangir (Partner)","Divya Chaturvedi (Partner)"]},
+   {name:"Cyril Amarchand Mangaldas",side:"True North (Investor)",lead:[{n:"Aditi Manchanda",role:"Partner"},{n:"Abhishek Kalra",role:"Partner"},{n:"Biplab Lenin",role:"Partner (Pharma/Healthcare)"},{n:"Arya Tripathy",role:"Partner (IP/IT/Data)"},{n:"Dhruv Rajain",role:"Partner (CCI)"}],team:["Naimi Kamdar (Principal Associate)","Chandni Ochani (Principal Associate)","Rajat Pareek","Kaushik Raichura (Senior Associate)","Sowmya Kumar (Partner, Employment)","Siddharth Singh (Partner, Real Estate)"]}],
+  sources:[{name:SRC,url:"https://www.barandbench.com/dealstreet/khaitan-co-advises-embio-on-securing-investment-from-true-north",blurb:"“Embio Limited has secured an investment from True North, pursuant to which the investor has acquired a minority stake in the company.” — details the full Khaitan and CAM multi-practice teams."}],
+  docs:[],
+  timeline:[{d:"4 Jun 2026",t:"True North acquires minority stake in Embio"}]},
 
- {id:"nbfc-ipo", real:false, type:"ipo", geo:"mumbai", sector:"BFSI", imp:"md", stage:"filed",
-  value:"₹3,000 cr", parties:"NBFC issuer", time:"4 Jun 2026", ver:5,
-  headline:"NBFC sets price band for ₹3,000 cr IPO; anchor book opens",
-  sum:"Price band announced; <b>anchor allocation</b> to a mix of domestic MFs and FPIs. Listing expected within the fortnight — a read on primary-market depth for financials.",
-  detail:"Illustrative ECM entry. Production deep-links to the BSE filing and RHP, and confirms issuer/BRLM counsel.",
-  firms:[{name:"Khaitan & Co",side:"Issuer",lead:[],team:[],note:"Team published on the RHP — wired in production."},
-   {name:"Cyril Amarchand Mangaldas",side:"BRLMs",lead:[],team:[],note:"Team published on the RHP — wired in production."}],
-  sources:[{name:"BSE — Announcements", url:"https://www.bseindia.com/corporates/ann.html", blurb:"BSE filing is the primary record of the price band and anchor allocation. (Illustrative — production links to the specific filing.)"}],
-  docs:[{label:"BSE corporate announcements", url:"https://www.bseindia.com/corporates/ann.html"}], timeline:[{d:"4 Jun 2026",t:"Price band set; anchor book opens"}]},
+ {id:"anveshan-seriesb",type:"pe",geo:"delhi",city:"Delhi-NCR",sector:"Consumer & Retail",imp:"lo",stage:"announced",value:"₹150 cr",parties:"Anveshan / Vertex Ventures, IFC",time:"6 Jun 2026",
+  headline:"CMS INDUSLAW advises Anveshan on ₹150 cr Series B",
+  sum:"D2C foods brand <b>Anveshan</b> raised ₹150 cr Series B led by Vertex Ventures and IFC, with Swiggy co-founder Sriharsha Majety participating.",
+  detail:"Anveshan Farm Technologies raised ₹150 crore in a Series B led by Vertex Ventures and IFC Co-Invest, with participation from Swiggy co-founder Sriharsha Majety and existing investors. CMS INDUSLAW advised Anveshan, with tax support. Anveshan makes clean, traceable foods including A2 ghee, cold-pressed oils and honey.",
+  firms:[{name:"CMS INDUSLAW",side:"Anveshan (Company)",lead:[{n:"Aakash Dasgupta",role:"Partner"},{n:"Lokesh Shah",role:"Partner (Tax)"}],team:["Tushar Gogoi (Principal Associate)","Aditya Kumar (Principal Associate)","Shubham S Agrawal","Saumya Joshi","Aarya Jha (Tax)"]}],
+  sources:[{name:SRC,url:"https://www.barandbench.com/dealstreet/cms-induslaw-advises-anveshan-on-150-crore-series-b-fundraise",blurb:"“Anveshan Farm Technologies…has raised ₹150 crore from a Series B…led by Vertex Ventures and IFC Co-Invest, with participation from Swiggy co-founder Sriharsha Majety…” — confirms the CMS INDUSLAW team."}],
+  docs:[],
+  timeline:[{d:"6 Jun 2026",t:"₹150 cr Series B announced"}]},
 
- {id:"dpdp-rules", real:false, type:"reg", geo:"global", sector:"Technology", imp:"md", stage:"inforce",
-  value:"—", parties:"MeitY", time:"4 Jun 2026", ver:7,
-  headline:"DPDP Rules notified — phased compliance timelines confirmed",
-  sum:"DPDP Rules operationalise consent-manager registration and breach-notification windows. <b>Data-processing agreements & cross-border transfer clauses</b> need a refresh across portfolios.",
-  detail:"Illustrative regulatory entry of broad relevance. Production deep-links to the notification on the MeitY/PIB site.",
-  firms:[], sources:[{name:"PIB / MeitY", url:"https://www.meity.gov.in", blurb:"The notified DPDP Rules are the primary text for compliance timelines. (Illustrative — production links to the specific notification.)"}],
-  docs:[{label:"MeitY notifications", url:"https://www.meity.gov.in"}], timeline:[{d:"4 Jun 2026",t:"Rules notified; phased timelines confirmed"}]}
+ {id:"hfcl-pref",type:"ipo",geo:"delhi",city:"Delhi-NCR (Gurugram)",sector:"Telecom",imp:"lo",stage:"completed",value:"₹555 cr",parties:"HFCL",time:"8 Jun 2026",
+  headline:"Khaitan acts on HFCL ₹555 cr preferential issue of warrants",
+  sum:"<b>HFCL</b> is issuing 7.5 cr warrants worth ₹555 cr to its promoter group — a preferential capital raise.",
+  detail:"HFCL Limited is making a preferential issue of 7,50,00,000 warrants aggregating to ₹555 crore to the Promoter and Promoter Group. Khaitan & Co advised HFCL. HFCL is a technology company specialising in telecom equipment, fibre-optic cables and defence solutions.",
+  firms:[{name:"Khaitan & Co",side:"HFCL (Issuer)",lead:[{n:"Sudhir Bassi",role:"Executive Director"},{n:"Vaibhav Mittal",role:"Partner"}],team:[]}],
+  sources:[{name:SRC,url:"https://www.barandbench.com/dealstreet/khaitan-co-acts-on-hfcl-555-crore-preferential-issue",blurb:"“HFCL Limited is set to make a preferential issue of 7,50,00,000 warrants aggregating to ₹555 crore to the Promoter and Promoter Group.” — confirms Khaitan and the Bassi/Mittal team."}],
+  docs:[{label:"BSE corporate announcements (preferential issue)",url:"https://www.bseindia.com/corporates/ann.html"}],
+  timeline:[{d:"8 Jun 2026",t:"₹555 cr preferential warrant issue"}]},
+
+ {id:"hfcl-qip",type:"ipo",geo:"delhi",city:"Delhi-NCR (Gurugram)",sector:"Telecom",imp:"lo",stage:"completed",value:"₹550 cr",parties:"HFCL",time:"12 Jan 2026",
+  headline:"Khaitan acts on HFCL ₹550 cr QIP",
+  sum:"<b>HFCL</b> raised ₹550 cr via QIP earlier in the year — Khaitan advised the issuer.",
+  detail:"Himachal Futuristic Communications Limited made a Qualified Institutional Placement aggregating to ₹550 crore. Khaitan & Co advised HFCL. HFCL designs and manufactures telecom equipment and fibre-optic cables.",
+  firms:[{name:"Khaitan & Co",side:"HFCL (Issuer)",lead:[{n:"Madhur Kohli",role:"Partner"},{n:"Vaibhav Mittal",role:"Partner"}],team:["Avantika Tanwar","Mythri Murali","Reshmi Prabhakar"]}],
+  sources:[{name:SRC,url:"https://www.barandbench.com/dealstreet/khaitan-co-acts-on-hfcl-550-crore-qip",blurb:"“Himachal Futuristic Communications Limited has made a Qualified Institutional Placement aggregating to ₹550 crore.” — confirms Khaitan and the Kohli/Mittal team."}],
+  docs:[{label:"BSE corporate announcements (QIP)",url:"https://www.bseindia.com/corporates/ann.html"}],
+  timeline:[{d:"12 Jan 2026",t:"₹550 cr QIP completed"}]},
+
+ {id:"pagani-residency",type:"pe",geo:"global",city:"Cross-border (India–Portugal)",sector:"Financial Services",imp:"lo",stage:"completed",value:"$35 mn",parties:"Pagani Capital Holding",time:"8 Jun 2026",
+  headline:"Vidhiśāstras acts for Pagani Capital on $35 mn India-focused residency investment programme",
+  sum:"<b>Vidhiśāstras</b> structured a $35 mn India/Middle-East residency investment programme giving Indian investors access to Portugal projects.",
+  detail:"Vidhiśāstras – Advocates & Solicitors advised Pagani Capital Holding on the structuring, regulatory framework and promotion of a $35 million India and Middle-East focused residency investment programme, facilitating foreign capital participation in qualifying projects. The mandate covered foreign-investment considerations, corporate structuring, compliance, investor onboarding, transaction documentation and cross-border legal due diligence.",
+  firms:[{name:"Vidhiśāstras",side:"Pagani Capital Holding",lead:[],team:[],note:"Firm-led mandate; individual team members not named in the announcement."}],
+  sources:[{name:SRC,url:"https://www.barandbench.com/dealstreet/vidhistras-acts-for-pagani-capital-on-35-million-india-focused-residency-investment-programme",blurb:"“Vidhiśāstras – Advocates & Solicitors has advised Pagani Capital Holding…[on] a $35 million India and middle-east focused residency investment programme…” — describes the structuring and cross-border scope."}],
+  docs:[],
+  timeline:[{d:"8 Jun 2026",t:"$35 mn residency investment programme structured"}]}
 ];
+/* DEALS-END */
 
 /* ============================ STATE ============================ */
 let route={name:"feed"};
 let F={geo:"all",type:null,sector:"All Sectors",q:"",firm:"",firm2:"",city:"",stage:""};
 let starred=new Set();
-
-/* ============================ HELPERS ============================ */
 const $=id=>document.getElementById(id);
 function dealFirms(d){return d.firms.map(f=>f.name);}
 function go(r){route=r;window.scrollTo(0,0);render();}
 function resetFilters(){F={geo:"all",type:null,sector:"All Sectors",q:"",firm:"",firm2:"",city:"",stage:""};$("q").value="";}
+function anyFilterActive(){return F.geo!=="all"||F.type||F.sector!=="All Sectors"||F.q||F.firm||F.firm2||F.city||F.stage;}
 function matchesFilters(d){
   if(F.geo!=="all"&&d.geo!==F.geo)return false;
   if(F.type&&d.type!==F.type)return false;
@@ -521,13 +522,10 @@ function matchesFilters(d){
   if(F.stage&&d.stage!==F.stage)return false;
   if(F.firm&&!dealFirms(d).includes(F.firm))return false;
   if(F.firm2&&!dealFirms(d).includes(F.firm2))return false;
-  if(F.q){
-    const hay=(d.headline+d.sum+d.detail+d.parties+d.sector+d.firms.map(f=>f.name+" "+(f.lead||[]).map(l=>l.n).join(" ")+" "+(f.team||[]).join(" ")).join(" ")).toLowerCase();
-    if(!hay.includes(F.q.toLowerCase()))return false;
-  }
+  if(F.q){const hay=(d.headline+d.sum+d.detail+d.parties+d.sector+d.firms.map(f=>f.name+" "+(f.lead||[]).map(l=>l.n).join(" ")+" "+(f.team||[]).join(" ")).join(" ")).toLowerCase();
+    if(!hay.includes(F.q.toLowerCase()))return false;}
   return true;
 }
-function anyFilterActive(){return F.geo!=="all"||F.type||F.sector!=="All Sectors"||F.q||F.firm||F.firm2||F.city||F.stage;}
 
 /* ============================ SIDEBAR ============================ */
 function buildSidebar(){
@@ -536,7 +534,7 @@ function buildSidebar(){
   $("geoNav").innerHTML=GEOS.map(g=>{const ct=g.id==="all"?DEALS.length:DEALS.filter(d=>d.geo===g.id).length;
     return `<div class="ni" data-geo="${g.id}"><span class="dot" style="background:${g.dot}"></span>${g.label}<span class="ct">${ct}</span></div>`}).join("");
   $("typeNav").innerHTML=Object.entries(TYPES).map(([k,v])=>{const ct=DEALS.filter(d=>d.type===k).length;
-    return `<div class="ni" data-type="${k}"><span class="dot" style="background:${v.c}"></span>${v.label}<span class="ct">${ct}</span></div>`}).join("");
+    return ct?`<div class="ni" data-type="${k}"><span class="dot" style="background:${v.c}"></span>${v.label}<span class="ct">${ct}</span></div>`:""}).join("");
   $("browseNav").querySelectorAll("[data-browse]").forEach(n=>n.onclick=()=>{const k=n.dataset.browse;
     if(k==="feed"){resetFilters();go({name:"feed"});}else if(k==="firms")go({name:"firms"});else go({name:"watch"});});
   $("geoNav").querySelectorAll("[data-geo]").forEach(n=>n.onclick=()=>{F.geo=n.dataset.geo;F.firm="";F.firm2="";go({name:"feed"});});
@@ -551,10 +549,8 @@ function markSidebar(){
   else if(route.name==="watch")$("browseNav").querySelector('[data-browse="watch"]')?.classList.add("active");
 }
 
-/* ============================ RENDERERS ============================ */
+/* ============================ CARDS / FEED ============================ */
 function typeBadge(d){const t=TYPES[d.type];return `<span class="ttype ${t.cls}">${t.label}</span>`;}
-function verBadge(d){return d.ver>=5?`<span class="ver" title="Corroborated across ${d.ver} independent sources">✓ ${d.ver} sources</span>`:`<span class="ver thin">${d.ver} source${d.ver>1?'s':''}</span>`;}
-
 function dealCard(d){
   const t=TYPES[d.type], st=STAGES[d.stage], g=CITYLABEL[d.geo];
   const firms=d.firms.length?`<div class="firms"><b>Counsel:</b> ${d.firms.map(f=>`<span class="fm">${f.name}</span> <span class="side">(${f.side})</span>`).join(" · ")}</div>`:"";
@@ -563,8 +559,7 @@ function dealCard(d){
     <div class="r1">${typeBadge(d)}
       <span class="stage"><span class="sd" style="background:${st.c}"></span>${st.l}</span>
       ${d.imp==="hi"?'<span class="priority">● PRIORITY</span>':""}
-      ${d.real?'<span class="real">✓ VERIFIED</span>':'<span class="illus">SAMPLE</span>'}
-      ${verBadge(d)}
+      <span class="real">✓ ${d.sources.length>1?d.sources.length+" SOURCES":"VERIFIED"}</span>
       <button class="star ${starred.has(d.id)?'on':''}" data-star="${d.id}">${starred.has(d.id)?'★':'☆'}</button>
     </div>
     <h3>${d.headline}</h3>
@@ -576,18 +571,17 @@ function dealCard(d){
       <span class="stime">${d.time}</span><span class="go">View deal →</span></div>
   </div>`;
 }
-
 function renderFeed(title,list,sub){
   const clear=anyFilterActive()&&route.name==="feed"?`<span class="clearf" id="clearF">✕ Clear filters</span>`:"";
-  let chips=route.name==="feed"?`<div class="fb" id="sectorBar">${SECTORS.map(s=>`<span class="chip ${s===F.sector?'on':''}" data-sec="${s}">${s}</span>`).join("")}</div>`:"";
+  const chips=route.name==="feed"?`<div class="fb" id="sectorBar">${SECTORS.map(s=>`<span class="chip ${s===F.sector?'on':''}" data-sec="${s}">${s}</span>`).join("")}</div>`:"";
   const body=list.length?`<div class="feed">${list.map(dealCard).join("")}</div>`:`<div class="empty">No matching developments. Clear the search or pick another filter.</div>`;
   $("main").innerHTML=`
-    <div class="demo">⚙️ <span><b>Prototype.</b> <span class="real" style="vertical-align:middle">✓ VERIFIED</span> cards are real, deep-linked items from Bar &amp; Bench (8 Jun 2026). <b>SAMPLE</b> cards show the structure; live data fills them in production.</span></div>
+    <div class="demo">✅ <span><b>Live snapshot · ${DEALS.length} verified developments</b> sourced from Bar &amp; Bench Dealstreet &amp; primary filings (to 8 Jun 2026). Every card carries the firms, partners and source link. Auto-refreshes nightly once the live pipeline is switched on.</span></div>
     ${route.name==="feed"?`<div class="stats" id="stats"></div>`:""}
     ${chips}
     <div class="vh"><h2>${title}</h2><span class="sub">${sub||(list.length+(list.length===1?" item":" items"))}</span>${clear}</div>
     ${body}
-    <div class="foot">Corporate Law Tracker prototype · Headlines &amp; snippets under fair-use linking · Open the primary source &amp; filings before advising.</div>`;
+    <div class="foot">Corporate Law Tracker · Verified deal intelligence for corporate-law professionals.<br>Headlines &amp; snippets shown under fair-use linking — open the primary source &amp; filings before advising.</div>`;
   if(route.name==="feed")buildStats();
   bindCards();
   if(route.name==="feed"){
@@ -596,43 +590,36 @@ function renderFeed(title,list,sub){
   }
 }
 
+/* ============================ FIRMS ============================ */
+function cntFirm(n){return DEALS.filter(d=>dealFirms(d).includes(n)).length;}
+function collectPartners(name){const set=new Map();
+  DEALS.forEach(d=>d.firms.filter(f=>f.name===name).forEach(f=>(f.lead||[]).forEach(l=>set.set(l.n,l.role))));
+  return [...set.entries()].map(([n,role])=>({n,role}));}
 function renderFirms(){
-  const names=Object.keys(FIRMS).filter(n=>DEALS.some(d=>dealFirms(d).includes(n)))
-    .sort((a,b)=>cnt(b)-cnt(a));
-  function cnt(n){return DEALS.filter(d=>dealFirms(d).includes(n)).length;}
-  const cards=names.map(n=>{const f=FIRMS[n];const c=cnt(n);
-    const partners=collectPartners(n).length;
+  const names=Object.keys(FIRMS).filter(n=>cntFirm(n)>0).sort((a,b)=>cntFirm(b)-cntFirm(a));
+  const cards=names.map(n=>{const f=FIRMS[n];
     return `<div class="fcard" data-firm="${encodeURIComponent(n)}">
-      <div class="fnm">${n}</div>
-      <div class="fmeta">${f.city} · ${f.type}</div>
+      <div class="fnm">${n}</div><div class="fmeta">${f.city} · ${f.type}</div>
       <div class="ffocus">${f.focus}</div>
-      <div class="fstat"><div><b>${c}</b><span>deals tracked</span></div><div><b>${partners}</b><span>partners seen</span></div></div>
+      <div class="fstat"><div><b>${cntFirm(n)}</b><span>deals tracked</span></div><div><b>${collectPartners(n).length}</b><span>partners seen</span></div></div>
     </div>`}).join("");
   $("main").innerHTML=`
-    <div class="demo">⚖️ <span><b>Firms Directory.</b> Click a firm to see only its deals, the partners and teams involved, and links out to each matter.</span></div>
+    <div class="demo">⚖️ <span><b>Firms Directory.</b> Click a firm to see only its deals, the partners and teams on each matter, and links to the source.</span></div>
     <div class="vh"><h2>Firms Directory</h2><span class="sub">${names.length} firms tracked</span></div>
-    <div class="firmgrid">${cards}</div>
-    <div class="foot">Firm profiles are factual descriptions; deal-level teams are sourced per matter.</div>`;
+    <div class="firmgrid">${cards}</div>`;
   $("main").querySelectorAll("[data-firm]").forEach(c=>c.onclick=()=>go({name:"firm",id:decodeURIComponent(c.dataset.firm)}));
-}
-
-function collectPartners(name){
-  const set=new Map();
-  DEALS.forEach(d=>d.firms.filter(f=>f.name===name).forEach(f=>(f.lead||[]).forEach(l=>set.set(l.n,l.role))));
-  return [...set.entries()].map(([n,role])=>({n,role}));
 }
 function renderFirm(name){
   const f=FIRMS[name]; if(!f){go({name:"firms"});return;}
   const list=DEALS.filter(d=>dealFirms(d).includes(name));
   const partners=collectPartners(name);
-  const pchips=partners.length?`<div class="pchips">${partners.map(p=>`<span class="pchip">${p.n}${p.role?` <span class="pr">· ${p.role}</span>`:""}</span>`).join("")}</div>`:`<div class="note" style="margin-top:10px">Named partners populate from deal announcements as the live feed runs.</div>`;
+  const pchips=partners.length?`<div class="pchips">${partners.map(p=>`<span class="pchip">${p.n}${p.role?` <span class="pr">· ${p.role}</span>`:""}</span>`).join("")}</div>`:`<div class="note" style="margin-top:8px">Individual partners are listed as deal announcements name them.</div>`;
+  const web=f.web?`<a class="fweb" href="${f.web}" target="_blank" rel="noopener">Visit firm website ↗</a>`:"";
   $("main").innerHTML=`
     <span class="back" onclick="go({name:'firms'})">← Firms Directory</span>
     <div class="firmhero">
-      <h1>${name}</h1>
-      <div class="fmeta">${f.city} · ${f.type} firm</div>
-      <div class="ffocus">${f.focus}</div>
-      <a class="fweb" href="${f.web}" target="_blank" rel="noopener">Visit firm website ↗</a>
+      <h1>${name}</h1><div class="fmeta">${f.city} · ${f.type} firm</div>
+      <div class="ffocus">${f.focus}</div>${web}
       <div style="margin-top:16px"><h4 style="font-size:10.5px;letter-spacing:1.3px;text-transform:uppercase;color:var(--ink3);font-weight:750;margin-bottom:4px">Partners seen on tracked deals</h4>${pchips}</div>
     </div>
     <div class="vh"><h2>Deals · ${name}</h2><span class="sub">${list.length} tracked</span></div>
@@ -640,30 +627,29 @@ function renderFirm(name){
   bindCards();
 }
 
+/* ============================ DEAL DETAIL ============================ */
 function renderDeal(id){
   const d=DEALS.find(x=>x.id===id); if(!d){go({name:"feed"});return;}
   const t=TYPES[d.type], st=STAGES[d.stage];
-  const firmsHtml=d.firms.length?d.firms.map(f=>{
+  const firmsHtml=d.firms.map(f=>{
     const lead=(f.lead&&f.lead.length)?f.lead.map(l=>`<div class="lead"><b>${l.n}</b> <span class="role">— ${l.role}</span></div>`).join(""):"";
     const team=(f.team&&f.team.length)?`<div class="teamline"><span class="lbl">Team:</span> ${f.team.join(" · ")}</div>`:"";
     const note=f.note?`<div class="note" style="margin-top:5px">${f.note}</div>`:"";
-    return `<div class="firmblk"><div class="fh"><span class="fn" onclick="go({name:'firm',id:'${f.name.replace(/'/g,"\\'")}'})">${f.name}</span><span class="sidetag">${f.side}</span></div>${lead}${team}${note}</div>`;
-  }).join(""):`<div class="note">No counsel recorded for this item.</div>`;
-
+    const fn=firmKnown(f.name)?`<span class="fn link" onclick="go({name:'firm',id:'${f.name.replace(/'/g,"\\'")}'})">${f.name}</span>`:`<span class="fn">${f.name}</span>`;
+    return `<div class="firmblk"><div class="fh">${fn}<span class="sidetag">${f.side}</span></div>${lead}${team}${note}</div>`;
+  }).join("");
   const srcHtml=d.sources.map(s=>`<div class="srcitem"><div class="st"><span class="snm">${s.name}</span><a class="sgo" href="${s.url}" target="_blank" rel="noopener">Open article ↗</a></div><div class="sblurb">${s.blurb}</div></div>`).join("");
-  const docsHtml=d.docs&&d.docs.length?d.docs.map(dc=>`<div class="doc" onclick="window.open('${dc.url}','_blank','noopener')"><span class="di">📄</span>${dc.label}<span style="margin-left:auto;color:var(--ink3)">↗</span></div>`).join(""):`<div class="note">No public documents linked yet.</div>`;
+  const docsHtml=d.docs&&d.docs.length?d.docs.map(dc=>`<div class="doc" onclick="window.open('${dc.url}','_blank','noopener')"><span class="di">📄</span>${dc.label}<span style="margin-left:auto;color:var(--ink3)">↗</span></div>`).join(""):`<div class="note">Primary filings link out via the source article above.</div>`;
   const tl=d.timeline&&d.timeline.length?`<div class="sec"><h4>Timeline</h4><div class="tl">${d.timeline.map(e=>`<div class="ev"><div class="ed">${e.d}</div><div class="et">${e.t}</div></div>`).join("")}</div></div>`:"";
-  const related=DEALS.filter(x=>x.id!==d.id&&(x.sector===d.sector||x.firms.some(f=>dealFirms(d).includes(f.name)))).slice(0,3);
-  const relHtml=related.length?`<div class="sec"><h4>Related deals</h4>${related.map(r=>`<div class="doc" onclick="go({name:'deal',id:'${r.id}'})"><span class="di">${TYPES[r.type].label==="M&A"?"🤝":"●"}</span>${r.headline}<span style="margin-left:auto;color:var(--ink3)">→</span></div>`).join("")}</div>`:"";
-
+  const related=DEALS.filter(x=>x.id!==d.id&&(x.sector===d.sector||x.firms.some(f=>dealFirms(d).includes(f.name)))).slice(0,4);
+  const relHtml=related.length?`<div class="sec"><h4>Related deals</h4>${related.map(r=>`<div class="doc" onclick="go({name:'deal',id:'${r.id}'})"><span class="di">●</span>${r.headline}<span style="margin-left:auto;color:var(--ink3)">→</span></div>`).join("")}</div>`:"";
   $("main").innerHTML=`
    <span class="back" onclick="go({name:'feed'})">← Back to feed</span>
    <div class="dd">
      <div class="dd-head">${typeBadge(d)}
        <span class="stage"><span class="sd" style="background:${st.c}"></span>${st.l}</span>
        ${d.imp==="hi"?'<span class="priority">● PRIORITY</span>':""}
-       ${d.real?'<span class="real">✓ VERIFIED · REAL SOURCE</span>':'<span class="illus">SAMPLE STRUCTURE</span>'}
-       ${verBadge(d)}
+       <span class="real">✓ VERIFIED · SOURCED</span>
        <button class="star ${starred.has(d.id)?'on':''}" data-star="${d.id}" style="margin-left:6px">${starred.has(d.id)?'★':'☆'}</button>
      </div>
      <h1>${d.headline}</h1>
@@ -682,8 +668,7 @@ function renderDeal(id){
            <div class="mrow"><span class="mk">Value</span><span class="mv">${d.value}</span></div>
            <div class="mrow"><span class="mk">Parties</span><span class="mv">${d.parties}</span></div>
            <div class="mrow"><span class="mk">Sector</span><span class="mv">${d.sector}</span></div>
-           <div class="mrow"><span class="mk">City</span><span class="mv">${CITYLABEL[d.geo]}</span></div>
-           <div class="mrow"><span class="mk">Sources</span><span class="mv">${d.ver} corroborating</span></div>
+           <div class="mrow"><span class="mk">City</span><span class="mv">${d.city}</span></div>
            <div class="mrow"><span class="mk">Updated</span><span class="mv">${d.time}</span></div>
          </div></div>
          ${tl}
@@ -694,51 +679,50 @@ function renderDeal(id){
   $("main").querySelectorAll("[data-star]").forEach(b=>b.onclick=e=>{e.stopPropagation();toggleStar(b.dataset.star);render();});
 }
 
-/* ============================ STATS (clickable + hover) ============================ */
+/* ============================ STATS ============================ */
 function buildStats(){
+  const big=DEALS.filter(d=>["ma","ipo","pe"].includes(d.type));
   const groups=[
-   {n:DEALS.length,l:"Developments tracked",d:"▲ live feed",list:DEALS},
-   {n:DEALS.filter(d=>["ma","ipo","pe"].includes(d.type)).length,l:"Active deals · M&A/PE/IPO",d:"▲ 3 new today",list:DEALS.filter(d=>["ma","ipo","pe"].includes(d.type))},
-   {n:DEALS.filter(d=>d.type==="ipo").length,l:"IPO / ECM in motion",d:"DRHP & QIP pipeline",muted:true,list:DEALS.filter(d=>d.type==="ipo")},
-   {n:DEALS.filter(d=>d.type==="reg").length,l:"Regulatory actions",d:"▲ comment windows open",list:DEALS.filter(d=>d.type==="reg")}
+   {n:DEALS.length,l:"Developments tracked",d:"verified & sourced",list:DEALS},
+   {n:big.length,l:"Active deals · M&A/PE/IPO",d:"with named counsel",list:big},
+   {n:DEALS.filter(d=>d.type==="ipo").length,l:"IPO / ECM transactions",d:"QIP · OFS · preferential",muted:true,list:DEALS.filter(d=>d.type==="ipo")},
+   {n:DEALS.filter(d=>d.type==="bank"||d.type==="reg").length,l:"Banking & regulatory",d:"financings & rulings",list:DEALS.filter(d=>d.type==="bank"||d.type==="reg")}
   ];
   $("stats").innerHTML=groups.map((g,i)=>`<div class="stat" data-stat="${i}">
     <div class="n">${g.n}</div><div class="l">${g.l}</div><div class="d ${g.muted?'muted':''}">${g.d}</div>
-    <div class="pop"><div class="ph">${g.l} — click to open</div>${g.list.map(d=>`<div class="pr" data-deal="${d.id}"><span class="pt ${TYPES[d.type].cls}">${TYPES[d.type].label}</span><span class="px">${d.headline}</span></div>`).join("")}</div>
+    <div class="pop"><div class="ph">${g.l} — click any to open</div>${g.list.map(d=>`<div class="pr" data-deal="${d.id}"><span class="pt ${TYPES[d.type].cls}">${TYPES[d.type].label}</span><span class="px">${d.headline}</span></div>`).join("")}</div>
   </div>`).join("");
   $("stats").querySelectorAll(".pop .pr").forEach(r=>r.onclick=e=>{e.stopPropagation();go({name:"deal",id:r.dataset.deal});});
 }
 
 /* ============================ RAIL ============================ */
 function buildRail(){
-  const tally={};DEALS.forEach(d=>d.firms.forEach(f=>tally[f.name]=(tally[f.name]||0)+1));
+  const tally={};DEALS.forEach(d=>d.firms.forEach(f=>{if(firmKnown(f.name))tally[f.name]=(tally[f.name]||0)+1;}));
   const ranked=Object.entries(tally).sort((a,b)=>b[1]-a[1]).slice(0,8);
   $("league").innerHTML=ranked.map((r,i)=>`<div class="lr" data-firm="${encodeURIComponent(r[0])}"><span class="rk">${i+1}</span><span class="fn">${r[0]}</span><span class="dl">${r[1]}</span></div>`).join("");
   $("league").querySelectorAll("[data-firm]").forEach(n=>n.onclick=()=>go({name:"firm",id:decodeURIComponent(n.dataset.firm)}));
   const radar=DEALS.filter(d=>d.type==="reg"||d.type==="bank");
   $("radar").innerHTML=radar.map(d=>`<div class="reg" data-deal="${d.id}"><div class="when">${d.sources[0].name.split('—')[0].trim()} · ${d.time}</div><div class="what">${d.headline}</div></div>`).join("");
   $("radar").querySelectorAll("[data-deal]").forEach(n=>n.onclick=()=>go({name:"deal",id:n.dataset.deal}));
-  $("cov").innerHTML="Bar &amp; Bench · LiveLaw · Mint · Economic Times · Business Standard · VCCircle · BSE / NSE · SEBI · CCI · IBBI · RBI · PIB · FT (internal)";
+  $("cov").innerHTML="Bar &amp; Bench · LiveLaw · Mint · Economic Times · Business Standard · VCCircle · BSE / NSE · SEBI · CCI · IBBI · RBI · PIB";
 }
 
 /* ============================ INTERACTIONS ============================ */
 function bindCards(){
-  $("main").querySelectorAll("[data-deal]").forEach(c=>{
-    if(c.classList.contains("pr"))return;
-    c.onclick=e=>{if(e.target.closest("[data-star]"))return;go({name:"deal",id:c.dataset.deal});};
-  });
+  $("main").querySelectorAll(".card[data-deal]").forEach(c=>{
+    c.onclick=e=>{if(e.target.closest("[data-star]"))return;go({name:"deal",id:c.dataset.deal});};});
   $("main").querySelectorAll("[data-star]").forEach(b=>b.onclick=e=>{e.stopPropagation();toggleStar(b.dataset.star);render();});
 }
 function toggleStar(id){starred.has(id)?starred.delete(id):starred.add(id);const el=$("starCt");if(el)el.textContent=starred.size;}
 
 /* ============================ ADVANCED SEARCH ============================ */
 function buildAdv(){
-  const firmOpts=`<option value="">Any firm</option>`+Object.keys(FIRMS).map(n=>`<option>${n}</option>`).join("");
+  const firmOpts=`<option value="">Any firm</option>`+Object.keys(FIRMS).filter(n=>cntFirm(n)>0).sort().map(n=>`<option>${n}</option>`).join("");
   $("aFirm").innerHTML=firmOpts; $("aFirm2").innerHTML=firmOpts;
-  $("aCity").innerHTML=`<option value="">Any city</option>`+Object.entries(CITYLABEL).map(([k,v])=>`<option value="${k}">${v}</option>`).join("");
+  $("aCity").innerHTML=`<option value="">Any city / region</option>`+Object.entries(CITYLABEL).map(([k,v])=>`<option value="${k}">${v}</option>`).join("");
   $("aSector").innerHTML=SECTORS.map(s=>`<option value="${s}">${s}</option>`).join("");
-  $("aType").innerHTML=`<option value="">Any type</option>`+Object.entries(TYPES).map(([k,v])=>`<option value="${k}">${v.label}</option>`).join("");
-  $("aStage").innerHTML=`<option value="">Any stage</option>`+Object.entries(STAGES).map(([k,v])=>`<option value="${k}">${v.l}</option>`).join("");
+  $("aType").innerHTML=`<option value="">Any type</option>`+Object.entries(TYPES).filter(([k])=>DEALS.some(d=>d.type===k)).map(([k,v])=>`<option value="${k}">${v.label}</option>`).join("");
+  $("aStage").innerHTML=`<option value="">Any stage</option>`+Object.entries(STAGES).filter(([k])=>DEALS.some(d=>d.stage===k)).map(([k,v])=>`<option value="${k}">${v.l}</option>`).join("");
   $("advOpen").onclick=()=>{$("adv").classList.add("on");
     $("aFirm").value=F.firm;$("aFirm2").value=F.firm2;$("aCity").value=F.city;$("aSector").value=F.sector;$("aType").value=F.type||"";$("aStage").value=F.stage;$("aText").value=F.q;};
   $("adv").onclick=e=>{if(e.target.id==="adv")$("adv").classList.remove("on");};
@@ -746,8 +730,7 @@ function buildAdv(){
   $("advApply").onclick=()=>{
     F.firm=$("aFirm").value;F.firm2=$("aFirm2").value;F.city=$("aCity").value;F.sector=$("aSector").value;
     F.type=$("aType").value||null;F.stage=$("aStage").value;F.q=$("aText").value;F.geo="all";$("q").value=F.q;
-    $("adv").classList.remove("on");go({name:"feed"});
-  };
+    $("adv").classList.remove("on");go({name:"feed"});};
 }
 
 /* ============================ MAIN RENDER ============================ */
@@ -773,9 +756,8 @@ function render(){
 $("q").addEventListener("input",e=>{F.q=e.target.value;if(route.name!=="feed")route={name:"feed"};render();});
 document.addEventListener("keydown",e=>{if(e.key==="/"&&document.activeElement.id!=="q"&&!$("adv").classList.contains("on")){e.preventDefault();$("q").focus();}
   if(e.key==="Escape")$("adv").classList.remove("on");});
-$("refresh").onclick=()=>{const u=$("updated");u.textContent="Refreshing…";setTimeout(()=>u.textContent="Updated just now",700);};
+$("refresh").onclick=()=>{const u=$("updated");u.textContent="Refreshing…";setTimeout(()=>u.textContent="Updated 8 Jun 2026",700);};
 $("theme").onclick=()=>{const h=document.documentElement;h.dataset.theme=h.dataset.theme==="dark"?"light":"dark";};
-
 buildSidebar();buildRail();buildAdv();render();
 </script>
 </body>
