@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Corporate Law Tracker — Deal & Regulatory Intelligence</title>
+<style>
+  :root{
+    --bg:#f5f6f8; --surface:#ffffff; --surface2:#fbfcfd;
+    --ink:#0e1320; --ink2:#4a5364; --ink3:#8b93a3; --ink4:#aab1bf;
+    --line:#e6e9ef; --line2:#f0f2f6;
+    --accent:#2f54eb; --accent-soft:#eaeefe;
+    --green:#0c8f5a; --green-soft:#e4f5ec;
+    --amber:#b87400; --amber-soft:#faf0db;
+    --red:#cf3a52;   --red-soft:#fce9ec;
+    --purple:#6e44d4;--purple-soft:#efe9fb;
+    --teal:#0a8585;  --teal-soft:#e0f3f3;
+    --slate:#475569; --slate-soft:#eef1f5;
+    --shadow:0 1px 2px rgba(14,19,32,.05),0 3px 10px rgba(14,19,32,.045);
+    --shadow-h:0 6px 16px rgba(14,19,32,.09),0 18px 40px rgba(14,19,32,.10);
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    --mono:"SF Mono",ui-monospace,"Cascadia Mono",Menlo,Consolas,monospace;
+    --r:13px; --r-sm:8px;
+  }
+  html[data-theme="dark"]{
+    --bg:#0a0e17; --surface:#121826; --surface2:#0f1421;
+    --ink:#eaf0fb; --ink2:#a3afc4; --ink3:#6b7589; --ink4:#525c70;
+    --line:#202838; --line2:#1a2230;
+    --accent:#5a7bff; --accent-soft:#18203a;
+    --green:#37c98b; --green-soft:#0f2a20;
+    --amber:#e0a23a; --amber-soft:#2a2212;
+    --red:#f0697f;   --red-soft:#2c1620;
+    --purple:#a585f5;--purple-soft:#1f1832;
+    --teal:#3ab9b9;  --teal-soft:#0e2626;
+    --slate:#9aa6bd; --slate-soft:#1a2230;
+    --shadow:0 1px 2px rgba(0,0,0,.4); --shadow-h:0 8px 30px rgba(0,0,0,.55);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased;transition:background .25s,color .25s}
+  a{color:var(--accent);text-decoration:none}
+
+  header{position:sticky;top:0;z-index:40;background:var(--surface);border-bottom:1px solid var(--line);height:60px;display:flex;align-items:center;gap:16px;padding:0 22px}
+  .brand{display:flex;align-items:center;gap:11px;cursor:pointer;user-select:none}
+  .brand .mark{width:32px;height:32px;border-radius:9px;background:linear-gradient(135deg,var(--accent),#7d97ff);color:#fff;font-weight:800;font-size:16px;display:grid;place-items:center;box-shadow:0 3px 10px rgba(47,84,235,.32)}
+  .brand .nm{font-weight:750;font-size:15.5px;letter-spacing:-.3px;line-height:1}
+  .brand .nm span{display:block;font-size:9px;font-weight:600;color:var(--ink3);letter-spacing:1.4px;margin-top:3px}
+  .search{flex:1;max-width:420px;position:relative}
+  .search input{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:9px 14px 9px 38px;font-size:13.5px;color:var(--ink);outline:none;transition:.15s;font-family:inherit}
+  .search input:focus{border-color:var(--accent);background:var(--surface);box-shadow:0 0 0 4px var(--accent-soft)}
+  .search svg{position:absolute;left:12px;top:10px}
+  .advbtn{font-size:11px;font-weight:700;color:var(--accent);background:var(--accent-soft);border:none;border-radius:6px;padding:4px 8px;position:absolute;right:8px;top:7px;cursor:pointer}
+  .hstatus{margin-left:auto;display:flex;align-items:center;gap:13px}
+  .live{display:flex;align-items:center;gap:7px;font-size:12px;font-weight:700;color:var(--green);letter-spacing:.3px}
+  .pulse{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 0 0 rgba(12,143,90,.5);animation:p 2.2s infinite}
+  @keyframes p{70%{box-shadow:0 0 0 6px rgba(12,143,90,0)}100%{box-shadow:0 0 0 0 rgba(12,143,90,0)}}
+  .upd{font-size:12px;color:var(--ink3)}
+  .icbtn{width:34px;height:34px;border-radius:9px;border:1px solid var(--line);background:var(--surface);color:var(--ink2);cursor:pointer;display:grid;place-items:center;font-size:15px;transition:.15s}
+  .icbtn:hover{border-color:var(--accent);color:var(--accent)}
+
+  .wrap{display:grid;grid-template-columns:236px minmax(0,1fr) 300px;height:calc(100vh - 60px)}
+  aside{border-right:1px solid var(--line);background:var(--surface);overflow-y:auto;padding:16px 12px}
+  .main{overflow-y:auto;padding:20px 26px 50px}
+  .rail{border-left:1px solid var(--line);background:var(--surface);overflow-y:auto;padding:18px 16px}
+
+  .ng{margin-bottom:20px}
+  .ng h4{font-size:10px;letter-spacing:1.4px;color:var(--ink3);text-transform:uppercase;font-weight:750;margin:0 8px 8px}
+  .ni{display:flex;align-items:center;gap:10px;padding:8px 11px;border-radius:9px;cursor:pointer;color:var(--ink2);font-size:13.5px;font-weight:550;transition:.12s}
+  .ni:hover{background:var(--bg);color:var(--ink)}
+  .ni.active{background:var(--accent-soft);color:var(--accent);font-weight:700}
+  .ni .dot{width:8px;height:8px;border-radius:3px;flex:none}
+  .ni .ic{width:16px;text-align:center;flex:none}
+  .ni .ct{margin-left:auto;font-size:11px;font-family:var(--mono);color:var(--ink3)}
+  .ni.active .ct{color:var(--accent)}
+
+  /* stats with hover popover */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px}
+  .stat{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 15px;box-shadow:var(--shadow);position:relative;cursor:pointer;transition:.14s}
+  .stat:hover{border-color:var(--accent);box-shadow:var(--shadow-h)}
+  .stat .n{font-size:25px;font-weight:760;letter-spacing:-.6px;font-variant-numeric:tabular-nums}
+  .stat .l{font-size:11.5px;color:var(--ink2);margin-top:1px}
+  .stat .d{font-size:10.5px;margin-top:6px;font-weight:650;color:var(--green)}
+  .stat .d.muted{color:var(--ink3)}
+  .pop{position:absolute;top:calc(100% + 8px);left:0;width:330px;max-width:90vw;background:var(--surface);border:1px solid var(--line);border-radius:11px;box-shadow:var(--shadow-h);padding:8px;z-index:30;display:none;max-height:340px;overflow-y:auto}
+  .stat:hover .pop{display:block}
+  .pop .ph{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--ink3);font-weight:700;padding:6px 8px 8px}
+  .pop .pr{display:flex;gap:8px;align-items:flex-start;padding:8px;border-radius:8px;cursor:pointer}
+  .pop .pr:hover{background:var(--bg)}
+  .pop .pr .pt{font-size:9px;font-weight:750;padding:2px 6px;border-radius:5px;flex:none;margin-top:1px}
+  .pop .pr .px{font-size:12px;font-weight:600;line-height:1.35}
+
+  .fb{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:16px}
+  .chip{background:var(--surface);border:1px solid var(--line);color:var(--ink2);padding:6px 13px;border-radius:20px;font-size:12.5px;font-weight:600;cursor:pointer;white-space:nowrap;transition:.12s}
+  .chip:hover{border-color:var(--accent);color:var(--accent)}
+  .chip.on{background:var(--ink);border-color:var(--ink);color:var(--surface)}
+  html[data-theme="dark"] .chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+
+  .vh{display:flex;align-items:center;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+  .vh h2{font-size:20px;font-weight:760;letter-spacing:-.5px}
+  .vh .sub{color:var(--ink3);font-size:12.5px;font-weight:600}
+  .clearf{font-size:11.5px;color:var(--accent);font-weight:700;cursor:pointer;margin-left:auto}
+
+  .feed{display:flex;flex-direction:column;gap:11px}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px 15px;box-shadow:var(--shadow);cursor:pointer;transition:transform .14s,box-shadow .14s,border-color .14s;position:relative}
+  .card:hover{transform:translateY(-2px);box-shadow:var(--shadow-h);border-color:var(--accent)}
+  .accentbar{position:absolute;left:0;top:14px;bottom:14px;width:3px;border-radius:0 3px 3px 0}
+  .r1{display:flex;align-items:center;gap:8px;margin-bottom:9px;flex-wrap:wrap}
+  .ttype{font-size:10px;font-weight:750;letter-spacing:.4px;padding:3px 8px;border-radius:6px;flex:none;text-transform:uppercase}
+  .t-ma{background:var(--accent-soft);color:var(--accent)} .t-ipo{background:var(--green-soft);color:var(--green)}
+  .t-pe{background:var(--purple-soft);color:var(--purple)} .t-ibc{background:var(--red-soft);color:var(--red)}
+  .t-reg{background:var(--amber-soft);color:var(--amber)} .t-bank{background:var(--teal-soft);color:var(--teal)}
+  .t-lit{background:var(--slate-soft);color:var(--slate)}
+  .stage{font-size:10.5px;font-weight:650;color:var(--ink2);display:inline-flex;align-items:center;gap:5px}
+  .stage .sd{width:6px;height:6px;border-radius:50%}
+  .priority{font-size:10px;font-weight:750;color:var(--red);letter-spacing:.3px}
+  .ver{font-size:10px;font-weight:700;color:var(--green);background:var(--green-soft);padding:3px 8px;border-radius:6px;cursor:pointer}
+  .ver.thin{color:var(--ink3);background:var(--bg)}
+  .real{font-size:9px;font-weight:750;color:#fff;background:var(--green);padding:2px 6px;border-radius:5px;letter-spacing:.4px}
+  .illus{font-size:9px;font-weight:750;color:var(--ink3);background:var(--bg);border:1px solid var(--line);padding:2px 6px;border-radius:5px;letter-spacing:.3px}
+  .star{margin-left:auto;cursor:pointer;color:var(--ink4);font-size:18px;line-height:1;background:none;border:none;padding:0;transition:.12s;z-index:2}
+  .star:hover{transform:scale(1.2);color:var(--amber)} .star.on{color:var(--amber)}
+  .card h3{font-size:16px;font-weight:680;line-height:1.34;letter-spacing:-.2px;margin-bottom:7px}
+  .card:hover h3{color:var(--accent)}
+  .sum{color:var(--ink2);font-size:13.5px;line-height:1.55;margin-bottom:12px}
+  .sum b{color:var(--ink);font-weight:680}
+  .meta{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+  .tag{background:var(--bg);border:1px solid var(--line);color:var(--ink2);padding:3px 9px;border-radius:7px;font-size:11.5px;font-weight:600}
+  .tag.val{color:var(--green);font-family:var(--mono);font-weight:700;background:var(--green-soft);border-color:transparent}
+  .tag.geo{color:var(--accent);background:var(--accent-soft);border-color:transparent}
+  .firms{margin-top:11px;padding-top:11px;border-top:1px solid var(--line2);font-size:12.5px;color:var(--ink2)}
+  .firms b{color:var(--ink);font-weight:700}
+  .firms .fm{font-weight:650;color:var(--ink)} .firms .side{color:var(--ink3);font-size:11.5px}
+  .srcrow{display:flex;align-items:center;gap:7px;margin-top:11px;flex-wrap:wrap}
+  .schip{font-size:11px;font-weight:600;color:var(--ink2);background:var(--surface2);border:1px solid var(--line);padding:2px 8px;border-radius:6px}
+  .stime{font-size:11.5px;color:var(--ink3);margin-left:auto} .go{font-size:12px;color:var(--accent);font-weight:700}
+  .card:hover .go{text-decoration:underline}
+
+  /* deal detail */
+  .back{font-size:12.5px;font-weight:650;color:var(--ink2);cursor:pointer;display:inline-flex;gap:5px;align-items:center;margin-bottom:14px}
+  .back:hover{color:var(--accent)}
+  .dd-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+  .dd h1{font-size:25px;font-weight:780;letter-spacing:-.6px;line-height:1.22;margin-bottom:10px;max-width:760px}
+  .dd .lede{font-size:15px;color:var(--ink2);line-height:1.6;max-width:760px;margin-bottom:16px}
+  .dd .lede b{color:var(--ink)}
+  .dd-grid{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:22px;align-items:start}
+  @media(max-width:900px){.dd-grid{grid-template-columns:1fr}}
+  .sec{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px;margin-bottom:14px;box-shadow:var(--shadow)}
+  .sec h4{font-size:10.5px;letter-spacing:1.3px;text-transform:uppercase;color:var(--ink3);font-weight:750;margin-bottom:12px}
+  .sec p{font-size:13.5px;color:var(--ink2);line-height:1.65;margin-bottom:10px}
+  .sec p:last-child{margin-bottom:0} .sec p b{color:var(--ink)}
+  .firmblk{padding:12px 0;border-bottom:1px solid var(--line2)} .firmblk:last-child{border:none;padding-bottom:0}
+  .firmblk:first-child{padding-top:0}
+  .firmblk .fh{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:7px}
+  .firmblk .fn{font-size:14.5px;font-weight:720;color:var(--ink);cursor:pointer}
+  .firmblk .fn:hover{color:var(--accent)}
+  .sidetag{font-size:10px;font-weight:700;padding:2px 8px;border-radius:6px;background:var(--accent-soft);color:var(--accent)}
+  .lead{font-size:13px;color:var(--ink);margin:3px 0}
+  .lead .role{color:var(--ink3);font-size:11.5px;font-weight:500}
+  .teamline{font-size:12.5px;color:var(--ink2);margin-top:5px;line-height:1.6}
+  .teamline .lbl{color:var(--ink3);font-weight:650} .note{font-size:12px;color:var(--ink3);font-style:italic}
+  /* source list with blurbs */
+  .srcitem{padding:11px 0;border-bottom:1px solid var(--line2)} .srcitem:last-child{border:none;padding-bottom:0} .srcitem:first-child{padding-top:0}
+  .srcitem .st{display:flex;align-items:center;gap:8px;margin-bottom:4px}
+  .srcitem .snm{font-size:13px;font-weight:720;color:var(--ink)}
+  .srcitem .sgo{margin-left:auto;font-size:11.5px;font-weight:700;color:var(--accent)} .srcitem .sgo:hover{text-decoration:underline}
+  .srcitem .sblurb{font-size:12.5px;color:var(--ink2);line-height:1.55;background:var(--surface2);border-left:2px solid var(--accent);padding:7px 11px;border-radius:0 7px 7px 0;font-style:italic}
+  .doc{display:flex;align-items:center;gap:9px;padding:9px 11px;border:1px solid var(--line);border-radius:9px;margin-bottom:8px;font-size:13px;font-weight:600;color:var(--ink);cursor:pointer;transition:.12s}
+  .doc:hover{border-color:var(--accent);color:var(--accent);background:var(--surface2)}
+  .doc .di{font-size:15px} .doc:last-child{margin-bottom:0}
+  .side-meta{font-size:13px}
+  .side-meta .mrow{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--line2)}
+  .side-meta .mrow:last-child{border:none}
+  .side-meta .mk{color:var(--ink3);font-weight:600} .side-meta .mv{color:var(--ink);font-weight:700;text-align:right}
+  .tl{position:relative;padding-left:18px} .tl .ev{position:relative;padding-bottom:13px}
+  .tl .ev:before{content:"";position:absolute;left:-13px;top:4px;width:8px;height:8px;border-radius:50%;background:var(--accent)}
+  .tl .ev:after{content:"";position:absolute;left:-9.5px;top:12px;bottom:-2px;width:1px;background:var(--line)}
+  .tl .ev:last-child:after{display:none}
+  .tl .ed{font-size:11px;color:var(--ink3);font-weight:700} .tl .et{font-size:12.5px;color:var(--ink);margin-top:2px}
+
+  /* firms directory + firm page */
+  .firmgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+  .fcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:15px 16px;box-shadow:var(--shadow);cursor:pointer;transition:.14s}
+  .fcard:hover{transform:translateY(-2px);box-shadow:var(--shadow-h);border-color:var(--accent)}
+  .fcard .fnm{font-size:15px;font-weight:740;letter-spacing:-.2px} .fcard:hover .fnm{color:var(--accent)}
+  .fcard .fmeta{font-size:12px;color:var(--ink3);margin-top:3px}
+  .fcard .ffocus{font-size:12.5px;color:var(--ink2);margin-top:9px;line-height:1.5}
+  .fcard .fstat{margin-top:11px;display:flex;gap:14px;font-size:12px}
+  .fcard .fstat b{font-size:18px;font-weight:760;display:block;color:var(--ink)}
+  .fcard .fstat span{color:var(--ink3)}
+  .firmhero{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px 22px;box-shadow:var(--shadow);margin-bottom:18px}
+  .firmhero h1{font-size:24px;font-weight:780;letter-spacing:-.5px}
+  .firmhero .fmeta{font-size:13px;color:var(--ink3);margin-top:5px}
+  .firmhero .ffocus{font-size:13.5px;color:var(--ink2);margin-top:11px;line-height:1.6;max-width:680px}
+  .firmhero .fweb{display:inline-block;margin-top:12px;font-size:12.5px;font-weight:700}
+  .pchips{display:flex;flex-wrap:wrap;gap:7px;margin-top:13px}
+  .pchip{font-size:12px;font-weight:650;background:var(--bg);border:1px solid var(--line);border-radius:18px;padding:5px 12px;color:var(--ink)}
+  .pchip .pr{color:var(--ink3);font-weight:500;font-size:11px}
+
+  .rail h4{font-size:10px;letter-spacing:1.4px;color:var(--ink3);text-transform:uppercase;font-weight:750;margin:0 0 12px}
+  .blk{margin-bottom:24px}
+  .lr{display:flex;align-items:center;gap:10px;padding:7px 0;border-bottom:1px solid var(--line2);font-size:13px;cursor:pointer}
+  .lr:last-child{border:none} .lr:hover .fn{color:var(--accent)}
+  .lr .rk{font-family:var(--mono);color:#fff;background:var(--ink3);width:19px;height:19px;border-radius:5px;display:grid;place-items:center;font-size:10.5px;font-weight:700;flex:none}
+  .lr:nth-child(1) .rk{background:var(--accent)} .lr:nth-child(2) .rk{background:#6d8bff} .lr:nth-child(3) .rk{background:#9db4ff}
+  .lr .fn{flex:1;font-weight:600} .lr .dl{font-family:var(--mono);color:var(--ink2);font-weight:700}
+  .reg{padding:10px 0;border-bottom:1px solid var(--line2);cursor:pointer} .reg:last-child{border:none}
+  .reg .when{font-size:9.5px;color:var(--amber);font-weight:750;text-transform:uppercase;letter-spacing:.6px}
+  .reg .what{color:var(--ink);font-size:12.5px;font-weight:600;margin-top:3px;line-height:1.4} .reg:hover .what{color:var(--accent)}
+  .cov{font-size:12.5px;color:var(--ink2);line-height:1.85}
+  .empty{text-align:center;color:var(--ink3);padding:50px 20px;font-size:13.5px}
+  .demo{background:linear-gradient(90deg,var(--accent-soft),transparent);border:1px solid var(--line);color:var(--ink2);font-size:12px;padding:9px 14px;border-radius:11px;margin-bottom:16px;display:flex;gap:9px;align-items:center}
+  .demo b{color:var(--ink)}
+  .foot{font-size:11px;color:var(--ink3);text-align:center;padding:22px}
+
+  /* advanced search modal */
+  .ovl{position:fixed;inset:0;background:rgba(8,12,22,.5);z-index:60;display:none;align-items:flex-start;justify-content:center;padding-top:80px}
+  .ovl.on{display:flex} html[data-theme="dark"] .ovl{background:rgba(0,0,0,.65)}
+  .modal{background:var(--surface);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow-h);width:640px;max-width:94vw;padding:22px 24px}
+  .modal h3{font-size:17px;font-weight:760;margin-bottom:4px} .modal .msub{font-size:12.5px;color:var(--ink3);margin-bottom:16px}
+  .frow{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+  .fld label{font-size:11px;font-weight:700;color:var(--ink3);text-transform:uppercase;letter-spacing:.6px;display:block;margin-bottom:5px}
+  .fld select,.fld input{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:9px;padding:9px 11px;font-size:13px;color:var(--ink);font-family:inherit;outline:none}
+  .fld select:focus,.fld input:focus{border-color:var(--accent)}
+  .mact{display:flex;gap:10px;margin-top:18px;justify-content:flex-end}
+  .mbtn{padding:10px 18px;border-radius:10px;font-size:13px;font-weight:700;cursor:pointer;border:1px solid var(--line);background:var(--surface);color:var(--ink2)}
+  .mbtn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+  .mbtn:hover{transform:translateY(-1px)}
+
+  ::-webkit-scrollbar{width:10px;height:10px}
+  ::-webkit-scrollbar-thumb{background:var(--line);border-radius:8px;border:2px solid var(--surface)}
+  @media(max-width:1140px){.wrap{grid-template-columns:210px minmax(0,1fr)}.rail{display:none}}
+  @media(max-width:780px){.wrap{grid-template-columns:1fr;height:auto}aside{display:none}.stats{grid-template-columns:repeat(2,1fr)}.search{display:none}.dd-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand" onclick="go({name:'feed'});resetFilters()">
+    <div class="mark">C</div>
+    <div class="nm">Corporate Law Tracker<span>DEAL &amp; REGULATORY INTELLIGENCE</span></div>
+  </div>
+  <div class="search">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#8b93a3" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
+    <input id="q" type="text" placeholder="Search deals, parties, firms, partners…">
+    <button class="advbtn" id="advOpen">Advanced</button>
+  </div>
+  <div class="hstatus">
+    <span class="live"><span class="pulse"></span>LIVE</span>
+    <span class="upd" id="updated">Updated just now</span>
+    <button class="icbtn" id="theme" title="Terminal / light mode">◐</button>
+    <button class="icbtn" id="refresh" title="Refresh">↻</button>
+  </div>
+</header>
+
+<div class="wrap">
+  <aside>
+    <div class="ng"><h4>Browse</h4><div id="browseNav"></div></div>
+    <div class="ng"><h4>Geography</h4><div id="geoNav"></div></div>
+    <div class="ng"><h4>Deal Type</h4><div id="typeNav"></div></div>
+  </aside>
+  <div class="main" id="main"></div>
+  <div class="rail">
+    <div class="blk"><h4>League Table · Deals tracked</h4><div id="league"></div></div>
+    <div class="blk"><h4>Regulatory Radar</h4><div id="radar"></div></div>
+    <div class="blk"><h4>Coverage</h4><div class="cov" id="cov"></div></div>
+  </div>
+</div>
+
+<!-- Advanced search modal -->
+<div class="ovl" id="adv">
+  <div class="modal">
+    <h3>Advanced search</h3>
+    <div class="msub">Combine any filters — e.g. deals where <b>CAM</b> acted opposite <b>SAM</b>, in <b>Mumbai</b>, in <b>Energy</b>.</div>
+    <div class="frow">
+      <div class="fld"><label>Law firm</label><select id="aFirm"></select></div>
+      <div class="fld"><label>…together / opposite firm</label><select id="aFirm2"></select></div>
+    </div>
+    <div class="frow">
+      <div class="fld"><label>City</label><select id="aCity"></select></div>
+      <div class="fld"><label>Sector</label><select id="aSector"></select></div>
+    </div>
+    <div class="frow">
+      <div class="fld"><label>Deal type</label><select id="aType"></select></div>
+      <div class="fld"><label>Stage</label><select id="aStage"></select></div>
+    </div>
+    <div class="fld"><label>Keyword (party, deal, partner)</label><input id="aText" type="text" placeholder="e.g. ACME, spectrum, Manan Lahoty"></div>
+    <div class="mact">
+      <button class="mbtn" id="advReset">Reset</button>
+      <button class="mbtn primary" id="advApply">Search</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ============================ TAXONOMY ============================ */
+const TYPES={
+  ma:{label:"M&A",cls:"t-ma",c:"var(--accent)"}, ipo:{label:"IPO / ECM",cls:"t-ipo",c:"var(--green)"},
+  pe:{label:"PE / VC",cls:"t-pe",c:"var(--purple)"}, ibc:{label:"IBC",cls:"t-ibc",c:"var(--red)"},
+  reg:{label:"Regulatory",cls:"t-reg",c:"var(--amber)"}, bank:{label:"Banking",cls:"t-bank",c:"var(--teal)"},
+  lit:{label:"Disputes",cls:"t-lit",c:"var(--slate)"}
+};
+const STAGES={
+  rumoured:{l:"Rumoured",c:"#b87400"}, announced:{l:"Announced",c:"#2f54eb"},
+  review:{l:"In Regulatory Review",c:"#6e44d4"}, completed:{l:"Completed",c:"#0c8f5a"},
+  filed:{l:"Filed / Open",c:"#0a8585"}, ruling:{l:"Ruling",c:"#cf3a52"}, inforce:{l:"In Force",c:"#475569"}
+};
+const GEOS=[{id:"all",label:"All India",dot:"var(--accent)"},{id:"mumbai",label:"Mumbai",dot:"#6d8bff"},
+  {id:"delhi",label:"Delhi-NCR",dot:"#7b4fd6"},{id:"bengaluru",label:"Bengaluru",dot:"#0a8585"},
+  {id:"global",label:"Global / Cross-border",dot:"#0c8f5a"}];
+const CITYLABEL={mumbai:"Mumbai",delhi:"Delhi-NCR",bengaluru:"Bengaluru",global:"Global / Cross-border"};
+const SECTORS=["All Sectors","Technology","BFSI","Pharma & Healthcare","Energy & Renewables","Infrastructure","Consumer & Retail","Telecom","Industrials"];
+
+/* ============================ FIRMS ============================ */
+const FIRMS={
+ "Cyril Amarchand Mangaldas":{city:"Mumbai",type:"Indian",focus:"India's largest full-service firm. Market leader in M&A, capital markets, banking and disputes.",web:"https://www.cyrilshroff.com"},
+ "Shardul Amarchand Mangaldas":{city:"New Delhi",type:"Indian",focus:"Top-tier full-service firm; powerhouse in capital markets, M&A, competition and insolvency.",web:"https://www.amsshardul.com"},
+ "AZB & Partners":{city:"Mumbai",type:"Indian",focus:"Premier M&A, private equity and competition practice; consistently tops deal league tables.",web:"https://www.azbpartners.com"},
+ "Khaitan & Co":{city:"Mumbai",type:"Indian",focus:"Full-service firm strong in M&A, PE, funds, banking and employment.",web:"https://www.khaitanco.com"},
+ "Trilegal":{city:"Mumbai / Delhi",type:"Indian",focus:"Fast-growing full-service firm; deep in M&A, PE, capital markets, energy and TMT.",web:"https://www.trilegal.com"},
+ "JSA":{city:"Gurugram / Mumbai",type:"Indian",focus:"J Sagar Associates — M&A, projects & infrastructure, disputes and restructuring.",web:"https://www.jsalaw.com"},
+ "IndusLaw":{city:"Bengaluru",type:"Indian",focus:"Leading venture capital, technology and PE practice; strong startup ecosystem ties.",web:"https://induslaw.com"},
+ "Hogan Lovells":{city:"London / Global",type:"International",focus:"Global firm; international counsel on India-linked capital markets and cross-border M&A.",web:"https://www.hoganlovells.com"},
+ "Latham & Watkins":{city:"Global",type:"International",focus:"Global elite firm; cross-border M&A, capital markets and finance.",web:"https://www.lw.com"},
+ "Sidley Austin":{city:"Global",type:"International",focus:"International counsel on India IPOs and US securities-law aspects.",web:"https://www.sidley.com"},
+ "Cravath":{city:"New York",type:"International",focus:"US elite firm; M&A and securities counsel on marquee cross-border transactions.",web:"https://www.cravath.com"},
+ "A&O Shearman":{city:"Global",type:"International",focus:"Global finance and capital markets firm (Allen & Overy + Shearman).",web:"https://www.aoshearman.com"},
+ "DMD Advocates":{city:"New Delhi / Mumbai",type:"Indian",focus:"Disputes-led firm; telecom, regulatory and commercial litigation.",web:"https://www.dmdadvocates.com"},
+ "Bharucha & Partners":{city:"Mumbai",type:"Indian",focus:"Disputes and corporate firm with a strong Supreme Court and Bombay HC practice.",web:"https://www.bharucha.in"},
+ "Saikrishna & Associates":{city:"Delhi-NCR",type:"Indian",focus:"IP, technology and media disputes specialist.",web:"https://www.saikrishnaassociates.com"},
+ "Anand and Anand":{city:"Noida",type:"Indian",focus:"India's leading intellectual property firm.",web:"https://www.anandandanand.com"}
+};
+
+/* ============================ DEALS ============================
+   real:true  = fully verified from a named primary source (deep-linked).
+   real:false = illustrative example showing the structure; teams come
+   from the live pipeline in production (no individuals are invented).  */
+const DEALS=[
+ {id:"acme-qip", real:true, type:"ipo", geo:"mumbai", sector:"Energy & Renewables", imp:"md", stage:"completed",
+  value:"₹2,800 cr", parties:"ACME Solar Holdings", time:"8 Jun 2026", ver:5,
+  headline:"ACME Solar raises ₹2,800 cr via QIP; SAM, CAM and Hogan Lovells act",
+  sum:"<b>ACME Solar Holdings</b> raised ₹2,800 cr from a Qualified Institutional Placement of equity shares — a live ECM mandate signalling renewed appetite for renewables paper post-listing.",
+  detail:"ACME Solar Holdings Limited raised ₹2,800 crore through a Qualified Institutional Placement (QIP) of equity shares. Shardul Amarchand Mangaldas advised the issuer; Cyril Amarchand Mangaldas advised the placement agents (ICICI Securities and IIFL Capital Services); Hogan Lovells acted as international legal counsel to the placement agents. ACME Solar is among the top 10 renewable-energy independent power producers in India by total capacity.",
+  firms:[
+   {name:"Shardul Amarchand Mangaldas", side:"ACME Solar (Issuer)",
+    lead:[{n:"Prashant Gupta",role:"Partner & National Practice Head – Capital Markets"},{n:"Sayantan Dutta",role:"Partner"}],
+    team:["Romit Raja Srivastava (Principal Associate)","Shivang Agarwal (Senior Associate)","Aishwariya Chaturvedi","Dipti Tharwani"]},
+   {name:"Cyril Amarchand Mangaldas", side:"Placement Agents (ICICI Securities, IIFL Capital)",
+    lead:[{n:"Manan Lahoty",role:"Partner, Head – Capital Markets"},{n:"Vishal Yaduvanshi",role:"Partner, Regional Co-Head – Capital Markets (North)"},{n:"Puneet Passi",role:"Partner"}],
+    team:["Rishi Nandkeolyar (Senior Associate)","Arjun Badola","Ritvik Maheshwari","Vatsala Parashar","Abhirup Manna","Naman Kulshrestha"]},
+   {name:"Hogan Lovells", side:"International counsel to placement agents",
+    lead:[{n:"Biswajit Chatterjee",role:"Head of India Practice & Managing Partner, Dubai"}], team:[]}
+  ],
+  sources:[
+   {name:"Bar & Bench — Dealstreet", url:"https://www.barandbench.com/dealstreet/shardul-amarchand-cyril-amarchand-hogan-lovells-act-on-acme-solar-2800-crore",
+    blurb:"“ACME Solar Holdings Limited has raised ₹2,800 crore from a Qualified Institutional Placement of equity shares.” — provides the full SAM, CAM and Hogan Lovells deal teams, partner-by-partner."}
+  ],
+  docs:[
+   {label:"B&B IPO league report: Law Firms for Issuer & Bankers 2024-25 (PDF)", url:"https://images.assettype.com/barandbench/2025-08-31/yb3ti307/IPO___Law_Firms_for_Issuer_and_Bankers_in_2025.pdf"},
+   {label:"BSE corporate announcements (QIP filings)", url:"https://www.bseindia.com/corporates/ann.html"}
+  ],
+  timeline:[{d:"8 Jun 2026",t:"QIP of ₹2,800 cr completed; deal teams confirmed"},{d:"FY26",t:"ACME among top-10 renewable IPPs by capacity"}]},
+
+ {id:"airtel-spectrum", real:true, type:"reg", geo:"mumbai", sector:"Telecom", imp:"hi", stage:"ruling",
+  value:"—", parties:"Bharti Airtel, Vodafone Idea v. Union of India", time:"8 Jun 2026", ver:6,
+  headline:"Bombay HC quashes retrospective one-time spectrum levy on Airtel, Vodafone Idea",
+  sum:"Justices Pitale & Shirsat held the Centre could not retrospectively impose a one-time spectrum charge for 2008–12. <b>Bank guarantees to be returned</b>; demand notices set aside. Salve & Khambata appeared.",
+  detail:"The Bombay High Court struck down the Central government's decision to retrospectively levy a one-time spectrum charge on Bharti Airtel and Vodafone Idea for spectrum held above 6.2 MHz between 1 July 2008 and 31 December 2012. A bench of Justices Manish Pitale and Shreeram Shirsat held the move was beyond the Union's contractual and statutory powers as licensor, quashed two 2012 Cabinet decisions and the demand notices, and directed that bank guarantees be returned. The Court held Section 4 of the Telegraph Act does not permit unilateral retrospective changes to licence financial terms.",
+  firms:[
+   {name:"DMD Advocates", side:"Bharti Airtel",
+    lead:[{n:"Harish Salve",role:"Senior Advocate"},{n:"Darius Khambata",role:"Senior Advocate"}],
+    team:["Fereshte Sethna","Anuradha Dutt","Suman Yadav","Nikhita Suri","Prakalathan Bathey","Mohit Tiwari","Naira Jejeebhoy","Payal Nayak","Gurudas Khurana"]},
+   {name:"Bharucha & Partners", side:"Vodafone Idea",
+    lead:[{n:"Aspi Chinoy",role:"Senior Advocate"}],
+    team:["Sneha Jaisingh","Jaidhara Shah","Manan Parekh"]},
+   {name:"Union of India", side:"Respondent (Govt.)",
+    lead:[{n:"Anil Singh",role:"Additional Solicitor General"}],
+    team:["Aditya Thakkar","Gauraj Shah","DP Singh","Adarsh Vyas","Yugandhara Khanwilkar"]}
+  ],
+  sources:[
+   {name:"Bar & Bench", url:"https://www.barandbench.com/news/bombay-high-court-quashes-retrospective-one-time-spectrum-levy-on-airtel-vodafone-idea",
+    blurb:"“The Bombay High Court…struck down the Central government's decision to retrospectively levy a one-time spectrum charge on Bharti Airtel and Vodafone Idea…” — full judgment reasoning, the Section 4 Telegraph Act analysis, and the complete list of appearances."}
+  ],
+  docs:[{label:"Judgment — Bharti Airtel, Vodafone Idea v. Union of India (via Bar & Bench)", url:"https://www.barandbench.com/news/bombay-high-court-quashes-retrospective-one-time-spectrum-levy-on-airtel-vodafone-idea"}],
+  timeline:[{d:"2008–12",t:"Period of disputed spectrum holding above 6.2 MHz"},{d:"Nov–Dec 2012",t:"Cabinet decisions imposing levy (later quashed)"},{d:"8 Jun 2026",t:"Bombay HC allows writ petitions; demand notices set aside"}]},
+
+ {id:"cci-logistics", real:false, type:"ma", geo:"delhi", sector:"Technology", imp:"hi", stage:"completed",
+  value:"~₹4,100 cr", parties:"Acquirer / logistics-SaaS target", time:"8 Jun 2026", ver:4,
+  headline:"CCI clears acquisition of majority stake in logistics-tech platform",
+  sum:"Combination cleared via the green-channel route. Notable for the Commission's comfort with <b>roll-ups in last-mile logistics SaaS</b> despite overlap concerns.",
+  detail:"Illustrative entry showing how a CCI-cleared strategic acquisition is tracked. In production, the deal value, parties and full counsel teams are pulled from the CCI combination order and corroborating press, and deep-linked to the order PDF.",
+  firms:[{name:"AZB & Partners",side:"Acquirer",lead:[],team:[],note:"Team published on the CCI filing / press release — wired in production."},
+   {name:"Trilegal",side:"Target",lead:[],team:[],note:"Team published on the deal announcement — wired in production."}],
+  sources:[
+   {name:"CCI — Combination Orders", url:"https://www.cci.gov.in/combination/orders", blurb:"The CCI combination order is the primary source for the approval, conditions and parties. (Illustrative — the live engine deep-links to the specific order PDF.)"},
+   {name:"Mint — Companies", url:"https://www.livemint.com/companies", blurb:"Press corroboration of deal value and strategic rationale. (Illustrative — production links to the specific article.)"}
+  ],
+  docs:[{label:"CCI combination orders (search by parties)", url:"https://www.cci.gov.in/combination/orders"}],
+  timeline:[{d:"2026",t:"Combination notified to CCI"},{d:"8 Jun 2026",t:"Cleared via green-channel"}]},
+
+ {id:"fintech-round", real:false, type:"pe", geo:"bengaluru", sector:"Technology", imp:"md", stage:"announced",
+  value:"$120 mn", parties:"B2B fintech (Bengaluru)", time:"8 Jun 2026", ver:3,
+  headline:"Growth round in B2B fintech; secondary for early investors",
+  sum:"Late-stage round with a meaningful <b>secondary</b> letting 2018-vintage funds exit. Term sheet carries a ratchet — watch down-round protection mechanics.",
+  detail:"Illustrative PE/VC entry. In production, investor and company counsel, the cap-table mechanics and the secondary structure are confirmed across VCCircle, Mint and the company's release.",
+  firms:[{name:"Khaitan & Co",side:"Lead investor",lead:[],team:[],note:"Team published on the deal announcement — wired in production."},
+   {name:"IndusLaw",side:"Company",lead:[],team:[],note:"Team published on the deal announcement — wired in production."}],
+  sources:[{name:"VCCircle", url:"https://www.vccircle.com", blurb:"Primary deal report with round size and investor list. (Illustrative — production links to the specific article.)"}],
+  docs:[], timeline:[{d:"8 Jun 2026",t:"Round announced"}]},
+
+ {id:"nclt-infra", real:false, type:"ibc", geo:"mumbai", sector:"Infrastructure", imp:"md", stage:"review",
+  value:"₹900 cr", parties:"Infrastructure SPV", time:"7 Jun 2026", ver:5,
+  headline:"NCLT Mumbai admits infra SPV into CIRP on ₹900 cr default",
+  sum:"Financial creditor's Section 7 application admitted. <b>Moratorium in force</b>; IRP appointed. Relevant for lenders with cross-collateralised exposure across the group.",
+  detail:"Illustrative insolvency entry. Production deep-links to the NCLT/IBBI order and confirms the creditor and debtor counsel teams.",
+  firms:[{name:"Cyril Amarchand Mangaldas",side:"Financial creditor",lead:[],team:[],note:"Team published on the order / press — wired in production."},
+   {name:"JSA",side:"Corporate debtor",lead:[],team:[],note:"Team published on the order / press — wired in production."}],
+  sources:[{name:"IBBI — Orders", url:"https://ibbi.gov.in/en/orders", blurb:"IBBI/NCLT order is the primary record of admission, moratorium and IRP appointment. (Illustrative — production links to the specific order.)"}],
+  docs:[{label:"IBBI orders", url:"https://ibbi.gov.in/en/orders"}], timeline:[{d:"7 Jun 2026",t:"Section 7 application admitted; moratorium begins"}]},
+
+ {id:"rbi-projfin", real:false, type:"bank", geo:"mumbai", sector:"BFSI", imp:"md", stage:"filed",
+  value:"—", parties:"Reserve Bank of India", time:"7 Jun 2026", ver:7,
+  headline:"RBI draft circular on project-finance provisioning — comment window open",
+  sum:"Revised expected-loss provisioning for under-construction projects. <b>Materially affects lending documentation & covenants</b> for infra/real-estate financings.",
+  detail:"Illustrative regulatory entry. Production deep-links to the RBI draft circular PDF and tracks the comment deadline.",
+  firms:[], sources:[{name:"RBI — Notifications", url:"https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx", blurb:"The RBI draft circular is the primary text governing the new provisioning norms. (Illustrative — production links to the specific notification.)"}],
+  docs:[{label:"RBI notifications & draft directions", url:"https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx"}], timeline:[{d:"7 Jun 2026",t:"Draft circular issued; comments invited"}]},
+
+ {id:"pharma-us", real:false, type:"ma", geo:"global", sector:"Pharma & Healthcare", imp:"hi", stage:"announced",
+  value:"$1.6 bn", parties:"Indian pharma acquirer / US seller", time:"7 Jun 2026", ver:6,
+  headline:"Indian pharma major signs definitive agreement for US specialty portfolio",
+  sum:"Cross-border carve-out of a US specialty/generics portfolio. <b>CFIUS & FTC HSR clearances</b> are the gating items; India-side FEMA/ODI structuring underway.",
+  detail:"Illustrative cross-border M&A entry. Production confirms India and US counsel and deep-links to the company's stock-exchange disclosure and press.",
+  firms:[{name:"Shardul Amarchand Mangaldas",side:"Acquirer (India counsel)",lead:[],team:[],note:"Team published on the announcement — wired in production."},
+   {name:"Cravath",side:"Acquirer (US counsel)",lead:[],team:[],note:"Team published on the announcement — wired in production."},
+   {name:"Latham & Watkins",side:"Seller",lead:[],team:[],note:"Team published on the announcement — wired in production."}],
+  sources:[{name:"Economic Times — Markets", url:"https://economictimes.indiatimes.com/markets", blurb:"Primary press report of the definitive agreement and deal value. (Illustrative — production links to the specific article.)"}],
+  docs:[{label:"BSE/NSE disclosure (acquirer)", url:"https://www.bseindia.com/corporates/ann.html"}], timeline:[{d:"7 Jun 2026",t:"Definitive agreement signed"},{d:"Pending",t:"CFIUS & HSR clearances"}]},
+
+ {id:"consumer-drhp", real:false, type:"ipo", geo:"bengaluru", sector:"Technology", imp:"hi", stage:"filed",
+  value:"₹6,500 cr", parties:"Consumer-tech issuer", time:"6 Jun 2026", ver:5,
+  headline:"Consumer-tech unicorn files DRHP for ₹6,500 cr IPO",
+  sum:"DRHP filed with SEBI — <b>fresh issue + OFS</b> mix; pre-IPO secondary completed last quarter. Anchor talks expected once SEBI observations issue.",
+  detail:"Illustrative ECM entry. Production deep-links to the DRHP on the SEBI site and confirms issuer and BRLM counsel.",
+  firms:[{name:"Cyril Amarchand Mangaldas",side:"Issuer",lead:[],team:[],note:"Team published on the DRHP — wired in production."},
+   {name:"Trilegal",side:"BRLMs",lead:[],team:[],note:"Team published on the DRHP — wired in production."},
+   {name:"Sidley Austin",side:"International counsel",lead:[],team:[],note:"Team published on the DRHP — wired in production."}],
+  sources:[{name:"SEBI — Public Issues (DRHP)", url:"https://www.sebi.gov.in/filings/public-issues.html", blurb:"The DRHP filed with SEBI is the primary document for issue structure and risk factors. (Illustrative — production links to the specific DRHP.)"}],
+  docs:[{label:"SEBI public-issue filings (DRHPs)", url:"https://www.sebi.gov.in/filings/public-issues.html"}], timeline:[{d:"6 Jun 2026",t:"DRHP filed with SEBI"}]},
+
+ {id:"sebi-rpt", real:false, type:"reg", geo:"delhi", sector:"BFSI", imp:"md", stage:"inforce",
+  value:"—", parties:"SEBI", time:"6 Jun 2026", ver:6,
+  headline:"SEBI tightens disclosure norms for related-party transactions",
+  sum:"Board-approval thresholds lowered, audit-committee oversight expanded. <b>Listed companies must refresh RPT policies & materiality thresholds</b> before the next AGM cycle.",
+  detail:"Illustrative regulatory entry. Production deep-links to the SEBI circular and tracks the compliance deadline.",
+  firms:[], sources:[{name:"SEBI — Legal/Circulars", url:"https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6&smid=0", blurb:"The SEBI circular is the primary text for the revised RPT thresholds. (Illustrative — production links to the specific circular.)"}],
+  docs:[{label:"SEBI circulars", url:"https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6&smid=0"}], timeline:[{d:"6 Jun 2026",t:"Circular in force"}]},
+
+ {id:"qsr-buyout", real:false, type:"pe", geo:"mumbai", sector:"Consumer & Retail", imp:"lo", stage:"announced",
+  value:"₹2,200 cr", parties:"PE fund / QSR target", time:"6 Jun 2026", ver:3,
+  headline:"Buyout fund acquires controlling stake in regional QSR chain",
+  sum:"Control transaction with management rollover. <b>Leveraged structure</b> with acquisition financing from two domestic lenders; W&I insurance placed.",
+  detail:"Illustrative PE entry. Production confirms fund and promoter counsel and deep-links to the announcement.",
+  firms:[{name:"AZB & Partners",side:"PE fund",lead:[],team:[],note:"Team published on the announcement — wired in production."},
+   {name:"Khaitan & Co",side:"Promoters",lead:[],team:[],note:"Team published on the announcement — wired in production."}],
+  sources:[{name:"Mint — Companies", url:"https://www.livemint.com/companies", blurb:"Primary report of the control transaction and financing. (Illustrative — production links to the specific article.)"}],
+  docs:[], timeline:[{d:"6 Jun 2026",t:"Transaction announced"}]},
+
+ {id:"inbound-auto", real:false, type:"ma", geo:"global", sector:"Industrials", imp:"md", stage:"rumoured",
+  value:"$430 mn", parties:"Global PE / auto-components target", time:"5 Jun 2026", ver:4,
+  headline:"Inbound: global PE platform in talks to acquire Indian auto-components maker",
+  sum:"Inbound control deal would trigger <b>Press Note 3 (land-border) scrutiny</b> and CCI notification. Sector caps and beneficial-ownership disclosures are the pinch-points.",
+  detail:"Illustrative rumoured inbound deal — shows how the tracker flags deals at the negotiation stage with a 'Rumoured' marker before they are confirmed.",
+  firms:[{name:"Trilegal",side:"Acquirer",lead:[],team:[],note:"Team to be confirmed on announcement — wired in production."},
+   {name:"JSA",side:"Target / promoters",lead:[],team:[],note:"Team to be confirmed on announcement — wired in production."}],
+  sources:[{name:"Economic Times", url:"https://economictimes.indiatimes.com", blurb:"Early-stage press report citing sources on the negotiation. (Illustrative — production links to the specific article and labels confidence accordingly.)"}],
+  docs:[], timeline:[{d:"5 Jun 2026",t:"Talks reported (unconfirmed)"}]},
+
+ {id:"saas-tm", real:false, type:"lit", geo:"delhi", sector:"Technology", imp:"lo", stage:"ruling",
+  value:"—", parties:"SaaS Co A v. SaaS Co B", time:"5 Jun 2026", ver:2,
+  headline:"Delhi HC grants interim relief in trademark dispute between SaaS rivals",
+  sum:"Interim injunction restraining use of a deceptively similar mark. <b>Useful precedent</b> for brand-protection strategy in crowded SaaS naming space.",
+  detail:"Illustrative IP disputes entry. Production deep-links to the order on the Delhi HC site / LiveLaw and confirms the appearances.",
+  firms:[{name:"Saikrishna & Associates",side:"Plaintiff",lead:[],team:[],note:"Appearances published in the order — wired in production."},
+   {name:"Anand and Anand",side:"Defendant",lead:[],team:[],note:"Appearances published in the order — wired in production."}],
+  sources:[{name:"LiveLaw", url:"https://www.livelaw.in", blurb:"Report of the interim injunction and reasoning. (Illustrative — production links to the specific article.)"}],
+  docs:[], timeline:[{d:"5 Jun 2026",t:"Interim injunction granted"}]},
+
+ {id:"nbfc-ipo", real:false, type:"ipo", geo:"mumbai", sector:"BFSI", imp:"md", stage:"filed",
+  value:"₹3,000 cr", parties:"NBFC issuer", time:"4 Jun 2026", ver:5,
+  headline:"NBFC sets price band for ₹3,000 cr IPO; anchor book opens",
+  sum:"Price band announced; <b>anchor allocation</b> to a mix of domestic MFs and FPIs. Listing expected within the fortnight — a read on primary-market depth for financials.",
+  detail:"Illustrative ECM entry. Production deep-links to the BSE filing and RHP, and confirms issuer/BRLM counsel.",
+  firms:[{name:"Khaitan & Co",side:"Issuer",lead:[],team:[],note:"Team published on the RHP — wired in production."},
+   {name:"Cyril Amarchand Mangaldas",side:"BRLMs",lead:[],team:[],note:"Team published on the RHP — wired in production."}],
+  sources:[{name:"BSE — Announcements", url:"https://www.bseindia.com/corporates/ann.html", blurb:"BSE filing is the primary record of the price band and anchor allocation. (Illustrative — production links to the specific filing.)"}],
+  docs:[{label:"BSE corporate announcements", url:"https://www.bseindia.com/corporates/ann.html"}], timeline:[{d:"4 Jun 2026",t:"Price band set; anchor book opens"}]},
+
+ {id:"dpdp-rules", real:false, type:"reg", geo:"global", sector:"Technology", imp:"md", stage:"inforce",
+  value:"—", parties:"MeitY", time:"4 Jun 2026", ver:7,
+  headline:"DPDP Rules notified — phased compliance timelines confirmed",
+  sum:"DPDP Rules operationalise consent-manager registration and breach-notification windows. <b>Data-processing agreements & cross-border transfer clauses</b> need a refresh across portfolios.",
+  detail:"Illustrative regulatory entry of broad relevance. Production deep-links to the notification on the MeitY/PIB site.",
+  firms:[], sources:[{name:"PIB / MeitY", url:"https://www.meity.gov.in", blurb:"The notified DPDP Rules are the primary text for compliance timelines. (Illustrative — production links to the specific notification.)"}],
+  docs:[{label:"MeitY notifications", url:"https://www.meity.gov.in"}], timeline:[{d:"4 Jun 2026",t:"Rules notified; phased timelines confirmed"}]}
+];
+
+/* ============================ STATE ============================ */
+let route={name:"feed"};
+let F={geo:"all",type:null,sector:"All Sectors",q:"",firm:"",firm2:"",city:"",stage:""};
+let starred=new Set();
+
+/* ============================ HELPERS ============================ */
+const $=id=>document.getElementById(id);
+function dealFirms(d){return d.firms.map(f=>f.name);}
+function go(r){route=r;window.scrollTo(0,0);render();}
+function resetFilters(){F={geo:"all",type:null,sector:"All Sectors",q:"",firm:"",firm2:"",city:"",stage:""};$("q").value="";}
+function matchesFilters(d){
+  if(F.geo!=="all"&&d.geo!==F.geo)return false;
+  if(F.type&&d.type!==F.type)return false;
+  if(F.sector!=="All Sectors"&&d.sector!==F.sector)return false;
+  if(F.city&&d.geo!==F.city)return false;
+  if(F.stage&&d.stage!==F.stage)return false;
+  if(F.firm&&!dealFirms(d).includes(F.firm))return false;
+  if(F.firm2&&!dealFirms(d).includes(F.firm2))return false;
+  if(F.q){
+    const hay=(d.headline+d.sum+d.detail+d.parties+d.sector+d.firms.map(f=>f.name+" "+(f.lead||[]).map(l=>l.n).join(" ")+" "+(f.team||[]).join(" ")).join(" ")).toLowerCase();
+    if(!hay.includes(F.q.toLowerCase()))return false;
+  }
+  return true;
+}
+function anyFilterActive(){return F.geo!=="all"||F.type||F.sector!=="All Sectors"||F.q||F.firm||F.firm2||F.city||F.stage;}
+
+/* ============================ SIDEBAR ============================ */
+function buildSidebar(){
+  const browse=[{k:"feed",ic:"▤",label:"Deals Feed"},{k:"firms",ic:"⚖",label:"Firms Directory"},{k:"watch",ic:"★",label:"Watchlist"}];
+  $("browseNav").innerHTML=browse.map(b=>`<div class="ni" data-browse="${b.k}"><span class="ic">${b.ic}</span>${b.label}${b.k==="watch"?`<span class="ct" id="starCt">${starred.size}</span>`:""}</div>`).join("");
+  $("geoNav").innerHTML=GEOS.map(g=>{const ct=g.id==="all"?DEALS.length:DEALS.filter(d=>d.geo===g.id).length;
+    return `<div class="ni" data-geo="${g.id}"><span class="dot" style="background:${g.dot}"></span>${g.label}<span class="ct">${ct}</span></div>`}).join("");
+  $("typeNav").innerHTML=Object.entries(TYPES).map(([k,v])=>{const ct=DEALS.filter(d=>d.type===k).length;
+    return `<div class="ni" data-type="${k}"><span class="dot" style="background:${v.c}"></span>${v.label}<span class="ct">${ct}</span></div>`}).join("");
+  $("browseNav").querySelectorAll("[data-browse]").forEach(n=>n.onclick=()=>{const k=n.dataset.browse;
+    if(k==="feed"){resetFilters();go({name:"feed"});}else if(k==="firms")go({name:"firms"});else go({name:"watch"});});
+  $("geoNav").querySelectorAll("[data-geo]").forEach(n=>n.onclick=()=>{F.geo=n.dataset.geo;F.firm="";F.firm2="";go({name:"feed"});});
+  $("typeNav").querySelectorAll("[data-type]").forEach(n=>n.onclick=()=>{F.type=n.dataset.type;go({name:"feed"});});
+}
+function markSidebar(){
+  document.querySelectorAll("aside .ni").forEach(n=>n.classList.remove("active"));
+  if(route.name==="feed"){$("geoNav").querySelector(`[data-geo="${F.geo}"]`)?.classList.add("active");
+    if(F.type)$("typeNav").querySelector(`[data-type="${F.type}"]`)?.classList.add("active");
+    if(!F.type&&F.geo==="all"&&!anyFilterActive())$("browseNav").querySelector('[data-browse="feed"]')?.classList.add("active");}
+  else if(route.name==="firms")$("browseNav").querySelector('[data-browse="firms"]')?.classList.add("active");
+  else if(route.name==="watch")$("browseNav").querySelector('[data-browse="watch"]')?.classList.add("active");
+}
+
+/* ============================ RENDERERS ============================ */
+function typeBadge(d){const t=TYPES[d.type];return `<span class="ttype ${t.cls}">${t.label}</span>`;}
+function verBadge(d){return d.ver>=5?`<span class="ver" title="Corroborated across ${d.ver} independent sources">✓ ${d.ver} sources</span>`:`<span class="ver thin">${d.ver} source${d.ver>1?'s':''}</span>`;}
+
+function dealCard(d){
+  const t=TYPES[d.type], st=STAGES[d.stage], g=CITYLABEL[d.geo];
+  const firms=d.firms.length?`<div class="firms"><b>Counsel:</b> ${d.firms.map(f=>`<span class="fm">${f.name}</span> <span class="side">(${f.side})</span>`).join(" · ")}</div>`:"";
+  return `<div class="card" data-deal="${d.id}">
+    <div class="accentbar" style="background:${t.c}"></div>
+    <div class="r1">${typeBadge(d)}
+      <span class="stage"><span class="sd" style="background:${st.c}"></span>${st.l}</span>
+      ${d.imp==="hi"?'<span class="priority">● PRIORITY</span>':""}
+      ${d.real?'<span class="real">✓ VERIFIED</span>':'<span class="illus">SAMPLE</span>'}
+      ${verBadge(d)}
+      <button class="star ${starred.has(d.id)?'on':''}" data-star="${d.id}">${starred.has(d.id)?'★':'☆'}</button>
+    </div>
+    <h3>${d.headline}</h3>
+    <div class="sum">${d.sum}</div>
+    <div class="meta"><span class="tag geo">${g}</span><span class="tag">${d.sector}</span>
+      ${d.value&&d.value!=="—"?`<span class="tag val">${d.value}</span>`:""}<span class="tag">${d.parties}</span></div>
+    ${firms}
+    <div class="srcrow">${d.sources.map(s=>`<span class="schip">${s.name}</span>`).join("")}
+      <span class="stime">${d.time}</span><span class="go">View deal →</span></div>
+  </div>`;
+}
+
+function renderFeed(title,list,sub){
+  const clear=anyFilterActive()&&route.name==="feed"?`<span class="clearf" id="clearF">✕ Clear filters</span>`:"";
+  let chips=route.name==="feed"?`<div class="fb" id="sectorBar">${SECTORS.map(s=>`<span class="chip ${s===F.sector?'on':''}" data-sec="${s}">${s}</span>`).join("")}</div>`:"";
+  const body=list.length?`<div class="feed">${list.map(dealCard).join("")}</div>`:`<div class="empty">No matching developments. Clear the search or pick another filter.</div>`;
+  $("main").innerHTML=`
+    <div class="demo">⚙️ <span><b>Prototype.</b> <span class="real" style="vertical-align:middle">✓ VERIFIED</span> cards are real, deep-linked items from Bar &amp; Bench (8 Jun 2026). <b>SAMPLE</b> cards show the structure; live data fills them in production.</span></div>
+    ${route.name==="feed"?`<div class="stats" id="stats"></div>`:""}
+    ${chips}
+    <div class="vh"><h2>${title}</h2><span class="sub">${sub||(list.length+(list.length===1?" item":" items"))}</span>${clear}</div>
+    ${body}
+    <div class="foot">Corporate Law Tracker prototype · Headlines &amp; snippets under fair-use linking · Open the primary source &amp; filings before advising.</div>`;
+  if(route.name==="feed")buildStats();
+  bindCards();
+  if(route.name==="feed"){
+    $("sectorBar")?.querySelectorAll("[data-sec]").forEach(c=>c.onclick=()=>{F.sector=c.dataset.sec;render();});
+    $("clearF")&&($("clearF").onclick=()=>{resetFilters();render();});
+  }
+}
+
+function renderFirms(){
+  const names=Object.keys(FIRMS).filter(n=>DEALS.some(d=>dealFirms(d).includes(n)))
+    .sort((a,b)=>cnt(b)-cnt(a));
+  function cnt(n){return DEALS.filter(d=>dealFirms(d).includes(n)).length;}
+  const cards=names.map(n=>{const f=FIRMS[n];const c=cnt(n);
+    const partners=collectPartners(n).length;
+    return `<div class="fcard" data-firm="${encodeURIComponent(n)}">
+      <div class="fnm">${n}</div>
+      <div class="fmeta">${f.city} · ${f.type}</div>
+      <div class="ffocus">${f.focus}</div>
+      <div class="fstat"><div><b>${c}</b><span>deals tracked</span></div><div><b>${partners}</b><span>partners seen</span></div></div>
+    </div>`}).join("");
+  $("main").innerHTML=`
+    <div class="demo">⚖️ <span><b>Firms Directory.</b> Click a firm to see only its deals, the partners and teams involved, and links out to each matter.</span></div>
+    <div class="vh"><h2>Firms Directory</h2><span class="sub">${names.length} firms tracked</span></div>
+    <div class="firmgrid">${cards}</div>
+    <div class="foot">Firm profiles are factual descriptions; deal-level teams are sourced per matter.</div>`;
+  $("main").querySelectorAll("[data-firm]").forEach(c=>c.onclick=()=>go({name:"firm",id:decodeURIComponent(c.dataset.firm)}));
+}
+
+function collectPartners(name){
+  const set=new Map();
+  DEALS.forEach(d=>d.firms.filter(f=>f.name===name).forEach(f=>(f.lead||[]).forEach(l=>set.set(l.n,l.role))));
+  return [...set.entries()].map(([n,role])=>({n,role}));
+}
+function renderFirm(name){
+  const f=FIRMS[name]; if(!f){go({name:"firms"});return;}
+  const list=DEALS.filter(d=>dealFirms(d).includes(name));
+  const partners=collectPartners(name);
+  const pchips=partners.length?`<div class="pchips">${partners.map(p=>`<span class="pchip">${p.n}${p.role?` <span class="pr">· ${p.role}</span>`:""}</span>`).join("")}</div>`:`<div class="note" style="margin-top:10px">Named partners populate from deal announcements as the live feed runs.</div>`;
+  $("main").innerHTML=`
+    <span class="back" onclick="go({name:'firms'})">← Firms Directory</span>
+    <div class="firmhero">
+      <h1>${name}</h1>
+      <div class="fmeta">${f.city} · ${f.type} firm</div>
+      <div class="ffocus">${f.focus}</div>
+      <a class="fweb" href="${f.web}" target="_blank" rel="noopener">Visit firm website ↗</a>
+      <div style="margin-top:16px"><h4 style="font-size:10.5px;letter-spacing:1.3px;text-transform:uppercase;color:var(--ink3);font-weight:750;margin-bottom:4px">Partners seen on tracked deals</h4>${pchips}</div>
+    </div>
+    <div class="vh"><h2>Deals · ${name}</h2><span class="sub">${list.length} tracked</span></div>
+    <div class="feed">${list.map(dealCard).join("")}</div>`;
+  bindCards();
+}
+
+function renderDeal(id){
+  const d=DEALS.find(x=>x.id===id); if(!d){go({name:"feed"});return;}
+  const t=TYPES[d.type], st=STAGES[d.stage];
+  const firmsHtml=d.firms.length?d.firms.map(f=>{
+    const lead=(f.lead&&f.lead.length)?f.lead.map(l=>`<div class="lead"><b>${l.n}</b> <span class="role">— ${l.role}</span></div>`).join(""):"";
+    const team=(f.team&&f.team.length)?`<div class="teamline"><span class="lbl">Team:</span> ${f.team.join(" · ")}</div>`:"";
+    const note=f.note?`<div class="note" style="margin-top:5px">${f.note}</div>`:"";
+    return `<div class="firmblk"><div class="fh"><span class="fn" onclick="go({name:'firm',id:'${f.name.replace(/'/g,"\\'")}'})">${f.name}</span><span class="sidetag">${f.side}</span></div>${lead}${team}${note}</div>`;
+  }).join(""):`<div class="note">No counsel recorded for this item.</div>`;
+
+  const srcHtml=d.sources.map(s=>`<div class="srcitem"><div class="st"><span class="snm">${s.name}</span><a class="sgo" href="${s.url}" target="_blank" rel="noopener">Open article ↗</a></div><div class="sblurb">${s.blurb}</div></div>`).join("");
+  const docsHtml=d.docs&&d.docs.length?d.docs.map(dc=>`<div class="doc" onclick="window.open('${dc.url}','_blank','noopener')"><span class="di">📄</span>${dc.label}<span style="margin-left:auto;color:var(--ink3)">↗</span></div>`).join(""):`<div class="note">No public documents linked yet.</div>`;
+  const tl=d.timeline&&d.timeline.length?`<div class="sec"><h4>Timeline</h4><div class="tl">${d.timeline.map(e=>`<div class="ev"><div class="ed">${e.d}</div><div class="et">${e.t}</div></div>`).join("")}</div></div>`:"";
+  const related=DEALS.filter(x=>x.id!==d.id&&(x.sector===d.sector||x.firms.some(f=>dealFirms(d).includes(f.name)))).slice(0,3);
+  const relHtml=related.length?`<div class="sec"><h4>Related deals</h4>${related.map(r=>`<div class="doc" onclick="go({name:'deal',id:'${r.id}'})"><span class="di">${TYPES[r.type].label==="M&A"?"🤝":"●"}</span>${r.headline}<span style="margin-left:auto;color:var(--ink3)">→</span></div>`).join("")}</div>`:"";
+
+  $("main").innerHTML=`
+   <span class="back" onclick="go({name:'feed'})">← Back to feed</span>
+   <div class="dd">
+     <div class="dd-head">${typeBadge(d)}
+       <span class="stage"><span class="sd" style="background:${st.c}"></span>${st.l}</span>
+       ${d.imp==="hi"?'<span class="priority">● PRIORITY</span>':""}
+       ${d.real?'<span class="real">✓ VERIFIED · REAL SOURCE</span>':'<span class="illus">SAMPLE STRUCTURE</span>'}
+       ${verBadge(d)}
+       <button class="star ${starred.has(d.id)?'on':''}" data-star="${d.id}" style="margin-left:6px">${starred.has(d.id)?'★':'☆'}</button>
+     </div>
+     <h1>${d.headline}</h1>
+     <div class="lede">${d.sum}</div>
+     <div class="dd-grid">
+       <div>
+         <div class="sec"><h4>What happened</h4><p>${d.detail}</p></div>
+         <div class="sec"><h4>Counsel & teams</h4>${firmsHtml}</div>
+         <div class="sec"><h4>Sources · what each adds <span style="font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink4)">(${d.sources.length})</span></h4>${srcHtml}</div>
+         <div class="sec"><h4>Public documents</h4>${docsHtml}</div>
+       </div>
+       <div>
+         <div class="sec"><h4>Deal facts</h4><div class="side-meta">
+           <div class="mrow"><span class="mk">Type</span><span class="mv">${t.label}</span></div>
+           <div class="mrow"><span class="mk">Stage</span><span class="mv">${st.l}</span></div>
+           <div class="mrow"><span class="mk">Value</span><span class="mv">${d.value}</span></div>
+           <div class="mrow"><span class="mk">Parties</span><span class="mv">${d.parties}</span></div>
+           <div class="mrow"><span class="mk">Sector</span><span class="mv">${d.sector}</span></div>
+           <div class="mrow"><span class="mk">City</span><span class="mv">${CITYLABEL[d.geo]}</span></div>
+           <div class="mrow"><span class="mk">Sources</span><span class="mv">${d.ver} corroborating</span></div>
+           <div class="mrow"><span class="mk">Updated</span><span class="mv">${d.time}</span></div>
+         </div></div>
+         ${tl}
+         ${relHtml}
+       </div>
+     </div>
+   </div>`;
+  $("main").querySelectorAll("[data-star]").forEach(b=>b.onclick=e=>{e.stopPropagation();toggleStar(b.dataset.star);render();});
+}
+
+/* ============================ STATS (clickable + hover) ============================ */
+function buildStats(){
+  const groups=[
+   {n:DEALS.length,l:"Developments tracked",d:"▲ live feed",list:DEALS},
+   {n:DEALS.filter(d=>["ma","ipo","pe"].includes(d.type)).length,l:"Active deals · M&A/PE/IPO",d:"▲ 3 new today",list:DEALS.filter(d=>["ma","ipo","pe"].includes(d.type))},
+   {n:DEALS.filter(d=>d.type==="ipo").length,l:"IPO / ECM in motion",d:"DRHP & QIP pipeline",muted:true,list:DEALS.filter(d=>d.type==="ipo")},
+   {n:DEALS.filter(d=>d.type==="reg").length,l:"Regulatory actions",d:"▲ comment windows open",list:DEALS.filter(d=>d.type==="reg")}
+  ];
+  $("stats").innerHTML=groups.map((g,i)=>`<div class="stat" data-stat="${i}">
+    <div class="n">${g.n}</div><div class="l">${g.l}</div><div class="d ${g.muted?'muted':''}">${g.d}</div>
+    <div class="pop"><div class="ph">${g.l} — click to open</div>${g.list.map(d=>`<div class="pr" data-deal="${d.id}"><span class="pt ${TYPES[d.type].cls}">${TYPES[d.type].label}</span><span class="px">${d.headline}</span></div>`).join("")}</div>
+  </div>`).join("");
+  $("stats").querySelectorAll(".pop .pr").forEach(r=>r.onclick=e=>{e.stopPropagation();go({name:"deal",id:r.dataset.deal});});
+}
+
+/* ============================ RAIL ============================ */
+function buildRail(){
+  const tally={};DEALS.forEach(d=>d.firms.forEach(f=>tally[f.name]=(tally[f.name]||0)+1));
+  const ranked=Object.entries(tally).sort((a,b)=>b[1]-a[1]).slice(0,8);
+  $("league").innerHTML=ranked.map((r,i)=>`<div class="lr" data-firm="${encodeURIComponent(r[0])}"><span class="rk">${i+1}</span><span class="fn">${r[0]}</span><span class="dl">${r[1]}</span></div>`).join("");
+  $("league").querySelectorAll("[data-firm]").forEach(n=>n.onclick=()=>go({name:"firm",id:decodeURIComponent(n.dataset.firm)}));
+  const radar=DEALS.filter(d=>d.type==="reg"||d.type==="bank");
+  $("radar").innerHTML=radar.map(d=>`<div class="reg" data-deal="${d.id}"><div class="when">${d.sources[0].name.split('—')[0].trim()} · ${d.time}</div><div class="what">${d.headline}</div></div>`).join("");
+  $("radar").querySelectorAll("[data-deal]").forEach(n=>n.onclick=()=>go({name:"deal",id:n.dataset.deal}));
+  $("cov").innerHTML="Bar &amp; Bench · LiveLaw · Mint · Economic Times · Business Standard · VCCircle · BSE / NSE · SEBI · CCI · IBBI · RBI · PIB · FT (internal)";
+}
+
+/* ============================ INTERACTIONS ============================ */
+function bindCards(){
+  $("main").querySelectorAll("[data-deal]").forEach(c=>{
+    if(c.classList.contains("pr"))return;
+    c.onclick=e=>{if(e.target.closest("[data-star]"))return;go({name:"deal",id:c.dataset.deal});};
+  });
+  $("main").querySelectorAll("[data-star]").forEach(b=>b.onclick=e=>{e.stopPropagation();toggleStar(b.dataset.star);render();});
+}
+function toggleStar(id){starred.has(id)?starred.delete(id):starred.add(id);const el=$("starCt");if(el)el.textContent=starred.size;}
+
+/* ============================ ADVANCED SEARCH ============================ */
+function buildAdv(){
+  const firmOpts=`<option value="">Any firm</option>`+Object.keys(FIRMS).map(n=>`<option>${n}</option>`).join("");
+  $("aFirm").innerHTML=firmOpts; $("aFirm2").innerHTML=firmOpts;
+  $("aCity").innerHTML=`<option value="">Any city</option>`+Object.entries(CITYLABEL).map(([k,v])=>`<option value="${k}">${v}</option>`).join("");
+  $("aSector").innerHTML=SECTORS.map(s=>`<option value="${s}">${s}</option>`).join("");
+  $("aType").innerHTML=`<option value="">Any type</option>`+Object.entries(TYPES).map(([k,v])=>`<option value="${k}">${v.label}</option>`).join("");
+  $("aStage").innerHTML=`<option value="">Any stage</option>`+Object.entries(STAGES).map(([k,v])=>`<option value="${k}">${v.l}</option>`).join("");
+  $("advOpen").onclick=()=>{$("adv").classList.add("on");
+    $("aFirm").value=F.firm;$("aFirm2").value=F.firm2;$("aCity").value=F.city;$("aSector").value=F.sector;$("aType").value=F.type||"";$("aStage").value=F.stage;$("aText").value=F.q;};
+  $("adv").onclick=e=>{if(e.target.id==="adv")$("adv").classList.remove("on");};
+  $("advReset").onclick=()=>{["aFirm","aFirm2","aCity","aType","aStage","aText"].forEach(i=>$(i).value="");$("aSector").value="All Sectors";};
+  $("advApply").onclick=()=>{
+    F.firm=$("aFirm").value;F.firm2=$("aFirm2").value;F.city=$("aCity").value;F.sector=$("aSector").value;
+    F.type=$("aType").value||null;F.stage=$("aStage").value;F.q=$("aText").value;F.geo="all";$("q").value=F.q;
+    $("adv").classList.remove("on");go({name:"feed"});
+  };
+}
+
+/* ============================ MAIN RENDER ============================ */
+function render(){
+  markSidebar();
+  if(route.name==="feed"){
+    const list=DEALS.filter(matchesFilters);
+    let title="All India",bits=[];
+    if(F.firm)bits.push(F.firm); if(F.firm2)bits.push("+ "+F.firm2);
+    if(F.city)bits.push(CITYLABEL[F.city]); else if(F.geo!=="all")bits.push(CITYLABEL[F.geo]);
+    if(F.type)bits.push(TYPES[F.type].label); if(F.stage)bits.push(STAGES[F.stage].l);
+    if(F.sector!=="All Sectors")bits.push(F.sector);
+    if(bits.length)title=bits.join(" · ");
+    renderFeed(title,list);
+  }
+  else if(route.name==="firms")renderFirms();
+  else if(route.name==="firm")renderFirm(route.id);
+  else if(route.name==="deal")renderDeal(route.id);
+  else if(route.name==="watch")renderFeed("★ Watchlist",DEALS.filter(d=>starred.has(d.id)),starred.size+" starred");
+}
+
+/* ============================ INIT ============================ */
+$("q").addEventListener("input",e=>{F.q=e.target.value;if(route.name!=="feed")route={name:"feed"};render();});
+document.addEventListener("keydown",e=>{if(e.key==="/"&&document.activeElement.id!=="q"&&!$("adv").classList.contains("on")){e.preventDefault();$("q").focus();}
+  if(e.key==="Escape")$("adv").classList.remove("on");});
+$("refresh").onclick=()=>{const u=$("updated");u.textContent="Refreshing…";setTimeout(()=>u.textContent="Updated just now",700);};
+$("theme").onclick=()=>{const h=document.documentElement;h.dataset.theme=h.dataset.theme==="dark"?"light":"dark";};
+
+buildSidebar();buildRail();buildAdv();render();
+</script>
+</body>
+</html>
