@@ -1,0 +1,44 @@
+name: Update Corporate Law Tracker
+
+on:
+  schedule:
+    - cron: "30 17 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: clt-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install engine dependencies
+        working-directory: engine
+        run: npm install --no-audit --no-fund
+      - name: Run the pipeline
+        working-directory: engine
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLT_MAX_NEW: "12"
+        run: npm run build
+      - name: Commit & push if changed
+        run: |
+          if [[ -n "$(git status --porcelain index.html)" ]]; then
+            git config user.name  "corporate-law-tracker-bot"
+            git config user.email "actions@github.com"
+            git add index.html
+            git commit -m "chore: nightly deal update ($(date -u +%Y-%m-%d))"
+            git push
+          else
+            echo "No changes to commit."
+          fi
