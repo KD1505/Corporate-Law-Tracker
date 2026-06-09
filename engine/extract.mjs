@@ -125,6 +125,9 @@ export function extractItem(item) {
     city: geo === "mumbai" ? "Mumbai" : geo === "delhi" ? "Delhi-NCR" : geo === "bengaluru" ? "Bengaluru" : geo === "global" ? "Cross-border" : "India",
     sector,
     imp: "md",
+    verified: false,      // free rule-based extract = "Reported" until an official source corroborates
+    implication: "",      // authored by AI mode or curators
+    framework: [],        // authored by AI mode or curators
     stage, value,
     parties: item.headline.replace(/^[^—:]*(acts on|advises|advise|advised|on|—)\s*/i, "").slice(0, 90) || "See source",
     time: date,

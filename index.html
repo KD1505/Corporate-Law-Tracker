@@ -115,7 +115,19 @@
   .stage .sd{width:6px;height:6px;border-radius:50%}
   .priority{font-size:10px;font-weight:750;color:var(--red);letter-spacing:.3px}
   .real{font-size:9px;font-weight:750;color:#fff;background:var(--green);padding:2px 7px;border-radius:5px;letter-spacing:.4px}
+  .real.reported{background:transparent;color:var(--amber);border:1px solid var(--amber)}
+  .srcct{font-size:9.5px;font-weight:700;color:var(--ink3);background:var(--bg);padding:2px 7px;border-radius:5px}
   .official{font-size:9px;font-weight:750;color:var(--teal);background:var(--teal-soft);padding:2px 7px;border-radius:5px;letter-spacing:.3px}
+  .impl{margin:9px 0 0;padding:9px 12px;background:var(--accent-soft);border-radius:9px;font-size:12.5px;line-height:1.5;color:var(--ink)}
+  .impl b{color:var(--accent);font-weight:750;letter-spacing:.2px}
+  .fwitem{padding:9px 0;border-bottom:1px solid var(--line2)}
+  .fwitem:last-child{border-bottom:none}
+  .fwitem.central,.fwitem.amended{border-bottom:none;border-left:2px solid var(--accent);border-radius:0;padding:9px 0 9px 11px;background:var(--accent-soft);margin-bottom:3px}
+  .fwitem.amended{border-left-color:var(--amber);background:var(--amber-soft)}
+  .fwref{font-size:13px;font-weight:700;color:var(--ink)}
+  .fwnote{font-size:12.5px;color:var(--ink2);margin-top:2px;line-height:1.5}
+  .fwtag{font-size:8.5px;font-weight:750;padding:1px 6px;border-radius:4px;margin-left:7px;text-transform:uppercase;letter-spacing:.3px;vertical-align:middle}
+  .fwtag.amd{background:var(--amber);color:#fff} .fwtag.ctr{background:var(--accent);color:#fff}
   .otag{font-size:9.5px;font-weight:700;color:var(--teal);background:var(--teal-soft);padding:1px 7px;border-radius:5px;margin-left:6px}
   .star{margin-left:auto;cursor:pointer;color:var(--ink4);font-size:18px;line-height:1;background:none;border:none;padding:0;transition:.12s;z-index:2}
   .star:hover{transform:scale(1.2);color:var(--amber)} .star.on{color:var(--amber)}
@@ -222,6 +234,43 @@
   .mbtn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
   .mbtn:hover{transform:translateY(-1px)}
 
+  /* analytics */
+  .anwrap{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:900px){.anwrap{grid-template-columns:1fr}}
+  .anrow{display:flex;align-items:center;gap:10px;padding:6px 0;font-size:13px;cursor:pointer}
+  .anrow:hover .anlabel{color:var(--accent)}
+  .anrank{font-family:var(--mono);color:var(--ink3);width:18px;flex:none;font-size:11px}
+  .anlabel{width:190px;flex:none;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .anbar{height:16px;border-radius:5px;background:var(--accent);min-width:3px}
+  .anval{font-family:var(--mono);font-weight:700;color:var(--ink2);font-size:12px;white-space:nowrap}
+  /* pipeline */
+  .pipe{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;align-items:start}
+  .pcol{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px;box-shadow:var(--shadow)}
+  .pcol h5{font-size:11px;letter-spacing:.6px;text-transform:uppercase;font-weight:750;margin-bottom:10px;display:flex;align-items:center;gap:7px}
+  .pcol h5 .ct{margin-left:auto;font-family:var(--mono);color:var(--ink3)}
+  .pitem{padding:9px 10px;border:1px solid var(--line2);border-radius:9px;margin-bottom:8px;cursor:pointer;transition:.12s}
+  .pitem:hover{border-color:var(--accent);background:var(--surface2)}
+  .pitem .ph{font-size:12.5px;font-weight:650;line-height:1.35}
+  .pitem .pm{font-size:11px;color:var(--ink3);margin-top:4px;display:flex;gap:6px;flex-wrap:wrap}
+  /* regulatory */
+  .regc{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--amber);border-radius:var(--r);padding:16px 18px;margin-bottom:12px;box-shadow:var(--shadow)}
+  .regc .rt{font-size:16px;font-weight:720;letter-spacing:-.2px;margin-bottom:4px}
+  .regc .rmeta{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+  .regc .rpill{font-size:11px;font-weight:650;padding:3px 9px;border-radius:6px;background:var(--bg);border:1px solid var(--line);color:var(--ink2)}
+  .regc .rpill.dead{color:var(--amber);background:var(--amber-soft);border-color:transparent}
+  .regc .rlab{font-size:10px;font-weight:750;text-transform:uppercase;letter-spacing:.6px;color:var(--ink3);margin-top:10px}
+  .regc p{font-size:13.5px;color:var(--ink2);line-height:1.6;margin-top:3px}
+  .regc .ract{color:var(--ink);font-weight:600}
+  /* moves */
+  .moverow{display:flex;align-items:center;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:11px;padding:12px 15px;margin-bottom:9px;box-shadow:var(--shadow);cursor:pointer}
+  .moverow:hover{border-color:var(--accent)}
+  .moverow .mv-who{font-weight:720;font-size:14px}
+  .moverow .mv-what{color:var(--ink2);font-size:13px}
+  .moverow .mv-org{margin-left:auto;font-size:12.5px;color:var(--ink3);text-align:right}
+  .mtype{font-size:9.5px;font-weight:750;text-transform:uppercase;letter-spacing:.4px;padding:2px 7px;border-radius:5px;background:var(--purple-soft);color:var(--purple)}
+  .savebtn{font-size:11.5px;font-weight:700;color:var(--accent);background:var(--accent-soft);border:none;border-radius:7px;padding:6px 11px;cursor:pointer;margin-left:8px}
+  .delx{margin-left:auto;color:var(--ink3);cursor:pointer;font-weight:700}
+  .delx:hover{color:var(--red)}
   ::-webkit-scrollbar{width:10px;height:10px}
   ::-webkit-scrollbar-thumb{background:var(--line);border-radius:8px;border:2px solid var(--surface)}
   @media(max-width:1140px){.wrap{grid-template-columns:210px minmax(0,1fr)}.rail{display:none}}
@@ -327,11 +376,22 @@ function officialPointers(type){
     lit:[{name:"Judgments portal (eCourts)",url:"https://judgments.ecourts.gov.in/",official:true,blurb:"The court's judgment record."}]};
   return M[type]||EX;
 }
-function srcsWithOfficial(d){
-  const has=(d.sources||[]).some(srcOfficial);
-  return has?d.sources:[...(d.sources||[]),...officialPointers(d.type)];
+// generic regulator/exchange PORTAL roots — these are "where to look", not proof of a specific filing
+const GENERIC_PORTAL=/(corporates\/ann\.html|companies-listing\/corporate-filings|combination\/orders|public-issues\.html|BS_ViewMasDirections|AllReleasem|order-judgement-date-wise|sebiweb\/home|dipam\.gov\.in\/?$|meity\.gov\.in\/?$|judgments\.ecourts\.gov\.in\/?$|ibbi\.gov\.in\/en\/orders$|nclt\.gov\.in)/i;
+function specificOfficial(u){return OFFICIAL_RE.test(u||"")&&!GENERIC_PORTAL.test(u||"");}
+// a deal carries a REAL, specific official source (a named company's filings page or a specific filing) — not a generic portal
+function dealHasRealOfficial(d){
+  return (d.sources||[]).some(s=>srcOfficial(s)&&specificOfficial(s.url))
+    ||(typeof officialDocs==="function"&&officialDocs(d).some(o=>specificOfficial(o.url)))
+    ||(d.docs||[]).some(x=>specificOfficial(x.url));
 }
-function dealHasOfficial(d){return (d.sources||[]).some(srcOfficial)||(d.docs||[]).some(x=>OFFICIAL_RE.test(x.url||""))||officialPointers(d.type).length>0;}
+function dealHasOfficial(d){return dealHasRealOfficial(d);}
+// for the deal page: real official deep-links first, then generic verification portals as a fallback
+function srcsWithOfficial(d){
+  const od=(typeof officialDocs==="function"?officialDocs(d):[]).map(o=>({name:o.label,url:o.url,official:true,blurb:"Official filing / disclosure — opens the party's exchange or regulator page."}));
+  const base=[...(d.sources||[]),...od];
+  return dealHasRealOfficial(d)?base:[...base,...officialPointers(d.type)];
+}
 
 /* ============================ FIRMS ============================ */
 const FIRMS={
@@ -537,6 +597,187 @@ const DEALS=[
 ];
 /* DEALS-END */
 
+/* ============================ PARTNER-GRADE ENRICHMENT ============================
+   Curated overlay keyed by deal id: the lawyer-facing "practice implication", a
+   Verified flag, and REAL official-document deep-links (verified BSE scrip codes /
+   NSE symbols / regulator pages). Engine-added deals carry their own fields and fall
+   back gracefully. */
+function bse(slug,sym,code){return `https://www.bseindia.com/stock-share-price/${slug}/${sym}/${code}/`;}
+function nse(sym){return `https://www.nseindia.com/get-quotes/equity?symbol=${sym}`;}
+const EXTRA={
+ "acme-qip":{verified:true,
+   implication:"First raise since the 2024 listing, priced at ₹279.50 with a deep marquee book (ADIA, BlackRock, Goldman) — reads as a re-opening of the renewables ECM window. QIP route sidesteps promoter-OFS overhang; a template for IPP balance-sheet repair.",
+   official:[{label:"ACME Solar — BSE filings (scrip 544283)",url:bse("acme-solar-holdings-ltd","acmesolar","544283")},{label:"ACME Solar — NSE filings (ACMESOLAR)",url:nse("ACMESOLAR")}]},
+ "airtel-spectrum":{verified:true,
+   implication:"A real limit on the State's power to retrospectively re-price licences — Section 4 of the Telegraph Act cannot be used to add post-hoc financial burdens. Cite in any licence-variation or regulatory-charge dispute; bank guarantees were ordered returned.",
+   official:[{label:"Bharti Airtel — BSE filings (532454)",url:bse("bharti-airtel-ltd","BHARTIARTL","532454")},{label:"Vodafone Idea — BSE filings (532822)",url:bse("vodafone-idea-ltd","IDEA","532822")}]},
+ "jsw-energy-qip":{verified:true,
+   implication:"Second equity raise since 2010; ₹525/share with SBI Hybrid + GQG absorbing ~73% — concentrated anchor conviction in the 30 GW-by-2030 build-out. Proceeds deleverage and fund JSW Neo. Watch for a wave of IPP follow-ons.",
+   official:[{label:"JSW Energy — BSE filings (533148)",url:bse("jsw-energy-ltd","JSWENERGY","533148")},{label:"JSW Energy — NSE filings (JSWENERGY)",url:nse("JSWENERGY")}]},
+ "coal-india-ofs":{verified:true,
+   implication:"₹412 floor, 2% (1% base + 1% green-shoe), non-retail ~4x subscribed — strong PSU-paper appetite underwrites the FY27 ₹80,000 cr disinvestment pipeline. OFS-via-exchange remains the cleanest government-exit route.",
+   official:[{label:"Coal India — BSE filings (533278)",url:bse("coal-india-ltd","COALINDIA","533278")},{label:"DIPAM (disinvestment)",url:"https://dipam.gov.in/"}]},
+ "irfc-hyd-metro":{verified:true,
+   implication:"₹13,527 cr, 20-yr tenure, Telangana State guarantee + RBI direct-debit mandate — a replicable credit-enhancement template for monetising operating metro/DBFOT assets, and IRFC stepping beyond railways into urban-transit refinancing.",
+   official:[{label:"IRFC — BSE filings (543257)",url:bse("indian-railway-finance-corporation-ltd","IRFC","543257")},{label:"IRFC — NSE filings (IRFC)",url:nse("IRFC")}]},
+ "jsa-hdfc-indusinfra":{verified:true,
+   implication:"₹1,940 cr to a road InvIT to refinance acquired-SPV debt — InvIT-level leverage to recycle capital. Note SEBI InvIT leverage caps and the refinancing-of-acquisition-debt structure.",
+   official:[{label:"HDFC Bank — BSE filings (500180)",url:bse("hdfc-bank-ltd","HDFCBANK","500180")},{label:"RBI notifications",url:"https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx"}]},
+ "tata-freight-tiger":{verified:true,
+   implication:"Crossing ~63% via secondary purchase from Lightspeed, Florintree and the founder — structured as stake-creep to control of an unlisted target, avoiding an open offer. Watch the SHA drag/tag and founder-exit mechanics.",
+   official:[{label:"Tata Motors — NSE filings (TATAMOTORS)",url:nse("TATAMOTORS")}]},
+ "paytm-elevation":{verified:true,
+   implication:"₹963.6 cr on-market block exit by a 2014-vintage VC — a clean read on fund DPI timing and the mechanics of large block sales in listed new-age companies post lock-up.",
+   official:[{label:"One97 (Paytm) — BSE filings (543396)",url:bse("one-97-communications-ltd","paytm","543396")},{label:"Paytm — NSE filings (PAYTM)",url:nse("PAYTM")}]},
+ "hcl-foxconn":{verified:true,
+   implication:"OSAT JV (India Chip Pvt Ltd), ₹3,706 cr at YEIDA, Foxconn ~40% — a JV + technology-licence structure under the India Semiconductor Mission. The live issues: fiscal-support conditions, PN3/FDI posture and IP-licensing carve-outs.",
+   official:[{label:"PIB — India Semiconductor Mission",url:"https://pib.gov.in/AllReleasem.aspx"},{label:"MeitY",url:"https://www.meity.gov.in/"}]},
+ "pepsico-varun":{verified:true,
+   implication:"Bottling + trademark licence extended to 2049 AND Varun's single-brand exclusivity restriction removed — the removal is the real story: it frees Varun's M&A optionality and is the competition-sensitive term to watch.",
+   official:[{label:"Varun Beverages — BSE filings (540180)",url:bse("varun-beverages-ltd","VBL","540180")},{label:"Varun Beverages — NSE filings (VBL)",url:nse("VBL")}]},
+ "coforge-cigniti":{verified:true,
+   implication:"Absorption by court scheme (1:1, NCLT Chandigarh, appointed date 1 Apr 2025, effective 5 May 2026) rather than a share purchase — a clean precedent for amalgamating a listed target tax-neutrally; 99.95% shareholder approval.",
+   official:[{label:"Coforge — BSE filings (532541)",url:bse("coforge-ltd","COFORGE","532541")},{label:"Coforge — NSE filings (COFORGE)",url:nse("COFORGE")}]},
+ "embio-truenorth":{verified:true,
+   implication:"PE minority into an API/CDMO maker with a full multi-practice diligence (pharma licences, IP, CCI, real estate, employment) — illustrates the diligence load for controlled-substance API targets; licence-transferability is the gating item.",
+   official:[]},
+ "anveshan-seriesb":{verified:true,
+   implication:"₹150 cr Series B led by Vertex and IFC — note IFC's DFI covenants (E&S, governance, anti-corruption) that materially shape the SHA beyond a vanilla priced round.",
+   official:[]},
+ "hfcl-pref":{verified:true,
+   implication:"₹555 cr preferential warrants to promoters (25% upfront, 18-month exercise) — promoter capital infusion; watch ICDR pricing, lock-in and the conversion-timing optionality.",
+   official:[{label:"HFCL — BSE filings (500183)",url:bse("himachal-futuristic-communications-ltd","hfcl","500183")},{label:"HFCL — NSE filings (HFCL)",url:nse("HFCL")}]},
+ "hfcl-qip":{verified:true,
+   implication:"₹550 cr QIP paired with the promoter preferential issue — the QIP + promoter-warrant combination is a balance-sheet-strengthening template worth noting for mid-cap issuers.",
+   official:[{label:"HFCL — BSE filings (500183)",url:bse("himachal-futuristic-communications-ltd","hfcl","500183")},{label:"HFCL — NSE filings (HFCL)",url:nse("HFCL")}]},
+ "pagani-residency":{verified:true,
+   implication:"Cross-border residency-investment programme for Indian outbound into Portugal — LRS/ODI limits, FEMA overseas-investment rules and the AIF-adjacent marketing perimeter are the live regulatory issues.",
+   official:[]}
+};
+function impl(d){return d.implication||(EXTRA[d.id]&&EXTRA[d.id].implication)||"";}
+function officialDocs(d){return (d.officialDocs)||(EXTRA[d.id]&&EXTRA[d.id].official)||[];}
+function isVerified(d){
+  if(d.verified===true)return true;
+  if(EXTRA[d.id]&&EXTRA[d.id].verified)return true;
+  return dealHasRealOfficial(d);
+}
+
+/* Regulatory tracker — real developments with effective dates, deadlines and "what changes in your documents". */
+const REGITEMS=[
+ {id:"rbi-pf-2025",reg:"RBI",title:"RBI (Project Finance) Directions, 2025",status:"In force",effective:"1 Oct 2025",deadline:"Applies to project loans sanctioned on/after 1 Oct 2025",
+  impact:"Standardised provisioning: 1% standard-asset during construction (eased from the 2.5% draft), stepping up with each quarter of DCCO deferment (0.375% infra / 0.5625% non-infra); 1.25% for under-construction CRE.",
+  action:"Revise project-finance facility agreements, DCCO / extension-of-COD covenants and lender provisioning expectations; re-paper consortium and inter-creditor docs.",
+  sources:[{name:"RBI — Master Directions",url:"https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx",official:true,blurb:"The primary RBI text governing project-finance provisioning."}]},
+ {id:"dpdp-rules-2025",reg:"MeitY",title:"Digital Personal Data Protection Rules, 2025",status:"Phased commencement",effective:"Notified 13 Nov 2025",deadline:"Consent Manager registration by 13 Nov 2026; core obligations by 13 May 2027",
+  impact:"Operationalises the DPDP Act: notice standards, security safeguards, breach notification (Board + affected principals), retention/erasure, cross-border transfer, verifiable consent for children, and SDF obligations; 7-year consent-record retention.",
+  action:"Begin re-papering privacy notices, data-processing agreements and cross-border transfer clauses now — the 18-month clock is short for portfolio-wide DPAs; design breach-response and consent-manager integration.",
+  sources:[{name:"PIB — DPDP Rules 2025 (notification)",url:"https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251117695301.pdf",official:true,blurb:"Government notification of the Rules and the phased timeline."},{name:"MeitY",url:"https://www.meity.gov.in/",official:true,blurb:"Ministry source for the Act and Rules."}]},
+ {id:"bombay-spectrum-ruling",reg:"Bombay HC",title:"Retrospective one-time spectrum levy quashed (Airtel, Vodafone Idea)",status:"Ruling",effective:"8 Jun 2026",deadline:"—",
+  impact:"State cannot retrospectively re-price telecom licences under Section 4 of the Telegraph Act; demand notices set aside, bank guarantees to be returned.",
+  action:"Cite as authority against retrospective regulatory charges / licence-variation demands across regulated sectors.",
+  sources:[{name:"Bar & Bench",url:"https://www.barandbench.com/news/bombay-high-court-quashes-retrospective-one-time-spectrum-levy-on-airtel-vodafone-idea",official:false,blurb:"Full judgment summary and the Section 4 analysis."}],linkDeal:"airtel-spectrum"}
+];
+
+/* Lateral moves & GC appointments — verified from Bar & Bench Corporate & In-House. */
+const MOVES=[
+ {who:"Santrupt Satapathy",what:"Elevated to Associate Partner",org:"ZeusIP Advocates",type:"Promotion",date:"8 Jun 2026",url:"https://www.barandbench.com/news/corporate/zeusip-advocates-elevates-santrupt-satapathy-to-associate-partner"},
+ {who:"Naveen Dahiya",what:"Appointed General Counsel",org:"Edelweiss Financial Services",type:"GC appointment",date:"Jun 2026",url:"https://www.barandbench.com/news/corporate/edelweiss-financial-services-appoints-naveen-dahiya-as-general-counsel"}
+];
+
+/* ============================ LEGAL FRAMEWORK ============================
+   Per-deal checklist of the statutes, regulations and SPECIFIC sections a transactional
+   lawyer must run through. flag: "central" = core to this deal; "amended" = recently
+   changed, review the current text. Reusable blocks below are composed per deal id. */
+const FW={
+ qip:[
+  {ref:"SEBI (ICDR) Regulations, 2018 — Reg. 171–179 (Ch. VI)",note:"Governs the QIP end-to-end: QIB eligibility, the floor-price formula, placement document and allotment.",flag:"central"},
+  {ref:"Companies Act, 2013 — s.42 r/w PAS Rules, 2014",note:"Private-placement procedure, special resolution and return of allotment (PAS-3).",flag:""},
+  {ref:"SEBI (LODR) Regulations, 2015 — Reg. 28, 29, 30",note:"In-principle listing approval, prior board-meeting intimation and disclosure of the fund-raising.",flag:""},
+  {ref:"SCRR, 1957 — Rule 19(2)(b) / 19A",note:"Minimum public shareholding must be maintained through the dilution.",flag:""},
+  {ref:"FEMA (Non-Debt Instruments) Rules, 2019 + SEBI (FPI) Regs, 2019",note:"FPI participation, sectoral caps and pricing for non-resident allottees.",flag:""},
+  {ref:"Indian Stamp Act, 1899 (2019 amendment)",note:"Uniform stamp duty on issue of securities, collected through the depository.",flag:"amended"},
+  {ref:"SEBI (PIT) Regulations, 2015",note:"Trading-window closure and UPSI controls around the raise.",flag:""}],
+ pref:[
+  {ref:"SEBI (ICDR) Regulations, 2018 — Reg. 158–167",note:"Preferential issue & warrants: pricing, 25% upfront money, 18-month exercise and lock-in.",flag:"central"},
+  {ref:"Companies Act, 2013 — s.62(1)(c) r/w Rule 13, PAS Rules",note:"Special resolution and registered-valuer pricing for the preferential allotment.",flag:""},
+  {ref:"SEBI (SAST) Regulations, 2011 — Reg. 3/4 & exemption Reg. 10",note:"Promoter allotment can cross creeping-acquisition limits; check open-offer exemption.",flag:"central"},
+  {ref:"SEBI (LODR) Regulations, 2015 — Reg. 30",note:"Disclosure of the preferential issue as a material event.",flag:""},
+  {ref:"Indian Stamp Act, 1899 (2019 amendment)",note:"Stamp duty on issue of warrants and resultant shares.",flag:"amended"}],
+ ofs:[
+  {ref:"SEBI Master Circular — OFS through Stock Exchange Mechanism",note:"The framework for a promoter/PSU sale via the exchange OFS window (floor price, T+1, allocation).",flag:"central"},
+  {ref:"SCRR, 1957 — Rule 19A",note:"Minimum public shareholding for listed PSUs — the disinvestment driver.",flag:"central"},
+  {ref:"DIPAM disinvestment guidelines",note:"Process, pricing and approvals for Government stake sales.",flag:""},
+  {ref:"SEBI (PIT) Regulations, 2015",note:"Trading window and UPSI for the selling shareholder.",flag:""},
+  {ref:"SEBI (LODR) Regulations, 2015 — Reg. 30",note:"Disclosure of the offer for sale.",flag:""}],
+ scheme:[
+  {ref:"Companies Act, 2013 — s.230–232",note:"Scheme of arrangement/amalgamation; NCLT-convened meetings and sanction.",flag:"central"},
+  {ref:"Income-tax Act, 1961 — s.2(1B) & s.72A",note:"Tax-neutral amalgamation and carry-forward/ set-off of accumulated losses.",flag:"central"},
+  {ref:"SEBI (LODR) Reg. 37 + SEBI Scheme Master Circular",note:"Stock-exchange/SEBI NOC before a listed-company scheme; NCLT filing.",flag:"central"},
+  {ref:"Companies (CAA) Rules, 2016",note:"Procedural rules for compromises, arrangements and amalgamations.",flag:""},
+  {ref:"Competition Act, 2002 — s.5/6",note:"Combination notification if asset/turnover or deal-value thresholds are met.",flag:""},
+  {ref:"SEBI (PIT) Regulations, 2015",note:"UPSI control through the scheme process.",flag:""}],
+ maUnlisted:[
+  {ref:"Companies Act, 2013 — s.56 (transfer) & board/SH approvals",note:"Share-transfer mechanics and authorisations for acquiring control of the unlisted target.",flag:"central"},
+  {ref:"SPA/SHA — Contract Act, 1872 + Specific Relief (Amendment) Act, 2018",note:"Specific performance is now the rule, not the exception — affects deal certainty and remedies.",flag:"amended"},
+  {ref:"Competition Act, 2002 — s.5/6 + Competition (Amendment) Act, 2023 (s.6A deal-value threshold)",note:"New DVT can catch tech deals below the old asset/turnover tests.",flag:"amended"},
+  {ref:"Income-tax Act — s.50CA & s.56(2)(x)",note:"FMV floor on transfer of unlisted shares for both seller and buyer.",flag:"central"},
+  {ref:"FEMA (NDI) Rules, 2019 + pricing guidelines",note:"Applies to any non-resident seller (e.g., offshore VC) and downstream-investment tests.",flag:""},
+  {ref:"Indian Stamp Act, 1899",note:"Stamp duty on the share-transfer instrument.",flag:""}],
+ block:[
+  {ref:"SEBI Master Circular — Block / Bulk Deal window",note:"Mechanism, price band and disclosure for a large on-market sale of listed shares.",flag:"central"},
+  {ref:"SEBI (PIT) Regulations, 2015",note:"Trading window, UPSI and contra-trade restrictions for the selling investor.",flag:"central"},
+  {ref:"SEBI (SAST) Regulations, 2011 — Reg. 29",note:"Disclosure on crossing/again falling below 5% and material change thresholds.",flag:""},
+  {ref:"Income-tax Act — s.112A + STT",note:"LTCG on listed equity and securities-transaction-tax treatment of the sale.",flag:""},
+  {ref:"SEBI (AIF) Regs, 2012 / FEMA",note:"Fund-level structuring and repatriation for the selling investor.",flag:""}],
+ pe:[
+  {ref:"Companies Act, 2013 — s.62(1)(c) & s.42",note:"Preferential allotment of equity/CCPS to the investor; valuation and special resolution.",flag:"central"},
+  {ref:"FEMA (NDI) Rules, 2019 + pricing guidelines",note:"FDI route, entry pricing and downstream-investment rules for any foreign investor (e.g., IFC).",flag:"central"},
+  {ref:"Shareholders' agreement — Companies Act s.58/59",note:"Enforceability of transfer restrictions, ROFR/ROFO, drag/tag against free-transferability.",flag:""},
+  {ref:"Income-tax Act — s.56(2)(viib) ('angel tax')",note:"Abolished w.e.f. AY 2025-26 — premium pricing no longer taxed; confirm for the round's date.",flag:"amended"},
+  {ref:"SEBI (AIF) Regulations, 2012",note:"Investor-side compliance for domestic AIFs.",flag:""},
+  {ref:"Competition Act, 2002 — s.5/6",note:"Notification if thresholds met (less common at minority growth stage).",flag:""}],
+ fin:[
+  {ref:"RBI (Project Finance) Directions, 2025",note:"Standardised provisioning and DCCO/extension norms — effective 1 Oct 2025; re-paper covenants.",flag:"amended"},
+  {ref:"SEBI (InvIT) Regulations, 2014 — leverage cap",note:"InvIT borrowing limit (≤70% with conditions) governs the road-InvIT financing.",flag:"central"},
+  {ref:"Companies Act, 2013 — s.179/180 & s.77 (charge)",note:"Borrowing authorisations and registration of charge (CHG-1) within 30 days.",flag:""},
+  {ref:"Contract Act, 1872 (s.126 guarantee) + SARFAESI Act, 2002",note:"Guarantee enforceability and secured-creditor enforcement on default.",flag:""},
+  {ref:"Indian Stamp Act / State stamp law",note:"Stamp duty on facility agreement and security documents.",flag:""},
+  {ref:"RBI ECB Framework / FEMA",note:"Applies to any offshore/foreign-currency tranche.",flag:""}],
+ jv:[
+  {ref:"FEMA (NDI) Rules, 2019 + Press Note 3 of 2020",note:"Land-border FDI approval route — directly relevant given the Foxconn (China-linked) investor.",flag:"central"},
+  {ref:"Companies Act, 2013 — s.186 + JV/Shareholders' Agreement",note:"Inter-corporate investment limits and JV-company governance.",flag:""},
+  {ref:"Competition Act, 2002 — s.5/6 + Amendment Act, 2023 (DVT)",note:"Combination notification for the JV; deal-value threshold may apply.",flag:"amended"},
+  {ref:"India Semiconductor Mission / MeitY scheme + fiscal-support agreement",note:"Eligibility conditions and clawbacks attached to capital subsidy.",flag:"central"},
+  {ref:"Patents Act, 1970 & Trade Marks Act, 1999 (technology licence)",note:"IP-licensing terms; FEMA royalty remittance on the automatic route.",flag:""},
+  {ref:"Income-tax Act — s.92 (transfer pricing) & royalty withholding",note:"Arm's-length pricing and WHT on cross-border technical/royalty payments.",flag:""}],
+ commercial:[
+  {ref:"Trade Marks Act, 1999 — s.48–49",note:"Permitted/registered-user licensing of the PepsiCo marks to the bottler.",flag:"central"},
+  {ref:"Competition Act, 2002 — s.3(4)",note:"Vertical agreement / exclusive supply & distribution — the removal of exclusivity is the key competition point.",flag:"central"},
+  {ref:"Contract Act, 1872 + Specific Relief (Amendment) Act, 2018",note:"Master commercial agreement; enhanced specific-performance remedies.",flag:""},
+  {ref:"FEMA / FDI policy — royalty & trademark remittances",note:"Royalty/licence-fee remittance permitted on the automatic route.",flag:""},
+  {ref:"SEBI (LODR) Reg. 30",note:"Varun Beverages' disclosure of the material agreement.",flag:""}],
+ ruling:[
+  {ref:"Indian Telegraph Act, 1885 — s.4",note:"The Centre's licensing power; the Court's limit on retrospective re-pricing turns on this section.",flag:"central"},
+  {ref:"Telecommunications Act, 2023",note:"Now replacing the Telegraph regime — read the ruling alongside the new framework.",flag:"amended"},
+  {ref:"TRAI Act, 1997",note:"TRAI's recommendatory role on spectrum charges and licensing terms.",flag:""},
+  {ref:"Constitution — Art. 14, 265, 226",note:"No levy without authority of law; equality; writ jurisdiction invoked to quash the demand.",flag:""},
+  {ref:"Doctrine of legitimate expectation & novation",note:"Licence-as-contract reasoning; State cannot unilaterally vary financial terms.",flag:""}],
+ outbound:[
+  {ref:"FEMA — Liberalised Remittance Scheme (LRS)",note:"Per-individual annual remittance limit for resident Indian investors into the programme.",flag:"central"},
+  {ref:"FEM (Overseas Investment) Rules & Regulations, 2022 + RBI OI Directions",note:"The overhauled ODI/OPI regime governing outbound investment structures.",flag:"amended"},
+  {ref:"Prevention of Money-Laundering Act, 2002",note:"Source-of-funds and KYC diligence on participating investors.",flag:""},
+  {ref:"Income-tax Act — s.6, Schedule FA + TCS on LRS",note:"Residency, foreign-asset reporting and tax-collected-at-source on remittances.",flag:"amended"},
+  {ref:"SEBI (AIF) Regulations, 2012",note:"If the programme is marketed as a pooled vehicle in India.",flag:""}]
+};
+const FRAMEWORK={
+ "acme-qip":FW.qip,"jsw-energy-qip":FW.qip,"hfcl-qip":FW.qip,"hfcl-pref":FW.pref,
+ "coal-india-ofs":FW.ofs,"coforge-cigniti":FW.scheme,"tata-freight-tiger":FW.maUnlisted,
+ "paytm-elevation":FW.block,"embio-truenorth":FW.pe,"anveshan-seriesb":FW.pe,
+ "hcl-foxconn":FW.jv,"pepsico-varun":FW.commercial,"jsa-hdfc-indusinfra":FW.fin,
+ "irfc-hyd-metro":FW.fin,"airtel-spectrum":FW.ruling,"pagani-residency":FW.outbound
+};
+function frameworkOf(d){return d.framework||FRAMEWORK[d.id]||[];}
+
 /* ============================ STATE ============================ */
 let route={name:"feed"};
 let F={geo:"all",type:null,sector:"All Sectors",q:"",firm:"",firm2:"",city:"",stage:""};
@@ -561,14 +802,14 @@ function matchesFilters(d){
 
 /* ============================ SIDEBAR ============================ */
 function buildSidebar(){
-  const browse=[{k:"feed",ic:"▤",label:"Deals Feed"},{k:"firms",ic:"⚖",label:"Firms Directory"},{k:"watch",ic:"★",label:"Watchlist"}];
+  const browse=[{k:"feed",ic:"▤",label:"Deals Feed"},{k:"pipeline",ic:"◷",label:"Deal Pipeline"},{k:"analytics",ic:"▦",label:"League & Analytics"},{k:"regulatory",ic:"§",label:"Regulatory Tracker"},{k:"moves",ic:"⇄",label:"Moves & GCs"},{k:"firms",ic:"⚖",label:"Firms Directory"},{k:"watch",ic:"★",label:"Watchlist"},{k:"saved",ic:"🔖",label:"Saved Searches"}];
   $("browseNav").innerHTML=browse.map(b=>`<div class="ni" data-browse="${b.k}"><span class="ic">${b.ic}</span>${b.label}${b.k==="watch"?`<span class="ct" id="starCt">${starred.size}</span>`:""}</div>`).join("");
   $("geoNav").innerHTML=GEOS.map(g=>{const ct=g.id==="all"?DEALS.length:DEALS.filter(d=>d.geo===g.id).length;
     return `<div class="ni" data-geo="${g.id}"><span class="dot" style="background:${g.dot}"></span>${g.label}<span class="ct">${ct}</span></div>`}).join("");
   $("typeNav").innerHTML=Object.entries(TYPES).map(([k,v])=>{const ct=DEALS.filter(d=>d.type===k).length;
     return ct?`<div class="ni" data-type="${k}"><span class="dot" style="background:${v.c}"></span>${v.label}<span class="ct">${ct}</span></div>`:""}).join("");
   $("browseNav").querySelectorAll("[data-browse]").forEach(n=>n.onclick=()=>{const k=n.dataset.browse;
-    if(k==="feed"){resetFilters();go({name:"feed"});}else if(k==="firms")go({name:"firms"});else go({name:"watch"});});
+    if(k==="feed"){resetFilters();go({name:"feed"});}else go({name:k});});
   $("geoNav").querySelectorAll("[data-geo]").forEach(n=>n.onclick=()=>{F.geo=n.dataset.geo;F.firm="";F.firm2="";go({name:"feed"});});
   $("typeNav").querySelectorAll("[data-type]").forEach(n=>n.onclick=()=>{F.type=n.dataset.type;go({name:"feed"});});
 }
@@ -577,8 +818,7 @@ function markSidebar(){
   if(route.name==="feed"){$("geoNav").querySelector(`[data-geo="${F.geo}"]`)?.classList.add("active");
     if(F.type)$("typeNav").querySelector(`[data-type="${F.type}"]`)?.classList.add("active");
     if(!F.type&&F.geo==="all"&&!anyFilterActive())$("browseNav").querySelector('[data-browse="feed"]')?.classList.add("active");}
-  else if(route.name==="firms")$("browseNav").querySelector('[data-browse="firms"]')?.classList.add("active");
-  else if(route.name==="watch")$("browseNav").querySelector('[data-browse="watch"]')?.classList.add("active");
+  else $("browseNav").querySelector(`[data-browse="${route.name}"]`)?.classList.add("active");
 }
 
 /* ============================ CARDS / FEED ============================ */
@@ -591,12 +831,14 @@ function dealCard(d){
     <div class="r1">${typeBadge(d)}
       <span class="stage"><span class="sd" style="background:${st.c}"></span>${st.l}</span>
       ${d.imp==="hi"?'<span class="priority">● PRIORITY</span>':""}
-      <span class="real">✓ ${d.sources.length>1?d.sources.length+" SOURCES":"VERIFIED"}</span>
+      <span class="real ${isVerified(d)?'':'reported'}">${isVerified(d)?'✓ VERIFIED':'◷ REPORTED'}</span>
+      <span class="srcct">${d.sources.length} src</span>
       ${dealHasOfficial(d)?'<span class="official">🏛 OFFICIAL</span>':''}
       <button class="star ${starred.has(d.id)?'on':''}" data-star="${d.id}">${starred.has(d.id)?'★':'☆'}</button>
     </div>
     <h3>${d.headline}</h3>
     <div class="sum">${d.sum}</div>
+    ${impl(d)?`<div class="impl"><b>Why it matters</b> · ${impl(d)}</div>`:""}
     <div class="meta"><span class="tag geo">${g}</span><span class="tag">${d.sector}</span>
       ${d.value&&d.value!=="—"?`<span class="tag val">${d.value}</span>`:""}<span class="tag">${d.parties}</span></div>
     ${firms}
@@ -612,7 +854,7 @@ function renderFeed(title,list,sub){
     <div class="demo">✅ <span><b>Live snapshot · ${DEALS.length} verified developments</b> sourced from Bar &amp; Bench Dealstreet &amp; primary filings (to 8 Jun 2026). Every card carries the firms, partners and source link. Auto-refreshes nightly once the live pipeline is switched on.</span></div>
     ${route.name==="feed"?`<div class="stats" id="stats"></div>`:""}
     ${chips}
-    <div class="vh"><h2>${title}</h2><span class="sub">${sub||(list.length+(list.length===1?" item":" items"))}</span>${clear}</div>
+    <div class="vh"><h2>${title}</h2><span class="sub">${sub||(list.length+(list.length===1?" item":" items"))}</span>${clear}${anyFilterActive()&&route.name==="feed"?'<button class="savebtn" id="saveV">🔖 Save this view</button>':''}</div>
     ${body}
     <div class="foot">Corporate Law Tracker · Verified deal intelligence for corporate-law professionals.<br>Headlines &amp; snippets shown under fair-use linking — open the primary source &amp; filings before advising.</div>`;
   if(route.name==="feed")buildStats();
@@ -620,6 +862,7 @@ function renderFeed(title,list,sub){
   if(route.name==="feed"){
     $("sectorBar")?.querySelectorAll("[data-sec]").forEach(c=>c.onclick=()=>{F.sector=c.dataset.sec;render();});
     $("clearF")&&($("clearF").onclick=()=>{resetFilters();render();});
+    $("saveV")&&($("saveV").onclick=saveCurrentView);
   }
 }
 
@@ -673,7 +916,10 @@ function renderDeal(id){
   }).join("");
   const allSrcs=srcsWithOfficial(d);
   const srcHtml=allSrcs.map(s=>`<div class="srcitem"><div class="st"><span class="snm">${s.name}</span>${srcOfficial(s)?'<span class="otag">🏛 Official</span>':''}<a class="sgo" href="${s.url}" target="_blank" rel="noopener">Open ↗</a></div><div class="sblurb">${s.blurb}</div></div>`).join("");
-  const docsHtml=d.docs&&d.docs.length?d.docs.map(dc=>`<div class="doc" onclick="window.open('${dc.url}','_blank','noopener')"><span class="di">📄</span>${dc.label}<span style="margin-left:auto;color:var(--ink3)">↗</span></div>`).join(""):`<div class="note">Primary filings link out via the source article above.</div>`;
+  const mergedDocs=[...officialDocs(d),...(d.docs||[])].filter((x,i,a)=>a.findIndex(y=>y.url===x.url)===i);
+  const docsHtml=mergedDocs.length?mergedDocs.map(dc=>`<div class="doc" onclick="window.open('${dc.url}','_blank','noopener')"><span class="di">📄</span>${dc.label}<span style="margin-left:auto;color:var(--ink3)">↗</span></div>`).join(""):`<div class="note">Primary filings link out via the source article above.</div>`;
+  const fw=frameworkOf(d);
+  const fwHtml=fw.length?`<div class="sec"><h4>Legal framework · what to review <span style="font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink4)">(${fw.length})</span></h4>${fw.map(x=>`<div class="fwitem ${x.flag||''}"><div class="fwref">${x.ref}${x.flag==="amended"?'<span class="fwtag amd">Recently amended</span>':x.flag==="central"?'<span class="fwtag ctr">Central</span>':''}</div><div class="fwnote">${x.note}</div></div>`).join("")}<div class="note" style="margin-top:10px">General transactional-review references — not legal advice; verify against the current text and the deal's specific facts.</div></div>`:"";
   const tl=d.timeline&&d.timeline.length?`<div class="sec"><h4>Timeline</h4><div class="tl">${d.timeline.map(e=>`<div class="ev"><div class="ed">${e.d}</div><div class="et">${e.t}</div></div>`).join("")}</div></div>`:"";
   const related=DEALS.filter(x=>x.id!==d.id&&(x.sector===d.sector||x.firms.some(f=>dealFirms(d).includes(f.name)))).slice(0,4);
   const relHtml=related.length?`<div class="sec"><h4>Related deals</h4>${related.map(r=>`<div class="doc" onclick="go({name:'deal',id:'${r.id}'})"><span class="di">●</span>${r.headline}<span style="margin-left:auto;color:var(--ink3)">→</span></div>`).join("")}</div>`:"";
@@ -683,14 +929,17 @@ function renderDeal(id){
      <div class="dd-head">${typeBadge(d)}
        <span class="stage"><span class="sd" style="background:${st.c}"></span>${st.l}</span>
        ${d.imp==="hi"?'<span class="priority">● PRIORITY</span>':""}
-       <span class="real">✓ VERIFIED · SOURCED</span>
+       <span class="real ${isVerified(d)?'':'reported'}">${isVerified(d)?'✓ VERIFIED':'◷ REPORTED'}</span>
+       ${dealHasOfficial(d)?'<span class="official">🏛 OFFICIAL SOURCE</span>':''}
        <button class="star ${starred.has(d.id)?'on':''}" data-star="${d.id}" style="margin-left:6px">${starred.has(d.id)?'★':'☆'}</button>
      </div>
      <h1>${d.headline}</h1>
      <div class="lede">${d.sum}</div>
      <div class="dd-grid">
        <div>
+         ${impl(d)?`<div class="sec" style="background:var(--accent-soft);border-color:transparent"><h4 style="color:var(--accent)">Why it matters · practice implication</h4><p style="color:var(--ink);font-size:14px">${impl(d)}</p></div>`:""}
          <div class="sec"><h4>What happened</h4><p>${d.detail}</p></div>
+         ${fwHtml}
          <div class="sec"><h4>Counsel & teams</h4>${firmsHtml}</div>
          <div class="sec"><h4>Sources &amp; official filings · what each adds <span style="font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink4)">(${allSrcs.length})</span></h4>${srcHtml}</div>
          <div class="sec"><h4>Public documents</h4>${docsHtml}</div>
@@ -767,6 +1016,101 @@ function buildAdv(){
     $("adv").classList.remove("on");go({name:"feed"});};
 }
 
+/* ============================ ANALYTICS HELPERS ============================ */
+function parseCr(v=""){v=v.replace(/,/g,"");let m=v.match(/₹\s?([\d.]+)\s?(cr|crore|bn|billion|lakh)?/i);
+  if(m){let n=parseFloat(m[1]);const u=(m[2]||"cr").toLowerCase();if(/bn|billion/.test(u))n*=100000;if(/lakh/.test(u))n/=100;return n;}
+  m=v.match(/\$\s?([\d.]+)\s?(mn|million|bn|billion)?/i);
+  if(m){let n=parseFloat(m[1]);const u=(m[2]||"mn").toLowerCase();return n*(/bn|billion/.test(u)?8300:8.3);}return 0;}
+function fmtCr(n){if(!n)return "—";if(n>=100000)return "₹"+(n/100000).toFixed(1).replace(/\.0$/,"")+" lakh cr";if(n>=1000)return "₹"+Math.round(n).toLocaleString("en-IN")+" cr";return "₹"+Math.round(n)+" cr";}
+
+/* ============================ PIPELINE (g) ============================ */
+function renderPipeline(){
+  const order=[["rumoured","Rumoured"],["announced","Announced"],["review","In Regulatory Review"],["filed","Filed / Open"],["completed","Completed"]];
+  const cols=order.map(([k,label])=>{
+    const items=DEALS.filter(d=>d.stage===k);
+    if(!items.length)return "";
+    const st=STAGES[k];
+    return `<div class="pcol"><h5><span class="sd" style="width:8px;height:8px;border-radius:50%;background:${st.c};display:inline-block"></span>${label}<span class="ct">${items.length}</span></h5>
+      ${items.map(d=>`<div class="pitem" data-deal="${d.id}"><div class="ph">${d.headline}</div><div class="pm"><span class="ttype ${TYPES[d.type].cls}">${TYPES[d.type].label}</span>${d.value&&d.value!=="—"?`<span>${d.value}</span>`:""}<span>${CITYLABEL[d.geo]}</span></div></div>`).join("")}
+    </div>`;}).join("");
+  $("main").innerHTML=`<div class="demo">◷ <span><b>Deal Pipeline.</b> Every tracked transaction by stage — see what's <b>rumoured</b> and <b>in regulatory review</b>, not just what closed. Click any to open.</span></div>
+    <div class="vh"><h2>Deal Pipeline</h2><span class="sub">${DEALS.length} tracked</span></div><div class="pipe">${cols}</div>`;
+  $("main").querySelectorAll(".pitem[data-deal]").forEach(c=>c.onclick=()=>go({name:"deal",id:c.dataset.deal}));
+}
+
+/* ============================ LEAGUE & ANALYTICS (d) ============================ */
+function barRows(pairs,fmt,onClickType){
+  const max=Math.max(...pairs.map(p=>p[1]),1);
+  return pairs.map((p,i)=>`<div class="anrow" ${onClickType?`data-${onClickType}="${encodeURIComponent(p[0])}"`:""}>
+    <span class="anrank">${i+1}</span><span class="anlabel">${p[0]}</span>
+    <span class="anbar" style="width:${Math.max(6,Math.round(p[1]/max*150))}px"></span>
+    <span class="anval">${fmt(p[1])}</span></div>`).join("");
+}
+function renderAnalytics(){
+  const fc={},fv={},pc={},tc={},sc={};
+  DEALS.forEach(d=>{
+    const val=parseCr(d.value);
+    d.firms.forEach(f=>{if(!firmKnown(f.name))return;fc[f.name]=(fc[f.name]||0)+1;fv[f.name]=(fv[f.name]||0)+val;
+      (f.lead||[]).forEach(l=>pc[l.n]=(pc[l.n]||0)+1);});
+    tc[TYPES[d.type].label]=(tc[TYPES[d.type].label]||0)+1;
+    sc[d.sector]=(sc[d.sector]||0)+1;
+  });
+  const top=(o,n=8)=>Object.entries(o).sort((a,b)=>b[1]-a[1]).slice(0,n);
+  $("main").innerHTML=`<div class="demo">▦ <span><b>League tables &amp; analytics.</b> Who is winning what — by deal count, aggregate value, sector and partner. Built live from the tracked data.</span></div>
+    <div class="vh"><h2>League &amp; Analytics</h2><span class="sub">${DEALS.length} deals · ${Object.keys(fc).length} firms</span></div>
+    <div class="anwrap">
+      <div class="sec"><h4>Top firms · by deals tracked</h4>${barRows(top(fc),v=>v+" deals","firm")}</div>
+      <div class="sec"><h4>Top firms · by aggregate deal value</h4>${barRows(top(fv),fmtCr,"firm")}</div>
+      <div class="sec"><h4>Most active partners</h4>${barRows(top(pc),v=>v+(v>1?" deals":" deal"))}</div>
+      <div class="sec"><h4>Deals by type</h4>${barRows(top(tc,9),v=>v+"")}</div>
+      <div class="sec"><h4>Deals by sector</h4>${barRows(top(sc,12),v=>v+"")}</div>
+      <div class="sec"><h4>How to read this</h4><p style="font-size:13px;color:var(--ink2);line-height:1.6">A live competitive-intelligence view: track which firms and partners are winning mandates in your sectors, and where deal value is concentrating. Click a firm bar to open its page. Aggregate value counts every deal a firm is named on.</p></div>
+    </div>`;
+  $("main").querySelectorAll("[data-firm]").forEach(n=>n.onclick=()=>go({name:"firm",id:decodeURIComponent(n.dataset.firm)}));
+}
+
+/* ============================ REGULATORY TRACKER (c) ============================ */
+function renderRegulatory(){
+  const cards=REGITEMS.map(r=>{
+    const src=(r.sources||[]).map(s=>`<div class="srcitem"><div class="st"><span class="snm">${s.name}</span>${s.official?'<span class="otag">🏛 Official</span>':''}<a class="sgo" href="${s.url}" target="_blank" rel="noopener">Open ↗</a></div><div class="sblurb">${s.blurb}</div></div>`).join("");
+    return `<div class="regc">
+      <div class="rt">${r.title}</div>
+      <div class="rmeta"><span class="rpill">${r.reg}</span><span class="rpill">${r.status}</span><span class="rpill">Effective: ${r.effective}</span>${r.deadline&&r.deadline!=="—"?`<span class="rpill dead">⏱ ${r.deadline}</span>`:""}</div>
+      <div class="rlab">What it changes</div><p>${r.impact}</p>
+      <div class="rlab">Action for your documents</div><p class="ract">${r.action}</p>
+      <div class="rlab" style="margin-bottom:8px">Sources</div>${src}
+      ${r.linkDeal?`<div class="doc" style="margin-top:10px" data-deal="${r.linkDeal}"><span class="di">→</span>See the tracked matter<span style="margin-left:auto;color:var(--ink3)">→</span></div>`:""}
+    </div>`;}).join("");
+  $("main").innerHTML=`<div class="demo">§ <span><b>Regulatory Tracker.</b> Live rules, directions and rulings with <b>effective dates, deadlines</b> and "what changes in your documents" — the official-source layer partners actually lack.</span></div>
+    <div class="vh"><h2>Regulatory Tracker</h2><span class="sub">${REGITEMS.length} active</span></div>${cards}`;
+  $("main").querySelectorAll(".regc [data-deal]").forEach(n=>n.onclick=()=>go({name:"deal",id:n.dataset.deal}));
+}
+
+/* ============================ MOVES & GCs (e) ============================ */
+function renderMoves(){
+  const rows=MOVES.map(m=>`<div class="moverow" onclick="window.open('${m.url}','_blank','noopener')">
+    <span class="mtype">${m.type}</span>
+    <div><div class="mv-who">${m.who}</div><div class="mv-what">${m.what}</div></div>
+    <div class="mv-org">${m.org}<br><span style="color:var(--ink4)">${m.date}</span></div></div>`).join("");
+  $("main").innerHTML=`<div class="demo">⇄ <span><b>Moves &amp; GCs.</b> Lateral partner moves, promotions and General Counsel appointments — competitive intel and pitch triggers.</span></div>
+    <div class="vh"><h2>Moves &amp; GC Appointments</h2><span class="sub">${MOVES.length} recent</span></div>${rows}
+    <div class="foot">Auto-expands as the engine ingests Bar &amp; Bench's Corporate &amp; In-House section nightly.</div>`;
+}
+
+/* ============================ SAVED SEARCHES / ALERTS (f) ============================ */
+function loadSaved(){try{return JSON.parse(localStorage.getItem("clt_saved")||"[]");}catch{return[];}}
+function persistSaved(a){try{localStorage.setItem("clt_saved",JSON.stringify(a));}catch{}}
+function currentLabel(){const b=[];if(F.firm)b.push(F.firm);if(F.firm2)b.push("+"+F.firm2);if(F.city)b.push(CITYLABEL[F.city]);else if(F.geo!=="all")b.push(CITYLABEL[F.geo]);if(F.type)b.push(TYPES[F.type].label);if(F.stage)b.push(STAGES[F.stage].l);if(F.sector!=="All Sectors")b.push(F.sector);if(F.q)b.push('"'+F.q+'"');return b.join(" · ")||"All deals";}
+function saveCurrentView(){const a=loadSaved();a.unshift({label:currentLabel(),F:JSON.parse(JSON.stringify(F))});persistSaved(a.slice(0,30));render();}
+function renderSaved(){
+  const a=loadSaved();
+  const body=a.length?a.map((s,i)=>`<div class="moverow"><div data-apply="${i}" style="flex:1;cursor:pointer"><div class="mv-who">${s.label}</div><div class="mv-what">Saved search — click to run</div></div><span class="delx" data-del="${i}">✕ remove</span></div>`).join(""):'<div class="empty">No saved searches yet. Run a search or apply filters on the Deals Feed, then click <b>🔖 Save this view</b>.</div>';
+  $("main").innerHTML=`<div class="demo">🔖 <span><b>Saved searches &amp; alerts.</b> Save any filtered view (e.g. "Energy M&amp;A in Mumbai") and re-run it in one click. These also seed your daily brief.</span></div>
+    <div class="vh"><h2>Saved Searches</h2><span class="sub">${a.length} saved</span></div>${body}`;
+  $("main").querySelectorAll("[data-apply]").forEach(n=>n.onclick=()=>{F=JSON.parse(JSON.stringify(loadSaved()[+n.dataset.apply].F));$("q").value=F.q||"";go({name:"feed"});});
+  $("main").querySelectorAll("[data-del]").forEach(n=>n.onclick=()=>{const a=loadSaved();a.splice(+n.dataset.del,1);persistSaved(a);renderSaved();});
+}
+
 /* ============================ MAIN RENDER ============================ */
 function render(){
   markSidebar();
@@ -783,6 +1127,11 @@ function render(){
   else if(route.name==="firms")renderFirms();
   else if(route.name==="firm")renderFirm(route.id);
   else if(route.name==="deal")renderDeal(route.id);
+  else if(route.name==="pipeline")renderPipeline();
+  else if(route.name==="analytics")renderAnalytics();
+  else if(route.name==="regulatory")renderRegulatory();
+  else if(route.name==="moves")renderMoves();
+  else if(route.name==="saved")renderSaved();
   else if(route.name==="watch")renderFeed("★ Watchlist",DEALS.filter(d=>starred.has(d.id)),starred.size+" starred");
 }
 

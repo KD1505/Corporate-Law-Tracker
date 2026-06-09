@@ -14,7 +14,9 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { fetchNewItems } from "./fetch.mjs";
 import { extractItem } from "./extract.mjs";
-import { scoreDeal } from "./score.mjs";
+import { scoreDeal, OFFICIAL_RE } from "./score.mjs";
+const GENERIC_PORTAL=/(corporates\/ann\.html|companies-listing\/corporate-filings|combination\/orders|public-issues\.html|BS_ViewMasDirections|AllReleasem|order-judgement-date-wise|sebiweb\/home|dipam\.gov\.in\/?$|meity\.gov\.in\/?$|ecourts\.gov\.in\/?$|ibbi\.gov\.in\/en\/orders$|nclt\.gov\.in)/i;
+function hasSpecificOfficial(d){return (d.sources||[]).some(s=>(s.official===true||OFFICIAL_RE.test(s.url||""))&&!GENERIC_PORTAL.test(s.url||""));}
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const HTML = path.join(__dirname, "..", "index.html");
@@ -78,6 +80,26 @@ async function structure(item) {
   return extractItem(item);
 }
 
+const BRIEF = path.join(__dirname, "..", "brief.md");
+function strip(s=""){return s.replace(/<[^>]+>/g," ").replace(/\s+/g," ").trim();}
+async function writeBrief(deals) {
+  const d = new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+  const order = { hi: 0, md: 1, lo: 2 };
+  const sorted = [...deals].sort((a, b) => (order[a.imp] ?? 3) - (order[b.imp] ?? 3));
+  let md = `# Corporate Law Tracker — Daily Brief\n_${d}_\n\n${deals.length} new development(s) overnight.\n\n`;
+  for (const x of sorted) {
+    const src = (x.sources && x.sources[0] && x.sources[0].url) || "";
+    md += `### ${x.imp === "hi" ? "🔴 " : ""}${x.headline}\n`;
+    md += `**${(x.type || "").toUpperCase()}** · ${x.value && x.value !== "—" ? x.value + " · " : ""}${x.city || ""}${x.verified ? " · ✓ Verified" : " · Reported"}\n\n`;
+    md += `${strip(x.sum)}\n\n`;
+    if (x.implication) md += `*Why it matters:* ${strip(x.implication)}\n\n`;
+    if (src) md += `[Open source ↗](${src})\n\n`;
+    md += `---\n\n`;
+  }
+  md += `_Generated automatically by Corporate Law Tracker. Open the dashboard for the full picture, official filings and the legal-framework checklist per deal._\n`;
+  await writeFile(BRIEF, md, "utf8");
+}
+
 async function main() {
   let html = await readFile(HTML, "utf8");
   const seen = await loadSeen();
@@ -105,6 +127,8 @@ async function main() {
   for (const d of deals) {
     const { score, imp, reasons } = scoreDeal(d);
     d.score = score; d.imp = imp; d.scoreReasons = reasons;
+    // "Verified" only with a SPECIFIC official source (not a generic portal); else "Reported"
+    d.verified = hasSpecificOfficial(d);
   }
 
   // serialise new deals as JS-valid object literals (JSON is valid JS here)
@@ -130,7 +154,10 @@ async function main() {
   const disc = recordDomains(await loadDiscovered(), deals);
   await writeFile(DISCOVERED, JSON.stringify(disc, null, 2), "utf8");
 
-  console.log(`Added ${deals.length} deal(s). Updated index.html, seen.json, discovered-sources.json.`);
+  // daily brief artifact (committed; an email workflow can attach/send it — see README)
+  await writeBrief(deals);
+
+  console.log(`Added ${deals.length} deal(s). Updated index.html, seen.json, discovered-sources.json, brief.md.`);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });

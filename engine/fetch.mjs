@@ -14,6 +14,45 @@ const UA = "CorporateLawTrackerBot/1.0 (+https://www.corporatelawtracker.com)";
 const DEALSTREET_API =
   "https://www.barandbench.com/api/v1/stories?section-id=14032&limit=30&fields=headline,slug,url,last-published-at";
 
+// Additional spines so the tracker isn't single-origin. RSS; relevance-gated + de-duped downstream.
+// (These may be blocked in some sandboxes but resolve fine from the GitHub Actions runner.)
+const RSS_SPINES = [
+  { name: "VCCircle", url: "https://www.vccircle.com/feed" },
+];
+
+function parseRSS(xml) {
+  const items = [];
+  const blocks = xml.split(/<item[ >]/i).slice(1);
+  for (const b of blocks) {
+    const pick = (tag) => {
+      const m = b.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)</${tag}>`, "i"));
+      if (!m) return "";
+      return m[1].replace(/<!\\[CDATA\\[|\\]\\]>/g, "").replace(/<[^>]+>/g, "").trim();
+    };
+    const title = pick("title");
+    const link = (b.match(/<link[^>]*>([\s\S]*?)<\/link>/i) || [])[1] || "";
+    const pub = pick("pubDate");
+    if (title && link) items.push({ title, link: link.trim(), pub });
+  }
+  return items;
+}
+
+async function fetchSpine(spine, existingIds, max = 8) {
+  try {
+    const r = await fetch(spine.url, { headers: { "User-Agent": UA }, redirect: "follow" });
+    if (!r.ok) return [];
+    const xml = await r.text();
+    const out = [];
+    for (const it of parseRSS(xml).slice(0, 20)) {
+      const id = idFromSlug(it.link.split(/[?#]/)[0]);
+      if (!id || existingIds.has(id) || out.some((x) => x.id === id)) continue;
+      out.push({ id, url: it.link, headline: it.title, published: Date.parse(it.pub) || Date.now(), spine: spine.name });
+      if (out.length >= max) break;
+    }
+    return out;
+  } catch { return []; }
+}
+
 async function getJSON(url) {
   const r = await fetch(url, { headers: { "User-Agent": UA }, redirect: "follow" });
   if (!r.ok) throw new Error(`Fetch failed ${r.status} for ${url}`);
@@ -78,6 +117,12 @@ export async function fetchNewItems(existingIds, maxNew = 12) {
       published: s["last-published-at"] || Date.now(),
     });
   }
+  // pull additional spines (multi-origin), respecting existing + already-seen this run
+  for (const spine of RSS_SPINES) {
+    const more = await fetchSpine(spine, new Set([...existingIds, ...seen]));
+    for (const it of more) { if (seen.has(it.id)) continue; seen.add(it.id); candidates.push(it); }
+  }
+
   // newest first, cap
   candidates.sort((a, b) => b.published - a.published);
   const batch = candidates.slice(0, maxNew);

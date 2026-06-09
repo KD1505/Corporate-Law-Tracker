@@ -31,6 +31,13 @@ Hard rules:
   collated in one place, so hunt for them hard.
 - Writing voice: crisp, factual, "smart brevity". The summary is one or two sentences with a bolded lede idea.
   No hype, no filler. Assume the reader is a senior corporate partner.
+- Provide a one-sentence "implication": the practice point a partner takes away — the structuring nuance,
+  the precedent, the regulatory gating item or the market read. Lawyerly, not journalistic.
+- Provide a "framework": the 5-9 key Indian statutes/regulations a transactional lawyer must review for THIS
+  deal, each with the SPECIFIC section/regulation and a one-line note. Flag items "central" (core to this deal)
+  or "amended" (recently changed — review the current text). Be accurate; if unsure of a section, name the statute.
+- For official sources, prefer SPECIFIC URLs (the named company's exchange filing page, or the specific
+  CCI/SEBI/NCLT order) over portal homepages.
 
 Output ONLY a single JSON object (no markdown fences, no commentary) with EXACTLY this shape:
 {
@@ -46,7 +53,9 @@ Output ONLY a single JSON object (no markdown fences, no commentary) with EXACTL
  "time": string,                     // e.g. "8 Jun 2026"
  "headline": string,
  "sum": string,                      // 1-2 sentences, may include <b>..</b> around the key idea
+ "implication": string,              // one sentence: the practice point / structuring nuance / precedent
  "detail": string,                   // 2-4 sentences of substantive detail
+ "framework": [ { "ref": string, "note": string, "flag": "central"|"amended"|"" } ],  // 5-9 key statutes/sections
  "firms": [ { "name": string, "side": string,
               "lead": [ { "n": string, "role": string } ],
               "team": [ string ],
