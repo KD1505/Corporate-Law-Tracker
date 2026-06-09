@@ -97,6 +97,29 @@ function idFromSlug(slug) {
   return slug.split("/").pop().slice(0, 120);
 }
 
+// Lateral moves & GC appointments from Bar & Bench "Corporate & In-House" (section 14024).
+const MOVES_API =
+  "https://www.barandbench.com/api/v1/stories?section-id=14024&limit=25&fields=headline,slug,url,last-published-at";
+const MOVE_RE = /elevat|appoint|promot|joins|hires|general counsel|\bGC\b|named|moves to|strengthens|onboards|inducts|re-?designat/i;
+export async function fetchMoves(existingMoveIds, max = 10) {
+  const j = await getJSON(MOVES_API).catch(() => ({ stories: [] }));
+  const out = [];
+  for (const s of j.stories || []) {
+    const id = idFromSlug(s.slug || s.url || "");
+    const h = s.headline || "";
+    if (!id || existingMoveIds.has(id) || out.some((x) => x.id === id)) continue;
+    if (!MOVE_RE.test(h)) continue;
+    const type = /general counsel|\bGC\b/i.test(h) ? "GC appointment"
+      : /elevat|promot|re-?designat/i.test(h) ? "Promotion"
+      : /joins|hires|moves to|onboards|inducts/i.test(h) ? "Lateral move" : "Update";
+    out.push({ id, headline: h, type,
+      date: new Date(s["last-published-at"] || Date.now()).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }),
+      url: s.url });
+    if (out.length >= max) break;
+  }
+  return out;
+}
+
 /**
  * @param {Set<string>} existingIds  ids already present in the site (skip these)
  * @param {number} maxNew            cap on number of new items to enrich per run

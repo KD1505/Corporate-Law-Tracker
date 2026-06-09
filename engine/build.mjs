@@ -12,7 +12,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { fetchNewItems } from "./fetch.mjs";
+import { fetchNewItems, fetchMoves } from "./fetch.mjs";
 import { extractItem } from "./extract.mjs";
 import { scoreDeal, OFFICIAL_RE } from "./score.mjs";
 const GENERIC_PORTAL=/(corporates\/ann\.html|companies-listing\/corporate-filings|combination\/orders|public-issues\.html|BS_ViewMasDirections|AllReleasem|order-judgement-date-wise|sebiweb\/home|dipam\.gov\.in\/?$|meity\.gov\.in\/?$|ecourts\.gov\.in\/?$|ibbi\.gov\.in\/en\/orders$|nclt\.gov\.in)/i;
@@ -63,6 +63,17 @@ function existingIds(html) {
   // matches both hand-written  id:"x"  and auto-generated  "id":"x"
   return new Set([...block.matchAll(/"?id"?\s*:\s*"([^"]+)"/g)].map((m) => m[1]));
 }
+function moveIdsFrom(html) {
+  const a = html.indexOf("MOVES-START"), b = html.indexOf("MOVES-END");
+  const blk = a !== -1 && b !== -1 ? html.slice(a, b) : "";
+  return new Set([...blk.matchAll(/barandbench\.com\/([^"']+)/g)].map((m) => m[1].split(/[?#]/)[0].split("/").pop().slice(0, 120)));
+}
+function spliceAfter(html, anchor, literals) {
+  const at = html.indexOf(anchor);
+  if (at === -1) throw new Error(`anchor not found: ${anchor}`);
+  const p = at + anchor.length;
+  return html.slice(0, p) + "\n" + literals + ",\n" + html.slice(p);
+}
 
 function todayLabel() {
   return new Date().toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
@@ -102,62 +113,53 @@ async function writeBrief(deals) {
 
 async function main() {
   let html = await readFile(HTML, "utf8");
+  let changed = false;
+  console.log(`Mode: ${USE_AI ? "AI enrichment" : "FREE rule-based"}.`);
+
+  /* ---------------- DEALS PHASE ---------------- */
   const seen = await loadSeen();
-  const have = new Set([...existingIds(html), ...seen]); // dedupe vs page AND ledger
-  console.log(`Known items: ${have.size} (page + ledger). Mode: ${USE_AI ? "AI enrichment" : "FREE rule-based"}.`);
-
-  let items = await fetchNewItems(have, MAX_NEW);
-  items = items.filter(isRelevant); // belt-and-braces relevance gate
-  console.log(`New relevant items fetched: ${items.length}`);
-  if (!items.length) { console.log("Nothing new. Exiting clean."); return; }
-
+  const have = new Set([...existingIds(html), ...seen]);
+  let items = (await fetchNewItems(have, MAX_NEW)).filter(isRelevant);
+  console.log(`New relevant deal items: ${items.length}`);
   const deals = [];
   for (const item of items) {
     try {
       const d = await structure(item);
-      if (d && d.id && d.headline) deals.push(d);
-      console.log(`  • structured: ${item.id}`);
-    } catch (e) {
-      console.warn(`  ! skipped ${item.id}: ${e.message}`);
+      if (d && d.id && d.headline) { deals.push(d); console.log(`  • deal: ${item.id}`); }
+    } catch (e) { console.warn(`  ! skipped ${item.id}: ${e.message}`); }
+  }
+  if (deals.length) {
+    for (const d of deals) {
+      const { score, imp, reasons } = scoreDeal(d);
+      d.score = score; d.imp = imp; d.scoreReasons = reasons;
+      d.verified = hasSpecificOfficial(d); // Verified only with a SPECIFIC official source
     }
-  }
-  if (!deals.length) { console.log("No deals structured. Exiting."); return; }
+    html = spliceAfter(html, "const DEALS=[", deals.map((d) => " " + JSON.stringify(d)).join(",\n"));
+    for (const d of deals) seen.add(d.id);
+    await writeFile(SEEN, JSON.stringify([...seen], null, 2), "utf8");
+    await writeFile(DISCOVERED, JSON.stringify(recordDomains(await loadDiscovered(), deals), null, 2), "utf8");
+    await writeBrief(deals);
+    changed = true;
+    console.log(`Added ${deals.length} deal(s).`);
+  } else console.log("No new deals.");
 
-  // apply the importance rubric consistently (covers AI-mode deals too)
-  for (const d of deals) {
-    const { score, imp, reasons } = scoreDeal(d);
-    d.score = score; d.imp = imp; d.scoreReasons = reasons;
-    // "Verified" only with a SPECIFIC official source (not a generic portal); else "Reported"
-    d.verified = hasSpecificOfficial(d);
-  }
+  /* ---------------- MOVES PHASE (always runs) ---------------- */
+  try {
+    const moves = await fetchMoves(moveIdsFrom(html));
+    if (moves.length) {
+      const lits = moves.map((m) => " " + JSON.stringify({ headline: m.headline, type: m.type, date: m.date, url: m.url })).join(",\n");
+      html = spliceAfter(html, "const MOVES=[", lits);
+      changed = true;
+      console.log(`Added ${moves.length} move(s).`);
+    } else console.log("No new moves.");
+  } catch (e) { console.warn(`Moves phase skipped: ${e.message}`); }
 
-  // serialise new deals as JS-valid object literals (JSON is valid JS here)
-  const literals = deals.map((d) => " " + JSON.stringify(d)).join(",\n");
-
-  // splice into the DEALS array, right after "const DEALS=["
-  const anchor = "const DEALS=[";
-  const at = html.indexOf(anchor);
-  if (at === -1) throw new Error("DEALS anchor not found — markers missing in index.html");
-  const insertPos = at + anchor.length;
-  html = html.slice(0, insertPos) + "\n" + literals + ",\n" + html.slice(insertPos);
-
-  // refresh the visible "Updated …" date (span + JS fallback)
-  html = html.replace(/Updated \d{1,2} [A-Za-z]{3,} \d{4}/g, `Updated ${todayLabel()}`);
-
-  await writeFile(HTML, html, "utf8");
-
-  // record what we ingested so it is never added twice
-  for (const d of deals) seen.add(d.id);
-  await writeFile(SEEN, JSON.stringify([...seen], null, 2), "utf8");
-
-  // grow the source funnel
-  const disc = recordDomains(await loadDiscovered(), deals);
-  await writeFile(DISCOVERED, JSON.stringify(disc, null, 2), "utf8");
-
-  // daily brief artifact (committed; an email workflow can attach/send it — see README)
-  await writeBrief(deals);
-
-  console.log(`Added ${deals.length} deal(s). Updated index.html, seen.json, discovered-sources.json, brief.md.`);
+  /* ---------------- WRITE ---------------- */
+  if (changed) {
+    html = html.replace(/Updated \d{1,2} [A-Za-z]{3,} \d{4}/g, `Updated ${todayLabel()}`);
+    await writeFile(HTML, html, "utf8");
+    console.log("index.html updated.");
+  } else console.log("Nothing new anywhere. Clean exit.");
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });

@@ -87,7 +87,7 @@ Now research and return the JSON record. Corroborate with as many credible sourc
 
   const resp = await client.messages.create({
     model: MODEL,
-    max_tokens: 2200,
+    max_tokens: 3200,
     system: SYSTEM,
     tools: [{ type: "web_search_20250305", name: "web_search", max_uses: 6 }],
     messages: [{ role: "user", content: userMsg }],
