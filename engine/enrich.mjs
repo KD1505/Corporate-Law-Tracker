@@ -25,6 +25,10 @@ Hard rules:
   Mint, Economic Times, Business Standard, Hindu BusinessLine).
 - Every source must be a REAL, specific article/filing URL you actually saw in search results — never a homepage,
   never a guess. For each source give a one-sentence blurb stating exactly what THAT source adds.
+- Aim for AT LEAST TWO official/primary sources per deal wherever they exist — e.g., the company's BSE/NSE
+  announcement AND the regulator order (CCI/SEBI/RBI/IBBI/NCLT) or the company's own press release. Mark every
+  official/primary source with "official": true. The whole value of this product is having the official sources
+  collated in one place, so hunt for them hard.
 - Writing voice: crisp, factual, "smart brevity". The summary is one or two sentences with a bolded lede idea.
   No hype, no filler. Assume the reader is a senior corporate partner.
 
@@ -47,7 +51,7 @@ Output ONLY a single JSON object (no markdown fences, no commentary) with EXACTL
               "lead": [ { "n": string, "role": string } ],
               "team": [ string ],
               "note": string } ],    // note optional; omit lead/team if not stated
- "sources": [ { "name": string, "url": string, "blurb": string } ],   // 3-6, gov prioritised
+ "sources": [ { "name": string, "url": string, "official": boolean, "blurb": string } ],   // 3-6; set official:true for gov/regulator/exchange/company-PR; aim for >=2 official
  "docs": [ { "label": string, "url": string } ],   // primary filings / PDFs if found; else []
  "timeline": [ { "d": string, "t": string } ]
 }`;

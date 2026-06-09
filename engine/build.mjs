@@ -14,10 +14,12 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { fetchNewItems } from "./fetch.mjs";
 import { extractItem } from "./extract.mjs";
+import { scoreDeal } from "./score.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const HTML = path.join(__dirname, "..", "index.html");
 const SEEN = path.join(__dirname, "seen.json");
+const DISCOVERED = path.join(__dirname, "discovered-sources.json");
 const START = "/* DEALS-START";
 const END = "/* DEALS-END */";
 const MAX_NEW = Number(process.env.CLT_MAX_NEW || 12);
@@ -32,6 +34,25 @@ function isRelevant(item) { return !JUNK.test(item.headline || ""); }
 async function loadSeen() {
   try { return new Set(JSON.parse(await readFile(SEEN, "utf8"))); }
   catch { return new Set(); }
+}
+
+// THE SOURCE FUNNEL: every domain that ever corroborates a deal is logged here with a
+// running count. Over time this accumulates into a ranked map of the most useful credible
+// sources — the raw material for promoting new sources into the curated registry.
+async function loadDiscovered() {
+  try { return JSON.parse(await readFile(DISCOVERED, "utf8")); }
+  catch { return {}; }
+}
+function domainOf(url = "") { try { return new URL(url).hostname.replace(/^www\./, ""); } catch { return ""; } }
+function recordDomains(disc, deals) {
+  const today = new Date().toISOString().slice(0, 10);
+  for (const d of deals) for (const s of d.sources || []) {
+    const host = domainOf(s.url); if (!host) continue;
+    const e = disc[host] || { count: 0, firstSeen: today, official: !!s.official };
+    e.count += 1; e.lastSeen = today; if (s.official) e.official = true;
+    disc[host] = e;
+  }
+  return disc;
 }
 
 function existingIds(html) {
@@ -80,6 +101,12 @@ async function main() {
   }
   if (!deals.length) { console.log("No deals structured. Exiting."); return; }
 
+  // apply the importance rubric consistently (covers AI-mode deals too)
+  for (const d of deals) {
+    const { score, imp, reasons } = scoreDeal(d);
+    d.score = score; d.imp = imp; d.scoreReasons = reasons;
+  }
+
   // serialise new deals as JS-valid object literals (JSON is valid JS here)
   const literals = deals.map((d) => " " + JSON.stringify(d)).join(",\n");
 
@@ -99,7 +126,11 @@ async function main() {
   for (const d of deals) seen.add(d.id);
   await writeFile(SEEN, JSON.stringify([...seen], null, 2), "utf8");
 
-  console.log(`Added ${deals.length} deal(s). index.html + seen.json updated.`);
+  // grow the source funnel
+  const disc = recordDomains(await loadDiscovered(), deals);
+  await writeFile(DISCOVERED, JSON.stringify(disc, null, 2), "utf8");
+
+  console.log(`Added ${deals.length} deal(s). Updated index.html, seen.json, discovered-sources.json.`);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });

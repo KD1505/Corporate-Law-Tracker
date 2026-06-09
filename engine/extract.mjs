@@ -6,6 +6,8 @@
 // firm names (matched against a known list), the value (regex), the article's own
 // lede as the summary, and keyword heuristics for classification.
 
+import { scoreDeal } from "./score.mjs";
+
 const KNOWN_FIRMS = [
   "Cyril Amarchand Mangaldas","Shardul Amarchand Mangaldas","AZB & Partners","Khaitan & Co",
   "Trilegal","JSA","J Sagar Associates","IndusLaw","CMS INDUSLAW","S&R Associates","Talwar Thakore",
@@ -87,15 +89,21 @@ function extractFirms(hay) {
   return found;
 }
 
-// build a primary-filing pointer based on deal type (real regulator/exchange portals)
-function primaryDoc(type) {
+// Official / primary-source pointers by deal type (real regulator / exchange / court portals).
+// The moat: every deal carries the relevant OFFICIAL places to verify it, not just the news link.
+function officialLinks(type) {
+  const EX = [
+    { label: "BSE corporate announcements", url: "https://www.bseindia.com/corporates/ann.html" },
+    { label: "NSE corporate announcements", url: "https://www.nseindia.com/companies-listing/corporate-filings-announcements" },
+  ];
   switch (type) {
-    case "ipo": return { label: "BSE corporate announcements (search by company)", url: "https://www.bseindia.com/corporates/ann.html" };
-    case "ma": return { label: "CCI combination orders (search by parties)", url: "https://www.cci.gov.in/combination/orders" };
-    case "ibc": return { label: "IBBI orders", url: "https://ibbi.gov.in/en/orders" };
-    case "reg": return { label: "SEBI legal / circulars", url: "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6&smid=0" };
-    case "bank": return { label: "RBI notifications", url: "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx" };
-    default: return null;
+    case "ipo": return [...EX, { label: "SEBI public issues / DRHPs", url: "https://www.sebi.gov.in/filings/public-issues.html" }];
+    case "ma": return [...EX, { label: "CCI combination orders", url: "https://www.cci.gov.in/combination/orders" }];
+    case "ibc": return [{ label: "IBBI orders", url: "https://ibbi.gov.in/en/orders" }, { label: "NCLT orders", url: "https://nclt.gov.in/order-judgement-date-wise" }];
+    case "reg": return [{ label: "SEBI legal / circulars", url: "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6&smid=0" }, { label: "PIB press releases", url: "https://pib.gov.in/AllReleasem.aspx" }];
+    case "bank": return [{ label: "RBI notifications", url: "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx" }, ...EX];
+    case "lit": return [{ label: "Supreme Court / High Court judgments portal", url: "https://judgments.ecourts.gov.in/" }];
+    default: return EX;
   }
 }
 
@@ -109,14 +117,14 @@ export function extractItem(item) {
   const value = extractValue(hay);
   const firms = extractFirms(hay);
   const date = new Date(item.published).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
-  const doc = primaryDoc(type);
+  const official = officialLinks(type);
 
-  return {
+  const deal = {
     id: item.id,
     type, geo,
     city: geo === "mumbai" ? "Mumbai" : geo === "delhi" ? "Delhi-NCR" : geo === "bengaluru" ? "Bengaluru" : geo === "global" ? "Cross-border" : "India",
     sector,
-    imp: /crore|billion|bn/i.test(value) && /(\d{4,}|billion|bn)/i.test(value) ? "hi" : "md",
+    imp: "md",
     stage, value,
     parties: item.headline.replace(/^[^—:]*(acts on|advises|advise|advised|on|—)\s*/i, "").slice(0, 90) || "See source",
     time: date,
@@ -124,9 +132,15 @@ export function extractItem(item) {
     sum: firstSentences(body, 1) || item.headline,
     detail: firstSentences(body, 4) || "See the linked source for full details.",
     firms,
-    sources: [{ name: "Bar & Bench — Dealstreet", url: item.url, blurb: "Primary source naming the law firms, partners and teams on the matter." }]
-      .concat(doc ? [{ name: doc.label.split("(")[0].trim(), url: doc.url, blurb: "Relevant government / exchange filing portal — search by the parties to pull the primary filing." }] : []),
-    docs: doc ? [doc] : [],
+    sources: [
+      { name: "Bar & Bench — Dealstreet", url: item.url, blurb: "Primary source naming the law firms, partners and teams on the matter." },
+      // official/primary verification points (search by the parties)
+      ...official.map((o) => ({ name: o.label, url: o.url, official: true, blurb: "Official source — search by the parties to pull the primary filing/announcement." })),
+    ],
+    docs: official,
     timeline: [{ d: date, t: item.headline }],
   };
+  const { score, imp, reasons } = scoreDeal(deal);
+  deal.imp = imp; deal.score = score; deal.scoreReasons = reasons;
+  return deal;
 }
