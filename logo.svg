@@ -1,0 +1,24 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Corporate Law Tracker logo">
+  <defs>
+    <linearGradient id="clt-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b5bdb"/>
+      <stop offset="1" stop-color="#7d97ff"/>
+    </linearGradient>
+  </defs>
+  <!-- tile -->
+  <rect x="0" y="0" width="512" height="512" rx="116" fill="url(#clt-bg)"/>
+  <!-- motif: three ascending columns (institution / rising deal intelligence) on a baseline,
+       crossed by a justice beam, with a tracked-signal node above the tallest column -->
+  <g fill="#ffffff">
+    <!-- baseline -->
+    <rect x="120" y="372" width="272" height="20" rx="10"/>
+    <!-- columns -->
+    <rect x="142" y="276" width="46" height="96" rx="14"/>
+    <rect x="233" y="226" width="46" height="146" rx="14"/>
+    <rect x="324" y="168" width="46" height="204" rx="14"/>
+    <!-- justice beam resting across the columns -->
+    <rect x="128" y="150" width="232" height="16" rx="8" transform="rotate(-13 244 158)"/>
+    <!-- tracked-signal node above the tallest column -->
+    <circle cx="347" cy="126" r="22"/>
+  </g>
+</svg>
