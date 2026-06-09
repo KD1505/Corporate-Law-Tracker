@@ -55,10 +55,11 @@ const STAGE_RULES = [
   ["review", /\b(NCLT|CCI approval|pending|seeking approval|notified to)\b/i],
 ];
 
-function firstSentences(text, n = 2) {
+function firstSentences(text, n = 2, limit = 320) {
   if (!text) return "";
-  const parts = text.split(/(?<=[.?!])\s+/).slice(0, n);
-  return parts.join(" ").slice(0, 320);
+  let out = text.split(/(?<=[.?!])\s+/).slice(0, n).join(" ").trim();
+  if (out.length > limit) out = out.slice(0, limit).replace(/\s+\S*$/, "").trim() + "…"; // never cut mid-word
+  return out;
 }
 function matchRule(rules, hay, fallback) {
   for (const [val, re] of rules) if (re.test(hay)) return val;
@@ -129,11 +130,11 @@ export function extractItem(item) {
     implication: "",      // authored by AI mode or curators
     framework: [],        // authored by AI mode or curators
     stage, value,
-    parties: item.headline.replace(/^[^—:]*(acts on|advises|advise|advised|on|—)\s*/i, "").slice(0, 90) || "See source",
+    parties: "",   // free mode does not guess parties (avoids mangled text); AI mode fills this cleanly
     time: date,
     headline: item.headline,
-    sum: firstSentences(body, 1) || item.headline,
-    detail: firstSentences(body, 4) || "See the linked source for full details.",
+    sum: firstSentences(body, 1, 200) || item.headline,
+    detail: firstSentences(body, 4, 640),
     firms,
     sources: [
       { name: "Bar & Bench — Dealstreet", url: item.url, blurb: "Primary source naming the law firms, partners and teams on the matter." },
