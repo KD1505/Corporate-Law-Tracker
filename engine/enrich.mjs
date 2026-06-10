@@ -36,6 +36,10 @@ Hard rules:
 - Provide a "framework": the 5-9 key Indian statutes/regulations a transactional lawyer must review for THIS
   deal, each with the SPECIFIC section/regulation and a one-line note. Flag items "central" (core to this deal)
   or "amended" (recently changed — review the current text). Be accurate; if unsure of a section, name the statute.
+- Provide a "structure": how the deal was actually done — the consideration (amount/price/share count if public),
+  the key conditions precedent / mechanics, the approvals required, what was NOVEL, and the deal-SPECIFIC regulatory
+  triggers (why THIS deal needs THESE laws). Set status "Confirmed" only where taken from primary disclosure, else
+  "Partly inferred". This is the precedent layer — be specific and practical, never invent figures.
 - For official sources, prefer SPECIFIC URLs (the named company's exchange filing page, or the specific
   CCI/SEBI/NCLT order) over portal homepages.
 
@@ -56,6 +60,8 @@ Output ONLY a single JSON object (no markdown fences, no commentary) with EXACTL
  "implication": string,              // one sentence: the practice point / structuring nuance / precedent
  "detail": string,                   // 2-4 sentences of substantive detail
  "framework": [ { "ref": string, "note": string, "flag": "central"|"amended"|"" } ],  // 5-9 key statutes/sections
+ "structure": { "consideration": string, "conditions": [string], "approvals": [string], "novel": string,
+   "triggers": [ { "law": string, "note": string } ], "status": "Confirmed"|"Partly inferred" },
  "firms": [ { "name": string, "side": string,
               "lead": [ { "n": string, "role": string } ],
               "team": [ string ],
