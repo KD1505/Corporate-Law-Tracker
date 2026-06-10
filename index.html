@@ -128,6 +128,17 @@
   .fwnote{font-size:12.5px;color:var(--ink2);margin-top:2px;line-height:1.5}
   .fwtag{font-size:8.5px;font-weight:750;padding:1px 6px;border-radius:4px;margin-left:7px;text-transform:uppercase;letter-spacing:.3px;vertical-align:middle}
   .fwtag.amd{background:var(--amber);color:#fff} .fwtag.ctr{background:var(--accent);color:#fff}
+  .webstrip{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 18px;max-width:760px}
+  .webstrip-lbl{font-size:11px;font-weight:700;color:var(--ink3);text-transform:uppercase;letter-spacing:.5px}
+  .webchip{font-size:12px;font-weight:600;background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:6px 12px;cursor:pointer;color:var(--ink2);box-shadow:var(--shadow)}
+  .webchip:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-1px)}
+  .webchip b{color:var(--accent);font-weight:750}
+  .sec[id]{scroll-margin-top:72px}
+  .trendcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px;margin-bottom:12px;box-shadow:var(--shadow)}
+  .trendcard .tt{font-size:16px;font-weight:740;letter-spacing:-.2px;line-height:1.3}
+  .trendcard .tsum{font-size:13.5px;color:var(--ink2);line-height:1.6;margin:7px 0 11px}
+  .lawchip{font-size:11px;font-weight:650;background:var(--amber-soft);color:var(--amber);padding:3px 9px;border-radius:6px;cursor:pointer}
+  .lawchip:hover{text-decoration:underline}
   .otag{font-size:9.5px;font-weight:700;color:var(--teal);background:var(--teal-soft);padding:1px 7px;border-radius:5px;margin-left:6px}
   .star{margin-left:auto;cursor:pointer;color:var(--ink4);font-size:18px;line-height:1;background:none;border:none;padding:0;transition:.12s;z-index:2}
   .star:hover{transform:scale(1.2);color:var(--amber)} .star.on{color:var(--amber)}
@@ -705,6 +716,7 @@ function isVerified(d){
 }
 
 /* Regulatory tracker — real developments with effective dates, deadlines and "what changes in your documents". */
+/* REGITEMS-START — auto-extended nightly with regulator circulars/notifications; new items on top. */
 const REGITEMS=[
  {id:"rbi-pf-2025",reg:"RBI",title:"RBI (Project Finance) Directions, 2025",status:"In force",effective:"1 Oct 2025",deadline:"Applies to project loans sanctioned on/after 1 Oct 2025",
   impact:"Standardised provisioning: 1% standard-asset during construction (eased from the 2.5% draft), stepping up with each quarter of DCCO deferment (0.375% infra / 0.5625% non-infra); 1.25% for under-construction CRE.",
@@ -717,8 +729,39 @@ const REGITEMS=[
  {id:"bombay-spectrum-ruling",reg:"Bombay HC",title:"Retrospective one-time spectrum levy quashed (Airtel, Vodafone Idea)",status:"Ruling",effective:"8 Jun 2026",deadline:"—",
   impact:"State cannot retrospectively re-price telecom licences under Section 4 of the Telegraph Act; demand notices set aside, bank guarantees to be returned.",
   action:"Cite as authority against retrospective regulatory charges / licence-variation demands across regulated sectors.",
-  sources:[{name:"Bar & Bench",url:"https://www.barandbench.com/news/bombay-high-court-quashes-retrospective-one-time-spectrum-levy-on-airtel-vodafone-idea",official:false,blurb:"Full judgment summary and the Section 4 analysis."}],linkDeal:"airtel-spectrum"}
+  sources:[{name:"Bar & Bench",url:"https://www.barandbench.com/news/bombay-high-court-quashes-retrospective-one-time-spectrum-levy-on-airtel-vodafone-idea",official:false,blurb:"Full judgment summary and the Section 4 analysis."}],linkDeal:"airtel-spectrum",deals:["airtel-spectrum"],laws:["telecommunications-act-2023"]}
 ];
+/* REGITEMS-END */
+
+/* ============================ COMMENTARY & ANALYSIS (per deal) ============================
+   Opinion pieces, columns and analysis that discuss a specific deal — the "what the market is
+   saying" branch of each deal's web. Keyed by deal id. 'insight' is OUR one-line read of what the
+   article adds, not a copy of it. Auto-extended nightly by the engine. */
+/* COMMENTARY-START — flat list; new items inserted on top by the engine. */
+const COMMENTARY=[
+ {deal:"acme-qip",title:"Foreign Law Firms in Indian IPOs: Hogan Lovells, Sidley and Latham lead",source:"Bar & Bench",url:"https://www.barandbench.com/latest-legal-news/foreign-law-firms-in-indian-ipos-hogan-lovells-sidley-and-latham-lead",date:"2025",insight:"Situates Hogan Lovells' role on the ACME QIP within the foreign-counsel league table for Indian ECM — useful context on who wins international-counsel mandates."},
+ {deal:"acme-qip",title:"IPO price tag: what law firms billed companies in 2024-25 listings",source:"Bar & Bench",url:"https://www.barandbench.com/latest-legal-news/ipo-price-tag-what-law-firms-billed-companies-in-202425-listings",date:"2025",insight:"Benchmarks legal fees on comparable issues — a reference point for pricing the ACME-type ECM mandate."},
+ {deal:"coforge-cigniti",title:"JSA, Khaitan act on Coforge's $2.35 billion acquisition of Encora",source:"Bar & Bench",url:"https://www.barandbench.com/dealstreet/jsa-khaitan-act-on-coforges-235-billion-acquisition-of-encora",date:"2026",insight:"Coforge's parallel $2.35bn Encora acquisition — read alongside the Cigniti amalgamation to see Coforge's back-to-back inorganic strategy and JSA's repeat mandate."},
+ {deal:"jsw-energy-qip",title:"IPO Report: which firms dominated the ₹1,000+ crore segment",source:"Bar & Bench",url:"https://www.barandbench.com/news/ipo-report-which-firms-dominated-the-1000-crore-segment",date:"2025",insight:"League-table context for the large-cap ECM segment JSW Energy's ₹4,000 cr QIP sits in — who is winning issuer vs banker mandates."}
+];
+/* COMMENTARY-END */
+
+/* ============================ MARKET INTELLIGENCE / TRENDS ============================
+   Cross-deal themes synthesised from commentary and data — the strands that connect several deals'
+   webs. Each links to the deals and laws it touches. Auto-extended nightly. */
+/* TRENDS-START */
+const TRENDS=[
+ {id:"foreign-counsel-ipos",title:"Foreign counsel are entrenching themselves in India's largest IPOs/QIPs",date:"2025",
+  summary:"Hogan Lovells, Sidley Austin and Latham & Watkins increasingly lead the international-counsel role on big-ticket Indian equity issues. For issuers and banks, international counsel is now a standard line item on any ₹1,000 cr+ raise with an offshore (Reg S/144A) tranche — a structural shift in the ECM panel.",
+  sources:[{name:"Bar & Bench",url:"https://www.barandbench.com/latest-legal-news/foreign-law-firms-in-indian-ipos-hogan-lovells-sidley-and-latham-lead"}],deals:["acme-qip","jsw-energy-qip"],laws:["sebi-icdr-regulations-2018"]},
+ {id:"levfin-billing",title:"Legal-fee benchmarking on Indian listings is becoming transparent",date:"2025",
+  summary:"Published data on what issuers and bankers paid their counsel on 2024-25 listings is giving clients hard benchmarks — pressure on fee structures and a pitching data-point for firms.",
+  sources:[{name:"Bar & Bench",url:"https://www.barandbench.com/latest-legal-news/ipo-price-tag-what-law-firms-billed-companies-in-202425-listings"}],deals:["acme-qip","coal-india-ofs","hfcl-qip"],laws:["sebi-icdr-regulations-2018"]},
+ {id:"mediation-traction",title:"Pre-litigation mediation still struggles for traction in commercial disputes",date:"2026",
+  summary:"Senior counsel note that mandatory pre-litigation mediation (s.12A Commercial Courts Act) has had limited success, even as arbitration fatigue grows — relevant to dispute-resolution clause design in deal documents.",
+  sources:[{name:"Bar & Bench (LIDW 2026)",url:"https://www.barandbench.com/news/pre-litigation-mediation-has-had-limited-success-senior-advocate-prashanto-chandra-sen-at-lidw"}],deals:["airtel-spectrum"],laws:["arbitration-and-conciliation-act-1996"]}
+];
+/* TRENDS-END */
 
 /* ============================ REGULATORY LIBRARY (the masterclass) ============================
    Organised by area. Each entry: what it governs, the key sections/regulations a lawyer actually
@@ -1227,6 +1270,8 @@ const FRAMEWORK={
  "irfc-hyd-metro":FW.fin,"airtel-spectrum":FW.ruling,"pagani-residency":FW.outbound
 };
 function frameworkOf(d){return d.framework||FRAMEWORK[d.id]||[];}
+function commentaryOf(d){return (typeof COMMENTARY!=="undefined"?COMMENTARY.filter(c=>c.deal===d.id):[]);}
+function regItemsFor(d){return (typeof REGITEMS!=="undefined"?REGITEMS:[]).filter(r=>(r.deals&&r.deals.includes(d.id))||r.linkDeal===d.id);}
 
 /* ============================ STATE ============================ */
 let route={name:"feed"};
@@ -1252,7 +1297,7 @@ function matchesFilters(d){
 
 /* ============================ SIDEBAR ============================ */
 function buildSidebar(){
-  const browse=[{k:"feed",ic:"▤",label:"Deals Feed"},{k:"pipeline",ic:"◷",label:"Deal Pipeline"},{k:"analytics",ic:"▦",label:"League & Analytics"},{k:"regulatory",ic:"§",label:"Regulatory Tracker"},{k:"moves",ic:"⇄",label:"Moves"},{k:"firms",ic:"⚖",label:"Firms Directory"},{k:"watch",ic:"★",label:"Watchlist"},{k:"saved",ic:"🔖",label:"Saved Searches"}];
+  const browse=[{k:"feed",ic:"▤",label:"Deals Feed"},{k:"pipeline",ic:"◷",label:"Deal Pipeline"},{k:"analytics",ic:"▦",label:"League & Analytics"},{k:"regulatory",ic:"§",label:"Regulatory Tracker"},{k:"trends",ic:"◎",label:"Intelligence"},{k:"moves",ic:"⇄",label:"Moves"},{k:"firms",ic:"⚖",label:"Firms Directory"},{k:"watch",ic:"★",label:"Watchlist"},{k:"saved",ic:"🔖",label:"Saved Searches"}];
   $("browseNav").innerHTML=browse.map(b=>`<div class="ni" data-browse="${b.k}"><span class="ic">${b.ic}</span>${b.label}${b.k==="watch"?`<span class="ct" id="starCt">${starred.size}</span>`:""}</div>`).join("");
   $("geoNav").innerHTML=GEOS.map(g=>{const ct=g.id==="all"?DEALS.length:DEALS.filter(d=>d.geo===g.id).length;
     return `<div class="ni" data-geo="${g.id}"><span class="dot" style="background:${g.dot}"></span>${g.label}<span class="ct">${ct}</span></div>`}).join("");
@@ -1369,10 +1414,16 @@ function renderDeal(id){
   const mergedDocs=[...officialDocs(d),...(d.docs||[])].filter((x,i,a)=>a.findIndex(y=>y.url===x.url)===i);
   const docsHtml=mergedDocs.length?mergedDocs.map(dc=>`<div class="doc" onclick="window.open('${dc.url}','_blank','noopener')"><span class="di">📄</span>${dc.label}<span style="margin-left:auto;color:var(--ink3)">↗</span></div>`).join(""):`<div class="note">Primary filings link out via the source article above.</div>`;
   const fw=frameworkOf(d);
-  const fwHtml=fw.length?`<div class="sec"><h4>Legal framework · what to review <span style="font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink4)">(${fw.length})</span></h4>${fw.map(x=>`<div class="fwitem ${x.flag||''}"><div class="fwref">${x.ref}${x.flag==="amended"?'<span class="fwtag amd">Recently amended</span>':x.flag==="central"?'<span class="fwtag ctr">Central</span>':''}</div><div class="fwnote">${x.note}</div></div>`).join("")}<div class="note" style="margin-top:10px">General transactional-review references — not legal advice; verify against the current text and the deal's specific facts. <span style="color:var(--accent);font-weight:700;cursor:pointer;font-style:normal" onclick="go({name:'regulatory'})">Open the Regulatory Library →</span></div></div>`:"";
+  const fwHtml=fw.length?`<div class="sec" id="sec-framework"><h4>Legal framework · what to review <span style="font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink4)">(${fw.length})</span></h4>${fw.map(x=>`<div class="fwitem ${x.flag||''}"><div class="fwref">${x.ref}${x.flag==="amended"?'<span class="fwtag amd">Recently amended</span>':x.flag==="central"?'<span class="fwtag ctr">Central</span>':''}</div><div class="fwnote">${x.note}</div></div>`).join("")}<div class="note" style="margin-top:10px">General transactional-review references — not legal advice; verify against the current text and the deal's specific facts. <span style="color:var(--accent);font-weight:700;cursor:pointer;font-style:normal" onclick="go({name:'regulatory'})">Open the Regulatory Library →</span></div></div>`:"";
+  const comm=commentaryOf(d);
+  const commHtml=comm.length?`<div class="sec" id="sec-commentary"><h4>Commentary &amp; analysis <span style="font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink4)">(${comm.length})</span></h4>${comm.map(c=>`<div class="srcitem"><div class="st"><span class="snm">${c.title}</span><a class="sgo" href="${c.url}" target="_blank" rel="noopener">${c.source}${c.date?` · ${c.date}`:""} ↗</a></div><div class="sblurb">${c.insight}</div></div>`).join("")}</div>`:"";
+  const relReg=regItemsFor(d);
+  const relRegHtml=relReg.length?`<div class="sec" id="sec-regulatory"><h4>Related regulatory developments</h4>${relReg.map(r=>`<div class="doc" onclick="go({name:'regulatory'})"><span class="di">§</span>${r.title}<span style="margin-left:auto;color:var(--ink3)">→</span></div>`).join("")}</div>`:"";
   const tl=d.timeline&&d.timeline.length?`<div class="sec"><h4>Timeline</h4><div class="tl">${d.timeline.map(e=>`<div class="ev"><div class="ed">${e.d}</div><div class="et">${e.t}</div></div>`).join("")}</div></div>`:"";
   const related=DEALS.filter(x=>x.id!==d.id&&(x.sector===d.sector||x.firms.some(f=>dealFirms(d).includes(f.name)))).slice(0,4);
-  const relHtml=related.length?`<div class="sec"><h4>Related deals</h4>${related.map(r=>`<div class="doc" onclick="go({name:'deal',id:'${r.id}'})"><span class="di">●</span>${r.headline}<span style="margin-left:auto;color:var(--ink3)">→</span></div>`).join("")}</div>`:"";
+  const relHtml=related.length?`<div class="sec" id="sec-related"><h4>Related deals</h4>${related.map(r=>`<div class="doc" onclick="go({name:'deal',id:'${r.id}'})"><span class="di">●</span>${r.headline}<span style="margin-left:auto;color:var(--ink3)">→</span></div>`).join("")}</div>`:"";
+  const webParts=[["Legal framework",fw.length,"sec-framework"],["Commentary",comm.length,"sec-commentary"],["Regulatory",relReg.length,"sec-regulatory"],["Related deals",related.length,"sec-related"]].filter(x=>x[1]>0);
+  const webStrip=webParts.length?`<div class="webstrip"><span class="webstrip-lbl">This deal connects to →</span>${webParts.map(w=>`<span class="webchip" data-scroll="${w[2]}"><b>${w[1]}</b> ${w[0]}</span>`).join("")}</div>`:"";
   $("main").innerHTML=`
    <span class="back" onclick="go({name:'feed'})">← Back to feed</span>
    <div class="dd">
@@ -1385,11 +1436,14 @@ function renderDeal(id){
      </div>
      <h1>${d.headline}</h1>
      <div class="lede">${d.sum}</div>
+     ${webStrip}
      <div class="dd-grid">
        <div>
          ${impl(d)?`<div class="sec" style="background:var(--accent-soft);border-color:transparent"><h4 style="color:var(--accent)">Why it matters · practice implication</h4><p style="color:var(--ink);font-size:14px">${impl(d)}</p></div>`:""}
          ${(()=>{const su=(d.sum||"").replace(/<[^>]+>/g,"").trim().toLowerCase(),de=(d.detail||"").replace(/<[^>]+>/g,"").trim();return de&&de.toLowerCase().slice(0,60)!==su.slice(0,60)?`<div class="sec"><h4>What happened</h4><p>${d.detail}</p></div>`:"";})()}
          ${fwHtml}
+         ${commHtml}
+         ${relRegHtml}
          <div class="sec"><h4>Counsel & teams</h4>${firmsHtml}</div>
          <div class="sec"><h4>Sources &amp; official filings · what each adds <span style="font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink4)">(${allSrcs.length})</span></h4>${srcHtml}</div>
          <div class="sec"><h4>Public documents</h4>${docsHtml}</div>
@@ -1410,6 +1464,7 @@ function renderDeal(id){
      </div>
    </div>`;
   $("main").querySelectorAll("[data-star]").forEach(b=>b.onclick=e=>{e.stopPropagation();toggleStar(b.dataset.star);render();});
+  $("main").querySelectorAll("[data-scroll]").forEach(n=>n.onclick=()=>document.getElementById(n.dataset.scroll)?.scrollIntoView({behavior:"smooth",block:"start"}));
 }
 
 /* ============================ STATS ============================ */
@@ -1524,6 +1579,7 @@ let regQuery="";
 function lawId(t){return t.toLowerCase().replace(/&/g," ").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");}
 function findLaw(id){for(const A of REGLIB)for(const it of A.items)if(lawId(it.t)===id)return {it,area:A.area};return null;}
 function dealChip(id){const d=DEALS.find(x=>x.id===id);if(!d)return "";const h=d.headline||"";const t=h.length>44?h.slice(0,44)+"…":h;return `<span class="dealchip" data-deal="${id}" title="${h.replace(/"/g,'&quot;')}">${t}</span>`;}
+function lawChip(id){const f=findLaw(id);if(!f)return "";return `<span class="lawchip" data-law="${id}">§ ${f.it.t}</span>`;}
 function renderRegulatory(){
   const trackerCards=REGITEMS.map(r=>{
     const src=(r.sources||[]).map(s=>`<div class="srcitem"><div class="st"><span class="snm">${s.name}</span>${s.official?'<span class="otag">🏛 Official</span>':''}<a class="sgo" href="${s.url}" target="_blank" rel="noopener">Open ↗</a></div><div class="sblurb">${s.blurb}</div></div>`).join("");
@@ -1533,7 +1589,8 @@ function renderRegulatory(){
       <div class="rlab">What it changes</div><p>${r.impact}</p>
       <div class="rlab">Action for your documents</div><p class="ract">${r.action}</p>
       <div class="rlab" style="margin-bottom:8px">Sources</div>${src}
-      ${r.linkDeal?`<div class="doc" style="margin-top:10px" data-deal="${r.linkDeal}"><span class="di">→</span>See the tracked matter<span style="margin-left:auto;color:var(--ink3)">→</span></div>`:""}
+      ${(r.deals&&r.deals.length)?`<div class="rlab">Connected deals</div><div class="lawrefs">${r.deals.map(dealChip).filter(Boolean).join("")}</div>`:(r.linkDeal?`<div class="rlab">Connected deal</div><div class="lawrefs">${dealChip(r.linkDeal)}</div>`:"")}
+      ${(r.laws&&r.laws.length)?`<div class="rlab">Connected law</div><div class="lawrefs">${r.laws.map(lawChip).filter(Boolean).join("")}</div>`:""}
     </div>`;}).join("");
 
   const q=regQuery.trim().toLowerCase();
@@ -1561,7 +1618,8 @@ function renderRegulatory(){
     <div class="regnav">${nav}</div>
     ${areasHtml||'<div class="empty">No provisions match your search.</div>'}
     <div class="foot">A study &amp; checklist aid for transactional review — not legal advice. Always read the current text of the law and the latest amendments.</div>`;
-  $("main").querySelectorAll(".lawcard[data-law]").forEach(c=>c.onclick=e=>{if(e.target.closest("a,[data-deal]"))return;go({name:"law",id:c.dataset.law});});
+  $("main").querySelectorAll(".lawcard[data-law]").forEach(c=>c.onclick=e=>{if(e.target.closest("a,[data-deal],.lawchip"))return;go({name:"law",id:c.dataset.law});});
+  $("main").querySelectorAll(".lawchip[data-law]").forEach(n=>n.onclick=e=>{e.stopPropagation();go({name:"law",id:n.dataset.law});});
   $("main").querySelectorAll("[data-deal]").forEach(n=>n.onclick=e=>{e.stopPropagation();go({name:"deal",id:n.dataset.deal});});
   $("main").querySelectorAll(".lawrefs a").forEach(a=>a.onclick=e=>e.stopPropagation());
   $("main").querySelectorAll("[data-jump]").forEach(n=>n.onclick=()=>document.getElementById(n.dataset.jump)?.scrollIntoView({behavior:"smooth",block:"start"}));
@@ -1622,6 +1680,23 @@ function renderMoves(){
     <div class="foot">Auto-expands as the engine ingests Bar &amp; Bench's Corporate &amp; In-House section nightly.</div>`;
 }
 
+/* ============================ MARKET INTELLIGENCE / TRENDS ============================ */
+function renderTrends(){
+  const cards=TRENDS.map(t=>{
+    const src=(t.sources||[]).map(s=>`<a class="sgo" href="${s.url}" target="_blank" rel="noopener">${s.name} ↗</a>`).join("  ·  ");
+    const deals=(t.deals||[]).map(dealChip).filter(Boolean).join("");
+    const laws=(t.laws||[]).map(lawChip).filter(Boolean).join("");
+    return `<div class="trendcard"><div class="tt">${t.title}</div><div class="tsum">${t.summary}</div>
+      ${deals?`<div class="lawkeylbl">Connected deals</div><div class="lawrefs">${deals}</div>`:""}
+      ${laws?`<div class="lawkeylbl">Connected law</div><div class="lawrefs">${laws}</div>`:""}
+      <div class="lawkeylbl">Sources</div><div class="lawrefs">${src}</div></div>`;}).join("");
+  $("main").innerHTML=`<div class="demo">◎ <span><b>Market Intelligence.</b> Cross-deal themes synthesised from commentary and data — the strands that connect several deals' webs.</span></div>
+    <div class="vh"><h2>Market Intelligence</h2><span class="sub">${TRENDS.length} themes</span></div>${cards}
+    <div class="foot">Synthesised from tracked commentary &amp; data; each theme links to the deals and law it touches.</div>`;
+  $("main").querySelectorAll("[data-deal]").forEach(n=>n.onclick=()=>go({name:"deal",id:n.dataset.deal}));
+  $("main").querySelectorAll("[data-law]").forEach(n=>n.onclick=()=>go({name:"law",id:n.dataset.law}));
+}
+
 /* ============================ SAVED SEARCHES / ALERTS (f) ============================ */
 function loadSaved(){try{return JSON.parse(localStorage.getItem("clt_saved")||"[]");}catch{return[];}}
 function persistSaved(a){try{localStorage.setItem("clt_saved",JSON.stringify(a));}catch{}}
@@ -1656,6 +1731,7 @@ function render(){
   else if(route.name==="analytics")renderAnalytics();
   else if(route.name==="regulatory")renderRegulatory();
   else if(route.name==="law")renderLaw(route.id);
+  else if(route.name==="trends")renderTrends();
   else if(route.name==="moves")renderMoves();
   else if(route.name==="saved")renderSaved();
   else if(route.name==="watch")renderFeed("★ Watchlist",DEALS.filter(d=>starred.has(d.id)),starred.size+" starred");

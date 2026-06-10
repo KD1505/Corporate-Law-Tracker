@@ -12,9 +12,10 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { fetchNewItems, fetchMoves } from "./fetch.mjs";
+import { fetchNewItems, fetchMoves, fetchRegulators, fetchCommentary } from "./fetch.mjs";
 import { extractItem } from "./extract.mjs";
 import { scoreDeal, OFFICIAL_RE } from "./score.mjs";
+import { structureRegulatorFree, routeArticleFree, LAW_IDS } from "./ingest.mjs";
 const GENERIC_PORTAL=/(corporates\/ann\.html|companies-listing\/corporate-filings|combination\/orders|public-issues\.html|BS_ViewMasDirections|AllReleasem|order-judgement-date-wise|sebiweb\/home|dipam\.gov\.in\/?$|meity\.gov\.in\/?$|ecourts\.gov\.in\/?$|ibbi\.gov\.in\/en\/orders$|nclt\.gov\.in)/i;
 function hasSpecificOfficial(d){return (d.sources||[]).some(s=>(s.official===true||OFFICIAL_RE.test(s.url||""))&&!GENERIC_PORTAL.test(s.url||""));}
 
@@ -73,6 +74,15 @@ function spliceAfter(html, anchor, literals) {
   if (at === -1) throw new Error(`anchor not found: ${anchor}`);
   const p = at + anchor.length;
   return html.slice(0, p) + "\n" + literals + ",\n" + html.slice(p);
+}
+function blockOf(html, a, b) { const i = html.indexOf(a), j = html.indexOf(b); return i !== -1 && j !== -1 ? html.slice(i, j) : ""; }
+function idsInBlock(blk) { return [...blk.matchAll(/"?id"?\s*:\s*"([^"]+)"/g)].map((m) => m[1]); }
+function slugTailsInBlock(blk) { return [...blk.matchAll(/https?:\/\/[^"']+/g)].map((m) => m[0].split(/[?#]/)[0].split("/").pop().slice(0, 120)).filter(Boolean); }
+function dealCatalogFrom(html) {
+  const blk = blockOf(html, START, END);
+  const ids = idsInBlock(blk);
+  const heads = [...blk.matchAll(/headline:\s*"([^"]+)"/g)].map((m) => m[1]);
+  return ids.map((id, i) => ({ id, headline: heads[i] || "", text: (heads[i] || "").toLowerCase() }));
 }
 
 function todayLabel() {
@@ -153,6 +163,42 @@ async function main() {
       console.log(`Added ${moves.length} move(s).`);
     } else console.log("No new moves.");
   } catch (e) { console.warn(`Moves phase skipped: ${e.message}`); }
+
+  /* ---------------- REGULATOR PHASE (notifications/circulars → tracker) ---------------- */
+  try {
+    const regBlk = blockOf(html, "REGITEMS-START", "REGITEMS-END");
+    const regHave = new Set([...idsInBlock(regBlk), ...slugTailsInBlock(regBlk)]);
+    const regs = await fetchRegulators(regHave);
+    const regItems = [];
+    for (const it of regs) {
+      try { regItems.push(USE_AI ? await (await import("./enrich.mjs")).enrichRegulatorAI(it, LAW_IDS) : structureRegulatorFree(it)); }
+      catch (e) { console.warn(`  ! regulator ${it.id}: ${e.message}`); regItems.push(structureRegulatorFree(it)); }
+    }
+    if (regItems.length) { html = spliceAfter(html, "const REGITEMS=[", regItems.map((r) => " " + JSON.stringify(r)).join(",\n")); changed = true; console.log(`Added ${regItems.length} regulator item(s).`); }
+    else console.log("No new regulator items.");
+  } catch (e) { console.warn(`Regulator phase skipped: ${e.message}`); }
+
+  /* ---------------- COMMENTARY PHASE (articles → deal / trend / regulation) ---------------- */
+  try {
+    const commBlk = blockOf(html, "COMMENTARY-START", "COMMENTARY-END") + blockOf(html, "TRENDS-START", "TRENDS-END") + blockOf(html, "REGITEMS-START", "REGITEMS-END");
+    const commHave = new Set(slugTailsInBlock(commBlk));
+    const catalog = dealCatalogFrom(html);
+    const arts = await fetchCommentary(commHave);
+    const newComm = [], newTrends = [], newReg = [];
+    for (const it of arts) {
+      let r;
+      try { r = USE_AI ? await (await import("./enrich.mjs")).routeArticleAI(it, catalog.map((c) => ({ id: c.id, headline: c.headline })), LAW_IDS) : routeArticleFree(it, catalog); }
+      catch (e) { console.warn(`  ! route ${it.id}: ${e.message}`); r = routeArticleFree(it, catalog); }
+      if (r.kind === "deal") newComm.push(r.payload);
+      else if (r.kind === "regulation") newReg.push(r.payload);
+      else newTrends.push(r.payload);
+    }
+    if (newComm.length) { html = spliceAfter(html, "const COMMENTARY=[", newComm.map((c) => " " + JSON.stringify(c)).join(",\n")); changed = true; }
+    if (newTrends.length) { html = spliceAfter(html, "const TRENDS=[", newTrends.map((t) => " " + JSON.stringify(t)).join(",\n")); changed = true; }
+    if (newReg.length) { html = spliceAfter(html, "const REGITEMS=[", newReg.map((r) => " " + JSON.stringify(r)).join(",\n")); changed = true; }
+    const n = newComm.length + newTrends.length + newReg.length;
+    console.log(n ? `Added ${newComm.length} commentary, ${newTrends.length} trend(s), ${newReg.length} reg-analysis.` : "No new commentary.");
+  } catch (e) { console.warn(`Commentary phase skipped: ${e.message}`); }
 
   /* ---------------- WRITE ---------------- */
   if (changed) {

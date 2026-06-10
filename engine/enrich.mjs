@@ -101,6 +101,10 @@ Now research and return the JSON record. Corroborate with as many credible sourc
 
   const deal = safeJSON(text);
   deal.id = item.id; // enforce
+  return finishDeal(deal, item);
+}
+
+function finishDeal(deal, item) {
   // Guarantee Bar & Bench is present as a source
   if (!deal.sources?.some((s) => /barandbench\.com/.test(s.url || ""))) {
     deal.sources = deal.sources || [];
@@ -111,4 +115,58 @@ Now research and return the JSON record. Corroborate with as many credible sourc
     });
   }
   return deal;
+}
+
+async function askJSON(system, user, maxUses = 5) {
+  const resp = await client.messages.create({
+    model: MODEL, max_tokens: 2600, system,
+    tools: [{ type: "web_search_20250305", name: "web_search", max_uses: maxUses }],
+    messages: [{ role: "user", content: user }],
+  });
+  return safeJSON(resp.content.filter((b) => b.type === "text").map((b) => b.text).join("\n"));
+}
+
+const LEGAL_MIND = `You are a senior Indian corporate/transactional lawyer writing for other transactional lawyers (not a classroom).
+Be precise, practical and deep. Never invent facts, sections, dates or URLs — verify with web_search and cite only specific real URLs you saw.
+Triple-check accuracy; flag anything you are unsure of by omitting it rather than guessing.`;
+
+// Structure a regulator notification/circular into a tracker item with real legal analysis.
+export async function enrichRegulatorAI(item, lawIds) {
+  const system = `${LEGAL_MIND}
+Read the regulator issuance below (use web_search on the URL/title). Output ONLY this JSON:
+{ "id": string, "reg": string, "title": string, "status": string, "effective": string, "deadline": string,
+  "impact": string,   // what actually changes, in practice, for deals/documents — 1-3 sentences
+  "action": string,   // what a transactional lawyer should DO about it
+  "sources": [ { "name": string, "url": string, "official": boolean, "blurb": string } ],
+  "laws": [string],   // pick 0-4 ids from the provided LAW_IDS that this relates to
+  "deals": [] }
+LAW_IDS = ${JSON.stringify(lawIds)}`;
+  const user = `Regulator: ${item.regulator}\nTitle: ${item.headline}\nURL: ${item.url}\nUse id="${item.id}". Analyse and return the JSON.`;
+  const r = await askJSON(system, user);
+  r.id = item.id; r.reg = r.reg || item.regulator; r.deals = r.deals || [];
+  return r;
+}
+
+// Route + analyse a commentary article into the deal web. Returns {kind, payload}.
+export async function routeArticleAI(item, dealCatalog, lawIds) {
+  const system = `${LEGAL_MIND}
+Read the article (use web_search on the URL). Decide where it belongs and output ONLY this JSON:
+{ "kind": "deal" | "trend" | "regulation",
+  "deal": string|null,        // if kind=deal, the DEAL_ID it concerns
+  "insight": string,          // YOUR one-sentence practical read of what the piece adds (not a copy)
+  "title": string,
+  "summary": string,          // if kind=trend: 2-3 sentence synthesis of the theme
+  "impact": string,           // if kind=regulation: what changes in practice
+  "action": string,           // if kind=regulation: what to do
+  "laws": [string],           // 0-4 ids from LAW_IDS
+  "deals": [string] }         // if kind=trend: DEAL_IDs the theme connects
+Rules: kind="deal" only if it clearly concerns a specific tracked deal; kind="regulation" if it analyses a new
+amendment/circular/regulation; otherwise kind="trend". DEAL_IDs (id → headline) = ${JSON.stringify(dealCatalog).slice(0, 4000)}.
+LAW_IDS = ${JSON.stringify(lawIds)}.`;
+  const user = `Title: ${item.headline}\nURL: ${item.url}\nUse id="${item.id}". Analyse and return the JSON.`;
+  const r = await askJSON(system, user);
+  const yr = String(new Date(item.published).getFullYear());
+  if (r.kind === "deal" && r.deal) return { kind: "deal", payload: { deal: r.deal, title: r.title || item.headline, source: item.source || "Bar & Bench", url: item.url, date: yr, insight: r.insight || "Analysis touching this matter." } };
+  if (r.kind === "regulation") return { kind: "regulation", payload: { id: item.id, reg: "Analysis", title: r.title || item.headline, status: "Commentary", effective: yr, deadline: "—", impact: r.impact || r.insight || "Commentary on a regulatory development.", action: r.action || "Read and assess.", sources: [{ name: item.source || "Bar & Bench", url: item.url, official: false, blurb: r.insight || "Legal analysis." }], deals: r.deals || [], laws: r.laws || [] } };
+  return { kind: "trend", payload: { id: item.id, title: r.title || item.headline, date: yr, summary: r.summary || r.insight || "Market commentary.", sources: [{ name: item.source || "Bar & Bench", url: item.url }], deals: r.deals || [], laws: r.laws || [] } };
 }

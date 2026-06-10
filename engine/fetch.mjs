@@ -97,6 +97,52 @@ function idFromSlug(slug) {
   return slug.split("/").pop().slice(0, 120);
 }
 
+// ---- REGULATORS ----
+// Notifications/circulars/master directions. Add more feeds (incl. the link you provide) here.
+// RSS where available; failures are swallowed so one bad feed never breaks the run.
+const REGULATOR_FEEDS = [
+  { reg: "RBI", url: "https://www.rbi.org.in/Scripts/Rss.aspx" },
+  { reg: "PIB", url: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3" },
+  // { reg: "SEBI", url: "<add SEBI circulars RSS / the link you give me>" },
+  // { reg: "CCI",  url: "<add CCI press/orders feed>" },
+  // { reg: "IBBI", url: "<add IBBI circulars feed>" },
+];
+export async function fetchRegulators(existing, max = 12) {
+  const out = [];
+  for (const f of REGULATOR_FEEDS) {
+    try {
+      const r = await fetch(f.url, { headers: { "User-Agent": UA }, redirect: "follow" });
+      if (!r.ok) continue;
+      const xml = await r.text();
+      for (const it of parseRSS(xml).slice(0, 20)) {
+        const id = (idFromSlug(it.link.split(/[?#]/)[0]) || (it.title || "").toLowerCase().replace(/[^a-z0-9]+/g, "-")).slice(0, 100);
+        if (!id || existing.has(id) || out.some((x) => x.id === id)) continue;
+        out.push({ id, url: it.link, headline: it.title, published: Date.parse(it.pub) || Date.now(), regulator: f.reg });
+        if (out.length >= max) break;
+      }
+    } catch { /* skip bad feed */ }
+  }
+  return out;
+}
+
+// ---- COMMENTARY / ANALYSIS ----
+// Columns, viewpoints and analysis. We take Bar & Bench's analytical sections off the latest feed
+// (URLs under /view-point/, /columns/, /latest-legal-news/). Add LiveLaw / firm-blog feeds similarly.
+export async function fetchCommentary(existing, max = 10) {
+  const j = await getJSON("https://www.barandbench.com/api/v1/stories?limit=40&fields=headline,slug,url,last-published-at").catch(() => ({ stories: [] }));
+  const out = [];
+  for (const s of j.stories || []) {
+    const url = s.url || "";
+    if (!/\/(view-point|columns|latest-legal-news)\//.test(url)) continue;
+    const id = idFromSlug(s.slug || url);
+    if (!id || existing.has(id) || out.some((x) => x.id === id)) continue;
+    out.push({ id, url, headline: s.headline, published: s["last-published-at"] || Date.now(), source: "Bar & Bench" });
+    if (out.length >= max) break;
+  }
+  for (const it of out) it.body = await fetchArticleBody(it.url);
+  return out;
+}
+
 // Lateral moves & GC appointments from Bar & Bench "Corporate & In-House" (section 14024).
 const MOVES_API =
   "https://www.barandbench.com/api/v1/stories?section-id=14024&limit=25&fields=headline,slug,url,last-published-at";
