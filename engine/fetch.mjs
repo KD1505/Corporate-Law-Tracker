@@ -166,6 +166,60 @@ export async function fetchMoves(existingMoveIds, max = 10) {
   return out;
 }
 
+// ---- EXCHANGES (BSE + NSE) ----
+// Listed-company capital events straight from the exchanges. The biggest free completeness lever.
+// These JSON endpoints are anti-scraping; they generally work from the GitHub Actions runner with
+// browser-like headers but may need endpoint/header tuning after the first live run (check the log).
+// We keep only DEAL events (not dividends/board-meeting/results noise), and link the actual filing.
+const DEAL_EVENT = /qualified institution|\bQIP\b|offer for sale|\bOFS\b|preferential|rights issue|scheme of (arrangement|amalgamation)|amalgamation|\bmerger\b|open offer|acquisition|acquir|fund ?rais|allotment|buy-?back|\bInvIT\b|\bREIT\b|block deal|bulk deal|divest|takeover|warrant|stake/i;
+
+async function bseGet(url) {
+  const r = await fetch(url, { headers: { "User-Agent": UA, "Accept": "application/json", "Origin": "https://www.bseindia.com", "Referer": "https://www.bseindia.com/" } });
+  if (!r.ok) throw new Error("bse " + r.status);
+  return r.json();
+}
+async function nseGet(url) {
+  let cookie = "";
+  try { const p = await fetch("https://www.nseindia.com/", { headers: { "User-Agent": UA, "Accept": "text/html" } }); cookie = p.headers.get("set-cookie") || ""; } catch {}
+  const r = await fetch(url, { headers: { "User-Agent": UA, "Accept": "application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.9", "Referer": "https://www.nseindia.com/", ...(cookie ? { Cookie: cookie } : {}) } });
+  if (!r.ok) throw new Error("nse " + r.status);
+  return r.json();
+}
+export async function fetchExchanges(existing, max = 10) {
+  const out = [];
+  const fmt = (d) => d.toISOString().slice(0, 10).replace(/-/g, "");
+  // --- BSE corporate announcements (last 3 days) ---
+  try {
+    const u = `https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=${fmt(new Date(Date.now() - 3 * 864e5))}&strScrip=&strSearch=P&strToDate=${fmt(new Date())}&strType=C`;
+    const j = await bseGet(u);
+    for (const a of (j.Table || [])) {
+      const head = String(a.HEADLINE || a.NEWSSUB || "").trim();
+      if (!DEAL_EVENT.test(head)) continue;
+      const id = ("bse-" + (a.NEWSID || `${a.SCRIP_CD}-${a.NEWS_DT || ""}`)).replace(/[^a-z0-9-]/gi, "").slice(0, 100);
+      if (!id || existing.has(id) || out.some((x) => x.id === id)) continue;
+      const url = a.ATTACHMENTNAME ? `https://www.bseindia.com/xml-data/corpfiling/AttachLive/${a.ATTACHMENTNAME}` : "https://www.bseindia.com/corporates/ann.html";
+      out.push({ id, url, headline: `${a.SLONGNAME || a.SCRIP_CD}: ${head}`, published: Date.parse(a.NEWS_DT) || Date.now(), source: "BSE" });
+      if (out.length >= max) break;
+    }
+  } catch { /* skip BSE this run */ }
+  // --- NSE corporate announcements (equities) ---
+  if (out.length < max) {
+    try {
+      const j = await nseGet("https://www.nseindia.com/api/corporate-announcements?index=equities");
+      for (const a of (Array.isArray(j) ? j : (j.data || []))) {
+        const head = `${a.desc || ""} ${a.attchmntText || ""}`.trim();
+        if (!DEAL_EVENT.test(head)) continue;
+        const id = ("nse-" + `${a.symbol || ""}-${a.an_dt || a.sort_date || ""}`).replace(/[^a-z0-9-]/gi, "").slice(0, 100);
+        if (!id || existing.has(id) || out.some((x) => x.id === id)) continue;
+        const url = a.attchmntFile || `https://www.nseindia.com/get-quotes/equity?symbol=${encodeURIComponent(a.symbol || "")}`;
+        out.push({ id, url, headline: `${a.symbol || ""}: ${String(a.desc || head).slice(0, 140)}`, published: Date.parse(a.an_dt) || Date.now(), source: "NSE" });
+        if (out.length >= max) break;
+      }
+    } catch { /* skip NSE this run */ }
+  }
+  return out;
+}
+
 /**
  * @param {Set<string>} existingIds  ids already present in the site (skip these)
  * @param {number} maxNew            cap on number of new items to enrich per run
@@ -184,21 +238,28 @@ export async function fetchNewItems(existingIds, maxNew = 12) {
       url: s.url,
       headline: s.headline,
       published: s["last-published-at"] || Date.now(),
+      source: "Bar & Bench — Dealstreet",
     });
   }
   // pull additional spines (multi-origin), respecting existing + already-seen this run
   for (const spine of RSS_SPINES) {
     const more = await fetchSpine(spine, new Set([...existingIds, ...seen]));
-    for (const it of more) { if (seen.has(it.id)) continue; seen.add(it.id); candidates.push(it); }
+    for (const it of more) { if (seen.has(it.id)) continue; seen.add(it.id); candidates.push({ ...it, source: spine.name }); }
   }
+
+  // pull the exchanges (BSE/NSE) — listed-company capital events from the primary filing
+  try {
+    const ex = await fetchExchanges(new Set([...existingIds, ...seen]));
+    for (const it of ex) { if (seen.has(it.id)) continue; seen.add(it.id); candidates.push(it); }
+  } catch { /* exchanges optional */ }
 
   // newest first, cap
   candidates.sort((a, b) => b.published - a.published);
   const batch = candidates.slice(0, maxNew);
 
-  // fetch bodies (sequential to be polite)
+  // fetch article body only for Bar & Bench (exchange/RSS items have no parseable article body)
   for (const item of batch) {
-    item.body = await fetchArticleBody(item.url);
+    item.body = /barandbench\.com/.test(item.url) ? await fetchArticleBody(item.url) : "";
   }
   return batch;
 }

@@ -137,7 +137,9 @@ export function extractItem(item) {
     detail: firstSentences(body, 4, 640),
     firms,
     sources: [
-      { name: "Bar & Bench — Dealstreet", url: item.url, blurb: "Primary source naming the law firms, partners and teams on the matter." },
+      /BSE|NSE/.test(item.source || "")
+        ? { name: item.source, url: item.url, official: true, blurb: "Primary exchange filing/announcement for this corporate event." }
+        : { name: item.source || "Bar & Bench — Dealstreet", url: item.url, blurb: "Primary source naming the law firms, partners and teams on the matter." },
       // official/primary verification points (search by the parties)
       ...official.map((o) => ({ name: o.label, url: o.url, official: true, blurb: "Official source — search by the parties to pull the primary filing/announcement." })),
     ],

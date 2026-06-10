@@ -111,14 +111,13 @@ Now research and return the JSON record. Corroborate with as many credible sourc
 }
 
 function finishDeal(deal, item) {
-  // Guarantee Bar & Bench is present as a source
-  if (!deal.sources?.some((s) => /barandbench\.com/.test(s.url || ""))) {
+  // Guarantee the originating source is present (Bar & Bench, exchange filing, or other spine)
+  if (!deal.sources?.some((s) => (s.url || "") === item.url)) {
     deal.sources = deal.sources || [];
-    deal.sources.unshift({
-      name: "Bar & Bench — Dealstreet",
-      url: item.url,
-      blurb: "Primary source naming the law firms, partners and teams on the matter.",
-    });
+    const isExch = /BSE|NSE/.test(item.source || "");
+    deal.sources.unshift(isExch
+      ? { name: item.source, url: item.url, official: true, blurb: "Primary exchange filing/announcement for this corporate event." }
+      : { name: item.source || "Bar & Bench — Dealstreet", url: item.url, blurb: "Primary source for the matter." });
   }
   return deal;
 }
