@@ -13,6 +13,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { fetchNewItems, fetchMoves, fetchRegulators, fetchCommentary } from "./fetch.mjs";
+import { fetchPublicDeals } from "./spine.mjs";
 import { extractItem } from "./extract.mjs";
 import { scoreDeal, OFFICIAL_RE } from "./score.mjs";
 import { structureRegulatorFree, routeArticleFree, LAW_IDS } from "./ingest.mjs";
@@ -27,6 +28,13 @@ const START = "/* DEALS-START";
 const END = "/* DEALS-END */";
 const MAX_NEW = Number(process.env.CLT_MAX_NEW || 12);
 const USE_AI = !!process.env.ANTHROPIC_API_KEY;
+
+// Wide-net + depth controls (Phase 1).
+const PRESS_MAX = Number(process.env.CLT_PRESS_MAX || MAX_NEW);          // Bar & Bench / RSS items per run
+const BACKFILL_DAYS = Number(process.env.CLT_BACKFILL || 3);            // history window for the spine; set high (e.g. 120) for a one-off backfill
+const SPINE_MAX = Number(process.env.CLT_SPINE_MAX || (BACKFILL_DAYS > 14 ? 250 : 60)); // public-deal disclosures ingested per run
+const SPINE_PAGES = Math.min(40, Math.max(4, Math.ceil(BACKFILL_DAYS * 1.5)));          // BSE pages to walk
+const AI_DEEP = Number(process.env.CLT_AI_DEEP || 18);                  // how many spine items to ENRICH DEEPLY with AI (cost guard)
 
 // Safety-net relevance gate: drop anything that is clearly NOT a corporate/commercial
 // matter, even if it somehow reaches us. Dealstreet is already deal-only, so this
@@ -89,8 +97,8 @@ function todayLabel() {
   return new Date().toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
 }
 
-async function structure(item) {
-  if (USE_AI) {
+async function structure(item, deep = true) {
+  if (USE_AI && deep) {
     try {
       const { enrichItem } = await import("./enrich.mjs");
       return await enrichItem(item);
@@ -106,8 +114,8 @@ function strip(s=""){return s.replace(/<[^>]+>/g," ").replace(/\s+/g," ").trim()
 async function writeBrief(deals) {
   const d = new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
   const order = { hi: 0, md: 1, lo: 2 };
-  const sorted = [...deals].sort((a, b) => (order[a.imp] ?? 3) - (order[b.imp] ?? 3));
-  let md = `# Corporate Law Tracker — Daily Brief\n_${d}_\n\n${deals.length} new development(s) overnight.\n\n`;
+  const sorted = [...deals].sort((a, b) => ((order[a.imp] ?? 3) - (order[b.imp] ?? 3)) || ((b.score || 0) - (a.score || 0))).slice(0, 40);
+  let md = `# Corporate Law Tracker — Daily Brief\n_${d}_\n\n${deals.length} new development(s)${deals.length > 40 ? " — top 40 shown" : ""}.\n\n`;
   for (const x of sorted) {
     const src = (x.sources && x.sources[0] && x.sources[0].url) || "";
     md += `### ${x.imp === "hi" ? "🔴 " : ""}${x.headline}\n`;
@@ -129,15 +137,33 @@ async function main() {
   /* ---------------- DEALS PHASE ---------------- */
   const seen = await loadSeen();
   const have = new Set([...existingIds(html), ...seen]);
-  let items = (await fetchNewItems(have, MAX_NEW)).filter(isRelevant);
-  console.log(`New relevant deal items: ${items.length}`);
+
+  // (1) PRESS spine — Bar & Bench Dealstreet + RSS: deals with NAMED law-firm teams.
+  const press = (await fetchNewItems(have, PRESS_MAX)).filter(isRelevant);
+  press.forEach((p) => have.add(p.id));
+  // (2) MANDATED-DISCLOSURE spine — BSE/NSE/CCI/SEBI: saturate the public-deals space.
+  let spine = [];
+  try { spine = (await fetchPublicDeals(have, { limit: SPINE_MAX, days: BACKFILL_DAYS, maxPages: SPINE_PAGES })).filter(isRelevant); }
+  catch (e) { console.warn(`Spine phase skipped: ${e.message}`); }
+  console.log(`New items — press: ${press.length}, spine: ${spine.length}${BACKFILL_DAYS > 14 ? ` (BACKFILL ${BACKFILL_DAYS}d)` : ""}.`);
+
+  // Depth where it matters: deep AI-enrich every press item (named teams) + the most
+  // material spine items; structure the long tail from filing metadata so NOTHING is missed.
+  const deepIds = new Set([
+    ...press.map((p) => p.id),
+    ...spine.slice(0, AI_DEEP).map((s) => s.id),
+  ]);
+  const items = [...press, ...spine];
   const deals = [];
+  let deepCount = 0;
   for (const item of items) {
     try {
-      const d = await structure(item);
-      if (d && d.id && d.headline) { deals.push(d); console.log(`  • deal: ${item.id}`); }
+      const deep = deepIds.has(item.id);
+      const d = await structure(item, deep);
+      if (d && d.id && d.headline) { deals.push(d); if (deep && USE_AI) deepCount++; }
     } catch (e) { console.warn(`  ! skipped ${item.id}: ${e.message}`); }
   }
+  console.log(`Structured ${deals.length} deal(s)${USE_AI ? ` — ${deepCount} deep-enriched, ${deals.length - deepCount} metadata-structured` : " (free rule-based)"}.`);
   if (deals.length) {
     for (const d of deals) {
       const { score, imp, reasons } = scoreDeal(d);

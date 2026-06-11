@@ -108,17 +108,35 @@ function officialLinks(type) {
   }
 }
 
+// Spine items (BSE/NSE/CCI/SEBI mandated disclosures) arrive pre-classified with a
+// company, deal-type and the SPECIFIC filing URL. Honour that rather than re-guessing.
+const SPINE_RE = /^(BSE|NSE|CCI|SEBI)$/i;
+const SPINE_PORTAL = /corporates\/ann\.html|corporate-filings-announcements/i;
+
 export function extractItem(item) {
   const body = item.body || "";
   const hay = `${item.headline}\n${body}`;
-  const type = matchRule(TYPE_RULES, hay, "ma");
+  const isSpine = SPINE_RE.test(item.source || "");
+  const type = item.dealType || matchRule(TYPE_RULES, hay, "ma");
   const sector = matchRule(SECTOR_RULES, hay, "Industrials");
   const geo = matchRule(GEO_RULES, hay, "other");
-  const stage = matchRule(STAGE_RULES, hay, "announced");
-  const value = extractValue(hay);
+  const stage = matchRule(STAGE_RULES, hay, isSpine ? "completed" : "announced");
+  const value = (item.value && item.value !== "—") ? item.value : extractValue(hay);
   const firms = extractFirms(hay);
   const date = new Date(item.published).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
   const official = officialLinks(type);
+
+  // The primary source. For a spine item with a real attachment, that IS a specific
+  // official filing → it counts toward "Verified". A bare portal fallback does not.
+  let primary;
+  if (isSpine) {
+    const specific = !!item.url && !SPINE_PORTAL.test(item.url);
+    primary = { name: `${item.source} filing${item.company ? " — " + item.company : ""}`, url: item.url,
+      official: specific, blurb: `Primary ${item.source} disclosure (SEBI LODR Reg. 30 / regulator filing) for this corporate event.` };
+  } else {
+    primary = { name: item.source || "Bar & Bench — Dealstreet", url: item.url,
+      blurb: "Primary source naming the law firms, partners and teams on the matter." };
+  }
 
   const deal = {
     id: item.id,
@@ -126,24 +144,22 @@ export function extractItem(item) {
     city: geo === "mumbai" ? "Mumbai" : geo === "delhi" ? "Delhi-NCR" : geo === "bengaluru" ? "Bengaluru" : geo === "global" ? "Cross-border" : "India",
     sector,
     imp: "md",
-    verified: false,      // free rule-based extract = "Reported" until an official source corroborates
+    verified: false,      // recomputed in build.mjs from whether a SPECIFIC official source exists
     implication: "",      // authored by AI mode or curators
     framework: [],        // authored by AI mode or curators
     stage, value,
-    parties: "",   // free mode does not guess parties (avoids mangled text); AI mode fills this cleanly
+    parties: item.company || "",
     time: date,
     headline: item.headline,
-    sum: firstSentences(body, 1, 200) || item.headline,
-    detail: firstSentences(body, 4, 640),
+    sum: firstSentences(body, 2, 240) || item.headline,
+    detail: firstSentences(body, 4, 700),
     firms,
     sources: [
-      /BSE|NSE/.test(item.source || "")
-        ? { name: item.source, url: item.url, official: true, blurb: "Primary exchange filing/announcement for this corporate event." }
-        : { name: item.source || "Bar & Bench — Dealstreet", url: item.url, blurb: "Primary source naming the law firms, partners and teams on the matter." },
+      primary,
       // official/primary verification points (search by the parties)
-      ...official.map((o) => ({ name: o.label, url: o.url, official: true, blurb: "Official source — search by the parties to pull the primary filing/announcement." })),
+      ...official.filter((o) => o.url !== item.url).map((o) => ({ name: o.label, url: o.url, official: true, blurb: "Official source — search by the parties to pull the primary filing/order." })),
     ],
-    docs: official,
+    docs: (isSpine && item.url && !SPINE_PORTAL.test(item.url) ? [{ label: `${item.source} filing`, url: item.url }] : []).concat(official),
     timeline: [{ d: date, t: item.headline }],
   };
   const { score, imp, reasons } = scoreDeal(deal);

@@ -1,0 +1,62 @@
+name: Update Corporate Law Tracker
+
+# Runs nightly at 11:00 PM IST (17:30 UTC) and on manual trigger.
+on:
+  schedule:
+    - cron: "30 17 * * *"   # 17:30 UTC == 23:00 IST
+  workflow_dispatch:        # "Run workflow" button in the Actions tab
+    inputs:
+      backfill_days:
+        description: "One-off backfill: days of exchange history to pull (blank = normal 3-day run). Try 120 once to load existing public deals."
+        required: false
+        default: ""
+
+# allow the built-in token to commit the refreshed index.html
+permissions:
+  contents: write
+
+concurrency:
+  group: clt-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v5
+
+      - name: Set up Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+
+      - name: Install engine dependencies
+        working-directory: engine
+        run: npm install --no-audit --no-fund
+
+      - name: Run the pipeline
+        working-directory: engine
+        env:
+          # OPTIONAL: add this secret only if you want AI deep-enrichment.
+          # Leave it unset to run completely FREE (rule-based, still ingests the full spine).
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLT_PRESS_MAX: "12"     # Bar & Bench / RSS items (named law-firm teams) per run
+          CLT_SPINE_MAX: "60"     # public-deal disclosures (BSE/NSE/CCI/SEBI) per nightly run
+          CLT_AI_DEEP: "18"       # of the spine, how many to enrich DEEPLY with AI (cost guard)
+          # Backfill: blank on schedule; set via the "Run workflow" button to load history once.
+          CLT_BACKFILL: ${{ github.event.inputs.backfill_days }}
+        run: npm run build
+
+      - name: Commit & push if changed
+        run: |
+          if [[ -n "$(git status --porcelain index.html engine/seen.json engine/discovered-sources.json brief.md)" ]]; then
+            git config user.name  "corporate-law-tracker-bot"
+            git config user.email "actions@github.com"
+            git add index.html engine/seen.json engine/discovered-sources.json brief.md
+            git commit -m "chore: nightly deal update ($(date -u +%Y-%m-%d))"
+            git push
+            echo "Committed updated index.html — Vercel will redeploy."
+          else
+            echo "No changes to commit."
+          fi
