@@ -6,462 +6,453 @@
 <title>CorpLawTracker — The Decision Engine for India's Corporate Legal Market</title>
 <meta name="description" content="The decision engine for India's corporate legal market — every overnight deal, mandate and regulatory change, verified against primary filings and turned into the pitch to make, the precedent to cite and the documents to re-paper.">
 <link rel="icon" type="image/svg+xml" href="logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#f3f1ec; --surface:#ffffff; --surface2:#faf8f3;
-    --ink:#191b20; --ink2:#4a4f59; --ink3:#838995; --ink4:#aeb3bd;
-    --line:#e6e3dc; --line2:#f0ede6;
-    --accent:#22395d; --accent-soft:#ebedf2;
-    --green:#2f6a4e; --green-soft:#e9efe9;
-    --amber:#876527; --amber-soft:#f2ecdc;
-    --red:#9b3a4c;   --red-soft:#f3e8e9;
-    --purple:#514775;--purple-soft:#ebe9f0;
-    --teal:#2c615f;  --teal-soft:#e7efed;
-    --slate:#4c5460; --slate-soft:#edeeef;
-    --shadow:0 1px 2px rgba(20,24,32,.03),0 10px 30px rgba(20,24,32,.05);
-    --shadow-h:0 8px 24px rgba(25,27,33,.10),0 1px 2px rgba(25,27,33,.05);
-    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
-    --serif:"Iowan Old Style",Charter,"Bitstream Charter",Georgia,Cambria,"Times New Roman",serif;
+    --bg:#f6f4ef; --surface:#fffefc; --surface2:#faf8f3;
+    --ink:#1c1b17; --ink2:#57534a; --ink3:#8e897c; --ink4:#b6b0a3;
+    --line:#e9e5db; --line2:#f1eee6;
+    --accent:#26479c; --accent-soft:#ebeffa;
+    --green:#13794f; --green-soft:#e7f2ec;
+    --amber:#996a00; --amber-soft:#f8f0dc;
+    --red:#b03a52;   --red-soft:#f9eaee;
+    --purple:#5e44ad;--purple-soft:#eee9f8;
+    --teal:#15716e;  --teal-soft:#e3f0ef;
+    --slate:#5a6172; --slate-soft:#eceef2;
+    --shadow:0 1px 2px rgba(28,27,23,.03),0 12px 32px rgba(28,27,23,.05);
+    --shadow-h:0 6px 20px rgba(28,27,23,.09);
+    --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    --serif:"Fraunces",Charter,"Iowan Old Style",Georgia,serif;
     --mono:"SF Mono",ui-monospace,"Cascadia Mono",Menlo,Consolas,monospace;
-    --r:14px; --r-sm:9px;
+    --r:18px; --r-sm:11px;
   }
   html[data-theme="dark"]{
-    --bg:#0e1014; --surface:#15181e; --surface2:#11141a;
-    --ink:#e9ecf2; --ink2:#a6aebc; --ink3:#6f7785; --ink4:#4e5666;
-    --line:#252b34; --line2:#1c222a;
-    --accent:#9cb4e6; --accent-soft:#1a2233;
-    --green:#54b48c; --green-soft:#13271f;
-    --amber:#c9a24a; --amber-soft:#262013;
-    --red:#d8788b;   --red-soft:#2a1720;
-    --purple:#a594d6;--purple-soft:#1f1a2e;
-    --teal:#479f9c;  --teal-soft:#102322;
-    --slate:#929eb0; --slate-soft:#1c222a;
-    --shadow:0 1px 2px rgba(0,0,0,.3); --shadow-h:0 8px 28px rgba(0,0,0,.55);
+    --bg:#0d0d10; --surface:#16161a; --surface2:#121216;
+    --ink:#f0eee7; --ink2:#aaa79d; --ink3:#6f6d65; --ink4:#4c4b45;
+    --line:#26262c; --line2:#1e1e23;
+    --accent:#94a8e8; --accent-soft:#1d2435;
+    --green:#4cba8b; --green-soft:#12291f;
+    --amber:#d3a648; --amber-soft:#272013;
+    --red:#dd7991;   --red-soft:#2b1721;
+    --purple:#ab93e3;--purple-soft:#1f1930;
+    --teal:#4fadaa;  --teal-soft:#0f2424;
+    --slate:#979eae; --slate-soft:#1e1e23;
+    --shadow:0 1px 2px rgba(0,0,0,.35); --shadow-h:0 10px 32px rgba(0,0,0,.55);
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html,body{height:100%}
-  body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:13.5px;line-height:1.5;-webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.6;-webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums}
   a{color:var(--accent);text-decoration:none}
   button{font-family:inherit}
 
-  header{position:sticky;top:0;z-index:40;background:var(--surface);border-bottom:1px solid var(--line);height:60px;display:flex;align-items:center;gap:16px;padding:0 24px}
-  .brand{display:flex;align-items:center;gap:10px;cursor:pointer;user-select:none}
-  .brand .mark{width:28px;height:28px;border-radius:6px;background:var(--accent);color:#fff;display:grid;place-items:center}
-  .brand .nm{font-weight:700;font-size:14.5px;letter-spacing:-.2px;line-height:1;font-family:var(--serif)}
-  .brand .nm span{display:block;font-size:8.5px;font-weight:650;color:var(--ink3);letter-spacing:1.6px;margin-top:3px;font-family:var(--sans)}
-  .search{flex:1;max-width:430px;position:relative}
-  .search input{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:7px;padding:7px 78px 7px 34px;font-size:13px;color:var(--ink);outline:none;transition:border-color .12s;font-family:inherit}
-  .search input:focus{border-color:var(--accent);background:var(--surface);box-shadow:0 0 0 3px var(--accent-soft)}
-  .search svg{position:absolute;left:11px;top:9px}
-  .search .kbd{position:absolute;right:84px;top:8px;font-size:10px;color:var(--ink4);border:1px solid var(--line);border-radius:4px;padding:0 5px;line-height:16px;font-family:var(--mono);pointer-events:none}
-  .advbtn{font-size:11px;font-weight:700;color:var(--accent);background:var(--accent-soft);border:none;border-radius:5px;padding:4px 9px;position:absolute;right:6px;top:6px;cursor:pointer}
-  .hstatus{margin-left:auto;display:flex;align-items:center;gap:12px}
-  .asof{font-size:11.5px;color:var(--ink3);text-align:right;line-height:1.3;white-space:nowrap}
-  .asof b{color:var(--ink2);font-weight:650;display:block}
-  .asof .okdot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--green);margin-right:5px;vertical-align:1px}
-  .methlink{font-size:11px;font-weight:700;color:var(--ink2);border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:5px 10px;cursor:pointer;white-space:nowrap}
+  header{position:sticky;top:0;z-index:40;background:var(--surface);border-bottom:1px solid var(--line);height:66px;display:flex;align-items:center;gap:20px;padding:0 28px}
+  .brand{display:flex;align-items:center;gap:12px;cursor:pointer;user-select:none}
+  .brand .mark{width:32px;height:32px;border-radius:9px;background:var(--accent);color:#fff;display:grid;place-items:center}
+  .brand .nm{font-weight:600;font-size:16px;letter-spacing:-.2px;line-height:1;font-family:var(--serif)}
+  .brand .nm span{display:block;font-size:8.5px;font-weight:600;color:var(--ink3);letter-spacing:1.8px;margin-top:4px;font-family:var(--sans)}
+  .search{flex:1;max-width:460px;position:relative}
+  .search input{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:11px;padding:9px 84px 9px 38px;font-size:13.5px;color:var(--ink);outline:none;transition:border-color .15s,box-shadow .15s;font-family:inherit}
+  .search input:focus{border-color:var(--accent);background:var(--surface);box-shadow:0 0 0 4px var(--accent-soft)}
+  .search svg{position:absolute;left:13px;top:11px}
+  .search .kbd{position:absolute;right:92px;top:10px;font-size:10px;color:var(--ink4);border:1px solid var(--line);border-radius:5px;padding:0 6px;line-height:17px;font-family:var(--mono);pointer-events:none}
+  .advbtn{font-size:11px;font-weight:600;color:var(--accent);background:var(--accent-soft);border:none;border-radius:8px;padding:5px 11px;position:absolute;right:7px;top:7px;cursor:pointer}
+  .hstatus{margin-left:auto;display:flex;align-items:center;gap:14px}
+  .asof{font-size:11.5px;color:var(--ink3);text-align:right;line-height:1.4;white-space:nowrap}
+  .asof b{color:var(--ink2);font-weight:600;display:block}
+  .asof .okdot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--green);margin-right:6px;vertical-align:1px}
+  .methlink{font-size:11.5px;font-weight:600;color:var(--ink2);border:1px solid var(--line);background:var(--surface);border-radius:9px;padding:7px 13px;cursor:pointer;white-space:nowrap;transition:.15s}
   .methlink:hover{border-color:var(--accent);color:var(--accent)}
-  .icbtn{width:30px;height:30px;border-radius:6px;border:1px solid var(--line);background:var(--surface);color:var(--ink2);cursor:pointer;display:grid;place-items:center;font-size:14px}
+  .icbtn{width:34px;height:34px;border-radius:9px;border:1px solid var(--line);background:var(--surface);color:var(--ink2);cursor:pointer;display:grid;place-items:center;font-size:14px;transition:.15s}
   .icbtn:hover{border-color:var(--accent);color:var(--accent)}
 
-  .wrap{display:grid;grid-template-columns:222px minmax(0,1fr) 292px;height:calc(100vh - 60px)}
-  aside{border-right:1px solid var(--line);background:var(--surface);overflow-y:auto;padding:18px 12px}
-  .main{overflow-y:auto;padding:28px 36px 60px}
-  .rail{border-left:1px solid var(--line);background:var(--surface);overflow-y:auto;padding:20px 16px}
+  .wrap{display:grid;grid-template-columns:236px minmax(0,1fr) 300px;height:calc(100vh - 66px)}
+  aside{border-right:1px solid var(--line);background:var(--surface);overflow-y:auto;padding:24px 14px}
+  .main{overflow-y:auto;padding:40px max(48px,calc((100% - 1060px)/2)) 90px}
+  .rail{border-left:1px solid var(--line);background:var(--surface);overflow-y:auto;padding:26px 18px}
 
-  .ng{margin-bottom:18px}
-  .ng h4{font-size:9.5px;letter-spacing:1.5px;color:var(--ink3);text-transform:uppercase;font-weight:750;margin:0 8px 6px}
-  .ni{display:flex;align-items:center;gap:9px;padding:6px 10px;border-radius:6px;cursor:pointer;color:var(--ink2);font-size:13px;font-weight:550}
+  .ng{margin-bottom:28px}
+  .ng h4{font-size:9.5px;letter-spacing:1.8px;color:var(--ink4);text-transform:uppercase;font-weight:650;margin:0 10px 9px}
+  .ni{display:flex;align-items:center;gap:10px;padding:8px 12px;border-radius:10px;cursor:pointer;color:var(--ink2);font-size:13.5px;font-weight:500;transition:.12s}
   .ni:hover{background:var(--bg);color:var(--ink)}
-  .ni.active{background:var(--accent-soft);color:var(--accent);font-weight:700}
-  .ni .dot{width:7px;height:7px;border-radius:2px;flex:none}
-  .ni .ic{width:15px;text-align:center;flex:none;font-size:12px;color:var(--ink3)}
+  .ni.active{background:var(--accent-soft);color:var(--accent);font-weight:600}
+  .ni .dot{width:7px;height:7px;border-radius:3px;flex:none;opacity:.85}
+  .ni .ic{width:16px;text-align:center;flex:none;font-size:12px;color:var(--ink4)}
   .ni.active .ic{color:var(--accent)}
-  .ni .ct{margin-left:auto;font-size:10.5px;font-family:var(--mono);color:var(--ink3)}
+  .ni .ct{margin-left:auto;font-size:10.5px;font-family:var(--mono);color:var(--ink4)}
   .ni.active .ct{color:var(--accent)}
 
   /* ---- Today band ---- */
-  .dlstrip{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px}
-  .dlitem{display:flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--amber);border-radius:7px;padding:7px 12px;font-size:12px;cursor:pointer;max-width:420px}
+  .dlstrip{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:26px}
+  .dlitem{display:flex;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--amber);border-radius:12px;padding:11px 16px;font-size:12.5px;cursor:pointer;max-width:460px;box-shadow:var(--shadow);transition:.15s}
   .dlitem:hover{border-color:var(--amber)}
-  .dlitem .dld{font-weight:750;color:var(--amber);white-space:nowrap;font-size:11px;letter-spacing:.2px}
-  .dlitem .dlt{color:var(--ink);font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .bandh{display:flex;align-items:baseline;gap:10px;margin:2px 0 11px}
-  .bandh h3{font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:var(--ink3);font-weight:750}
-  .bandh .more{font-size:11.5px;font-weight:700;color:var(--accent);cursor:pointer;margin-left:auto}
-  .prio{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:12px;margin-bottom:24px}
-  .priocard{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--red);border-radius:var(--r);padding:16px 18px;cursor:pointer;box-shadow:var(--shadow)}
-  .priocard:hover{border-color:var(--accent)}
-  .priocard h3{font-size:14px;font-weight:700;line-height:1.35;font-family:var(--serif);margin:6px 0 5px}
-  .priocard .pw{font-size:12px;color:var(--ink2);line-height:1.5;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-  .priocard .pmeta{display:flex;gap:7px;align-items:center;margin-top:8px;font-size:11px;color:var(--ink3)}
+  .dlitem .dld{font-weight:650;color:var(--amber);white-space:nowrap;font-size:11px;letter-spacing:.2px}
+  .dlitem .dlt{color:var(--ink);font-weight:550;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .bandh{display:flex;align-items:baseline;gap:12px;margin:4px 0 14px}
+  .bandh h3{font-size:11px;letter-spacing:1.8px;text-transform:uppercase;color:var(--ink3);font-weight:650}
+  .bandh .more{font-size:12px;font-weight:600;color:var(--accent);cursor:pointer;margin-left:auto}
+  .prio{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-bottom:34px}
+  .priocard{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--red);border-radius:var(--r);padding:22px 24px;cursor:pointer;box-shadow:var(--shadow);transition:.15s}
+  .priocard:hover{border-color:var(--accent);box-shadow:var(--shadow-h)}
+  .priocard h3{font-size:16.5px;font-weight:600;line-height:1.4;font-family:var(--serif);margin:10px 0 8px;letter-spacing:-.1px}
+  .priocard .pw{font-size:12.5px;color:var(--ink2);line-height:1.6;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .priocard .pmeta{display:flex;gap:8px;align-items:center;margin-top:12px;font-size:11.5px;color:var(--ink3)}
 
-  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:22px}
-  .stat{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px;position:relative;cursor:pointer;box-shadow:var(--shadow)}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:34px}
+  .stat{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px 22px;position:relative;cursor:pointer;box-shadow:var(--shadow);transition:.15s}
   .stat:hover{border-color:var(--accent)}
-  .stat .n{font-size:26px;font-weight:750;letter-spacing:-.5px;font-variant-numeric:tabular-nums}
-  .stat .l{font-size:11px;color:var(--ink2);margin-top:1px}
-  .stat .d{font-size:10px;margin-top:4px;font-weight:650;color:var(--ink3)}
+  .stat .n{font-size:32px;font-weight:600;letter-spacing:-1px;font-variant-numeric:tabular-nums;font-family:var(--serif)}
+  .stat .l{font-size:11.5px;color:var(--ink2);margin-top:4px;font-weight:500}
+  .stat .d{font-size:10.5px;margin-top:5px;font-weight:550;color:var(--ink3)}
   .stat .d.muted{color:var(--ink3)}
-  .pop{position:absolute;top:calc(100% + 6px);left:0;width:340px;max-width:92vw;background:var(--surface);border:1px solid var(--line);border-radius:9px;box-shadow:var(--shadow-h);padding:8px;z-index:30;display:none;max-height:360px;overflow-y:auto}
+  .pop{position:absolute;top:calc(100% + 8px);left:0;width:360px;max-width:92vw;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow-h);padding:10px;z-index:30;display:none;max-height:380px;overflow-y:auto}
   .stat:hover .pop{display:block}
-  .pop .ph{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--ink3);font-weight:700;padding:6px 8px 8px}
-  .pop .pr{display:flex;gap:8px;align-items:flex-start;padding:7px 8px;border-radius:6px;cursor:pointer}
+  .pop .ph{font-size:10px;text-transform:uppercase;letter-spacing:1.2px;color:var(--ink3);font-weight:650;padding:8px 10px 10px}
+  .pop .pr{display:flex;gap:9px;align-items:flex-start;padding:9px 10px;border-radius:9px;cursor:pointer}
   .pop .pr:hover{background:var(--bg)}
-  .pop .pr .pt{font-size:9px;font-weight:750;padding:2px 6px;border-radius:4px;flex:none;margin-top:1px}
-  .pop .pr .px{font-size:12px;font-weight:600;line-height:1.35}
+  .pop .pr .pt{font-size:9px;font-weight:650;padding:2px 7px;border-radius:5px;flex:none;margin-top:1px}
+  .pop .pr .px{font-size:12.5px;font-weight:550;line-height:1.4}
 
-  .fb{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:12px}
-  .chip{background:var(--surface);border:1px solid var(--line);color:var(--ink2);padding:4px 11px;border-radius:6px;font-size:12px;font-weight:600;cursor:pointer;white-space:nowrap}
+  .fb{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+  .chip{background:var(--surface);border:1px solid var(--line);color:var(--ink2);padding:6px 14px;border-radius:20px;font-size:12.5px;font-weight:550;cursor:pointer;white-space:nowrap;transition:.12s}
   .chip:hover{border-color:var(--accent);color:var(--accent)}
   .chip.on{background:var(--ink);border-color:var(--ink);color:var(--surface)}
-  html[data-theme="dark"] .chip.on{background:var(--accent);border-color:var(--accent);color:#10131a}
+  html[data-theme="dark"] .chip.on{background:var(--accent);border-color:var(--accent);color:#101218}
 
-  .vh{display:flex;align-items:center;gap:12px;margin-bottom:16px;flex-wrap:wrap}
-  .vh h2{font-size:24px;font-weight:700;letter-spacing:-.4px;font-family:var(--serif)}
-  .vh .sub{color:var(--ink3);font-size:12px;font-weight:600}
-  .clearf{font-size:11.5px;color:var(--accent);font-weight:700;cursor:pointer;margin-left:auto}
+  .vh{display:flex;align-items:center;gap:14px;margin-bottom:22px;flex-wrap:wrap}
+  .vh h2{font-size:30px;font-weight:600;letter-spacing:-.6px;font-family:var(--serif)}
+  .vh .sub{color:var(--ink3);font-size:12.5px;font-weight:500}
+  .clearf{font-size:12px;color:var(--accent);font-weight:600;cursor:pointer;margin-left:auto}
 
   /* ---- toolbar ---- */
-  .toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:18px;padding:10px 14px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow)}
-  .toolbar .tcount{font-size:11.5px;color:var(--ink3);font-weight:600;margin-right:auto}
-  .seg{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
-  .seg button{border:none;background:var(--surface);color:var(--ink2);font-size:11px;font-weight:700;padding:4px 10px;cursor:pointer}
+  .toolbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:24px;padding:12px 16px;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
+  .toolbar .tcount{font-size:12px;color:var(--ink3);font-weight:550;margin-right:auto}
+  .seg{display:flex;border:1px solid var(--line);border-radius:9px;overflow:hidden}
+  .seg button{border:none;background:var(--surface);color:var(--ink2);font-size:11.5px;font-weight:600;padding:6px 12px;cursor:pointer}
   .seg button.on{background:var(--accent-soft);color:var(--accent)}
-  .tsel{border:1px solid var(--line);background:var(--surface);color:var(--ink2);font-size:11.5px;font-weight:650;border-radius:6px;padding:4px 7px;outline:none;cursor:pointer}
-  .abtn{font-size:11px;font-weight:700;color:var(--ink2);border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:5px 10px;cursor:pointer;white-space:nowrap}
+  .tsel{border:1px solid var(--line);background:var(--surface);color:var(--ink2);font-size:12px;font-weight:550;border-radius:9px;padding:6px 9px;outline:none;cursor:pointer}
+  .abtn{font-size:11.5px;font-weight:600;color:var(--ink2);border:1px solid var(--line);background:var(--surface);border-radius:9px;padding:7px 14px;cursor:pointer;white-space:nowrap;transition:.15s}
   .abtn:hover{border-color:var(--accent);color:var(--accent)}
   .abtn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
 
-  .feed{display:flex;flex-direction:column;gap:12px}
-  .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px 20px 16px;cursor:pointer;position:relative;box-shadow:var(--shadow)}
-  .card:hover{border-color:var(--accent);background:var(--surface2);box-shadow:var(--shadow-h)}
-  .accentbar{position:absolute;left:0;top:10px;bottom:10px;width:3px;border-radius:0 2px 2px 0}
-  .r1{display:flex;align-items:center;gap:8px;margin-bottom:9px;flex-wrap:wrap}
-  .ttype{font-size:9.5px;font-weight:750;letter-spacing:.4px;padding:2px 7px;border-radius:4px;flex:none;text-transform:uppercase}
+  .feed{display:flex;flex-direction:column;gap:16px}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:24px 28px 22px;cursor:pointer;position:relative;box-shadow:var(--shadow);transition:border-color .15s,box-shadow .15s}
+  .card:hover{border-color:var(--accent);box-shadow:var(--shadow-h)}
+  .accentbar{position:absolute;left:0;top:18px;bottom:18px;width:3px;border-radius:0 3px 3px 0}
+  .r1{display:flex;align-items:center;gap:9px;margin-bottom:12px;flex-wrap:wrap}
+  .ttype{font-size:9.5px;font-weight:650;letter-spacing:.6px;padding:3px 9px;border-radius:6px;flex:none;text-transform:uppercase}
   .t-ma{background:var(--accent-soft);color:var(--accent)} .t-ipo{background:var(--green-soft);color:var(--green)}
   .t-pe{background:var(--purple-soft);color:var(--purple)} .t-ibc{background:var(--red-soft);color:var(--red)}
   .t-reg{background:var(--amber-soft);color:var(--amber)} .t-bank{background:var(--teal-soft);color:var(--teal)}
   .t-lit{background:var(--slate-soft);color:var(--slate)}
-  .stage{font-size:10.5px;font-weight:650;color:var(--ink2);display:inline-flex;align-items:center;gap:5px}
+  .stage{font-size:11px;font-weight:550;color:var(--ink2);display:inline-flex;align-items:center;gap:6px}
   .stage .sd{width:6px;height:6px;border-radius:50%}
-  .priority{font-size:9.5px;font-weight:750;color:var(--red);letter-spacing:.4px;border:1px solid var(--red);border-radius:4px;padding:1px 6px}
-  .real{font-size:9px;font-weight:750;color:var(--green);background:var(--green-soft);padding:2px 7px;border-radius:4px;letter-spacing:.4px;cursor:help}
+  .priority{font-size:9.5px;font-weight:650;color:var(--red);letter-spacing:.5px;border:1px solid var(--red);border-radius:6px;padding:2px 8px}
+  .real{font-size:9px;font-weight:650;color:var(--green);background:var(--green-soft);padding:3px 9px;border-radius:6px;letter-spacing:.5px;cursor:help}
   .real.reported{background:transparent;color:var(--amber);border:1px solid var(--amber)}
-  .srcct{font-size:9.5px;font-weight:700;color:var(--ink3);background:var(--bg);padding:2px 7px;border-radius:4px;cursor:help}
-  .official{font-size:9px;font-weight:750;color:var(--teal);background:var(--teal-soft);padding:2px 7px;border-radius:4px;letter-spacing:.3px;cursor:help}
-  .age{font-size:10.5px;font-family:var(--mono);color:var(--ink3);cursor:help}
-  .cardval{margin-left:auto;font-family:var(--mono);font-size:12.5px;font-weight:700;color:var(--ink);white-space:nowrap;letter-spacing:-.2px}
-  .impl{margin:8px 0 0;padding:8px 11px;background:var(--accent-soft);border-radius:6px;font-size:12.5px;line-height:1.5;color:var(--ink)}
-  .impl b{color:var(--accent);font-weight:750;letter-spacing:.2px}
-  .fwitem{padding:8px 0;border-bottom:1px solid var(--line2)}
+  .srcct{font-size:9.5px;font-weight:600;color:var(--ink3);background:var(--bg);padding:2px 8px;border-radius:6px;cursor:help}
+  .official{font-size:9px;font-weight:650;color:var(--teal);background:var(--teal-soft);padding:3px 9px;border-radius:6px;letter-spacing:.4px;cursor:help}
+  .age{font-size:10.5px;font-family:var(--mono);color:var(--ink4);cursor:help}
+  .cardval{margin-left:auto;font-family:var(--mono);font-size:13px;font-weight:600;color:var(--green);white-space:nowrap}
+  .impl{margin:12px 0 0;padding:13px 17px;background:var(--accent-soft);border-radius:12px;font-size:13px;line-height:1.6;color:var(--ink)}
+  .impl b{color:var(--accent);font-weight:650;letter-spacing:.2px}
+  .fwitem{padding:11px 0;border-bottom:1px solid var(--line2)}
   .fwitem:last-child{border-bottom:none}
-  .fwitem.central,.fwitem.amended{border-bottom:none;border-left:2px solid var(--accent);padding:8px 0 8px 11px;background:var(--accent-soft);margin-bottom:3px}
+  .fwitem.central,.fwitem.amended{border-bottom:none;border-left:2px solid var(--accent);padding:11px 0 11px 14px;background:var(--accent-soft);margin-bottom:4px;border-radius:0 10px 10px 0}
   .fwitem.amended{border-left-color:var(--amber);background:var(--amber-soft)}
-  .fwref{font-size:13px;font-weight:700;color:var(--ink)}
-  .fwnote{font-size:12.5px;color:var(--ink2);margin-top:2px;line-height:1.5}
-  .fwtag{font-size:8.5px;font-weight:750;padding:1px 6px;border-radius:3px;margin-left:7px;text-transform:uppercase;letter-spacing:.3px;vertical-align:middle}
+  .fwref{font-size:13.5px;font-weight:600;color:var(--ink)}
+  .fwnote{font-size:12.5px;color:var(--ink2);margin-top:3px;line-height:1.6}
+  .fwtag{font-size:8.5px;font-weight:650;padding:2px 7px;border-radius:4px;margin-left:8px;text-transform:uppercase;letter-spacing:.4px;vertical-align:middle}
   .fwtag.amd{background:var(--amber);color:#fff} .fwtag.ctr{background:var(--accent);color:#fff}
-  .webstrip{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin:0 0 16px;max-width:760px}
-  .webstrip-lbl{font-size:10.5px;font-weight:700;color:var(--ink3);text-transform:uppercase;letter-spacing:.5px}
-  .webchip{font-size:11.5px;font-weight:600;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:4px 10px;cursor:pointer;color:var(--ink2)}
+  .webstrip{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 22px;max-width:780px}
+  .webstrip-lbl{font-size:10.5px;font-weight:650;color:var(--ink3);text-transform:uppercase;letter-spacing:.7px}
+  .webchip{font-size:12px;font-weight:550;background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:6px 12px;cursor:pointer;color:var(--ink2);transition:.15s}
   .webchip:hover{border-color:var(--accent);color:var(--accent)}
-  .webchip b{color:var(--accent);font-weight:750}
-  .sec[id]{scroll-margin-top:66px}
-  .trendcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;margin-bottom:10px}
-  .trendcard .tt{font-size:15.5px;font-weight:700;letter-spacing:-.2px;line-height:1.3;font-family:var(--serif)}
-  .trendcard .tsum{font-size:13px;color:var(--ink2);line-height:1.6;margin:6px 0 10px}
-  .lawchip{font-size:11px;font-weight:650;background:var(--amber-soft);color:var(--amber);padding:3px 9px;border-radius:5px;cursor:pointer}
+  .webchip b{color:var(--accent);font-weight:650}
+  .sec[id]{scroll-margin-top:80px}
+  .trendcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:24px 28px;margin-bottom:16px;box-shadow:var(--shadow)}
+  .trendcard .tt{font-size:18px;font-weight:600;letter-spacing:-.2px;line-height:1.35;font-family:var(--serif)}
+  .trendcard .tsum{font-size:13.5px;color:var(--ink2);line-height:1.7;margin:9px 0 13px}
+  .lawchip{font-size:11px;font-weight:600;background:var(--amber-soft);color:var(--amber);padding:4px 11px;border-radius:7px;cursor:pointer}
   .lawchip:hover{text-decoration:underline}
-  .coverage{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:11px;color:var(--ink3);margin-bottom:14px}
-  .coverage b{color:var(--ink2);font-weight:700}
+  .coverage{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-size:11.5px;color:var(--ink3);margin-bottom:22px}
+  .coverage b{color:var(--ink2);font-weight:600}
   .coverage .cv-dot{width:6px;height:6px;border-radius:50%;background:var(--green)}
-  .calrow{display:flex;gap:14px;padding:12px 0;border-bottom:1px solid var(--line2)}
-  .cal-d{font-size:11px;font-weight:750;color:var(--amber);flex:none;width:118px;line-height:1.5}
-  .cal-b{flex:1;min-width:0} .cal-t{font-size:13.5px;font-weight:700;color:var(--ink);line-height:1.4}
-  .cal-n{font-size:12.5px;color:var(--ink2);line-height:1.55;margin:4px 0 7px}
-  .cal-links{display:flex;gap:8px;flex-wrap:wrap}
-  @media(max-width:600px){.cal-d{width:90px}}
-  .otag{font-size:9px;font-weight:750;color:var(--teal);background:var(--teal-soft);padding:1px 7px;border-radius:4px;margin-left:6px;cursor:help}
-  .star{margin-left:8px;cursor:pointer;color:var(--ink4);font-size:16px;line-height:1;background:none;border:none;padding:0;z-index:2}
+  .calrow{display:flex;gap:18px;padding:16px 0;border-bottom:1px solid var(--line2)}
+  .cal-d{font-size:11.5px;font-weight:650;color:var(--amber);flex:none;width:124px;line-height:1.6}
+  .cal-b{flex:1;min-width:0} .cal-t{font-size:14.5px;font-weight:600;color:var(--ink);line-height:1.45;font-family:var(--serif)}
+  .cal-n{font-size:13px;color:var(--ink2);line-height:1.65;margin:6px 0 9px}
+  .cal-links{display:flex;gap:9px;flex-wrap:wrap}
+  @media(max-width:600px){.cal-d{width:92px}}
+  .otag{font-size:9px;font-weight:650;color:var(--teal);background:var(--teal-soft);padding:2px 8px;border-radius:5px;margin-left:7px;cursor:help}
+  .star{margin-left:10px;cursor:pointer;color:var(--ink4);font-size:17px;line-height:1;background:none;border:none;padding:0;z-index:2;transition:.12s}
   .star:hover{color:var(--amber)} .star.on{color:var(--amber)}
-  .cmpadd{font-size:10px;font-weight:750;color:var(--ink3);border:1px solid var(--line);background:var(--surface);border-radius:4px;padding:2px 7px;cursor:pointer;letter-spacing:.3px}
+  .cmpadd{font-size:10px;font-weight:650;color:var(--ink3);border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:3px 9px;cursor:pointer;letter-spacing:.3px;transition:.12s}
   .cmpadd:hover{border-color:var(--accent);color:var(--accent)}
   .cmpadd.on{background:var(--accent);border-color:var(--accent);color:#fff}
-  .card h3{font-size:16.5px;font-weight:700;line-height:1.34;letter-spacing:-.1px;margin-bottom:6px;font-family:var(--serif)}
+  .card h3{font-size:18.5px;font-weight:600;line-height:1.4;letter-spacing:-.2px;margin-bottom:9px;font-family:var(--serif)}
   .card:hover h3{color:var(--accent)}
-  .sum{color:var(--ink2);font-size:13px;line-height:1.6;margin-bottom:12px}
-  .sum b{color:var(--ink);font-weight:680}
-  .meta{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
-  .tag{background:var(--bg);border:1px solid var(--line);color:var(--ink2);padding:2px 8px;border-radius:5px;font-size:11px;font-weight:600}
-  .tag.val{color:var(--ink);font-family:var(--mono);font-weight:700;background:var(--surface2);border-color:var(--line);letter-spacing:-.2px}
+  .sum{color:var(--ink2);font-size:13.5px;line-height:1.65;margin-bottom:14px}
+  .sum b{color:var(--ink);font-weight:600}
+  .meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .tag{background:var(--bg);border:1px solid var(--line);color:var(--ink2);padding:3px 11px;border-radius:8px;font-size:11px;font-weight:550}
+  .tag.val{color:var(--green);font-family:var(--mono);font-weight:650;background:var(--green-soft);border-color:transparent}
   .tag.geo{color:var(--accent);background:var(--accent-soft);border-color:transparent}
-  .firms{margin-top:9px;padding-top:9px;border-top:1px solid var(--line2);font-size:12px;color:var(--ink2)}
-  .firms b{color:var(--ink);font-weight:700}
-  .firms .fm{font-weight:650;color:var(--ink)} .firms .side{color:var(--ink3);font-size:11px}
-  .srcrow{display:flex;align-items:center;gap:6px;margin-top:9px;flex-wrap:wrap}
-  .schip{font-size:10.5px;font-weight:600;color:var(--ink2);background:var(--surface2);border:1px solid var(--line);padding:1px 7px;border-radius:4px}
-  .stime{font-size:11px;color:var(--ink3);margin-left:auto} .go{font-size:11.5px;color:var(--accent);font-weight:700}
+  .firms{margin-top:13px;padding-top:13px;border-top:1px solid var(--line2);font-size:12.5px;color:var(--ink2);line-height:1.7}
+  .firms b{color:var(--ink);font-weight:600}
+  .firms .fm{font-weight:600;color:var(--ink)} .firms .side{color:var(--ink3);font-size:11.5px}
+  .srcrow{display:flex;align-items:center;gap:8px;margin-top:13px;flex-wrap:wrap}
+  .schip{font-size:10.5px;font-weight:550;color:var(--ink3);background:var(--surface2);border:1px solid var(--line2);padding:2px 9px;border-radius:6px}
+  .stime{font-size:11px;color:var(--ink4);margin-left:auto} .go{font-size:12px;color:var(--accent);font-weight:600}
   .card:hover .go{text-decoration:underline}
 
   /* ---- compact rows ---- */
-  .crow{display:flex;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 14px;cursor:pointer;min-height:44px}
-  .crow:hover{border-color:var(--accent);background:var(--surface2)}
-  .crow .ch{flex:1;min-width:0;font-size:13px;font-weight:650;font-family:var(--serif);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .crow{display:flex;align-items:center;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:13px 18px;cursor:pointer;min-height:50px;box-shadow:var(--shadow);transition:.15s}
+  .crow:hover{border-color:var(--accent)}
+  .crow .ch{flex:1;min-width:0;font-size:14px;font-weight:550;font-family:var(--serif);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .crow:hover .ch{color:var(--accent)}
-  .crow .cv{font-family:var(--mono);font-size:11.5px;font-weight:700;color:var(--ink);white-space:nowrap;width:86px;text-align:right;flex:none;letter-spacing:-.2px}
-  .crow .cs{font-size:10px;color:var(--ink3);white-space:nowrap;flex:none;width:104px;display:inline-flex;align-items:center;gap:5px}
+  .crow .cv{font-family:var(--mono);font-size:12px;font-weight:600;color:var(--green);white-space:nowrap;width:90px;text-align:right;flex:none}
+  .crow .cs{font-size:10.5px;color:var(--ink3);white-space:nowrap;flex:none;width:110px;display:inline-flex;align-items:center;gap:6px}
   .crow .vr{flex:none}
-  .crow .age{width:30px;text-align:right;flex:none}
+  .crow .age{width:32px;text-align:right;flex:none}
   @media(max-width:780px){.crow .cs{display:none}.crow .cv{width:auto}}
 
-  .back{font-size:12px;font-weight:650;color:var(--ink2);cursor:pointer;display:inline-flex;gap:5px;align-items:center;margin-bottom:12px}
+  .back{font-size:12.5px;font-weight:550;color:var(--ink2);cursor:pointer;display:inline-flex;gap:6px;align-items:center;margin-bottom:18px}
   .back:hover{color:var(--accent)}
-  .dd-head{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:10px}
-  .dd h1{font-size:25px;font-weight:700;letter-spacing:-.4px;line-height:1.25;margin-bottom:10px;max-width:780px;font-family:var(--serif)}
-  .dd .lede{font-size:14.5px;color:var(--ink2);line-height:1.6;max-width:780px;margin-bottom:12px}
+  .dd-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+  .dd h1{font-size:31px;font-weight:600;letter-spacing:-.6px;line-height:1.3;margin-bottom:14px;max-width:820px;font-family:var(--serif)}
+  .dd .lede{font-size:15.5px;color:var(--ink2);line-height:1.7;max-width:820px;margin-bottom:16px}
   .dd .lede b{color:var(--ink)}
-  .actbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
-  .dd-grid{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:18px;align-items:start}
+  .actbar{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:22px}
+  .dd-grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:24px;align-items:start}
   @media(max-width:900px){.dd-grid{grid-template-columns:1fr}}
-  .sec{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px 20px;margin-bottom:14px;box-shadow:var(--shadow)}
-  .sec h4{font-size:10px;letter-spacing:1.3px;text-transform:uppercase;color:var(--ink3);font-weight:750;margin-bottom:11px}
-  .sec p{font-size:13px;color:var(--ink2);line-height:1.65;margin-bottom:10px}
+  .sec{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:24px 26px;margin-bottom:18px;box-shadow:var(--shadow)}
+  .sec h4{font-size:10px;letter-spacing:1.7px;text-transform:uppercase;color:var(--ink3);font-weight:650;margin-bottom:15px}
+  .sec p{font-size:13.5px;color:var(--ink2);line-height:1.75;margin-bottom:12px}
   .sec p:last-child{margin-bottom:0} .sec p b{color:var(--ink)}
-  .firmblk{padding:11px 0;border-bottom:1px solid var(--line2)} .firmblk:last-child{border:none;padding-bottom:0}
+  .firmblk{padding:14px 0;border-bottom:1px solid var(--line2)} .firmblk:last-child{border:none;padding-bottom:0}
   .firmblk:first-child{padding-top:0}
-  .firmblk .fh{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
-  .firmblk .fn{font-size:14px;font-weight:720;color:var(--ink)}
+  .firmblk .fh{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:8px}
+  .firmblk .fn{font-size:14.5px;font-weight:600;color:var(--ink);font-family:var(--serif)}
   .firmblk .fn.link{cursor:pointer} .firmblk .fn.link:hover{color:var(--accent)}
-  .sidetag{font-size:10px;font-weight:700;padding:2px 8px;border-radius:5px;background:var(--accent-soft);color:var(--accent)}
-  .lead{font-size:12.5px;color:var(--ink);margin:3px 0}
-  .lead .role{color:var(--ink3);font-size:11px;font-weight:500}
-  .teamline{font-size:12px;color:var(--ink2);margin-top:5px;line-height:1.6}
-  .teamline .lbl{color:var(--ink3);font-weight:650} .note{font-size:11.5px;color:var(--ink3);font-style:italic}
-  .srcitem{padding:10px 0;border-bottom:1px solid var(--line2)} .srcitem:last-child{border:none;padding-bottom:0} .srcitem:first-child{padding-top:0}
-  .srcitem .st{display:flex;align-items:center;gap:8px;margin-bottom:4px}
-  .srcitem .snm{font-size:12.5px;font-weight:720;color:var(--ink)}
-  .srcitem .sgo{margin-left:auto;font-size:11px;font-weight:700;color:var(--accent)} .srcitem .sgo:hover{text-decoration:underline}
-  .srcitem .sblurb{font-size:12px;color:var(--ink2);line-height:1.55;background:var(--surface2);border-left:2px solid var(--accent);padding:6px 10px;border-radius:0 5px 5px 0}
-  .doc{display:flex;align-items:center;gap:9px;padding:8px 11px;border:1px solid var(--line);border-radius:6px;margin-bottom:7px;font-size:12.5px;font-weight:600;color:var(--ink);cursor:pointer}
+  .sidetag{font-size:10px;font-weight:600;padding:3px 10px;border-radius:7px;background:var(--accent-soft);color:var(--accent)}
+  .lead{font-size:13px;color:var(--ink);margin:4px 0}
+  .lead .role{color:var(--ink3);font-size:11.5px;font-weight:450}
+  .teamline{font-size:12.5px;color:var(--ink2);margin-top:6px;line-height:1.7}
+  .teamline .lbl{color:var(--ink3);font-weight:600} .note{font-size:12px;color:var(--ink3);font-style:italic}
+  .srcitem{padding:13px 0;border-bottom:1px solid var(--line2)} .srcitem:last-child{border:none;padding-bottom:0} .srcitem:first-child{padding-top:0}
+  .srcitem .st{display:flex;align-items:center;gap:9px;margin-bottom:6px}
+  .srcitem .snm{font-size:13px;font-weight:600;color:var(--ink)}
+  .srcitem .sgo{margin-left:auto;font-size:11.5px;font-weight:600;color:var(--accent)} .srcitem .sgo:hover{text-decoration:underline}
+  .srcitem .sblurb{font-size:12.5px;color:var(--ink2);line-height:1.65;background:var(--surface2);border-left:2px solid var(--accent);padding:9px 13px;border-radius:0 9px 9px 0}
+  .doc{display:flex;align-items:center;gap:10px;padding:11px 14px;border:1px solid var(--line);border-radius:11px;margin-bottom:9px;font-size:13px;font-weight:550;color:var(--ink);cursor:pointer;transition:.15s}
   .doc:hover{border-color:var(--accent);color:var(--accent);background:var(--surface2)}
   .doc .di{font-size:12px;color:var(--ink3)} .doc:last-child{margin-bottom:0}
-  .side-meta{font-size:12.5px}
-  .side-meta .mrow{display:flex;justify-content:space-between;gap:10px;padding:7px 0;border-bottom:1px solid var(--line2)}
+  .side-meta{font-size:13px}
+  .side-meta .mrow{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px solid var(--line2)}
   .side-meta .mrow:last-child{border:none}
-  .side-meta .mk{color:var(--ink3);font-weight:600;white-space:nowrap} .side-meta .mv{color:var(--ink);font-weight:700;text-align:right}
-  .tl{position:relative;padding-left:18px} .tl .ev{position:relative;padding-bottom:12px}
-  .tl .ev:before{content:"";position:absolute;left:-13px;top:4px;width:7px;height:7px;border-radius:50%;background:var(--accent)}
-  .tl .ev:after{content:"";position:absolute;left:-10px;top:12px;bottom:-2px;width:1px;background:var(--line)}
+  .side-meta .mk{color:var(--ink3);font-weight:550;white-space:nowrap} .side-meta .mv{color:var(--ink);font-weight:600;text-align:right}
+  .tl{position:relative;padding-left:20px} .tl .ev{position:relative;padding-bottom:15px}
+  .tl .ev:before{content:"";position:absolute;left:-14px;top:5px;width:7px;height:7px;border-radius:50%;background:var(--accent)}
+  .tl .ev:after{content:"";position:absolute;left:-11px;top:14px;bottom:-2px;width:1px;background:var(--line)}
   .tl .ev:last-child:after{display:none}
-  .tl .ed{font-size:10.5px;color:var(--ink3);font-weight:700} .tl .et{font-size:12.5px;color:var(--ink);margin-top:2px}
+  .tl .ed{font-size:11px;color:var(--ink3);font-weight:650} .tl .et{font-size:13px;color:var(--ink);margin-top:3px;line-height:1.55}
 
-  .firmgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
-  .fcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:17px 18px;cursor:pointer;box-shadow:var(--shadow)}
-  .fcard:hover{border-color:var(--accent);background:var(--surface2)}
-  .fcard .fnm{font-size:14.5px;font-weight:720;letter-spacing:-.2px;font-family:var(--serif)} .fcard:hover .fnm{color:var(--accent)}
-  .fcard .fmeta{font-size:11.5px;color:var(--ink3);margin-top:3px}
-  .fcard .ffocus{font-size:12px;color:var(--ink2);margin-top:8px;line-height:1.5}
-  .fcard .fstat{margin-top:10px;display:flex;gap:14px;font-size:11.5px}
-  .fcard .fstat b{font-size:17px;font-weight:750;display:block;color:var(--ink)}
+  .firmgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px}
+  .fcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:22px 24px;cursor:pointer;box-shadow:var(--shadow);transition:.15s}
+  .fcard:hover{border-color:var(--accent);box-shadow:var(--shadow-h)}
+  .fcard .fnm{font-size:16.5px;font-weight:600;letter-spacing:-.2px;font-family:var(--serif)} .fcard:hover .fnm{color:var(--accent)}
+  .fcard .fmeta{font-size:11.5px;color:var(--ink3);margin-top:4px}
+  .fcard .ffocus{font-size:12.5px;color:var(--ink2);margin-top:11px;line-height:1.6}
+  .fcard .fstat{margin-top:15px;display:flex;gap:18px;font-size:11.5px}
+  .fcard .fstat b{font-size:21px;font-weight:600;display:block;color:var(--ink);font-family:var(--serif)}
   .fcard .fstat span{color:var(--ink3)}
-  .firmhero{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px 20px;margin-bottom:16px}
-  .firmhero h1{font-size:23px;font-weight:700;letter-spacing:-.4px;font-family:var(--serif)}
-  .firmhero .fmeta{font-size:12.5px;color:var(--ink3);margin-top:5px}
-  .firmhero .ffocus{font-size:13px;color:var(--ink2);margin-top:10px;line-height:1.6;max-width:680px}
-  .firmhero .fweb{display:inline-block;margin-top:11px;font-size:12px;font-weight:700}
-  .pchips{display:flex;flex-wrap:wrap;gap:6px;margin-top:11px}
-  .pchip{font-size:11.5px;font-weight:650;background:var(--bg);border:1px solid var(--line);border-radius:5px;padding:4px 10px;color:var(--ink)}
-  .pchip .pr{color:var(--ink3);font-weight:500;font-size:10.5px}
+  .firmhero{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:28px 30px;margin-bottom:24px;box-shadow:var(--shadow)}
+  .firmhero h1{font-size:29px;font-weight:600;letter-spacing:-.5px;font-family:var(--serif)}
+  .firmhero .fmeta{font-size:13px;color:var(--ink3);margin-top:6px}
+  .firmhero .ffocus{font-size:13.5px;color:var(--ink2);margin-top:13px;line-height:1.7;max-width:700px}
+  .firmhero .fweb{display:inline-block;margin-top:14px;font-size:12.5px;font-weight:600}
+  .pchips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+  .pchip{font-size:12px;font-weight:550;background:var(--bg);border:1px solid var(--line);border-radius:18px;padding:6px 13px;color:var(--ink)}
+  .pchip .pr{color:var(--ink3);font-weight:450;font-size:11px}
 
-  .rail h4{font-size:9.5px;letter-spacing:1.5px;color:var(--ink3);text-transform:uppercase;font-weight:750;margin:0 0 10px}
-  .blk{margin-bottom:22px}
-  .lr{display:flex;align-items:center;gap:9px;padding:6px 0;border-bottom:1px solid var(--line2);font-size:12.5px;cursor:pointer}
+  .rail h4{font-size:9.5px;letter-spacing:1.8px;color:var(--ink4);text-transform:uppercase;font-weight:650;margin:0 0 13px}
+  .blk{margin-bottom:30px}
+  .lr{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--line2);font-size:13px;cursor:pointer}
   .lr:last-child{border:none} .lr:hover .fn{color:var(--accent)}
-  .lr .rk{font-family:var(--mono);color:var(--ink3);width:18px;flex:none;font-size:10.5px;font-weight:700;text-align:center}
+  .lr .rk{font-family:var(--mono);color:var(--ink3);width:18px;flex:none;font-size:10.5px;font-weight:650;text-align:center}
   .lr:nth-child(1) .rk,.lr:nth-child(2) .rk,.lr:nth-child(3) .rk{color:var(--accent)}
-  .lr .fn{flex:1;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis} .lr .dl{font-family:var(--mono);color:var(--ink2);font-weight:700}
-  .reg{padding:9px 0;border-bottom:1px solid var(--line2);cursor:pointer} .reg:last-child{border:none}
-  .reg .when{font-size:9px;color:var(--amber);font-weight:750;text-transform:uppercase;letter-spacing:.6px}
-  .reg .what{color:var(--ink);font-size:12px;font-weight:600;margin-top:3px;line-height:1.4} .reg:hover .what{color:var(--accent)}
-  .raildl{padding:8px 0;border-bottom:1px solid var(--line2);cursor:pointer}
+  .lr .fn{flex:1;font-weight:550;white-space:nowrap;overflow:hidden;text-overflow:ellipsis} .lr .dl{font-family:var(--mono);color:var(--ink2);font-weight:600}
+  .reg{padding:11px 0;border-bottom:1px solid var(--line2);cursor:pointer} .reg:last-child{border:none}
+  .reg .when{font-size:9px;color:var(--amber);font-weight:650;text-transform:uppercase;letter-spacing:.7px}
+  .reg .what{color:var(--ink);font-size:12.5px;font-weight:550;margin-top:4px;line-height:1.5} .reg:hover .what{color:var(--accent)}
+  .raildl{padding:10px 0;border-bottom:1px solid var(--line2);cursor:pointer}
   .raildl:last-child{border:none}
-  .raildl .rdd{font-size:10px;font-weight:750;color:var(--amber);letter-spacing:.3px}
-  .raildl .rdt{font-size:12px;font-weight:600;color:var(--ink);line-height:1.4;margin-top:2px}
+  .raildl .rdd{font-size:10px;font-weight:650;color:var(--amber);letter-spacing:.3px}
+  .raildl .rdt{font-size:12.5px;font-weight:550;color:var(--ink);line-height:1.5;margin-top:3px}
   .raildl:hover .rdt{color:var(--accent)}
-  .cov{font-size:11.5px;color:var(--ink2);line-height:1.8}
-  .empty{text-align:center;color:var(--ink3);padding:50px 20px;font-size:13px}
-  .demo{border:1px solid var(--line);border-left:3px solid var(--accent);background:var(--surface);color:var(--ink2);font-size:12px;padding:8px 13px;border-radius:7px;margin-bottom:14px;display:flex;gap:9px;align-items:center;line-height:1.5}
+  .cov{font-size:11.5px;color:var(--ink2);line-height:1.9}
+  .empty{text-align:center;color:var(--ink3);padding:70px 24px;font-size:13.5px}
+  .demo{border:1px solid var(--line);border-left:3px solid var(--accent);background:var(--surface);color:var(--ink2);font-size:12.5px;padding:11px 16px;border-radius:11px;margin-bottom:20px;display:flex;gap:10px;align-items:center;line-height:1.6}
   .demo b{color:var(--ink)}
-  .foot{font-size:10.5px;color:var(--ink3);text-align:center;padding:22px;line-height:1.7}
+  .foot{font-size:11px;color:var(--ink3);text-align:center;padding:36px 22px;line-height:1.8}
   .foot .methlink{margin-left:6px}
 
-  .ovl{position:fixed;inset:0;background:rgba(12,14,20,.45);z-index:60;display:none;align-items:flex-start;justify-content:center;padding-top:70px}
+  .ovl{position:fixed;inset:0;background:rgba(20,18,14,.4);z-index:60;display:none;align-items:flex-start;justify-content:center;padding-top:72px;backdrop-filter:blur(3px)}
   .ovl.on{display:flex} html[data-theme="dark"] .ovl{background:rgba(0,0,0,.6)}
-  .modal{background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow-h);width:640px;max-width:94vw;padding:20px 22px;max-height:82vh;overflow-y:auto}
-  .modal h3{font-size:17px;font-weight:700;margin-bottom:4px;font-family:var(--serif)} .modal .msub{font-size:12px;color:var(--ink3);margin-bottom:14px}
-  .frow{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
-  .fld label{font-size:10.5px;font-weight:700;color:var(--ink3);text-transform:uppercase;letter-spacing:.6px;display:block;margin-bottom:5px}
-  .fld select,.fld input{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:8px 10px;font-size:13px;color:var(--ink);font-family:inherit;outline:none}
+  .modal{background:var(--surface);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow-h);width:660px;max-width:94vw;padding:28px 30px;max-height:82vh;overflow-y:auto}
+  .modal h3{font-size:20px;font-weight:600;margin-bottom:5px;font-family:var(--serif)} .modal .msub{font-size:12.5px;color:var(--ink3);margin-bottom:18px;line-height:1.6}
+  .frow{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+  .fld label{font-size:10.5px;font-weight:650;color:var(--ink3);text-transform:uppercase;letter-spacing:.8px;display:block;margin-bottom:6px}
+  .fld select,.fld input{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:9px;padding:9px 12px;font-size:13px;color:var(--ink);font-family:inherit;outline:none}
   .fld select:focus,.fld input:focus{border-color:var(--accent)}
-  .mact{display:flex;gap:10px;margin-top:16px;justify-content:flex-end}
-  .mbtn{padding:8px 16px;border-radius:7px;font-size:12.5px;font-weight:700;cursor:pointer;border:1px solid var(--line);background:var(--surface);color:var(--ink2)}
+  .mact{display:flex;gap:10px;margin-top:20px;justify-content:flex-end}
+  .mbtn{padding:9px 18px;border-radius:10px;font-size:13px;font-weight:600;cursor:pointer;border:1px solid var(--line);background:var(--surface);color:var(--ink2)}
   .mbtn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
-  .methsec{margin-bottom:14px}
-  .methsec h5{font-size:10.5px;letter-spacing:1.2px;text-transform:uppercase;color:var(--ink3);font-weight:750;margin-bottom:5px}
-  .methsec p{font-size:12.5px;color:var(--ink2);line-height:1.6}
+  .methsec{margin-bottom:18px}
+  .methsec h5{font-size:10.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink3);font-weight:650;margin-bottom:6px}
+  .methsec p{font-size:13px;color:var(--ink2);line-height:1.7}
   .methsec p b{color:var(--ink)}
 
   /* analytics */
-  .anwrap{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .anwrap{display:grid;grid-template-columns:1fr 1fr;gap:16px}
   @media(max-width:900px){.anwrap{grid-template-columns:1fr}}
-  .anrow{display:flex;align-items:center;gap:9px;padding:5px 0;font-size:12.5px;cursor:pointer}
+  .anrow{display:flex;align-items:center;gap:10px;padding:7px 0;font-size:13px;cursor:pointer}
   .anrow:hover .anlabel{color:var(--accent)}
-  .anrank{font-family:var(--mono);color:var(--ink3);width:18px;flex:none;font-size:10.5px}
-  .anlabel{width:185px;flex:none;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .anbar{height:13px;border-radius:3px;background:var(--accent);min-width:3px;opacity:.85}
-  .anval{font-family:var(--mono);font-weight:700;color:var(--ink2);font-size:11.5px;white-space:nowrap}
+  .anrank{font-family:var(--mono);color:var(--ink4);width:18px;flex:none;font-size:10.5px}
+  .anlabel{width:180px;flex:none;font-weight:550;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .anbar{height:12px;border-radius:6px;background:var(--accent);min-width:4px;opacity:.8}
+  .anval{font-family:var(--mono);font-weight:600;color:var(--ink2);font-size:11.5px;white-space:nowrap}
   /* pipeline */
-  .pipe{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;align-items:start}
-  .pcol{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:11px}
-  .pcol h5{font-size:10.5px;letter-spacing:.6px;text-transform:uppercase;font-weight:750;margin-bottom:9px;display:flex;align-items:center;gap:7px}
+  .pipe{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:14px;align-items:start}
+  .pcol{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;box-shadow:var(--shadow)}
+  .pcol h5{font-size:10.5px;letter-spacing:.8px;text-transform:uppercase;font-weight:650;margin-bottom:12px;display:flex;align-items:center;gap:8px}
   .pcol h5 .ct{margin-left:auto;font-family:var(--mono);color:var(--ink3)}
-  .pitem{padding:8px 10px;border:1px solid var(--line2);border-radius:6px;margin-bottom:7px;cursor:pointer}
+  .pitem{padding:11px 13px;border:1px solid var(--line2);border-radius:11px;margin-bottom:9px;cursor:pointer;transition:.15s}
   .pitem:hover{border-color:var(--accent);background:var(--surface2)}
-  .pitem .ph{font-size:12px;font-weight:650;line-height:1.35}
-  .pitem .pm{font-size:10.5px;color:var(--ink3);margin-top:4px;display:flex;gap:6px;flex-wrap:wrap}
+  .pitem .ph{font-size:12.5px;font-weight:550;line-height:1.45}
+  .pitem .pm{font-size:10.5px;color:var(--ink3);margin-top:6px;display:flex;gap:7px;flex-wrap:wrap;align-items:center}
   /* regulatory */
-  .regc{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--amber);border-radius:var(--r);padding:14px 16px;margin-bottom:10px}
-  .regc .rt{font-size:15.5px;font-weight:700;letter-spacing:-.2px;margin-bottom:4px;font-family:var(--serif)}
-  .regc .rmeta{display:flex;gap:7px;flex-wrap:wrap;margin:8px 0}
-  .regc .rpill{font-size:10.5px;font-weight:650;padding:2px 8px;border-radius:5px;background:var(--bg);border:1px solid var(--line);color:var(--ink2)}
+  .regc{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--amber);border-radius:var(--r);padding:24px 28px;margin-bottom:16px;box-shadow:var(--shadow)}
+  .regc .rt{font-size:18px;font-weight:600;letter-spacing:-.2px;margin-bottom:6px;font-family:var(--serif);line-height:1.35}
+  .regc .rmeta{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+  .regc .rpill{font-size:11px;font-weight:550;padding:3px 10px;border-radius:7px;background:var(--bg);border:1px solid var(--line);color:var(--ink2)}
   .regc .rpill.dead{color:var(--amber);background:var(--amber-soft);border-color:transparent}
-  .regc .rlab{font-size:9.5px;font-weight:750;text-transform:uppercase;letter-spacing:.6px;color:var(--ink3);margin-top:10px}
-  .regc p{font-size:13px;color:var(--ink2);line-height:1.6;margin-top:3px}
-  .regc .ract{color:var(--ink);font-weight:600}
+  .regc .rlab{font-size:9.5px;font-weight:650;text-transform:uppercase;letter-spacing:.8px;color:var(--ink3);margin-top:13px}
+  .regc p{font-size:13.5px;color:var(--ink2);line-height:1.7;margin-top:4px}
+  .regc .ract{color:var(--ink);font-weight:550}
   /* regulatory library */
-  .regnav{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
-  .regarea{margin-bottom:6px}
-  .regarea h3{font-size:15.5px;font-weight:700;margin:18px 0 3px;scroll-margin-top:66px;font-family:var(--serif)}
-  .regarea .ai{font-size:12px;color:var(--ink3);margin-bottom:11px;line-height:1.5}
-  .lawcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:13px 15px;margin-bottom:9px}
-  .lawcard .lt{font-size:14.5px;font-weight:720;letter-spacing:-.2px;font-family:var(--serif)}
-  .lawcard .lg{font-size:12.5px;color:var(--ink2);margin-top:4px;line-height:1.55}
-  .lawkeylbl{font-size:9.5px;font-weight:750;text-transform:uppercase;letter-spacing:.6px;color:var(--ink3);margin-top:12px;margin-bottom:5px}
-  .keyrow{display:flex;gap:11px;padding:5px 0;border-bottom:1px solid var(--line2);font-size:12px}
+  .regnav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
+  .regarea{margin-bottom:10px}
+  .regarea h3{font-size:19px;font-weight:600;margin:26px 0 5px;scroll-margin-top:80px;font-family:var(--serif)}
+  .regarea .ai{font-size:12.5px;color:var(--ink3);margin-bottom:14px;line-height:1.6}
+  .lawcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:22px 24px;margin-bottom:14px;box-shadow:var(--shadow)}
+  .lawcard .lt{font-size:16px;font-weight:600;letter-spacing:-.2px;font-family:var(--serif)}
+  .lawcard .lg{font-size:13px;color:var(--ink2);margin-top:5px;line-height:1.65}
+  .lawkeylbl{font-size:9.5px;font-weight:650;text-transform:uppercase;letter-spacing:.8px;color:var(--ink3);margin-top:14px;margin-bottom:6px}
+  .keyrow{display:flex;gap:13px;padding:7px 0;border-bottom:1px solid var(--line2);font-size:12.5px}
   .keyrow:last-child{border:none}
-  .keys{font-family:var(--mono);font-weight:700;color:var(--accent);white-space:normal;flex:none;width:148px}
-  .keyn{color:var(--ink2);line-height:1.5}
-  .lawamd{margin-top:10px;background:var(--amber-soft);border-radius:6px;padding:8px 11px;font-size:12px;color:var(--ink);line-height:1.5}
+  .keys{font-family:var(--mono);font-weight:600;color:var(--accent);white-space:normal;flex:none;width:152px;font-size:11.5px}
+  .keyn{color:var(--ink2);line-height:1.6}
+  .lawamd{margin-top:13px;background:var(--amber-soft);border-radius:11px;padding:11px 14px;font-size:12.5px;color:var(--ink);line-height:1.6}
   .lawamd b{color:var(--amber)}
-  .lawrefs{display:flex;gap:7px;flex-wrap:wrap;align-items:center;font-size:11.5px}
-  .dealchip{font-size:11px;font-weight:650;background:var(--accent-soft);color:var(--accent);padding:3px 9px;border-radius:5px;cursor:pointer}
+  .lawrefs{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:12px}
+  .dealchip{font-size:11px;font-weight:600;background:var(--accent-soft);color:var(--accent);padding:4px 11px;border-radius:7px;cursor:pointer}
   .dealchip:hover{text-decoration:underline}
   @media(max-width:600px){.keys{width:110px}}
-  .lawcard{cursor:pointer}
-  .lawcard:hover{border-color:var(--accent);background:var(--surface2)}
-  .lawopen{font-size:10.5px;font-weight:700;color:var(--accent);float:right;opacity:0}
+  .lawcard{cursor:pointer;transition:.15s}
+  .lawcard:hover{border-color:var(--accent);box-shadow:var(--shadow-h)}
+  .lawopen{font-size:11px;font-weight:600;color:var(--accent);float:right;opacity:0;transition:.15s}
   .lawcard:hover .lawopen{opacity:1}
   /* law detail */
-  .lpro{display:flex;gap:13px;padding:10px 0;border-bottom:1px solid var(--line2)}
+  .lpro{display:flex;gap:15px;padding:12px 0;border-bottom:1px solid var(--line2)}
   .lpro:last-child{border:none}
-  .lpro-s{font-family:var(--mono);font-weight:700;color:var(--accent);flex:none;width:150px;font-size:12px;line-height:1.5}
-  .lpro-b{font-size:13px;color:var(--ink2);line-height:1.6}
+  .lpro-s{font-family:var(--mono);font-weight:600;color:var(--accent);flex:none;width:152px;font-size:12px;line-height:1.6}
+  .lpro-b{font-size:13.5px;color:var(--ink2);line-height:1.7}
   .lpro-b b{color:var(--ink)}
-  .amdc{display:flex;gap:13px;padding:9px 0;border-bottom:1px solid var(--line2)}
+  .amdc{display:flex;gap:15px;padding:11px 0;border-bottom:1px solid var(--line2)}
   .amdc:last-child{border:none}
-  .amdc-d{font-size:10.5px;font-weight:750;color:var(--amber);flex:none;width:110px;text-transform:uppercase;letter-spacing:.4px;line-height:1.6}
-  .amdc-b{font-size:13px;color:var(--ink2);line-height:1.6}
+  .amdc-d{font-size:10.5px;font-weight:650;color:var(--amber);flex:none;width:112px;text-transform:uppercase;letter-spacing:.5px;line-height:1.7}
+  .amdc-b{font-size:13.5px;color:var(--ink2);line-height:1.7}
   .amdc-b b{color:var(--ink)}
-  ul.play{margin:0;padding-left:18px}
-  ul.play li{font-size:13px;color:var(--ink2);line-height:1.65;margin-bottom:7px}
+  ul.play{margin:0;padding-left:20px}
+  ul.play li{font-size:13.5px;color:var(--ink2);line-height:1.75;margin-bottom:9px}
   ul.play li::marker{color:var(--accent)}
   ul.play.pit li::marker{color:var(--amber)}
   @media(max-width:600px){.lpro-s{width:118px}}
-  .rev{font-size:9px;font-weight:750;color:var(--green);background:var(--green-soft);padding:2px 7px;border-radius:4px;letter-spacing:.3px}
-  .stk{display:flex;gap:13px;padding:8px 0;border-bottom:1px solid var(--line2)}
+  .rev{font-size:9px;font-weight:650;color:var(--green);background:var(--green-soft);padding:3px 9px;border-radius:6px;letter-spacing:.4px}
+  .stk{display:flex;gap:15px;padding:11px 0;border-bottom:1px solid var(--line2)}
   .stk:last-child{border:none}
-  .stk-l{font-size:10px;font-weight:750;text-transform:uppercase;letter-spacing:.5px;color:var(--ink3);flex:none;width:140px;padding-top:2px}
-  .stk-v{font-size:13px;color:var(--ink);line-height:1.6;flex:1}
-  .stk-v ul li{font-size:12.5px;color:var(--ink2);margin-bottom:5px}
-  .trigrow{display:flex;gap:13px;padding:8px 0;border-bottom:1px solid var(--line2)}
+  .stk-l{font-size:10px;font-weight:650;text-transform:uppercase;letter-spacing:.6px;color:var(--ink3);flex:none;width:142px;padding-top:3px}
+  .stk-v{font-size:13.5px;color:var(--ink);line-height:1.7;flex:1}
+  .stk-v ul li{font-size:13px;color:var(--ink2);margin-bottom:6px}
+  .trigrow{display:flex;gap:15px;padding:11px 0;border-bottom:1px solid var(--line2)}
   .trigrow:last-child{border:none}
-  .trig-s{font-size:12px;font-weight:700;color:var(--accent);flex:none;width:230px;cursor:pointer;line-height:1.4}
+  .trig-s{font-size:12.5px;font-weight:600;color:var(--accent);flex:none;width:232px;cursor:pointer;line-height:1.5}
   .trig-s:hover{text-decoration:underline}
-  .trig-n{font-size:12.5px;color:var(--ink2);line-height:1.55}
-  .casec{padding:8px 0;border-bottom:1px solid var(--line2)}
+  .trig-n{font-size:13px;color:var(--ink2);line-height:1.65}
+  .casec{padding:11px 0;border-bottom:1px solid var(--line2)}
   .casec:last-child{border:none}
-  .case-n{font-size:12.5px;font-weight:720;color:var(--ink)}
-  .case-c{font-family:var(--mono);font-size:10.5px;color:var(--ink3);font-weight:600}
-  .case-h{font-size:12px;color:var(--ink2);line-height:1.55;margin-top:3px}
+  .case-n{font-size:13px;font-weight:600;color:var(--ink)}
+  .case-c{font-family:var(--mono);font-size:11px;color:var(--ink3);font-weight:550}
+  .case-h{font-size:12.5px;color:var(--ink2);line-height:1.65;margin-top:4px}
   @media(max-width:600px){.stk-l{width:104px}.trig-s{width:150px}}
   /* moves */
-  .moverow{display:flex;align-items:center;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:7px;padding:10px 14px;margin-bottom:7px;cursor:pointer}
-  .moverow:hover{border-color:var(--accent);background:var(--surface2)}
-  .mv-avatar{width:34px;height:34px;border-radius:50%;flex:none;display:grid;place-items:center;font-weight:750;font-size:12px;letter-spacing:.3px}
+  .moverow{display:flex;align-items:center;gap:14px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-bottom:10px;cursor:pointer;box-shadow:var(--shadow);transition:.15s}
+  .moverow:hover{border-color:var(--accent)}
+  .mv-avatar{width:38px;height:38px;border-radius:50%;flex:none;display:grid;place-items:center;font-weight:650;font-size:12.5px;letter-spacing:.3px}
   .mv-main{flex:1;min-width:0}
-  .moverow .mv-who{font-weight:720;font-size:13.5px;line-height:1.3}
-  .moverow .mv-what{color:var(--ink2);font-size:12px;margin-top:2px}
-  .mv-right{display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex:none}
+  .moverow .mv-who{font-weight:600;font-size:14px;line-height:1.35;font-family:var(--serif)}
+  .moverow .mv-what{color:var(--ink2);font-size:12.5px;margin-top:3px}
+  .mv-right{display:flex;flex-direction:column;align-items:flex-end;gap:5px;flex:none}
   .mv-date{font-size:11px;color:var(--ink3)}
-  .mtype{font-size:9px;font-weight:750;text-transform:uppercase;letter-spacing:.4px;padding:2px 8px;border-radius:4px}
-  .savebtn{font-size:11px;font-weight:700;color:var(--accent);background:var(--accent-soft);border:none;border-radius:6px;padding:5px 11px;cursor:pointer;margin-left:8px}
-  .delx{margin-left:auto;color:var(--ink3);cursor:pointer;font-weight:700}
+  .mtype{font-size:9px;font-weight:650;text-transform:uppercase;letter-spacing:.5px;padding:3px 9px;border-radius:6px}
+  .savebtn{font-size:11.5px;font-weight:600;color:var(--accent);background:var(--accent-soft);border:none;border-radius:8px;padding:6px 12px;cursor:pointer;margin-left:8px}
+  .delx{margin-left:auto;color:var(--ink3);cursor:pointer;font-weight:600}
   .delx:hover{color:var(--red)}
 
+  /* hero / positioning band */
+  .hero{background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:40px 44px 34px;margin-bottom:34px;position:relative;box-shadow:var(--shadow)}
+  .hero h1{font-family:var(--serif);font-size:34px;font-weight:600;letter-spacing:-.8px;line-height:1.22;max-width:760px;margin-bottom:12px}
+  .hero .hsub{font-size:15px;color:var(--ink2);line-height:1.7;max-width:740px;margin-bottom:22px}
+  .hero .hprops{display:grid;grid-template-columns:repeat(auto-fit,minmax(225px,1fr));gap:14px;margin-bottom:22px}
+  .hero .hp{border:1px solid var(--line2);border-radius:14px;padding:14px 17px;background:var(--surface2)}
+  .hero .hp b{display:block;font-size:9.5px;text-transform:uppercase;letter-spacing:1.1px;color:var(--accent);margin-bottom:5px}
+  .hero .hp span{font-size:12.5px;color:var(--ink2);line-height:1.6}
+  .hero .hcta{display:flex;gap:10px;flex-wrap:wrap}
+  .hero .hcta .abtn{padding:10px 18px;font-size:12.5px;border-radius:11px}
+  .hero .hx{position:absolute;top:14px;right:16px;color:var(--ink4);cursor:pointer;font-weight:600;background:none;border:none;font-size:14px}
+  .hero .hx:hover{color:var(--red)}
+  @media(max-width:780px){.hero .hprops{display:none}.hero h1{font-size:22px}.hero{padding:24px}}
+
   /* compare */
-  .cmpbar{position:fixed;left:50%;transform:translateX(-50%);bottom:18px;z-index:55;background:var(--ink);color:var(--surface);border-radius:10px;box-shadow:var(--shadow-h);padding:9px 14px;display:flex;align-items:center;gap:12px;font-size:12.5px;font-weight:650}
+  .cmpbar{position:fixed;left:50%;transform:translateX(-50%);bottom:22px;z-index:55;background:var(--ink);color:var(--surface);border-radius:14px;box-shadow:var(--shadow-h);padding:11px 18px;display:flex;align-items:center;gap:14px;font-size:13px;font-weight:550}
   html[data-theme="dark"] .cmpbar{background:var(--accent-soft);color:var(--ink);border:1px solid var(--line)}
-  .cmpbar button{border:none;border-radius:6px;padding:6px 12px;font-size:12px;font-weight:700;cursor:pointer}
+  .cmpbar button{border:none;border-radius:9px;padding:7px 14px;font-size:12px;font-weight:600;cursor:pointer}
   .cmpbar .go{background:var(--accent);color:#fff}
   .cmpbar .x{background:transparent;color:inherit;opacity:.7}
-  .cmptbl{display:grid;gap:0;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;overflow-x:auto}
-  .cmptbl .cmprow{display:grid;grid-template-columns:140px repeat(var(--cols),minmax(210px,1fr));border-bottom:1px solid var(--line2)}
+  .cmptbl{display:grid;gap:0;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;overflow-x:auto;box-shadow:var(--shadow)}
+  .cmptbl .cmprow{display:grid;grid-template-columns:150px repeat(var(--cols),minmax(220px,1fr));border-bottom:1px solid var(--line2)}
   .cmptbl .cmprow:last-child{border-bottom:none}
   .cmptbl .cmprow.hd{background:var(--surface2);border-bottom:1px solid var(--line)}
-  .cmpk{font-size:10px;font-weight:750;text-transform:uppercase;letter-spacing:.6px;color:var(--ink3);padding:10px 12px;border-right:1px solid var(--line2)}
-  .cmpv{font-size:12.5px;color:var(--ink2);padding:10px 12px;border-right:1px solid var(--line2);line-height:1.5}
+  .cmpk{font-size:10px;font-weight:650;text-transform:uppercase;letter-spacing:.8px;color:var(--ink3);padding:13px 15px;border-right:1px solid var(--line2)}
+  .cmpv{font-size:13px;color:var(--ink2);padding:13px 15px;border-right:1px solid var(--line2);line-height:1.6}
   .cmpv:last-child{border-right:none}
   .cmpv b{color:var(--ink)}
-  .cmpv .h{font-family:var(--serif);font-weight:700;color:var(--ink);font-size:13px;line-height:1.35;cursor:pointer}
+  .cmpv .h{font-family:var(--serif);font-weight:600;color:var(--ink);font-size:13.5px;line-height:1.45;cursor:pointer}
   .cmpv .h:hover{color:var(--accent)}
 
   /* toast */
-  .toast{position:fixed;bottom:18px;right:18px;z-index:70;background:var(--ink);color:var(--surface);font-size:12.5px;font-weight:650;border-radius:8px;padding:10px 15px;opacity:0;transform:translateY(6px);transition:opacity .18s,transform .18s;pointer-events:none}
+  .toast{position:fixed;bottom:22px;right:22px;z-index:70;background:var(--ink);color:var(--surface);font-size:13px;font-weight:550;border-radius:11px;padding:12px 18px;opacity:0;transform:translateY(8px);transition:opacity .2s,transform .2s;pointer-events:none}
   .toast.on{opacity:1;transform:none}
-  html[data-theme="dark"] .toast{background:#e8ecf3;color:#10131a}
+  html[data-theme="dark"] .toast{background:#f0eee7;color:#121214}
 
-  /* hero / positioning band */
-  .hero{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:28px 30px 24px;margin-bottom:22px;position:relative;box-shadow:var(--shadow)}
-  .hero h1{font-family:var(--serif);font-size:27px;font-weight:700;letter-spacing:-.4px;line-height:1.3;max-width:740px;margin-bottom:7px}
-  .hero .hsub{font-size:13.5px;color:var(--ink2);line-height:1.6;max-width:740px;margin-bottom:14px}
-  .hero .hprops{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-bottom:14px}
-  .hero .hp{border:1px solid var(--line2);border-radius:7px;padding:9px 12px;background:var(--surface2)}
-  .hero .hp b{display:block;font-size:10px;text-transform:uppercase;letter-spacing:.9px;color:var(--accent);margin-bottom:3px}
-  .hero .hp span{font-size:12px;color:var(--ink2);line-height:1.5}
-  .hero .hcta{display:flex;gap:9px;flex-wrap:wrap}
-  .hero .hcta .abtn{padding:8px 14px;font-size:12px}
-  .hero .hx{position:absolute;top:9px;right:11px;color:var(--ink3);cursor:pointer;font-weight:700;background:none;border:none;font-size:13px}
-  .hero .hx:hover{color:var(--red)}
-  @media(max-width:780px){.hero .hprops{display:none}.hero h1{font-size:19px}}
   ::-webkit-scrollbar{width:10px;height:10px}
   ::-webkit-scrollbar-thumb{background:var(--line);border-radius:8px;border:2px solid var(--surface)}
-  @media(max-width:1140px){.wrap{grid-template-columns:206px minmax(0,1fr)}.rail{display:none}.asof{display:none}}
-  @media(max-width:780px){.wrap{grid-template-columns:1fr;height:auto}aside{display:none}.stats{grid-template-columns:repeat(2,1fr)}.search{display:none}.dd-grid{grid-template-columns:1fr}.methlink{display:none}}
+  @media(max-width:1180px){.wrap{grid-template-columns:216px minmax(0,1fr)}.rail{display:none}.asof{display:none}.main{padding:32px 36px 70px}}
+  @media(max-width:780px){.wrap{grid-template-columns:1fr;height:auto}aside{display:none}.stats{grid-template-columns:repeat(2,1fr)}.search{display:none}.dd-grid{grid-template-columns:1fr}.methlink{display:none}.main{padding:22px 18px 60px}.vh h2{font-size:24px}}
   @media print{header,aside,.rail,.toolbar,.actbar,.fb,.cmpbar,.toast{display:none!important}.wrap{display:block;height:auto}.main{overflow:visible;padding:0}body{background:#fff}}
-
-  /* ---- premium polish ---- */
-  .card,.crow,.priocard,.stat,.ni,.chip,.abtn,.webchip,.sec,.methlink,.icbtn,.dlitem,.lawcard{transition:border-color .14s ease,background-color .14s ease,box-shadow .14s ease,color .14s ease}
-  .crow:hover,.priocard:hover,.stat:hover,.lawcard:hover{box-shadow:var(--shadow-h)}
-  .ni.active{box-shadow:inset 2px 0 0 var(--accent)}
-  .chip:not(.on):hover{background:var(--accent-soft);border-color:var(--accent-soft)}
-  .abtn:not(.primary):hover{background:var(--accent-soft)}
-  .accentbar{width:2.5px}
-  .dd h1{letter-spacing:-.5px;line-height:1.2}
-  .vh h2{letter-spacing:-.4px}
-  .card h3{letter-spacing:-.2px}
-  .brand .mark{border-radius:5px}
-  ::selection{background:var(--accent-soft);color:var(--accent)}
 </style>
 </head>
 <body>
@@ -622,6 +613,35 @@ function firmKnown(n){return Object.prototype.hasOwnProperty.call(FIRMS,n);}
 const SRC="Bar & Bench — Dealstreet";
 /* DEALS-START — this block is auto-generated by the nightly pipeline (engine/build.mjs). Manual edits here are overwritten on the next run. */
 const DEALS=[
+ {"id":"cms-induslaw-acts-on-firstclub-55-million-series-b-fundraise","type":"pe","geo":"bengaluru","city":"Bengaluru","sector":"Technology","imp":"md","verified":false,"implication":"","framework":[],"stage":"completed","value":"$55 mn","parties":"","time":"11 Jun 2026","headline":"CMS INDUSLAW acts on FirstClub $55 million Series B fundraise","sum":"Firstclub Technology Private Limited has raised $55 million from a Series B fundraise co-led by Peak XV Partners and Sofina, with participation from existing investors Accel, RTP Global and Paramark Ventures. CMS INDUSLAW advised FirstClub…","detail":"Firstclub Technology Private Limited has raised $55 million from a Series B fundraise co-led by Peak XV Partners and Sofina, with participation from existing investors Accel, RTP Global and Paramark Ventures. CMS INDUSLAW advised FirstClub on this fundraise. The transaction team consisted of Winnie Shekhar (Partner), Tushar Gogoi (Principal Associate), Chandresh Goyal (Senior Associate) and Mahak Agarwal (Associate). Winnie Shekhar FirstClub is a Bengaluru-based premium grocery and quick commerce platform.","firms":[{"name":"IndusLaw","side":"See source for role","lead":[],"team":[],"note":"Team as stated in the source article."},{"name":"CMS INDUSLAW","side":"See source for role","lead":[],"team":[],"note":"Team as stated in the source article."}],"sources":[{"name":"Bar & Bench — Dealstreet","url":"https://www.barandbench.com/dealstreet/cms-induslaw-acts-on-firstclub-55-million-series-b-fundraise","blurb":"Primary source naming the law firms, partners and teams on the matter."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"}],"timeline":[{"d":"11 Jun 2026","t":"CMS INDUSLAW acts on FirstClub $55 million Series B fundraise"}],"score":30,"scoreReasons":["Mid-size deal (₹100–1,000 cr)","Corroborated by an official source","3 corroborating sources"]},
+ {"id":"legacy-law-offices-advises-lecturewala-on-drhp-filing","type":"ipo","geo":"global","city":"Cross-border","sector":"Technology","imp":"md","verified":false,"implication":"","framework":[],"stage":"filed","value":"₹11 cr","parties":"","time":"11 Jun 2026","headline":"Legacy Law Offices advises Lecturewala on DRHP filing","sum":"ANP Technologies Limited (dba “Lecturewala.in”) has filed a Draft Red Herring Prospectus on the BSE SME platform for an initial public offering of up to 50,00,000 shares aggregating to ₹11 crore+. Legacy Law Offices advised Lecturewala as…","detail":"ANP Technologies Limited (dba “Lecturewala.in”) has filed a Draft Red Herring Prospectus on the BSE SME platform for an initial public offering of up to 50,00,000 shares aggregating to ₹11 crore+. Legacy Law Offices advised Lecturewala as well as the Book Running Lead Manager Expert Global Consultants Pvt Ltd on this IPO. The transaction team consisted of Roopali Chaturvedi , AOR (Senior Partner), Pradyun Chakravarty (Partner), Naman Anand (Counsel) and Mudit Jain (Associate). Lecturewala Jodhpur-based Lecturewala primarily operates as a platform-based aggregator for teachers and/or coaching centres offering online coaching lectures primarily in the field of commerce education.","firms":[{"name":"Legacy Law Offices","side":"See source for role","lead":[],"team":[],"note":"Team as stated in the source article."}],"sources":[{"name":"Bar & Bench — Dealstreet","url":"https://www.barandbench.com/dealstreet/legacy-law-offices-advises-lecturewala-on-drhp-filing","blurb":"Primary source naming the law firms, partners and teams on the matter."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"SEBI public issues / DRHPs","url":"https://www.sebi.gov.in/filings/public-issues.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"},{"label":"SEBI public issues / DRHPs","url":"https://www.sebi.gov.in/filings/public-issues.html"}],"timeline":[{"d":"11 Jun 2026","t":"Legacy Law Offices advises Lecturewala on DRHP filing"}],"score":31,"scoreReasons":["Cross-border","Corroborated by an official source","4 corroborating sources"]},
+ {"id":"khaitan-co-advises-reliance-on-meta-ai-data-centre-setup-in-gujarat","type":"ma","geo":"other","city":"India","sector":"Energy & Renewables","imp":"md","verified":false,"implication":"","framework":[],"stage":"announced","value":"—","parties":"","time":"11 Jun 2026","headline":"Khaitan & Co advises Reliance on Meta AI data centre setup in Gujarat","sum":"Reliance Industries Limited (RIL) has partnered with Meta for the setup of an artificial intelligence (AI) data centre in Jamnagar, Gujarat. Khaitan & Co advised Reliance Industries on the transaction.","detail":"Reliance Industries Limited (RIL) has partnered with Meta for the setup of an artificial intelligence (AI) data centre in Jamnagar, Gujarat. Khaitan & Co advised Reliance Industries on the transaction. The Firm advised on all legal aspects of the transaction, including structuring, preparation and negotiation of project and commercial documentation, regulatory and compliance matters, and transaction execution support. The transaction team consisted of Atman Desai (Partner), Hetashri Khajanchi (Senior Associate) and Vivan Jhaveri (Associate) with assistance from the following: Mayank Jain (Partner), Divya Chaturvedi (Partner), Mudit Shah (Partner), Saransh Shaw (Counsel), Pranay Sahay…","firms":[{"name":"Khaitan & Co","side":"See source for role","lead":[],"team":[],"note":"Team as stated in the source article."}],"sources":[{"name":"Bar & Bench — Dealstreet","url":"https://www.barandbench.com/dealstreet/khaitan-co-advises-reliance-on-meta-ai-data-centre-setup-in-gujarat","blurb":"Primary source naming the law firms, partners and teams on the matter."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"},{"label":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders"}],"timeline":[{"d":"11 Jun 2026","t":"Khaitan & Co advises Reliance on Meta AI data centre setup in Gujarat"}],"score":36,"scoreReasons":["Tier-1 firm involved","Corroborated by an official source","4 corroborating sources"]},
+ {"id":"sequitur-advises-8x-ventures-on-tiea-connectors-series-a-fundraiseb","type":"pe","geo":"global","city":"Cross-border","sector":"Industrials","imp":"md","verified":false,"implication":"","framework":[],"stage":"completed","value":"₹77 cr","parties":"","time":"4 Jun 2026","headline":"Sequitur advises 8X Ventures on TIEA Connectors Series A fundraise","sum":"TIEA Connectors has raised ₹77 crore from a Series A fundraise led by IvyCap Ventures with participation from Jamwant Ventures, 8X Ventures and angel investors. Sequitur Advocates & Legal Consultants advised 8X Ventures Fund on their…","detail":"TIEA Connectors has raised ₹77 crore from a Series A fundraise led by IvyCap Ventures with participation from Jamwant Ventures, 8X Ventures and angel investors. Sequitur Advocates & Legal Consultants advised 8X Ventures Fund on their participation on this fundraise. The Firm advised on the structuring of the investment transaction, the drafting, negotiation, and finalisation of the definitive transaction documentations. The transaction team was led by Utpal Kant (Managing Partner), with assistance from Prateek Arora (Associate).","firms":[{"name":"Sequitur","side":"See source for role","lead":[],"team":[],"note":"Team as stated in the source article."}],"sources":[{"name":"Bar & Bench — Dealstreet","url":"https://www.barandbench.com/dealstreet/sequitur-advises-8x-ventures-on-tiea-connectors-series-a-fundraiseb","blurb":"Primary source naming the law firms, partners and teams on the matter."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"}],"timeline":[{"d":"4 Jun 2026","t":"Sequitur advises 8X Ventures on TIEA Connectors Series A fundraise"}],"score":31,"scoreReasons":["Cross-border","Corroborated by an official source","3 corroborating sources"]},
+ {"id":"legacylawoffices-acts-on-punjabi-angithi-ipo","type":"ipo","geo":"delhi","city":"Delhi-NCR","sector":"Industrials","imp":"lo","verified":false,"implication":"","framework":[],"stage":"completed","value":"₹38.38 cr","parties":"","time":"4 Jun 2026","headline":"Legacy Law Offices acts on Punjabi Angithi IPO","sum":"Vegorama Punjabi Angithi Limited has completed its listing on the BSE SME for an Initial Public Offering comprising a fresh issue and an offer for sale by a selling shareholder, aggregating to ₹38.38 crore. Legacy Law Offices advised and…","detail":"Vegorama Punjabi Angithi Limited has completed its listing on the BSE SME for an Initial Public Offering comprising a fresh issue and an offer for sale by a selling shareholder, aggregating to ₹38.38 crore. Legacy Law Offices advised and acted for Punjabi Angithi, Selling Shareholder Mr Deepak Chadha, and the Book Running Lead Manager Corporate Makers Capital Ltd, on this IPO. The transaction team consisted of Roopali Chaturvedi (Senior Partner), Pradyun Chakravarty (Partner), Naman Anand (Counsel) and Gayatri Bansal (Associate). Punjabi Angithi is principally a cloud kitchen and takeaway service provider, focusing on delivering high-quality vegetarian North Indian and other cuisines…","firms":[{"name":"Legacy Law Offices","side":"See source for role","lead":[],"team":[],"note":"Team as stated in the source article."}],"sources":[{"name":"Bar & Bench — Dealstreet","url":"https://www.barandbench.com/dealstreet/legacylawoffices-acts-on-punjabi-angithi-ipo","blurb":"Primary source naming the law firms, partners and teams on the matter."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"SEBI public issues / DRHPs","url":"https://www.sebi.gov.in/filings/public-issues.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"},{"label":"SEBI public issues / DRHPs","url":"https://www.sebi.gov.in/filings/public-issues.html"}],"timeline":[{"d":"4 Jun 2026","t":"Legacy Law Offices acts on Punjabi Angithi IPO"}],"score":21,"scoreReasons":["Corroborated by an official source","4 corroborating sources"]},
+ {"id":"vertices-partners-advises-tist-media-on-seed-fundraise","type":"pe","geo":"other","city":"India","sector":"Consumer & Retail","imp":"lo","verified":false,"implication":"","framework":[],"stage":"completed","value":"$5.9 mn","parties":"","time":"2 Jun 2026","headline":"VERTICES PARTNERS advises TIST Media on seed fundraise","sum":"TIST Media Private Limited has raised funds from a seed fundraise, at an estimated valuation of $5.9 million, led by Sthira Partners. VERTICES PARTNERS advised TIST Media on this fundraise.","detail":"TIST Media Private Limited has raised funds from a seed fundraise, at an estimated valuation of $5.9 million, led by Sthira Partners. VERTICES PARTNERS advised TIST Media on this fundraise. The transaction was led by Vishal Mehta (Partner), along with a team that consisted of Amit Shekhar Dutta (Senior Associate) and Darshan Rajesh Chheda (Associate). Founder and Managing Partner Vinayak Burman provided strategic inputs.","firms":[{"name":"Vertices Partners","side":"See source for role","lead":[],"team":[],"note":"Team as stated in the source article."}],"sources":[{"name":"Bar & Bench — Dealstreet","url":"https://www.barandbench.com/dealstreet/vertices-partners-advises-tist-media-on-seed-fundraise","blurb":"Primary source naming the law firms, partners and teams on the matter."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"}],"timeline":[{"d":"2 Jun 2026","t":"VERTICES PARTNERS advises TIST Media on seed fundraise"}],"score":21,"scoreReasons":["Corroborated by an official source","3 corroborating sources"]},
+ {"id":"sng-partners-advises-icici-prudential-on-525-crore-office-space-acquisition-in-vios-tower-mumbai","type":"ma","geo":"mumbai","city":"Mumbai","sector":"BFSI","imp":"md","verified":false,"implication":"","framework":[],"stage":"announced","value":"₹525 cr","parties":"","time":"2 Jun 2026","headline":"SNG & Partners advises ICICI Prudential on ₹525 crore office space acquisition in VIOS Tower, Mumbai","sum":"ICICI Prudential Office Yield Optimiser Fund – AIF II, managed by ICICI Prudential Asset Management Company Limited, has made a structured acquisition of NCP Commercials Private Limited, a Mumbai-based commercial real estate company owning…","detail":"ICICI Prudential Office Yield Optimiser Fund – AIF II, managed by ICICI Prudential Asset Management Company Limited, has made a structured acquisition of NCP Commercials Private Limited, a Mumbai-based commercial real estate company owning and operating multiple floors of the commercial office asset known as “VIOS Tower” in Mumbai. The transaction is valued at over ₹525 crore and relates to approximately 3 lakh sq. ft. of pre-leased office space across nine floors of the VIOS Tower in Wadala, Mumbai.","firms":[{"name":"SNG & Partners","side":"See source for role","lead":[],"team":[],"note":"Team as stated in the source article."}],"sources":[{"name":"Bar & Bench — Dealstreet","url":"https://www.barandbench.com/dealstreet/sng-partners-advises-icici-prudential-on-525-crore-office-space-acquisition-in-vios-tower-mumbai","blurb":"Primary source naming the law firms, partners and teams on the matter."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"},{"label":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders"}],"timeline":[{"d":"2 Jun 2026","t":"SNG & Partners advises ICICI Prudential on ₹525 crore office space acquisition in VIOS Tower, Mumbai"}],"score":30,"scoreReasons":["Mid-size deal (₹100–1,000 cr)","Corroborated by an official source","4 corroborating sources"]},
+ {"id":"nse-GUJALKALI-11-Jun-2026162555","type":"ma","geo":"other","city":"India","sector":"Energy & Renewables","imp":"md","verified":true,"implication":"","framework":[],"stage":"completed","value":"₹32,32,97,915","parties":"Gujarat Alkalies and Chemicals Limited","time":"11 Jun 2026","headline":"Gujarat Alkalies and Chemicals Limited: General Updates","sum":"General Updates — Gujarat Alkalies and Chemicals Limited has informed the Exchange about General Updates: The Company has paid total consideration of Rs.32,32,97,915/- towards further acquisition, to maintain 26% Shareholding in Cleanmax…","detail":"General Updates — Gujarat Alkalies and Chemicals Limited has informed the Exchange about General Updates: The Company has paid total consideration of Rs.32,32,97,915/- towards further acquisition, to maintain 26% Shareholding in Cleanmax Sphere Energy Private Limited today i.e. on 11.06.2026. For more details kindly refer attached file.","firms":[],"sources":[{"name":"NSE filing — Gujarat Alkalies and Chemicals Limited","url":"https://nsearchives.nseindia.com/corporate/KAMLESH_MUNDRA_11062026162545_SELETTER_S.pdf","official":true,"blurb":"Primary NSE disclosure (SEBI LODR Reg. 30 / regulator filing) for this corporate event."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"NSE filing","url":"https://nsearchives.nseindia.com/corporate/KAMLESH_MUNDRA_11062026162545_SELETTER_S.pdf"},{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"},{"label":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders"}],"timeline":[{"d":"11 Jun 2026","t":"Gujarat Alkalies and Chemicals Limited: General Updates"}],"score":53,"scoreReasons":["Mega deal (≥₹5,000 cr)","Corroborated by an official source","4 corroborating sources"]},
+ {"id":"nse-HCG-19-May-2026234850","type":"ma","geo":"global","city":"Cross-border","sector":"Pharma & Healthcare","imp":"hi","verified":true,"implication":"","framework":[],"stage":"announced","value":"₹37,64,44,788","parties":"Healthcare Global Enterprises Limited","time":"19 May 2026","headline":"Healthcare Global Enterprises Limited: Memorandum of Understanding/Agreements","sum":"Memorandum of Understanding/Agreements — HealthCare Global Enterprises Limited (the Company) has entered into a Share Purchase Agreement (SPA) dated May 19, 2026, with BACC Health Care Private Limited (BACC) and Inviga Healthcare Fund I…","detail":"Memorandum of Understanding/Agreements — HealthCare Global Enterprises Limited (the Company) has entered into a Share Purchase Agreement (SPA) dated May 19, 2026, with BACC Health Care Private Limited (BACC) and Inviga Healthcare Fund I (Buyer) in relation to the divestment by way of sale of the Company s entire equity shareholding in BACC to the Buyer and its nominee, for a consideration of INR 37,64,44,788 (Indian Rupees Thirty Seven Crores Sixty Four Lakhs Forty Four Thousand Seven Hundred and Eighty Eight Only), on the terms agreed under the SPA. BACC is not a material subsidiary of the Company and is engaged in the business of fertility and reproductive healthcare services, which is…","firms":[],"sources":[{"name":"NSE filing — Healthcare Global Enterprises Limited","url":"https://nsearchives.nseindia.com/corporate/HCG1_19052026234814_Stock_Exchange_Intimation_Execution_of_SPA.pdf","official":true,"blurb":"Primary NSE disclosure (SEBI LODR Reg. 30 / regulator filing) for this corporate event."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"NSE filing","url":"https://nsearchives.nseindia.com/corporate/HCG1_19052026234814_Stock_Exchange_Intimation_Execution_of_SPA.pdf"},{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"},{"label":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders"}],"timeline":[{"d":"19 May 2026","t":"Healthcare Global Enterprises Limited: Memorandum of Understanding/Agreements"}],"score":63,"scoreReasons":["Mega deal (≥₹5,000 cr)","Cross-border","Corroborated by an official source","4 corroborating sources"]},
+ {"id":"nse-HCG-19-May-2026231107","type":"ma","geo":"global","city":"Cross-border","sector":"Pharma & Healthcare","imp":"hi","verified":true,"implication":"","framework":[],"stage":"announced","value":"₹37,64,44,788","parties":"Healthcare Global Enterprises Limited","time":"19 May 2026","headline":"Healthcare Global Enterprises Limited: General Updates","sum":"General Updates — The Board of Directors of the Company has, at their meeting held today, i.e., May 19, 2026, approved the divestment by way of sale of HealthCare Global Enterprises Limited s ( the Company ) entire equity shareholding in…","detail":"General Updates — The Board of Directors of the Company has, at their meeting held today, i.e., May 19, 2026, approved the divestment by way of sale of HealthCare Global Enterprises Limited s ( the Company ) entire equity shareholding in BACC Health Care Private Limited ( BACC ) to Inviga Healthcare Fund I and its nominee ( Buyer ), for a consideration of INR 37,64,44,788 (Indian Rupees Thirty Seven Crores Sixty Four Lakhs Forty Four Thousand Seven Hundred and Eighty Eight Only), on the terms agreed under a Share Purchase Agreement ( SPA ) to be entered into amongst the Company, BACC and the Buyer (the  Proposed Transaction ). BACC is not a material subsidiary of the Company and is engaged…","firms":[],"sources":[{"name":"NSE filing — Healthcare Global Enterprises Limited","url":"https://nsearchives.nseindia.com/corporate/HCG1_19052026231046_SE_Intimation_Milann_Divestment.pdf","official":true,"blurb":"Primary NSE disclosure (SEBI LODR Reg. 30 / regulator filing) for this corporate event."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"NSE filing","url":"https://nsearchives.nseindia.com/corporate/HCG1_19052026231046_SE_Intimation_Milann_Divestment.pdf"},{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"},{"label":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders"}],"timeline":[{"d":"19 May 2026","t":"Healthcare Global Enterprises Limited: General Updates"}],"score":63,"scoreReasons":["Mega deal (≥₹5,000 cr)","Cross-border","Corroborated by an official source","4 corroborating sources"]},
+ {"id":"nse-AMBER-10-Apr-2026173238","type":"ma","geo":"other","city":"India","sector":"Industrials","imp":"md","verified":true,"implication":"","framework":[],"stage":"completed","value":"₹1,74,44,908.42","parties":"Amber Enterprises India Limited","time":"10 Apr 2026","headline":"Amber Enterprises India Limited: Acquisition","sum":"Acquisition — Pursuant to Regulation 30 of SEBI LODR Regulations, we are hereby informing the exchange that the Company has acquired remaining 50% stake in the equity share capital of Amber Resojet Private Limited (Amber Resojet) on 10th…","detail":"Acquisition — Pursuant to Regulation 30 of SEBI LODR Regulations, we are hereby informing the exchange that the Company has acquired remaining 50% stake in the equity share capital of Amber Resojet Private Limited (Amber Resojet) on 10th April 2026, for an aggregate purchase consideration of INR 1,74,44,908.42. Consequent to the aforesaid acquisition, Amber Resojet has ceased as a Joint Venture of the Company and has become a Wholly Owned Subsidiary of the Company.","firms":[],"sources":[{"name":"NSE filing — Amber Enterprises India Limited","url":"https://nsearchives.nseindia.com/corporate/AMBER_10042026173216_SE_Intimation_of_Resojet_Amber_10042026.pdf","official":true,"blurb":"Primary NSE disclosure (SEBI LODR Reg. 30 / regulator filing) for this corporate event."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"NSE filing","url":"https://nsearchives.nseindia.com/corporate/AMBER_10042026173216_SE_Intimation_of_Resojet_Amber_10042026.pdf"},{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"},{"label":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders"}],"timeline":[{"d":"10 Apr 2026","t":"Amber Enterprises India Limited: Acquisition"}],"score":53,"scoreReasons":["Mega deal (≥₹5,000 cr)","Corroborated by an official source","4 corroborating sources"]},
+ {"id":"nse-PRESTIGE-26-Mar-2026192220","type":"ma","geo":"other","city":"India","sector":"Industrials","imp":"md","verified":true,"implication":"","framework":[],"stage":"completed","value":"₹5,000 cr","parties":"Prestige Estates Projects Limited","time":"26 Mar 2026","headline":"Prestige Estates Projects Limited: Press Release","sum":"Press Release — Prestige Estates Projects Limited has informed the Exchange regarding a press release dated March 26, 2026, titled \"Prestige Group and Arihant Group Jointly Acquire Prime Land Parcel in Padi, Chennai, adding GDV of INR…","detail":"Press Release — Prestige Estates Projects Limited has informed the Exchange regarding a press release dated March 26, 2026, titled \"Prestige Group and Arihant Group Jointly Acquire Prime Land Parcel in Padi, Chennai, adding GDV of INR 5,000 crores\".","firms":[],"sources":[{"name":"NSE filing — Prestige Estates Projects Limited","url":"https://nsearchives.nseindia.com/corporate/PRESTIGE_26032026192154_PEPLIntimation26032026.pdf","official":true,"blurb":"Primary NSE disclosure (SEBI LODR Reg. 30 / regulator filing) for this corporate event."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"NSE filing","url":"https://nsearchives.nseindia.com/corporate/PRESTIGE_26032026192154_PEPLIntimation26032026.pdf"},{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"},{"label":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders"}],"timeline":[{"d":"26 Mar 2026","t":"Prestige Estates Projects Limited: Press Release"}],"score":53,"scoreReasons":["Mega deal (≥₹5,000 cr)","Corroborated by an official source","4 corroborating sources"]},
+ {"id":"nse-SAMMAANCAP-24-Mar-2026220516","type":"ma","geo":"other","city":"India","sector":"BFSI","imp":"md","verified":true,"implication":"","framework":[],"stage":"completed","value":"₹8,849,99,99,794","parties":"Sammaan Capital Limited","time":"24 Mar 2026","headline":"Sammaan Capital Limited: Updates","sum":"Updates — Sammaan Capital Limited has informed the Exchange regarding 'This is further to our intimations dated October 2, 2025, October 29, 2025, November 7, 2025 and December 10, 2025, with respect to the proposed acquisition of…","detail":"Updates — Sammaan Capital Limited has informed the Exchange regarding 'This is further to our intimations dated October 2, 2025, October 29, 2025, November 7, 2025 and December 10, 2025, with respect to the proposed acquisition of controlling stake in Sammaan Capital Limited (formerly known as Indiabulls Housing Finance Limited) ( Company ) by Avenir Investment RSC Ltd ( Investor ), which is owned and controlled by International Holding Company PJSC ( Proposed Transaction ). Pursuant to applicable provisions of the Listing Regulations, we wish to inform that the Reserve Bank of India ( RBI ) has, vide its letter dated March 24, 2026, approved the applications made by the Company and Sammaan…","firms":[],"sources":[{"name":"NSE filing — Sammaan Capital Limited","url":"https://nsearchives.nseindia.com/corporate/IHFL_24032026220455_SCL_RBI_approval_intimation_24Mar2026.pdf","official":true,"blurb":"Primary NSE disclosure (SEBI LODR Reg. 30 / regulator filing) for this corporate event."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"NSE filing","url":"https://nsearchives.nseindia.com/corporate/IHFL_24032026220455_SCL_RBI_approval_intimation_24Mar2026.pdf"},{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"},{"label":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders"}],"timeline":[{"d":"24 Mar 2026","t":"Sammaan Capital Limited: Updates"}],"score":53,"scoreReasons":["Mega deal (≥₹5,000 cr)","Corroborated by an official source","4 corroborating sources"]},
+ {"id":"nse-BELRISE-24-May-2026204617","type":"ipo","geo":"other","city":"India","sector":"Industrials","imp":"md","verified":true,"implication":"","framework":[],"stage":"completed","value":"₹20,000.00","parties":"Belrise Industries Limited","time":"24 May 2026","headline":"Belrise Industries Limited: Outcome of Board Meeting","sum":"Outcome of Board Meeting — Annexure BDetails under Regulation 30 of the SEBI Listing Regulations read with the master circular dated January 30, 2026 issued by SEBI bearing reference number HO/49/14/14(7)2025-CFD-POD2/I/3762/2026: S. No.","detail":"Outcome of Board Meeting — Annexure BDetails under Regulation 30 of the SEBI Listing Regulations read with the master circular dated January 30, 2026 issued by SEBI bearing reference number HO/49/14/14(7)2025-CFD-POD2/I/3762/2026: S. No. Particulars Details1 Type of securities proposed to be Issued Equity shares or any other equity-linked instrument as permissible under applicable laws2 Type of issuance Qualified Institutions Placement ( QIP )3 Total number of securities proposed to be issued or the total amount for which the securities will be issued (approximately) Issuance of equity shares or any other equity-linked instrument for an aggregate amount of up to INR 20,000.00 Million. 4 In…","firms":[],"sources":[{"name":"NSE filing — Belrise Industries Limited","url":"https://nsearchives.nseindia.com/corporate/BELRISE_24052026204604_BELRISE_Intimation_of_Fund_Raising_24052026.pdf","official":true,"blurb":"Primary NSE disclosure (SEBI LODR Reg. 30 / regulator filing) for this corporate event."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"SEBI public issues / DRHPs","url":"https://www.sebi.gov.in/filings/public-issues.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"NSE filing","url":"https://nsearchives.nseindia.com/corporate/BELRISE_24052026204604_BELRISE_Intimation_of_Fund_Raising_24052026.pdf"},{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"},{"label":"SEBI public issues / DRHPs","url":"https://www.sebi.gov.in/filings/public-issues.html"}],"timeline":[{"d":"24 May 2026","t":"Belrise Industries Limited: Outcome of Board Meeting"}],"score":53,"scoreReasons":["Mega deal (≥₹5,000 cr)","Corroborated by an official source","4 corroborating sources"]},
+ {"id":"nse-OBEROIRLTY-08-May-2026191353","type":"ipo","geo":"other","city":"India","sector":"Industrials","imp":"md","verified":true,"implication":"","framework":[],"stage":"completed","value":"₹6,000 cr","parties":"Oberoi Realty Limited","time":"8 May 2026","headline":"Oberoi Realty Limited: Outcome of Board Meeting","sum":"Outcome of Board Meeting — Oberoi Realty Limited has informed the Exchange regarding Outcome of Board Meeting held on May 08, 2026 -Board approves proposal for enabling raising of funds for an aggregate amount not exceeding Rs. 6,000 Crore…","detail":"Outcome of Board Meeting — Oberoi Realty Limited has informed the Exchange regarding Outcome of Board Meeting held on May 08, 2026 -Board approves proposal for enabling raising of funds for an aggregate amount not exceeding Rs. 6,000 Crore by way of issuance of equity shares, eligible securities, other securities or instruments or any combination of securities, in one or more tranche or tranches, by way of private placement including a qualified institutions placement.","firms":[],"sources":[{"name":"NSE filing — Oberoi Realty Limited","url":"https://nsearchives.nseindia.com/corporate/OBEROIRLTY_08052026191315_BM_Outcome_QIP.pdf","official":true,"blurb":"Primary NSE disclosure (SEBI LODR Reg. 30 / regulator filing) for this corporate event."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"SEBI public issues / DRHPs","url":"https://www.sebi.gov.in/filings/public-issues.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"NSE filing","url":"https://nsearchives.nseindia.com/corporate/OBEROIRLTY_08052026191315_BM_Outcome_QIP.pdf"},{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"},{"label":"SEBI public issues / DRHPs","url":"https://www.sebi.gov.in/filings/public-issues.html"}],"timeline":[{"d":"8 May 2026","t":"Oberoi Realty Limited: Outcome of Board Meeting"}],"score":53,"scoreReasons":["Mega deal (≥₹5,000 cr)","Corroborated by an official source","4 corroborating sources"]},
+ {"id":"nse-WAAREEENER-29-Apr-2026214559","type":"ipo","geo":"other","city":"India","sector":"Industrials","imp":"md","verified":true,"implication":"","framework":[],"stage":"completed","value":"₹10,000 cr","parties":"Waaree Energies Limited","time":"29 Apr 2026","headline":"Waaree Energies Limited: Outcome of Board Meeting","sum":"Outcome of Board Meeting — Waaree Energies Limited has informed the Exchange that the Board of Directors has approved Raising of Funds through QIP for an aggregate amount not exceeding Rs. 10,000 crores subject to such regulatory/statutory…","detail":"Outcome of Board Meeting — Waaree Energies Limited has informed the Exchange that the Board of Directors has approved Raising of Funds through QIP for an aggregate amount not exceeding Rs. 10,000 crores subject to such regulatory/statutory approvals as may be required and the approval of shareholders of the Company.","firms":[],"sources":[{"name":"NSE filing — Waaree Energies Limited","url":"https://nsearchives.nseindia.com/corporate/WAAREE_29042026214542_Outcome_of_BM_signed.pdf","official":true,"blurb":"Primary NSE disclosure (SEBI LODR Reg. 30 / regulator filing) for this corporate event."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"SEBI public issues / DRHPs","url":"https://www.sebi.gov.in/filings/public-issues.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"NSE filing","url":"https://nsearchives.nseindia.com/corporate/WAAREE_29042026214542_Outcome_of_BM_signed.pdf"},{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"},{"label":"SEBI public issues / DRHPs","url":"https://www.sebi.gov.in/filings/public-issues.html"}],"timeline":[{"d":"29 Apr 2026","t":"Waaree Energies Limited: Outcome of Board Meeting"}],"score":53,"scoreReasons":["Mega deal (≥₹5,000 cr)","Corroborated by an official source","4 corroborating sources"]},
+ {"id":"nse-AETHER-24-Apr-2026163839","type":"ipo","geo":"other","city":"India","sector":"Industrials","imp":"md","verified":true,"implication":"","framework":[],"stage":"completed","value":"₹4,26,16,311","parties":"Aether Industries Limited","time":"24 Apr 2026","headline":"Aether Industries Limited: General Updates","sum":"General Updates — In accordance with Regulation 30 of the SEBI (Listing Obligation and Disclosure Requirements) Regulations, 2015, as amended from time to time, we herewith inform about receipt of a Demand and Show Cause Notice from the…","detail":"General Updates — In accordance with Regulation 30 of the SEBI (Listing Obligation and Disclosure Requirements) Regulations, 2015, as amended from time to time, we herewith inform about receipt of a Demand and Show Cause Notice from the Additional Commissioner (AE), CGST & Central Excise Commissionerate, Surat worth Rs. 4,26,16,311/- (Rupees Four Crores Twenty-six Lakhs Sixteen Thousand Three Hundred Eleven only), additionally the interest thereon, disallowing tax credit availed over various expenses made during the FY 2020-21 and FY 2021-22, towards the Initial Public Offer (IPO) of the Company, as annexed.","firms":[],"sources":[{"name":"NSE filing — Aether Industries Limited","url":"https://nsearchives.nseindia.com/corporate/AETHER_24042026163734_3.pdf","official":true,"blurb":"Primary NSE disclosure (SEBI LODR Reg. 30 / regulator filing) for this corporate event."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"SEBI public issues / DRHPs","url":"https://www.sebi.gov.in/filings/public-issues.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"NSE filing","url":"https://nsearchives.nseindia.com/corporate/AETHER_24042026163734_3.pdf"},{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"},{"label":"SEBI public issues / DRHPs","url":"https://www.sebi.gov.in/filings/public-issues.html"}],"timeline":[{"d":"24 Apr 2026","t":"Aether Industries Limited: General Updates"}],"score":53,"scoreReasons":["Mega deal (≥₹5,000 cr)","Corroborated by an official source","4 corroborating sources"]},
+ {"id":"nse-AMBER-19-Mar-2026190200","type":"ipo","geo":"other","city":"India","sector":"Industrials","imp":"md","verified":true,"implication":"","framework":[],"stage":"completed","value":"₹3,28,12,28,750","parties":"Amber Enterprises India Limited","time":"19 Mar 2026","headline":"Amber Enterprises India Limited: Issue of Securities","sum":"Issue of Securities — Amber Enterprises India Limited has informed you that the Board of Directors of IL JIN Electronics (India) Private Limited, a material subsidiary of Amber Enterprises India Limited, has approved the raise of…","detail":"Issue of Securities — Amber Enterprises India Limited has informed you that the Board of Directors of IL JIN Electronics (India) Private Limited, a material subsidiary of Amber Enterprises India Limited, has approved the raise of additional capital aggregating to Rs. 3,28,12,28,750/- by way of a Rights Issue of equity shares.","firms":[],"sources":[{"name":"NSE filing — Amber Enterprises India Limited","url":"https://nsearchives.nseindia.com/corporate/AMBER_19032026185956_SE_Intimation_Rights_Issue_19032026.pdf","official":true,"blurb":"Primary NSE disclosure (SEBI LODR Reg. 30 / regulator filing) for this corporate event."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"SEBI public issues / DRHPs","url":"https://www.sebi.gov.in/filings/public-issues.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"NSE filing","url":"https://nsearchives.nseindia.com/corporate/AMBER_19032026185956_SE_Intimation_Rights_Issue_19032026.pdf"},{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"},{"label":"SEBI public issues / DRHPs","url":"https://www.sebi.gov.in/filings/public-issues.html"}],"timeline":[{"d":"19 Mar 2026","t":"Amber Enterprises India Limited: Issue of Securities"}],"score":53,"scoreReasons":["Mega deal (≥₹5,000 cr)","Corroborated by an official source","4 corroborating sources"]},
+ {"id":"nse-MANINFRA-29-Apr-2026103059","type":"ma","geo":"mumbai","city":"Mumbai","sector":"Industrials","imp":"md","verified":true,"implication":"","framework":[],"stage":"completed","value":"₹2,000","parties":"Man Infraconstruction Limited","time":"29 Apr 2026","headline":"Man Infraconstruction Limited: Press Release","sum":"Press Release — Man Infraconstruction Limited has informed the Exchange regarding a press release dated April 29, 2026, titled \"Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015,…","detail":"Press Release — Man Infraconstruction Limited has informed the Exchange regarding a press release dated April 29, 2026, titled \"Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, please find enclosed herewith Press Release titled  MICL GROUP S ENTITY MAN AARADHYA INFRACONSTRUCTION LLP ACQUIRES PROJECT IN SOUTH MUMBAI WITH SALES POTENTIAL OF Rs. 2,000 + CRORES \".","firms":[],"sources":[{"name":"NSE filing — Man Infraconstruction Limited","url":"https://nsearchives.nseindia.com/corporate/vishaladhav_29042026103022_MICL.pdf","official":true,"blurb":"Primary NSE disclosure (SEBI LODR Reg. 30 / regulator filing) for this corporate event."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"NSE filing","url":"https://nsearchives.nseindia.com/corporate/vishaladhav_29042026103022_MICL.pdf"},{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"},{"label":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders"}],"timeline":[{"d":"29 Apr 2026","t":"Man Infraconstruction Limited: Press Release"}],"score":43,"scoreReasons":["Large deal (₹1,000–5,000 cr)","Corroborated by an official source","4 corroborating sources"]},
+ {"id":"nse-HCC-24-Apr-2026091510","type":"ma","geo":"other","city":"India","sector":"Infrastructure","imp":"md","verified":true,"implication":"","framework":[],"stage":"completed","value":"₹2,917 Cr","parties":"Hindustan Construction Company Limited","time":"24 Apr 2026","headline":"Hindustan Construction Company Limited: Press Release","sum":"Press Release — Hindustan Construction Company Limited has informed the Exchange regarding a press release dated April 24, 2026, titled \"HCC wins Rs.2,917 Cr CIDCO Water Infrastructure Contract in JV\".","detail":"Press Release — Hindustan Construction Company Limited has informed the Exchange regarding a press release dated April 24, 2026, titled \"HCC wins Rs.2,917 Cr CIDCO Water Infrastructure Contract in JV\".","firms":[],"sources":[{"name":"NSE filing — Hindustan Construction Company Limited","url":"https://nsearchives.nseindia.com/corporate/HCC_24042026091438_Exchange.pdf","official":true,"blurb":"Primary NSE disclosure (SEBI LODR Reg. 30 / regulator filing) for this corporate event."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"NSE filing","url":"https://nsearchives.nseindia.com/corporate/HCC_24042026091438_Exchange.pdf"},{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"},{"label":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders"}],"timeline":[{"d":"24 Apr 2026","t":"Hindustan Construction Company Limited: Press Release"}],"score":43,"scoreReasons":["Large deal (₹1,000–5,000 cr)","Corroborated by an official source","4 corroborating sources"]},
+ {"id":"nse-ABREL-17-Apr-2026210832","type":"ma","geo":"other","city":"India","sector":"Industrials","imp":"md","verified":true,"implication":"","framework":[],"stage":"announced","value":"₹3000 cr","parties":"Aditya Birla Real Estate Limited","time":"17 Apr 2026","headline":"Aditya Birla Real Estate Limited: News Verification","sum":"News Verification — The Exchange has sought clarification from Aditya Birla Real Estate Limited with respect to recent news item captioned Birla Estates enters JV with M S Ramaiah Realty, targets Rs 3000 cr revenue. The response from the…","detail":"News Verification — The Exchange has sought clarification from Aditya Birla Real Estate Limited with respect to recent news item captioned Birla Estates enters JV with M S Ramaiah Realty, targets Rs 3000 cr revenue. The response from the Company is attached.","firms":[],"sources":[{"name":"NSE filing — Aditya Birla Real Estate Limited","url":"https://nsearchives.nseindia.com/corporate/CENTURYTEX_17042026210538_ClarificationABREL.pdf","official":true,"blurb":"Primary NSE disclosure (SEBI LODR Reg. 30 / regulator filing) for this corporate event."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"NSE filing","url":"https://nsearchives.nseindia.com/corporate/CENTURYTEX_17042026210538_ClarificationABREL.pdf"},{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"},{"label":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders"}],"timeline":[{"d":"17 Apr 2026","t":"Aditya Birla Real Estate Limited: News Verification"}],"score":43,"scoreReasons":["Large deal (₹1,000–5,000 cr)","Corroborated by an official source","4 corroborating sources"]},
+ {"id":"nse-ABREL-17-Apr-2026172003","type":"ma","geo":"other","city":"India","sector":"Industrials","imp":"md","verified":true,"implication":"","framework":[],"stage":"announced","value":"₹3000 cr","parties":"Aditya Birla Real Estate Limited","time":"17 Apr 2026","headline":"Aditya Birla Real Estate Limited: News Verification","sum":"News Verification — The Exchange has sought clarification from Aditya Birla Real Estate Limited with respect to recent news item captioned Birla Estates enters JV with M S Ramaiah Realty, targets Rs 3000 cr revenue. The response from the…","detail":"News Verification — The Exchange has sought clarification from Aditya Birla Real Estate Limited with respect to recent news item captioned Birla Estates enters JV with M S Ramaiah Realty, targets Rs 3000 cr revenue. The response from the Company is awaited.","firms":[],"sources":[{"name":"NSE filing — Aditya Birla Real Estate Limited","url":"-","official":true,"blurb":"Primary NSE disclosure (SEBI LODR Reg. 30 / regulator filing) for this corporate event."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"NSE filing","url":"-"},{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"},{"label":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders"}],"timeline":[{"d":"17 Apr 2026","t":"Aditya Birla Real Estate Limited: News Verification"}],"score":43,"scoreReasons":["Large deal (₹1,000–5,000 cr)","Corroborated by an official source","4 corroborating sources"]},
+ {"id":"nse-IKS-14-Apr-2026105959","type":"ma","geo":"other","city":"India","sector":"Pharma & Healthcare","imp":"md","verified":true,"implication":"","framework":[],"stage":"announced","value":"$600 mn","parties":"Inventurus Knowledge Solutions Limited","time":"14 Apr 2026","headline":"Inventurus Knowledge Solutions Limited: News Verification","sum":"News Verification — The Exchange has sought clarification from Inventurus Knowledge Solutions Limited with respect to recent news item captioned Jhunjhunwalas-backed IKS healthcare looks to acquire TruBridge for $600 million. The response…","detail":"News Verification — The Exchange has sought clarification from Inventurus Knowledge Solutions Limited with respect to recent news item captioned Jhunjhunwalas-backed IKS healthcare looks to acquire TruBridge for $600 million. The response from the Company is attached.","firms":[],"sources":[{"name":"NSE filing — Inventurus Knowledge Solutions Limited","url":"https://nsearchives.nseindia.com/corporate/IKS2006_14042026105820_20260413ResponsetoNSEEmailFINAL.pdf","official":true,"blurb":"Primary NSE disclosure (SEBI LODR Reg. 30 / regulator filing) for this corporate event."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"NSE filing","url":"https://nsearchives.nseindia.com/corporate/IKS2006_14042026105820_20260413ResponsetoNSEEmailFINAL.pdf"},{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"},{"label":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders"}],"timeline":[{"d":"14 Apr 2026","t":"Inventurus Knowledge Solutions Limited: News Verification"}],"score":43,"scoreReasons":["Large deal (₹1,000–5,000 cr)","Corroborated by an official source","4 corroborating sources"]},
+ {"id":"nse-IKS-13-Apr-2026181907","type":"ma","geo":"other","city":"India","sector":"Pharma & Healthcare","imp":"md","verified":true,"implication":"","framework":[],"stage":"announced","value":"$600 mn","parties":"Inventurus Knowledge Solutions Limited","time":"13 Apr 2026","headline":"Inventurus Knowledge Solutions Limited: News Verification","sum":"News Verification — The Exchange has sought clarification from Inventurus Knowledge Solutions Limited with respect to recent news item captioned Jhunjhunwalas-backed IKS healthcare looks to acquire TruBridge for $600 million. The response…","detail":"News Verification — The Exchange has sought clarification from Inventurus Knowledge Solutions Limited with respect to recent news item captioned Jhunjhunwalas-backed IKS healthcare looks to acquire TruBridge for $600 million. The response from the Company is awaited.","firms":[],"sources":[{"name":"NSE filing — Inventurus Knowledge Solutions Limited","url":"-","official":true,"blurb":"Primary NSE disclosure (SEBI LODR Reg. 30 / regulator filing) for this corporate event."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"NSE filing","url":"-"},{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"},{"label":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders"}],"timeline":[{"d":"13 Apr 2026","t":"Inventurus Knowledge Solutions Limited: News Verification"}],"score":43,"scoreReasons":["Large deal (₹1,000–5,000 cr)","Corroborated by an official source","4 corroborating sources"]},
+ {"id":"nse-SIGNATURE-14-Feb-2026121208","type":"ma","geo":"delhi","city":"Delhi-NCR","sector":"Industrials","imp":"md","verified":true,"implication":"","framework":[],"stage":"announced","value":"₹1,283 cr","parties":"Signatureglobal (India) Limited","time":"14 Feb 2026","headline":"Signatureglobal (India) Limited: Press Release","sum":"Press Release — Signatureglobal (India) Limited has informed the Exchange regarding a press release dated February 14, 2026, titled \" Signature Global Enters Large-Scale Commercial Development; RMZ to Acquire 50% Stake in Subsidiary for…","detail":"Press Release — Signatureglobal (India) Limited has informed the Exchange regarding a press release dated February 14, 2026, titled \" Signature Global Enters Large-Scale Commercial Development; RMZ to Acquire 50% Stake in Subsidiary for Rs. 1,283 Crore Gurugram Project\".","firms":[],"sources":[{"name":"NSE filing — Signatureglobal (India) Limited","url":"https://nsearchives.nseindia.com/corporate/SGLOBAL_14022026121028_prfinal14febsign.pdf","official":true,"blurb":"Primary NSE disclosure (SEBI LODR Reg. 30 / regulator filing) for this corporate event."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"NSE filing","url":"https://nsearchives.nseindia.com/corporate/SGLOBAL_14022026121028_prfinal14febsign.pdf"},{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"},{"label":"CCI combination orders","url":"https://www.cci.gov.in/combination/orders"}],"timeline":[{"d":"14 Feb 2026","t":"Signatureglobal (India) Limited: Press Release"}],"score":43,"scoreReasons":["Large deal (₹1,000–5,000 cr)","Corroborated by an official source","4 corroborating sources"]},
+ {"id":"nse-ANURAS-26-May-2026235625","type":"bank","geo":"other","city":"India","sector":"Industrials","imp":"md","verified":true,"implication":"","framework":[],"stage":"completed","value":"₹1,00,000","parties":"Anupam Rasayan India Limited","time":"26 May 2026","headline":"Anupam Rasayan India Limited: Allotment of Securities","sum":"Allotment of Securities — Anupam Rasayan India Limited has informed the Exchange regarding issuance and allotment of up to 16,000 (sixteen thousand) INR denominated, secured, rated, unlisted and redeemable non-convertible debentures with…","detail":"Allotment of Securities — Anupam Rasayan India Limited has informed the Exchange regarding issuance and allotment of up to 16,000 (sixteen thousand) INR denominated, secured, rated, unlisted and redeemable non-convertible debentures with nominal value of INR 1,00,000 (Indian Rupees One Lakh Only) each, aggregating to not more than INR 1,60,00,00,000 (Indian Rupees One Hundred Sixty Crore Only), in one single tranche.","firms":[],"sources":[{"name":"NSE filing — Anupam Rasayan India Limited","url":"https://nsearchives.nseindia.com/corporate/ANURAS_26052026235557_ARILSLDSTX20260526020Reg30Disclosure.pdf","official":true,"blurb":"Primary NSE disclosure (SEBI LODR Reg. 30 / regulator filing) for this corporate event."},{"name":"RBI notifications","url":"https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"NSE filing","url":"https://nsearchives.nseindia.com/corporate/ANURAS_26052026235557_ARILSLDSTX20260526020Reg30Disclosure.pdf"},{"label":"RBI notifications","url":"https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx"},{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"}],"timeline":[{"d":"26 May 2026","t":"Anupam Rasayan India Limited: Allotment of Securities"}],"score":53,"scoreReasons":["Mega deal (≥₹5,000 cr)","Corroborated by an official source","4 corroborating sources"]},
+ {"id":"nse-IRFC-25-May-2026114603","type":"bank","geo":"other","city":"India","sector":"Infrastructure","imp":"md","verified":true,"implication":"","framework":[],"stage":"announced","value":"₹13,527 cr","parties":"Indian Railway Finance Corporation Limited","time":"25 May 2026","headline":"Indian Railway Finance Corporation Limited: Press Release","sum":"Press Release — Indian Railway Finance Corporation Limited has informed the Exchange regarding a press release dated May 25, 2026, titled \"IRFC signs Rs 13,527 cr refinancing deal for Hyderabad Metro in major push to urban rail financing\".","detail":"Press Release — Indian Railway Finance Corporation Limited has informed the Exchange regarding a press release dated May 25, 2026, titled \"IRFC signs Rs 13,527 cr refinancing deal for Hyderabad Metro in major push to urban rail financing\".","firms":[],"sources":[{"name":"NSE filing — Indian Railway Finance Corporation Limited","url":"https://nsearchives.nseindia.com/corporate/IRFC_25052026114359_SEINTIMATIONPRESSRELEASEHMRL25052026.pdf","official":true,"blurb":"Primary NSE disclosure (SEBI LODR Reg. 30 / regulator filing) for this corporate event."},{"name":"RBI notifications","url":"https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"NSE filing","url":"https://nsearchives.nseindia.com/corporate/IRFC_25052026114359_SEINTIMATIONPRESSRELEASEHMRL25052026.pdf"},{"label":"RBI notifications","url":"https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx"},{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"}],"timeline":[{"d":"25 May 2026","t":"Indian Railway Finance Corporation Limited: Press Release"}],"score":53,"scoreReasons":["Mega deal (≥₹5,000 cr)","Corroborated by an official source","4 corroborating sources"]},
+ {"id":"nse-ASHIANA-12-May-2026180754","type":"bank","geo":"other","city":"India","sector":"Industrials","imp":"md","verified":true,"implication":"","framework":[],"stage":"completed","value":"₹34,28,27,056","parties":"Ashiana Housing Limited","time":"12 May 2026","headline":"Ashiana Housing Limited: General Updates","sum":"General Updates — Ashiana Housing Limited has informed the Exchange that the company has paid INR 34,28,27,056/- (Indian Rupees Thirty-Four Crores Twenty-Eight Lakhs Twenty-Seven Thousand Fifty-Six Only) to ICICI Prudential Regular Savings…","detail":"General Updates — Ashiana Housing Limited has informed the Exchange that the company has paid INR 34,28,27,056/- (Indian Rupees Thirty-Four Crores Twenty-Eight Lakhs Twenty-Seven Thousand Fifty-Six Only) to ICICI Prudential Regular Savings Fund and ICICI Prudential Credit Risk Fund on 12th May 2026 against interest payment and partial redemption of Secured Non- Convertible Debentures (NCDs) listed on BSE Ltd, details of which are mentioned in the pdf attached","firms":[],"sources":[{"name":"NSE filing — Ashiana Housing Limited","url":"https://nsearchives.nseindia.com/corporate/ASHIANA_12052026180747_IntimationtoNSESIGNED.pdf","official":true,"blurb":"Primary NSE disclosure (SEBI LODR Reg. 30 / regulator filing) for this corporate event."},{"name":"RBI notifications","url":"https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/order."}],"docs":[{"label":"NSE filing","url":"https://nsearchives.nseindia.com/corporate/ASHIANA_12052026180747_IntimationtoNSESIGNED.pdf"},{"label":"RBI notifications","url":"https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx"},{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"}],"timeline":[{"d":"12 May 2026","t":"Ashiana Housing Limited: General Updates"}],"score":53,"scoreReasons":["Mega deal (≥₹5,000 cr)","Corroborated by an official source","4 corroborating sources"]},
+
  {"id":"cyril-amarchand-mangaldas-tta-act-on-adanis-3050-crore-acquisition-of-intellismart","type":"pe","geo":"other","city":"India","sector":"Energy & Renewables","imp":"hi","verified":false,"implication":"","framework":[],"stage":"completed","value":"₹3,050 cr","parties":"","time":"10 Jun 2026","headline":"Cyril Amarchand Mangaldas, TT&A, JSA act on Adani's ₹3,050 crore acquisition of IntelliSmart","sum":"Adani Energy Solutions Limited has acquired 100% equity share capital in IntelliSmart Infrastructure Private Limited for ₹3,050 crore.","detail":"Adani Energy Solutions Limited has acquired 100% equity share capital in IntelliSmart Infrastructure Private Limited for ₹3,050 crore. Cyril Amarchand Mangaldas advised Adani Energy Solutions on this acquisition. The transaction team was led by Subhalakshmi Naskar (Partner, Co-Head - Projects (Infrastructure)) and Ayushi Toshniwal (Partner). Ayushi Toshniwal, Rohil Deshpande (Senior Associate), and Yashasvi Raj (Associate) conducted due diligence.","firms":[{"name":"Cyril Amarchand Mangaldas","side":"See source for role","lead":[],"team":[],"note":"Team as stated in the source article."},{"name":"JSA","side":"See source for role","lead":[],"team":[],"note":"Team as stated in the source article."},{"name":"TT&A","side":"See source for role","lead":[],"team":[],"note":"Team as stated in the source article."}],"sources":[{"name":"Bar & Bench — Dealstreet","url":"https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-tta-act-on-adanis-3050-crore-acquisition-of-intellismart","blurb":"Primary source naming the law firms, partners and teams on the matter."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/announcement."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/announcement."}],"docs":[{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"}],"timeline":[{"d":"10 Jun 2026","t":"Cyril Amarchand Mangaldas, TT&A, JSA act on Adani's ₹3,050 crore acquisition of IntelliSmart"}],"score":66,"scoreReasons":["Large deal (₹1,000–5,000 cr)","Tier-1 firm involved","Multi-firm / complex","Corroborated by an official source","3 corroborating sources"]},
  {"id":"novojuris-legal-acts-on-dil-foods-series-b-fundraise","type":"pe","geo":"bengaluru","city":"Bengaluru","sector":"Technology","imp":"lo","verified":false,"implication":"","framework":[],"stage":"completed","value":"₹72 cr","parties":"","time":"10 Jun 2026","headline":"NovoJuris Legal acts on Dil Foods Series B fundraise","sum":"Virtual Restaurant Operator Dil Foods has raised ₹72 crore from a Series B fundraise led by the Bikaji Foods’ family office, with participation from Alteria Capital and existing investors V3…","detail":"Virtual Restaurant Operator Dil Foods has raised ₹72 crore from a Series B fundraise led by the Bikaji Foods’ family office, with participation from Alteria Capital and existing investors V3 Ventures, MJV Ventures. NovoJuris Legal advised Dil Foods on this fundraise. The transaction team consisted of Sharda Balaji (Founding and Managing Partner), Ashwin Bhat (Deputy Managing Partner) and Ritvik Joseph (Senior Associate). Sharda Balaji, Ashwin Bhat Dil Foods, founded by Arpita Aditi and headquartered in Bengaluru, is a virtual restaurant platform that empowers local restaurant partners through technology, streamlined operations, and…","firms":[{"name":"NovoJuris","side":"See source for role","lead":[],"team":[],"note":"Team as stated in the source article."}],"sources":[{"name":"Bar & Bench — Dealstreet","url":"https://www.barandbench.com/dealstreet/novojuris-legal-acts-on-dil-foods-series-b-fundraise","blurb":"Primary source naming the law firms, partners and teams on the matter."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/announcement."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/announcement."}],"docs":[{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"}],"timeline":[{"d":"10 Jun 2026","t":"NovoJuris Legal acts on Dil Foods Series B fundraise"}],"score":21,"scoreReasons":["Corroborated by an official source","3 corroborating sources"]},
  {"id":"cyril-amarchand-mangaldas-tta-khaitan-co-act-on-hygenco-105-million-fundraise","type":"pe","geo":"other","city":"India","sector":"Energy & Renewables","imp":"md","verified":false,"implication":"","framework":[],"stage":"completed","value":"$105 mn","parties":"","time":"10 Jun 2026","headline":"Cyril Amarchand Mangaldas, TT&A, Khaitan & Co act on Hygenco $105 million fundraise","sum":"Hygenco Green Energies Private Limited has raised $105 million from a fundraise led by International Finance Corporation, Siemens Financial Services and Fullerton Asset Management.","detail":"Hygenco Green Energies Private Limited has raised $105 million from a fundraise led by International Finance Corporation, Siemens Financial Services and Fullerton Asset Management. Cyril Amarchand Mangaldas advised Hygenco and its promoters on this fundraise. The transaction team was led by Amarta Roy (Partner) and Ishita Khandelwal (Partner), with support from Shreya Teewari (Principal Associate), Parnika Malhotra (Consultant), Bharti Singh (Senior Associate) and Aeruva Akash (Associate). Amarta Roy, Ishita Khandelwal, with CAM logo TT&A advised IFC and Fullerton on their investments in Hygenco.","firms":[{"name":"Cyril Amarchand Mangaldas","side":"See source for role","lead":[],"team":[],"note":"Team as stated in the source article."},{"name":"Khaitan & Co","side":"See source for role","lead":[],"team":[],"note":"Team as stated in the source article."},{"name":"TT&A","side":"See source for role","lead":[],"team":[],"note":"Team as stated in the source article."}],"sources":[{"name":"Bar & Bench — Dealstreet","url":"https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-tta-khaitan-co-act-on-hygenco-105-million-fundraise","blurb":"Primary source naming the law firms, partners and teams on the matter."},{"name":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html","official":true,"blurb":"Official source — search by the parties to pull the primary filing/announcement."},{"name":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements","official":true,"blurb":"Official source — search by the parties to pull the primary filing/announcement."}],"docs":[{"label":"BSE corporate announcements","url":"https://www.bseindia.com/corporates/ann.html"},{"label":"NSE corporate announcements","url":"https://www.nseindia.com/companies-listing/corporate-filings-announcements"}],"timeline":[{"d":"10 Jun 2026","t":"Cyril Amarchand Mangaldas, TT&A, Khaitan & Co act on Hygenco $105 million fundraise"}],"score":53,"scoreReasons":["Mid-size deal (₹100–1,000 cr)","Tier-1 firm involved","Multi-firm / complex","Corroborated by an official source","3 corroborating sources"]},
@@ -1720,7 +1740,7 @@ function dealCard(d){
     <h3>${d.headline}</h3>
     <div class="sum">${d.sum}</div>
     ${impl(d)?`<div class="impl"><b>Why it matters</b> · ${impl(d)}</div>`:""}
-    <div class="meta"><span class="tag geo">${g}</span><span class="tag">${d.sector}</span>${d.parties?`<span class="tag">${d.parties}</span>`:""}</div>
+    <div class="meta"><span class="tag geo">${g}</span><span class="tag">${d.sector}</span></div>
     ${firms}
     <div class="srcrow">${(()=>{const s=primarySrc(d);return s?`<span class="schip">${s.name}</span>`:"";})()}<span class="stime">${d.time}</span><span class="go">Open →</span></div>
   </div>`;
