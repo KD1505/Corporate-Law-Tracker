@@ -10,6 +10,21 @@ const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 // Fast + cheap for this volume. Swap to a Sonnet model for richer synthesis if desired.
 const MODEL = process.env.CLT_MODEL || "claude-haiku-4-5-20251001";
 
+// Web search is OFF by default — it needs special account access and was the most common cause
+// of the AI call failing (and silently falling back to free mode). The article text is already
+// supplied, so the core enrichment doesn't need it. Set CLT_USE_SEARCH=1 to switch it on later.
+const USE_SEARCH = process.env.CLT_USE_SEARCH === "1";
+async function aiCreate(params, maxUses = 5) {
+  if (USE_SEARCH) {
+    try {
+      return await client.messages.create({ ...params, tools: [{ type: "web_search_20250305", name: "web_search", max_uses: maxUses }] });
+    } catch (e) {
+      console.warn(`web_search unavailable (${e.message}); retrying without search`);
+    }
+  }
+  return await client.messages.create(params);
+}
+
 const SYSTEM = `You are the research engine behind "Corporate Law Tracker", a deal & regulatory
 intelligence dashboard for partners at tier-1 Indian corporate law firms. You convert a primary
 Bar & Bench article into ONE structured, VERIFIED deal record.
@@ -91,13 +106,12 @@ ${item.body || "(body unavailable — rely on the headline and web search)"}
 Use id = "${item.id}". Today's date context: the article was published around ${new Date(item.published).toDateString()}.
 Now research and return the JSON record. Corroborate with as many credible sources as possible, government/regulator/exchange/company-official prioritised.`;
 
-  const resp = await client.messages.create({
+  const resp = await aiCreate({
     model: MODEL,
     max_tokens: 3200,
     system: SYSTEM,
-    tools: [{ type: "web_search_20250305", name: "web_search", max_uses: 6 }],
     messages: [{ role: "user", content: userMsg }],
-  });
+  }, 6);
 
   // concatenate all text blocks from the final assistant message
   const text = resp.content
@@ -123,11 +137,10 @@ function finishDeal(deal, item) {
 }
 
 async function askJSON(system, user, maxUses = 5) {
-  const resp = await client.messages.create({
+  const resp = await aiCreate({
     model: MODEL, max_tokens: 2600, system,
-    tools: [{ type: "web_search_20250305", name: "web_search", max_uses: maxUses }],
     messages: [{ role: "user", content: user }],
-  });
+  }, maxUses);
   return safeJSON(resp.content.filter((b) => b.type === "text").map((b) => b.text).join("\n"));
 }
 
