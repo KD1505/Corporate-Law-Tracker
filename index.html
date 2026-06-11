@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Corporate Law Tracker — Deal & Regulatory Intelligence</title>
-<meta name="description" content="A deal and regulatory intelligence dashboard for India's corporate law professionals — verified M&A, IPO/ECM, PE/VC, banking and regulatory developments, with the law firms, partners and official sources on every matter.">
+<title>CorpLawTracker — The Decision Engine for India's Corporate Legal Market</title>
+<meta name="description" content="The decision engine for India's corporate legal market — every overnight deal, mandate and regulatory change, verified against primary filings and turned into the pitch to make, the precedent to cite and the documents to re-paper.">
 <link rel="icon" type="image/svg+xml" href="logo.svg">
 <style>
   :root{
@@ -431,6 +431,19 @@
   .toast.on{opacity:1;transform:none}
   html[data-theme="dark"] .toast{background:#e8ecf3;color:#10131a}
 
+  /* hero / positioning band */
+  .hero{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px 22px 18px;margin-bottom:16px;position:relative}
+  .hero h1{font-family:var(--serif);font-size:23px;font-weight:700;letter-spacing:-.4px;line-height:1.3;max-width:740px;margin-bottom:7px}
+  .hero .hsub{font-size:13.5px;color:var(--ink2);line-height:1.6;max-width:740px;margin-bottom:14px}
+  .hero .hprops{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-bottom:14px}
+  .hero .hp{border:1px solid var(--line2);border-radius:7px;padding:9px 12px;background:var(--surface2)}
+  .hero .hp b{display:block;font-size:10px;text-transform:uppercase;letter-spacing:.9px;color:var(--accent);margin-bottom:3px}
+  .hero .hp span{font-size:12px;color:var(--ink2);line-height:1.5}
+  .hero .hcta{display:flex;gap:9px;flex-wrap:wrap}
+  .hero .hcta .abtn{padding:8px 14px;font-size:12px}
+  .hero .hx{position:absolute;top:9px;right:11px;color:var(--ink3);cursor:pointer;font-weight:700;background:none;border:none;font-size:13px}
+  .hero .hx:hover{color:var(--red)}
+  @media(max-width:780px){.hero .hprops{display:none}.hero h1{font-size:19px}}
   ::-webkit-scrollbar{width:10px;height:10px}
   ::-webkit-scrollbar-thumb{background:var(--line);border-radius:8px;border:2px solid var(--surface)}
   @media(max-width:1140px){.wrap{grid-template-columns:206px minmax(0,1fr)}.rail{display:none}.asof{display:none}}
@@ -464,11 +477,11 @@
         <circle cx="32.8" cy="11.6" r="2.1"/>
       </svg>
     </div>
-    <div class="nm">Corporate Law Tracker<span>DEAL &amp; REGULATORY INTELLIGENCE</span></div>
+    <div class="nm">CorpLawTracker<span>THE DECISION ENGINE · INDIAN CORPORATE LAW</span></div>
   </div>
   <div class="search">
     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8b93a3" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
-    <input id="q" type="text" placeholder="Search deals, parties, firms, partners…">
+    <input id="q" type="text" placeholder="Search any party, firm, partner or rule…">
     <span class="kbd">/</span>
     <button class="advbtn" id="advOpen">Advanced</button>
   </div>
@@ -486,14 +499,14 @@
     <div class="blk"><h4>Deadlines</h4><div id="raildl"></div></div>
     <div class="blk"><h4>League Table · Deals tracked</h4><div id="league"></div></div>
     <div class="blk"><h4>Regulatory Radar</h4><div id="radar"></div></div>
-    <div class="blk"><h4>Coverage</h4><div class="cov" id="cov"></div></div>
+    <div class="blk"><h4>Coverage &amp; Method</h4><div class="cov" id="cov"></div></div>
   </div>
 </div>
 
 <div class="ovl" id="adv">
   <div class="modal">
     <h3>Advanced search</h3>
-    <div class="msub">Combine any filters — e.g. deals where <b>Khaitan &amp; Co</b> acted with <b>Linklaters</b>, in <b>Energy</b>.</div>
+    <div class="msub">Combine filters into a standing question — e.g. every deal where <b>Khaitan &amp; Co</b> met <b>Linklaters</b>, in <b>Energy</b>. Then <b>Save &amp; track</b> it as an alert view.</div>
     <div class="frow">
       <div class="fld"><label>Law firm</label><select id="aFirm"></select></div>
       <div class="fld"><label>…together / opposite firm</label><select id="aFirm2"></select></div>
@@ -518,6 +531,8 @@
   <div class="modal">
     <h3>Methodology &amp; verification standards</h3>
     <div class="msub">How items reach this tracker, and exactly what each label asserts.</div>
+    <div class="methsec"><h5>What CorpLawTracker is</h5>
+      <p>A <b>decision engine, not a clippings file</b>. Everything here is machine-collected nightly, verified against primary filings where they exist, and labelled honestly when they don't — then turned into the pitch to make, the precedent to cite, and the documents to re-paper.</p></div>
     <div class="methsec"><h5>Pipeline &amp; cadence</h5>
       <p>An automated pipeline ingests India's corporate-law trade press and regulator feeds <b>nightly</b>, deduplicates against everything already tracked, structures each item (parties, value, counsel, stage), and links it to the statutes and regulations it engages. The "Updated" date in the header is the date of the last successful run — there is no intraday updating.</p></div>
     <div class="methsec"><h5>✓ Verified</h5>
@@ -1663,9 +1678,9 @@ function sortList(list){
 /* ============================ SIDEBAR ============================ */
 function buildSidebar(){
   const grp=(label,items)=>`<div class="ng"><h4>${label}</h4>${items.map(b=>`<div class="ni" data-browse="${b.k}"><span class="ic">${b.ic}</span>${b.label}${b.ct!==undefined?`<span class="ct" ${b.ctid?`id="${b.ctid}"`:""}>${b.ct}</span>`:""}</div>`).join("")}</div>`;
-  const ws=[{k:"feed",ic:"▤",label:"Today"},{k:"foryou",ic:"◈",label:"For You"},{k:"watch",ic:"★",label:"Watchlist",ct:starred.size,ctid:"starCt"},{k:"saved",ic:"⌗",label:"Saved Views"},{k:"compare",ic:"⊞",label:"Compare",ct:cmp.size,ctid:"cmpCt"}];
-  const intel=[{k:"precedents",ic:"⌕",label:"Precedent Search"},{k:"pipeline",ic:"◷",label:"Deal Pipeline"},{k:"analytics",ic:"▦",label:"League & Analytics"},{k:"trends",ic:"◎",label:"Market Themes"},{k:"moves",ic:"⇄",label:"Moves"},{k:"firms",ic:"⚖",label:"Firms Directory"}];
-  const reg=[{k:"regulatory",ic:"§",label:"Reg Tracker & Library"},{k:"calendar",ic:"☷",label:"Reg Calendar"}];
+  const ws=[{k:"feed",ic:"▤",label:"Today"},{k:"foryou",ic:"◈",label:"My Practice"},{k:"watch",ic:"★",label:"Watchlist",ct:starred.size,ctid:"starCt"},{k:"saved",ic:"⌗",label:"Saved & Alerts"},{k:"compare",ic:"⊞",label:"Compare",ct:cmp.size,ctid:"cmpCt"}];
+  const intel=[{k:"precedents",ic:"⌕",label:"Precedent Search"},{k:"pipeline",ic:"◷",label:"Deal Pipeline"},{k:"analytics",ic:"▦",label:"Benchmarks"},{k:"trends",ic:"◎",label:"Market Themes"},{k:"moves",ic:"⇄",label:"Moves & Mandates"},{k:"firms",ic:"⚖",label:"Firms Directory"}];
+  const reg=[{k:"regulatory",ic:"§",label:"Regulatory Radar"},{k:"calendar",ic:"☷",label:"Reg Calendar"}];
   const geo=`<div class="ng"><h4>Geography</h4>${GEOS.map(g=>{const ct=g.id==="all"?DEALS.length:DEALS.filter(d=>d.geo===g.id).length;
     return `<div class="ni" data-geo="${g.id}"><span class="dot" style="background:${g.dot}"></span>${g.label}<span class="ct">${ct}</span></div>`}).join("")}</div>`;
   const typ=`<div class="ng"><h4>Deal Type</h4>${Object.entries(TYPES).map(([k,v])=>{const ct=DEALS.filter(d=>d.type===k).length;
@@ -1748,6 +1763,20 @@ function downloadBrief(list,label){
 }
 
 /* ============================ FEED / TODAY ============================ */
+function heroHtml(){
+  if(lsGet("clt_hero_hidden",false))return "";
+  return `<div class="hero">
+    <button class="hx" id="heroX" title="Dismiss — this stays available under Methodology">✕</button>
+    <h1>The decision engine for India\u2019s corporate legal market.</h1>
+    <div class="hsub">Every overnight deal, mandate and regulatory change — verified against primary filings, connected to the firms, partners and statutes involved, and turned into actions you can take the same morning.</div>
+    <div class="hprops">
+      <div class="hp"><b>Law-firm partners &amp; BD</b><span>See which companies are raising, buying or restructuring — and which rival firm took the mandate — while the pitch window is still open.</span></div>
+      <div class="hp"><b>In-house counsel</b><span>Every new rule arrives with the deadline and the exact action for your documents — not a circular to decode.</span></div>
+      <div class="hp"><b>Knowledge &amp; research</b><span>Source-linked, citation-ready deal and statute records that drop straight into a memo.</span></div>
+    </div>
+    <div class="hcta"><button class="abtn primary" id="heroGo">Set up my practice feed</button><button class="abtn" id="heroMeth">See how we verify</button></div>
+  </div>`;
+}
 function deadlineStrip(){
   const dl=REGITEMS.filter(r=>r.deadline&&r.deadline!=="—");
   if(!dl.length)return "";
@@ -1775,7 +1804,7 @@ function toolbarHtml(list,opts={}){
       <option value="priority" ${sortMode==="priority"?"selected":""}>Priority</option>
     </select>
     <div class="seg" title="Density"><button id="tbComf" class="${density==="comfortable"?"on":""}">Cards</button><button id="tbComp" class="${density==="compact"?"on":""}">Rows</button></div>
-    ${opts.save?`<button class="abtn" id="saveV">Save view</button>`:""}
+    ${opts.save?`<button class="abtn" id="saveV">Save &amp; track</button>`:""}
     <button class="abtn" id="tbExport">Export brief</button>
     <button class="abtn" id="tbLink">Copy link</button>
   </div>`;
@@ -1796,18 +1825,21 @@ function renderFeed(title,list,sub){
   const body=sorted.length?`<div class="feed">${sorted.map(density==="compact"?dealRow:dealCard).join("")}</div>`:`<div class="empty">No matching developments. Clear the search or pick another filter.</div>`;
   const label=route.name==="watch"?"Watchlist":currentLabel();
   $("main").innerHTML=`
-    ${home?deadlineStrip()+priorityBand():""}
+    ${home?heroHtml()+deadlineStrip()+priorityBand():""}
     ${home?`<div class="coverage"><span class="cv-dot"></span><b>Updated 10 Jun 2026</b> · refreshed nightly · ${DEALS.length} matters · ${REGLIB.reduce((n,a)=>n+a.items.length,0)} regulations in library · Sources: Bar &amp; Bench · BSE/NSE · SEBI · RBI · CCI · IBBI · MCA <span style="color:var(--accent);font-weight:700;cursor:pointer" onclick="openMeth()">Methodology</span></div>`:""}
     ${home?`<div class="stats" id="stats"></div>`:""}
     ${chips}
     <div class="vh"><h2>${title}</h2><span class="sub">${sub||(sorted.length+(sorted.length===1?" item":" items"))}</span>${clear}</div>
     ${toolbarHtml(sorted,{save:anyFilterActive()&&route.name==="feed",scope:route.name==="watch"?"watchlist":""})}
     ${body}
-    <div class="foot">Corporate Law Tracker · Verified deal &amp; regulatory intelligence for corporate-law professionals.<br>Headlines &amp; snippets shown under fair-use linking — open the primary source &amp; filings before advising. <span class="methlink" onclick="openMeth()" style="cursor:pointer">Methodology</span></div>`;
+    <div class="foot">CorpLawTracker · The decision engine for India's corporate legal market.<br>Headlines &amp; snippets shown under fair-use linking — open the primary source &amp; filings before advising. <span class="methlink" onclick="openMeth()" style="cursor:pointer">Methodology</span></div>`;
   if(home)buildStats();
   bindCards();bindToolbar(list,label);
   $("main").querySelectorAll("[data-nav]").forEach(n=>n.onclick=()=>go({name:n.dataset.nav}));
   $("main").querySelectorAll("[data-sort]").forEach(n=>n.onclick=()=>{sortMode=n.dataset.sort;lsSet("clt_sort",sortMode);render();});
+  $("heroX")&&($("heroX").onclick=()=>{lsSet("clt_hero_hidden",true);render();toast("You can reread the pitch under Methodology");});
+  $("heroGo")&&($("heroGo").onclick=()=>go({name:"foryou"}));
+  $("heroMeth")&&($("heroMeth").onclick=openMeth);
   $("main").querySelectorAll(".priocard[data-deal]").forEach(c=>c.onclick=e=>{if(e.target.closest("[data-star],[data-cmp]"))return;go({name:"deal",id:c.dataset.deal});});
   if(route.name==="feed"){
     $("sectorBar")?.querySelectorAll("[data-sec]").forEach(c=>c.onclick=()=>{F.sector=c.dataset.sec;render();});
@@ -2066,7 +2098,7 @@ function renderPipeline(){
     return `<div class="pcol"><h5><span class="sd" style="width:8px;height:8px;border-radius:50%;background:${st.c};display:inline-block"></span>${label}<span class="ct">${items.length}</span></h5>
       ${items.map(d=>`<div class="pitem" data-deal="${d.id}"><div class="ph">${d.headline}</div><div class="pm"><span class="ttype ${TYPES[d.type].cls}">${TYPES[d.type].label}</span>${d.value&&d.value!=="—"?`<span>${d.value}</span>`:""}<span>${CITYLABEL[d.geo]}</span></div></div>`).join("")}
     </div>`;}).join("");
-  $("main").innerHTML=`<div class="vh"><h2>Deal Pipeline</h2><span class="sub">${DEALS.length} tracked by stage — rumoured and in-review, not just closed</span></div><div class="pipe">${cols}</div>`;
+  $("main").innerHTML=`<div class="vh"><h2>Deal Pipeline</h2><span class="sub">${DEALS.length} tracked by stage · rumoured and in-review — the pitch window, not the post-mortem</span></div><div class="pipe">${cols}</div>`;
   $("main").querySelectorAll(".pitem[data-deal]").forEach(c=>c.onclick=()=>go({name:"deal",id:c.dataset.deal}));
 }
 
@@ -2088,7 +2120,7 @@ function renderAnalytics(){
     sc[d.sector]=(sc[d.sector]||0)+1;
   });
   const top=(o,n=8)=>Object.entries(o).sort((a,b)=>b[1]-a[1]).slice(0,n);
-  $("main").innerHTML=`<div class="vh"><h2>League &amp; Analytics</h2><span class="sub">${DEALS.length} deals · ${Object.keys(fc).length} firms · built live from tracked data</span></div>
+  $("main").innerHTML=`<div class="vh"><h2>Benchmarks &amp; League Tables</h2><span class="sub">${DEALS.length} deals · ${Object.keys(fc).length} firms · who is winning the work you want — by mandates, value and partners</span></div>
     <div class="anwrap">
       <div class="sec"><h4>Top firms · by deals tracked</h4>${barRows(top(fc),v=>v+" deals","firm")}</div>
       <div class="sec"><h4>Top firms · by aggregate deal value</h4>${barRows(top(fv),fmtCr,"firm")}</div>
@@ -2137,7 +2169,7 @@ function renderRegulatory(){
   const nav=REGLIB.map((A,ai)=>`<span class="chip" data-jump="regarea-${ai}">${A.area}</span>`).join("");
   const total=REGLIB.reduce((n,a)=>n+a.items.length,0);
 
-  $("main").innerHTML=`<div class="vh"><h2>Live Regulatory Tracker</h2><span class="sub">${REGITEMS.length} active · time-sensitive · with the action for your documents</span></div>${trackerCards}
+  $("main").innerHTML=`<div class="vh"><h2>Regulatory Radar</h2><span class="sub">${REGITEMS.length} active · every item carries its deadline and the action for your documents</span></div>${trackerCards}
     <div class="vh" style="margin-top:26px"><h2>Regulatory Library</h2><span class="sub">${total} statutes &amp; regulations · cross-referenced to tracked deals</span></div>
     <div class="search" style="max-width:none;margin-bottom:13px"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8b93a3" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg><input id="regq" type="text" placeholder="Search the library — e.g. QIP, Section 230, angel tax, Press Note 3, leverage cap…" value="${regQuery.replace(/"/g,'&quot;')}"></div>
     <div class="regnav">${nav}</div>
@@ -2205,7 +2237,7 @@ function renderMoves(){
     <span class="mv-avatar" style="background:${bg};color:${c}">${initials(m)}</span>
     <div class="mv-main"><div class="mv-who">${m.who||m.headline}</div>${m.who?`<div class="mv-what">${m.what}${m.org?` · <span style="color:var(--ink3)">${m.org}</span>`:""}</div>`:""}</div>
     <div class="mv-right"><span class="mtype" style="background:${bg};color:${c}">${m.type}</span><span class="mv-date">${m.date}</span></div></div>`;}).join("");
-  $("main").innerHTML=`<div class="vh"><h2>Moves</h2><span class="sub">${MOVES.length} recent · lateral moves, promotions and GC appointments — pitch triggers</span></div>${rows}
+  $("main").innerHTML=`<div class="vh"><h2>Moves &amp; Mandates</h2><span class="sub">${MOVES.length} recent · lateral moves and GC changes are pitch triggers — a new GC reopens every panel</span></div>${rows}
     <div class="foot">Auto-expands as the engine ingests the Corporate &amp; In-House wire nightly.</div>`;
 }
 
@@ -2234,7 +2266,7 @@ function renderPrecedents(){
   const secOpts=SECTORS.map(s=>`<option ${P.sector===s?"selected":""}>${s}</option>`).join("");
   const bucketOpts=[["","Any value"],["mega","≥ ₹5,000 cr"],["large","₹1,000–5,000 cr"],["mid","< ₹1,000 cr"]].map(([v,l])=>`<option value="${v}" ${P.bucket===v?"selected":""}>${l}</option>`).join("");
   const rows=list.map(d=>{const sx=structOf(d);return `<div class="card" data-deal="${d.id}"><div class="r1">${typeBadge(d)}${d.value&&d.value!=="—"?`<span class="tag val">${d.value}</span>`:""}<span class="tag">${d.sector}</span>${reviewedBy(d)?'<span class="rev">✔ Reviewed</span>':''}<span style="margin-left:auto"></span>${cmpBtn(d)}<span class="go">View precedent →</span></div><h3>${d.headline}</h3>${sx&&sx.consideration&&sx.consideration!=="—"?`<div class="sum"><b>Structure:</b> ${sx.consideration}</div>`:""}<div class="firms"><b>Counsel:</b> ${d.firms.map(f=>f.name).join(" · ")}</div></div>`;}).join("");
-  $("main").innerHTML=`<div class="vh"><h2>Precedent Search</h2><span class="sub">${list.length} match · comparable deals by type, sector and size — pick 2–4 and compare</span></div>
+  $("main").innerHTML=`<div class="vh"><h2>Precedent Search</h2><span class="sub">${list.length} match · find the comparable, steal the structure, cite the source — pick 2–4 and compare</span></div>
     <div class="frow" style="grid-template-columns:1fr 1fr 1fr;max-width:660px;margin-bottom:16px">
       <div class="fld"><label>Deal type</label><select id="pcType">${typeOpts}</select></div>
       <div class="fld"><label>Sector</label><select id="pcSector">${secOpts}</select></div>
@@ -2266,7 +2298,7 @@ function savePractice(p){try{p?localStorage.setItem("clt_practice",JSON.stringif
 function renderForYou(){
   const p=loadPractice();
   if(!p||(!p.sectors.length&&!p.types.length)){
-    $("main").innerHTML=`<div class="vh"><h2>Set up your practice</h2><span class="sub">Pick your areas — the For You feed (and your brief) is scoped to them</span></div>
+    $("main").innerHTML=`<div class="vh"><h2>Set up your practice</h2><span class="sub">Pick your areas — My Practice (and your daily brief) is scoped to them</span></div>
       <div class="sec"><h4>Sectors</h4><div class="fb" id="pSec">${SECTORS.filter(s=>s!=="All Sectors").map(s=>`<span class="chip" data-sec="${s}">${s}</span>`).join("")}</div>
         <h4 style="margin-top:16px">Deal types</h4><div class="fb" id="pType">${Object.entries(TYPES).map(([k,v])=>`<span class="chip" data-type="${k}">${v.label}</span>`).join("")}</div>
         <button class="mbtn primary" id="pSave" style="margin-top:16px">Save my practice</button></div>`;
@@ -2278,11 +2310,11 @@ function renderForYou(){
   }
   const list=DEALS.filter(d=>(p.sectors.length?p.sectors.includes(d.sector):true)&&(p.types.length?p.types.includes(d.type):true));
   const label=[...p.sectors,...p.types.map(t=>TYPES[t]?TYPES[t].label:t)].join(", ")||"your practice";
-  $("main").innerHTML=`<div class="vh"><h2>For You</h2><span class="sub">${list.length} matching · ${label} · <span style="color:var(--accent);cursor:pointer;font-weight:700" id="pEdit">Edit practice</span></span></div>
-    ${toolbarHtml(list,{scope:"For You"})}
+  $("main").innerHTML=`<div class="vh"><h2>My Practice</h2><span class="sub">${list.length} matching · ${label} · <span style="color:var(--accent);cursor:pointer;font-weight:700" id="pEdit">Edit practice</span></span></div>
+    ${toolbarHtml(list,{scope:"My Practice"})}
     <div class="feed">${list.length?sortList(list).map(density==="compact"?dealRow:dealCard).join(""):'<div class="empty">Nothing in your areas yet — it will populate as deals come in.</div>'}</div>`;
   $("pEdit").onclick=()=>{savePractice(null);render();};
-  bindCards();bindToolbar(list,"For You — "+label);
+  bindCards();bindToolbar(list,"My Practice — "+label);
 }
 
 /* ============================ SAVED VIEWS ============================ */
@@ -2292,8 +2324,8 @@ function currentLabel(){const b=[];if(F.firm)b.push(F.firm);if(F.firm2)b.push("+
 function saveCurrentView(){const a=loadSaved();a.unshift({label:currentLabel(),F:JSON.parse(JSON.stringify(F))});persistSaved(a.slice(0,30));toast("View saved");render();}
 function renderSaved(){
   const a=loadSaved();
-  const body=a.length?a.map((s,i)=>`<div class="moverow"><div data-apply="${i}" style="flex:1;cursor:pointer"><div class="mv-who">${s.label}</div><div class="mv-what">Saved view — click to run</div></div><span class="delx" data-del="${i}">✕ remove</span></div>`).join(""):'<div class="empty">No saved views yet. Apply filters on the feed, then click <b>Save view</b> in the toolbar. Saved views also seed your daily brief.</div>';
-  $("main").innerHTML=`<div class="vh"><h2>Saved Views</h2><span class="sub">${a.length} saved · re-run any filtered view in one click</span></div>${body}`;
+  const body=a.length?a.map((s,i)=>`<div class="moverow"><div data-apply="${i}" style="flex:1;cursor:pointer"><div class="mv-who">${s.label}</div><div class="mv-what">Saved view — click to run</div></div><span class="delx" data-del="${i}">✕ remove</span></div>`).join(""):'<div class="empty">No saved views yet. Apply filters on the feed, then click <b>Save &amp; track</b> in the toolbar. Saved views also seed your daily brief.</div>';
+  $("main").innerHTML=`<div class="vh"><h2>Saved &amp; Alerts</h2><span class="sub">${a.length} saved · standing questions you can re-run in one click — these seed your daily brief</span></div>${body}`;
   $("main").querySelectorAll("[data-apply]").forEach(n=>n.onclick=()=>{F=JSON.parse(JSON.stringify(loadSaved()[+n.dataset.apply].F));$("q").value=F.q||"";go({name:"feed"});});
   $("main").querySelectorAll("[data-del]").forEach(n=>n.onclick=()=>{const a=loadSaved();a.splice(+n.dataset.del,1);persistSaved(a);renderSaved();});
 }
