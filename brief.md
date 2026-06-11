@@ -1,7 +1,7 @@
 # Corporate Law Tracker — Daily Brief
 _11 June 2026_
 
-67 new development(s) — top 40 shown.
+60 new development(s) — top 40 shown.
 
 ### 🔴 Bharat Gears Limited: General Updates
 **REG** · ₹1,27,39,980 · India · ✓ Verified
@@ -48,138 +48,12 @@ General Updates — Lumax Auto Technologies Limited has informed the Exchange ab
 
 ---
 
-### 🔴 Healthcare Global Enterprises Limited: Memorandum of Understanding/Agreements
-**MA** · ₹37,64,44,788 · Cross-border · ✓ Verified
-
-Memorandum of Understanding/Agreements — HealthCare Global Enterprises Limited (the Company) has entered into a Share Purchase Agreement (SPA) dated May 19, 2026, with BACC Health Care Private Limited (BACC) and Inviga Healthcare Fund I…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HCG1_19052026234814_Stock_Exchange_Intimation_Execution_of_SPA.pdf)
-
----
-
-### 🔴 Healthcare Global Enterprises Limited: General Updates
-**MA** · ₹37,64,44,788 · Cross-border · ✓ Verified
-
-General Updates — The Board of Directors of the Company has, at their meeting held today, i.e., May 19, 2026, approved the divestment by way of sale of HealthCare Global Enterprises Limited s ( the Company ) entire equity shareholding in…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HCG1_19052026231046_SE_Intimation_Milann_Divestment.pdf)
-
----
-
 ### 🔴 M K Proteins Limited: Certificate under SEBI (Depositories and Participants) Regulations, 2018
 **REG** · ₹000001385, · India · ✓ Verified
 
 Certificate under SEBI (Depositories and Participants) Regulations, 2018 — Pursuant to Regulation 74(5) of SEBI (Depositories and Participants) Regulation, 2018, we are submitting herewith copy of Certificate issued by M/s Big Share…
 
 [Open source ↗](https://nsearchives.nseindia.com/corporate/MKPL_10042026170548_Signed_MLPL74CERTIFICATEQ4202526.pdf)
-
----
-
-### Gujarat Alkalies and Chemicals Limited: General Updates
-**MA** · ₹32,32,97,915 · India · ✓ Verified
-
-General Updates — Gujarat Alkalies and Chemicals Limited has informed the Exchange about General Updates: The Company has paid total consideration of Rs.32,32,97,915/- towards further acquisition, to maintain 26% Shareholding in Cleanmax…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KAMLESH_MUNDRA_11062026162545_SELETTER_S.pdf)
-
----
-
-### Amber Enterprises India Limited: Acquisition
-**MA** · ₹1,74,44,908.42 · India · ✓ Verified
-
-Acquisition — Pursuant to Regulation 30 of SEBI LODR Regulations, we are hereby informing the exchange that the Company has acquired remaining 50% stake in the equity share capital of Amber Resojet Private Limited (Amber Resojet) on 10th…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AMBER_10042026173216_SE_Intimation_of_Resojet_Amber_10042026.pdf)
-
----
-
-### Prestige Estates Projects Limited: Press Release
-**MA** · ₹5,000 cr · India · ✓ Verified
-
-Press Release — Prestige Estates Projects Limited has informed the Exchange regarding a press release dated March 26, 2026, titled "Prestige Group and Arihant Group Jointly Acquire Prime Land Parcel in Padi, Chennai, adding GDV of INR…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PRESTIGE_26032026192154_PEPLIntimation26032026.pdf)
-
----
-
-### Sammaan Capital Limited: Updates
-**MA** · ₹8,849,99,99,794 · India · ✓ Verified
-
-Updates — Sammaan Capital Limited has informed the Exchange regarding 'This is further to our intimations dated October 2, 2025, October 29, 2025, November 7, 2025 and December 10, 2025, with respect to the proposed acquisition of…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_24032026220455_SCL_RBI_approval_intimation_24Mar2026.pdf)
-
----
-
-### Belrise Industries Limited: Outcome of Board Meeting
-**IPO** · ₹20,000.00 · India · ✓ Verified
-
-Outcome of Board Meeting — Annexure BDetails under Regulation 30 of the SEBI Listing Regulations read with the master circular dated January 30, 2026 issued by SEBI bearing reference number HO/49/14/14(7)2025-CFD-POD2/I/3762/2026: S. No.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/BELRISE_24052026204604_BELRISE_Intimation_of_Fund_Raising_24052026.pdf)
-
----
-
-### Oberoi Realty Limited: Outcome of Board Meeting
-**IPO** · ₹6,000 cr · India · ✓ Verified
-
-Outcome of Board Meeting — Oberoi Realty Limited has informed the Exchange regarding Outcome of Board Meeting held on May 08, 2026 -Board approves proposal for enabling raising of funds for an aggregate amount not exceeding Rs. 6,000 Crore…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/OBEROIRLTY_08052026191315_BM_Outcome_QIP.pdf)
-
----
-
-### Waaree Energies Limited: Outcome of Board Meeting
-**IPO** · ₹10,000 cr · India · ✓ Verified
-
-Outcome of Board Meeting — Waaree Energies Limited has informed the Exchange that the Board of Directors has approved Raising of Funds through QIP for an aggregate amount not exceeding Rs. 10,000 crores subject to such regulatory/statutory…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/WAAREE_29042026214542_Outcome_of_BM_signed.pdf)
-
----
-
-### Aether Industries Limited: General Updates
-**IPO** · ₹4,26,16,311 · India · ✓ Verified
-
-General Updates — In accordance with Regulation 30 of the SEBI (Listing Obligation and Disclosure Requirements) Regulations, 2015, as amended from time to time, we herewith inform about receipt of a Demand and Show Cause Notice from the…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AETHER_24042026163734_3.pdf)
-
----
-
-### Amber Enterprises India Limited: Issue of Securities
-**IPO** · ₹3,28,12,28,750 · India · ✓ Verified
-
-Issue of Securities — Amber Enterprises India Limited has informed you that the Board of Directors of IL JIN Electronics (India) Private Limited, a material subsidiary of Amber Enterprises India Limited, has approved the raise of…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AMBER_19032026185956_SE_Intimation_Rights_Issue_19032026.pdf)
-
----
-
-### Anupam Rasayan India Limited: Allotment of Securities
-**BANK** · ₹1,00,000 · India · ✓ Verified
-
-Allotment of Securities — Anupam Rasayan India Limited has informed the Exchange regarding issuance and allotment of up to 16,000 (sixteen thousand) INR denominated, secured, rated, unlisted and redeemable non-convertible debentures with…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ANURAS_26052026235557_ARILSLDSTX20260526020Reg30Disclosure.pdf)
-
----
-
-### Indian Railway Finance Corporation Limited: Press Release
-**BANK** · ₹13,527 cr · India · ✓ Verified
-
-Press Release — Indian Railway Finance Corporation Limited has informed the Exchange regarding a press release dated May 25, 2026, titled "IRFC signs Rs 13,527 cr refinancing deal for Hyderabad Metro in major push to urban rail financing".
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IRFC_25052026114359_SEINTIMATIONPRESSRELEASEHMRL25052026.pdf)
-
----
-
-### Ashiana Housing Limited: General Updates
-**BANK** · ₹34,28,27,056 · India · ✓ Verified
-
-General Updates — Ashiana Housing Limited has informed the Exchange that the company has paid INR 34,28,27,056/- (Indian Rupees Thirty-Four Crores Twenty-Eight Lakhs Twenty-Seven Thousand Fifty-Six Only) to ICICI Prudential Regular Savings…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ASHIANA_12052026180747_IntimationtoNSESIGNED.pdf)
 
 ---
 
@@ -246,6 +120,15 @@ Outcome of Board Meeting — Mangalam Worldwide Limited has informed the Exchang
 
 ---
 
+### Shriram Pistons & Rings Limited: Issue of Securities
+**BANK** · ₹1,00,000 · India · ✓ Verified
+
+Issue of Securities — Shriram Pistons & Rings Limited has informed the Exchange about 3. Issuance of 100,000 secured, rated, listed and redeemable, non-convertible debentures (NCDs) having face value of Rs.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SHRIPISTON_02022026182115_OUTCOME222026FINAL.pdf)
+
+---
+
 ### Vodafone Idea Limited: Outcome of Board Meeting
 **PE** · ₹4,730 cr · Cross-border · ✓ Verified
 
@@ -255,66 +138,12 @@ Outcome of Board Meeting — Vodafone Idea Limited has informed the Exchange reg
 
 ---
 
-### Man Infraconstruction Limited: Press Release
-**MA** · ₹2,000 · Mumbai · ✓ Verified
+### Talbros Automotive Components Limited: Press Release
+**MA** · ₹1000 cr · India · ✓ Verified
 
-Press Release — Man Infraconstruction Limited has informed the Exchange regarding a press release dated April 29, 2026, titled "Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015,…
+Press Release — Talbros Automotive Components Limited has informed the Exchange regarding a press release dated February 06, 2026, titled "Press Release- Company along with its JV's secures multi-year orders worth over Rs. 1000 Crores.".
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/vishaladhav_29042026103022_MICL.pdf)
-
----
-
-### Hindustan Construction Company Limited: Press Release
-**MA** · ₹2,917 Cr · India · ✓ Verified
-
-Press Release — Hindustan Construction Company Limited has informed the Exchange regarding a press release dated April 24, 2026, titled "HCC wins Rs.2,917 Cr CIDCO Water Infrastructure Contract in JV".
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HCC_24042026091438_Exchange.pdf)
-
----
-
-### Aditya Birla Real Estate Limited: News Verification
-**MA** · ₹3000 cr · India · ✓ Verified
-
-News Verification — The Exchange has sought clarification from Aditya Birla Real Estate Limited with respect to recent news item captioned Birla Estates enters JV with M S Ramaiah Realty, targets Rs 3000 cr revenue. The response from the…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CENTURYTEX_17042026210538_ClarificationABREL.pdf)
-
----
-
-### Aditya Birla Real Estate Limited: News Verification
-**MA** · ₹3000 cr · India · ✓ Verified
-
-News Verification — The Exchange has sought clarification from Aditya Birla Real Estate Limited with respect to recent news item captioned Birla Estates enters JV with M S Ramaiah Realty, targets Rs 3000 cr revenue. The response from the…
-
-[Open source ↗](-)
-
----
-
-### Inventurus Knowledge Solutions Limited: News Verification
-**MA** · $600 mn · India · ✓ Verified
-
-News Verification — The Exchange has sought clarification from Inventurus Knowledge Solutions Limited with respect to recent news item captioned Jhunjhunwalas-backed IKS healthcare looks to acquire TruBridge for $600 million. The response…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IKS2006_14042026105820_20260413ResponsetoNSEEmailFINAL.pdf)
-
----
-
-### Inventurus Knowledge Solutions Limited: News Verification
-**MA** · $600 mn · India · ✓ Verified
-
-News Verification — The Exchange has sought clarification from Inventurus Knowledge Solutions Limited with respect to recent news item captioned Jhunjhunwalas-backed IKS healthcare looks to acquire TruBridge for $600 million. The response…
-
-[Open source ↗](-)
-
----
-
-### Signatureglobal (India) Limited: Press Release
-**MA** · ₹1,283 cr · Delhi-NCR · ✓ Verified
-
-Press Release — Signatureglobal (India) Limited has informed the Exchange regarding a press release dated February 14, 2026, titled " Signature Global Enters Large-Scale Commercial Development; RMZ to Acquire 50% Stake in Subsidiary for…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SGLOBAL_14022026121028_prfinal14febsign.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TALBROAUTO_06022026084126_Orderintimationsigned.pdf)
 
 ---
 
@@ -360,6 +189,177 @@ Outcome of Board Meeting — Indiabulls Limited has informed the Exchange regard
 Outcome of Board Meeting — Outcome of Board Meeting dated May 20, 2026 approving the preferential allotment on private placement basis aggregating upto Rs. 4,000 Crore
 
 [Open source ↗](https://nsearchives.nseindia.com/corporate/ABCAPITAL_20052026160010_Board_meetingsigned.pdf)
+
+---
+
+### Ola Electric Mobility Limited: News Verification
+**PE** · ₹2,000 cr · India · ✓ Verified
+
+News Verification — The Exchange has sought clarification from Ola Electric Mobility Limited with respect to recent news item captioned Ola Electric plans Rs 2,000 cr fundraise for battery arm. The response from the Company is attached.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/OLAELECTRIC_16032026230124_Intimation_news_clarification_OEM.pdf)
+
+---
+
+### Ola Electric Mobility Limited: News Verification
+**PE** · ₹2,000 cr · India · ✓ Verified
+
+News Verification — The Exchange has sought clarification from Ola Electric Mobility Limited with respect to recent news item captioned Ola Electric plans Rs 2,000 cr fundraise for battery arm. The response from the Company is awaited.
+
+[Open source ↗](-)
+
+---
+
+### Suryoday Small Finance Bank Limited: General Updates
+**PE** · ₹1,000 cr · India · ✓ Verified
+
+General Updates — Clarification regarding Raising of Funds for an aggregate amount not exceeding Rs. 1,000 Crore
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SURYODAY_25022026163207_Clarification_relating_to_Raising_of_Funds_sd.pdf)
+
+---
+
+### Oberoi Realty Limited: Outcome of Board Meeting
+**BANK** · ₹4,000 cr · India · ✓ Verified
+
+Outcome of Board Meeting — Oberoi Realty Limited has informed the Exchange regarding Outcome of Board Meeting held on May 8, 2026-Board approves proposal for enabling raising of funds for an aggregate amount not exceeding Rs. 4,000 Crore…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/OBEROIRLTY_08052026191635_BM_Outcome_NCD.pdf)
+
+---
+
+### Healthcare Global Enterprises Limited: Outcome of Board Meeting
+**MA** · ₹98 cr · Cross-border · ✓ Verified
+
+Outcome of Board Meeting — Intimation regarding approval for investments in (i) HCG NCHRI Oncology LLP, wholly owned subsidiary for up to Rs. 98 Crore and (ii) Vizag Hospital and Cancer Research Centre Pvt Ltd (Vizag Hospital), a…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HCG2_30032026155822_Investment_in_Vizag_Hospital_and_HCG_NCHRI_LLP_30_March_2026.pdf)
+
+---
+
+### Hero MotoCorp Limited: Acquisition
+**MA** · ₹275 cr · India · ✓ Verified
+
+Acquisition — We write with reference to our earlier intimation dated February 5, 2026, wherein we had informed about the decision of the Board of Directors to make an additional investment of Rs. 275 crore (in one or more tranches,…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HEROMOTO_01042026193105_Stxintimation01042026.pdf)
+
+---
+
+### Piramal Finance Limited: General Updates
+**MA** · ₹600 cr · India · ✓ Verified
+
+General Updates — Piramal Finance Limited has informed the Exchange about update on sale of stake in Shriram Life Insurance Company Limited - Receipt of consideration of Rs. 600 crore on 30th March, 2026 and completion of transaction
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/Piramalcapital_30032026150129_PFLReg30_1.pdf)
+
+---
+
+### Nazara Technologies Limited: Press Release
+**MA** · ₹918 cr · India · ✓ Verified
+
+Press Release — Nazara Technologies Limited has informed the Exchange regarding a press release dated March 18, 2026, titled Nazara to Acquire Controlling Stake in Social Gaming Platform Bluetile and BestPlay for USD 100.3 million (Approx.…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NAZARA_18032026184643_PRIntimationFinal.pdf)
+
+---
+
+### Hero MotoCorp Limited: Acquisition
+**MA** · ₹275 cr · India · ✓ Verified
+
+Acquisition — The Board of Directors at its meeting held today, viz. February 5, 2026 has considered and approved Additional investment of Rs.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HEROMOTO_05022026214058_STXBMOutcome05022026Acquisition.pdf)
+
+---
+
+### Shah Metacorp Limited: Rights Issue
+**IPO** · ₹486 · India · ✓ Verified
+
+Rights Issue — Shah Metacorp Limited has informed the Exchange that Board of Directors at its meeting held on May 21, 2026, has decided to issue equity shares on rights basis in the ratio of 36 : 311, i.e 36 Equity Shares for every 311…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GAL_21052026220908_BM_outcome_rightsissue.pdf)
+
+---
+
+### 5Paisa Capital Limited: Rights Issue
+**IPO** · ₹300 · India · ✓ Verified
+
+Rights Issue — 5Paisa Capital Limited has informed the Exchange that Board of Directors at its meeting held on March 11, 2026, has decided to issue equity shares on rights basis in the ratio of 1 : 2, i.e 1 Equity Shares for every 2 Equity…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/5PAISA_11032026203649_EXINTIMATION.pdf)
+
+---
+
+### Artemis Medicare Services Limited: Others
+**IPO** · ₹700 · India · ✓ Verified
+
+Others — Artemis Medicare Services Limited has informed the Exchange about raising of funds for an aggregate amount not exceeding Rs. 700 crores, by way of issuance of any instrument or security for cash, including equity shares, fully or…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ARTEMISMED_02022026190724_OutcomewithFR_Dec_25.pdf)
+
+---
+
+### Aeroflex Neu Limited: Acquisition
+**MA** · ₹123.30 · India · ✓ Verified
+
+Acquisition — The Board of directors has approved the investment in M/s. Stilonn Valves and Controls Private Limited by way of subscribing 2,43,400 (Two Lakhs Forty Three Thousand Four Hundred) equity shares at a price of Rs.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SAHPOLYMERSLIMITEDIPO_18052026184531_anlintimationsigned.pdf)
+
+---
+
+### Sammaan Capital Limited: Allotment of Securities
+**MA** · ₹139 · India · ✓ Verified
+
+Allotment of Securities — Sammaan Capital Limited has informed the Exchange that In terms of Regulations 30, 51 and other applicable provisions of the Listing Regulations, we wish to inform you that the Securities Issuance and Investment…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_31032026105753_SCL_Allotment_Intimation_31Mar26.pdf)
+
+---
+
+### SIGMA ADVANCED SYSTEMS LIMITED: Press Release
+**MA** · $15 mn · India · ✓ Verified
+
+Press Release — SIGMA ADVANCED SYSTEMS LIMITED has informed the Exchange regarding a press release dated March 12, 2026, titled "Press Note-Sigma Advanced Systems completes $15 million Extrovis divestment as it sharpens aerospace and…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MEGASOFT_12032026163129_PRESSNOTE12032026.pdf)
+
+---
+
+### Patel Engineering Limited: Updates
+**MA** · ₹133.25 cr · India · ✓ Verified
+
+Updates — Patel Engineering Limited has informed the Exchange regarding 'Patel Engineering in joint venture has been declared lowest bidder (L1) for an irrigation project of Rs. 133.25 crore from Maharashtra Krishna Valley Development…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/PATELENG_23022026155105_SEIntimationPressRelease.pdf)
+
+---
+
+### Magellanic Cloud Limited: Press Release
+**MA** · $11 mn · India · ✓ Verified
+
+Press Release — Magellanic Cloud Limited has informed the Exchange regarding a press release dated April 28, 2026, titled "Magellanic Cloud Limited Announces Massive $11 Million UAV Joint Venture".
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MCLOUD_29042026122548_Intimation_to_Stock_Exchange.pdf)
+
+---
+
+### Cupid Limited: Press Release
+**MA** · ₹82.88 cr · India · ✓ Verified
+
+Press Release — Cupid Limited has informed the Exchange regarding a press release dated April 02, 2026, titled "Cupid Limited Deploys Rs. 82.88 crore as Strategic Investment into Baazar Style Retail Limited".
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/CUPID_02042026192229_Press_Release.pdf)
+
+---
+
+### Privi Speciality Chemicals Limited: Updates
+**MA** · ₹50 cr · India · ✓ Verified
+
+Updates — Privi Speciality Chemicals Limited has informed the Exchange regarding 'approving an equity investment of Rs.50 Crores in Prigiv Specialities Private Limited, (Subsidiary Company) in the exixting shareholding ratio of 51:49.…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/FAIRCHEMDP_09022026193449_LettertoBSENSEOutcomeQ3.pdf)
 
 ---
 
