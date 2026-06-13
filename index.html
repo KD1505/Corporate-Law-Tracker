@@ -1451,7 +1451,9 @@ function buildSidebar(){
     return `<div class="ni" data-geo="${g.id}"><span class="dot" style="background:${g.dot}"></span>${g.label}<span class="ct">${ct}</span></div>`}).join("")}</div>`;
   const typ=`<div class="ng"><h4>Deal Type</h4>${Object.entries(TYPES).map(([k,v])=>{const ct=DEALS.filter(d=>d.type===k).length;
     return ct?`<div class="ni" data-type="${k}"><span class="dot" style="background:${v.c}"></span>${v.label}<span class="ct">${ct}</span></div>`:""}).join("")}</div>`;
-  $("sidebar").innerHTML=grp("Workspace",ws)+grp("Intelligence",intel)+grp("Regulatory",reg)+geo+typ;
+  const learn=`<div class="ng"><h4>Learn</h4><div class="ni" data-href="academy.html"><span class="ic">◆</span>Academy<span class="ct">↗</span></div></div>`;
+  $("sidebar").innerHTML=grp("Workspace",ws)+grp("Intelligence",intel)+grp("Regulatory",reg)+learn+geo+typ;
+  $("sidebar").querySelectorAll("[data-href]").forEach(n=>n.onclick=()=>{location.href=n.dataset.href;});
   $("sidebar").querySelectorAll("[data-browse]").forEach(n=>n.onclick=()=>{const k=n.dataset.browse;
     if(k==="feed"){resetFilters();go({name:"feed"});}else go({name:k});});
   $("sidebar").querySelectorAll("[data-geo]").forEach(n=>n.onclick=()=>{F.geo=n.dataset.geo;F.firm="";F.firm2="";go({name:"feed"});});
