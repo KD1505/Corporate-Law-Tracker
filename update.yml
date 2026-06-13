@@ -50,13 +50,13 @@ jobs:
 
       - name: Commit & push if changed
         run: |
-          if [[ -n "$(git status --porcelain index.html engine/seen.json engine/discovered-sources.json brief.md)" ]]; then
+          if [[ -n "$(git status --porcelain data.js engine/seen.json engine/discovered-sources.json brief.md)" ]]; then
             git config user.name  "corporate-law-tracker-bot"
             git config user.email "actions@github.com"
-            git add index.html engine/seen.json engine/discovered-sources.json brief.md
+            git add data.js engine/seen.json engine/discovered-sources.json brief.md
             git commit -m "chore: nightly deal update ($(date -u +%Y-%m-%d))"
             git push
-            echo "Committed updated index.html — Vercel will redeploy."
+            echo "Committed updated data.js — Vercel will redeploy."
           else
             echo "No changes to commit."
           fi
