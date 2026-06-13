@@ -22,6 +22,11 @@ function hasSpecificOfficial(d){return (d.sources||[]).some(s=>(s.official===tru
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const HTML = path.join(__dirname, "..", "index.html");
+// data.js is the SINGLE SOURCE OF TRUTH for all deal/market data. The pipeline writes
+// ONLY this file; index.html is a data-free shell that reads it at runtime. This makes
+// design edits (which touch index.html) and data updates (which touch data.js) physically
+// unable to collide — deals can never again be wiped by a cosmetic change.
+const DATA = path.join(__dirname, "..", "data.js");
 const SEEN = path.join(__dirname, "seen.json");
 const DISCOVERED = path.join(__dirname, "discovered-sources.json");
 const START = "/* DEALS-START";
@@ -129,14 +134,38 @@ async function writeBrief(deals) {
   await writeFile(BRIEF, md, "utf8");
 }
 
+// data.js is the single source of truth. If it is ever missing, rebuild it from index.html
+// (one-time migration); normally it already exists and we just read it.
+async function ensureDataFile() {
+  try { return await readFile(DATA, "utf8"); }
+  catch {
+    console.log("data.js not found — migrating data out of index.html (one-time).");
+    const html = await readFile(HTML, "utf8");
+    const NAMES = ["DEALS", "MOVES", "REGITEMS", "COMMENTARY", "TRENDS"];
+    let out = "/* CLT DATA — generated & owned by engine/build.mjs. Single source of truth.\n   Do NOT hand-edit; the nightly pipeline regenerates this file. */\nwindow.CLT_DATA = window.CLT_DATA || {};\n\n";
+    for (const N of NAMES) {
+      const m = html.match(new RegExp("const " + N + "=\\[([\\s\\S]*?)\\];"));
+      const body = m ? m[1].trim() : "";
+      out += `/* ${N}-START */\nwindow.CLT_DATA.${N}=[\n${body}\n];\n/* ${N}-END */\n\n`;
+    }
+    out += `window.CLT_DATA.UPDATED="Updated ${todayLabel()}";\n`;
+    out = out.replace(/\bname:SRC\b/g, 'name:"Bar & Bench — Dealstreet"');
+    await writeFile(DATA, out, "utf8");
+    return out;
+  }
+}
+
 async function main() {
-  let html = await readFile(HTML, "utf8");
+  let data = await ensureDataFile();
   let changed = false;
   console.log(`Mode: ${USE_AI ? "AI enrichment" : "FREE rule-based"}.`);
 
   /* ---------------- DEALS PHASE ---------------- */
+  // Dedupe against what is ALREADY in data.js (not a separate ledger that can desync).
+  // This is what makes a backfill able to RESTORE missing deals: anything not currently
+  // in data.js is eligible to be re-added.
   const seen = await loadSeen();
-  const have = new Set([...existingIds(html), ...seen]);
+  const have = existingIds(data);
 
   // (1) PRESS spine — Bar & Bench Dealstreet + RSS: deals with NAMED law-firm teams.
   const press = (await fetchNewItems(have, PRESS_MAX)).filter(isRelevant);
@@ -170,7 +199,7 @@ async function main() {
       d.score = score; d.imp = imp; d.scoreReasons = reasons;
       d.verified = hasSpecificOfficial(d); // Verified only with a SPECIFIC official source
     }
-    html = spliceAfter(html, "const DEALS=[", deals.map((d) => " " + JSON.stringify(d)).join(",\n"));
+    data = spliceAfter(data, "window.CLT_DATA.DEALS=[", deals.map((d) => " " + JSON.stringify(d)).join(",\n"));
     for (const d of deals) seen.add(d.id);
     await writeFile(SEEN, JSON.stringify([...seen], null, 2), "utf8");
     await writeFile(DISCOVERED, JSON.stringify(recordDomains(await loadDiscovered(), deals), null, 2), "utf8");
@@ -181,10 +210,10 @@ async function main() {
 
   /* ---------------- MOVES PHASE (always runs) ---------------- */
   try {
-    const moves = await fetchMoves(moveIdsFrom(html));
+    const moves = await fetchMoves(moveIdsFrom(data));
     if (moves.length) {
       const lits = moves.map((m) => " " + JSON.stringify({ headline: m.headline, type: m.type, date: m.date, url: m.url })).join(",\n");
-      html = spliceAfter(html, "const MOVES=[", lits);
+      data = spliceAfter(data, "window.CLT_DATA.MOVES=[", lits);
       changed = true;
       console.log(`Added ${moves.length} move(s).`);
     } else console.log("No new moves.");
@@ -192,7 +221,7 @@ async function main() {
 
   /* ---------------- REGULATOR PHASE (notifications/circulars → tracker) ---------------- */
   try {
-    const regBlk = blockOf(html, "REGITEMS-START", "REGITEMS-END");
+    const regBlk = blockOf(data, "REGITEMS-START", "REGITEMS-END");
     const regHave = new Set([...idsInBlock(regBlk), ...slugTailsInBlock(regBlk)]);
     const regs = await fetchRegulators(regHave);
     const regItems = [];
@@ -200,15 +229,15 @@ async function main() {
       try { regItems.push(USE_AI ? await (await import("./enrich.mjs")).enrichRegulatorAI(it, LAW_IDS) : structureRegulatorFree(it)); }
       catch (e) { console.warn(`  ! regulator ${it.id}: ${e.message}`); regItems.push(structureRegulatorFree(it)); }
     }
-    if (regItems.length) { html = spliceAfter(html, "const REGITEMS=[", regItems.map((r) => " " + JSON.stringify(r)).join(",\n")); changed = true; console.log(`Added ${regItems.length} regulator item(s).`); }
+    if (regItems.length) { data = spliceAfter(data, "window.CLT_DATA.REGITEMS=[", regItems.map((r) => " " + JSON.stringify(r)).join(",\n")); changed = true; console.log(`Added ${regItems.length} regulator item(s).`); }
     else console.log("No new regulator items.");
   } catch (e) { console.warn(`Regulator phase skipped: ${e.message}`); }
 
   /* ---------------- COMMENTARY PHASE (articles → deal / trend / regulation) ---------------- */
   try {
-    const commBlk = blockOf(html, "COMMENTARY-START", "COMMENTARY-END") + blockOf(html, "TRENDS-START", "TRENDS-END") + blockOf(html, "REGITEMS-START", "REGITEMS-END");
+    const commBlk = blockOf(data, "COMMENTARY-START", "COMMENTARY-END") + blockOf(data, "TRENDS-START", "TRENDS-END") + blockOf(data, "REGITEMS-START", "REGITEMS-END");
     const commHave = new Set(slugTailsInBlock(commBlk));
-    const catalog = dealCatalogFrom(html);
+    const catalog = dealCatalogFrom(data);
     const arts = await fetchCommentary(commHave);
     const newComm = [], newTrends = [], newReg = [];
     for (const it of arts) {
@@ -219,18 +248,18 @@ async function main() {
       else if (r.kind === "regulation") newReg.push(r.payload);
       else newTrends.push(r.payload);
     }
-    if (newComm.length) { html = spliceAfter(html, "const COMMENTARY=[", newComm.map((c) => " " + JSON.stringify(c)).join(",\n")); changed = true; }
-    if (newTrends.length) { html = spliceAfter(html, "const TRENDS=[", newTrends.map((t) => " " + JSON.stringify(t)).join(",\n")); changed = true; }
-    if (newReg.length) { html = spliceAfter(html, "const REGITEMS=[", newReg.map((r) => " " + JSON.stringify(r)).join(",\n")); changed = true; }
+    if (newComm.length) { data = spliceAfter(data, "window.CLT_DATA.COMMENTARY=[", newComm.map((c) => " " + JSON.stringify(c)).join(",\n")); changed = true; }
+    if (newTrends.length) { data = spliceAfter(data, "window.CLT_DATA.TRENDS=[", newTrends.map((t) => " " + JSON.stringify(t)).join(",\n")); changed = true; }
+    if (newReg.length) { data = spliceAfter(data, "window.CLT_DATA.REGITEMS=[", newReg.map((r) => " " + JSON.stringify(r)).join(",\n")); changed = true; }
     const n = newComm.length + newTrends.length + newReg.length;
     console.log(n ? `Added ${newComm.length} commentary, ${newTrends.length} trend(s), ${newReg.length} reg-analysis.` : "No new commentary.");
   } catch (e) { console.warn(`Commentary phase skipped: ${e.message}`); }
 
-  /* ---------------- WRITE ---------------- */
+  /* ---------------- WRITE (data.js only — index.html is never touched) ---------------- */
   if (changed) {
-    html = html.replace(/Updated \d{1,2} [A-Za-z]{3,} \d{4}/g, `Updated ${todayLabel()}`);
-    await writeFile(HTML, html, "utf8");
-    console.log("index.html updated.");
+    data = data.replace(/window\.CLT_DATA\.UPDATED="[^"]*"/, `window.CLT_DATA.UPDATED="Updated ${todayLabel()}"`);
+    await writeFile(DATA, data, "utf8");
+    console.log("data.js updated.");
   } else console.log("Nothing new anywhere. Clean exit.");
 }
 
