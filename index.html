@@ -454,10 +454,6 @@
   @media(max-width:780px){.wrap{grid-template-columns:1fr;height:auto}aside{display:none}.stats{grid-template-columns:repeat(2,1fr)}.search{display:none}.dd-grid{grid-template-columns:1fr}.methlink{display:none}.main{padding:22px 18px 60px}.vh h2{font-size:24px}}
   @media print{header,aside,.rail,.toolbar,.actbar,.fb,.cmpbar,.toast{display:none!important}.wrap{display:block;height:auto}.main{overflow:visible;padding:0}body{background:#fff}}
 
-  /* smooth scrolling + a smooth, transforming cursor (desktop pointers only) */
-  html{scroll-behavior:smooth}
-  .main,aside,.rail{scroll-behavior:smooth}
-  @media(prefers-reduced-motion:reduce){html,.main,aside,.rail{scroll-behavior:auto}}
 </style>
 </head>
 <body>
@@ -2116,26 +2112,5 @@ buildSidebar();buildRail();buildAdv();render();
 try{if(window.CLT_DATA&&window.CLT_DATA.UPDATED){var _u=document.getElementById("updated");if(_u)_u.textContent=window.CLT_DATA.UPDATED;}}catch(e){}
 </script>
 
-<script>
-/* Light momentum smooth-scroll for the main panel (desktop fine-pointer only). */
-(function(){
-  if(!window.matchMedia||!matchMedia('(hover:hover) and (pointer:fine)').matches) return;
-  if(matchMedia('(prefers-reduced-motion:reduce)').matches) return;
-  var el=document.querySelector('.main'); if(!el) return;
-  var target=el.scrollTop, raf=0, running=false;
-  function step(){
-    var diff=target-el.scrollTop;
-    if(Math.abs(diff)<0.5){ el.scrollTop=target; running=false; return; }
-    el.scrollTop+=diff*0.16; raf=requestAnimationFrame(step);
-  }
-  el.addEventListener('wheel',function(e){
-    if(e.ctrlKey||e.deltaMode!==0||Math.abs(e.deltaX)>Math.abs(e.deltaY)) return;
-    e.preventDefault();
-    target=Math.max(0,Math.min(el.scrollHeight-el.clientHeight, target+e.deltaY));
-    if(!running){ running=true; cancelAnimationFrame(raf); raf=requestAnimationFrame(step); }
-  },{passive:false});
-  el.addEventListener('mouseenter',function(){ target=el.scrollTop; });
-})();
-</script>
 </body>
 </html>
