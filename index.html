@@ -205,6 +205,8 @@
   .firms .fm{font-weight:600;color:var(--ink)} .firms .side{color:var(--ink3);font-size:11.5px}
   .srcrow{display:flex;align-items:center;gap:8px;margin-top:13px;flex-wrap:wrap}
   .schip{font-size:10.5px;font-weight:550;color:var(--ink3);background:var(--surface2);border:1px solid var(--line2);padding:2px 9px;border-radius:6px}
+  .lveri{display:inline-flex;align-items:center;gap:4px;font-size:10px;font-weight:700;letter-spacing:.2px;text-transform:none;color:var(--green);background:var(--green-soft);border-radius:6px;padding:2px 8px;margin-left:8px;vertical-align:middle}
+  .lveri.warn{color:var(--amber);background:var(--amber-soft)}
   .stime{font-size:11px;color:var(--ink4);margin-left:auto} .go{font-size:12px;color:var(--accent);font-weight:600}
   .card:hover .go{text-decoration:underline}
 
@@ -1690,7 +1692,7 @@ function renderDeal(id){
          ${commHtml}
          ${relRegHtml}
          <div class="sec"><h4>Counsel & teams</h4>${firmsHtml}</div>
-         <div class="sec"><h4>Sources &amp; official filings · what each adds <span style="font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink4)">(${allSrcs.length})</span></h4>${srcHtml}</div>
+         <div class="sec"><h4>Sources &amp; official filings · what each adds <span style="font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink4)">(${allSrcs.length})</span>${(()=>{var L=(window.CLT_DATA&&window.CLT_DATA.LINKCHECK)||{};var s=L.deals&&L.deals[d.id];if(s==='v')return ` <span class="lveri" title="Every source link was pinged and confirmed live as of ${L.at}.">✓ Links verified · ${L.at}</span>`;if(s==='i')return ` <span class="lveri warn" title="A source link could not be reached on the last automated check — under review.">⚠ Link under review</span>`;return '';})()}</h4>${srcHtml}</div>
          <div class="sec"><h4>Public documents</h4>${docsHtml}</div>
        </div>
        <div>
