@@ -457,13 +457,7 @@
   /* smooth scrolling + a smooth, transforming cursor (desktop pointers only) */
   html{scroll-behavior:smooth}
   .main,aside,.rail{scroll-behavior:smooth}
-  @media(hover:hover) and (pointer:fine){
-    #cursor{position:fixed;top:0;left:0;width:30px;height:30px;margin:-15px 0 0 -15px;border:1.5px solid var(--accent);border-radius:50%;z-index:9999;pointer-events:none;opacity:.55;will-change:transform;
-      transition:width .22s ease,height .22s ease,margin .22s ease,background-color .22s ease,opacity .22s ease,border-color .22s ease}
-    #cursor.hover{width:52px;height:52px;margin:-26px 0 0 -26px;opacity:1;background:color-mix(in srgb,var(--accent) 9%,transparent)}
-    #cursor.down{width:22px;height:22px;margin:-11px 0 0 -11px;opacity:.9}
-  }
-  @media(prefers-reduced-motion:reduce){html,.main,aside,.rail{scroll-behavior:auto}#cursor{display:none}}
+  @media(prefers-reduced-motion:reduce){html,.main,aside,.rail{scroll-behavior:auto}}
 </style>
 </head>
 <body>
@@ -2122,24 +2116,5 @@ buildSidebar();buildRail();buildAdv();render();
 try{if(window.CLT_DATA&&window.CLT_DATA.UPDATED){var _u=document.getElementById("updated");if(_u)_u.textContent=window.CLT_DATA.UPDATED;}}catch(e){}
 </script>
 
-<script>
-/* Smooth, transforming cursor — a ring that eases toward the pointer and grows over
-   anything clickable. Desktop pointers only; disabled for touch + reduced-motion. */
-(function(){
-  if(!window.matchMedia) return;
-  if(!matchMedia('(hover:hover) and (pointer:fine)').matches) return;
-  if(matchMedia('(prefers-reduced-motion:reduce)').matches) return;
-  var el=document.createElement('div'); el.id='cursor'; document.body.appendChild(el);
-  var tx=innerWidth/2, ty=innerHeight/2, cx=tx, cy=ty, shown=false;
-  addEventListener('mousemove',function(e){ tx=e.clientX; ty=e.clientY; if(!shown){shown=true;el.style.opacity='';} },{passive:true});
-  addEventListener('mousedown',function(){ el.classList.add('down'); });
-  addEventListener('mouseup',function(){ el.classList.remove('down'); });
-  addEventListener('mouseleave',function(){ el.style.opacity='0'; });
-  var SEL='a,button,select,input,textarea,[onclick],[role="button"],.ni,.chip,.card,.crow,.priocard,.stat,.seg button,.tsel,.methlink,.advbtn,.star,.cmpadd';
-  document.addEventListener('mouseover',function(e){ if(e.target.closest&&e.target.closest(SEL)) el.classList.add('hover'); },{passive:true});
-  document.addEventListener('mouseout',function(e){ var to=e.relatedTarget; if(!to||!to.closest||!to.closest(SEL)) el.classList.remove('hover'); },{passive:true});
-  (function loop(){ cx+=(tx-cx)*0.2; cy+=(ty-cy)*0.2; el.style.transform='translate('+cx+'px,'+cy+'px)'; requestAnimationFrame(loop); })();
-})();
-</script>
 </body>
 </html>
