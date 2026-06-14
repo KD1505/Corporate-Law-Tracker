@@ -10,6 +10,10 @@ on:
         description: "One-off backfill: days of exchange history to pull (blank = normal 3-day run). Try 120 once to load existing public deals."
         required: false
         default: ""
+      deepen:
+        description: "Deepen existing thin deals with AI multi-source detail. Enter a batch size (e.g. 30) and re-run until 0 remain. Needs the ANTHROPIC_API_KEY secret."
+        required: false
+        default: ""
 
 # allow the built-in token to commit the refreshed index.html
 permissions:
@@ -47,6 +51,15 @@ jobs:
           # Backfill: blank on schedule; set via the "Run workflow" button to load history once.
           CLT_BACKFILL: ${{ github.event.inputs.backfill_days }}
         run: npm run build
+
+      - name: Deepen existing thin deals (optional, AI)
+        if: ${{ github.event.inputs.deepen != '' }}
+        working-directory: engine
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLT_DEEPEN: ${{ github.event.inputs.deepen }}
+          CLT_USE_SEARCH: "1"
+        run: node deepen.mjs
 
       - name: Commit & push if changed
         run: |
