@@ -1,31 +1,31 @@
 {
   "_note": "Auto-grown source funnel. Each run logs every domain that corroborated a deal, with a running count. Domains marked official:true are government/regulator/exchange/court. Review the high-count entries periodically and promote the best into sources.json as curated corroborators.",
   "barandbench.com": {
-    "count": 34,
+    "count": 45,
     "firstSeen": "2026-06-08",
     "official": false,
     "lastSeen": "2026-06-14"
   },
   "bseindia.com": {
-    "count": 119,
+    "count": 167,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-14"
   },
   "nseindia.com": {
-    "count": 118,
+    "count": 171,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-14"
   },
   "sebi.gov.in": {
-    "count": 15,
+    "count": 25,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-14"
   },
   "cci.gov.in": {
-    "count": 91,
+    "count": 135,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-14"
@@ -37,13 +37,13 @@
     "lastSeen": "2026-06-14"
   },
   "judgments.ecourts.gov.in": {
-    "count": 2,
+    "count": 3,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-14"
   },
   "nsearchives.nseindia.com": {
-    "count": 119,
+    "count": 180,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-14"
@@ -121,6 +121,18 @@
     "lastSeen": "2026-06-14"
   },
   "pib.gov.in": {
+    "count": 1,
+    "firstSeen": "2026-06-14",
+    "official": true,
+    "lastSeen": "2026-06-14"
+  },
+  "varunbeverages.com": {
+    "count": 1,
+    "firstSeen": "2026-06-14",
+    "official": true,
+    "lastSeen": "2026-06-14"
+  },
+  "pepsico.co.in": {
     "count": 1,
     "firstSeen": "2026-06-14",
     "official": true,
