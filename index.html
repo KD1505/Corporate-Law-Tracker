@@ -2116,5 +2116,26 @@ buildSidebar();buildRail();buildAdv();render();
 try{if(window.CLT_DATA&&window.CLT_DATA.UPDATED){var _u=document.getElementById("updated");if(_u)_u.textContent=window.CLT_DATA.UPDATED;}}catch(e){}
 </script>
 
+<script>
+/* Light momentum smooth-scroll for the main panel (desktop fine-pointer only). */
+(function(){
+  if(!window.matchMedia||!matchMedia('(hover:hover) and (pointer:fine)').matches) return;
+  if(matchMedia('(prefers-reduced-motion:reduce)').matches) return;
+  var el=document.querySelector('.main'); if(!el) return;
+  var target=el.scrollTop, raf=0, running=false;
+  function step(){
+    var diff=target-el.scrollTop;
+    if(Math.abs(diff)<0.5){ el.scrollTop=target; running=false; return; }
+    el.scrollTop+=diff*0.16; raf=requestAnimationFrame(step);
+  }
+  el.addEventListener('wheel',function(e){
+    if(e.ctrlKey||e.deltaMode!==0||Math.abs(e.deltaX)>Math.abs(e.deltaY)) return;
+    e.preventDefault();
+    target=Math.max(0,Math.min(el.scrollHeight-el.clientHeight, target+e.deltaY));
+    if(!running){ running=true; cancelAnimationFrame(raf); raf=requestAnimationFrame(step); }
+  },{passive:false});
+  el.addEventListener('mouseenter',function(){ target=el.scrollTop; });
+})();
+</script>
 </body>
 </html>
