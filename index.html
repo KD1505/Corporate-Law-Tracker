@@ -1418,10 +1418,11 @@ function parseHash(){
 function go(r){
   route=r;_suppressHash=true;
   const h=routeHash(r); if(location.hash!==h)location.hash=h;
-  window.scrollTo(0,0);render();
+  render();scrollTopReset();
   setTimeout(()=>{_suppressHash=false;},0);
 }
-window.addEventListener("hashchange",()=>{if(_suppressHash)return;route=parseHash();window.scrollTo(0,0);render();});
+function scrollTopReset(){window.scrollTo(0,0);var m=document.querySelector('.main');if(m)m.scrollTop=0;var a=document.querySelector('aside');if(a)a.scrollTop=0;}
+window.addEventListener("hashchange",()=>{if(_suppressHash)return;route=parseHash();render();scrollTopReset();});
 
 function resetFilters(){F={geo:"all",type:null,sector:"All Sectors",q:"",firm:"",firm2:"",city:"",stage:""};$("q").value="";}
 function anyFilterActive(){return F.geo!=="all"||F.type||F.sector!=="All Sectors"||F.q||F.firm||F.firm2||F.city||F.stage;}
@@ -1661,6 +1662,9 @@ function renderDeal(id){
   const webParts=[["Deal structure",sx?1:0,"sec-structure"],["Legal framework",fw.length,"sec-framework"],["Commentary",comm.length,"sec-commentary"],["Regulatory",relReg.length,"sec-regulatory"],["Related deals",related.length,"sec-related"]].filter(x=>x[1]>0);
   const webStrip=webParts.length?`<div class="webstrip"><span class="webstrip-lbl">This deal connects to →</span>${webParts.map(w=>`<span class="webchip" data-scroll="${w[2]}"><b>${w[1]}</b> ${w[0]}</span>`).join("")}</div>`:"";
   const ps=primarySrc(d);
+  const snapReasons=(d.scoreReasons&&d.scoreReasons.length)?d.scoreReasons:[];
+  const snapGlance=`${d.parties?`<b>${d.parties}</b> — `:""}${t.label}${d.value&&d.value!=="—"?` · <b>${d.value}</b>`:""} · ${d.sector} · ${d.city} · disclosed ${d.time}.`;
+  const snapHtml=`<div class="sec"><h4>At a glance</h4><p style="margin:0;font-size:14px">${snapGlance}</p>${snapReasons.length?`<div style="margin-top:11px"><div style="font-family:var(--mono);font-size:10px;letter-spacing:.8px;text-transform:uppercase;color:var(--ink3);margin-bottom:7px">Why it's tracked</div><div style="display:flex;flex-wrap:wrap;gap:6px">${snapReasons.map(r=>`<span class="tag">${r}</span>`).join("")}</div></div>`:""}${ps?`<div style="margin-top:13px"><a class="abtn primary" href="${ps.url}" target="_blank" rel="noopener" style="display:inline-block;text-decoration:none">Read the primary filing ↗</a></div>`:""}</div>`;
   $("main").innerHTML=`
    <span class="back" onclick="go({name:'feed'})">← Back to feed</span>
    <div class="dd">
@@ -1684,6 +1688,7 @@ function renderDeal(id){
      ${webStrip}
      <div class="dd-grid">
        <div>
+         ${snapHtml}
          ${impl(d)?`<div class="sec" style="background:var(--accent-soft);border-color:transparent"><h4 style="color:var(--accent)">Why it matters · practice implication</h4><p style="color:var(--ink);font-size:13.5px">${impl(d)}</p></div>`:""}
          ${(()=>{const su=(d.sum||"").replace(/<[^>]+>/g,"").trim().toLowerCase(),de=(d.detail||"").replace(/<[^>]+>/g,"").trim();return de&&de.toLowerCase().slice(0,60)!==su.slice(0,60)?`<div class="sec"><h4>What happened</h4><p>${d.detail}</p></div>`:"";})()}
          ${structHtml}
@@ -1691,7 +1696,7 @@ function renderDeal(id){
          ${fwHtml}
          ${commHtml}
          ${relRegHtml}
-         <div class="sec"><h4>Counsel & teams</h4>${firmsHtml}</div>
+         ${firmsHtml?`<div class="sec"><h4>Counsel &amp; teams</h4>${firmsHtml}</div>`:""}
          <div class="sec"><h4>Sources &amp; official filings · what each adds <span style="font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink4)">(${allSrcs.length})</span>${(()=>{var L=(window.CLT_DATA&&window.CLT_DATA.LINKCHECK)||{};var s=L.deals&&L.deals[d.id];if(s==='v')return ` <span class="lveri" title="Every source link was pinged and confirmed live as of ${L.at}.">✓ Links verified · ${L.at}</span>`;if(s==='i')return ` <span class="lveri warn" title="A source link could not be reached on the last automated check — under review.">⚠ Link under review</span>`;return '';})()}</h4>${srcHtml}</div>
          <div class="sec"><h4>Public documents</h4>${docsHtml}</div>
        </div>
