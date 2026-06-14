@@ -454,31 +454,19 @@
   @media(max-width:780px){.wrap{grid-template-columns:1fr;height:auto}aside{display:none}.stats{grid-template-columns:repeat(2,1fr)}.search{display:none}.dd-grid{grid-template-columns:1fr}.methlink{display:none}.main{padding:22px 18px 60px}.vh h2{font-size:24px}}
   @media print{header,aside,.rail,.toolbar,.actbar,.fb,.cmpbar,.toast{display:none!important}.wrap{display:block;height:auto}.main{overflow:visible;padding:0}body{background:#fff}}
 
-  /* =========== cinematic layer — visual only, no app logic touched =========== */
-  html{background:var(--bg)}
-  body{background:transparent}
-  #fxbg{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.5}
-  html[data-theme="dark"] #fxbg{opacity:.42}
-  .wrap{position:relative;z-index:1}
-  @keyframes fxUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
-  @keyframes fxFade{from{opacity:0}to{opacity:1}}
-  .card,.priocard,.crow,.stat,.sec,.trendcard,.calrow,.lawcard,.firmblk{animation:fxUp .44s cubic-bezier(.22,.7,.2,1) both}
-  .vh,.bandh,.coverage,.toolbar{animation:fxFade .5s ease both}
-  .card,.priocard,.crow,.stat{transition:transform .22s cubic-bezier(.22,.7,.2,1),box-shadow .22s ease,border-color .16s ease}
-  .card:hover,.priocard:hover,.crow:hover,.stat:hover{transform:translateY(-3px)}
-  .card:hover,.priocard:hover,.stat:hover{box-shadow:var(--shadow-h)}
-  .brand{transition:transform .2s ease}.brand:hover{transform:translateY(-1px)}
-  .ni,.chip,.abtn,.tsel,.methlink,.icbtn,.seg button,.advbtn{transition:background-color .16s ease,color .16s ease,border-color .16s ease,transform .16s ease}
-  .chip:hover,.abtn:hover,.methlink:hover{transform:translateY(-1px)}
-  a,button{-webkit-tap-highlight-color:transparent}
-  :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-  ::selection{background:var(--accent);color:#fff}
-  @media(max-width:820px){#fxbg{display:none}}
-  @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}#fxbg{display:none}}
+  /* smooth scrolling + a smooth, transforming cursor (desktop pointers only) */
+  html{scroll-behavior:smooth}
+  .main,aside,.rail{scroll-behavior:smooth}
+  @media(hover:hover) and (pointer:fine){
+    #cursor{position:fixed;top:0;left:0;width:30px;height:30px;margin:-15px 0 0 -15px;border:1.5px solid var(--accent);border-radius:50%;z-index:9999;pointer-events:none;opacity:.55;will-change:transform;
+      transition:width .22s ease,height .22s ease,margin .22s ease,background-color .22s ease,opacity .22s ease,border-color .22s ease}
+    #cursor.hover{width:52px;height:52px;margin:-26px 0 0 -26px;opacity:1;background:color-mix(in srgb,var(--accent) 9%,transparent)}
+    #cursor.down{width:22px;height:22px;margin:-11px 0 0 -11px;opacity:.9}
+  }
+  @media(prefers-reduced-motion:reduce){html,.main,aside,.rail{scroll-behavior:auto}#cursor{display:none}}
 </style>
 </head>
 <body>
-<canvas id="fxbg" aria-hidden="true"></canvas>
 <header>
   <div class="brand" onclick="go({name:'feed'});resetFilters()">
     <div class="mark" aria-label="Corporate Law Tracker">
@@ -2135,33 +2123,22 @@ try{if(window.CLT_DATA&&window.CLT_DATA.UPDATED){var _u=document.getElementById(
 </script>
 
 <script>
-/* Cinematic "deal-web" backdrop — a slow constellation of nodes that connect when near,
-   echoing the product's idea that every deal sits at the centre of a web. Visual only,
-   pointer-events:none, paused when the tab is hidden, off on mobile + reduced-motion. */
+/* Smooth, transforming cursor — a ring that eases toward the pointer and grows over
+   anything clickable. Desktop pointers only; disabled for touch + reduced-motion. */
 (function(){
-  var c=document.getElementById('fxbg'); if(!c) return;
-  var rm=window.matchMedia&&window.matchMedia('(prefers-reduced-motion:reduce)').matches;
-  if(rm||window.innerWidth<=820) return;
-  var ctx=c.getContext('2d'), dpr=Math.min(window.devicePixelRatio||1,2), W=0,H=0,nodes=[],paused=false;
-  function theme(){ return document.documentElement.getAttribute('data-theme')==='dark' ? '147,166,207' : '27,45,79'; }
-  function resize(){ W=c.width=Math.floor(innerWidth*dpr); H=c.height=Math.floor(innerHeight*dpr); c.style.width=innerWidth+'px'; c.style.height=innerHeight+'px'; }
-  function init(){ resize(); var n=Math.min(60,Math.max(28,Math.floor(innerWidth/26))); nodes=[]; for(var i=0;i<n;i++){ nodes.push({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.14*dpr,vy:(Math.random()-.5)*.14*dpr}); } }
-  document.addEventListener('visibilitychange',function(){ paused=document.hidden; });
-  var rt; addEventListener('resize',function(){ clearTimeout(rt); rt=setTimeout(init,180); });
-  function frame(){
-    if(!paused && W){
-      ctx.clearRect(0,0,W,H);
-      var col=theme(), R=150*dpr, i, j;
-      for(i=0;i<nodes.length;i++){ var p=nodes[i]; p.x+=p.vx; p.y+=p.vy; if(p.x<0||p.x>W)p.vx*=-1; if(p.y<0||p.y>H)p.vy*=-1; }
-      ctx.lineWidth=1;
-      for(i=0;i<nodes.length;i++){ for(j=i+1;j<nodes.length;j++){ var a=nodes[i],b=nodes[j],dx=a.x-b.x,dy=a.y-b.y,d=Math.sqrt(dx*dx+dy*dy);
-        if(d<R){ ctx.strokeStyle='rgba('+col+','+(0.18*(1-d/R)).toFixed(3)+')'; ctx.beginPath(); ctx.moveTo(a.x,a.y); ctx.lineTo(b.x,b.y); ctx.stroke(); } } }
-      ctx.fillStyle='rgba('+col+',0.55)';
-      for(i=0;i<nodes.length;i++){ ctx.beginPath(); ctx.arc(nodes[i].x,nodes[i].y,1.5*dpr,0,6.283); ctx.fill(); }
-    }
-    requestAnimationFrame(frame);
-  }
-  init(); requestAnimationFrame(frame);
+  if(!window.matchMedia) return;
+  if(!matchMedia('(hover:hover) and (pointer:fine)').matches) return;
+  if(matchMedia('(prefers-reduced-motion:reduce)').matches) return;
+  var el=document.createElement('div'); el.id='cursor'; document.body.appendChild(el);
+  var tx=innerWidth/2, ty=innerHeight/2, cx=tx, cy=ty, shown=false;
+  addEventListener('mousemove',function(e){ tx=e.clientX; ty=e.clientY; if(!shown){shown=true;el.style.opacity='';} },{passive:true});
+  addEventListener('mousedown',function(){ el.classList.add('down'); });
+  addEventListener('mouseup',function(){ el.classList.remove('down'); });
+  addEventListener('mouseleave',function(){ el.style.opacity='0'; });
+  var SEL='a,button,select,input,textarea,[onclick],[role="button"],.ni,.chip,.card,.crow,.priocard,.stat,.seg button,.tsel,.methlink,.advbtn,.star,.cmpadd';
+  document.addEventListener('mouseover',function(e){ if(e.target.closest&&e.target.closest(SEL)) el.classList.add('hover'); },{passive:true});
+  document.addEventListener('mouseout',function(e){ var to=e.relatedTarget; if(!to||!to.closest||!to.closest(SEL)) el.classList.remove('hover'); },{passive:true});
+  (function loop(){ cx+=(tx-cx)*0.2; cy+=(ty-cy)*0.2; el.style.transform='translate('+cx+'px,'+cy+'px)'; requestAnimationFrame(loop); })();
 })();
 </script>
 </body>
