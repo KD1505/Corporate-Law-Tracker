@@ -1,40 +1,40 @@
 {
   "_note": "Auto-grown source funnel. Each run logs every domain that corroborated a deal, with a running count. Domains marked official:true are government/regulator/exchange/court. Review the high-count entries periodically and promote the best into sources.json as curated corroborators.",
   "barandbench.com": {
-    "count": 45,
+    "count": 54,
     "firstSeen": "2026-06-08",
     "official": false,
-    "lastSeen": "2026-06-14"
+    "lastSeen": "2026-06-15"
   },
   "bseindia.com": {
-    "count": 167,
+    "count": 214,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-06-14"
+    "lastSeen": "2026-06-15"
   },
   "nseindia.com": {
-    "count": 171,
+    "count": 222,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-06-14"
+    "lastSeen": "2026-06-15"
   },
   "sebi.gov.in": {
-    "count": 25,
+    "count": 40,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-06-14"
+    "lastSeen": "2026-06-15"
   },
   "cci.gov.in": {
-    "count": 135,
+    "count": 178,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-06-14"
+    "lastSeen": "2026-06-15"
   },
   "rbi.org.in": {
-    "count": 8,
+    "count": 10,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-06-14"
+    "lastSeen": "2026-06-15"
   },
   "judgments.ecourts.gov.in": {
     "count": 3,
@@ -43,10 +43,10 @@
     "lastSeen": "2026-06-14"
   },
   "nsearchives.nseindia.com": {
-    "count": 180,
+    "count": 242,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-06-14"
+    "lastSeen": "2026-06-15"
   },
   "hfcl.com": {
     "count": 1,
@@ -55,10 +55,10 @@
     "lastSeen": "2026-06-14"
   },
   "livelaw.in": {
-    "count": 2,
+    "count": 3,
     "firstSeen": "2026-06-14",
     "official": false,
-    "lastSeen": "2026-06-14"
+    "lastSeen": "2026-06-15"
   },
   "economictimes.indiatimes.com": {
     "count": 2,
@@ -67,10 +67,10 @@
     "lastSeen": "2026-06-14"
   },
   "mca.gov.in": {
-    "count": 2,
+    "count": 3,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-06-14"
+    "lastSeen": "2026-06-15"
   },
   "grinfra.com": {
     "count": 1,
@@ -121,10 +121,10 @@
     "lastSeen": "2026-06-14"
   },
   "pib.gov.in": {
-    "count": 1,
+    "count": 2,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-06-14"
+    "lastSeen": "2026-06-15"
   },
   "varunbeverages.com": {
     "count": 1,
@@ -137,5 +137,59 @@
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-14"
+  },
+  "incometaxindia.gov.in": {
+    "count": 1,
+    "firstSeen": "2026-06-15",
+    "official": true,
+    "lastSeen": "2026-06-15"
+  },
+  "hdfcbank.com": {
+    "count": 1,
+    "firstSeen": "2026-06-15",
+    "official": true,
+    "lastSeen": "2026-06-15"
+  },
+  "industrustinfra.in": {
+    "count": 1,
+    "firstSeen": "2026-06-15",
+    "official": true,
+    "lastSeen": "2026-06-15"
+  },
+  "grinfracapital.in": {
+    "count": 1,
+    "firstSeen": "2026-06-15",
+    "official": true,
+    "lastSeen": "2026-06-15"
+  },
+  "coalindia.in": {
+    "count": 1,
+    "firstSeen": "2026-06-15",
+    "official": true,
+    "lastSeen": "2026-06-15"
+  },
+  "dipam.gov.in": {
+    "count": 1,
+    "firstSeen": "2026-06-15",
+    "official": true,
+    "lastSeen": "2026-06-15"
+  },
+  "coal.gov.in": {
+    "count": 1,
+    "firstSeen": "2026-06-15",
+    "official": true,
+    "lastSeen": "2026-06-15"
+  },
+  "dpiit.gov.in": {
+    "count": 1,
+    "firstSeen": "2026-06-15",
+    "official": true,
+    "lastSeen": "2026-06-15"
+  },
+  "concordindia.com": {
+    "count": 1,
+    "firstSeen": "2026-06-15",
+    "official": true,
+    "lastSeen": "2026-06-15"
   }
 }
