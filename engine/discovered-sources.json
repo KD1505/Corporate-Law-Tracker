@@ -1,37 +1,37 @@
 {
   "_note": "Auto-grown source funnel. Each run logs every domain that corroborated a deal, with a running count. Domains marked official:true are government/regulator/exchange/court. Review the high-count entries periodically and promote the best into sources.json as curated corroborators.",
   "barandbench.com": {
-    "count": 114,
+    "count": 125,
     "firstSeen": "2026-06-08",
     "official": false,
     "lastSeen": "2026-06-17"
   },
   "bseindia.com": {
-    "count": 452,
+    "count": 560,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-17"
   },
   "nseindia.com": {
-    "count": 469,
+    "count": 576,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-17"
   },
   "sebi.gov.in": {
-    "count": 89,
+    "count": 103,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-17"
   },
   "cci.gov.in": {
-    "count": 362,
+    "count": 454,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-17"
   },
   "rbi.org.in": {
-    "count": 25,
+    "count": 31,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-17"
@@ -43,7 +43,7 @@
     "lastSeen": "2026-06-16"
   },
   "nsearchives.nseindia.com": {
-    "count": 540,
+    "count": 659,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-17"
@@ -55,7 +55,7 @@
     "lastSeen": "2026-06-17"
   },
   "livelaw.in": {
-    "count": 7,
+    "count": 8,
     "firstSeen": "2026-06-14",
     "official": false,
     "lastSeen": "2026-06-17"
@@ -91,10 +91,10 @@
     "lastSeen": "2026-06-14"
   },
   "ashianahousing.com": {
-    "count": 1,
+    "count": 2,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-06-14"
+    "lastSeen": "2026-06-17"
   },
   "powermin.gov.in": {
     "count": 2,
@@ -103,7 +103,7 @@
     "lastSeen": "2026-06-17"
   },
   "rcfltd.com": {
-    "count": 2,
+    "count": 3,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-17"
@@ -121,7 +121,7 @@
     "lastSeen": "2026-06-14"
   },
   "pib.gov.in": {
-    "count": 6,
+    "count": 8,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-17"
@@ -205,13 +205,13 @@
     "lastSeen": "2026-06-16"
   },
   "cea.nic.in": {
-    "count": 2,
+    "count": 3,
     "firstSeen": "2026-06-17",
     "official": true,
     "lastSeen": "2026-06-17"
   },
   "mnre.gov.in": {
-    "count": 3,
+    "count": 5,
     "firstSeen": "2026-06-17",
     "official": true,
     "lastSeen": "2026-06-17"
@@ -259,7 +259,7 @@
     "lastSeen": "2026-06-17"
   },
   "guvnl.com": {
-    "count": 2,
+    "count": 3,
     "firstSeen": "2026-06-17",
     "official": true,
     "lastSeen": "2026-06-17"
@@ -349,7 +349,7 @@
     "lastSeen": "2026-06-17"
   },
   "trilegal.com": {
-    "count": 1,
+    "count": 2,
     "firstSeen": "2026-06-17",
     "official": true,
     "lastSeen": "2026-06-17"
@@ -415,6 +415,24 @@
     "lastSeen": "2026-06-17"
   },
   "cyient.com": {
+    "count": 1,
+    "firstSeen": "2026-06-17",
+    "official": true,
+    "lastSeen": "2026-06-17"
+  },
+  "sammaan.in": {
+    "count": 1,
+    "firstSeen": "2026-06-17",
+    "official": true,
+    "lastSeen": "2026-06-17"
+  },
+  "chemicals.gov.in": {
+    "count": 1,
+    "firstSeen": "2026-06-17",
+    "official": true,
+    "lastSeen": "2026-06-17"
+  },
+  "irfc.co.in": {
     "count": 1,
     "firstSeen": "2026-06-17",
     "official": true,
