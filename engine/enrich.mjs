@@ -86,12 +86,38 @@ Output ONLY a single JSON object (no markdown fences, no commentary) with EXACTL
  "timeline": [ { "d": string, "t": string } ]
 }`;
 
+// Repair a truncated/unterminated JSON object by closing dangling strings + brackets.
+function repairJSON(s) {
+  const first = s.indexOf("{");
+  if (first === -1) return null;
+  s = s.slice(first);
+  const stack = []; let inStr = false, esc = false, out = "";
+  for (let i = 0; i < s.length; i++) {
+    const c = s[i]; out += c;
+    if (inStr) { if (esc) esc = false; else if (c === "\\") esc = true; else if (c === '"') inStr = false; continue; }
+    if (c === '"') inStr = true;
+    else if (c === "{" || c === "[") stack.push(c);
+    else if (c === "}" || c === "]") stack.pop();
+  }
+  if (inStr) out += '"';
+  out = out.replace(/,\s*$/, "");
+  for (let i = stack.length - 1; i >= 0; i--) out += stack[i] === "{" ? "}" : "]";
+  try { return JSON.parse(out); } catch { return null; }
+}
+
 function safeJSON(text) {
-  // grab the last {...} block
-  const first = text.indexOf("{");
-  const last = text.lastIndexOf("}");
-  if (first === -1 || last === -1) throw new Error("No JSON in model output");
-  return JSON.parse(text.slice(first, last + 1));
+  let t = text;
+  const fence = t.match(/```(?:json)?\s*([\s\S]*?)```/i);  // strip a markdown code fence if present
+  if (fence) t = fence[1];
+  const first = t.indexOf("{");
+  const last = t.lastIndexOf("}");
+  if (first === -1) throw new Error("No JSON in model output");
+  try { return JSON.parse(t.slice(first, last + 1)); }
+  catch (e) {
+    const repaired = repairJSON(t.slice(first));   // model output was cut off mid-JSON → close it
+    if (repaired) return repaired;
+    throw e;
+  }
 }
 
 export async function enrichItem(item) {
@@ -108,7 +134,7 @@ Now research and return the JSON record. Corroborate with as many credible sourc
 
   const resp = await aiCreate({
     model: MODEL,
-    max_tokens: 3200,
+    max_tokens: 5000,
     system: SYSTEM,
     messages: [{ role: "user", content: userMsg }],
   }, 6);
@@ -138,7 +164,7 @@ function finishDeal(deal, item) {
 
 async function askJSON(system, user, maxUses = 5) {
   const resp = await aiCreate({
-    model: MODEL, max_tokens: 2600, system,
+    model: MODEL, max_tokens: 3600, system,
     messages: [{ role: "user", content: user }],
   }, maxUses);
   return safeJSON(resp.content.filter((b) => b.type === "text").map((b) => b.text).join("\n"));
