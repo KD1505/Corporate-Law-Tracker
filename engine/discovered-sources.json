@@ -1,37 +1,37 @@
 {
   "_note": "Auto-grown source funnel. Each run logs every domain that corroborated a deal, with a running count. Domains marked official:true are government/regulator/exchange/court. Review the high-count entries periodically and promote the best into sources.json as curated corroborators.",
   "barandbench.com": {
-    "count": 100,
+    "count": 114,
     "firstSeen": "2026-06-08",
     "official": false,
     "lastSeen": "2026-06-17"
   },
   "bseindia.com": {
-    "count": 406,
+    "count": 452,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-17"
   },
   "nseindia.com": {
-    "count": 418,
+    "count": 469,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-17"
   },
   "sebi.gov.in": {
-    "count": 78,
+    "count": 89,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-17"
   },
   "cci.gov.in": {
-    "count": 319,
+    "count": 362,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-17"
   },
   "rbi.org.in": {
-    "count": 24,
+    "count": 25,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-17"
@@ -43,7 +43,7 @@
     "lastSeen": "2026-06-16"
   },
   "nsearchives.nseindia.com": {
-    "count": 480,
+    "count": 540,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-17"
@@ -67,7 +67,7 @@
     "lastSeen": "2026-06-16"
   },
   "mca.gov.in": {
-    "count": 6,
+    "count": 7,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-17"
@@ -211,7 +211,7 @@
     "lastSeen": "2026-06-17"
   },
   "mnre.gov.in": {
-    "count": 2,
+    "count": 3,
     "firstSeen": "2026-06-17",
     "official": true,
     "lastSeen": "2026-06-17"
@@ -385,6 +385,36 @@
     "lastSeen": "2026-06-17"
   },
   "nazara.com": {
+    "count": 1,
+    "firstSeen": "2026-06-17",
+    "official": true,
+    "lastSeen": "2026-06-17"
+  },
+  "omnivore.vc": {
+    "count": 1,
+    "firstSeen": "2026-06-17",
+    "official": true,
+    "lastSeen": "2026-06-17"
+  },
+  "manamchocolate.com": {
+    "count": 1,
+    "firstSeen": "2026-06-17",
+    "official": true,
+    "lastSeen": "2026-06-17"
+  },
+  "fssai.gov.in": {
+    "count": 1,
+    "firstSeen": "2026-06-17",
+    "official": true,
+    "lastSeen": "2026-06-17"
+  },
+  "acmegroup.com": {
+    "count": 1,
+    "firstSeen": "2026-06-17",
+    "official": true,
+    "lastSeen": "2026-06-17"
+  },
+  "cyient.com": {
     "count": 1,
     "firstSeen": "2026-06-17",
     "official": true,
