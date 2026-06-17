@@ -1,37 +1,37 @@
 {
   "_note": "Auto-grown source funnel. Each run logs every domain that corroborated a deal, with a running count. Domains marked official:true are government/regulator/exchange/court. Review the high-count entries periodically and promote the best into sources.json as curated corroborators.",
   "barandbench.com": {
-    "count": 89,
+    "count": 100,
     "firstSeen": "2026-06-08",
     "official": false,
     "lastSeen": "2026-06-17"
   },
   "bseindia.com": {
-    "count": 359,
+    "count": 406,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-17"
   },
   "nseindia.com": {
-    "count": 370,
+    "count": 418,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-17"
   },
   "sebi.gov.in": {
-    "count": 73,
+    "count": 78,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-17"
   },
   "cci.gov.in": {
-    "count": 287,
+    "count": 319,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-17"
   },
   "rbi.org.in": {
-    "count": 21,
+    "count": 24,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-17"
@@ -43,7 +43,7 @@
     "lastSeen": "2026-06-16"
   },
   "nsearchives.nseindia.com": {
-    "count": 421,
+    "count": 480,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-17"
@@ -73,10 +73,10 @@
     "lastSeen": "2026-06-17"
   },
   "grinfra.com": {
-    "count": 1,
+    "count": 2,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-06-14"
+    "lastSeen": "2026-06-17"
   },
   "pepsico.com": {
     "count": 1,
@@ -121,7 +121,7 @@
     "lastSeen": "2026-06-14"
   },
   "pib.gov.in": {
-    "count": 5,
+    "count": 6,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-17"
@@ -145,10 +145,10 @@
     "lastSeen": "2026-06-17"
   },
   "hdfcbank.com": {
-    "count": 1,
+    "count": 2,
     "firstSeen": "2026-06-15",
     "official": true,
-    "lastSeen": "2026-06-15"
+    "lastSeen": "2026-06-17"
   },
   "industrustinfra.in": {
     "count": 1,
@@ -205,7 +205,7 @@
     "lastSeen": "2026-06-16"
   },
   "cea.nic.in": {
-    "count": 1,
+    "count": 2,
     "firstSeen": "2026-06-17",
     "official": true,
     "lastSeen": "2026-06-17"
@@ -259,7 +259,7 @@
     "lastSeen": "2026-06-17"
   },
   "guvnl.com": {
-    "count": 1,
+    "count": 2,
     "firstSeen": "2026-06-17",
     "official": true,
     "lastSeen": "2026-06-17"
@@ -277,7 +277,7 @@
     "lastSeen": "2026-06-17"
   },
   "ifc.org": {
-    "count": 1,
+    "count": 2,
     "firstSeen": "2026-06-17",
     "official": true,
     "lastSeen": "2026-06-17"
@@ -295,12 +295,96 @@
     "lastSeen": "2026-06-17"
   },
   "lumaxauto.com": {
-    "count": 1,
+    "count": 2,
     "firstSeen": "2026-06-17",
     "official": true,
     "lastSeen": "2026-06-17"
   },
   "sales.tax.maharashtra.gov.in": {
+    "count": 1,
+    "firstSeen": "2026-06-17",
+    "official": true,
+    "lastSeen": "2026-06-17"
+  },
+  "skyroot.in": {
+    "count": 1,
+    "firstSeen": "2026-06-17",
+    "official": true,
+    "lastSeen": "2026-06-17"
+  },
+  "gic.com.sg": {
+    "count": 1,
+    "firstSeen": "2026-06-17",
+    "official": true,
+    "lastSeen": "2026-06-17"
+  },
+  "sherpalouventures.com": {
+    "count": 1,
+    "firstSeen": "2026-06-17",
+    "official": true,
+    "lastSeen": "2026-06-17"
+  },
+  "reuters.com": {
+    "count": 1,
+    "firstSeen": "2026-06-17",
+    "official": false,
+    "lastSeen": "2026-06-17"
+  },
+  "arkamventures.com": {
+    "count": 1,
+    "firstSeen": "2026-06-17",
+    "official": true,
+    "lastSeen": "2026-06-17"
+  },
+  "solarenergy.gov.in": {
+    "count": 1,
+    "firstSeen": "2026-06-17",
+    "official": true,
+    "lastSeen": "2026-06-17"
+  },
+  "moef.gov.in": {
+    "count": 1,
+    "firstSeen": "2026-06-17",
+    "official": true,
+    "lastSeen": "2026-06-17"
+  },
+  "trilegal.com": {
+    "count": 1,
+    "firstSeen": "2026-06-17",
+    "official": true,
+    "lastSeen": "2026-06-17"
+  },
+  "nhai.gov.in": {
+    "count": 1,
+    "firstSeen": "2026-06-17",
+    "official": true,
+    "lastSeen": "2026-06-17"
+  },
+  "sammaancapital.com": {
+    "count": 1,
+    "firstSeen": "2026-06-17",
+    "official": true,
+    "lastSeen": "2026-06-17"
+  },
+  "rcfindiaonline.com": {
+    "count": 1,
+    "firstSeen": "2026-06-17",
+    "official": true,
+    "lastSeen": "2026-06-17"
+  },
+  "mahagst.gov.in": {
+    "count": 1,
+    "firstSeen": "2026-06-17",
+    "official": true,
+    "lastSeen": "2026-06-17"
+  },
+  "e2enetworks.com": {
+    "count": 1,
+    "firstSeen": "2026-06-17",
+    "official": false,
+    "lastSeen": "2026-06-17"
+  },
+  "nazara.com": {
     "count": 1,
     "firstSeen": "2026-06-17",
     "official": true,

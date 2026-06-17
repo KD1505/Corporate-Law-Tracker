@@ -3,25 +3,47 @@ _17 June 2026_
 
 71 new development(s) — top 40 shown.
 
-### 🔴 NSE Imposes ₹4.2 Lakh Penalty on Sampann Utpadan India Limited
-**REG** · ₹4,20,000 · Mumbai · ✓ Verified
+### 🔴 Genesys International fined ₹4.19 lakh each by BSE and NSE for LODR non-compliance
+**REG** · ₹8,37,800 · Mumbai · ✓ Verified
 
-NSE has imposed a penalty of ₹4,20,000 on Sampann Utpadan India Limited , an intimation filed with the exchange on 27 February 2026.
+Genesys International Corporation Limited received regulatory penalties totalling ₹8,37,800 from BSE and NSE for breach of Regulation 17(1) of the SEBI Listing Obligations and Disclosure Requirements (LODR) Regulations, 2015, with each exchange imposing an identical fine of ₹4,18,900.
 
-*Why it matters:* Compliance breach by listed entity triggers exchange-level enforcement action; review the specific NSE regulations breached to assess remediation and disclosure obligations under Listing Rules.
+*Why it matters:* Reg 17(1) LODR non-compliance typically concerns board composition or independent director obligations; listed companies must audit governance metrics quarterly and implement real-time monitoring systems to avoid recurring exchange penalties, which may trigger SEBI escalation.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SEPOWER_27022026142816_Intimation_Penalty_NSE.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GENESYS_28052026141624_Penalty_by_BSE_NSE.pdf)
 
 ---
 
-### 🔴 Lumax Auto Technologies: GST demand reduced by 71% in first appeal before Maharashtra State Tax authority
-**REG** · ₹1,03,78,580 (reduced from ₹3,52,19,923) · Pune, Maharashtra · ✓ Verified
+### 🔴 RCF fined ₹5.43 lakh each by NSE and BSE for SEBI LODR non-compliance
+**REG** · ₹5,42,800 per exchange · Mumbai · ✓ Verified
 
-Lumax Auto Technologies received a favourable first appeal order reducing its GST demand liability from ₹3.52 crore to ₹1.04 crore , reflecting a 71% reduction following challenge before the Joint Commissioner of State Tax, Pune Division-2.
+Rashtriya Chemicals and Fertilizers Limited received regulatory fines of ₹5,42,800 each from NSE and BSE for failure to comply with Regulation 17(1) of SEBI's Listing Obligations and Disclosure Requirements (LODR) Regulations for the quarter ended 31 December 2025.
 
-*Why it matters:* First appeal relief under GST law signals partial vindication of assessee's position; the residual demand (₹1.04 cr) remains appealable under second appeal framework and creates precedent for similar GST structure defences in auto component sector.
+*Why it matters:* Independent director composition or board committee constitution breach in Q3 FY26—a common compliance friction point; review RCF's amended board disclosures and assess whether remediation is curative or structural.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/RCF_28022026131851_SEIntimation_Fine_Dec25.pdf)
+
+---
+
+### 🔴 Lumax Auto Technologies GST Demand Reduced by 70% in First Appeal
+**REG** · ₹1,03,78,580 (demand reduced) · Pune, Maharashtra · ✓ Verified
+
+Lumax Auto Technologies' GST demand was reduced from ₹3,52,19,923 to ₹1,03,78,580 (a 71% reduction) in a first appeal ruling before Maharashtra's Joint Commissioner of State Tax. The company disclosed the order-in-appeal dated 18 February 2026 under Regulation 30 of the SEBI Listing Regulations.
+
+*Why it matters:* Partial appellate relief in GST disputes signals selective substantiation of tax officer demands; precedent on GST interest/penalty computation in automotive supply chain, relevant for transfer pricing and input credit claims in this sector.
 
 [Open source ↗](https://nsearchives.nseindia.com/corporate/LUMAXTECH_19022026225232_IntimationGST19022026.pdf)
+
+---
+
+### 🔴 NSE Imposes ₹4,20,000 Penalty on Sampann Utpadan India Limited
+**REG** · ₹4,20,000 · Delhi / National Stock Exchange · ✓ Verified
+
+NSE has imposed a regulatory penalty of ₹4,20,000 on Sampann Utpadan India Limited , intimated via formal exchange notice on 27 February 2026.
+
+*Why it matters:* The penalty signals NSE's active compliance monitoring of listing regulations; listed entities must verify the precise regulatory breach (likely related to disclosure, reporting, or governance norms) and review corrective actions to avoid escalation.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SEPOWER_27022026142816_Intimation_Penalty_NSE.pdf)
 
 ---
 
@@ -31,6 +53,28 @@ Lumax Auto Technologies received a favourable first appeal order reducing its GS
 Certificate under SEBI (Depositories and Participants) Regulations, 2018 — Pursuant to Regulation 74(5) of SEBI (Depositories and Participants) Regulation, 2018, we are submitting herewith copy of Certificate issued by M/s Big Share…
 
 [Open source ↗](https://nsearchives.nseindia.com/corporate/MKPL_10042026170548_Signed_MLPL74CERTIFICATEQ4202526.pdf)
+
+---
+
+### Skyroot Aerospace raises $60M to achieve unicorn valuation of $1.1B
+**PE** · $60 million · Hyderabad · ✓ Verified
+
+Skyroot Aerospace, India's leading private space launch provider, has raised $60 million in Series C funding co-led by Sherpalo Ventures and GIC, propelling it to unicorn status with a $1.1 billion valuation. The capital will fund high-cadence Vikram-1 launches, manufacturing scale-up, and development of the Vikram-2 cryogenic launch vehicle.
+
+*Why it matters:* Private space infrastructure in India is now attracting institutional capital at scale; this signals regulatory clarity on ISRO licensing frameworks and demonstrates investor confidence in the commercial space sector despite nascent regulatory maturity.
+
+[Open source ↗](https://www.barandbench.com/dealstreet/skyroot-rockets-to-unicorn-status-with-60-million-fundraise-trilegal-tta-advise-2)
+
+---
+
+### IRFC delivers ₹12,842 crore strategic refinancing for HURL, advancing whole-of-government financing vision
+**BANK** · ₹12,842 cr · New Delhi · ✓ Verified
+
+IRFC announced a ₹12,842 crore strategic refinancing facility to Heavy Haul Railway Limited (HURL), a government-backed railway infrastructure entity, as part of an integrated whole-of-government financing framework for capital-intensive rail operations.
+
+*Why it matters:* The transaction exemplifies IRFC's role as the primary financial intermediary for government rail enterprises, with implications for railway capex structure, debt refinancing cycles, and inter-ministerial financing coordination under the National Infrastructure Pipeline.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IRFC_23032026203243_Intimationofpressrelease.pdf)
 
 ---
 
@@ -44,68 +88,35 @@ Outcome of Board Meeting — Vodafone Idea Limited has informed the Exchange reg
 ---
 
 ### Trilegal advised Patel Greentech on tender process for 700 MW solar project in Gujarat
-**REG** · Gujarat · ✓ Verified
+**REG** · Gujarat, India · ✓ Verified
 
-Trilegal structured and drafted tender documents for Patel Greentech's 700 MW utility-scale solar project in Gujarat, covering EPC, O&M contracting, land aggregation and grid connectivity. The project is proposed to supply power to GUVNL as part of Patel Greentech's emerging independent power producer platform.
+Trilegal structured a utility-scale 700 MW solar tender for Patel Greentech , covering land aggregation, EPC, and O&M contracting for supply to GUVNL under India's renewable energy procurement framework.
 
-*Why it matters:* Large-scale renewable tender structuring increasingly involves layered risk allocation across land, design, procurement, construction and O&M phases; the involvement of dedicated Dispute Resolution counsel signals exposure to contractor disputes and statutory approval challenges in ISTS-connected utility solar.
+*Why it matters:* Risk allocation across land, design, procurement, construction, commissioning, grid-tie and O&M in utility solar requires multi-disciplinary advisory (Energy + Dispute) and careful downstream contractor qualification; GUVNL off-take underpins project bankability and regulatory gate.
 
 [Open source ↗](https://www.barandbench.com/dealstreet/trilegal-advised-patel-greentech-on-tender-process-for-700-mw-solar-project-in-gujarat)
 
 ---
 
-### ACME Solar raises ₹2,800 crore via Qualified Institutional Placement
+### ACME Solar Holdings raises ₹2,800 crore via QIP; Shardul, Cyril Amarchand, Hogan Lovells act
 **IPO** · ₹2,800 cr · Mumbai · Reported
 
-ACME Solar Holdings, a top-10 renewable energy IPP in India, completed a ₹2,800 crore QIP of equity shares , supported by Shardul Amarchand Mangaldas (issuer counsel), Cyril Amarchand Mangaldas (placement agent counsel), and Hogan Lovells (international counsel to placement agents).
+ACME Solar Holdings, a top-10 Indian renewable energy IPP, raised ₹2,800 crore through qualified institutional placement , with Shardul Amarchand advising the issuer, Cyril Amarchand Mangaldas advising placement agents ICICI Securities and IIFL Capital, and Hogan Lovells providing international counsel to the agents.
 
-*Why it matters:* Large-cap renewable energy capital-raise via QIP by established IPP underscores institutional appetite for clean energy infrastructure; QIP route (vs. IPO) indicates issuer optionality and investor base maturity in the sector.
+*Why it matters:* QIP via placement agents (rather than direct offer to public) streamlines capital raise for large-cap, institutional-grade renewable energy infrastructure; precedent for blended domestic counsel + international counsel model on cross-border institutional rounds.
 
 [Open source ↗](https://www.barandbench.com/dealstreet/shardul-amarchand-cyril-amarchand-hogan-lovells-act-on-acme-solar-2800-crore)
 
 ---
 
-### Khaitan & Co acts on HFCL ₹555 crore preferential issue
-**MA** · ₹555 crore · Mumbai · ✓ Verified
+### JSA advises HDFC Bank on sanctioning ₹1,940 crore financing to Indus Infra Trust
+**BANK** · ₹1,940 cr · Mumbai · ✓ Verified
 
-HFCL Limited launched a preferential issue of 7.5 crore warrants valued at ₹555 crore to its Promoter and Promoter Group. The transaction represents a capital raise via warrant issuance under preferential allotment rules, advised by Khaitan & Co.
+HDFC Bank sanctioned ₹1,940 crore in refinancing to Indus Infra Trust , the GR Infra-backed road infrastructure investment trust, with proceeds to refinance debt of newly acquired SPVs.
 
-*Why it matters:* Preferential warrant issuance to promoters triggers Securities and Exchange Board of India (SEBI) Listing Rules disclosure requirements and shareholder approval thresholds; warrant exercise mechanics and conversion ratios must align with extant takeover code provisions to avoid subsequent change-of-control issues.
+*Why it matters:* InvIT refinancing structures increasingly rely on large commercial bank credit facilities; review whether the underlying SPV acquisitions triggered RBI single-borrower exposure ceilings or SEBI InvIT governance approval thresholds.
 
-[Open source ↗](https://www.barandbench.com/dealstreet/khaitan-co-acts-on-hfcl-555-crore-preferential-issue)
-
----
-
-### IRFC delivers Rs 12,842 crore strategic refinancing for HURL, advancing whole-of-government financing vision
-**BANK** · ₹12,842 cr · Delhi · ✓ Verified
-
-IRFC announced ₹12,842 crore strategic refinancing facility for HURL, framed as part of whole-of-government financing coordination. The transaction was disclosed via NSE intimate exchange filing on 23 March 2026.
-
-*Why it matters:* This scale of strategic refinancing through a government DFI (IRFC) signals coordinated policy-led infrastructure financing, likely involving either HURL debt restructuring or substitution of higher-cost borrowings—relevant precedent for whole-of-government refinancing structures in public sector entities and railways-linked assets.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IRFC_23032026203243_Intimationofpressrelease.pdf)
-
----
-
-### Bharat Gears invests ₹1.27 cr for 29.55% stake in Hexa Energy HR5 to secure solar power for Faridabad & Mumbra units
-**MA** · ₹1,27,39,980 (~₹1.27 cr) · Mumbai / Faridabad (cross-location) · ✓ Verified
-
-Bharat Gears Limited has invested ₹1,27,39,980 (₹1.27 cr) to acquire 29.55% paid-up equity in Hexa Energy HR5 Private Limited , a move tied to renewable energy procurement obligations under India's Electricity Laws for its manufacturing units at Faridabad and Mumbra.
-
-*Why it matters:* The minority equity stake structure (29.55%) coupled with explicit compliance-linkage to renewable purchase obligations signals a structured solar-power-purchase-agreement alternative vehicle—a common mechanism under India's renewable energy compliance framework where off-takers internalize supply-chain risk by taking minority board-level stakes in dedicated solar SPVs.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/BHARATGEAR_04062026173049_NSE.pdf)
-
----
-
-### JSA, Dentons Link Legal act on Continuum Green Energy securing ₹1,350 crore from Chubu Electric Power Co.
-**PE** · ₹1,350 cr (~$145 million) · Mumbai · ✓ Verified
-
-Chubu Electric Power Co., a major Japanese utility, invested ₹1,350 crores (~$145 million) in Continuum Green Energy via a combination of primary subscription and secondary equity acquisition, subject to CCI approval.
-
-*Why it matters:* Cross-border renewable energy PE into an Indian utility-scale platform highlights regulatory gating via CCI foreign investment review and the structuring distinction between primary share issuance and secondary acquisition in a single tranche.
-
-[Open source ↗](https://www.barandbench.com/dealstreet/jsa-assists-continuum-green-energy-on-securing-1350-crore-from-chubu-electric-power-co)
+[Open source ↗](https://www.barandbench.com/dealstreet/jsa-advises-hdfc-bank-on-sanctioning-1940-crores-to-indus-infra-trust)
 
 ---
 
@@ -163,124 +174,113 @@ Outcome of Board Meeting — Oberoi Realty Limited has informed the Exchange reg
 
 ---
 
-### Sammaan Capital Limited allots ₹750 cr secured NCDs on private placement basis
-**REG** · ₹750 cr · Mumbai · ✓ Verified
-
-Sammaan Capital Limited allotted 75,000 secured, rated, listed, non-convertible debentures (NCDs) of ₹1,00,000 face value each, aggregating ₹750 crore, on a private placement basis. The allotment was authorised by the Board on September 3, 2025, and approved by the Securities Issuance and Investment Committee on March 24, 2026.
-
-*Why it matters:* The use of secured NCDs on private placement signals the company's reliance on debt capital markets for liquidity; note the redeemable and rated structure typical of NBFC refinancing under SEBI Listing Regulations and RBI guidelines for housing finance companies.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_30032026114901_SCL_NCD_allotment_intimation_30Mar26_Final.pdf)
-
----
-
-### Sammaan Capital Limited allots ₹280 cr secured non-convertible debentures in two series
+### Sammaan Capital Limited allots ₹280 crore secured non-convertible debentures in two series
 **REG** · ₹280 cr · Mumbai · ✓ Verified
 
-Sammaan Capital Limited (IHFL's renamed entity) completed allotment of ₹280 crore in secured, rated, listed, redeemable NCDs across two series — Series I (₹125 cr, 12,500 debentures) and Series II (₹155 cr, 15,500 debentures), each of ₹1 lakh face value, pursuant to Board authorisation and Securities Issuance Committee approval.
+Sammaan Capital Limited (formerly IHFL) allotted ₹280 crore of secured, rated, listed, redeemable NCDs across two series — Series I (₹125 crore, 12,500 debentures) and Series II (₹155 crore, 15,500 debentures), each with face value of ₹1 lakh, pursuant to Board authorization (Sept 3, 2025) and Securities Issuance Committee resolution (Feb 27, 2026).
 
-*Why it matters:* NCD issuance by a NBFC-HFC successor post-rebranding signals continued capital-raising in the secured lending space; the dual-series structure and listed rating status indicate institutional-grade debt markets access, relevant for refinance planning and regulatory compliance under RBI HFC norms.
+*Why it matters:* The dual-tranche structure and formal allotment intimation to NSE underscores the company's reliance on listed NCD markets for capital raises post-rebranding, signalling debt-market confidence in the IHFL-to-Sammaan transition and rated debenture issuance discipline in the NBFC sector.
 
 [Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_05032026133650_SCL_NCD_allotment_intimation_05Mar2026.pdf)
 
 ---
 
-### Vidhiśāstras advises Pagani Capital on $35M India-Portugal residency investment programme
-**PE** · $35 million · Cross-border (India–Portugal) · ✓ Verified
+### Mangalam Worldwide Limited Board approves issuance of ₹100 cr NCDs on private placement basis
+**REG** · ₹100 cr · Mumbai · ✓ Verified
 
-Vidhiśāstras has structured a $35 million India and Middle East-focused residency investment programme for Pagani Capital Holding, encompassing foreign investment facilitation, regulatory compliance and cross-border investor onboarding across Portuguese and Indian projects. The mandate covered legal due diligence, corporate structuring, transaction documentation, governance frameworks and investor protection mechanisms to enable capital deployment into qualifying Indian sectors.
+MWL's board approved private placement of Non-Convertible Debentures up to ₹100 crore, with a debenture committee constituted to determine terms and conditions.
 
-*Why it matters:* Cross-border residency/investment programmes require parallel assessment of both source-country (India: FDI policy, RBI ECB norms, tax treaties) and destination-country (Portugal: Golden Visa regulatory framework, EU investment rules) regimes; Indian counsel must address outbound capital compliance, treaty protection and domestic sector-specific restrictions—a structuring pattern increasingly common for high-net-worth residency schemes.
-
-[Open source ↗](https://www.barandbench.com/dealstreet/vidhistras-acts-for-pagani-capital-on-35-million-india-focused-residency-investment-programme)
-
----
-
-### Nazara to Acquire Controlling Stake in Social Gaming Platform Bluetile and BestPlay for USD 100.3 million
-**MA** · USD 100.3 million (approx. ₹918 crores) · Cross-border (India–Global) · ✓ Verified
-
-Nazara Technologies announced acquisition of controlling stake in social gaming platforms Bluetile and BestPlay for USD 100.3 million (~₹918 crores) , marking a strategic expansion into casual and social gaming segments.
-
-*Why it matters:* Acquisition of dual gaming platforms signals Nazara's shift toward casual/social gaming; cross-border gaming M&A structure will trigger FEMA reporting and gaming sector regulatory considerations under MeitY guidelines.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NAZARA_18032026184643_PRIntimationFinal.pdf)
-
----
-
-### Skyroot Aerospace raises $60 million to achieve unicorn status with $1.1 billion valuation
-**PE** · $60 million · Hyderabad · Reported
-
-Skyroot Aerospace, India's leading private space launch provider, raised $60 million in a funding round co-led by Sherpalo Ventures and GIC, crossing $1.1 billion valuation and achieving unicorn status. The capital will fund high-cadence Vikram-1 launches, manufacturing scale-up, and development of Vikram-2, a 1-tonne cryogenic launch vehicle.
-
-*Why it matters:* Indian space venture fundraises now routinely attract institutional capital (GIC, BlackRock funds, family offices) at unicorn valuations, signalling regulatory confidence in the commercial space sector and enabling rapid scale in satellite launch services—a precedent for sector-wide commercial monetisation post-IN-SPACe policy.
-
-[Open source ↗](https://www.barandbench.com/dealstreet/skyroot-rockets-to-unicorn-status-with-60-million-fundraise-trilegal-tta-advise-2)
-
----
-
-### CMR Green Technologies ₹630 crore IPO via offer for sale
-**IPO** · ₹630.621 cr · Mumbai · Reported
-
-CMR Green Technologies, India's largest non-ferrous metal recycler, completed a ₹630.621 crore IPO comprising an offer for sale of 32.86 million equity shares by the promoters and an investor shareholder. The transaction was advised by Crawford Bayley (issuer counsel), DSK Legal (BRLMs), Hogan Lovells (international BRLM counsel), and Quillon Partners (investor shareholder counsel).
-
-*Why it matters:* IPO structuring via offer for sale (rather than fresh issue) preserves promoter control while exiting investor positions; multi-jurisdictional coordination (Hogan Lovells as international counsel) suggests cross-border institutional investors or governance requirements.
-
-[Open source ↗](https://www.barandbench.com/dealstreet/crawford-bayley-dsk-legal-hogan-lovells-quillon-partners-act-on-cmr-green-technologies-630-crore-ipo)
-
----
-
-### Acme Solar completes ₹2,800 crore Qualified Institutional Placement
-**IPO** · ₹2,800 cr · Mumbai · ✓ Verified
-
-Acme Solar Holdings Limited has successfully completed a ₹2,800 crore Qualified Institutional Placement (QIP) , raising capital through issuance of fresh equity to QIPs under SEBI's regulatory framework. The transaction represents a significant capital infusion for the renewable energy firm.
-
-*Why it matters:* QIP completion under SEBI ICDR Rules signals investor confidence in solar/renewable sector; note the regulatory pathway (board approval → shareholder approval → QIP issuance → listing compliance) and any lock-in periods imposed on institutional allocations.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ACMECS_05062026083656_Intimation_05062026.pdf)
-
----
-
-### Mangalam Worldwide Limited approves issuance of NCDs up to ₹100 crore on private placement basis
-**REG** · ₹100 cr · India · ✓ Verified
-
-Mangalam Worldwide Limited's board approved the issuance of non-convertible debentures (NCDs) up to ₹100 crore via private placement. The board also constituted a debenture committee to determine the terms and conditions of issuance.
-
-*Why it matters:* Private placement of NCDs without prior shareholder approval under 71(1)(d) of the Companies Act signals a routine corporate financing decision; review the debenture committee's mandate and the final terms (coupon, tenure, security, call/put provisions) against SEBI ICDR Regulations 2018 and the company's borrowing capacity under its articles.
+*Why it matters:* Private placement NCDs avoid public offer regulatory friction; the debenture committee structure is standard for tailoring terms per investor appetite—key for mid-market issuers seeking flexibility on coupon/tenure without open-market pricing pressure.
 
 [Open source ↗](https://nsearchives.nseindia.com/corporate/MWL_24022026161853_OUTCOMEBM24022026.pdf)
 
 ---
 
-### Ashiana Housing Limited redeems ₹35 cr in NCDs and interest to IFC
-**REG** · ₹35 cr · Delhi · ✓ Verified
+### Nazara Technologies to acquire controlling stake in social gaming platforms Bluetile and BestPlay for USD 100.3 million
+**MA** · USD 100.3 million (approx. ₹918 crore) · Cross-border (India–Global) · ✓ Verified
 
-Ashiana Housing Limited paid ₹35 crore to the International Finance Corporation on 6 March 2026 representing partial redemption and accrued interest on Non-Convertible Debentures (NCDs) listed on BSE. The payment reflects a scheduled debt-service obligation on the company's listed fixed-income securities.
+Nazara Technologies announced acquisition of a controlling stake in gaming platforms Bluetile and BestPlay for USD 100.3 million (≈ ₹918 cr) , expanding its portfolio in mobile and social gaming in emerging markets.
 
-*Why it matters:* NCD redemption schedules and interest payment dates are material corporate governance events requiring timely stock exchange intimation; counsel should verify that all debenture trustee conditions precedent (if any) and listing compliance have been satisfied before redemption.
+*Why it matters:* Cross-border gaming M&A by a listed Indian tech firm triggers FEMA gateway review under Schedule 1 of FEMA Rules (overseas venture capital investment) and soft-gaming regulatory scrutiny across target jurisdictions; the USD 100.3m threshold flags significant foreign exchange outgo needing RBI comfort.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ASHIANA_06032026175013_IntimationtoSTXNSESIGNED.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NAZARA_18032026184643_PRIntimationFinal.pdf)
 
 ---
 
-### Sammaan Capital allots ₹70 crore secured, rated NCDs on private placement basis
+### Crawford Bayley, DSK Legal, Hogan Lovells, Quillon Partners act on CMR Green Technologies ₹630 crore IPO
+**IPO** · ₹630.62 cr · Mumbai · Reported
+
+CMR Green Technologies, India's largest non-ferrous metal recycler, completed a ₹630.62 crore IPO comprising an offer for sale of 32.86 million shares by the promoter and investor shareholders. Crawford Bayley advised the issuer, DSK Legal advised the three BRLMs, Hogan Lovells acted as international counsel to the BRLMs, and Quillon Partners advised the Investor Selling Shareholder.
+
+*Why it matters:* Multi-counsel IPO structure typical of large secondary-market recycling plays; note the three-tier legal representation (domestic issuer, BRLM/international, and selling shareholder counsel) and robust pre-filing due diligence and SEBI/exchange query response workflows.
+
+[Open source ↗](https://www.barandbench.com/dealstreet/crawford-bayley-dsk-legal-hogan-lovells-quillon-partners-act-on-cmr-green-technologies-630-crore-ipo)
+
+---
+
+### JSA, Dentons Link Legal act on Continuum Green Energy securing ₹1,350 crore from Chubu Electric Power Co.
+**PE** · ₹1,350 cr (~$145 m) · Cross-border (India–Japan) · Reported
+
+Chubu Electric Power Co. invests ₹1,350 crore in Indian renewable energy platform Continuum Green Energy through primary subscription and secondary equity acquisition. Transaction subject to CCI approval and other regulatory gates.
+
+*Why it matters:* Cross-border renewable energy investment by FDI-regulated Japanese utility into India-domiciled green platform triggers FDI screening (automatic route if <49% stake, unless sensitive sectors apply), plus CCI merger thresholds if combined operations materialize — essential to verify equity % acquired and any operational integration plans.
+
+[Open source ↗](https://www.barandbench.com/dealstreet/jsa-assists-continuum-green-energy-on-securing-1350-crore-from-chubu-electric-power-co)
+
+---
+
+### Acme Solar Holdings completes ₹2,800 crore QIP
+**IPO** · ₹2,800 cr · Mumbai · ✓ Verified
+
+Acme Solar Holdings has successfully completed a Qualified Institutional Placement (QIP) raising ₹2,800 crore through issuance of equity shares to qualified institutional investors, as disclosed to NSE on 5 June 2026.
+
+*Why it matters:* QIPs under the SEBI (Issue of Capital and Disclosure Requirements) Regulations, 2018 allow listed companies to raise capital from institutional investors without triggering a mandatory rights offer to existing shareholders—a critical efficiency lever for energy-sector capex funding that bypasses the 30% dilution threshold for open offers.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ACMECS_05062026083656_Intimation_05062026.pdf)
+
+---
+
+### Vidhiśāstras acts for Pagani Capital on $35 million India-focused Residency Investment Programme
+**REG** · $35 million · Cross-border (India–Portugal) · Reported
+
+Vidhiśāstras advised Pagani Capital Holding on the structuring and regulatory framework for a $35 million residency investment programme targeting Indian and Middle Eastern capital for project investment. The mandate covered foreign investment law, corporate structuring, compliance, investor onboarding, and cross-border risk management.
+
+*Why it matters:* The structuring of residency-linked investment vehicles requires integrated analysis of Portuguese immigration law, Indian foreign investment policy (FEMA, FDI caps, sectoral restrictions), and cross-border compliance—a hybrid area where counsel must co-ordinate investment and immigration frameworks.
+
+[Open source ↗](https://www.barandbench.com/dealstreet/vidhistras-acts-for-pagani-capital-on-35-million-india-focused-residency-investment-programme)
+
+---
+
+### Sammaan Capital Limited allots ₹750 cr secured, rated NCDs on private placement basis
+**REG** · ₹750 cr · Mumbai · ✓ Verified
+
+Sammaan Capital (erstwhile IHFL) completed allotment of 75,000 secured, rated, listed, redeemable NCDs aggregating ₹750 crore on a private placement basis, authorized under Board resolution of September 3, 2025 and Securities Issuance Committee approval of March 24, 2026.
+
+*Why it matters:* Private placement NCD issuance by a large housing finance player signals reliance on non-bank debt capital post-rebranding; practitioners note the dual-layer authorization (Board + SEC) required under SEBI Listing Regulations for unlisted/private NCDs and the significance of 'rated' and 'listed' status for investor transparency and secondary market liquidity.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_30032026114901_SCL_NCD_allotment_intimation_30Mar26_Final.pdf)
+
+---
+
+### Sammaan Capital Limited allots ₹70 crore secured NCDs on private placement basis
 **REG** · ₹70 crore · Mumbai · ✓ Verified
 
-Sammaan Capital Limited (formerly IHFL) has completed allotment of 7,000 secured, rated, listed, redeemable non-convertible debentures aggregating ₹70 crore on private placement basis pursuant to Board authorization and Securities Issuance Committee resolution.
+Sammaan Capital Limited (formerly IHFL) has allotted 7,000 secured, rated, listed, redeemable non-convertible debentures aggregating ₹70 crore on a private placement basis pursuant to Board authorization and SIAC resolution, expanding its debt capital market footprint.
 
-*Why it matters:* Private placement NCD issuances by HFCs require dual approval (Board + Securities Committee) and Exchange notification; this precedent confirms the expedited timeline (Committee approval Feb 23 to allotment Feb 26) for rated debt under listing regulations.
+*Why it matters:* The rebranding from Indiabulls Housing Finance to Sammaan Capital reflects a repositioning of the housing finance business; private placement NCDs signal selective institutional fundraising strategy post-restructuring, with secured and rated instruments indicating lender confidence in the recalibrated entity.
 
 [Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_26022026130204_SCL_NCD_allotment_intimation_26Feb26.pdf)
 
 ---
 
-### RCF fined ₹5.43 lakh by NSE and BSE for SEBI LODR non-compliance
-**REG** · Mumbai · ✓ Verified
+### Bharat Gears invests ₹1.27 cr in Hexa Energy HR5 for renewable power sourcing
+**REG** · ₹1.27 cr · Mumbai · ✓ Verified
 
-Rashtriya Chemicals and Fertilizers Limited received fines of ₹5,42,800 each from NSE and BSE for breach of Regulation 17(1) of SEBI's Listing Obligations and Disclosure Requirements (LODR) for the quarter ended 31 December 2025.
+Bharat Gears Limited acquired a 29.55% stake in Hexa Energy HR5 Private Limited for ₹1.27 crore , comprising 13,134 equity shares at ₹970 per share, to meet electricity sourcing requirements under applicable power laws for its Faridabad and Mumbra manufacturing units.
 
-*Why it matters:* Quarterly non-compliance with LODR disclosure obligations triggers automatic exchange penalties; RCF's breach signals governance lapse in financial reporting disclosures and underscores regulatory enforcement of periodic filing deadlines.
+*Why it matters:* Corporate renewable-energy procurement through minority equity stakes in special-purpose solar entities triggers SEBI Regulation 30 disclosure and requires review of Electricity Act 2003 requirements, grid-connection conditions and renewable-purchase obligations compliance.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/RCF_28022026131851_SEIntimation_Fine_Dec25.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/BHARATGEAR_04062026173049_NSE.pdf)
 
 ---
 
@@ -302,14 +302,12 @@ Disclosure under SEBI Takeover Regulations — Avonmore Capital & Management Ser
 
 ---
 
-### Hero MotoCorp acquires 36.67% stake in Euler Motors for ₹210 crore
-**MA** · ₹210 cr · Delhi · ✓ Verified
+### CMS INDUSLAW advises Anveshan on ₹150 crore Series B fundraise
+**PE** · ₹150 cr · India · Reported
 
-Hero MotoCorp completed acquisition of 2,68,219 Series E CCPS in Euler Motors for ₹210 crore, raising its stake to 36.67% on a fully diluted basis. This is part of the announced ₹275 crore additional investment commitment made in February 2026.
+Anveshan Farm Technologies Private Limited has raised ₹150 crore from a Series B fundraise led by Vertex Ventures and IFC Co-Invest, with participation from Swiggy co-founder Sriharsha Majety and existing investors. CMS INDUSLAW advised…
 
-*Why it matters:* The staged investment structure (primary infusion + secondary purchase option) in a pre-IPO venture capital round demonstrates how listed corporates structure repeat funding in associate companies to manage dilution and board governance while preserving optionality.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HEROMOTO_01042026193105_Stxintimation01042026.pdf)
+[Open source ↗](https://www.barandbench.com/dealstreet/cms-induslaw-advises-anveshan-on-150-crore-series-b-fundraise)
 
 ---
 
@@ -367,47 +365,47 @@ Updates — Patel Engineering Limited has informed the Exchange regarding 'Patel
 
 ---
 
-### Genesys International fined ₹4.19 lakh each by BSE and NSE for Reg 17(1) LODR non-compliance
-**REG** · ₹8.37 lakh · Mumbai · ✓ Verified
+### Khaitan & Co acts on HFCL ₹555 crore preferential issue
+**MA** · ₹555 crore · Mumbai · Reported
 
-Genesys International received twin fines of ₹4,18,900 each from BSE and NSE for breach of Regulation 17(1) of the SEBI Listing Obligations and Disclosure Requirements (LODR) Regulations, 2015, communicated via notices dated 27 May 2026.
+HFCL Limited is making a preferential issue of 7.5 crore warrants aggregating ₹555 crore to its promoter and promoter group. The transaction is structured as a warrant issuance, which offers the promoters downside protection and staged capital infusion.
 
-*Why it matters:* Regulation 17(1) LODR non-compliance—likely relating to board composition, independence or disclosures—carries dual-exchange enforcement and modest but cumulative penalties; listed companies must reconcile board certifications across both exchanges.
+*Why it matters:* Preferential warrant issues to promoters allow capital-constrained promoters to maintain/augment holding while deferring cash outflow until exercise, contingent on company performance and regulatory approval under SEBI ICDR norms.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/GENESYS_28052026141624_Penalty_by_BSE_NSE.pdf)
-
----
-
-### JSA advises HDFC Bank on sanctioning ₹1,940 crores to Indus Infra Trust
-**BANK** · ₹1,940 cr · Mumbai · Reported
-
-HDFC Bank sanctioned ₹1,940 crore financing to Indus Infra Trust, a road-sector infrastructure investment trust platform. The facility will primarily refinance existing debt incurred by newly acquired SPVs within the Indus Infra Trust portfolio.
-
-*Why it matters:* Infrastructure InvIT financing structures require careful syndication of debt instruments across trustee, unit-holder and SPV layers; refinancing via external bank facilities is a standard vehicle for optimising cost of capital in the road sector.
-
-[Open source ↗](https://www.barandbench.com/dealstreet/jsa-advises-hdfc-bank-on-sanctioning-1940-crores-to-indus-infra-trust)
+[Open source ↗](https://www.barandbench.com/dealstreet/khaitan-co-acts-on-hfcl-555-crore-preferential-issue)
 
 ---
 
-### Satin Creditcare Network Limited: Allotment of 2,500 Non-Convertible Debentures
-**REG** · ₹25 cr · Mumbai · ✓ Verified
+### Hero MotoCorp completes ₹210 cr Series E investment in Euler Motors, raises stake to 36.67%
+**MA** · ₹210 cr · Delhi · ✓ Verified
 
-Satin Creditcare Network Limited allotted 2,500 non-convertible debentures of face value ₹1,00,000 each, aggregating ₹25 crore. Allotment intimation filed with NSE on 30 March 2026.
+Hero MotoCorp has completed acquisition of 2,68,219 Series E Cumulative Compulsorily Convertible Preference Shares in Euler Motors for ₹210 crore, elevating its fully-diluted stake to 36.67%. The investment was announced in February 2026 as part of a planned ₹275 crore additional investment tranche in the EV logistics associate.
 
-*Why it matters:* NCD allotments for microfinance NBFCs are routine debt-raising disclosures under exchange listing rules; this signals the company's capital management without material transactional complexity or M&A precedent.
+*Why it matters:* Preference share issuance and compulsory convertibility structure is standard for growth-stage EV companies; the staged tranche and dilution-basis disclosure signal governance discipline in affiliate equity structures, relevant for associate-company accounting and consolidation under IndAS 27.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SATIN_30032026180032_SATIN_Allotment_Intimation.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HEROMOTO_01042026193105_Stxintimation01042026.pdf)
 
 ---
 
-### Piramal Finance completes stake sale in Shriram Life Insurance for ₹600 crore
+### Piramal Finance completes sale of stake in Shriram Life Insurance
 **MA** · ₹600 cr · Mumbai · ✓ Verified
 
-Piramal Finance Limited has completed the divestment of its stake in Shriram Life Insurance Company Limited, receiving the full consideration of ₹600 crore on 30 March 2026. The transaction closure marks the exit from the insurance joint venture partnership.
+Piramal Finance Limited has completed the sale of its stake in Shriram Life Insurance Company Limited, with full consideration of ₹600 crore received on 30 March 2026. The transaction closure marks the exit of Piramal from the life insurance subsidiary.
 
-*Why it matters:* Completion of a large financial services portfolio restructuring underscores the regulatory framework governing NBFC divestment from life insurance joint ventures under IRDAI oversight and NSE disclosure protocols for substantial asset sales.
+*Why it matters:* Strategic divestiture of a financial services subsidiary by a non-bank finance company demonstrates the regulatory framework permitting NBFC stake sales in insurance entities under IRDAI oversight without mandatory lock-in post-completion.
 
 [Open source ↗](https://nsearchives.nseindia.com/corporate/Piramalcapital_30032026150129_PFLReg30_1.pdf)
+
+---
+
+### Satin Creditcare Network allots 2,500 NCDs of ₹1 lakh face value
+**BANK** · ₹25 cr · Mumbai · ✓ Verified
+
+Satin Creditcare Network Limited completed allotment of 2,500 Non-Convertible Debentures (NCDs) with a face value of ₹1,00,000 each, aggregating ₹25 crore. The intimation filed with NSE confirms institutional debt capital mobilisation by the NBFC.
+
+*Why it matters:* NCD allotments by shadow banks now require granular NSE disclosure of debenture tranches, certificate numbers and allotment dates—material for tracking regulatory capital adequacy and investor redemption schedules in the NBFC lending ecosystem.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SATIN_30032026180032_SATIN_Allotment_Intimation.pdf)
 
 ---
 
