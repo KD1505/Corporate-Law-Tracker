@@ -46,8 +46,8 @@ jobs:
           # Leave it unset to run completely FREE (rule-based, still ingests the full spine).
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLT_PRESS_MAX: "12"     # Bar & Bench / RSS items (named law-firm teams) per run
-          CLT_SPINE_MAX: "60"     # public-deal disclosures (BSE/NSE/CCI/SEBI) per nightly run
-          CLT_AI_DEEP: "18"       # of the spine, how many to enrich DEEPLY with AI (cost guard)
+          CLT_SPINE_MAX: "100"    # public-deal disclosures (BSE/NSE) ingested per run — raise for MORE deals
+          CLT_AI_DEEP: "25"       # of those, how many to AI-enrich DEEPLY (richer cards, but each costs API credit)
           # Backfill: blank on schedule; set via the "Run workflow" button to load history once.
           CLT_BACKFILL: ${{ github.event.inputs.backfill_days }}
         run: npm run build
