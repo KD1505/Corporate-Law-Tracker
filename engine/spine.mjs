@@ -237,7 +237,10 @@ export async function fetchPublicDeals(existing, opts = {}) {
   const days = opts.days ?? 3;
   const maxPages = opts.maxPages ?? 4;
   const limit = opts.limit ?? 60;
-  const sources = opts.sources ?? ["bse", "nse", "cci", "sebi"];
+  // CCI & SEBI block automated requests from CI servers (they consistently "fetch failed"),
+  // and NSE already supplies comprehensive coverage — so default to the sources that work.
+  // Re-enable with opts.sources if their endpoints become reachable.
+  const sources = opts.sources ?? ["bse", "nse"];
   const log = (m) => console.log(`  [spine] ${m}`);
   const out = [];
 
