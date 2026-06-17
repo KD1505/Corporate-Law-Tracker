@@ -261,6 +261,12 @@ async function main() {
     await writeFile(DATA, data, "utf8");
     console.log("data.js updated.");
   } else console.log("Nothing new anywhere. Clean exit.");
+
+  /* ---------------- LINK-CHECK PHASE (source-link health → per-deal "verified" stamp) ---------------- */
+  if (process.env.CLT_LINKCHECK !== "0") {
+    try { const { runLinkCheck } = await import("./linkcheck.mjs"); await runLinkCheck(); }
+    catch (e) { console.warn(`Link-check skipped: ${e.message}`); }
+  }
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });
