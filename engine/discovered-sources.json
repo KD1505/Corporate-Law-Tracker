@@ -1,34 +1,34 @@
 {
   "_note": "Auto-grown source funnel. Each run logs every domain that corroborated a deal, with a running count. Domains marked official:true are government/regulator/exchange/court. Review the high-count entries periodically and promote the best into sources.json as curated corroborators.",
   "barandbench.com": {
-    "count": 125,
+    "count": 129,
     "firstSeen": "2026-06-08",
     "official": false,
-    "lastSeen": "2026-06-17"
+    "lastSeen": "2026-06-18"
   },
   "bseindia.com": {
-    "count": 560,
+    "count": 668,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-06-17"
+    "lastSeen": "2026-06-18"
   },
   "nseindia.com": {
-    "count": 576,
+    "count": 683,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-06-17"
+    "lastSeen": "2026-06-18"
   },
   "sebi.gov.in": {
-    "count": 103,
+    "count": 112,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-06-17"
+    "lastSeen": "2026-06-18"
   },
   "cci.gov.in": {
-    "count": 454,
+    "count": 559,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-06-17"
+    "lastSeen": "2026-06-18"
   },
   "rbi.org.in": {
     "count": 31,
@@ -43,10 +43,10 @@
     "lastSeen": "2026-06-16"
   },
   "nsearchives.nseindia.com": {
-    "count": 659,
+    "count": 779,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-06-17"
+    "lastSeen": "2026-06-18"
   },
   "hfcl.com": {
     "count": 2,
@@ -55,10 +55,10 @@
     "lastSeen": "2026-06-17"
   },
   "livelaw.in": {
-    "count": 8,
+    "count": 9,
     "firstSeen": "2026-06-14",
     "official": false,
-    "lastSeen": "2026-06-17"
+    "lastSeen": "2026-06-18"
   },
   "economictimes.indiatimes.com": {
     "count": 3,
@@ -67,10 +67,10 @@
     "lastSeen": "2026-06-16"
   },
   "mca.gov.in": {
-    "count": 7,
+    "count": 8,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-06-17"
+    "lastSeen": "2026-06-18"
   },
   "grinfra.com": {
     "count": 2,
@@ -325,10 +325,10 @@
     "lastSeen": "2026-06-17"
   },
   "reuters.com": {
-    "count": 1,
+    "count": 2,
     "firstSeen": "2026-06-17",
     "official": false,
-    "lastSeen": "2026-06-17"
+    "lastSeen": "2026-06-18"
   },
   "arkamventures.com": {
     "count": 1,
@@ -437,5 +437,53 @@
     "firstSeen": "2026-06-17",
     "official": true,
     "lastSeen": "2026-06-17"
+  },
+  "nasdaq.com": {
+    "count": 1,
+    "firstSeen": "2026-06-18",
+    "official": true,
+    "lastSeen": "2026-06-18"
+  },
+  "sec.gov": {
+    "count": 1,
+    "firstSeen": "2026-06-18",
+    "official": true,
+    "lastSeen": "2026-06-18"
+  },
+  "spacex.com": {
+    "count": 1,
+    "firstSeen": "2026-06-18",
+    "official": true,
+    "lastSeen": "2026-06-18"
+  },
+  "ft.com": {
+    "count": 1,
+    "firstSeen": "2026-06-18",
+    "official": false,
+    "lastSeen": "2026-06-18"
+  },
+  "godrejind.com": {
+    "count": 1,
+    "firstSeen": "2026-06-18",
+    "official": true,
+    "lastSeen": "2026-06-18"
+  },
+  "nhb.org.in": {
+    "count": 1,
+    "firstSeen": "2026-06-18",
+    "official": true,
+    "lastSeen": "2026-06-18"
+  },
+  "business-standard.com": {
+    "count": 1,
+    "firstSeen": "2026-06-18",
+    "official": false,
+    "lastSeen": "2026-06-18"
+  },
+  "hul.co.in": {
+    "count": 1,
+    "firstSeen": "2026-06-18",
+    "official": true,
+    "lastSeen": "2026-06-18"
   }
 }
