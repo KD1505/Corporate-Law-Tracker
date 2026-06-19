@@ -1,34 +1,34 @@
 {
   "_note": "Auto-grown source funnel. Each run logs every domain that corroborated a deal, with a running count. Domains marked official:true are government/regulator/exchange/court. Review the high-count entries periodically and promote the best into sources.json as curated corroborators.",
   "barandbench.com": {
-    "count": 129,
+    "count": 132,
     "firstSeen": "2026-06-08",
     "official": false,
-    "lastSeen": "2026-06-18"
+    "lastSeen": "2026-06-19"
   },
   "bseindia.com": {
-    "count": 668,
+    "count": 775,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-06-18"
+    "lastSeen": "2026-06-19"
   },
   "nseindia.com": {
-    "count": 683,
+    "count": 790,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-06-18"
+    "lastSeen": "2026-06-19"
   },
   "sebi.gov.in": {
-    "count": 112,
+    "count": 120,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-06-18"
+    "lastSeen": "2026-06-19"
   },
   "cci.gov.in": {
-    "count": 559,
+    "count": 661,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-06-18"
+    "lastSeen": "2026-06-19"
   },
   "rbi.org.in": {
     "count": 31,
@@ -43,10 +43,10 @@
     "lastSeen": "2026-06-16"
   },
   "nsearchives.nseindia.com": {
-    "count": 779,
+    "count": 899,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-06-18"
+    "lastSeen": "2026-06-19"
   },
   "hfcl.com": {
     "count": 2,
@@ -61,10 +61,10 @@
     "lastSeen": "2026-06-18"
   },
   "economictimes.indiatimes.com": {
-    "count": 3,
+    "count": 4,
     "firstSeen": "2026-06-14",
     "official": false,
-    "lastSeen": "2026-06-16"
+    "lastSeen": "2026-06-19"
   },
   "mca.gov.in": {
     "count": 8,
@@ -485,5 +485,59 @@
     "firstSeen": "2026-06-18",
     "official": true,
     "lastSeen": "2026-06-18"
+  },
+  "solarsquare.com": {
+    "count": 1,
+    "firstSeen": "2026-06-19",
+    "official": true,
+    "lastSeen": "2026-06-19"
+  },
+  "bcapital.com": {
+    "count": 1,
+    "firstSeen": "2026-06-19",
+    "official": true,
+    "lastSeen": "2026-06-19"
+  },
+  "sarvam.ai": {
+    "count": 1,
+    "firstSeen": "2026-06-19",
+    "official": true,
+    "lastSeen": "2026-06-19"
+  },
+  "hcl.com": {
+    "count": 1,
+    "firstSeen": "2026-06-19",
+    "official": true,
+    "lastSeen": "2026-06-19"
+  },
+  "bvp.com": {
+    "count": 1,
+    "firstSeen": "2026-06-19",
+    "official": true,
+    "lastSeen": "2026-06-19"
+  },
+  "meity.gov.in": {
+    "count": 1,
+    "firstSeen": "2026-06-19",
+    "official": true,
+    "lastSeen": "2026-06-19"
+  },
+  "irctc.co.in": {
+    "count": 1,
+    "firstSeen": "2026-06-19",
+    "official": true,
+    "lastSeen": "2026-06-19"
+  },
+  "nclt.gov.in": {
+    "count": 1,
+    "firstSeen": "2026-06-19",
+    "official": true,
+    "lastSeen": "2026-06-19"
+  },
+  "gujaratgas.com": {
+    "count": 1,
+    "firstSeen": "2026-06-19",
+    "official": true,
+    "lastSeen": "2026-06-19"
   }
 }
