@@ -1,13 +1,11 @@
-// build.mjs — orchestrator run by GitHub Actions nightly.
-//   1. read index.html, find existing deal ids (dedupe)
-//   2. fetch newest Bar & Bench items not already present
-//   3. structure each: FREE rule-based extractor by default; richer AI enricher
-//      ONLY if ANTHROPIC_API_KEY is set
-//   4. prepend the new deals into the DEALS block (between the markers)
-//   5. refresh the "Updated …" date
-//   6. write index.html back  (GitHub Actions then commits it → Vercel redeploys)
+// build.mjs — nightly orchestrator (run by GitHub Actions).
+//   Ingests new deals (press + mandated-disclosure spine), enriches them, and writes data.js.
+//   data.js is the SINGLE SOURCE OF TRUTH; index.html is a data-free shell that reads it.
 //
-// Runs with ZERO paid services unless you opt into AI.
+// Enrichment is TIERED: marquee/significant deals get DEEP enrichment (AI + web-search
+// triangulation across sources); everything else gets AI enrichment WITHOUT web search
+// (cheaper). A per-run cap (CLT_AI_MAX) bounds nightly cost; anything beyond it is
+// metadata-structured and upgraded later by the monthly re-enrichment cycle (reenrich.mjs).
 
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
@@ -15,17 +13,13 @@ import { fileURLToPath } from "node:url";
 import { fetchNewItems, fetchMoves, fetchRegulators, fetchCommentary } from "./fetch.mjs";
 import { fetchPublicDeals } from "./spine.mjs";
 import { extractItem } from "./extract.mjs";
-import { scoreDeal, OFFICIAL_RE } from "./score.mjs";
+import { scoreDeal, OFFICIAL_RE, rawMarquee } from "./score.mjs";
 import { structureRegulatorFree, routeArticleFree, LAW_IDS } from "./ingest.mjs";
 const GENERIC_PORTAL=/(corporates\/ann\.html|companies-listing\/corporate-filings|combination\/orders|public-issues\.html|BS_ViewMasDirections|AllReleasem|order-judgement-date-wise|sebiweb\/home|dipam\.gov\.in\/?$|meity\.gov\.in\/?$|ecourts\.gov\.in\/?$|ibbi\.gov\.in\/en\/orders$|nclt\.gov\.in)/i;
 function hasSpecificOfficial(d){return (d.sources||[]).some(s=>(s.official===true||OFFICIAL_RE.test(s.url||""))&&!GENERIC_PORTAL.test(s.url||""));}
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const HTML = path.join(__dirname, "..", "index.html");
-// data.js is the SINGLE SOURCE OF TRUTH for all deal/market data. The pipeline writes
-// ONLY this file; index.html is a data-free shell that reads it at runtime. This makes
-// design edits (which touch index.html) and data updates (which touch data.js) physically
-// unable to collide — deals can never again be wiped by a cosmetic change.
 const DATA = path.join(__dirname, "..", "data.js");
 const SEEN = path.join(__dirname, "seen.json");
 const DISCOVERED = path.join(__dirname, "discovered-sources.json");
@@ -34,16 +28,14 @@ const END = "/* DEALS-END */";
 const MAX_NEW = Number(process.env.CLT_MAX_NEW || 12);
 const USE_AI = !!process.env.ANTHROPIC_API_KEY;
 
-// Wide-net + depth controls (Phase 1).
+// Wide-net + depth controls.
 const PRESS_MAX = Number(process.env.CLT_PRESS_MAX || MAX_NEW);          // Bar & Bench / RSS items per run
 const BACKFILL_DAYS = Number(process.env.CLT_BACKFILL || 3);            // history window for the spine; set high (e.g. 120) for a one-off backfill
-const SPINE_MAX = Number(process.env.CLT_SPINE_MAX || (BACKFILL_DAYS > 14 ? 250 : 60)); // public-deal disclosures ingested per run
-const SPINE_PAGES = Math.min(40, Math.max(4, Math.ceil(BACKFILL_DAYS * 1.5)));          // BSE pages to walk
-const AI_DEEP = Number(process.env.CLT_AI_DEEP || 18);                  // how many spine items to ENRICH DEEPLY with AI (cost guard)
+const SPINE_MAX = Number(process.env.CLT_SPINE_MAX || (BACKFILL_DAYS > 14 ? 400 : 100)); // safety ceiling on disclosures ingested per run
+const SPINE_MIN = Number(process.env.CLT_SPINE_MIN || 25);             // materiality THRESHOLD — keep every deal at/above this, drop noise below
+const SPINE_PAGES = Math.min(40, Math.max(4, Math.ceil(BACKFILL_DAYS * 1.5)));
+const AI_MAX = Number(process.env.CLT_AI_MAX || 50);                    // max AI enrichments per run (nightly cost cap)
 
-// Safety-net relevance gate: drop anything that is clearly NOT a corporate/commercial
-// matter, even if it somehow reaches us. Dealstreet is already deal-only, so this
-// rarely triggers — it's belt-and-braces against criminal/political/PIL noise.
 const JUNK = /\b(bail|murder|rape|fire|assault|custody|election|poll|assembly|MLA|MP\b|PIL|FIR|arrest|harass|defamation|divorce|gymkhana|polo)\b/i;
 function isRelevant(item) { return !JUNK.test(item.headline || ""); }
 
@@ -51,10 +43,6 @@ async function loadSeen() {
   try { return new Set(JSON.parse(await readFile(SEEN, "utf8"))); }
   catch { return new Set(); }
 }
-
-// THE SOURCE FUNNEL: every domain that ever corroborates a deal is logged here with a
-// running count. Over time this accumulates into a ranked map of the most useful credible
-// sources — the raw material for promoting new sources into the curated registry.
 async function loadDiscovered() {
   try { return JSON.parse(await readFile(DISCOVERED, "utf8")); }
   catch { return {}; }
@@ -74,7 +62,6 @@ function recordDomains(disc, deals) {
 function existingIds(html) {
   const a = html.indexOf(START), b = html.indexOf(END);
   const block = a !== -1 && b !== -1 ? html.slice(a, b) : html;
-  // matches both hand-written  id:"x"  and auto-generated  "id":"x"
   return new Set([...block.matchAll(/"?id"?\s*:\s*"([^"]+)"/g)].map((m) => m[1]));
 }
 function moveIdsFrom(html) {
@@ -97,16 +84,17 @@ function dealCatalogFrom(html) {
   const heads = [...blk.matchAll(/headline:\s*"([^"]+)"/g)].map((m) => m[1]);
   return ids.map((id, i) => ({ id, headline: heads[i] || "", text: (heads[i] || "").toLowerCase() }));
 }
-
 function todayLabel() {
   return new Date().toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
 }
 
-async function structure(item, deep = true) {
-  if (USE_AI && deep) {
+// Tiered structuring: useAI=false → free extractor; useAI=true → AI enricher, with web
+// search on/off per useSearch.
+async function structure(item, useAI, useSearch) {
+  if (useAI) {
     try {
       const { enrichItem } = await import("./enrich.mjs");
-      return await enrichItem(item);
+      return await enrichItem(item, useSearch);
     } catch (e) {
       console.warn(`AI enrich failed for ${item.id} (${e.message}); falling back to free extractor.`);
     }
@@ -130,12 +118,10 @@ async function writeBrief(deals) {
     if (src) md += `[Open source ↗](${src})\n\n`;
     md += `---\n\n`;
   }
-  md += `_Generated automatically by Corporate Law Tracker. Open the dashboard for the full picture, official filings and the legal-framework checklist per deal._\n`;
+  md += `_Generated automatically by Corporate Law Tracker._\n`;
   await writeFile(BRIEF, md, "utf8");
 }
 
-// data.js is the single source of truth. If it is ever missing, rebuild it from index.html
-// (one-time migration); normally it already exists and we just read it.
 async function ensureDataFile() {
   try { return await readFile(DATA, "utf8"); }
   catch {
@@ -158,46 +144,48 @@ async function ensureDataFile() {
 async function main() {
   let data = await ensureDataFile();
   let changed = false;
-  console.log(`Mode: ${USE_AI ? "AI enrichment" : "FREE rule-based"}.`);
+  console.log(`Mode: ${USE_AI ? "AI enrichment (tiered)" : "FREE rule-based"}.`);
+  const TODAY = todayLabel();
 
   /* ---------------- DEALS PHASE ---------------- */
-  // Dedupe against what is ALREADY in data.js (not a separate ledger that can desync).
-  // This is what makes a backfill able to RESTORE missing deals: anything not currently
-  // in data.js is eligible to be re-added.
   const seen = await loadSeen();
   const have = existingIds(data);
 
   // (1) PRESS spine — Bar & Bench Dealstreet + RSS: deals with NAMED law-firm teams.
   const press = (await fetchNewItems(have, PRESS_MAX)).filter(isRelevant);
   press.forEach((p) => have.add(p.id));
-  // (2) MANDATED-DISCLOSURE spine — BSE/NSE/CCI/SEBI: saturate the public-deals space.
+  // (2) MANDATED-DISCLOSURE spine — BSE/NSE: saturate the public-deals space.
   let spine = [];
   try { spine = (await fetchPublicDeals(have, { limit: SPINE_MAX, days: BACKFILL_DAYS, maxPages: SPINE_PAGES })).filter(isRelevant); }
   catch (e) { console.warn(`Spine phase skipped: ${e.message}`); }
-  console.log(`New items — press: ${press.length}, spine: ${spine.length}${BACKFILL_DAYS > 14 ? ` (BACKFILL ${BACKFILL_DAYS}d)` : ""}.`);
+  // QUANTITY via THRESHOLD: keep every deal at/above the materiality floor (drop routine noise),
+  // rather than a blunt top-N cut.
+  const spineKept = spine.filter((s) => (s.material || 0) >= SPINE_MIN);
+  console.log(`New items — press: ${press.length}, spine: ${spineKept.length} (of ${spine.length} ≥ materiality ${SPINE_MIN})${BACKFILL_DAYS > 14 ? `, BACKFILL ${BACKFILL_DAYS}d` : ""}.`);
 
-  // Depth where it matters: deep AI-enrich every press item (named teams) + the most
-  // material spine items; structure the long tail from filing metadata so NOTHING is missed.
-  const deepIds = new Set([
-    ...press.map((p) => p.id),
-    ...spine.slice(0, AI_DEEP).map((s) => s.id),
-  ]);
-  const items = [...press, ...spine];
+  const items = [...press, ...spineKept];
   const deals = [];
-  let deepCount = 0;
+  let aiUsed = 0, deepN = 0, stdN = 0;
   for (const item of items) {
+    const marquee = rawMarquee(item);
+    const useAI = USE_AI && aiUsed < AI_MAX;
+    const useSearch = useAI && marquee;
     try {
-      const deep = deepIds.has(item.id);
-      const d = await structure(item, deep);
-      if (d && d.id && d.headline) { deals.push(d); if (deep && USE_AI) deepCount++; }
+      const d = await structure(item, useAI, useSearch);
+      if (d && d.id && d.headline) {
+        if (useAI) { aiUsed++; if (useSearch) deepN++; else stdN++; d.enrichedAt = TODAY; d.enrichTier = useSearch ? "deep" : "standard"; }
+        else d.enrichTier = d.enrichTier || "metadata";
+        deals.push(d);
+      }
     } catch (e) { console.warn(`  ! skipped ${item.id}: ${e.message}`); }
   }
-  console.log(`Structured ${deals.length} deal(s)${USE_AI ? ` — ${deepCount} deep-enriched, ${deals.length - deepCount} metadata-structured` : " (free rule-based)"}.`);
+  console.log(`Structured ${deals.length} deal(s)${USE_AI ? ` — ${deepN} deep (web-search), ${stdN} standard (no search), ${deals.length - deepN - stdN} metadata` : " (free rule-based)"}.`);
+
   if (deals.length) {
     for (const d of deals) {
       const { score, imp, reasons } = scoreDeal(d);
       d.score = score; d.imp = imp; d.scoreReasons = reasons;
-      d.verified = hasSpecificOfficial(d); // Verified only with a SPECIFIC official source
+      d.verified = hasSpecificOfficial(d);
     }
     data = spliceAfter(data, "window.CLT_DATA.DEALS=[", deals.map((d) => " " + JSON.stringify(d)).join(",\n"));
     for (const d of deals) seen.add(d.id);
@@ -208,18 +196,17 @@ async function main() {
     console.log(`Added ${deals.length} deal(s).`);
   } else console.log("No new deals.");
 
-  /* ---------------- MOVES PHASE (always runs) ---------------- */
+  /* ---------------- MOVES PHASE ---------------- */
   try {
     const moves = await fetchMoves(moveIdsFrom(data));
     if (moves.length) {
       const lits = moves.map((m) => " " + JSON.stringify({ headline: m.headline, type: m.type, date: m.date, url: m.url })).join(",\n");
       data = spliceAfter(data, "window.CLT_DATA.MOVES=[", lits);
-      changed = true;
-      console.log(`Added ${moves.length} move(s).`);
+      changed = true; console.log(`Added ${moves.length} move(s).`);
     } else console.log("No new moves.");
   } catch (e) { console.warn(`Moves phase skipped: ${e.message}`); }
 
-  /* ---------------- REGULATOR PHASE (notifications/circulars → tracker) ---------------- */
+  /* ---------------- REGULATOR PHASE ---------------- */
   try {
     const regBlk = blockOf(data, "REGITEMS-START", "REGITEMS-END");
     const regHave = new Set([...idsInBlock(regBlk), ...slugTailsInBlock(regBlk)]);
@@ -233,7 +220,7 @@ async function main() {
     else console.log("No new regulator items.");
   } catch (e) { console.warn(`Regulator phase skipped: ${e.message}`); }
 
-  /* ---------------- COMMENTARY PHASE (articles → deal / trend / regulation) ---------------- */
+  /* ---------------- COMMENTARY PHASE ---------------- */
   try {
     const commBlk = blockOf(data, "COMMENTARY-START", "COMMENTARY-END") + blockOf(data, "TRENDS-START", "TRENDS-END") + blockOf(data, "REGITEMS-START", "REGITEMS-END");
     const commHave = new Set(slugTailsInBlock(commBlk));
@@ -255,14 +242,14 @@ async function main() {
     console.log(n ? `Added ${newComm.length} commentary, ${newTrends.length} trend(s), ${newReg.length} reg-analysis.` : "No new commentary.");
   } catch (e) { console.warn(`Commentary phase skipped: ${e.message}`); }
 
-  /* ---------------- WRITE (data.js only — index.html is never touched) ---------------- */
+  /* ---------------- WRITE (data.js only) ---------------- */
   if (changed) {
-    data = data.replace(/window\.CLT_DATA\.UPDATED="[^"]*"/, `window.CLT_DATA.UPDATED="Updated ${todayLabel()}"`);
+    data = data.replace(/window\.CLT_DATA\.UPDATED="[^"]*"/, `window.CLT_DATA.UPDATED="Updated ${TODAY}"`);
     await writeFile(DATA, data, "utf8");
     console.log("data.js updated.");
   } else console.log("Nothing new anywhere. Clean exit.");
 
-  /* ---------------- LINK-CHECK PHASE (source-link health → per-deal "verified" stamp) ---------------- */
+  /* ---------------- LINK-CHECK PHASE ---------------- */
   if (process.env.CLT_LINKCHECK !== "0") {
     try { const { runLinkCheck } = await import("./linkcheck.mjs"); await runLinkCheck(); }
     catch (e) { console.warn(`Link-check skipped: ${e.message}`); }
