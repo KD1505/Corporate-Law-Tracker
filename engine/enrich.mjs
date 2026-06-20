@@ -14,8 +14,11 @@ const MODEL = process.env.CLT_MODEL || "claude-haiku-4-5-20251001";
 // of the AI call failing (and silently falling back to free mode). The article text is already
 // supplied, so the core enrichment doesn't need it. Set CLT_USE_SEARCH=1 to switch it on later.
 const USE_SEARCH = process.env.CLT_USE_SEARCH === "1";
-async function aiCreate(params, maxUses = 5) {
-  if (USE_SEARCH) {
+// useSearch can be overridden per call (tiered enrichment: marquee deals → search on,
+// the rest → search off). When undefined, falls back to the global CLT_USE_SEARCH flag.
+async function aiCreate(params, maxUses = 5, useSearch) {
+  const search = useSearch === undefined ? USE_SEARCH : useSearch;
+  if (search) {
     try {
       return await client.messages.create({ ...params, tools: [{ type: "web_search_20250305", name: "web_search", max_uses: maxUses }] });
     } catch (e) {
@@ -120,7 +123,7 @@ function safeJSON(text) {
   }
 }
 
-export async function enrichItem(item) {
+export async function enrichItem(item, useSearch) {
   const userMsg = `Primary source (Bar & Bench):
 URL: ${item.url}
 Headline: ${item.headline}
@@ -137,7 +140,7 @@ Now research and return the JSON record. Corroborate with as many credible sourc
     max_tokens: 5000,
     system: SYSTEM,
     messages: [{ role: "user", content: userMsg }],
-  }, 6);
+  }, 6, useSearch);
 
   // concatenate all text blocks from the final assistant message
   const text = resp.content
