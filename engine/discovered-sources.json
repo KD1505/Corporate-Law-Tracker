@@ -7,25 +7,25 @@
     "lastSeen": "2026-06-20"
   },
   "bseindia.com": {
-    "count": 881,
+    "count": 925,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-20"
   },
   "nseindia.com": {
-    "count": 896,
+    "count": 940,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-20"
   },
   "sebi.gov.in": {
-    "count": 126,
+    "count": 139,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-20"
   },
   "cci.gov.in": {
-    "count": 764,
+    "count": 795,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-20"
@@ -43,7 +43,7 @@
     "lastSeen": "2026-06-16"
   },
   "nsearchives.nseindia.com": {
-    "count": 1020,
+    "count": 1083,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-06-20"
@@ -529,10 +529,10 @@
     "lastSeen": "2026-06-19"
   },
   "nclt.gov.in": {
-    "count": 1,
+    "count": 21,
     "firstSeen": "2026-06-19",
     "official": true,
-    "lastSeen": "2026-06-19"
+    "lastSeen": "2026-06-20"
   },
   "gujaratgas.com": {
     "count": 1,
@@ -542,6 +542,12 @@
   },
   "sunpharma.com": {
     "count": 1,
+    "firstSeen": "2026-06-20",
+    "official": true,
+    "lastSeen": "2026-06-20"
+  },
+  "ibbi.gov.in": {
+    "count": 20,
     "firstSeen": "2026-06-20",
     "official": true,
     "lastSeen": "2026-06-20"
