@@ -146,7 +146,7 @@
     },
     "https://www.sebi.gov.in/cgi-bin/cms/cms_main.pl?action=show&lang=eng&menu_id=87": {
       "status": "unknown",
-      "code": 530,
+      "code": 0,
       "at": "2026-06-20",
       "finalUrl": "https://www.sebi.gov.in/cgi-bin/cms/cms_main.pl?action=show&lang=eng&menu_id=87"
     },
@@ -10400,6 +10400,16 @@
       "dead": 0,
       "redirected": 0,
       "ok": 64,
+      "unknown": 22,
+      "verifiedDeals": 770,
+      "issueDeals": 34
+    },
+    {
+      "at": "2026-06-20",
+      "checked": 22,
+      "dead": 0,
+      "redirected": 0,
+      "ok": 0,
       "unknown": 22,
       "verifiedDeals": 770,
       "issueDeals": 34
