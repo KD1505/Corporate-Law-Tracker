@@ -69,3 +69,23 @@ export function scoreDeal(deal) {
   const imp = s >= 55 ? "hi" : s >= 30 ? "md" : "lo";
   return { score: s, imp, reasons };
 }
+
+// Is this deal "marquee" — significant enough to spend DEEP enrichment (AI + web search)
+// triangulating multiple sources? Everything else still gets AI enrichment, just without
+// the (paid) web-search step.
+export function isMarquee(deal) {
+  const cr = magnitudeCr(deal.value || "");
+  if (deal.imp === "hi") return true;
+  if (cr >= 1000) return true;                                   // ≥ ₹1,000 cr
+  if ((deal.type === "ma" || deal.type === "ipo" || deal.type === "pe") && cr >= 250) return true;
+  const firmNames = (deal.firms || []).map((f) => f.name);
+  if (firmNames.some((n) => TIER1.includes(n)) && cr >= 100) return true;  // tier-1 + ≥ ₹100 cr
+  if (deal.type === "reg" || deal.type === "lit") return true;   // precedent / regulatory value
+  return false;
+}
+// Pre-enrichment guess (used when we must decide search BEFORE we have the rich record):
+// press items (named law-firm teams) and high-materiality spine items are treated as marquee.
+export function rawMarquee(item) {
+  if (/Bar & Bench|LiveLaw|VCCircle/i.test(item.source || "")) return true;
+  return (item.material || 0) >= 55;
+}
