@@ -1532,7 +1532,12 @@ function deadlineStrip(){
   <div class="dlstrip">${dl.map(r=>`<div class="dlitem" data-nav="regulatory" title="${escA(r.deadline)}"><span class="dld">${r.deadline.length>42?r.deadline.slice(0,42)+"…":r.deadline}</span><span class="dlt">${r.title}</span></div>`).join("")}</div>`;
 }
 function priorityBand(){
-  const ranked=sortListByPriority(DEALS).slice(0,3);
+  // recency-aware: the most IMPORTANT deals among the RECENT ones, so the latest
+  // material developments surface rather than the same evergreen marquee deals.
+  const ts=d=>Date.parse(d.time)||0, now=Date.now();
+  const recent=DEALS.filter(d=>now-ts(d)<=30*864e5);
+  const pool=recent.length>=3?recent:DEALS;
+  const ranked=pool.slice().sort((x,y)=>(IMPRANK[x.imp]??3)-(IMPRANK[y.imp]??3)||parseCr(y.value)-parseCr(x.value)||ts(y)-ts(x)).slice(0,3);
   if(!ranked.length)return "";
   return `<div class="bandh"><h3>What matters now</h3><span class="more" data-sort="priority">Sort feed by priority →</span></div>
   <div class="prio">${ranked.map(d=>{const st=STAGES[d.stage];return `<div class="priocard" data-deal="${d.id}" style="border-left-color:${d.imp==="hi"?"var(--red)":TYPES[d.type].c}">
