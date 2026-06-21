@@ -146,7 +146,7 @@
     },
     "https://www.sebi.gov.in/cgi-bin/cms/cms_main.pl?action=show&lang=eng&menu_id=87": {
       "status": "unknown",
-      "code": 0,
+      "code": 530,
       "at": "2026-06-20",
       "finalUrl": "https://www.sebi.gov.in/cgi-bin/cms/cms_main.pl?action=show&lang=eng&menu_id=87"
     },
@@ -5525,6 +5525,684 @@
       "code": 200,
       "at": "2026-06-20",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/VIVIMEDLAB_17062026133719_Updates_to_CIRP.pdf"
+    },
+    "https://www.barandbench.com": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.barandbench.com/"
+    },
+    "https://www.brecorder.com/news/40426393/ambanis-jio-platforms-eyes-record-38-billion-indian-ipo-sources-say": {
+      "status": "unknown",
+      "code": 403,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.brecorder.com/news/40426393/ambanis-jio-platforms-eyes-record-38-billion-indian-ipo-sources-say"
+    },
+    "https://www.nseindia.com/corporates/listing_company_info/cActions.jsp?symbol=JSWENERGY": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.nseindia.com/corporates/listing_company_info/cActions.jsp?symbol=JSWENERGY"
+    },
+    "https://groww.in/blog/jio-platforms-ltd-files-drhp-with-sebi-check-key-issue-details": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://groww.in/blog/jio-platforms-ltd-files-drhp-with-sebi-check-key-issue-details"
+    },
+    "https://www.bseindia.com/corporates/ann_data.aspx": {
+      "status": "redirected",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.bseindia.com/corporates/ann_data"
+    },
+    "https://underthemarketlens.substack.com/p/jio-platforms-ipo-filing-all-you-need-to-know": {
+      "status": "unknown",
+      "code": 403,
+      "at": "2026-06-20",
+      "finalUrl": "https://underthemarketlens.substack.com/p/jio-platforms-ipo-filing-all-you-need-to-know"
+    },
+    "https://www.nseindia.com/listing/": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.nseindia.com/listing/"
+    },
+    "https://www.cnbc.com/2026/06/19/india-jio-platforms-ipo-mukesh-ambani.html": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.cnbc.com/2026/06/19/india-jio-platforms-ipo-mukesh-ambani.html"
+    },
+    "https://cryptobriefing.com/jio-platforms-india-largest-ipo/": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://cryptobriefing.com/jio-platforms-india-largest-ipo/"
+    },
+    "https://www.bseindia.com/stock/JSW%20ENERGY%20LIMITED/532434/announcements": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.bseindia.com/stock/JSW%20ENERGY%20LIMITED/532434/announcements"
+    },
+    "https://www.nseindia.com/listing_compliance_norms.htm": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.nseindia.com/listing_compliance_norms.htm"
+    },
+    "https://www.tipranks.com/news/company-announcements/concord-enviro-shareholders-clear-scheme-of-arrangement-nclt-nod-next": {
+      "status": "unknown",
+      "code": 403,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.tipranks.com/news/company-announcements/concord-enviro-shareholders-clear-scheme-of-arrangement-nclt-nod-next"
+    },
+    "https://nclt.gov.in": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://nclt.gov.in/"
+    },
+    "https://www.bseindia.com/corporatesactions/": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.bseindia.com/corporatesactions/"
+    },
+    "https://www.whalesbook.com/news/English/other/Concord-Enviro-Systems-NCLT-Order-Approves-Financial-Restructuring/69b29e5f87f6d8dda94a432b": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.whalesbook.com/news/English/other/Concord-Enviro-Systems-NCLT-Order-Approves-Financial-Restructuring/69b29e5f87f6d8dda94a432b"
+    },
+    "https://www.nseindia.com/companies-listing/equity/jswcement": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.nseindia.com/companies-listing/equity/jswcement"
+    },
+    "https://www.ramcocements.com/investor-relations/": {
+      "status": "unknown",
+      "code": 0,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.ramcocements.com/investor-relations/"
+    },
+    "https://www.bseindia.com/corporates/ramaph.html": {
+      "status": "redirected",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.bseindia.com/corporates/ramaph"
+    },
+    "https://scanx.trade/stock-market-news/corporate-actions/concord-enviro-systems-receives-nclt-approval-for-financial-restructuring-scheme/34859486": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://scanx.trade/stock-market-news/corporate-actions/concord-enviro-systems-receives-nclt-approval-for-financial-restructuring-scheme/34859486"
+    },
+    "https://www.nseindia.com/rules_regulations/listing_rules.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.nseindia.com/rules_regulations/listing_rules.html"
+    },
+    "https://www.mca.gov.in/Ministry/pdf/CompaniesAct2013.pdf": {
+      "status": "unknown",
+      "code": 403,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.mca.gov.in/content/mca/global/en/errorpage.html"
+    },
+    "https://www.nseindia.com/regulations/listing-regulations": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.nseindia.com/regulations/listing-regulations"
+    },
+    "https://scanx.trade/stock-market-news/companies/concord-enviro-systems-conducts-shareholder-meeting-for-scheme-of-arrangement-under-nclt-directions/38955184": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://scanx.trade/stock-market-news/companies/concord-enviro-systems-conducts-shareholder-meeting-for-scheme-of-arrangement-under-nclt-directions/38955184"
+    },
+    "https://nclt.gov.in/": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://nclt.gov.in/"
+    },
+    "https://www.sebi.gov.in/legal/regulations/mar-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_28733.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/mar-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_28733.html"
+    },
+    "https://www.mca.gov.in/Ministry/pdf/NCLTRules2016.pdf": {
+      "status": "unknown",
+      "code": 403,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.mca.gov.in/content/mca/global/en/errorpage.html"
+    },
+    "https://www.nseindia.com/regulations/": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.nseindia.com/regulations/"
+    },
+    "https://www.sebi.gov.in/legal/regulations/dec-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_38529.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/dec-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_38529.html"
+    },
+    "https://scanx.trade/stock-market-news/companies/concord-enviro-systems-limited-announces-equity-shareholders-meeting-for-scheme-of-arrangement-approval/35914976": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://scanx.trade/stock-market-news/companies/concord-enviro-systems-limited-announces-equity-shareholders-meeting-for-scheme-of-arrangement-approval/35914976"
+    },
+    "https://nseindia.com/products/corporate-filings": {
+      "status": "unknown",
+      "code": 403,
+      "at": "2026-06-20",
+      "finalUrl": "https://nseindia.com/products/corporate-filings"
+    },
+    "https://www.sebi.gov.in/sebi_data/refdocs/tov_reg2011.pdf": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/sebi_data/refdocs/tov_reg2011.pdf"
+    },
+    "https://scanx.trade/stock-market-news/companies/agarwal-industrial-declares-no-promoter-share-encumbrance-in-fy26/40781048": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://scanx.trade/stock-market-news/companies/agarwal-industrial-declares-no-promoter-share-encumbrance-in-fy26/40781048"
+    },
+    "https://www.nseindia.com/rules-regulations/rules-and-regulations": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.nseindia.com/rules-regulations/rules-and-regulations"
+    },
+    "https://www.ibbi.gov.in/": {
+      "status": "unknown",
+      "code": 0,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.ibbi.gov.in/"
+    },
+    "https://www.sebi.gov.in/legal/regulations/substantial-acquisition-shares-takeovers-regulations-2011": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/substantial-acquisition-shares-takeovers-regulations-2011"
+    },
+    "https://www.business-standard.com/article/markets/pc-jeweller-case-sebi-bars-4-individuals-1-entity-from-securities-mkt-121051101427_1.html": {
+      "status": "unknown",
+      "code": 403,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.business-standard.com/article/markets/pc-jeweller-case-sebi-bars-4-individuals-1-entity-from-securities-mkt-121051101427_1.html"
+    },
+    "https://www.nseindia.com/rules-regulations": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.nseindia.com/rules-regulations"
+    },
+    "https://www.sebi.gov.in/legal/regulations/feb-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35862.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/feb-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35862.html"
+    },
+    "https://www.jswcement.in/investor-relations/": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.jswcement.in/investor-relations/"
+    },
+    "https://www.freepressjournal.in/business/pc-jeweller-case-sebi-fines-bars-4-individuals-1-entity-from-securities-market": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.freepressjournal.in/business/pc-jeweller-case-sebi-fines-bars-4-individuals-1-entity-from-securities-market"
+    },
+    "https://www.nseindia.com/corporates/search_company.jsp": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.nseindia.com/corporates/search_company.jsp"
+    },
+    "https://www.sebi.gov.in/legal/regulations/nov-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_29939.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/nov-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_29939.html"
+    },
+    "https://aicltd.in/board-of-directors/": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://aicltd.in/board-of-directors/"
+    },
+    "https://www.nseindia.com/regulations/takeover-code": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.nseindia.com/regulations/takeover-code"
+    },
+    "https://www.sebi.gov.in/legal/regulations/": {
+      "status": "unknown",
+      "code": 403,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/"
+    },
+    "https://www.scconline.com/blog/post/2019/12/18/sebi-pc-jeweller-promoters-found-to-be-in-violation-of-insider-trading-regulations-impounded-issued-show-cause-notice/": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.scconline.com/blog/post/2019/12/18/sebi-pc-jeweller-promoters-found-to-be-in-violation-of-insider-trading-regulations-impounded-issued-show-cause-notice/"
+    },
+    "https://www.sebi.gov.in/legal/regulations/nov-2011/sebi-substantial-acquisition-of-shares-and-takeovers-regulations-2011_33804.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/nov-2011/sebi-substantial-acquisition-of-shares-and-takeovers-regulations-2011_33804.html"
+    },
+    "https://www.chamblfert.com/investor-relations": {
+      "status": "unknown",
+      "code": 0,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.chamblfert.com/investor-relations"
+    },
+    "https://www.nseindia.com/corporates/LISTING_RULES.htm": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.nseindia.com/corporates/LISTING_RULES.htm"
+    },
+    "https://www.screener.in/company/AGARIND/consolidated/": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.screener.in/company/AGARIND/consolidated/"
+    },
+    "https://www.sebi.gov.in/sebi_data/attachdocs/1628577849124_FINAL_Takeover%20Regulations,%202011.pdf": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/sebi_data/attachdocs/1628577849124_FINAL_Takeover%20Regulations,%202011.pdf"
+    },
+    "https://www.texmaco.com/investors/": {
+      "status": "unknown",
+      "code": 0,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.texmaco.com/investors/"
+    },
+    "https://www.icicidirect.com/stocks/agarwal-industrial-corporation-ltd-share-price": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.icicidirect.com/stocks/agarwal-industrial-corporation-ltd-share-price"
+    },
+    "https://www.nseindia.com/corporates/content/scripts/corpgov.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.nseindia.com/corporates/content/scripts/corpgov.html"
+    },
+    "https://www.livelaw.in/tags/takeover-regulations": {
+      "status": "dead",
+      "code": 410,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.livelaw.in/tags/takeover-regulations"
+    },
+    "https://www.sebi.gov.in/sebi_data/regs/Takeover_Regulations_2011.pdf": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/sebi_data/regs/Takeover_Regulations_2011.pdf"
+    },
+    "https://www1.nseindia.com/corporates/listscrip.jsp": {
+      "status": "unknown",
+      "code": 0,
+      "at": "2026-06-20",
+      "finalUrl": "https://www1.nseindia.com/corporates/listscrip.jsp"
+    },
+    "https://www.nephrocarehealth.com/investor-relations": {
+      "status": "unknown",
+      "code": 0,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.nephrocarehealth.com/investor-relations"
+    },
+    "https://nseindia.com/market-data/corporate-announcements": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.nseindia.com/market-data/corporate-announcements"
+    },
+    "https://www.sebi.gov.in/legal/regulations/dec-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_34464.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/dec-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_34464.html"
+    },
+    "https://nsearchives.nseindia.com/": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://nsearchives.nseindia.com/"
+    },
+    "https://nseindia.com": {
+      "status": "redirected",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.nseindia.com/"
+    },
+    "https://www.sebi.gov.in/legal/regulations/dec-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35408.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/dec-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35408.html"
+    },
+    "https://www.rbi.org.in/scripts/BS_ViewBulletin.aspx?Id=23450": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.rbi.org.in/scripts/BS_ViewBulletin.aspx?Id=23450"
+    },
+    "https://www.sebi.gov.in/legal/regulations/nov-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35701.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/nov-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35701.html"
+    },
+    "https://www.nseindia.com/corporates/content/company_master_info.jsp?company=TVSELECT": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.nseindia.com/corporates/content/company_master_info.jsp?company=TVSELECT"
+    },
+    "https://www.ibbi.gov.in": {
+      "status": "redirected",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://ibbi.gov.in/"
+    },
+    "https://www.sebi.gov.in/legal/regulations/takeover-regulations": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/takeover-regulations"
+    },
+    "https://texmaco.in/investor-relations/": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.texmaco.in/investor-relations/"
+    },
+    "https://www.sebi.gov.in/legal/regulations/nov-1994/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_42934.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/nov-1994/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_42934.html"
+    },
+    "https://www.inspirisys.com/investor-relations/": {
+      "status": "redirected",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.inspirisys.com/"
+    },
+    "https://www.sebi.gov.in/legal/regulations/jun-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_35214.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/jun-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_35214.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/feb-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_27952.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/feb-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_27952.html"
+    },
+    "https://www.sebi.gov.in/legal/circulars/jan-2019/guidance-note-on-takeovers_40762.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/circulars/jan-2019/guidance-note-on-takeovers_40762.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/nov-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_34732.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/nov-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_34732.html"
+    },
+    "https://www.sebi.gov.in/sebi_data/reglibrary/acts/jSEBITakeover2011.pdf": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/sebi_data/reglibrary/acts/jSEBITakeover2011.pdf"
+    },
+    "https://www.sebi.gov.in/legal/regulations/sep-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_30849.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/sep-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_30849.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/dec-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_33650.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/dec-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_33650.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/nov-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_36221.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/nov-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_36221.html"
+    },
+    "https://ibbi.gov.in/": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-06-20",
+      "finalUrl": "https://ibbi.gov.in/"
+    },
+    "https://www.sebi.gov.in/legal/regulations/oct-1997/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_29940.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/oct-1997/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_29940.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/nov-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35286.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/nov-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35286.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/aug-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_36919.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/aug-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_36919.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/sebi-substantial-acquisition-of-shares-and-takeovers-regulations-2011": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/sebi-substantial-acquisition-of-shares-and-takeovers-regulations-2011"
+    },
+    "https://www.sebi.gov.in/sebi_data/commondocs/Takeover%20Regulations%202011_20032021.pdf": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/sebi_data/commondocs/Takeover%20Regulations%202011_20032021.pdf"
+    },
+    "https://www.sebi.gov.in/legal/regulations/nov-1994/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_39521.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/nov-1994/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_39521.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/jun-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_37388.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/jun-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_37388.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/jul-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_31844.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/jul-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_31844.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/jan-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_34927.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/jan-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_34927.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/dec-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_45836.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/dec-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_45836.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/feb-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_34786.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/feb-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_34786.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/feb-2009/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_39615.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/feb-2009/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_39615.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/oct-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_34755.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/oct-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_34755.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/jan-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_28516.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/jan-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_28516.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/oct-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_48487.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/oct-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_48487.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/sebi-substantial-acquisition-of-shares-and-takeovers-regulations-2011.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/sebi-substantial-acquisition-of-shares-and-takeovers-regulations-2011.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/jan-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_40635.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/jan-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_40635.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/sep-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_34927.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/sep-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_34927.html"
+    },
+    "https://www.sebi.gov.in/sebi_data/attachdocs/1347271326124.pdf": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/sebi_data/attachdocs/1347271326124.pdf"
+    },
+    "https://www.sebi.gov.in/legal/regulations/mar-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_34932.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/mar-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_34932.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/dec-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_35041.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/dec-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_35041.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/jun-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_30801.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/jun-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_30801.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/nov-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_33605.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/nov-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_33605.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/jun-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_30776.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/jun-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_30776.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/jan-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_37110.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/jan-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_37110.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/may-1997/sebi-substantial-acquisition-of-shares-and-takeovers-regulations-2011-531.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/may-1997/sebi-substantial-acquisition-of-shares-and-takeovers-regulations-2011-531.html"
+    },
+    "https://www.sebi.gov.in/legal/takeovers": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/takeovers"
+    },
+    "https://www.sebi.gov.in/legal/regulations/sep-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_45915.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/sep-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_45915.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/dec-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35261.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/dec-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35261.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/sep-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_36865.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/sep-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_36865.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/jun-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_32597.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/jun-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_32597.html"
+    },
+    "https://www.sebi.gov.in/legal/regulations/nov-1997/substantial-acquisition-of-shares-and-takeovers-regulations-2011~p~comid_1300091569263/": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/nov-1997/substantial-acquisition-of-shares-and-takeovers-regulations-2011~p~comid_1300091569263/"
+    },
+    "https://www.sebi.gov.in/legal/regulations/jun-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_38468.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-06-20",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/jun-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_38468.html"
     }
   },
   "deals": {
@@ -9244,8 +9922,8 @@
     },
     "inside-reliance-jios-ipo-the-lawyers-steering-indias-biggest-listing": {
       "at": "2026-06-20",
-      "total": 1,
-      "good": 1,
+      "total": 6,
+      "good": 4,
       "dead": 0
     },
     "nse-CONCORDBIO-20-Jun-2026183747": {
@@ -9256,111 +9934,111 @@
     },
     "nse-SUNPHARMA-20-Jun-2026172342": {
       "at": "2026-06-20",
-      "total": 3,
-      "good": 2,
+      "total": 4,
+      "good": 3,
       "dead": 1
     },
     "nse-JSWENERGY-20-Jun-2026150049": {
       "at": "2026-06-20",
-      "total": 2,
-      "good": 1,
+      "total": 3,
+      "good": 2,
       "dead": 0
     },
     "nse-JSWENERGY-20-Jun-2026132303": {
       "at": "2026-06-20",
-      "total": 1,
-      "good": 1,
+      "total": 2,
+      "good": 2,
       "dead": 0
     },
     "nse-CEWATER-20-Jun-2026124525": {
       "at": "2026-06-20",
-      "total": 1,
-      "good": 1,
+      "total": 6,
+      "good": 5,
       "dead": 0
     },
     "nse-RAMCOCEM-20-Jun-2026122759": {
       "at": "2026-06-20",
-      "total": 1,
-      "good": 1,
-      "dead": 0
+      "total": 4,
+      "good": 2,
+      "dead": 1
     },
     "nse-DOLLAR-20-Jun-2026121011": {
       "at": "2026-06-20",
-      "total": 1,
+      "total": 3,
       "good": 1,
       "dead": 0
     },
     "nse-ADOR-19-Jun-2026145916": {
       "at": "2026-06-20",
-      "total": 1,
-      "good": 1,
+      "total": 2,
+      "good": 2,
       "dead": 0
     },
     "nse-RUSHIL-19-Jun-2026145903": {
       "at": "2026-06-20",
-      "total": 3,
+      "total": 5,
       "good": 3,
-      "dead": 0
+      "dead": 2
     },
     "nse-AFFORDABLE-19-Jun-2026145754": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 5,
       "good": 3,
-      "dead": 0
+      "dead": 1
     },
     "nse-SPORTKING-19-Jun-2026145739": {
       "at": "2026-06-20",
-      "total": 2,
-      "good": 1,
-      "dead": 1
+      "total": 4,
+      "good": 2,
+      "dead": 2
     },
     "nse-JSWCEMENT-19-Jun-2026145516": {
       "at": "2026-06-20",
-      "total": 3,
+      "total": 6,
       "good": 3,
-      "dead": 0
+      "dead": 3
     },
     "nse-PCJEWELLER-19-Jun-2026145412": {
       "at": "2026-06-20",
-      "total": 1,
-      "good": 1,
-      "dead": 0
+      "total": 5,
+      "good": 3,
+      "dead": 1
     },
     "nse-EMSLIMITED-19-Jun-2026145329": {
       "at": "2026-06-20",
-      "total": 1,
-      "good": 1,
-      "dead": 0
+      "total": 3,
+      "good": 2,
+      "dead": 1
     },
     "nse-RUBICON-19-Jun-2026144624": {
       "at": "2026-06-20",
-      "total": 3,
-      "good": 1,
-      "dead": 2
+      "total": 5,
+      "good": 2,
+      "dead": 3
     },
     "nse-LOTUSEYE-19-Jun-2026144548": {
       "at": "2026-06-20",
-      "total": 1,
-      "good": 1,
+      "total": 4,
+      "good": 3,
       "dead": 0
     },
     "nse-AGARIND-19-Jun-2026144359": {
       "at": "2026-06-20",
-      "total": 2,
-      "good": 1,
+      "total": 6,
+      "good": 5,
       "dead": 1
     },
     "nse-AVROIND-19-Jun-2026144326": {
       "at": "2026-06-20",
-      "total": 2,
-      "good": 1,
-      "dead": 1
+      "total": 4,
+      "good": 2,
+      "dead": 2
     },
     "nse-CHAMBLFERT-19-Jun-2026144251": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 7,
       "good": 3,
-      "dead": 0
+      "dead": 2
     },
     "nse-DCBBANK-19-Jun-2026144237": {
       "at": "2026-06-20",
@@ -9370,45 +10048,45 @@
     },
     "nse-CPPLUS-19-Jun-2026144219": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 5,
       "good": 3,
-      "dead": 0
+      "dead": 1
     },
     "nse-LOYALTEX-19-Jun-2026144157": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 6,
       "good": 3,
-      "dead": 0
+      "dead": 2
     },
     "nse-NEXTMEDIA-19-Jun-2026144043": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 5,
       "good": 3,
-      "dead": 0
+      "dead": 1
     },
     "nse-RAJOOENG-19-Jun-2026144016": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 5,
       "good": 3,
-      "dead": 0
+      "dead": 1
     },
     "nse-HTMEDIA-19-Jun-2026144002": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 5,
       "good": 3,
-      "dead": 0
+      "dead": 1
     },
     "nse-AVROIND-19-Jun-2026143949": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
-      "dead": 0
+      "total": 8,
+      "good": 5,
+      "dead": 2
     },
     "nse-KRISHANA-19-Jun-2026143904": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
-      "dead": 0
+      "total": 7,
+      "good": 4,
+      "dead": 2
     },
     "nse-DGCONTENT-19-Jun-2026143847": {
       "at": "2026-06-20",
@@ -9418,33 +10096,33 @@
     },
     "nse-KRISHANA-19-Jun-2026143828": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 6,
       "good": 3,
-      "dead": 0
+      "dead": 2
     },
     "nse-SAGCEM-19-Jun-2026143709": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 6,
       "good": 3,
-      "dead": 0
+      "dead": 2
     },
     "nse-ALMONDZ-19-Jun-2026143430": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 6,
       "good": 3,
       "dead": 0
     },
     "nse-SIYSIL-19-Jun-2026143326": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 6,
       "good": 3,
-      "dead": 0
+      "dead": 2
     },
     "nse-HMVL-19-Jun-2026143310": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 6,
       "good": 3,
-      "dead": 0
+      "dead": 2
     },
     "nse-ALMONDZ-19-Jun-2026143254": {
       "at": "2026-06-20",
@@ -9454,9 +10132,9 @@
     },
     "nse-QUINTEGRA-19-Jun-2026143235": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
-      "dead": 0
+      "total": 6,
+      "good": 4,
+      "dead": 1
     },
     "nse-ASIANTILES-19-Jun-2026143202": {
       "at": "2026-06-20",
@@ -9472,9 +10150,9 @@
     },
     "nse-TEXINFRA-19-Jun-2026143031": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 8,
       "good": 3,
-      "dead": 0
+      "dead": 3
     },
     "nse-STYLAMIND-19-Jun-2026143007": {
       "at": "2026-06-20",
@@ -9484,9 +10162,9 @@
     },
     "nse-TEXINFRA-19-Jun-2026142950": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
-      "dead": 0
+      "total": 6,
+      "good": 4,
+      "dead": 1
     },
     "nse-NAVA-19-Jun-2026142934": {
       "at": "2026-06-20",
@@ -9502,21 +10180,21 @@
     },
     "nse-ALMONDZ-19-Jun-2026142857": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 5,
       "good": 3,
-      "dead": 0
+      "dead": 1
     },
     "nse-LGEINDIA-19-Jun-2026142805": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
-      "dead": 0
+      "total": 6,
+      "good": 4,
+      "dead": 1
     },
     "nse-CRAFTSMAN-19-Jun-2026142737": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
-      "dead": 0
+      "total": 6,
+      "good": 4,
+      "dead": 1
     },
     "nse-INDOTHAI-19-Jun-2026131538": {
       "at": "2026-06-20",
@@ -9532,27 +10210,27 @@
     },
     "nse-KPRMILL-19-Jun-2026131213": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
+      "total": 5,
+      "good": 4,
       "dead": 0
     },
     "nse-RUBFILA-19-Jun-2026131202": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 6,
       "good": 3,
-      "dead": 0
+      "dead": 2
     },
     "nse-QUADFUTURE-19-Jun-2026131148": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 5,
       "good": 3,
-      "dead": 0
+      "dead": 1
     },
     "nse-KIRLOSIND-19-Jun-2026131129": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 6,
       "good": 3,
-      "dead": 0
+      "dead": 2
     },
     "nse-KIRLOSENG-19-Jun-2026131116": {
       "at": "2026-06-20",
@@ -9562,51 +10240,51 @@
     },
     "nse-KIRLPNU-19-Jun-2026131102": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
-      "dead": 0
+      "total": 6,
+      "good": 4,
+      "dead": 1
     },
     "nse-KIRLOSBROS-19-Jun-2026131051": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
-      "dead": 0
+      "total": 6,
+      "good": 4,
+      "dead": 1
     },
     "nse-UNITEDTEA-19-Jun-2026131032": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 6,
       "good": 3,
-      "dead": 0
+      "dead": 2
     },
     "nse-ALMONDZ-19-Jun-2026130958": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 7,
       "good": 3,
-      "dead": 0
+      "dead": 2
     },
     "nse-WANBURY-19-Jun-2026130916": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 5,
       "good": 3,
-      "dead": 0
+      "dead": 1
     },
     "nse-RAMAPHO-19-Jun-2026130911": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
-      "dead": 0
+      "total": 7,
+      "good": 4,
+      "dead": 2
     },
     "nse-ARCOTECH-19-Jun-2026130908": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 6,
       "good": 3,
-      "dead": 0
+      "dead": 1
     },
     "nse-ZUARI-19-Jun-2026130845": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 5,
       "good": 3,
-      "dead": 0
+      "dead": 1
     },
     "nse-ZUARI-19-Jun-2026130831": {
       "at": "2026-06-20",
@@ -9616,15 +10294,15 @@
     },
     "nse-ZUARI-19-Jun-2026130806": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
+      "total": 5,
+      "good": 4,
       "dead": 0
     },
     "nse-IOB-19-Jun-2026130749": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
-      "dead": 0
+      "total": 6,
+      "good": 4,
+      "dead": 1
     },
     "nse-FLUOROCHEM-19-Jun-2026130715": {
       "at": "2026-06-20",
@@ -9640,21 +10318,21 @@
     },
     "nse-STYLAMIND-19-Jun-2026130617": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 5,
       "good": 3,
-      "dead": 0
+      "dead": 1
     },
     "nse-TEXINFRA-19-Jun-2026130436": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
-      "dead": 0
+      "total": 7,
+      "good": 4,
+      "dead": 2
     },
     "nse-NEPHROPLUS-19-Jun-2026130416": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
-      "dead": 0
+      "total": 8,
+      "good": 4,
+      "dead": 1
     },
     "nse-SAKSOFT-19-Jun-2026130341": {
       "at": "2026-06-20",
@@ -9664,9 +10342,9 @@
     },
     "nse-LATENTVIEW-19-Jun-2026130318": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 5,
       "good": 3,
-      "dead": 0
+      "dead": 1
     },
     "nse-ALMONDZ-19-Jun-2026130315": {
       "at": "2026-06-20",
@@ -9676,27 +10354,27 @@
     },
     "nse-GOODLUCK-19-Jun-2026130314": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
+      "total": 5,
+      "good": 4,
       "dead": 0
     },
     "nse-TEXINFRA-19-Jun-2026130211": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 5,
       "good": 3,
-      "dead": 0
+      "dead": 1
     },
     "nse-FUSION-19-Jun-2026130151": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
+      "total": 6,
+      "good": 4,
       "dead": 0
     },
     "nse-MODIS-19-Jun-2026130150": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 5,
       "good": 3,
-      "dead": 0
+      "dead": 1
     },
     "nse-UCAL-19-Jun-2026130122": {
       "at": "2026-06-20",
@@ -9706,8 +10384,8 @@
     },
     "nse-MBAPL-19-Jun-2026130102": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
+      "total": 5,
+      "good": 4,
       "dead": 0
     },
     "nse-GUJALKALI-19-Jun-2026130059": {
@@ -9724,21 +10402,21 @@
     },
     "nse-CERA-19-Jun-2026130025": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 5,
       "good": 3,
-      "dead": 0
+      "dead": 1
     },
     "nse-NINSYS-19-Jun-2026125921": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 5,
       "good": 3,
-      "dead": 0
+      "dead": 1
     },
     "nse-TEXINFRA-19-Jun-2026125854": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
-      "dead": 0
+      "total": 6,
+      "good": 4,
+      "dead": 1
     },
     "nse-ALMONDZ-19-Jun-2026125829": {
       "at": "2026-06-20",
@@ -9748,9 +10426,9 @@
     },
     "nse-JTEKTINDIA-19-Jun-2026125743": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 6,
       "good": 3,
-      "dead": 0
+      "dead": 2
     },
     "nse-TVSSCS-19-Jun-2026125729": {
       "at": "2026-06-20",
@@ -9760,33 +10438,33 @@
     },
     "nse-TEXRAIL-19-Jun-2026125728": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
+      "total": 5,
+      "good": 4,
       "dead": 0
     },
     "nse-DBEIL-19-Jun-2026125651": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 6,
       "good": 3,
-      "dead": 0
+      "dead": 2
     },
     "nse-GOKULAGRO-19-Jun-2026125649": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 5,
       "good": 3,
-      "dead": 0
+      "dead": 1
     },
     "nse-INSPIRISYS-19-Jun-2026125626": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
-      "dead": 0
+      "total": 7,
+      "good": 4,
+      "dead": 1
     },
     "nse-HCC-19-Jun-2026125556": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
-      "dead": 0
+      "total": 6,
+      "good": 4,
+      "dead": 1
     },
     "nse-JBFIND-19-Jun-2026125540": {
       "at": "2026-06-20",
@@ -9802,9 +10480,9 @@
     },
     "nse-TVSELECT-19-Jun-2026125436": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 6,
       "good": 3,
-      "dead": 0
+      "dead": 2
     },
     "nse-PRAENG-19-Jun-2026125412": {
       "at": "2026-06-20",
@@ -9814,21 +10492,21 @@
     },
     "nse-GOKULAGRO-19-Jun-2026125346": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
+      "total": 5,
+      "good": 4,
       "dead": 0
     },
     "nse-MFSL-19-Jun-2026125302": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
-      "dead": 0
+      "total": 7,
+      "good": 4,
+      "dead": 2
     },
     "nse-KRISHIVAL-19-Jun-2026125241": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 6,
       "good": 3,
-      "dead": 0
+      "dead": 2
     },
     "nse-RECLTD-19-Jun-2026124633": {
       "at": "2026-06-20",
@@ -9838,33 +10516,33 @@
     },
     "nse-JUSTDIAL-19-Jun-2026124529": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
+      "total": 5,
+      "good": 4,
       "dead": 0
     },
     "nse-SUNFLAG-19-Jun-2026124453": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 3,
-      "dead": 0
+      "total": 6,
+      "good": 4,
+      "dead": 1
     },
     "nse-SANATHAN-19-Jun-2026124417": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 5,
       "good": 3,
-      "dead": 0
+      "dead": 1
     },
     "nse-IOC-19-Jun-2026124358": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 6,
       "good": 3,
-      "dead": 0
+      "dead": 2
     },
     "nse-IOC-19-Jun-2026124323": {
       "at": "2026-06-20",
-      "total": 4,
+      "total": 5,
       "good": 3,
-      "dead": 0
+      "dead": 1
     },
     "nse-AWL-19-Jun-2026124307": {
       "at": "2026-06-20",
@@ -10270,20 +10948,20 @@
     },
     "nse-JSWENERGY-18-Jun-2026223042": {
       "at": "2026-06-20",
-      "total": 3,
-      "good": 2,
+      "total": 4,
+      "good": 3,
       "dead": 0
     },
     "nse-JSWENERGY-18-Jun-2026222528": {
       "at": "2026-06-20",
-      "total": 3,
-      "good": 2,
+      "total": 5,
+      "good": 3,
       "dead": 0
     },
     "nse-AGSTRA-18-Jun-2026221705": {
       "at": "2026-06-20",
-      "total": 3,
-      "good": 2,
+      "total": 5,
+      "good": 4,
       "dead": 0
     },
     "nse-JSWENERGY-18-Jun-2026215352": {
@@ -10294,8 +10972,8 @@
     },
     "nse-BOSCH-HCIL-18-Jun-2026170810": {
       "at": "2026-06-20",
-      "total": 4,
-      "good": 4,
+      "total": 5,
+      "good": 5,
       "dead": 0
     },
     "nse-BOSCH-HCIL-17-Jun-2026173617": {
@@ -10306,14 +10984,14 @@
     },
     "nse-JSWENERGY-18-Jun-2026214940": {
       "at": "2026-06-20",
-      "total": 3,
-      "good": 2,
-      "dead": 0
+      "total": 5,
+      "good": 3,
+      "dead": 1
     },
     "nse-RHFL-18-Jun-2026134602": {
       "at": "2026-06-20",
-      "total": 3,
-      "good": 2,
+      "total": 6,
+      "good": 3,
       "dead": 0
     },
     "nse-DPSCLTD-18-Jun-2026124617": {
@@ -10324,15 +11002,15 @@
     },
     "nse-ANSALAPI-18-Jun-2026122145": {
       "at": "2026-06-20",
-      "total": 3,
-      "good": 2,
+      "total": 5,
+      "good": 4,
       "dead": 0
     },
     "nse-DICIND-18-Jun-2026121800": {
       "at": "2026-06-20",
-      "total": 3,
-      "good": 2,
-      "dead": 0
+      "total": 5,
+      "good": 3,
+      "dead": 1
     },
     "nse-IMPEXFERRO-17-Jun-2026180226": {
       "at": "2026-06-20",
@@ -10342,7 +11020,7 @@
     },
     "nse-PARSVNATH-17-Jun-2026143958": {
       "at": "2026-06-20",
-      "total": 3,
+      "total": 5,
       "good": 2,
       "dead": 0
     },
@@ -10413,6 +11091,16 @@
       "unknown": 22,
       "verifiedDeals": 770,
       "issueDeals": 34
+    },
+    {
+      "at": "2026-06-20",
+      "checked": 135,
+      "dead": 74,
+      "redirected": 5,
+      "ok": 20,
+      "unknown": 36,
+      "verifiedDeals": 711,
+      "issueDeals": 93
     }
   ],
   "lastRun": "2026-06-20"
