@@ -211,15 +211,16 @@
   .card:hover .go{text-decoration:underline}
 
   /* ---- compact rows ---- */
-  .crow{display:flex;align-items:center;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:13px 18px;cursor:pointer;min-height:50px;box-shadow:var(--shadow);transition:.15s}
-  .crow:hover{border-color:var(--accent)}
-  .crow .ch{flex:1;min-width:0;font-size:14px;font-weight:550;font-family:var(--serif);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .crow{display:flex;align-items:center;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-sm);padding:9px 16px;cursor:pointer;min-height:44px;transition:border-color .12s,background-color .12s}
+  .crow:hover{border-color:var(--accent);background:var(--surface2)}
+  .crow .ttype{flex:none;min-width:46px;text-align:center}
+  .crow .vr{flex:none;width:14px;text-align:center}
+  .crow .ch{flex:1;min-width:0;font-size:13.5px;font-weight:600;font-family:var(--sans);letter-spacing:-.1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .crow:hover .ch{color:var(--accent)}
-  .crow .cv{font-family:var(--mono);font-size:12px;font-weight:600;color:var(--green);white-space:nowrap;width:90px;text-align:right;flex:none}
-  .crow .cs{font-size:10.5px;color:var(--ink3);white-space:nowrap;flex:none;width:110px;display:inline-flex;align-items:center;gap:6px}
-  .crow .vr{flex:none}
-  .crow .age{width:32px;text-align:right;flex:none}
-  @media(max-width:780px){.crow .cs{display:none}.crow .cv{width:auto}}
+  .crow .cv{font-family:var(--mono);font-size:12px;font-weight:600;color:var(--ink);white-space:nowrap;width:96px;text-align:right;flex:none}
+  .crow .cs{font-size:10.5px;color:var(--ink3);white-space:nowrap;flex:none;width:112px;display:inline-flex;align-items:center;gap:6px}
+  .crow .age{width:34px;text-align:right;flex:none}
+  @media(max-width:780px){.crow .cs{display:none}.crow .cv{width:auto}.crow .ttype{min-width:0}}
 
   .back{font-size:12.5px;font-weight:550;color:var(--ink2);cursor:pointer;display:inline-flex;gap:6px;align-items:center;margin-bottom:18px}
   .back:hover{color:var(--accent)}
@@ -1382,7 +1383,7 @@ function lsGet(k,fb){try{const v=JSON.parse(localStorage.getItem(k));return v===
 function lsSet(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch{}}
 let starred=new Set(lsGet("clt_starred",[]));
 let cmp=new Set(lsGet("clt_cmp",[]));
-let density=lsGet("clt_density","comfortable");
+let density=lsGet("clt_density","compact");
 let sortMode=lsGet("clt_sort","latest");
 function dealFirms(d){return d.firms.map(f=>f.name);}
 
@@ -1523,7 +1524,7 @@ function dealCard(d){
 }
 function dealRow(d){
   const st=STAGES[d.stage];
-  const vr=isVerified(d)?`<span class="vr" style="color:var(--green);font-weight:750;font-size:11px" title="${escA(TIP_VERIFIED)}">✓</span>`:`<span class="vr" style="color:var(--amber);font-weight:750;font-size:11px" title="${escA(TIP_REPORTED)}">○</span>`;
+  const vr=isVerified(d)?`<span class="vr" style="color:var(--green);font-weight:750;font-size:11px" title="${escA(TIP_VERIFIED)}" aria-label="Verified">✓</span>`:`<span class="vr" style="color:var(--amber);font-weight:750;font-size:11px" title="${escA(TIP_REPORTED)}" aria-label="Reported">◔</span>`;
   return `<div class="crow" data-deal="${d.id}">
     ${typeBadge(d)}${vr}
     <span class="ch" title="${escA(d.headline)}">${d.headline}</span>
