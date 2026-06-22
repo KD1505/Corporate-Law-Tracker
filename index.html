@@ -5,10 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CorpLawTracker — The Decision Engine for India's Corporate Legal Market</title>
 <meta name="description" content="The decision engine for India's corporate legal market — every overnight deal, mandate and regulatory change, verified against primary filings and turned into the pitch to make, the precedent to cite and the documents to re-paper.">
-<link rel="icon" type="image/svg+xml" href="logo.svg">
+<link rel="icon" type="image/svg+xml" href="logo.svg?v=3">
+<link rel="apple-touch-icon" href="logo.svg?v=3">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
     --bg:#f6f4ef; --surface:#fffefc; --surface2:#faf8f3;
@@ -24,7 +25,7 @@
     --shadow:0 1px 2px rgba(20,24,31,.05);
     --shadow-h:0 4px 14px rgba(20,24,31,.10);
     --sans:"Hanken Grotesk",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    --serif:"Hanken Grotesk",-apple-system,BlinkMacSystemFont,"Segoe UI",Georgia,serif;
+    --serif:"Newsreader",Georgia,Cambria,"Times New Roman",serif;
     --mono:"IBM Plex Mono","SF Mono",ui-monospace,"Cascadia Mono",Menlo,Consolas,monospace;
     --r:8px; --r-sm:5px;
   }
@@ -486,6 +487,12 @@
   .real.reported::before{content:"◔ ";font-weight:700}
   .official::before{content:"⛉ ";font-weight:700}
   .priority::before{content:"▲ ";font-size:8px;vertical-align:1px}
+
+  /* Fiducial verification motif — presides over every empty state (themes via currentColor) */
+  .empty{text-align:center}
+  .empty::before{content:"";display:block;width:38px;height:38px;margin:4px auto 14px;opacity:.3;background-color:currentColor;
+    -webkit-mask:center/contain no-repeat url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect x="15" y="15" width="20" height="8"/><rect x="15" y="15" width="8" height="20"/><rect x="29" y="41" width="20" height="8"/><rect x="41" y="29" width="8" height="20"/><circle cx="32" cy="32" r="4.4"/></svg>');
+    mask:center/contain no-repeat url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect x="15" y="15" width="20" height="8"/><rect x="15" y="15" width="8" height="20"/><rect x="29" y="41" width="20" height="8"/><rect x="41" y="29" width="8" height="20"/><circle cx="32" cy="32" r="4.4"/></svg>')}
 
   /* Accessibility baseline */
   :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
