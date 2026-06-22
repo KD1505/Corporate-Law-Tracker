@@ -1755,12 +1755,20 @@ function renderDeal(id){
 
 /* ============================ STATS ============================ */
 function buildStats(){
-  const big=DEALS.filter(d=>["ma","ipo","pe"].includes(d.type));
+  // Quality metrics, not vanity totals — every number is a TRUST signal.
+  const verified=DEALS.filter(d=>isVerified(d));
+  const official=DEALS.filter(d=>dealHasOfficial(d));
+  const pct=(n)=>DEALS.length?Math.round(n/DEALS.length*100):0;
+  const lc=(window.CLT_DATA&&window.CLT_DATA.LINKCHECK&&window.CLT_DATA.LINKCHECK.deals)||null;
+  const linksList=lc?DEALS.filter(d=>lc[d.id]==="v"):null;
+  const enriched=DEALS.filter(d=>(d.framework&&d.framework.length)||d.enrichTier==="deep"||d.enrichTier==="standard");
   const groups=[
-   {n:DEALS.length,l:"Developments tracked",d:"verified & sourced",list:DEALS},
-   {n:big.length,l:"Active deals · M&A/PE/IPO",d:"with named counsel",list:big},
-   {n:DEALS.filter(d=>d.type==="ipo").length,l:"IPO / ECM transactions",d:"QIP · OFS · preferential",muted:true,list:DEALS.filter(d=>d.type==="ipo")},
-   {n:DEALS.filter(d=>d.type==="bank"||d.type==="reg").length,l:"Banking & regulatory",d:"financings & rulings",list:DEALS.filter(d=>d.type==="bank"||d.type==="reg")}
+   {n:DEALS.length,l:"Deals tracked",d:"sourced & deduped nightly",list:DEALS},
+   {n:verified.length,l:"Verified",d:`${pct(verified.length)}% corroborated by an official source`,list:verified},
+   {n:official.length,l:"Official filings",d:`${pct(official.length)}% primary-source linked`,muted:true,list:official},
+   linksList
+     ? {n:linksList.length,l:"Links verified",d:"pinged &amp; live — checked nightly",muted:true,list:linksList}
+     : {n:enriched.length,l:"Deep-enriched",d:"multi-source detail on file",muted:true,list:enriched}
   ];
   $("stats").innerHTML=groups.map((g,i)=>`<div class="stat" data-stat="${i}">
     <div class="n">${g.n}</div><div class="l">${g.l}</div><div class="d ${g.muted?'muted':''}">${g.d}</div>
