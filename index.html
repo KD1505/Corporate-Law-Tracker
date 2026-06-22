@@ -1845,9 +1845,11 @@ function buildRail(){
   const dl=REGITEMS.filter(r=>r.deadline&&r.deadline!=="—");
   $("raildl").innerHTML=dl.length?dl.map(r=>`<div class="raildl" data-nav="regulatory"><div class="rdd">${r.deadline.length>54?r.deadline.slice(0,54)+"…":r.deadline}</div><div class="rdt">${r.title}</div></div>`).join(""):'<div class="note">No dated obligations on file.</div>';
   document.querySelectorAll("#raildl [data-nav]").forEach(n=>n.onclick=()=>go({name:"regulatory"}));
-  const tally={};DEALS.forEach(d=>d.firms.forEach(f=>{if(firmKnown(f.name))tally[f.name]=(tally[f.name]||0)+1;}));
-  const ranked=Object.entries(tally).sort((a,b)=>b[1]-a[1]).slice(0,8);
-  $("league").innerHTML=ranked.map((r,i)=>`<div class="lr" data-firm="${encodeURIComponent(r[0])}"><span class="rk">${i+1}</span><span class="fn">${r[0]}</span><span class="dl">${r[1]}</span></div>`).join("");
+  const tally={};DEALS.forEach(d=>(d.firms||[]).forEach(f=>{if(firmKnown(f.name))tally[f.name]=(tally[f.name]||0)+1;}));
+  const ranked=Object.entries(tally).filter(([,v])=>v>=2).sort((a,b)=>b[1]-a[1]).slice(0,8);
+  $("league").innerHTML=ranked.length
+    ?ranked.map((r,i)=>`<div class="lr" data-firm="${encodeURIComponent(r[0])}"><span class="rk">${i+1}</span><span class="fn">${r[0]}</span><span class="dl">${r[1]}</span></div>`).join("")+`<div class="note" style="margin-top:9px;font-size:10px;color:var(--ink4)">Firms with ≥2 attributed mandates</div>`
+    :'<div class="note">Ranks build up as deals gain attributed counsel.</div>';
   $("league").querySelectorAll("[data-firm]").forEach(n=>n.onclick=()=>go({name:"firm",id:decodeURIComponent(n.dataset.firm)}));
   const radar=DEALS.filter(d=>d.type==="reg"||d.type==="bank");
   $("radar").innerHTML=radar.map(d=>`<div class="reg" data-deal="${d.id}"><div class="when">${d.sources[0].name.split('—')[0].trim()} · ${d.time}</div><div class="what">${d.headline}</div></div>`).join("");
@@ -1964,14 +1966,20 @@ function renderAnalytics(){
     sc[d.sector]=(sc[d.sector]||0)+1;
   });
   const top=(o,n=8)=>Object.entries(o).sort((a,b)=>b[1]-a[1]).slice(0,n);
-  $("main").innerHTML=`<div class="vh"><h2>League Tables</h2><span class="sub">${DEALS.length} deals · ${Object.keys(fc).length} firms · who is winning the work you want — by mandates, value and partners</span></div>
+  const attributed=DEALS.filter(d=>(d.firms||[]).some(f=>firmKnown(f.name))).length;
+  const MIN=2;
+  const fcG=Object.fromEntries(Object.entries(fc).filter(([,v])=>v>=MIN));
+  const fvG=Object.fromEntries(Object.entries(fv).filter(([k])=>fc[k]>=MIN));
+  const enough=Object.keys(fcG).length>=3;
+  $("main").innerHTML=`<div class="vh"><h2>League Tables</h2><span class="sub">${attributed} of ${DEALS.length} deals carry attributed counsel · firms with ≥${MIN} tracked mandates ranked</span></div>
     <div class="anwrap">
-      <div class="sec"><h4>Top firms · by deals tracked</h4>${barRows(top(fc),v=>v+" deals","firm")}</div>
-      <div class="sec"><h4>Top firms · by aggregate deal value</h4>${barRows(top(fv),fmtCr,"firm")}</div>
+      ${enough?`<div class="sec"><h4>Top firms · by deals tracked</h4>${barRows(top(fcG),v=>v+" deals","firm")}</div>
+      <div class="sec"><h4>Top firms · by aggregate deal value</h4>${barRows(top(fvG),fmtCr,"firm")}</div>`
+      :`<div class="sec"><h4>Top firms</h4><div class="empty">Not enough deals carry attributed counsel yet to rank firms reliably. This fills out as deals are enriched with their advising firms.</div></div>`}
       <div class="sec"><h4>Most active partners</h4>${barRows(top(pc),v=>v+(v>1?" deals":" deal"))}</div>
       <div class="sec"><h4>Deals by type</h4>${barRows(top(tc,9),v=>v+"")}</div>
       <div class="sec"><h4>Deals by sector</h4>${barRows(top(sc,12),v=>v+"")}</div>
-      <div class="sec"><h4>How to read this</h4><p style="font-size:12.5px;color:var(--ink2);line-height:1.6">Track which firms and partners are winning mandates in your sectors, and where deal value is concentrating. Click a firm bar to open its page. Aggregate value counts every deal a firm is named on.</p></div>
+      <div class="sec"><h4>How to read this · methodology</h4><p style="font-size:12.5px;color:var(--ink2);line-height:1.6">League tables are computed <b>only from deals where counsel is named</b> (${attributed} of ${DEALS.length} tracked). To avoid noise from one-off appearances, only firms with <b>≥${MIN} mandates</b> are ranked. Aggregate value sums every attributed deal's value; a firm is credited on every side it is named on. Click any firm to open its page.</p></div>
     </div>`;
   $("main").querySelectorAll("[data-firm]").forEach(n=>n.onclick=()=>go({name:"firm",id:decodeURIComponent(n.dataset.firm)}));
 }
