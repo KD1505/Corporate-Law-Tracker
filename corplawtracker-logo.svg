@@ -1,11 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 128" role="img" aria-label="CorpLawTracker">
-  <!-- mark: a bold "C" cradling the tracked deal-point -->
-  <rect x="16" y="16" width="96" height="96" rx="20" fill="#1b2d4f"/>
-  <path d="M72.03 88.73 A26 26 0 1 1 72.03 39.27" fill="none" stroke="#ffffff" stroke-width="13.5" stroke-linecap="round"/>
-  <circle cx="64" cy="64" r="8" fill="#ffffff"/>
-  <!-- wordmark: geometric sans, split weight -->
-  <text x="150" y="82" font-family="'Helvetica Neue',Arial,'Segoe UI',Roboto,sans-serif"
-        font-size="54" letter-spacing="-1.5" fill="#1b2d4f">
-    <tspan font-weight="700">CorpLaw</tspan><tspan font-weight="400" fill="#3a4d6b">Tracker</tspan>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 372 72" role="img" aria-label="CorpLawTracker wordmark">
+  <!-- Aperture mark as the system symbol, paired with the authored wordmark -->
+  <g transform="translate(8,12) scale(0.75)" fill="#16243F">
+    <rect x="15" y="15" width="27" height="8.5"/>
+    <rect x="15" y="15" width="8.5" height="34"/>
+    <rect x="15" y="40.5" width="27" height="8.5"/>
+    <rect x="33" y="27.75" width="20" height="8.5"/>
+  </g>
+  <text x="74" y="47" font-family="'Hanken Grotesk',-apple-system,'Segoe UI',Arial,sans-serif" font-size="33" letter-spacing="-0.6">
+    <tspan font-weight="700" fill="#16243F">CorpLaw</tspan><tspan font-weight="500" fill="#5b6678">Tracker</tspan>
   </text>
 </svg>

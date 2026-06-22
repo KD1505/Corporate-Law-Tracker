@@ -50,8 +50,11 @@
   header{position:sticky;top:0;z-index:40;background:var(--surface);border-bottom:1px solid var(--line);height:66px;display:flex;align-items:center;gap:20px;padding:0 28px}
   .brand{display:flex;align-items:center;gap:12px;cursor:pointer;user-select:none}
   .brand .mark{width:32px;height:32px;border-radius:9px;background:var(--accent);color:#fff;display:grid;place-items:center}
-  .brand .nm{font-weight:600;font-size:16px;letter-spacing:-.2px;line-height:1;font-family:var(--serif)}
-  .brand .nm span{display:block;font-size:8.5px;font-weight:600;color:var(--ink3);letter-spacing:1.8px;margin-top:4px;font-family:var(--sans)}
+  .brand .mark{border-radius:7px}
+  .brand .nm{font-size:16px;letter-spacing:-.3px;line-height:1;font-family:var(--sans)}
+  .brand .nm .wm{font-weight:500;color:var(--ink3)}
+  .brand .nm .wm b{font-weight:700;color:var(--ink)}
+  .brand .nm .sub{display:block;font-size:8.5px;font-weight:600;color:var(--ink3);letter-spacing:1.8px;margin-top:4px;font-family:var(--sans)}
   .search{flex:1;max-width:460px;position:relative}
   .search input{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:11px;padding:9px 84px 9px 38px;font-size:13.5px;color:var(--ink);outline:none;transition:border-color .15s,box-shadow .15s;font-family:inherit}
   .search input:focus{border-color:var(--accent);background:var(--surface);box-shadow:0 0 0 4px var(--accent-soft)}
@@ -504,12 +507,14 @@
   <button class="navtoggle" id="navToggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
   <div class="brand" onclick="go({name:'feed'});resetFilters()">
     <div class="mark" aria-label="Corporate Law Tracker">
-      <svg width="20" height="20" viewBox="0 0 48 48" aria-hidden="true">
-        <path d="M28.17 36.84 A13.5 13.5 0 1 1 28.17 11.16" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
-        <circle cx="24" cy="24" r="4" fill="#fff"/>
+      <svg width="22" height="22" viewBox="0 0 64 64" aria-hidden="true" fill="#fff">
+        <rect x="15" y="15" width="27" height="8.5"/>
+        <rect x="15" y="15" width="8.5" height="34"/>
+        <rect x="15" y="40.5" width="27" height="8.5"/>
+        <rect x="33" y="27.75" width="20" height="8.5"/>
       </svg>
     </div>
-    <div class="nm">CorpLawTracker<span>THE DECISION ENGINE · INDIAN CORPORATE LAW</span></div>
+    <div class="nm"><span class="wm"><b>CorpLaw</b>Tracker</span><span class="sub">THE DECISION ENGINE · INDIAN CORPORATE LAW</span></div>
   </div>
   <div class="search">
     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8b93a3" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
