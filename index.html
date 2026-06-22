@@ -8,7 +8,7 @@
 <link rel="icon" type="image/svg+xml" href="logo.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
     --bg:#f6f4ef; --surface:#fffefc; --surface2:#faf8f3;
@@ -23,8 +23,8 @@
     --slate:#5a6172; --slate-soft:#eceef2;
     --shadow:0 1px 2px rgba(20,24,31,.05);
     --shadow-h:0 4px 14px rgba(20,24,31,.10);
-    --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    --serif:"Fraunces",Charter,"Iowan Old Style",Georgia,serif;
+    --sans:"Hanken Grotesk",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    --serif:"Hanken Grotesk",-apple-system,BlinkMacSystemFont,"Segoe UI",Georgia,serif;
     --mono:"IBM Plex Mono","SF Mono",ui-monospace,"Cascadia Mono",Menlo,Consolas,monospace;
     --r:8px; --r-sm:5px;
   }
@@ -455,7 +455,23 @@
   ::-webkit-scrollbar{width:10px;height:10px}
   ::-webkit-scrollbar-thumb{background:var(--line);border-radius:8px;border:2px solid var(--surface)}
   @media(max-width:1180px){.wrap{grid-template-columns:216px minmax(0,1fr)}.rail{display:none}.asof{display:none}.main{padding:32px 36px 70px}}
-  @media(max-width:780px){.wrap{grid-template-columns:1fr;height:auto}aside{display:none}.stats{grid-template-columns:repeat(2,1fr)}.search{display:none}.dd-grid{grid-template-columns:1fr}.methlink{display:none}.main{padding:22px 18px 60px}.vh h2{font-size:24px}}
+  .navtoggle{display:none;width:36px;height:36px;border:1px solid var(--line);background:var(--surface);border-radius:var(--r-sm);color:var(--ink);font-size:16px;cursor:pointer;place-items:center;flex:none}
+  .navbackdrop{position:fixed;inset:0;background:rgba(20,18,14,.42);z-index:85;display:none}
+  .feed{gap:8px}
+  @media(max-width:780px){
+    .wrap{grid-template-columns:1fr;height:auto}
+    .rail{display:none}.asof{display:none}.methlink{display:none}.dd-grid{grid-template-columns:1fr}
+    .stats{grid-template-columns:repeat(2,1fr)}
+    .main{padding:18px 16px 80px}
+    .vh h2{font-size:22px}
+    header{gap:10px;padding:0 14px}
+    .navtoggle{display:grid}
+    .search{flex:1;max-width:none}
+    .search .advbtn,.search .kbd{display:none}
+    aside{display:block;position:fixed;top:0;left:0;bottom:0;width:84vw;max-width:300px;z-index:90;transform:translateX(-100%);transition:transform .22s ease}
+    body.nav-open aside{transform:none;box-shadow:var(--shadow-h)}
+    body.nav-open .navbackdrop{display:block}
+  }
   @media print{header,aside,.rail,.toolbar,.actbar,.fb,.cmpbar,.toast{display:none!important}.wrap{display:block;height:auto}.main{overflow:visible;padding:0}body{background:#fff}}
 
   /* ===================== P1 DESIGN SYSTEM PASS ===================== */
@@ -485,6 +501,7 @@
 </head>
 <body>
 <header>
+  <button class="navtoggle" id="navToggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
   <div class="brand" onclick="go({name:'feed'});resetFilters()">
     <div class="mark" aria-label="Corporate Law Tracker">
       <svg width="20" height="20" viewBox="0 0 48 48" aria-hidden="true">
@@ -496,8 +513,8 @@
   </div>
   <div class="search">
     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8b93a3" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
-    <input id="q" type="text" placeholder="Search any party, firm, partner or rule…">
-    <span class="kbd">/</span>
+    <input id="q" type="text" placeholder="Ask a standing question — party, firm, partner, rule…">
+    <span class="kbd">⌘K</span>
     <button class="advbtn" id="advOpen">Advanced</button>
   </div>
   <div class="hstatus">
@@ -507,6 +524,7 @@
     <button class="icbtn" id="theme" title="Dark / light mode">◐</button>
   </div>
 </header>
+<div class="navbackdrop" id="navBackdrop"></div>
 
 <div class="wrap">
   <aside id="sidebar"></aside>
@@ -2155,6 +2173,19 @@ route=parseHash();
 buildSidebar();buildRail();buildAdv();render();
 
 try{if(window.CLT_DATA&&window.CLT_DATA.UPDATED){var _u=document.getElementById("updated");if(_u)_u.textContent=window.CLT_DATA.UPDATED;}}catch(e){}
+
+/* Mobile nav drawer + ⌘K search */
+(function(){
+  var t=document.getElementById("navToggle"), bd=document.getElementById("navBackdrop"), body=document.body;
+  function setOpen(o){ body.classList.toggle("nav-open",o); if(t)t.setAttribute("aria-expanded",o?"true":"false"); }
+  if(t)t.addEventListener("click",function(){ setOpen(!body.classList.contains("nav-open")); });
+  if(bd)bd.addEventListener("click",function(){ setOpen(false); });
+  document.addEventListener("click",function(e){ if(e.target.closest && e.target.closest("aside .ni")) setOpen(false); });
+  document.addEventListener("keydown",function(e){
+    if((e.metaKey||e.ctrlKey)&&(e.key==="k"||e.key==="K")){ e.preventDefault(); var q=document.getElementById("q"); if(q){ q.focus(); try{q.select();}catch(_){} } }
+    if(e.key==="Escape") setOpen(false);
+  });
+})();
 </script>
 
 </body>
