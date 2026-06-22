@@ -498,6 +498,15 @@
   :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
   ::selection{background:var(--accent);color:#fff}
 
+  /* Confidence meter — quantifies evidentiary strength per deal */
+  .confm{display:flex;align-items:center;gap:11px;flex-wrap:wrap;margin:0 0 16px;padding:11px 15px;border:1px solid var(--line);border-radius:var(--r-sm);background:var(--surface2)}
+  .confm-l{font-family:var(--mono);font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--ink3)}
+  .confm-bar{display:inline-flex;gap:3px}
+  .confm-bar .cseg{width:20px;height:6px;border-radius:2px;background:var(--line)}
+  .confm-bar .cseg.on{background:var(--green)}
+  .confm-v{font-weight:700;font-size:13px;color:var(--ink)}
+  .confm-d{font-size:12px;color:var(--ink3)}
+
   /* Touch targets >=44px on coarse pointers */
   @media (pointer:coarse){
     .ni,.chip,.abtn,.methlink,.icbtn,.seg button{min-height:44px;display:inline-flex;align-items:center}
@@ -1443,6 +1452,28 @@ function trustBadge(d){return isVerified(d)
   :`<span class="real reported" title="${escA(TIP_REPORTED)}">REPORTED</span>`;}
 function stripTags(s=""){return s.replace(/<[^>]+>/g,"").replace(/\s+/g," ").trim();}
 function primarySrc(d){const off=(d.sources||[]).find(s=>srcOfficial(s));return off||(d.sources&&d.sources[0])||null;}
+function confidenceMeter(d){
+  const off=(d.sources||[]).filter(s=>srcOfficial(s)).length;
+  const n=(d.sources||[]).length;
+  const ver=isVerified(d);
+  const lc=(window.CLT_DATA&&window.CLT_DATA.LINKCHECK&&window.CLT_DATA.LINKCHECK.deals)||null;
+  const ls=lc?lc[d.id]:null;
+  let seg=0;
+  if(n>=1)seg++;
+  if(off>=1)seg++;
+  if(off>=2||(ver&&n>=2))seg++;
+  if(ls==="v"||(off>=2&&n>=3))seg++;
+  seg=Math.max(1,Math.min(4,seg));
+  const lvl=seg>=4?"High":seg>=3?"Strong":seg>=2?"Moderate":"Limited";
+  const parts=[];
+  if(off)parts.push(off+" official");
+  const other=n-off; if(other>0)parts.push(other+" press");
+  if(ls==="v")parts.push("links verified");
+  const bars=[1,2,3,4].map(i=>`<span class="cseg${i<=seg?' on':''}"></span>`).join("");
+  return `<div class="confm" title="Evidentiary confidence — from number of sources, how many are official/primary, and link health.">`
+    +`<span class="confm-l">Confidence</span><span class="confm-bar">${bars}</span><span class="confm-v">${lvl}</span>`
+    +`${parts.length?`<span class="confm-d">${parts.join(" · ")}</span>`:""}</div>`;
+}
 function dealUrl(id){return location.origin+location.pathname+"#/deal/"+encodeURIComponent(id);}
 function citeText(d){
   const s=primarySrc(d);
@@ -1748,6 +1779,7 @@ function renderDeal(id){
      <div class="dd-grid">
        <div>
          ${snapHtml}
+         ${confidenceMeter(d)}
          ${impl(d)?`<div class="sec" style="background:var(--accent-soft);border-color:transparent"><h4 style="color:var(--accent)">Why it matters · practice implication</h4><p style="color:var(--ink);font-size:13.5px">${impl(d)}</p></div>`:""}
          ${(()=>{const su=(d.sum||"").replace(/<[^>]+>/g,"").trim().toLowerCase(),de=(d.detail||"").replace(/<[^>]+>/g,"").trim();return de&&de.toLowerCase().slice(0,60)!==su.slice(0,60)?`<div class="sec"><h4>What happened</h4><p>${d.detail}</p></div>`:"";})()}
          ${structHtml}
