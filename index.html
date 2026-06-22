@@ -21,12 +21,12 @@
     --purple:#5e44ad;--purple-soft:#eee9f8;
     --teal:#15716e;  --teal-soft:#e3f0ef;
     --slate:#5a6172; --slate-soft:#eceef2;
-    --shadow:0 1px 2px rgba(28,27,23,.03),0 12px 32px rgba(28,27,23,.05);
-    --shadow-h:0 6px 20px rgba(28,27,23,.09);
+    --shadow:0 1px 2px rgba(20,24,31,.05);
+    --shadow-h:0 4px 14px rgba(20,24,31,.10);
     --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     --serif:"Fraunces",Charter,"Iowan Old Style",Georgia,serif;
-    --mono:"SF Mono",ui-monospace,"Cascadia Mono",Menlo,Consolas,monospace;
-    --r:18px; --r-sm:11px;
+    --mono:"IBM Plex Mono","SF Mono",ui-monospace,"Cascadia Mono",Menlo,Consolas,monospace;
+    --r:8px; --r-sm:5px;
   }
   html[data-theme="dark"]{
     --bg:#0d0d10; --surface:#16161a; --surface2:#121216;
@@ -457,6 +457,29 @@
   @media(max-width:780px){.wrap{grid-template-columns:1fr;height:auto}aside{display:none}.stats{grid-template-columns:repeat(2,1fr)}.search{display:none}.dd-grid{grid-template-columns:1fr}.methlink{display:none}.main{padding:22px 18px 60px}.vh h2{font-size:24px}}
   @media print{header,aside,.rail,.toolbar,.actbar,.fb,.cmpbar,.toast{display:none!important}.wrap{display:block;height:auto}.main{overflow:visible;padding:0}body{background:#fff}}
 
+  /* ===================== P1 DESIGN SYSTEM PASS ===================== */
+  /* Tabular, aligned numerals wherever data is shown */
+  body{font-variant-numeric:tabular-nums}
+  .cardval,.tag.val,.crow .cv,.age,.stat .n,.lr .dl,.cmpv,.mrow .mv{font-variant-numeric:tabular-nums;font-feature-settings:"tnum" 1}
+
+  /* Verification ladder — glyph + LABEL + colour (three channels, colour-blind safe) */
+  .real.reported::before{content:"◔ ";font-weight:700}
+  .official::before{content:"⛉ ";font-weight:700}
+  .priority::before{content:"▲ ";font-size:8px;vertical-align:1px}
+
+  /* Accessibility baseline */
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+  ::selection{background:var(--accent);color:#fff}
+
+  /* Touch targets >=44px on coarse pointers */
+  @media (pointer:coarse){
+    .ni,.chip,.abtn,.methlink,.icbtn,.seg button{min-height:44px;display:inline-flex;align-items:center}
+  }
+
+  /* Honour reduced motion */
+  @media (prefers-reduced-motion:reduce){
+    *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+  }
 </style>
 </head>
 <body>
@@ -1578,7 +1601,7 @@ function renderFeed(title,list,sub){
   const label=route.name==="watch"?"Watchlist":currentLabel();
   $("main").innerHTML=`
     ${home?heroHtml()+deadlineStrip()+priorityBand():""}
-    ${home?`<div class="coverage"><span class="cv-dot"></span><b>Updated 10 Jun 2026</b> · refreshed nightly · ${DEALS.length} matters · ${REGLIB.reduce((n,a)=>n+a.items.length,0)} regulations in library · Sources: Bar &amp; Bench · BSE/NSE · SEBI · RBI · CCI · IBBI · MCA <span style="color:var(--accent);font-weight:700;cursor:pointer" onclick="openMeth()">Methodology</span></div>`:""}
+    ${home?`<div class="coverage"><span class="cv-dot"></span><b>${(window.CLT_DATA&&window.CLT_DATA.UPDATED)||'Updated 10 Jun 2026'}</b> · refreshed nightly · ${DEALS.length} matters · ${REGLIB.reduce((n,a)=>n+a.items.length,0)} regulations in library · Sources: Bar &amp; Bench · BSE/NSE · SEBI · RBI · CCI · IBBI · MCA <span style="color:var(--accent);font-weight:700;cursor:pointer" onclick="openMeth()">Methodology</span></div>`:""}
     ${home?`<div class="stats" id="stats"></div>`:""}
     <div class="vh"><h2>${title}</h2><span class="sub">${sub||(sorted.length+(sorted.length===1?" item":" items"))}</span>${clear}</div>
     ${toolbarHtml(sorted,{save:anyFilterActive()&&route.name==="feed",sector:route.name==="feed",scope:route.name==="watch"?"watchlist":""})}
