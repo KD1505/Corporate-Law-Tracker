@@ -1497,7 +1497,7 @@ function parseHash(){
   if(p==="deal"&&id)return {name:"deal",id};
   if(p==="firm"&&id)return {name:"firm",id};
   if(p==="law"&&id)return {name:"law",id};
-  const pages=["feed","foryou","precedents","pipeline","analytics","regulatory","calendar","trends","moves","firms","watch","saved","compare"];
+  const pages=["feed","foryou","precedents","pipeline","analytics","regulatory","calendar","trends","moves","firms","watch","saved","compare","coverage"];
   return pages.includes(p)?{name:p}:{name:"feed"};
 }
 function go(r){
@@ -1536,7 +1536,7 @@ function buildSidebar(){
   const grp=(label,items)=>`<div class="ng"><h4>${label}</h4>${items.map(b=>`<div class="ni" data-browse="${b.k}"><span class="ic">${b.ic}</span>${b.label}${b.ct!==undefined?`<span class="ct" ${b.ctid?`id="${b.ctid}"`:""}>${b.ct}</span>`:""}</div>`).join("")}</div>`;
   const ws=[{k:"feed",ic:"▤",label:"Today"},{k:"foryou",ic:"◈",label:"My Practice"},{k:"watch",ic:"★",label:"Watchlist",ct:starred.size,ctid:"starCt"},{k:"saved",ic:"⌗",label:"Saved & Alerts"},{k:"compare",ic:"⊞",label:"Compare",ct:cmp.size,ctid:"cmpCt"}];
   const intel=[{k:"precedents",ic:"⌕",label:"Precedent Transactions"},{k:"pipeline",ic:"◷",label:"Deal Pipeline"},{k:"analytics",ic:"▦",label:"League Tables"},{k:"trends",ic:"◎",label:"Market Trends"},{k:"moves",ic:"⇄",label:"People Moves"},{k:"firms",ic:"⚖",label:"Law Firms"}];
-  const reg=[{k:"regulatory",ic:"§",label:"Regulatory Radar"},{k:"calendar",ic:"☷",label:"Regulatory Calendar"}];
+  const reg=[{k:"regulatory",ic:"§",label:"Regulatory Radar"},{k:"calendar",ic:"☷",label:"Regulatory Calendar"},{k:"coverage",ic:"◫",label:"Coverage & Method"}];
   const geo=`<div class="ng"><h4>Geography</h4>${GEOS.map(g=>{const ct=g.id==="all"?DEALS.length:DEALS.filter(d=>d.geo===g.id).length;
     return `<div class="ni" data-geo="${g.id}"><span class="dot" style="background:${g.dot}"></span>${g.label}<span class="ct">${ct}</span></div>`}).join("")}</div>`;
   const typ=`<div class="ng"><h4>Deal Type</h4>${Object.entries(TYPES).map(([k,v])=>{const ct=DEALS.filter(d=>d.type===k).length;
@@ -1956,6 +1956,44 @@ function barRows(pairs,fmt,onClickType){
     <span class="anbar" style="width:${Math.max(6,Math.round(p[1]/max*150))}px"></span>
     <span class="anval">${fmt(p[1])}</span></div>`).join("");
 }
+function renderCoverage(){
+  const total=DEALS.length;
+  const verified=DEALS.filter(d=>isVerified(d)).length;
+  const official=DEALS.filter(d=>dealHasOfficial(d)).length;
+  const attributed=DEALS.filter(d=>(d.firms||[]).some(f=>firmKnown(f.name))).length;
+  const pct=n=>total?Math.round(n/total*100):0;
+  const lcd=(window.CLT_DATA&&window.CLT_DATA.LINKCHECK&&window.CLT_DATA.LINKCHECK.deals)||null;
+  let lv=0,li=0,lu=0;
+  if(lcd)Object.keys(lcd).forEach(k=>{const s=lcd[k];if(s==="v")lv++;else if(s==="i")li++;else lu++;});
+  let sOff=0,sPress=0,sTot=0;
+  DEALS.forEach(d=>(d.sources||[]).forEach(s=>{sTot++;if(srcOfficial(s))sOff++;else sPress++;}));
+  const ts=d=>Date.parse(d.time)||0;
+  const recent=[...DEALS].sort((a,b)=>ts(b)-ts(a)).slice(0,12);
+  const corrections=(window.CLT_DATA&&window.CLT_DATA.CORRECTIONS)||[];
+  const upd=(window.CLT_DATA&&window.CLT_DATA.UPDATED)||"Updated recently";
+  const metric=(n,l,d)=>`<div class="stat" style="cursor:default"><div class="n">${n}</div><div class="l">${l}</div><div class="d">${d}</div></div>`;
+  $("main").innerHTML=`
+    <div class="vh"><h2>Coverage &amp; Method</h2><span class="sub">${upd} · how this data is sourced, verified and kept honest</span></div>
+    <div class="stats" style="margin-bottom:24px">
+      ${metric(total,"Deals tracked","sourced & deduped nightly")}
+      ${metric(pct(verified)+"%","Verified","corroborated by an official source")}
+      ${metric(pct(official)+"%","Official-linked","carry a primary filing")}
+      ${metric(lcd?Math.round(lv/Math.max(1,lv+li+lu)*100)+"%":"—","Links live","pinged nightly")}
+    </div>
+    <div class="anwrap">
+      <div class="sec"><h4>Source mix</h4><p style="font-size:13px;color:var(--ink2);line-height:1.65"><b>${sTot}</b> source links across <b>${total}</b> deals — <b>${sOff}</b> official/primary (exchange, regulator, court, company) and <b>${sPress}</b> press/secondary. <b>${attributed}</b> deals carry named counsel.</p></div>
+      <div class="sec"><h4>Link health · checked nightly</h4>${lcd?`<p style="font-size:13px;color:var(--ink2);line-height:1.65"><span style="color:var(--green);font-weight:700">${lv}</span> deals with every link confirmed live · <span style="color:var(--amber);font-weight:700">${li}</span> with a link under review · ${lu} not yet checked. Every source URL is pinged on a rolling nightly basis — a genuine 404 is flagged; a bot-blocked government page is not falsely failed.</p>`:`<p style="font-size:13px;color:var(--ink2);line-height:1.65">The nightly link-checker pings every source URL and flags any that die or redirect. Results appear here after the first run.</p>`}</div>
+      <div class="sec"><h4>The verification ladder</h4>
+        <div class="fwitem"><div class="fwref">⛉ Official</div><div class="fwnote">Carries a specific primary filing — an exchange disclosure, a regulator/court order, or the company's own release.</div></div>
+        <div class="fwitem"><div class="fwref">✓ Verified</div><div class="fwnote">Corroborated by at least one official/primary source.</div></div>
+        <div class="fwitem"><div class="fwref">◔ Reported</div><div class="fwnote">A single press source; not yet corroborated against a primary filing.</div></div>
+      </div>
+      <div class="sec"><h4>Recently entered</h4>${recent.map(d=>`<div class="lr" data-deal="${d.id}"><span class="fn" style="font-family:var(--sans)">${d.headline}</span><span class="dl" style="color:var(--ink3)">${d.time}</span></div>`).join("")}</div>
+      <div class="sec"><h4>Corrections log</h4>${corrections.length?corrections.map(c=>`<div class="fwitem"><div class="fwref">${c.date||""}</div><div class="fwnote">${c.note||""}</div></div>`).join(""):`<div class="empty" style="text-align:left">No corrections logged to date. When we fix or retract an item, it is recorded here — openly. We would rather show our edits than claim perfection.</div>`}</div>
+      <div class="sec"><h4>How we keep this honest</h4><p style="font-size:12.5px;color:var(--ink2);line-height:1.7">Deals are machine-collected nightly from primary disclosures (BSE/NSE filings, regulator and court orders) and named-counsel legal press, deduplicated, and scored. We tag each item by evidentiary strength rather than hiding uncertainty, link every claim to its source, ping those links nightly, and rank league tables only on deals with attributed counsel. Nothing here is fabricated; where we don't know, we mark it "—".</p></div>
+    </div>`;
+  $("main").querySelectorAll("[data-deal]").forEach(n=>n.onclick=()=>go({name:"deal",id:n.dataset.deal}));
+}
 function renderAnalytics(){
   const fc={},fv={},pc={},tc={},sc={};
   DEALS.forEach(d=>{
@@ -2200,6 +2238,7 @@ function render(){
   else if(route.name==="deal")renderDeal(route.id);
   else if(route.name==="pipeline")renderPipeline();
   else if(route.name==="analytics")renderAnalytics();
+  else if(route.name==="coverage")renderCoverage();
   else if(route.name==="regulatory")renderRegulatory();
   else if(route.name==="law")renderLaw(route.id);
   else if(route.name==="trends")renderTrends();
