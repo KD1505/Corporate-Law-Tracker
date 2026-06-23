@@ -2211,10 +2211,16 @@ function renderForYou(){
 function loadSaved(){try{return JSON.parse(localStorage.getItem("clt_saved")||"[]");}catch{return[];}}
 function persistSaved(a){try{localStorage.setItem("clt_saved",JSON.stringify(a));}catch{}}
 function currentLabel(){const b=[];if(F.firm)b.push(F.firm);if(F.firm2)b.push("+"+F.firm2);if(F.city)b.push(CITYLABEL[F.city]);else if(F.geo!=="all")b.push(CITYLABEL[F.geo]);if(F.type)b.push(TYPES[F.type].label);if(F.stage)b.push(STAGES[F.stage].l);if(F.sector!=="All Sectors")b.push(F.sector);if(F.q)b.push('"'+F.q+'"');return b.join(" · ")||"All deals";}
-function saveCurrentView(){const a=loadSaved();a.unshift({label:currentLabel(),F:JSON.parse(JSON.stringify(F))});persistSaved(a.slice(0,30));toast("View saved");render();}
+function saveCurrentView(){const a=loadSaved();a.unshift({label:currentLabel(),F:JSON.parse(JSON.stringify(F)),n:DEALS.filter(matchesFilters).length,at:Date.now()});persistSaved(a.slice(0,30));toast("View saved");render();}
+function countForF(sf){const o=F;F=sf;const n=DEALS.filter(matchesFilters).length;F=o;return n;}
 function renderSaved(){
   const a=loadSaved();
-  const body=a.length?a.map((s,i)=>`<div class="moverow"><div data-apply="${i}" style="flex:1;cursor:pointer"><div class="mv-who">${s.label}</div><div class="mv-what">Saved view — click to run</div></div><span class="delx" data-del="${i}">✕ remove</span></div>`).join(""):'<div class="empty">No saved views yet. Apply filters on the feed, then click <b>Save &amp; track</b> in the toolbar. Saved views also seed your daily brief.</div>';
+  const body=a.length?a.map((s,i)=>{
+    const cur=countForF(s.F);const delta=cur-(typeof s.n==="number"?s.n:cur);
+    const when=s.at?new Date(s.at).toLocaleDateString("en-GB",{day:"numeric",month:"short"}):"";
+    const meta=`${cur} match${cur===1?"":"es"}${delta>0?` · <span style="color:var(--green);font-weight:700">+${delta} since ${when}</span>`:(when?` · saved ${when}`:" · click to run")}`;
+    return `<div class="moverow"><div data-apply="${i}" style="flex:1;cursor:pointer"><div class="mv-who">${s.label}</div><div class="mv-what">${meta}</div></div><span class="delx" data-del="${i}">✕ remove</span></div>`;
+  }).join(""):'<div class="empty">No saved views yet. Apply filters on the feed, then click <b>Save &amp; track</b> in the toolbar. Saved views also seed your daily brief.</div>';
   $("main").innerHTML=`<div class="vh"><h2>Saved &amp; Alerts</h2><span class="sub">${a.length} saved · standing questions you can re-run in one click — these seed your daily brief</span></div>${body}`;
   $("main").querySelectorAll("[data-apply]").forEach(n=>n.onclick=()=>{F=JSON.parse(JSON.stringify(loadSaved()[+n.dataset.apply].F));$("q").value=F.q||"";go({name:"feed"});});
   $("main").querySelectorAll("[data-del]").forEach(n=>n.onclick=()=>{const a=loadSaved();a.splice(+n.dataset.del,1);persistSaved(a);renderSaved();});
