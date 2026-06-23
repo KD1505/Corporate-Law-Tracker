@@ -516,6 +516,40 @@
   @media (prefers-reduced-motion:reduce){
     *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
   }
+
+  /* ===================== MOBILE REFINEMENT PASS ===================== */
+  @media(max-width:780px){
+    body{overflow-x:hidden}
+    .nm .sub{display:none}
+    .brand .nm{font-size:15px}
+    .vh{margin-bottom:16px;gap:9px}
+    .vh h2{font-size:21px}
+    .vh .sub{font-size:12px}
+    .bandh{margin:2px 0 11px}
+    .toolbar{padding:9px 12px;margin-bottom:16px;gap:8px;border-radius:var(--r-sm)}
+    .card{padding:16px 16px 14px;border-radius:var(--r-sm)}
+    .sec{padding:16px 16px;border-radius:var(--r-sm)}
+    .prio{grid-template-columns:1fr;gap:12px;margin-bottom:22px}
+    .priocard{padding:17px 18px}
+    .dd h1{font-size:23px;line-height:1.26;margin-bottom:10px}
+    .dd .lede,.lede{font-size:14.5px}
+    .crow{gap:9px;padding:9px 12px}
+    .crow .cmpadd{display:none}
+    .webstrip{display:none}
+    .modal{padding:20px 18px;border-radius:var(--r);width:96vw;max-height:88vh}
+    .ovl{padding-top:22px}
+    .anwrap{gap:14px}
+    .confm{padding:10px 12px;gap:9px}
+    .confm-bar .cseg{width:16px}
+  }
+  @media(max-width:430px){
+    .main{padding:14px 12px 84px}
+    .stats{grid-template-columns:1fr 1fr;gap:8px}
+    .stat{padding:12px 13px}
+    .stat .n{font-size:20px}
+    .crow .age{display:none}
+    .dd-head{gap:6px}
+  }
 </style>
 </head>
 <body>
