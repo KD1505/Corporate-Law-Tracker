@@ -513,6 +513,27 @@
   .orientx{border:none;background:none;color:var(--ink3);cursor:pointer;font-size:13px;padding:2px 6px;line-height:1;flex:none}
   .orientx:hover{color:var(--ink)}
 
+  /* ---- Daily-brief subscribe ---- */
+  .brief-cta{margin:22px 0 4px;padding:20px 22px;border:1px solid var(--line);border-radius:var(--r);background:linear-gradient(180deg,var(--accent-soft),transparent)}
+  .brief-cta h4{font-family:var(--serif);font-weight:600;font-size:18px;letter-spacing:-.01em;color:var(--ink);margin:0 0 4px}
+  .brief-cta p{font-size:13px;color:var(--ink2);line-height:1.55;margin:0 0 14px;max-width:62ch}
+  .brief-form{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+  .brief-form input{flex:1;min-width:200px;height:42px;padding:0 14px;border:1px solid var(--line);border-radius:var(--r-sm);background:var(--card);color:var(--ink);font-size:14px;font-family:var(--sans)}
+  .brief-form input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+  .brief-form button{height:42px;padding:0 20px;border:none;border-radius:var(--r-sm);background:var(--accent);color:#fff;font-size:13.5px;font-weight:600;font-family:var(--sans);cursor:pointer;white-space:nowrap;transition:opacity .15s}
+  .brief-form button:hover{opacity:.9}
+  .brief-form button:disabled{opacity:.5;cursor:default}
+  .brief-note{margin-top:10px;font-size:11.5px;color:var(--ink3)}
+  .brief-ok{display:flex;align-items:center;gap:9px;font-size:14px;color:var(--ink);padding:4px 0}
+  .brief-ok .tick{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:var(--green,#0c8f5a);color:#fff;font-size:13px;flex:none}
+  /* compact CTA inside header */
+  .briefbtn{height:30px;padding:0 13px;border:1px solid var(--accent);border-radius:var(--r-sm);background:var(--accent);color:#fff;font-size:12px;font-weight:600;font-family:var(--sans);cursor:pointer;white-space:nowrap}
+  .briefbtn:hover{opacity:.9}
+  /* subscribe modal reuses .ovl/.modal; this is the form sizing */
+  #sub .modal{max-width:480px}
+  #sub .submast{font-family:var(--serif);font-weight:600;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+  @media(max-width:430px){.brief-form input{min-width:140px}}
+
   /* Touch targets >=44px on coarse pointers */
   @media (pointer:coarse){
     .ni,.chip,.abtn,.methlink,.icbtn,.seg button{min-height:44px;display:inline-flex;align-items:center}
@@ -580,6 +601,7 @@
   </div>
   <div class="hstatus">
     <div class="asof"><b><span class="okdot"></span><span id="updated">Updated 10 Jun 2026</span></b><span id="asofsub">Refreshed nightly from primary sources</span></div>
+    <button class="briefbtn" id="briefOpen" title="Get the daily intelligence brief">✉ Get the brief</button>
     <a class="methlink" href="academy.html" style="background:var(--accent);border-color:var(--accent);color:#fff;text-decoration:none">Academy ↗</a>
     <button class="methlink" id="methOpen">Methodology</button>
     <button class="icbtn" id="theme" title="Dark / light mode">◐</button>
@@ -641,6 +663,22 @@
     <div class="methsec"><h5>Limits</h5>
       <p>This is a research and current-awareness tool, <b>not legal advice</b>. Headlines and snippets are shown under fair-use linking. Always read the primary filing and the current text of the law before advising.</p></div>
     <div class="mact"><button class="mbtn primary" id="methClose">Close</button></div>
+  </div>
+</div>
+
+<div class="ovl" id="sub">
+  <div class="modal">
+    <div class="submast">CorpLawTracker · The Brief</div>
+    <h3 style="margin-top:6px">The day's Indian corporate deals, before 9am.</h3>
+    <div class="msub">One concise, verified email each morning: the deals that moved, who advised whom, and what's on the regulators' desk. Built only on primary filings. Free.</div>
+    <div id="subBody">
+      <form class="brief-form" id="subForm" style="margin-top:8px">
+        <input id="subEmail" type="email" required autocomplete="email" placeholder="you@firm.com" aria-label="Your work email">
+        <button type="submit" id="subBtn">Subscribe</button>
+      </form>
+      <div class="brief-note">No spam, ever. Unsubscribe in one click. We verify every item against its source before it reaches you.</div>
+    </div>
+    <div class="mact"><button class="mbtn" id="subClose">Close</button></div>
   </div>
 </div>
 
@@ -1521,6 +1559,65 @@ function citeText(d){
 }
 function openMeth(){$("meth").classList.add("on");}
 
+/* ============================ DAILY BRIEF SUBSCRIBE ============================ */
+/* Wire this to your email provider. Paste the form/POST endpoint from Beehiiv,
+   Substack, Buttondown, ConvertKit or Formspree. Until then, signups are stored
+   locally and shown so you can confirm the UX. The field name is "email". */
+const SUBSCRIBE_ENDPOINT = ""; // e.g. "https://formspree.io/f/xxxxxx" or a Beehiiv embed URL
+function briefCtaHtml(){
+  if(lsGet("clt_subscribed",false)){
+    return `<div class="brief-cta"><div class="brief-ok"><span class="tick">✓</span><span>You're on the list — the next brief lands tomorrow morning. <a href="#" id="briefManage" style="color:var(--accent)">Use a different email</a></span></div></div>`;
+  }
+  return `<div class="brief-cta">
+    <h4>Get the brief — the day's Indian corporate deals, before 9am.</h4>
+    <p>One concise, verified email each morning: the deals that moved overnight, who advised whom, and what's on the regulators' desk. Built only on primary filings — the same standard as everything here.</p>
+    <form class="brief-form" id="ctaForm">
+      <input id="ctaEmail" type="email" required autocomplete="email" placeholder="you@firm.com" aria-label="Your work email">
+      <button type="submit" id="ctaBtn">Get the brief</button>
+    </form>
+    <div class="brief-note">Free · no spam · unsubscribe in one click.</div>
+  </div>`;
+}
+function bindBriefCta(){
+  const f=$("ctaForm");
+  if(f)f.onsubmit=e=>{e.preventDefault();submitEmail($("ctaEmail").value,$("ctaBtn"),()=>render());};
+  const m=$("briefManage");
+  if(m)m.onclick=e=>{e.preventDefault();lsSet("clt_subscribed",false);render();};
+}
+function openSub(){
+  const b=$("subBody");
+  if(lsGet("clt_subscribed",false)){
+    b.innerHTML=`<div class="brief-ok" style="margin-top:6px"><span class="tick">✓</span><span>You're already subscribed — the next brief lands tomorrow morning.</span></div>`;
+  }
+  $("sub").classList.add("on");
+}
+function isEmail(v){return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test((v||"").trim());}
+function submitEmail(value,btn,after){
+  const email=(value||"").trim();
+  if(!isEmail(email)){toast("Enter a valid email address.");return;}
+  const orig=btn?btn.textContent:"";
+  if(btn){btn.disabled=true;btn.textContent="…";}
+  const reset=()=>{if(btn){btn.disabled=false;btn.textContent=orig;}};
+  const done=()=>{
+    // remember locally so the UI reflects the subscription
+    const list=lsGet("clt_sub_emails",[]); if(!list.includes(email)){list.push(email);lsSet("clt_sub_emails",list);}
+    lsSet("clt_subscribed",true);
+    toast("You're on the list — first brief lands tomorrow morning.");
+    reset();
+    if(after)after();
+  };
+  if(SUBSCRIBE_ENDPOINT){
+    const body=new FormData(); body.append("email",email); body.append("source","corplawtracker.com");
+    fetch(SUBSCRIBE_ENDPOINT,{method:"POST",body,headers:{Accept:"application/json"}})
+      .then(()=>done())
+      .catch(()=>{ reset(); toast("Couldn't reach the server — please try again."); });
+  } else {
+    // No provider wired yet: store locally and confirm UX.
+    console.info("[CorpLawTracker] Captured signup (no endpoint wired yet):",email);
+    setTimeout(done,300);
+  }
+}
+
 /* ============================ ROUTING (deep links) ============================ */
 let _suppressHash=false;
 function routeHash(r){
@@ -1709,12 +1806,14 @@ function renderFeed(title,list,sub){
     <div class="vh"><h2>${title}</h2><span class="sub">${sub||(sorted.length+(sorted.length===1?" item":" items"))}</span>${clear}</div>
     ${toolbarHtml(sorted,{save:anyFilterActive()&&route.name==="feed",sector:route.name==="feed",scope:route.name==="watch"?"watchlist":""})}
     ${body}
+    ${home?briefCtaHtml():""}
     <div class="foot">CorpLawTracker · The decision engine for India's corporate legal market.<br>Headlines &amp; snippets shown under fair-use linking — open the primary source &amp; filings before advising. <span class="methlink" onclick="openMeth()" style="cursor:pointer">Methodology</span></div>`;
   if(home)buildStats();
   bindCards();bindToolbar(list,label);
   $("main").querySelectorAll("[data-nav]").forEach(n=>n.onclick=()=>go({name:n.dataset.nav}));
   $("main").querySelectorAll("[data-sort]").forEach(n=>n.onclick=()=>{sortMode=n.dataset.sort;lsSet("clt_sort",sortMode);render();});
   $("orientX")&&($("orientX").onclick=()=>{lsSet("clt_orient_hidden",true);render();});
+  bindBriefCta();
   $("heroX")&&($("heroX").onclick=()=>{lsSet("clt_hero_hidden",true);render();toast("You can reread the pitch under Methodology");});
   $("heroGo")&&($("heroGo").onclick=()=>go({name:"foryou"}));
   $("heroMeth")&&($("heroMeth").onclick=openMeth);
@@ -2308,6 +2407,10 @@ $("theme").onclick=()=>{const h=document.documentElement;h.dataset.theme=h.datas
 $("methOpen").onclick=openMeth;
 $("methClose").onclick=()=>$("meth").classList.remove("on");
 $("meth").onclick=e=>{if(e.target.id==="meth")$("meth").classList.remove("on");};
+$("briefOpen").onclick=openSub;
+$("subClose").onclick=()=>$("sub").classList.remove("on");
+$("sub").onclick=e=>{if(e.target.id==="sub")$("sub").classList.remove("on");};
+$("subForm").onsubmit=e=>{e.preventDefault();submitEmail($("subEmail").value,$("subBtn"),()=>{$("subBody").innerHTML=`<div class="brief-ok" style="margin-top:6px"><span class="tick">✓</span><span>You're on the list — the first brief lands tomorrow morning.</span></div>`;});};
 route=parseHash();
 buildSidebar();buildRail();buildAdv();render();
 
