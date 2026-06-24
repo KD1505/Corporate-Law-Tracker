@@ -507,6 +507,12 @@
   .confm-v{font-weight:700;font-size:13px;color:var(--ink)}
   .confm-d{font-size:12px;color:var(--ink3)}
 
+  /* One-line orientation banner (cold first-timers; dismissible) */
+  .orient{display:flex;align-items:center;gap:12px;padding:9px 15px;margin:0 0 16px;background:var(--accent-soft);border:1px solid var(--line);border-radius:var(--r-sm);font-size:12.5px;color:var(--ink2);line-height:1.4}
+  .orient span{flex:1}
+  .orientx{border:none;background:none;color:var(--ink3);cursor:pointer;font-size:13px;padding:2px 6px;line-height:1;flex:none}
+  .orientx:hover{color:var(--ink)}
+
   /* Touch targets >=44px on coarse pointers */
   @media (pointer:coarse){
     .ni,.chip,.abtn,.methlink,.icbtn,.seg button{min-height:44px;display:inline-flex;align-items:center}
@@ -1696,6 +1702,7 @@ function renderFeed(title,list,sub){
   const body=sorted.length?`<div class="feed">${sorted.map(density==="compact"?dealRow:dealCard).join("")}</div>`:`<div class="empty">No matching developments. Clear the search or pick another filter.</div>`;
   const label=route.name==="watch"?"Watchlist":currentLabel();
   $("main").innerHTML=`
+    ${home&&!lsGet("clt_orient_hidden",false)?`<div class="orient"><span><b style="color:var(--ink)">Verified deal &amp; regulatory intelligence for India's corporate market</b> — every item sourced to a primary filing.</span><button class="orientx" id="orientX" aria-label="Dismiss this">✕</button></div>`:""}
     ${home?`<div class="coverage"><span class="cv-dot"></span><b>${(window.CLT_DATA&&window.CLT_DATA.UPDATED)||'Updated 10 Jun 2026'}</b> · refreshed nightly · ${DEALS.length} matters · built only on primary filings — BSE/NSE · SEBI · RBI · CCI · IBBI · NCLT <span style="color:var(--accent);font-weight:700;cursor:pointer" onclick="openMeth()">Coverage &amp; method →</span></div>`:""}
     ${home?`<div class="stats" id="stats"></div>`:""}
     ${home?priorityBand()+deadlineStrip():""}
@@ -1707,6 +1714,7 @@ function renderFeed(title,list,sub){
   bindCards();bindToolbar(list,label);
   $("main").querySelectorAll("[data-nav]").forEach(n=>n.onclick=()=>go({name:n.dataset.nav}));
   $("main").querySelectorAll("[data-sort]").forEach(n=>n.onclick=()=>{sortMode=n.dataset.sort;lsSet("clt_sort",sortMode);render();});
+  $("orientX")&&($("orientX").onclick=()=>{lsSet("clt_orient_hidden",true);render();});
   $("heroX")&&($("heroX").onclick=()=>{lsSet("clt_hero_hidden",true);render();toast("You can reread the pitch under Methodology");});
   $("heroGo")&&($("heroGo").onclick=()=>go({name:"foryou"}));
   $("heroMeth")&&($("heroMeth").onclick=openMeth);
