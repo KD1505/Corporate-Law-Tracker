@@ -1620,9 +1620,9 @@ function dealCard(d){
 function dealRow(d){
   const st=STAGES[d.stage];
   const vr=isVerified(d)?`<span class="vr" style="color:var(--green);font-weight:750;font-size:11px" title="${escA(TIP_VERIFIED)}" aria-label="Verified">✓</span>`:`<span class="vr" style="color:var(--amber);font-weight:750;font-size:11px" title="${escA(TIP_REPORTED)}" aria-label="Reported">◔</span>`;
-  return `<div class="crow" data-deal="${d.id}">
+  return `<div class="crow" data-deal="${d.id}" title="${escA(stripTags(impl(d)||d.sum||d.headline))}">
     ${typeBadge(d)}${vr}
-    <span class="ch" title="${escA(d.headline)}">${d.headline}</span>
+    <span class="ch">${d.headline}</span>
     <span class="cv">${d.value&&d.value!=="—"?d.value:""}</span>
     <span class="cs"><span class="sd" style="width:6px;height:6px;border-radius:50%;background:${st.c};display:inline-block"></span>${st.l}</span>
     ${ageChip(d)}${cmpBtn(d)}${starBtn(d)}
@@ -1662,7 +1662,7 @@ function priorityBand(){
   <div class="prio">${ranked.map(d=>{const st=STAGES[d.stage];return `<div class="priocard" data-deal="${d.id}" style="border-left-color:${d.imp==="hi"?"var(--red)":TYPES[d.type].c}">
     <div style="display:flex;align-items:center;gap:7px">${typeBadge(d)}${trustBadge(d)}${ageChip(d)}</div>
     <h3>${d.headline}</h3>
-    <div class="pw">${impl(d)?stripTags(impl(d)):stripTags(d.sum)}</div>
+    <div class="pw">${impl(d)?`<b style="color:var(--accent);font-weight:700">Why this matters</b> · ${stripTags(impl(d))}`:stripTags(d.sum)}</div>
     <div class="pmeta">${d.value&&d.value!=="—"?`<b style="font-family:var(--mono);color:var(--green)">${d.value}</b> ·`:""} ${st.l} · ${d.sector}</div>
   </div>`;}).join("")}</div>`;
 }
@@ -1696,9 +1696,9 @@ function renderFeed(title,list,sub){
   const body=sorted.length?`<div class="feed">${sorted.map(density==="compact"?dealRow:dealCard).join("")}</div>`:`<div class="empty">No matching developments. Clear the search or pick another filter.</div>`;
   const label=route.name==="watch"?"Watchlist":currentLabel();
   $("main").innerHTML=`
-    ${home?heroHtml()+deadlineStrip()+priorityBand():""}
-    ${home?`<div class="coverage"><span class="cv-dot"></span><b>${(window.CLT_DATA&&window.CLT_DATA.UPDATED)||'Updated 10 Jun 2026'}</b> · refreshed nightly · ${DEALS.length} matters · ${REGLIB.reduce((n,a)=>n+a.items.length,0)} regulations in library · Sources: Bar &amp; Bench · BSE/NSE · SEBI · RBI · CCI · IBBI · MCA <span style="color:var(--accent);font-weight:700;cursor:pointer" onclick="openMeth()">Methodology</span></div>`:""}
+    ${home?`<div class="coverage"><span class="cv-dot"></span><b>${(window.CLT_DATA&&window.CLT_DATA.UPDATED)||'Updated 10 Jun 2026'}</b> · refreshed nightly · ${DEALS.length} matters · built only on primary filings — BSE/NSE · SEBI · RBI · CCI · IBBI · NCLT <span style="color:var(--accent);font-weight:700;cursor:pointer" onclick="openMeth()">Coverage &amp; method →</span></div>`:""}
     ${home?`<div class="stats" id="stats"></div>`:""}
+    ${home?priorityBand()+deadlineStrip():""}
     <div class="vh"><h2>${title}</h2><span class="sub">${sub||(sorted.length+(sorted.length===1?" item":" items"))}</span>${clear}</div>
     ${toolbarHtml(sorted,{save:anyFilterActive()&&route.name==="feed",sector:route.name==="feed",scope:route.name==="watch"?"watchlist":""})}
     ${body}
