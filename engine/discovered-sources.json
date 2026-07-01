@@ -1,40 +1,40 @@
 {
   "_note": "Auto-grown source funnel. Each run logs every domain that corroborated a deal, with a running count. Domains marked official:true are government/regulator/exchange/court. Review the high-count entries periodically and promote the best into sources.json as curated corroborators.",
   "barandbench.com": {
-    "count": 171,
+    "count": 175,
     "firstSeen": "2026-06-08",
     "official": true,
-    "lastSeen": "2026-06-30"
+    "lastSeen": "2026-07-01"
   },
   "bseindia.com": {
-    "count": 1382,
+    "count": 1467,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-07-01"
   },
   "nseindia.com": {
-    "count": 1411,
+    "count": 1496,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-07-01"
   },
   "sebi.gov.in": {
-    "count": 257,
+    "count": 263,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-07-01"
   },
   "cci.gov.in": {
-    "count": 1176,
+    "count": 1251,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-07-01"
   },
   "rbi.org.in": {
-    "count": 38,
+    "count": 40,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-06-29"
+    "lastSeen": "2026-07-01"
   },
   "judgments.ecourts.gov.in": {
     "count": 5,
@@ -43,7 +43,7 @@
     "lastSeen": "2026-06-16"
   },
   "nsearchives.nseindia.com": {
-    "count": 1670,
+    "count": 1752,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-07-01"
@@ -529,10 +529,10 @@
     "lastSeen": "2026-06-19"
   },
   "nclt.gov.in": {
-    "count": 50,
+    "count": 51,
     "firstSeen": "2026-06-19",
     "official": true,
-    "lastSeen": "2026-06-30"
+    "lastSeen": "2026-07-01"
   },
   "gujaratgas.com": {
     "count": 1,
@@ -547,10 +547,10 @@
     "lastSeen": "2026-06-20"
   },
   "ibbi.gov.in": {
-    "count": 48,
+    "count": 49,
     "firstSeen": "2026-06-20",
     "official": true,
-    "lastSeen": "2026-06-30"
+    "lastSeen": "2026-07-01"
   },
   "elitewealth.in": {
     "count": 1,
