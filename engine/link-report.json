@@ -22917,6 +22917,16 @@
       "unknown": 60,
       "verifiedDeals": 1381,
       "issueDeals": 243
+    },
+    {
+      "at": "2026-07-03",
+      "checked": 60,
+      "dead": 0,
+      "redirected": 0,
+      "ok": 0,
+      "unknown": 60,
+      "verifiedDeals": 1381,
+      "issueDeals": 243
     }
   ],
   "lastRun": "2026-07-03"
