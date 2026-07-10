@@ -1,40 +1,40 @@
 {
   "_note": "Auto-grown source funnel. Each run logs every domain that corroborated a deal, with a running count. Domains marked official:true are government/regulator/exchange/court. Review the high-count entries periodically and promote the best into sources.json as curated corroborators.",
   "barandbench.com": {
-    "count": 206,
+    "count": 212,
     "firstSeen": "2026-06-08",
     "official": true,
-    "lastSeen": "2026-07-09"
+    "lastSeen": "2026-07-10"
   },
   "bseindia.com": {
-    "count": 1842,
+    "count": 1865,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-07-09"
+    "lastSeen": "2026-07-10"
   },
   "nseindia.com": {
-    "count": 1871,
+    "count": 1894,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-07-09"
+    "lastSeen": "2026-07-10"
   },
   "sebi.gov.in": {
-    "count": 293,
+    "count": 300,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-07-09"
+    "lastSeen": "2026-07-10"
   },
   "cci.gov.in": {
-    "count": 1582,
+    "count": 1595,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-07-09"
+    "lastSeen": "2026-07-10"
   },
   "rbi.org.in": {
-    "count": 48,
+    "count": 50,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-07-09"
+    "lastSeen": "2026-07-10"
   },
   "judgments.ecourts.gov.in": {
     "count": 6,
@@ -43,10 +43,10 @@
     "lastSeen": "2026-07-03"
   },
   "nsearchives.nseindia.com": {
-    "count": 2126,
+    "count": 2145,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-07-09"
+    "lastSeen": "2026-07-10"
   },
   "hfcl.com": {
     "count": 2,
@@ -529,10 +529,10 @@
     "lastSeen": "2026-06-19"
   },
   "nclt.gov.in": {
-    "count": 79,
+    "count": 81,
     "firstSeen": "2026-06-19",
     "official": true,
-    "lastSeen": "2026-07-08"
+    "lastSeen": "2026-07-10"
   },
   "gujaratgas.com": {
     "count": 1,
@@ -547,10 +547,10 @@
     "lastSeen": "2026-06-20"
   },
   "ibbi.gov.in": {
-    "count": 77,
+    "count": 79,
     "firstSeen": "2026-06-20",
     "official": true,
-    "lastSeen": "2026-07-08"
+    "lastSeen": "2026-07-10"
   },
   "elitewealth.in": {
     "count": 1,
