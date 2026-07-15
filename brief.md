@@ -1,365 +1,185 @@
 # Corporate Law Tracker — Daily Brief
-_14 July 2026_
+_15 July 2026_
 
-40 new development(s).
+20 new development(s).
 
-### 🔴 JSA, Collyer Law, Argus Partners, IC RegFin Legal act on Meesho's ₹202 crore acquisition of Kirana Club
-**MA** · ₹202 cr · Cross-border · Reported
+### 🔴 Aditya Birla acquires Sprng Energy from Shell for $1.8 billion; Khaitan & Co, Trilegal advise
+**BANK** · $1.8 bn · Cross-border · Reported
 
-Meesho Limited has acquired 100% of the shareholding of Kirana Club Pte Ltd (together with the indirect acquisition of its Indian subsidiary, Retail Pulse Labs Private Limited) from its Promoters and other selling shareholders, for ₹202…
+Aditya Birla Renewables Limited has signed a definitive agreement to make a 100% acquisition of Sprng Energy group of companies from Shell plc at an enterprise value of $1.8 billion. Khaitan & Co advised Aditya Birla Renewables on this…
 
-[Open source ↗](https://www.barandbench.com/dealstreet/jsa-collyer-law-ic-regfin-legal-act-on-meeshos-202-crore-acquisition-of-kirana-club)
-
----
-
-### Gensol Engineering Limited: News Verification
-**REG** · ₹673 cr · India · ✓ Verified
-
-News Verification — The Exchange has sought clarification from Gensol Engineering Limited with respect to recent news item captioned IREDA declares Rs 673 crore Gensol loans as fraud; reports to RBI. The response from the Company is…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/GENSOLRP_14072026131916_NSE_Intimation_IREDA_Order_14072026.pdf)
+[Open source ↗](https://www.barandbench.com/dealstreet/aditya-birla-acquires-sprng-energy-from-shell-for-18-billion-khaitan-co-trilegal-advise)
 
 ---
 
-### SIGMA ADVANCED SYSTEMS LIMITED: Press Release
-**MA** · ₹153 cr · Cross-border · ✓ Verified
+### AZB, Cyril Amarchand Mangaldas, Hogan Lovells act on Blue Jet Healthcare ₹800 crore QIP
+**IPO** · ₹800 cr · India · Reported
 
-Press Release — SIGMA ADVANCED SYSTEMS LIMITED has informed the Exchange regarding a press noted dated July 14, 2026, titled "Defense and Aerospace major, Sigma Advanced Systems, Acquires UK based Bromford Precision Solutions for INR 153…
+Blue Jet Healthcare Limited has made a qualified institutions placement of 1,58,10,276 equity shares aggregating to ₹800 crore. AZB & Partners advise Blu Jet Healthcare on this QIP.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MEGASOFT_14072026064615_SASL_-_Bromford_Press_note_disclosure-signed.pdf)
-
----
-
-### VERTICES PARTNERS, Lexapar, IC RegFin Legal and Luthra act on PlayBlue fundraise
-**PE** · $2.7 mn · Cross-border · Reported
-
-Play Blue Sports Private Limited has raised $2.7 million from a seed fundraise co-led by Centre Court Capital and MIXI Global, with participation from WEH Ventures. VERTICES PARTNERS advised PlayBlue on this fundraise.
-
-[Open source ↗](https://www.barandbench.com/dealstreet/vertices-partners-lexapar-ic-regfin-legal-luthra-and-luthra-act-on-playblue-fundraise)
+[Open source ↗](https://www.barandbench.com/dealstreet/azb-partners-cyril-amarchand-mangaldas-hogan-lovells-act-on-blue-jet-healthcare-800-crore-qip)
 
 ---
 
-### Luthra and Luthra advises IREDA on securing ¥28 billion loan from SMBC GIFT City
-**BANK** · Cross-border · Reported
+### Embassy Developments Limited: General Updates
+**BANK** · ₹1,020 cr · India · ✓ Verified
 
-Indian Renewable Energy Development Agency Limited (IREDA) has secured a landmark ¥28 billion syndicated sustainable term loan facility from Sumitomo Mitsui Banking Corporation, GIFT City Branch. SMBC Singapore acted as Mandated Lead…
+General Updates — Allotment of non-convertible debentures aggregating to INR 1,020 crores.
 
-[Open source ↗](https://www.barandbench.com/dealstreet/luthra-and-luthra-advises-ireda-on-securing-28-billion-loan-from-smbc-gift-city)
-
----
-
-### PDS Limited: Press Release
-**MA** · Cross-border · ✓ Verified
-
-Press Release — PDS Limited has informed the Exchange regarding a press release dated July 14, 2026, titled "PDS Limited and Busana Apparel Group Announce Strategic Partnership to Build the Next Generation of Global Apparel Manufacturing".
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PDSL_14072026201716_Ltr_Press_Release_14072026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/EMBDL_15072026210344_EDL_Allotment_Intimation_15072026.pdf)
 
 ---
 
-### Swelect Energy Systems Limited: Updates
-**MA** · Cross-border · ✓ Verified
+### Khaitan & Co advises Tata Capital on majority stake acquisition in YOGLOANS
+**BANK** · India · Reported
 
-Updates — SWELECT Energy Systems Limited has informed the Exchange regarding 'Proposed acquisition by SWELECT ENERGY SYSTEMS PTE. LTD.
+Tata Capital Limited has acquired a 88.6% majority stake in Kerala-based Yogakshemam Loans Limited, dba YOGLOANS. Khaitan & Co advised Tata Capital on this stake acquisition.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SWELECTES_14072026201152_Reg_30_-_SWELECT_SG_acquisition_in_Comstock_BESS_signed.pdf)
-
----
-
-### CMS INDUSLAW acts on Axis Finance $45 million NCD issuance
-**IPO** · ₹175 cr · Mumbai · Reported
-
-Axis Finance Limited has made an issuance of rated, listed, secured, taxable, redeemable non-convertible debentures (NCDs) aggregating approximately $45 million on a private placement basis. CMS INDUSLAW advised Axis Finance on this NCD…
-
-[Open source ↗](https://www.barandbench.com/dealstreet/cms-induslaw-acts-on-axis-finance-45-million-ncd-issuance)
+[Open source ↗](https://www.barandbench.com/dealstreet/khaitan-co-advises-tata-capital-on-majority-stake-acquisition-in-yogloans)
 
 ---
 
-### Touchstone Partners advises Nium on acquisition of Cypher
+### Fox Mandal & Associates, Chandhiok & Mahajan act on BigEndian Semiconductors pre-Series A fundraise
+**PE** · $6 mn · Bengaluru · Reported
+
+BigEndian Semiconductors Private Limited has raised $6 million through a Pre-Series A CCPS fundraise led by IAN Alpha Fund, with participation from Vertex Ventures SEA and India, IvyCap Ventures and angel investors. Fox Mandal & Associates…
+
+[Open source ↗](https://www.barandbench.com/dealstreet/fox-mandal-associates-chandhiok-mahajan-act-on-bigendian-semiconductors-pre-series-a-fundraise)
+
+---
+
+### Argus Partners assists Lux in acquiring licensing for Reebok garments
 **MA** · India · Reported
 
-Nium Pte. Ltd.
+Vertical B of Lux Industries Limited has entered into a Brand Licensing Agreement with RILUK IPCO Limited, the licensor of the Reebok brand in India. The agreement grants Lux Industries (Vertical B) the exclusive rights to manufacture,…
 
-[Open source ↗](https://www.barandbench.com/dealstreet/touchstone-partners-advises-nium-on-acquisition-of-cypher)
-
----
-
-### Legacy Law Offices acts on Functional & Innovative Foods proposed IPO
-**IPO** · ₹90 cr · India · Reported
-
-Functional and Innovative Foods Limited has filed a Draft Red Herring Prospectus before the SEBI for a book-built “Mainboard” offer for a fresh issue of 65,00,000 shares and an Offer for Sale for 25,00,000 shares, with an offer size of ₹90…
-
-[Open source ↗](https://www.barandbench.com/dealstreet/legacy-law-offices-acts-on-functional-innovative-foods-proposed-ipo)
+[Open source ↗](https://www.barandbench.com/dealstreet/argus-partners-assists-lux-in-acquiring-licensing-for-reebok-garments)
 
 ---
 
-### ELP represents Qatar Energy, Equate, OQ, and TotalEnergies in Anti-dumping Investigation before DGTR
-**MA** · India · Reported
+### Arisinfra Solutions Limited: Bagging/Receiving of orders/contracts
+**MA** · ₹79.05 cr · India · ✓ Verified
 
-Economic Laws Practice (ELP) represented Qatar Energy, Equate, OQ, and TotalEnergies in a recently concluded Anti-dumping Investigation concerning Imports of "Linear Low-Density Polyethylene" (LLDPE) originating in or exported from the…
+Bagging/Receiving of orders/contracts — Arisinfra Solutions Limited has informed the Exchange about Bagging/Receiving of orders/contracts from J. KUMAR - NCC (GMLR) JV of Rs.
 
-[Open source ↗](https://www.barandbench.com/dealstreet/elp-represents-qatar-energy-equate-oq-and-totalenergies-in-anti-dumping-investigation-before-dgtr)
-
----
-
-### The Jammu & Kashmir Bank Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates — The Jammu & Kashmir Bank Limited has informed the Exchange about Proposed Divestment of Stake in PNB MetLife India Insurance Company Limited
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TUFAIL_14072026202308_SE_Intimation_JKB_14072026_F.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ARISINFRA2024_15072026212058_Exchange_Intimation_Order_ASL.pdf)
 
 ---
 
 ### Hero MotoCorp Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition — Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, please refer to attached disclosure regarding subscription of equity shares or other eligible securities representing…
+Acquisition — Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, please refer to the attached disclosure regarding update on investment in Ather Energy Limited
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HEROMOTO_14072026200843_StockExchangeDisclosure.pdf)
-
----
-
-### Samvardhana Motherson International Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates — Samvardhana Motherson International Limited has submitted with the Stock Exchange for updates on acquisition by indirect wholly owned subsidiary of the Company.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MOTHERSON_14072026194359_SE_Disclosure_Yutaka_14072026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HEROMOTO_15072026210828_Stockexchangeintimation.pdf)
 
 ---
 
-### Anand Rathi Share and Stock Brokers Limited: Acquisition
+### Shankara Building Products Limited: Public Announcement-Open Offer
 **MA** · India · ✓ Verified
 
-Acquisition — Anand Rathi Share and Stock Brokers Limited has informed the Exchange about Acquisition of the "to be incorporated" Foreign Wholly Owned Subsidiary
+Public Announcement-Open Offer — Corporate Professionals Capital Private Ltd has submitted to the Exchange a copy of Public Announcement under Regulation 3(1) Read with Regulation 3(3), Regulation 3(2) and Regulation 4 Read with…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ARSSBL_2024_14072026183608_OUTCOME_sd.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_15072026190443_SHANKARA.zip)
 
 ---
 
-### Inventurus Knowledge Solutions Limited: Acquisition
+### NTPC Green Energy Limited: Press Release
 **MA** · India · ✓ Verified
 
-Acquisition — Inventurus Knowledge Solutions Limited has informed the Exchange about update on additional investment in IKS WWMG MSO LLC.
+Press Release — NTPC Green Energy Limited has informed the Exchange regarding a press release dated July 15, 2026, titled "Ayana Renewable Power Private Limited (Ayana) a wholly owned subsidiary of ONGC NTPC Green Private Limited (50:50 JV…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IKS2006_14072026184431_UpdateWWMGMSOLLC_Final.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/igsingh_15072026184639_STXDISCLOSURE15072026_Signed.pdf)
 
 ---
 
-### 63 moons technologies limited: Acquisition
+### Amber Enterprises India Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-Acquisition — 63 moons technologies limited has informed the Exchange about Acquisition
+Amalgamation/Merger — Pursuant to Regulation 30 of SEBI LODR Regulations, we hereby inform the exchange that the Company has received an order dated 03rd July 2026, passed by Hon'ble National Company law Tribunal, Chandigarh Bench in CP…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/63MOONS_14072026162142_AcquisitionFTSPL14072026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AMBER_15072026183458_SEIntimationDisclosureRegulation30AmberSMPOrder.pdf)
 
 ---
 
-### NBCC (India) Limited: Outcome of Board Meeting
+### Spandana Sphoorty Financial Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-Outcome of Board Meeting — NBCC (India) Limited has informed the Exchange regarding Outcome of Board Meeting held on July 14, 2026.Pursuant to Regulation 30 and Part A of Schedule III of Securities and Exchange Board of India (Listing…
+Amalgamation/Merger — Spandana Sphoorty Financial Limited has informed the Exchange about Amalgamation/Merger
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NBCC_14072026155154_Intimation_outcome_of_Board_Meeting_14072026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SPANDANA_15072026180240_SEIntimationCFLWOS.pdf)
 
 ---
 
-### DS Kulkarni Developers Limited: General Updates
+### TVS Holdings Limited: Acquisition
 **MA** · India · ✓ Verified
 
-General Updates — DS Kulkarni Developers Limited has informed the Exchange about updates on acquisition
+Acquisition — TVS Holdings Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DSKULKARNI_14072026142147_DSKWOSINTIMATION13072026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SUNCLAYLTD_15072026153232_TVSHNSEBSEAcquisition15072026SD.pdf)
 
 ---
 
-### Bharat Gears Limited: Disclosure under SEBI Takeover Regulations
+### DCX Systems Limited: Updates
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations — Bharat Gears Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
+Updates — Dcx Systems Limited has informed the Exchange regarding 'Intimation of investment in ELTX Systems Pvt Ltd., an Associate and Joint Venture (Joint Venture with ELTA Systems Limited, Israel) of the Company through a right issue.'.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_02072026152421_20.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/DCX_2022_15072026131225_Acquisition_in_JV_Company.pdf)
 
 ---
 
-### DHARAN INFRA-EPC LIMITED: Disclosure under SEBI Takeover Regulations
+### Asian Granito India Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations — DHARAN INFRA-EPC LIMITED has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
+Acquisition — Asian Granito India Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_03072026175446_DHARAN.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ASIANTILES_15072026123235_Outcome15072026.pdf)
 
 ---
 
 ### Gujarat Themis Biosyn Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations — PHARMACEUTICAL BUSINESS GROUP (INDIA) LIMITED has submitted to the Exchange a copy of Disclosure under Regulation 31 of the SEBI (Substantial Acquisition of Shares and Takeovers) Regulations,…
+Disclosure under SEBI Takeover Regulations — Sachin D. Patel has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_07072026155327_GUJTHEM.pdf)
-
----
-
-### Setco Automotive Limited: Disclosure under SEBI Takeover Regulations
-**MA** · India · ✓ Verified
-
-Disclosure under SEBI Takeover Regulations — Setco Engineering Private Limited has submitted to the Exchange a copy of Disclosure under Reg 31(1) & 31(2) of SEBI (Substantial Acquisition of Shares and Takeovers)Regulations, 2011
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_07072026165907_SETCO.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_15072026110708_PBG.pdf)
 
 ---
 
-### Advani Hotels & Resorts (India) Limited: Disclosure under SEBI Takeover Regulations
-**MA** · India · ✓ Verified
-
-Disclosure under SEBI Takeover Regulations — Advani Hotels & Resorts (India) Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_08072026174608_ADVANIHOTR.pdf)
-
----
-
-### Akg Exim Limited: Disclosure under SEBI Takeover Regulations
-**MA** · India · ✓ Verified
-
-Disclosure under SEBI Takeover Regulations — Kalapi Vinit Nagada has submitted to the Exchange a copy of Disclosure under Regulation 31(1) and 31(2) of the SEBI (SAST) Regulations, 2011.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_13072026175652_AKG.pdf)
-
----
-
-### Unichem Laboratories Limited: Disclosure under SEBI Takeover Regulations
-**MA** · India · ✓ Verified
-
-Disclosure under SEBI Takeover Regulations — IPCA Laboratories Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_14072026121937_Unichem.pdf)
-
----
-
-### IL&FS Transportation Networks Limited: Disclosure under SEBI Takeover Regulations
-**MA** · India · ✓ Verified
-
-Disclosure under SEBI Takeover Regulations — Infrastructure Leasing & Financial Services Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_18052026134410_20.pdf)
-
----
-
-### Jubilant Foodworks Limited: Disclosure under SEBI Takeover Regulations
-**MA** · India · ✓ Verified
-
-Disclosure under SEBI Takeover Regulations — Jubilant Foodworks Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_25052026164222_JUBLFOOD.pdf)
-
----
-
-### Nandan Denim Limited: Updates
-**MA** · India · ✓ Verified
-
-Updates — Nandan Denim Limited has informed the Exchange regarding 'Update on Acquisition - Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 '.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NDL_14072026122708_outcome.pdf)
-
----
-
-### Dr. Agarwal's Health Care Limited: Disclosure under SEBI Takeover Regulations
-**MA** · India · ✓ Verified
-
-Disclosure under SEBI Takeover Regulations — Dr. Agarwal's Health Care Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_15042026155047_AGARWALEYE.zip)
-
----
-
-### Natco Pharma Limited: Press Release
-**MA** · India · ✓ Verified
-
-Press Release — The Company has informed the Exchange regarding a press release dated July 14, 2026, titled "NATCO Pharma Limited completes acquisition of additional 13.25% stake in Adcock Ingram Holdings Proprietary Limited".
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NATCOPHARM_14072026115438_PressRelease_14072026.pdf)
-
----
-
-### Triveni Engineering & Industries Limited: Record Date
-**MA** · India · ✓ Verified
-
-Record Date — Triveni Engineering & Industries Limited has informed the Exchange that Record date for the purpose of Merger/HiveOff is 22-Jul-2026.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TRIVENI_14072026105638_TEIL_RECORD_DATE.pdf)
-
----
-
-### SIGMA ADVANCED SYSTEMS LIMITED: Agreements
-**MA** · India · ✓ Verified
-
-Agreements — SIGMA ADVANCED SYSTEMS LIMITED has informed the Exchange about Agreements : Company has signed a Share Purchase Agreement for Acquisition of 100% Stake(Shareholding) in Bromford Precision Solutions Limited in the United…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MEGASOFT_14072026064019_SASL_-_Bromford_acquisition_disclosure-signed.pdf)
-
----
-
-### Jaykay Enterprises Limited: Updates
+### Indian Energy Exchange Limited: Updates
 **IPO** · India · ✓ Verified
 
-Updates — Jaykay Enterprises Limited has informed the Exchange regarding 'Draft Letter of Offer for the Rights Issue of Jaykay Enterprises Limited'.
+Updates — Indian Energy Exchange Limited has informed the Exchange regarding 'Filing of DRHP of Indian Gas Exchange Limited , An Associate Company of Indian Energy Exchange Limited, with SEBI & BSE on July 14, 2026.'.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/JAYKAY_14072026214151_SE_Intimation_Filing.pdf)
-
----
-
-### Jaykay Enterprises Limited: Updates
-**IPO** · India · ✓ Verified
-
-Updates — Jaykay Enterprises Limited has informed the Exchange regarding 'Prior intimation of Meeting of the Rights Issue Committee of Jaykay Enterprises Limited '.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/JAYKAY_14072026182206_RIC_Intimation.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IEX_15072026114919_Signed_IEX_Intimation_IGX_DRHP_14_07_2026.pdf)
 
 ---
 
-### Prime Focus Limited: General Updates
+### Videocon Industries Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-General Updates — Prime Focus Limited has informed the Exchange about Update on written orders dated July 9, 2026 and July 10, 2026 passed by the Hon ble NCLAT in Comp. App.
+Corporate Insolvency Resolution Process — Pre-Facto intimation of the upcoming 63rd meeting of Committee of Creditors to be held on Friday, July 17, 2026
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PFOCUS_14072026232435_Reg30CIRPClosure.pdf)
-
----
-
-### Digjam Limited: Shareholders meeting
-**IBC** · India · ✓ Verified
-
-Shareholders meeting — NOTICE OF MEETING OF THE EQUITY SHAREHOLDERS OF DIGJAM LIMITED ('COMPANY') AS PER THE DIRECTIONS OF THE NATIONAL COMPANY LAW TRIBUNAL, CHENNAI BENCH ('NCLT' OR 'TRIBUNAL') Scheduled to be held on August 16, 2026
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DIGJAMLMTD_14072026205936_Stock_Exchange_Intimation.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/VIDEOIND_15072026175702_VIL_Intimation_63rd_CoC_Meeting_dt_July_17__2026.pdf)
 
 ---
 
 ### Simbhaoli Sugars Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process — Simbhaoli Sugars Limited hereby submitted Copy of NCLAT Judgment pronounced against Appeal filed by Ms Gursimran Kaur Mann (One of the Promoter) and Surender Pal Singh Mangat (Farmer). Copy of…
+Corporate Insolvency Resolution Process — With Reference to the announcement made by the company on 14th July 2026 under the category Corporate Insolvency Resolution Process Company is hereby submitting Corrigendum along with Revised…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SIMBHALS_14072026133456_Final_Annoucement_on_Judgement_on_Stay_Vacated_CIRP.pdf)
-
----
-
-### KPIT Technologies Limited: Other Restructuring
-**IBC** · India · ✓ Verified
-
-Other Restructuring — KPIT Technologies Limited has informed the Exchange about Update on voluntary liquidation & dissolution of Somit Solutions Inc., wholly owned step-down subsidiary of KPIT Technologies (UK) Limited, wholly owned…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KPITTECH_14072026130117_Somit_US_Liquidation_Completion.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SIMBHALS_15072026165516_Revised_Announcement_-_Corrigendum.pdf)
 
 ---
 
-### AGS Transact Technologies Limited: Corporate Insolvency Resolution Process
-**IBC** · India · ✓ Verified
+### Ansal Properties & Infrastructure Limited: Corporate Insolvency Resolution Process
+**IBC** · Delhi-NCR · ✓ Verified
 
-Corporate Insolvency Resolution Process — AGS Transact Technologies Limited has informed the Exchange about Corporate Insolvency Resolution Process
+Corporate Insolvency Resolution Process — The Company has informed the stock exchange about the Outcome / Voting results of the 54th Meeting of Committee of Creditors ( COC ) of Fernhill Project of the Company situated at Gurugram,…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AGSTRA_14072026125150_Intimation_to_BSE_And_NSE_-_15th_Coc_meeting_-_final.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ANSALAPI_15072026154429_Intimation_Outcome_Voting_Results_COC_Fernill.pdf)
 
 ---
 
