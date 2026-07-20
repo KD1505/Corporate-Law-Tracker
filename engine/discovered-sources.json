@@ -1,22 +1,22 @@
 {
   "_note": "Auto-grown source funnel. Each run logs every domain that corroborated a deal, with a running count. Domains marked official:true are government/regulator/exchange/court. Review the high-count entries periodically and promote the best into sources.json as curated corroborators.",
   "barandbench.com": {
-    "count": 240,
+    "count": 242,
     "firstSeen": "2026-06-08",
     "official": true,
-    "lastSeen": "2026-07-18"
+    "lastSeen": "2026-07-20"
   },
   "bseindia.com": {
-    "count": 1994,
+    "count": 1996,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-07-18"
+    "lastSeen": "2026-07-20"
   },
   "nseindia.com": {
-    "count": 2023,
+    "count": 2025,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-07-18"
+    "lastSeen": "2026-07-20"
   },
   "sebi.gov.in": {
     "count": 324,
@@ -25,10 +25,10 @@
     "lastSeen": "2026-07-18"
   },
   "cci.gov.in": {
-    "count": 1688,
+    "count": 1689,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-07-17"
+    "lastSeen": "2026-07-20"
   },
   "rbi.org.in": {
     "count": 57,
