@@ -1,275 +1,365 @@
 # Corporate Law Tracker — Daily Brief
-_23 July 2026_
+_24 July 2026_
 
-30 new development(s).
+56 new development(s) — top 40 shown.
 
-### 🔴 Shapoorji Pallonji group closes ₹21,350 crore fundraise; Desai & Diwanji, TT&A advise
-**BANK** · ₹21,350 cr · Cross-border · Reported
+### 🔴 HDFC Bank Limited: General Updates
+**REG** · US$ 1,000,000,000 · India · ✓ Verified
 
-The Shapoorji Pallonji group has raised ₹21,350 crore by issuance of unrated, unlisted, secured, zero coupon, redeemable non-convertible debentures of Eqyizen Investment Private Limited, a promoter group entity of SP group. The INR NCDs…
+General Updates — HDFC Bank Limited has informed the Exchange regarding intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015- Exercise of call option on US$ 1,000,000,000 3.7%…
 
-[Open source ↗](https://www.barandbench.com/dealstreet/shapoorji-pallonji-group-closes-21350-crore-fundraise-desai-diwanji-tta-advise)
-
----
-
-### 🔴 JSA, Hogan Lovells Cadwalader act on Serentica Renewables availing $345 million financing for solar and wind projects in Karnataka
-**BANK** · $345 mn · India · Reported
-
-Serentica Renewables India 1 Private Limited has availed rupee term loan facilities not exceeding $345.1 million from Asian Development Bank, Export-Import Bank of India, New Development Bank, and Sumitomo Mitsui Banking Corporation. JSA…
-
-[Open source ↗](https://www.barandbench.com/dealstreet/jsa-hogan-lovells-cadwalader-act-on-serentica-renewables-availing-345-million-financing-for-solar-and-wind-projects-in-karnataka)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HDFCBANK_24072026190350_SE_Intimation_call_option.pdf)
 
 ---
 
-### Thinklaw, Latham & Watkins act on acquisition of MEXT by AMD
-**MA** · India · Reported
+### JSA advises lead investor IvyCap Ventures on SwitchOn pre-Series B fundraise
+**PE** · $8 mn · Cross-border · Reported
 
-Advanced Micro Devices, Inc has acquired MEXT Corporation. ThinkLaw, advocates advised MEXT on this acquisition.
+Abee Research Labs Private Limited, dba SwitchOn, has raised $8 million from a pre-Series B fundraise led by IvyCap Ventures. JSA Advocates & Solicitors advised lead investor IvyCap Ventures Fund III on this fundraise.
 
-[Open source ↗](https://www.barandbench.com/dealstreet/thinklaw-latham-watkins-act-on-acquisition-of-mext-by-amd)
-
----
-
-### UK Universities York, Liverpool, Bristol to open India Campuses; CMS INDUSLAW Advises
-**PE** · Mumbai · Reported
-
-CMS INDUSLAW advised Erulearning Solutions Private Limited on the establishment of three campuses in India for the University of York, the University of Liverpool and the University of Bristol through separate joint venture arrangements.…
-
-[Open source ↗](https://www.barandbench.com/dealstreet/university-of-york-university-of-liverpool-university-of-bristol-establish-campuses-in-india-cms-induslaw-acts)
+[Open source ↗](https://www.barandbench.com/dealstreet/jsa-advises-lead-investor-ivycap-ventures-on-switchon-pre-series-b-fundraise)
 
 ---
 
-### Akums Drugs and Pharmaceuticals Limited: General Updates
+### Khaitan & Co assists Gallagher Centre of Excellence on leasing offices in Bengaluru, Gurugram, Pune
+**MA** · Delhi-NCR · Reported
+
+Khaitan & Co advised Gallagher Centre of Excellence LLP on acquisition of leasehold rights in commercial office spaces across three key metropolitan locations across India. Bengaluru, Karnataka: Office space admeasuring 58,189 square feet…
+
+[Open source ↗](https://www.barandbench.com/dealstreet/khaitan-co-assists-gallagher-centre-of-excellence-on-leasing-offices-in-bengaluru-gurugram-pune)
+
+---
+
+### Texmaco Rail & Engineering Limited: General Updates
+**MA** · Cross-border · ✓ Verified
+
+General Updates — Texmaco Rail & Engineering Limited has informed the Exchange about Intimation of allotment of securities in Touax Texmaco Railcar Leasing Private Limited (Joint Venture Company) to the new Joint Venture Partner namely…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TEXRAIL_24072026183858_TexRail.pdf)
+
+---
+
+### Mangalam Global Enterprise Limited: Disclosure under SEBI Takeover Regulations
+**MA** · Cross-border · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations — Vipin Prakash Mangal has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_14072026121611_28042026110106_reg.pdf)
+
+---
+
+### Universal Legal advises Veriqus on ₹387 crore fundraise
+**PE** · ₹387 cr · India · Reported
+
+Veriqus Financial Services Private Limited has raised ₹387 crore from a fundraise led by Norwest, alongside participation from leading family offices. Universal Legal advised Veriqus and its promoters, Ashish Gumashta and Roshi Jain, on…
+
+[Open source ↗](https://www.barandbench.com/dealstreet/universal-legal-advises-veriqus-on-387-crore-fundraise)
+
+---
+
+### TT&A, Farooq and Associates advise IFC on sanctioning $30 million to Popular Pharma
+**BANK** · $30 mn · India · Reported
+
+The International Finance Corporation is set to extend a loan aggregating up to $30.7 million to Popular Pharmaceuticals PLC, a company incorporated in Bangladesh. TT&A advised IFC on this financing transaction.
+
+[Open source ↗](https://www.barandbench.com/dealstreet/tta-farooq-and-associates-advise-ifc-on-sanctioning-30-million-to-popular-pharma)
+
+---
+
+### Kitex Garments Limited: Scheme of Arrangement
 **MA** · India · ✓ Verified
 
-General Updates — Intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 Acquisition of Oriflame India s Manufacturing business
+Scheme of Arrangement — Kitex Garments Limited has informed the Exchange about Update on Scheme of Arrangement being the proceedings of meetings convened on July 24, 2026 pursuant to the order of Hon''ble NCLT, Kochi Bench for considering…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NSEAKUMS10_23072026231459_AKUMSSEINTIMATION.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/KITEX_24072026235531_KGL_Proceedings_of_meetings_240726s.pdf)
 
 ---
 
-### Aurobindo Pharma Limited: Acquisition
+### Clean Max Enviro Energy Solutions Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition — Aurobindo Pharma Limited has informed the Acquisition of majority ownership control in A1 Biochem Labs (India) Private Limited, India and A1 Biochem Labs LLC, USA .
+Acquisition — Clean Max Enviro Energy Solutions Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AUROPHARMA_23072026213300_LtrSEsA1BiochenAcquisition23072026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/CLEANMAX_24072026203509_Reg_30_Intimation_CMES_Sale_and_Acquisition_of_Shares.pdf)
 
 ---
 
-### Orient Cement Limited: General Updates
+### Shradha Realty Limited: General Updates
 **MA** · India · ✓ Verified
 
-General Updates — The Board of Directors of the Company at its meeting held on today i.e. 23rd July 2026, inter alia considered and approved the acquisition of a 9.04% of stake of Vena Energy KN Wind Power Private Limited
+General Updates — Shradha Realty Limited has informed the Exchange about General Updates regarding Execution of Agreement to Sell by step-down Subsidiary - Raghukul Shradha Realty LLP for Acquisition of Property.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ORIENTCEM_23072026202757_OCL_Outcome_23072026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SHRADHA_24072026183306_ShradhaUpdate24072026R.pdf)
 
 ---
 
-### The South Indian Bank Limited: Updates
+### DCM Shriram International Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-Updates — The South Indian Bank Limited has informed the Exchange regarding 'Disclosure under SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011'.
+Disclosure under SEBI Takeover Regulations — Alok Bansidhar Shriram has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SOUTHBANK_23072026200846_SD_STT_ACQUISITION_KOTAK_23JULY2026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_24072026182703_DCMSIL.pdf)
 
 ---
 
-### Jubilant Foodworks Limited: Acquisition
+### DCM Shriram Industries Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-Acquisition — Jubilant FoodWorks Limited has informed the Exchange about Update on investment in wholly owned subsidiary company
+Disclosure under SEBI Takeover Regulations — Madhav Bansidhar Shriram has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/JUBLFOOD_23072026185729_STX_Update_on_SL_Investment_July_2026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_24072026181510_DCMSRIND10.pdf)
 
 ---
 
-### Century Enka Limited: Acquisition
+### DCM Shriram Industries Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-Acquisition — Century Enka Limited has informed the Exchange about Acquisition of additional equity shares of ABREL Century Energy Limited.
+Disclosure under SEBI Takeover Regulations — Madhav Bansidhar Shriram has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CENTURYENKA_23072026185415_Allotment_of_Equity_shares_signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_24072026180855_DCMSRIND.pdf)
 
 ---
 
-### Nectar Lifesciences Limited: General Updates
+### Standard Engineering Technology Limited: General Updates
 **MA** · India · ✓ Verified
 
-General Updates — Nectar Lifesciences Limited has informed the Exchange about Update On Slump Sale
+General Updates — Standard Engineering Technology Limited has informed the Exchange about the updates on Acquisition of GL HAKKO Co., Ltd.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NECLIFE_23072026170858_NECLIFE_Long_stop_date_extention_260723_Signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SGLTPL_24072026180757_SETL_Regulation_30.pdf)
 
 ---
 
-### Indo-National Limited: Acquisition
+### Timken India Limited: Updates
 **MA** · India · ✓ Verified
 
-Acquisition — Indo-National Limited has informed the Exchange about Acquisition
+Updates — In furtherance to our earlier communication dated 18 May, 2026 regarding Amalgamation ofTimken GGB Technology Private Limited (a wholly owned subsidiary) with the Company, wewrite to inform you that National Company Law Tribunal…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NIPPOBATRY_23072026145738_INL_Stock_Exchange_Disclosuresd.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TIMKEN_24072026165125_SE_Intimation24072026.pdf)
 
 ---
 
-### Diligent Media Corporation Limited: Disclosure under SEBI Takeover Regulations
+### B & A Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations — Primat Infrapower & Multiventures Private Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition…
+Disclosure under SEBI Takeover Regulations — Siemens Syntex Pvt Ltd has submitted to the Exchange a copy of Disclosures in terms of Regulation 29(1) of SEBI (SAST) Regulations, 2011.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_26052026163838_DNAMEDIA.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_17072026153725_BNALTD1.pdf)
 
 ---
 
-### Godavari Biorefineries Limited: Disclosure under SEBI Takeover Regulations
+### 3i Infotech Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations — Godavari Biorefineries Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and…
+Disclosure under SEBI Takeover Regulations — Capital Nxt LLP has Submitted to the Exchange a copy of Disclosure under Regulation 29(1) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_25052026171020_GODAVARIB1.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_21072026134208_Intimation.pdf)
 
 ---
 
-### Premier Polyfilm Limited: Disclosure under SEBI Takeover Regulations
+### Vedanta Aluminium Metal Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations — Premier Polyfilm Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
+Disclosure under SEBI Takeover Regulations — Vedanta Resources Ltd has submitted to the Exchange a copy of Disclosure under Regulation 31 of the SEBI ( SAST) Regulations, 2011.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_14072026174301_25052026162743_PREMIERPOL.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_22072026174745_VAML.pdf)
 
 ---
 
-### Avadh Sugar & Energy Limited: Disclosure under SEBI Takeover Regulations
+### Vedanta Iron and Steel Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations — Yashovardhan Investment & Trading Company Limited, Nandini Nopany, Chandra Shekhar Nopany, Urvi Mittal, Arhant V Nopany, Shekhar Family Trust, Shruti Family Trust, Champaran Marketing Company…
+Disclosure under SEBI Takeover Regulations — Vedanta Resources Limited has submitted to the Exchange a copy of Disclosure under Regulation 31 of the SEBI (SAST) Regulations, 2011.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_14072026130428_21052026131918_Avadh.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_22072026182245_VISL.pdf)
 
 ---
 
-### Shekhawati Industries Limited: Disclosure under SEBI Takeover Regulations
+### Vedanta Oil and Gas Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations — Altius Buildcon Private Ltd has submitted to the Exchange a copy of Disclosure Under Regulation 29(1) of SEBI (SAST) Regulations, 2011.
+Disclosure under SEBI Takeover Regulations — Vedanta Resources Limited has submitted to the Exchange a copy of Disclosure under Regulation 31 of the SEBI ( SAST) Regulations, 2011.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_20052026154623_SHEKHAWATI29.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_22072026182940_VOGL.pdf)
 
 ---
 
-### Sutlej Textiles and Industries Limited: Disclosure under SEBI Takeover Regulations
+### Archean Chemical Industries Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations — Sonali Commercial Limited, Chandra Shekhar Nopany, Nandini Nopnay, Shekhar Family Trust, Ganesh Securities Limited, Hargaon Investment & Trading Company Limited, New India Retailing & Investment…
+Disclosure under SEBI Takeover Regulations — Chemikas Speciality LLP has Submitted to the Exchange a copy of Disclosure under Regulation 31(1) and 31(2) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_14072026130715_20052026120119_SUTLEJ.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_24072026111349_Intimation.pdf)
 
 ---
 
-### Spencer's Retail Limited: Disclosure under SEBI Takeover Regulations
+### Gujarat Industries Power Company Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations — PCBL Chemical Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
+Disclosure under SEBI Takeover Regulations — GUJALKALI : Gujarat Alkalies and Chemicals Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) & 31(5) of the Securities and Exchange Board of India (Substantial…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_15072026115341_SRL.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_23072026114657_SAST.pdf)
 
 ---
 
-### RPSG VENTURES LIMITED: Disclosure under SEBI Takeover Regulations
+### Omaxe Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations — PCBL Chemical Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
+Disclosure under SEBI Takeover Regulations — Jatin Goel has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations,…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_15072026115254_RPSG.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_21042026171718_OMAXE2.pdf)
 
 ---
 
-### CESC Limited: Disclosure under SEBI Takeover Regulations
+### Kriti Industries (India) Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations — PCBL Chemical Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
+Disclosure under SEBI Takeover Regulations — Kriti Industries (India) Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_15072026115208_CESC.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_26052026160440_KRITI1.pdf)
 
 ---
 
-### Sterling and Wilson Renewable Energy Limited: Disclosure under SEBI Takeover Regulations
+### W S Industries (I) Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations — Khurshed Yazdi Daruvala has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
+Disclosure under SEBI Takeover Regulations — W S Industries (I) Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_18052026170133_SWSOLAR.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_15072026115230_WS.pdf)
 
 ---
 
-### Shree Ram Twistex Limited: Disclosure under SEBI Takeover Regulations
+### Just Dial Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations — Bhaveshbhai Bhikhubhai Ramani has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and…
+Disclosure under SEBI Takeover Regulations — Eshwary Krishnan has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_14072026173006_18052026163720_SRTL.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_17062026132455_11.pdf)
 
 ---
 
-### Interarch Building Solutions Limited: Disclosure under SEBI Takeover Regulations
+### Updater Services Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations — Interarch Building Solutions Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares…
+Disclosure under SEBI Takeover Regulations — Updater Services Limited has submitted to the Exchange a copy of Disclosures under Regulation 29(1) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_14072026131150_18052026133719_23.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_01072026183413_UDS3.pdf)
 
 ---
 
-### 63 moons technologies limited: Disclosure under SEBI Takeover Regulations
+### HEG Limited: Press Release
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations — Dewang Neralla has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
+Press Release — HEG Limited has informed the Exchange regarding a press release dated July 24, 2026, titled "Press Release being issued by the Company in relation to its Q1 FY27financial results and update on the Composite Scheme of…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_14052026120251_42.pdf)
-
----
-
-### Diamond Power Infrastructure Limited: Committee Meeting Updates
-**IPO** · India · ✓ Verified
-
-Committee Meeting Updates — Diamond Power Infrastructure Limited has informed the Exchange regarding Outcome of Committee Meeting held on July 23, 2026 to approve preliminary placement document for QIP.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DIACABS_23072026225350_OutcomeofMC.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HEG_24072026160341_Stxintimation24072026R.pdf)
 
 ---
 
-### HFCL Limited: Monitoring Agency Report
-**IPO** · India · ✓ Verified
+### ACC Limited: Acquisition
+**MA** · India · ✓ Verified
 
-Monitoring Agency Report — Monitoring Agency Reports on the utilisation of proceeds raised through Qualified Institutions Placements and Preferential Issue of Warrants for the Quarter ended June 30, 2026
+Acquisition — The Board of Directors of the Company at its meeting held on today i.e. 24th July 2026, inter alia considered and approved the acquisition of a 26% of stake of Amplus Andhra Private Limited.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AHMED_23072026171519_HFCL_STX_QIP__Monitoring_Agency_Report_23072026.pdf)
-
----
-
-### Sammaan Capital Limited: Updates
-**IPO** · India · ✓ Verified
-
-Updates — Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_23072026170359_SCL_Exchange_Retail_intimation_57_23072026_KP6.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ACC_1_24072026150715_ACC_Outcome_of_BM_24072026_Final.pdf)
 
 ---
 
-### Sammaan Capital Limited: Updates
-**IPO** · India · ✓ Verified
+### Welspun Corp Limited: Acquisition
+**MA** · India · ✓ Verified
 
-Updates — Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
+Acquisition — Welspun Corp Limited has informed the Exchange about the investment of 26% stake in new entity for incorporation and Acquisition of additional 51% equity stake in Welspun Captive Power Generation Limited (WCPGL) from Welspun…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_23072026164947_SCL_Exchange_Retail_intimation_57_23072026_NV8.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/WELCORP_24072026142528_OutcomeSEfilingsigned.pdf)
 
 ---
 
-### SKIL Infrastructure Limited: Corporate Insolvency Resolution Process
-**IBC** · India · ✓ Verified
+### Godawari Power And Ispat limited: Sale or disposal
+**MA** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process — SKIL Infrastructure Limited has informed the Exchange about the Pre Facto Intimation of the Eighth (8th) Committee of Creditors meeting to be held on Friday, July 24, 2026
+Sale or disposal — Godawari Power And Ispat limited has informed the Exchange about partial divestment of investment in Jammu Pigments Limited.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Skilinfra_23072026173350_SKIL_Letter_Intimation_8th_COC.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GPIL_24072026135605_GPILNSEBSEOUTCOMEOFBM24072026.pdf)
+
+---
+
+### Godawari Power And Ispat limited: Outcome of Board Meeting
+**MA** · India · ✓ Verified
+
+Outcome of Board Meeting — Godawari Power And Ispat limited has informed the Exchange regarding Outcome of Board Meeting held on July 24, 2026 for partial divestment of investment in Jammu Pigments Limited.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GPIL_24072026135336_GPILNSEBSEOUTCOMEOFBM24072026.pdf)
+
+---
+
+### Dr. Lal Path Labs Ltd.: General Updates
+**MA** · India · ✓ Verified
+
+General Updates — Dr. Lal Path Labs Ltd.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/LALPATHLAB_24072026134427_BMOUTCOME_24072026.pdf)
+
+---
+
+### GMR AIRPORTS LIMITED: Disclosure under SEBI Takeover Regulations
+**MA** · India · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations — Grandhi Mallikarjuna Rao, GMR Enterprises Private Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_21042026171535_GMRAIRPORT.zip)
+
+---
+
+### GMR Power and Urban Infra Limited: Disclosure under SEBI Takeover Regulations
+**MA** · India · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations — Grandhi Mallikarjuna Rao,GMR Enterprises Private Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_21042026172000_GMRP.zip)
+
+---
+
+### Team India Guaranty Limited: Disclosure under SEBI Takeover Regulations
+**MA** · India · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations — KARAN SARAOGI has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_14072026121425_Karan.pdf)
+
+---
+
+### Ice Make Refrigeration Limited: Disclosure under SEBI Takeover Regulations
+**MA** · India · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations — Ice Make Refrigeration Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_14072026170322_28042026153406_ICEMAKE1.pdf)
+
+---
+
+### Omaxe Limited: Disclosure under SEBI Takeover Regulations
+**MA** · India · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations — Mohit Goel has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations,…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_21042026171223_OMAXE1.pdf)
+
+---
+
+### Wheels India Limited: Disclosure under SEBI Takeover Regulations
+**MA** · India · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations — India Motor Parts & Accessories Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_14072026122143_IMPAL.pdf)
+
+---
+
+### Automotive Axles Limited: Disclosure under SEBI Takeover Regulations
+**MA** · India · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations — Cummins Inc has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations,…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_13042026181456_AUTOAXLES.pdf)
 
 ---
 
