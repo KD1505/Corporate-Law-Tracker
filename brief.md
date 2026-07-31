@@ -1,338 +1,275 @@
 # Corporate Law Tracker — Daily Brief
-_30 July 2026_
+_31 July 2026_
 
-38 new development(s).
+31 new development(s).
 
-### Mahindra & Mahindra Limited: General Updates
-**PE** · ₹10,822 cr · India · ✓ Verified
+### 🔴 Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on INDO-MIM ₹3,812 crore IPO
+**IPO** · ₹3,812 cr · Cross-border · Reported
 
-General Updates — Proposed fund raising by Mahindra Last Mile Mobility Limited, a subsidiary of the Company, at a valuation of Rs.10,822 crore
+INDO-MIM Limited has raised ₹3,812.12 crore from an initial public offering of equity shares comprising a fresh issue of equity shares and an offer by the selling shareholders. Trilegal advised INDO-MIM on this IPO.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AmitDodani_30072026210839_SE_Intimation_Project_Leo_30Jul.pdf)
-
----
-
-### JSA advises Snitch Apparels on acquisition of Berrylush
-**PE** · Cross-border · Reported
-
-Snitch Apparels Private Limited, through a subsidiary, has acquired Berrylush Designs Private Limited. JSA Advocates & Solicitors advised Snitch Apparels on this acquisition.
-
-[Open source ↗](https://www.barandbench.com/dealstreet/jsa-advises-snitch-apparels-on-acquisition-of-berrylush)
+[Open source ↗](https://www.barandbench.com/dealstreet/trilegal-khaitan-co-hogan-lovells-cadwalader-act-on-indo-mim-3812-crore-ipo)
 
 ---
 
-### Triumvir Law, Khaitan & Co act on Nuyug pre-seed fundraise
-**PE** · Cross-border · Reported
+### JSA advises Aseem Infrastructure Finance on sanctioning ₹255 crore to Clean Max group hybrid power projects
+**BANK** · ₹255 cr · India · Reported
 
-Nuyug Retail Private Limited has raised funds from a pre-seed fundraise led by AJVC Fund with participation from angel investors. Triumvir Law advised Nuyug and its founders Ankur Dua and Manali Thareja on this fundraise.
+Aseem Infrastructure Finance Limited has extended a rupee term loan facility of up to ₹255 crore to Clean Max Teton Private Limited, Clean Max Emerald Private Limited and Clean Max Victoria Private Limited, SPVs of Clean Max Enviro Energy…
 
-[Open source ↗](https://www.barandbench.com/dealstreet/triumvir-law-khaitan-co-act-on-nuyug-pre-seed-fundraise)
-
----
-
-### Crawford Bayley, ELP act Caliber Mining ₹450 crore IPO
-**IPO** · ₹450 cr · Cross-border · Reported
-
-Caliber Mining and Logistics Limited has made an initial public offering of equity shares aggregating to ₹450 crore, consisting of a fresh issue and an offer for sale by the promoter selling shareholders. Crawford Bayley & Co advised…
-
-[Open source ↗](https://www.barandbench.com/dealstreet/crawford-bayley-elp-act-caliber-mining-450-crore-ipo)
+[Open source ↗](https://www.barandbench.com/dealstreet/jsa-advises-aseem-infrastructure-finance-on-sanctioning-255-crore-to-clean-max-group-hybrid-power-projects)
 
 ---
 
-### Universal Legal advises Advy Biosciences on acquisition of DiabetOmics Medical
-**LIT** · Cross-border · Reported
+### Datamatics Global Services Limited: Acquisition
+**MA** · Cross-border · ✓ Verified
 
-Advy Biosciences has acquired DiabetOmics Medical Private Limited, now rebranded as Advy BioLucent Private Limited. Universal Legal advised Advy Biosciences on this acquisition.
+Acquisition — Datamatics Global Services Limited has informed the Exchange about completion of acquisition of remaining 20% stakes in TNQ Tech Private Limited by its Wholly owned subsidiary Lumina Datamatics Limited.
 
-[Open source ↗](https://www.barandbench.com/dealstreet/universal-legal-advises-advy-biosciences-on-acquisition-of-diabetomics-medical)
-
----
-
-### SNG & Partners advises Kanakadurga Finance on acquisition of its gold loan business by Godrej Finance
-**BANK** · ₹280 cr · India · Reported
-
-Godrej Finance Limited has acquired the gold loan business of Kanakadurga Finance Limited. The business comprises a gold loan portfolio of approximately ₹280 crore in assets under management, serving nearly 12,000 customers across 54…
-
-[Open source ↗](https://www.barandbench.com/dealstreet/sng-partners-advises-kanakadurga-finance-on-acquisition-of-its-gold-loan-business-by-godrej-finance)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/DGSL_31072026201628_SEIntimationJuly312026sd.pdf)
 
 ---
 
-### TT&A, DFDL advise IFC on sanctioning $50 million to Pubali Bank
-**BANK** · $50 mn · India · Reported
+### Shankara Building Products Limited: Disclosure under SEBI Takeover Regulations
+**MA** · Cross-border · ✓ Verified
 
-The International Finance Corporation is set to extend a loan aggregating up to $50 million to Pubali Bank PLC, incorporated in Bangladesh. TT&A advised IFC on this financing transaction.
+Disclosure under SEBI Takeover Regulations — Rajasthan Global Securities Private Ltd has submitted to the Exchange a copy of Disclosure under Regulation 29(1) of SEBI (SAST) Regulations, 2011.
 
-[Open source ↗](https://www.barandbench.com/dealstreet/tta-dfdl-advise-ifc-on-sanctioning-50-million-to-pubali-bank)
-
----
-
-### Ravindra Energy Limited: Agreements
-**BANK** · ₹100 cr · India · ✓ Verified
-
-Agreements — Company has executed a loan agreement with Tata Capital Limited (lender) for Term Loan facility of Rs 100 Crore.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/RAVINDRA_30072026202149_Disclosure_-_REL_TCL_30-07-2026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_31072026161206_SHANKARA.pdf)
 
 ---
 
-### Saraf and Partners assists Anant Raj on demerger of data center business into standalone listed entity
+### Zensar Technologies Limited: General Updates
+**MA** · Cross-border · ✓ Verified
+
+General Updates — Zensar Technologies Limited has informed the Exchange about the update on merger of US Subsidiary
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ZENSARTECH_31072026144829_SE_Intimation_Update_Merger_BVLS.pdf)
+
+---
+
+### Emkay Global Financial Services Limited: General Updates
+**IPO** · Cross-border · ✓ Verified
+
+General Updates — Emkay Global Financial Services Limited has informed the Exchange about Receipt of In-Principal approval from BSE Limited for Listing of Equity Shares pursuant to conversion of warrants by way of preferential issue.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/jpshah_31072026201236_EGFSLListingApproval25062026OnlyBSEApprovalfiling.pdf)
+
+---
+
+### Shanti Gold International Limited: Rights Issue
+**IPO** · ₹215 · India · ✓ Verified
+
+Rights Issue — Shanti Gold International Limited has informed the Exchange that Board of Directors at its meeting held on July 31, 2026, has decided to issue equity shares on rights basis in the ratio of 19 : 295, i.e 19 Equity Shares for…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SHANTIGOLD_31072026134218_BM_Outcome_RI_31-07-2026_RI_and_IA_SGIL.pdf)
+
+---
+
+### CMS INDUSLAW acts on Beauty Garage proposed IPO
 **IPO** · India · Reported
 
-Anant Raj Limited (ARL) has announced a landmark composite corporate restructuring involving the merger of Anant Raj Cloud Private Limited into ARL, followed by the demerger of its data centre and cloud business to Ashok Cloud Private…
+Beauty Garage Limited has filed a draft red herring prospectus for an initial public offering comprising a fresh issue of equity shares and an offer for sale by its promoter selling shareholders. CMS INDUSLAW is advising Beauty Garage as…
 
-[Open source ↗](https://www.barandbench.com/dealstreet/saraf-and-partners-assists-anant-raj-on-demerger-of-data-center-business-into-standalone-listed-entity)
-
----
-
-### DMD Advocates advises New Delhi Centre for Sight on multi-State Strategic Expansion
-**PE** · Delhi-NCR · Reported
-
-DMD Advocates acted as legal counsel to New Delhi Centre for Sight (NDCFS), one of India’s leading eye care hospital chains, in connection with its strategic expansion across India through a series of acquisitions, business transfers and…
-
-[Open source ↗](https://www.barandbench.com/dealstreet/dmd-advocates-advises-new-delhi-centre-for-sight-on-multi-state-strategic-expansion)
+[Open source ↗](https://www.barandbench.com/dealstreet/cms-induslaw-acts-on-beauty-garage-proposed-ipo)
 
 ---
 
-### Niraj Cement Structurals Limited: Updates
+### Genesys International Corporation Limited: Rights Issue
+**IPO** · ₹50 · India · ✓ Verified
+
+Rights Issue — Genesys International Corporation Limited has informed the Exchange that Rights Issue Committee of the Board of Directors of the Company at its meeting held on July 31, 2026, has decided to issue equity shares on rights…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GENESYS_31072026173447_Outcome.pdf)
+
+---
+
+### Clean Max Enviro Energy Solutions Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-Updates — Niraj Cement Structurals Limited has informed the Exchange regarding 'Update on Open Offer'.
+Amalgamation/Merger — Clean Max Enviro Energy Solutions Limited has informed the Exchange about Amalgamation/Merger
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NIRAJ_30072026234013_Pre_Offer_Advertisement.pdf)
-
----
-
-### UNO Minda Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition — UNO Minda Limited has informed the Exchange about update on Acquisition.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MINDAIND1_30072026211020_Intimation.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/CLEANMAX_31072026194841_Reg_30_Merger.pdf)
 
 ---
 
-### Data Patterns (India) Limited: Acquisition
+### Welspun Corp Limited: General Updates
 **MA** · India · ✓ Verified
 
-Acquisition — Data Patterns (India) Limited has informed the Exchange about Acquisition
+General Updates — Welspun Corp Limited has informed the Exchange about Update on Acquisition of additional 51% equity stake in Welspun Captive Power Generation Limited.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Datapatterns_30072026204121_SEIntimationSTACAcquisition30July2026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/WELCORP_31072026193048_SEWCPGL.pdf)
 
 ---
 
-### Mahindra & Mahindra Limited: Acquisition
+### TCC Concept Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-Acquisition — Mahindra & Mahindra Limited has informed the Exchange about Acquisition
+Amalgamation/Merger — TCC Concept Limited has informed the Exchange about Amalgamation/Merger.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AmitDodani_30072026201320_SE_Intimation_Novavayu.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TCCLTD_31072026191434_Merger_TCC.pdf)
 
 ---
 
-### Standard Engineering Technology Limited: General Updates
+### Entero Healthcare Solutions Limited: Acquisition
 **MA** · India · ✓ Verified
 
-General Updates — Standard Engineering Technology Limited has informed the Exchange about General Updates on Acquisition of 33.55% in M/s. GScale Energy Private Limited
+Acquisition — Entero Healthcare Solutions Limited has informed the Exchange about Incorporation of step-down subsidiary, Qurovia Lifesciences Private Limited
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SGLTPL_30072026200150_SETL_BM_Regulation_30_30072026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ENTERO_31072026185610_SE_Intimation.pdf)
 
 ---
 
-### Lenskart Solutions Limited: General Updates
+### EMS Limited: General Updates
 **MA** · India · ✓ Verified
 
-General Updates — Lenskart Solutions Limited has informed the Exchange about the update w.r.t. incorporation of Joint Venture Company "Lenskart Metalframes Private Limited"
+General Updates — Ems Limited has informed the Exchange about Acquisition of 140 Shares (representing 14% Stake) in its subsidiary, Mirzapur Ghazipur STPS Private Limited
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/LENSKART_30072026192341_Intimation_-_Update_on_JV_Incorporation_30072026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/EMSLIMITED_31072026185559_Intimation_Acquisition_Mirzapur.pdf)
 
 ---
 
-### Zodiac Energy Limited: Acquisition
+### TSF INVESTMENTS LIMITED: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition — Zodiac Energy Limited has informed the Exchange about Incorporation of Wholly Owned Subsidiary
+Acquisition — TSF INVESTMENTS LIMITED has informed the Exchange about Further Acquisition of Shares in Wheels India Limited
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ZODIAC_30072026192114_Reg_30_.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SUNDARMHLD_31072026172504_sdsdTSFILINTIMATIONACQ31072026.pdf)
 
 ---
 
-### Nuvama Wealth Management Limited: General Updates
+### India Glycols Limited: Updates
 **MA** · India · ✓ Verified
 
-General Updates — Nuvama Wealth Management Limited has informed the Exchange about acquisition/investment
+Updates — India Glycols Limited has informed the Exchange regarding 'Material Update in connection with Ennature Bio Pharma Limited with reference toObservation letter no. NSE/LIST/48932 dated 17th November, 2025 and…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NWML_30072026191623_SE_BMOutcome_30072026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/INDIAGLYCO_31072026171050_SE.pdf)
 
 ---
 
-### Lagnam Spintex Limited: Updates
+### PPAP Automotive Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-Updates — Lagnam Spintex Limited has informed the Exchange regarding 'Intimation of Acquisition under regulation 30 of the SEBI (listing Obligations and Disclosure Requirements) Regulations 2015'.
+Amalgamation/Merger — PPAP Automotive Limited has informed the Exchange about Amalgamation/Merger
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/LAGNAM_30072026181909_Intimation_Acqisition3007.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/PPAP_31072026164635_Merger.pdf)
 
 ---
 
-### Aakash Exploration Services Limited: Disclosure under SEBI Takeover Regulations
+### BSE Limited: Updates
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations — Pravin Vershibhai Haria has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
+Updates — BSE Limited has informed the Exchange regarding acquisition of 3.33% equity stake in India International Bullion Holding IFSC Limited.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_30072026175658_AAKASH.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/BSE1_31072026162905_NSEintimation_infusion_of_funds.pdf)
 
 ---
 
-### Tata Power Company Limited: Acquisition
+### Oil & Natural Gas Corporation Limited: General Updates
 **MA** · India · ✓ Verified
 
-Acquisition — Tata Power Company Limited has informed the Exchange about Acquisition
+General Updates — Oil & Natural Gas Corporation Limited has informed the Exchange about Allotment of equity shares by Joint Venture companies
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/VPTPCL_30072026172400_Reg-30_Acquistion_RPTL.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ONGC_31072026162420_ethaneonetwo31072026.pdf)
 
 ---
 
-### Radha Madhav Corporation Limited: Updates
+### Park Medi World Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Updates — Radha Madhav Corporation Limited has informed the Exchange regarding 'Submission of disclosure received from Promoter under Regulation 29(2) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011'.
+Acquisition — Park Medi World Limited has informed the Exchange about Update on the Acquisition of The Medicity Hospital, Rudrapur
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/RMCL_30072026170148_SAST.pdf)
-
----
-
-### Thermax Limited: Scheme of Arrangement
-**MA** · India · ✓ Verified
-
-Scheme of Arrangement — Thermax Limited has informed the Exchange about Scheme of Arrangement
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/THERMAXNSE_30072026163005_SEIntimationOutcomesigned.pdf)
-
----
-
-### Thermax Limited: Demerger
-**MA** · India · ✓ Verified
-
-Demerger — Thermax Limited has informed the Exchange about Demerger
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/THERMAXNSE_30072026162015_SEIntimationOutcomesigned.pdf)
-
----
-
-### 3i Infotech Limited: Disclosure under SEBI Takeover Regulations
-**MA** · India · ✓ Verified
-
-Disclosure under SEBI Takeover Regulations — Capital NxT LLP has submitted to the Exchange a copy of Disclosure under Regulation 29(1) of SEBI (SAST) Regulations, 2011.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_30072026155720_3IINFOLTD.pdf)
-
----
-
-### Thermax Limited: Amalgamation/Merger
-**MA** · India · ✓ Verified
-
-Amalgamation/Merger — Thermax Limited has informed the Exchange about Amalgamation/Merger
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/THERMAXNSE_30072026161015_SEIntimationOutcomesigned.pdf)
-
----
-
-### Vedanta Limited: Updates
-**MA** · India · ✓ Verified
-
-Updates — Vedanta Limited has informed the Exchange regarding ' Intimation under Regulations 30 and 51 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 (as amended from time…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/VEDL_30072026152434_VEDLSEIntimationDemergerofSurplusAssetsfinalsigned.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/PARKMEDIWORLD2025_31072026155241_V3.pdf)
 
 ---
 
 ### Vedanta Aluminium Metal Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition — The Board of Directors of VAML have approved the execution of definitive agreements with Serentica Renewable India 9 Private Limited for integration of a Battery Energy Storage System( BESS )
+Acquisition — Please refer the enclosed update on filing made on July 30, 2026
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/VAML_30072026144613_4VAMLSEIntimationOutcomeofBMJuly302026Serenticasigned.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/VAML_31072026145121_7VAMLSEIntimationOutcomeofBMJuly302026Serenticarevisedsigned.pdf)
 
 ---
 
-### Mahindra & Mahindra Limited: Amalgamation/Merger
+### Avonmore Capital & Management Services Limited: Scheme of Arrangement
 **MA** · India · ✓ Verified
 
-Amalgamation/Merger — Mahindra & Mahindra Limited has informed the Exchange about Amalgamation/Merger
+Scheme of Arrangement — Avonmore Capital & Management Services Limited has informed the Exchange about Scheme of Arrangement
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AmitDodani_30072026130044_SEIntimationMICMLMerger.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AVONMORECAPITAL_31072026141649_outcome.pdf)
 
 ---
 
-### P N Gadgil Jewellers Limited: General Updates
+### GAIL (India) Limited: Scheme of Arrangement
+**MA** · India · ✓ Verified
+
+Scheme of Arrangement — GAIL (India) Limited has informed the Exchange about Scheme of Arrangement
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/DEVIKA_31072026140652_KLL_Signed.pdf)
+
+---
+
+### Leela Palaces Hotels & Resorts Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition — Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/THELEELA_31072026134836_NSE.pdf)
+
+---
+
+### Somany Ceramics Limited: Copy of Newspaper Publication
+**MA** · India · ✓ Verified
+
+Copy of Newspaper Publication — Newspaper Advertisement regarding Notice of hearing of Petition scheduled to be held on 28th August, 2026, pursuant to Order dated 21st July, 2026 of the Hon ble National Company Law Tribunal, Kolkata Bench…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SOMANYCERAMICS_31072026132449_Intimation_Newspapersd.pdf)
+
+---
+
+### Neueon Corporation Limited: Outcome of Board Meeting
 **IPO** · India · ✓ Verified
 
-General Updates — P N Gadgil Jewellers Limited has informed the Exchange about Qualified Institutional Placement
+Outcome of Board Meeting — The Board of directors in their board meeting held on July 31, 2026 has approved the Rights issue.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PNGJEWELLERS_30072026214635_ApprovalofPPD.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NTL_31072026173425_outcomesigned.pdf)
 
 ---
 
-### Sammaan Capital Limited: Updates
+### Shanti Gold International Limited: Updates
 **IPO** · India · ✓ Verified
 
-Updates — Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
+Updates — Shanti Gold International Limited has informed the Exchange regarding 'Letter of Offer - Rights Issue'.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_30072026184647_SCL_Exchange_Retail_intimation_57_30072026_XR5.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SHANTIGOLD_31072026165428_SGIL-RI-LOF-FINAL_310726_.pdf)
 
 ---
 
-### Sammaan Capital Limited: Updates
+### Shanti Gold International Limited: Rights Issue
 **IPO** · India · ✓ Verified
 
-Updates — Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
+Rights Issue — The Board at its meeting held on July 31, 2026 has approved various matters in connection with the Rights Issue, including but not limited to terms and conditions of the Rights Issue, determination of the issue price, rights…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_30072026183535_SCL_Exchange_Retail_intimation_57_30072026_TG6.pdf)
-
----
-
-### Aurum PropTech Limited: Monitoring Agency Report
-**IPO** · India · ✓ Verified
-
-Monitoring Agency Report — Monitoring Agency Report for the quarter ended June 30, 2026, in relation to the Rights Issue of Aurum PropTech Limited
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AURUM_30072026125044_MAReportQ1FY27.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SHANTIGOLD_31072026135237_BM_Outcome_RI_31-07-2026_RI_SGIL.pdf)
 
 ---
 
-### Craftsman Automation Limited: Monitoring Agency Report
-**IPO** · India · ✓ Verified
-
-Monitoring Agency Report — Pursuant to Regulation 32(6) of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 and Regulation 173A of the Securities and Exchange Board of India…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CRAFTSMAN_30072026122548_CALMonitoringAgencyReport30062026signed.pdf)
-
----
-
-### Laxmi Organic Industries Limited: Monitoring Agency Report
-**IPO** · India · ✓ Verified
-
-Monitoring Agency Report — Laxmi Organic Industries Limited has submitted Monitoring Agency Report issued by India Ratings & Research Private Limited (Monitoring Agent) with respect to utilization of QIP Proceeds from the objects stated in…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/LXCHEM_30072026121755_MAREPORTJUN2026.pdf)
-
----
-
-### SKIL Infrastructure Limited: Corporate Insolvency Resolution Process
+### Punj Lloyd Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process — SKIL Infrastructure Limited has informed the Exchange regarding the audited financial results on standalone and consolidated basis for the quarter and the year ended March 31, 2025
+Corporate Insolvency Resolution Process — Punj Lloyd Limited has informed the Exchange about Corporate Insolvency Resolution Process : Outcome of the Board Meeting held on July 31, 2026 inter alia for consideration and approval of…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Skilinfra_30072026191604_SKIL_Financials_31032025.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/PUNJLLOYD_31072026175736_BMoutcome31072026PUNJLLOYDok.pdf)
 
 ---
 
-### BGR Energy Systems Limited: Corporate Insolvency Resolution Process
+### Punj Lloyd Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process — BGR Energy Systems Limited has informed the Exchange about Corporate Insolvency Resolution Process
+Corporate Insolvency Resolution Process — Punj Lloyd Limited has informed the Exchange about Corporate Insolvency Resolution Process
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/BGRENERGY_30072026184658_IBCorderintimation.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/PUNJLLOYD_31072026175526_BMoutcome31072026PUNJLLOYDok.pdf)
 
 ---
 
@@ -341,7 +278,7 @@ Corporate Insolvency Resolution Process — BGR Energy Systems Limited has infor
 
 Corporate Insolvency Resolution Process — TV Vision Limited has informed the Exchange about Corporate Insolvency Resolution Process
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TVVISION_30072026173212_Intimation_to_SE_Order_awaited_TVVL.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TVVISION_31072026165615_Intimation_to_SE_Detailed_Order_TVVL.pdf)
 
 ---
 
