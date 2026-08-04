@@ -1,284 +1,320 @@
 # Corporate Law Tracker — Daily Brief
-_3 August 2026_
+_4 August 2026_
 
-31 new development(s).
+35 new development(s).
 
-### Trilegal advises Sona Comstar on partnership with Japan's DENSO Corp
+### Trilegal, A&O Shearman, Cyril Amarchand Mangaldas, Linklaters act on ₹852 crore Shadowfax share sale
+**MA** · ₹852 cr · India · Reported
+
+Eight Roads Investments Mauritius II Limited has made a sale of 41,612,566 equity shares of Shadowfax Technologies Limited for an aggregate consideration of ₹852.55 crore, undertaken by way of share sales on the screen-based trading…
+
+[Open source ↗](https://www.barandbench.com/dealstreet/trilegal-ao-shearman-cyril-amarchand-mangaldas-linklaters-act-on-852-crore-shadowfax-share-sale)
+
+---
+
+### Desai & Diwanji advises PNB-led consortium on sanctioning ₹2,150 crore to LCC Projects
+**BANK** · ₹2,150 cr · India · Reported
+
+A consortium of lenders led by Punjab National Bank has extended in a secured working capital facility aggregating to ₹2,150 crore to LCC Projects Limited. The lender consortium comprised Punjab National Bank, Axis Bank Limited, Bank of…
+
+[Open source ↗](https://www.barandbench.com/dealstreet/desai-diwanji-advises-pnb-led-consortium-on-sanctioning-2150-crore-to-lcc-projects)
+
+---
+
+### Khaitan & Co assists RPG Life Sciences on carve-out of its API business
+**PE** · India · Reported
+
+RPG Life Sciences Limited has carved out its active pharmaceutical ingredients (API) business into a wholly-owned subsidiary company, RPG Active Pharma Limited. Khaitan & Co advised RPG Life Sciences on this business carve-out as well as…
+
+[Open source ↗](https://www.barandbench.com/dealstreet/khaitan-co-assists-rpg-life-sciences-on-carve-out-of-its-api-business)
+
+---
+
+### DSK Legal, Troutman Pepper Locke advise Energage on merger with Engagedly
 **MA** · Cross-border · Reported
 
-Sona Comstar is entering into a landmark strategic partnership with DENSO Corporation, Japan, to establish two joint ventures focused on developing and manufacturing advanced electric and hybrid powertrain systems for two, three and four…
+Energage, the human resources technology company behind the Top Workplaces employer recognition program, is merging with Engagedly Inc., an advanced AI-powered talent management platform. DSK Legal advised Energage on the India leg of the…
 
-[Open source ↗](https://www.barandbench.com/dealstreet/trilegal-advises-sona-comstar-on-partnership-with-japans-denso-corp)
-
----
-
-### TT&A, Paul Weiss, Avisen Legal act on Carrier acquiring 75F Inc.
-**LIT** · Cross-border · Reported
-
-Carrier Global Corporation has acquired 75F Inc., a leading innovator in cloud-native, wireless, AI-enabled building automation systems. The deal involves an acquisition of 75F Inc’s subsidiaries in India i.e., 75F Smart Innovations India…
-
-[Open source ↗](https://www.barandbench.com/dealstreet/tta-paul-weiss-avisen-legal-act-on-carrier-acquiring-75f-inc)
+[Open source ↗](https://www.barandbench.com/dealstreet/dsk-legal-troutman-pepper-locke-advise-energage-on-merger-with-engagedly)
 
 ---
 
-### Nazara Technologies Limited: Press Release
-**MA** · ₹429 cr · India · ✓ Verified
+### Healthcare Global Enterprises Limited: Memorandum of Understanding/Agreements
+**MA** · ₹38 lakh · Cross-border · ✓ Verified
 
-Press Release — Nazara Technologies Limited has informed the Exchange regarding a press release dated August 03, 2026, titled Nazara reports Q1FY27 revenue of INR 429 crore and EBITDA of INR 46 crore; Appoints Raymond A. Stauffer as CEO;…
+Memorandum of Understanding/Agreements — Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 ( SEBI Listing Regulations ), we would like to inform that HCG Manavata Oncology LLP ( LLP…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NAZARA_03082026221421_PRIntimation.pdf)
-
----
-
-### Greaves Cotton Limited: Press Release
-**IPO** · ₹530 cr · India · ✓ Verified
-
-Press Release — Greaves Cotton Limited has informed the Exchange regarding a press release dated August 03, 2026, issued by Greaves Electric Mobility Limited, subsidiary of the Company titled "Greaves Electric Mobility's Rights Issue…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/GREAVESCOT_03082026101629_GCL_PR_GEMLRIsd.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HCG1_04082026192752_Disclosure_HCG_Manvata_Acquisition.pdf)
 
 ---
 
-### Dhir & Dhir Associates assists in Powertronix Engineering proposed IPO
-**IPO** · India · Reported
+### Belrise Industries Limited: Agreements
+**MA** · ₹543.88 · India · ✓ Verified
 
-Powertronix Engineering Limited has proposed an initial public offering of up to 41,00,000 Equity Shares on the SME Platform of BSE. Dhir & Dhir Associates is advising the Lead Manager, Khandwala Securities Limited on this IPO.
+Agreements — Belrise Industries Limited has informed the Exchange that the Board of Directors of the Company has approved the acqusition of india tipper body business of Hyva (india) Pvt. Ltd.
 
-[Open source ↗](https://www.barandbench.com/dealstreet/dhir-dhir-associates-assists-in-powertronix-engineering-proposed-ipo)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/BELRISE_04082026134949_Belrise_Intimation_of_Signing_BTA_04082026.pdf)
 
 ---
 
-### MITCON Consultancy & Engineering Services Limited: Acquisition
+### Adani Enterprises Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition — MITCON Consultancy & Engineering Services Limited has informed the Exchange about Acquisition
+Acquisition — Adani Enterprises Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MITCON_03082026225755_Regulation30.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_04082026230107_AELIntimationofacquisitioncompletion04082026signed.pdf)
 
 ---
 
-### Inventurus Knowledge Solutions Limited: Acquisition
+### Ventive Hospitality Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-Acquisition — Inventurus Knowledge Solutions Limited has informed the Exchange about update on acquisition.
+Amalgamation/Merger — Intimation of Merger of Sun Leisure (India) Private Limited into Soham Leisure Ventures Private Limited under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IKS2006_03082026225750_Pj_New_Horizon_-_SE_Disclosure_-_Syndication_Agreement.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/VENTIVE_04082026211039_Reg_30_Merger.pdf)
 
 ---
 
-### Samvardhana Motherson International Limited: General Updates
+### Rashi Peripherals Limited: Press Release
 **MA** · India · ✓ Verified
 
-General Updates — Samvardhana Motherson International Limited has informed the Stock Exchange regarding completion of acquisition through indirect wholly owned subsidiary.
+Press Release — Rashi Peripherals Limited has informed the Exchange regarding a press release dated August 04, 2026, titled "Press Release on Proposed Joint Venture with Restar Corporation, Japan, approved by the Board of Directors of the…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MOTHERSON_03082026214312_SE_Disclosure_MSSL_Global_RSA.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/RASHI2024_04082026200109_Press_Release_Joint_Venture.pdf)
 
 ---
 
-### SBI Funds Management Limited: Acquisition
+### Meesho Limited: General Updates
 **MA** · India · ✓ Verified
 
-Acquisition — SBI Funds Management Limited has informed the Exchange about Acquisition
+General Updates — Meesho Limited has informed the Exchange intimation under Regulation 30 of SEBI (LODR) Regulations, 2015 - Updates on Acquisition.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SBIMF2026_03082026211247_Outcome_signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MEESHO_04082026195712_ML_Further_investment_in_MGPL.pdf)
 
 ---
 
-### Samhi Hotels Limited: General Updates
+### Larsen & Toubro Limited: Scheme of Arrangement
 **MA** · India · ✓ Verified
 
-General Updates — Samhi Hotels Limited has informed the Exchange about 100% acquisition of Itmenaan Lodges Private Limited ("Target"), pursuant to SPA to be executed.
+Scheme of Arrangement — Larsen & Toubro Limited has informed the Exchange about Scheme of Arrangement - Summary of Proceedings, Voting Results and Scrutinizer's Report of the NCLT convened meeting of equity shareholders of the Company held…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Samhi_03082026201502_Disclosure_BM_Outcome03082026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/PAM_04082026195008_OutcomeNCLTConvenedMeeting04082026_1.pdf)
 
 ---
 
-### Power Grid Corporation of India Limited: Acquisition
+### BSE Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition — Power Grid Corporation of India Limited has informed the Exchange about Acquisition of Krishnagiri REZ Transmission Limited by POWERGRID under TBCB route.
+Acquisition — BSE Limited has informed the Exchange about further acquisition of stake in India International Bullion Holding IFSC Limited
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/POWERGRID1_03082026195149_BSENSEReg30dt03082026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/BSE1_04082026191857_NSEIntimation.pdf)
 
 ---
 
-### Allied Blenders and Distillers Limited: Amalgamation/Merger
+### Gujarat Themis Biosyn Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-Amalgamation/Merger — Update on Scheme of Amalgamation (merger by absorption) of Deccan Star Distilleries India Private Limited ( Transferor Company 1 ) and Sarthak Blenders & Bottlers Private Limited( Transferor Company 2 ) with and into…
+Disclosure under SEBI Takeover Regulations — Sachin D. Patel has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption provided for in…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ABDINDIA_03082026194252_SE_Intimation_-_WOS_sd.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_04082026190011_GUJTHEM.pdf)
 
 ---
 
-### Garuda Construction and Engineering Limited: Updates
+### Pondy Oxides & Chemicals Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-Updates — Garuda Construction and Engineering Limited has informed the Exchange regarding 'Disclosure under Regulation 31(1) of the SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011'.
+Amalgamation/Merger — Pondy Oxides & Chemicals Limited has informed the Exchange about Amalgamation/Merger
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/GARUDACONSTRUCTION2010_03082026191522_Intimation_final.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/POCL_04082026185910_ApprovalofSchemeHEEPLSD.pdf)
 
 ---
 
-### HCL Technologies Limited: Updates
+### Varun Beverages Limited: General Updates
 **MA** · India · ✓ Verified
 
-Updates — Release: HCLTech completes acquisition of HPE s Telco Solutions business '.
+General Updates — We would like to inform you that Varun Beverages (Zimbabwe) (Private) Limited, subsidiary company, has incorporated a joint venture company in Zimbabwe namely Varun Beverages Holding (Zimbabwe) (Private) Limited .
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HCLTECH_03082026190019_Release03august2026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/VBL_04082026164249_Intimation_SDSZimbabwe_signed.pdf)
 
 ---
 
-### Landmark Property Development Company Limited: Updates
+### FSN E-Commerce Ventures Limited: Press Release
 **MA** · India · ✓ Verified
 
-Updates — Landmark Property Development Company Limited has informed the Exchange regarding 'Intimation regarding continuation of Registrar and Share Transfer Agent pursuant to amalgamation of C B Management Services (P) Limited with MUFG…
+Press Release — FSN E Commerce Ventures Limited has informed the Exchange regarding a press release dated August 04, 2026, titled "Nykaa begins FY2027 on a strong note with Q1 FY2027 Net Revenue growth accelerating to 29% YoY, and robust…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/LPDC_03082026174941_LETTER03082026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NYKAA_04082026163557_NykaaPressRelease.pdf)
 
 ---
 
-### Kirloskar Pneumatic Company Limited: Press Release
+### Worth Peripherals Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Press Release — Kirloskar Pneumatic Company Limited has informed the Exchange regarding a press release dated August 03, 2026, titled "Press Release in respect of acquisition of 99.49% of the total voting power in Kirloskar South East Asia…
+Acquisition — Worth Peripherals Limited has informed the Exchange about Acquisition of Equity Shares of Worth Wellness Private Limited (Wholly&#8208;owned Subsidiary of the Company) by the Company via Conversion of loan into equity.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/truneshgujar_03082026163505_Press_Release_-_SE.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/WORTH_04082026163246_Outcome_Signed.pdf)
 
 ---
 
-### Restaurant Brands Asia Limited: Acquisition
+### FSN E-Commerce Ventures Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition — Restaurant Brands Asia Limited has informed the Exchange about Acquisition
+Acquisition — FSN E Commerce Ventures Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/RBA_03082026162059_Finalupload.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NYKAA_04082026161524_OutcomeofBMvF.pdf)
 
 ---
 
-### Triveni Engineering & Industries Limited: General Updates
+### FSN E-Commerce Ventures Limited: Outcome of Board Meeting
 **MA** · India · ✓ Verified
 
-General Updates — Allocation of cost of acquisition of Equity Shares of Triveni Engineering & Industries Ltd. and Triveni Power Transmission Ltd.
+Outcome of Board Meeting — FSN E Commerce Ventures Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2026 and details of acquisition.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TRIVENI_03082026144712_COST_OF_ACQUISITION_TPTL.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NYKAA_04082026161156_OutcomeofBMvF.pdf)
 
 ---
 
-### Triveni Engineering & Industries Limited: Scheme of Arrangement
+### Indiamart Intermesh Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Scheme of Arrangement — Allocation of cost of acquisition of Equity Shares of Triveni Engineering & Industries Ltd. and Triveni Power Transmission Ltd.
+Acquisition — In furtherance to our earlier intimation dated July 21, 2026 and pursuant to Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 ( Listing Regulations ), we wish to inform you that a…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TRIVENI_03082026144221_COST_OF_ACQUISITION_TPTL.pdf)
-
----
-
-### Dhanuka Agritech Limited: Updates
-**MA** · ₹15 cr · India · ✓ Verified
-
-Updates — Dhanuka Agritech Limited has informed the Exchange regarding Approval of granting of loan upto Rs. 15 Crore in one or more tranches to the proposed Dhanuka Employee Stock Benefits Trust for the sole purpose of acquisition of…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DHANUKA_03082026142141_outcomeofbm.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/INDIAMART_04082026151215_Intimationofincorporationapproval.pdf)
 
 ---
 
-### HMA Agro Industries Limited: Disclosure under SEBI Takeover Regulations
+### UNO Minda Limited: Outcome of Board Meeting
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations — Hma Agro Industries Limited has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and…
+Outcome of Board Meeting — UNO Minda Limited has informed the Exchange regarding outcome of Board Meeting concluded on August 04, 2026 for scheme of merger of Minda Onkyo India Pvt. Ltd.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_03082026110513_Intimation.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MINDAIND1_04082026144848_Outcome_merger.pdf)
 
 ---
 
-### Park Medi World Limited: Acquisition
+### UNO Minda Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-Acquisition — Park Medi World Limited has informed the Exchange about Acquisition
+Amalgamation/Merger — UNO Minda Limited has informed the Exchange about Amalgamation/Merger
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PARKMEDIWORLD2025_03082026093432_outcome0308.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MINDAIND1_04082026144401_Outcome_merger.pdf)
 
 ---
 
-### P N Gadgil Jewellers Limited: General Updates
-**IPO** · India · ✓ Verified
+### Capillary Technologies India Limited: Press Release
+**MA** · India · ✓ Verified
 
-General Updates — P N Gadgil Jewellers Limited has informed the Exchange about QIP
+Press Release — Capillary Technologies India Limited has informed the Exchange regarding a press release dated August 04, 2026, titled "Capillary Technologies Acquires the CustomerGlu Platform.".
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PNGJEWELLERS_03082026233812_IntimationofIssueClosing.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/CAPILLARY12_04082026140444_Disclosure_on_press_release.pdf)
+
+---
+
+### BASF India Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition — BASF India Limited has informed the Exchange about acquisition of 14.18% stake in the equity share capital of Clean Max Galapagos Private Limited
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/BASFIL_04082026140432_CleanMaxGalapagosPrivateLimited.pdf)
+
+---
+
+### Belrise Industries Limited: Press Release
+**MA** · India · ✓ Verified
+
+Press Release — Belrise Industries Limited has informed the Exchange regarding a press release dated August 04, 2026, titled "Belrise Industries Limited has acquired india tipper body business of Hyva (india) Pvt. Ltd.".
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/BELRISE_04082026135300_Belrise_Press_Release_04082026.pdf)
+
+---
+
+### Godrej Properties Limited: Amalgamation/Merger
+**MA** · India · ✓ Verified
+
+Amalgamation/Merger — Godrej Properties Limited has informed the Exchange about Amalgamation of Godrej Housing Projects Private Limited.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GODREJPROP_04082026114320_SEIntimationMergerGHPPL04082026.pdf)
+
+---
+
+### Wheels India Limited: Disclosure under SEBI Takeover Regulations
+**MA** · India · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations — TSF Investments Ltd has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/vipulr_04082026104404_31072026184647_WHEELS.pdf)
 
 ---
 
 ### Life Insurance Corporation Of India: Offer for sale
-**IPO** · ₹10 · India · ✓ Verified
-
-Offer for sale — The President of India, acting through Department of Financial Services, Ministry of Finance, Government of India has informed the Exchange about an announcement with respect to offer for sale through Stock Exchange…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/tchari_03082026210047_LICI_OFSNOTICE.pdf)
-
----
-
-### Unimech Aerospace and Manufacturing Limited: Issue of Securities
 **IPO** · India · ✓ Verified
 
-Issue of Securities — Unimech Aerospace and Manufacturing Limited has informed the Exchange about the issuance of Equity Shares and/or other eligible securities by way of Qualified Institutions Placement ( QIP ).
+Offer for sale — The President of India, acting through Department of Financial Services, Ministry of Finance, Government of India has informed the Exchange about the revised OFS Oversubscription notice.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/UNIMECH_03082026182415_BM_QIP_outcome.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/tchari_04082026203357_RevisedOversubscriptionNotice.pdf)
 
 ---
 
-### Restaurant Brands Asia Limited: Monitoring Agency Report
+### Omnitech Engineering Limited: Monitoring Agency Report
 **IPO** · India · ✓ Verified
 
-Monitoring Agency Report — Monitoring Agency Report w.r.t. utilisation of proceeds from Qualified Institutions Placement and Preferential issue on private placement basis.
+Monitoring Agency Report — Submission of Monitoring Agency Report issued by Crisil Ratings Limited for the utilization ofProceeds raised through issuance of Equity Shares by way of the Initial Public Offer (IPO) of theOmnitech Engineering…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/RBA_03082026181544_Finalupload.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/OMNITECHENG_04082026180246_Intimation_Monitoring_Agency_Report_for_Q1_of_FY_2026-27.pdf)
 
 ---
 
-### Ethos Limited: Monitoring Agency Report
+### Life Insurance Corporation Of India: Offer for sale
 **IPO** · India · ✓ Verified
 
-Monitoring Agency Report — Report of the Monitoring Agency with respect to utilization of proceeds of the Rights Issue of Ethos Limited for the quarter ended June 30, 2026
+Offer for sale — The President of India, acting through Department of Financial Services, Ministry of Finance, Government of India has informed the Exchange about its intention to exercise over-subscription option for 50,59,99,816 equity…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ETHOS_03082026172250_Cover_letter.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/tchari_04082026173242_OversubscriptionNotice.pdf)
 
 ---
 
-### Ather Energy Limited: Monitoring Agency Report
+### Fermenta Biotech Limited: Press Release
 **IPO** · India · ✓ Verified
 
-Monitoring Agency Report — We hereby submit the Monitoring Agency Report issued by CARE Ratings Limited, for the quarter ended June 30, 2026, in respect of utilization of gross proceeds of the IPO of the Company.
+Press Release — Fermenta Biotech Limited has informed the Exchange regarding a press release dated August 04, 2026, titled "Press release - Listing of shares on NSE.".
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ATHERENERGY_03082026164227_MAfinal.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/FERMENTABIOTECH_04082026172839_Reg_30_-_Press_release_NSE_listing_sd.pdf)
 
 ---
 
-### Inox Green Energy Services Limited: General Updates
+### Jyoti Structures Limited: Monitoring Agency Report
+**IPO** · India · ✓ Verified
+
+Monitoring Agency Report — Monitoring Agency Report Rights Issue II for the Quarter Ended June 30, 2026
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/JYOTISTRUC_04082026164045_MAreportJune26.pdf)
+
+---
+
+### Larsen & Toubro Limited: Shareholders meeting
 **IBC** · India · ✓ Verified
 
-General Updates — Inox Green Energy Services Limited has informed the Exchange about General Updates - Update on the Resolution Plan for Wind World (India) Limited
+Shareholders meeting — Larsen & Toubro Limited has informed the Exchange regarding Proceedings of NCLT Convened Meeting held on August 04, 2026. Further, the company has submitted the Exchange a copy of Srutinizers report along with voting…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IGESL_03082026201643_IGESL_Reg30_WWIL_CTC2026_dsc.pdf)
-
----
-
-### Sab Events & Governance Now Media Limited: Suspension of Trading
-**IBC** · India · ✓ Verified
-
-Suspension of Trading — Members of the Exchange are hereby informed that the trading in equity shares of Sab Events & Governance Now Media Limited shall be suspended w.e.f. August 05, 2026, on account of Reduction of Share Capital pursuant…
-
-[Open source ↗](-)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/PAM_04082026194655_OutcomeNCLTConvenedMeeting04082026_1.pdf)
 
 ---
 
-### BIL VYAPAR LIMITED: Corporate Insolvency Resolution Process
+### Reliance Home Finance Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process — BIL VYAPAR LIMITED has informed the Exchange about Corporate Insolvency Resolution Process
+Corporate Insolvency Resolution Process — Reliance Home Finance Limited has informed the Exchange that 13th Meeting of the Committee of Creditors ("CoC") of the Corporate Debtor, Will be held as under: Date: Wednesday, August 05, 2026…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/BINANIIND_03082026192152_SE_Intimation_COC__1___1_.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/RHFL_04082026185751_RHFL_-_Disclosure_of_the_13th_CoC_Meeting_Signed.pdf)
+
+---
+
+### Jubilant Agri and Consumer Products Limited: Copy of Newspaper Publication
+**IBC** · India · ✓ Verified
+
+Copy of Newspaper Publication — JUBLCPL: Jubilant Agri and Consumer Products Limited has informed the Exchange about Copy of Newspaper Publication for Notice of Hon'ble NCLT Convened Meeting of Equity Shareholders and Unsecured Creditors.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/JACPL_04082026143444_Intimation_Newspaper_JACPL_Signed.pdf)
 
 ---
 
