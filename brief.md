@@ -1,221 +1,167 @@
 # Corporate Law Tracker — Daily Brief
-_10 August 2026_
+_11 August 2026_
 
-32 new development(s).
+21 new development(s).
 
-### 🔴 JSA advises Belrise Industries on acquisition of Hyva India’s tipper body business
-**IPO** · ₹1,700 cr · India · Reported
+### 🔴 JSA, CMS INDUSLAW, Duane Morris & Selvam act on Globus Spirits ₹200 crore QIP
+**IPO** · ₹200 cr · Cross-border · Reported
 
-Belrise Industries Limited is set to acquire the India Tipper Body Business from Hyva (India) Private Limited, a subsidiary of JOST Werke SE. JSA Advocates & Solicitors advised Belrise Industries on this acquisition.
+Globus Spirits Limited has made a Qualified Institutions Placement of 23,80,952 equity shares aggregating to ₹200 crore. JSA Advocates & Solicitors advised Globus Spirits on this QIP.
 
-[Open source ↗](https://www.barandbench.com/dealstreet/jsa-advises-belrise-industries-on-acquisition-of-hyva-indias-tipper-body-business)
-
----
-
-### 🔴 JSA secures CCI approval for InterGlobe - Accor hospitality merger
-**REG** · Cross-border · Reported
-
-InterGlobe Enterprises Private Limited and AAPC India Hotel Management Private Limited (Accor) have secured the unconditional approval of the Competition Commission of India (CCI) for the merger of AAPC India Hotel Management, Caddie…
-
-[Open source ↗](https://www.barandbench.com/dealstreet/jsa-secures-cci-approval-for-interglobe-accor-hospitality-merger)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-duane-morris-selvam-act-on-globus-spirits-200-crore-qip)
 
 ---
 
-### Cyril Amarchand Mangaldas, Trilegal, AZB act on KKR's €1.2 billion acquisition of Medicover India
-**BANK** · India · Reported
+### 🔴 Global Education Limited: General Updates
+**MA** · ₹49,000 · Cross-border · ✓ Verified
 
-KKR has acquired the entire stake held by Medicover in Sahrudaya Health Care Private Limited, the parent corporate entity behind Medicover Hospitals in India, for an equity consideration of approximately €1.2 billion. Cyril Amarchand…
+General Updates — Global Education Limited has informed the Exchange about acquisition of 4,900 equity shares of 10 each, representing 49% of the paid-up equity share capital of OwnPrep Private Limited, an existing subsidiary of the…
 
-[Open source ↗](https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-trilegal-azb-act-on-kkrs-12-billion-acquisition-of-medicover-india)
-
----
-
-### ELP advises Kajaria Ceramics on ₹296 crore share buyback
-**MA** · ₹296 cr · India · Reported
-
-Kajaria Ceramics Limited has made a buyback of 21,50,000 equity shares of the Company at a price of ₹1,380 per equity share, amounting to ₹296.70 crore. Economic Laws Practice advised Kajaria Ceramics and Nuvama Wealth Management Limited,…
-
-[Open source ↗](https://www.barandbench.com/dealstreet/elp-advises-kajaria-ceramics-on-296-crore-share-buyback)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GLOBAL_11082026153417_GELBM11082026.pdf)
 
 ---
 
-### Dilip Buildcon Limited: Press Release
+### CMS INDUSLAW, AZB & Partners, Duane Morris & Selvam act on Arvind ₹500 crore QIP
+**IPO** · ₹500 cr · India · Reported
+
+Arvind Limited has raised approx. ₹500 crore from a Qualified Institutions Placement, comprising an issue of 99,00,990 equity shares.
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-azb-partners-duane-morris-selvam-act-on-arvind-500-crore-qip)
+
+---
+
+### Khaitan & Co acts on Adventz Group's joint venture with Nobilia
+**PE** · India · Reported
+
+Adventz Developers LLP has formed a 50:50 joint venture with Nobilia International GmbH, a German company within the Nobilia group, which is primarily engaged in the business of kitchen and other furniture manufacturing. Khaitan & Co acted…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-adventz-groups-joint-venture-with-nobilia)
+
+---
+
+### Global Education Limited: General Updates
+**MA** · Cross-border · ✓ Verified
+
+General Updates — Global Education Limited has informed the Exchange about General Updates - OwnPrep Private Limited has become a wholly owned subsidiary of the Company, with the Company directly holding 9,999 equity shares representing…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GLOBAL_11082026153823_GELBM11082026.pdf)
+
+---
+
+### ALMT Legal, K Law act on Kappi Machines funds and partnership with Sedna HoReCa
+**MA** · ₹50 cr · Bengaluru · Reported
+
+Kaapi Machines (India) Private Limited has secured ₹50 crore from Sedna Horeca Private Limited, while also entering into a strategic partnership. ALMT Legal, Bangalore advised Kaapi Machines and its shareholders and on the transaction.
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/almt-legal-k-law-act-on-kappi-machines-funds-and-partnership-with-sedna-horeca)
+
+---
+
+### Fox Mandal & Associates advises EXIM Bank on financing Jana Nayagan
+**BANK** · ₹50 cr · India · Reported
+
+Export-Import Bank of India has sanctioned an additional movie financing facility of ₹50 crore extended to KVN Group for the feature film Jana Nayagan, recently released as the final film of C. Joseph Vijay, the current Chief Minister of…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-exim-bank-on-financing-jana-nayagan)
+
+---
+
+### Chandhiok & Mahajan advises Dalmia Cement on acquisition of cement business from Jaiprakash Associates
+**IBC** · India · Reported
+
+Dalmia Cement (Bharat) Limited has acquired of the cement business of Jaiprakash Associates Limited, comprising a total grinding capacity of 5.75 million tonnes per annum. Chandhiok & Mahajan advised Dalmia Cement on this acquisition.
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/chandhiok-mahajan-advises-dalmia-cement-on-acquisition-of-cement-business-from-jaiprakash-associates)
+
+---
+
+### Emerge Legal advises Nahar Industrial Enterprises on its real estate expansion
+**MA** · India · Reported
+
+Nahar Industrial Enterprises Limited, the listed Ludhiana company promoted by the Nahar (OWM) Group, has entered real estate development, putting land it has held for decades to commercial use. The programme runs across plotted industrial…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/emerge-legal-advises-nahar-industrial-enterprises-on-its-real-estate-expansion)
+
+---
+
+### Le Merite Exports Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Press Release — Dilip Buildcon Limited has informed the Exchange regarding a press release dated August 10, 2026, titled "press release on sale of stake in Under-Construction Power Transmission & Solar Projects to Alpha Alternatives".
+Acquisition — Le Merite Exports Limited has informed the Exchange about Cancellation of Proposed Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DBL_10082026194636_PressreleaseAHT.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/LMEL_11082026170238_NSE_Intimation_Signed.pdf)
 
 ---
 
-### Bharat Forge Limited: Acquisition
+### Hindustan Composites Limited: General Updates
 **MA** · India · ✓ Verified
 
-Acquisition — Bharat Forge Limited has informed the Exchange about Acquisition
+General Updates — Hindustan Composites Limited has informed the Exchange about General Updates that Members have approved the slump sale of Friction Business Undertaking
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ANILSHINDE_10082026191207_SEIntimation_further_investment_final.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HINDCOMPOS_11082026164731_HCLReg30PostalBallotUpdate11082026.pdf)
 
 ---
 
-### Lloyds Metals And Energy Limited: Outcome of Board Meeting
+### Meghmani Organics Limited: Copy of Newspaper Publication
 **MA** · India · ✓ Verified
 
-Outcome of Board Meeting — Outcome of Board Meeting held on August 10, 2026. to consider and approved appointment of Director and Acquisitions.
+Copy of Newspaper Publication — Meghmani Organics Limited has informed the Exchange regarding the newspaper publication of the notice for the hearing of the Company s petition for the proposed Scheme of Amalgamation involving Kilburn…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/LLOYDSME_10082026191042_20260810_Outcome_of_Board_Meeting.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MOL_11082026162919_SE_LETTER.pdf)
 
 ---
 
-### Godrej Properties Limited: Amalgamation/Merger
+### Larsen & Toubro Limited: General Updates
 **MA** · India · ✓ Verified
 
-Amalgamation/Merger — Godrej Properties Limited has informed the Exchange about Amalgamation/Merger
+General Updates — Larsen & Toubro Limited has informed the Exchange about Execution of Business Transfer Agreement with Vyoma.AI Limited (Vyoma), Wholly owned Subsidiary of the Company and execution of Share Purchase Agreement towards sale…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/GODREJPROP_10082026184729_SEIntimationMerger10082026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/PAM_11082026155835_Intimation11082026.pdf)
 
 ---
 
-### Hindustan Media Ventures Limited: Acquisition
+### Crizac Limited: General Updates
 **MA** · India · ✓ Verified
 
-Acquisition — Hindustan Media Ventures Limited has informed the Exchange about Acquisition
+General Updates — Crizac Limited Informs the exchange about the update with regard to disclosure dated June 15, 2026 on proposed Acquisition of Compulsory Convertible Preference Shares and Compulsory Convertible Debentures of Edument…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HMVL_10082026183034_HMVLdisclosure10aug.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/CRIZAC0301_11082026152832_Reg_30_Revised_Timeline_.pdf)
 
 ---
 
-### GVP Infotech Limited: Acquisition
+### AvenuesAI Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition — GVP Infotech Limited has informed the Exchange about Acquisition of 51% of equity stake of ESAAS Technologies Private Limited
+Acquisition — AvenuesAI Limited has informed the Exchange about Update on Investment.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/4THDIM_10082026181743_Regu_30_Disclosure-SE.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/INFIBEAM_11082026143022_OutcomeofBM.pdf)
 
 ---
 
-### ITI Limited: Press Release
+### AvenuesAI Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-Press Release — ITI Limited has informed the Exchange regarding a press release dated August 10, 2026, titled " Airtel Business and ITI Limited enter into strategic partnership to accelerate India s digital transformation. ".
+Amalgamation/Merger — AvenuesAI Limited has informed the Exchange about amalgamation of Nueromind Technologies Private Limited ( Transferor Company ), the Wholly Owned Subsidiary, with and into AvenuesAI Limited ( Transferee Company )
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ITI_10082026181451_SE_Intimation_Press_Release_Signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/INFIBEAM_11082026142750_OutcomeofBM.pdf)
 
 ---
 
-### Piramal Pharma Limited: Updates
+### AvenuesAI Limited: Outcome of Board Meeting
 **MA** · India · ✓ Verified
 
-Updates — Piramal Pharma Limited has informed the Exchange regarding 'Exercise of call option for acquisition of additional equity stake in Yapan Bio PrivateLimited'.
+Outcome of Board Meeting — AvenuesAI Limited has informed the Exchange regarding Outcome of Board Meeting held on August 11, 2026 for Unaudited (Standalone And Consolidated) Financial Results, Update Increase in Investment limit, Scheme…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Priyankamehta_10082026180821_SE_Disclosure_Call_option_exercise_-_Yapan.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/INFIBEAM_11082026142405_OutcomeofBMRI110826.pdf)
 
 ---
 
-### The Phoenix Mills Limited: Acquisition
+### RSWM Limited: General Updates
 **MA** · India · ✓ Verified
 
-Acquisition — The Phoenix Mills Limited has informed the Exchange about Acquisition
+General Updates — Update on Joint Venture Agreement
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PHOENIXLTD_10082026144823_PML_acquisition_10082026_sd.pdf)
-
----
-
-### R K Swamy Limited: Amalgamation/Merger
-**MA** · India · ✓ Verified
-
-Amalgamation/Merger — Intimation under Regulation 30 read with Schedule III of the SEBI (Listing Obligations and Disclosure Requirements) Regulation, 2015 - Approval of Scheme of Amalgamation of Dsquare Solutions Private Limited (Step down…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/RKSWAMY1973_10082026134410_Intimation_of_Amalgamation.pdf)
-
----
-
-### NACL Industries Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates — NACL Industries Limited has informed the Exchange about update on Sale of Stake in Associate Company.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NACLIND_10082026132703_SEISPANACL10082026.pdf)
-
----
-
-### CESC Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition — CESC Limited has informed the Exchange about Acquisition
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CESC_10082026125238_1.pdf)
-
----
-
-### Veedol Corporation Limited: Disclosure under SEBI Takeover Regulations
-**MA** · India · ✓ Verified
-
-Disclosure under SEBI Takeover Regulations — Standard Greases and Specialities Private Limited has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_10082026123619_SGSPL.pdf)
-
----
-
-### Mahanagar Telephone Nigam Limited: Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company
-**MA** · Mumbai · ✓ Verified
-
-Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company — COMPLIANCE OF REGULATION 30 & 51 OF THE SEBI (LODR) REGULATIONS, 2015 - DISCLOSURE OF EVENTS OR INFORMATION DISCLOSURE REGARDING ORDER OF HON BLE BOMBAY HIGH…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MTNL_10082026121011_SD_SE_10082026.pdf)
-
----
-
-### Bharti Airtel Limited: Press Release
-**MA** · India · ✓ Verified
-
-Press Release — Bharti Airtel Limited has informed the Exchange regarding a press release dated August 10, 2026, titled "Airtel Business and ITI Limited enter into strategic partnership to accelerate India s digital transformation".
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/BHARTIARTL_10082026120302_BhartiAirtelPressRelease.pdf)
-
----
-
-### Leela Palaces Hotels & Resorts Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition — Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/THELEELA_10082026115510_SE_Intimation-BREPL.pdf)
-
----
-
-### HMA Agro Industries Limited: Disclosure under SEBI Takeover Regulations
-**MA** · India · ✓ Verified
-
-Disclosure under SEBI Takeover Regulations — Hma Agro Industries Limited has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_10082026105102_Intimation.pdf)
-
----
-
-### Wockhardt Limited: Monitoring Agency Report
-**IPO** · India · ✓ Verified
-
-Monitoring Agency Report — Pursuant to Regulation 32(6) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, read with Regulation 173A of the SEBI (Issue of Capital and Disclosure Requirements) Regulations,…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/WOCKPHARMA_10082026183757_Combine_MA_Report_Signed.pdf)
-
----
-
-### Apar Industries Limited: Qualified Institutional Placement
-**IPO** · India · ✓ Verified
-
-Qualified Institutional Placement — Apar Industries Limited has informed the Exchange about qualified Institutional Placement
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/APARINDS_10082026182450_Outcomefinal1stSIC.pdf)
-
----
-
-### Patel Engineering Limited: Utilisation of Funds
-**IPO** · India · ✓ Verified
-
-Utilisation of Funds — Patel Engineering Limited has informed the Exchange about Utilisation of Funds raised through Rights Issue
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PATELENG_10082026170107_SEintimationnildeviation.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/RSWM_11082026130955_Update_on_JV_sd.pdf)
 
 ---
 
@@ -224,70 +170,25 @@ Utilisation of Funds — Patel Engineering Limited has informed the Exchange abo
 
 News Verification — The Exchange has sought clarification from Steel Authority of India Limited with respect to recent news item captioned Steel Authority of India eyes 5% FPO in FY27 to raise funds for capex push.. The response from the…
 
-[Open source ↗](-)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SAIL_11082026155541_SAILREPLY_RUMOURFPO.pdf)
 
 ---
 
-### IRM Energy Limited: Shareholders meeting
-**IBC** · India · ✓ Verified
+### Shanti Gold International Limited: Copy of Newspaper Publication
+**IPO** · India · ✓ Verified
 
-Shareholders meeting — IRM Energy Limited has informed the Exchange regarding Notice of Court Convened General Meeting of Unsecured Creditors to be held on September 12, 2026 at 12:30 P.m. as per the Order of NCLT Ahmedbad
+Copy of Newspaper Publication — Shanti Gold International Limited has informed the Exchange about Copy of Newspaper Publication for Rights Issue of the Company
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IRMENERGY_10082026224834_Niticeofunsecuredcreditors.pdf)
-
----
-
-### IRM Energy Limited: Shareholders meeting
-**IBC** · India · ✓ Verified
-
-Shareholders meeting — IRM Energy Limited has informed the Exchange regarding Notice of Court Convened General Meeting of Equity Shareholders to be held on September 12, 2026 at 10:30 a.m. as per the Order of NCLT Ahmedabad
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IRMENERGY_10082026224459_IRMequityshareholderssigned.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SHANTIGOLD_11082026150959_Newspaper_Pre_Issue_Ad_SGIL.pdf)
 
 ---
 
-### Reliance Home Finance Limited: Corporate Insolvency Resolution Process
-**IBC** · India · ✓ Verified
+### AvenuesAI Limited: General Updates
+**IPO** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process — Reliance Home Finance Limited has informed the Exchange about that the 13th Meeting of the Committee of Creditors ( CoC ), of Reliance Home Finance Limited (In CIRP) was duly held on Thursday,…
+General Updates — AvenuesAI Limited has informed the Exchange about Variation in Objects of the Rights Issue.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/RHFL_10082026171509_Outcome_of_the_13th_CoC_Meeting_.pdf)
-
----
-
-### SKIL Infrastructure Limited: Corporate Insolvency Resolution Process
-**IBC** · India · ✓ Verified
-
-Corporate Insolvency Resolution Process — SKIL Infrastructure Limited has informed the Exchange about the Prior Intimation of the Nineth (9th) Committee of Creditors meeting to be held on Wednesday, August 12, 2026
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Skilinfra_10082026171729_SKIL_Letter_Intimation_9th_COC.pdf)
-
----
-
-### DPSC Limited: Corporate Insolvency Resolution Process
-**IBC** · India · ✓ Verified
-
-Corporate Insolvency Resolution Process — DPSC Limited has informed the Exchange about Corporate Insolvency Resolution Process-Post facto intimation of the 3rd (Third)Meeting of the Committee of Creditors (CoC) of India Power Corporation…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DPSCLTD_10082026171409_IntimationofOutcomeof3rdCoCMeetingunderReg30ofLODR10082026.pdf)
-
----
-
-### Compuage Infocom Limited: Corporate Insolvency Resolution Process
-**IBC** · India · ✓ Verified
-
-Corporate Insolvency Resolution Process — Compuage Infocom Limited has informed the Exchange about the intimation of 27th COC meeting
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/COMPINFO_10082026163440_Intimation_letter_of_27th_CoC_meeting_signed.pdf)
-
----
-
-### Value Industries Limited: Reasons for Delayed/Non-submission of Financial Results
-**IBC** · India · ✓ Verified
-
-Reasons for Delayed/Non-submission of Financial Results — Intimation Regarding Non-Submission Of Financial Results For The Quarter Ended June 30, 2026 Due To Ongoing CIRP.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/VALUEIND_10082026145143_Value_Intimation_to_SE_s.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/INFIBEAM_11082026143748_OutcomeofBM.pdf)
 
 ---
 
