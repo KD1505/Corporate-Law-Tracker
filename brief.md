@@ -1,194 +1,149 @@
 # Corporate Law Tracker — Daily Brief
 _11 August 2026_
 
-21 new development(s).
+16 new development(s).
 
-### 🔴 JSA, CMS INDUSLAW, Duane Morris & Selvam act on Globus Spirits ₹200 crore QIP
-**IPO** · ₹200 cr · Cross-border · Reported
+### Imarticus Learning acquires Singapore's BELLS Institute of Higher Learning for ₹800 crore; IC RegFin Legal, Pioneer Legal advise
+**MA** · ₹800 cr · Cross-border · Reported
 
-Globus Spirits Limited has made a Qualified Institutions Placement of 23,80,952 equity shares aggregating to ₹200 crore. JSA Advocates & Solicitors advised Globus Spirits on this QIP.
+Imarticus Learning Private Limited has acquired Singapore-based BELLS Institute of Higher Learning for an aggregate consideration of approximately ₹800 crore. IC RegFin Legal advised and assisted Imarticus Learning on the structuring, and…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/jsa-cms-induslaw-duane-morris-selvam-act-on-globus-spirits-200-crore-qip)
-
----
-
-### 🔴 Global Education Limited: General Updates
-**MA** · ₹49,000 · Cross-border · ✓ Verified
-
-General Updates — Global Education Limited has informed the Exchange about acquisition of 4,900 equity shares of 10 each, representing 49% of the paid-up equity share capital of OwnPrep Private Limited, an existing subsidiary of the…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/GLOBAL_11082026153417_GELBM11082026.pdf)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/imarticus-learning-acquires-singapores-bells-institute-of-higher-learning-for-800-crore-ic-regfin-legal-pioneer-legal-advise)
 
 ---
 
-### CMS INDUSLAW, AZB & Partners, Duane Morris & Selvam act on Arvind ₹500 crore QIP
-**IPO** · ₹500 cr · India · Reported
-
-Arvind Limited has raised approx. ₹500 crore from a Qualified Institutions Placement, comprising an issue of 99,00,990 equity shares.
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-azb-partners-duane-morris-selvam-act-on-arvind-500-crore-qip)
-
----
-
-### Khaitan & Co acts on Adventz Group's joint venture with Nobilia
-**PE** · India · Reported
-
-Adventz Developers LLP has formed a 50:50 joint venture with Nobilia International GmbH, a German company within the Nobilia group, which is primarily engaged in the business of kitchen and other furniture manufacturing. Khaitan & Co acted…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-adventz-groups-joint-venture-with-nobilia)
-
----
-
-### Global Education Limited: General Updates
-**MA** · Cross-border · ✓ Verified
-
-General Updates — Global Education Limited has informed the Exchange about General Updates - OwnPrep Private Limited has become a wholly owned subsidiary of the Company, with the Company directly holding 9,999 equity shares representing…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/GLOBAL_11082026153823_GELBM11082026.pdf)
-
----
-
-### ALMT Legal, K Law act on Kappi Machines funds and partnership with Sedna HoReCa
-**MA** · ₹50 cr · Bengaluru · Reported
-
-Kaapi Machines (India) Private Limited has secured ₹50 crore from Sedna Horeca Private Limited, while also entering into a strategic partnership. ALMT Legal, Bangalore advised Kaapi Machines and its shareholders and on the transaction.
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/almt-legal-k-law-act-on-kappi-machines-funds-and-partnership-with-sedna-horeca)
-
----
-
-### Fox Mandal & Associates advises EXIM Bank on financing Jana Nayagan
-**BANK** · ₹50 cr · India · Reported
-
-Export-Import Bank of India has sanctioned an additional movie financing facility of ₹50 crore extended to KVN Group for the feature film Jana Nayagan, recently released as the final film of C. Joseph Vijay, the current Chief Minister of…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-exim-bank-on-financing-jana-nayagan)
-
----
-
-### Chandhiok & Mahajan advises Dalmia Cement on acquisition of cement business from Jaiprakash Associates
-**IBC** · India · Reported
-
-Dalmia Cement (Bharat) Limited has acquired of the cement business of Jaiprakash Associates Limited, comprising a total grinding capacity of 5.75 million tonnes per annum. Chandhiok & Mahajan advised Dalmia Cement on this acquisition.
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/chandhiok-mahajan-advises-dalmia-cement-on-acquisition-of-cement-business-from-jaiprakash-associates)
-
----
-
-### Emerge Legal advises Nahar Industrial Enterprises on its real estate expansion
-**MA** · India · Reported
-
-Nahar Industrial Enterprises Limited, the listed Ludhiana company promoted by the Nahar (OWM) Group, has entered real estate development, putting land it has held for decades to commercial use. The programme runs across plotted industrial…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/emerge-legal-advises-nahar-industrial-enterprises-on-its-real-estate-expansion)
-
----
-
-### Le Merite Exports Limited: Acquisition
+### DEE Development Engineers Limited: Updates
 **MA** · India · ✓ Verified
 
-Acquisition — Le Merite Exports Limited has informed the Exchange about Cancellation of Proposed Acquisition
+Updates — DEE Development Engineers Limited has informed the Exchange regarding 'Disclosure Under Regulation 29 (2) Of Securities And Exchange Board Of India (Substantial Acquisition Of Shares And Takeovers) Regulations, 2011'.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/LMEL_11082026170238_NSE_Intimation_Signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/DDEL_11082026231057_NSEBSE_29_2_.pdf)
 
 ---
 
-### Hindustan Composites Limited: General Updates
+### Focus Lighting and Fixtures Limited: Acquisition
 **MA** · India · ✓ Verified
 
-General Updates — Hindustan Composites Limited has informed the Exchange about General Updates that Members have approved the slump sale of Friction Business Undertaking
+Acquisition — Focus Lighting and Fixtures Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HINDCOMPOS_11082026164731_HCLReg30PostalBallotUpdate11082026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/FOCUS_11082026221818_DisclosureofAcquisiton.pdf)
 
 ---
 
-### Meghmani Organics Limited: Copy of Newspaper Publication
+### Focus Lighting and Fixtures Limited: Outcome of Board Meeting
 **MA** · India · ✓ Verified
 
-Copy of Newspaper Publication — Meghmani Organics Limited has informed the Exchange regarding the newspaper publication of the notice for the hearing of the Company s petition for the proposed Scheme of Amalgamation involving Kilburn…
+Outcome of Board Meeting — Focus Lighting and Fixtures Limited has informed the Exchange regarding Acquisition.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MOL_11082026162919_SE_LETTER.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/FOCUS_11082026221033_DisclosureofAcquisiton.pdf)
 
 ---
 
-### Larsen & Toubro Limited: General Updates
+### Focus Lighting and Fixtures Limited: General Updates
 **MA** · India · ✓ Verified
 
-General Updates — Larsen & Toubro Limited has informed the Exchange about Execution of Business Transfer Agreement with Vyoma.AI Limited (Vyoma), Wholly owned Subsidiary of the Company and execution of Share Purchase Agreement towards sale…
+General Updates — Focus Lighting and Fixtures Limited has informed the Exchange about Acquisition.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PAM_11082026155835_Intimation11082026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/FOCUS_11082026212607_DisclosureofAcquisiton.pdf)
 
 ---
 
-### Crizac Limited: General Updates
+### PI Industries Limited: Acquisition
 **MA** · India · ✓ Verified
 
-General Updates — Crizac Limited Informs the exchange about the update with regard to disclosure dated June 15, 2026 on proposed Acquisition of Compulsory Convertible Preference Shares and Compulsory Convertible Debentures of Edument…
+Acquisition — PI Industries Limited has informed the Exchange about proposed incorporation of a company under Section 8 of the Companies Act, 2013.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CRIZAC0301_11082026152832_Reg_30_Revised_Timeline_.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/PIIND_11082026193115_Finaloutcomesd.pdf)
 
 ---
 
-### AvenuesAI Limited: Acquisition
+### TARC Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition — AvenuesAI Limited has informed the Exchange about Update on Investment.
+Acquisition — TARC Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/INFIBEAM_11082026143022_OutcomeofBM.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TARC_11082026184140_BMoutcome.pdf)
 
 ---
 
-### AvenuesAI Limited: Amalgamation/Merger
+### Timken India Limited: Copy of Newspaper Publication
 **MA** · India · ✓ Verified
 
-Amalgamation/Merger — AvenuesAI Limited has informed the Exchange about amalgamation of Nueromind Technologies Private Limited ( Transferor Company ), the Wholly Owned Subsidiary, with and into AvenuesAI Limited ( Transferee Company )
+Copy of Newspaper Publication — We enclose herewith copies of newspaper publications relating to Notice of Petition in the matter of Amalgamation of Timken GGB Technology Private Limited (a wholly owned subsidiary) with the Company.Copies…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/INFIBEAM_11082026142750_OutcomeofBM.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TIMKEN_11082026182924_SE_NewspaperPublication11082026.pdf)
 
 ---
 
-### AvenuesAI Limited: Outcome of Board Meeting
+### GUJARAT ENERGY LIMITED: Updates
 **MA** · India · ✓ Verified
 
-Outcome of Board Meeting — AvenuesAI Limited has informed the Exchange regarding Outcome of Board Meeting held on August 11, 2026 for Unaudited (Standalone And Consolidated) Financial Results, Update Increase in Investment limit, Scheme…
+Updates — GUJARAT ENERGY LIMITED has informed the Exchange regarding 'Submission of Report of Audit Committee and Independent Directors of Gujarat Energy Limited - Fractional Entitlement pursuant to Scheme of Arrangement'.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/INFIBEAM_11082026142405_OutcomeofBMRI110826.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GUJGASLTD_11082026182918_1601SECIntFractionalReports.pdf)
 
 ---
 
-### RSWM Limited: General Updates
+### Computer Age Management Services Limited: Acquisition
 **MA** · India · ✓ Verified
 
-General Updates — Update on Joint Venture Agreement
+Acquisition — Computer Age Management Services Limited has informed the Exchange about update on completion of acquisition of first tranche of balance sale shares from Think Analytics India Private Limited by the Company.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/RSWM_11082026130955_Update_on_JV_sd.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/CAMS_11082026181014_CAMS_Acquisition_of_Think.pdf)
 
 ---
 
-### Steel Authority of India Limited: News Verification
+### GSP Crop Science Limited: Monitoring Agency Report
 **IPO** · India · ✓ Verified
 
-News Verification — The Exchange has sought clarification from Steel Authority of India Limited with respect to recent news item captioned Steel Authority of India eyes 5% FPO in FY27 to raise funds for capex push.. The response from the…
+Monitoring Agency Report — Submission of Monitoring Agency Report issued by Crisil Ratings Limited for the utilization of Proceeds raised through issuance of Equity Shares by way of the Initial Public Offer (IPO) of the GSP Crop Science…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SAIL_11082026155541_SAILREPLY_RUMOURFPO.pdf)
-
----
-
-### Shanti Gold International Limited: Copy of Newspaper Publication
-**IPO** · India · ✓ Verified
-
-Copy of Newspaper Publication — Shanti Gold International Limited has informed the Exchange about Copy of Newspaper Publication for Rights Issue of the Company
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SHANTIGOLD_11082026150959_Newspaper_Pre_Issue_Ad_SGIL.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GSP123_11082026204358_OutcomeBMNSE.pdf)
 
 ---
 
-### AvenuesAI Limited: General Updates
+### Genesys International Corporation Limited: Copy of Newspaper Publication
 **IPO** · India · ✓ Verified
 
-General Updates — AvenuesAI Limited has informed the Exchange about Variation in Objects of the Rights Issue.
+Copy of Newspaper Publication — Genesys International Corporation Limited has informed the Exchange about Copy of Newspaper Publication of Issue Programme for Rights Issue
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/INFIBEAM_11082026143748_OutcomeofBM.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GENESYS_11082026180029_Newspaper_publication.pdf)
+
+---
+
+### BLS E-Services Limited: Monitoring Agency Report
+**IPO** · India · ✓ Verified
+
+Monitoring Agency Report — The Company is submitting the Monitoring Agency Report, received from Monitoring Agency CRISIL dated August 11, 2026 for the first quarter ended June 30, 2026 with respect to the utilization of proceeds from…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/PROJECTSEWA_11082026171515_MonitoringagencyreportJune302026_signed.pdf)
+
+---
+
+### BIL VYAPAR LIMITED: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process — BIL VYAPAR LIMITED has informed the Exchange about Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015- Intimation of meeting of Committee…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/BINANIIND_11082026180851_SE_Intimation_COC.pdf)
+
+---
+
+### Simbhaoli Sugars Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process — Simbhaoli Sugars Limited hereby submitted the copy of order dated 07th August 2026 passed by Hon'ble Supreme Court against appeal filed by Ms. Gursimran Kaur Mann (Promoter) and Farmers.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SIMBHALS_11082026175103_Intimation_-_SC_Order_-_Final.pdf)
+
+---
+
+### Punj Lloyd Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process — Punj Lloyd Limited has informed the Exchange about Corporate Insolvency Resolution Process : Pursuant to Regulation 30 of SEBI (LODR) Regulations, 2015, we wish to inform that M/s Kashyap Sikdar &…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/PUNJLLOYD_11082026171729_SEBILODRREG30ResignationofStatAuditorokS.pdf)
 
 ---
 

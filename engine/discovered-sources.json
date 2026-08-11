@@ -1,31 +1,31 @@
 {
   "_note": "Auto-grown source funnel. Each run logs every domain that corroborated a deal, with a running count. Domains marked official:true are government/regulator/exchange/court. Review the high-count entries periodically and promote the best into sources.json as curated corroborators.",
   "barandbench.com": {
-    "count": 318,
+    "count": 319,
     "firstSeen": "2026-06-08",
     "official": true,
     "lastSeen": "2026-08-11"
   },
   "bseindia.com": {
-    "count": 2560,
+    "count": 2573,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-08-11"
   },
   "nseindia.com": {
-    "count": 2589,
+    "count": 2602,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-08-11"
   },
   "sebi.gov.in": {
-    "count": 423,
+    "count": 426,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-08-11"
   },
   "cci.gov.in": {
-    "count": 2125,
+    "count": 2135,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-08-11"
@@ -43,7 +43,7 @@
     "lastSeen": "2026-08-03"
   },
   "nsearchives.nseindia.com": {
-    "count": 2830,
+    "count": 2845,
     "firstSeen": "2026-06-14",
     "official": true,
     "lastSeen": "2026-08-11"
@@ -529,7 +529,7 @@
     "lastSeen": "2026-06-19"
   },
   "nclt.gov.in": {
-    "count": 175,
+    "count": 178,
     "firstSeen": "2026-06-19",
     "official": true,
     "lastSeen": "2026-08-11"
@@ -547,7 +547,7 @@
     "lastSeen": "2026-06-20"
   },
   "ibbi.gov.in": {
-    "count": 173,
+    "count": 176,
     "firstSeen": "2026-06-20",
     "official": true,
     "lastSeen": "2026-08-11"
