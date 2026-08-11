@@ -14,6 +14,11 @@ const GEOS=[{id:"all",label:"All India",dot:"var(--accent)"},{id:"mumbai",label:
   {id:"delhi",label:"Delhi-NCR",dot:"#7b4fd6"},{id:"bengaluru",label:"Bengaluru",dot:"#0a8585"},
   {id:"other",label:"India — Other",dot:"#8b93a3"},{id:"global",label:"Global / Cross-border",dot:"#0c8f5a"}];
 const CITYLABEL={mumbai:"Mumbai",delhi:"Delhi-NCR",bengaluru:"Bengaluru",other:"India — Other",global:"Global / Cross-border"};
+/* Safe lookups — the nightly pipeline can introduce a deal type/stage/geo the UI
+   doesn't know yet. Never let an unknown key crash the whole render. */
+function TY(t){return (typeof TYPES!=="undefined"&&TYPES[t])||{label:String(t||"Other").toUpperCase(),cls:"t-ma",c:"var(--ink3)"};}
+function ST(s){return (typeof STAGES!=="undefined"&&STAGES[s])||{l:String(s||"—"),c:"var(--ink3)"};}
+function CL(g){return (typeof CITYLABEL!=="undefined"&&CITYLABEL[g])||String(g||"India");}
 const SECTORS=["All Sectors","Technology","BFSI","Pharma & Healthcare","Energy & Renewables","Infrastructure","Consumer & Retail","Telecom","FMCG","Metals & Mining","Financial Services","Industrials"];
 // official / primary-source detection (the moat signal)
 const OFFICIAL_RE=/(\.gov\.in|\.nic\.in|sebi|rbi\.org|cci\.gov|ibbi|mca\.gov|dipam|pib\.gov|meity|bseindia|nseindia|nclt|nclat|sci\.gov|trai|irdai|ecourts)/i;

@@ -29,7 +29,7 @@ function renderForYou(){
     return;
   }
   const list=DEALS.filter(d=>(p.sectors.length?p.sectors.includes(d.sector):true)&&(p.types.length?p.types.includes(d.type):true));
-  const label=[...p.sectors,...p.types.map(t=>TYPES[t]?TYPES[t].label:t)].join(", ")||"your practice";
+  const label=[...p.sectors,...p.types.map(t=>TY(t)?TY(t).label:t)].join(", ")||"your practice";
   $("main").innerHTML=`<div class="vh"><h2>My Practice</h2><span class="sub">${list.length} matching · ${label} · <span style="color:var(--accent);cursor:pointer;font-weight:700" id="pEdit">Edit practice</span></span></div>
     ${toolbarHtml(list,{scope:"My Practice"})}
     <div class="feed">${list.length?sortList(list).map(density==="compact"?dealRow:dealCard).join(""):'<div class="empty">Nothing in your areas yet — it will populate as deals come in.</div>'}</div>`;
@@ -40,7 +40,7 @@ function renderForYou(){
 /* ============================ SAVED VIEWS ============================ */
 function loadSaved(){try{return JSON.parse(localStorage.getItem("clt_saved")||"[]");}catch{return[];}}
 function persistSaved(a){try{localStorage.setItem("clt_saved",JSON.stringify(a));}catch{}}
-function currentLabel(){const b=[];if(F.firm)b.push(F.firm);if(F.firm2)b.push("+"+F.firm2);if(F.city)b.push(CITYLABEL[F.city]);else if(F.geo!=="all")b.push(CITYLABEL[F.geo]);if(F.type)b.push(TYPES[F.type].label);if(F.stage)b.push(STAGES[F.stage].l);if(F.sector!=="All Sectors")b.push(F.sector);if(F.q)b.push('"'+F.q+'"');return b.join(" · ")||"All deals";}
+function currentLabel(){const b=[];if(F.firm)b.push(F.firm);if(F.firm2)b.push("+"+F.firm2);if(F.city)b.push(CL(F.city));else if(F.geo!=="all")b.push(CL(F.geo));if(F.type)b.push(TY(F.type).label);if(F.stage)b.push(ST(F.stage).l);if(F.sector!=="All Sectors")b.push(F.sector);if(F.q)b.push('"'+F.q+'"');return b.join(" · ")||"All deals";}
 function saveCurrentView(){const a=loadSaved();a.unshift({label:currentLabel(),F:JSON.parse(JSON.stringify(F)),n:DEALS.filter(matchesFilters).length,at:Date.now()});persistSaved(a.slice(0,30));toast("View saved");render();}
 function countForF(sf){const o=F;F=sf;const n=DEALS.filter(matchesFilters).length;F=o;return n;}
 function renderSaved(){
@@ -63,8 +63,8 @@ function render(){
     const list=DEALS.filter(matchesFilters);
     let title="All India",bits=[];
     if(F.firm)bits.push(F.firm); if(F.firm2)bits.push("+ "+F.firm2);
-    if(F.city)bits.push(CITYLABEL[F.city]); else if(F.geo!=="all")bits.push(CITYLABEL[F.geo]);
-    if(F.type)bits.push(TYPES[F.type].label); if(F.stage)bits.push(STAGES[F.stage].l);
+    if(F.city)bits.push(CL(F.city)); else if(F.geo!=="all")bits.push(CL(F.geo));
+    if(F.type)bits.push(TY(F.type).label); if(F.stage)bits.push(ST(F.stage).l);
     if(F.sector!=="All Sectors")bits.push(F.sector);
     if(bits.length)title=bits.join(" · ");
     renderFeed(title,list);

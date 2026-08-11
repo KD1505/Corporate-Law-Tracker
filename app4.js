@@ -142,11 +142,11 @@ function markSidebar(){
 function syncCounts(){const s=$("starCt");if(s)s.textContent=starred.size;const c=$("cmpCt");if(c)c.textContent=cmp.size;}
 
 /* ============================ CARDS / ROWS ============================ */
-function typeBadge(d){const t=TYPES[d.type];return `<span class="ttype ${t.cls}">${t.label}</span>`;}
+function typeBadge(d){const t=TY(d.type);return `<span class="ttype ${t.cls}">${t.label}</span>`;}
 function starBtn(d,extra=""){return `<button class="star ${starred.has(d.id)?'on':''}" data-star="${d.id}" title="${starred.has(d.id)?'Remove from watchlist':'Add to watchlist'}" ${extra}>${starred.has(d.id)?'★':'☆'}</button>`;}
 function cmpBtn(d){return `<button class="cmpadd ${cmp.has(d.id)?'on':''}" data-cmp="${d.id}" title="Add to side-by-side comparison">⊞${cmp.has(d.id)?' ✓':''}</button>`;}
 function dealCard(d){
-  const t=TYPES[d.type], st=STAGES[d.stage], g=CITYLABEL[d.geo];
+  const t=TY(d.type), st=ST(d.stage), g=CL(d.geo);
   const firms=d.firms.length?`<div class="firms"><b>Counsel:</b> ${d.firms.map(f=>`<span class="fm">${f.name}</span> <span class="side">(${f.side})</span>`).join(" · ")}</div>`:"";
   return `<div class="card" data-deal="${d.id}">
     <div class="accentbar" style="background:${t.c}"></div>
@@ -167,7 +167,7 @@ function dealCard(d){
   </div>`;
 }
 function dealRow(d){
-  const st=STAGES[d.stage];
+  const st=ST(d.stage);
   const vr=isVerified(d)?`<span class="vr" style="color:var(--green);font-weight:750;font-size:11px" title="${escA(TIP_VERIFIED)}" aria-label="Verified">✓</span>`:`<span class="vr" style="color:var(--amber);font-weight:750;font-size:11px" title="${escA(TIP_REPORTED)}" aria-label="Reported">◔</span>`;
   return `<div class="crow" data-deal="${d.id}" title="${escA(stripTags(impl(d)||d.sum||d.headline))}">
     ${typeBadge(d)}${vr}
@@ -208,7 +208,7 @@ function priorityBand(){
   const ranked=pool.slice().sort((x,y)=>(IMPRANK[x.imp]??3)-(IMPRANK[y.imp]??3)||parseCr(y.value)-parseCr(x.value)||ts(y)-ts(x)).slice(0,3);
   if(!ranked.length)return "";
   return `<div class="bandh"><h3>What matters now</h3><span class="more" data-sort="priority">Sort feed by priority →</span></div>
-  <div class="prio">${ranked.map(d=>{const st=STAGES[d.stage];return `<div class="priocard" data-deal="${d.id}" style="border-left-color:${d.imp==="hi"?"var(--red)":TYPES[d.type].c}">
+  <div class="prio">${ranked.map(d=>{const st=ST(d.stage);return `<div class="priocard" data-deal="${d.id}" style="border-left-color:${d.imp==="hi"?"var(--red)":TY(d.type).c}">
     <div style="display:flex;align-items:center;gap:7px">${typeBadge(d)}${trustBadge(d)}${ageChip(d)}</div>
     <h3>${d.headline}</h3>
     <div class="pw">${impl(d)?`<b style="color:var(--accent);font-weight:700">Why this matters</b> · ${stripTags(impl(d))}`:stripTags(d.sum)}</div>
@@ -308,7 +308,7 @@ function renderFirm(name){
 /* ============================ DEAL DETAIL ============================ */
 function renderDeal(id){
   const d=DEALS.find(x=>x.id===id); if(!d){go({name:"feed"});return;}
-  const t=TYPES[d.type], st=STAGES[d.stage];
+  const t=TY(d.type), st=ST(d.stage);
   const firmsHtml=d.firms.map(f=>{
     const lead=(f.lead&&f.lead.length)?f.lead.map(l=>`<div class="lead"><b>${l.n}</b> <span class="role">— ${l.role}</span></div>`).join(""):"";
     const team=(f.team&&f.team.length)?`<div class="teamline"><span class="lbl">Team:</span> ${f.team.join(" · ")}</div>`:"";

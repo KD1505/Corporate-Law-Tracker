@@ -17,7 +17,7 @@ function buildStats(){
   ];
   $("stats").innerHTML=groups.map((g,i)=>`<div class="stat" data-stat="${i}">
     <div class="n">${g.n}</div><div class="l">${g.l}</div><div class="d ${g.muted?'muted':''}">${g.d}</div>
-    <div class="pop"><div class="ph">${g.l} — click any to open</div>${g.list.map(d=>`<div class="pr" data-deal="${d.id}"><span class="pt ${TYPES[d.type].cls}">${TYPES[d.type].label}</span><span class="px">${d.headline}</span></div>`).join("")}</div>
+    <div class="pop"><div class="ph">${g.l} — click any to open</div>${g.list.map(d=>`<div class="pr" data-deal="${d.id}"><span class="pt ${TY(d.type).cls}">${TY(d.type).label}</span><span class="px">${d.headline}</span></div>`).join("")}</div>
   </div>`).join("");
   $("stats").querySelectorAll(".pop .pr").forEach(r=>r.onclick=e=>{e.stopPropagation();go({name:"deal",id:r.dataset.deal});});
 }
@@ -72,10 +72,10 @@ function renderCompare(){
   const sxs=list.map(d=>structOf(d));
   const html=
     row("Matter",list.map(d=>`<span class="h" onclick="go({name:'deal',id:'${d.id}'})">${d.headline}</span>`),true)+
-    row("Type · stage",list.map(d=>`${typeBadge(d)} <span style="font-size:11.5px">${STAGES[d.stage].l}</span>`))+
+    row("Type · stage",list.map(d=>`${typeBadge(d)} <span style="font-size:11.5px">${ST(d.stage).l}</span>`))+
     row("Value",list.map(d=>`<b style="font-family:var(--mono);color:var(--green)">${d.value||"—"}</b>`))+
     row("Verification",list.map(d=>trustBadge(d)))+
-    row("Sector · geo",list.map(d=>`${d.sector} · ${CITYLABEL[d.geo]}`))+
+    row("Sector · geo",list.map(d=>`${d.sector} · ${CL(d.geo)}`))+
     row("Date",list.map(d=>d.time))+
     row("Structure",list.map((d,i)=>sxs[i]&&sxs[i].consideration&&sxs[i].consideration!=="—"?sxs[i].consideration:"—"))+
     row("Approvals",list.map((d,i)=>sxs[i]&&sxs[i].approvals&&sxs[i].approvals.length&&sxs[i].approvals[0]!=="—"?sxs[i].approvals.join(" · "):"—"))+
@@ -122,9 +122,9 @@ function renderPipeline(){
   const cols=order.map(([k,label])=>{
     const items=DEALS.filter(d=>d.stage===k);
     if(!items.length)return "";
-    const st=STAGES[k];
+    const st=ST(k);
     return `<div class="pcol"><h5><span class="sd" style="width:8px;height:8px;border-radius:50%;background:${st.c};display:inline-block"></span>${label}<span class="ct">${items.length}</span></h5>
-      ${items.map(d=>`<div class="pitem" data-deal="${d.id}"><div class="ph">${d.headline}</div><div class="pm"><span class="ttype ${TYPES[d.type].cls}">${TYPES[d.type].label}</span>${d.value&&d.value!=="—"?`<span>${d.value}</span>`:""}<span>${CITYLABEL[d.geo]}</span></div></div>`).join("")}
+      ${items.map(d=>`<div class="pitem" data-deal="${d.id}"><div class="ph">${d.headline}</div><div class="pm"><span class="ttype ${TY(d.type).cls}">${TY(d.type).label}</span>${d.value&&d.value!=="—"?`<span>${d.value}</span>`:""}<span>${CL(d.geo)}</span></div></div>`).join("")}
     </div>`;}).join("");
   $("main").innerHTML=`<div class="vh"><h2>Deal Pipeline</h2><span class="sub">${DEALS.length} tracked by stage · rumoured and in-review — the pitch window, not the post-mortem</span></div><div class="pipe">${cols}</div>`;
   $("main").querySelectorAll(".pitem[data-deal]").forEach(c=>c.onclick=()=>go({name:"deal",id:c.dataset.deal}));
@@ -182,7 +182,7 @@ function renderAnalytics(){
     const val=parseCr(d.value);
     d.firms.forEach(f=>{if(!firmKnown(f.name))return;fc[f.name]=(fc[f.name]||0)+1;fv[f.name]=(fv[f.name]||0)+val;
       (f.lead||[]).forEach(l=>pc[l.n]=(pc[l.n]||0)+1);});
-    tc[TYPES[d.type].label]=(tc[TYPES[d.type].label]||0)+1;
+    tc[TY(d.type).label]=(tc[TY(d.type).label]||0)+1;
     sc[d.sector]=(sc[d.sector]||0)+1;
   });
   const top=(o,n=8)=>Object.entries(o).sort((a,b)=>b[1]-a[1]).slice(0,n);
