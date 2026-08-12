@@ -238,11 +238,50 @@ function bindToolbar(list,label){
   const lk=$("tbLink");if(lk)lk.onclick=()=>copyText(location.href,"View link copied");
   const sv=$("saveV");if(sv)sv.onclick=saveCurrentView;
 }
+/* ---- Windowed feed: render a screenful, stream the rest in on scroll ----
+   Rendering 1,000+ rows in one innerHTML made every view switch and scroll
+   janky. We now paint FEED_PAGE rows, then append more just before they
+   scroll into view. */
+const FEED_PAGE=60;
+let _feedList=[],_feedFn=null,_feedCount=0,_feedObs=null;
+function feedMoreHtml(){
+  const left=_feedList.length-_feedCount;
+  return left>0?`<div class="feedmore" id="feedMore"><span class="fmspin"></span><span class="fmtxt">${left.toLocaleString()} more</span></div>`:"";
+}
+function feedAppend(){
+  if(_feedCount>=_feedList.length)return;
+  const feed=document.querySelector("#main .feed"); if(!feed)return;
+  const next=_feedList.slice(_feedCount,_feedCount+FEED_PAGE);
+  const tmp=document.createElement("div");
+  tmp.innerHTML=next.map(_feedFn).join("");
+  const frag=document.createDocumentFragment();
+  while(tmp.firstChild)frag.appendChild(tmp.firstChild);
+  feed.appendChild(frag);
+  _feedCount+=next.length;
+  const more=document.getElementById("feedMore");
+  if(more){
+    const left=_feedList.length-_feedCount;
+    if(left<=0){ if(_feedObs)_feedObs.unobserve(more); more.remove(); }
+    else{ const t=more.querySelector(".fmtxt"); if(t)t.textContent=left.toLocaleString()+" more"; }
+  }
+}
+function initFeedLazy(){
+  if(_feedObs){_feedObs.disconnect();_feedObs=null;}
+  const s=document.getElementById("feedMore"); if(!s)return;
+  const root=$("main")||null;
+  try{
+    _feedObs=new IntersectionObserver(function(es){
+      for(const e of es) if(e.isIntersecting){ feedAppend(); }
+    },{root:root,rootMargin:"800px 0px"});
+    _feedObs.observe(s);
+  }catch(err){ while(_feedCount<_feedList.length)feedAppend(); }
+}
 function renderFeed(title,list,sub){
   const home=route.name==="feed"&&!anyFilterActive();
   const sorted=sortList(list);
   const clear=anyFilterActive()&&route.name==="feed"?`<span class="clearf" id="clearF">✕ Clear filters</span>`:"";
-  const body=sorted.length?`<div class="feed">${sorted.map(density==="compact"?dealRow:dealCard).join("")}</div>`:`<div class="empty">No matching developments. Clear the search or pick another filter.</div>`;
+  _feedList=sorted; _feedFn=(density==="compact"?dealRow:dealCard); _feedCount=Math.min(FEED_PAGE,sorted.length);
+  const body=sorted.length?`<div class="feed">${sorted.slice(0,_feedCount).map(_feedFn).join("")}</div>${feedMoreHtml()}`:`<div class="empty">No matching developments. Clear the search or pick another filter.</div>`;
   const label=route.name==="watch"?"Watchlist":currentLabel();
   $("main").innerHTML=`
     ${home&&!lsGet("clt_orient_hidden",false)?`<div class="orient"><span><b style="color:var(--ink)">Verified deal &amp; regulatory intelligence for India's corporate market</b> — every item sourced to a primary filing.</span><button class="orientx" id="orientX" aria-label="Dismiss this">✕</button></div>`:""}
@@ -267,6 +306,7 @@ function renderFeed(title,list,sub){
   if(route.name==="feed"){
     $("clearF")&&($("clearF").onclick=()=>{resetFilters();render();});
   }
+  initFeedLazy();
 }
 
 /* ============================ FIRMS ============================ */

@@ -121,9 +121,9 @@
   .stat .l{font-size:11.5px;color:var(--ink2);margin-top:4px;font-weight:500}
   .stat .d{font-size:10.5px;margin-top:5px;font-weight:550;color:var(--ink3)}
   .stat .d.muted{color:var(--ink3)}
-  .pop{position:absolute;top:calc(100% + 8px);left:0;width:360px;max-width:92vw;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow-h);padding:10px;z-index:46;display:none;max-height:380px;overflow-y:auto}
+  .pop{position:absolute;top:calc(100% + 8px);left:0;width:360px;max-width:92vw;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow-h);padding:10px;z-index:46;max-height:380px;overflow-y:auto;opacity:0;visibility:hidden;transform:translateY(-5px);pointer-events:none;transition:opacity .16s cubic-bezier(.2,.7,.3,1),transform .16s cubic-bezier(.2,.7,.3,1),visibility .16s}
   .stats .stat:nth-child(n+3) .pop{left:auto;right:0}
-  .stat:hover .pop{display:block}
+  .stat:hover .pop,.stat:focus-within .pop{opacity:1;visibility:visible;transform:none;pointer-events:auto}
   .pop .ph{font-size:10px;text-transform:uppercase;letter-spacing:1.2px;color:var(--ink3);font-weight:650;padding:8px 10px 10px}
   .pop .pr{display:flex;gap:9px;align-items:flex-start;padding:9px 10px;border-radius:9px;cursor:pointer}
   .pop .pr:hover{background:var(--bg)}
@@ -587,6 +587,46 @@
     .stat .n{font-size:20px}
     .crow .age{display:none}
     .dd-head{gap:6px}
+  }
+
+  /* ================= PERFORMANCE & MOTION =================
+     content-visibility lets the browser skip layout/paint for rows that are
+     off-screen — the single biggest scrolling win with a long feed.
+     contain-intrinsic-size reserves the right height so the scrollbar
+     stays stable and nothing jumps. */
+  .crow{content-visibility:auto;contain-intrinsic-size:auto 46px}
+  .card{content-visibility:auto;contain-intrinsic-size:auto 240px}
+  .feed{contain:layout style}
+
+  /* lazy-load sentinel */
+  .feedmore{display:flex;align-items:center;justify-content:center;gap:9px;padding:18px 0 6px;color:var(--ink3);font-size:12px;letter-spacing:.02em}
+  .fmspin{width:12px;height:12px;border:2px solid var(--line);border-top-color:var(--accent);border-radius:50%;animation:cltspin .6s linear infinite;flex:none}
+  @keyframes cltspin{to{transform:rotate(360deg)}}
+  .pmore{padding:10px 12px 4px;color:var(--ink3);font-size:11px;border-top:1px solid var(--line2);text-align:center;letter-spacing:.02em}
+
+  /* view enters with one soft, fast fade — containers only, never per-row */
+  @keyframes cltIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .main>.stats,.main>.vh,.main>.toolbar,.main>.feed,.main>.priority,.main>.coverage{
+    animation:cltIn .2s cubic-bezier(.2,.7,.3,1) both}
+  .main>.vh{animation-delay:.02s}
+  .main>.toolbar{animation-delay:.04s}
+  .main>.feed{animation-delay:.06s}
+
+  /* consistent, quick easing on interactive surfaces (GPU-friendly props) */
+  .crow,.card,.stat,.priocard,.fcard,.chip,.abtn,.methlink,.icbtn,.doc,.webchip{
+    transition:border-color .14s cubic-bezier(.2,.7,.3,1),
+               box-shadow .14s cubic-bezier(.2,.7,.3,1),
+               background-color .14s cubic-bezier(.2,.7,.3,1),
+               transform .14s cubic-bezier(.2,.7,.3,1)}
+  .crow:hover{transform:translateX(2px)}
+  .card:hover,.fcard:hover,.priocard:hover{transform:translateY(-1px)}
+  .stat:hover{transform:translateY(-1px)}
+
+  /* honour the OS "reduce motion" setting */
+  @media (prefers-reduced-motion:reduce){
+    *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;
+      transition-duration:.01ms!important;scroll-behavior:auto!important}
+    .crow:hover,.card:hover,.fcard:hover,.priocard:hover,.stat:hover{transform:none}
   }
 </style>
 </head>

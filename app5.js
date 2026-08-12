@@ -15,11 +15,16 @@ function buildStats(){
      ? {n:linksList.length,l:"Links verified",d:"pinged &amp; live — checked nightly",muted:true,list:linksList}
      : {n:enriched.length,l:"Deep-enriched",d:"multi-source detail on file",muted:true,list:enriched}
   ];
-  $("stats").innerHTML=groups.map((g,i)=>`<div class="stat" data-stat="${i}">
+  // Cap each popover: building a node per deal for 1,000+ deals x4 cards made
+  // every home render (and every hover) crawl. Show the newest slice + a count.
+  const POP_MAX=40;
+  $("stats").innerHTML=groups.map((g,i)=>{
+    const shown=g.list.slice(0,POP_MAX), rest=g.list.length-shown.length;
+    return `<div class="stat" data-stat="${i}">
     <div class="n">${g.n}</div><div class="l">${g.l}</div><div class="d ${g.muted?'muted':''}">${g.d}</div>
-    <div class="pop"><div class="ph">${g.l} — click any to open</div>${g.list.map(d=>`<div class="pr" data-deal="${d.id}"><span class="pt ${TY(d.type).cls}">${TY(d.type).label}</span><span class="px">${d.headline}</span></div>`).join("")}</div>
-  </div>`).join("");
-  $("stats").querySelectorAll(".pop .pr").forEach(r=>r.onclick=e=>{e.stopPropagation();go({name:"deal",id:r.dataset.deal});});
+    <div class="pop"><div class="ph">${g.l} — click any to open</div>${shown.map(d=>`<div class="pr" data-deal="${d.id}"><span class="pt ${TY(d.type).cls}">${TY(d.type).label}</span><span class="px">${d.headline}</span></div>`).join("")}${rest>0?`<div class="pmore">+${rest.toLocaleString()} more · showing the ${POP_MAX} most recent</div>`:""}</div>
+  </div>`;}).join("");
+  // clicks handled by delegation in bindCards() — no per-row listeners
 }
 
 /* ============================ RAIL ============================ */
@@ -40,11 +45,25 @@ function buildRail(){
 }
 
 /* ============================ INTERACTIONS ============================ */
+let _cardsDelegated=false;
 function bindCards(){
-  $("main").querySelectorAll(".card[data-deal],.crow[data-deal]").forEach(c=>{
-    c.onclick=e=>{if(e.target.closest("[data-star],[data-cmp],a"))return;go({name:"deal",id:c.dataset.deal});};});
-  $("main").querySelectorAll("[data-star]").forEach(b=>b.onclick=e=>{e.stopPropagation();toggleStar(b.dataset.star);render();});
-  $("main").querySelectorAll("[data-cmp]").forEach(b=>b.onclick=e=>{e.stopPropagation();toggleCmp(b.dataset.cmp);render();});
+  // ONE delegated listener on #main instead of 3 listeners per row. With 1,000+
+  // rows that was thousands of bindings on every render. Also means lazily
+  // appended rows work with no extra wiring.
+  if(_cardsDelegated)return;
+  const main=$("main"); if(!main)return;
+  _cardsDelegated=true;
+  main.addEventListener("click",function(e){
+    const st=e.target.closest("[data-star]");
+    if(st){e.stopPropagation();toggleStar(st.dataset.star);render();return;}
+    const cp=e.target.closest("[data-cmp]");
+    if(cp){e.stopPropagation();toggleCmp(cp.dataset.cmp);render();return;}
+    const pr=e.target.closest(".pop .pr[data-deal]");
+    if(pr){e.stopPropagation();go({name:"deal",id:pr.dataset.deal});return;}
+    if(e.target.closest("a"))return;
+    const c=e.target.closest(".card[data-deal],.crow[data-deal]");
+    if(c){go({name:"deal",id:c.dataset.deal});return;}
+  });
 }
 function toggleStar(id){starred.has(id)?starred.delete(id):starred.add(id);lsSet("clt_starred",[...starred]);syncCounts();}
 function toggleCmp(id){
