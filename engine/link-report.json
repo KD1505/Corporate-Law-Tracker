@@ -24605,6 +24605,12 @@
       "code": 404,
       "at": "2026-08-14",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/DPSCLTD_14082026173513_IntimationofPostponementofManagement_BoardMeeting14082026.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/UGROCAP_14082026234709_IntimationUGRO14082026final.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/UGROCAP_14082026234709_IntimationUGRO14082026final.pdf"
     }
   },
   "deals": {
@@ -42571,19 +42577,15 @@
       "total": 4,
       "good": 2,
       "dead": 2
+    },
+    "nse-UGROCAP-14-Aug-2026234823": {
+      "at": "2026-08-14",
+      "total": 4,
+      "good": 3,
+      "dead": 0
     }
   },
   "history": [
-    {
-      "at": "2026-07-21",
-      "checked": 400,
-      "dead": 19,
-      "redirected": 2,
-      "ok": 379,
-      "unknown": 0,
-      "verifiedDeals": 1908,
-      "issueDeals": 231
-    },
     {
       "at": "2026-07-22",
       "checked": 400,
@@ -42882,6 +42884,16 @@
       "ok": 0,
       "unknown": 108,
       "verifiedDeals": 2437,
+      "issueDeals": 557
+    },
+    {
+      "at": "2026-08-14",
+      "checked": 109,
+      "dead": 0,
+      "redirected": 0,
+      "ok": 1,
+      "unknown": 108,
+      "verifiedDeals": 2438,
       "issueDeals": 557
     }
   ],
