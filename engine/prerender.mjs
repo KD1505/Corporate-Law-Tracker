@@ -330,15 +330,36 @@ function writeDataIndex(all, firms, updated){
     i: d.imp || "", ver: d.verified ? 1 : 0,
     off: (d.sources || []).some(x => x.official) ? 1 : 0,
     f: dealFirms(d),                                 // counsel
-    sc: d.score || 0
+    sc: d.score || 0,
+    fw: (d.framework && d.framework.length) ? d.framework : undefined,
+    // trimmed sources: name/url/official only. The feed needs these for the
+    // verification chip and confidence meter; full prose lives in the per-deal file.
+    src: (d.sources || []).map(x => ({ n: x.name, u: x.url, o: x.official ? 1 : 0 }))
   }));
   const payload = {
     updated, count: rows.length,
     firms: firms.map(f => ({ n: f.name, c: f.deals.length, u: firmPath(f.name) })),
-    deals: rows
+    deals: rows,
+    // small collections carried whole - together these are a few KB
+    moves: DATA.MOVES || [], reg: DATA.REGITEMS || [],
+    commentary: DATA.COMMENTARY || [], trends: DATA.TRENDS || [],
+    linkcheck: DATA.LINKCHECK || null
   };
   const out = path.join(dir, "index.json");
   fs.writeFileSync(out, JSON.stringify(payload));
+
+  /* Per-deal records, fetched on demand when a card is opened. These carry the
+     fields the index deliberately omits (detail, sources, docs, timeline,
+     framework), so the detail view loses nothing while the initial payload
+     stays small. ~4 KB each; only ever one is fetched at a time. */
+  const ddir = path.join(dir, "deals");
+  fs.mkdirSync(ddir, { recursive: true });
+  let wrote = 0;
+  for (const d of all) {
+    fs.writeFileSync(path.join(ddir, `${d.id}.json`), JSON.stringify(d));
+    wrote++;
+  }
+  console.log(`  data/deals/: ${wrote} per-deal records`);
   const kb = (fs.statSync(out).size / 1024).toFixed(0);
   const srcKb = (fs.statSync(path.join(ROOT, "data.js")).size / 1024).toFixed(0);
   console.log(`  data/index.json: ${kb} KB for ${rows.length} deals (data.js is ${srcKb} KB)`);
