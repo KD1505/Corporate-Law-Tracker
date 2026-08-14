@@ -346,8 +346,25 @@ function renderFirm(name){
 }
 
 /* ============================ DEAL DETAIL ============================ */
+/* When the data split is active the feed holds a slim record (_thin). Opening a
+   deal fetches its full ~1.5 KB file and merges it in place, then re-renders.
+   If the fetch fails we render what we already have rather than showing nothing. */
+const _hydrating=new Set();
+function hydrateDeal(id){
+  if(_hydrating.has(id))return; _hydrating.add(id);
+  fetch("data/deals/"+encodeURIComponent(id)+".json")
+    .then(r=>{ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+    .then(full=>{
+      const i=DEALS.findIndex(x=>x.id===id);
+      if(i>=0){ DEALS[i]=Object.assign({},DEALS[i],full,{_thin:false}); }
+      if(route.name==="deal"&&route.id===id) renderDeal(id);
+    })
+    .catch(e=>{ console.warn("CorpLawTracker: could not hydrate",id,e.message); })
+    .finally(()=>_hydrating.delete(id));
+}
 function renderDeal(id){
   const d=DEALS.find(x=>x.id===id); if(!d){go({name:"feed"});return;}
+  if(window.CLT_SPLIT && d._thin) hydrateDeal(id);
   const t=TY(d.type), st=ST(d.stage);
   const firmsHtml=d.firms.map(f=>{
     const lead=(f.lead&&f.lead.length)?f.lead.map(l=>`<div class="lead"><b>${l.n}</b> <span class="role">- ${l.role}</span></div>`).join(""):"";
