@@ -71,10 +71,13 @@ jobs:
 
       - name: Commit & push if changed
         run: |
-          if [[ -n "$(git status --porcelain data.js index.html deals.html firms.html sitemap.xml robots.txt d firm engine/seen.json engine/discovered-sources.json engine/link-report.json brief.md)" ]]; then
+          PATHS="data.js index.html deals.html firms.html sitemap.xml robots.txt d firm \
+            about.html contact.html methodology.html corrections.html coverage.html privacy.html terms.html \
+            engine/seen.json engine/discovered-sources.json engine/link-report.json brief.md"
+          if [[ -n "$(git status --porcelain $PATHS)" ]]; then
             git config user.name  "corporate-law-tracker-bot"
             git config user.email "actions@github.com"
-            git add data.js index.html deals.html firms.html sitemap.xml robots.txt d firm engine/seen.json engine/discovered-sources.json engine/link-report.json brief.md
+            git add $PATHS
             git commit -m "chore: nightly deal update + prerender ($(date -u +%Y-%m-%d))"
             git push
             echo "Committed updated data.js + crawlable pages — Vercel will redeploy."
