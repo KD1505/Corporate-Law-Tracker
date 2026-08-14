@@ -1,40 +1,40 @@
 {
   "_note": "Auto-grown source funnel. Each run logs every domain that corroborated a deal, with a running count. Domains marked official:true are government/regulator/exchange/court. Review the high-count entries periodically and promote the best into sources.json as curated corroborators.",
   "barandbench.com": {
-    "count": 327,
+    "count": 332,
     "firstSeen": "2026-06-08",
     "official": true,
-    "lastSeen": "2026-08-13"
+    "lastSeen": "2026-08-14"
   },
   "bseindia.com": {
-    "count": 2587,
+    "count": 2670,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-08-13"
+    "lastSeen": "2026-08-14"
   },
   "nseindia.com": {
-    "count": 2620,
+    "count": 2709,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-08-13"
+    "lastSeen": "2026-08-14"
   },
   "sebi.gov.in": {
-    "count": 444,
+    "count": 464,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-08-13"
+    "lastSeen": "2026-08-14"
   },
   "cci.gov.in": {
-    "count": 2137,
+    "count": 2210,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-08-13"
+    "lastSeen": "2026-08-14"
   },
   "rbi.org.in": {
-    "count": 76,
+    "count": 77,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-08-12"
+    "lastSeen": "2026-08-14"
   },
   "judgments.ecourts.gov.in": {
     "count": 11,
@@ -43,10 +43,10 @@
     "lastSeen": "2026-08-03"
   },
   "nsearchives.nseindia.com": {
-    "count": 2911,
+    "count": 3033,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-08-13"
+    "lastSeen": "2026-08-14"
   },
   "hfcl.com": {
     "count": 2,
@@ -67,10 +67,10 @@
     "lastSeen": "2026-08-12"
   },
   "mca.gov.in": {
-    "count": 15,
+    "count": 16,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-08-12"
+    "lastSeen": "2026-08-14"
   },
   "grinfra.com": {
     "count": 2,
@@ -97,10 +97,10 @@
     "lastSeen": "2026-06-17"
   },
   "powermin.gov.in": {
-    "count": 2,
+    "count": 3,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-06-17"
+    "lastSeen": "2026-08-14"
   },
   "rcfltd.com": {
     "count": 3,
@@ -1037,5 +1037,23 @@
     "firstSeen": "2026-08-13",
     "official": true,
     "lastSeen": "2026-08-13"
+  },
+  "lodha.com": {
+    "count": 1,
+    "firstSeen": "2026-08-14",
+    "official": true,
+    "lastSeen": "2026-08-14"
+  },
+  "wakefit.co": {
+    "count": 1,
+    "firstSeen": "2026-08-14",
+    "official": true,
+    "lastSeen": "2026-08-14"
+  },
+  "marutisuzuki.com": {
+    "count": 1,
+    "firstSeen": "2026-08-14",
+    "official": true,
+    "lastSeen": "2026-08-14"
   }
 }
