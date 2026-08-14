@@ -23338,7 +23338,7 @@
       "status": "unknown",
       "code": 999,
       "at": "2026-08-14",
-      "finalUrl": "https://www.linkedin.com/in/kmukhija/"
+      "finalUrl": "https://www.linkedin.com/in/kmukhija"
     },
     "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-landowners-on-revenue-sharing-joint-development-with-puravankara": {
       "status": "ok",
@@ -42575,16 +42575,6 @@
   },
   "history": [
     {
-      "at": "2026-07-20",
-      "checked": 400,
-      "dead": 20,
-      "redirected": 2,
-      "ok": 116,
-      "unknown": 262,
-      "verifiedDeals": 1830,
-      "issueDeals": 231
-    },
-    {
       "at": "2026-07-21",
       "checked": 400,
       "dead": 19,
@@ -42880,6 +42870,16 @@
       "dead": 8,
       "redirected": 3,
       "ok": 30,
+      "unknown": 108,
+      "verifiedDeals": 2437,
+      "issueDeals": 557
+    },
+    {
+      "at": "2026-08-14",
+      "checked": 108,
+      "dead": 0,
+      "redirected": 0,
+      "ok": 0,
       "unknown": 108,
       "verifiedDeals": 2437,
       "issueDeals": 557
