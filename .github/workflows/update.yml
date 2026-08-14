@@ -71,7 +71,7 @@ jobs:
 
       - name: Commit & push if changed
         run: |
-          PATHS="data.js index.html deals.html firms.html sitemap.xml robots.txt d firm \
+          PATHS="data.js data index.html deals.html firms.html sitemap.xml robots.txt d firm \
             about.html contact.html methodology.html corrections.html coverage.html privacy.html terms.html \
             engine/seen.json engine/discovered-sources.json engine/link-report.json brief.md"
           if [[ -n "$(git status --porcelain $PATHS)" ]]; then
