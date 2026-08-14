@@ -1,15 +1,15 @@
 /* ============================================================================
-   prerender.mjs — make CorpLawTracker crawlable.
+   prerender.mjs - make CorpLawTracker crawlable.
 
    The dashboard is a client-rendered SPA: a non-executing fetch (Googlebot,
    Bing, LLM crawlers, social scrapers) sees only the shell. This script emits a
    real, static, server-rendered HTML layer from data.js so the content is
-   indexable — without changing the interactive app:
+   indexable - without changing the interactive app:
 
-     • /d/<deal-id>.html   — one crawlable page per deal (content + meta + JSON-LD + links)
-     • /firm/<slug>.html   — one page per law firm (its mandates + league position)
-     • /deals.html         — crawlable index of every deal (link hub)
-     • /firms.html         — crawlable index of every firm (link hub)
+     • /d/<deal-id>.html   - one crawlable page per deal (content + meta + JSON-LD + links)
+     • /firm/<slug>.html   - one page per law firm (its mandates + league position)
+     • /deals.html         - crawlable index of every deal (link hub)
+     • /firms.html         - crawlable index of every firm (link hub)
      • sitemap.xml + robots.txt
      • injects a static snapshot of the latest deals into index.html's #main
        (between <!--PRERENDER-START--> / <!--PRERENDER-END-->). The SPA overwrites
@@ -57,12 +57,12 @@ const firmPath = n => `/firm/${slug(n)}.html`;
 const dealFirms = d => [...new Set((d.firms||[]).map(f=>f.name).filter(Boolean))];
 
 /* ---- shared shell ---- */
-function page({ title, desc, canonical, jsonld, body, crumbs }) {
+function page({ title, desc, canonical, jsonld, body, crumbs, noindex }) {
   return `<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
-<meta name="robots" content="index,follow">
+<meta name="robots" content="${noindex?"noindex,follow":"index,follow"}">
 <link rel="canonical" href="${canonical}">
 <meta property="og:type" content="article"><meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${canonical}">
@@ -102,8 +102,8 @@ footer a{color:var(--ink2);text-decoration:none}
 <header class="top"><span class="mark"></span><a class="brand" href="/">CorpLaw<span>Tracker</span></a></header>
 ${crumbs?`<div class="crumbs">${crumbs}</div>`:""}
 ${body}
-<footer><b>CorpLawTracker</b> — the decision engine for India's corporate legal market. Verified against primary filings; current-awareness, not legal advice.<br>
-<a href="/">Home</a> · <a href="/deals.html">All deals</a> · <a href="/firms.html">Law firms</a></footer>
+<footer><b>CorpLawTracker</b> - the decision engine for India's corporate legal market. Research and current-awareness only - not legal advice. Read the primary filing and the current text of the law before advising.<br>
+<a href="/">Home</a> · <a href="/deals.html">Deals</a> · <a href="/firms.html">Firms</a> · <a href="/methodology.html">Methodology</a> · <a href="/coverage.html">Coverage</a> · <a href="/corrections.html">Corrections</a> · <a href="/about.html">About</a> · <a href="/contact.html">Contact</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></footer>
 </div></body></html>`;
 }
 
@@ -134,7 +134,7 @@ ${rel.length?`<h2>Related deals</h2><ul class="links">${rel.map(r=>`<li><a class
   const jsonld = { "@context":"https://schema.org", "@type":"NewsArticle", headline: strip(d.headline),
     datePublished: pdate(d.time).toISOString().slice(0,10), description: clamp(d.sum||d.detail,300), url: canonical,
     isAccessibleForFree:true, publisher:{ "@type":"Organization", name:"CorpLawTracker", url:SITE } };
-  return page({ title:`${strip(d.headline)} — CorpLawTracker`, desc:clamp(d.implication||d.sum||d.detail,300),
+  return page({ title:`${strip(d.headline)} | CorpLawTracker`, desc:clamp(d.implication||d.sum||d.detail,300),
     canonical, jsonld, crumbs:`<a href="/">Home</a> / <a href="/deals.html">Deals</a> / ${esc(clamp(d.headline,60))}`, body });
 }
 
@@ -151,23 +151,24 @@ function firmPage(name, deals, rank, total) {
 <a class="cta" href="/#/firm/${encodeURIComponent(name)}">Open in the live tracker →</a>
 `;
   const jsonld = { "@context":"https://schema.org", "@type":"Organization", name, url:canonical,
-    description:`${name} — ${deals.length} corporate-law mandates tracked by CorpLawTracker.` };
-  return page({ title:`${name} — deals, mandates & league position | CorpLawTracker`,
+    description:`${name} - ${deals.length} corporate-law mandates tracked by CorpLawTracker.` };
+  return page({ noindex: deals.length < 5,
+    title:`${name} - deals, mandates & league position | CorpLawTracker`,
     desc:`${name}: ${deals.length} tracked corporate mandates${rank?`, #${rank} of ${total} by deal count`:""}. Verified against primary filings.`,
     canonical, jsonld, crumbs:`<a href="/">Home</a> / <a href="/firms.html">Firms</a> / ${esc(name)}`, body });
 }
 
 /* ---- hub pages ---- */
 function dealsIndex(all) {
-  const body = `<h1>All tracked deals</h1><p class="lead">${all.length} corporate transactions and regulatory matters, newest first — each verified against primary filings.</p>
+  const body = `<h1>All tracked deals</h1><p class="lead">${all.length} corporate transactions and regulatory matters, newest first - each verified against primary filings.</p>
 <ul class="links">${all.map(d=>`<li><a class="card" href="${dealPath(d)}"><span class="ct">${esc(d.headline)}</span><span class="cs">${esc(TYPE[d.type]||d.type||"")} · ${esc(d.time||"")}${d.value&&d.value!=="—"?" · "+esc(d.value):""}</span></a></li>`).join("")}</ul>`;
-  return page({ title:"All tracked deals — CorpLawTracker", desc:`${all.length} verified Indian corporate deals and mandates, newest first.`,
+  return page({ title:"All tracked deals | CorpLawTracker", desc:`${all.length} verified Indian corporate deals and mandates, newest first.`,
     canonical:`${SITE}/deals.html`, crumbs:`<a href="/">Home</a> / Deals`, body });
 }
 function firmsIndex(firms) {
   const body = `<h1>Law firms</h1><p class="lead">${firms.length} firms named as counsel across tracked Indian corporate transactions, ranked by deal count.</p>
 <ul class="links">${firms.map((f,i)=>`<li><a class="card" href="${firmPath(f.name)}"><span class="ct">${esc(f.name)}</span><span class="cs">#${i+1} · ${f.deals.length} deals tracked</span></a></li>`).join("")}</ul>`;
-  return page({ title:"Law firms — league & mandates | CorpLawTracker", desc:`${firms.length} Indian corporate law firms ranked by tracked deal count.`,
+  return page({ title:"Law firms - league & mandates | CorpLawTracker", desc:`${firms.length} Indian corporate law firms ranked by tracked deal count.`,
     canonical:`${SITE}/firms.html`, crumbs:`<a href="/">Home</a> / Firms`, body });
 }
 
@@ -177,21 +178,132 @@ function homeSnapshot(all) {
   // NOTE: homepage snapshot links use the SPA hash route, which ALWAYS resolves even if
   // the static /d/ pages haven't been committed yet. Crawlers reach the static deal pages
   // via sitemap.xml and the /deals.html hub instead. This makes index.html safe to deploy
-  // on its own — it can never produce a 404.
+  // on its own - it can never produce a 404.
   const items = latest.map(d=>`<article style="padding:14px 0;border-bottom:1px solid #e9e5db">
 <a href="/#/deal/${encodeURIComponent(d.id)}" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">${esc(d.headline)}</h3></a>
 <div style="font-size:12px;color:#8e897c;margin-bottom:6px">${esc(TYPE[d.type]||d.type||"")} · ${esc(d.time||"")}${d.value&&d.value!=="—"?" · "+esc(d.value):""}${dealFirms(d).length?" · "+esc(dealFirms(d).slice(0,2).join(", ")):""}</div>
 <p style="font-size:13.5px;color:#41454c;margin:0">${esc(clamp(d.implication||d.sum||d.detail,220))}</p></article>`).join("");
-  const jsonld = { "@context":"https://schema.org", "@type":"ItemList", name:"Latest Indian corporate deals — CorpLawTracker",
+  const jsonld = { "@context":"https://schema.org", "@type":"ItemList", name:"Latest Indian corporate deals | CorpLawTracker",
     itemListElement: latest.map((d,i)=>({ "@type":"ListItem", position:i+1, url:`${SITE}${dealPath(d)}`, name:strip(d.headline) })) };
   return `<!--PRERENDER-START--><section id="seo-snapshot" style="max-width:820px;margin:0 auto;padding:16px 4px">
 <h1 style="font:600 22px/1.25 Georgia,serif;margin:0 0 4px">Verified deal &amp; regulatory intelligence for India's corporate legal market</h1>
-<p style="color:#57534a;font-size:14px;margin:0 0 6px">Who advised whom, what it means, and what's on the regulators' desk — every item sourced to a primary filing. <a href="/deals.html">All deals</a> · <a href="/firms.html">Law firms</a>.</p>
+<p style="color:#57534a;font-size:14px;margin:0 0 6px">Who advised whom, what it means, and what's on the regulators' desk - every item sourced to a primary filing. <a href="/deals.html">All deals</a> · <a href="/firms.html">Law firms</a>.</p>
 ${items}
 <script type="application/ld+json">${JSON.stringify(jsonld)}</script></section>
 <script>/* Progressive enhancement: crawlers (no JS) keep the static content above; browsers
 hide it immediately so the live app renders instead of flashing a static list while data.js loads. */
 (function(){var n=document.getElementById('seo-snapshot');if(n)n.style.display='none';})();</script><!--PRERENDER-END-->`;
+}
+
+
+/* ---- Governance pages (Red-Line 3 / Task 2.1) ----
+   A partner must be able to find the operator, the editor, how to report an
+   error, and what happens to their email - without asking anyone. These are
+   generated so they are crawlable, not trapped in a modal. */
+const EDITOR = "Kush Desai";                       // named, accountable editor
+const CONTACT = "editor@corplawtracker.com";
+const CORRECTIONS = "corrections@corplawtracker.com";
+
+function govPage(slug,title,desc,body){
+  return { slug, html: page({ title:`${title} | CorpLawTracker`, desc,
+    canonical:`${SITE}/${slug}.html`, crumbs:`<a href="/">Home</a> / ${esc(title)}`,
+    body:`<h1>${esc(title)}</h1>${body}` }) };
+}
+
+function governancePages(all, firms, updated){
+  const verified = all.filter(d=>d.verified).length;
+  const official = all.filter(d=>(d.sources||[]).some(s=>s.official)).length;
+  const pctv = all.length?Math.round(verified/all.length*100):0;
+  const pcto = all.length?Math.round(official/all.length*100):0;
+  const dates = all.map(d=>pdate(d.time)).filter(d=>+d>0).sort((a,b)=>a-b);
+  const range = dates.length?`${dates[0].toDateString().slice(4)} - ${dates[dates.length-1].toDateString().slice(4)}`:"—";
+
+  return [
+  govPage("about","About CorpLawTracker",
+    "Who operates CorpLawTracker, what it tracks, and how it is built.",
+    `<p class="lead">CorpLawTracker is a deal-and-regulatory intelligence service for India's corporate legal market. It tracks corporate transactions and regulatory developments, records which law firms advised whom, and links every item to the primary filing that evidences it.</p>
+     <h2>Who operates it</h2><p>CorpLawTracker is operated and edited by <b>${esc(EDITOR)}</b>. Editorial responsibility for verification decisions and corrections rests with the named editor.</p>
+     <h2>Who it is for</h2><p>Corporate partners and business-development teams, transactional associates, in-house and compliance counsel, and investors and advisers who need to know who is doing what in the Indian market - and be able to check it.</p>
+     <h2>How it is built</h2><p>An automated pipeline ingests Indian corporate-law trade press and regulator feeds nightly, deduplicates against everything already tracked, structures each item (parties, value, counsel, stage), and links it to the statutes engaged. Items are then classified against the verification standard set out in the <a href="/methodology.html">methodology</a>.</p>
+     <h2>What it is not</h2><p>It is a research and current-awareness tool. It is <b>not legal advice</b>, and it is not a substitute for reading the primary filing and the current text of the law.</p>
+     <p><a href="/contact.html">Contact</a> · <a href="/corrections.html">Report an error</a></p>`),
+
+  govPage("contact","Contact",
+    "How to reach CorpLawTracker, including corrections and editorial queries.",
+    `<p class="lead">We read everything sent to these addresses.</p>
+     <h2>Editorial and general</h2><p><a href="mailto:${CONTACT}">${CONTACT}</a> - we aim to respond within one working day.</p>
+     <h2>Corrections</h2><p><a href="mailto:${CORRECTIONS}">${CORRECTIONS}</a> - please include the item URL and the primary document. See the <a href="/corrections.html">corrections policy</a>.</p>
+     <h2>Editor</h2><p>${esc(EDITOR)}</p>`),
+
+  govPage("methodology","Methodology & verification standards",
+    "How items reach CorpLawTracker, what each verification label asserts, coverage scope and known gaps.",
+    `<p class="lead">What each label asserts, precisely - and what it does not.</p>
+     <h2>What CorpLawTracker is</h2><p>A decision engine, not a clippings file. Items are machine-collected nightly, verified against primary filings where they exist, and labelled honestly when they don't.</p>
+     <h2>Pipeline &amp; cadence</h2><p>An automated pipeline ingests Indian corporate-law trade press and regulator feeds nightly, deduplicates, structures each item, and links it to the statutes engaged. The "last run" date is the date of the last successful pipeline run. There is no intraday updating.</p>
+     <h2>✓ Verified</h2><p>The matter is corroborated by a <b>specific official source</b> - the named company's BSE/NSE filing, a regulator's order or circular, or a court record - or has been editor-confirmed against such a filing. <b>A generic regulator portal is never treated as verification.</b></p>
+     <h2>Reported</h2><p>Sourced to credible trade press but a specific primary filing has not yet been matched. Treat as press-level reliability and open the source before relying on it.</p>
+     <h2>OFFICIAL</h2><p>A source is marked OFFICIAL only when its URL resolves to a government, regulator, exchange or court domain (SEBI, RBI, CCI, IBBI, MCA, BSE/NSE, NCLT, e-Courts, PIB and equivalents).</p>
+     <h2>Coverage &amp; known gaps</h2>
+     <p>Corpus at last build: <b>${all.length.toLocaleString()}</b> items · <b>${pctv}%</b> verified · <b>${pcto}%</b> carrying an official source · <b>${firms.length}</b> firms with attributed mandates · date range ${esc(range)}.</p>
+     <p><b>Known gaps, stated plainly:</b> coverage is drawn from trade press and regulator feeds, so <b>firms that do not publicise mandates are systematically undercounted</b>. Private transactions with no filing obligation and no press release will not appear at all. Counsel attribution reflects what the source states; where a source names only one side, only that side is recorded. Exchange filings are ingested above a materiality threshold, so routine disclosures may be omitted.</p>
+     <h2>Editorial responsibility</h2><p>Editor: <b>${esc(EDITOR)}</b>. Errors: <a href="/corrections.html">corrections policy</a>.</p>
+     <h2>Limits</h2><p>Research and current-awareness only - <b>not legal advice</b>. Always read the primary filing and the current text of the law before advising.</p>`),
+
+  govPage("corrections","Corrections",
+    "CorpLawTracker's corrections policy and public corrections log. We do not silently edit.",
+    `<p class="lead">We get things wrong. When we do, we fix the record and say so.</p>
+     <p>Email <a href="mailto:${CORRECTIONS}">${CORRECTIONS}</a> with the item URL and the primary document. We aim to respond within <b>one working day</b> and to correct verified errors within <b>two</b>.</p>
+     <p>Every correction is logged below with the original text, the corrected text and the date. <b>We do not silently edit.</b></p>
+     <h2>Corrections log</h2>
+     <table><caption>Published corrections</caption>
+     <thead><tr><th scope="col">Date</th><th scope="col">Item</th><th scope="col">What was wrong</th><th scope="col">What it now says</th></tr></thead>
+     <tbody><tr><td colspan="4">No corrections have been published yet. This log will record every one.</td></tr></tbody></table>`),
+
+  govPage("coverage","Coverage &amp; method",
+    "What CorpLawTracker covers, how much is verified, and where the known gaps are.",
+    `<p class="lead">Live coverage statistics, and an honest account of what is missing.</p>
+     <h2>Corpus</h2>
+     <table><caption>Coverage at last build</caption>
+     <tbody>
+     <tr><th scope="row">Items tracked</th><td>${all.length.toLocaleString()}</td></tr>
+     <tr><th scope="row">Verified against an official source</th><td>${verified.toLocaleString()} (${pctv}%)</td></tr>
+     <tr><th scope="row">Carrying an official source link</th><td>${official.toLocaleString()} (${pcto}%)</td></tr>
+     <tr><th scope="row">Firms with attributed mandates</th><td>${firms.length}</td></tr>
+     <tr><th scope="row">Date range</th><td>${esc(range)}</td></tr>
+     <tr><th scope="row">Last successful run</th><td>${esc(updated)}</td></tr>
+     </tbody></table>
+     <h2>Sources monitored</h2><p>Indian corporate-law trade press, and the BSE and NSE corporate-announcement feeds. Regulator sources: SEBI, RBI, CCI, IBBI, MCA, NCLT.</p>
+     <h2>Known gaps</h2>
+     <p>These are real and we would rather state them than have you discover them:</p>
+     <ul class="links">
+       <li>Firms that do not publicise mandates are <b>systematically undercounted</b>. Any ranking here measures our coverage, not market share.</li>
+       <li>Private transactions with no filing obligation and no press coverage do not appear.</li>
+       <li>Counsel attribution reflects what the source states. Where only one side is named, only that side is recorded.</li>
+       <li>Exchange filings are ingested above a materiality threshold; routine periodic disclosures may be omitted by design.</li>
+     </ul>
+     <p><a href="/methodology.html">Full methodology →</a></p>`),
+
+  govPage("privacy","Privacy notice",
+    "What CorpLawTracker collects, why, and how to exercise your rights.",
+    `<p class="lead">Short version: we collect an email address if you ask for the Brief, and we use it only to send the Brief.</p>
+     <h2>Who is responsible</h2><p>CorpLawTracker, operated by <b>${esc(EDITOR)}</b>. Contact: <a href="mailto:${CONTACT}">${CONTACT}</a>.</p>
+     <h2>What we collect</h2><ul class="links"><li>Your email address, if you subscribe to the Brief.</li><li>Standard server logs (IP address, user-agent) generated by our host in the ordinary course of serving the site.</li></ul>
+     <h2>Why, and on what basis</h2><p>To send you the daily Brief you asked for (consent), and to operate and secure the site (legitimate interests / necessary for service operation).</p>
+     <h2>Who processes it</h2><p>Our hosting provider (Vercel) and our email delivery provider. We do not sell or share your address.</p>
+     <h2>How long we keep it</h2><p>Until you unsubscribe, plus 30 days.</p>
+     <h2>Your rights</h2><p>You can ask for access to, correction of, or deletion of your data, and withdraw consent at any time - every email carries a one-click unsubscribe. Email <a href="mailto:${CONTACT}">${CONTACT}</a>.</p>
+     <h2>International transfers</h2><p>Our host and email provider may process data outside India.</p>
+     <h2>Grievances</h2><p>Email <a href="mailto:${CONTACT}">${CONTACT}</a> and we will respond within one working day.</p>`),
+
+  govPage("terms","Terms of use",
+    "Terms on which CorpLawTracker is made available, including limitation of reliance.",
+    `<p class="lead">Please read these before relying on anything here.</p>
+     <h2>Not legal advice</h2><p>CorpLawTracker is a research and current-awareness tool. Nothing on it is legal advice, and no lawyer–client relationship arises from using it. <b>Always read the primary filing and the current text of the law before advising.</b></p>
+     <h2>No warranty of accuracy</h2><p>We work hard to be accurate and we publish our methodology and our corrections. We do not warrant that every item is complete or error-free. Verification labels describe our evidence, not a guarantee.</p>
+     <h2>Sources and third-party content</h2><p>Headlines and short extracts are shown to identify and link to the underlying source, with attribution. Rights in third-party material remain with their owners. If you believe material has been used improperly, email <a href="mailto:${CONTACT}">${CONTACT}</a> and we will address it promptly.</p>
+     <h2>Acceptable use</h2><p>Do not scrape the site at a rate that degrades it for others, and do not redistribute the corpus wholesale as your own product.</p>
+     <h2>Changes</h2><p>These terms may change; the current version is always at this URL.</p>`)
+  ];
 }
 
 /* ============================ MAIN ============================ */
@@ -213,11 +325,15 @@ firms.forEach((f,i)=>fs.writeFileSync(path.join(fDir,`${slug(f.name)}.html`), fi
 // hubs
 fs.writeFileSync(path.join(ROOT,"deals.html"), dealsIndex(all));
 fs.writeFileSync(path.join(ROOT,"firms.html"), firmsIndex(firms));
+// governance pages - operator, editor, corrections, coverage, privacy, terms
+const GOV = governancePages(all, firms, (DATA.UPDATED||"").replace(/^Updated\s+/,""));
+for (const g of GOV) fs.writeFileSync(path.join(ROOT, g.slug + ".html"), g.html);
 
 // sitemap + robots
 const today = new Date().toISOString().slice(0,10);
 const urls = [ `${SITE}/`, `${SITE}/deals.html`, `${SITE}/firms.html`, `${SITE}/academy.html`,
-  ...all.map(d=>`${SITE}${dealPath(d)}`), ...firms.map(f=>`${SITE}${firmPath(f.name)}`) ];
+  ...GOV.map(g=>`${SITE}/${g.slug}.html`),
+  ...all.map(d=>`${SITE}${dealPath(d)}`), ...firms.filter(f=>f.deals.length>=5).map(f=>`${SITE}${firmPath(f.name)}`) ];
 fs.writeFileSync(path.join(ROOT,"sitemap.xml"),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`
   + urls.map(u=>`  <url><loc>${u}</loc><lastmod>${today}</lastmod></url>`).join("\n") + `\n</urlset>\n`);
@@ -230,6 +346,6 @@ let idx = fs.readFileSync(idxPath,"utf8");
 const snap = homeSnapshot(all);
 const re = /<!--PRERENDER-START-->[\s\S]*?<!--PRERENDER-END-->/;
 if (re.test(idx)) { idx = idx.replace(re, snap); fs.writeFileSync(idxPath, idx); }
-else console.warn("prerender: PRERENDER markers not found in index.html — homepage snapshot NOT injected.");
+else console.warn("prerender: PRERENDER markers not found in index.html - homepage snapshot NOT injected.");
 
-console.log(`prerender: ${all.length} deal pages, ${firms.length} firm pages, hubs, sitemap (${urls.length} urls), robots. Homepage snapshot: ${re.test(fs.readFileSync(idxPath,"utf8"))?"injected":"MISSING"}.`);
+console.log(`prerender: ${all.length} deal pages, ${firms.length} firm pages, ${GOV.length} governance pages, hubs, sitemap (${urls.length} urls), robots. Homepage snapshot: ${re.test(fs.readFileSync(idxPath,"utf8"))?"injected":"MISSING"}.`);
