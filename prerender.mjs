@@ -306,6 +306,58 @@ function governancePages(all, firms, updated){
   ];
 }
 
+
+/* ---- STAGE 1 of the data split (Task 1.3) -------------------------------
+   Emits a lightweight search/filter index next to the existing data.js.
+   data.js is left untouched, so the live app keeps working exactly as now.
+   Stage 2 will switch the app to fetch this index instead of the 9.9 MB file.
+
+   /data/index.json  - one compact row per deal: everything the feed, the
+                       filters, the league table and search actually need.
+                       Full prose (detail, timeline, docs) is deliberately
+                       excluded; the deal page already carries it.          */
+function writeDataIndex(all, firms, updated){
+  const dir = path.join(ROOT, "data");
+  fs.mkdirSync(dir, { recursive: true });
+  const rows = all.map(d => ({
+    id: d.id,
+    u: dealPath(d),                                  // canonical page
+    h: d.headline || "",
+    s: clamp(d.sum || d.detail, 180),                // short summary only
+    w: clamp(d.implication, 180) || undefined,       // why it matters
+    t: d.type || "", g: d.geo || "", sec: d.sector || "",
+    st: d.stage || "", v: d.value || "", d: d.time || "",
+    i: d.imp || "", ver: d.verified ? 1 : 0,
+    off: (d.sources || []).some(x => x.official) ? 1 : 0,
+    f: dealFirms(d),                                 // counsel
+    sc: d.score || 0
+  }));
+  const payload = {
+    updated, count: rows.length,
+    firms: firms.map(f => ({ n: f.name, c: f.deals.length, u: firmPath(f.name) })),
+    deals: rows
+  };
+  const out = path.join(dir, "index.json");
+  fs.writeFileSync(out, JSON.stringify(payload));
+
+  /* Per-deal records, fetched on demand when a card is opened. These carry the
+     fields the index deliberately omits (detail, sources, docs, timeline,
+     framework), so the detail view loses nothing while the initial payload
+     stays small. ~4 KB each; only ever one is fetched at a time. */
+  const ddir = path.join(dir, "deals");
+  fs.mkdirSync(ddir, { recursive: true });
+  let wrote = 0;
+  for (const d of all) {
+    fs.writeFileSync(path.join(ddir, `${d.id}.json`), JSON.stringify(d));
+    wrote++;
+  }
+  console.log(`  data/deals/: ${wrote} per-deal records`);
+  const kb = (fs.statSync(out).size / 1024).toFixed(0);
+  const srcKb = (fs.statSync(path.join(ROOT, "data.js")).size / 1024).toFixed(0);
+  console.log(`  data/index.json: ${kb} KB for ${rows.length} deals (data.js is ${srcKb} KB)`);
+  return { kb, srcKb };
+}
+
 /* ============================ MAIN ============================ */
 const DATA = loadData();
 const all = (DATA.DEALS||[]).slice().sort((a,b)=>pdate(b.time)-pdate(a.time));
@@ -327,6 +379,7 @@ fs.writeFileSync(path.join(ROOT,"deals.html"), dealsIndex(all));
 fs.writeFileSync(path.join(ROOT,"firms.html"), firmsIndex(firms));
 // governance pages - operator, editor, corrections, coverage, privacy, terms
 const GOV = governancePages(all, firms, (DATA.UPDATED||"").replace(/^Updated\s+/,""));
+writeDataIndex(all, firms, DATA.UPDATED || "");
 for (const g of GOV) fs.writeFileSync(path.join(ROOT, g.slug + ".html"), g.html);
 
 // sitemap + robots
