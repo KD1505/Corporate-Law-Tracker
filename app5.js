@@ -1,6 +1,6 @@
 /* ============================ STATS ============================ */
 function buildStats(){
-  // Quality metrics, not vanity totals — every number is a TRUST signal.
+  // Quality metrics, not vanity totals - every number is a TRUST signal.
   const verified=DEALS.filter(d=>isVerified(d));
   const official=DEALS.filter(d=>dealHasOfficial(d));
   const pct=(n)=>DEALS.length?Math.round(n/DEALS.length*100):0;
@@ -12,7 +12,7 @@ function buildStats(){
    {n:verified.length,l:"Verified",d:`${pct(verified.length)}% corroborated by an official source`,list:verified},
    {n:official.length,l:"Official filings",d:`${pct(official.length)}% primary-source linked`,muted:true,list:official},
    linksList
-     ? {n:linksList.length,l:"Links verified",d:"pinged &amp; live — checked nightly",muted:true,list:linksList}
+     ? {n:linksList.length,l:"Links verified",d:"pinged &amp; live - checked nightly",muted:true,list:linksList}
      : {n:enriched.length,l:"Deep-enriched",d:"multi-source detail on file",muted:true,list:enriched}
   ];
   // Cap each popover: building a node per deal for 1,000+ deals x4 cards made
@@ -22,9 +22,9 @@ function buildStats(){
     const shown=g.list.slice(0,POP_MAX), rest=g.list.length-shown.length;
     return `<div class="stat" data-stat="${i}">
     <div class="n">${g.n}</div><div class="l">${g.l}</div><div class="d ${g.muted?'muted':''}">${g.d}</div>
-    <div class="pop"><div class="ph">${g.l} — click any to open</div>${shown.map(d=>`<div class="pr" data-deal="${d.id}"><span class="pt ${TY(d.type).cls}">${TY(d.type).label}</span><span class="px">${d.headline}</span></div>`).join("")}${rest>0?`<div class="pmore">+${rest.toLocaleString()} more · showing the ${POP_MAX} most recent</div>`:""}</div>
+    <div class="pop"><div class="ph">${g.l} - click any to open</div>${shown.map(d=>`<div class="pr" data-deal="${d.id}"><span class="pt ${TY(d.type).cls}">${TY(d.type).label}</span><span class="px">${d.headline}</span></div>`).join("")}${rest>0?`<div class="pmore">+${rest.toLocaleString()} more · showing the ${POP_MAX} most recent</div>`:""}</div>
   </div>`;}).join("");
-  // clicks handled by delegation in bindCards() — no per-row listeners
+  // clicks handled by delegation in bindCards() - no per-row listeners
 }
 
 /* ============================ RAIL ============================ */
@@ -39,7 +39,7 @@ function buildRail(){
     :'<div class="note">Ranks build up as deals gain attributed counsel.</div>';
   $("league").querySelectorAll("[data-firm]").forEach(n=>n.onclick=()=>go({name:"firm",id:decodeURIComponent(n.dataset.firm)}));
   const radar=DEALS.filter(d=>d.type==="reg"||d.type==="bank");
-  $("radar").innerHTML=radar.map(d=>`<div class="reg" data-deal="${d.id}"><div class="when">${d.sources[0].name.split('—')[0].trim()} · ${d.time}</div><div class="what">${d.headline}</div></div>`).join("");
+  $("radar").innerHTML=radar.map(d=>`<div class="reg" data-deal="${d.id}"><div class="when">${d.sources[0].name.split("—")[0].trim()} · ${d.time}</div><div class="what">${d.headline}</div></div>`).join("");
   $("radar").querySelectorAll("[data-deal]").forEach(n=>n.onclick=()=>go({name:"deal",id:n.dataset.deal}));
   $("cov").innerHTML=`Bar &amp; Bench · LiveLaw · Mint · Economic Times · Business Standard · VCCircle · BSE / NSE · SEBI · CCI · IBBI · RBI · PIB<br><span style="color:var(--accent);font-weight:700;cursor:pointer" onclick="openMeth()">How verification works →</span>`;
 }
@@ -145,7 +145,7 @@ function renderPipeline(){
     return `<div class="pcol"><h5><span class="sd" style="width:8px;height:8px;border-radius:50%;background:${st.c};display:inline-block"></span>${label}<span class="ct">${items.length}</span></h5>
       ${items.map(d=>`<div class="pitem" data-deal="${d.id}"><div class="ph">${d.headline}</div><div class="pm"><span class="ttype ${TY(d.type).cls}">${TY(d.type).label}</span>${d.value&&d.value!=="—"?`<span>${d.value}</span>`:""}<span>${CL(d.geo)}</span></div></div>`).join("")}
     </div>`;}).join("");
-  $("main").innerHTML=`<div class="vh"><h2>Deal Pipeline</h2><span class="sub">${DEALS.length} tracked by stage · rumoured and in-review — the pitch window, not the post-mortem</span></div><div class="pipe">${cols}</div>`;
+  $("main").innerHTML=`<div class="vh"><h2>Deal Pipeline</h2><span class="sub">${DEALS.length} tracked by stage · rumoured and in-review - the pitch window, not the post-mortem</span></div><div class="pipe">${cols}</div>`;
   $("main").querySelectorAll(".pitem[data-deal]").forEach(c=>c.onclick=()=>go({name:"deal",id:c.dataset.deal}));
 }
 
@@ -182,15 +182,15 @@ function renderCoverage(){
       ${metric(lcd?Math.round(lv/Math.max(1,lv+li+lu)*100)+"%":"—","Links live","pinged nightly")}
     </div>
     <div class="anwrap">
-      <div class="sec"><h4>Source mix</h4><p style="font-size:13px;color:var(--ink2);line-height:1.65"><b>${sTot}</b> source links across <b>${total}</b> deals — <b>${sOff}</b> official/primary (exchange, regulator, court, company) and <b>${sPress}</b> press/secondary. <b>${attributed}</b> deals carry named counsel.</p></div>
-      <div class="sec"><h4>Link health · checked nightly</h4>${lcd?`<p style="font-size:13px;color:var(--ink2);line-height:1.65"><span style="color:var(--green);font-weight:700">${lv}</span> deals with every link confirmed live · <span style="color:var(--amber);font-weight:700">${li}</span> with a link under review · ${lu} not yet checked. Every source URL is pinged on a rolling nightly basis — a genuine 404 is flagged; a bot-blocked government page is not falsely failed.</p>`:`<p style="font-size:13px;color:var(--ink2);line-height:1.65">The nightly link-checker pings every source URL and flags any that die or redirect. Results appear here after the first run.</p>`}</div>
+      <div class="sec"><h4>Source mix</h4><p style="font-size:13px;color:var(--ink2);line-height:1.65"><b>${sTot}</b> source links across <b>${total}</b> deals - <b>${sOff}</b> official/primary (exchange, regulator, court, company) and <b>${sPress}</b> press/secondary. <b>${attributed}</b> deals carry named counsel.</p></div>
+      <div class="sec"><h4>Link health · checked nightly</h4>${lcd?`<p style="font-size:13px;color:var(--ink2);line-height:1.65"><span style="color:var(--green);font-weight:700">${lv}</span> deals with every link confirmed live · <span style="color:var(--amber);font-weight:700">${li}</span> with a link under review · ${lu} not yet checked. Every source URL is pinged on a rolling nightly basis - a genuine 404 is flagged; a bot-blocked government page is not falsely failed.</p>`:`<p style="font-size:13px;color:var(--ink2);line-height:1.65">The nightly link-checker pings every source URL and flags any that die or redirect. Results appear here after the first run.</p>`}</div>
       <div class="sec"><h4>The verification ladder</h4>
-        <div class="fwitem"><div class="fwref">⛉ Official</div><div class="fwnote">Carries a specific primary filing — an exchange disclosure, a regulator/court order, or the company's own release.</div></div>
+        <div class="fwitem"><div class="fwref">⛉ Official</div><div class="fwnote">Carries a specific primary filing - an exchange disclosure, a regulator/court order, or the company's own release.</div></div>
         <div class="fwitem"><div class="fwref">✓ Verified</div><div class="fwnote">Corroborated by at least one official/primary source.</div></div>
         <div class="fwitem"><div class="fwref">◔ Reported</div><div class="fwnote">A single press source; not yet corroborated against a primary filing.</div></div>
       </div>
       <div class="sec"><h4>Recently entered</h4>${recent.map(d=>`<div class="lr" data-deal="${d.id}"><span class="fn" style="font-family:var(--sans)">${d.headline}</span><span class="dl" style="color:var(--ink3)">${d.time}</span></div>`).join("")}</div>
-      <div class="sec"><h4>Corrections log</h4>${corrections.length?corrections.map(c=>`<div class="fwitem"><div class="fwref">${c.date||""}</div><div class="fwnote">${c.note||""}</div></div>`).join(""):`<div class="empty" style="text-align:left">No corrections logged to date. When we fix or retract an item, it is recorded here — openly. We would rather show our edits than claim perfection.</div>`}</div>
+      <div class="sec"><h4>Corrections log</h4>${corrections.length?corrections.map(c=>`<div class="fwitem"><div class="fwref">${c.date||""}</div><div class="fwnote">${c.note||""}</div></div>`).join(""):`<div class="empty" style="text-align:left">No corrections logged to date. When we fix or retract an item, it is recorded here - openly. We would rather show our edits than claim perfection.</div>`}</div>
       <div class="sec"><h4>How we keep this honest</h4><p style="font-size:12.5px;color:var(--ink2);line-height:1.7">Deals are machine-collected nightly from primary disclosures (BSE/NSE filings, regulator and court orders) and named-counsel legal press, deduplicated, and scored. We tag each item by evidentiary strength rather than hiding uncertainty, link every claim to its source, ping those links nightly, and rank league tables only on deals with attributed counsel. Nothing here is fabricated; where we don't know, we mark it "—".</p></div>
     </div>`;
   $("main").querySelectorAll("[data-deal]").forEach(n=>n.onclick=()=>go({name:"deal",id:n.dataset.deal}));
@@ -262,10 +262,10 @@ function renderRegulatory(){
 
   $("main").innerHTML=`<div class="vh"><h2>Regulatory Radar</h2><span class="sub">${REGITEMS.length} active · every item carries its deadline and the action for your documents</span></div>${trackerCards}
     <div class="vh" style="margin-top:26px"><h2>Regulatory Library</h2><span class="sub">${total} statutes &amp; regulations · cross-referenced to tracked deals</span></div>
-    <div class="search" style="max-width:none;margin-bottom:13px"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8b93a3" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg><input id="regq" type="text" placeholder="Search the library — e.g. QIP, Section 230, angel tax, Press Note 3, leverage cap…" value="${regQuery.replace(/"/g,'&quot;')}"></div>
+    <div class="search" style="max-width:none;margin-bottom:13px"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8b93a3" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg><input id="regq" type="text" placeholder="Search the library - e.g. QIP, Section 230, angel tax, Press Note 3, leverage cap…" value="${regQuery.replace(/"/g,'&quot;')}"></div>
     <div class="regnav">${nav}</div>
     ${areasHtml||'<div class="empty">No provisions match your search.</div>'}
-    <div class="foot">A study &amp; checklist aid for transactional review — not legal advice. Always read the current text of the law and the latest amendments.</div>`;
+    <div class="foot">A study &amp; checklist aid for transactional review - not legal advice. Always read the current text of the law and the latest amendments.</div>`;
   $("main").querySelectorAll(".lawcard[data-law]").forEach(c=>c.onclick=e=>{if(e.target.closest("a,[data-deal],.lawchip"))return;go({name:"law",id:c.dataset.law});});
   $("main").querySelectorAll(".lawchip[data-law]").forEach(n=>n.onclick=e=>{e.stopPropagation();go({name:"law",id:n.dataset.law});});
   $("main").querySelectorAll("[data-deal]").forEach(n=>n.onclick=e=>{e.stopPropagation();go({name:"deal",id:n.dataset.deal});});
@@ -282,7 +282,7 @@ function renderLaw(id){
   const provs=(D.provisions&&D.provisions.length)?D.provisions:it.key.map(k=>({s:k.s,t:"",d:k.n}));
   const provHtml=provs.map(p=>`<div class="lpro"><div class="lpro-s">${p.s}</div><div class="lpro-b">${p.t?`<b>${p.t}.</b> `:""}${p.d}</div></div>`).join("");
   const amds=(D.amendments&&D.amendments.length)?D.amendments:(it.amended?[{date:"Recent",t:"",d:it.amended}]:[]);
-  const amdHtml=amds.length?`<div class="sec"><h4>Recent amendments — what changed for deals</h4>${amds.map(a=>`<div class="amdc"><div class="amdc-d">${a.date}</div><div class="amdc-b">${a.t?`<b>${a.t}.</b> `:""}${a.d}</div></div>`).join("")}</div>`:"";
+  const amdHtml=amds.length?`<div class="sec"><h4>Recent amendments - what changed for deals</h4>${amds.map(a=>`<div class="amdc"><div class="amdc-d">${a.date}</div><div class="amdc-b">${a.t?`<b>${a.t}.</b> `:""}${a.d}</div></div>`).join("")}</div>`:"";
   const play=(D.playbook&&D.playbook.length)?`<div class="sec"><h4>Transactional playbook · practical insights</h4><ul class="play">${D.playbook.map(x=>`<li>${x}</li>`).join("")}</ul></div>`:"";
   const pit=(D.pitfalls&&D.pitfalls.length)?`<div class="sec"><h4>Common pitfalls &amp; drafting points</h4><ul class="play pit">${D.pitfalls.map(x=>`<li>${x}</li>`).join("")}</ul></div>`:"";
   const cs=casesFor(id);
@@ -328,7 +328,7 @@ function renderMoves(){
     <span class="mv-avatar" style="background:${bg};color:${c}">${initials(m)}</span>
     <div class="mv-main"><div class="mv-who">${m.who||m.headline}</div>${m.who?`<div class="mv-what">${m.what}${m.org?` · <span style="color:var(--ink3)">${m.org}</span>`:""}</div>`:""}</div>
     <div class="mv-right"><span class="mtype" style="background:${bg};color:${c}">${m.type}</span><span class="mv-date">${m.date}</span></div></div>`;}).join("");
-  $("main").innerHTML=`<div class="vh"><h2>People Moves</h2><span class="sub">${MOVES.length} recent · lateral moves and GC changes are pitch triggers — a new GC reopens every panel</span></div>${rows}
+  $("main").innerHTML=`<div class="vh"><h2>People Moves</h2><span class="sub">${MOVES.length} recent · lateral moves and GC changes are pitch triggers - a new GC reopens every panel</span></div>${rows}
     <div class="foot">Auto-expands as the engine ingests the Corporate &amp; In-House wire nightly.</div>`;
 }
 
@@ -357,12 +357,12 @@ function renderPrecedents(){
   const secOpts=SECTORS.map(s=>`<option ${P.sector===s?"selected":""}>${s}</option>`).join("");
   const bucketOpts=[["","Any value"],["mega","≥ ₹5,000 cr"],["large","₹1,000–5,000 cr"],["mid","< ₹1,000 cr"]].map(([v,l])=>`<option value="${v}" ${P.bucket===v?"selected":""}>${l}</option>`).join("");
   const rows=list.map(d=>{const sx=structOf(d);return `<div class="card" data-deal="${d.id}"><div class="r1">${typeBadge(d)}${d.value&&d.value!=="—"?`<span class="tag val">${d.value}</span>`:""}<span class="tag">${d.sector}</span>${reviewedBy(d)?'<span class="rev">✔ Reviewed</span>':''}<span style="margin-left:auto"></span>${cmpBtn(d)}<span class="go">View precedent →</span></div><h3>${d.headline}</h3>${sx&&sx.consideration&&sx.consideration!=="—"?`<div class="sum"><b>Structure:</b> ${sx.consideration}</div>`:""}<div class="firms"><b>Counsel:</b> ${d.firms.map(f=>f.name).join(" · ")}</div></div>`;}).join("");
-  $("main").innerHTML=`<div class="vh"><h2>Precedent Transactions</h2><span class="sub">${list.length} comparable deals · filter by type, sector and size — pick 2–4 to compare</span></div>
+  $("main").innerHTML=`<div class="vh"><h2>Precedent Transactions</h2><span class="sub">${list.length} comparable deals · filter by type, sector and size - pick 2–4 to compare</span></div>
     <div class="frow" style="grid-template-columns:1fr 1fr 1fr;max-width:660px;margin-bottom:16px">
       <div class="fld"><label>Deal type</label><select id="pcType">${typeOpts}</select></div>
       <div class="fld"><label>Sector</label><select id="pcSector">${secOpts}</select></div>
       <div class="fld"><label>Deal size</label><select id="pcBucket">${bucketOpts}</select></div></div>
-    <div class="feed">${rows||'<div class="empty">No matching precedents — widen the filters.</div>'}</div>`;
+    <div class="feed">${rows||'<div class="empty">No matching precedents - widen the filters.</div>'}</div>`;
   $("pcType").onchange=e=>{P.type=e.target.value;renderPrecedents();};
   $("pcSector").onchange=e=>{P.sector=e.target.value;renderPrecedents();};
   $("pcBucket").onchange=e=>{P.bucket=e.target.value;renderPrecedents();};

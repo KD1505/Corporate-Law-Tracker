@@ -3,18 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CorpLawTracker — The Decision Engine for India's Corporate Legal Market</title>
-<meta name="description" content="The decision engine for India's corporate legal market — every overnight deal, mandate and regulatory change, verified against primary filings and turned into the pitch to make, the precedent to cite and the documents to re-paper.">
+<title>CorpLawTracker | The Decision Engine for India's Corporate Legal Market</title>
+<meta name="description" content="The decision engine for India's corporate legal market - every overnight deal, mandate and regulatory change, verified against primary filings and turned into the pitch to make, the precedent to cite and the documents to re-paper.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.corplawtracker.com/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="CorpLawTracker">
-<meta property="og:title" content="CorpLawTracker — The Decision Engine for India's Corporate Legal Market">
-<meta property="og:description" content="Verified deal & regulatory intelligence for India's corporate legal market — who advised whom, what it means, and what's on the regulators' desk. Built only on primary filings.">
+<meta property="og:title" content="CorpLawTracker | The Decision Engine for India's Corporate Legal Market">
+<meta property="og:description" content="Verified deal & regulatory intelligence for India's corporate legal market - who advised whom, what it means, and what's on the regulators' desk. Built only on primary filings.">
 <meta property="og:url" content="https://www.corplawtracker.com/">
 <meta property="og:image" content="https://www.corplawtracker.com/logo.svg">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="CorpLawTracker — India's Corporate Deal & Counsel Intelligence">
+<meta name="twitter:title" content="CorpLawTracker | India's Corporate Deal & Counsel Intelligence">
 <meta name="twitter:description" content="Verified deal & regulatory intelligence for India's corporate legal market. Built only on primary filings.">
 <link rel="icon" type="image/svg+xml" href="logo.svg?v=3">
 <link rel="apple-touch-icon" href="logo.svg?v=3">
@@ -494,12 +494,12 @@
   body{font-variant-numeric:tabular-nums}
   .cardval,.tag.val,.crow .cv,.age,.stat .n,.lr .dl,.cmpv,.mrow .mv{font-variant-numeric:tabular-nums;font-feature-settings:"tnum" 1}
 
-  /* Verification ladder — glyph + LABEL + colour (three channels, colour-blind safe) */
+  /* Verification ladder - glyph + LABEL + colour (three channels, colour-blind safe) */
   .real.reported::before{content:"◔ ";font-weight:700}
   .official::before{content:"⛉ ";font-weight:700}
   .priority::before{content:"▲ ";font-size:8px;vertical-align:1px}
 
-  /* Fiducial verification motif — presides over every empty state (themes via currentColor) */
+  /* Fiducial verification motif - presides over every empty state (themes via currentColor) */
   .empty{text-align:center}
   .empty::before{content:"";display:block;width:38px;height:38px;margin:4px auto 14px;opacity:.3;background-color:currentColor;
     -webkit-mask:center/contain no-repeat url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect x="15" y="15" width="20" height="8"/><rect x="15" y="15" width="8" height="20"/><rect x="29" y="41" width="20" height="8"/><rect x="41" y="29" width="8" height="20"/><circle cx="32" cy="32" r="4.4"/></svg>');
@@ -509,7 +509,7 @@
   :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
   ::selection{background:var(--accent);color:#fff}
 
-  /* Confidence meter — quantifies evidentiary strength per deal */
+  /* Confidence meter - quantifies evidentiary strength per deal */
   .confm{display:flex;align-items:center;gap:11px;flex-wrap:wrap;margin:0 0 16px;padding:11px 15px;border:1px solid var(--line);border-radius:var(--r-sm);background:var(--surface2)}
   .confm-l{font-family:var(--mono);font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--ink3)}
   .confm-bar{display:inline-flex;gap:3px}
@@ -591,7 +591,7 @@
 
   /* ================= PERFORMANCE & MOTION =================
      content-visibility lets the browser skip layout/paint for rows that are
-     off-screen — the single biggest scrolling win with a long feed.
+     off-screen - the single biggest scrolling win with a long feed.
      contain-intrinsic-size reserves the right height so the scrollbar
      stays stable and nothing jumps. */
   .crow{content-visibility:auto;contain-intrinsic-size:auto 46px}
@@ -604,7 +604,7 @@
   @keyframes cltspin{to{transform:rotate(360deg)}}
   .pmore{padding:10px 12px 4px;color:var(--ink3);font-size:11px;border-top:1px solid var(--line2);text-align:center;letter-spacing:.02em}
 
-  /* view enters with one soft, fast fade — containers only, never per-row */
+  /* view enters with one soft, fast fade - containers only, never per-row */
   @keyframes cltIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
   .main>.stats,.main>.vh,.main>.toolbar,.main>.feed,.main>.priority,.main>.coverage{
     animation:cltIn .2s cubic-bezier(.2,.7,.3,1) both}
@@ -646,7 +646,7 @@
   </div>
   <div class="search">
     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8b93a3" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
-    <input id="q" type="text" placeholder="Ask a standing question — party, firm, partner, rule…">
+    <input id="q" type="text" placeholder="Ask a standing question - party, firm, partner, rule…">
     <span class="kbd">⌘K</span>
     <button class="advbtn" id="advOpen">Advanced</button>
   </div>
@@ -662,7 +662,134 @@
 
 <div class="wrap">
   <aside id="sidebar"></aside>
-  <div class="main" id="main"><!--PRERENDER-START--><noscript><p style="padding:16px;font:15px/1.6 -apple-system,sans-serif;color:#57534a">CorpLawTracker — verified deal &amp; regulatory intelligence for India&#39;s corporate legal market. Please enable JavaScript to use the live tracker.</p></noscript><!--PRERENDER-END--></div>
+  <div class="main" id="main"><!--PRERENDER-START--><section id="seo-snapshot" style="max-width:820px;margin:0 auto;padding:16px 4px">
+<h1 style="font:600 22px/1.25 Georgia,serif;margin:0 0 4px">Verified deal &amp; regulatory intelligence for India's corporate legal market</h1>
+<p style="color:#57534a;font-size:14px;margin:0 0 6px">Who advised whom, what it means, and what's on the regulators' desk - every item sourced to a primary filing. <a href="/deals.html">All deals</a> · <a href="/firms.html">Law firms</a>.</p>
+<article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/khaitan-advises-tvs-supply-chain-solutions-on-joint-venture-with-ala-group" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Khaitan advises TVS Supply Chain Solutions on joint venture with ALA Group</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">PE / VC · 13 Jun 2026 · Khaitan &amp; Co</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">TVS Supply Chain Solutions Limited is forming a joint venture in India with the ALA Group, an Italy-based aerospace and defence supply-chain integrator. Khaitan &amp; Co advised TVS Supply Chain Solutions on this JV.</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/argus-partners-acts-on-bazaarnow-fundraise" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Argus Partners acts on BazaarNow fundraise</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">PE / VC · 13 Jun 2026 · ₹75 cr</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Quick-commerce startup BazaarNow has raised ₹75 crore from a fundraise led by Peak XV Partners, with participation from existing investors Whiteboard Capital and Antler, along with angel investors. Argus Partners…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/vidhigya-associates-acts-on-hexagon-nutrition-138-crore-ipo" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Vidhigya Associates acts on Hexagon Nutrition ₹138 crore IPO</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">IPO / ECM · 13 Jun 2026 · ₹138 cr · Vidhigya Associates</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Hexagon Nutrition Limited has launched an initial public offering aggregating to ₹138.869 crore, comprising an offer for sale of 30,859,704 equity shares. Vidhigya Associates acted as the sole legal counsel for the…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/tlh-advocates-advises-voltseal-on-pre-series-fundraise" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">TLH Advocates advises VoltSeal on pre-Series fundraise</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">PE / VC · 13 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Bijlibox India Private Limited, dba VoltSeal, has raised funds from a pre-seed fundraise led by Theia Ventures, with participation from Rainmatter by Zerodha, Momentum Capital, Social Alpha and a group of angel…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-SAMMAANCAP-13-Jun-2026160157" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Sammaan Capital Limited: Updates</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 13 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Updates — Sammaan Capital Limited has informed the Exchange regarding 'This is further to our earlier intimations dated December 31, 2025, April 22, 2026 and May 7, 2026 with respect to the proposed Scheme of…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-TERASOFT-13-Jun-2026152205" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Tera Software Limited: Updates</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 13 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Updates — Tera Software Limited has informed the Exchange regarding 'Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015   Acquisition of balance equity shares in…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-JSWENERGY-13-Jun-2026104815" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">JSW Energy Limited: General Updates</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 13 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">General Updates — JSW Energy Limited has informed the Exchange about acquisition of Maruti Clean Coal and Power Limited by the Company</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-AFFLE-13-Jun-2026090249" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Affle 3i Limited: Acquisition</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 13 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Acquisition — Affle 3i Limited has informed the Exchange about Acquisition</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-GEMAROMA-12-Jun-2026192438" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Gem Aromatics Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Gem Aromatics Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-RSL-12-Jun-2026192416" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Rajputana Stainless Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Rajputana Stainless Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-GEOJITFSL-12-Jun-2026192348" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Geojit Financial Services Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Geojit Financial Services Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-ABREL-12-Jun-2026192231" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Aditya Birla Real Estate Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Pilani Investment and Industries Corporation Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-MELSTAR-12-Jun-2026192215" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Melstar Information Technologies Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Melstar Information Technologies Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-ANTELOPUS-12-Jun-2026192157" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Antelopus Selan Energy Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Suniti Kumar Bhat For and on behalf of Blackbuck Energy Investments Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-POWERINDIA-12-Jun-2026192115" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Hitachi Energy India Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Hitachi Energy Ltd (formerly known as Hitachi ABB Power Grids Ltd) has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-ASAHIINDIA-12-Jun-2026192059" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Asahi India Glass Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Asahi India Glass Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-EIDPARRY-12-Jun-2026192038" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">EID Parry India Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Ambadi Investment Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-CHAMBLFERT-12-Jun-2026191955" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Chambal Fertilizers &amp; Chemicals Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Ronson Traders Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-GVTD-12-Jun-2026191922" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">GE Vernova T&amp;D India Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — GE Grid Alliance B.V. has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-CHAMBLFERT-12-Jun-2026191902" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Chambal Fertilizers &amp; Chemicals Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — RTM Investment &amp; Trading Company Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-MMP-12-Jun-2026191847" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">MMP Industries Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — MMP Industries Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-VEDL-12-Jun-2026191840" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Vedanta Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Welter Trading Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-ALPSINDUS-12-Jun-2026191757" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Alps Industries Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Alps Industries Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-LEXUS-12-Jun-2026191737" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Lexus Granito (India) Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Anilkumar Babulal Detroja has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-CHAMBLFERT-12-Jun-2026191710" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Chambal Fertilizers &amp; Chemicals Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — RTM Properties Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-DEEDEV-12-Jun-2026191652" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">DEE Development Engineers Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Krishan Lalit Bansal has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-CHAMBLFERT-12-Jun-2026191634" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Chambal Fertilizers &amp; Chemicals Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — SCM Investment &amp; Trading Company Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-CHAMBLFERT-12-Jun-2026191609" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Chambal Fertilizers &amp; Chemicals Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Sidh Enterprises Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-NTPCGREEN-12-Jun-2026191607" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">NTPC Green Energy Limited: General Updates</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">General Updates — NTPC Green Energy Limited has informed the Exchange about Declaration of Commercial Operation of Project Sixteen Renewable Power Private Limited, A Step Down Subsidiary of Our Joint Venture ONGC NTPC…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-BROOKS-12-Jun-2026191537" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Brooks Laboratories Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Atul Ranchal has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-LOYALTEX-12-Jun-2026191128" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Loyal Textile Mills Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Loyal Textile Mills Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-SPENCERS-12-Jun-2026191058" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Spencer's Retail Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Digidrive Distributors Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-PCBL-12-Jun-2026191008" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">PCBL Chemical Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Digidrive Distributors Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-RPSGVENT-12-Jun-2026190940" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">RPSG VENTURES LIMITED: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Digidrive Distributors Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-CESC-12-Jun-2026190905" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">CESC Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Digidrive Distributors Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-AURUM-12-Jun-2026190848" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Aurum PropTech Limited: Amalgamation/Merger</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Amalgamation/Merger — Aurum PropTech Limited has informed the Exchange about update on Amalgamation/Merger of wholly owned subsidiaries of the Company</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-SSDL-12-Jun-2026190825" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Saraswati Saree Depot Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Saraswati Saree Depot Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-MUNJALAU-12-Jun-2026190751" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Munjal Auto Industries Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Thakur Devi Investments Private Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-LTM-12-Jun-2026190720" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">LTM Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Larsen &amp; Toubro Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of…</p></article><article style="padding:14px 0;border-bottom:1px solid #e9e5db">
+<a href="/#/deal/nse-PATELENG-12-Jun-2026190329" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">Patel Engineering Limited: Disclosure under SEBI Takeover Regulations</h3></a>
+<div style="font-size:12px;color:#8e897c;margin-bottom:6px">M&amp;A / JV · 12 Jun 2026</div>
+<p style="font-size:13.5px;color:#41454c;margin:0">Disclosure under SEBI Takeover Regulations — Janky Patel has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and…</p></article>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Latest Indian corporate deals | CorpLawTracker","itemListElement":[{"@type":"ListItem","position":1,"url":"https://www.corplawtracker.com/d/khaitan-advises-tvs-supply-chain-solutions-on-joint-venture-with-ala-group.html","name":"Khaitan advises TVS Supply Chain Solutions on joint venture with ALA Group"},{"@type":"ListItem","position":2,"url":"https://www.corplawtracker.com/d/argus-partners-acts-on-bazaarnow-fundraise.html","name":"Argus Partners acts on BazaarNow fundraise"},{"@type":"ListItem","position":3,"url":"https://www.corplawtracker.com/d/vidhigya-associates-acts-on-hexagon-nutrition-138-crore-ipo.html","name":"Vidhigya Associates acts on Hexagon Nutrition ₹138 crore IPO"},{"@type":"ListItem","position":4,"url":"https://www.corplawtracker.com/d/tlh-advocates-advises-voltseal-on-pre-series-fundraise.html","name":"TLH Advocates advises VoltSeal on pre-Series fundraise"},{"@type":"ListItem","position":5,"url":"https://www.corplawtracker.com/d/nse-SAMMAANCAP-13-Jun-2026160157.html","name":"Sammaan Capital Limited: Updates"},{"@type":"ListItem","position":6,"url":"https://www.corplawtracker.com/d/nse-TERASOFT-13-Jun-2026152205.html","name":"Tera Software Limited: Updates"},{"@type":"ListItem","position":7,"url":"https://www.corplawtracker.com/d/nse-JSWENERGY-13-Jun-2026104815.html","name":"JSW Energy Limited: General Updates"},{"@type":"ListItem","position":8,"url":"https://www.corplawtracker.com/d/nse-AFFLE-13-Jun-2026090249.html","name":"Affle 3i Limited: Acquisition"},{"@type":"ListItem","position":9,"url":"https://www.corplawtracker.com/d/nse-GEMAROMA-12-Jun-2026192438.html","name":"Gem Aromatics Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":10,"url":"https://www.corplawtracker.com/d/nse-RSL-12-Jun-2026192416.html","name":"Rajputana Stainless Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":11,"url":"https://www.corplawtracker.com/d/nse-GEOJITFSL-12-Jun-2026192348.html","name":"Geojit Financial Services Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":12,"url":"https://www.corplawtracker.com/d/nse-ABREL-12-Jun-2026192231.html","name":"Aditya Birla Real Estate Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":13,"url":"https://www.corplawtracker.com/d/nse-MELSTAR-12-Jun-2026192215.html","name":"Melstar Information Technologies Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":14,"url":"https://www.corplawtracker.com/d/nse-ANTELOPUS-12-Jun-2026192157.html","name":"Antelopus Selan Energy Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":15,"url":"https://www.corplawtracker.com/d/nse-POWERINDIA-12-Jun-2026192115.html","name":"Hitachi Energy India Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":16,"url":"https://www.corplawtracker.com/d/nse-ASAHIINDIA-12-Jun-2026192059.html","name":"Asahi India Glass Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":17,"url":"https://www.corplawtracker.com/d/nse-EIDPARRY-12-Jun-2026192038.html","name":"EID Parry India Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":18,"url":"https://www.corplawtracker.com/d/nse-CHAMBLFERT-12-Jun-2026191955.html","name":"Chambal Fertilizers & Chemicals Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":19,"url":"https://www.corplawtracker.com/d/nse-GVTD-12-Jun-2026191922.html","name":"GE Vernova T&D India Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":20,"url":"https://www.corplawtracker.com/d/nse-CHAMBLFERT-12-Jun-2026191902.html","name":"Chambal Fertilizers & Chemicals Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":21,"url":"https://www.corplawtracker.com/d/nse-MMP-12-Jun-2026191847.html","name":"MMP Industries Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":22,"url":"https://www.corplawtracker.com/d/nse-VEDL-12-Jun-2026191840.html","name":"Vedanta Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":23,"url":"https://www.corplawtracker.com/d/nse-ALPSINDUS-12-Jun-2026191757.html","name":"Alps Industries Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":24,"url":"https://www.corplawtracker.com/d/nse-LEXUS-12-Jun-2026191737.html","name":"Lexus Granito (India) Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":25,"url":"https://www.corplawtracker.com/d/nse-CHAMBLFERT-12-Jun-2026191710.html","name":"Chambal Fertilizers & Chemicals Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":26,"url":"https://www.corplawtracker.com/d/nse-DEEDEV-12-Jun-2026191652.html","name":"DEE Development Engineers Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":27,"url":"https://www.corplawtracker.com/d/nse-CHAMBLFERT-12-Jun-2026191634.html","name":"Chambal Fertilizers & Chemicals Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":28,"url":"https://www.corplawtracker.com/d/nse-CHAMBLFERT-12-Jun-2026191609.html","name":"Chambal Fertilizers & Chemicals Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":29,"url":"https://www.corplawtracker.com/d/nse-NTPCGREEN-12-Jun-2026191607.html","name":"NTPC Green Energy Limited: General Updates"},{"@type":"ListItem","position":30,"url":"https://www.corplawtracker.com/d/nse-BROOKS-12-Jun-2026191537.html","name":"Brooks Laboratories Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":31,"url":"https://www.corplawtracker.com/d/nse-LOYALTEX-12-Jun-2026191128.html","name":"Loyal Textile Mills Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":32,"url":"https://www.corplawtracker.com/d/nse-SPENCERS-12-Jun-2026191058.html","name":"Spencer's Retail Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":33,"url":"https://www.corplawtracker.com/d/nse-PCBL-12-Jun-2026191008.html","name":"PCBL Chemical Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":34,"url":"https://www.corplawtracker.com/d/nse-RPSGVENT-12-Jun-2026190940.html","name":"RPSG VENTURES LIMITED: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":35,"url":"https://www.corplawtracker.com/d/nse-CESC-12-Jun-2026190905.html","name":"CESC Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":36,"url":"https://www.corplawtracker.com/d/nse-AURUM-12-Jun-2026190848.html","name":"Aurum PropTech Limited: Amalgamation/Merger"},{"@type":"ListItem","position":37,"url":"https://www.corplawtracker.com/d/nse-SSDL-12-Jun-2026190825.html","name":"Saraswati Saree Depot Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":38,"url":"https://www.corplawtracker.com/d/nse-MUNJALAU-12-Jun-2026190751.html","name":"Munjal Auto Industries Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":39,"url":"https://www.corplawtracker.com/d/nse-LTM-12-Jun-2026190720.html","name":"LTM Limited: Disclosure under SEBI Takeover Regulations"},{"@type":"ListItem","position":40,"url":"https://www.corplawtracker.com/d/nse-PATELENG-12-Jun-2026190329.html","name":"Patel Engineering Limited: Disclosure under SEBI Takeover Regulations"}]}</script></section>
+<script>/* Progressive enhancement: crawlers (no JS) keep the static content above; browsers
+hide it immediately so the live app renders instead of flashing a static list while data.js loads. */
+(function(){var n=document.getElementById('seo-snapshot');if(n)n.style.display='none';})();</script><!--PRERENDER-END--></div>
   <div class="rail">
     <div class="blk"><h4>Deadlines</h4><div id="raildl"></div></div>
     <div class="blk"><h4>League Table · Deals tracked</h4><div id="league"></div></div>
@@ -674,7 +801,7 @@
 <div class="ovl" id="adv">
   <div class="modal">
     <h3>Advanced search</h3>
-    <div class="msub">Combine filters into a standing question — e.g. every deal where <b>Khaitan &amp; Co</b> met <b>Linklaters</b>, in <b>Energy</b>. Then <b>Save &amp; track</b> it as an alert view.</div>
+    <div class="msub">Combine filters into a standing question - e.g. every deal where <b>Khaitan &amp; Co</b> met <b>Linklaters</b>, in <b>Energy</b>. Then <b>Save &amp; track</b> it as an alert view.</div>
     <div class="frow">
       <div class="fld"><label>Law firm</label><select id="aFirm"></select></div>
       <div class="fld"><label>…together / opposite firm</label><select id="aFirm2"></select></div>
@@ -700,11 +827,11 @@
     <h3>Methodology &amp; verification standards</h3>
     <div class="msub">How items reach this tracker, and exactly what each label asserts.</div>
     <div class="methsec"><h5>What CorpLawTracker is</h5>
-      <p>A <b>decision engine, not a clippings file</b>. Everything here is machine-collected nightly, verified against primary filings where they exist, and labelled honestly when they don't — then turned into the pitch to make, the precedent to cite, and the documents to re-paper.</p></div>
+      <p>A <b>decision engine, not a clippings file</b>. Everything here is machine-collected nightly, verified against primary filings where they exist, and labelled honestly when they don't - then turned into the pitch to make, the precedent to cite, and the documents to re-paper.</p></div>
     <div class="methsec"><h5>Pipeline &amp; cadence</h5>
-      <p>An automated pipeline ingests India's corporate-law trade press and regulator feeds <b>nightly</b>, deduplicates against everything already tracked, structures each item (parties, value, counsel, stage), and links it to the statutes and regulations it engages. The "Updated" date in the header is the date of the last successful run — there is no intraday updating.</p></div>
+      <p>An automated pipeline ingests India's corporate-law trade press and regulator feeds <b>nightly</b>, deduplicates against everything already tracked, structures each item (parties, value, counsel, stage), and links it to the statutes and regulations it engages. The "Updated" date in the header is the date of the last successful run - there is no intraday updating.</p></div>
     <div class="methsec"><h5>✓ Verified</h5>
-      <p>The matter is corroborated by a <b>specific official source</b> — the named company's BSE/NSE filings page, a regulator's order or circular, or a court record — or has been editor-confirmed against such a filing. A generic regulator portal is never treated as verification.</p></div>
+      <p>The matter is corroborated by a <b>specific official source</b> - the named company's BSE/NSE filings page, a regulator's order or circular, or a court record - or has been editor-confirmed against such a filing. A generic regulator portal is never treated as verification.</p></div>
     <div class="methsec"><h5>Reported</h5>
       <p>Sourced to credible trade press (e.g. Bar &amp; Bench Dealstreet) but a specific primary filing has not yet been matched. Treat as press-level reliability and open the source before relying on it.</p></div>
     <div class="methsec"><h5>Official tag</h5>
@@ -751,7 +878,7 @@
     s.textContent=chunks.join("\n");
     document.body.appendChild(s);
   }).catch(function(e){
-    console.error("CorpLawTracker: failed to load app —",e);
+    console.error("CorpLawTracker: failed to load app -",e);
     var m=document.getElementById("main");
     if(m) m.innerHTML='<div style="padding:28px;font:15px/1.6 -apple-system,sans-serif;color:#57534a">Could not load the tracker. Please refresh. <br><small style="color:#8e897c">'+String(e.message||e)+'</small></div>';
   });

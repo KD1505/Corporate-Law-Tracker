@@ -1,7 +1,7 @@
 function dealUrl(id){return location.origin+location.pathname+"#/deal/"+encodeURIComponent(id);}
 function citeText(d){
   const s=primarySrc(d);
-  return `"${d.headline}" — Corporate Law Tracker, ${d.time} (${isVerified(d)?"Verified against official source":"Reported; press source"}). ${s?`Primary source: ${s.name}, ${s.url}. `:""}${dealUrl(d.id)}`;
+  return `"${d.headline}" - Corporate Law Tracker, ${d.time} (${isVerified(d)?"Verified against official source":"Reported; press source"}). ${s?`Primary source: ${s.name}, ${s.url}. `:""}${dealUrl(d.id)}`;
 }
 function openMeth(){$("meth").classList.add("on");}
 
@@ -12,11 +12,11 @@ function openMeth(){$("meth").classList.add("on");}
 const SUBSCRIBE_ENDPOINT = ""; // e.g. "https://formspree.io/f/xxxxxx" or a Beehiiv embed URL
 function briefCtaHtml(){
   if(lsGet("clt_subscribed",false)){
-    return `<div class="brief-cta"><div class="brief-ok"><span class="tick">✓</span><span>You're on the list — the next brief lands tomorrow morning. <a href="#" id="briefManage" style="color:var(--accent)">Use a different email</a></span></div></div>`;
+    return `<div class="brief-cta"><div class="brief-ok"><span class="tick">✓</span><span>You're on the list - the next brief lands tomorrow morning. <a href="#" id="briefManage" style="color:var(--accent)">Use a different email</a></span></div></div>`;
   }
   return `<div class="brief-cta">
-    <h4>Get the brief — the day's Indian corporate deals, before 9am.</h4>
-    <p>One concise, verified email each morning: the deals that moved overnight, who advised whom, and what's on the regulators' desk. Built only on primary filings — the same standard as everything here.</p>
+    <h4>Get the brief - the day's Indian corporate deals, before 9am.</h4>
+    <p>One concise, verified email each morning: the deals that moved overnight, who advised whom, and what's on the regulators' desk. Built only on primary filings - the same standard as everything here.</p>
     <form class="brief-form" id="ctaForm">
       <input id="ctaEmail" type="email" required autocomplete="email" placeholder="you@firm.com" aria-label="Your work email">
       <button type="submit" id="ctaBtn">Get the brief</button>
@@ -33,7 +33,7 @@ function bindBriefCta(){
 function openSub(){
   const b=$("subBody");
   if(lsGet("clt_subscribed",false)){
-    b.innerHTML=`<div class="brief-ok" style="margin-top:6px"><span class="tick">✓</span><span>You're already subscribed — the next brief lands tomorrow morning.</span></div>`;
+    b.innerHTML=`<div class="brief-ok" style="margin-top:6px"><span class="tick">✓</span><span>You're already subscribed - the next brief lands tomorrow morning.</span></div>`;
   }
   $("sub").classList.add("on");
 }
@@ -48,7 +48,7 @@ function submitEmail(value,btn,after){
     // remember locally so the UI reflects the subscription
     const list=lsGet("clt_sub_emails",[]); if(!list.includes(email)){list.push(email);lsSet("clt_sub_emails",list);}
     lsSet("clt_subscribed",true);
-    toast("You're on the list — first brief lands tomorrow morning.");
+    toast("You're on the list - first brief lands tomorrow morning.");
     reset();
     if(after)after();
   };
@@ -56,7 +56,7 @@ function submitEmail(value,btn,after){
     const body=new FormData(); body.append("email",email); body.append("source","corplawtracker.com");
     fetch(SUBSCRIBE_ENDPOINT,{method:"POST",body,headers:{Accept:"application/json"}})
       .then(()=>done())
-      .catch(()=>{ reset(); toast("Couldn't reach the server — please try again."); });
+      .catch(()=>{ reset(); toast("Couldn't reach the server - please try again."); });
   } else {
     // No provider wired yet: store locally and confirm UX.
     console.info("[CorpLawTracker] Captured signup (no endpoint wired yet):",email);
@@ -182,12 +182,12 @@ function dealRow(d){
 function heroHtml(){
   if(lsGet("clt_hero_hidden",false))return "";
   return `<div class="hero">
-    <button class="hx" id="heroX" title="Dismiss — this stays available under Methodology">✕</button>
+    <button class="hx" id="heroX" title="Dismiss - this stays available under Methodology">✕</button>
     <h1>The decision engine for India\u2019s corporate legal market.</h1>
-    <div class="hsub">Every overnight deal, mandate and regulatory change — verified against primary filings, connected to the firms, partners and statutes involved, and turned into actions you can take the same morning.</div>
+    <div class="hsub">Every overnight deal, mandate and regulatory change - verified against primary filings, connected to the firms, partners and statutes involved, and turned into actions you can take the same morning.</div>
     <div class="hprops">
-      <div class="hp"><b>Law-firm partners &amp; BD</b><span>See which companies are raising, buying or restructuring — and which rival firm took the mandate — while the pitch window is still open.</span></div>
-      <div class="hp"><b>In-house counsel</b><span>Every new rule arrives with the deadline and the exact action for your documents — not a circular to decode.</span></div>
+      <div class="hp"><b>Law-firm partners &amp; BD</b><span>See which companies are raising, buying or restructuring - and which rival firm took the mandate - while the pitch window is still open.</span></div>
+      <div class="hp"><b>In-house counsel</b><span>Every new rule arrives with the deadline and the exact action for your documents - not a circular to decode.</span></div>
       <div class="hp"><b>Knowledge &amp; research</b><span>Source-linked, citation-ready deal and statute records that drop straight into a memo.</span></div>
     </div>
     <div class="hcta"><button class="abtn primary" id="heroGo">Set up my practice feed</button><button class="abtn" id="heroMeth">See how we verify</button></div>
@@ -284,15 +284,15 @@ function renderFeed(title,list,sub){
   const body=sorted.length?`<div class="feed">${sorted.slice(0,_feedCount).map(_feedFn).join("")}</div>${feedMoreHtml()}`:`<div class="empty">No matching developments. Clear the search or pick another filter.</div>`;
   const label=route.name==="watch"?"Watchlist":currentLabel();
   $("main").innerHTML=`
-    ${home&&!lsGet("clt_orient_hidden",false)?`<div class="orient"><span><b style="color:var(--ink)">Verified deal &amp; regulatory intelligence for India's corporate market</b> — every item sourced to a primary filing.</span><button class="orientx" id="orientX" aria-label="Dismiss this">✕</button></div>`:""}
-    ${home?`<div class="coverage"><span class="cv-dot"></span><b>${(window.CLT_DATA&&window.CLT_DATA.UPDATED)||'Updated 10 Jun 2026'}</b> · refreshed nightly · ${DEALS.length} matters · built only on primary filings — BSE/NSE · SEBI · RBI · CCI · IBBI · NCLT <span style="color:var(--accent);font-weight:700;cursor:pointer" onclick="openMeth()">Coverage &amp; method →</span></div>`:""}
+    ${home&&!lsGet("clt_orient_hidden",false)?`<div class="orient"><span><b style="color:var(--ink)">Verified deal &amp; regulatory intelligence for India's corporate market</b> - every item sourced to a primary filing.</span><button class="orientx" id="orientX" aria-label="Dismiss this">✕</button></div>`:""}
+    ${home?`<div class="coverage"><span class="cv-dot"></span><b>${(window.CLT_DATA&&window.CLT_DATA.UPDATED)||'Updated 10 Jun 2026'}</b> · refreshed nightly · ${DEALS.length} matters · built only on primary filings - BSE/NSE · SEBI · RBI · CCI · IBBI · NCLT <span style="color:var(--accent);font-weight:700;cursor:pointer" onclick="openMeth()">Coverage &amp; method →</span></div>`:""}
     ${home?`<div class="stats" id="stats"></div>`:""}
     ${home?priorityBand()+deadlineStrip():""}
     <div class="vh"><h2>${title}</h2><span class="sub">${sub||(sorted.length+(sorted.length===1?" item":" items"))}</span>${clear}</div>
     ${toolbarHtml(sorted,{save:anyFilterActive()&&route.name==="feed",sector:route.name==="feed",scope:route.name==="watch"?"watchlist":""})}
     ${body}
     ${home?briefCtaHtml():""}
-    <div class="foot">CorpLawTracker · The decision engine for India's corporate legal market.<br>Headlines &amp; snippets shown under fair-use linking — open the primary source &amp; filings before advising. <span class="methlink" onclick="openMeth()" style="cursor:pointer">Methodology</span></div>`;
+    <div class="foot">CorpLawTracker · The decision engine for India's corporate legal market.<br>Headlines &amp; snippets shown under fair-use linking - open the primary source &amp; filings before advising. <span class="methlink" onclick="openMeth()" style="cursor:pointer">Methodology</span></div>`;
   if(home)buildStats();
   bindCards();bindToolbar(list,label);
   $("main").querySelectorAll("[data-nav]").forEach(n=>n.onclick=()=>go({name:n.dataset.nav}));
@@ -350,7 +350,7 @@ function renderDeal(id){
   const d=DEALS.find(x=>x.id===id); if(!d){go({name:"feed"});return;}
   const t=TY(d.type), st=ST(d.stage);
   const firmsHtml=d.firms.map(f=>{
-    const lead=(f.lead&&f.lead.length)?f.lead.map(l=>`<div class="lead"><b>${l.n}</b> <span class="role">— ${l.role}</span></div>`).join(""):"";
+    const lead=(f.lead&&f.lead.length)?f.lead.map(l=>`<div class="lead"><b>${l.n}</b> <span class="role">- ${l.role}</span></div>`).join(""):"";
     const team=(f.team&&f.team.length)?`<div class="teamline"><span class="lbl">Team:</span> ${f.team.join(" · ")}</div>`:"";
     const note=f.note?`<div class="note" style="margin-top:5px">${f.note}</div>`:"";
     const fn=firmKnown(f.name)?`<span class="fn link" onclick="go({name:'firm',id:'${f.name.replace(/'/g,"\\'")}'})">${f.name}</span>`:`<span class="fn">${f.name}</span>`;
@@ -361,7 +361,7 @@ function renderDeal(id){
   const mergedDocs=[...officialDocs(d),...(d.docs||[])].filter((x,i,a)=>a.findIndex(y=>y.url===x.url)===i);
   const docsHtml=mergedDocs.length?mergedDocs.map(dc=>`<div class="doc" onclick="window.open('${dc.url}','_blank','noopener')"><span class="di">§</span>${dc.label}<span style="margin-left:auto;color:var(--ink3)">↗</span></div>`).join(""):`<div class="note">Primary filings link out via the source article above.</div>`;
   const fw=frameworkOf(d);
-  const fwHtml=fw.length?`<div class="sec" id="sec-framework"><h4>Legal framework · what to review <span style="font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink4)">(${fw.length})</span></h4>${fw.map(x=>`<div class="fwitem ${x.flag||''}"><div class="fwref">${x.ref}${x.flag==="amended"?'<span class="fwtag amd">Recently amended</span>':x.flag==="central"?'<span class="fwtag ctr">Central</span>':''}</div><div class="fwnote">${x.note}</div></div>`).join("")}<div class="note" style="margin-top:10px">General transactional-review references — not legal advice; verify against the current text and the deal's specific facts. <span style="color:var(--accent);font-weight:700;cursor:pointer;font-style:normal" onclick="go({name:'regulatory'})">Open the Regulatory Library →</span></div></div>`:"";
+  const fwHtml=fw.length?`<div class="sec" id="sec-framework"><h4>Legal framework · what to review <span style="font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink4)">(${fw.length})</span></h4>${fw.map(x=>`<div class="fwitem ${x.flag||''}"><div class="fwref">${x.ref}${x.flag==="amended"?'<span class="fwtag amd">Recently amended</span>':x.flag==="central"?'<span class="fwtag ctr">Central</span>':''}</div><div class="fwnote">${x.note}</div></div>`).join("")}<div class="note" style="margin-top:10px">General transactional-review references - not legal advice; verify against the current text and the deal's specific facts. <span style="color:var(--accent);font-weight:700;cursor:pointer;font-style:normal" onclick="go({name:'regulatory'})">Open the Regulatory Library →</span></div></div>`:"";
   const comm=commentaryOf(d);
   const commHtml=comm.length?`<div class="sec" id="sec-commentary"><h4>Commentary &amp; analysis <span style="font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink4)">(${comm.length})</span></h4>${comm.map(c=>`<div class="srcitem"><div class="st"><span class="snm">${c.title}</span><a class="sgo" href="${c.url}" target="_blank" rel="noopener">${c.source}${c.date?` · ${c.date}`:""} ↗</a></div><div class="sblurb">${c.insight}</div></div>`).join("")}</div>`:"";
   const relReg=regItemsFor(d);
@@ -380,7 +380,7 @@ function renderDeal(id){
   const webStrip=webParts.length?`<div class="webstrip"><span class="webstrip-lbl">This deal connects to →</span>${webParts.map(w=>`<span class="webchip" data-scroll="${w[2]}"><b>${w[1]}</b> ${w[0]}</span>`).join("")}</div>`:"";
   const ps=primarySrc(d);
   const snapReasons=(d.scoreReasons&&d.scoreReasons.length)?d.scoreReasons:[];
-  const snapGlance=`${d.parties?`<b>${d.parties}</b> — `:""}${t.label}${d.value&&d.value!=="—"?` · <b>${d.value}</b>`:""} · ${d.sector} · ${d.city} · disclosed ${d.time}.`;
+  const snapGlance=`${d.parties?`<b>${d.parties}</b> - `:""}${t.label}${d.value&&d.value!=="—"?` · <b>${d.value}</b>`:""} · ${d.sector} · ${d.city} · disclosed ${d.time}.`;
   const snapHtml=`<div class="sec"><h4>At a glance</h4><p style="margin:0;font-size:14px">${snapGlance}</p>${snapReasons.length?`<div style="margin-top:11px"><div style="font-family:var(--mono);font-size:10px;letter-spacing:.8px;text-transform:uppercase;color:var(--ink3);margin-bottom:7px">Why it's tracked</div><div style="display:flex;flex-wrap:wrap;gap:6px">${snapReasons.map(r=>`<span class="tag">${r}</span>`).join("")}</div></div>`:""}${ps?`<div style="margin-top:13px"><a class="abtn primary" href="${ps.url}" target="_blank" rel="noopener" style="display:inline-block;text-decoration:none">Read the primary filing ↗</a></div>`:""}</div>`;
   $("main").innerHTML=`
    <span class="back" onclick="go({name:'feed'})">← Back to feed</span>
@@ -415,7 +415,7 @@ function renderDeal(id){
          ${commHtml}
          ${relRegHtml}
          ${firmsHtml?`<div class="sec"><h4>Counsel &amp; teams</h4>${firmsHtml}</div>`:""}
-         <div class="sec"><h4>Sources &amp; official filings · what each adds <span style="font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink4)">(${allSrcs.length})</span>${(()=>{var L=(window.CLT_DATA&&window.CLT_DATA.LINKCHECK)||{};var s=L.deals&&L.deals[d.id];if(s==='v')return ` <span class="lveri" title="Every source link was pinged and confirmed live as of ${L.at}.">✓ Links verified · ${L.at}</span>`;if(s==='i')return ` <span class="lveri warn" title="A source link could not be reached on the last automated check — under review.">⚠ Link under review</span>`;return '';})()}</h4>${srcHtml}</div>
+         <div class="sec"><h4>Sources &amp; official filings · what each adds <span style="font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink4)">(${allSrcs.length})</span>${(()=>{var L=(window.CLT_DATA&&window.CLT_DATA.LINKCHECK)||{};var s=L.deals&&L.deals[d.id];if(s==='v')return ` <span class="lveri" title="Every source link was pinged and confirmed live as of ${L.at}.">✓ Links verified · ${L.at}</span>`;if(s==='i')return ` <span class="lveri warn" title="A source link could not be reached on the last automated check - under review.">⚠ Link under review</span>`;return '';})()}</h4>${srcHtml}</div>
          <div class="sec"><h4>Public documents</h4>${docsHtml}</div>
        </div>
        <div>
