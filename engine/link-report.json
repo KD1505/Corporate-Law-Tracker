@@ -23338,7 +23338,7 @@
       "status": "unknown",
       "code": 999,
       "at": "2026-08-14",
-      "finalUrl": "https://www.linkedin.com/in/kmukhija"
+      "finalUrl": "https://www.linkedin.com/in/kmukhija/"
     },
     "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-landowners-on-revenue-sharing-joint-development-with-puravankara": {
       "status": "ok",
@@ -24329,6 +24329,282 @@
       "code": 200,
       "at": "2026-08-14",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/ELECTHERM_14082026160207_SE_Letter.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/BLUESTARCO_14082026210130_Stock_Exchange-Project_Bombay.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/BLUESTARCO_14082026210130_Stock_Exchange-Project_Bombay.pdf"
+    },
+    "https://www.rbi.org.in/scripts/NotificationUser.aspx?mode=0&dbs=18&docid=92433": {
+      "status": "unknown",
+      "code": 418,
+      "at": "2026-08-14",
+      "finalUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?mode=0&dbs=18&docid=92433"
+    },
+    "https://www.bseindia.com/corporates/annrecent.aspx": {
+      "status": "redirected",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://www.bseindia.com/corporates/annrecent"
+    },
+    "https://www.voltas.com/investors": {
+      "status": "redirected",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://www.voltas.com/pages/investors"
+    },
+    "https://nsearchives.nseindia.com/corporate/BIRLACABLE_14082026205835_SEsubmissionofNOCBCL.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/BIRLACABLE_14082026205835_SEsubmissionofNOCBCL.pdf"
+    },
+    "https://www.sebi.gov.in/sebi_data/takeover.pdf": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-08-14",
+      "finalUrl": "https://www.sebi.gov.in/sebi_data/takeover.pdf"
+    },
+    "https://www.bluestarindia.com/investors": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://www.bluestarindia.com/investors"
+    },
+    "https://www1.nseindia.com/corporates/": {
+      "status": "unknown",
+      "code": 0,
+      "at": "2026-08-14",
+      "finalUrl": "https://www1.nseindia.com/corporates/"
+    },
+    "https://www.surajestates.com/": {
+      "status": "unknown",
+      "code": 0,
+      "at": "2026-08-14",
+      "finalUrl": "https://www.surajestates.com/"
+    },
+    "https://www.sebi.gov.in/legal/regulations/sep-2011/substantial-acquisition-shares-takeovers-regulations-2011_31227.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-08-14",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/sep-2011/substantial-acquisition-shares-takeovers-regulations-2011_31227.html"
+    },
+    "https://www.bseindia.com/corporates/annc_list.aspx?cmppagetype=&cmpcode=532709": {
+      "status": "redirected",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://www.bseindia.com/corporates/annc_list?cmppagetype=&cmpcode=532709"
+    },
+    "https://nsearchives.nseindia.com/corporate/VINDHYATEL_14082026205402_SEsubmissionofNOCVTL.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/VINDHYATEL_14082026205402_SEsubmissionofNOCVTL.pdf"
+    },
+    "https://www.sebi.gov.in/legal/regulations/sep-2024/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_47938.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-08-14",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/sep-2024/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_47938.html"
+    },
+    "https://www.futuregroup.in": {
+      "status": "unknown",
+      "code": 0,
+      "at": "2026-08-14",
+      "finalUrl": "https://www.futuregroup.in"
+    },
+    "https://www.careratings.com": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://www.careratings.com/"
+    },
+    "https://nsearchives.nseindia.com/corporate/GUFIC_14082026195323_finalinvestment.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/GUFIC_14082026195323_finalinvestment.pdf"
+    },
+    "https://www.sebi.gov.in/legal/regulations/sep-2024/securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018_47946.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-08-14",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/sep-2024/securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018_47946.html"
+    },
+    "https://nsearchives.nseindia.com/corporate/NEAPSPW_14082026194628_IntimationBIGFinalSigned.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/NEAPSPW_14082026194628_IntimationBIGFinalSigned.pdf"
+    },
+    "https://www.sebi.gov.in/legal/regulations/feb-2018/securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018_39829.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-08-14",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/feb-2018/securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018_39829.html"
+    },
+    "https://www.ibbi.gov.in/legal-framework": {
+      "status": "unknown",
+      "code": 500,
+      "at": "2026-08-14",
+      "finalUrl": "https://ibbi.gov.in/legal-framework"
+    },
+    "https://nsearchives.nseindia.com/corporate/team_bbodade_14082026164347_AAKASH106.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_14082026164347_AAKASH106.pdf"
+    },
+    "https://www.sebi.gov.in/legal/regulations/dec-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_35639.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-08-14",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/dec-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_35639.html"
+    },
+    "https://nsearchives.nseindia.com/corporate/TCIEXP_14082026190535_STXIntimationTEL.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/TCIEXP_14082026190535_STXIntimationTEL.pdf"
+    },
+    "https://www.sebi.gov.in/legal/regulations/jul-2018/securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018_39949.html": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-08-14",
+      "finalUrl": "https://www.sebi.gov.in/legal/regulations/jul-2018/securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018_39949.html"
+    },
+    "https://nsearchives.nseindia.com/corporate/GBGLOBAL_14082026185815_Merger_Order_GB.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/GBGLOBAL_14082026185815_Merger_Order_GB.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/icccsexecutive_14082026184732_ICC_BM_Outcome_and_Disclosure_14_August_2026_Final.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/icccsexecutive_14082026184732_ICC_BM_Outcome_and_Disclosure_14_August_2026_Final.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/ASTERDM2_14082026183405_SEIntsign.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/ASTERDM2_14082026183405_SEIntsign.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/SANDUR_14082026172837_LtrSEIncorporation.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/SANDUR_14082026172837_LtrSEIncorporation.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/VOLTAS_RB_14082026172448_02_Reg_30_disclosure_signed.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/VOLTAS_RB_14082026172448_02_Reg_30_disclosure_signed.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/SPANDANA_14082026164708_SEOutcomeofBM_14082026.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/SPANDANA_14082026164708_SEOutcomeofBM_14082026.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/NHPC_14082026164646_STX_newspaper_advt_JPCL_NHPC_merger.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/NHPC_14082026164646_STX_newspaper_advt_JPCL_NHPC_merger.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/RAVINDRA_14082026221802_MA_RI_Q1.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/RAVINDRA_14082026221802_MA_RI_Q1.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/BELRISE_14082026195401_BELRISE_Outcome_of_Board_Meeting_14082026.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/BELRISE_14082026195401_BELRISE_Outcome_of_Board_Meeting_14082026.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/SURAJ_14082026190340_Outcome_final.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/SURAJ_14082026190340_Outcome_final.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/BELRISE_14082026185306_BELRISE_Outcome_of_Board_Meeting_14082026.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/BELRISE_14082026185306_BELRISE_Outcome_of_Board_Meeting_14082026.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/STALLION_14082026183756_MAReportofIPOforQ1FY27Signed.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/STALLION_14082026183756_MAReportofIPOforQ1FY27Signed.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/TURTLEMINT_14082026183636_MonitoringAgencyReport.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/TURTLEMINT_14082026183636_MonitoringAgencyReport.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/IHFL_14082026182605_SCL_SE_Intimation_Monitoring_Agency_Report.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/IHFL_14082026182605_SCL_SE_Intimation_Monitoring_Agency_Report.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/ZOTA_14082026181317_QIPMA14082026.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/ZOTA_14082026181317_QIPMA14082026.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/ACJKEL12_14082026181225_Intimation_of_Monitoring_Agency_Report_Q1_FY_26-27_ACJKEL_SIGNED.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/ACJKEL12_14082026181225_Intimation_of_Monitoring_Agency_Report_Q1_FY_26-27_ACJKEL_SIGNED.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/RATNAVEER_14082026172209_MA_Reportr_QIP_merged_signed.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/RATNAVEER_14082026172209_MA_Reportr_QIP_merged_signed.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/BINANIIND_14082026190914_OutcomeFinal.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/BINANIIND_14082026190914_OutcomeFinal.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/CMICABLES_14082026180947_COC_47.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/CMICABLES_14082026180947_COC_47.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/FCEL1_14082026175237_Intimation_to_stock_exchange_2nd_CoC_FCL.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/FCEL1_14082026175237_Intimation_to_stock_exchange_2nd_CoC_FCL.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/DPSCLTD_14082026173513_IntimationofPostponmentofManagement_BoardMeeting14082026.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/DPSCLTD_14082026173513_IntimationofPostponmentofManagement_BoardMeeting14082026.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/DPSCLTD_14082026173513_IntimationofPostponementofManagement_BoardMeeting14082026.pdf": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-08-14",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/DPSCLTD_14082026173513_IntimationofPostponementofManagement_BoardMeeting14082026.pdf"
     }
   },
   "deals": {
@@ -42127,19 +42403,177 @@
       "total": 2,
       "good": 2,
       "dead": 0
+    },
+    "nse-BLUESTARCO-14-Aug-2026210144": {
+      "at": "2026-08-14",
+      "total": 4,
+      "good": 4,
+      "dead": 0
+    },
+    "nse-BIRLACABLE-14-Aug-2026205908": {
+      "at": "2026-08-14",
+      "total": 1,
+      "good": 1,
+      "dead": 0
+    },
+    "nse-VINDHYATEL-14-Aug-2026205424": {
+      "at": "2026-08-14",
+      "total": 1,
+      "good": 1,
+      "dead": 0
+    },
+    "nse-GUFICBIO-14-Aug-2026195341": {
+      "at": "2026-08-14",
+      "total": 1,
+      "good": 1,
+      "dead": 0
+    },
+    "nse-PWL-14-Aug-2026194637": {
+      "at": "2026-08-14",
+      "total": 4,
+      "good": 3,
+      "dead": 0
+    },
+    "nse-AAKASH-14-Aug-2026191928": {
+      "at": "2026-08-14",
+      "total": 2,
+      "good": 1,
+      "dead": 1
+    },
+    "nse-TCIEXP-14-Aug-2026190557": {
+      "at": "2026-08-14",
+      "total": 3,
+      "good": 1,
+      "dead": 1
+    },
+    "nse-GBGLOBAL-14-Aug-2026185948": {
+      "at": "2026-08-14",
+      "total": 1,
+      "good": 1,
+      "dead": 0
+    },
+    "nse-INDIANCARD-14-Aug-2026185028": {
+      "at": "2026-08-14",
+      "total": 4,
+      "good": 3,
+      "dead": 0
+    },
+    "nse-ASTERDM-14-Aug-2026183429": {
+      "at": "2026-08-14",
+      "total": 1,
+      "good": 1,
+      "dead": 0
+    },
+    "nse-SANDUMA-14-Aug-2026172921": {
+      "at": "2026-08-14",
+      "total": 3,
+      "good": 2,
+      "dead": 0
+    },
+    "nse-VOLTAS-14-Aug-2026172619": {
+      "at": "2026-08-14",
+      "total": 3,
+      "good": 3,
+      "dead": 0
+    },
+    "nse-SPANDANA-14-Aug-2026165009": {
+      "at": "2026-08-14",
+      "total": 3,
+      "good": 2,
+      "dead": 0
+    },
+    "nse-NHPC-14-Aug-2026164842": {
+      "at": "2026-08-14",
+      "total": 2,
+      "good": 1,
+      "dead": 0
+    },
+    "nse-RELTD-14-Aug-2026221933": {
+      "at": "2026-08-14",
+      "total": 2,
+      "good": 1,
+      "dead": 0
+    },
+    "nse-BELRISE-14-Aug-2026195435": {
+      "at": "2026-08-14",
+      "total": 2,
+      "good": 2,
+      "dead": 0
+    },
+    "nse-SURAJEST-14-Aug-2026190419": {
+      "at": "2026-08-14",
+      "total": 6,
+      "good": 4,
+      "dead": 0
+    },
+    "nse-BELRISE-14-Aug-2026185713": {
+      "at": "2026-08-14",
+      "total": 2,
+      "good": 2,
+      "dead": 0
+    },
+    "nse-STALLION-14-Aug-2026184835": {
+      "at": "2026-08-14",
+      "total": 1,
+      "good": 1,
+      "dead": 0
+    },
+    "nse-TURTLEMINT-14-Aug-2026183652": {
+      "at": "2026-08-14",
+      "total": 3,
+      "good": 2,
+      "dead": 1
+    },
+    "nse-SAMMAANCAP-14-Aug-2026182633": {
+      "at": "2026-08-14",
+      "total": 3,
+      "good": 1,
+      "dead": 2
+    },
+    "nse-ZOTA-14-Aug-2026181329": {
+      "at": "2026-08-14",
+      "total": 3,
+      "good": 1,
+      "dead": 2
+    },
+    "nse-AEROPLANE-14-Aug-2026181300": {
+      "at": "2026-08-14",
+      "total": 4,
+      "good": 2,
+      "dead": 2
+    },
+    "nse-RATNAVEER-14-Aug-2026172225": {
+      "at": "2026-08-14",
+      "total": 1,
+      "good": 1,
+      "dead": 0
+    },
+    "nse-BILVYAPAR-14-Aug-2026190920": {
+      "at": "2026-08-14",
+      "total": 3,
+      "good": 1,
+      "dead": 0
+    },
+    "nse-CMICABLES-14-Aug-2026180958": {
+      "at": "2026-08-14",
+      "total": 3,
+      "good": 3,
+      "dead": 0
+    },
+    "nse-FCONSUMER-14-Aug-2026175246": {
+      "at": "2026-08-14",
+      "total": 6,
+      "good": 4,
+      "dead": 0
+    },
+    "nse-DPSCLTD-14-Aug-2026173551": {
+      "at": "2026-08-14",
+      "total": 4,
+      "good": 2,
+      "dead": 2
     }
   },
   "history": [
-    {
-      "at": "2026-07-19",
-      "checked": 400,
-      "dead": 83,
-      "redirected": 12,
-      "ok": 95,
-      "unknown": 210,
-      "verifiedDeals": 1836,
-      "issueDeals": 231
-    },
     {
       "at": "2026-07-20",
       "checked": 400,
@@ -42439,6 +42873,16 @@
       "unknown": 103,
       "verifiedDeals": 2416,
       "issueDeals": 550
+    },
+    {
+      "at": "2026-08-14",
+      "checked": 149,
+      "dead": 8,
+      "redirected": 3,
+      "ok": 30,
+      "unknown": 108,
+      "verifiedDeals": 2437,
+      "issueDeals": 557
     }
   ],
   "lastRun": "2026-08-14"
