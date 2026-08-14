@@ -12,11 +12,11 @@ on:
         required: false
         default: ""
       reenrich:
-        description: "Enrich/refresh existing deals with AI. Enter a batch size (e.g. 120); marquee→deep+web-search, rest→AI no-search. Re-run until '0 due'. Needs the ANTHROPIC_API_KEY secret."
+        description: "Enrich/refresh existing deals with AI. Enter a batch size (e.g. 400); exchange filings are classified free, editorial deals get AI (marquee→web-search). Re-run until '0 editorial due'. Needs the ANTHROPIC_API_KEY secret."
         required: false
         default: ""
 
-# allow the built-in token to commit the refreshed index.html
+# allow the built-in token to commit the refreshed files
 permissions:
   contents: write
 
@@ -63,15 +63,21 @@ jobs:
           CLT_REENRICH_AGE: "30"
         run: node reenrich.mjs
 
+      # Generate the crawlable static HTML layer (deal + firm pages, hubs, sitemap, robots,
+      # and the homepage snapshot). Location-robust: works whether prerender.mjs is in
+      # engine/ or at the repo root.
+      - name: Prerender crawlable static pages (SEO)
+        run: node engine/prerender.mjs || node prerender.mjs
+
       - name: Commit & push if changed
         run: |
-          if [[ -n "$(git status --porcelain data.js engine/seen.json engine/discovered-sources.json engine/link-report.json brief.md)" ]]; then
+          if [[ -n "$(git status --porcelain data.js index.html deals.html firms.html sitemap.xml robots.txt d firm engine/seen.json engine/discovered-sources.json engine/link-report.json brief.md)" ]]; then
             git config user.name  "corporate-law-tracker-bot"
             git config user.email "actions@github.com"
-            git add data.js engine/seen.json engine/discovered-sources.json engine/link-report.json brief.md
-            git commit -m "chore: nightly deal update ($(date -u +%Y-%m-%d))"
+            git add data.js index.html deals.html firms.html sitemap.xml robots.txt d firm engine/seen.json engine/discovered-sources.json engine/link-report.json brief.md
+            git commit -m "chore: nightly deal update + prerender ($(date -u +%Y-%m-%d))"
             git push
-            echo "Committed updated data.js — Vercel will redeploy."
+            echo "Committed updated data.js + crawlable pages — Vercel will redeploy."
           else
             echo "No changes to commit."
           fi
