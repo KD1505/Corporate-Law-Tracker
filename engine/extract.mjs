@@ -90,23 +90,12 @@ function extractFirms(hay) {
   return found;
 }
 
-// Official / primary-source pointers by deal type (real regulator / exchange / court portals).
-// The moat: every deal carries the relevant OFFICIAL places to verify it, not just the news link.
-function officialLinks(type) {
-  const EX = [
-    { label: "BSE corporate announcements", url: "https://www.bseindia.com/corporates/ann.html" },
-    { label: "NSE corporate announcements", url: "https://www.nseindia.com/companies-listing/corporate-filings-announcements" },
-  ];
-  switch (type) {
-    case "ipo": return [...EX, { label: "SEBI public issues / DRHPs", url: "https://www.sebi.gov.in/filings/public-issues.html" }];
-    case "ma": return [...EX, { label: "CCI combination orders", url: "https://www.cci.gov.in/combination/orders" }];
-    case "ibc": return [{ label: "IBBI orders", url: "https://ibbi.gov.in/en/orders" }, { label: "NCLT orders", url: "https://nclt.gov.in/order-judgement-date-wise" }];
-    case "reg": return [{ label: "SEBI legal / circulars", url: "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6&smid=0" }, { label: "PIB press releases", url: "https://pib.gov.in/AllReleasem.aspx" }];
-    case "bank": return [{ label: "RBI notifications", url: "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx" }, ...EX];
-    case "lit": return [{ label: "Supreme Court / High Court judgments portal", url: "https://judgments.ecourts.gov.in/" }];
-    default: return EX;
-  }
-}
+// Generic "search-portal" verification links were intentionally removed: they are not deep
+// links, several 404 or have moved, and they cluttered the source list with pointers
+// irrelevant to the specific matter (e.g. a CCI combination link on a SEBI-takeover notice).
+// Free-mode deals now rely on their ACTUAL primary filing (the exchange/company disclosure)
+// as the official source. The link-checker keeps that honest.
+function officialLinks(type) { return []; }
 
 // Spine items (BSE/NSE/CCI/SEBI mandated disclosures) arrive pre-classified with a
 // company, deal-type and the SPECIFIC filing URL. Honour that rather than re-guessing.
@@ -131,10 +120,10 @@ export function extractItem(item) {
   let primary;
   if (isSpine) {
     const specific = !!item.url && !SPINE_PORTAL.test(item.url);
-    primary = { name: `${item.source} filing${item.company ? " — " + item.company : ""}`, url: item.url,
+    primary = { name: `${item.source} filing${item.company ? " - " + item.company : ""}`, url: item.url,
       official: specific, blurb: `Primary ${item.source} disclosure (SEBI LODR Reg. 30 / regulator filing) for this corporate event.` };
   } else {
-    primary = { name: item.source || "Bar & Bench — Dealstreet", url: item.url,
+    primary = { name: item.source || "Bar & Bench - Dealstreet", url: item.url,
       blurb: "Primary source naming the law firms, partners and teams on the matter." };
   }
 
@@ -157,7 +146,7 @@ export function extractItem(item) {
     sources: [
       primary,
       // official/primary verification points (search by the parties)
-      ...official.filter((o) => o.url !== item.url).map((o) => ({ name: o.label, url: o.url, official: true, blurb: "Official source — search by the parties to pull the primary filing/order." })),
+      ...official.filter((o) => o.url !== item.url).map((o) => ({ name: o.label, url: o.url, official: true, blurb: "Official source - search by the parties to pull the primary filing/order." })),
     ],
     docs: (isSpine && item.url && !SPINE_PORTAL.test(item.url) ? [{ label: `${item.source} filing`, url: item.url }] : []).concat(official),
     timeline: [{ d: date, t: item.headline }],

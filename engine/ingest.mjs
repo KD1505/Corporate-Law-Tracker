@@ -50,7 +50,7 @@ export function structureRegulatorFree(item) {
   const d = new Date(item.published).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
   return {
     id: item.id, reg: item.regulator, title: item.headline, status: "Notification", effective: d, deadline: "—",
-    impact: `New ${item.regulator} issuance — review the source for applicability and any deadlines.`,
+    impact: `New ${item.regulator} issuance - review the source for applicability and any deadlines.`,
     action: "Read the notification and assess impact on live mandates and document templates.",
     sources: [{ name: item.regulator, url: item.url, official: true, blurb: `Official ${item.regulator} issuance.` }],
     deals: [], laws: matchLaws(item.headline),
@@ -62,12 +62,12 @@ export function routeArticleFree(item, catalog) {
   const text = (item.headline || "") + " " + (item.body || "");
   const yr = String(new Date(item.published).getFullYear());
   const dealId = matchDealId(text, catalog);
-  if (dealId) return { kind: "deal", payload: { deal: dealId, title: item.headline, source: item.source || "Bar & Bench", url: item.url, date: yr, insight: "Analysis touching this matter — open the source for the full piece." } };
+  if (dealId) return { kind: "deal", payload: { deal: dealId, title: item.headline, source: item.source || "Bar & Bench", url: item.url, date: yr, insight: "Analysis touching this matter - open the source for the full piece." } };
   if (REG_WORDS.test(item.headline)) return { kind: "regulation", payload: {
     id: item.id, reg: "Analysis", title: item.headline, status: "Commentary", effective: yr, deadline: "—",
-    impact: "Commentary on a regulatory development — review for applicability.", action: "Read and assess.",
+    impact: "Commentary on a regulatory development - review for applicability.", action: "Read and assess.",
     sources: [{ name: item.source || "Bar & Bench", url: item.url, official: false, blurb: "Legal analysis." }], deals: [], laws: matchLaws(item.headline) } };
   return { kind: "trend", payload: {
-    id: item.id, title: item.headline, date: yr, summary: "Market commentary — open the source for the analysis.",
+    id: item.id, title: item.headline, date: yr, summary: "Market commentary - open the source for the analysis.",
     sources: [{ name: item.source || "Bar & Bench", url: item.url }], deals: [], laws: matchLaws(item.headline) } };
 }

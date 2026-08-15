@@ -238,7 +238,7 @@ export async function fetchNewItems(existingIds, maxNew = 12) {
       url: s.url,
       headline: s.headline,
       published: s["last-published-at"] || Date.now(),
-      source: "Bar & Bench — Dealstreet",
+      source: "Bar & Bench - Dealstreet",
     });
   }
   // pull additional spines (multi-origin), respecting existing + already-seen this run

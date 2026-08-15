@@ -90,7 +90,7 @@ function mkItem({ id, url, company, head, ts, source, raw }) {
     dealType: cl.type,
     value,
     category: cl.type,
-    body: [head, raw].filter(Boolean).join(" — ").slice(0, 1200),
+    body: [head, raw].filter(Boolean).join(" - ").slice(0, 1200),
     published: ts || Date.now(),
     material: materiality(cl.weight, value, ageDaysOf(ts || Date.now())),
   };

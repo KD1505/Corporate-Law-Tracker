@@ -66,7 +66,15 @@ function page({ title, desc, canonical, jsonld, body, crumbs, noindex }) {
 <link rel="canonical" href="${canonical}">
 <meta property="og:type" content="article"><meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${canonical}">
-<meta property="og:site_name" content="CorpLawTracker"><meta property="og:image" content="${SITE}/logo.svg">
+<meta property="og:site_name" content="CorpLawTracker"><meta property="og:image" content="${SITE}/og.png?v=1">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="CorpLawTracker - verified Indian corporate deal and regulatory intelligence, built only on primary filings.">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(title)}">
+<meta name="twitter:description" content="${esc(desc)}">
+<meta name="twitter:image" content="${SITE}/og.png?v=1">
 <link rel="icon" type="image/svg+xml" href="/logo.svg">
 ${jsonld?`<script type="application/ld+json">${JSON.stringify(jsonld)}</script>`:""}
 <style>
@@ -78,6 +86,10 @@ header.top{display:flex;align-items:center;gap:10px;padding:6px 0 18px;border-bo
 .brand{font-weight:700;letter-spacing:-.01em;color:var(--accent);text-decoration:none;font-size:16px}
 .brand span{color:var(--ink3);font-weight:500}
 .crumbs{font-size:12.5px;color:var(--ink3);margin-bottom:14px}
+.skiplink{position:absolute;left:8px;top:-44px;z-index:99;background:var(--accent);color:#fff;font-size:13px;font-weight:600;padding:9px 15px;border-radius:0 0 8px 8px;text-decoration:none;transition:top .16s ease}
+.skiplink:focus{top:0}
+main:focus{outline:none}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
 .crumbs a{color:var(--ink2);text-decoration:none}
 h1{font-family:Georgia,serif;font-weight:600;font-size:27px;line-height:1.25;letter-spacing:-.01em;margin:0 0 12px}
 h2{font-family:Georgia,serif;font-weight:600;font-size:20px;margin:30px 0 10px}
@@ -98,11 +110,13 @@ a.card:hover .ct{text-decoration:underline}
 .cta{display:inline-block;margin:22px 0 0;background:var(--accent);color:#fff;text-decoration:none;padding:11px 20px;border-radius:6px;font-weight:600;font-size:14px}
 footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:12px;color:var(--ink3)}
 footer a{color:var(--ink2);text-decoration:none}
-</style></head><body><div class="wrap">
-<header class="top"><span class="mark"></span><a class="brand" href="/">CorpLaw<span>Tracker</span></a></header>
-${crumbs?`<div class="crumbs">${crumbs}</div>`:""}
+</style></head><body><a class="skiplink" href="#content">Skip to main content</a><div class="wrap">
+<header class="top" role="banner"><span class="mark" aria-hidden="true"></span><a class="brand" href="/">CorpLaw<span>Tracker</span></a></header>
+${crumbs?`<nav class="crumbs" aria-label="Breadcrumb">${crumbs}</nav>`:""}
+<main id="content" tabindex="-1">
 ${body}
-<footer><b>CorpLawTracker</b> - the decision engine for India's corporate legal market. Research and current-awareness only - not legal advice. Read the primary filing and the current text of the law before advising.<br>
+</main>
+<footer role="contentinfo"><b>CorpLawTracker</b> - the decision engine for India's corporate legal market. Research and current-awareness only - not legal advice. Read the primary filing and the current text of the law before advising.<br>
 <a href="/">Home</a> · <a href="/deals.html">Deals</a> · <a href="/firms.html">Firms</a> · <a href="/methodology.html">Methodology</a> · <a href="/coverage.html">Coverage</a> · <a href="/corrections.html">Corrections</a> · <a href="/about.html">About</a> · <a href="/contact.html">Contact</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></footer>
 </div></body></html>`;
 }
