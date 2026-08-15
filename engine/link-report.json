@@ -27,7 +27,7 @@
     "https://guvnl.com/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://guvnl.com/"
     },
     "https://www.barandbench.com/dealstreet/dsk-legal-advises-omnivore-on-investment-in-manam-chocolate": {
@@ -147,7 +147,7 @@
     "https://www.sebi.gov.in/cgi-bin/cms/cms_main.pl?action=show&lang=eng&menu_id=87": {
       "status": "unknown",
       "code": 530,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.sebi.gov.in/cgi-bin/cms/cms_main.pl?action=show&lang=eng&menu_id=87"
     },
     "https://www.barandbench.com/dealstreet/vidhistras-acts-for-pagani-capital-on-35-million-india-focused-residency-investment-programme": {
@@ -357,7 +357,7 @@
     "https://www.sebi.gov.in/legal/regulations": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.sebi.gov.in/legal/regulations/"
     },
     "https://www.bseindia.com": {
@@ -399,7 +399,7 @@
     "https://pib.gov.in/": {
       "status": "redirected",
       "code": 200,
-      "at": "2026-08-08",
+      "at": "2026-08-15",
       "finalUrl": "https://www.pib.gov.in/index.aspx?reg=48&lang=2"
     },
     "https://www.sebi.gov.in/legal/regulations/feb-2018/securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018_37922.html": {
@@ -441,7 +441,7 @@
     "https://www.irfc.co.in/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.irfc.co.in/"
     },
     "https://www.sebi.gov.in/filings/public-issues.html": {
@@ -495,7 +495,7 @@
     "https://www.rcfltd.com/en": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.rcfltd.com/en"
     },
     "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-tta-act-on-adanis-3050-crore-acquisition-of-intellismart": {
@@ -525,7 +525,7 @@
     "https://www.cci.gov.in/combination/orders": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.cci.gov.in/combination/orders"
     },
     "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-tta-khaitan-co-act-on-hygenco-105-million-fundraise": {
@@ -2421,13 +2421,13 @@
     "https://www.ft.com/content/spacex-ipo-law-firms-fees-june-2026": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.ft.com/content/spacex-ipo-law-firms-fees-june-2026"
     },
     "https://www.reuters.com/finance/stocks/spacex-ipo-75-billion-june-2026": {
       "status": "unknown",
       "code": 401,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.reuters.com/finance/stocks/spacex-ipo-75-billion-june-2026"
     },
     "https://www.barandbench.com/dealstreet/jsa-advises-fairdealmarket-on-15-million-series-a-fundraise": {
@@ -2697,7 +2697,7 @@
     "https://www.hul.co.in/investor-relations": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.hul.co.in/investor-relations"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_16062026123428_26.pdf": {
@@ -2733,7 +2733,7 @@
     "https://www.cci.gov.in/combination": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.cci.gov.in/combination"
     },
     "https://www.barandbench.com/dealstreet/khaitan-co-advises-embio-on-securing-investment-from-true-north": {
@@ -2769,7 +2769,7 @@
     "https://www.mca.gov.in": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.mca.gov.in/"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_16062026121811_SEAMECLTD1.zip": {
@@ -2805,7 +2805,7 @@
     "https://www.energetica-india.net/news/acme-solar-raises-inr-2800-crore-through-qualified-institutions-placement": {
       "status": "ok",
       "code": 200,
-      "at": "2026-08-08",
+      "at": "2026-08-15",
       "finalUrl": "https://www.energetica-india.net/news/acme-solar-raises-inr-2800-crore-through-qualified-institutions-placement"
     },
     "https://www.scconline.com/blog/post/2026/05/29/shardul-amarchand-mangaldas-jefferies-jsw-energy-qip-4000-crore/": {
@@ -2829,7 +2829,7 @@
     "https://www.datacenterdynamics.com/en/news/foxconn-launches-joint-venture-with-hcl-group-for-osat-facility-in-india/": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.datacenterdynamics.com/en/news/foxconn-launches-joint-venture-with-hcl-group-for-osat-facility-in-india/"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_16062026121059_31.pdf": {
@@ -3561,7 +3561,7 @@
     "https://www.irctc.co.in/nform/prop/Investor-Relation": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.irctc.co.in/nform/prop/Investor-Relation"
     },
     "https://www.sebi.gov.in/legal/regulations/nov-1994/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_15642.html": {
@@ -3609,7 +3609,7 @@
     "https://www.nclt.gov.in/": {
       "status": "unknown",
       "code": 400,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.nclt.gov.in/"
     },
     "https://www.sebi.gov.in/sebi_data/regulation/jan-2018/1516349821754_5.pdf": {
@@ -3711,7 +3711,7 @@
     "https://solarsquare.com": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://solarsquare.com"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_19062026182333_RBLBANK_update.pdf": {
@@ -4377,7 +4377,7 @@
     "https://www.bar-and-bench.com": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.bar-and-bench.com"
     },
     "https://nsearchives.nseindia.com/corporate/CONCORD_20062026183731_Intimation_Acquisition_-_FSGE.pdf": {
@@ -5157,7 +5157,7 @@
     "https://ibbi.gov.in/en/orders": {
       "status": "unknown",
       "code": 500,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://ibbi.gov.in/orders"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_24042026122027_49.pdf": {
@@ -5535,7 +5535,7 @@
     "https://www.brecorder.com/news/40426393/ambanis-jio-platforms-eyes-record-38-billion-indian-ipo-sources-say": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.brecorder.com/news/40426393/ambanis-jio-platforms-eyes-record-38-billion-indian-ipo-sources-say"
     },
     "https://www.nseindia.com/corporates/listing_company_info/cActions.jsp?symbol=JSWENERGY": {
@@ -5559,7 +5559,7 @@
     "https://underthemarketlens.substack.com/p/jio-platforms-ipo-filing-all-you-need-to-know": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://underthemarketlens.substack.com/p/jio-platforms-ipo-filing-all-you-need-to-know"
     },
     "https://www.nseindia.com/listing/": {
@@ -5595,7 +5595,7 @@
     "https://www.tipranks.com/news/company-announcements/concord-enviro-shareholders-clear-scheme-of-arrangement-nclt-nod-next": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.tipranks.com/news/company-announcements/concord-enviro-shareholders-clear-scheme-of-arrangement-nclt-nod-next"
     },
     "https://nclt.gov.in": {
@@ -5649,7 +5649,7 @@
     "https://www.mca.gov.in/Ministry/pdf/CompaniesAct2013.pdf": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.mca.gov.in/content/mca/global/en/errorpage.html"
     },
     "https://www.nseindia.com/regulations/listing-regulations": {
@@ -5679,7 +5679,7 @@
     "https://www.mca.gov.in/Ministry/pdf/NCLTRules2016.pdf": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.mca.gov.in/content/mca/global/en/errorpage.html"
     },
     "https://www.nseindia.com/regulations/": {
@@ -5703,7 +5703,7 @@
     "https://nseindia.com/products/corporate-filings": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://nseindia.com/products/corporate-filings"
     },
     "https://www.sebi.gov.in/sebi_data/refdocs/tov_reg2011.pdf": {
@@ -5793,7 +5793,7 @@
     "https://www.sebi.gov.in/legal/regulations/": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.sebi.gov.in/legal/regulations/"
     },
     "https://www.scconline.com/blog/post/2019/12/18/sebi-pc-jeweller-promoters-found-to-be-in-violation-of-insider-trading-regulations-impounded-issued-show-cause-notice/": {
@@ -5811,7 +5811,7 @@
     "https://www.chamblfert.com/investor-relations": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.chamblfert.com/investor-relations"
     },
     "https://www.nseindia.com/corporates/LISTING_RULES.htm": {
@@ -5835,7 +5835,7 @@
     "https://www.texmaco.com/investors/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.texmaco.com/investors/"
     },
     "https://www.icicidirect.com/stocks/agarwal-industrial-corporation-ltd-share-price": {
@@ -5865,13 +5865,13 @@
     "https://www1.nseindia.com/corporates/listscrip.jsp": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www1.nseindia.com/corporates/listscrip.jsp"
     },
     "https://www.nephrocarehealth.com/investor-relations": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.nephrocarehealth.com/investor-relations"
     },
     "https://nseindia.com/market-data/corporate-announcements": {
@@ -6285,7 +6285,7 @@
     "https://www.praxishome.in/investors": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.praxishome.in/investors"
     },
     "https://www.bseindia.com/corporates/corporateNewsSearch.aspx": {
@@ -6297,7 +6297,7 @@
     "https://www.cci.gov.in/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.cci.gov.in/"
     },
     "https://www.sebi.gov.in/legal/regulations/feb-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_28416.html": {
@@ -6339,13 +6339,13 @@
     "https://www.ndtv.com/investors/": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.ndtv.com/investors/"
     },
     "https://www.cci.gov.in/combinations": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.cci.gov.in/combinations"
     },
     "https://www.sebi.gov.in/legal/regulations/jul-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_29993.html": {
@@ -6537,7 +6537,7 @@
     "https://mod.gov.in/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://mod.gov.in/"
     },
     "https://www.sebi.gov.in/legal/regulations.html": {
@@ -6585,7 +6585,7 @@
     "https://www.eichermotors.com/investor-relations/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.eichermotors.com/investor-relations/"
     },
     "https://www.sebi.gov.in/sebi_data/regs/SEBI-Takeover-Code-2011-Nov2018.pdf": {
@@ -6693,7 +6693,7 @@
     "https://www.ifglrefractories.com/investors": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.ifglrefractories.com/investors"
     },
     "https://www.nseindia.com/corporates/corporate_announcements.htm": {
@@ -6765,7 +6765,7 @@
     "https://www.nseindia.com/products/content/corporate_governance/corporateactions/corporate_actions.htm": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.nseindia.com/products/content/corporate_governance/corporateactions/corporate_actions.htm"
     },
     "https://www.sebi.gov.in/legal/regulations/nov-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_47945.html": {
@@ -6813,7 +6813,7 @@
     "https://www.nseindia.com/products/content/corporate/corpo_updates/corpo_updates.htm": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.nseindia.com/products/content/corporate/corpo_updates/corpo_updates.htm"
     },
     "https://www.sebi.gov.in/legal/regulations/dec-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35140.html": {
@@ -7083,7 +7083,7 @@
     "https://www.tipranks.com/news/company-announcements/craftsman-automation-closes-qip-prices-shares-at-rs-8700": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.tipranks.com/news/company-announcements/craftsman-automation-closes-qip-prices-shares-at-rs-8700"
     },
     "https://www.business-standard.com/markets/capital-market-news/craftsman-automation-launches-rs-2-000-cr-qip-floor-price-set-at-rs-8-966-13-share-126061600378_1.html": {
@@ -7137,7 +7137,7 @@
     "https://www.jsalaw.com/deals-matter/qip-by-craftsman-automation-limited/": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.jsalaw.com/deals-matter/qip-by-craftsman-automation-limited/"
     },
     "https://www.business-standard.com/companies/start-ups/ethereal-machines-raises-28-5-million-to-expand-precision-manufacturing-126061100542_1.html": {
@@ -7279,8 +7279,8 @@
       "finalUrl": "https://www.outlookbusiness.com/news/motilal-oswal-to-invest-750-cr-in-jbm-ecolife-mobility"
     },
     "https://lawbeat.in/deal-beat/khaitan-co-advises-on-vedanta-limiteds-historic-demerger-1604119": {
-      "status": "unknown",
-      "code": 0,
+      "status": "ok",
+      "code": 200,
       "at": "2026-08-15",
       "finalUrl": "https://lawbeat.in/deal-beat/khaitan-co-advises-on-vedanta-limiteds-historic-demerger-1604119"
     },
@@ -7317,7 +7317,7 @@
     "https://yourstory.com/2026/06/deeptech-startup-ethereal-machines-285-million-avataar-ventures": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://yourstory.com/2026/06/deeptech-startup-ethereal-machines-285-million-avataar-ventures"
     },
     "https://etherealmachines.com/": {
@@ -7419,7 +7419,7 @@
     "https://www.akshoptifibre.com/investors/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.akshoptifibre.com/investors/"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_13052026115819_37.pdf": {
@@ -7431,7 +7431,7 @@
     "https://www.iiffl.com/": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.iiffl.com/"
     },
     "https://www.sebi.gov.in/legal/regulations/nov-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_36206.html": {
@@ -7533,12 +7533,12 @@
     "https://www.pfc.gov.in/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.pfc.gov.in/"
     },
     "https://lawbeat.in/amp/deal-beat/jsa-advises-peak-xv-partners-on-usd-285-million-series-b-investment-in-ethereal-machines-1604477": {
-      "status": "unknown",
-      "code": 0,
+      "status": "ok",
+      "code": 200,
       "at": "2026-08-15",
       "finalUrl": "https://lawbeat.in/amp/deal-beat/jsa-advises-peak-xv-partners-on-usd-285-million-series-b-investment-in-ethereal-machines-1604477"
     },
@@ -8355,13 +8355,13 @@
     "https://tracxn.com/d/companies/glassbox/__KHFhRPyxIoFu6WThKXZ1Kz2fN7wyYr67PZ1LoJSjpGI": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://tracxn.com/d/companies/glassbox/__KHFhRPyxIoFu6WThKXZ1Kz2fN7wyYr67PZ1LoJSjpGI"
     },
     "https://www.piind.com/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.piind.com/"
     },
     "https://nsearchives.nseindia.com/corporate/GREAVESCOT_23062026215129_GCL_Intimation_for_WOS_Incorporation_updatedsd.pdf": {
@@ -8379,7 +8379,7 @@
     "https://www.kitexonline.com/investor-relations": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.kitexonline.com/investor-relations"
     },
     "https://www.bseindia.com/issuers/companyreport.aspx": {
@@ -8397,7 +8397,7 @@
     "https://bar-and-bench.com": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://bar-and-bench.com"
     },
     "https://www.sebi.gov.in/legal/regulations/jan-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_29406.html": {
@@ -9261,7 +9261,7 @@
     "https://www.mca.gov.in/": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.mca.gov.in/"
     },
     "https://www.nseindia.com/corporates/corpAnnounce.jsp": {
@@ -19695,7 +19695,7 @@
     "https://tracxn.com/d/companies/solinas-integrity/__YlvK5C6NSXLkpoxNyv3ao0-tTPDhW8vMJoL0S-aoBVA": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://tracxn.com/d/companies/solinas-integrity/__YlvK5C6NSXLkpoxNyv3ao0-tTPDhW8vMJoL0S-aoBVA"
     },
     "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-lexygen-us-firms-act-on-standexs-acquisition-of-amrannarayan-group": {
@@ -19725,7 +19725,7 @@
     "https://tracxn.com/d/companies/pinegap/__3nr74MKmRJRoLVmTFd7M1iRo6vRm9RQxHCs2WcTu0yg": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://tracxn.com/d/companies/pinegap/__3nr74MKmRJRoLVmTFd7M1iRo6vRm9RQxHCs2WcTu0yg"
     },
     "https://www.barandbench.com/law-firms/dealstreet/novojuris-legal-advises-pinegapai-series-a-fundraise": {
@@ -19755,7 +19755,7 @@
     "https://www.sec.gov/Archives/edgar/data/310354/000143774925000976/ex_764498.htm": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.sec.gov/Archives/edgar/data/310354/000143774925000976/ex_764498.htm"
     },
     "https://allaboutbelgaum.com/news/2000-crore-investment-puts-belagavi-foundry-sector-in-national-spotlight/": {
@@ -19779,7 +19779,7 @@
     "https://www.sec.gov/Archives/edgar/data/0000310354/000143774926022576/ex_983979.htm": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.sec.gov/Archives/edgar/data/0000310354/000143774926022576/ex_983979.htm"
     },
     "https://www.chamberlainlaw.com/news-news-chamberlain-sale-transactions-to-standex.html": {
@@ -20193,7 +20193,7 @@
     "https://mca.gov.in/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://mca.gov.in/"
     },
     "https://www.sebi.gov.in/legal/regulations/feb-2018/sebi-issue-of-capital-and-disclosure-requirements-regulations-2018_39730.html": {
@@ -20277,7 +20277,7 @@
     "https://mca.gov.in/mcaservices/services/roc-filings": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://mca.gov.in/mcaservices/services/roc-filings"
     },
     "https://www.sebi.gov.in/legal/regulations/dec-2015/sebi-listing-obligations-and-disclosure-requirements-regulations-2015_44143.html": {
@@ -20385,7 +20385,7 @@
     "https://www.mca.gov.in/Ministry/actsbills/pdf/The_Companies_Act_2013.pdf": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.mca.gov.in/content/mca/global/en/errorpage.html"
     },
     "https://www.bseindia.com/corporates/announcement.html": {
@@ -20403,7 +20403,7 @@
     "https://www.mca.gov.in/Ministry/pdf/InsolvencyBankruptcyCode2016.pdf": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.mca.gov.in/content/mca/global/en/errorpage.html"
     },
     "https://www.sebi.gov.in/legal/regulations/jun-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_34621.html": {
@@ -20427,7 +20427,7 @@
     "https://www.mca.gov.in/Ministry/pdf/TheInsolvencyandBankruptcyCode2016.pdf": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.mca.gov.in/content/mca/global/en/errorpage.html"
     },
     "https://www.aequs.com/investor-relations": {
@@ -20499,7 +20499,7 @@
     "https://www1.nseindia.com/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www1.nseindia.com/"
     },
     "https://www.nseindia.com/corporates_action/corporate_action.html": {
@@ -20511,7 +20511,7 @@
     "https://www1.nseindia.com/corporates/listOfDisclosures.html": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www1.nseindia.com/corporates/listOfDisclosures.html"
     },
     "https://www.sebi.gov.in/legal/regulations/nov-2011/sebi-substantial-acquisition-of-shares-and-takeovers-regulations-2011_38097.html": {
@@ -20523,7 +20523,7 @@
     "https://www.nseindia.com/products/content/corporate/corporate_info/corporate_info.htm": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.nseindia.com/products/content/corporate/corporate_info/corporate_info.htm"
     },
     "https://www.bseindia.com/corporates/corporate_search.html": {
@@ -20541,7 +20541,7 @@
     "https://www.sgmart.co.in/investor-relations": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.sgmart.co.in/investor-relations"
     },
     "https://www.nseindia.com/corporates/content/corporate_disclosures.htm": {
@@ -20667,7 +20667,7 @@
     "https://ipiis.auctiontiger.net/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://ipiis.auctiontiger.net/"
     },
     "https://www.nseindia.com/corporates/listing_major_events.htm": {
@@ -20727,7 +20727,7 @@
     "https://www.nclt.gov.in": {
       "status": "unknown",
       "code": 400,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.nclt.gov.in/"
     },
     "https://powermin.gov.in/": {
@@ -20769,7 +20769,7 @@
     "https://www.nclt.gov.in/case/detail/20260615-001234": {
       "status": "unknown",
       "code": 400,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.nclt.gov.in/case/detail/20260615-001234"
     },
     "https://www.bseindia.com/corporates/announcements/": {
@@ -20943,13 +20943,13 @@
     "https://www.cochinshipyard.com": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.cochinshipyard.com"
     },
     "https://www.rattanindiaenterprises.com/investor-relations/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.rattanindiaenterprises.com/investor-relations/"
     },
     "https://www.sebi.gov.in/legal/regulations/sep-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_57571.html": {
@@ -20961,7 +20961,7 @@
     "https://www.aucourts.gov.in/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.aucourts.gov.in/"
     },
     "https://www.nseindia.com/corporate/index_corporate.html": {
@@ -20991,7 +20991,7 @@
     "https://www.business-standard.com or https://economictimes.indiatimes.com": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.business-standard.com or https://economictimes.indiatimes.com"
     },
     "https://www.nseindia.com/corporates/announcements": {
@@ -21009,7 +21009,7 @@
     "https://www.tubeinvestments.com/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.tubeinvestments.com/"
     },
     "https://www.sebi.gov.in/legal/regulations/sebi-substantial-acquisition-shares-and-takeovers-regulations-2011.html": {
@@ -21027,7 +21027,7 @@
     "https://hathwayindia.com/investors": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://hathwayindia.com/investors"
     },
     "https://www.sebi.gov.in/sebi_data/regsanddocs/l/regulation_takeover_2011.pdf": {
@@ -21039,7 +21039,7 @@
     "https://www.nseindia.com/products/content/debt/debt_market.htm": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.nseindia.com/products/content/debt/debt_market.htm"
     },
     "https://www.jsw.in/investor-relations": {
@@ -21051,7 +21051,7 @@
     "https://www.nseindia.com/products/content/equities/equities.htm": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.nseindia.com/products/content/equities/equities.htm"
     },
     "https://www.sebi.gov.in/legal/regulations/takeover-code.html": {
@@ -21093,7 +21093,7 @@
     "https://www.chambalfertilizers.com/investors/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.chambalfertilizers.com/investors/"
     },
     "https://www.ril.com/investor": {
@@ -21111,7 +21111,7 @@
     "https://www.rategain.com/investor-relations": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.rategain.com/investor-relations"
     },
     "https://www.nseindia.com/regulations/content/nse_regulations.htm": {
@@ -21129,7 +21129,7 @@
     "https://nclat.auctiontiger.net": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://nclat.auctiontiger.net"
     },
     "https://www.nseindia.com/corporates/tcf_inspg.jsp?symbol=KGL": {
@@ -21141,7 +21141,7 @@
     "https://www.sterlitetech.com/en/investors": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.sterlitetech.com/en/investors"
     },
     "https://www.sebi.gov.in/legal/regulations/2011/takeovers-regulations-2011": {
@@ -21219,7 +21219,7 @@
     "https://investor.angelone.in/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://investor.angelone.in/"
     },
     "https://www.sebi.gov.in/legal/regulations/dec-1997/substantial-acquisition-of-shares-and-takeovers-regulations-2011_41834.html": {
@@ -21231,7 +21231,7 @@
     "https://www.vguard.in/investor-relations": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.vguard.in/investor-relations"
     },
     "https://www.sebi.gov.in/legal/regulations/dec-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35941.html": {
@@ -21243,13 +21243,13 @@
     "https://www.cci.gov.in": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.cci.gov.in"
     },
     "https://www.exideindustries.com/investors": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.exideindustries.com/investors"
     },
     "https://www.bharatseats.com/investor-relations/": {
@@ -21273,7 +21273,7 @@
     "https://neaps.sebi.gov.in": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://neaps.sebi.gov.in"
     },
     "https://www.sebi.gov.in/legal/regulations/dec-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_32863.html": {
@@ -21333,7 +21333,7 @@
     "https://www.sebi.gov.in/legal/circulars": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.sebi.gov.in/legal/circulars/"
     },
     "https://www.sebi.gov.in/legal/regulations/sep-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_31951.html": {
@@ -21459,7 +21459,7 @@
     "https://www.sebi.gov.in/media/press-releases/": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.sebi.gov.in/media/press-releases/"
     },
     "https://www.sebi.gov.in/legal/regulations/dec-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_27949.html": {
@@ -21993,7 +21993,7 @@
     "https://www.marketscreener.com/news/aidin-technologies-private-limited-announced-that-it-expects-to-receive-inr-780-46416-million-in-fun-ce7f58d9d880f524": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.marketscreener.com/news/aidin-technologies-private-limited-announced-that-it-expects-to-receive-inr-780-46416-million-in-fun-ce7f58d9d880f524"
     },
     "https://app.dealroom.co/news/feed/indo-national-acquires-31-82-stake-in-defence-electronics-firm-aidin-technologies-for-4-2m": {
@@ -22005,7 +22005,7 @@
     "https://tracxn.com/d/companies/aidin-technologies/__GyM_yY9MBHhHsW-cSi73sZ7vDy4U1wjPWWzJrmq9xRM": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://tracxn.com/d/companies/aidin-technologies/__GyM_yY9MBHhHsW-cSi73sZ7vDy4U1wjPWWzJrmq9xRM"
     },
     "https://www.bseindia.com/corporates/Aurobindo%20Pharma%20Limited/equity/": {
@@ -22083,7 +22083,7 @@
     "https://www.adityabirlarealnestate.com/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.adityabirlarealnestate.com/"
     },
     "https://nsearchives.nseindia.com/corporate/WAAREE_13082026192221_StockexchangeJVagreement_signed.pdf": {
@@ -22335,7 +22335,7 @@
     "https://www.lodha.com/investor-relations": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.lodha.com/investor-relations"
     },
     "https://www.bseindia.com/hotnews/": {
@@ -22359,7 +22359,7 @@
     "https://wakefit.co/investor-relations": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.wakefit.co/investor-relations"
     },
     "https://www.bseindia.com/stock/GUJALKALI": {
@@ -23283,7 +23283,7 @@
     "https://rollingstockworld.com/components/italian-lucchini-rs-acquires-a-stake-in-jupiter-wagons-facility-for-railwheel-production/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://rollingstockworld.com/components/italian-lucchini-rs-acquires-a-stake-in-jupiter-wagons-facility-for-railwheel-production/"
     },
     "https://www.globalrailwayreview.com/lucchini-rs-enters-indian-rail-market-through-strategic-partnership-with-jupiter-wagons/2136147.article": {
@@ -23337,7 +23337,7 @@
     "https://www.linkedin.com/in/kmukhija/": {
       "status": "unknown",
       "code": 999,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.linkedin.com/in/kmukhija"
     },
     "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-landowners-on-revenue-sharing-joint-development-with-puravankara": {
@@ -23391,7 +23391,7 @@
     "https://www.lexology.com/library/detail.aspx?g=3a41eb6b-29f1-4b6c-89a3-426eb0a62c62": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.lexology.com/library/detail.aspx?g=3a41eb6b-29f1-4b6c-89a3-426eb0a62c62"
     },
     "https://scanx.trade/stock-market-news/companies/belding-india-acquires-evolve-it-solutions-for-10-75-crore/46372602": {
@@ -23451,7 +23451,7 @@
     "https://ackodrive.com/news/sml-mahindra-to-acquire-mahindra-truck-and-bus-division-for-rs-525-crore/": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://ackodrive.com/news/sml-mahindra-to-acquire-mahindra-truck-and-bus-division-for-rs-525-crore/"
     },
     "https://www.bseindia.com/stock/company/SPENCER/540220/": {
@@ -23475,7 +23475,7 @@
     "https://www.thermalcontrolmagazine.com/acquisition/belding-india-acquires-evolve-it-solutions/": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.thermalcontrolmagazine.com/acquisition/belding-india-acquires-evolve-it-solutions/"
     },
     "https://www.bseindia.com/corporates/page.aspx?pageid=7636": {
@@ -23613,7 +23613,7 @@
     "https://www.greavescotton.com/investor-relations/": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.greavescotton.com/investor-relations/"
     },
     "https://nsearchives.nseindia.com/corporate/GREAVESCOT_14082026143836_GCL_Excel_SEintimationsd.pdf": {
@@ -23625,7 +23625,7 @@
     "https://www.tatasteelinvestors.com/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.tatasteelinvestors.com/"
     },
     "https://nsearchives.nseindia.com/corporate/RAINBOWUSER_14082026134520_UpdateNellore.pdf": {
@@ -23655,7 +23655,7 @@
     "https://www.cercind.gov.in": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.cercind.gov.in"
     },
     "https://jamshedpurfc.com/": {
@@ -23739,7 +23739,7 @@
     "https://www.irfc.gov.in/ or https://www.nseindia.com/corporate/securities.html": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.irfc.gov.in/ or https://www.nseindia.com/corporate/securities.html"
     },
     "https://www.sebi.gov.in/legal/regulations/may-2011/sebi-substantial-acquisition-of-shares-and-takeovers-regulations-2011_34626.html": {
@@ -23781,7 +23781,7 @@
     "https://www.aperc.gov.in": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.aperc.gov.in"
     },
     "https://www.inoxwind.com/investor-relations/stock-exchange-announcements": {
@@ -23799,7 +23799,7 @@
     "https://www.chambalfertilizers.com": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.chambalfertilizers.com"
     },
     "https://pib.gov.in/ or https://indianrailways.gov.in/": {
@@ -23949,7 +23949,7 @@
     "https://www.gofashion.in/investor-relations": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://daaz.com/lander?name=gofashion.in"
     },
     "https://www.sebi.gov.in/legal/regulations/may-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_38419.html": {
@@ -23961,13 +23961,13 @@
     "https://www.sec.gov/cgi-bin/browse-edgar": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.sec.gov/cgi-bin/browse-edgar"
     },
     "https://www.auropharma.com/investor-relations": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.auropharma.com/investor-relations"
     },
     "https://www.sebi.gov.in/sebi_data/commondocs/Takeover_Regulations_Nov_2011_1574062843197.pdf": {
@@ -23985,7 +23985,7 @@
     "https://www1.nseindia.com/corporate/listing_company.html": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www1.nseindia.com/corporate/listing_company.html"
     },
     "https://www.sebi.gov.in/legal/regulations/sep-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_37650.html": {
@@ -24339,7 +24339,7 @@
     "https://www.rbi.org.in/scripts/NotificationUser.aspx?mode=0&dbs=18&docid=92433": {
       "status": "unknown",
       "code": 418,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.rbi.org.in/scripts/NotificationUser.aspx?mode=0&dbs=18&docid=92433"
     },
     "https://www.bseindia.com/corporates/annrecent.aspx": {
@@ -24375,13 +24375,13 @@
     "https://www1.nseindia.com/corporates/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www1.nseindia.com/corporates/"
     },
     "https://www.surajestates.com/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.surajestates.com/"
     },
     "https://www.sebi.gov.in/legal/regulations/sep-2011/substantial-acquisition-shares-takeovers-regulations-2011_31227.html": {
@@ -24411,7 +24411,7 @@
     "https://www.futuregroup.in": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://www.futuregroup.in"
     },
     "https://www.careratings.com": {
@@ -24447,7 +24447,7 @@
     "https://www.ibbi.gov.in/legal-framework": {
       "status": "unknown",
       "code": 500,
-      "at": "2026-08-14",
+      "at": "2026-08-15",
       "finalUrl": "https://ibbi.gov.in/legal-framework"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_14082026164347_AAKASH106.pdf": {
@@ -24623,6 +24623,12 @@
       "code": 200,
       "at": "2026-08-15",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/RPGLIFE_15082026005010_Intimation_BTA.pdf"
+    },
+    "https://nclt.gov.in/ [search: Simbhaoli Sugars Limited - CIRP]": {
+      "status": "dead",
+      "code": 404,
+      "at": "2026-08-15",
+      "finalUrl": "https://nclt.gov.in/%20[search:%20Simbhaoli%20Sugars%20Limited%20-%20CIRP]"
     }
   },
   "deals": {
@@ -29465,7 +29471,7 @@
     "khaitan-co-advises-on-vedantas-demerger-into-4-entities": {
       "at": "2026-08-15",
       "total": 8,
-      "good": 7,
+      "good": 8,
       "dead": 0
     },
     "elp-acts-on-polycabs-investment-in-continuum-green-energy-for-captive-consumption": {
@@ -29489,7 +29495,7 @@
     "aritra-partners-jsa-act-on-ethereal-machines-285-million-series-b-fundraise": {
       "at": "2026-08-15",
       "total": 7,
-      "good": 5,
+      "good": 6,
       "dead": 0
     },
     "anagram-partners-advises-ctrls-on-c1-billion-partnership-with-cpp-investments-for-datacenter-business": {
@@ -42611,16 +42617,6 @@
   },
   "history": [
     {
-      "at": "2026-07-23",
-      "checked": 400,
-      "dead": 17,
-      "redirected": 3,
-      "ok": 380,
-      "unknown": 0,
-      "verifiedDeals": 1980,
-      "issueDeals": 222
-    },
-    {
       "at": "2026-07-24",
       "checked": 400,
       "dead": 2,
@@ -42917,6 +42913,16 @@
       "redirected": 6,
       "ok": 376,
       "unknown": 2,
+      "verifiedDeals": 2440,
+      "issueDeals": 557
+    },
+    {
+      "at": "2026-08-15",
+      "checked": 113,
+      "dead": 1,
+      "redirected": 1,
+      "ok": 3,
+      "unknown": 108,
       "verifiedDeals": 2440,
       "issueDeals": 557
     }
