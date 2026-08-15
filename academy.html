@@ -3,10 +3,46 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CorpLaw Academy — Know what to know</title>
-<meta name="description" content="Pick your goal — land a Tier-1 job, prep for an interview at a specific firm, or survive your first years — and get a clear reference list of what you should know, built from live market data.">
+<title>CorpLaw Academy - Know what to know</title>
+<meta name="description" content="Pick your goal - land a Tier-1 job, prep for an interview at a specific firm, or survive your first years - and get a clear reference list of what you should know, built from live market data.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://www.corplawtracker.com/academy.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CorpLawTracker">
+<meta property="og:title" content="CorpLaw Academy | Know what to know">
+<meta property="og:description" content="Pick your goal - land a Tier-1 job, prep for an interview at a specific firm, or survive your first years - and get a clear reference list of what you should know, built from live market data.">
+<meta property="og:url" content="https://www.corplawtracker.com/academy.html">
+<meta property="og:image" content="https://www.corplawtracker.com/og.png?v=1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.corplawtracker.com/og.png?v=1">
 <link rel="icon" type="image/svg+xml" href="logo.svg">
-<script src="data.js"></script>
+<script>
+/* Academy reads the same corpus as the app. Load the slim index (about 2 MB)
+   rather than the full data.js (about 10 MB); fall back to data.js if the
+   index is unavailable, so the page never renders empty. */
+(function(){
+  function expand(r){ return { id:r.id, headline:r.h||"", sum:r.s||"", type:r.t||"",
+    time:r.d||"", value:r.v||"\u2014",
+    firms:(r.f||[]).map(function(n){return {name:n};}),
+    sources:(r.src||[]).map(function(x){return {name:x.n,url:x.u,official:!!x.o};}) }; }
+  function ready(){ if(typeof window.onCltData==="function") window.onCltData(); }
+  fetch("data/index.json")
+    .then(function(r){ if(!r.ok) throw new Error("index HTTP "+r.status); return r.json(); })
+    .then(function(j){
+      if(!j||!j.deals||!j.deals.length) throw new Error("empty index");
+      window.CLT_DATA={ DEALS:j.deals.map(expand), UPDATED:j.updated||"" };
+      ready();
+    })
+    .catch(function(){
+      var t=document.createElement("script");
+      t.src="data.js"; t.onload=ready;
+      t.onerror=function(){ window.CLT_DATA=window.CLT_DATA||{DEALS:[]}; ready(); };
+      document.head.appendChild(t);
+    });
+})();
+</script>
 <style>
   :root{
     --bg:#f3f1ec;--surface:#fff;--surface2:#faf8f3;--ink:#16181d;--ink2:#474d59;--ink3:#838995;--ink4:#aeb3bd;
@@ -110,7 +146,7 @@
   <div class="hero">
     <div class="mono" style="margin-bottom:18px">Built from the data the tracker already gathers</div>
     <h1>Tell us your goal. We'll tell you <em>what to know.</em></h1>
-    <p class="lede">The tracker gives you the market and lets you draw your own conclusions. The Academy does the same for your career: pick a goal and get a clear, honest <b>reference list</b> of what a good candidate or junior actually knows — no fluff, no motivational filler.</p>
+    <p class="lede">The tracker gives you the market and lets you draw your own conclusions. The Academy does the same for your career: pick a goal and get a clear, honest <b>reference list</b> of what a good candidate or junior actually knows - no fluff, no motivational filler.</p>
   </div>
 
   <div class="goals" id="goals">
@@ -123,36 +159,36 @@
     <!-- ============ GOAL 1 : LAND A JOB ============ -->
     <div class="panel on" id="p-job">
       <div class="ph"><span class="pn">01</span><h2>Land a Tier-1 job</h2></div>
-      <p class="pintro">Tier-1 firms don't expect you to know how to run a deal — they expect <b>commercial awareness, genuine interest, and the practical foundations</b>. This is the knowledge that separates a candidate who "did well in moots" from one who sounds like they already belong in the room.</p>
+      <p class="pintro">Tier-1 firms don't expect you to know how to run a deal - they expect <b>commercial awareness, genuine interest, and the practical foundations</b>. This is the knowledge that separates a candidate who "did well in moots" from one who sounds like they already belong in the room.</p>
 
       <div class="block"><div class="bh"><span class="bn">A</span><h3>Know the market (this is where the tracker is your edge)</h3></div>
         <ul class="ck">
-          <li>Be able to <b>discuss 3–4 recent deals</b> intelligently — the parties, the structure, why it happened, which firm advised. Use the dashboard's deal feed to pick them.</li>
-          <li>Know which <b>practice areas are growing</b> right now (e.g. capital markets, restructuring, data protection) and why — interviewers test whether you follow the market.</li>
-          <li>Know the <b>major firms and their strengths</b> — who's known for PE, who for disputes, who for projects. (Goal 02 gives you this firm-by-firm.)</li>
+          <li>Be able to <b>discuss 3–4 recent deals</b> intelligently - the parties, the structure, why it happened, which firm advised. Use the dashboard's deal feed to pick them.</li>
+          <li>Know which <b>practice areas are growing</b> right now (e.g. capital markets, restructuring, data protection) and why - interviewers test whether you follow the market.</li>
+          <li>Know the <b>major firms and their strengths</b> - who's known for PE, who for disputes, who for projects. (Goal 02 gives you this firm-by-firm.)</li>
           <li>Track <b>regulatory developments</b> that drive work: SEBI changes, the DPDP Act, IBC amendments, competition thresholds.</li>
         </ul>
       </div>
 
       <div class="block"><div class="bh"><span class="bn">B</span><h3>Commercial awareness</h3></div>
         <ul class="ck two">
-          <li>Understand <b>how a deal makes money</b> for the client — the commercial logic behind the legal work.</li>
+          <li>Understand <b>how a deal makes money</b> for the client - the commercial logic behind the legal work.</li>
           <li>Read the business press (ET, Mint, Business Standard) and be able to form a <b>view</b>, not just recite facts.</li>
-          <li>Understand a client's <b>business and sector</b> — what they do, how they compete, what threatens them.</li>
-          <li>Know the difference between <b>legal risk and commercial pragmatism</b> — partners value judgment, not maximalism.</li>
+          <li>Understand a client's <b>business and sector</b> - what they do, how they compete, what threatens them.</li>
+          <li>Know the difference between <b>legal risk and commercial pragmatism</b> - partners value judgment, not maximalism.</li>
         </ul>
       </div>
 
       <div class="block"><div class="bh"><span class="bn">C</span><h3>The legal foundations that actually recur in practice</h3></div>
         <ul class="ck two">
-          <li><b>Companies Act</b> — board/shareholder approvals, related-party basics.</li>
-          <li><b>SEBI / SAST / ICDR / LODR</b> — the building blocks of listed-company deals.</li>
-          <li><b>FEMA</b> — foreign investment basics (most deals have a cross-border angle).</li>
-          <li><b>IBC</b> — the insolvency timeline and why it reshaped restructuring.</li>
-          <li><b>Competition Act</b> — when a deal needs CCI approval.</li>
-          <li><b>Contract Act</b> — indemnities, conditions, boilerplate that matters.</li>
+          <li><b>Companies Act</b> - board/shareholder approvals, related-party basics.</li>
+          <li><b>SEBI / SAST / ICDR / LODR</b> - the building blocks of listed-company deals.</li>
+          <li><b>FEMA</b> - foreign investment basics (most deals have a cross-border angle).</li>
+          <li><b>IBC</b> - the insolvency timeline and why it reshaped restructuring.</li>
+          <li><b>Competition Act</b> - when a deal needs CCI approval.</li>
+          <li><b>Contract Act</b> - indemnities, conditions, boilerplate that matters.</li>
         </ul>
-        <div class="tip"><b>How to use this:</b> you don't need mastery — you need to <b>recognise</b> these and say a sensible sentence about each. Depth comes on the job.</div>
+        <div class="tip"><b>How to use this:</b> you don't need mastery - you need to <b>recognise</b> these and say a sensible sentence about each. Depth comes on the job.</div>
       </div>
 
       <div class="block"><div class="bh"><span class="bn">D</span><h3>Practical skills worth demonstrating</h3></div>
@@ -161,7 +197,7 @@
           <li>Read a contract clause and <b>spot the issue</b>.</li>
           <li>Summarise a document or judgment <b>concisely</b>.</li>
           <li>Do <b>efficient research</b> and know when to stop.</li>
-          <li>Be precise — <b>zero-error attention to detail</b>.</li>
+          <li>Be precise - <b>zero-error attention to detail</b>.</li>
           <li>Basic <b>Word/PDF</b> competence (track changes, compare).</li>
         </ul>
       </div>
@@ -170,27 +206,27 @@
     <!-- ============ GOAL 2 : FIRM INTERVIEW ============ -->
     <div class="panel" id="p-firm">
       <div class="ph"><span class="pn">02</span><h2>Ace an interview at a specific firm</h2></div>
-      <p class="pintro">Walk in knowing <b>their</b> work, not just generic prep. Pick a firm and you'll get its positioning, its strongest practices, what to read, smart questions to ask — and the <b>actual recent matters the tracker is following</b> for that firm, so you can speak to live deals.</p>
+      <p class="pintro">Walk in knowing <b>their</b> work, not just generic prep. Pick a firm and you'll get its positioning, its strongest practices, what to read, smart questions to ask - and the <b>actual recent matters the tracker is following</b> for that firm, so you can speak to live deals.</p>
       <div class="firmbar">
         <label for="firmsel">Choose a firm</label>
         <select id="firmsel"></select>
       </div>
       <div id="firmout"></div>
-      <div class="tip" style="margin-top:18px"><b>Why this works:</b> the recent-matters list is pulled live from the tracker's deal data — as the tracker grows, your prep gets richer automatically. Read each deal on the dashboard before you interview.</div>
+      <div class="tip" style="margin-top:18px"><b>Why this works:</b> the recent-matters list is pulled live from the tracker's deal data - as the tracker grows, your prep gets richer automatically. Read each deal on the dashboard before you interview.</div>
     </div>
 
     <!-- ============ GOAL 3 : FIRST 1-2 YEARS ============ -->
     <div class="panel" id="p-grad">
       <div class="ph"><span class="pn">03</span><h2>Survive your first 1–2 years</h2></div>
-      <p class="pintro">Nobody expects you to be brilliant in month one — they expect you to be <b>reliable, careful and easy to delegate to</b>. This is the reference list of what a trusted junior can actually do, in rough order of when you'll need it.</p>
+      <p class="pintro">Nobody expects you to be brilliant in month one - they expect you to be <b>reliable, careful and easy to delegate to</b>. This is the reference list of what a trusted junior can actually do, in rough order of when you'll need it.</p>
 
       <div class="two">
         <div>
           <div class="block"><div class="bh"><span class="bn">A</span><h3>Week one</h3></div>
-            <ul class="ck"><li><b>Take an instruction</b> accurately — repeat it back, confirm the deadline.</li><li>Write a <b>professional email</b> and a clear <b>status update</b>.</li><li>Keep <b>file/attendance notes</b>.</li><li>Understand <b>how a matter flows</b> and where you fit.</li></ul>
+            <ul class="ck"><li><b>Take an instruction</b> accurately - repeat it back, confirm the deadline.</li><li>Write a <b>professional email</b> and a clear <b>status update</b>.</li><li>Keep <b>file/attendance notes</b>.</li><li>Understand <b>how a matter flows</b> and where you fit.</li></ul>
           </div>
           <div class="block"><div class="bh"><span class="bn">B</span><h3>Drafting & documents</h3></div>
-            <ul class="ck"><li>Draft <b>from a precedent</b> properly (don't reinvent).</li><li><b>Mark up / redline</b> cleanly; manage versions.</li><li><b>Proofread to a zero-error</b> standard.</li><li><b>Word & PDF</b> mastery — styles, compare, TOC.</li></ul>
+            <ul class="ck"><li>Draft <b>from a precedent</b> properly (don't reinvent).</li><li><b>Mark up / redline</b> cleanly; manage versions.</li><li><b>Proofread to a zero-error</b> standard.</li><li><b>Word & PDF</b> mastery - styles, compare, TOC.</li></ul>
           </div>
           <div class="block"><div class="bh"><span class="bn">C</span><h3>Due diligence</h3></div>
             <ul class="ck"><li>Set up and run a <b>data room</b>.</li><li>Review documents fast but <b>accurately</b>.</li><li>Write a <b>red-flag report</b>; apply materiality.</li></ul>
@@ -201,7 +237,7 @@
             <ul class="ck"><li>Read and <b>own a deal timeline</b>.</li><li>Run a <b>checklist / CP tracker</b>.</li><li>Prepare a <b>closing set</b>; handle execution &amp; counterparts.</li><li>Post-closing <b>filings &amp; the bible</b>.</li></ul>
           </div>
           <div class="block"><div class="bh"><span class="bn">E</span><h3>Managing up</h3></div>
-            <ul class="ck"><li><b>Anticipate</b> what the partner needs; deliver it their way.</li><li><b>No surprises</b> — flag problems early.</li><li>Take <b>feedback</b> well; know when to <b>escalate vs decide</b>.</li></ul>
+            <ul class="ck"><li><b>Anticipate</b> what the partner needs; deliver it their way.</li><li><b>No surprises</b> - flag problems early.</li><li>Take <b>feedback</b> well; know when to <b>escalate vs decide</b>.</li></ul>
           </div>
           <div class="block"><div class="bh"><span class="bn">F</span><h3>Managing yourself</h3></div>
             <ul class="ck"><li><b>Prioritise</b> across competing deadlines.</li><li><b>Record your time</b> properly.</li><li><b>Signal capacity</b> honestly; recover from mistakes.</li></ul>
@@ -212,7 +248,7 @@
   </section>
 
   <footer>
-    CorpLaw Academy — a section of CorpLawTracker. Reference lists, not advice: you decide what to do with them. · <a href="index.html">← Back to the dashboard</a>
+    CorpLaw Academy - a section of CorpLawTracker. Reference lists, not advice: you decide what to do with them. · <a href="index.html">← Back to the dashboard</a>
   </footer>
 </div>
 
@@ -234,7 +270,7 @@
     {n:"Khaitan & Co", a:["Khaitan"], pos:"One of India's oldest full-service firms; deep benches in corporate/M&A, PE, capital markets, banking and tax.", str:["M&A","Private Equity","Capital Markets","Banking & Finance","Tax"], read:["Their capital-markets (QIP/IPO) activity","Cross-border M&A and fundraises they've advised"], q:["How does the firm balance specialisation with breadth early on?","Which practices are expanding fastest?"]},
     {n:"Trilegal", a:["Trilegal"], pos:"Fast-growing full-service firm; strong in energy & infrastructure, banking, competition, TMT and corporate.", str:["Energy & Infrastructure","Banking & Finance","Competition","TMT","M&A"], read:["Their projects/energy mandates","Their technology and competition work"], q:["What's driving the firm's growth in energy and TMT?","How is responsibility delegated to juniors?"]},
     {n:"JSA", a:["JSA","J Sagar"], pos:"Full-service firm with standout projects/energy, banking & finance, disputes and a busy M&A and competition practice.", str:["Projects & Infrastructure","Banking & Finance","Disputes","M&A","Competition"], read:["Their lender-side financing and projects work","Their disputes and arbitration practice"], q:["How does the projects practice train juniors?","What kinds of matters would I see in year one?"]},
-    {n:"IndusLaw", a:["IndusLaw","INDUSLAW"], pos:"Leading firm for private equity/venture capital, startups and technology — the go-to for the new-economy ecosystem.", str:["Private Equity / VC","Technology","Startups","Employment","M&A"], read:["Their VC funding-round and startup work","Their technology and data practice"], q:["What's distinctive about advising founders and funds?","How does the firm keep pace with the startup market?"]},
+    {n:"IndusLaw", a:["IndusLaw","INDUSLAW"], pos:"Leading firm for private equity/venture capital, startups and technology - the go-to for the new-economy ecosystem.", str:["Private Equity / VC","Technology","Startups","Employment","M&A"], read:["Their VC funding-round and startup work","Their technology and data practice"], q:["What's distinctive about advising founders and funds?","How does the firm keep pace with the startup market?"]},
     {n:"Talwar Thakore & Associates", a:["TT&A","Talwar Thakore"], pos:"Highly regarded for banking & finance, M&A and capital markets; known for quality over volume.", str:["Banking & Finance","M&A","Capital Markets","Regulatory"], read:["Their finance and capital-markets mandates","Their cross-border transactional work"], q:["How does a lean, high-quality model shape a junior's experience?","What does the firm prioritise in training?"]},
     {n:"Saraf and Partners", a:["Saraf"], pos:"A newer full-service firm that scaled rapidly; active in corporate/M&A, funds and disputes.", str:["M&A","Funds","Disputes","Banking & Finance"], read:["Their corporate and funds mandates","How a young firm builds its practice"], q:["What's the opportunity in joining a fast-scaling firm?","How is the firm differentiating itself?"]},
     {n:"S&R Associates", a:["S&R"], pos:"Boutique-calibre firm with a leading capital-markets practice and strong M&A and disputes.", str:["Capital Markets","M&A","Disputes","Securities"], read:["Their IPO/ECM and US-securities work","Their high-stakes disputes"], q:["What makes the capital-markets practice stand out?","How much primary drafting do juniors get?"]},
@@ -247,11 +283,11 @@
     {n:"DMD Advocates", a:["DMD"], pos:"Full-service firm with corporate/M&A, disputes, media and regulatory strengths.", str:["M&A","Disputes","Media & Regulatory","Banking & Finance"], read:["Their corporate and disputes mandates"], q:["What kinds of matters define the firm?","How are juniors developed?"]},
     {n:"SNG & Partners", a:["SNG"], pos:"Known for banking & finance, private client and restructuring work.", str:["Banking & Finance","Private Client","Restructuring","Real Estate"], read:["Their finance and restructuring mandates"], q:["What's distinctive about the finance practice?","Which sectors are most active?"]},
   ];
-  const DEALS = (window.CLT_DATA&&window.CLT_DATA.DEALS)||[];
+  function DEALSNOW(){ return (window.CLT_DATA&&window.CLT_DATA.DEALS)||[]; }
   const TYPEL = {ma:"M&A",ipo:"ECM",pe:"PE/VC",ibc:"IBC",bank:"Bank",reg:"Reg",lit:"Disp"};
   function esc(s){return (s||"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));}
   function dealsFor(f){
-    return DEALS.filter(d=>(d.firms||[]).some(fm=>f.a.some(al=>(fm.name||"").toLowerCase().includes(al.toLowerCase())))).slice(0,8);
+    return DEALSNOW().filter(d=>(d.firms||[]).some(fm=>f.a.some(al=>(fm.name||"").toLowerCase().includes(al.toLowerCase())))).slice(0,8);
   }
   function renderFirm(){
     const sel=document.getElementById('firmsel');
@@ -262,7 +298,7 @@
       const url=(d.sources&&d.sources[0]&&d.sources[0].url)||"";
       const hh=url?`<a class="dh" href="${esc(url)}" target="_blank" rel="noopener">${esc(d.headline)}</a>`:`<span class="dh">${esc(d.headline)}</span>`;
       return `<div class="deal"><span class="dt">${TYPEL[d.type]||"Deal"}</span>${hh}${d.value&&d.value!=="—"?`<span class="dv">${esc(d.value)}</span>`:""}</div>`;
-    }).join("") : `<div class="empty">No matters tracked for this firm yet — the list fills in as the tracker grows. Meanwhile, read their recent deals on the dashboard.</div>`;
+    }).join("") : `<div class="empty">No matters tracked for this firm yet - the list fills in as the tracker grows. Meanwhile, read their recent deals on the dashboard.</div>`;
     document.getElementById('firmout').innerHTML = `
       <div class="firmcard">
         <h3>${esc(f.n)}</h3>
@@ -274,6 +310,7 @@
       </div>`;
   }
   document.addEventListener('change',e=>{ if(e.target&&e.target.id==='firmsel') renderFirm(); });
+  window.onCltData=function(){ const p=document.getElementById('firmsel'); if(p) renderFirm(); };
 </script>
 
 </body>

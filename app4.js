@@ -64,6 +64,11 @@ function submitEmail(value,btn,after){
   }
 }
 
+/* Announce view changes to screen readers. #main is deliberately NOT a live
+   region - it re-renders wholesale, so marking it live would read the entire
+   feed aloud on every filter change. */
+function announce(msg){ const n=$("a11yStatus"); if(n) n.textContent=msg; }
+
 /* ============================ ROUTING (deep links) ============================ */
 let _suppressHash=false;
 function routeHash(r){
@@ -292,7 +297,7 @@ function renderFeed(title,list,sub){
     ${toolbarHtml(sorted,{save:anyFilterActive()&&route.name==="feed",sector:route.name==="feed",scope:route.name==="watch"?"watchlist":""})}
     ${body}
     ${home?briefCtaHtml():""}
-    <div class="foot">CorpLawTracker · The decision engine for India's corporate legal market.<br>Headlines &amp; snippets shown under fair-use linking - open the primary source &amp; filings before advising. <span class="methlink" onclick="openMeth()" style="cursor:pointer">Methodology</span></div>`;
+    <footer class="foot" role="contentinfo">CorpLawTracker · The decision engine for India's corporate legal market.<br>Headlines &amp; snippets shown under fair-use linking - open the primary source &amp; filings before advising.<br><nav aria-label="About this site" class="footnav"><a href="/about.html">About</a> · <a href="/methodology.html">Methodology</a> · <a href="/coverage.html">Coverage</a> · <a href="/corrections.html">Corrections</a> · <a href="/contact.html">Contact</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></nav></footer>`;
   if(home)buildStats();
   bindCards();bindToolbar(list,label);
   $("main").querySelectorAll("[data-nav]").forEach(n=>n.onclick=()=>go({name:n.dataset.nav}));
@@ -307,6 +312,7 @@ function renderFeed(title,list,sub){
     $("clearF")&&($("clearF").onclick=()=>{resetFilters();render();});
   }
   initFeedLazy();
+  announce(`${title}: ${sorted.length} item${sorted.length===1?"":"s"}`);
 }
 
 /* ============================ FIRMS ============================ */

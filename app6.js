@@ -90,7 +90,7 @@ function render(){
 /* ============================ INIT ============================ */
 $("q").addEventListener("input",e=>{F.q=e.target.value;if(route.name!=="feed")route={name:"feed"};render();});
 document.addEventListener("keydown",e=>{if(e.key==="/"&&document.activeElement.tagName!=="INPUT"&&document.activeElement.tagName!=="SELECT"&&document.activeElement.tagName!=="TEXTAREA"){e.preventDefault();$("q").focus();}
-  if(e.key==="Escape"){$("adv").classList.remove("on");$("meth").classList.remove("on");}});
+  if(e.key==="Escape"){$("adv").classList.remove("on");$("meth").classList.remove("on");$("sub").classList.remove("on");}});
 $("theme").onclick=()=>{const h=document.documentElement;h.dataset.theme=h.dataset.theme==="dark"?"light":"dark";lsSet("clt_theme",h.dataset.theme);};
 (function(){const t=lsGet("clt_theme",null);if(t)document.documentElement.dataset.theme=t;})();
 $("methOpen").onclick=openMeth;
