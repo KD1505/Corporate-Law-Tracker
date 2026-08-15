@@ -1,27 +1,27 @@
-# Corporate Law Tracker — Daily Brief
+# Corporate Law Tracker - Daily Brief
 _15 August 2026_
 
 2 new development(s).
 
-### UPL Limited acquires Misr Hytech Seed International
-**MA** · Cross-border (India–Egypt) · ✓ Verified
+### DPSC Limited: 4th CoC Meeting under Corporate Insolvency Resolution Process for IPCL
+**IBC** · New Delhi · ✓ Verified
 
-UPL Limited announced the acquisition of Misr Hytech Seed International S.A.E., an Egyptian seed company, via its subsidiary Advanta Holdings B.V. The transaction was disclosed via NSE exchange intimation on 15 August 2026.
+India Power Corporation Limited (IPCL) is undergoing a Corporate Insolvency Resolution Process (CIRP), with the 4th Committee of Creditors meeting scheduled. DPSC Limited filed the intimation with NSE under Regulation 30 of the LODR, signalling material developments in IPCL's creditor resolution.
 
-*Why it matters:* Cross-border pharma/agri M&A via intermediate holding structures requires coordination of Indian corporate disclosure (Listing Rules, substantial acquisition thresholds) with Egyptian regulatory approval and foreign currency outflow clearances under FEMA.
+*Why it matters:* The progression to a 4th CoC meeting indicates the CIRP is in active negotiation or resolution phase; transactional counsel must monitor for resolution plan approval, liquidation triggers, or creditor class objections under IBC s.30/31 framework.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/UPL_15082026022000_Acquisition_Intimation_finalpdf.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/DPSCLTD_15082026215436_Intimationof4thCoCMeetingunderReg30ofLODR15082026.pdf)
 
 ---
 
-### RPG Life Sciences completes API Business Transfer to RPG Active Pharma
-**MA** · Mumbai · ✓ Verified
+### DPSC Limited: Bank Guarantee Invocation Triggers Corporate Insolvency Resolution Process
+**IBC** · India (listed) · ✓ Verified
 
-RPG Life Sciences has completed the transfer of its Active Pharmaceutical Ingredients (API) business to its group company RPG Active Pharma Limited , in line with an earlier Business Transfer Agreement (BTA), as disclosed via NSE intimation on 15 August 2026.
+DPSC Limited has intimated the stock exchange of a bank guarantee invocation that triggered entry into CIRP. The notification under Regulation 30 of SEBI LODR indicates formal insolvency proceedings have commenced.
 
-*Why it matters:* Intra-group pharma reorganisations triggering Schedule VI asset transfer & continuity of employee obligations; review if any contract consents / intellectual property licences were implicit in the BTA structure.
+*Why it matters:* Bank guarantees in corporate debt structures now constitute a material disclosure trigger for listed companies; invocation accelerates CIRP filing and creates immediate reporting obligations to exchanges.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/RPGLIFE_15082026005010_Intimation_BTA.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/DPSCLTD_15082026220747_IntimationofInvocationofBankGuarantee_UnderReg30ofSEBI_LODR_.pdf)
 
 ---
 

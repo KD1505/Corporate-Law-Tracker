@@ -24629,6 +24629,18 @@
       "code": 404,
       "at": "2026-08-15",
       "finalUrl": "https://nclt.gov.in/%20[search:%20Simbhaoli%20Sugars%20Limited%20-%20CIRP]"
+    },
+    "https://nsearchives.nseindia.com/corporate/DPSCLTD_15082026220747_IntimationofInvocationofBankGuarantee_UnderReg30ofSEBI_LODR_.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-15",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/DPSCLTD_15082026220747_IntimationofInvocationofBankGuarantee_UnderReg30ofSEBI_LODR_.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/DPSCLTD_15082026215436_Intimationof4thCoCMeetingunderReg30ofLODR15082026.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-08-15",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/DPSCLTD_15082026215436_Intimationof4thCoCMeetingunderReg30ofLODR15082026.pdf"
     }
   },
   "deals": {
@@ -42613,19 +42625,21 @@
       "total": 1,
       "good": 1,
       "dead": 0
+    },
+    "nse-DPSCLTD-15-Aug-2026220804": {
+      "at": "2026-08-15",
+      "total": 1,
+      "good": 1,
+      "dead": 0
+    },
+    "nse-DPSCLTD-15-Aug-2026215456": {
+      "at": "2026-08-15",
+      "total": 1,
+      "good": 1,
+      "dead": 0
     }
   },
   "history": [
-    {
-      "at": "2026-07-24",
-      "checked": 400,
-      "dead": 2,
-      "redirected": 5,
-      "ok": 393,
-      "unknown": 0,
-      "verifiedDeals": 2036,
-      "issueDeals": 222
-    },
     {
       "at": "2026-07-25",
       "checked": 400,
@@ -42924,6 +42938,16 @@
       "ok": 3,
       "unknown": 108,
       "verifiedDeals": 2440,
+      "issueDeals": 557
+    },
+    {
+      "at": "2026-08-15",
+      "checked": 110,
+      "dead": 0,
+      "redirected": 0,
+      "ok": 2,
+      "unknown": 108,
+      "verifiedDeals": 2442,
       "issueDeals": 557
     }
   ],
