@@ -420,7 +420,24 @@ const idxPath = path.join(ROOT,"index.html");
 let idx = fs.readFileSync(idxPath,"utf8");
 const snap = homeSnapshot(all);
 const re = /<!--PRERENDER-START-->[\s\S]*?<!--PRERENDER-END-->/;
-if (re.test(idx)) { idx = idx.replace(re, snap); fs.writeFileSync(idxPath, idx); }
+let idxChanged = false;
+if (re.test(idx)) { idx = idx.replace(re, snap); idxChanged = true; }
 else console.warn("prerender: PRERENDER markers not found in index.html - homepage snapshot NOT injected.");
+
+/* Cache-bust the app bundle.
+   app1..app6.js are served with a one-hour max-age, and the loader in
+   index.html requests them at a fixed "?v=N". That meant a code change stayed
+   invisible to anyone with a warm cache until the hour expired. Stamping the
+   token on every run ties the URL to the deploy, so a new build is always
+   picked up immediately and an unchanged one still caches normally. */
+const stamp = new Date().toISOString().slice(0,10).replace(/-/g,"") + "-" + all.length;
+const vre = /(fetch\(f\+"\?v=)[^"]*(")/;
+if (vre.test(idx)) {
+  const next = idx.replace(vre, `$1${stamp}$2`);
+  if (next !== idx) { idx = next; idxChanged = true; }
+  console.log(`prerender: app cache token set to ${stamp}`);
+} else console.warn("prerender: app version token not found in index.html - app cache NOT busted.");
+
+if (idxChanged) fs.writeFileSync(idxPath, idx);
 
 console.log(`prerender: ${all.length} deal pages, ${firms.length} firm pages, ${GOV.length} governance pages, hubs, sitemap (${urls.length} urls), robots. Homepage snapshot: ${re.test(fs.readFileSync(idxPath,"utf8"))?"injected":"MISSING"}.`);
