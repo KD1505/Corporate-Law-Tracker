@@ -1,28 +1,28 @@
 {
   "_note": "Auto-grown source funnel. Each run logs every domain that corroborated a deal, with a running count. Domains marked official:true are government/regulator/exchange/court. Review the high-count entries periodically and promote the best into sources.json as curated corroborators.",
   "barandbench.com": {
-    "count": 346,
+    "count": 351,
     "firstSeen": "2026-06-08",
     "official": true,
-    "lastSeen": "2026-08-17"
+    "lastSeen": "2026-08-18"
   },
   "bseindia.com": {
-    "count": 2693,
+    "count": 2701,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-08-17"
+    "lastSeen": "2026-08-18"
   },
   "nseindia.com": {
-    "count": 2733,
+    "count": 2740,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-08-17"
+    "lastSeen": "2026-08-18"
   },
   "sebi.gov.in": {
-    "count": 486,
+    "count": 495,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-08-17"
+    "lastSeen": "2026-08-18"
   },
   "cci.gov.in": {
     "count": 2217,
@@ -31,10 +31,10 @@
     "lastSeen": "2026-08-14"
   },
   "rbi.org.in": {
-    "count": 79,
+    "count": 80,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-08-17"
+    "lastSeen": "2026-08-18"
   },
   "judgments.ecourts.gov.in": {
     "count": 11,
@@ -43,10 +43,10 @@
     "lastSeen": "2026-08-03"
   },
   "nsearchives.nseindia.com": {
-    "count": 3122,
+    "count": 3161,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-08-17"
+    "lastSeen": "2026-08-18"
   },
   "hfcl.com": {
     "count": 2,
@@ -67,10 +67,10 @@
     "lastSeen": "2026-08-14"
   },
   "mca.gov.in": {
-    "count": 19,
+    "count": 22,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-08-17"
+    "lastSeen": "2026-08-18"
   },
   "grinfra.com": {
     "count": 2,
@@ -475,10 +475,10 @@
     "lastSeen": "2026-06-18"
   },
   "business-standard.com": {
-    "count": 20,
+    "count": 23,
     "firstSeen": "2026-06-18",
     "official": true,
-    "lastSeen": "2026-08-14"
+    "lastSeen": "2026-08-18"
   },
   "hul.co.in": {
     "count": 1,
@@ -529,10 +529,10 @@
     "lastSeen": "2026-06-19"
   },
   "nclt.gov.in": {
-    "count": 183,
+    "count": 185,
     "firstSeen": "2026-06-19",
     "official": true,
-    "lastSeen": "2026-08-17"
+    "lastSeen": "2026-08-18"
   },
   "gujaratgas.com": {
     "count": 1,
@@ -547,10 +547,10 @@
     "lastSeen": "2026-06-20"
   },
   "ibbi.gov.in": {
-    "count": 183,
+    "count": 186,
     "firstSeen": "2026-06-20",
     "official": true,
-    "lastSeen": "2026-08-17"
+    "lastSeen": "2026-08-18"
   },
   "elitewealth.in": {
     "count": 1,
@@ -607,10 +607,10 @@
     "lastSeen": "2026-06-22"
   },
   "businesstoday.in": {
-    "count": 1,
+    "count": 2,
     "firstSeen": "2026-06-22",
     "official": false,
-    "lastSeen": "2026-06-22"
+    "lastSeen": "2026-08-18"
   },
   "24law.in": {
     "count": 1,
@@ -637,10 +637,10 @@
     "lastSeen": "2026-06-22"
   },
   "screener.in": {
-    "count": 2,
+    "count": 3,
     "firstSeen": "2026-06-22",
     "official": true,
-    "lastSeen": "2026-06-24"
+    "lastSeen": "2026-08-18"
   },
   "groww.in": {
     "count": 1,
@@ -667,16 +667,16 @@
     "lastSeen": "2026-08-14"
   },
   "businessupturn.com": {
-    "count": 1,
-    "firstSeen": "2026-06-22",
-    "official": false,
-    "lastSeen": "2026-06-22"
-  },
-  "outlookbusiness.com": {
     "count": 2,
     "firstSeen": "2026-06-22",
     "official": false,
-    "lastSeen": "2026-06-23"
+    "lastSeen": "2026-08-18"
+  },
+  "outlookbusiness.com": {
+    "count": 3,
+    "firstSeen": "2026-06-22",
+    "official": false,
+    "lastSeen": "2026-08-18"
   },
   "energetica-india.net": {
     "count": 1,
@@ -685,10 +685,10 @@
     "lastSeen": "2026-06-22"
   },
   "dealstreetasia.com": {
-    "count": 3,
+    "count": 4,
     "firstSeen": "2026-06-22",
     "official": false,
-    "lastSeen": "2026-08-12"
+    "lastSeen": "2026-08-18"
   },
   "sustainable-bus.com": {
     "count": 1,
@@ -721,10 +721,10 @@
     "lastSeen": "2026-06-22"
   },
   "prnewswire.com": {
-    "count": 2,
+    "count": 3,
     "firstSeen": "2026-06-22",
     "official": true,
-    "lastSeen": "2026-08-13"
+    "lastSeen": "2026-08-18"
   },
   "cppinvestments.com": {
     "count": 1,
@@ -829,10 +829,10 @@
     "lastSeen": "2026-06-23"
   },
   "tracxn.com": {
-    "count": 4,
+    "count": 5,
     "firstSeen": "2026-06-23",
     "official": false,
-    "lastSeen": "2026-08-13"
+    "lastSeen": "2026-08-18"
   },
   "piind.com": {
     "count": 1,
@@ -847,10 +847,10 @@
     "lastSeen": "2026-06-23"
   },
   "scanx.trade": {
-    "count": 5,
+    "count": 6,
     "firstSeen": "2026-06-24",
     "official": true,
-    "lastSeen": "2026-08-14"
+    "lastSeen": "2026-08-18"
   },
   "apollohospitals.com": {
     "count": 1,
@@ -1117,10 +1117,10 @@
     "lastSeen": "2026-08-14"
   },
   "mahindra.com": {
-    "count": 2,
+    "count": 3,
     "firstSeen": "2026-08-14",
     "official": true,
-    "lastSeen": "2026-08-14"
+    "lastSeen": "2026-08-18"
   },
   "insights.dsij.in": {
     "count": 1,
@@ -1177,10 +1177,10 @@
     "lastSeen": "2026-08-14"
   },
   "whalesbook.com": {
-    "count": 1,
+    "count": 2,
     "firstSeen": "2026-08-14",
     "official": false,
-    "lastSeen": "2026-08-14"
+    "lastSeen": "2026-08-18"
   },
   "univest.in": {
     "count": 1,
@@ -1319,5 +1319,131 @@
     "firstSeen": "2026-08-17",
     "official": true,
     "lastSeen": "2026-08-17"
+  },
+  "tickertape.in": {
+    "count": 1,
+    "firstSeen": "2026-08-18",
+    "official": true,
+    "lastSeen": "2026-08-18"
+  },
+  "zerodha.com": {
+    "count": 1,
+    "firstSeen": "2026-08-18",
+    "official": true,
+    "lastSeen": "2026-08-18"
+  },
+  "motilaloswal.com": {
+    "count": 1,
+    "firstSeen": "2026-08-18",
+    "official": true,
+    "lastSeen": "2026-08-18"
+  },
+  "mercomindia.com": {
+    "count": 1,
+    "firstSeen": "2026-08-18",
+    "official": false,
+    "lastSeen": "2026-08-18"
+  },
+  "mondaq.com": {
+    "count": 1,
+    "firstSeen": "2026-08-18",
+    "official": true,
+    "lastSeen": "2026-08-18"
+  },
+  "hme-business.com": {
+    "count": 1,
+    "firstSeen": "2026-08-18",
+    "official": false,
+    "lastSeen": "2026-08-18"
+  },
+  "news.outsourceaccelerator.com": {
+    "count": 1,
+    "firstSeen": "2026-08-18",
+    "official": false,
+    "lastSeen": "2026-08-18"
+  },
+  "citybiz.co": {
+    "count": 1,
+    "firstSeen": "2026-08-18",
+    "official": false,
+    "lastSeen": "2026-08-18"
+  },
+  "hdfcsky.com": {
+    "count": 1,
+    "firstSeen": "2026-08-18",
+    "official": false,
+    "lastSeen": "2026-08-18"
+  },
+  "motoring-trends.com": {
+    "count": 1,
+    "firstSeen": "2026-08-18",
+    "official": false,
+    "lastSeen": "2026-08-18"
+  },
+  "tradingview.com": {
+    "count": 1,
+    "firstSeen": "2026-08-18",
+    "official": false,
+    "lastSeen": "2026-08-18"
+  },
+  "zawya.com": {
+    "count": 2,
+    "firstSeen": "2026-08-18",
+    "official": true,
+    "lastSeen": "2026-08-18"
+  },
+  "pitchbook.com": {
+    "count": 2,
+    "firstSeen": "2026-08-18",
+    "official": false,
+    "lastSeen": "2026-08-18"
+  },
+  "agility.com": {
+    "count": 1,
+    "firstSeen": "2026-08-18",
+    "official": true,
+    "lastSeen": "2026-08-18"
+  },
+  "agilityglobal.com": {
+    "count": 1,
+    "firstSeen": "2026-08-18",
+    "official": true,
+    "lastSeen": "2026-08-18"
+  },
+  "aegisindia.com": {
+    "count": 1,
+    "firstSeen": "2026-08-18",
+    "official": true,
+    "lastSeen": "2026-08-18"
+  },
+  "fineorganicindustries.com": {
+    "count": 1,
+    "firstSeen": "2026-08-18",
+    "official": true,
+    "lastSeen": "2026-08-18"
+  },
+  "blsinternational.com": {
+    "count": 1,
+    "firstSeen": "2026-08-18",
+    "official": true,
+    "lastSeen": "2026-08-18"
+  },
+  "rhimagnesita.com": {
+    "count": 1,
+    "firstSeen": "2026-08-18",
+    "official": true,
+    "lastSeen": "2026-08-18"
+  },
+  "kshitijpolyline.com": {
+    "count": 1,
+    "firstSeen": "2026-08-18",
+    "official": true,
+    "lastSeen": "2026-08-18"
+  },
+  "videoconind.com": {
+    "count": 1,
+    "firstSeen": "2026-08-18",
+    "official": true,
+    "lastSeen": "2026-08-18"
   }
 }
