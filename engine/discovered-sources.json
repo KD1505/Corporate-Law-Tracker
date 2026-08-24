@@ -1,28 +1,28 @@
 {
   "_note": "Auto-grown source funnel. Each run logs every domain that corroborated a deal, with a running count. Domains marked official:true are government/regulator/exchange/court. Review the high-count entries periodically and promote the best into sources.json as curated corroborators.",
   "barandbench.com": {
-    "count": 372,
+    "count": 375,
     "firstSeen": "2026-06-08",
     "official": true,
-    "lastSeen": "2026-08-22"
+    "lastSeen": "2026-08-24"
   },
   "bseindia.com": {
-    "count": 2717,
+    "count": 2724,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-08-21"
+    "lastSeen": "2026-08-24"
   },
   "nseindia.com": {
-    "count": 2768,
+    "count": 2775,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-08-23"
+    "lastSeen": "2026-08-24"
   },
   "sebi.gov.in": {
-    "count": 517,
+    "count": 524,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-08-23"
+    "lastSeen": "2026-08-24"
   },
   "cci.gov.in": {
     "count": 2217,
@@ -43,10 +43,10 @@
     "lastSeen": "2026-08-03"
   },
   "nsearchives.nseindia.com": {
-    "count": 3275,
+    "count": 3310,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-08-23"
+    "lastSeen": "2026-08-24"
   },
   "hfcl.com": {
     "count": 2,
@@ -67,10 +67,10 @@
     "lastSeen": "2026-08-14"
   },
   "mca.gov.in": {
-    "count": 27,
+    "count": 29,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-08-23"
+    "lastSeen": "2026-08-24"
   },
   "grinfra.com": {
     "count": 2,
@@ -121,10 +121,10 @@
     "lastSeen": "2026-08-14"
   },
   "pib.gov.in": {
-    "count": 19,
+    "count": 20,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-08-10"
+    "lastSeen": "2026-08-24"
   },
   "varunbeverages.com": {
     "count": 2,
@@ -181,10 +181,10 @@
     "lastSeen": "2026-06-15"
   },
   "dpiit.gov.in": {
-    "count": 2,
+    "count": 3,
     "firstSeen": "2026-06-15",
     "official": true,
-    "lastSeen": "2026-08-21"
+    "lastSeen": "2026-08-24"
   },
   "concordindia.com": {
     "count": 1,
@@ -211,10 +211,10 @@
     "lastSeen": "2026-06-17"
   },
   "mnre.gov.in": {
-    "count": 5,
+    "count": 6,
     "firstSeen": "2026-06-17",
     "official": true,
-    "lastSeen": "2026-06-17"
+    "lastSeen": "2026-08-24"
   },
   "satincreditcare.com": {
     "count": 1,
@@ -529,10 +529,10 @@
     "lastSeen": "2026-06-19"
   },
   "nclt.gov.in": {
-    "count": 194,
+    "count": 197,
     "firstSeen": "2026-06-19",
     "official": true,
-    "lastSeen": "2026-08-23"
+    "lastSeen": "2026-08-24"
   },
   "gujaratgas.com": {
     "count": 1,
@@ -547,10 +547,10 @@
     "lastSeen": "2026-06-20"
   },
   "ibbi.gov.in": {
-    "count": 192,
+    "count": 195,
     "firstSeen": "2026-06-20",
     "official": true,
-    "lastSeen": "2026-08-23"
+    "lastSeen": "2026-08-24"
   },
   "elitewealth.in": {
     "count": 1,
@@ -1703,5 +1703,29 @@
     "firstSeen": "2026-08-22",
     "official": false,
     "lastSeen": "2026-08-22"
+  },
+  "inoxgreen.com": {
+    "count": 1,
+    "firstSeen": "2026-08-24",
+    "official": true,
+    "lastSeen": "2026-08-24"
+  },
+  "ihcltd.com": {
+    "count": 1,
+    "firstSeen": "2026-08-24",
+    "official": true,
+    "lastSeen": "2026-08-24"
+  },
+  "mines.gov.in": {
+    "count": 1,
+    "firstSeen": "2026-08-24",
+    "official": true,
+    "lastSeen": "2026-08-24"
+  },
+  "hindustancopper.com": {
+    "count": 1,
+    "firstSeen": "2026-08-24",
+    "official": true,
+    "lastSeen": "2026-08-24"
   }
 }
