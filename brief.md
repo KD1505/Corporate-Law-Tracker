@@ -1,371 +1,289 @@
 # Corporate Law Tracker - Daily Brief
-_24 August 2026_
+_25 August 2026_
 
-34 new development(s).
+26 new development(s).
 
-### Piramal Finance Limited Board approves preferential issue of warrants to promoter group
-**MA** · ₹1,750.03 cr · Mumbai · ✓ Verified
+### 🔴 <b>Warburg Pincus acquires therapy-focused formulations platform Integrace for ₹1,200 crore in full exit of True North and Temasek</b>
+**PE** · ₹1,200 cr · Mumbai · ✓ Verified
 
-Piramal Finance Limited's board approved a preferential warrant issuance of ₹1,750.03 crore to a promoter group entity. The preferential issue constitutes a significant capital infusion into the NBFC, structured as warrants rather than equity, and is subject to shareholder approval.
+Warburg Pincus completed a 100% acquisition of Mumbai-based Integrace, a leading orthopedics and gynecology formulations company , securing full exit for co-investors True North (55.83% stake) and Temasek (43.91% stake). The deal underscores Warburg Pincus's three-decade commitment to building scaled, therapy-focused pharmaceutical platforms in India.
 
-*Why it matters:* Promoter capitalisation via warrant issuance under the preferential allotment route may trigger dilution concerns and pricing benchmarks under SEBI's ICDR Regulations—advisors should verify the pricing linkage (formula or floor) and the exercise conversion mechanics, especially if the warrant terms defer equity upside into a future financial year.
+*Why it matters:* The transaction demonstrates a PE playbook of consolidating specialty-therapy formulations platforms through leadership transitions (Rehan Khan appointed CEO from MSD/Abbott India) and multi-strand diligence spanning pharma regulation, compliance, ESOP structuring, and IP—signalling institutional investor comfort with niche India pharma.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Piramalcapital_24082026104005_PFL_Outcome_BM_24082026_sd.pdf)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise)
 
 ---
 
-### Sammaan Capital Limited: Timely Interest Payment Certification on Listed SRCD
+### <cite index="2-2">KKR and BookMyShow announced the signing of definitive agreements under which funds managed by KKR will acquire a minority stake</cite>
+**PE** · Mumbai · ✓ Verified
+
+KKR acquires minority stake in BookMyShow pursuant to definitive agreements signed 19 August 2026. The investment will support BookMyShow's next phase of growth as it scales its live entertainment business and deepens its full-stack offering across India .
+
+*Why it matters:* PE investment in ticketing/live entertainment requires CCI clearance where platform is found dominant; post-March 2026 CCI dominance finding creates regulatory gating item for this transaction and precedent for future entertainment platform consolidation.
+
+[Open source ↗](https://www.businesswire.com/news/home/20260818473527/en/KKR-Invests-in-Indian-Ticketing-and-Live-Entertainment-Platform-BookMyShow)
+
+---
+
+### NCLT Mumbai approves selective reduction of equity capital in Godrej Redevelopers (Mumbai) subsidiary
 **REG** · Mumbai · ✓ Verified
 
-Sammaan Capital Limited has certified to NSE/BSE its timely payment of interest on publicly-issued Secured Redeemable Non-Convertible Debentures , in compliance with SEBI Regulation 57 disclosure obligations.
+NCLT Mumbai has approved a selective reduction of equity share capital in Godrej Redevelopers (Mumbai) Private Limited, a step-down subsidiary of Godrej Properties Limited. The approval facilitates capital restructuring within the Godrej group's real estate platform.
 
-*Why it matters:* Routine Regulation 57 intimation evidences continuous covenant compliance on listed debt securities; material only if payment default or delay had occurred or is anticipated — flagged as precedent for monitoring issuer covenant discipline on public debenture tranches.
+*Why it matters:* Selective capital reduction under NCLT sanction allows listed real-estate groups to optimize subsidiary capital structures without shareholder consent friction; precedent for reduction of paid-up capital in step-down subsidiaries via tribunal approval rather than general meeting resolution.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_24082026184456_SCL_Exchange_Retail_intimation_57_24082026_UI0.pdf)
-
----
-
-### Hindustan Copper Limited: Offer for sale by Government of India
-**IPO** · ₹149 cr (approx) · Mumbai · ✓ Verified
-
-Government of India initiates OFS of 2.90 crore equity shares (₹5 face value) in Hindustan Copper Limited via stock exchange mechanism, floor price ₹514/share. Non-retail tranche closes 25 Aug 2026; retail tranche 26 Aug 2026.
-
-*Why it matters:* Disinvestment via exchange-traded OFS mechanism triggers disclosure, listing compliance, and SEBI insider trading restrictions; counsel must advise on quiet period and price stabilization rules during the two-tranche offering window.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/phonrao_24082026194520_NSE_BSE_Notice_0001.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GODREJPROP_25082026190035_SEIntimationGRMPL.pdf)
 
 ---
 
-### HEG Limited: Relinquishment of Ravi Jhunjhunwala from Chairman, MD & CEO pursuant to Composite Scheme of Arrangement
+### NSE seeks clarification from Jana Small Finance Bank on merger buzz reports
 **REG** · Mumbai · ✓ Verified
 
-HEG Limited announced the relinquishment of Ravi Jhunjhunwala from the position of Chairman, Managing Director & Chief Executive Officer effective 1 September 2026 upon effectiveness of a Composite Scheme of Arrangement. Jhunjhunwala will continue as a Non-Executive Non-Independent Director, liable to retire by rotation.
+**NSE issued a clarification request to Jana Small Finance Bank** regarding recent news reports of a potential merger with Federal Bank; company response awaited.
 
-*Why it matters:* A Composite Scheme of Arrangement triggering KMP transitions underscores the intersection of M&A structuring with Companies Act disclosure obligations under Schedule III and MCA rules on scheme effectiveness and managerial re-designation.
+*Why it matters:* Unverified merger rumors can trigger stock volatility and NSE disclosure obligations; companies must promptly respond to exchange queries on market-sensitive allegations.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HEG_24082026185355_FinalOutcome24082026.pdf)
-
----
-
-### Almondz Global Securities Limited: Scheme of Arrangement
-**MA** · Cross-border · ✓ Verified
-
-Scheme of Arrangement - Almondz Global Securities Limited has informed the Exchange about Scheme of Arrangement
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ALMONDZ_24082026163057_outcome.pdf)
+[Open source ↗](-)
 
 ---
 
-### Inox Green Energy Services Limited: Scheme of Arrangement – Allotment of Equity Shares
+### Sammaan Capital Limited: Timely Interest Payment on Secured Redeemable Non-Convertible Debentures
+**REG** · Mumbai · ✓ Verified
+
+Sammaan Capital Limited notified the NSE of timely interest payment on its publicly issued, listed Secured Redeemable Non-Convertible Debentures (SRNCDs), confirming compliance with Regulation 57 of the SEBI Listing Obligations and Disclosure Requirements Regulations, 2015.
+
+*Why it matters:* Routine disclosure of debt servicing compliance signals operational stability and adherence to SEBI's mandatory continuous disclosure regime for listed debt instruments—material for institutional investors and credit rating agencies monitoring the issuer's covenant performance.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_25082026192647_SCL_Retail_Intimation_57_25082026_SJ2.pdf)
+
+---
+
+### Varun Beverages Limited Board approves wholly-owned Indian subsidiary and Tunisia joint venture
+**MA** · Cross-border (India & Tunisia) · ✓ Verified
+
+VBL's board approved incorporation of a wholly-owned subsidiary in India and a joint venture in Tunisia, with Prathmesh Mishra appointed as CEO & MD of the Indian subsidiary.
+
+*Why it matters:* Cross-border subsidiary and JV structures signal VBL's geographic expansion strategy; the CEO appointment pre-closure indicates earnest intent and governance clarity for regulator/lender review.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/VBL_25082026162007_Outcome.pdf)
+
+---
+
+### Sammaan Capital Limited: Timely Interest Payment Certification on Listed Debentures
+**REG** · Mumbai · ✓ Verified
+
+Sammaan Capital Limited certified to NSE its timely payment of interest on publicly-issued Secured Redeemable Non-Convertible Debentures listed on stock exchanges, pursuant to SEBI Regulation 57 of the LDR Regulations 2015. The disclosure is a routine regulatory compliance certification confirming debt service on listed NCDs.
+
+*Why it matters:* This filing exemplifies the continuous compliance burden on listed debt issuers under SEBI's Listing Obligations regime—a partner structuring NCD offerings must incorporate post-issuance disclosure infrastructure and calendar controls to meet the timely certification requirement at each coupon date.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_25082026193359_SCL_Retail_intimation_-57__25082026_PM2.pdf)
+
+---
+
+### Sammaan Capital Limited: Timely Interest Payment Certification on Listed Debentures
+**REG** · Mumbai · ✓ Verified
+
+Sammaan Capital Limited has certified timely payment of interest on its listed Secured and Unsecured Redeemable Non-Convertible Debentures , in compliance with SEBI Listing Obligations and Disclosure Requirements Regulation 57.
+
+*Why it matters:* Routine debenture interest certification demonstrates ongoing regulatory compliance for listed debt instruments; material for bondholders' credit monitoring and signals no covenant breach or payment distress.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_25082026191950_SCL_Exchange_Retail_intimation_25082026_GJ.pdf)
+
+---
+
+### Sigma Advanced Systems deepens Rolls-Royce partnership with £125m long-term agreement post-Bromford acquisition
+**MA** · £125 million · Cross-border (India–UK) · ✓ Verified
+
+Defence and aerospace major Sigma Advanced Systems has secured a £125 million long-term agreement with Rolls-Royce plc, building on synergies from its recent strategic acquisition of Bromford Group. The partnership underscores the Indian firm's competitive positioning in global aerospace supply chains.
+
+*Why it matters:* Post-acquisition integration triggering material supply contracts signals precedent for Indian defence-aerospace firms leveraging M&A to secure Tier-1 OEM partnerships; SEBI disclosure compliance on material event indicates proper governance in cross-border consolidation.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MEGASOFT_25082026073445_Disclosure_Reg_30_-_20260825-signed.pdf)
+
+---
+
+### Seshaasai Technologies Limited: Intimation of Acquisition/Purchase of Immovable Property
+**REG** · India · ✓ Verified
+
+**Seshaasai Technologies disclosed acquisition or purchase of immovable property** under Regulation 30 of SEBI LODR 2015, filing a general update with the NSE.
+
+*Why it matters:* Material Event disclosure under Reg 30 LODR signals property acquisition may cross monetary or strategic thresholds requiring exchange notification; review the full Regulation 30(4) exemption analysis and whether independent valuation was obtained.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SESHTECH2024_25082026225018_STYL_Disclosure_signed.pdf)
+
+---
+
+### Jaykay Enterprises Limited: New ISINs issued for partly paid-up equity shares in rights issue
+**REG** · Mumbai · ✓ Verified
+
+Jaykay Enterprises informed NSE of receipt of new ISINs for partly paid-up equity shares (Re. 0.50/- paid-up value per share) and rights entitlements in connection with its rights issue. The filing confirms regulatory allocation of securities identifiers for the capital-raising exercise.
+
+*Why it matters:* Rights issue mechanics require separate ISIN allocation for partly paid-up tranches to segregate subscription and call schedules; NSE intimation marks transition from offer period to allotment / listing phase.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/JAYKAY_25082026150756_Intimation_of_ISIN_sd.pdf)
+
+---
+
+### Honasa Consumer proposes acquisition of Fluence Pharma
 **MA** · Mumbai · ✓ Verified
 
-IGESL completed allotment of equity shares to IRSL shareholders pursuant to an approved Scheme of Arrangement , facilitating a restructuring between the two Inox renewable entities.
+Honasa Consumer, a beauty and personal care company, announced a proposed acquisition of Fluence Pharma Private Limited, expanding into the pharmaceutical/dermatology space. The transaction was disclosed via NSE regulatory filing on 25 August 2026.
 
-*Why it matters:* Scheme allotments post-sanction require careful compliance with shareholder notification and stock exchange intimation timelines; this ruling-stage disclosure confirms regulatory & exchange clearance before allotment execution.
+*Why it matters:* The structuring of a D2C beauty and cosmetics player acquiring a pharma/dermatology entity signals consolidation in the wellness-to-pharmacy adjacency and suggests careful regulatory navigation under Drugs and Cosmetics Act provisions around branding, manufacturing, and cross-sector M&A controls.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IGESL_24082026202300_IGESL_SE_intimation_Allotment_IRSL_24082026.pdf)
-
----
-
-### Aegis Logistics executes Business Transfer Agreement with subsidiary Aegis Terminal (Pipavav)
-**MA** · Pipavav, Gujarat · ✓ Verified
-
-Aegis Logistics Limited has executed a Business Transfer Agreement (BTA) with its subsidiary Aegis Terminal (Pipavav) Limited , transferring terminal and logistics operations at Pipavav port. The transaction consolidates port operations within the Aegis group structure.
-
-*Why it matters:* Intra-group BTA between a listed parent and subsidiary triggers disclosure obligations under listing rules and may implicate transfer pricing scrutiny under the Income Tax Act; counsel must review the valuation mechanism, condition precedent approvals (including port authority and lender consent), and timing of effective date of transfer.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AVTL_24082026183946_AVTL_Amnomia_Terminal_BTA_Exceution_S.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HONASA16_25082026205717_FluenceUpdate.pdf)
 
 ---
 
-### MPG Family Trust files SEBI Regulation 10(6) disclosure for acquisition in Bharat Rasayan
+### Siyaram Silk Mills Limited: Allotment of Preference Shares as Bonus pursuant to Scheme of Arrangement/Amalgamation
 **MA** · Mumbai · ✓ Verified
 
-MPG Family Trust has disclosed an acquisition in Bharat Rasayan Limited under SEBI Takeover Regulations Regulation 10(6) , relying on the exemption for acquisition by persons related to the company.
+Siyaram Silk Mills allotted 181.48 crore Series I and 136.11 crore Series II preference shares as bonus under a scheme of arrangement/amalgamation. The allotment was approved at the company's board meeting on 25 August 2026.
 
-*Why it matters:* Regulation 10(6) disclosure signals either a related-party acquisition or a creeping acquisition below the 5% open-market threshold; counsel must verify the exemption basis and whether the trustee holds prior shareholding triggering disclosure obligations under the SAST Regulations.
+*Why it matters:* Bonus allotment of preference shares under a reverse triangular merger or consolidation structure signals tax-neutral capital reorganisation and potential minority protection via preference terms; practitioners should verify the scheme's status under NCLT and the ranking/redemption features of each series.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_24082026181640_BHARATRAS106.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SIYSIL_25082026172359_SEIntimation_AllotmentofPrefernceShares.pdf)
 
 ---
 
-### Dabur India Limited: Scheme of Arrangement – NCLT Order Reserved for Second Motion Petition
+### HEG Demerger to Take Effect from September 1, 2026; Record Date Fixed for September 7, 2026
+**MA** · Mumbai · ✓ Verified
+
+HEG Limited announces demerger scheme effective September 1, 2026, with record date set for September 7, 2026, and concurrent leadership changes. Press release filed with NSE formally notifying shareholders and the market of the scheme becoming operative.
+
+*Why it matters:* Demerger effective date (Sep 1) preceded by a one-week lag to record date (Sep 7) creates operational window for share registry closure and allotment mechanics—typical for Indian demergers but requires careful coordination with depository and share transfer agent on Ex-date posting and credit timelines.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HEG_25082026170347_HEG_Final_Press_Realease_Intimation.pdf)
+
+---
+
+### Jana Small Finance Bank, Federal Bank shares fall amid merger buzz; NSE seeks clarification
+**MA** · Mumbai · ✓ Verified
+
+Merger speculation emerged around Jana Small Finance Bank and Federal Bank as both stocks declined sharply. NSE issued a news verification query to Jana Small Finance Bank seeking clarification on media reports of a potential merger.
+
+*Why it matters:* Market rumour absent official announcement triggers PSU/listed-entity disclosure obligations; unconfirmed M&A chatter can trigger stock exchange information asymmetry protocols and potential insider-trading surveillance.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/sanath_rao_janabank_com_25082026151220_Clarification.pdf)
+
+---
+
+### Hindustan Copper Limited: Offer for Sale – Govt over-subscription of 2.90 crore shares
 **MA** · New Delhi · ✓ Verified
 
-NCLT New Delhi reserves order on second motion petition in the scheme of amalgamation between Sesa Care Private Limited and Dabur India Limited. The tribunal has deferred final ruling, signalling ongoing judicial review of merger conditions and stakeholder objections.
+The President of India, acting through the Ministry of Mines, announced exercise of the over-subscription option in HCL's OFS to divest 2,90,10,721 equity shares. This represents a discretionary upsize of the Government's stake-reduction offering.
 
-*Why it matters:* Scheme approval remains in abeyance pending NCLT determination on procedural/substantive grounds raised in second motion; amalgamation structure contingent on tribunal's interpretation of Companies Act 2013 s.230–232 merger thresholds and creditor/minority protections.
+*Why it matters:* Government stake-dilution OFS oversubscription signals confidence in HCL's valuation at offer price and demonstrates the centre's continued disinvestment momentum in strategic PSUs; partners should track final price discovery and any conditions precedent on floor price or underwriting.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DABUR_24082026163614_NCLT_order.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/tchari_25082026173646_Oversubscriptionletter_HCL_OFS.pdf)
 
 ---
 
-### Jinkushal Industries Limited: SEBI Takeover Regulation 10(5) Disclosure Filed
+### Hero MotoCorp investment in Ather Energy disclosed under Regulation 30
 **MA** · Mumbai · ✓ Verified
 
-JKIPL has filed a mandatory Regulation 10(5) disclosure under SEBI Takeover Regulations , indicating a substantial acquisition of shares. Acquirer identity, consideration, and shareholding acquired not accessible from available sources.
+Hero MotoCorp has made an investment/acquisition in Ather Energy Limited , disclosed via NSE Regulation 30 filing on 25 August 2026 as a material corporate event requiring immediate disclosure.
 
-*Why it matters:* Regulation 10(5) filings signal completion of a substantial acquisition threshold (typically ≥25% shareholding in listed companies); this disclosure gates public information about the acquirer and triggers potential open offer obligations if shareholding crosses regulatory thresholds.
+*Why it matters:* Regulation 30 filing signals a material transaction below the statutory threshold for shareholder approval but material enough for stock exchange announcement; precedent for two-wheeler manufacturers entering EV mobility startups via minority/significant stake acquisition.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_24082026160300_21082026185614_JKIPL.pdf)
-
----
-
-### KPI Green Energy and Raz Holding Group sign Non-Binding Letter of Intent for Strategic Investment and/or Collaboration
-**MA** · Delhi · ✓ Verified
-
-KPI Green Energy and Raz Holding Group have signed a non-binding Letter of Intent for a proposed strategic investment and/or collaboration. The parties have not disclosed valuation, deal structure or timelines; the LOI is exploratory in nature.
-
-*Why it matters:* Non-binding LOI signals potential institutional/foreign capital interest in renewable energy infrastructure; partners should monitor for binding definitive agreement triggers, regulatory approvals (FDI/FIPB if foreign capital) and disclosure requirements under Listing Rules.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KPIGLOBAL_24082026121522_25_Press_Release_LOI_Raz_Holding_Group_24082026_Signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HEROMOTO_25082026225914_DisclosureunderRegulation30.pdf)
 
 ---
 
-### V.S.S. Mani Disclosure under SEBI Takeover Regulations
-**MA** · Delhi · ✓ Verified
+### Prataap Snacks Limited: Acquisition Update
+**MA** · — · ✓ Verified
 
-V.S.S. Mani files substantial acquisition disclosure under SEBI Takeover Regulations 2011 Regulation 10(5) with NSE. Filing signals material change in shareholding at Just Dial Limited, a major Indian business directory and classifieds platform.
+Prataap Snacks Limited has informed the NSE of an update on an ongoing acquisition , but the target entity, consideration, and deal structure are not disclosed in the available filing summary.
 
-*Why it matters:* Regulation 10(5) disclosure triggers the acquirer's obligation to announce a full takeover bid or open offer within 60 days if the threshold (triggering level post-filing) is crossed; counsel must confirm whether this is a precursor to an open offer or strategic stake consolidation below mandatory bid levels.
+*Why it matters:* Partners should obtain the full NSE intimation document and company press release to assess regulatory gating (CCI, SEBI), deal structure, and due diligence milestones; the 'update' language suggests a material condition or closing milestone.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_24082026110646_Regulation.pdf)
-
----
-
-### IHCL and Oriental Hotels Limited Announce Merger
-**MA** · Mumbai · ✓ Verified
-
-IHCL announces merger with Oriental Hotels Limited, consolidating hospitality operations under a single holding structure.
-
-*Why it matters:* Horizontal hospitality consolidation requires NCLT approval under the Companies Act 2013; expect detailed scrutiny of brand separation, employee benefits, and shareholder value dilution claims under Sections 230–232.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TAJORIENTAL_24082026091305_SEPressRelease.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/DIAMONDYD_25082026194704_IntimationofUpdateonAcquisition.pdf)
 
 ---
 
-### DPSC Limited intimates postponement of 5th CoC meeting in IPCL insolvency
-**IBC** · Delhi · ✓ Verified
-
-DPSC Limited has informed NSE of a postponement of the Fifth Meeting of the Committee of Creditors in the Corporate Insolvency Resolution Process of India Power Corporation Limited (IPCL). The intimation was filed post facto, indicating a procedural update in an active CIRP under the Insolvency and Bankruptcy Code, 2016.
-
-*Why it matters:* Post-facto CoC meeting postponements signal either creditor consensus challenges or material developments requiring extended deliberation; practitioners must track IBBI-mandated timelines and amended CoC protocols to flag risk of resolution timeline slippage or plan cram-down mechanics.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DPSCLTD_24082026213702_Intimationofpostponmentof5thCOCMeetingtoSE24082026.pdf)
-
----
-
-### Shrenik Limited: Corporate Insolvency Resolution Process initiated
-**IBC** · Mumbai · ✓ Verified
-
-Shrenik Limited has been admitted into the Corporate Insolvency Resolution Process (CIRP) under the Insolvency and Bankruptcy Code, 2016. The company has disclosed the constitution of a Committee of Creditors (CoC) to the NSE.
-
-*Why it matters:* CIRP admission triggers a 180-day (extendable to 270-day) moratorium on creditor action; the CoC must approve any resolution plan or recommend liquidation, making insolvency counsel and restructuring strategy central to stakeholder outcomes.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SHRENIK_24082026204921_Disclosure_of_Constitution_of_CoC.pdf)
-
----
-
-### SKIL Infrastructure Limited: 10th Committee of Creditors meeting in Corporate Insolvency Resolution Process
-**IBC** · Mumbai · ✓ Verified
-
-SKIL Infrastructure Limited notified the 10th CoC meeting scheduled for 25 August 2026 as part of its ongoing Corporate Insolvency Resolution Process under the Insolvency and Bankruptcy Code, 2016.
-
-*Why it matters:* Repeated CoC meetings (10th iteration) signal protracted resolution negotiations; partners should monitor for evidence of plan rejection cycles, creditor class disputes, or resolution plan amendments—each triggering fresh statutory timelines and disclosure obligations.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Skilinfra_24082026165802_SKIL_Letter_Intimation_10th_COC.pdf)
-
----
-
-### Osia Hyper Retail Limited enters Corporate Insolvency Resolution Process
-**IBC** · Hyderabad · ✓ Verified
-
-Osia Hyper Retail Limited, a retail enterprise, has entered the Corporate Insolvency Resolution Process (CIRP) under the Insolvency and Bankruptcy Code, 2016. The 5th Committee of Creditors meeting was held on 18 August 2026 to progress the resolution.
-
-*Why it matters:* Retail sector insolvencies underscore the procedural criticality of CoC consensus in CIRP timelines; counsel should audit secured creditor voting blocs and monitor resolution plan viability against operational cash burn in the first 180-day window.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/OSIAHYPER_24082026130206_Outcome_of_the_5th_CoC_Meeting_18-08-26_.pdf)
-
----
-
-### HEG Limited: Change in Management Following Composite Scheme of Arrangement
-**MA** · India (Composite Scheme of Arrangement) · ✓ Verified
-
-HEG Limited announces cessation of senior management personnel effective 1 September 2026, following the effectiveness of a Composite Scheme of Arrangement whereby their employment transfers to HEG Graphite Limited. The restructuring reflects the completion of the scheme's implementation, triggering a formal change-of-control disclosure to the stock exchange.
-
-*Why it matters:* Where a composite scheme results in transfer of employment of senior management to a scheme-entity, the parent company must promptly disclose cessation to the exchange; this signals NCLT-sanctioned restructurings often involve post-scheme operational transfers and require careful attention to employee/key-person continuity documentation.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HEG_24082026191652_FinalOutcome24082026.pdf)
-
----
-
-### Veranda Learning Solutions Limited Receives NCLT Approval for Commerce Vertical Demerger
-**MA** · Mumbai · ✓ Verified
-
-Veranda Learning Solutions has obtained NCLT approval for the demerger of its Commerce vertical , marking a key corporate restructuring step to separate the Commerce education business into a standalone entity.
-
-*Why it matters:* Demerger via NCLT order confirms the statutory scheme route under Companies Act s.391–394 is viable for EdTech verticals; subsequent RoC filing and stock exchange listing of the demerged entity will trigger additional disclosure and regulatory gating.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Verandaipo_24082026091037_REG30PR.pdf)
-
----
-
-### Shrenik Limited enters Corporate Insolvency Resolution Process
-**IBC** · Unknown (India) · ✓ Verified
-
-Shrenik Limited has been admitted to CIRP , triggering mandatory corporate insolvency proceedings under the Insolvency and Bankruptcy Code.
-
-*Why it matters:* CIRP admission marks the statutory entry point for resolution plan formulation and creditor voting; creditors and stakeholders must monitor the resolution timeline (typically 180 days extendable to 270 days) and register claims with the insolvency professional.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SHRENIK_24082026204656_Disclosure_of_NCLAT.pdf)
-
----
-
-### Aegis Logistics executes BTA with Aegis Terminal (Pipavav) for ammonia handling
-**MA** · Pipavav, Gujarat · ✓ Verified
-
-Aegis Logistics Limited has executed a Business Transfer Agreement (BTA) with its subsidiary Aegis Terminal (Pipavav) Limited for the transfer of ammonia storage and handling operations at the Pipavav port terminal, effective from the execution date.
-
-*Why it matters:* BTA structures for inter-group ammonia infrastructure transfers involve careful attention to regulatory carve-outs under petroleum & hazardous goods storage rules, and require clear demarcation of operational liabilities under the major hazard facility regime.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AEGISCHEM_24082026185437_ALL_SEintimation_AmmoniaBTA_Signed.pdf)
-
----
-
-### HEG Limited: Outcome of Board Meeting—Composite Scheme of Arrangement Effective Date and Record Date Notified
-**MA** · Mumbai · ✓ Verified
-
-HEG Limited's board approved the effective date and record date for a composite scheme of arrangement , following NCLT certification. The board also reconstituted its committees as mandated under the scheme.
-
-*Why it matters:* The board's adoption of the NCLT-certified composite scheme establishes the operative phase of the arrangement; partners should verify the record date against shareholder registry cutoffs and monitor subsidiary/related-party restructuring triggers under the scheme.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HEG_24082026182755_FinalOutcome24082026.pdf)
-
----
-
-### Chemplast Sanmar denies acquisition of Symed Labs
-**MA** · Mumbai · ✓ Verified
-
-Chemplast Sanmar Limited issued a formal rumour-denial under Regulation 30(11) SEBI LODR, denying reports of a definitive agreement to acquire Symed Labs Limited. The denial was filed as an intimation to stock exchanges on 24 August 2026.
-
-*Why it matters:* The Regulation 30(11) denial establishes that no material agreement existed as at the filing date; counsel advising on any subsequent Chemplast–Symed transaction must establish independent due diligence and document that any future agreement is arm's length and material-event-gated, given the prior market denial.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CHEMPLASTS_24082026181523_InitimationtoStockExchangeDenialofnewsitemSD.pdf)
-
----
-
-### Syngene International Limited: Acquisition
+### Himadri Speciality Chemical Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - Syngene International Limited has informed the Exchange about Acquisition
+Acquisition - Himadri Speciality Chemical Limited has informed the Exchange about Update on investment in Sicona Battery Technologies Pty Ltd
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SYNGENE2_24082026175733_IntimationofInvestmentAmpin.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HSCL_25082026194208_HSCLUpdateoninvestmentinSicona25082026.pdf)
 
 ---
 
-### Pavna Industries Limited: Acquisition
+### Zodiac Energy Limited announces incorporation of wholly owned subsidiary
 **MA** · India · ✓ Verified
 
-Acquisition - Pavna Industries Limited has informed the Exchange about Acquisition
+Zodiac Energy Limited has incorporated a wholly owned subsidiary , disclosed via NSE Regulation 30 filing on 25 August 2026.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PAVNA_24082026172841_OutcomeBM24082026SD.pdf)
+*Why it matters:* Subsidiary incorporation structures often precede material acquisitions or business expansion; a Reg 30 filing signals a material corporate action requiring shareholder transparency under SEBI listing rules.
 
----
-
-### Tata Consultancy Services Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - Tata Consultancy Services Limited has informed the Exchange about Acquisition
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TCS_CORPCS_24082026165522_SE_Disclosure_240828_acq.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ZODIAC_25082026182604_Reg_30.pdf)
 
 ---
 
-### Sonia Agarwal Bajaj files SEBI Takeover disclosure for Donear Industries
+### Sudarshan Chemical Industries to Acquire Aluminium Dyes Plant from Clariant
 **MA** · Mumbai · ✓ Verified
 
-Sonia Agarwal Bajaj has filed a Regulation 10(5) disclosure under SEBI's Substantial Acquisition of Shares and Takeovers Regulations, 2011 , signalling a material shareholding change in Donear Industries Limited.
+Sudarshan Chemical Industries announced the acquisition of an aluminium dyes manufacturing plant from Clariant , expanding its portfolio in specialty chemicals and dye intermediates.
 
-*Why it matters:* Regulation 10(5) disclosure is mandatory when an acquirer crosses 25% threshold or intends substantial acquisition; the filing triggers open offer obligations and triggers review of insider information protocols and trading windows.
+*Why it matters:* Vertical or horizontal integration in Indian specialty dyes; review whether CCI approval is triggered under Section 5 ICA 1969 (group revenue thresholds) and examine share-of-supply impact in dye markets.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_24082026160706_DONEAR.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SUDARSCHEM_25082026133744_PRIntimationProjectTell25082026Signed.pdf)
 
 ---
 
-### K.P. Energy and Raz Holding Group sign Non-Binding Letter of Intent for Strategic Investment and/or Collaboration
+### Sonata Software intimates effective date of wholly owned subsidiary merger
 **MA** · Mumbai · ✓ Verified
 
-K.P. Energy Limited and Raz Holding Group have executed a non-binding Letter of Intent for a proposed strategic investment and/or collaboration. The LOI, disclosed via NSE filing on 24 August 2026, contemplates potential capital infusion and/or operational partnership in the renewable energy sector.
+Sonata Software Limited formally notified the NSE of the effective date of merger of a wholly owned subsidiary into the company. The intimation marks completion of the amalgamation structure.
 
-*Why it matters:* Non-binding LOI signals early-stage strategic exploration; partners should monitor for subsequent binding agreements, regulatory clearances (FDI if foreign capital involved, CCI if >₹2,000 cr and acquisition threshold breached) and material announcements under Listing Rules.
+*Why it matters:* The filing of effective date post-NCLT approval signals the merger is now operative for accounting and regulatory purposes; parties and counsel should ensure all post-merger compliance filings (e.g., ROC, stock exchange disclosures, tax filings) are contemporaneously completed.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KPENERGY_24082026121331_19_KP_Group_LOI_Raz_Holding_Group_Intimation_24082026_Signed.pdf)
-
----
-
-### IHCL and Oriental Hotels Limited announce Merger
-**MA** · Mumbai · ✓ Verified
-
-The Indian Hotels Company Limited announces merger with Oriental Hotels Limited , consolidating the Tata Group's hospitality portfolio. The transaction combines two established hotel operating companies in the Indian hospitality sector.
-
-*Why it matters:* All-stock hospitality consolidation within Tata Group; precedent for inter-group scheme of merger under Cos Act s.230-232 with potential NCLT approval pathway and regulatory filing with stock exchanges.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/bakhtawar_irani_tajhotels_com_24082026090803_Press_Release_FINAL.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SONATSOFTW_25082026131832_intimationoneffectivedateofmerger.pdf)
 
 ---
 
-### IHCL announces Scheme of Arrangement for amalgamation with Oriental Hotels Limited
-**MA** · Mumbai · ✓ Verified
-
-The Indian Hotels Company Limited notified the NSE of a Scheme of Arrangement for the amalgamation of Oriental Hotels Limited into IHCL. The filing signals regulatory disclosure of a potential consolidation within India's hospitality sector.
-
-*Why it matters:* Scheme of Arrangement under Companies Act 2013 Part VIII signals approval pathway via NCLT; material for stamp duty, tax neutrality, and shareholder ratification under the statutory scheme framework.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/bakhtawar_irani_tajhotels_com_24082026085942_Reg_30_IHCL_FINAL.pdf)
-
----
-
-### Oriental Hotels Limited: Amalgamation/Merger
-**MA** · Mumbai · ✓ Verified
-
-Oriental Hotels Limited has disclosed an amalgamation or merger transaction via NSE Regulation 30 filing on 24 August 2026. Material transaction details, counterparty identity, consideration value and deal structure remain undisclosed in the primary filing.
-
-*Why it matters:* Regulation 30 disclosure triggers immediate reporting obligations; corporate counsel must track NCLT sanction timing, Registrar of Companies filing and stock exchange approvals to confirm deal closure and effective date.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TAJORIENTAL_24082026085709_SEReg30.pdf)
-
----
-
-### Genesys International Corporation Limited: Allotment of 25,074,226 Securities pursuant to Rights Issue
-**MA** · Mumbai · ✓ Verified
-
-Genesys International completed allotment of 25.07 million securities under a rights offering , marking the subscription and capital raise phase of the issue.
-
-*Why it matters:* Rights issue allotment triggers compliance with listing rules on disclosure timing, escrow arrangements and start of trading eligibility — critical for locked-in shareholder settlement and market opening schedules.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/GENESYS_24082026203327_Outcome_-_Circular_Resolution.pdf)
-
----
-
-### Piramal Finance Limited: Qualified Institutional Placement approved by Committee
+### Jaykay Enterprises Limited intimates NSE of Letter of Offer for proposed rights issue of partly paid-up equity shares
 **IPO** · Mumbai · ✓ Verified
 
-Piramal Finance Limited's Committee approved a Qualified Institutional Placement on 24 August 2026 , signalling the company's intent to raise capital from institutional investors under the ICDR framework.
+Jaykay Enterprises has filed a Letter of Offer with the NSE for a proposed rights issue of partly paid-up equity shares. The intimation signals regulatory compliance for the capital-raising exercise, with details of the rights issue structure to follow.
 
-*Why it matters:* QIP under ICDR Regulations 2018 is a streamlined pathway for listed companies to raise funds from qualified institutional buyers without a public offer prospectus—critical for financial services firms seeking rapid capital deployment; the Committee approval gates regulatory compliance and investor communication timelines.
+*Why it matters:* A partly paid-up rights issue requires careful coordination of SEBI (ICDR Regulations, Section 62 Companies Act mechanics) and NSE/BSE listing rules around crediting, call schedules, and shareholder statutory rights—this intimation marks the public disclosure threshold.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Piramalcapital_24082026191544_PFL_Intimation_of_QIP_Issueopening_sd.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/JAYKAY_25082026195454_SE_Intimation_LOF.pdf)
 
 ---
 
-### Shrenik Limited enters Corporate Insolvency Resolution Process; first CoC meeting notice issued
-**IBC** · India (jurisdiction TBD) · ✓ Verified
+### Compuage Infocom Limited: 27th CoC Meeting Outcome Intimated to NSE
+**IBC** · India · ✓ Verified
 
-Shrenik Limited has initiated a Corporate Insolvency Resolution Process (CIRP) under the Insolvency and Bankruptcy Code, 2016. The company notified the NSE of the first Committee of Creditors (CoC) meeting, marking formal entry into formal insolvency proceedings.
+Compuage Infocom Limited disclosed the outcome of its 27th Committee of Creditors (CoC) meeting to NSE , continuing its Corporate Insolvency Resolution Process under the IBC.
 
-*Why it matters:* CIRP commencement triggers mandatory disclosure obligations under Regulation 30 of SEBI LODR and Rule 6 of IBC (Insolvency Resolution) Rules, 2016; all material updates (CoC meetings, resolution plans, administrator reports) must be filed with exchanges within 24 hours.
+*Why it matters:* CoC meeting outcomes in CIRP are material disclosure events for creditors and equity holders; the progression from CoC meeting to formal NSE disclosure signals procedural compliance and potential movement toward resolution or liquidation.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SHRENIK_24082026205154_Disclosure_of_the_First_CoC_Meeting.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/COMPINFO_25082026210125_Intimation_letter_for_outcome_of_meeting_27th_CoC_signed.pdf)
+
+---
+
+### <b>Peeko Series A closes at ₹67.4 crore led by Chiratae Ventures</b> with angel participation for vertical quick-commerce babycare expansion.
+**PE** · ₹67.4 cr · Bengaluru · Reported
+
+Bengaluru-headquartered babycare platform Peeko has raised Rs 67.4 crore in a Series A round of funding led by Chiratae Ventures, with participation from existing investor Stellaris Venture Partners and prominent angel investors. Peeko said it will use this funding towards business expansion, technology development, and hiring as it looks to deepen its presence in Bengaluru and expand into newer cities.
+
+*Why it matters:* Vertical quick-commerce in India now attracts institutional capital at scale (₹67 cr+ rounds) for specialist consumer categories; the try-and-buy model for baby products—structurally different from groceries—emerges as a defensive differentiation in commodity delivery markets.
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/universal-legal-jsa-act-on-peeko-series-a-fundraise)
+
+---
+
+### Dain Colour Chem files DRHP for book-built SME IPO on BSE
+**IPO** · ₹30 cr+ · Gandhinagar, Gujarat · Reported
+
+Dain Colour Chem Limited, an integrated manufacturer of synthetic and specialty food colours with over a decade of operational experience, has filed a DRHP with BSE SME for a fresh issue of 31 lakh shares with an offer size of ₹30 crore+. Legacy Law Offices is advising both the issuer and the BRLM, Horizon Management.
+
+*Why it matters:* SME IPO structure allows smaller, high-growth chemical manufacturers efficient access to capital without full mainboard compliance burden; counsel must track BSE SME-specific FEMA and disclosure requirements distinct from mainboard rules.
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-dain-colour-chem-ipo)
 
 ---
 
