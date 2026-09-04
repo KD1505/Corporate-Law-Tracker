@@ -1,221 +1,203 @@
 # Corporate Law Tracker - Daily Brief
-_3 September 2026_
+_4 September 2026_
 
-24 new development(s).
+22 new development(s).
 
-### Khaitan & Co acts on Muthoot FinCorp ₹3,000 crore IPO
-**IPO** · ₹3,000 cr · India · Reported
+### 🔴 upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise
+**REG** · $206 mn · Mumbai · Reported
 
-Muthoot FinCorp Limited has proposed an initial public offering of equity shares, consisting of a fresh issue aggregating up to ₹3,000 crore. Khaitan & Co advised Muthoot FinCorp on this fundraise.
+upGrad Education Private Limited has acquired Unacademy Group for $206 million, structured primarily as share swap with an eventual merger of Unacademy into upGrad. JSA Advocates and Solicitors advised Unacademy and its founders, Gaurav…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-muthoot-fincorp-3000-crore-ipo)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise)
 
 ---
 
-### Solar Industries India Limited: News Verification
+### Cyril Amarchand Mangaldas, TT&A, Trilegal act on Aragen Life Sciences ₹800 crore+ proposed IPO
+**IPO** · ₹800 cr · Cross-border · Reported
+
+Aragen Life Sciences Limited has proposed an initial public offering of equity shares, comprising a fresh issue aggregating to ₹800 crore and an offer for sale of up to 27,329,192 equity shares by the selling shareholders. Cyril Amarchand…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-tta-trilegal-act-on-aragen-life-sciences-800-crore-proposed-ipo)
+
+---
+
+### Khaitan & Co, TT&A, JSA act on Nobel Hygiene ₹150 crore+ proposed IPO
+**IPO** · ₹150 cr · India · Reported
+
+Nobel Hygiene Limited has proposed an initial public offering of equity shares comprising a fresh issue amounting to ₹150 crore and offer for sale of up to 15,511,082 Equity Shares by the selling shareholders. Khaitan & Co is advising…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-jsa-act-on-nobel-hygiene-150-crore-proposed-ipo)
+
+---
+
+### TT&A advises Carrier on acquiring land for manufacturing facility in Andhra Pradesh
+**LIT** · $100 mn · Cross-border · Reported
+
+Carrier Air Conditioning & Refrigeration Limited has acquired 39 acres of land at Sri City, Andhra Pradesh for setting up a new manufacturing facility on the same for $100 million. TT&A advised Carrier on this transaction.
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/tta-advises-carrier-on-acquiring-land-for-manufacturing-facility-in-andhra-pradesh)
+
+---
+
+### Khaitan & Co advises Third Wave Coffee on ₹408 crore Series D fundraise
+**PE** · ₹408 cr · India · Reported
+
+Heisetasse Beverages Private Limited, dba Third Wave Coffee, has raised ₹408 crore from a Series D fundraise led by WestBridge Capital. Khaitan & Co advised Third Wave Coffee on this fundraise.
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-third-wave-coffee-on-408-crore-series-d-fundraise)
+
+---
+
+### JSA advises Gelos Solren on availing ₹875 crore from EXIM Bank
+**BANK** · ₹875 cr · India · Reported
+
+Gelos Solren Private Limited, an SPV of Mahindra Susten, is availing a rupee facility for an amount not exceeding ₹875 crore, including a letter of credit facility of up to ₹600 crore as a sub-limit of the rupee facility, from…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/jsa-advises-gelos-solren-on-availing-875-crore-from-exim-bank)
+
+---
+
+### Global Education Limited: General Updates
 **MA** · Cross-border · ✓ Verified
 
-News Verification - The Exchange has sought clarification from Solar Industries India Limited with respect to recent news item captioned Solar Industries likely to acquire big global firm in South Africa, reports CNBC-Awaaz; shares rise…
+General Updates - Global Education Limited has informed the Exchange about General Updates - Update on allotment of equity shares by Rishiraj Infravision Private Limited pursuant to the Scheme of Demerger
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SOLARINDS_03092026143546_Clarification_NSE.pdf)
-
----
-
-### Solar Industries India Limited: News Verification
-**MA** · Cross-border · ✓ Verified
-
-News Verification - The Exchange has sought clarification from Solar Industries India Limited with respect to recent news item captioned Solar Industries likely to acquire big global firm in South Africa, reports CNBC-Awaaz; shares rise…
-
-[Open source ↗](-)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GLOBAL_04092026143159_GeneralUpdate04092026.pdf)
 
 ---
 
-### TCI Express Limited: Updates
+### SVP GLOBAL TEXTILES LIMITED: Corporate Insolvency Resolution Process
+**IBC** · Cross-border · ✓ Verified
+
+Corporate Insolvency Resolution Process - SVP GLOBAL TEXTILES LIMITED has informed the Exchange about Corporate Insolvency Resolution Process
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SVPGLOB_04092026184424_Disclosure_Under_Regulation_30_svpg.pdf)
+
+---
+
+### SIS LIMITED: General Updates
 **MA** · India · ✓ Verified
 
-Updates - TCI Express Limited has informed the Exchange regarding 'Disclosures Under Regulation 29(2) Of SEBI (Substantial Acquisition Of Shares And Takeovers) Regulations, 2011'.
+General Updates - SIS Limited informed the exchange regarding the acquisition of additional equity shares of Updater Services Limited.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TCIEXP_03092026220358_Takeover_Regulation_-Disclosure.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SIS_04092026205013_Intimation.pdf)
 
 ---
 
-### Mawana Sugars Limited: Updates
+### Greenlam Industries Limited: General Updates
 **MA** · India · ✓ Verified
 
-Updates - Mawana Sugars Limited has informed the Exchange regarding 'Intimation under Regulation 30 of the SEBI (Listing Obligations and DisclosureRequirements) Regulations, 2015 - Approval of Scheme of Amalgamation by theHon'ble National…
+General Updates - Greenlam Industries Limited has informed the Exchange about Acquisition in Bhadla Minigrid Solar 4 Private Limited, a special purpose vehicle established for owning and operating a captive power plant.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MAWANASUG_03092026210334_DisclosureNCLT.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GREENLAMAW_04092026180548_Regulation_30_Power_Purchase_Agreementsigned.pdf)
 
 ---
 
-### Avalon Technologies Limited: Press Release
+### Supreme Industries Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-Press Release - Avalon Technologies Limited has informed the Exchange regarding a press release dated September 03, 2026, on the Joint Venture Agreement between Avalon and Zollner.
+Disclosure under SEBI Takeover Regulations - Vijay Kumar Taparia has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption provided for…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AVALON2022_03092026185455_PressReleaseFinal.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_04092026175255_04092026171213_SUPREMEIND.pdf)
 
 ---
 
-### Avalon Technologies Limited: Agreements
+### Fujiyama Power Systems Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Agreements - Avalon Technologies Limited has informed the Exchange about the Joint Venture Agreement
+Acquisition - Fujiyama Power Systems Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AVALON2022_03092026184812_ATL_JV_Announcement_-_Final.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/UTLSOLAR2024_04092026172912_nsebseacquisitionzayo.pdf)
 
 ---
 
-### Heranba Industries Limited: Acquisition
+### CIE Automotive India Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - Heranba Industries Limited has informed the Exchange about the updates on acquisition
+Acquisition - CIE Automotive India Limited has informed the Exchange about Intimation of further investment in CIE Hosur Limited, a Wholly Owned Subsidiary of the Company.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HERANBA_03092026183749_Approval_of_Investment_HIL_Final_to_Upload.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/Mahindracie_04092026170335_SEintimation.pdf)
 
 ---
 
-### HLE Glascoat Limited: Disclosure under SEBI Takeover Regulations
+### Advit Jewels Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations - HLE Glascoat Limited has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
+Disclosure under SEBI Takeover Regulations - Abhishek Gilara has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_03092026183148_25082026112108_hle.zip)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_04092026164041_RAMBHAJO.pdf)
 
 ---
 
-### Silgo Retail Limited: General Updates
+### Thyrocare Technologies Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-General Updates - Silgo Retail Limited has informed the Exchange about Disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011
+Disclosure under SEBI Takeover Regulations - API Holdings limited has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption provided…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SILGO_03092026180618_Disclosure_under_29_2__03092026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_04092026162536_THYROCARE.pdf)
 
 ---
 
-### TVS Srichakra Limited: Acquisition
+### Supreme Industries Limited: Updates
 **MA** · India · ✓ Verified
 
-Acquisition - TVS Srichakra Limited has informed the Exchange about Acquisition
+Updates - Supreme Industries Limited has informed the Exchange regarding 'Disclosure under Regulation 10 (6) of SEBI (Substantial Acquisition of Share andTakeover) Regulation, 2011
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TVSSRICHAK_03092026173552_TVSSRICHAKRALIMITEDREG30ACQUISITIONTVSSSPL.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SUPREMEIND_04092026162633_StockExchangeIntimationregarding106.pdf)
 
 ---
 
-### Adani Energy Solutions Limited: Disclosure under SEBI Takeover Regulations
+### Shankara Building Products Limited: Public Announcement-Open Offer
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations - GQG Partners LLC has submitted the Exchange a copy of Disclosure under Regulation 29(2) of SEBI (SAST) Regulations, 2011.
+Public Announcement-Open Offer - Corporate Professionals Capital Private Limited has Submitted to the Exchange a copy of offer opening public announcement and corrigendum to the detailed public statement under Regulation 18(7) of SEBI…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_03092026170222_02092026183742_ADANIENSOL.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_04092026120945_SHANKARA.zip)
 
 ---
 
-### KCP Sugar and Industries Corporation Limited: Updates
+### Jinkushal Industries Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-Updates - KCP Sugar and Industries Corporation Limited has informed the Exchange regarding 'Disclosure under Regulation 29(2) of Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011 '.
+Disclosure under SEBI Takeover Regulations - Jinkushal Industries Limited has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KCPSUGIND_03092026171230_NSEBSEsd.pdf)
-
----
-
-### Bharat Rasayan Limited: Disclosure under SEBI Takeover Regulations
-**MA** · India · ✓ Verified
-
-Disclosure under SEBI Takeover Regulations - MPG Family Trust has submitted to the Exchange a copy of Disclosure under Regulation 29(1) of SEBI (SAST) Regulations, 2011.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_24082026175650_BHARATRAS.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_04092026115516_Intimation_10.pdf)
 
 ---
 
-### Prakash Steelage Limited: Disclosure under SEBI Takeover Regulations
-**MA** · India · ✓ Verified
-
-Disclosure under SEBI Takeover Regulations - Mrs. DHELIBEN MAFATLAL SETH has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_03092026170028_02092026163748_PRAKASHSTL.pdf)
-
----
-
-### Bharat Rasayan Limited: Disclosure under SEBI Takeover Regulations
-**MA** · India · ✓ Verified
-
-Disclosure under SEBI Takeover Regulations - Centum Finance Ltd has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption provided for…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_03092026165825_BHARATRAS10.pdf)
-
----
-
-### Cipla Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - Notice to shareholders and creditors in accordance with NCLT Order dated 18th August, 2026 regarding merger of Inzpera Healthsciences Limited with the Company.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CIPLA_03092026164718_Final_SEINT_V2f_signed.pdf)
-
----
-
-### Bharat Forge Limited: Press Release
-**MA** · India · ✓ Verified
-
-Press Release - Bharat Forge Limited has informed the Exchange regarding a press release dated September 03, 2026, titled "Thales and Kalyani Strategic Systems Limited sign Strategic Alliance Agreement for 70-mm Rocket Systems".
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ANILSHINDE_03092026164524_SEIntimationPressRelease_Thales_and_KSSL.pdf)
-
----
-
-### Max Healthcare Institute Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - Max Healthcare Institute Limited has informed the Exchange about infusion of funds in Kalinga Hospital Ltd.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MAXHEALTH_03092026152852_SE_Disclosure.pdf)
-
----
-
-### Balu Forge Industries Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - Balu Forge Industries Limited has informed the Exchange about Press Release - Acquisition of Ring Rolling Production Line
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/BALUFORGE_03092026090126_Intimation.pdf)
-
----
-
-### Lloyds Enterprises Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - Lloyds Enterprises Limited has informed the Exchange about Change in Name of Geomysore Services India Pvt Ltd, Strategic Investment Unit of Lloyds Enterprises Limited
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SGTL2008_03092026071849_IntimationChangeinnameofGeomysore.pdf)
-
----
-
-### Consolidated Finvest & Holdings Limited: General Updates
-**IPO** · India · ✓ Verified
-
-General Updates - Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 and receipt of the Initial Public Announcement dated September 03, 2026, under the SEBI (Delisting of Equity…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CONSOFINVT_03092026152726_Intimation_CFHL_IPA_-_03092026_Final_signed.pdf)
-
----
-
-### BIL VYAPAR LIMITED: Corporate Insolvency Resolution Process
+### Future Enterprises Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - BIL VYAPAR LIMITED has informed the Exchange about Disclosure under Regulation 30 of SEBI (Listing and Disclosure Requirements) Regulations, 2015- Outcome of 17 meeting of Committee of Creditors.
+Corporate Insolvency Resolution Process - Future Enterprises Limited has informed the Exchange about selection of OMPL as the Successful Resolution Applicant
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/BINANIIND_03092026183932_Reg_30-_Outcome_of_17th_CoC_meeting__1___1_.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/FELEQ_04092026175321_FEL_Intimation_of_Declaration_of_SRA.pdf)
 
 ---
 
-### Fractal Analytics Limited: Other Restructuring
-**IBC** · India · ✓ Verified
+### Talwalkars Better Value Fitness Limited: Corporate Insolvency Resolution Process
+**IBC** · Delhi-NCR · ✓ Verified
 
-Other Restructuring - Liquidation of step-down subsidiary of the Company
+Corporate Insolvency Resolution Process - Talwalkars Better Value Fitness Limited has informed the Exchange about Corporate Insolvency Resolution Process- Order dated 3rd September 2026, passed by the Hon ble National Company Law…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/FRACTAL_03092026154656_Fractal_Sweden_Liquidation.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TALWALKARS1_04092026163659_NCLT_Order_Update-_Regulation_30.pdf)
+
+---
+
+### Anagram Partners, River Law act on Investcorp's ₹500 crore acquisition of 20Cube
+**MA** · ₹500 cr · India · Reported
+
+Investcorp has acquired 20Cube 3PL Solutions for ~₹500 crore. Anagram Partners advised Investcorp on this acquisition.
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/anagram-partners-river-law-act-on-investcorps-500-crore-acquisition-of-20cube)
+
+---
+
+### C&S Partners advises Mahajan Imaging on JV with Neuberg Diagnostics
+**PE** · India · Reported
+
+Mahajan Imaging Private Limited has formed strategic joint venture with Neuberg Diagnostics Private Limited for expansion of pathology, wellness and integrated diagnostic services across North India. C&S Partners advised Mahajan Imaging on…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cs-partners-advises-mahajan-imaging-on-joint-venture-with-neuberg-diagnostics)
 
 ---
 
