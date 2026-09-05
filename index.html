@@ -939,7 +939,7 @@ hide it immediately so the live app renders instead of flashing a static list wh
     });
 
   var code=Promise.all(PARTS.map(function(f){
-    return fetch(f+"?v=20260904-3518").then(function(r){
+    return fetch(f+"?v=20260905-3521").then(function(r){
       if(!r.ok) throw new Error(f+" -> HTTP "+r.status);
       return r.text();
     });
