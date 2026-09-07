@@ -1,131 +1,185 @@
 # Corporate Law Tracker - Daily Brief
-_6 September 2026_
+_7 September 2026_
 
-14 new development(s).
+20 new development(s).
 
-### JSA advises on India leg of Cisco's acquisition of WideField Security
-**MA** · Cross-border · Reported
+### Trilegal advises Lumino Industries on ₹700 crore IPO
+**IPO** · ₹700 cr · India · Reported
 
-JSA Advocates & Solicitors represented and assisted Cisco Systems, Inc. on the India leg of its global acquisition of WideField Security Inc.
+Lumino Industries Limited has raised ₹700 crore from an initial public offering of equity shares which comprised a fresh issue and an offer for sale by the promoter selling shareholders. Trilegal advised Lumino Industries and the promoter…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/jsa-advises-on-india-leg-of-ciscos-acquisition-of-widefield-security)
-
----
-
-### Cyril Amarchand Mangaldas, Khaitan & Co act on merger of Happiest Minds into ITC Infotech
-**MA** · India · Reported
-
-ITC Infotech India Limited has acquired 3,36,61,700 equity shares of Happiest Minds Technologies Limited, representing 22.106% of its equity share capital in two tranches. Happiest Minds is also set to merge with and into ITC Infotech.
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-khaitan-co-act-on-merger-of-happiest-minds-into-itc-infotech)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-lumino-industries-on-700-crore-ipo)
 
 ---
 
-### Kavveri Defence & Wireless Technologies Limited: Amalgamation/Merger
+### Saga Legal advises Ultrahuman on $70 million fundraise
+**PE** · $70 mn · Cross-border · Reported
+
+Ultrahuman has raised $70 million from a fundraise led by Qualcomm Ventures, with participation from Alpha Wave, Blume Ventures, Nexus Venture Partners, Alteria Capital and other investors. Saga Legal advised Ultrahuman across the…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/saga-legal-advises-on-ultrahuman-on-70-million-fundraise)
+
+---
+
+### Khaitan & Co advises HT Media on preferential issue of Warrants
+**IPO** · India · Reported
+
+HT Media Limited has made a preferential issue of warrants to its promoter group and financial investors. Khaitan & Co advised HT Media on this warrants issue.
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-ht-media-on-preferential-issue-of-warrants)
+
+---
+
+### Bhagyanagar India Limited: Scheme of Arrangement
 **MA** · India · ✓ Verified
 
-Amalgamation/Merger - Kavveri Defence & Wireless Technologies Limited has informed the Exchange about Scheme of Arrangement.
+Scheme of Arrangement - we would like to inform that the Composite Scheme of Arrangement between Bhagyanagar Copper Private Limited (BCPL or Transferor Company) and Bhagyanagar India Limited (BIL or Transferee Company or Demerged…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KAVVERITEL_06092026151254_BMO_SOAs.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/BHAGYANGR_07092026224341_BILReceiptoforderbyNCLT1.pdf)
 
 ---
 
-### GUJARAT ENERGY LIMITED: General Updates
+### Anupam Rasayan India Limited: General Updates
 **MA** · India · ✓ Verified
 
-General Updates - GUJARAT ENERGY LIMITED has informed the Exchange about General Updates - General Guidance Note to the Shareholders on apportionment of cost of acquisition of Equity Shares of the Company and Resulting Company
+General Updates - Anupam Rasayan India Limited has informed the Exchange about acquisition of equity shares in Tanfac Industries Limited pursuant to a preferential issue
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/GUJGASLTD_05092026193209_1617SECCostApportinti05092026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ANURAS_07092026213738_ARILSLDSTX20260907053Reg30DisclosureSubscriptionofTanfacShares.pdf)
 
 ---
 
-### ASK Automotive Limited: Updates
+### Tribhovandas Bhimji Zaveri Limited: Updates
 **MA** · India · ✓ Verified
 
-Updates - ASK Automotive Limited has informed the Exchange regarding 'Commencement of Commercial Production and Supply - ASK GTD Control Cable Private Limited, Joint Venture of the Company'.
+Updates - Axis Capital Limited (Manager to the Offer) has submitted to the Exchange a Detailed public statement dated September 4, 2026 (the Detailed Public Statement ) in relation to the open offer to the Public Shareholders (as defined…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/8448091598_05092026174953_sdIntimation.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/vipulr_07092026191306_TBZ_DPS_CoverLetter.zip)
 
 ---
 
-### Kronox Lab Sciences Limited: Updates
+### Bharat Rasayan Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-Updates - Kronox Lab Sciences Limited has informed the Exchange regarding 'Intimation under Regulation 30 of the SEBI (LODR) Regulations, 2015 Receipt of Draft Letter of Offer (DLOF) for Open Offer.'.
+Disclosure under SEBI Takeover Regulations - Centum Finance Limited has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption provided…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KRONOX_05092026162825_Regulation_30_Disclosure_DLOF-IIFL.pdf)
-
----
-
-### Shakti Pumps (India) Limited: Acquisition
-**MA** · ₹11 cr · India · ✓ Verified
-
-Acquisition - Shakti Pumps (India) Limited has informed the Exchange that Company has invested Rs. 11 Crores in its wholly owned subsidiary i.e.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SHAKTIPUMP_05092026145433_IntimationunderReg30ShaktiEnergy.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/vipulr_07092026190214_07092026162334_CENTUM10.pdf)
 
 ---
 
-### The Phoenix Mills Limited: Amalgamation/Merger
+### Tribhovandas Bhimji Zaveri Limited: General Updates
 **MA** · India · ✓ Verified
 
-Amalgamation/Merger - The Phoenix Mills Limited has informed the Exchange about sanction of scheme of merger and amalgamation between subsidiary companies by National Company Law Tribunal, Chennai Bench.
+General Updates - Tribhovandas Bhimji Zaveri Limited has informed the Exchange about Detailed Public Statement - Open Offer
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PHOENIXLTD_05092026105632_bg_-PML_new_MergerAstrea_sd.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TBZ_07092026184930_20260907_Regulation_30_Detailed_Public_Statement_LH.pdf)
 
 ---
 
-### Sammaan Capital Limited: Updates
-**IPO** · India · ✓ Verified
+### India Glycols Limited: Updates
+**MA** · India · ✓ Verified
 
-Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
+Updates - India Glycols Limited has informed the Exchange regarding 'Material Update in Connection with Ennature Bio Pharma Limited with reference to Observation letter no. NSE/LIST/48932 dated 17th November, 2025 and no.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_05092026161413_SCL_Retail_Intimation_Reg_57_1_LD0.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/INDIAGLYCO_07092026184352_SE_EBL_Upload.pdf)
+
+---
+
+### India Glycols Limited: Updates
+**MA** · India · ✓ Verified
+
+Updates - India Glycols Limited has informed the Exchange regarding 'Material Update in Connection with IGL Spirits Limited with reference to Observation letter no. NSE/LIST/48932 dated 17th November, 2025 and no.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/INDIAGLYCO_07092026183435_IGL_Spirits_Upload.pdf)
+
+---
+
+### Silgo Retail Limited: General Updates
+**MA** · India · ✓ Verified
+
+General Updates - Silgo Retail Limited has informed the Exchange about the Report under Regulation 10(6) of the SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SILGO_07092026180211_Acquisition_report_07092026.pdf)
+
+---
+
+### Adani Power Limited: General Updates
+**MA** · India · ✓ Verified
+
+General Updates - Adani Power Limited has informed the Exchange about Declaration of the Successful Resolution Applicant and issuance of Letter of Intent for acquiring GVK Energy Limited
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ADANIPOWER_07092026163040_APLLOIResoPlanapprovedbyCOCGVK07092026.pdf)
+
+---
+
+### 63 moons technologies limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - 63 moons technologies limited has informed the Exchange about Acquisition
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/63MOONS_07092026162210_AcquisitionFTSPL07092026.pdf)
+
+---
+
+### Raghav Productivity Enhancers Limited: Press Release
+**MA** · India · ✓ Verified
+
+Press Release - Raghav Productivity Enhancers Limited has informed the Exchange regarding a press release dated September 07, 2026, titled "Press Release regarding Joint venture of the Company".
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/RPEL2009_07092026105911_sign_Press_Release_RPELJV.pdf)
+
+---
+
+### Info Edge (India) Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Info Edge (India) Limited has informed the Exchange about Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NAUKRI2_07092026093931_Stock_Exchange_Intimation-_IEIL_to_SIHL.pdf)
+
+---
+
+### Mankind Pharma Limited: General Updates
+**IBC** · India · ✓ Verified
+
+General Updates - Update on Voluntary Liquidation of Bharat Serums and Vaccines Limited, a WOS.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MANKIND1_07092026171041_DisclosureSD.pdf)
+
+---
+
+### Lodha Developers Limited: Copy of Newspaper Publication
+**IBC** · India · ✓ Verified
+
+Copy of Newspaper Publication - Lodha Developers Limited has informed the Exchange about Copy of Newspaper Advertisement regarding NCLT Convened Meeting of Equity Shareholders and Secured Creditors (including Secured Debenture Holders) of…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/LODHA_07092026145433_Lodha_Newspaper_advt_Cover_Letter.pdf)
+
+---
+
+### SKIL Infrastructure Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process - SKIL Infrastructure Limited has intimated the Exchange regarding the Eleventh (11th) Committee of Creditors meeting to be held on Wednesday, September 09, 2026
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/Skilinfra_07092026121318_SKIL_Letter_Intimation_11th_COC.pdf)
 
 ---
 
 ### Jubilant Agri and Consumer Products Limited: General Updates
 **IBC** · India · ✓ Verified
 
-General Updates - Jubilant Agri and Consumer Products Limited has informed the Exchange about proceedings of Hon'ble NCLT Convened Meeting of Unsecured Creditors held on September 05, 2026.
+General Updates - JUBLCPL: Jubilant Agri and Consumer Products Limited has submitted to the Exchange a copy of the Scrutinizer's Report and has informed the Exchange regarding the voting results of the Hon'ble NCLT-convened Meeting of…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/JACPL_05092026235956_Summary_Proceeding_USC_JACPL.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/JACPL_07092026001101_IntimationVotingResultsUSCSigned.pdf)
 
 ---
 
 ### Jubilant Agri and Consumer Products Limited: Shareholders meeting
 **IBC** · India · ✓ Verified
 
-Shareholders meeting - Jubilant Agri and Consumer Products Limited has informed the Exchange regarding Proceedings of Hon'ble NCLT Convened Meeting of Equity Shareholders held on September 05, 2026
+Shareholders meeting - JUBLCPL: Jubilant Agri and Consumer Products Limited has submitted to the Exchange a copy of the Scrutinizer's Report and has informed the Exchange regarding the voting results of the Hon'ble NCLT-convened Meeting of…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/JACPL_05092026235438_Summary_Proceeding_ESH_JACPL.pdf)
-
----
-
-### Premier Limited: General Updates
-**IBC** · India · ✓ Verified
-
-General Updates - Premier Limited has informed the Exchange regarding Notice of 80th Annual General Meeting of Premier Limited (In CIRP)
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PREMIER_05092026195120_PL_-_Covering_Letter_with_Notice_of_80th_AGM_Signed.pdf)
-
----
-
-### Reliance Industries Limited: Other Restructuring
-**IBC** · India · ✓ Verified
-
-Other Restructuring - Roptonal Limited (Roptonal), a step-down subsidiary of the Company, stands dissolved with effect from August 18, 2026, as per the certificate dated September 4, 2026 issued by the Department of Insolvency, Republic of…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/kavinavora_05092026173533_SE05092026.pdf)
-
----
-
-### Ansal Properties & Infrastructure Limited: Corporate Insolvency Resolution Process
-**IBC** · Delhi-NCR · ✓ Verified
-
-Corporate Insolvency Resolution Process - The Company has Submitted the Stock Exchanges certified Copy of the Order of the Hon'bleNational Company Law Tribunal for approval of Resolution Plan in the Corporate Insolvency Resolution Process…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ANSALAPI_05092026161505_Intimation_Resolution_Plan_Fernill_Project_APIL.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/JACPL_07092026000403_IntimationVotingResultsESHSigned.pdf)
 
 ---
 
