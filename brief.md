@@ -1,203 +1,275 @@
 # Corporate Law Tracker - Daily Brief
-_8 September 2026_
+_9 September 2026_
 
-22 new development(s).
+30 new development(s).
 
-### 🔴 Khaitan & Co assists NIIF on setting up ₹19,000 crore infrastructure fund
-**MA** · ₹19,000 cr · Cross-border · Reported
+### 🔴 Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore
+**MA** · ₹9,825 cr · Cross-border · Reported
 
-Khaitan & Co has advised NIIF on the first closing of NIIF Infrastructure Fund II, its second flagship infrastructure fund, with aggregate commitments of ₹19,000 crore (~$2 billion). The Firm acted as the lead fund counsel and advised NIIF…
+Adani Airport Holdings Limited has executed binding agreements to raise ₹9,825 crore (~$1 billion) from Alpha Wave Global, Premji Invest, Temasek and BlackRock managed funds. Cyril Amarchand Mangaldas advised Adani Airports on this…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-assists-niif-on-setting-up-19000-crore-infrastructure-fund)
-
----
-
-### Shardul Amarchand Mangaldas advises on Parijat Industries - HELM collaboration
-**MA** · Cross-border · Reported
-
-Parijat Industries (India) Limited has acquired a retailer-focused digital commerce platform and associated retail database from PEAT GmbH, an agri-input portfolio company and subsidiary of HELM AG, Germany. Shardul Amarchand Mangaldas &…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-on-parijat-industries-helm-collaboration)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-jsa-azb-partners-act-as-adani-airports-set-to-raise-9825-crore)
 
 ---
 
-### JSA advises NaBFID, Axis Bank, PTC India FinServ on financing for telecommunications infrastructure project
-**BANK** · Cross-border · Reported
+### CMS INDUSLAW advises Prestige Group on securing residential project in Sector 109, Gurgaon
+**MA** · ₹5,600 cr · Delhi-NCR · Reported
 
-National Bank for Financing Infrastructure and Development, Axis Bank Limited and PTC India Financial Services Limited are financing a telecommunications infrastructure project undertaken by Space World Digital Solutions Private Limited…
+Prestige Estates Projects Limited has entered into a joint development agreement with Ashok Solomon, Chintels India and landowning entities, for a residential project in Sector 109, Gurgaon. CMS INDUSLAW advised Prestige Group on the…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/jsa-advises-nabfid-axis-bank-ptc-india-finserv-on-financing-for-telecommunications-infrastructure-project)
-
----
-
-### Khaitan & Co, Trilegal act on ESDS ₹720 crore IPO
-**IPO** · ₹720 cr · India · Reported
-
-ESDS Software Solution Limited has raised ₹720 crore from an initial public offering of equity shares comprised of a fresh issue of 16,783,216 equity shares. Khaitan & Co advised ESDS on this IPO.
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-trilegal-act-on-esds-720-crore-ipo)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-advises-prestige-group-on-securing-residential-project-in-sector-109-gurgaon)
 
 ---
 
-### Trilegal advises Pixxel on $100 million Series C fundraise
-**PE** · $100 mn · Bengaluru · Reported
+### Hinduja Global Solutions Limited: General Updates
+**MA** · Cross-border · ✓ Verified
 
-Bengaluru-based space startup Pixxelspace India Private Limited has raised $100 million from a Series C fundraise co-led by Temasek and Seraphim, with participation from both new and existing investors. Trilegal advised Pixxel on this…
+General Updates - We have to inform you that the Board of Directors of IndusInd Media & Communications Limited ( IMCL ), a subsidiary of the Hinduja Global Solutions Limited has approved the divest/ sell of it s (i.e. IMCL) entire…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-pixxel-on-100-million-series-c-fundraise)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HGSN_09092026153808_HGS-Reg30-Subsidiaries.pdf)
 
 ---
 
-### CSB Bank Limited: General Updates
+### Emkay Global Financial Services Limited: Granting/withdrawal/surrender/cancellation/suspension of key licenses/ regulatory approvals
+**IPO** · Cross-border · ✓ Verified
+
+Granting/withdrawal/surrender/cancellation/suspension of key licenses/ regulatory approvals - Emkay Global Financial Services Limited has informed the Exchange about the Intimation of receipt of trading approval letters from stock…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/jpshah_09092026124412_IntimationtoBSEandNSEfortradingapproval.pdf)
+
+---
+
+### JSA advises Cyrix on acquisition of MedTech Solutions division from Blue Star
+**MA** · India · Reported
+
+Cyrix Healthcare Private Limited has acquired the MedTech Solutions division of Blue Star Engineering & Electronics Limited. JSA Advocates and Solicitors advised Cyrix on this acquisition.
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/jsa-advises-cyrix-on-acquisition-of-medtech-solutions-division-from-blue-star)
+
+---
+
+### Tata Motors Limited: General Updates
 **MA** · India · ✓ Verified
 
-General Updates - CSB Bank Limited has informed the Exchange about approval granted by Reserve Bank of India to ICICI Prudential Asset Management Company Limited to acquire aggregate holding of up to 9.95% of the paid-up share capital or…
+General Updates - Tata Motors Limited has informed the Exchange about notices to Shareholders and Creditors regarding Composite Scheme of Amalgamation amongst Tata Motors Limited, TMF Holdings Limited and TMF Business Services Limited.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CSBBANK_08092026220843_BSENSEICICIRBIApproval08092026f.pdf)
-
----
-
-### Park Medi World Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - Park Medi World Limited has informed the Exchange about incorporation of a Wholly owned subsidiary
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PARKMEDIWORLD2025_08092026195837_intimation0809.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TMLCOMMERCIAL_09092026231222_NSEBSETMF.pdf)
 
 ---
 
-### Hindustan Media Ventures Limited: Acquisition
+### Digjam Limited: Updates
 **MA** · India · ✓ Verified
 
-Acquisition - Hindustan Media Ventures Limited has informed the Exchange about Acquisition
+Updates - Digjam Limited has informed the Exchange regarding 'Digjam Limited has informed the Exchange about the order of the Hon ble National Company Law Tribunal, Chennai Bench, (Tribunal) in connection with the proposed Scheme of…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HMVL_08092026195725_HMVLdisclosure.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/DIGJAMLMTD_09092026205029_Petition_Order_SE_Intimation-merged.pdf)
 
 ---
 
-### Pitti Engineering Limited: Amalgamation/Merger
+### Digjam Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-Amalgamation/Merger - Pitti Engineering Limited has informed the Exchange about Scheme of Amalgamation approved by the Hon''ble NCLT
+Amalgamation/Merger - Digjam Limited has informed the Exchange about the order of the Hon ble National Company Law Tribunal, Chennai Bench, (Tribunal) in connection with the proposed Scheme of Arrangement between Reid & Taylor…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PITTIENG_08092026190745_NCLTORDER.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/DIGJAMLMTD_09092026204809_Petition_Order_SE_Intimation-merged.pdf)
 
 ---
 
-### Mercury Ev-Tech Limited: Updates
+### ICICI Prudential Asset Management Company Limited: General Updates
 **MA** · India · ✓ Verified
 
-Updates - Mercury Ev-Tech Limited has informed the Exchange regarding ''. Disclosure Under Regulation 7(2)(A) Of SEBI (Prohibition Of Insider Trading) Regulations, 2015 And Regulation 29(2) Of SEBI (Substantial Acquisition Of Shares And…
+General Updates - ICICI Prudential Asset Management Company Limited has informed the Exchange about approvals received for acquisition of equity shares in specified banking companies
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MERCURYEV_08092026185039_Mercury_Disc_.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AMCSECRETARIAL_09092026202321_ICICIINTIMATIONBANKS.pdf)
 
 ---
 
-### Viyash Scientific Limited: General Updates
+### Indian Bank: General Updates
 **MA** · India · ✓ Verified
 
-General Updates - Update on proposed acquisition of BioForLife Italia S.r.l
+General Updates - Disclosure under Regulation 30 of the SEBI (LODR) Regulations, 2015- Sale of Shares of NSE held by Indian Bank in the proposed IPO of NSE through Offer for Sale
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SEQUENT1_08092026184504_SE_Intimation.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/INDIANB_09092026195009_SE_Offer_Sale_NSEShares.pdf)
 
 ---
 
-### TCC Concept Limited: Amalgamation/Merger
+### TVS Holdings Limited: Allotment of Securities
 **MA** · India · ✓ Verified
 
-Amalgamation/Merger - TCC Concept Limited has informed the Exchange about the amendment to the Scheme of Merger.
+Allotment of Securities - TVS Holdings Limited has informed the Exchange regarding allotment of 93,06,76,784 Bonus 6% Cumulative Non-Convertible Redeemable Preference Shares pursuant to Scheme of Arrangement
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TCCLTD_08092026172903_Stock_Exchanges_Disclosure_TCC.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SUNCLAYLTD_09092026191331_SEINTIMATIONALLOTMENTSGD.pdf)
 
 ---
 
-### Sindhu Trade Links Limited: Disclosure under SEBI Takeover Regulations
+### Anupam Rasayan India Limited: General Updates
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations - MR. Rudra Sen Sindhu, Mr.
+General Updates - Anupam Rasayan India Limited has informed the Exchange about acquisition of equity shares in Tanfac Industries Limited pursuant to preferential issue.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_08092026161244_SINDHUTRAD.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ANURAS_09092026183541_ARILSLDSTX20260909058Reg30DisclosureTanfacAcquisitionUpdate.pdf)
 
 ---
 
-### Fine Organic Industries Limited: Disclosure under SEBI Takeover Regulations
+### Aakash Exploration Services Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations - Jayen Ramesh Shah has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption provided for…
+Disclosure under SEBI Takeover Regulations - Navinchandra Vershibhai Haria has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_08092026160817_FINEORG.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_09092026181623_AAKASH.pdf)
 
 ---
 
-### Share India Securities Limited: General Updates
+### Muthoot Finance Limited: Acquisition
 **MA** · India · ✓ Verified
 
-General Updates - Share India Securities Limited has informed the Exchange that the Company on September 07, 2026, has received a certified true copy of the Order of the Hon ble NCLT, Ahmedabad Bench I, approving the Scheme of…
+Acquisition - Muthoot Finance Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SISL_08092026153238_REG30NCLTCTCORDER08092026signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MUTHOOTFIN_09092026180915_MFIN_Reg_30_AAF_Right_issue_SD.pdf)
+
+---
+
+### JK Paper Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - JK Paper Limited has informed the Exchange about Acquisition Update
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/JKPAPER_09092026174645_REG_30__Acquisition.pdf)
+
+---
+
+### AU Small Finance Bank Limited: Updates
+**MA** · India · ✓ Verified
+
+Updates - We hereby inform that AU Small Finance Bank ( AU SFB ) has received RBI s letter dated September 8, 2026 according its approval to ICICI Prudential Asset Management Company Limited ( I-Pru AMC ) (along with the schemes of ICICI…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AUBANK_09092026171843_ICICI_SE_Submission.pdf)
+
+---
+
+### Prakash Steelage Limited: Disclosure under SEBI Takeover Regulations
+**MA** · India · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations - Mrs. DHELIBEN MAFATLAL SETH has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_09092026163625_PRAKASHSTL10.pdf)
 
 ---
 
 ### Silgo Retail Limited: General Updates
 **MA** · India · ✓ Verified
 
-General Updates - Silgo Retail Limited has informed the Exchange about Disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011
+General Updates - Silgo Retail Limited has informed the Exchange about Report under Regulation 10(6) of the SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SILGO_08092026141946_disclosure_under_29_2__08092026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SILGO_09092026144612_acquisition_report_09092026.pdf)
 
 ---
 
-### TruCap Finance Limited: Updates
+### Maithan Alloys Limited: Others
 **MA** · India · ✓ Verified
 
-Updates - Sundae Capital Advisors Private Limited has Submitted to the Exchange a copy of Update on the Open Offer given by Marwadi Chandarana Intermediaries Brokers Private Limited (Acquirer) to the shareholders of Trucap Finance Limited…
+Others - Maithan Alloys Limited has informed the Exchange about acquisition of equity shares through Stock Exchange.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_08092026121733_TRUCAP.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MAITHANALL_09092026135933_ESDS.pdf)
 
 ---
 
-### Vishnu Chemicals Limited: Press Release
+### Cochin Shipyard Limited: Outcome of Board Meeting
 **MA** · India · ✓ Verified
 
-Press Release - Vishnu Chemicals Limited has informed the Exchange regarding a press release dated September 08, 2026, titled "Joint Venture Agreement between Vishnu Chemicals Limited, India and DCX Chrome SAS, France".
+Outcome of Board Meeting - CSL Board approves the proposal for forming a joint venture with Drydocks World Dubai FZCO (DDW)
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/VISHNU_08092026102751_VCL_Press_Release_on_JVA_Final_Signed.pdf)
-
----
-
-### Gretex Corporate Services Limited: Updates
-**IPO** · Mumbai · ✓ Verified
-
-Updates - Gretex Corporate Services Limited has informed the Exchange regarding 'The company has filed Red Herring Prospectus (RHP) of the Vama Wovenfab Limited with the Registrar of Companies, Mumbai in connection with its proposed…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/bdesai_08092026194105_Intimation_under_Reg_30_RHP_Vama_Wovenfab_Ltd.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/Aswi4739_09092026113101_SE_Intimation_Cov_Pag_BM_Outcome_sd.pdf)
 
 ---
 
-### Century Extrusions Limited: Rights Issue
-**IPO** · ₹15 · India · ✓ Verified
+### K.M.Sugar Mills Limited: Disclosure under SEBI Takeover Regulations
+**MA** · India · ✓ Verified
 
-Rights Issue - Century Extrusions Limited has informed the Exchange that Board of Directors at its meeting held on September 08, 2026, has decided to issue equity shares on rights basis in the ratio of 3 : 8, i.e 3 Equity Shares for every…
+Disclosure under SEBI Takeover Regulations - K.M.Sugar Mills Limited has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption provided…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CENTEXT_08092026190705_OutcomeofBM08092026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_09092026110829_Disclosure.pdf)
 
 ---
 
-### Vivimed Labs Limited: Corporate Insolvency Resolution Process
+### Siemens Limited: Amalgamation/Merger
+**MA** · Mumbai · ✓ Verified
+
+Amalgamation/Merger - Order dated September 07, 2026 of the Hon''ble National Company Law Tribunal, Mumbai Bench - inter alia, dispensing the meeting of equity shareholders and unsecured creditors of Transferor Company and Transferee…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SIEMENS_09092026101753_SE_Intimation_-_SRAPL_-_09092026.pdf)
+
+---
+
+### Kiri Industries Limited: Updates
+**MA** · India · ✓ Verified
+
+Updates - Kiri Industries Limited has informed the Exchange regarding 'Acquisition of shares of Makilala Mining Company, Inc. by Equinaire Holdings Limited through public auction.'.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/KIRIINDUS_09092026083508_Intimation_of_Acquisition_09092026_S.pdf)
+
+---
+
+### Sammaan Capital Limited: Updates
+**IPO** · India · ✓ Verified
+
+Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_09092026184550_SCL_Retail_Intimation_57_08092026_QM0.pdf)
+
+---
+
+### Natco Pharma Limited: Rights Issue
+**IPO** · India · ✓ Verified
+
+Rights Issue - Intimation of Draft letter of Offer
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NATCOPHARM_09092026174838_SE_DLOF_Intimation.pdf)
+
+---
+
+### Neueon Corporation Limited: General Updates
+**IPO** · India · ✓ Verified
+
+General Updates - Disclosure of Withdrawal of Rights Issue proposal, which was earlier approved by the Board of Directors at their meetings held on July 31, 2026 in compliance with Regulation 30 of SEBI (Listing Obligations and Disclosure…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NTL_09092026173607_NCL_announcement_Right_withdrawl_signed.pdf)
+
+---
+
+### Kalpataru Projects International Limited: General Updates
+**IPO** · India · ✓ Verified
+
+General Updates - Kalpataru Projects International Limited has informed the Exchange about Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/KALPATPOWR_09092026113613_SEIntimationReg30LMG092026_892026.pdf)
+
+---
+
+### Amagi Media Labs Limited: Press Release
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - Vivimed Labs Limited has informed the Exchange about Corporate Insolvency Resolution Process
+Press Release - Amagi Media Labs Limited has informed the Exchange regarding a press release dated September 09, 2026, titled "IBC 2026: Amagi to Showcase Four AI-Native Innovations Built to Power Media s Next Growth Curve".
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/VIVIMEDLAB_08092026163612_Notice_of_committee_of_Creditors.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AMAGI_09092026121700_PressReleaseIBC.pdf)
 
 ---
 
-### Osia Hyper Retail Limited: Corporate Insolvency Resolution Process
+### AGS Transact Technologies Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - Prior Intimation of 6th CoC meeting of Osia Hyper Retail Limited
+Corporate Insolvency Resolution Process - AGS Transact Technologies Limited has informed the Exchange about Corporate Insolvency Resolution Process
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/OSIAHYPER_08092026134335_Disclosure_of_the_6th_CoC_Meeting_.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AGSTRA_09092026115101_Intimation_to_BSE_And_NSE_-_17th_Coc_meeting_-_final.pdf)
+
+---
+
+### Fox Mandal & Associates advises on Brigade Enterprises’ entry into Coimbatore
+**MA** · ₹600 cr · India · Reported
+
+Brigade Enterprises Limited has entered into a Joint Development Agreement for its first residential project in Coimbatore. Fox Mandal & Associates advised Brigade Enterprises on the transaction, carrying out due diligence and drafting of…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-on-brigade-enterprises-entry-into-coimbatore)
 
 ---
 
