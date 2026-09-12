@@ -1,194 +1,86 @@
 # Corporate Law Tracker - Daily Brief
-_11 September 2026_
+_12 September 2026_
 
-21 new development(s).
+9 new development(s).
 
-### 🔴 Huhtamaki India Limited: Action(s) taken or orders passed
-**REG** · ₹17,54,823 · India · ✓ Verified
+### Khaitan & Co, Antares Legal act on Nexus Select Trust's ₹1,600 crore acquisition of mall and hotel in Guwahati
+**IPO** · ₹1,600 cr · India · Reported
 
-Action(s) taken or orders passed - Huhtamaki India Limited has informed the Exchange about Demand Notice issued by Assistant Engineer, Dadra and Nagar Haveli Planning and Development Authority approving grant of Occupancy Certificate…
+Nexus Select Trust is set to acquire 100% of the share capital of Galaxy Infra Creations Private Limited for a purchase consideration of ~₹1,600 crore, from its existing shareholders Deepak Kayal, Manoj Kayal and others. Galaxy is the…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HUHTAMAKI1_11092026122259_HIL__DisclReg30_Penalty_Sept2026.pdf)
-
----
-
-### Emkay Global Financial Services Limited: General Updates
-**IPO** · Cross-border · ✓ Verified
-
-General Updates - Receipt of In-Principle approval from BSE Limited for Listing of Equity Shares Pursuant to Conversion of Warrants by way of Preferential Issue
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/jpshah_11092026170239_EGFSLListingApproval50000shares13072026.pdf)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-nexus-select-trust-on-1600-crore-acquisition-of-mall-and-hotel-in-guwahati)
 
 ---
 
-### Godrej Industries Limited: General Updates
-**BANK** · ₹750 cr · India · ✓ Verified
+### SAM advises Kotak Special Situations Fund, Gayatri Highways on sale of HKR Roadways to Cube Highways
+**MA** · India · Reported
 
-General Updates - Godrej Industries Limited has informed the Exchange about approval of Key Information Document for issue of up to 75,000 Rated, Listed, Unsecured, Redeemable, Non-Convertible Debentures aggregating up to Rs. 750 Crore on…
+Shardul Amarchand Mangaldas & Co has advised Kotak Special Situations Fund and Gayatri Highways Limited on the complete divestment of their interest in HKR Roadways Limited to Cube Highways and Infrastructure V Pte Limited. SAM had also…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Anupama_11092026145956_BSENSEKIDINTIMATIONSEPT112026.pdf)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/sam-advises-kotak-special-situations-fund-gayatri-highways-on-sale-of-hkr-roadways-to-cube-highways)
 
 ---
 
-### Indiabulls Limited: Updates
+### JSW Steel Limited: Copy of Newspaper Publication
 **MA** · India · ✓ Verified
 
-Updates - Indiabulls Limited has informed the Exchange regarding 'acquisition of 70% of the issued, subscribed and paid-up equity share capital of Fintech Cloud Private Limited and execution of definitive agreement , in this regard'.
+Copy of Newspaper Publication - JSW Steel Limited has informed the Exchange about Copy of Newspaper Publication regarding Petition hearing date before Hon'ble NCLT in connection with Amalgamation of Piombino Steel Limited with JSW Steel Ltd
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/YAARI_11092026211048_BM_Outcome_11092026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/jessydenny_12092026162018_newspaper-_merger.pdf)
 
 ---
 
-### Indiabulls Limited: Acquisition
+### Aurobindo Pharma Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - Indiabulls Limited has informed the Exchange about Acquisition of 70% of the issued, subscribed and paid-up equity share capital of the Fintech Cloud Private Limited and execution of definitive agreement, in this regard.
+Acquisition - Aurobindo Pharma Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/YAARI_11092026210441_BM_Outcome_11092026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AUROPHARMA_12092026124039_LtrToSEsA1Biochem12092026.pdf)
 
 ---
 
-### Vijaya Diagnostic Centre Limited: General Updates
+### Siemens Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-General Updates - Vijaya Diagnostic Centre Limited has informed the Exchange about General Updates - Investor Presentation - 100% Acquisition of integrated diagnostic business undertaking of Arya Wellness Centre, Guwahati, Asssam.
+Amalgamation/Merger - Siemens Limited has informed the Exchange about the notices to equity shareholders and unsecured creditors of Siemens Limited - Scheme of Amalgamation
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/VIJAYA_11092026205743_Stx_VDCL_Inv_Pres_Signed.pdf)
-
----
-
-### Vijaya Diagnostic Centre Limited: Press Release
-**MA** · India · ✓ Verified
-
-Press Release - Vijaya Diagnostic Centre Limited has informed the Exchange regarding a press release dated September 11, 2026, titled "100% acquisition of integrated diagnostic business undertaking of Arya Wellness Centre, Guwahati,…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/VIJAYA_11092026204548_Stx_VDCL_PR_Signed.pdf)
-
----
-
-### Vijaya Diagnostic Centre Limited: Outcome of Board Meeting
-**MA** · India · ✓ Verified
-
-Outcome of Board Meeting - Vijaya Diagnostic Centre Limited has informed the Exchange regarding Outcome of Board Meeting held on September 11, 2026. (Approval for execution of Business Transfer Agreement ("BTA") for 100% acquisition of…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/VIJAYA_11092026195905_Stx_BM_Outcome_Acquisition_Signed.pdf)
-
----
-
-### Indo-National Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - Indo-National Limited has informed the Exchange about Acquisition
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NIPPOBATRY_11092026173223_INL_Stock_Exchange_Disclosuresd.pdf)
-
----
-
-### Greenply Industries Limited: Press Release
-**MA** · India · ✓ Verified
-
-Press Release - Greenply Industries Limited has informed the Exchange regarding a press release dated September 11, 2026, titled "Greenply Industries Limited Announces Proposed Capital Restructuring of Joint Venture Entity to Focus on…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/GREEN_11092026164749_PRESS_RELEASE.pdf)
-
----
-
-### Ceigall India Limited: Other Restructuring
-**MA** · India · ✓ Verified
-
-Other Restructuring - Ceigall India Limited has informed the Exchange about investment by way of subscription 49% equity in the Joint Venture Company (proposed to be incorporated).
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ceigall_11092026164243_Outcome_of_BM.pdf)
-
----
-
-### Ceigall India Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - Ceigall India Limited has informed the Exchange about Acquisition.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ceigall_11092026163910_Outcome_of_BM.pdf)
-
----
-
-### Maithan Alloys Limited: Others
-**MA** · India · ✓ Verified
-
-Others - Maithan Alloys Limited has informed the Exchange about acquisition of Equity Shares through Stock Exchange.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MAITHANALL_11092026134633_ESDSsoftware10092026.pdf)
-
----
-
-### AXISCADES Technologies Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - AXISCADES Technologies Limited has informed the Exchange about Execution of Transaction Documents and completion of the acquisition of 90% of the share capital of Cloud Wave Technologies Private Limited by AXISCADES…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AXISCADES_11092026112018_AcquisitionUpdate11092026.pdf)
-
----
-
-### AvenuesAI Limited: Committee Meeting Updates
-**IPO** · India · ✓ Verified
-
-Committee Meeting Updates - AvenuesAI Limited has informed the Exchange regarding Outcome of Rights Issue Committee Meeting - Conversion and Forfeiture of Partly Paid-up Equity Shares.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/INFIBEAM_11092026181121_RIOutcome11092026.pdf)
-
----
-
-### Praxis Home Retail Limited: Outcome of Board Meeting
-**IPO** · India · ✓ Verified
-
-Outcome of Board Meeting - Praxis Home Retail Limited has informed the Exchange that the Board of Directors have approved the proposal for Rights issue at its meeting held on September 11, 2026.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PRAXIS_11092026130700_PHRL_-_SE_Outcome__1st_meeting__signed.pdf)
-
----
-
-### LLOYDS ENGINEERING WORKS LIMITED: Shareholders meeting
-**IBC** · India · ✓ Verified
-
-Shareholders meeting - LLOYDS ENGINEERING WORKS LIMITED has informed the Exchange regarding Notice of Court Convened Meeting of Unsecured Creditors of the Company pursuant to the order of NCLT
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/LSIL_11092026221713_Covering_and_Notice_of_unsecured_creditors_signed.pdf)
-
----
-
-### Osia Hyper Retail Limited: Corporate Insolvency Resolution Process
-**IBC** · India · ✓ Verified
-
-Corporate Insolvency Resolution Process - Post-facto Intimation of 6th meeting of Committee of Creditors.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/OSIAHYPER_11092026183319_Disclosure_of_the_6th_CoC_Meeting___1_.pdf)
-
----
-
-### Future Consumer Limited: Corporate Insolvency Resolution Process
-**IBC** · India · ✓ Verified
-
-Corporate Insolvency Resolution Process - Future Consumer Limited has informed the Exchange about Publication of Form G
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/FCEL1_11092026172040_Form_G_FCL_with_covering_letter.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SiemensRaj_12092026120046_SEIntimation.pdf)
 
 ---
 
 ### DPSC Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - DPSC Limited has informed the Exchange about Corporate Insolvency Resolution Process-Post facto intimation of the 7th (Seventh) Meeting of the Committee of Creditors (CoC) of India Power…
+Corporate Insolvency Resolution Process - DPSC Limited has informed the Exchange about Corporate Insolvency Resolution Process-Notices for non-compliance with Regulation 33 of SEBI (Listing Obligations and Disclosure Requirements)…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DPSCLTD_11092026145518_IntimationofOutcomeof7thCoCMeetingunderReg30ofLODR_11092026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/DPSCLTD_12092026152931_IntimationofimpositionoffineunderReg30ofSEBI_LODR__12092026.pdf)
 
 ---
 
-### Diamond Power Infrastructure Limited: Press Release
+### LLOYDS ENGINEERING WORKS LIMITED: Copy of Newspaper Publication
+**IBC** · Mumbai · ✓ Verified
+
+Copy of Newspaper Publication - LLOYDS ENGINEERING WORKS LIMITED has informed the Exchange about Copy of Newspaper Publication as per Order of Hon ble National Company Law Tribunal, Mumbai Bench, ( NCLT ) for convening Meetings of Equity…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/LSIL_12092026142531_Newspaper_Advertisement_for_uploading_signed.pdf)
+
+---
+
+### SKIL Infrastructure Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Press Release - Diamond Power Infrastructure Limited has informed the Exchange regarding a press release dated September 11, 2026, titled "Diamond Power Exits the NCLT Framework a Full Year Ahead of Schedule".
+Corporate Insolvency Resolution Process - SKIL Infrastructure Limited has informed the Exchange regarding the adjournment of the Eleventh (11th) Committee of Creditors meeting held on Friday, September 11, 2026
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DIACABS_11092026104334_Regulation30PressRelease.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/Skilinfra_12092026122420_Letter_Adjournment_Intimation_11th_COC.pdf)
+
+---
+
+### Mindspright Legal acts on Ashutosh Fibre IPO
+**IPO** · ₹56.35 cr · India · Reported
+
+Ashutosh Fibre Limited has raised ₹56.35 crore from an initial public offering of 61,24,800 equity shares. Mindspright Legal advised Ashutosh Fibre on this IPO.
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/mindspright-legal-acts-on-ashutosh-fibre-ipo)
 
 ---
 
