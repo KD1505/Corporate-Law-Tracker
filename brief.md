@@ -1,122 +1,239 @@
 # Corporate Law Tracker - Daily Brief
-_14 September 2026_
+_15 September 2026_
 
-13 new development(s).
+26 new development(s).
 
-### Swiggy set to sell Lynk to Udaan; Trilegal advises
-**MA** · ₹500 cr · India · Reported
+### JSA acts on PwC India - PwC US joint venture
+**PE** · Cross-border · Reported
 
-Swiggy Networks Limited is set to sell its entire shareholding in Lynks Logistics Limited to Trustroot Internet Private Limited (Udaan) in exchange for 2.8% stake in Udaan. Trilegal is advising Swiggy Networks and Lynk on this share-swap…
+PwC India has formed a joint venture with PwC US, wherein PwC India will hold 49.9% and PwC US will hold 51.1%. JSA Advocates and Solicitors advised PwC India on this JV.
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/swiggy-set-to-sell-lynk-to-udaan-trilegal-advises)
-
----
-
-### GameChanger Law advises Speciale Invest on QNu Labs ₹200 crore Series A fundraise
-**PE** · ₹200 cr · Cross-border · Reported
-
-QNu Labs Private Limited has raised ₹200 crore from a Series A1 fundraise led by the National Quantum Mission and Speciale Invest, with participation from Sony Innovation Fund, Gaja Capital, Artha Ventures and other investor. GameChanger…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/gamechanger-law-advises-speciale-invest-on-qnu-labs-200-crore-series-a-fundraise)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-pwcs-india-us-joint-venture)
 
 ---
 
-### UNO Minda Limited: Issue of Securities
-**BANK** · ₹600 Cr · India · ✓ Verified
+### Tembo Global Industries Limited: Updates
+**IPO** · Cross-border · ✓ Verified
 
-Issue of Securities - UNO Minda Limited has informed the Exchange about Board approval for issuance of Non Convertible Debentures upto INR 600 Cr. in one or more tranches.
+Updates - Tembo Global Industries Limited has informed the Exchange regarding 'Intimation regarding receipt of In-principle Approval for listing of Equity Shares on theMain Board of BSE Limited'.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MINDAIND1_14092026211248_Outcome_Board_Meeting_14092026.pdf)
-
----
-
-### Triumvir Law advises WLDD on securing strategic investments; Trilegal, Badaya, Argus, Khimani advise investors
-**PE** · India · Reported
-
-WLDD Private Limited has secured strategic investments from Adfactors PR Private Limited and Vikas Khemani Group, through a combination of primary subscription of compulsorily convertible preference shares and secondary sale of equity…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/triumvir-law-advises-wldd-on-fundraise-trilegal-badaya-argus-khimani-advise-investors)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TEMBO_15092026152320_Intimation_of_BSE_Inprinciple_SD.pdf)
 
 ---
 
-### Anagram Partners advises Actis on sale of highway assets to NXT-Infra Trust
-**REG** · Delhi-NCR · Reported
+### TT&A, CMS INDUSLAW advise investors on Nua $50 million Series C fundraise
+**PE** · $50 mn · India · Reported
 
-Actis has sold Darah Jhalawar Highway, Vadodara Kim Expressway, Calicut Expressway, Vindhyachal Expressway and Second Vivekananda Bridge Tollway to NXT-Infra Trust. Anagram Partners advised Actis on this transaction.
+Lagom Labs Private Limited, dba Nua, has raised $50 million from a Series C fundraise co-led by Peak XV Partners and Filter Capital India. TT&A advised Peak XV Partners Growth Investments IV on this fundraise.
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/anagram-partners-advises-actis-on-sale-of-highway-assets-to-nxt-infra-trust)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/tta-cms-induslaw-advise-investors-on-nua-50-million-series-c-fundraise)
 
 ---
 
-### Lemon Tree Hotels Limited: General Updates
+### RPG Life Sciences Limited: General Updates
 **MA** · India · ✓ Verified
 
-General Updates - Lemon Tree Hotels Limited has informed the Exchange about Sale or disposal of subsidiary. Pursuant to the execution of the Joint Venture Agreement (JVA), RJ Corp Limited shall acquire 49% stake by subscribing to fresh…
+General Updates - Update on completion of BTA execution by RPG Active Pharma Limited with Raghava Life Sciences Private Limited
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/LEMONTREE_14092026211842_Stock_Exchange_Intimation_JV_Agreement.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/RPGLIFE_15092026233151_SE_update.pdf)
 
 ---
 
-### Lemon Tree Hotels Limited: Agreements
+### Tribhovandas Bhimji Zaveri Limited: General Updates
 **MA** · India · ✓ Verified
 
-Agreements - Lemon Tree Hotels Limited has informed the Exchange about Joint Venture Agreement has been executed between Carnation Hotels Private Limited, a wholly owned subsidiary of the Company and RJ Corp Limited with respect to Arum…
+General Updates - Tribhovandas Bhimji Zaveri Limited has informed the Exchange about Receipt of Draft Letter of Offer in relation to Open Offer
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/LEMONTREE_14092026205917_Stock_Exchange_Intimation_JV_Agreement.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TBZ_15092026204341_20260915_Regulation_30_Draft_Letter_of_Offer_LH.pdf)
 
 ---
 
-### Bharat Heavy Electricals Limited: Acquisition
+### Acme Solar Holdings Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - Bharat Heavy Electricals Limited has informed the Exchange about Outcome of Board Meeting Equity investment in Joint Venture
+Acquisition - Acme Solar Holdings Limited has informed the Exchange about Incorporation of four wholly owned subsidiaries.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/BHEL_14092026185510_BMoutcomeNBPPL.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ACMECS_15092026185057_Intimation15092026.pdf)
 
 ---
 
-### HCL Technologies Limited: Updates
+### K.M.Sugar Mills Limited: Scheme of Arrangement
 **MA** · India · ✓ Verified
 
-Updates - HCL Technologies Limited has informed the Exchange regarding Release HCLTech and CrowdStrike Expand Strategic Partnership to Advance AI Security and Resilience .
+Scheme of Arrangement - K.M.Sugar Mills Limited has informed the Exchange about Scheme of Arrangement
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HCLTECH_14092026183240_Release14September2026.pdf)
-
----
-
-### Shakti Pumps (India) Limited: Acquisition
-**MA** · ₹11 cr · India · ✓ Verified
-
-Acquisition - Shakti Pumps (India) Limited has informed the Exchange that Company has invested Rs. 11 crores in its wholly owned subsidiary i.e Shakti Energy Solutions Limited.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SHAKTIPUMP_14092026174733_IntimationunderReg30ShaktiEnergy.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/KMSUGAR_15092026175436_REG30_DEMERGERUPDATE.pdf)
 
 ---
 
-### Solar Industries India Limited: Acquisition
+### Share India Securities Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - Solar Industries India Limited has informed the Exchange about Acquisition
+Acquisition - Pursuant to Regulation 30 of the SEBI (LODR) Regulations, 2015, please find enclosed herewith the intimation regarding the dilution of the Company s shareholding in Silverleaf Securities Research Private Limited, a subsidiary…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SOLARINDS_14092026123119_Solarandomniadeal.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SISL_15092026174654_Reg30_silverleaf150926.pdf)
 
 ---
 
-### Solar Industries India Limited: Press Release
+### GTPL Hathway Limited: General Updates
 **MA** · India · ✓ Verified
 
-Press Release - Solar Industries India Limited has informed the Exchange regarding a press release dated September 14, 2026, titled "Press release on proposed acquisition of Omnia Holdings Limited by Solar SA Investments Proprietary…
+General Updates - GTPL Hathway Limited has informed the Exchange about update on acquisition of Cable Television Business of various companies belonging to ACT Group.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SOLARINDS_14092026122254_signed_pressrelease.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GTPLHL_15092026164842_Disclosure_Reg_30_Acqusition_ACT_Group_-_Completion_1509.pdf)
 
 ---
 
-### CMI Limited: Corporate Insolvency Resolution Process
+### Thermax Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Thermax Limited has informed the Exchange about incorporation of wholly owned step-down subsidiary
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/THERMAXNSE_15092026164342_SEIntimation_sd.pdf)
+
+---
+
+### TITAGARH RAIL SYSTEMS LIMITED: Arrangements for strategic, technical, manufacturing, or marketing tie up
+**MA** · India · ✓ Verified
+
+Arrangements for strategic, technical, manufacturing, or marketing tie up - TITAGARH RAIL SYSTEMS LIMITED has informed the Exchange about Signing of Joint Venture Agreement with Bharat Heavy Electricals Ltd
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TWL_15092026162116_StockExchangeintimationJVAwithBHEL15092026Final.pdf)
+
+---
+
+### Bharat Heavy Electricals Limited: Arrangements for strategic, technical, manufacturing, or marketing tie up
+**MA** · India · ✓ Verified
+
+Arrangements for strategic, technical, manufacturing, or marketing tie up - Signing of Joint Venture Agreement with Titagarh Rail Systems Limited
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/BHEL_15092026160755_SE-TRSLJVA.pdf)
+
+---
+
+### Silgo Retail Limited: General Updates
+**MA** · India · ✓ Verified
+
+General Updates - Silgo Retail Limited has informed the Exchange about the Report under Regulation 10(6) of the SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SILGO_15092026154959_Acquisition_report_10_6_.pdf)
+
+---
+
+### Zodiac Energy Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Zodiac Energy Limited has informed the Exchange about Acquisition-Incorporation of Wholly Owned Subsidiary
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ZODIAC_15092026141846_Reg_30_Final.pdf)
+
+---
+
+### Shiva Texyarn Limited: Disclosure under SEBI Takeover Regulations
+**MA** · India · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations - S K SUNDARARAMAN has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption provided for in…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_15092026120040_Disclosure.pdf)
+
+---
+
+### SRF Limited: Disclosure under SEBI Takeover Regulations
+**MA** · Delhi-NCR · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations - KAMA Realty (Delhi) Limited has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_15092026120202_SAST1.pdf)
+
+---
+
+### HLE Glascoat Limited: Disclosure under SEBI Takeover Regulations
+**MA** · India · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations - Aalap Nilesh Patel has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption provided for…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_15092026113218_Disc10.pdf)
+
+---
+
+### Asian Hotels (West) Limited: Disclosure under SEBI Takeover Regulations
+**MA** · India · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations - Sandeep Gupta has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption provided for in…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_15092026112339_AHLWEST.pdf)
+
+---
+
+### IZMO Limited: Disclosure under SEBI Takeover Regulations
+**MA** · India · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations - Dinanath Soni has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_15092026112500_IZMO1.pdf)
+
+---
+
+### IZMO Limited: Disclosure under SEBI Takeover Regulations
+**MA** · India · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations - IZMO : Tej Soni has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_15092026112622_IZMO.pdf)
+
+---
+
+### Ashima Limited: Disclosure under SEBI Takeover Regulations
+**MA** · India · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations - Shefali Chintan Parikh has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_15092026112733_ASHIMASYN1.pdf)
+
+---
+
+### Aaron Industries Limited: Disclosure under SEBI Takeover Regulations
+**MA** · India · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations - Aaron Industries Limited has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_15092026111351_Intimation.pdf)
+
+---
+
+### Aakash Exploration Services Limited: Disclosure under SEBI Takeover Regulations
+**MA** · India · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations - Vihan Vipul Haria has Submitted to the Exchange a copy of Disclosure under Regulation 10(5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_15092026111157_Aakash.pdf)
+
+---
+
+### SKIL Infrastructure Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - CMI Limited has informed the Exchange about Corporate Insolvency Resolution Process
+Corporate Insolvency Resolution Process - SKIL Infrastructure Limited has informed the Exchange regarding Un-audited Standalone and Consolidated Financial Results of the Company for the quarter ended on December 31, 2025, pursuant to the…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CMICABLES_14092026170353_Notice_48.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/Skilinfra_15092026180913_SKIL_Financials.pdf)
+
+---
+
+### Kochhar & Co advises investors on strategic stake acquisition in England-based Parklife Innovations
+**PE** · India · Reported
+
+Natspo Industries Private Limited has acquired a 20% minority stake in Parklife Innovations Limited, a company incorporated in England, through a secondary acquisition of shares from the existing shareholders of the company. Kochhar & Co…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/kochhar-co-advises-investors-on-strategic-stake-acquisition-in-england-based-parklife-innovations)
+
+---
+
+### IC RegFin Legal advises Oister Global on investment in Bombay Shaving Company
+**MA** · Mumbai · Reported
+
+Oister Global has invested in Visage Lines Personal Care Private Limited, dba Bombay Shaving Company. IC RegFin Legal Partners advised Oister Global on this investment.
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/ic-regfin-legal-advises-oister-global-on-120-crore-investment-in-bombay-shaving-company)
 
 ---
 
