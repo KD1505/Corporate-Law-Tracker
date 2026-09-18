@@ -1,140 +1,122 @@
 # Corporate Law Tracker - Daily Brief
-_17 September 2026_
+_18 September 2026_
 
-32 new development(s).
+26 new development(s).
 
-### 🔴 Khaitan & Co, TT&A, Mayer Brown, Linklaters act on Capri Loans $300 million bond issuance
-**BANK** · $300 mn · Cross-border · Reported
-
-Capri Global Capital Limited, dba Capri Loans, has made an issuance of its maiden $300 million 7.55% fixed rate senior secured notes due 2029 under its $1 billion Global Medium Term Note Programme which will be listed on India INX and NSE…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-tta-mayer-brown-linklaters-act-on-capri-loans-300-million-bond-issuance)
-
----
-
-### JSA advises Swish on $24 million Series B extension round
-**PE** · $24 mn · Cross-border · Reported
-
-Munchmart Technologies Private Limited, dba Swish, has raised $24 million from a Series B extension round, led by Bertelsmann India Investments, with participation from existing investors Accel, Bain Capital Ventures and Hara Global. JSA…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/jsa-advises-swish-on-24-million-series-b-extension-round)
-
----
-
-### Rays of Belief Limited: Acquisition
+### Vaxtex Cotfab Limited: Updates
 **MA** · Cross-border · ✓ Verified
 
-Acquisition - Rays of Belief Limited has informed the Exchange regarding the Intimation for further Investment in the share capital of Mom''s Belief US Inc, Wholly Owned Subsidiary of the Company
+Updates - Vaxtex Cotfab Limited has informed the Exchange regarding 'Pursuant to Regulation 29(2) of the SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011, please find enclosed herewith the disclosure received from…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ROBL_17092026174501_Intimation_for_Investment_in_Subsidiary.pdf)
-
----
-
-### Swan Defence and Heavy Industries Limited: Amalgamation/Merger
-**MA** · Cross-border · ✓ Verified
-
-Amalgamation/Merger - Swan Defence and Heavy Industries Limited has informed the Exchange about the effective date of the Scheme of Amalgamation Triumph Offshore Private Limited ("Transferor Company") and Swan Defence and Heavy Industries…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SWANRNEL_17092026172758_Merger_Update.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/VCL_18092026155641_CoveringLetterwithDisclosure.pdf)
 
 ---
 
-### VERTICES PARTNERS, Shardul Amarchand Mangaldas, IC RegFin Legal act on Cüraa Series A fundraise
-**PE** · ₹40 cr · Delhi-NCR · Reported
-
-Mojojojo Creators Private Limited, dba Cüraa, has raised ₹40 crore from a Series A fundraise led by 3one4 Capital, with participation from existing investors Kae Capital, Lumikai Fund, and Better Capital. VERTICES PARTNERS advised its…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/vertices-partners-shardul-amarchand-mangaldas-ic-regfin-legal-act-on-craa-series-a-fundraise)
-
----
-
-### Dalmia Bharat Limited: Acquisition
+### Himadri Speciality Chemical Limited: Updates
 **MA** · India · ✓ Verified
 
-Acquisition - Dalmia Bharat Limited has informed the Exchange about Acquisition
+Updates - This is to inform you that a meeting of the Board of Directors ( Board ) of Himadri Speciality Chemical Ltd ( Company ) is scheduled to be held on Monday, 21 September 2026, inter-alia, to consider and approve the proposed Scheme…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DALBHARAT_17092026222819_DBL_SEintimation_Acquisition_17092026.pdf)
-
----
-
-### Cello World Limited: Updates
-**MA** · India · ✓ Verified
-
-Updates - Cello World Limited has informed the Exchange regarding 'Report From The Audit And Independent Directors Committee Pursuant To Composite Scheme Of Amalgamation'.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CELLO2023_17092026195120_Intimation_signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HSCL_18092026224508_NoticeofBmstockex21092026.pdf)
 
 ---
 
-### HEG Limited: Disclosure under SEBI Takeover Regulations
+### Apollo Pipes Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations - LNJ Spark Advisory LLP has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption provided…
+Acquisition - Apollo Pipes Limited has informed the Exchange about Acquisition of controlling interest in Mazzini Tiles LLP by a Subsidiary of the Company.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_17092026193201_HEG.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/APOLLOPIPE_18092026223112_Acquisitionfilemazzini1809.pdf)
 
 ---
 
-### Sanofi India Limited: Disclosure under SEBI Takeover Regulations
+### Acme Solar Holdings Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations - Sanofi Healthcare India Private Limited has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of…
+Amalgamation/Merger - ACME Solar has informed the Exchange about the Scheme of Amalgamationamongst ACME Pokhran Solar Private Limited, ACME Sikar Solar Private Limited, ACME Eco Clean Energy Private Limited and ACME Solar Holdings Limited…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_17092026192837_SANOFI.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ACMECS_18092026195938_intimation18092026.pdf)
 
 ---
 
-### Petronet LNG Limited: General Updates
+### Zodiac Energy Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-General Updates - Petronet LNG Limited has informed the Exchange about General Updates - approval of proposal for incorporation of 50:50 joint venture company between PLL and Gruner Renewable Energy Private Limited
+Disclosure under SEBI Takeover Regulations - Jugalkishor Harikrishnadas Shah has submitted to the Exchange a copy of Disclosures under Regulation 29(2) of SEBI (SAST) Regulations, 2011.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PETRONET_17092026184157_CDpostBoard_Meeting_-_JV_with_Gruner_for_CBGsi.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_17092026193332_17092026183416_17092026171012_ZODIAC29.pdf)
 
 ---
 
-### Arvind Limited: General Updates
+### Zenith Exports Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-General Updates - Arvind Limited has informed the Exchange about Update on acquisition of Equity Shares of Torrent Urja 21 Private Limited
+Disclosure under SEBI Takeover Regulations - Ruchi Ajitsaria has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ARVIND1_17092026180252_SE_Intimation_of_Acquisition_-_Update.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_18092026132713_Disclosure10.pdf)
 
 ---
 
-### BSL Limited: General Updates
+### NIBE Limited: Press Release
 **MA** · India · ✓ Verified
 
-General Updates - BSL Limited has informed the Exchange about Acquisition in Bhadla Minigrid Solar 5 Private Limited, a special purpose vehicle established for owning and operating a captive power plant
+Press Release - NIBE Limited has informed the Exchange regarding a press release dated September 18, 2026, titled "Naval Group, France and Nibe Limited with its Group Companies establish strategic partnership to strengthen India s Naval…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/BSL_17092026175058_upload.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/9028072464_18092026180246_Press_Release_180926.pdf)
 
 ---
 
-### Roto Pumps Limited: Amalgamation/Merger
+### Indoco Remedies Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Amalgamation/Merger - Roto Pumps Limited has informed the Exchange about receipt of first motion order of Hon'ble NCLT Allahabad Bench
+Acquisition - Indoco Remedies Limited has informed the Exchange about Approval of the Committee of Executive DIrectors for incorporation of the wholly owned subsidiary Warren Lifesciences Private Limited
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ROTO_17092026174925_SE_Intimation_First_motion.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/INDOCO_18092026180108_IntimationIncorporationSubsidiaryRevised.pdf)
 
 ---
 
-### Sandur Manganese & Iron Ores Limited: Acquisition
+### Hexagon Nutrition Limited: Updates
 **MA** · India · ✓ Verified
 
-Acquisition - Sandur Manganese & Iron Ores Limited has informed the Exchange about approval for incorporation of Wholly Owned Subsidiary
+Updates - 'Hexagon Nutrition Limited has informed the Exchange regarding 'Disclosure Under Regulation 29(2) of SEBI (Substantial Acquisition of Shares and Takeovers), Regulations, 2011, this is to inform you that Dr. Nikhil Kelkar,…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SANDUR_17092026172357_Ltr2SEsToBeIncorpWOS.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HEXAGONNUTRITION_18092026173441_Dr_Nikhil-1809.pdf)
 
 ---
 
-### Kitex Garments Limited: Copy of Newspaper Publication
+### Hexagon Nutrition Limited: Updates
 **MA** · India · ✓ Verified
 
-Copy of Newspaper Publication - Kitex Garments Limited has informed the Exchange about Copy of Newspaper Publication of notice of hearing of the petition as per the direction of Honorable NCLT, Kochi Bench in the matter of Scheme of…
+Updates - Hexagon Nutrition Limited has informed the Exchange regarding 'Hexagon Nutrition Limited has informed the Exchange regarding 'Disclosure Under Regulation 29(2) of SEBI (Substantial Acquisition of Shares and Takeovers),…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KITEX_17092026171549_KGL_Newspaper_publication_of_notice_of_hearings.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HEXAGONNUTRITION_18092026171224_Dr_Nikhil_Final.pdf)
+
+---
+
+### Hexagon Nutrition Limited: Updates
+**MA** · India · ✓ Verified
+
+Updates - 'Hexagon Nutrition Limited has informed the Exchange regarding 'Disclosure Under Regulation 29(2) of SEBI (Substantial Acquisition of Shares and Takeovers), Regulations, 2011, Ms. Preeti Vikram Kelkar, Promoter group member of…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HEXAGONNUTRITION_18092026170635_Preeti_Kelkar_Signed.pdf)
+
+---
+
+### Hexagon Nutrition Limited: Updates
+**MA** · India · ✓ Verified
+
+Updates - Hexagon Nutrition Limited has informed the Exchange regarding 'Hexagon Nutrition Limited has informed the Exchange regarding 'Disclosure Under Regulation 29(2) of SEBI (Substantial Acquisition of Shares and Takeovers),…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HEXAGONNUTRITION_18092026165827_Anuradha_Kelkar_Final.pdf)
+
+---
+
+### Hexagon Nutrition Limited: Updates
+**MA** · India · ✓ Verified
+
+Updates - Hexagon Nutrition Limited has informed the Exchange regarding 'Hexagon Nutrition Limited has informed the Exchange regarding 'Disclosure Under Regulation 29(2) of SEBI (Substantial Acquisition of Shares and Takeovers),…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HEXAGONNUTRITION_18092026162504_Vikram_Kelkar_Final.pdf)
 
 ---
 
@@ -143,151 +125,115 @@ Copy of Newspaper Publication - Kitex Garments Limited has informed the Exchange
 
 Updates - La Opala RG Limited has informed the Exchange regarding 'Disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011'.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/LAOPALA_17092026165338_LORG_Genesis_SAST_29_2__17092026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/LAOPALA_18092026154245_LORG_Genesis_SAST_29_2_18092026.pdf)
 
 ---
 
-### QMS Medical Allied Services Limited: Acquisition
+### Avantel Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-Acquisition - QMS Medical Allied Services Limited has informed the Exchange about Acquisition by additional stake of 24% in Saarathi Healthcare Private Limited, a Subsidiary of the Company. Pursuant to the said acquisition the Company now…
+Amalgamation/Merger - Avantel Limited has informed the Exchange about Amalgamation/Merger
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/QMS_17092026164006_SdIntimation.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AVANTEL_18092026153502_Restructuring18092026.pdf)
 
 ---
 
-### Indo-National Limited: Acquisition
+### Grasim Industries Limited: Updates
 **MA** · India · ✓ Verified
 
-Acquisition - Indo-National Limited has informed the Exchange about Acquisition
+Updates - Update on Joint Venture
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NIPPOBATRY_17092026163556_INL_Stock_Exchange_Disclosure-finalsd.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GRASIM_18092026144559_SEIntimation.pdf)
 
 ---
 
-### Share India Securities Limited: General Updates
+### QMS Medical Allied Services Limited: Press Release
 **MA** · India · ✓ Verified
 
-General Updates - Share India Securities Limited has informed the Exchange that pursuant to Regulation 30 of SEBI (LODR) Regulations, 2015, please find enclosed herewith an update on Acquisition of Enshrine Leasing and Infotech Private…
+Press Release - QMS Medical Allied Services Limited has informed the Exchange regarding a press release dated September 18, 2026, titled "QMS Medical Allied Services Completes 100% Acquisition of Saarathi Healthcare Pvt Ltd.".
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SISL_17092026161048_Reg30AcquisitionEnshrine.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/QMS_18092026110527_SdNSEPressReleaseIntimation.pdf)
 
 ---
 
-### PTC India Limited: General Updates
+### Gujarat Themis Biosyn Limited: General Updates
 **MA** · India · ✓ Verified
 
-General Updates - PTC India Limited has informed the Exchange about incorporation of Joint Venture Company, as per disclosure attached
+General Updates - Gujarat Themis Biosyn Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PTC_17092026155806_intimationregardingJVincorporation.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GUJARATTHEMIS_18092026103824_GTBLReg30intimation18092026.pdf)
 
 ---
 
-### Crizac Limited: General Updates
+### SKY GOLD AND DIAMONDS LIMITED: General Updates
 **MA** · India · ✓ Verified
 
-General Updates - Crizac Limited has informed the Exchange about regard to disclosure dated June 15, 2026 on proposed Acquisition of Compulsory Convertible Preference Shares and Compulsory Convertible Debentures of Edument Consultancy…
+General Updates - The Board at its meeting held today i.e. on 18th September 2026 has considered and approved the acquisition of Purvi Gems & Jewellery (India) Private Limited.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CRIZAC0301_17092026151513_Reg_30__chandrashekhar.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SKYGOLD_18092026090718_OutcomeBMAcquisition.pdf)
 
 ---
 
-### Onward Technologies Limited: Updates
+### SKY GOLD AND DIAMONDS LIMITED: Outcome of Board Meeting
 **MA** · India · ✓ Verified
 
-Updates - Onward Technologies Limited has informed the Exchange regarding 'Acquisition of 25,000 Equity Shares by JHM Enterprises Private Limited Promoter Groupof the Company from the Open Market'.
+Outcome of Board Meeting - The Board of Directors of the Company at their meeting held today, i.e. Friday, 18th September, 2026 at the Registered office of the Company inter-alia has considered and approved the acquisition of Purvi Gems &…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MD11015_17092026151238_Intimation__Acquisition_of_shares_by_Promoter_Group_17-09-2025.pdf)
-
----
-
-### Worth Peripherals Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - Worth Peripherals Limited has informed the Exchange about General Updates for Acquisition of the Company Shares.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/WORTH_17092026123914_General_Intimation_Jayvir_Sir_Signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SKYGOLD_18092026090126_OutcomeBMAcquisition.pdf)
 
 ---
 
-### Century Extrusions Limited: Updates
+### Sammaan Capital Limited: Updates
 **IPO** · India · ✓ Verified
 
-Updates - Century Extrusions Limited has informed the Exchange regarding 'Intimation of completion of Dispatch of Rights Issue related documents/Information'.
+Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CENTEXT_17092026185825_Intimationondispatch17092026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_18092026183605_SCL_Retail_Intimation_57_18092026_WH8.pdf)
 
 ---
 
-### Bharat Forge Limited: Qualified Institutional Placement
+### VIP Industries Limited: Outcome of Board Meeting
 **IPO** · India · ✓ Verified
 
-Qualified Institutional Placement - Bharat Forge Limited has informed the Exchange about qualified Institutional Placement
+Outcome of Board Meeting - VIP Industries Limited has informed the Exchange that the Board its meeting held today, i.e., Friday, September 18, 2026, has, inter alia, approved the proposal for raising funds for an aggregate amount not…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ANILSHINDE_17092026183837_SEIntimationQIPOpen.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/VIPINDUSTRIES_18092026160937_SEUpload.pdf)
 
 ---
 
-### Neogen Chemicals Limited: Qualified Institutional Placement
+### Ducon Infratechnologies Limited: Copy of Newspaper Publication
 **IPO** · India · ✓ Verified
 
-Qualified Institutional Placement - Neogen Chemicals Limited has informed the Exchange about qualified Institutional Placement
+Copy of Newspaper Publication - Ducon Infratechnologies Limited has informed the Exchange about Newspaper Advertisement for Post Issue-Basis of Allotment in the matter of Rights Issue of Equity Shares
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NEOGEN_17092026003739_Outcomeallotment.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/DUCON_18092026130023_Newspaper_Advt_SE.pdf)
 
 ---
 
-### Neogen Chemicals Limited: Allotment of Securities
+### Ducon Infratechnologies Limited: Copy of Newspaper Publication
 **IPO** · India · ✓ Verified
 
-Allotment of Securities - Neogen Chemicals Limited has informed the Exchange regarding allotment of 2660753 securities pursuant to Qualified Institution Placement at its meeting held on September 16, 2026
+Copy of Newspaper Publication - Ducon Infratechnologies Limited has informed the Exchange about Newspaper Advertisement for Post Issue-Basis of Allotment in the matter of Rights Issue of Equity Shares
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NEOGEN_17092026003550_Outcomeallotment.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/DUCON_18092026125434_Newspaper_Advt_SE.pdf)
 
 ---
 
-### Astron Paper & Board Mill Limited: Corporate Insolvency Resolution Process
+### TV Vision Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - Astron Paper & Board Mill Limited has informed the Exchange about Corporate Insolvency Resolution Process
+Corporate Insolvency Resolution Process - TV Vision Limited has informed the Exchange about Corporate Insolvency Resolution Process
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ASTRON_17092026193324_Intimation_to_NSE.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TVVISION_18092026205621_Appointment_of_RP_signed.pdf)
 
 ---
 
-### Osia Hyper Retail Limited: Corporate Insolvency Resolution Process
+### TV Vision Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - Replacement of IRP and appointment of Mr. Vinod Tarachand Agrawal as the Resolution Professional of Osia Hyper Retail Limited (In CIRP)
+Corporate Insolvency Resolution Process - Post-facto intimation of 01st (First) meeting of the Committee of Creditors of TV Vision Limited
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/OSIAHYPER_17092026182033_RP_Appointment_Letter.pdf)
-
----
-
-### Reliance Home Finance Limited: Corporate Insolvency Resolution Process
-**IBC** · India · ✓ Verified
-
-Corporate Insolvency Resolution Process - Reliance Home Finance Limited has informed the Exchange that Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (''''Listing Regulations'''')…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/RHFL_17092026164347_RHFL_-_Disclosure_of_the_14th_CoC_Meeting_17092026.pdf)
-
----
-
-### SKIL Infrastructure Limited: Corporate Insolvency Resolution Process
-**IBC** · India · ✓ Verified
-
-Corporate Insolvency Resolution Process - SKIL Infrastructure Limited has informed the Exchange regarding the Eleventh (11th) Committee of Creditors meeting held on Thursday, September 10, 2026
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Skilinfra_17092026134752_Letter_Adjournment_Intimation_11th_COC.pdf)
-
----
-
-### Sarvaank Associates represents Blue Ashva Capital on Kepler Aerospace seed fundraise
-**PE** · ₹76 cr · Bengaluru · Reported
-
-Kepler Aerospace Private Limited has raised $8 Million (~₹76 Crore) from a seed fundraise led by Blue Ashva Capital, with participation from Finvolve, India Accelerator and other investors. Sarvaank Associates advised lead investor Blue…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/sarvaank-associates-represents-blue-ashva-capital-on-kepler-aerospace-seed-fundraise)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TVVISION_18092026204804_Outcome_of_1st_COC_meeting_Signed.pdf)
 
 ---
 
