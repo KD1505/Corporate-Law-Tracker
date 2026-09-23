@@ -63,6 +63,12 @@ jobs:
           CLT_REENRICH_AGE: "30"
         run: node reenrich.mjs
 
+      - name: Update Academy material feed
+        env:
+          CLT_ACADEMY_MAX: "3"
+          CLT_ACADEMY_KEEP: "40"
+        run: node engine/update-academy.mjs
+
       # Generate the crawlable static HTML layer (deal + firm pages, hubs, sitemap, robots,
       # and the homepage snapshot). Location-robust: works whether prerender.mjs is in
       # engine/ or at the repo root.
@@ -72,8 +78,8 @@ jobs:
       - name: Commit & push if changed
         run: |
           PATHS="data.js data index.html deals.html firms.html sitemap.xml robots.txt d firm \
-            about.html contact.html methodology.html corrections.html coverage.html privacy.html terms.html \
-            engine/seen.json engine/discovered-sources.json engine/link-report.json brief.md"
+            about.html contact.html methodology.html corrections.html coverage.html privacy.html terms.html academy.html academy-curriculum.js \
+            data/academy-updates.json engine/seen.json engine/discovered-sources.json engine/link-report.json brief.md"
           if [[ -n "$(git status --porcelain $PATHS)" ]]; then
             git config user.name  "corporate-law-tracker-bot"
             git config user.email "actions@github.com"
