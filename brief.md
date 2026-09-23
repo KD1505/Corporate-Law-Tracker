@@ -1,266 +1,302 @@
 # Corporate Law Tracker - Daily Brief
-_22 September 2026_
+_23 September 2026_
 
-29 new development(s).
+33 new development(s).
 
-### Trilegal, Cyril Amarchand Mangaldas, Hogan Lovells Cadwalader act on ARCIL ₹732 crore IPO
-**IPO** · ₹732 cr · India · Reported
+### Cyril Amarchand Mangaldas, Trilegal, TT&A, Hogan Lovells Cadwalader act on Rentomojo ₹1,255 crore IPO
+**IPO** · ₹1,255 cr · India · Reported
 
-Asset Reconstruction Company (India) Limited has raised ₹732.9 crore from an initial public offering comprising an offer for sale by selling shareholders, Avenue India Resurgence, State Bank of India, Lathe Investments and Federal Bank.…
+Rentomojo Limited has raised ₹1,255.567 crore from an initial public offering comprising a fresh issue and an offer for sale of up to 28,399,567 equity shares. Cyril Amarchand Mangaldas advised Rentomojo and the Promoter Selling…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/trilegal-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-arcil-732-crore-ipo)
-
----
-
-### Embassy Developments Limited: General Updates
-**BANK** · ₹105 cr · India · ✓ Verified
-
-General Updates - Allotment of non-convertible debentures aggregating to INR 105 crores.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/EMBDL_22092026183937_EDL_Allotment_of_NCDs_2209.pdf)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-tta-hogan-lovells-cadwalader-act-on-rentomojo-1255-crore-ipo)
 
 ---
 
-### Triumvir Law, Khaitan & Co act on Moromaa securing funds from AJVC Fund
-**MA** · Mumbai · Reported
+### Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Karamtara Engineering ₹875 crore IPO
+**IPO** · ₹875 cr · India · Reported
 
-MKF Private Limited, which owns and operates the Moroccan skincare brand “Moromaa", has secured funds from AJVC Fund. Triumvir Law advised Moromaa and its Founder & CEO Soundous Moufakir on this transaction.
+Karamtara Engineering Limited has raised ₹875 crore from an initial public offering, including a fresh issue of 26,574,803 equity shares and an offer for sale of 7,874,014 equity shares by the selling shareholders. Cyril Amarchand…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/triumvir-law-khaitan-co-act-on-moromaa-securing-funds-from-ajvc-fund)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-ao-shearman-act-on-karamtara-engineering-875-crore-ipo)
 
 ---
 
-### Lemon Tree Hotels Limited: Scheme of Arrangement
+### Lenskart Solutions Limited: Acquisition
+**MA** · Cross-border · ✓ Verified
+
+Acquisition - Lenskart Solutions Limited has informed the Exchange about acquisition of an additional stake in in Le Petit Lunetier Paris SAS, France, through its wholly owned subsidiary NESO Brands Pte. Ltd., Singapore
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/LENSKART_23092026231455_Reg_30_-_Intimation_Investment_LPL_23092026.pdf)
+
+---
+
+### S&T Legal advises Fusion CX on acquisition of VA Platinum
+**MA** · Cross-border · Reported
+
+Fusion CX has acquired 100% of the issued share capital of VA Platinum Offshoring, an Australian offshore staffing and managed workforce provider with subsidiaries in the Philippines. S&T Legal advised Fusion CX through its UK entity,…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/st-legal-advises-fusion-cx-on-acquisition-of-va-platinum)
+
+---
+
+### Veranda Learning Solutions Limited: Record Date
 **MA** · India · ✓ Verified
 
-Scheme of Arrangement - Lemon Tree Hotels Limited has informed that the Company has received the Observation Letters with no objection from the NSE and no adverse observations from the BSE on September 22, 2026.
+Record Date - Veranda Learning Solutions Limited has informed the Exchange that Record date for the purpose of Composite Scheme of Arrangement is 06-Oct-2026.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/LEMONTREE_22092026213712_Intimation_signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/Verandaipo_23092026212748_VLSCompositeSchemeRecorddate.pdf)
 
 ---
 
-### AXISCADES Technologies Limited: Acquisition
+### Indosolar Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-Acquisition - AXISCADES Technologies Limited has informed the Exchange about Incorporation of a Subsidiary Company.
+Amalgamation/Merger - Indosolar Limited has informed the Exchange about Amalgamation/Merger
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AXISCADES_22092026205730_Incorporation22092026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/INDOSOLAR20_23092026201455_Disclosure_Regulation_30.pdf)
 
 ---
 
-### EFC (I) Limited: Demerger
+### Waaree Energies Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-Demerger - EFC (I) Limited has informed the Exchange about Order of NCLT in respect of Scheme of Arrangement (Demerger).
+Amalgamation/Merger - Waaree Energies Limited has informed the Exchange about Scheme of Amalgamation of Indosolar Limited with Waaree Energies Limited and their respective shareholders pursuant to Sections 230 to 232 of the Companies Act,…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/EFCILTD_22092026191023_EFC__I__Limited_-_Intimation_of_Order.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/WAAREE_23092026201432_OutcomeofWEL_signed1.pdf)
 
 ---
 
-### NHPC Limited: General Updates
+### Orchid Pharma Limited: Updates
 **MA** · India · ✓ Verified
 
-General Updates - NHPC Limited has informed the Exchange that MCA has fixed 28.09.2026 as hearing date in the matter of scheme of amalgamation between JPCL and NHPC Limited. The other details are given in the attached letter.
+Updates - Orchid Pharma Limited has informed the Exchange regarding 'Trading Approval of Equity Shares issued and allotted under Scheme of Amalgamation'.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NHPC_22092026190857_STX_JPCL_NHPC_Merger_hearing_date_.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ORCHPHARMA_23092026200048_Stx_Ltr_sd.pdf)
 
 ---
 
-### Western Carriers (India) Limited: Updates
+### Go Digit General Insurance Limited: Scheme of Arrangement
 **MA** · India · ✓ Verified
 
-Updates - Western Carriers (India) Limited has informed the Exchange regarding 'Disclosure under Regulation 29 (2) of Securities and Exchange Board of India (Substantial acquisition of Shares and Takeovers) Regulations, 2011'.
+Scheme of Arrangement - Go Digit General Insurance Limited has informed the Exchange about update in relation to Scheme of Amalgamation of the Company
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/WCIL_22092026184823_WCIL_INTIMATION_RS_PURCHASE.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GODIGITGI_23092026193034_GDGIL_-_Intimation_to_Exchanges_final_signed.pdf)
 
 ---
 
-### Twamev Construction and Infrastructure Limited: General Updates
+### Ravindra Energy Limited: Press Release
 **MA** · India · ✓ Verified
 
-General Updates - Twamev Construction and Infrastructure Limited has informed the Exchange about Intimation of sale of shares by Promoter and Promoter Group, Mr. Ravi Todi, M/s Ravi Todi HUF and M/s Nadia Security Printing and Stationery…
+Press Release - Ravindra Energy Limited has informed the Exchange regarding a press release dated September 23, 2026, titled "Announcement of Merger between Energy In Motion Limited (Transferor Company) and Ravindra Energy Limited…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TCLCONS_22092026181908_IntimationOfSaleOfSharesByRaviTodiandPG22092026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/RAVINDRA_23092026192630_Draft_-_REL_merger_press_release.pdf)
 
 ---
 
-### Persistent Systems Limited: Press Release
+### Power Grid Corporation of India Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Press Release - Persistent Systems Limited has informed the Exchange regarding a press release dated September 22, 2026, titled "Persistent s Takeover Offer for Nagarro Successful - Additional Acceptance Period to run from September 23,…
+Acquisition - Power Grid Corporation of India Limited has informed the Exchange about Acquisition of Barmer HVDC Power Transmission Limited by POWERGRID under TBCB route.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_22092026172325_SEIntimationUpdateonVoluntaryPublicOfferofNagarro-signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/POWERGRID1_23092026191217_BSENSEReg30Acqdt23092026_v2signed.pdf)
 
 ---
 
-### Twamev Construction and Infrastructure Limited: General Updates
+### Ashima Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-General Updates - Twamev Construction and Infrastructure Limited has informed the Exchange regarding sale of shares by one of the member of the Promoter Group, M/s Upendra Singh Constructions Pvt Ltd.
+Disclosure under SEBI Takeover Regulations - Ashima Limited has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption provided for in…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TCLCONS_22092026172211_SaleOfShares18092026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_23092026161709_ASHIMASYN10.pdf)
 
 ---
 
-### Persistent Systems Limited: Updates
+### Priti International Limited: Disclosure under SEBI Takeover Regulations
 **MA** · India · ✓ Verified
 
-Updates - Persistent Systems Limited has informed the Exchange regarding 'Update on Voluntary Public Takeover Offer made by Persistent Systems Limited to the shareholders of Nagarro SE '.
+Disclosure under SEBI Takeover Regulations - Ritesh Lohia has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_22092026171156_SEIntimationUpdateonVoluntaryPublicOfferofNagarro-signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_23092026184810_PRITI.pdf)
 
 ---
 
-### Digjam Limited: Copy of Newspaper Publication
+### ZUARI INDUSTRIES LIMITED: General Updates
 **MA** · India · ✓ Verified
 
-Copy of Newspaper Publication - Digjam Limited has informed the Exchange regarding the publication of newspaper advertisements in connection with the petition filed by the Petitioner Companies under Sections 230 to 232 and other applicable…
+General Updates - ZUARI INDUSTRIES LIMITED has informed the Exchange about update on acquisition of shares of Texmaco Infrastructure & Holdings Limited
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DIGJAMLMTD_22092026162234_Covering_Petition_Admission_Public_Notice_Digjam.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ZUARIGLOB_23092026183801_Reg_30_TIHL_Acquisition_signed.pdf)
 
 ---
 
-### Teamlease Services Limited: General Updates
+### Jagsonpal Pharmaceuticals Limited: Press Release
 **MA** · India · ✓ Verified
 
-General Updates - TeamLease Extinguishment of 1,200 Equity Shares pursuant to Buyback by Joint Venture Company, Crystal HR and Security Solutions Private Limited ( Crystal HR )
+Press Release - Jagsonpal Pharmaceuticals Limited has informed the Exchange regarding a press release dated September 23, 2026, titled "Press Release on Acquisition of the wellness portfolio of group Pharmaceuticals Limited.".
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TEAMLEASE_22092026162654_TeamLeaseIntimationonExtinguishmentofCrystalSecurities.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/JAGSNPHARM_23092026180157_SignedIntimationofAcquisition.pdf)
 
 ---
 
-### Maithan Alloys Limited: Others
+### Jagsonpal Pharmaceuticals Limited: General Updates
 **MA** · India · ✓ Verified
 
-Others - Maithan Alloys Limited has informed the Exchange about acquisition of Equity Shares through Stock Exchange.
+General Updates - Jagsonpal Pharmaceuticals Limited has informed the Exchange about the Acquisition of Wellness Portfolio of Group Pharmaceuticals Limited.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MAITHANALL_22092026153523_PAYTM.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/JAGSNPHARM_23092026175736_SignedIntimationofAcquisition.pdf)
 
 ---
 
-### Maithan Alloys Limited: Others
+### Pitti Engineering Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-Others - Maithan Alloys Limited has informed the Exchange about acquisition of Equity Shares through Stock Exchange.
+Amalgamation/Merger - Pitti Engineering Limited has informed the Exchange about Date of effectiveness of the Scheme
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MAITHANALL_22092026153334_ESDS.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/PITTIENG_23092026173410_Effectivenessofscheme.pdf)
 
 ---
 
-### PDS Limited: Acquisition
+### Cupid Limited: General Updates
 **MA** · India · ✓ Verified
 
-Acquisition - PDS Limited has informed the Exchange about Acquisition
+General Updates - Cupid Limited has informed the Exchange about Disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PDSL_22092026142728_Ltr_INC_DesignCOE_22092026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/CUPID_23092026173218_SE_Intimation_Disclosure_under_Regulation_29_2_of_SAST_2011.pdf)
 
 ---
 
-### Ballarpur Industries Limited: Disclosure under SEBI Takeover Regulations
+### Ashoka Buildcon Limited: General Updates
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations - Ballarpur Industries Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and…
+General Updates - Ashoka Buildcon Limited has informed the Exchange about disclosure under Reg. 30 of SEBI LODR - signing of SPA and acquisition of Project SPV viz.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_22092026114926_Disclosure12.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ASHOKA_23092026171617_503_ABL_BSE_NSE_Sakoli_acquisition.pdf)
 
 ---
 
-### Bharat Forge Limited: Allotment of Securities
+### Saksoft Limited: Amalgamation/Merger
+**MA** · India · ✓ Verified
+
+Amalgamation/Merger - Saksoft Limited has informed the Exchange about Amalgamation/Merger
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SAKSOFT_23092026151707_Merger_Order_Intimation-_Augmento_signed.pdf)
+
+---
+
+### Asian Hotels (West) Limited: Disclosure under SEBI Takeover Regulations
+**MA** · India · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations - Sandeep Gupta has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_22092026175806_AHLWEST.pdf)
+
+---
+
+### Intellect Design Arena Limited: Press Release
+**MA** · India · ✓ Verified
+
+Press Release - Intellect Design Arena Limited has informed the Exchange regarding a press release dated September 23, 2026, titled "Deal Win: Cargills Bank Expands Strategic Partnership with Intellect, Upgrades to Composable eMACH.ai Core…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/INTELLECT_23092026131740_PressRelease23092026signed.pdf)
+
+---
+
+### Euro Pratik Sales Limited: Press Release
+**MA** · India · ✓ Verified
+
+Press Release - Euro Pratik Sales Limited has informed the Exchange regarding a press release dated September 23, 2026, titled "For acquisition of controlling stake of 56% in Fabwood Solutions LLP, which shall eventually own the business…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/EUROPRATIK2025_23092026124111_press_Release.pdf)
+
+---
+
+### Euro Pratik Sales Limited: Outcome of Board Meeting
+**MA** · India · ✓ Verified
+
+Outcome of Board Meeting - For acquisition of controlling stake of 56% in Fabwood Solutions LLP, which shall eventually own the business of M/s. Fab Wood
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/EUROPRATIK2025_23092026123645_Outcome.pdf)
+
+---
+
+### Jaykay Enterprises Limited: Allotment of Securities
 **IPO** · India · ✓ Verified
 
-Allotment of Securities - Bharat Forge Limited has informed the Exchange regarding allotment of 10582010 securities pursuant to Qualified Institution Placement at its meeting held on September 22, 2026
+Allotment of Securities - Jaykay Enterprises Limited has informed the Exchange regarding allotment of 2,05,71,642 Partly Paid Equity Shares pursuant to Rights Issue at its meeting held on September 23, 2026
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ANILSHINDE_22092026235622_SEIntimation-Allotment-sd.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/JAYKAY_23092026180739_RIC_Outcome_Sd.pdf)
 
 ---
 
-### Bharat Forge Limited: Issue of Securities
+### Jaykay Enterprises Limited: Updates
 **IPO** · India · ✓ Verified
 
-Issue of Securities - Bharat Forge Limited has informed the Exchange about QIP - closure of Issue
+Updates - Jaykay Enterprises Limited has informed the Exchange regarding 'Update on the ongoing Rights Issue'.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ANILSHINDE_22092026225538_SEIntimation-Closure_of_Issue-sd.pdf)
-
----
-
-### Aditya Infotech Limited: Qualified Institutional Placement
-**IPO** · India · ✓ Verified
-
-Qualified Institutional Placement - Aditya Infotech Limited has informed the Exchange about qualified Institutional Placement
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CPPLUS_22092026200910_signedstxopeningqip.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/JAYKAY_23092026151251_SE_Intimation_sdd.pdf)
 
 ---
 
-### Aditya Infotech Limited: Committee Meeting Updates
-**IPO** · India · ✓ Verified
-
-Committee Meeting Updates - Aditya Infotech Limited has informed the Exchange regarding Outcome of QIP Committee Meeting held on September 22, 2026.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CPPLUS_22092026200404_signedstxopeningqip.pdf)
-
----
-
-### Sammaan Capital Limited: Updates
-**IPO** · India · ✓ Verified
-
-Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_22092026184649_SCL_Exchange_Retail_intimation_57_22092026_NV8.pdf)
-
----
-
-### Astron Paper & Board Mill Limited: Corporate Insolvency Resolution Process
+### AGS Transact Technologies Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - Astron Paper & Board Mill Limited has informed the Exchange about Corporate Insolvency Resolution Process
+Corporate Insolvency Resolution Process - AGS Transact Technologies Limited has informed the Exchange about Corporate Insolvency Resolution Process
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ASTRON_22092026173840_Outcome-_4th_meeting.pdf)
-
----
-
-### Luthra acts on Rays of Belief ₹124 crore IPO
-**IPO** · ₹124 cr · India · Reported
-
-Rays of Belief Limited has raised ₹124.997 crore from an initial public offering of equity shares comprising a fresh issue of 5,230,000 equity shares. Luthra and Luthra Law Offices India advised Rays of Belief as well as the book running…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/luthra-and-luthra-acts-on-rays-of-belief-124-crore-ipo)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AGSTRA_23092026210550_Intimation_to_BSE_And_NSE_-_18th_Coc_meeting_-_final.pdf)
 
 ---
 
-### Vidhigya Associates acts on Veegaland Homes ₹210 crore IPO
-**IPO** · ₹210 cr · India · Reported
+### Reliance Home Finance Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
 
-Veegaland Developers Limited has launched its Initial Public Offering compring a fresh issue of 1,50,00,000 equity shares aggregating to ₹210 crore. Vidhigya Associates acted as the sole legal counsel for the offering.
+Corporate Insolvency Resolution Process - Reliance Home Finance Limited has informed the Exchange about 14th Meeting of the Committee of Creditors ( CoC ), of Reliance Home Finance Limited (In CIRP) was duly held on Thursday, September 17,…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/vidhigya-associates-acts-on-veegaland-homes-210-crore-ipo)
-
----
-
-### C&S Partners advises Dr. Lal Ventures on acquiring 30% stake in Neuome Technologies
-**MA** · India · Reported
-
-Dr. Lal Ventures Private Limited, a wholly owned subsidiary of Dr.
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cs-partners-advises-dr-lal-ventures-on-acquiring-30-stake-in-neuome-technologies)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/RHFL_23092026182842_Outcome_of_the_14th_CoC_Meeting_.pdf)
 
 ---
 
-### Phoenix Legal advises Celerity on Indian leg of acquisition of Insight 2 Value
-**PE** · India · Reported
+### Shirpur Gold Refinery Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
 
-Phoenix Legal advised Celerity Limited, a UK-based managed IT services provider, on the Indian leg of its acquisition of Insight 2 Value (I2V), a specialist in intelligent automation and enterprise content management. The transaction team…
+Corporate Insolvency Resolution Process - Shirpur Gold Refinery Limited has informed the Exchange about Outcome of the Thirty- First (31st) Committee of Creditors meeting held on Wednesday, September 23, 2026.
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/phoenix-legal-advises-celerity-on-indian-leg-of-acquisition-of-insight-2-value)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SHIRPUR-G_23092026171427_Shirpur_31st_COC__Outcome.pdf)
 
 ---
 
-### Rajani Associates acts on Shanti Inorganics IPO
-**IPO** · ₹47.24 cr · India · Reported
+### Ugro Capital Limited: Shareholders meeting
+**IBC** · India · ✓ Verified
 
-Shanti Inorganics Limited has raised ₹47.24 crore from an initial public offering of equity shares. Rajani Associates advised Shanti Inorganics as well as the book running lead manager, Vivro Financial Services Private Limited, on this IPO.
+Shareholders meeting - Voting results as per Reg 44(3) of the SEBI (LODR) Regulations 2015 for the NCLT Convened Meeting of Equity Shareholders held on 22 September 2026
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/rajani-associates-acts-on-shanti-inorganics-ipo)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/UGROCAP_23092026170547_VRRegulation44.pdf)
+
+---
+
+### SKIL Infrastructure Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process - SKIL Infrastructure Limited has informed the Exchange regarding the Eleventh (11th) Committee of Creditors meeting held on Thursday, September 10, 2026
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/Skilinfra_23092026161041_Letter_Outcome_11th_COC.pdf)
+
+---
+
+### Optiemus Infracom Limited: Giving guarantees/indemnity/ becoming a surety for third party
+**BANK** · ₹50.07 cr · India · ✓ Verified
+
+Giving guarantees/indemnity/ becoming a surety for third party - Optiemus Infracom Limited has informed the Exchange that Operations and Administration Committee of the Board of Directors of the Company at its meeting held today i.e. on…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/OPTIEMUS_23092026143710_OILIntimationRegardingCGOnBehalfOfOEL23092026.pdf)
+
+---
+
+### Legacy Law Offices acts on Vardaan Biotech ₹90 crore+ IPO
+**IPO** · ₹90 cr · India · Reported
+
+Vardaan Biotech Limited has re-filed its Draft Red Herring Prospectus for a book-built offer on BSE and NSE Mainboard platform for an entirely fresh issue of 3,50,00,000 shares with an offer size of ₹90 crore+. Legacy Law Offices advised…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-vardaan-biotech-90-crore-ipo)
 
 ---
 

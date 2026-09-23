@@ -1,5 +1,39 @@
 {
-  "generatedAt": "2026-09-23T00:00:00.000Z",
+  "generatedAt": "2026-09-23T20:47:17.442Z",
   "algorithm": "material-change-only-v1",
-  "updates": []
+  "updates": [
+    {
+      "id": "academy-2026-09-23-0-nse-veranda-23-sep-2026212959",
+      "sourceId": "nse-veranda-23-sep-2026212959",
+      "date": "23 Sept 2026",
+      "category": "Companies Act",
+      "headline": "Veranda Learning Solutions Limited: Record Date",
+      "why": "Record Date - Veranda Learning Solutions Limited has informed the Exchange that Record date for the purpose of Composite Scheme of Arrangement is 06-Oct-2026.",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/Verandaipo_23092026212748_VLSCompositeSchemeRecorddate.pdf",
+      "sourceName": "NSE filing - Veranda Learning Solutions Limited"
+    },
+    {
+      "id": "academy-2026-09-23-1-nse-waareeener-23-sep-2026201515",
+      "sourceId": "nse-waareeener-23-sep-2026201515",
+      "date": "23 Sept 2026",
+      "category": "Companies Act",
+      "headline": "Waaree Energies Limited: Amalgamation/Merger",
+      "why": "Amalgamation/Merger - Waaree Energies Limited has informed the Exchange about Scheme of Amalgamation of Indosolar Limited with Waaree Energies Limited and their respective shareholders pursuant to Sections 230 to 232 of the Companies Act,…",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/WAAREE_23092026201432_OutcomeofWEL_signed1.pdf",
+      "sourceName": "NSE filing - Waaree Energies Limited"
+    },
+    {
+      "id": "academy-2026-09-23-2-nse-orchpharma-23-sep-2026200117",
+      "sourceId": "nse-orchpharma-23-sep-2026200117",
+      "date": "23 Sept 2026",
+      "category": "Companies Act",
+      "headline": "Orchid Pharma Limited: Updates",
+      "why": "Updates - Orchid Pharma Limited has informed the Exchange regarding 'Trading Approval of Equity Shares issued and allotted under Scheme of Amalgamation'.",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/ORCHPHARMA_23092026200048_Stx_Ltr_sd.pdf",
+      "sourceName": "NSE filing - Orchid Pharma Limited"
+    }
+  ]
 }
