@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-23T20:47:17.442Z",
+  "generatedAt": "2026-09-24T20:53:46.111Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-09-24-0-nse-rrkabel-24-sep-2026215051",
+      "sourceId": "nse-rrkabel-24-sep-2026215051",
+      "date": "24 Sept 2026",
+      "category": "Deal Structuring",
+      "headline": "R R Kabel Limited: Outcome of Board Meeting",
+      "why": "Outcome of Board Meeting - R R Kabel Limited has informed the Exchange regarding the Board's approval for acquisition of the Business Undertaking of U M Cables Limited.",
+      "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
+      "source": "https://nsearchives.nseindia.com/corporate/RRKL1995_24092026214959_Outcome_of_BM_acquisition_of_unit_-_Final.pdf",
+      "sourceName": "NSE filing - R R Kabel Limited"
+    },
+    {
+      "id": "academy-2026-09-24-1-nse-saurashcem-24-sep-2026201306",
+      "sourceId": "nse-saurashcem-24-sep-2026201306",
+      "date": "24 Sept 2026",
+      "category": "FEMA / FDI",
+      "headline": "Saurashtra Cement Limited: Updates",
+      "why": "Updates - In compliance with Regulation 29(2) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011 ( SEBI SAST Regulations ), please find enclosed, as Annexure A, the prescribed…",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/Saurashtra_24092026201231_REG_29_2_MFT_ACQ__1_.pdf",
+      "sourceName": "NSE filing - Saurashtra Cement Limited"
+    },
+    {
+      "id": "academy-2026-09-24-2-nse-izmo-24-sep-2026190153",
+      "sourceId": "nse-izmo-24-sep-2026190153",
+      "date": "24 Sept 2026",
+      "category": "FEMA / FDI",
+      "headline": "IZMO Limited: Disclosure under SEBI Takeover Regulations",
+      "why": "Disclosure under SEBI Takeover Regulations - Tej Soni has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations,…",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/team_bbodade_24092026185838_IZMO.pdf",
+      "sourceName": "NSE filing - IZMO Limited"
+    },
     {
       "id": "academy-2026-09-23-0-nse-veranda-23-sep-2026212959",
       "sourceId": "nse-veranda-23-sep-2026212959",
