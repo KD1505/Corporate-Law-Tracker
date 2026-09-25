@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-24T20:53:46.111Z",
+  "generatedAt": "2026-09-25T20:47:57.485Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-09-25-0-nse-kotakbank-25-sep-2026201511",
+      "sourceId": "nse-kotakbank-25-sep-2026201511",
+      "date": "25 Sept 2026",
+      "category": "Companies Act",
+      "headline": "Kotak Mahindra Bank Limited: General Updates",
+      "why": "General Updates - Intimation of Scheme of Amalgamation of Kotak Mahindra Investments Limited with Kotak Alternate Asset Managers Limited, both, wholly-owned subsidiaries of the Bank",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/KMBLTAB_25092026201322_KMBLLODRV2250926.pdf",
+      "sourceName": "NSE filing - Kotak Mahindra Bank Limited"
+    },
+    {
+      "id": "academy-2026-09-25-1-nse-adanipower-25-sep-2026192127",
+      "sourceId": "nse-adanipower-25-sep-2026192127",
+      "date": "25 Sept 2026",
+      "category": "Companies Act",
+      "headline": "Adani Power Limited: General Updates",
+      "why": "General Updates - Adani Power Limited has informed the Exchange about Update on the Scheme of Amalgamation",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/ADANIPOWER_25092026192110_APLSchemebecomingeffective10WOS25092026.pdf",
+      "sourceName": "NSE filing - Adani Power Limited"
+    },
+    {
+      "id": "academy-2026-09-25-2-nse-sammaancap-25-sep-2026185229",
+      "sourceId": "nse-sammaancap-25-sep-2026185229",
+      "date": "25 Sept 2026",
+      "category": "Companies Act",
+      "headline": "Sammaan Capital Limited: Updates",
+      "why": "Updates - It is hereby informed that the Hon ble National Company Law Tribunal, New Delhi Bench vide its Order dated September 21, 2026, has admitted the Second Motion Petition in connection with the proposed Scheme of Arrangement between…",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/IHFL_25092026184549_SCL_Regulation_30_SMP_Order_25Sep2026.pdf",
+      "sourceName": "NSE filing - Sammaan Capital Limited"
+    },
     {
       "id": "academy-2026-09-24-0-nse-rrkabel-24-sep-2026215051",
       "sourceId": "nse-rrkabel-24-sep-2026215051",
