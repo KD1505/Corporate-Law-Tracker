@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-25T20:47:57.485Z",
+  "generatedAt": "2026-09-26T20:12:07.752Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-09-26-0-nse-kpigreen-26-sep-2026172641",
+      "sourceId": "nse-kpigreen-26-sep-2026172641",
+      "date": "26 Sept 2026",
+      "category": "Deal Structuring",
+      "headline": "KPI Green Energy Limited: Acquisition",
+      "why": "Acquisition - KPI Green Energy Limited has informed the exchange regarding Incorporation of Wholly Owned Subsidiary (WOS). The disclosure is attached herewith.",
+      "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
+      "source": "https://nsearchives.nseindia.com/corporate/KPIGLOBAL_26092026172515_37_KPI_Intimation_of_Incorporation_of_New_WOS_26092026_signed.pdf",
+      "sourceName": "NSE filing - KPI Green Energy Limited"
+    },
+    {
+      "id": "academy-2026-09-26-1-nse-kapston-26-sep-2026153115",
+      "sourceId": "nse-kapston-26-sep-2026153115",
+      "date": "26 Sept 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Kapston Services Limited: General Updates",
+      "why": "General Updates - Kapston Services Limited has informed the Exchange about Disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 Disposal of shares",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/KAPSTON_26092026153024_KapstonREG29.pdf",
+      "sourceName": "NSE filing - Kapston Services Limited"
+    },
+    {
+      "id": "academy-2026-09-26-2-nse-dabur-26-sep-2026133158",
+      "sourceId": "nse-dabur-26-sep-2026133158",
+      "date": "26 Sept 2026",
+      "category": "FEMA / FDI",
+      "headline": "Dabur India Limited: Scheme of Arrangement",
+      "why": "Scheme of Arrangement - Dabur India Limited has informed the Exchange about Upload of order passed by the Hon'ble National Company Law Tribunal, New Delhi Bench (\"NCLT\"), approving the Scheme of Amalgamation between Sesa Care Private…",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/DABURA_26092026133123_Dabur_STXIntimation_Pronouncement_Order.pdf",
+      "sourceName": "NSE filing - Dabur India Limited"
+    },
     {
       "id": "academy-2026-09-25-0-nse-kotakbank-25-sep-2026201511",
       "sourceId": "nse-kotakbank-25-sep-2026201511",

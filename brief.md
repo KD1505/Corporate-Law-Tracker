@@ -1,311 +1,167 @@
 # Corporate Law Tracker - Daily Brief
-_25 September 2026_
+_26 September 2026_
 
-44 new development(s) - top 40 shown.
+25 new development(s).
 
-### Sammaan Capital Limited: Updates
-**BANK** · ₹1,00,000 · India · ✓ Verified
+### Khaitan & Co advises Reliance Industries on ₹12,000 crore NCD issuance
+**BANK** · ₹12,000 cr · India · Reported
 
-Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to the applicable provisions of the Listing Regulations, we wish to inform that in terms of the Board authorization dated May 20, 2026, read with resolution…
+Reliance Industries Limited has made an issuance of unsecured, non-convertible debentures aggregating to ₹12,000 crore, on a private placement basis. Khaitan & Co advised Reliance Industries on this NCD issuance.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_25092026125046_SCL_NCD_Allotment_Intimation_25092026.pdf)
-
----
-
-### Shardul Amarchand Mangaldas advises Ethereal Exploration Guild on acquisition of industrial land in Tirupati
-**MA** · ₹578.39 cr · India · Reported
-
-Ethereal Exploration Guild Private Limited has entered into an agreement with the Andhra Pradesh Industrial Infrastructure Corporation Limited for an industrial land parcel admeasuring 142.3 acres, situated in Routhsuramala Village,…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-ethereal-exploration-guild-on-acquisition-of-industrial-land-in-tirupati)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-reliance-industries-on-12000-crore-ncd-issuance)
 
 ---
 
-### US Universities to establish physical campuses in India; Trilegal advises
-**MA** · Bengaluru · Reported
+### Shardul Amarchand Mangaldas acts on Bharat Forge ₹2,000 crore QIP
+**IPO** · ₹2,000 cr · Cross-border · Reported
 
-Trilegal has advised global education company Emeritus (part of Eruditus) on its strategic joint ventures with Illinois Institute of Technology, University of Aberdeen, University of New South Wales (UNSW) and University of Victoria for…
+Bharat Forge Limited has made a Qualified Institutions Placement of equity shares aggregating to approximately ₹2,000 crore. Shardul Amarchand Mangaldas & Co advised Kotak Mahindra Capital Company Limited, Morgan Stanley India Company…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/us-universities-to-establish-physical-campuses-in-india-trilegal-advises)
-
----
-
-### Natco Pharma Limited: Rights Issue
-**IPO** · ₹750 · India · ✓ Verified
-
-Rights Issue - Natco Pharma Limited has informed the Exchange that Board of Directors at its meeting held on September 25, 2026, has decided to issue equity shares on rights basis in the ratio of 2 : 21, i.e 2 Equity Shares for every 21…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NATCOPHARM_25092026111109_OutcomeofBM_25092026.pdf)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-acts-on-bharat-forge-2000-crore-qip)
 
 ---
 
-### Aequs Limited: Press Release
-**PE** · ₹650 cr · India · ✓ Verified
+### Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Hero Motors ₹1,000 crore IPO
+**IPO** · ₹1,000 cr · India · Reported
 
-Press Release - Aequs Limited has informed the Exchange regarding a press release dated September 25, 2026, titled "Aequs Board Approves INR 650 Crore Equity Infusion through Warrants by Promoter Group; 50 per cent Payable Upfront".
+Hero Motors Limited has made an initial public offering of equity shares aggregating to ₹1,000 crore, comprising a fresh issue and an offer for sale by O P Munjal Holdings Limited and Hero Cycles Limited. Cyril Amarchand Mangaldas advised…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AEQUSLIMITED_25092026191447_Cover_letter.pdf)
-
----
-
-### LKS advises Raghava Life Sciences on sale of API business to RPG Active Pharma
-**PE** · India · Reported
-
-Raghava Life Sciences Private Limited has transfered its Active Pharmaceutical Ingredients (API) business to RPG Active Pharma Limited, a subsidiary of RPG Life Sciences Limited through a slump sale. Lakshmikumaran & Sridharan Attorneys…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/lks-advises-raghava-life-sciences-on-sale-of-api-business-to-rpg-active-pharma)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-sr-associates-hogan-lovells-cadwalader-act-on-hero-motors-1000-crore-ipo)
 
 ---
 
-### Trilegal, JSA, Solicis Lex act on Samara Capital's stake acquisition in Associated Road Carriers, Calyx Container Terminals
-**MA** · India · Reported
+### Trilegal advises Caelux Corporation on supplying energy-producing solar glass to Rayzon Solar, Navitas Solar
+**MA** · Cross-border · Reported
 
-Samara Capital is set to acquire stakes in Associated Road Carriers Limited and Calyx Container Terminals Private Limited. Trilegal is advising Samara Capital on the proposed stake acquisition as well as on the proposed merger of Calyx…
+US-based Caelux Corporation has entered into separate framework agreements with Navitas Solar and Rayzon Solar for the supply of energy producing solar glass to manufacture hybrid tandem photovoltaic (PV) modules in India. The transaction…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/trilegal-jsa-solicis-lex-act-on-samara-capitals-stake-acquisition-in-associated-road-carriers-calyx-container-terminals)
-
----
-
-### Shardul Amarchand Mangaldas advises Groyyo on Series B fundraise
-**PE** · ₹90 cr · India · Reported
-
-Groyyo Private Limited has raised funds from a Series B fundraise led by Cornerstone Ventures Enterprise Tech Fund II, with participation by certain existing investors including Alpha Wave. The first tranche of the fundraise was valued at…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-groyyo-on-series-b-fundraise)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-caelux-corporation-on-supplying-energy-producing-solar-glass-to-rayzon-solar-navitas-solar)
 
 ---
 
-### Trilegal, Shardul Amarchand Mangaldas act on AXISCADES acquiring 90% stake in Cloud Wave Technologies
-**MA** · India · Reported
+### Shardul Amarchand Mangaldas advises NDR Smart Spaces on ₹225 crore investment by IFC
+**MA** · ₹225 cr · India · Reported
 
-AXISCADES Technologies Limited has acquired 90% of the shareholding in Cloud Wave Technologies Private Limited, and its wholly owned subsidiaries, Aureate Polyment Private Limited and Protohubs System Solutions Private Limited. Trilegal…
+International Finance Corporation has backed NDR Smart Spaces Private Limited with an investment of ₹225 crore. Shardul Amarchand Mangaldas & Co advised NDR Smart Spaces and its Promoters, the NDR Group, on this transaction.
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-axiscades-on-90-stake-acquisition-in-cloud-wave-technologies)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-ndr-smart-spaces-on-225-crore-investment-by-ifc)
 
 ---
 
-### Brigade Enterprises Limited: General Updates
+### Adani Enterprises Limited: Acquisition
+**MA** · Cross-border · ✓ Verified
+
+Acquisition - Adani Enterprises Limited has informed the Exchange about acquisition of 50% stake of Monvarex Aluminium Holding RSC Ltd. by Adani Global Limited, a wholly owned subsidiary of the Company
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_26092026124830_AELIntimationsigned26092026.pdf)
+
+---
+
+### KPI Green Energy Limited: Acquisition
 **MA** · India · ✓ Verified
 
-General Updates - Brigade Enterprises Limited has informed the Exchange about Acquisition of Equity Shares by the Company
+Acquisition - KPI Green Energy Limited has informed the exchange regarding Incorporation of Wholly Owned Subsidiary (WOS). The disclosure is attached herewith.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/BRIGADE_25092026211706_IntimationforacquisitionofsharesBCVREPL.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/KPIGLOBAL_26092026172515_37_KPI_Intimation_of_Incorporation_of_New_WOS_26092026_signed.pdf)
 
 ---
 
-### Kotak Mahindra Bank Limited: General Updates
+### Cupid Limited: Acquisition
 **MA** · India · ✓ Verified
 
-General Updates - Intimation of Scheme of Amalgamation of Kotak Mahindra Investments Limited with Kotak Alternate Asset Managers Limited, both, wholly-owned subsidiaries of the Bank
+Acquisition - Cupid Limited has informed the Exchange about Conversion of upto 30,00,000Warrants, in or more tranches, of Baazar Style Retail Limited ( Baazar Style ) held by the Company
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KMBLTAB_25092026201322_KMBLLODRV2250926.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/CUPID_26092026170609_SE_Intimation_Conversion_of_Warrants.pdf)
 
 ---
 
-### Adani Power Limited: General Updates
+### KPI Green Energy Limited: Acquisition
 **MA** · India · ✓ Verified
 
-General Updates - Adani Power Limited has informed the Exchange about Update on the Scheme of Amalgamation
+Acquisition - KPI Green Energy Limited has informed the Exchange about update on acquisition by Material Subsidiary Company viz. Sun Drops Energia Limited
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ADANIPOWER_25092026192110_APLSchemebecomingeffective10WOS25092026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/KPIGLOBAL_26092026170110_36_Intimation_of_Acqusition_of_DEK_by_SunDrops_26092026_signed.pdf)
 
 ---
 
-### QMS Medical Allied Services Limited: Acquisition
+### Dr. Lal Path Labs Ltd.: General Updates
 **MA** · India · ✓ Verified
 
-Acquisition - QMS Medical Allied Services Limited has informed the Exchange about Acquisition
+General Updates - Dr. Lal Path Labs Ltd.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/QMS_25092026185825_Outcome250926.pdf)
-
----
-
-### Sammaan Capital Limited: Updates
-**MA** · Delhi-NCR · ✓ Verified
-
-Updates - It is hereby informed that the Hon ble National Company Law Tribunal, New Delhi Bench vide its Order dated September 21, 2026, has admitted the Second Motion Petition in connection with the proposed Scheme of Arrangement between…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_25092026184549_SCL_Regulation_30_SMP_Order_25Sep2026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/LALPATHLAB_26092026165355_Update_on_Acquisition_Ghana.pdf)
 
 ---
 
-### QMS Medical Allied Services Limited: Scheme of Arrangement
+### Raghav Productivity Enhancers Limited: General Updates
 **MA** · India · ✓ Verified
 
-Scheme of Arrangement - QMS Medical Allied Services Limited has informed the Exchange about Scheme of Arrangement
+General Updates - Raghav Productivity Enhancers Limited has informed the Exchange about Incorporation of Joint Venture Entity
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/QMS_25092026184559_Outcome250926.pdf)
-
----
-
-### Kansai Nerolac Paints Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - Kansai Nerolac Paints Limited has informed the Exchange about the NCLT Order sanctioning the Scheme of Amalgamation of Nerofix Private Limited with Kansai Nerolac Paints Limited.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KANSAINER_25092026182039_s_SEintimationmergerorder.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/RPEL2009_26092026164618_REVISED_intimation_of_subsidiary_incorporation.pdf)
 
 ---
 
-### Cupid Limited: General Updates
+### Shanti Gold International Limited: Acquisition
 **MA** · India · ✓ Verified
 
-General Updates - Cupid Limited has informed the Exchange about Disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011
+Acquisition - Shanti Gold International Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CUPID_25092026173900_SE_Intimation_Disclosure_under_Regulation_29_2_SAST_2011.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SHANTIGOLD_26092026163803_Ratnaveer_Material_Event_Intimation_SGIL.pdf)
 
 ---
 
-### Usha Martin Limited: General Updates
+### Kapston Services Limited: General Updates
 **MA** · India · ✓ Verified
 
-General Updates - USHAMART: Usha Martin Limited has informed the Exchange about Execution of BusinessTransfer Agreement for sale of Business Undertaking of U M Cables Limited ( wholly owned subsidiary ).
+General Updates - Kapston Services Limited has informed the Exchange about Disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 Disposal of shares
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/USHAMART_25092026170410_SEDisclosure25092026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/KAPSTON_26092026153024_KapstonREG29.pdf)
 
 ---
 
-### R R Kabel Limited: Acquisition
+### H.G. Infra Engineering Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - RRKABEL: R R Kabel Limited has informed the Exchange about the execution of the Business Transfer Agreement for purchase and acquisition of the Business Undertaking of U M Cables Limited by the Company.
+Acquisition - H.G. Infra Engineering Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/RRKL1995_25092026165354_Intimation_Reg_30_BTA.pdf)
-
----
-
-### One 97 Communications Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - One 97 Communications Limited has informed the Exchange about Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PAYTM_25092026164838_SEDisclosureUpdateLittleandPMLSep2026sd.pdf)
-
----
-
-### BlueStone Jewellery and Lifestyle Limited: Updates
-**MA** · India · ✓ Verified
-
-Updates - BlueStone Jewellery and Lifestyle Limited has informed the Exchange regarding 'Disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011'.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/BLUESTONE_25092026163622_Intimation_of_SAST.pdf)
-
----
-
-### R R Kabel Limited: Press Release
-**MA** · India · ✓ Verified
-
-Press Release - RRKABEL: R R Kabel Limited has informed the Exchange about a press release regarding the acquisition of U M Cables' Optical Fibre Cable Business.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/RRKL1995_25092026162141_Press_Release_25_September_2026.pdf)
-
----
-
-### Ceigall India Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - Ceigall India Limited has informed the Exchange about Investment in SPV.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ceigall_25092026160314_Mgmt_Committee_Outcome.pdf)
-
----
-
-### IZMO Limited: Disclosure under SEBI Takeover Regulations
-**MA** · India · ✓ Verified
-
-Disclosure under SEBI Takeover Regulations - Dinanath Soni has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_25092026155910_24092026193135_IZMO10.pdf)
-
----
-
-### Godrej Industries Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - Godrej Industries Limited has informed the Exchange about Acquisition.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Anupama_25092026155247_NSEBSEFURTHREINVESTMENTGINVL25092026.pdf)
-
----
-
-### Bhagyanagar India Limited: Record Date
-**MA** · India · ✓ Verified
-
-Record Date - Bhagyanagar India Limited has informed the Exchange that Record date for the purpose of Merger/HiveOff is 08-Oct-2026.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/BHAGYANGR_25092026153938_Intimation_of_Record_Date-BIl.pdf)
-
----
-
-### Primo Chemicals Limited: Amalgamation/Merger
-**MA** · India · ✓ Verified
-
-Amalgamation/Merger - Primo Chemicals Limited has informed the Exchange about Amalgamation/Merger
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PRIMO607_25092026152240_Outcome_341.pdf)
-
----
-
-### Adani Power Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - Adani Power Limited has informed the Exchange about Update on the Scheme of Amalgamation
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ADANIPOWER_25092026135512_APLNCLTorderMumbai24092026.pdf)
-
----
-
-### CIE Automotive India Limited: Amalgamation/Merger
-**MA** · India · ✓ Verified
-
-Amalgamation/Merger - CIE Automotive India Limited has informed the Exchange about Update on the Merger of CIE Aluminium Casting India Limited (Wholly Owned Subsidiary of the Company) with the Company
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Mahindracie_25092026134416_SEintimation.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HGINFRA_26092026144535_FinalIntimation.pdf)
 
 ---
 
 ### Dabur India Limited: Scheme of Arrangement
 **MA** · Delhi-NCR · ✓ Verified
 
-Scheme of Arrangement - Dabur India Limited has informed the Exchange about pronouncement of order by the Hon'ble National Company Law Tribunal, New Delhi Bench ("NCLT"), approving the Scheme of Amalgamation between Sesa Care Private…
+Scheme of Arrangement - Dabur India Limited has informed the Exchange about Upload of order passed by the Hon'ble National Company Law Tribunal, New Delhi Bench ("NCLT"), approving the Scheme of Amalgamation between Sesa Care Private…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DABURA_25092026113223_Letter.pdf)
-
----
-
-### Aditya Infotech Limited: Allotment of Securities
-**IPO** · India · ✓ Verified
-
-Allotment of Securities - Aditya Infotech Limited has informed the Exchange regarding allotment of 4326507 securities pursuant to Qualified Institution Placement at its meeting held on September 25, 2026
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CPPLUS_25092026235505_stxallotdsc.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/DABURA_26092026133123_Dabur_STXIntimation_Pronouncement_Order.pdf)
 
 ---
 
-### Aditya Infotech Limited: Qualified Institutional Placement
-**IPO** · India · ✓ Verified
+### Aaron Industries Limited: Updates
+**MA** · India · ✓ Verified
 
-Qualified Institutional Placement - Aditya Infotech Limited has informed the Exchange about Closure of issue for QIP.
+Updates - Aaron Industries Limited has informed the Exchange regarding Disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CPPLUS_25092026214226_stxclosing.pdf)
-
----
-
-### Aditya Infotech Limited: Committee Meeting Updates
-**IPO** · India · ✓ Verified
-
-Committee Meeting Updates - Aditya Infotech Limited has informed the Exchange regarding Outcome of QIP Committee Meeting held on September 25, 2026.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CPPLUS_25092026213759_stxclosing.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AARON_26092026124340_Intimation_Reg_29_2__SAST_AIL.pdf)
 
 ---
 
-### Prestige Estates Projects Limited: General Updates
+### Sandur Manganese & Iron Ores Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Sandur Manganese & Iron Ores Limited has informed the Exchange about incorporation of Royal Sandur MedTech Private Limited, Wholly Owned Subsidiary of theCompany
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SANDUR_26092026120111_Ltr2SEsIncorporationOfRSMPL.pdf)
+
+---
+
+### Natco Pharma Limited: Copy of Newspaper Publication
 **IPO** · India · ✓ Verified
 
-General Updates - Prestige Estates Projects Limited has informed the Exchange about the withdrawal of DRHP by Subsidiary
+Copy of Newspaper Publication - Natco Pharma Limited has informed the Exchange about Copy of Newspaper Publication of Record date for Rights Issue
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PRESTIGE_25092026182037_Emerald_-_PEPL_DRHP_Withdrawal_Intimaiton.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NATCOPHARM_26092026161344_RecordDatePublication.pdf)
 
 ---
 
@@ -314,7 +170,7 @@ General Updates - Prestige Estates Projects Limited has informed the Exchange ab
 
 Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_25092026175934_SCL_Retail_intimation_-57__25092026_PM2.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_26092026160235_SCL_Exchange_intimation_57_26092026_NN5_.pdf)
 
 ---
 
@@ -323,7 +179,7 @@ Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant 
 
 Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_25092026173355_Interest_SCL_Retail_Intimation_57_25092026_SJ2.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_26092026155002_SCL_Retail_Intimation_57_26092026_MK3.pdf)
 
 ---
 
@@ -332,34 +188,43 @@ Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant 
 
 Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_25092026172227_SCL_Exchange_Retail_intimation_57_25092026_UI0.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_26092026154030_SCL_Retail_Intimation_57_26092026_LU4.pdf)
 
 ---
 
-### Kalpataru Projects International Limited: General Updates
+### Sammaan Capital Limited: Updates
 **IPO** · India · ✓ Verified
 
-General Updates - Kalpataru Projects International Limited has informed the Exchange about Initial public offering of equity shares of Linjemontage i Grästorp AB, a first level step down material subsidiary of the Company ( LMG )
+Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KALPATPOWR_25092026085505_KPILSEIntimation25092026.pdf)
-
----
-
-### DPSC Limited: Corporate Insolvency Resolution Process
-**IBC** · India · ✓ Verified
-
-Corporate Insolvency Resolution Process - DPSC Limited has informed the Exchange about Corporate Insolvency Resolution Process regarding Post facto intimation of the 8th (Eighth) Meeting of the Committee of Creditors (CoC) of India Power…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DPSCLTD_25092026230058_IntimationofOutcomeof8thCOCMeeting25092026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_26092026153216_SCL_Exchange_Retail_intimation_57_26092026_VQ1.pdf)
 
 ---
 
-### Osia Hyper Retail Limited: Corporate Insolvency Resolution Process
-**IBC** · India · ✓ Verified
+### Sammaan Capital Limited: Updates
+**IPO** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - Prior Intimation of 7th CoC Meeting of Osia Hyper Retail Limited (In CIRP)
+Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/OSIAHYPER_25092026155633_Intimation_to_NSE.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_26092026152051_SCL_Exchange_Retail_intimation_57_26092026_RJ4.pdf)
+
+---
+
+### Sammaan Capital Limited: Updates
+**IPO** · India · ✓ Verified
+
+Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_26092026150905_SCL_Exchange_Retail_intimation_57_26092026_OP8.pdf)
+
+---
+
+### Sammaan Capital Limited: Updates
+**IPO** · India · ✓ Verified
+
+Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_26092026142838_SCL_Exchange_Retail_intimation_26092026_GJ.pdf)
 
 ---
 
