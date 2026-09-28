@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-26T20:12:07.752Z",
+  "generatedAt": "2026-09-28T22:42:20.343Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-09-28-0-nse-gfllimited-28-sep-2026205043",
+      "sourceId": "nse-gfllimited-28-sep-2026205043",
+      "date": "28 Sept 2026",
+      "category": "Companies Act",
+      "headline": "GFL Limited: General Updates",
+      "why": "General Updates - We wish to inform you that the National Company Law Tribunal (Hon''ble court) has pronounced its order in the matter of scheme of Merger by Absorption of INOX Infrastructure Limited with and into GFL Limited",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/GFLLIMITED_28092026205031_Upload.pdf",
+      "sourceName": "NSE filing - GFL Limited"
+    },
+    {
+      "id": "academy-2026-09-28-1-nse-cslfinance-28-sep-2026155450",
+      "sourceId": "nse-cslfinance-28-sep-2026155450",
+      "date": "28 Sept 2026",
+      "category": "FEMA / FDI",
+      "headline": "CSL Finance Limited: Disclosure under SEBI Takeover Regulations",
+      "why": "Disclosure under SEBI Takeover Regulations - CSL Capital Private ltd has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/team_bbodade_28092026155342_CSLFINANCE.pdf",
+      "sourceName": "NSE filing - CSL Finance Limited"
+    },
+    {
+      "id": "academy-2026-09-28-2-nse-sanofi-28-sep-2026155422",
+      "sourceId": "nse-sanofi-28-sep-2026155422",
+      "date": "28 Sept 2026",
+      "category": "FEMA / FDI",
+      "headline": "Sanofi India Limited: Disclosure under SEBI Takeover Regulations",
+      "why": "Disclosure under SEBI Takeover Regulations - Sanofi Healthcare India Private Limited has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon…",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/team_bbodade_28092026155021_SANOFI.pdf",
+      "sourceName": "NSE filing - Sanofi India Limited"
+    },
     {
       "id": "academy-2026-09-26-0-nse-kpigreen-26-sep-2026172641",
       "sourceId": "nse-kpigreen-26-sep-2026172641",

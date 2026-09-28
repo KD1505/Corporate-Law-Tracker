@@ -1,230 +1,302 @@
 # Corporate Law Tracker - Daily Brief
-_26 September 2026_
+_28 September 2026_
 
-25 new development(s).
+33 new development(s).
 
-### Khaitan & Co advises Reliance Industries on ₹12,000 crore NCD issuance
-**BANK** · ₹12,000 cr · India · Reported
+### 🔴 TT&A, Linklaters advise Federal Bank on establishment of US$ 500,000,000 MTN Programme
+**BANK** · US$ 500,000,000 · Cross-border · Reported
 
-Reliance Industries Limited has made an issuance of unsecured, non-convertible debentures aggregating to ₹12,000 crore, on a private placement basis. Khaitan & Co advised Reliance Industries on this NCD issuance.
+The Federal Bank Limited has established a US$ 500,000,000 medium term note programme. The notes when issued are proposed to be listed and admitted to trading on the NSE IFSC Limited, GIFT City.
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-reliance-industries-on-12000-crore-ncd-issuance)
-
----
-
-### Shardul Amarchand Mangaldas acts on Bharat Forge ₹2,000 crore QIP
-**IPO** · ₹2,000 cr · Cross-border · Reported
-
-Bharat Forge Limited has made a Qualified Institutions Placement of equity shares aggregating to approximately ₹2,000 crore. Shardul Amarchand Mangaldas & Co advised Kotak Mahindra Capital Company Limited, Morgan Stanley India Company…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-acts-on-bharat-forge-2000-crore-qip)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/tta-linklaters-advise-federal-bank-on-establishment-of-us-500000000-mtn-programme)
 
 ---
 
-### Cyril Amarchand Mangaldas, S&R Associates, Hogan Lovells Cadwalader act on Hero Motors ₹1,000 crore IPO
-**IPO** · ₹1,000 cr · India · Reported
+### JSW Energy Limited: General Updates
+**BANK** · ₹1,00,000 · India · ✓ Verified
 
-Hero Motors Limited has made an initial public offering of equity shares aggregating to ₹1,000 crore, comprising a fresh issue and an offer for sale by O P Munjal Holdings Limited and Hero Cycles Limited. Cyril Amarchand Mangaldas advised…
+General Updates - JSW Energy Limited has informed the Exchange about allotment of 50,000 Non- Convertible Debentures of face value Rs. 1,00,000/- each
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-sr-associates-hogan-lovells-cadwalader-act-on-hero-motors-1000-crore-ipo)
-
----
-
-### Trilegal advises Caelux Corporation on supplying energy-producing solar glass to Rayzon Solar, Navitas Solar
-**MA** · Cross-border · Reported
-
-US-based Caelux Corporation has entered into separate framework agreements with Navitas Solar and Rayzon Solar for the supply of energy producing solar glass to manufacture hybrid tandem photovoltaic (PV) modules in India. The transaction…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-caelux-corporation-on-supplying-energy-producing-solar-glass-to-rayzon-solar-navitas-solar)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/KRUTIKAJSWEL_28092026210327_JSWELNCDAllotmentintimation28092026.pdf)
 
 ---
 
-### Shardul Amarchand Mangaldas advises NDR Smart Spaces on ₹225 crore investment by IFC
-**MA** · ₹225 cr · India · Reported
+### Khaitan & Co advises Advent International on ₹3,150 crore investment in Yatharth Hospital & Trauma Care Services
+**MA** · ₹3,150 cr · Delhi-NCR · Reported
 
-International Finance Corporation has backed NDR Smart Spaces Private Limited with an investment of ₹225 crore. Shardul Amarchand Mangaldas & Co advised NDR Smart Spaces and its Promoters, the NDR Group, on this transaction.
+Advent International is set to invest ₹3,150 crore in Yatharth Hospital & Trauma Care Services Limited, a leading multi-speciality healthcare platform headquartered in NCR. Khaitan & Co advised Advent International on this investment.
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-ndr-smart-spaces-on-225-crore-investment-by-ifc)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-advent-international-on-3150-crore-investment-in-yatharth-hospital-trauma-care-services)
 
 ---
 
-### Adani Enterprises Limited: Acquisition
+### Shardul Amarchand Mangaldas, Khaitan, Touchstone Partners act on BizzNextgenFinance ₹215 crore Series A fundraise
+**PE** · ₹215 cr · India · Reported
+
+Business Nextgen Finance Private Limited has raised ₹215 crore from a Series A fundraise led by Beams Fintech Fund I and its affiliates, with participation from Baring Private Equity India Fund 6, Saison Capital Pte. Ltd., UNLEASH 1st…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-khaitan-co-touchstone-partners-act-on-bizznextgenfinance-215-crore-series-a-fundraise)
+
+---
+
+### Anupam Rasayan India Limited: Press Release
 **MA** · Cross-border · ✓ Verified
 
-Acquisition - Adani Enterprises Limited has informed the Exchange about acquisition of 50% stake of Monvarex Aluminium Holding RSC Ltd. by Adani Global Limited, a wholly owned subsidiary of the Company
+Press Release - Anupam Rasayan India Limited has informed the Exchange regarding a press release titled "Anupam Rasayan Concludes Acquisition of Bliss GVS Pharma, Marks Third Strategic Step Towards Building an Integrated Global Pharma…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_26092026124830_AELIntimationsigned26092026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ANURAS_28092026195741_ARILSLDSTX20260928064PressRelease.pdf)
 
 ---
 
-### KPI Green Energy Limited: Acquisition
+### Tata Motors Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - KPI Green Energy Limited has informed the exchange regarding Incorporation of Wholly Owned Subsidiary (WOS). The disclosure is attached herewith.
+Acquisition - Tata Motors Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KPIGLOBAL_26092026172515_37_KPI_Intimation_of_Incorporation_of_New_WOS_26092026_signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TMLCOMMERCIAL_28092026222610_LetterNSEBSETMLSPV.pdf)
 
 ---
 
-### Cupid Limited: Acquisition
+### Indoco Remedies Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - Cupid Limited has informed the Exchange about Conversion of upto 30,00,000Warrants, in or more tranches, of Baazar Style Retail Limited ( Baazar Style ) held by the Company
+Acquisition - Indoco Remedies Limited has informed the Exchange about the incorporation of Wholly Owned subsidiary of the Company in the name and style of "Warren Lifesciences Private Limited .
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CUPID_26092026170609_SE_Intimation_Conversion_of_Warrants.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/INDOCO_28092026211330_Intimation_Incorporation_Subsidiary_-.pdf)
 
 ---
 
-### KPI Green Energy Limited: Acquisition
+### GFL Limited: General Updates
 **MA** · India · ✓ Verified
 
-Acquisition - KPI Green Energy Limited has informed the Exchange about update on acquisition by Material Subsidiary Company viz. Sun Drops Energia Limited
+General Updates - We wish to inform you that the National Company Law Tribunal (Hon''ble court) has pronounced its order in the matter of scheme of Merger by Absorption of INOX Infrastructure Limited with and into GFL Limited
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KPIGLOBAL_26092026170110_36_Intimation_of_Acqusition_of_DEK_by_SunDrops_26092026_signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GFLLIMITED_28092026205031_Upload.pdf)
 
 ---
 
-### Dr. Lal Path Labs Ltd.: General Updates
+### ITC Limited: Acquisition
 **MA** · India · ✓ Verified
 
-General Updates - Dr. Lal Path Labs Ltd.
+Acquisition - ITC Limited has informed the Exchange about Acquisition of shares of Sproutlife Foods Private Limited
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/LALPATHLAB_26092026165355_Update_on_Acquisition_Ghana.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ITC_28092026202850_SE_SFPL_.pdf)
 
 ---
 
-### Raghav Productivity Enhancers Limited: General Updates
+### HCL Technologies Limited: Press Release
 **MA** · India · ✓ Verified
 
-General Updates - Raghav Productivity Enhancers Limited has informed the Exchange about Incorporation of Joint Venture Entity
+Press Release - HCL Technologies Limited has informed the Exchange regarding a press release dated September 28, 2026, titled "Release- HCLSoftware to Acquire Robotiq.ai, Strengthening Enterprise Agentic Automation ".
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/RPEL2009_26092026164618_REVISED_intimation_of_subsidiary_incorporation.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HCLTECH_28092026190026_StockExchangeIntimationSeptember282026.pdf)
 
 ---
 
-### Shanti Gold International Limited: Acquisition
+### HCL Technologies Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - Shanti Gold International Limited has informed the Exchange about Acquisition
+Acquisition - HCL Technologies Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SHANTIGOLD_26092026163803_Ratnaveer_Material_Event_Intimation_SGIL.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HCLTECH_28092026184228_StockExchangeIntimationSeptember282026.pdf)
 
 ---
 
-### Kapston Services Limited: General Updates
+### Lloyds Metals And Energy Limited: General Updates
 **MA** · India · ✓ Verified
 
-General Updates - Kapston Services Limited has informed the Exchange about Disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 Disposal of shares
+General Updates - Update on Acquisition of Equity Stake in Thriveni Earthmovers and Infra Private Limited
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KAPSTON_26092026153024_KapstonREG29.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/LLOYDSME_28092026180031_20260928_Intimation_for_Allottment_of_Shares_TEIL.pdf)
 
 ---
 
-### H.G. Infra Engineering Limited: Acquisition
+### Wealth First Portfolio Managers Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - H.G. Infra Engineering Limited has informed the Exchange about Acquisition
+Acquisition - Wealth First Portfolio Managers Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HGINFRA_26092026144535_FinalIntimation.pdf)
-
----
-
-### Dabur India Limited: Scheme of Arrangement
-**MA** · Delhi-NCR · ✓ Verified
-
-Scheme of Arrangement - Dabur India Limited has informed the Exchange about Upload of order passed by the Hon'ble National Company Law Tribunal, New Delhi Bench ("NCLT"), approving the Scheme of Amalgamation between Sesa Care Private…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DABURA_26092026133123_Dabur_STXIntimation_Pronouncement_Order.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/WEALTH_28092026172240_IntimationOfAcquisition.pdf)
 
 ---
 
-### Aaron Industries Limited: Updates
+### Sudarshan Chemical Industries Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Updates - Aaron Industries Limited has informed the Exchange regarding Disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011.
+Acquisition - Sudarshan Chemical Industries Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AARON_26092026124340_Intimation_Reg_29_2__SAST_AIL.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SUDARSCHEM_28092026171505_SEIntimationSPA28092026Signed.pdf)
 
 ---
 
-### Sandur Manganese & Iron Ores Limited: Acquisition
+### 63 moons technologies limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - Sandur Manganese & Iron Ores Limited has informed the Exchange about incorporation of Royal Sandur MedTech Private Limited, Wholly Owned Subsidiary of theCompany
+Acquisition - 63 moons technologies limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SANDUR_26092026120111_Ltr2SEsIncorporationOfRSMPL.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/63MOONS_28092026161813_Letter28092026.pdf)
 
 ---
 
-### Natco Pharma Limited: Copy of Newspaper Publication
+### CSL Finance Limited: Disclosure under SEBI Takeover Regulations
+**MA** · India · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations - CSL Capital Private ltd has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_28092026155342_CSLFINANCE.pdf)
+
+---
+
+### Sanofi India Limited: Disclosure under SEBI Takeover Regulations
+**MA** · India · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations - Sanofi Healthcare India Private Limited has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_28092026155021_SANOFI.pdf)
+
+---
+
+### SEDEMAC Mechatronics Limited: Disclosure under SEBI Takeover Regulations
+**MA** · India · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations - Xponentia Group has Submitted to the Exchange a copy of Disclosure under Regulation 29 (2) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_28092026123357_SAST5.pdf)
+
+---
+
+### Torrent Pharmaceuticals Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Torrent Pharmaceuticals Limited has informed the Exchange about Acquisition - Disclosure pursuant to Regulation 30 read with Schedule III of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 ( Listing…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TORNTPHARM_28092026120242_SE_intimation_reg_30.pdf)
+
+---
+
+### Arisinfra Solutions Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Arisinfra Solutions Limited has informed the Exchange about Acquisition of equity shares in Buildmex-Infra Private Limited, Material Subsidiary from its existing shareholder, Mr. Balavignesh Subramani.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ARISINFRA2024_28092026112551_Intimation_Reg30.pdf)
+
+---
+
+### QMS Medical Allied Services Limited: Press Release
+**MA** · India · ✓ Verified
+
+Press Release - QMS Medical Allied Services Limited has informed the Exchange regarding a press release dated September 28, 2026, titled "QMS Medical Allied Services to acquire Beamoptics Scientific a Pune-based diagnostics and…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/QMS_28092026112146_SdBeamOpticsPressRelease.pdf)
+
+---
+
+### Natco Pharma Limited: Committee Meeting Updates
 **IPO** · India · ✓ Verified
 
-Copy of Newspaper Publication - Natco Pharma Limited has informed the Exchange about Copy of Newspaper Publication of Record date for Rights Issue
+Committee Meeting Updates - Natco Pharma Limited has informed the Exchange regarding Outcome of Fund Raising Committee Meeting approving the Letter of Offer for Rights Issue
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NATCOPHARM_26092026161344_RecordDatePublication.pdf)
-
----
-
-### Sammaan Capital Limited: Updates
-**IPO** · India · ✓ Verified
-
-Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_26092026160235_SCL_Exchange_intimation_57_26092026_NN5_.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NATCOPHARM_28092026205152_Outcome_FundRaising_Committee_Meeting_28092026.pdf)
 
 ---
 
-### Sammaan Capital Limited: Updates
+### BLACKBUCK LIMITED: General Updates
 **IPO** · India · ✓ Verified
 
-Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
+General Updates - BLACKBUCK LIMITED has informed the Exchange about Investment in wholly owned subsidiary through Rights Issue
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_26092026155002_SCL_Retail_Intimation_57_26092026_MK3.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ZINKA2015_28092026155703_Intimation_Right_Issue_in_Subsidiary.pdf)
 
 ---
 
-### Sammaan Capital Limited: Updates
-**IPO** · India · ✓ Verified
+### Go Digit General Insurance Limited: General Updates
+**IBC** · Mumbai · ✓ Verified
 
-Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
+General Updates - Go Digit General Insurance Limited has informed the Exchange about Notice convening meeting of equity shareholders of the Company in accordance with the order of Hon'ble NCLT, Mumbai Bench
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_26092026154030_SCL_Retail_Intimation_57_26092026_LU4.pdf)
-
----
-
-### Sammaan Capital Limited: Updates
-**IPO** · India · ✓ Verified
-
-Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_26092026153216_SCL_Exchange_Retail_intimation_57_26092026_VQ1.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GODIGITGI_28092026233103_GDGIL_Reg_30_SE_Intimation_for_Notice_of_NCLT_convened_meeting.pdf)
 
 ---
 
-### Sammaan Capital Limited: Updates
-**IPO** · India · ✓ Verified
+### Go Digit General Insurance Limited: Shareholders meeting
+**IBC** · Mumbai · ✓ Verified
 
-Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
+Shareholders meeting - Go Digit General Insurance Limited has informed the Exchange regarding Notice convening meeting of equity shareholders of the Company in accordance with the order of Hon'ble NCLT, Mumbai Bench
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_26092026152051_SCL_Exchange_Retail_intimation_57_26092026_RJ4.pdf)
-
----
-
-### Sammaan Capital Limited: Updates
-**IPO** · India · ✓ Verified
-
-Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_26092026150905_SCL_Exchange_Retail_intimation_57_26092026_OP8.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GODIGITGI_28092026232919_GDGIL_Reg_30_SE_Intimation_for_Notice_of_NCLT_convened_meeting.pdf)
 
 ---
 
-### Sammaan Capital Limited: Updates
-**IPO** · India · ✓ Verified
+### Ambuja Cements Limited: Shareholders meeting
+**IBC** · India · ✓ Verified
 
-Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
+Shareholders meeting - Ambuja Cements Limited has informed the Exchange regarding outcome and proceedings of NCLT Convened General Meeting held on September 28, 2026. Further, the company has submitted the Exchange a copy of Scrutinizers…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_26092026142838_SCL_Exchange_Retail_intimation_26092026_GJ.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AMBUJACEM_28092026210644_ACL__NCLT_OUTCOME_28092026.pdf)
+
+---
+
+### Orient Cement Limited: Shareholders meeting
+**IBC** · India · ✓ Verified
+
+Shareholders meeting - Orient Cement Limited has informed the Exchange regarding outcome and proceedings of NCLT Convened General Meeting held on September 28, 2026. Further, the company has submitted the Exchange a copy of Scrutinizers…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ORIENTCEM_28092026202922_OCL_Outcome_28092026.pdf)
+
+---
+
+### Zicom Electronic Security Systems Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process - Zicom Electronic Security Systems Limited has informed the Exchange about Corporate Insolvency Resolution Process
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ZICOM_28092026155248_Intimation_19082026.pdf)
+
+---
+
+### Zicom Electronic Security Systems Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process - Zicom Electronic Security Systems Limited has informed the Exchange about Corporate Insolvency Resolution Process
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ZICOM_28092026153353_Outcome_signed.pdf)
+
+---
+
+### Zicom Electronic Security Systems Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process - Zicom Electronic Security Systems Limited has informed the Exchange about Corporate Insolvency Resolution Process
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ZICOM_28092026152930_Intimation_02.pdf)
+
+---
+
+### Zicom Electronic Security Systems Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process - Zicom Electronic Security Systems Limited has informed the Exchange about Corporate Insolvency Resolution Process
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ZICOM_28092026151419_Intimation_01.pdf)
+
+---
+
+### Clove Legal advises Nine Dimensions on ₹120 crore Bandra land transaction with Lemon Tree Hotels subsidiary
+**MA** · ₹120 cr · Mumbai · Reported
+
+Nine Dimensions Housing LLP has sold off a land parcel situated along the Western Express Highway near BKC in Bandra, Mumbai, to Fleur Hotels Limited, a subsidiary of Lemon Tree Hotels Limited, for a consideration of ₹120 crore. The…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/clove-legal-advises-nine-dimensions-on-120-crore-bandra-land-transaction-with-lemon-tree-hotels-subsidiary)
+
+---
+
+### Legacy Law Offices acts on Nexa Defence IPO
+**IPO** · ₹30.2 cr · Mumbai · Reported
+
+Nexa Defence (I) Limited has filed its Draft Red Herring Prospectus (DRHP) on the Bombay Stock Exchange SME (BSE SME) platform on September 22, 2026 for a book-built offer for a fresh issue of 33,64,000 shares, with an offer size of ₹30.2…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-nexa-defence-ipo)
 
 ---
 
