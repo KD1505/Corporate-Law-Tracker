@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-28T22:42:20.343Z",
+  "generatedAt": "2026-09-29T21:36:23.707Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-09-29-0-nse-jswcement-29-sep-2026210328",
+      "sourceId": "nse-jswcement-29-sep-2026210328",
+      "date": "29 Sept 2026",
+      "category": "Companies Act",
+      "headline": "JSW Cement Limited: Press Release",
+      "why": "Press Release - In continuation of our disclosure dated September 29, 2026, we submit herewith a Press Release on the Outcome of the Board Meeting of JSW Cement held on September 29, 2026 Approving Scheme of Arrangement.",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/JSWCL_29092026210016_Press_Release_Upload.pdf",
+      "sourceName": "NSE filing - JSW Cement Limited"
+    },
+    {
+      "id": "academy-2026-09-29-1-nse-timetechno-29-sep-2026204835",
+      "sourceId": "nse-timetechno-29-sep-2026204835",
+      "date": "29 Sept 2026",
+      "category": "Companies Act",
+      "headline": "Time Technoplast Limited: Scheme of Arrangement",
+      "why": "Scheme of Arrangement - Time Technoplast Limited has informed the Exchange about approval of the scheme of amalgamation (merger by absorption) of TPL Plastech Limited with Time Technoplast Limited and their respective shareholders and…",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/TIMETECHNO_29092026204808_Outcome29092026_signed.pdf",
+      "sourceName": "NSE filing - Time Technoplast Limited"
+    },
+    {
+      "id": "academy-2026-09-29-2-nse-ambujacem-29-sep-2026204118",
+      "sourceId": "nse-ambujacem-29-sep-2026204118",
+      "date": "29 Sept 2026",
+      "category": "Companies Act",
+      "headline": "Ambuja Cements Limited: Shareholders meeting",
+      "why": "Shareholders meeting - Ambuja Cements Limited has informed the Exchange regarding outcome and proceedings of NCLT Convened General Meeting held on September 29, 2026 in relation to the Scheme of Amalgamation of ACC Limited with the…",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/AMBUJACEM_29092026204018_Outcome_NCLT_Meeting_ACL1.pdf",
+      "sourceName": "NSE filing - Ambuja Cements Limited"
+    },
     {
       "id": "academy-2026-09-28-0-nse-gfllimited-28-sep-2026205043",
       "sourceId": "nse-gfllimited-28-sep-2026205043",
