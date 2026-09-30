@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-29T21:36:23.707Z",
+  "generatedAt": "2026-09-30T21:37:54.123Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-09-30-0-nse-ppap-30-sep-2026202051",
+      "sourceId": "nse-ppap-30-sep-2026202051",
+      "date": "30 Sept 2026",
+      "category": "Companies Act",
+      "headline": "PPAP Automotive Limited: Shareholders meeting",
+      "why": "Shareholders meeting - Proceedings of Meetings of equity shareholders, secured and unsecured creditors of the Company pursuant to NCLT Order in the matter of Scheme of Amalgamation of Avinya Batteries Limited (Transferor Company) with PPAP…",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/PPAP_30092026201841_Proceedings.pdf",
+      "sourceName": "NSE filing - PPAP Automotive Limited"
+    },
+    {
+      "id": "academy-2026-09-30-1-nse-controlpr-30-sep-2026190729",
+      "sourceId": "nse-controlpr-30-sep-2026190729",
+      "date": "30 Sept 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Control Print Limited: Disclosure under SEBI Takeover Regulations",
+      "why": "Disclosure under SEBI Takeover Regulations - Control Print Limited has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption provided…",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/team_bbodade_30092026190539_CONTROLPR.pdf",
+      "sourceName": "NSE filing - Control Print Limited"
+    },
+    {
+      "id": "academy-2026-09-30-2-nse-gspltrans-30-sep-2026190235",
+      "sourceId": "nse-gspltrans-30-sep-2026190235",
+      "date": "30 Sept 2026",
+      "category": "Companies Act",
+      "headline": "GSPL Transmission Limited: Updates",
+      "why": "Updates - GSPL Transmission Limited has informed the Exchange regarding 'Press Release-\"GSPC Group Scheme of Arrangement fully implemented with Listing and Trading of GSPL Transmission Limited\"'.",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/GSPLTRANS_30092026190226_NSEBSEPressRelease.pdf",
+      "sourceName": "NSE filing - GSPL Transmission Limited"
+    },
     {
       "id": "academy-2026-09-29-0-nse-jswcement-29-sep-2026210328",
       "sourceId": "nse-jswcement-29-sep-2026210328",
