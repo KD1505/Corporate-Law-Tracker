@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-30T21:37:54.123Z",
+  "generatedAt": "2026-10-01T22:04:29.075Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-01-0-nse-kmsugar-01-oct-2026234733",
+      "sourceId": "nse-kmsugar-01-oct-2026234733",
+      "date": "1 Oct 2026",
+      "category": "Companies Act",
+      "headline": "K.M.Sugar Mills Limited: Scheme of Arrangement",
+      "why": "Scheme of Arrangement - K.M.Sugar Mills Limited has informed the Exchange about update on Scheme of Arrangement with respect to effective date",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/KMSUGAR_01102026233221_DEMERGERUPDATE.pdf",
+      "sourceName": "NSE filing - K.M.Sugar Mills Limited"
+    },
+    {
+      "id": "academy-2026-10-01-1-nse-gvpil-01-oct-2026212715",
+      "sourceId": "nse-gvpil-01-oct-2026212715",
+      "date": "1 Oct 2026",
+      "category": "FEMA / FDI",
+      "headline": "GE Power India Limited: General Updates",
+      "why": "General Updates - GE Power India Limited has informed the Exchange about the receipt of an Order passed by the Hon'ble National Company Law Tribunal, Mumbai Bench sanctioning the Scheme of Arrangement",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/GEPILDEEP_01102026212631_GEPIL_Intimation_NCLT_Order_Sanction.pdf",
+      "sourceName": "NSE filing - GE Power India Limited"
+    },
+    {
+      "id": "academy-2026-10-01-2-nse-jswenergy-01-oct-2026210908",
+      "sourceId": "nse-jswenergy-01-oct-2026210908",
+      "date": "1 Oct 2026",
+      "category": "FEMA / FDI",
+      "headline": "JSW Energy Limited: General Updates",
+      "why": "General Updates - Intimation of receipt of copy of order sanctioning the Scheme of Arrangementbetween GE Power India Limited ( GEPIL or Demerged Company ) and JSW Energy Limited ( Company or Resulting Company ) and their respective…",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/KRUTIKAJSWEL_01102026210850_SEintimationreceiptoforder_sd.pdf",
+      "sourceName": "NSE filing - JSW Energy Limited"
+    },
     {
       "id": "academy-2026-09-30-0-nse-ppap-30-sep-2026202051",
       "sourceId": "nse-ppap-30-sep-2026202051",
