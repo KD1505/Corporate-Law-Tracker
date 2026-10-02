@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-10-01T22:04:29.075Z",
+  "generatedAt": "2026-10-02T21:31:25.802Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-02-0-nse-premexpln-02-oct-2026114913",
+      "sourceId": "nse-premexpln-02-oct-2026114913",
+      "date": "2 Oct 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Premier Explosives Limited: General Updates",
+      "why": "General Updates - Premier Explosives Limited has informed the Exchange about Newspaper Publication of the Recommendations of the Committee of Independent Directors under Regulation 26(7) of SEBI (SAST) Regulations, 2011, on open offer to…",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/PREMEXPLN_02102026114804_BSENSEIDCRecomNewspaperPublication02102026.pdf",
+      "sourceName": "NSE filing - Premier Explosives Limited"
+    },
+    {
+      "id": "academy-2026-10-02-1-nse-tvvision-02-oct-2026144635",
+      "sourceId": "nse-tvvision-02-oct-2026144635",
+      "date": "2 Oct 2026",
+      "category": "IBC / Distressed M&A",
+      "headline": "TV Vision Limited: Corporate Insolvency Resolution Process",
+      "why": "Corporate Insolvency Resolution Process - TV Vision Limited has informed the Exchange about Corporate Insolvency Resolution Process",
+      "interviewPrompt": "Explain what changes for bidder eligibility, process certainty, liabilities and implementation of the resolution plan.",
+      "source": "https://nsearchives.nseindia.com/corporate/TVVISION_02102026144607_Outcome_2nd_COC_meeting_Signed.pdf",
+      "sourceName": "NSE filing - TV Vision Limited"
+    },
     {
       "id": "academy-2026-10-01-0-nse-kmsugar-01-oct-2026234733",
       "sourceId": "nse-kmsugar-01-oct-2026234733",
