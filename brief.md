@@ -1,41 +1,32 @@
 # Corporate Law Tracker - Daily Brief
-_2 October 2026_
+_3 October 2026_
 
-4 new development(s).
+3 new development(s).
 
-### Aurobindo Pharma Limited: General Updates
+### Wipro Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-General Updates - Aurobindo Pharma Limited has informed the Exchange about completion of acquisition.
+Amalgamation/Merger - Wipro Limited has informed the Exchange that pursuant to Regulation 30 read with Para A of Part A of Schedule III of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, it is informed that…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AUROPHARMA_02102026183205_LtrToSEsA1BiochemCompletionofAcquisition02102026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/Wipro_Secretarial_03102026155257_Reg30SEIntimation03102026.pdf)
 
 ---
 
-### Aurobindo Pharma Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - Aurobindo Pharma Limited has informed the Exchange about Acquisition
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AUROPHARMA_02102026180500_LtrToSEsA1BiochemLLCacquisition02102026.pdf)
-
----
-
-### Premier Explosives Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - Premier Explosives Limited has informed the Exchange about Newspaper Publication of the Recommendations of the Committee of Independent Directors under Regulation 26(7) of SEBI (SAST) Regulations, 2011, on open offer to…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PREMEXPLN_02102026114804_BSENSEIDCRecomNewspaperPublication02102026.pdf)
-
----
-
-### TV Vision Limited: Corporate Insolvency Resolution Process
+### Shrenik Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - TV Vision Limited has informed the Exchange about Corporate Insolvency Resolution Process
+Corporate Insolvency Resolution Process - Shrenik Limited has informed the Exchange about Corporate Insolvency Resolution Process Outcome of the 2nd (Second) Meeting of the Committee of Creditors (CoC) of Shrenik Limited (In CIRP)
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TVVISION_02102026144607_Outcome_2nd_COC_meeting_Signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SHRENIK_03102026184106_Outcome_2nd_CoC_Meeting.pdf)
+
+---
+
+### DPSC Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process - DPSC Limited has informed the Exchange about Corporate Insolvency Resolution Process-Appointment of a Whole-time Director in a Material Subsidiary Company
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/DPSCLTD_03102026133257_IntimationofAppointmentofWTDinIPLaMSUnderReg30ofLODR03102026.pdf)
 
 ---
 

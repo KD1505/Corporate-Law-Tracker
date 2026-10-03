@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-10-02T21:31:25.802Z",
+  "generatedAt": "2026-10-03T20:13:51.657Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-03-0-nse-wipro-03-oct-2026155323",
+      "sourceId": "nse-wipro-03-oct-2026155323",
+      "date": "3 Oct 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Wipro Limited: Amalgamation/Merger",
+      "why": "Amalgamation/Merger - Wipro Limited has informed the Exchange that pursuant to Regulation 30 read with Para A of Part A of Schedule III of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, it is informed that…",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/Wipro_Secretarial_03102026155257_Reg30SEIntimation03102026.pdf",
+      "sourceName": "NSE filing - Wipro Limited"
+    },
+    {
+      "id": "academy-2026-10-03-1-nse-shrenik-03-oct-2026184131",
+      "sourceId": "nse-shrenik-03-oct-2026184131",
+      "date": "3 Oct 2026",
+      "category": "IBC / Distressed M&A",
+      "headline": "Shrenik Limited: Corporate Insolvency Resolution Process",
+      "why": "Corporate Insolvency Resolution Process - Shrenik Limited has informed the Exchange about Corporate Insolvency Resolution Process Outcome of the 2nd (Second) Meeting of the Committee of Creditors (CoC) of Shrenik Limited (In CIRP)",
+      "interviewPrompt": "Explain what changes for bidder eligibility, process certainty, liabilities and implementation of the resolution plan.",
+      "source": "https://nsearchives.nseindia.com/corporate/SHRENIK_03102026184106_Outcome_2nd_CoC_Meeting.pdf",
+      "sourceName": "NSE filing - Shrenik Limited"
+    },
     {
       "id": "academy-2026-10-02-0-nse-premexpln-02-oct-2026114913",
       "sourceId": "nse-premexpln-02-oct-2026114913",
