@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-10-03T20:13:51.657Z",
+  "generatedAt": "2026-10-04T20:29:12.720Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-04-0-nse-dpscltd-04-oct-2026131636",
+      "sourceId": "nse-dpscltd-04-oct-2026131636",
+      "date": "4 Oct 2026",
+      "category": "FEMA / FDI",
+      "headline": "DPSC Limited: Corporate Insolvency Resolution Process",
+      "why": "Corporate Insolvency Resolution Process - DPSC Limited has informed the Exchange about Corporate Insolvency Resolution Process-Outcome of the Voting Results of the 8th (Eighth) Meeting of the Committee of Creditors (CoC) of India Power…",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/DPSCLTD_04102026131531_IntimationofOutcomeof8thCoCVotingResults04102026.pdf",
+      "sourceName": "NSE filing - DPSC Limited"
+    },
     {
       "id": "academy-2026-10-03-0-nse-wipro-03-oct-2026155323",
       "sourceId": "nse-wipro-03-oct-2026155323",
