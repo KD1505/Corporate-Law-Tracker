@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-04T20:29:12.720Z",
+  "generatedAt": "2026-10-05T23:24:53.696Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-05-0-nse-agarwaleye-05-oct-2026224957",
+      "sourceId": "nse-agarwaleye-05-oct-2026224957",
+      "date": "5 Oct 2026",
+      "category": "Companies Act",
+      "headline": "Dr. Agarwal's Health Care Limited: Amalgamation/Merger",
+      "why": "Amalgamation/Merger - Dr. Agarwal's Health Care Limited has informed the Exchange about the receipt of Sanction from the Hon'ble NCLT, Chennai Bench towards the Scheme of Amalgamation between Dr.",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/DRAGARWALS_05102026224943_C45_AHCL_NCLT_Sanction_Order_sd.pdf",
+      "sourceName": "NSE filing - Dr. Agarwal's Health Care Limited"
+    },
+    {
+      "id": "academy-2026-10-05-1-nse-kotarisug-05-oct-2026210458",
+      "sourceId": "nse-kotarisug-05-oct-2026210458",
+      "date": "5 Oct 2026",
+      "category": "Companies Act",
+      "headline": "Kothari Sugars And Chemicals Limited: Amalgamation/Merger",
+      "why": "Amalgamation/Merger - Kothari Sugars And Chemicals Limited has informed the Exchange about the receipt of Order passed by the Honble National Company Law Tribunal, Chennai Bench, in connection with the proposed Scheme of Amalgamation…",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/KOTARISUG_05102026210359_IntimationofreceiptofNCLTOrder.pdf",
+      "sourceName": "NSE filing - Kothari Sugars And Chemicals Limited"
+    },
+    {
+      "id": "academy-2026-10-05-2-nse-marico-05-oct-2026202319",
+      "sourceId": "nse-marico-05-oct-2026202319",
+      "date": "5 Oct 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Marico Limited: Acquisition",
+      "why": "Acquisition - Please find attached an intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/marico_05102026201924_Seint_1.pdf",
+      "sourceName": "NSE filing - Marico Limited"
+    },
     {
       "id": "academy-2026-10-04-0-nse-dpscltd-04-oct-2026131636",
       "sourceId": "nse-dpscltd-04-oct-2026131636",
