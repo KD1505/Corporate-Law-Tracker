@@ -1,320 +1,320 @@
 # Corporate Law Tracker - Daily Brief
-_5 October 2026_
+_6 October 2026_
 
 35 new development(s).
 
-### 🔴 Healthcare Global Enterprises Limited: General Updates
-**MA** · ₹31,288 · Cross-border · ✓ Verified
+### Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO
+**IPO** · ₹3,054 cr · India · Reported
 
-General Updates - Healthcare Global Enterprises Limited has informed that Healthcare Global (Kenya) Private Limited ( HCG Kenya ), a step-down subsidiary of Healthcare Global Enterprises Limited ( Company ), has today, i.e., October 05,…
+JSW One Platforms Limited has filed a draft red herring prospectus for an initial public offering of equity shares aggregating up to ₹3,054.01 crore ($318.62 million), comprising a fresh issue and an offer for sale by certain existing…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HCG1_05102026191738_Letter_to_NSE_SHP_5_Oct_2026.pdf)
-
----
-
-### Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on Anmol ₹1,800 crore proposed IPO
-**IPO** · ₹1,800 cr · India · Reported
-
-Anmol Industries Limited had proposed an initial public offering comprising an offer for sale of equity shares aggregating up to ₹1,800 crore. Trilegal is advising Anmol Industries on this IPO.
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-anmol-1800-crore-proposed-ipo)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo)
 
 ---
 
-### Shardul and Cyril Amarchand Mangaldas act on Elevate Campuses ₹2,100 crore IPO
-**IPO** · ₹2,100 cr · India · Reported
+### Elarra Law Offices advises Godrej Properties on acquiring development rights of luxury project in South Mumbai
+**MA** · ₹6,000 cr · Mumbai · Reported
 
-Elevate Campuses Limited (formerly known as Good Host Spaces Limited) has made an initial public offering of its equity shares aggregating to approximately ₹2,100 crore. Shardul Amarchand Mangaldas & Co advised Hillhouse, Alta Capital and…
+Godrej Properties Limited has acquired the development rights over a 2.5 acres land parcel at Marine Lines from Man Infraconstruction Limited and Shreepati Group. Elarra Law Offices advised Godrej Properties on the acquisition of…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-act-on-elevate-campuses-2100-crore-ipo)
-
----
-
-### Cyril Amarchand Mangaldas advises Morgan Stanley on sale of Lenskart shares by ADIA
-**MA** · ₹2,390.5 cr · India · Reported
-
-Platinum Jasmine A 2018 Trust acting through its trustee, Platinum Owl C 2018 RSC Limited, an affiliate of the Abu Dhabi Investment Authority, has made a sale of 35,000,000 equity shares of Lenskart Solutions for an aggregate consideration…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-morgan-stanley-on-sale-of-lenskart-shares-by-adia)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/elarra-law-offices-advises-godrej-properties-on-acquiring-development-rights-of-luxury-project-in-south-mumbai)
 
 ---
 
-### Trilegal, Khaitan & Co act on Varmora Granito ₹708 crore IPO
-**IPO** · ₹708 cr · India · Reported
+### Trilegal advises Remunance Services on its acquisition by Hightekers Group
+**MA** · Cross-border · Reported
 
-Varmora Granito has made an initial public offering of equity shares comprising a fresh issue and an offer for sale, aggregating to ₹708.021 crore. Trilegal advised Varmora Granito on this IPO.
+The Hightekers Group has acquired 100% shareholding in Remunance Services Private Limited. Trilegal advised Remunance Services and its existing shareholders on all aspects of the transaction, including key structuring aspects and…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/trilegal-khaitan-co-act-on-varmora-granito-708-crore-ipo)
-
----
-
-### Cyril Amarchand Mangaldas advises Cerberus Capital on Indian legal aspects of £1.1 billion acquisition of Goodwin
-**MA** · India · Reported
-
-Cyril Amarchand Mangaldas advised Cerberus Capital Management, L.P on the Indian legal aspects on its acquisition of a substantial part of the mechanical engineering division of Goodwin PLC for up to approximately £1.1 billion. The Firm's…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advises-cerberus-capital-on-indian-legal-aspects-of-11-billion-acquisition-of-goodwin)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-remunance-services-on-its-acquisition-by-hightekers-group)
 
 ---
 
-### ELP advises Transworld on forming JV with Bainbridge to operate UAE shipping pool
-**PE** · Cross-border · Reported
+### Resolüt Partners advises IRB Infrastructure Trust on ₹2,744 crore sale of road assets
+**MA** · ₹2,744 cr · India · Reported
 
-Transworld Shipping Lines Limited is set to form a joint venture with Bainbridge Navigation DMCC to establish a company in the United Arab Emirates to operate a shipping pool focused on handysize vessels in the dry bulk market, wherein…
+IRB Infrastructure Trust has made a sale of 2 road projects, CG Tollway Limited and Solapur Yedeshi Tollway Limited, to IRB InvIT Fund at an equity value of ~₹2,744 crore. Resolüt Partners advised IRB Infrastructure Trust on this…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/elp-advises-transworld-on-forming-jv-with-bainbridge-to-operate-uae-shipping-pool)
-
----
-
-### Dr. Agarwal's Health Care Limited: Amalgamation/Merger
-**MA** · India · ✓ Verified
-
-Amalgamation/Merger - Dr. Agarwal's Health Care Limited has informed the Exchange about the receipt of Sanction from the Hon'ble NCLT, Chennai Bench towards the Scheme of Amalgamation between Dr.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DRAGARWALS_05102026224943_C45_AHCL_NCLT_Sanction_Order_sd.pdf)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/resolt-partners-advises-irb-infrastructure-trust-on-2744-crore-sale-of-road-assets)
 
 ---
 
-### HLE Glascoat Limited: Acquisition
-**MA** · India · ✓ Verified
+### DSK Legal advises Viyash Scientific on ₹188 crore acquisition of BioForLife Italia
+**MA** · ₹188 cr · Cross-border · Reported
 
-Acquisition - HLE Glascoat Limited has informed the Exchange about update on the Acquisition - as per attached letter.
+Viyash Scientific Limited has made acquisition of 100% shareholding of BioForLife Italia S.r.l, a pet-care company based in Milan, Italy, for ~₹188 crore. DSK Legal advised Viyash Scientific and Alivira Animal Health Limited, Ireland, a…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HLEGLASCOAT_05102026210421_Reg_30_1_sd.pdf)
-
----
-
-### Kothari Sugars And Chemicals Limited: Amalgamation/Merger
-**MA** · India · ✓ Verified
-
-Amalgamation/Merger - Kothari Sugars And Chemicals Limited has informed the Exchange about the receipt of Order passed by the Honble National Company Law Tribunal, Chennai Bench, in connection with the proposed Scheme of Amalgamation…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KOTARISUG_05102026210359_IntimationofreceiptofNCLTOrder.pdf)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advise-viyash-scientific-on-188-crore-acquisition-of-bioforlife-italia)
 
 ---
 
-### Marico Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - Please find attached an intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/marico_05102026201924_Seint_1.pdf)
-
----
-
-### Kothari Petrochemicals Limited: Scheme of Arrangement
-**MA** · India · ✓ Verified
-
-Scheme of Arrangement - Kothari Petrochemicals Limited has informed the Exchange about the receipt of Order passed by the Hon ble National Company Law Tribunal, Chennai Bench, in connection with the proposed Scheme of Amalgamation…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KOTHARIPET_05102026192310_IntimationofreceiptofNCLTOrder.pdf)
-
----
-
-### DS Kulkarni Developers Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - DS Kulkarni Developers Limited has informed the Exchange about Acquisition of 100% Equity Stake in Westpole Spaces Private Limited
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DSKULKARNI_05102026192109_DSK_Acquisition_NSE.pdf)
-
----
-
-### Sunteck Realty Limited: General Updates
-**MA** · Mumbai · ✓ Verified
-
-General Updates - Sunteck Realty Limited has informed the Exchange that the wholly owned subsidiary of the Company has acquired land admeasuring approx. 4.5 acres, adjacent to New Link Road, Borivali West, Mumbai.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SUNTECK_05102026191536_SRL_FINAL.pdf)
-
----
-
-### KPI Green Energy Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - KPI Green Energy Limited has informed the exchange regarding Incorporation of Wholly Owned Subsidiary (WOS). The disclosure is attached herewith.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KPIGLOBAL_05102026184414_41_KPI_Intimation_of_Incorporation_of_New_WOS_05102026_Signed.pdf)
-
----
-
-### Sical Logistics Limited: Disclosure under SEBI Takeover Regulations
-**MA** · India · ✓ Verified
-
-Disclosure under SEBI Takeover Regulations - Pristine Logistics & Infraprojects Ltd has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_05102026182635_SICALLOG.pdf)
-
----
-
-### Sangam (India) Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - Sangam (India) Limited has informed the Exchange about Acquisition under Regulation 30 of SEBI (LODR) Regulations, 2015
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SANGAMIND_05102026174305_Intimation_of_Acquisition_sign.pdf)
-
----
-
-### Jaykay Enterprises Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - Jaykay Enterprises Limited has informed the Exchange about acquisition of additional share capital in JK Defence & Aerospace Limited, Wholly owned Subsidiary of the Company
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/JAYKAY_05102026165115_SEs_Intimation_JK_Defence_25_Cr_Investment_s.pdf)
-
----
-
-### Jaykay Enterprises Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - Jaykay Enterprises Limited has informed the Exchange about acquisition of additional share capital in JK Digital & Advance Systems Private Limited, Wholly owned Subsidiary of the Company
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/JAYKAY_05102026164738_SEs_Intimation_JK_Digital_2_Cr_Investment_s.pdf)
-
----
-
-### Indo-National Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - Indo-National Limited has informed the Exchange about Acquisition
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NIPPOBATRY_05102026164335_INL_Stock_Exchange_Disclosuresd.pdf)
-
----
-
-### Sai Parenterals Limited: Press Release
-**MA** · India · ✓ Verified
-
-Press Release - Sai Parenterals Limited has informed the Exchange regarding a press release dated October 05, 2026, titled "Sai Parenterals Completes the Acquisition of R&D Facility Prathyak Laboratories".
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SAIPARENTERALS_05102026155327_PrassRelease.pdf)
-
----
-
-### Maithan Alloys Limited: Others
-**MA** · India · ✓ Verified
-
-Others - Maithan Alloys Limited has informed the Exchange about Acquisition of Equity Shares through Stock Exchange.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MAITHANALL_05102026153119_HFCL01102026.pdf)
-
----
-
-### Embassy Developments Limited: Updates
-**MA** · India · ✓ Verified
-
-Updates - Acquisition of Equity Shares by the Promoter of the Company - Disclosure pursuant to Regulation7(2)(b) of SEBI (Prohibition of Insider Trading) Regulations, 2015.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/EMBDL_05102026130434_EDL_PIT.pdf)
-
----
-
-### Just Dial Limited: Disclosure under SEBI Takeover Regulations
-**MA** · India · ✓ Verified
-
-Disclosure under SEBI Takeover Regulations - V.S.S. Mani has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption provided for in…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_05102026105103_Regulation.pdf)
-
----
-
-### Asian Hotels (West) Limited: Disclosure under SEBI Takeover Regulations
-**MA** · India · ✓ Verified
-
-Disclosure under SEBI Takeover Regulations - Sandeep Gupta has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption provided for in…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_05102026104940_Declaration.pdf)
-
----
-
-### Sammaan Capital Limited: Updates
-**IPO** · India · ✓ Verified
-
-Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_05102026182039_SCL_Retail_Intimation_Reg_57_1__LD0.pdf)
-
----
-
-### Adani Enterprises Limited: Copy of Newspaper Publication
-**IPO** · India · ✓ Verified
-
-Copy of Newspaper Publication - Adani Enterprises Limited has informed the Exchange about Copy of Newspaper Publication for Issue of advertisement in newspapers regarding the Reminder notice for payment of outstanding first call money (if…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_05102026112921_IntimationNewspaperAdreminder.pdf)
-
----
-
-### Opto Circuits (India) Limited: Corporate Insolvency Resolution Process
-**IBC** · Bengaluru · ✓ Verified
-
-Corporate Insolvency Resolution Process - Opto Circuits (India) Limited has informed the Exchange about replacement of the Resolution Professional and appointment of M/s. Waterfall Insolvency Professional Private Limited, represented by Ms.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/OPTOCIRCUI_05102026195337_OCIL_-_Intimation_Along_with_NCLT_Order.pdf)
-
----
-
-### Opto Circuits (India) Limited: Corporate Insolvency Resolution Process
-**IBC** · Bengaluru · ✓ Verified
-
-Corporate Insolvency Resolution Process - Opto Circuits (India) Limited has informed the Exchange about replacement of the Resolution Professional and appointment of M/s. Waterfall Insolvency Professional Private Limited, represented by Ms.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/OPTOCIRCUI_05102026192614_Intimation.pdf)
-
----
-
-### Reliance Communications Limited: Corporate Insolvency Resolution Process
-**IBC** · India · ✓ Verified
-
-Corporate Insolvency Resolution Process - Reliance Communications Limited has informed the Exchange about Corporate Insolvency Resolution Process
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/RCOM_05102026113843_77COC05102026.pdf)
-
----
-
-### AXISCADES Technologies Limited: Press Release
-**IBC** · India · ✓ Verified
-
-Press Release - AXISCADES Technologies Limited has informed the Exchange regarding a press release dated October 05, 2026, titled "AXISCADES Initiates Voluntary Solvent Liquidation of German Subsidiary add-solution GmbH".
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AXISCADES_05102026095117_PR_05102026.pdf)
-
----
-
-### Rajani Associates acts on Jindal Supreme ₹124 crore IPO
-**IPO** · ₹124 cr · India · Reported
-
-Jindal Supreme (India) Limited has raised ₹124.88 crore from an initial public offering of equity shares. Rajani Associates advised Jindal Supreme as well as the book running lead manager Sarthi Capital Advisors Private Limited on this IPO.
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/rajani-associates-acts-on-jindal-supreme-124-crore-ipo)
-
----
-
-### DSK Legal advises KRS Corporation on majority stake acquisition in Coldrush Logistics
+### Shardul Amarchand Mangaldas advises ChrysCapital on minority stake acquisition in Linux Laboratories 
 **PE** · India · Reported
 
-K.R.S. Corporation, Japan has made a majority stake acquisition in Coldrush Logistics Private Limited by way of primary subscription to shares of Coldrush, and secondary purchase of shares from Hydra Commercial Investments LLC, an…
+ChrysCapital Group has acquied a minority stake in Linux Laboratories Private Limited, a Chennai-based pharmaceutical company. The transaction comprises a secondary acquisition of shares from the Promoters and Tata Capital Healthcare Fund…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advises-krs-corporation-on-majority-stake-acquisition-in-coldrush-logistics)
-
----
-
-### MV Kini, Legacy Law Offices acts on Smart Roof Solar IPO
-**IPO** · ₹43 cr · India · Reported
-
-Smart Roof Solar Solutions Limited has filed its Draft Red Herring Prospectus on the BSE SME platform for a book-built offer for a fresh issue of 75,00,000 shares, with an offer size of ₹43 crore+. MV Kini advised Smart Roof Solar…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/mv-kini-legacy-law-offices-acts-on-smart-roof-solar-ipo)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-chryscapital-on-minority-stake-acquisition-in-linux-laboratories)
 
 ---
 
-### Touchstone Partners advises Membrane Group on equity fundraise from Kurita Water Industries 
-**PE** · India · Reported
+### BirlaNu Limited: Scheme of Arrangement
+**MA** · India · ✓ Verified
 
-Membrane Group India Private Limited has raised funds from Kurita Water Industries Limited, a Japan based listed company. Touchstone Partners advised Membrane Group on this fundraise.
+Scheme of Arrangement - BirlaNu Limited has informed the Exchange about Sanction of Scheme of Amalgamation between Clean Coats Private Limited with BirlaNu Limited and their respective Members.
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/touchstone-partners-advises-membrane-group-on-equity-fundraise-from-kurita-water-industries)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/sumedha_06102026224510_SEIntimationSchemesanctionbyHyderabadBench06oct2026signed.pdf)
+
+---
+
+### Meesho Limited: General Updates
+**MA** · India · ✓ Verified
+
+General Updates - Meesho Limited has informed the Exchange about update on acquisition under Regulation 30 of SEBI (LODR) Regulations, 2015.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MEESHO_06102026221209_MLBMOutcome06Oct2026Final.pdf)
+
+---
+
+### Gabriel India Limited: Press Release
+**MA** · India · ✓ Verified
+
+Press Release - Gabriel India Limited has informed the Exchange regarding a press release dated October 06, 2026, titled "Execution of the Joint Venture Agreement ( JVA ) between Faurecia Automotive Seating India Private Limited and…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GABRIEL_06102026215748_SE_intimation_press_release_final_signed.pdf)
+
+---
+
+### TVS Supply Chain Solutions Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - TVS Supply Chain Solutions Limited has informed the Exchange about Update on Acquisition.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/CSCOMPLIANCE_06102026200224_TVS_SCS_Equity_infusion_to_SCS_ALA_signed.pdf)
+
+---
+
+### Endurance Technologies Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Endurance Technologies Limited has informed the Exchange about Acquisition
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ENDURANCE_06102026195508_2026_10_06_-_Letter_SEs_acquisition_of_Fondalpress_by_EOSpA.pdf)
+
+---
+
+### Krishna Institute of Medical Sciences Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Krishna Institute of Medical Sciences Limited has informed the Exchange about Acquisition
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/KIMS_06102026195415_Disclosure_to_Stock_Exchanges-06102026-Splendid.pdf)
+
+---
+
+### Krishna Institute of Medical Sciences Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Krishna Institute of Medical Sciences Limited has informed the Exchange about Acquisition
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/KIMS_06102026195302_Disclosure_to_Stock_Exchanges-06102026-Sarvottam.pdf)
+
+---
+
+### Krishna Institute of Medical Sciences Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Krishna Institute of Medical Sciences Limited has informed the Exchange about Acquisition
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/KIMS_06102026195201_Disclosure_to_Stock_Exchanges-06102026-Sangli.pdf)
+
+---
+
+### Krishna Institute of Medical Sciences Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Krishna Institute of Medical Sciences Limited has informed the Exchange about Acquisition
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/KIMS_06102026195055_Disclosure_to_Stock_Exchanges-06102026-Insigniyaa.pdf)
+
+---
+
+### Acme Solar Holdings Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Acme Solar Holdings Limited has informed the Exchange about incorporation of wholly owned subsidiaries
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ACMECS_06102026193845_Intimation06102026.pdf)
+
+---
+
+### Ivalue Infosolutions Limited: Updates
+**MA** · India · ✓ Verified
+
+Updates - iValue Infosolutions Limited has informed the Exchange regarding the voluntary disclosure of acquisition of equity shares of the Company by the Promoter.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IVALUE927_06102026193125_Disclosure.pdf)
+
+---
+
+### Repro India Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Repro India Limited has informed the Exchange about Acquisition
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/REPRO_06102026185938_Intimationforcompletionofacquisition.pdf)
+
+---
+
+### IRM Energy Limited: Copy of Newspaper Publication
+**MA** · India · ✓ Verified
+
+Copy of Newspaper Publication - IRM Energy Limited has informed the Exchange about Copy of Newspaper Publication - Notice of the hearing of the petition seeking sanction to the Scheme of Amalgamation of Enertech Distribution Management…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IRMENERGY_06102026181117_intimationtoSE.pdf)
+
+---
+
+### India Glycols Limited: Updates
+**MA** · India · ✓ Verified
+
+Updates - India Glycols Limited has informed the Exchange regarding 'Apportionment of Cost of Acquisition of Equity Shares of India GlycolsLimited ( Demerged Company / the Company ), Ennature Bio PharmaLimited ( Resulting Company 1 ) and…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/INDIAGLYCO_06102026180443_Apportionment_of_Cost_of_Acquisition.pdf)
+
+---
+
+### Laurus Labs Limited: General Updates
+**MA** · India · ✓ Verified
+
+General Updates - Laurus Labs Limited has informed the Exchange about Update on Acquisition
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/LAURUSLABS_06102026180546_UpdateOnInvInKurnool06102026.pdf)
+
+---
+
+### KCP Sugar and Industries Corporation Limited: Updates
+**MA** · India · ✓ Verified
+
+Updates - KCP Sugar and Industries Corporation Limited has informed the Exchange regarding 'Disclosure under Regulation 29(2) of Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011'.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/KCPSUGIND_06102026174212_BSENSEsd.pdf)
+
+---
+
+### Marsons Limited: Press Release
+**MA** · India · ✓ Verified
+
+Press Release - Marsons Limited has informed the Exchange regarding a press release dated October 06, 2026, titled "Marsons Limited and Cleanhill Partners to Form Joint Venture to Scale Power Transformer Manufacturing in North America.".
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MARSONS_06102026160040_Marsons_Press_Release_Filing_signed.pdf)
+
+---
+
+### AXISCADES Technologies Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - AXISCADES Technologies Limited has informed the Exchange about Incorporation of a Subsidiary Company
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AXISCADES_06102026135716_Incorporation_06102026.pdf)
+
+---
+
+### Sanghvi Movers Limited: General Updates
+**MA** · India · ✓ Verified
+
+General Updates - Report Under Regulation 10(7) Of The SEBI (Substantial Acquisition Of Shares And Takeovers) Regulations, 2011
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SANGHVIMOV_06102026122446_SE_Intimation_Reg_10_7__SAST_MRS.pdf)
+
+---
+
+### Zodiac Energy Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Zodiac Energy Limited has informed the Exchange about Acquisition-Incorporation of Wholly Owned Subsidiary
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ZODIAC_06102026114218_Reg_30_Final_.pdf)
+
+---
+
+### Privi Speciality Chemicals Limited: General Updates
+**MA** · India · ✓ Verified
+
+General Updates - Privi Speciality Chemicals Limited has informed the Exchange about Notice of Meeting of Equity Shareholders (Meeting) of the Company in the matter of Scheme of Amalgamation scheduled to be held on on Tuesday, October 27,…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/FAIRCHEMDP_06102026111909_NoticetoNSE.pdf)
+
+---
+
+### Amber Enterprises India Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Pursuant to Regulation 30 of the SEBI LODR Regulations, 2015, we would like to inform the exchange that Amber Enterprises India Limited has incorporated a new wholly owned subsidiary company in India, namely Amber Digital…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AMBER_06102026103721_SEIntimation_of_Amber_Digital_Tech_Incorporation_06102026.pdf)
+
+---
+
+### KNR Constructions Limited: Updates
+**MA** · India · ✓ Verified
+
+Updates - KNR Constructions Limited has informed the Exchange regarding 'Sale of stake in Wholly owned subsidiary'.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/KNRCON_06102026094922_Intimation.pdf)
+
+---
+
+### PTC Industries Limited: Qualified Institutional Placement
+**IPO** · India · ✓ Verified
+
+Qualified Institutional Placement - Ptc Industries Limited has informed the Exchange about qualified Institutional Placement
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/PTCINDUSTRIES_06102026223535_Issue_opening_outcome_QIP26.pdf)
+
+---
+
+### TV Vision Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process - TV Vision Limited has informed the Exchange about Corporate Insolvency Resolution Process
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TVVISION_06102026182614_Intimation_EOI_-sd.pdf)
+
+---
+
+### The Hi-Tech Gears Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process - The Hi-Tech Gears Limited has informed the Exchange about Corporate Insolvency Resolution Process
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HITECHGEAR_06102026171936_Stx_Intimation_signed.pdf)
+
+---
+
+### Osia Hyper Retail Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process - Osia Hyper Retail Limited has informed the Exchange about Publication of Form G during the Corporate Insolvency Resolution Process of Osia Hyper Retail Limited as per the provisions of the IBC 2016
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/OSIAHYPER_06102026164539_IntimationFormGOsia.pdf)
+
+---
+
+### Fox & Mandal acts on SD International proposed IPO
+**IPO** · India · Reported
+
+SD International Limited has filed a Draft Red Herring Prospectus with SEBI for an initial public offering of equity shares. Fox & Mandal advised SD International as well as the Promoter selling shareholder on this IPO.
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/fox-mandal-acts-on-sd-international-proposed-ipo)
+
+---
+
+### Legacy Law Offices acts on SG Encon IPO
+**IPO** · ₹75 cr · India · Reported
+
+SG Encon Limited has filed its Draft Red Herring Prospectus before SEBI for a book-built offer on the BSE and NSE Mainboard platform for an issue of 85,61,700 shares, comprising a fresh issue and an offer for sale by Promoter Selling…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-sg-encon-ipo)
 
 ---
 

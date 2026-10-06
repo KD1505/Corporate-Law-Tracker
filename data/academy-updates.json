@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-05T23:24:53.696Z",
+  "generatedAt": "2026-10-06T21:56:39.627Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-06-0-nse-birlanu-06-oct-2026224734",
+      "sourceId": "nse-birlanu-06-oct-2026224734",
+      "date": "6 Oct 2026",
+      "category": "Companies Act",
+      "headline": "BirlaNu Limited: Scheme of Arrangement",
+      "why": "Scheme of Arrangement - BirlaNu Limited has informed the Exchange about Sanction of Scheme of Amalgamation between Clean Coats Private Limited with BirlaNu Limited and their respective Members.",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/sumedha_06102026224510_SEIntimationSchemesanctionbyHyderabadBench06oct2026signed.pdf",
+      "sourceName": "NSE filing - BirlaNu Limited"
+    },
+    {
+      "id": "academy-2026-10-06-1-nse-meesho-06-oct-2026221220",
+      "sourceId": "nse-meesho-06-oct-2026221220",
+      "date": "6 Oct 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Meesho Limited: General Updates",
+      "why": "General Updates - Meesho Limited has informed the Exchange about update on acquisition under Regulation 30 of SEBI (LODR) Regulations, 2015.",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/MEESHO_06102026221209_MLBMOutcome06Oct2026Final.pdf",
+      "sourceName": "NSE filing - Meesho Limited"
+    },
+    {
+      "id": "academy-2026-10-06-2-nse-ivalue-06-oct-2026193325",
+      "sourceId": "nse-ivalue-06-oct-2026193325",
+      "date": "6 Oct 2026",
+      "category": "Deal Structuring",
+      "headline": "Ivalue Infosolutions Limited: Updates",
+      "why": "Updates - iValue Infosolutions Limited has informed the Exchange regarding the voluntary disclosure of acquisition of equity shares of the Company by the Promoter.",
+      "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
+      "source": "https://nsearchives.nseindia.com/corporate/IVALUE927_06102026193125_Disclosure.pdf",
+      "sourceName": "NSE filing - Ivalue Infosolutions Limited"
+    },
     {
       "id": "academy-2026-10-05-0-nse-agarwaleye-05-oct-2026224957",
       "sourceId": "nse-agarwaleye-05-oct-2026224957",
