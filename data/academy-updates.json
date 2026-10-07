@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-06T21:56:39.627Z",
+  "generatedAt": "2026-10-07T22:23:05.059Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-07-0-nse-mahseamles-07-oct-2026172634",
+      "sourceId": "nse-mahseamles-07-oct-2026172634",
+      "date": "7 Oct 2026",
+      "category": "Companies Act",
+      "headline": "Maharashtra Seamless Limited: Scheme of Arrangement",
+      "why": "Scheme of Arrangement - Maharashtra Seamless Limited has informed the Exchange about Scheme of Arrangement",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/MAHSEAMLES_07102026172556_MSLIntimationDemerger.pdf",
+      "sourceName": "NSE filing - Maharashtra Seamless Limited"
+    },
+    {
+      "id": "academy-2026-10-07-1-nse-alivus-07-oct-2026171805",
+      "sourceId": "nse-alivus-07-oct-2026171805",
+      "date": "7 Oct 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Alivus Life Sciences Limited: General Updates",
+      "why": "General Updates - Alivus Life Sciences Limited has informed the Exchange about announcement under Regulation 30 of SEBI (LODR), 2015 - Acquisition.",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/GLS_07102026170648_Torrent_Disclosure_Update_Signed.pdf",
+      "sourceName": "NSE filing - Alivus Life Sciences Limited"
+    },
+    {
+      "id": "academy-2026-10-07-2-nse-sedemac-07-oct-2026134442",
+      "sourceId": "nse-sedemac-07-oct-2026134442",
+      "date": "7 Oct 2026",
+      "category": "Companies Act",
+      "headline": "SEDEMAC Mechatronics Limited: General Updates",
+      "why": "General Updates - SEDEMAC Mechatronics Limited has informed the Exchange about Intimation of In-Principle approval for listing of equity shares under SEDEMAC Mechatronics Employee Stock Option Scheme - 2025",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/SEDEMAC2007_07102026134435_20261007-IntimationofESOPapproval.pdf",
+      "sourceName": "NSE filing - SEDEMAC Mechatronics Limited"
+    },
     {
       "id": "academy-2026-10-06-0-nse-birlanu-06-oct-2026224734",
       "sourceId": "nse-birlanu-06-oct-2026224734",

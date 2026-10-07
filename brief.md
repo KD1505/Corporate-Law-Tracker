@@ -1,320 +1,266 @@
 # Corporate Law Tracker - Daily Brief
-_6 October 2026_
+_7 October 2026_
 
-35 new development(s).
+29 new development(s).
 
-### Cyril Amarchand Mangaldas, Trilegal, Khaitan & Co act on JSW One ₹3,054 crore proposed IPO
-**IPO** · ₹3,054 cr · India · Reported
+### CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise
+**REG** · ₹3,000 cr · India · Reported
 
-JSW One Platforms Limited has filed a draft red herring prospectus for an initial public offering of equity shares aggregating up to ₹3,054.01 crore ($318.62 million), comprising a fresh issue and an offer for sale by certain existing…
+Canada Pension Plan Investment Board (CPP Investments) is set to invest ₹3,000 crore in Prestige Hospitality Ventures Limited, the hospitality platform of Prestige Estates. Trilegal advised the Canadian Pension Plan Investment Board on…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-khaitan-co-act-on-jsw-one-3054-crore-proposed-ipo)
-
----
-
-### Elarra Law Offices advises Godrej Properties on acquiring development rights of luxury project in South Mumbai
-**MA** · ₹6,000 cr · Mumbai · Reported
-
-Godrej Properties Limited has acquired the development rights over a 2.5 acres land parcel at Marine Lines from Man Infraconstruction Limited and Shreepati Group. Elarra Law Offices advised Godrej Properties on the acquisition of…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/elarra-law-offices-advises-godrej-properties-on-acquiring-development-rights-of-luxury-project-in-south-mumbai)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise)
 
 ---
 
-### Trilegal advises Remunance Services on its acquisition by Hightekers Group
-**MA** · Cross-border · Reported
+### Trilegal acts on LCC Projects ₹427 crore IPO
+**IPO** · ₹427 cr · India · Reported
 
-The Hightekers Group has acquired 100% shareholding in Remunance Services Private Limited. Trilegal advised Remunance Services and its existing shareholders on all aspects of the transaction, including key structuring aspects and…
+LCC Projects Limited has raised ₹427.141 crore from an initial public offering of equity shares. Trilegal advised LCC Projects and its promoter selling shareholders on this IPO.
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-remunance-services-on-its-acquisition-by-hightekers-group)
-
----
-
-### Resolüt Partners advises IRB Infrastructure Trust on ₹2,744 crore sale of road assets
-**MA** · ₹2,744 cr · India · Reported
-
-IRB Infrastructure Trust has made a sale of 2 road projects, CG Tollway Limited and Solapur Yedeshi Tollway Limited, to IRB InvIT Fund at an equity value of ~₹2,744 crore. Resolüt Partners advised IRB Infrastructure Trust on this…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/resolt-partners-advises-irb-infrastructure-trust-on-2744-crore-sale-of-road-assets)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-llc-projects-427-crore-ipo)
 
 ---
 
-### DSK Legal advises Viyash Scientific on ₹188 crore acquisition of BioForLife Italia
-**MA** · ₹188 cr · Cross-border · Reported
+### Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO
+**IPO** · Mumbai · Reported
 
-Viyash Scientific Limited has made acquisition of 100% shareholding of BioForLife Italia S.r.l, a pet-care company based in Milan, Italy, for ~₹188 crore. DSK Legal advised Viyash Scientific and Alivira Animal Health Limited, Ireland, a…
+Dosti Realty Limited has filed confidential draft red herring prospectus for an initial public offering of its equity shares of face value of INR 5 each comprising a fresh issue and an offer for sale. Trilegal is advising Dosti Realty on…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advise-viyash-scientific-on-188-crore-acquisition-of-bioforlife-italia)
-
----
-
-### Shardul Amarchand Mangaldas advises ChrysCapital on minority stake acquisition in Linux Laboratories 
-**PE** · India · Reported
-
-ChrysCapital Group has acquied a minority stake in Linux Laboratories Private Limited, a Chennai-based pharmaceutical company. The transaction comprises a secondary acquisition of shares from the Promoters and Tata Capital Healthcare Fund…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-chryscapital-on-minority-stake-acquisition-in-linux-laboratories)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo)
 
 ---
 
-### BirlaNu Limited: Scheme of Arrangement
+### Fractal Analytics Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Scheme of Arrangement - BirlaNu Limited has informed the Exchange about Sanction of Scheme of Amalgamation between Clean Coats Private Limited with BirlaNu Limited and their respective Members.
+Acquisition - Incorporation of FRACTAL AI QFZ LLC, step-down subsidiary of the Company.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/sumedha_06102026224510_SEIntimationSchemesanctionbyHyderabadBench06oct2026signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/FRACTAL_07102026210433_Incorporation_of_subsidiary_in_QFZ.pdf)
 
 ---
 
-### Meesho Limited: General Updates
+### Abans Financial Services Limited: Acquisition
 **MA** · India · ✓ Verified
 
-General Updates - Meesho Limited has informed the Exchange about update on acquisition under Regulation 30 of SEBI (LODR) Regulations, 2015.
+Acquisition - Intimation of Acquisition of Equity Shares of Abans Finance Private Limited, subsidiary of the Company
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MEESHO_06102026221209_MLBMOutcome06Oct2026Final.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AHL_07102026203856_AFSL_Reg_30_AFPL_SPA_07102026.pdf)
 
 ---
 
-### Gabriel India Limited: Press Release
+### SKY GOLD AND DIAMONDS LIMITED: Acquisition
 **MA** · India · ✓ Verified
 
-Press Release - Gabriel India Limited has informed the Exchange regarding a press release dated October 06, 2026, titled "Execution of the Joint Venture Agreement ( JVA ) between Faurecia Automotive Seating India Private Limited and…
+Acquisition - We wish to inform you that the company has completed 100% acquisition of M/s. Purvi Gems & Jewellery (India) Private Limited on 7th October 2026.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/GABRIEL_06102026215748_SE_intimation_press_release_final_signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SKYGOLD_07102026181115_IntimationAcq.pdf)
 
 ---
 
-### TVS Supply Chain Solutions Limited: Acquisition
+### Indo-National Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - TVS Supply Chain Solutions Limited has informed the Exchange about Update on Acquisition.
+Acquisition - Indo-National Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CSCOMPLIANCE_06102026200224_TVS_SCS_Equity_infusion_to_SCS_ALA_signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NIPPOBATRY_07102026175237_INL_Stock_Exchange_Disclosuresd.pdf)
 
 ---
 
-### Endurance Technologies Limited: Acquisition
+### Maharashtra Seamless Limited: Scheme of Arrangement
 **MA** · India · ✓ Verified
 
-Acquisition - Endurance Technologies Limited has informed the Exchange about Acquisition
+Scheme of Arrangement - Maharashtra Seamless Limited has informed the Exchange about Scheme of Arrangement
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ENDURANCE_06102026195508_2026_10_06_-_Letter_SEs_acquisition_of_Fondalpress_by_EOSpA.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MAHSEAMLES_07102026172556_MSLIntimationDemerger.pdf)
 
 ---
 
-### Krishna Institute of Medical Sciences Limited: Acquisition
+### Alivus Life Sciences Limited: General Updates
 **MA** · India · ✓ Verified
 
-Acquisition - Krishna Institute of Medical Sciences Limited has informed the Exchange about Acquisition
+General Updates - Alivus Life Sciences Limited has informed the Exchange about announcement under Regulation 30 of SEBI (LODR), 2015 - Acquisition.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KIMS_06102026195415_Disclosure_to_Stock_Exchanges-06102026-Splendid.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GLS_07102026170648_Torrent_Disclosure_Update_Signed.pdf)
 
 ---
 
-### Krishna Institute of Medical Sciences Limited: Acquisition
+### Nimbus Projects Limited: General Updates
 **MA** · India · ✓ Verified
 
-Acquisition - Krishna Institute of Medical Sciences Limited has informed the Exchange about Acquisition
+General Updates - Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 Strategic Investment Agreement
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KIMS_06102026195302_Disclosure_to_Stock_Exchanges-06102026-Sarvottam.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NIMBUS_07102026171339_Intimation_Strategic_Investment_Agreement.pdf)
 
 ---
 
-### Krishna Institute of Medical Sciences Limited: Acquisition
+### Maithan Alloys Limited: Others
 **MA** · India · ✓ Verified
 
-Acquisition - Krishna Institute of Medical Sciences Limited has informed the Exchange about Acquisition
+Others - Maithan Alloys Limited has informed the Exchange about Acquisition of Equity Shares through Stock Exchange.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KIMS_06102026195201_Disclosure_to_Stock_Exchanges-06102026-Sangli.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MAITHANALL_07102026163034_HFCL07102026.pdf)
 
 ---
 
-### Krishna Institute of Medical Sciences Limited: Acquisition
+### Tinna Rubber and Infrastructure Limited: General Updates
 **MA** · India · ✓ Verified
 
-Acquisition - Krishna Institute of Medical Sciences Limited has informed the Exchange about Acquisition
+General Updates - Tinna Rubber and Infrastructure Limited has informed the Exchange about remittance of 2nd tranche of loan granted to Mbodla Investments (PTY) LIMITED, South Africa (Joint Venture).
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KIMS_06102026195055_Disclosure_to_Stock_Exchanges-06102026-Insigniyaa.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TINNARUBBER_07102026155905_TRIL_SEIntimation_Mbodla_Loan_07Oct2026.pdf)
 
 ---
 
-### Acme Solar Holdings Limited: Acquisition
+### Adani Energy Solutions Limited: General Updates
 **MA** · India · ✓ Verified
 
-Acquisition - Acme Solar Holdings Limited has informed the Exchange about incorporation of wholly owned subsidiaries
+General Updates - Adani Energy Solutions Limited has informed the Exchange about Execution of Share Purchase Agreement for Acquiring 100% equity shares of Satara Power Transmission Limited
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ACMECS_06102026193845_Intimation06102026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ADANITRANS_07102026152704_AESL_Satara_Power_Acquisition.pdf)
 
 ---
 
-### Ivalue Infosolutions Limited: Updates
+### Dixon Technologies (India) Limited: Agreements
 **MA** · India · ✓ Verified
 
-Updates - iValue Infosolutions Limited has informed the Exchange regarding the voluntary disclosure of acquisition of equity shares of the Company by the Promoter.
+Agreements - Dixon Technologies (India) Limited has informed the Exchange about Joint Venture Agreement executed between Dixon Technologies (India) Limited, Dixon Electroconnect Private Limited and Gemtek Technology Co., Ltd
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IVALUE927_06102026193125_Disclosure.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/DIXON_07102026150006_Regulation30_DisclosureGemtek07102026.pdf)
 
 ---
 
-### Repro India Limited: Acquisition
+### SKY GOLD AND DIAMONDS LIMITED: Press Release
 **MA** · India · ✓ Verified
 
-Acquisition - Repro India Limited has informed the Exchange about Acquisition
+Press Release - We hereby enclose herewith the Press Release titled Sky Gold & Diamonds to Acquire Purvi Gems in Strategic Move to Drive Growth, Achieve Scale and Product Diversification
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/REPRO_06102026185938_Intimationforcompletionofacquisition.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SKYGOLD_07102026131040_PR.pdf)
 
 ---
 
-### IRM Energy Limited: Copy of Newspaper Publication
+### Twamev Construction and Infrastructure Limited: Updates
 **MA** · India · ✓ Verified
 
-Copy of Newspaper Publication - IRM Energy Limited has informed the Exchange about Copy of Newspaper Publication - Notice of the hearing of the petition seeking sanction to the Scheme of Amalgamation of Enertech Distribution Management…
+Updates - Twamev Construction and Infrastructure Limited has informed the Exchange regarding 'Sale of Shares executed by one of the member of the Promoter Group, M/s Upendra Singh Constructions Co Pvt Ltd'.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IRMENERGY_06102026181117_intimationtoSE.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TCLCONS_07102026121943_SaleOfSharesUSCPL03042026.pdf)
 
 ---
 
-### India Glycols Limited: Updates
+### Inox Green Energy Services Limited: Press Release
 **MA** · India · ✓ Verified
 
-Updates - India Glycols Limited has informed the Exchange regarding 'Apportionment of Cost of Acquisition of Equity Shares of India GlycolsLimited ( Demerged Company / the Company ), Ennature Bio PharmaLimited ( Resulting Company 1 ) and…
+Press Release - Inox Green Energy Services Limited has informed the Exchange regarding a press release dated October 07, 2026, titled "Inox Green Completes payment for the transfer of Wind World India s 4.5 GW Wind O&M Business as per the…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/INDIAGLYCO_06102026180443_Apportionment_of_Cost_of_Acquisition.pdf)
-
----
-
-### Laurus Labs Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - Laurus Labs Limited has informed the Exchange about Update on Acquisition
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/LAURUSLABS_06102026180546_UpdateOnInvInKurnool06102026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IGESL_07102026074723_IGESL__PR_STXs_dsc.pdf)
 
 ---
 
-### KCP Sugar and Industries Corporation Limited: Updates
-**MA** · India · ✓ Verified
-
-Updates - KCP Sugar and Industries Corporation Limited has informed the Exchange regarding 'Disclosure under Regulation 29(2) of Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011'.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KCPSUGIND_06102026174212_BSENSEsd.pdf)
-
----
-
-### Marsons Limited: Press Release
-**MA** · India · ✓ Verified
-
-Press Release - Marsons Limited has informed the Exchange regarding a press release dated October 06, 2026, titled "Marsons Limited and Cleanhill Partners to Form Joint Venture to Scale Power Transformer Manufacturing in North America.".
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MARSONS_06102026160040_Marsons_Press_Release_Filing_signed.pdf)
-
----
-
-### AXISCADES Technologies Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - AXISCADES Technologies Limited has informed the Exchange about Incorporation of a Subsidiary Company
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AXISCADES_06102026135716_Incorporation_06102026.pdf)
-
----
-
-### Sanghvi Movers Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - Report Under Regulation 10(7) Of The SEBI (Substantial Acquisition Of Shares And Takeovers) Regulations, 2011
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SANGHVIMOV_06102026122446_SE_Intimation_Reg_10_7__SAST_MRS.pdf)
-
----
-
-### Zodiac Energy Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - Zodiac Energy Limited has informed the Exchange about Acquisition-Incorporation of Wholly Owned Subsidiary
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ZODIAC_06102026114218_Reg_30_Final_.pdf)
-
----
-
-### Privi Speciality Chemicals Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - Privi Speciality Chemicals Limited has informed the Exchange about Notice of Meeting of Equity Shareholders (Meeting) of the Company in the matter of Scheme of Amalgamation scheduled to be held on on Tuesday, October 27,…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/FAIRCHEMDP_06102026111909_NoticetoNSE.pdf)
-
----
-
-### Amber Enterprises India Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - Pursuant to Regulation 30 of the SEBI LODR Regulations, 2015, we would like to inform the exchange that Amber Enterprises India Limited has incorporated a new wholly owned subsidiary company in India, namely Amber Digital…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AMBER_06102026103721_SEIntimation_of_Amber_Digital_Tech_Incorporation_06102026.pdf)
-
----
-
-### KNR Constructions Limited: Updates
-**MA** · India · ✓ Verified
-
-Updates - KNR Constructions Limited has informed the Exchange regarding 'Sale of stake in Wholly owned subsidiary'.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KNRCON_06102026094922_Intimation.pdf)
-
----
-
-### PTC Industries Limited: Qualified Institutional Placement
+### Ola Electric Mobility Limited: Updates
 **IPO** · India · ✓ Verified
 
-Qualified Institutional Placement - Ptc Industries Limited has informed the Exchange about qualified Institutional Placement
+Updates - Ola Electric Mobility Limited has informed the Exchange regarding 'Submission of Letter of Offer for Rights Issue of partly paid-up Equity Shares of Ola Electric Mobility Limited'.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PTCINDUSTRIES_06102026223535_Issue_opening_outcome_QIP26.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/OLAELECTRIC_07102026235805_IntimationLetterofOfferOctober072026.pdf)
 
 ---
 
-### TV Vision Limited: Corporate Insolvency Resolution Process
+### Ola Electric Mobility Limited: Record Date
+**IPO** · India · ✓ Verified
+
+Record Date - Ola Electric Mobility Limited has informed the Exchange that Record date for the purpose of Rights Issue is 13-Oct-2026.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/OLAELECTRIC_07102026185643_OutcomeRightsIssueOctober072026.pdf)
+
+---
+
+### Ola Electric Mobility Limited: Rights Issue
+**IPO** · ₹27 · India · ✓ Verified
+
+Rights Issue - Ola Electric Mobility Limited has informed the Exchange that Board of Directors at its meeting held on October 07, 2026, has decided to issue equity shares on rights basis in the ratio of 2 : 25, i.e 2 Equity Shares for…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/OLAELECTRIC_07102026185359_OutcomeRightsIssueOctober072026.pdf)
+
+---
+
+### Jain Resource Recycling Limited: General Updates
+**IPO** · India · ✓ Verified
+
+General Updates - Jain Resource Recycling Limited has informed the Exchange about the outcome of Circular Resolution passed by the Board of Directors Approving 1. Reallocation of unutilised proceeds of the Initial Public Offer; 2.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/JAINMETAL_07102026180735_NSEBSEIPOPB.pdf)
+
+---
+
+### SEDEMAC Mechatronics Limited: General Updates
+**IPO** · India · ✓ Verified
+
+General Updates - SEDEMAC Mechatronics Limited has informed the Exchange about Intimation of In-Principle approval for listing of equity shares under SEDEMAC Mechatronics Employee Stock Option Scheme - 2025
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SEDEMAC2007_07102026134435_20261007-IntimationofESOPapproval.pdf)
+
+---
+
+### Polycab India Limited: General Updates
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - TV Vision Limited has informed the Exchange about Corporate Insolvency Resolution Process
+General Updates - Polycab India Limited has informed the Exchange about intimation of NCLT order
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TVVISION_06102026182614_Intimation_EOI_-sd.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/POLYCAB_07102026224543_Intimationtostockexchange.pdf)
 
 ---
 
-### The Hi-Tech Gears Limited: Corporate Insolvency Resolution Process
+### Compuage Infocom Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - The Hi-Tech Gears Limited has informed the Exchange about Corporate Insolvency Resolution Process
+Corporate Insolvency Resolution Process - Compuage Infocom Limited has informed the Exchange about the intimation of 28th COC meeting
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HITECHGEAR_06102026171936_Stx_Intimation_signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/COMPINFO_07102026181914_Intimation_letter_for_outcome_of_meeting_signed.pdf)
 
 ---
 
-### Osia Hyper Retail Limited: Corporate Insolvency Resolution Process
+### Future Consumer Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - Osia Hyper Retail Limited has informed the Exchange about Publication of Form G during the Corporate Insolvency Resolution Process of Osia Hyper Retail Limited as per the provisions of the IBC 2016
+Corporate Insolvency Resolution Process - Future Consumer Limited has informed the Exchange about Corrigendum to Form G
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/OSIAHYPER_06102026164539_IntimationFormGOsia.pdf)
-
----
-
-### Fox & Mandal acts on SD International proposed IPO
-**IPO** · India · Reported
-
-SD International Limited has filed a Draft Red Herring Prospectus with SEBI for an initial public offering of equity shares. Fox & Mandal advised SD International as well as the Promoter selling shareholder on this IPO.
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/fox-mandal-acts-on-sd-international-proposed-ipo)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/FCEL1_07102026161409_Corrigendum_Form_G_FCL_with_covering_letter07102026.pdf)
 
 ---
 
-### Legacy Law Offices acts on SG Encon IPO
-**IPO** · ₹75 cr · India · Reported
+### SKIL Infrastructure Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
 
-SG Encon Limited has filed its Draft Red Herring Prospectus before SEBI for a book-built offer on the BSE and NSE Mainboard platform for an issue of 85,61,700 shares, comprising a fresh issue and an offer for sale by Promoter Selling…
+Corporate Insolvency Resolution Process - SKIL Infrastructure Limited has informed the Exchange regarding the Pre Facto Intimation of the Thirteenth (13th) Committee of Creditors meeting to be held on Thursday, October 8, 2026
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-sg-encon-ipo)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/Skilinfra_07102026155736_SKIL_Letter_Intimation_13th_COC.pdf)
+
+---
+
+### Inox Green Energy Services Limited: General Updates
+**IBC** · India · ✓ Verified
+
+General Updates - Inox Green Energy Services Limited has informed the Exchange about General Updates on the Resolution Plan for Wind World (India) Limited and investment in Vibhav Energy Private Limited, a wholly owned subsidiary
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IGESL_07102026072235_IGESL_Acq_WWIL_Reg30_dsc.pdf)
+
+---
+
+### Vidhigya Associates acts on Swastika Infra’s ₹200 crore IPO and pre-IPO placement
+**IPO** · ₹200 cr · India · Reported
+
+Swastika Infra Limited has raised an aggregate of ₹200.88 crore through its Initial Public Offering and pre-IPO placement. The IPO comprised a fresh issue of ₹128.50 crore and an Offer for Sale of ₹32.38 crore.
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/vidhigya-associates-acts-on-swastika-infras-200-crore-ipo-and-pre-ipo-placement)
+
+---
+
+### Saraf and Partners advises JSW Infrastructure on acquisition of NCR Rail Infrastructure
+**IBC** · Delhi-NCR · Reported
+
+JSW Infrastructure Limited has acquired NCR Rail Infrastructure Limited under corporate insolvency resolution process. The acquisition was completed effective September 10, 2026, through JSW Infrastructure's step-down wholly owned…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/saraf-and-partners-advises-jsw-infrastructure-on-acquisition-of-ncr-rail-infrastructure)
 
 ---
 
