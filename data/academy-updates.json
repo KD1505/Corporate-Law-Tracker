@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-07T22:23:05.059Z",
+  "generatedAt": "2026-10-08T22:30:37.187Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-08-0-nse-mol-08-oct-2026183258",
+      "sourceId": "nse-mol-08-oct-2026183258",
+      "date": "8 Oct 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Meghmani Organics Limited: Amalgamation/Merger",
+      "why": "Amalgamation/Merger - Please find attached intimation under Regulation 30 of SEBI (LODR) Regulation, 2015 for receipt of NCLT order.",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/MOL_08102026183249_Intimation_to_Stock_Exchanges_08102026.pdf",
+      "sourceName": "NSE filing - Meghmani Organics Limited"
+    },
+    {
+      "id": "academy-2026-10-08-1-nse-mrpl-08-oct-2026141953",
+      "sourceId": "nse-mrpl-08-oct-2026141953",
+      "date": "8 Oct 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Mangalore Refinery and Petrochemicals Limited: General Updates",
+      "why": "General Updates - Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 - Incorporation of Integrated Petrochemicals Marketing & Trading Joint Venture Company in partnership with ONGC…",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/MRPL_08102026141943_CoveringLetterSD.pdf",
+      "sourceName": "NSE filing - Mangalore Refinery and Petrochemicals Limited"
+    },
+    {
+      "id": "academy-2026-10-08-2-nse-kserasera-08-oct-2026215956",
+      "sourceId": "nse-kserasera-08-oct-2026215956",
+      "date": "8 Oct 2026",
+      "category": "IBC / Distressed M&A",
+      "headline": "KSS Limited: General Updates",
+      "why": "General Updates - KSS Limited has informed the Exchange about General Updates about rectification of the Resolution plan approval order dated 05th August 2026 passed by the Hon'ble NCLT Mumbai bench.",
+      "interviewPrompt": "Explain what changes for bidder eligibility, process certainty, liabilities and implementation of the resolution plan.",
+      "source": "https://nsearchives.nseindia.com/corporate/KSERASERA_08102026215947_SE_IntimationRactification_Order.pdf",
+      "sourceName": "NSE filing - KSS Limited"
+    },
     {
       "id": "academy-2026-10-07-0-nse-mahseamles-07-oct-2026172634",
       "sourceId": "nse-mahseamles-07-oct-2026172634",
@@ -408,17 +441,6 @@
       "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
       "source": "https://nsearchives.nseindia.com/corporate/WAAREE_23092026201432_OutcomeofWEL_signed1.pdf",
       "sourceName": "NSE filing - Waaree Energies Limited"
-    },
-    {
-      "id": "academy-2026-09-23-2-nse-orchpharma-23-sep-2026200117",
-      "sourceId": "nse-orchpharma-23-sep-2026200117",
-      "date": "23 Sept 2026",
-      "category": "Companies Act",
-      "headline": "Orchid Pharma Limited: Updates",
-      "why": "Updates - Orchid Pharma Limited has informed the Exchange regarding 'Trading Approval of Equity Shares issued and allotted under Scheme of Amalgamation'.",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/ORCHPHARMA_23092026200048_Stx_Ltr_sd.pdf",
-      "sourceName": "NSE filing - Orchid Pharma Limited"
     }
   ]
 }

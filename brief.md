@@ -1,266 +1,239 @@
 # Corporate Law Tracker - Daily Brief
-_7 October 2026_
+_8 October 2026_
 
-29 new development(s).
+26 new development(s).
 
-### CPP Investments to invest ₹3,000 crore in Prestige Hospitality Ventures; Trilegal, CAM advise
-**REG** · ₹3,000 cr · India · Reported
+### Khaitan & Co, Verist Law, JSA, TT&A, Linklaters act on Anarock ₹1,000 crore proposed IPO
+**IPO** · ₹1,000 cr · India · Reported
 
-Canada Pension Plan Investment Board (CPP Investments) is set to invest ₹3,000 crore in Prestige Hospitality Ventures Limited, the hospitality platform of Prestige Estates. Trilegal advised the Canadian Pension Plan Investment Board on…
+Anarock Property Consultants Limited has proposed an initial public offering of equity shares amounting to ₹1,000 crore, comprising a fresh issue aggregating to ₹550 crore and an offer for sale aggregating to ₹450 crore by certain…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cpp-investments-to-invest-3000-crore-in-prestige-hospitality-ventures-trilegal-cam-advise)
-
----
-
-### Trilegal acts on LCC Projects ₹427 crore IPO
-**IPO** · ₹427 cr · India · Reported
-
-LCC Projects Limited has raised ₹427.141 crore from an initial public offering of equity shares. Trilegal advised LCC Projects and its promoter selling shareholders on this IPO.
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-llc-projects-427-crore-ipo)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-verist-law-jsa-tta-linklaters-act-on-anarock-1000-crore-proposed-ipo)
 
 ---
 
-### Trilegal, TT&A, Hogan Lovells Cadwalader act on Dosti Realty proposed IPO
-**IPO** · Mumbai · Reported
+### PAKKA LIMITED: General Updates
+**BANK** · ₹1,00,000, · India · ✓ Verified
 
-Dosti Realty Limited has filed confidential draft red herring prospectus for an initial public offering of its equity shares of face value of INR 5 each comprising a fresh issue and an offer for sale. Trilegal is advising Dosti Realty on…
+General Updates - PAKKA LIMITED has informed the Exchange about Disclosure pursuant to Regulation 30 and other applicable provisions of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 Allotment of the Tranche 3…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/trilegal-tta-hogan-lovells-cadwalader-act-on-dosti-realty-proposed-ipo)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/yashpakka_08102026165019_2610_NCD_Allotment_Outcome_08102026.pdf)
 
 ---
 
-### Fractal Analytics Limited: Acquisition
+### Shardul Amarchand Mangaldas, Trilegal act on Moneyview ₹1,091 crore IPO
+**IPO** · ₹1,091 cr · India · Reported
+
+Moneyview Limited has raised ₹1,091.68 crore from its initial public offering of equity shares, comprising a fresh issue and an offer for sale by the promoters and certain institutional investors Shardul Amarchand Mangaldas & Co advised…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-moneyview-1091-crore-ipo)
+
+---
+
+### Trilegal, CMS INDUSLAW act on J B Ecotex proposed IPO
+**IPO** · ₹ 400 cr · India · Reported
+
+J B Ecotex Limited has filed a draft red herring prospectus for an initial public offering comprising a fresh issue of equity shares aggregating up to ₹ 400 croreand an offer for sale of up to 12,950,000 equity shares by certain promoter…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-act-on-j-b-ecotex-proposed-ipo)
+
+---
+
+### Stratage Law Partners, Cyril Amarchand Mangaldas act on Nutriventia securing investment from Ndude Labs
+**PE** · Cross-border · Reported
+
+Nutriventia Private Limited has secured an investment from Ndude Labs by way of allotment of shares of to Ndude Labs. Stratage Law Partners advised Nutriventia on this transaction.
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/stratage-law-partners-cyril-amarchand-mangaldas-act-on-nutriventia-securing-investment-from-ndude-labs)
+
+---
+
+### Tembo Global Industries Limited: Updates
+**IPO** · Cross-border · ✓ Verified
+
+Updates - Tembo Global Industries Limited has informed the Exchange regarding 'Intimation of Date of Listing of Securities of the Company on BSE main Board'.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TEMBO_08102026110730_Intimation_to_nse-tembo__2__SD.pdf)
+
+---
+
+### Gravita India Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - Incorporation of FRACTAL AI QFZ LLC, step-down subsidiary of the Company.
+Acquisition - Intimation for incorporation of Step down Wholly Owned Subsidiary of the Company
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/FRACTAL_07102026210433_Incorporation_of_subsidiary_in_QFZ.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GRAVITA_08102026225348_Intimation.pdf)
 
 ---
 
-### Abans Financial Services Limited: Acquisition
+### Arisinfra Solutions Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-Acquisition - Intimation of Acquisition of Equity Shares of Abans Finance Private Limited, subsidiary of the Company
+Amalgamation/Merger - Arisinfra Solutions Limited has informed the Exchange about Hon''ble NCLT Order allowing first motion application.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AHL_07102026203856_AFSL_Reg_30_AFPL_SPA_07102026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ARISINFRA2024_08102026224210_NCLT_Order_Merger__final.pdf)
 
 ---
 
-### SKY GOLD AND DIAMONDS LIMITED: Acquisition
+### Raymond Realty Limited: General Updates
 **MA** · India · ✓ Verified
 
-Acquisition - We wish to inform you that the company has completed 100% acquisition of M/s. Purvi Gems & Jewellery (India) Private Limited on 7th October 2026.
+General Updates - Raymond Realty Limited has informed the Exchange about Acquisition.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SKYGOLD_07102026181115_IntimationAcq.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/RRL_08102026193935_SE_TXRNL.pdf)
 
 ---
 
-### Indo-National Limited: Acquisition
+### Meghmani Organics Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-Acquisition - Indo-National Limited has informed the Exchange about Acquisition
+Amalgamation/Merger - Please find attached intimation under Regulation 30 of SEBI (LODR) Regulation, 2015 for receipt of NCLT order.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NIPPOBATRY_07102026175237_INL_Stock_Exchange_Disclosuresd.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MOL_08102026183249_Intimation_to_Stock_Exchanges_08102026.pdf)
 
 ---
 
-### Maharashtra Seamless Limited: Scheme of Arrangement
+### Lloyds Metals And Energy Limited: General Updates
 **MA** · India · ✓ Verified
 
-Scheme of Arrangement - Maharashtra Seamless Limited has informed the Exchange about Scheme of Arrangement
+General Updates - Update on Acquisition of Equity Stake in Thriveni Earthmovers and Infra Private Limited.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MAHSEAMLES_07102026172556_MSLIntimationDemerger.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/LLOYDSME_08102026182603_20261008_Intimation_of_Credit_of_Shares_TEIPL.pdf)
 
 ---
 
-### Alivus Life Sciences Limited: General Updates
+### Premier Explosives Limited: Updates
 **MA** · India · ✓ Verified
 
-General Updates - Alivus Life Sciences Limited has informed the Exchange about announcement under Regulation 30 of SEBI (LODR), 2015 - Acquisition.
+Updates - Premier Cumulative Capital Private ltd has submitted to the Exchange a copy of Pre-offer advertisement in accordance with Regulation 18(7) of SEBI (SAST) Regulations, 2011, and Subsequent amendments thereto SEBI (SAST)…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/GLS_07102026170648_Torrent_Disclosure_Update_Signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_08102026162850_PREMEXPLN.zip)
 
 ---
 
-### Nimbus Projects Limited: General Updates
+### Shakti Pumps (India) Limited: Acquisition
+**MA** · ₹10 cr · India · ✓ Verified
+
+Acquisition - Shakti Pumps (India) Limited has informed the Exchange that the Company has invested Rs. 10 Crores in its wholly owned subsidiary i.e.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SHAKTIPUMP_08102026154638_IntimationunderReg30ShaktiEnergy.pdf)
+
+---
+
+### Mangalore Refinery and Petrochemicals Limited: General Updates
 **MA** · India · ✓ Verified
 
-General Updates - Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 Strategic Investment Agreement
+General Updates - Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 - Incorporation of Integrated Petrochemicals Marketing & Trading Joint Venture Company in partnership with ONGC…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NIMBUS_07102026171339_Intimation_Strategic_Investment_Agreement.pdf)
-
----
-
-### Maithan Alloys Limited: Others
-**MA** · India · ✓ Verified
-
-Others - Maithan Alloys Limited has informed the Exchange about Acquisition of Equity Shares through Stock Exchange.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MAITHANALL_07102026163034_HFCL07102026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MRPL_08102026141943_CoveringLetterSD.pdf)
 
 ---
 
-### Tinna Rubber and Infrastructure Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - Tinna Rubber and Infrastructure Limited has informed the Exchange about remittance of 2nd tranche of loan granted to Mbodla Investments (PTY) LIMITED, South Africa (Joint Venture).
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TINNARUBBER_07102026155905_TRIL_SEIntimation_Mbodla_Loan_07Oct2026.pdf)
-
----
-
-### Adani Energy Solutions Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - Adani Energy Solutions Limited has informed the Exchange about Execution of Share Purchase Agreement for Acquiring 100% equity shares of Satara Power Transmission Limited
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ADANITRANS_07102026152704_AESL_Satara_Power_Acquisition.pdf)
-
----
-
-### Dixon Technologies (India) Limited: Agreements
-**MA** · India · ✓ Verified
-
-Agreements - Dixon Technologies (India) Limited has informed the Exchange about Joint Venture Agreement executed between Dixon Technologies (India) Limited, Dixon Electroconnect Private Limited and Gemtek Technology Co., Ltd
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DIXON_07102026150006_Regulation30_DisclosureGemtek07102026.pdf)
-
----
-
-### SKY GOLD AND DIAMONDS LIMITED: Press Release
-**MA** · India · ✓ Verified
-
-Press Release - We hereby enclose herewith the Press Release titled Sky Gold & Diamonds to Acquire Purvi Gems in Strategic Move to Drive Growth, Achieve Scale and Product Diversification
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SKYGOLD_07102026131040_PR.pdf)
-
----
-
-### Twamev Construction and Infrastructure Limited: Updates
-**MA** · India · ✓ Verified
-
-Updates - Twamev Construction and Infrastructure Limited has informed the Exchange regarding 'Sale of Shares executed by one of the member of the Promoter Group, M/s Upendra Singh Constructions Co Pvt Ltd'.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TCLCONS_07102026121943_SaleOfSharesUSCPL03042026.pdf)
-
----
-
-### Inox Green Energy Services Limited: Press Release
-**MA** · India · ✓ Verified
-
-Press Release - Inox Green Energy Services Limited has informed the Exchange regarding a press release dated October 07, 2026, titled "Inox Green Completes payment for the transfer of Wind World India s 4.5 GW Wind O&M Business as per the…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IGESL_07102026074723_IGESL__PR_STXs_dsc.pdf)
-
----
-
-### Ola Electric Mobility Limited: Updates
+### Sammaan Capital Limited: Updates
 **IPO** · India · ✓ Verified
 
-Updates - Ola Electric Mobility Limited has informed the Exchange regarding 'Submission of Letter of Offer for Rights Issue of partly paid-up Equity Shares of Ola Electric Mobility Limited'.
+Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/OLAELECTRIC_07102026235805_IntimationLetterofOfferOctober072026.pdf)
-
----
-
-### Ola Electric Mobility Limited: Record Date
-**IPO** · India · ✓ Verified
-
-Record Date - Ola Electric Mobility Limited has informed the Exchange that Record date for the purpose of Rights Issue is 13-Oct-2026.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/OLAELECTRIC_07102026185643_OutcomeRightsIssueOctober072026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_08102026184557_SCL_Retail_Intimation_57_08102026_QM0.pdf)
 
 ---
 
-### Ola Electric Mobility Limited: Rights Issue
-**IPO** · ₹27 · India · ✓ Verified
+### KSS Limited: General Updates
+**IBC** · Mumbai · ✓ Verified
 
-Rights Issue - Ola Electric Mobility Limited has informed the Exchange that Board of Directors at its meeting held on October 07, 2026, has decided to issue equity shares on rights basis in the ratio of 2 : 25, i.e 2 Equity Shares for…
+General Updates - KSS Limited has informed the Exchange about General Updates about rectification of the Resolution plan approval order dated 05th August 2026 passed by the Hon'ble NCLT Mumbai bench.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/OLAELECTRIC_07102026185359_OutcomeRightsIssueOctober072026.pdf)
-
----
-
-### Jain Resource Recycling Limited: General Updates
-**IPO** · India · ✓ Verified
-
-General Updates - Jain Resource Recycling Limited has informed the Exchange about the outcome of Circular Resolution passed by the Board of Directors Approving 1. Reallocation of unutilised proceeds of the Initial Public Offer; 2.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/JAINMETAL_07102026180735_NSEBSEIPOPB.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/KSERASERA_08102026215947_SE_IntimationRactification_Order.pdf)
 
 ---
 
-### SEDEMAC Mechatronics Limited: General Updates
-**IPO** · India · ✓ Verified
-
-General Updates - SEDEMAC Mechatronics Limited has informed the Exchange about Intimation of In-Principle approval for listing of equity shares under SEDEMAC Mechatronics Employee Stock Option Scheme - 2025
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SEDEMAC2007_07102026134435_20261007-IntimationofESOPapproval.pdf)
-
----
-
-### Polycab India Limited: General Updates
+### Polycab India Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-General Updates - Polycab India Limited has informed the Exchange about intimation of NCLT order
+Corporate Insolvency Resolution Process - Polycab India Limited has informed the Exchange about Corporate Insolvency Resolution Process
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/POLYCAB_07102026224543_Intimationtostockexchange.pdf)
-
----
-
-### Compuage Infocom Limited: Corporate Insolvency Resolution Process
-**IBC** · India · ✓ Verified
-
-Corporate Insolvency Resolution Process - Compuage Infocom Limited has informed the Exchange about the intimation of 28th COC meeting
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/COMPINFO_07102026181914_Intimation_letter_for_outcome_of_meeting_signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/POLYCAB_08102026204050_StockExchangeIntimationCIRPupdate08102026F.pdf)
 
 ---
 
-### Future Consumer Limited: Corporate Insolvency Resolution Process
+### Polycab India Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - Future Consumer Limited has informed the Exchange about Corrigendum to Form G
+Corporate Insolvency Resolution Process - Polycab India Limited has informed the Exchange about Corporate Insolvency Resolution Process
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/FCEL1_07102026161409_Corrigendum_Form_G_FCL_with_covering_letter07102026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/POLYCAB_08102026190117_Intimation_to_Stock_Exchange.pdf)
+
+---
+
+### BGR Energy Systems Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process - BGR Energy Systems Limited has informed the Exchange about Corporate Insolvency Resolution Process - Updates on Insolvency Proceeding - Order dated 07.10.2026.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/BGRENERGY_08102026170909_BGREnergyNCLATorderIntimation.pdf)
 
 ---
 
 ### SKIL Infrastructure Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - SKIL Infrastructure Limited has informed the Exchange regarding the Pre Facto Intimation of the Thirteenth (13th) Committee of Creditors meeting to be held on Thursday, October 8, 2026
+Corporate Insolvency Resolution Process - SKIL Infrastructure Limited has informed the Exchange regarding the postponement of the 13th COC meeting to be held on Thursday, October 08, 2026
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Skilinfra_07102026155736_SKIL_Letter_Intimation_13th_COC.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/Skilinfra_08102026152915_Letter_Postponement_Intimation_13th_COC.pdf)
 
 ---
 
-### Inox Green Energy Services Limited: General Updates
+### DPSC Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-General Updates - Inox Green Energy Services Limited has informed the Exchange about General Updates on the Resolution Plan for Wind World (India) Limited and investment in Vibhav Energy Private Limited, a wholly owned subsidiary
+Corporate Insolvency Resolution Process - DPSC Limited has informed the Exchange about Corporate Insolvency Resolution Process-Reconciliation of Share Capital Audit for the Quarter ended 30th September, 2026
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IGESL_07102026072235_IGESL_Acq_WWIL_Reg30_dsc.pdf)
-
----
-
-### Vidhigya Associates acts on Swastika Infra’s ₹200 crore IPO and pre-IPO placement
-**IPO** · ₹200 cr · India · Reported
-
-Swastika Infra Limited has raised an aggregate of ₹200.88 crore through its Initial Public Offering and pre-IPO placement. The IPO comprised a fresh issue of ₹128.50 crore and an Offer for Sale of ₹32.38 crore.
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/vidhigya-associates-acts-on-swastika-infras-200-crore-ipo-and-pre-ipo-placement)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/DPSCLTD_08102026150325_ComplianceUnderReg_76_ofSEBI_DP_30092026.pdf)
 
 ---
 
-### Saraf and Partners advises JSW Infrastructure on acquisition of NCR Rail Infrastructure
-**IBC** · Delhi-NCR · Reported
+### Astron Paper & Board Mill Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
 
-JSW Infrastructure Limited has acquired NCR Rail Infrastructure Limited under corporate insolvency resolution process. The acquisition was completed effective September 10, 2026, through JSW Infrastructure's step-down wholly owned…
+Corporate Insolvency Resolution Process - Astron Paper & Board Mill Limited has informed the Exchange about Corporate Insolvency Resolution Process
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/saraf-and-partners-advises-jsw-infrastructure-on-acquisition-of-ncr-rail-infrastructure)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ASTRON_08102026142934_Outcome-_5th_meeting.pdf)
+
+---
+
+### DPSC Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process - DPSC Limited has informed the Exchange about Corporate Insolvency Resolution Process
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/DPSCLTD_08102026110702_ComplianceUnderReg46ofSEBI_LODR_30092026.pdf)
+
+---
+
+### DPSC Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process - DPSC Limited has informed the Exchange about Corporate Insolvency Resolution Process
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/DPSCLTD_08102026110523_CertificateUnderRegulation74_5_ofSEBI_DP_30092026.pdf)
+
+---
+
+### Vidhigya Associates acts on A-One Steels India ₹405 crore IPO
+**IPO** · ₹405 cr · India · Reported
+
+A-One Steels India Limited has launched its Initial Public Offering (IPO) totaling ₹405 crore, which includes a fresh issue of up to ₹355 crore and an Offer for Sale of up to ₹50 crore by the Promoter Selling Shareholders. Vidhigya…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/vidhigya-associates-acts-on-a-one-steels-india-405-crore-ipo)
+
+---
+
+### Legacy Law Offices acts on Auto Recycling Systems IPO
+**IPO** · ₹72.26 cr · Mumbai · Reported
+
+Auto Recycling Systems Limited (ARS) has filed its Draft Red Herring Prospectus on the Bombay Stock Exchange SME platform for a book-built offer for an entirely fresh issue of 69,00,000 shares, with an offer size of ₹72.26 crore+. Legacy…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/legacy-law-offices-acts-on-auto-recycling-systems-ipo)
 
 ---
 
