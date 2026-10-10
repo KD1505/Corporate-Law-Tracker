@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-08T22:30:37.187Z",
+  "generatedAt": "2026-10-10T20:46:32.268Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-10-0-nse-nimbsproj-10-oct-2026220122",
+      "sourceId": "nse-nimbsproj-10-oct-2026220122",
+      "date": "10 Oct 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Nimbus Projects Limited: Acquisition",
+      "why": "Acquisition - Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015- Incorporation of IITL Nimbus The Express Park View Private Limited as subsidiary company",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/NIMBUS_10102026220109_Inc_of_Subsidiary_EPV.pdf",
+      "sourceName": "NSE filing - Nimbus Projects Limited"
+    },
+    {
+      "id": "academy-2026-10-10-1-nse-jublcpl-09-oct-2026185801",
+      "sourceId": "nse-jublcpl-09-oct-2026185801",
+      "date": "9 Oct 2026",
+      "category": "Companies Act",
+      "headline": "Jubilant Agri and Consumer Products Limited: Demerger",
+      "why": "Demerger - Jubilant Agri and Consumer Products Limited has informed the Exchange about Second Motion Petition for Scheme of Arrangement for Demerger",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/JACPL_09102026185743_Intimation_2nd_MotionSigned.pdf",
+      "sourceName": "NSE filing - Jubilant Agri and Consumer Products Limited"
+    },
+    {
+      "id": "academy-2026-10-10-2-nse-tru-09-oct-2026180157",
+      "sourceId": "nse-tru-09-oct-2026180157",
+      "date": "9 Oct 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "TruCap Finance Limited: Updates",
+      "why": "Updates - Sundae Capital Advisors Private Limited has Submitted to the Exchange a copy of Update on the Open Offer given by Marwadi Chandarana Intermediaries Brokers Private Limited (Acquirer) to the shareholders of Trucap Finance Limited…",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/team_sandeshc_09102026120350_openoffer.pdf",
+      "sourceName": "NSE filing - TruCap Finance Limited"
+    },
     {
       "id": "academy-2026-10-08-0-nse-mol-08-oct-2026183258",
       "sourceId": "nse-mol-08-oct-2026183258",
@@ -408,39 +441,6 @@
       "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
       "source": "https://nsearchives.nseindia.com/corporate/Saurashtra_24092026201231_REG_29_2_MFT_ACQ__1_.pdf",
       "sourceName": "NSE filing - Saurashtra Cement Limited"
-    },
-    {
-      "id": "academy-2026-09-24-2-nse-izmo-24-sep-2026190153",
-      "sourceId": "nse-izmo-24-sep-2026190153",
-      "date": "24 Sept 2026",
-      "category": "FEMA / FDI",
-      "headline": "IZMO Limited: Disclosure under SEBI Takeover Regulations",
-      "why": "Disclosure under SEBI Takeover Regulations - Tej Soni has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations,…",
-      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
-      "source": "https://nsearchives.nseindia.com/corporate/team_bbodade_24092026185838_IZMO.pdf",
-      "sourceName": "NSE filing - IZMO Limited"
-    },
-    {
-      "id": "academy-2026-09-23-0-nse-veranda-23-sep-2026212959",
-      "sourceId": "nse-veranda-23-sep-2026212959",
-      "date": "23 Sept 2026",
-      "category": "Companies Act",
-      "headline": "Veranda Learning Solutions Limited: Record Date",
-      "why": "Record Date - Veranda Learning Solutions Limited has informed the Exchange that Record date for the purpose of Composite Scheme of Arrangement is 06-Oct-2026.",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/Verandaipo_23092026212748_VLSCompositeSchemeRecorddate.pdf",
-      "sourceName": "NSE filing - Veranda Learning Solutions Limited"
-    },
-    {
-      "id": "academy-2026-09-23-1-nse-waareeener-23-sep-2026201515",
-      "sourceId": "nse-waareeener-23-sep-2026201515",
-      "date": "23 Sept 2026",
-      "category": "Companies Act",
-      "headline": "Waaree Energies Limited: Amalgamation/Merger",
-      "why": "Amalgamation/Merger - Waaree Energies Limited has informed the Exchange about Scheme of Amalgamation of Indosolar Limited with Waaree Energies Limited and their respective shareholders pursuant to Sections 230 to 232 of the Companies Act,…",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/WAAREE_23092026201432_OutcomeofWEL_signed1.pdf",
-      "sourceName": "NSE filing - Waaree Energies Limited"
     }
   ]
 }
