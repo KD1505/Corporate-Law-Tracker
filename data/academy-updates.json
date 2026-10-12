@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-10T20:46:32.268Z",
+  "generatedAt": "2026-10-12T23:49:30.688Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-12-0-nse-kmsugar-12-oct-2026210638",
+      "sourceId": "nse-kmsugar-12-oct-2026210638",
+      "date": "12 Oct 2026",
+      "category": "Companies Act",
+      "headline": "K.M.Sugar Mills Limited: Scheme of Arrangement",
+      "why": "Scheme of Arrangement - K.M.Sugar Mills Limited has informed the Exchange about Scheme of Arrangement",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/KMSUGAR_12102026210608_INTIMATION.pdf",
+      "sourceName": "NSE filing - K.M.Sugar Mills Limited"
+    },
+    {
+      "id": "academy-2026-10-12-1-nse-ventive-12-oct-2026190122",
+      "sourceId": "nse-ventive-12-oct-2026190122",
+      "date": "12 Oct 2026",
+      "category": "Companies Act",
+      "headline": "Ventive Hospitality Limited: Amalgamation/Merger",
+      "why": "Amalgamation/Merger - VENTIVE: Scheme of Amalgamation Intimation regarding proposed appeal",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/VENTIVE_12102026185715_VHL_-_Appeal.pdf",
+      "sourceName": "NSE filing - Ventive Hospitality Limited"
+    },
+    {
+      "id": "academy-2026-10-12-2-nse-indswftlab-12-oct-2026173547",
+      "sourceId": "nse-indswftlab-12-oct-2026173547",
+      "date": "12 Oct 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Ind-Swift Laboratories Limited: General Updates",
+      "why": "General Updates - Ind-Swift Laboratories Limited has informed the Exchange about Disclosures under Regulation 29(2) of the SEBI (Substantial Acquisition of Shares and Takeover) Regulations, 2011",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/INDSWFTLAB_12102026173502_Intimation_SAST12102026.pdf",
+      "sourceName": "NSE filing - Ind-Swift Laboratories Limited"
+    },
     {
       "id": "academy-2026-10-10-0-nse-nimbsproj-10-oct-2026220122",
       "sourceId": "nse-nimbsproj-10-oct-2026220122",
@@ -408,39 +441,6 @@
       "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
       "source": "https://nsearchives.nseindia.com/corporate/ADANIPOWER_25092026192110_APLSchemebecomingeffective10WOS25092026.pdf",
       "sourceName": "NSE filing - Adani Power Limited"
-    },
-    {
-      "id": "academy-2026-09-25-2-nse-sammaancap-25-sep-2026185229",
-      "sourceId": "nse-sammaancap-25-sep-2026185229",
-      "date": "25 Sept 2026",
-      "category": "Companies Act",
-      "headline": "Sammaan Capital Limited: Updates",
-      "why": "Updates - It is hereby informed that the Hon ble National Company Law Tribunal, New Delhi Bench vide its Order dated September 21, 2026, has admitted the Second Motion Petition in connection with the proposed Scheme of Arrangement between…",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/IHFL_25092026184549_SCL_Regulation_30_SMP_Order_25Sep2026.pdf",
-      "sourceName": "NSE filing - Sammaan Capital Limited"
-    },
-    {
-      "id": "academy-2026-09-24-0-nse-rrkabel-24-sep-2026215051",
-      "sourceId": "nse-rrkabel-24-sep-2026215051",
-      "date": "24 Sept 2026",
-      "category": "Deal Structuring",
-      "headline": "R R Kabel Limited: Outcome of Board Meeting",
-      "why": "Outcome of Board Meeting - R R Kabel Limited has informed the Exchange regarding the Board's approval for acquisition of the Business Undertaking of U M Cables Limited.",
-      "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
-      "source": "https://nsearchives.nseindia.com/corporate/RRKL1995_24092026214959_Outcome_of_BM_acquisition_of_unit_-_Final.pdf",
-      "sourceName": "NSE filing - R R Kabel Limited"
-    },
-    {
-      "id": "academy-2026-09-24-1-nse-saurashcem-24-sep-2026201306",
-      "sourceId": "nse-saurashcem-24-sep-2026201306",
-      "date": "24 Sept 2026",
-      "category": "FEMA / FDI",
-      "headline": "Saurashtra Cement Limited: Updates",
-      "why": "Updates - In compliance with Regulation 29(2) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011 ( SEBI SAST Regulations ), please find enclosed, as Annexure A, the prescribed…",
-      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
-      "source": "https://nsearchives.nseindia.com/corporate/Saurashtra_24092026201231_REG_29_2_MFT_ACQ__1_.pdf",
-      "sourceName": "NSE filing - Saurashtra Cement Limited"
     }
   ]
 }
