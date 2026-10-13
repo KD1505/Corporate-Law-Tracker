@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-12T23:49:30.688Z",
+  "generatedAt": "2026-10-13T22:01:41.221Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-13-0-nse-adventhtl-13-oct-2026201223",
+      "sourceId": "nse-adventhtl-13-oct-2026201223",
+      "date": "13 Oct 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Advent Hotels International Limited: Acquisition",
+      "why": "Acquisition - Advent Hotels International Limited has informed the Exchange about Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 - Acquisition",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/ADVENTHTL_13102026201212_seintimation.pdf",
+      "sourceName": "NSE filing - Advent Hotels International Limited"
+    },
+    {
+      "id": "academy-2026-10-13-1-nse-gtpl-13-oct-2026195303",
+      "sourceId": "nse-gtpl-13-oct-2026195303",
+      "date": "13 Oct 2026",
+      "category": "Deal Structuring",
+      "headline": "GTPL Hathway Limited: General Updates",
+      "why": "General Updates - GTPL Hathway Limited has informed the Exchange about approval of acquisition of balance 74% equity stake of DL GTPL Cabnet Private Limited as per the details enclosed.",
+      "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
+      "source": "https://nsearchives.nseindia.com/corporate/GTPLHL_13102026195252_Outcome_BM_Intimation.pdf",
+      "sourceName": "NSE filing - GTPL Hathway Limited"
+    },
+    {
+      "id": "academy-2026-10-13-2-nse-orientcem-13-oct-2026191135",
+      "sourceId": "nse-orientcem-13-oct-2026191135",
+      "date": "13 Oct 2026",
+      "category": "Companies Act",
+      "headline": "Orient Cement Limited: Copy of Newspaper Publication",
+      "why": "Copy of Newspaper Publication - Orient Cement Limited has informed the exchange about Newspaper Publication regarding hearing of Joint Company Petition before the Hon''ble NCLT, Ahmedabad Bench in connection with the Scheme of Amalgamation…",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/ORIENTCEM_13102026191119_OCL_Newspaper_Hearing_131012026.pdf",
+      "sourceName": "NSE filing - Orient Cement Limited"
+    },
     {
       "id": "academy-2026-10-12-0-nse-kmsugar-12-oct-2026210638",
       "sourceId": "nse-kmsugar-12-oct-2026210638",
@@ -408,39 +441,6 @@
       "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
       "source": "https://nsearchives.nseindia.com/corporate/KAPSTON_26092026153024_KapstonREG29.pdf",
       "sourceName": "NSE filing - Kapston Services Limited"
-    },
-    {
-      "id": "academy-2026-09-26-2-nse-dabur-26-sep-2026133158",
-      "sourceId": "nse-dabur-26-sep-2026133158",
-      "date": "26 Sept 2026",
-      "category": "FEMA / FDI",
-      "headline": "Dabur India Limited: Scheme of Arrangement",
-      "why": "Scheme of Arrangement - Dabur India Limited has informed the Exchange about Upload of order passed by the Hon'ble National Company Law Tribunal, New Delhi Bench (\"NCLT\"), approving the Scheme of Amalgamation between Sesa Care Private…",
-      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
-      "source": "https://nsearchives.nseindia.com/corporate/DABURA_26092026133123_Dabur_STXIntimation_Pronouncement_Order.pdf",
-      "sourceName": "NSE filing - Dabur India Limited"
-    },
-    {
-      "id": "academy-2026-09-25-0-nse-kotakbank-25-sep-2026201511",
-      "sourceId": "nse-kotakbank-25-sep-2026201511",
-      "date": "25 Sept 2026",
-      "category": "Companies Act",
-      "headline": "Kotak Mahindra Bank Limited: General Updates",
-      "why": "General Updates - Intimation of Scheme of Amalgamation of Kotak Mahindra Investments Limited with Kotak Alternate Asset Managers Limited, both, wholly-owned subsidiaries of the Bank",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/KMBLTAB_25092026201322_KMBLLODRV2250926.pdf",
-      "sourceName": "NSE filing - Kotak Mahindra Bank Limited"
-    },
-    {
-      "id": "academy-2026-09-25-1-nse-adanipower-25-sep-2026192127",
-      "sourceId": "nse-adanipower-25-sep-2026192127",
-      "date": "25 Sept 2026",
-      "category": "Companies Act",
-      "headline": "Adani Power Limited: General Updates",
-      "why": "General Updates - Adani Power Limited has informed the Exchange about Update on the Scheme of Amalgamation",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/ADANIPOWER_25092026192110_APLSchemebecomingeffective10WOS25092026.pdf",
-      "sourceName": "NSE filing - Adani Power Limited"
     }
   ]
 }

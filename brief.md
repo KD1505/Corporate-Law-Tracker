@@ -1,257 +1,311 @@
 # Corporate Law Tracker - Daily Brief
-_12 October 2026_
+_13 October 2026_
 
-28 new development(s).
+34 new development(s).
 
-### Shardul Amarchand Mangaldas assists Tata Capital on sanctioning ₹540 crore to Jayaswal Neco Industries
-**BANK** · ₹540 cr · India · Reported
+### Greaves Cotton Limited: Certificate under SEBI (Depositories and Participants) Regulations, 2018
+**REG** · ₹000000221 · India · ✓ Verified
 
-Tata Capital Limited has sanctioned a ₹540 crore secured rupee term loan facility to Jayaswal Neco Industries Limited. Shardul Amarchand Mangaldas & Co advised Tata Capital on this financing transaction.
+Certificate under SEBI (Depositories and Participants) Regulations, 2018 - In compliance with Regulation 74(5) of SEBI (Depositories and Participants) Regulations, 2018, we enclose herewith a copy of the confirmation certificate dated 12th…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-assists-tata-capital-on-sanctioning-540-crore-to-jayaswal-neco-industries)
-
----
-
-### Trilegal advises Macnica Inc. on acquisition of Elektronika Sales
-**MA** · India · Reported
-
-Macnica, Inc. has acquired Elektronika Sales Private Limited.
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-macnica-inc-on-acquisition-of-elektronika-sales)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GREAVESCOT_13102026173128_Regulation_74_5__30092026.pdf)
 
 ---
 
-### Power Grid Corporation of India Limited: Acquisition
+### Aegis Logistics Limited: Press Release
 **MA** · India · ✓ Verified
 
-Acquisition - Power Grid Corporation of India Limited has informed the Exchange about Acquisition of Jam Khambhaliya REZ Transmission Limited by POWERGRID under TBCB route.
+Press Release - Aegis Logistics Limited has informed the Exchange regarding a press release dated October 13, 2026, titled " Aegis signs definitive agreement for its proposed acquisition of a majority stake in Tristar ".
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/POWERGRID1_12102026214537_JamKhambhaliya.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AEGISCHEM_13102026233905_ALL_SE_Pressrelease_Tristar_Signed.pdf)
 
 ---
 
-### Power Grid Corporation of India Limited: Acquisition
+### Aegis Logistics Limited: General Updates
 **MA** · India · ✓ Verified
 
-Acquisition - Power Grid Corporation of India Limited has informed the Exchange about Acquisition of Lakadia C Power Transmission Limited by POWERGRID under TBCB route.
+General Updates - Aegis Logistics Limited has informed the Exchange about Acquisition of 89.8% stake of Tristar Holdings Limited by the Company via its 100% step-down subsidiary Aegis Logistics International Pte Ltd. (collectively Aegis)
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/POWERGRID1_12102026214346_LakadiaC.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AEGISCHEM_13102026232700_ALL_SE_BM_Outcome_AcquisitionTristar_Signed.pdf)
 
 ---
 
-### K.M.Sugar Mills Limited: Scheme of Arrangement
+### Advent Hotels International Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Scheme of Arrangement - K.M.Sugar Mills Limited has informed the Exchange about Scheme of Arrangement
+Acquisition - Advent Hotels International Limited has informed the Exchange about Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 - Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KMSUGAR_12102026210608_INTIMATION.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ADVENTHTL_13102026201212_seintimation.pdf)
 
 ---
 
-### Ventive Hospitality Limited: Amalgamation/Merger
+### GTPL Hathway Limited: General Updates
 **MA** · India · ✓ Verified
 
-Amalgamation/Merger - VENTIVE: Scheme of Amalgamation Intimation regarding proposed appeal
+General Updates - GTPL Hathway Limited has informed the Exchange about approval of acquisition of balance 74% equity stake of DL GTPL Cabnet Private Limited as per the details enclosed.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/VENTIVE_12102026185715_VHL_-_Appeal.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GTPLHL_13102026195252_Outcome_BM_Intimation.pdf)
 
 ---
 
-### Kothari Sugars And Chemicals Limited: Amalgamation/Merger
+### Orient Cement Limited: Copy of Newspaper Publication
 **MA** · India · ✓ Verified
 
-Amalgamation/Merger - Kothari Sugars And Chemicals Limited has informed the Exchange about Notice Convening Meeting of the Unsecured Creditors of the Company pursuant to the Order of Hon'ble NCLT, Chennai Bench - 1
+Copy of Newspaper Publication - Orient Cement Limited has informed the exchange about Newspaper Publication regarding hearing of Joint Company Petition before the Hon''ble NCLT, Ahmedabad Bench in connection with the Scheme of Amalgamation…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KOTARISUG_12102026184634_2_IntimationofNoticeofUnsecuredCreditors.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ORIENTCEM_13102026191119_OCL_Newspaper_Hearing_131012026.pdf)
 
 ---
 
-### Ceigall India Limited: Acquisition
+### Ambuja Cements Limited: Copy of Newspaper Publication
 **MA** · India · ✓ Verified
 
-Acquisition - Ceigall India Limited has informed the Exchange about Acquisition of Jam Khambhaliya Jamnagar Power Transmission Limited ( JKJTL ).
+Copy of Newspaper Publication - Ambuja Cements Limited has informed the exchange about Newspaper Publication regarding hearing of Joint Company Petition before the Hon''ble NCLT, Ahmedabad Bench in connection with the Scheme of…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ceigall_12102026183051_Acquisition_of_JKJPTL_12102026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AMBUJACEM_13102026184812_ACL_Orient_FinalHearing_13102026.pdf)
 
 ---
 
-### Kothari Petrochemicals Limited: Amalgamation/Merger
+### Hubtown Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Amalgamation/Merger - Kothari Petrochemicals Limited has informed the Exchange about Notice Convening Meeting of the Unsecured Creditors of the Company pursuant to the Order of Hon'ble NCLT, Chennai Bench - 1
+Acquisition - Hubtown Limited has informed the Exchange about Acquisition in subsidiary Company Rare Townships Pvt Ltd
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KOTHARIPET_12102026181651_2_IntimationofNoticeofUnsecuredCreditors.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HUBTOWN_13102026181406_SE_Intimation_for_Right_Issue_of_RTPL-Final.pdf)
 
 ---
 
-### Master Trust Limited: General Updates
+### ACC Limited: Copy of Newspaper Publication
 **MA** · India · ✓ Verified
 
-General Updates - Master Trust Limited has informed the Exchange about Acquisition of shares in Future Colonizers and Construction Limited through CIRP vide NCLT order
+Copy of Newspaper Publication - ACC Limited has informed the exchange about newspaper publication regarding hearing of the joint company petition in the matter of Scheme of Amalgamation of ACC Limited ("Amalgamating Company") with Ambuja…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MASTERTRUSTNSE_12102026174810_Disclosure_Reg_30.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ACC_1_13102026175317_ACC_Newspaper_Advt_final_hearing.pdf)
 
 ---
 
-### Ind-Swift Laboratories Limited: General Updates
+### Acme Solar Holdings Limited: Acquisition
 **MA** · India · ✓ Verified
 
-General Updates - Ind-Swift Laboratories Limited has informed the Exchange about Disclosures under Regulation 29(2) of the SEBI (Substantial Acquisition of Shares and Takeover) Regulations, 2011
+Acquisition - Acme Solar Holdings Limited has informed the Exchange about incorporation of wholly owned subsidiaries
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/INDSWFTLAB_12102026173502_Intimation_SAST12102026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ACMECS_13102026174721_Intimation13102026.pdf)
 
 ---
 
-### Power Grid Corporation of India Limited: Acquisition
+### Ambuja Cements Limited: Copy of Newspaper Publication
 **MA** · India · ✓ Verified
 
-Acquisition - Power Grid Corporation of India Limited has informed the Exchange about Acquisition of Lakadia II Power Transmission Limited by POWERGRID under TBCB route.
+Copy of Newspaper Publication - Ambuja Cements Limited has informed the exchange about newspaper publication regarding hearing of the joint company petition in the matter of Scheme of Amalgamation of ACC Limited ("Amalgamating Company")…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/POWERGRID1_12102026173004_BSENSEReg30acquisitionDt12102026REC.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AMBUJACEM_13102026173732_ACL_ACCNewspaper_FinalHearing.pdf)
 
 ---
 
-### Master Trust Limited: General Updates
+### Adani Enterprises Limited: Press Release
 **MA** · India · ✓ Verified
 
-General Updates - Master Trust Limited has informed the Exchange about Acquisition of Shares in Future Colonizers and Constructions Limited through CIRP vide NCLT order
+Press Release - Adani Enterprises Limited has informed the Exchange regarding a press release dated October 13, 2026, titled "Adani Enterprises, Jabil Sign MoU for 50:50 Data Centre Hardware Joint Venture".
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MASTERTRUSTNSE_12102026172241_Disclosure_Reg_30.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_13102026173511_AELIntimationMediaRelease13102026.pdf)
 
 ---
 
-### Shankara Building Products Limited: Public Announcement-Open Offer
+### Aequs Limited: General Updates
 **MA** · India · ✓ Verified
 
-Public Announcement-Open Offer - Corporate Professionals Capital Private Limited has Submitted to the Exchange a copy of post offer advertisement in terms of Regulation 18(12) of Securities and Exchange Board of India (Substantial…
+General Updates - Aequs Limited has informed the Exchange about the receipt of order from Office of the Regional Director, South Western Region in respect of rejection of the Scheme of Amalgamation between Aequs Limited (Transferee…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_12102026162141_SHANKARA.zip)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AEQUSLIMITED_13102026171711_SE_Intimation_RD_Order.pdf)
 
 ---
 
-### Tata Motors Passenger Vehicles Limited: Press Release
+### HEG Advanced Materials Limited: Updates
 **MA** · India · ✓ Verified
 
-Press Release - Tata Motors Passenger Vehicles Limited has informed the Exchange regarding a press release dated October 12, 2026, titled "Stellantis and Tata Motors Passenger Vehicles Broaden Strategic Partnership to include Advanced…
+Updates - HEG Advanced Materials Limited has informed the Exchange regarding 'Change in name of HEG Graphite Limited (Resulting Company as per Composite Scheme of Arrangement) to HEG Limited'.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TATAMOTORSSJS_12102026155833_NSEBSETraverse.pdf)
-
----
-
-### Shakti Pumps (India) Limited: Acquisition
-**MA** · ₹10 cr · India · ✓ Verified
-
-Acquisition - Shakti Pumps (India) Limited has informed the Exchange that the Company has invested Rs. 10 Crores in it's Wholly Owned Subsidiary i.e Shakti Energy Solutions Limited.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SHAKTIPUMP_12102026154933_IntimationunderReg30.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HEGAM_13102026153450_StEX_HEGGtoHEG__13102026.pdf)
 
 ---
 
-### Shakti Pumps (India) Limited: Acquisition
-**MA** · ₹5 cr · India · ✓ Verified
-
-Acquisition - Shakti Pumps (India) Limited has informed the Exchange that Company has invested Rs. 5 crores in it's Wholly Owned Subsidiary i.e Shakti EV Mobility Private Limited.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SHAKTIPUMP_12102026153740_IntimationunderReg30.pdf)
-
----
-
-### Goodluck India Limited: Outcome of Board Meeting
+### Info Edge (India) Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Outcome of Board Meeting - Goodluck India Limited has informed the Exchange regarding Outcome of Board Meeting held on October 12, 2026.We wish to inform you that the Board of Directors of the Company in its meeting, held today i.e. 12th…
+Acquisition - Info Edge (India) Limited has informed the Exchange about Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/GOODLUCK_12102026125629_BM_outcome_12102026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NAUKRI2_13102026132622_SE_Intimation_SISL_and_SIHL_13102026.pdf)
 
 ---
 
-### Veranda Learning Solutions Limited: General Updates
+### Bandhan Bank Limited: News Verification
 **MA** · India · ✓ Verified
 
-General Updates - Apportionment of cost of acquisition of Equity Shares of Veranda Learning Solutions Limited ( Company / VLS ) and equity shares of J.K.Shah Commerce Education Limited ( JSCEL ) pursuant to Composite Scheme of Arrangement…
+News Verification - The Exchange has sought clarification from Bandhan Bank Limited with respect to recent news item captioned Bandhan Bank stock jumps 7% on reports of Abu Dhabi's IHC exploring promoter stake acquisition. The response…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Verandaipo_12102026124838_JSCELGuidancetoSH.pdf)
-
----
-
-### The Bombay Burmah Trading Corporation Limited: Disclosure under SEBI Takeover Regulations
-**MA** · Mumbai · ✓ Verified
-
-Disclosure under SEBI Takeover Regulations - Nowrosjee Wadia and Sons Limited has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_12102026113459_disc.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/BANDHANBNK_13102026131918_SE_Disclosure_Rumour_Verification_13102026_sd.pdf)
 
 ---
 
-### Emcure Pharmaceuticals Limited: Amalgamation/Merger
+### Maithan Alloys Limited: Others
 **MA** · India · ✓ Verified
 
-Amalgamation/Merger - Emcure Pharmaceuticals Limited has informed the Exchange that the Board of Directors at the meeting held on October 12, 2026 have approved the proposed Scheme of Amalgamation of Zuventus Healthcare Limited and Emcutix…
+Others - Maithan Alloys Limited has informed the Exchange about Acquisition of Equity Shares through Stock Exchange.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/EMCURE_12102026103306_OutcomeofBM12102026_Final.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MAITHANALL_13102026114440_HFCL13102026sd.pdf)
 
 ---
 
-### TD Power Systems Limited: Allotment of Securities
+### Bandhan Bank Limited: News Verification
+**MA** · India · ✓ Verified
+
+News Verification - The Exchange has sought clarification from Bandhan Bank Limited with respect to recent news item captioned Bandhan Bank stock jumps 7% on reports of Abu Dhabi's IHC exploring promoter stake acquisition. The response…
+
+[Open source ↗](-)
+
+---
+
+### NGL Fine-Chem Limited: Updates
+**MA** · India · ✓ Verified
+
+Updates - NGL Fine-Chem Limited has informed the Exchange regarding 'Intimation regarding receipt of SEBI Exemption Order under Regulation 11(5) of the SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011'.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NGL2022_13102026105213_Final_Reg_30_Disclosure_SEBI_Order_Signed.pdf)
+
+---
+
+### Shivam Autotech Limited: Updates
 **IPO** · India · ✓ Verified
 
-Allotment of Securities - TD Power Systems Limited has informed the Exchange regarding allotment of 7741935 securities pursuant to Qualified Institution Placement at its meeting held on October 12, 2026
+Updates - Shivam Autotech Limited has informed the Exchange regarding 'Submissiof Letter of Offer for Rights Issue of Fully Paid-Up Equity Shares of Shivam Autotech Limited.'.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TDPOWERSYS_12102026220859_Draft_Outomce_letter_-_3nd_FRC_Meeting_Allotment_.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SHIVAMAUTO_13102026201338_SignedIntimationofLOFFiling13102026.pdf)
 
 ---
 
-### TD Power Systems Limited: Qualified Institutional Placement
+### Shivam Autotech Limited: Updates
 **IPO** · India · ✓ Verified
 
-Qualified Institutional Placement - TD Power Systems Limited has informed the Exchange about qualified Institutional Placement
+Updates - Shivam Autotech Limited has informed the Exchange regarding 'Submission Of Letter Of Offer For Rights Issue Of Fully Paid-Up Equity Shares Of Shivam Autotech Limited'.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TDPOWERSYS_12102026220720_Draft_Outomce_letter_-_3nd_FRC_Meeting_Allotment_.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SHIVAMAUTO_13102026195633_SALLOFFilingVersion13102026.pdf)
 
 ---
 
-### TD Power Systems Limited: Qualified Institutional Placement
+### Hitech Corporation Limited: General Updates
 **IPO** · India · ✓ Verified
 
-Qualified Institutional Placement - TD Power Systems Limited has informed the Exchange about qualified Institutional Placement
+General Updates - Hitech Corporation Limited has informed the Exchange about Outcome Of The Reverse Book building Process Under Regulation 17(3) And Other Applicable Provisions Of The Securities And Exchange Board Of India (Delisting Of…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TDPOWERSYS_12102026200418_Covering_Letter-SG.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HITECHCORP_13102026182406_Reg_30__Outcome_of_RBB_disclosure.pdf)
 
 ---
 
-### TD Power Systems Limited: General Updates
+### PTC Industries Limited: Press Release
 **IPO** · India · ✓ Verified
 
-General Updates - TD Power Systems Limited has informed the Exchange about Qualified Institutional Placement
+Press Release - PTC Industries Limited has informed the Exchange regarding a press release dated October 13, 2026, titled "PTC Industries Raises &#8377;1,800 Crore Through Qualified Institutions Placement".
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TDPOWERSYS_12102026194731_Covering_Letter-SG.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/PTCINDUSTRIES_13102026150852_Exchange_QIP_PressRelease.pdf)
 
 ---
 
-### Kothari Sugars And Chemicals Limited: Shareholders meeting
+### Indian Energy Exchange Limited: General Updates
+**IPO** · India · ✓ Verified
+
+General Updates - Indian Energy Exchange Limited has informed the Exchange about General Updates about Receipt of Observation Letter from SEBI by Indian Gas Exchange Limited, An Associate Company of IEX, for its Proposed Initial Public…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IEX_13102026132246_IEX_Intimation_IGX_DRHP_SEBI_Observation_Letter_Signed.pdf)
+
+---
+
+### Siti Networks Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Shareholders meeting - Kothari Sugars And Chemicals Limited has informed the Exchange regarding Notice Convening Meeting of the Equity Shareholders of the Company pursuant to the Order of Hon'ble NCLT, Chennai Bench - 1
+Corporate Insolvency Resolution Process - Siti Networks Limited has informed the Exchange about Corporate Insolvency Resolution Process
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KOTARISUG_12102026183738_1_IntimationofNoticeofShareholders.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SITINET_13102026211145_App_of_RP.pdf)
 
 ---
 
-### Kothari Petrochemicals Limited: Shareholders meeting
+### DPSC Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Shareholders meeting - Kothari Petrochemicals Limited has informed the Exchange regarding Notice Convening Meeting of the Equity Shareholders of the Company pursuant to the Order of Hon'ble NCLT, Chennai Bench - 1
+Corporate Insolvency Resolution Process - DPSC Limited has informed the Exchange about Corporate Insolvency Resolution Process-Prior Intimation of the 9th (Ninth) Meeting of the Committee of Creditors (CoC) of India Power Corporation…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KOTHARIPET_12102026180919_1_IntimationofNoticeofShareholders.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/DPSCLTD_13102026203619_Intimationof9thCoCMeetingunderReg30ofLODR13102026.pdf)
 
 ---
 
 ### SKIL Infrastructure Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - SKIL Infrastructure Limited has informed the Exchange regarding the postponement of the 13th COC meeting.
+Corporate Insolvency Resolution Process - SKIL Infrastructure Limited has informed the Exchange regarding the Pre Facto Intimation of the Fourteenth (14th) Committee of Creditors meeting to be held on Thursday, October 15, 2026
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Skilinfra_12102026151529_Letter_Postponement_Intimation_13th_COC.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/Skilinfra_13102026192110_SKIL_Letter_Intimation_14th_COC.pdf)
+
+---
+
+### SKIL Infrastructure Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process - SKIL Infrastructure Limited has informed the Exchange regarding the Thirteenth (13th) Committee of Creditors meeting held on Tuesday, October 13, 2026
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/Skilinfra_13102026173519_Letter_Outcome_13th_COC.pdf)
+
+---
+
+### Auri Grow India Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process - Auri Grow India Limited has informed the Exchange about Corporate Insolvency Resolution Process
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GODHA_13102026173251_Claims_12102026.pdf)
+
+---
+
+### The Hi-Tech Gears Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process - The Hi-Tech Gears Limited has informed the Exchange about Corporate Insolvency Resolution Process
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HITECHGEAR_13102026164901_Intimation_Stxsd.pdf)
+
+---
+
+### Polycab India Limited: Press Release
+**IBC** · India · ✓ Verified
+
+Press Release - Polycab India Limited has informed the Exchange regarding a press release dated October 13, 2026, titled "Press Release on NCLAT Order".
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/POLYCAB_13102026164554_StockExchangeIntimation-Press_Release.pdf)
+
+---
+
+### Share India Securities Limited: General Updates
+**IBC** · India · ✓ Verified
+
+General Updates - We are pleased to inform you that the Hon'ble NCLT, Ahmedabad Bench - 1, vide its Order pronounced on October 12, 2026, has rectified the Appointed Date of the Scheme from October 01, 2023 to April 01, 2026.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SISL_13102026163032_Reg30Order131026.pdf)
+
+---
+
+### Authum Investment & Infrastructure Limited: Others
+**IBC** · India · ✓ Verified
+
+Others - Authum Investment & Infrastructure Limited has informed the Exchange about successful discharged of its obligations required for the implementation of the Resolution Plan.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/Authum123_13102026150627_CompletionofImplementationPlan.pdf)
+
+---
+
+### AGS Transact Technologies Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process - AGS Transact Technologies Limited has informed the Exchange about Corporate Insolvency Resolution Process
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AGSTRA_13102026080408_Intimation_to_BSE_And_NSE_-_19th_Coc_meeting_-_Final.pdf)
 
 ---
 
