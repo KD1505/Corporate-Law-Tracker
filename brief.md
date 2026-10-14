@@ -1,149 +1,149 @@
 # Corporate Law Tracker - Daily Brief
-_13 October 2026_
+_14 October 2026_
 
-34 new development(s).
+28 new development(s).
 
-### Greaves Cotton Limited: Certificate under SEBI (Depositories and Participants) Regulations, 2018
-**REG** · ₹000000221 · India · ✓ Verified
+### Khaitan & Co, Trilegal act on Inox Clean Energy ₹10,000 crore proposed IPO
+**IPO** · ₹10,000 cr · India · Reported
 
-Certificate under SEBI (Depositories and Participants) Regulations, 2018 - In compliance with Regulation 74(5) of SEBI (Depositories and Participants) Regulations, 2018, we enclose herewith a copy of the confirmation certificate dated 12th…
+Inox Clean Energy Limited has filed a draft red herring prospectus for an initial public offering aggregating up to ₹10,000 crore, comprising a fresh issue aggregating of ₹8,000 crore and an offer for sale of ₹2,000 crore by the promoter…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/GREAVESCOT_13102026173128_Regulation_74_5__30092026.pdf)
-
----
-
-### Aegis Logistics Limited: Press Release
-**MA** · India · ✓ Verified
-
-Press Release - Aegis Logistics Limited has informed the Exchange regarding a press release dated October 13, 2026, titled " Aegis signs definitive agreement for its proposed acquisition of a majority stake in Tristar ".
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AEGISCHEM_13102026233905_ALL_SE_Pressrelease_Tristar_Signed.pdf)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-trilegal-act-on-inox-clean-energy-10000-crore-proposed-ipo)
 
 ---
 
-### Aegis Logistics Limited: General Updates
-**MA** · India · ✓ Verified
+### Khaitan & Co, Dentons Link Legal, Hogan Lovells Cadwalader act on INOX Green Energy ₹300 crore QIP
+**IPO** · ₹300 cr · Cross-border · Reported
 
-General Updates - Aegis Logistics Limited has informed the Exchange about Acquisition of 89.8% stake of Tristar Holdings Limited by the Company via its 100% step-down subsidiary Aegis Logistics International Pte Ltd. (collectively Aegis)
+Inox Green Energy Services Limited has made a qualified institutions placement of equity shares aggregating to ₹300 crore. Khaitan & Co advised INOX Green Energy Services on this QIP.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AEGISCHEM_13102026232700_ALL_SE_BM_Outcome_AcquisitionTristar_Signed.pdf)
-
----
-
-### Advent Hotels International Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - Advent Hotels International Limited has informed the Exchange about Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 - Acquisition
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ADVENTHTL_13102026201212_seintimation.pdf)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-dentons-link-legal-hogan-lovells-cadwalader-act-on-inox-green-energy-300-crore-qip)
 
 ---
 
-### GTPL Hathway Limited: General Updates
-**MA** · India · ✓ Verified
+### Capri Global Capital Limited: General Updates
+**PE** · ₹4,000 cr · Cross-border · ✓ Verified
 
-General Updates - GTPL Hathway Limited has informed the Exchange about approval of acquisition of balance 74% equity stake of DL GTPL Cabnet Private Limited as per the details enclosed.
+General Updates - Capri Global Capital Limited has informed the Exchange about General Updates - The Board of Directors of the Company at its meeting held today, i.e., October 14, 2026, has considered and approved the Raising of funds up…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/GTPLHL_13102026195252_Outcome_BM_Intimation.pdf)
-
----
-
-### Orient Cement Limited: Copy of Newspaper Publication
-**MA** · India · ✓ Verified
-
-Copy of Newspaper Publication - Orient Cement Limited has informed the exchange about Newspaper Publication regarding hearing of Joint Company Petition before the Hon''ble NCLT, Ahmedabad Bench in connection with the Scheme of Amalgamation…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ORIENTCEM_13102026191119_OCL_Newspaper_Hearing_131012026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/CGCL_14102026192904_Outcome_of_Board_Meeting.pdf)
 
 ---
 
-### Ambuja Cements Limited: Copy of Newspaper Publication
+### AXISCADES Technologies Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Copy of Newspaper Publication - Ambuja Cements Limited has informed the exchange about Newspaper Publication regarding hearing of Joint Company Petition before the Hon''ble NCLT, Ahmedabad Bench in connection with the Scheme of…
+Acquisition - AXISCADES Technologies Limited has informed the Exchange about Update on Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AMBUJACEM_13102026184812_ACL_Orient_FinalHearing_13102026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AXISCADES_14102026233511_UpdatesonAcquisition_14102026.pdf)
 
 ---
 
-### Hubtown Limited: Acquisition
+### AXISCADES Technologies Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - Hubtown Limited has informed the Exchange about Acquisition in subsidiary Company Rare Townships Pvt Ltd
+Acquisition - AXISCADES Technologies Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HUBTOWN_13102026181406_SE_Intimation_for_Right_Issue_of_RTPL-Final.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AXISCADES_14102026230046_Reg30AcquisitionITSJ_14102026.pdf)
 
 ---
 
-### ACC Limited: Copy of Newspaper Publication
+### Highway Infrastructure Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Copy of Newspaper Publication - ACC Limited has informed the exchange about newspaper publication regarding hearing of the joint company petition in the matter of Scheme of Amalgamation of ACC Limited ("Amalgamating Company") with Ambuja…
+Acquisition - Highway Infrastructure Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ACC_1_13102026175317_ACC_Newspaper_Advt_final_hearing.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HIGHWAY123_14102026204851_HIL_BMOutcome_14102026.pdf)
 
 ---
 
-### Acme Solar Holdings Limited: Acquisition
+### Laurus Labs Limited: General Updates
 **MA** · India · ✓ Verified
 
-Acquisition - Acme Solar Holdings Limited has informed the Exchange about incorporation of wholly owned subsidiaries
+General Updates - Laurus Labs Limited has informed the Exchange about Update on Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ACMECS_13102026174721_Intimation13102026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/LAURUSLABS_14102026200653_UpdateOnInvInKRKA14102026.pdf)
 
 ---
 
-### Ambuja Cements Limited: Copy of Newspaper Publication
+### INDO-MIM Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Copy of Newspaper Publication - Ambuja Cements Limited has informed the exchange about newspaper publication regarding hearing of the joint company petition in the matter of Scheme of Amalgamation of ACC Limited ("Amalgamating Company")…
+Acquisition - INDO-MIM Limited has informed the Exchange about Acquisition.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AMBUJACEM_13102026173732_ACL_ACCNewspaper_FinalHearing.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/INDOMIM_14102026192321_INDO_MIM-BM_Outcome_14-10-2026.pdf)
 
 ---
 
-### Adani Enterprises Limited: Press Release
+### Algoquant Fintech Limited: General Updates
 **MA** · India · ✓ Verified
 
-Press Release - Adani Enterprises Limited has informed the Exchange regarding a press release dated October 13, 2026, titled "Adani Enterprises, Jabil Sign MoU for 50:50 Data Centre Hardware Joint Venture".
+General Updates - Algoquant Fintech Limited has informed the Exchange about General Updates on Acquisition of Shares by Right Issue in the Subsidiary Company
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_13102026173511_AELIntimationMediaRelease13102026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ALGOQUANT_14102026190839_AQ_cap_RI_AFL_Intimation_signed.pdf)
 
 ---
 
-### Aequs Limited: General Updates
+### Turtlemint Fintech Solutions Limited: Acquisition
 **MA** · India · ✓ Verified
 
-General Updates - Aequs Limited has informed the Exchange about the receipt of order from Office of the Regional Director, South Western Region in respect of rejection of the Scheme of Amalgamation between Aequs Limited (Transferee…
+Acquisition - Investment in Turtlemint Insurance Broking Services Private Limited, Wholly Owned Subsidiary of the Company, by way of subscription to Rights Issue
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AEQUSLIMITED_13102026171711_SE_Intimation_RD_Order.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TURTLEMINT_14102026185855_Reg_30_Intimation-Aquisition_Signed.pdf)
 
 ---
 
-### HEG Advanced Materials Limited: Updates
+### Brooks Laboratories Limited: Demerger
 **MA** · India · ✓ Verified
 
-Updates - HEG Advanced Materials Limited has informed the Exchange regarding 'Change in name of HEG Graphite Limited (Resulting Company as per Composite Scheme of Arrangement) to HEG Limited'.
+Demerger - Brooks Laboratories Limited has informed the Exchange about Demerger
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HEGAM_13102026153450_StEX_HEGGtoHEG__13102026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/BROOKS_14102026184315_00_Outcome_of_BM.pdf)
 
 ---
 
-### Info Edge (India) Limited: Acquisition
+### United Foodbrands Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - Info Edge (India) Limited has informed the Exchange about Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015.
+Acquisition - United Foodbrands Limited has informed the Exchange about incorporation of a step-down subsidiary in United Kingdom
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NAUKRI2_13102026132622_SE_Intimation_SISL_and_SIHL_13102026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/BARBEQUE_14102026172505_IncorporationOfSDSUFBLUKLimited.pdf)
 
 ---
 
-### Bandhan Bank Limited: News Verification
+### Bajaj Healthcare Limited: General Updates
 **MA** · India · ✓ Verified
 
-News Verification - The Exchange has sought clarification from Bandhan Bank Limited with respect to recent news item captioned Bandhan Bank stock jumps 7% on reports of Abu Dhabi's IHC exploring promoter stake acquisition. The response…
+General Updates - Bajaj Healthcare Limited has informed the Exchange about General Updates- Receipt of Hon ble NCLT Order approving Acquisition of Genrx Pharmaceuticals Private Limited on a Going Concern Basis
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/BANDHANBNK_13102026131918_SE_Disclosure_Rumour_Verification_13102026_sd.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/BAJAJHCARE_14102026161906_Reg_30_Intimation_for_NCLT_Final_Order_Final.pdf)
+
+---
+
+### Seamec Limited: Updates
+**MA** · India · ✓ Verified
+
+Updates - Seamec Limited has informed the Exchange regarding 'Intimation on Takeover of Vessel "SEAMEC ANANT"'.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SEAMECLTD_14102026160821_NSEBSETakeoverofVesselSEAMECANANT14102026.pdf)
+
+---
+
+### Indo Count Industries Limited: Disclosure under SEBI Takeover Regulations
+**MA** · India · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations - Orbis Consulting AG, as trustee of The Lhochhar Trust has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_14102026151406_Disclosure10.pdf)
+
+---
+
+### DRC Systems India Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - DRC Systems India Limited has informed the Exchange about update on Investment in Skizzle Technolabs India Private Limited
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/DRCSYSTEMS_14102026125250_DRCOutcomeofBM14102026.pdf)
 
 ---
 
@@ -152,151 +152,61 @@ News Verification - The Exchange has sought clarification from Bandhan Bank Limi
 
 Others - Maithan Alloys Limited has informed the Exchange about Acquisition of Equity Shares through Stock Exchange.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MAITHANALL_13102026114440_HFCL13102026sd.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MAITHANALL_14102026125134_HFCL13102026.pdf)
 
 ---
 
-### Bandhan Bank Limited: News Verification
+### JSW Energy Limited: General Updates
 **MA** · India · ✓ Verified
 
-News Verification - The Exchange has sought clarification from Bandhan Bank Limited with respect to recent news item captioned Bandhan Bank stock jumps 7% on reports of Abu Dhabi's IHC exploring promoter stake acquisition. The response…
+General Updates - JSW Energy Limited has informed the Exchange about intimation of receipt of certified copy of order sanctioning the Scheme of Arrangement between GE Power India Limited ( GEPIL or Demerged Company ) and JSW Energy…
 
-[Open source ↗](-)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/KRUTIKAJSWEL_14102026121618_SEintimationreceiptoforderFinal.pdf)
 
 ---
 
-### NGL Fine-Chem Limited: Updates
+### GE Power India Limited: General Updates
+**MA** · Mumbai · ✓ Verified
+
+General Updates - GE Power India Limited has informed the Exchange about receipt of certified copy of the order passed by the Hon'ble National Company Law Tribunal, Mumbai Bench sanctioning the Scheme of Arrangement
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GEPIL_14102026121445_GEPIL_SE_Disclosure-_Certified_Order_NCLT_signed.pdf)
+
+---
+
+### GMR AIRPORTS LIMITED: Acquisition
 **MA** · India · ✓ Verified
 
-Updates - NGL Fine-Chem Limited has informed the Exchange regarding 'Intimation regarding receipt of SEBI Exemption Order under Regulation 11(5) of the SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011'.
+Acquisition - GMR AIRPORTS LIMITED has informed the Exchange about Incorporation of Wholly Owned Subsidiary
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NGL2022_13102026105213_Final_Reg_30_Disclosure_SEBI_Order_Signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GMRINFRA_14102026074327_Announcement-Incorporation_of_WOS.pdf)
 
 ---
 
-### Shivam Autotech Limited: Updates
+### Reliance Industries Limited: General Updates
 **IPO** · India · ✓ Verified
 
-Updates - Shivam Autotech Limited has informed the Exchange regarding 'Submissiof Letter of Offer for Rights Issue of Fully Paid-Up Equity Shares of Shivam Autotech Limited.'.
+General Updates - Proposed Initial Public Offer of Jio Platforms Limited.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SHIVAMAUTO_13102026201338_SignedIntimationofLOFFiling13102026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/kavinavora_14102026201111_RIL_SE_14102026_.pdf)
 
 ---
 
-### Shivam Autotech Limited: Updates
+### Cemindia Projects Limited: General Updates
 **IPO** · India · ✓ Verified
 
-Updates - Shivam Autotech Limited has informed the Exchange regarding 'Submission Of Letter Of Offer For Rights Issue Of Fully Paid-Up Equity Shares Of Shivam Autotech Limited'.
+General Updates - Cemindia Projects Limited has informed the Exchange about Qualified Institutional Placement
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SHIVAMAUTO_13102026195633_SALLOFFilingVersion13102026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ITD_14102026190148_Stock_exchange_Issue_opening_PPD_and_floor_price_final.pdf)
 
 ---
 
-### Hitech Corporation Limited: General Updates
+### Reliance Industries Limited: General Updates
 **IPO** · India · ✓ Verified
 
-General Updates - Hitech Corporation Limited has informed the Exchange about Outcome Of The Reverse Book building Process Under Regulation 17(3) And Other Applicable Provisions Of The Securities And Exchange Board Of India (Delisting Of…
+General Updates - Proposed Initial Public Offer of Jio Platforms Limited - filing of the Red Herring Prospectus.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HITECHCORP_13102026182406_Reg_30__Outcome_of_RBB_disclosure.pdf)
-
----
-
-### PTC Industries Limited: Press Release
-**IPO** · India · ✓ Verified
-
-Press Release - PTC Industries Limited has informed the Exchange regarding a press release dated October 13, 2026, titled "PTC Industries Raises &#8377;1,800 Crore Through Qualified Institutions Placement".
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PTCINDUSTRIES_13102026150852_Exchange_QIP_PressRelease.pdf)
-
----
-
-### Indian Energy Exchange Limited: General Updates
-**IPO** · India · ✓ Verified
-
-General Updates - Indian Energy Exchange Limited has informed the Exchange about General Updates about Receipt of Observation Letter from SEBI by Indian Gas Exchange Limited, An Associate Company of IEX, for its Proposed Initial Public…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IEX_13102026132246_IEX_Intimation_IGX_DRHP_SEBI_Observation_Letter_Signed.pdf)
-
----
-
-### Siti Networks Limited: Corporate Insolvency Resolution Process
-**IBC** · India · ✓ Verified
-
-Corporate Insolvency Resolution Process - Siti Networks Limited has informed the Exchange about Corporate Insolvency Resolution Process
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SITINET_13102026211145_App_of_RP.pdf)
-
----
-
-### DPSC Limited: Corporate Insolvency Resolution Process
-**IBC** · India · ✓ Verified
-
-Corporate Insolvency Resolution Process - DPSC Limited has informed the Exchange about Corporate Insolvency Resolution Process-Prior Intimation of the 9th (Ninth) Meeting of the Committee of Creditors (CoC) of India Power Corporation…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DPSCLTD_13102026203619_Intimationof9thCoCMeetingunderReg30ofLODR13102026.pdf)
-
----
-
-### SKIL Infrastructure Limited: Corporate Insolvency Resolution Process
-**IBC** · India · ✓ Verified
-
-Corporate Insolvency Resolution Process - SKIL Infrastructure Limited has informed the Exchange regarding the Pre Facto Intimation of the Fourteenth (14th) Committee of Creditors meeting to be held on Thursday, October 15, 2026
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Skilinfra_13102026192110_SKIL_Letter_Intimation_14th_COC.pdf)
-
----
-
-### SKIL Infrastructure Limited: Corporate Insolvency Resolution Process
-**IBC** · India · ✓ Verified
-
-Corporate Insolvency Resolution Process - SKIL Infrastructure Limited has informed the Exchange regarding the Thirteenth (13th) Committee of Creditors meeting held on Tuesday, October 13, 2026
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Skilinfra_13102026173519_Letter_Outcome_13th_COC.pdf)
-
----
-
-### Auri Grow India Limited: Corporate Insolvency Resolution Process
-**IBC** · India · ✓ Verified
-
-Corporate Insolvency Resolution Process - Auri Grow India Limited has informed the Exchange about Corporate Insolvency Resolution Process
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/GODHA_13102026173251_Claims_12102026.pdf)
-
----
-
-### The Hi-Tech Gears Limited: Corporate Insolvency Resolution Process
-**IBC** · India · ✓ Verified
-
-Corporate Insolvency Resolution Process - The Hi-Tech Gears Limited has informed the Exchange about Corporate Insolvency Resolution Process
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HITECHGEAR_13102026164901_Intimation_Stxsd.pdf)
-
----
-
-### Polycab India Limited: Press Release
-**IBC** · India · ✓ Verified
-
-Press Release - Polycab India Limited has informed the Exchange regarding a press release dated October 13, 2026, titled "Press Release on NCLAT Order".
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/POLYCAB_13102026164554_StockExchangeIntimation-Press_Release.pdf)
-
----
-
-### Share India Securities Limited: General Updates
-**IBC** · India · ✓ Verified
-
-General Updates - We are pleased to inform you that the Hon'ble NCLT, Ahmedabad Bench - 1, vide its Order pronounced on October 12, 2026, has rectified the Appointed Date of the Scheme from October 01, 2023 to April 01, 2026.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SISL_13102026163032_Reg30Order131026.pdf)
-
----
-
-### Authum Investment & Infrastructure Limited: Others
-**IBC** · India · ✓ Verified
-
-Others - Authum Investment & Infrastructure Limited has informed the Exchange about successful discharged of its obligations required for the implementation of the Resolution Plan.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Authum123_13102026150627_CompletionofImplementationPlan.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/kavinavora_14102026183404_RIL_SE14102026.pdf)
 
 ---
 
@@ -305,7 +215,43 @@ Others - Authum Investment & Infrastructure Limited has informed the Exchange ab
 
 Corporate Insolvency Resolution Process - AGS Transact Technologies Limited has informed the Exchange about Corporate Insolvency Resolution Process
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AGSTRA_13102026080408_Intimation_to_BSE_And_NSE_-_19th_Coc_meeting_-_Final.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AGSTRA_14102026202024_Intimation_to_BSE_And_NSE_-_19th_Coc_meeting_-_Preponement.pdf)
+
+---
+
+### Siti Networks Limited: Corporate Insolvency Resolution Process
+**IBC** · Mumbai · ✓ Verified
+
+Corporate Insolvency Resolution Process - Siti Networks Limited has informed that this is in continuation of our earlier communications (i.e. dated October 13, 2026), pursuant to Regulation 30 of the Securities and Exchange Board of India…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SITINET_14102026182927_CIRP_Update.pdf)
+
+---
+
+### Polycab India Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process - Polycab India Limited has informed the Exchange that Hon''ble NCLAT has granted the request for early listing and the appeal is now scheduled to be held on October 15, 2026.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/POLYCAB_14102026112211_SEintimation14102026.pdf)
+
+---
+
+### Vidhigya Associates acts on Nityas Gems & Jewellery ₹108 crore IPO
+**IPO** · ₹108 cr · India · Reported
+
+Nityas Gems & Jewellery Limited has launched its initial public offering totaling ₹108.35 crore comprising entirely of a fresh issue of 1.45 crore Equity Shares. Vidhigya Associates acted as the sole legal counsel for the Issue.
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/vidhigya-associates-acts-on-nityas-gems-jewellery-108-crore-ipo)
+
+---
+
+### Resolüt Partners advises Linjemontage on Indian law aspects of its kr 710 million Nasdaq Stockholm IPO
+**IPO** · India · Reported
+
+Resolüt Partners has advised Linjemontage i Grästorp AB, a step-down subsidiary of Kalpataru Projects International Limited, on Indian securities law and corporate governance matters in connection with its initial public offering and…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/resolt-partners-advises-linjemontage-on-indian-law-aspects-of-its-kr-710-million-nasdaq-stockholm-ipo)
 
 ---
 
