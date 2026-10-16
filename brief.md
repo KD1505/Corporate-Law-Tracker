@@ -1,365 +1,230 @@
 # Corporate Law Tracker - Daily Brief
-_15 October 2026_
+_16 October 2026_
 
-43 new development(s) - top 40 shown.
+25 new development(s).
 
-### 🔴 Dreamfolks Services Limited: Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company
-**REG** · ₹1,35,09,720 · Mumbai · ✓ Verified
+### 🔴 Everest Industries Limited: General Updates
+**REG** · ₹1,12,93,02,900 · India · ✓ Verified
 
-Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company - Dreamfolks Services Limited has informed the Exchange that the Company has received favourable Order dated October 14, 2026 from the Office of the Commissioner of…
+General Updates - In furtherance to our earlier intimation dated March 27, 2026 and pursuant to Regulation 30 read with Schedule III of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 ( Listing Regulations ),…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DREAMFOLKS24_15102026161249_GST_Oct_15_2026V3_PDF_signed.pdf)
-
----
-
-### TT&A, Hogan Lovells Cadwalader advise broker on $62 million stake sale in Honasa by Peak XV, Sequoia
-**PE** · $62 mn · Cross-border · Reported
-
-Peak XV Partners Advisors India LLP (in the capacity of the Trustee of Redwood Trust), Peak XV Partners Investments VI and Sequoia Capital Global Growth Fund III - U.S./India Annex Fund, have made secondary sale of 13,333,333 equity shares…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/tta-hogan-lovells-cadwalader-advise-broker-on-62-million-stake-sale-in-honasa-by-peak-xv-sequoia)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/EVERESTINDUSTRIES_16102026124105_Intimationofpaymentoffinalcallmoney15102026.pdf)
 
 ---
 
-### AXISCADES Technologies Limited: Press Release
-**MA** · Cross-border · ✓ Verified
+### Trilegal, CMS INDUSLAW, Hogan Lovells Cadwalader act on TD Power Systems ₹600 crore QIP
+**IPO** · ₹600 cr · Bengaluru · Reported
 
-Press Release - AXISCADES Technologies Limited has informed the Exchange regarding a press release dated October 15, 2026, titled "AXISCADES XIDA to acquire Silicon Valley-based ITSJ business a ready-made US base inside the AI hardware…
+TD Power Systems Limited has raised ₹600 crore from a Qualified Institutions Placement of 77,41,935 equity shares. Trilegal advised TD Power Systems on this QIP, according to the placement document.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AXISCADES_15102026091042_PressRelease_15102026.pdf)
-
----
-
-### Cyril Amarchand Mangaldas acts on Adani Power - Druk Green Power JV for 770 MW Hydroelectric project in Bhutan
-**PE** · India · Reported
-
-Adani Power Limited has established a joint venture with Druk Green Power Corporation Limited for setting up a 770 MW Chamkharchhu-I Hydroelectric Project in the Kingdom of Bhutan on a BOOT (Build, Own, Operate, Transfer) model by entering…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-acts-on-adani-power-druk-green-power-jv-for-770-mw-hydroelectric-project-in-bhutan)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/trilegal-cms-induslaw-hogan-lovells-cadwalader-act-on-td-power-systems-600-crore-qip)
 
 ---
 
-### Texmo Pipes and Products Limited: Updates
+### Khaitan & Co advises SGS India on acquisition of Prescient Cyber Audit & Assurance
+**MA** · Cross-border · Reported
+
+SGS India Private Limited, a subsidiary of SGS SA, has acquired Prescient Cyber Audit & Assurance Private Limited - forming part of SGS Group’s global acquisition of the Prescient Security group. Khaitan & Co advised SGS India on this…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-sgs-india-on-acquisition-of-prescient-cyber-audit-assurance)
+
+---
+
+### JSA advises Biomapas Group on acquisition of Pinnaxis
+**MA** · Cross-border · Reported
+
+Biomapas Group, a portfolio company of Carbyne Equity Partners, has acquired Pinnaxis IT Solutions and Consulting Private Limited, a pharmacovigilance technology and consulting company. JSA Advocates and Solicitors advised the Biomapas…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/jsa-advises-biomapas-group-on-acquisition-of-pinnaxis)
+
+---
+
+### RBL Bank Limited: General Updates
 **MA** · India · ✓ Verified
 
-Updates - Texmo Pipes and Products Limited has informed the Exchange regarding 'Disclosure under Regulation 29[2] of SEBI [Substantial Acquisition of Shares and Takeover]Regulations, 2011'.
+General Updates - RBL Bank Limited has informed the Exchange about receipt of approval from the Reserve Bank of India for amalgamation of Indian branches of Emirates NBD Bank P.J.S.C. with RBL Bank Limited.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TEXMOPIPES_15102026235325_Regulation_29__2__RSA_Madam_Signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/RBLBANK_16102026211705_SEOct162026DisclosureSigned.pdf)
 
 ---
 
-### Texmo Pipes and Products Limited: Updates
+### Jindal Stainless Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Updates - Texmo Pipes and Products Limited has informed the Exchange regarding 'Disclosure under Regulation 29[2] of SEBI [Substantial Acquisition of Shares and Takeover]Regulations, 2011'.
+Acquisition - Jindal Stainless Limited has informed the Exchange about Acquisition by Chromeni Steels Limited, a wholly owned subsidiary of the Company.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TEXMOPIPES_15102026235210_Regulation29_2_SKA_Sir_Signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/JSL_16102026194543_JSLStockExchangeIntimationCSLOysterAcquisitionsd.pdf)
 
 ---
 
-### REC Limited: General Updates
+### Advent Hotels International Limited: Acquisition
 **MA** · India · ✓ Verified
 
-General Updates - Intimation of receipt of No Objection Certificate from the Reserve Bank of India in relation to proposed scheme of merger.
+Acquisition - Advent Hotels International Limited has informed the Exchange about Update on completion of acquisition of balance 25% equity shareholding in BD&P Hotels (India) Private Limited and its becoming a Wholly Owned Subsidiary of…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/RECLTD_15102026223533_Signed_intimation_reciept_NOC.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ADVENTHTL_16102026184937_seintimationupdate.pdf)
 
 ---
 
-### Go Digit General Insurance Limited: Press Release
+### 63 moons technologies limited: Acquisition
 **MA** · India · ✓ Verified
 
-Press Release - Go Digit General Insurance Limited has informed the Exchange regarding a press release dated October 14, 2026, titled "Fairfax Declared Strategic Buyer in Auction to Acquire Interest in IDBI Bank; Plans to Contribute…
+Acquisition - 63 moons technologies limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/GODIGITGI_15102026214442_GDGIL_Reg30_Press_Release.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/63MOONS_16102026181830_TickerIncorporation16102026.pdf)
 
 ---
 
-### Power Finance Corporation Limited: Amalgamation/Merger
+### Heritage Foods Limited: Updates
 **MA** · India · ✓ Verified
 
-Amalgamation/Merger - Intimation of receipt of No Objection certificate from Reserve Bank of India ( RBI ) in relation to proposed scheme of merger of REC Limited ( Company or Transferor Company ) with and into Power Finance Corporation…
+Updates - Heritage Foods Limited has informed the Exchange regarding 'Update on Acquisition of additional 5.60% equity share capital of M/s. Heritage Novandie Foods Limited '.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PFC2023_15102026213836_INTIMATIONNOC15102026SIGNED.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HERITGFOOD_16102026173257_Update_HNFL_Acquisition.pdf)
 
 ---
 
-### HEG Advanced Materials Limited: Updates
+### Bharat Forge Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Updates - HEG Advanced Materials Limited has informed the Exchange regarding 'Intimation by Resulting Company (As per Composite Scheme of Arrangement) regarding dropping of proceedings by GST Authority for FY 2020-21'.
+Acquisition - Bharat Forge Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HEGAM_15102026200842_StEX_HEGG_GSTProceeding_15102026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ANILSHINDE_16102026170442_SEIntimation_further_investment_KSSL_AEL.pdf)
 
 ---
 
-### Prestige Estates Projects Limited: General Updates
+### Hindware Home Innovation Limited: Scheme of Arrangement
 **MA** · India · ✓ Verified
 
-General Updates - Prestige Estates Projects Limited has informed the Exchange about Consummation of transaction in Hospitality Portfolio through strategic partnership.
+Scheme of Arrangement - Hindware Home Innovation Limited has informed the Exchange about Scheme of Arrangementunder Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 pursuant to the NCLT Order on the…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PRESTIGE_15102026200700_PEPL_SE_Disclosure.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SHIL_16102026170015_SE_NCLTOrder_HHIL.pdf)
 
 ---
 
-### Mankind Pharma Limited: Press Release
+### GFL Limited: Scheme of Arrangement
 **MA** · India · ✓ Verified
 
-Press Release - Mankind Pharma Limited has informed the Exchange regarding a press release dated October 15, 2026, titled "Press Release titled Mankind Pharma to Acquire Majority Stake in Armed Cell Therapeutics, Marking Strategic Entry…
+Scheme of Arrangement - We wish to inform you that on Thursday, October 15, 2026 the Company has received the Certified true copy of the final order pronounced by Hon'ble Tribunal (NCLT) after its hearing held on Monday 28 September, 2026.…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MANKIND1_15102026193306_Outcomefinalsd.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GFLLIMITED_16102026164424_Upload.pdf)
 
 ---
 
-### Mankind Pharma Limited: Acquisition
+### Varroc Engineering Limited: Press Release
 **MA** · India · ✓ Verified
 
-Acquisition - Mankind Pharma Limited has informed the Exchange about Acquisition
+Press Release - Varroc Engineering Limited has informed the Exchange regarding a press release dated October 16, 2026, titled "Varroc and Forsee Power to Form Joint Venture to Scale EV Battery Solutions in India".
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MANKIND1_15102026192807_Outcomefinalsd.pdf)
-
----
-
-### Tata Steel Limited: Amalgamation/Merger
-**MA** · Mumbai · ✓ Verified
-
-Amalgamation/Merger - Tata Steel Limited has informed the Exchange about receipt of certified true copy of the Order of the Hon ble National Company Law Tribunal, Mumbai Bench in the matter of the Scheme of Amalgamation of Rujuvalika…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NIDHIFADNAVIS_15102026192421_BSENSE_Signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/VARROC_16102026163520_Forsee_Press_Release.pdf)
 
 ---
 
-### Solar Industries India Limited: Acquisition
+### SG Finserve Limited: General Updates
 **MA** · India · ✓ Verified
 
-Acquisition - Solar Industries India Limited has informed the Exchange about Acquisition
+General Updates - SG Finserve Limited has informed the Exchange about disclosure under Reg 30 of SEBI LODR - Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SOLARINDS_15102026185821_DisclosureSEL15Oct2026SD.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SGFINSERVE_16102026141305_Outcometoupload.pdf)
 
 ---
 
-### Cupid Limited: Acquisition
+### Balkrishna Paper Mills Limited: Scheme of Arrangement
 **MA** · India · ✓ Verified
 
-Acquisition - Cupid Limited has informed the Exchange about Update on Acquisition
+Scheme of Arrangement - Balkrishna Paper Mills Limited has informed the Exchange about Scheme of Arrangement
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CUPID_15102026185754_SE_Intimation_Conversion_of_Warrants-_Update_on_Acquistion.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/BALKRISHNA_16102026133502_IntimationtoNSE.pdf)
 
 ---
 
-### Baazar Style Retail Limited: Acquisition
+### Wipro Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - Baazar Style Retail Limited has informed the Exchange about Incorporation of a wholly owned subsidiary
+Acquisition - Wipro Limited has informed the Exchange that pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 and para 202.05 read with para 202.06 of the NYSE Listed Company Manual,…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/BSRL2024_15102026185233_Abinash_Sir_Outcome_of_Board_Meeting15102026_signed.pdf)
-
----
-
-### Asian Energy Services Limited: Scheme of Arrangement
-**MA** · Mumbai · ✓ Verified
-
-Scheme of Arrangement - Asian Energy Services Limited has informed the Exchange about Receipt of certified true copy of the final order by the Hon'ble National Company Law Tribunal, Mumbai Bench ('Hon'ble Tribunal') in the matter of Scheme…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ASIANENE_15102026184623_SEIntimationofNCLTFinalOrder_signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/Wipro_Secretarial_16102026083110_Reg30SEIntimation16102026.pdf)
 
 ---
 
-### Silgo Retail Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - Silgo Retail Limited has informed the Exchange about Disclosure under Regulation 29(1) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011 received from the shareholder.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SILGO_15102026183225_disclosure_under_reg_29_1_.pdf)
-
----
-
-### Aeroflex Enterprises Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - Update Approval of Acquisition of Equity Shares of Stilonn Valves and Controls Private Limited by Aeroflex Neu Limited, a Material Subsidiary of the Company
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SATINDUSTRIES_15102026182439_AELupdate.pdf)
-
----
-
-### DCW Limited: Disclosure under SEBI Takeover Regulations
-**MA** · India · ✓ Verified
-
-Disclosure under SEBI Takeover Regulations - DCW Limited has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_15102026181931_DCW.pdf)
-
----
-
-### Aeroflex Neu Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - The Board of Directors has approved the further acquisition of 7,27,040 equity shares of Stilonn Valves and Controls Private Limited.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SAHPOLYMERSLIMITEDIPO_15102026174128_ANL_Boardmeeting_outcome_signed.pdf)
-
----
-
-### Aeroflex Neu Limited: Outcome of Board Meeting
-**MA** · India · ✓ Verified
-
-Outcome of Board Meeting - Considered and approved further acquisition of 7,27,040 equity shares of Stilonn Valves and Controls Private Limited.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SAHPOLYMERSLIMITEDIPO_15102026173824_ANL_Boardmeeting_outcome_signed.pdf)
-
----
-
-### The India Cements Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - The India Cements Limited has informed the Exchange about Acquisition
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/INDIACEM_15102026173542_SEsltr15102026Reg30Acquisitionsd.pdf)
-
----
-
-### The Phoenix Mills Limited: Amalgamation/Merger
-**MA** · India · ✓ Verified
-
-Amalgamation/Merger - The Phoenix Mills Limited has informed the Exchange about Amalgamation/Merger of Subsidiary Companies.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PHOENIXLTD_15102026170154_PML_intimationofmerger_15102026_sd.pdf)
-
----
-
-### Priti International Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - Priti International Limited has informed the Exchange about Intimation under Regulation 10(7) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PRITI_15102026165738_REG_10_7__1.pdf)
-
----
-
-### CSB Bank Limited: News Verification
-**MA** · India · ✓ Verified
-
-News Verification - The Exchange has sought clarification from CSB Bank Limited with respect to recent news item captioned CSB Bank merger with IDBI Bank likely after Fairfax deal. The response from the Company is attached.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CSBBANK_15102026163334_NSENewsClarification15102026f.pdf)
-
----
-
-### IIFL Finance Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - IIFL Finance Limited has informed the Exchange about Acquisition of India Infoline Foundation, Section 8 company.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IIFL_15102026162410_Intimation__.pdf)
-
----
-
-### CSB Bank Limited: News Verification
-**MA** · India · ✓ Verified
-
-News Verification - The Exchange has sought clarification from CSB Bank Limited with respect to recent news item captioned CSB Bank merger with IDBI Bank likely after Fairfax deal. The response from the Company is awaited.
-
-[Open source ↗](-)
-
----
-
-### Allcargo Logistics Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - Intimation regarding SEBI Order granting exemption to Shashi Kiran Shetty Family Trust under the SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ALLCARGO_15102026142926_Letter_to_SE_dscsrs_.pdf)
-
----
-
-### Tata Consultancy Services Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - Tata Consultancy Services Limited has informed the Exchange about completion of acquisition of BBY Services India LLP
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/TCS_CORPCS_15102026133009_SEInt15102026.pdf)
-
----
-
-### ArMee Infotech Limited: Updates
+### Reliance Industries Limited: Copy of Newspaper Publication
 **IPO** · India · ✓ Verified
 
-Updates - ArMee Infotech Limited has informed the Exchange regarding 'Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 ( SEBI Listing Regulations ) regarding non-execution of…
+Copy of Newspaper Publication - Newspaper Clippings Proposed Initial Public Offer of Jio Platforms Limited - Reservation for eligible RIL shareholders
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ARMEEINFOTECH_15102026221604_Intimation_Reg_30_Bondada_EPC_Project.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/kavinavora_16102026205736_RILSELetter_16102026.pdf)
 
 ---
 
-### Hitech Corporation Limited: General Updates
+### Sammaan Capital Limited: Updates
 **IPO** · India · ✓ Verified
 
-General Updates - Hitech Corporation Limited has informed the Exchange about Receipt of post offer public announcement ( Post Offer PA ) issued in accordance Regulation 17(4) and other applicable provisions of Securities and Exchange…
+Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HITECHCORP_15102026144533_Reg_30__PA_of_success_disclosure.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_16102026185200_SCL_Retail_Intimation_57_16102026_WH8.pdf)
 
 ---
 
-### Nuvoco Vistas Corporation Limited: General Updates
+### Ola Electric Mobility Limited: Copy of Newspaper Publication
+**IPO** · India · ✓ Verified
+
+Copy of Newspaper Publication - Intimation as per Regulation 84 of Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements), 2018 ( SEBI ICDR Regulations ) - Issue of advertisement in newspapers in respect of…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/OLAELECTRIC_16102026133227_SEintimationnewspaperadvertisement.pdf)
+
+---
+
+### TV Vision Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-General Updates - Nuvoco Vistas Corporation Limited has informed the Exchange about Intimation under Regulation 30 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 ( Listing…
+Corporate Insolvency Resolution Process - TV Vision Limited has informed the Exchange about Corporate Insolvency Resolution Process
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NUVOCO_15102026210513_SEIntimation.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TVVISION_16102026175700_Intimation_of_3rd_CoC_Meeting_sd.pdf)
 
 ---
 
-### DPSC Limited: Corporate Insolvency Resolution Process
+### Affle 3i Limited: Updates
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - DPSC Limited has informed the Exchange about Corporate Insolvency Resolution Process-Post facto intimation of the 9th (Ninth) Meeting of the Committee of Creditors (CoC) of India Power Corporation…
+Updates - Affle 3i Limited has informed the Exchange regarding 'Stay Order granted by Hon ble Supreme Court of India on Corporate Insolvency Resolution Process (CIRP) proceedings of Bobble pending before the National Company Law Tribunal…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DPSCLTD_15102026205716_IntimationofOutcomeof9thCOCMeeting15102026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AFFLE_16102026174951_Intimation_regarding_Supreme_Court_Order.pdf)
 
 ---
 
-### Future Enterprises Limited: Corporate Insolvency Resolution Process
+### SKIL Infrastructure Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - Future Enterprises Limited has informed the Exchange of Forty-Fifth meeting of Committee of Creditors ( CoC ) to be held Saturday, 17 October 2026.
+Corporate Insolvency Resolution Process - SKIL Infrastructure Limited has informed the Exchange regarding the adjournment of the Fourteenth (14th) Committee of Creditors meeting held on Thursday, October 15, 2026
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/FELDVRC_15102026184854_FEL_45th_CoC_Meeting_Intimation_final.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/Skilinfra_16102026140158_Letter_Adjournment_Intimation_14th_COC.pdf)
 
 ---
 
-### Future Enterprises Limited: Corporate Insolvency Resolution Process
+### Polycab India Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - Future Enterprises Limited has informed the Exchange about Forty-Fifth meeting of Committee of Creditors ( CoC ) to be held Saturday, 17 October 2026.
+Corporate Insolvency Resolution Process - Polycab India Limited has informed the Exchange about Corporate Insolvency Resolution Process
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/FELEQ_15102026184310_FEL_45th_CoC_Meeting_Intimation_final.pdf)
-
----
-
-### Astron Paper & Board Mill Limited: Corporate Insolvency Resolution Process
-**IBC** · India · ✓ Verified
-
-Corporate Insolvency Resolution Process - Astron Paper & Board Mill Limited has informed the Exchange about Corporate Insolvency Resolution Process
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ASTRON_15102026180409_Exchange_Intimation_-6th_CoC_Meeting.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/POLYCAB_16102026093958_CIRP15102026.pdf)
 
 ---
 
-### Simbhaoli Sugars Limited: Corporate Insolvency Resolution Process
-**IBC** · India · ✓ Verified
+### Kanga & Co acts on Shankesh Jewellers ₹367 crore IPO
+**IPO** · ₹367 cr · India · Reported
 
-Corporate Insolvency Resolution Process - Simbhaoli Sugars Limited is hereby informing the Exchange about the Post Facto Intimation of 4th Meeting of Committee of Creditors (COC).
+Shankesh Jewellers Limited has made Initial Public Offering aggregating to ₹367.183 crore, comprising a fresh issue of 29,482,000 equity shares and an offer for sale of 10,000,000 equity shares. Kanga & Company, Advocates and Solicitors…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SIMBHALS_15102026173816_4th_COC_Meeting_-_Post_Facto_Intimation.pdf)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/kanga-co-acts-on-shankesh-jewellers-367-crore-ipo)
 
 ---
 
-### Kanga & Co acts on Bandhan TMX ₹280 crore+ proposed IPO
-**IPO** · ₹280 cr · India · Reported
+### Rajani Associates acts on Scoobee Day Garments rights issue
+**IPO** · ₹40.5 cr · India · Reported
 
-Sai Infinium Limited, dba Bandhan TMX, has filed a draft red herring prospectus for an initial public offering of equity shares comprising a fresh issue of up to ₹280 crore and an offer for sale of up to 12,000,000 equity shares. Kanga &…
+Scoobee Day Garments (India) Limited has made a rights issue aggregating to ₹40.5 crore. Rajani Associates advised Scoobee Day Garments on this rights issue.
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/kanga-co-acts-on-bandhan-tmx-280-crore-proposed-ipo)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/rajani-associates-acts-on-scoobee-day-garments-rights-issue)
 
 ---
 

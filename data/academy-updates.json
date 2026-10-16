@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-15T20:35:47.349Z",
+  "generatedAt": "2026-10-16T20:08:17.127Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-16-0-nse-rblbank-16-oct-2026211758",
+      "sourceId": "nse-rblbank-16-oct-2026211758",
+      "date": "16 Oct 2026",
+      "category": "FEMA / FDI",
+      "headline": "RBL Bank Limited: General Updates",
+      "why": "General Updates - RBL Bank Limited has informed the Exchange about receipt of approval from the Reserve Bank of India for amalgamation of Indian branches of Emirates NBD Bank P.J.S.C. with RBL Bank Limited.",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/RBLBANK_16102026211705_SEOct162026DisclosureSigned.pdf",
+      "sourceName": "NSE filing - RBL Bank Limited"
+    },
+    {
+      "id": "academy-2026-10-16-1-nse-hindwareap-16-oct-2026170029",
+      "sourceId": "nse-hindwareap-16-oct-2026170029",
+      "date": "16 Oct 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Hindware Home Innovation Limited: Scheme of Arrangement",
+      "why": "Scheme of Arrangement - Hindware Home Innovation Limited has informed the Exchange about Scheme of Arrangementunder Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 pursuant to the NCLT Order on the…",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/SHIL_16102026170015_SE_NCLTOrder_HHIL.pdf",
+      "sourceName": "NSE filing - Hindware Home Innovation Limited"
+    },
+    {
+      "id": "academy-2026-10-16-2-nse-gfllimited-16-oct-2026164550",
+      "sourceId": "nse-gfllimited-16-oct-2026164550",
+      "date": "16 Oct 2026",
+      "category": "Companies Act",
+      "headline": "GFL Limited: Scheme of Arrangement",
+      "why": "Scheme of Arrangement - We wish to inform you that on Thursday, October 15, 2026 the Company has received the Certified true copy of the final order pronounced by Hon'ble Tribunal (NCLT) after its hearing held on Monday 28 September, 2026.…",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/GFLLIMITED_16102026164424_Upload.pdf",
+      "sourceName": "NSE filing - GFL Limited"
+    },
     {
       "id": "academy-2026-10-15-0-nse-aeroenter-15-oct-2026182555",
       "sourceId": "nse-aeroenter-15-oct-2026182555",
@@ -408,39 +441,6 @@
       "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
       "source": "https://nsearchives.nseindia.com/corporate/team_bbodade_30092026190539_CONTROLPR.pdf",
       "sourceName": "NSE filing - Control Print Limited"
-    },
-    {
-      "id": "academy-2026-09-30-2-nse-gspltrans-30-sep-2026190235",
-      "sourceId": "nse-gspltrans-30-sep-2026190235",
-      "date": "30 Sept 2026",
-      "category": "Companies Act",
-      "headline": "GSPL Transmission Limited: Updates",
-      "why": "Updates - GSPL Transmission Limited has informed the Exchange regarding 'Press Release-\"GSPC Group Scheme of Arrangement fully implemented with Listing and Trading of GSPL Transmission Limited\"'.",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/GSPLTRANS_30092026190226_NSEBSEPressRelease.pdf",
-      "sourceName": "NSE filing - GSPL Transmission Limited"
-    },
-    {
-      "id": "academy-2026-09-29-0-nse-jswcement-29-sep-2026210328",
-      "sourceId": "nse-jswcement-29-sep-2026210328",
-      "date": "29 Sept 2026",
-      "category": "Companies Act",
-      "headline": "JSW Cement Limited: Press Release",
-      "why": "Press Release - In continuation of our disclosure dated September 29, 2026, we submit herewith a Press Release on the Outcome of the Board Meeting of JSW Cement held on September 29, 2026 Approving Scheme of Arrangement.",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/JSWCL_29092026210016_Press_Release_Upload.pdf",
-      "sourceName": "NSE filing - JSW Cement Limited"
-    },
-    {
-      "id": "academy-2026-09-29-1-nse-timetechno-29-sep-2026204835",
-      "sourceId": "nse-timetechno-29-sep-2026204835",
-      "date": "29 Sept 2026",
-      "category": "Companies Act",
-      "headline": "Time Technoplast Limited: Scheme of Arrangement",
-      "why": "Scheme of Arrangement - Time Technoplast Limited has informed the Exchange about approval of the scheme of amalgamation (merger by absorption) of TPL Plastech Limited with Time Technoplast Limited and their respective shareholders and…",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/TIMETECHNO_29092026204808_Outcome29092026_signed.pdf",
-      "sourceName": "NSE filing - Time Technoplast Limited"
     }
   ]
 }
