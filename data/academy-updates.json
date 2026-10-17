@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-10-16T20:08:17.127Z",
+  "generatedAt": "2026-10-17T19:47:11.091Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-17-0-nse-jswsteel-17-oct-2026110015",
+      "sourceId": "nse-jswsteel-17-oct-2026110015",
+      "date": "17 Oct 2026",
+      "category": "Companies Act",
+      "headline": "JSW Steel Limited: Amalgamation/Merger",
+      "why": "Amalgamation/Merger - JSW Steel Limited has informed the Exchange about Order ofHon ble National Company Law Tribunal sanctioning the Scheme of Amalgamation of Piombino Steel Limited with JSW Steel Limited and theirrespective shareholders…",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/DivyaMascarenhas_17102026105940_JSWSLSEIntimationforOrdersanctioningPSLMergerOct2026.pdf",
+      "sourceName": "NSE filing - JSW Steel Limited"
+    },
+    {
+      "id": "academy-2026-10-17-1-trilegal-advises-dailyobjects-on-332-crore-serie",
+      "sourceId": "trilegal-advises-dailyobjects-on-332-crore-series-c-fundraise",
+      "date": "17 Oct 2026",
+      "category": "Competition / CCI",
+      "headline": "Trilegal advises DailyObjects on ₹332 crore Series C fundraise",
+      "why": "Firki Wholesale Private Limited, dba DailyObjects, has raised ₹332 crore from a Series C fundraise led by Xponentia Capital Partners, Anicut Capital, and Axiom Asia Private Capital. The transaction is structured as a combination of a…",
+      "interviewPrompt": "Explain the trigger, whether standstill applies, and how the point changes conditions precedent, long-stop date or remedies drafting.",
+      "source": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-dailyobjects-on-332-crore-series-c-fundraise",
+      "sourceName": "Bar & Bench - Dealstreet"
+    },
     {
       "id": "academy-2026-10-16-0-nse-rblbank-16-oct-2026211758",
       "sourceId": "nse-rblbank-16-oct-2026211758",
@@ -419,28 +441,6 @@
       "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
       "source": "https://nsearchives.nseindia.com/corporate/KRUTIKAJSWEL_01102026210850_SEintimationreceiptoforder_sd.pdf",
       "sourceName": "NSE filing - JSW Energy Limited"
-    },
-    {
-      "id": "academy-2026-09-30-0-nse-ppap-30-sep-2026202051",
-      "sourceId": "nse-ppap-30-sep-2026202051",
-      "date": "30 Sept 2026",
-      "category": "Companies Act",
-      "headline": "PPAP Automotive Limited: Shareholders meeting",
-      "why": "Shareholders meeting - Proceedings of Meetings of equity shareholders, secured and unsecured creditors of the Company pursuant to NCLT Order in the matter of Scheme of Amalgamation of Avinya Batteries Limited (Transferor Company) with PPAP…",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/PPAP_30092026201841_Proceedings.pdf",
-      "sourceName": "NSE filing - PPAP Automotive Limited"
-    },
-    {
-      "id": "academy-2026-09-30-1-nse-controlpr-30-sep-2026190729",
-      "sourceId": "nse-controlpr-30-sep-2026190729",
-      "date": "30 Sept 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "Control Print Limited: Disclosure under SEBI Takeover Regulations",
-      "why": "Disclosure under SEBI Takeover Regulations - Control Print Limited has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption provided…",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/team_bbodade_30092026190539_CONTROLPR.pdf",
-      "sourceName": "NSE filing - Control Print Limited"
     }
   ]
 }
