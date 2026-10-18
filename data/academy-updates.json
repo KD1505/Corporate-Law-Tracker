@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-17T19:47:11.091Z",
+  "generatedAt": "2026-10-18T19:39:59.221Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-18-0-nse-amber-18-oct-2026163110",
+      "sourceId": "nse-amber-18-oct-2026163110",
+      "date": "18 Oct 2026",
+      "category": "FEMA / FDI",
+      "headline": "Amber Enterprises India Limited: Acquisition",
+      "why": "Acquisition - Pursuant to Regulation 30 of SEBI LODR Regulations, we wish to inform the exchange that, IL JIN Electronics (India) Limited, a material subsidiary of the Company has entered into a Share Swap Agreement on 18th October 2026,…",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/AMBER_18102026163044_Ascent.pdf",
+      "sourceName": "NSE filing - Amber Enterprises India Limited"
+    },
+    {
+      "id": "academy-2026-10-18-1-nse-amber-18-oct-2026170916",
+      "sourceId": "nse-amber-18-oct-2026170916",
+      "date": "18 Oct 2026",
+      "category": "FEMA / FDI",
+      "headline": "Amber Enterprises India Limited: Acquisition",
+      "why": "Acquisition - Pursuant to Regulation 30 of SEBI LODR Regulations, we wish to inform the exchange that, IL JIN Electronics (India) Limited, a material subsidiary of the Company has entered into a Share Swap Agreement on 18th October 2026,…",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/AMBER_18102026170840_Power_One.pdf",
+      "sourceName": "NSE filing - Amber Enterprises India Limited"
+    },
+    {
+      "id": "academy-2026-10-18-2-nse-amber-18-oct-2026161821",
+      "sourceId": "nse-amber-18-oct-2026161821",
+      "date": "18 Oct 2026",
+      "category": "FEMA / FDI",
+      "headline": "Amber Enterprises India Limited: Agreements",
+      "why": "Agreements - Pursuant to Regulation 30 of SEBI LODR Regulations, we wish to inform the exchange that, IL JIN Electronics (India) Limited, a material subsidiary of the Company has entered into a Share Swap Agreement on 18th October 2026, in…",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/AMBER_18102026161739_Ascent.pdf",
+      "sourceName": "NSE filing - Amber Enterprises India Limited"
+    },
     {
       "id": "academy-2026-10-17-0-nse-jswsteel-17-oct-2026110015",
       "sourceId": "nse-jswsteel-17-oct-2026110015",
@@ -408,39 +441,6 @@
       "interviewPrompt": "Explain what changes for bidder eligibility, process certainty, liabilities and implementation of the resolution plan.",
       "source": "https://nsearchives.nseindia.com/corporate/TVVISION_02102026144607_Outcome_2nd_COC_meeting_Signed.pdf",
       "sourceName": "NSE filing - TV Vision Limited"
-    },
-    {
-      "id": "academy-2026-10-01-0-nse-kmsugar-01-oct-2026234733",
-      "sourceId": "nse-kmsugar-01-oct-2026234733",
-      "date": "1 Oct 2026",
-      "category": "Companies Act",
-      "headline": "K.M.Sugar Mills Limited: Scheme of Arrangement",
-      "why": "Scheme of Arrangement - K.M.Sugar Mills Limited has informed the Exchange about update on Scheme of Arrangement with respect to effective date",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/KMSUGAR_01102026233221_DEMERGERUPDATE.pdf",
-      "sourceName": "NSE filing - K.M.Sugar Mills Limited"
-    },
-    {
-      "id": "academy-2026-10-01-1-nse-gvpil-01-oct-2026212715",
-      "sourceId": "nse-gvpil-01-oct-2026212715",
-      "date": "1 Oct 2026",
-      "category": "FEMA / FDI",
-      "headline": "GE Power India Limited: General Updates",
-      "why": "General Updates - GE Power India Limited has informed the Exchange about the receipt of an Order passed by the Hon'ble National Company Law Tribunal, Mumbai Bench sanctioning the Scheme of Arrangement",
-      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
-      "source": "https://nsearchives.nseindia.com/corporate/GEPILDEEP_01102026212631_GEPIL_Intimation_NCLT_Order_Sanction.pdf",
-      "sourceName": "NSE filing - GE Power India Limited"
-    },
-    {
-      "id": "academy-2026-10-01-2-nse-jswenergy-01-oct-2026210908",
-      "sourceId": "nse-jswenergy-01-oct-2026210908",
-      "date": "1 Oct 2026",
-      "category": "FEMA / FDI",
-      "headline": "JSW Energy Limited: General Updates",
-      "why": "General Updates - Intimation of receipt of copy of order sanctioning the Scheme of Arrangementbetween GE Power India Limited ( GEPIL or Demerged Company ) and JSW Energy Limited ( Company or Resulting Company ) and their respective…",
-      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
-      "source": "https://nsearchives.nseindia.com/corporate/KRUTIKAJSWEL_01102026210850_SEintimationreceiptoforder_sd.pdf",
-      "sourceName": "NSE filing - JSW Energy Limited"
     }
   ]
 }
