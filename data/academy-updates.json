@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-18T19:39:59.221Z",
+  "generatedAt": "2026-10-19T21:47:53.026Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-19-0-nse-recltd-19-oct-2026232707",
+      "sourceId": "nse-recltd-19-oct-2026232707",
+      "date": "19 Oct 2026",
+      "category": "Companies Act",
+      "headline": "REC Limited: Scheme of Arrangement",
+      "why": "Scheme of Arrangement - Intimation of receipt of NOC from NSE and BSE in relation to proposed scheme of merger of REC Limited with and into Power Finance Corporation Limited.",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/RECLTD_19102026232553_Signed_Intimation_OL_191026.pdf",
+      "sourceName": "NSE filing - REC Limited"
+    },
+    {
+      "id": "academy-2026-10-19-1-nse-pfc-19-oct-2026223822",
+      "sourceId": "nse-pfc-19-oct-2026223822",
+      "date": "19 Oct 2026",
+      "category": "FEMA / FDI",
+      "headline": "Power Finance Corporation Limited: Amalgamation/Merger",
+      "why": "Amalgamation/Merger - Intimation of receipt of No Objection letters from BSE Limited and National Stock Exchange of India Limited in relation to proposed scheme of merger of REC Limited ( Transferor Company ) with and into Power Finance…",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/PFC2023_19102026223732_IntimationNoCNSEBSE19102026signed.pdf",
+      "sourceName": "NSE filing - Power Finance Corporation Limited"
+    },
+    {
+      "id": "academy-2026-10-19-2-nse-goclcorp-19-oct-2026210249",
+      "sourceId": "nse-goclcorp-19-oct-2026210249",
+      "date": "19 Oct 2026",
+      "category": "Companies Act",
+      "headline": "GOCL Corporation Limited: Outcome of Board Meeting",
+      "why": "Outcome of Board Meeting - GOCL Corporation Limited has informed the Exchange regarding Outcome of Board Meeting held on October 19, 2026 - Update on Scheme of Merger of HNPCL with GOCL",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/GULFCORP_19102026205624_BMOutcomeQ219102026Signed.pdf",
+      "sourceName": "NSE filing - GOCL Corporation Limited"
+    },
     {
       "id": "academy-2026-10-18-0-nse-amber-18-oct-2026163110",
       "sourceId": "nse-amber-18-oct-2026163110",
@@ -408,39 +441,6 @@
       "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
       "source": "https://nsearchives.nseindia.com/corporate/Wipro_Secretarial_03102026155257_Reg30SEIntimation03102026.pdf",
       "sourceName": "NSE filing - Wipro Limited"
-    },
-    {
-      "id": "academy-2026-10-03-1-nse-shrenik-03-oct-2026184131",
-      "sourceId": "nse-shrenik-03-oct-2026184131",
-      "date": "3 Oct 2026",
-      "category": "IBC / Distressed M&A",
-      "headline": "Shrenik Limited: Corporate Insolvency Resolution Process",
-      "why": "Corporate Insolvency Resolution Process - Shrenik Limited has informed the Exchange about Corporate Insolvency Resolution Process Outcome of the 2nd (Second) Meeting of the Committee of Creditors (CoC) of Shrenik Limited (In CIRP)",
-      "interviewPrompt": "Explain what changes for bidder eligibility, process certainty, liabilities and implementation of the resolution plan.",
-      "source": "https://nsearchives.nseindia.com/corporate/SHRENIK_03102026184106_Outcome_2nd_CoC_Meeting.pdf",
-      "sourceName": "NSE filing - Shrenik Limited"
-    },
-    {
-      "id": "academy-2026-10-02-0-nse-premexpln-02-oct-2026114913",
-      "sourceId": "nse-premexpln-02-oct-2026114913",
-      "date": "2 Oct 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "Premier Explosives Limited: General Updates",
-      "why": "General Updates - Premier Explosives Limited has informed the Exchange about Newspaper Publication of the Recommendations of the Committee of Independent Directors under Regulation 26(7) of SEBI (SAST) Regulations, 2011, on open offer to…",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/PREMEXPLN_02102026114804_BSENSEIDCRecomNewspaperPublication02102026.pdf",
-      "sourceName": "NSE filing - Premier Explosives Limited"
-    },
-    {
-      "id": "academy-2026-10-02-1-nse-tvvision-02-oct-2026144635",
-      "sourceId": "nse-tvvision-02-oct-2026144635",
-      "date": "2 Oct 2026",
-      "category": "IBC / Distressed M&A",
-      "headline": "TV Vision Limited: Corporate Insolvency Resolution Process",
-      "why": "Corporate Insolvency Resolution Process - TV Vision Limited has informed the Exchange about Corporate Insolvency Resolution Process",
-      "interviewPrompt": "Explain what changes for bidder eligibility, process certainty, liabilities and implementation of the resolution plan.",
-      "source": "https://nsearchives.nseindia.com/corporate/TVVISION_02102026144607_Outcome_2nd_COC_meeting_Signed.pdf",
-      "sourceName": "NSE filing - TV Vision Limited"
     }
   ]
 }
