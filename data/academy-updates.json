@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-19T21:47:53.026Z",
+  "generatedAt": "2026-10-20T20:58:13.536Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-20-0-nse-agarwaleye-20-oct-2026185120",
+      "sourceId": "nse-agarwaleye-20-oct-2026185120",
+      "date": "20 Oct 2026",
+      "category": "Companies Act",
+      "headline": "Dr. Agarwal's Health Care Limited: Outcome of Board Meeting",
+      "why": "Outcome of Board Meeting - Material Update on the Scheme of Amalgamation between Dr. Agarwal's Eye Hospital Limited and Dr.",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/DRAGARWALS_20102026184801_AHCL_Board_Outcome_20102026_sd.pdf",
+      "sourceName": "NSE filing - Dr. Agarwal's Health Care Limited"
+    },
+    {
+      "id": "academy-2026-10-20-1-nse-agarwaleye-20-oct-2026191149",
+      "sourceId": "nse-agarwaleye-20-oct-2026191149",
+      "date": "20 Oct 2026",
+      "category": "Companies Act",
+      "headline": "Dr. Agarwal's Health Care Limited: Record Date",
+      "why": "Record Date - Dr. Agarwal's Health Care Limited has informed the Exchange that Record date for the purpose of Scheme of Amalgamation with Dr.",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/DRAGARWALS_20102026191018_AHCL_Board_Outcome_20102026_sd.pdf",
+      "sourceName": "NSE filing - Dr. Agarwal's Health Care Limited"
+    },
+    {
+      "id": "academy-2026-10-20-2-nse-edelweiss-20-oct-2026144352",
+      "sourceId": "nse-edelweiss-20-oct-2026144352",
+      "date": "20 Oct 2026",
+      "category": "FEMA / FDI",
+      "headline": "Edelweiss Financial Services Limited: Updates",
+      "why": "Updates - Edelweiss Financial Services Limited has informed the Exchange regarding 'Disclosure under the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 in respect of price band of…",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/EDELWEISS_20102026144319_EFSLExchangeIntimationPriceband.pdf",
+      "sourceName": "NSE filing - Edelweiss Financial Services Limited"
+    },
     {
       "id": "academy-2026-10-19-0-nse-recltd-19-oct-2026232707",
       "sourceId": "nse-recltd-19-oct-2026232707",
@@ -408,39 +441,6 @@
       "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
       "source": "https://nsearchives.nseindia.com/corporate/KOTARISUG_05102026210359_IntimationofreceiptofNCLTOrder.pdf",
       "sourceName": "NSE filing - Kothari Sugars And Chemicals Limited"
-    },
-    {
-      "id": "academy-2026-10-05-2-nse-marico-05-oct-2026202319",
-      "sourceId": "nse-marico-05-oct-2026202319",
-      "date": "5 Oct 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "Marico Limited: Acquisition",
-      "why": "Acquisition - Please find attached an intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/marico_05102026201924_Seint_1.pdf",
-      "sourceName": "NSE filing - Marico Limited"
-    },
-    {
-      "id": "academy-2026-10-04-0-nse-dpscltd-04-oct-2026131636",
-      "sourceId": "nse-dpscltd-04-oct-2026131636",
-      "date": "4 Oct 2026",
-      "category": "FEMA / FDI",
-      "headline": "DPSC Limited: Corporate Insolvency Resolution Process",
-      "why": "Corporate Insolvency Resolution Process - DPSC Limited has informed the Exchange about Corporate Insolvency Resolution Process-Outcome of the Voting Results of the 8th (Eighth) Meeting of the Committee of Creditors (CoC) of India Power…",
-      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
-      "source": "https://nsearchives.nseindia.com/corporate/DPSCLTD_04102026131531_IntimationofOutcomeof8thCoCVotingResults04102026.pdf",
-      "sourceName": "NSE filing - DPSC Limited"
-    },
-    {
-      "id": "academy-2026-10-03-0-nse-wipro-03-oct-2026155323",
-      "sourceId": "nse-wipro-03-oct-2026155323",
-      "date": "3 Oct 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "Wipro Limited: Amalgamation/Merger",
-      "why": "Amalgamation/Merger - Wipro Limited has informed the Exchange that pursuant to Regulation 30 read with Para A of Part A of Schedule III of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, it is informed that…",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/Wipro_Secretarial_03102026155257_Reg30SEIntimation03102026.pdf",
-      "sourceName": "NSE filing - Wipro Limited"
     }
   ]
 }
