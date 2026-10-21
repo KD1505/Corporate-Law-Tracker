@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-20T20:58:13.536Z",
+  "generatedAt": "2026-10-21T20:56:33.149Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-21-0-nse-kajariacer-21-oct-2026123740",
+      "sourceId": "nse-kajariacer-21-oct-2026123740",
+      "date": "21 Oct 2026",
+      "category": "Deal Structuring",
+      "headline": "Kajaria Ceramics Limited: Rumour Verification - Regulation 30(11)",
+      "why": "Rumour Verification - Regulation 30(11) - Clarification on media reports regarding potential acquisition",
+      "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
+      "source": "https://nsearchives.nseindia.com/corporate/KAJARIACER_21102026123120_Clarification.pdf",
+      "sourceName": "NSE filing - Kajaria Ceramics Limited"
+    },
+    {
+      "id": "academy-2026-10-21-1-nse-jindalphot-21-oct-2026195248",
+      "sourceId": "nse-jindalphot-21-oct-2026195248",
+      "date": "21 Oct 2026",
+      "category": "FEMA / FDI",
+      "headline": "Jindal Photo Limited: General Updates",
+      "why": "General Updates - Intimation of receipt of In-principle approval for Voluntary Delisting of Equity Shares of the Company from Bombay Stock Exchange of India Limited (\"BSE\") and National Stock Exchange ( NSE ) in terms of Regulation 30 of…",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/JINDALPHOT_21102026195058_Intimation_of_delisting.pdf",
+      "sourceName": "NSE filing - Jindal Photo Limited"
+    },
+    {
+      "id": "academy-2026-10-21-2-nse-goclcorp-21-oct-2026171451",
+      "sourceId": "nse-goclcorp-21-oct-2026171451",
+      "date": "21 Oct 2026",
+      "category": "IBC / Distressed M&A",
+      "headline": "GOCL Corporation Limited: Shareholders meeting",
+      "why": "Shareholders meeting - GOCL Corporation Limited has informed the Exchange regarding Notice of NCLT Convened Meeting of Equity Shareholders to be held on November 24, 2026",
+      "interviewPrompt": "Explain what changes for bidder eligibility, process certainty, liabilities and implementation of the resolution plan.",
+      "source": "https://nsearchives.nseindia.com/corporate/GULFCORP_21102026164809_SEIntimationNCLTShareholdersMeetingSigned.pdf",
+      "sourceName": "NSE filing - GOCL Corporation Limited"
+    },
     {
       "id": "academy-2026-10-20-0-nse-agarwaleye-20-oct-2026185120",
       "sourceId": "nse-agarwaleye-20-oct-2026185120",
@@ -408,39 +441,6 @@
       "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
       "source": "https://nsearchives.nseindia.com/corporate/MEESHO_06102026221209_MLBMOutcome06Oct2026Final.pdf",
       "sourceName": "NSE filing - Meesho Limited"
-    },
-    {
-      "id": "academy-2026-10-06-2-nse-ivalue-06-oct-2026193325",
-      "sourceId": "nse-ivalue-06-oct-2026193325",
-      "date": "6 Oct 2026",
-      "category": "Deal Structuring",
-      "headline": "Ivalue Infosolutions Limited: Updates",
-      "why": "Updates - iValue Infosolutions Limited has informed the Exchange regarding the voluntary disclosure of acquisition of equity shares of the Company by the Promoter.",
-      "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
-      "source": "https://nsearchives.nseindia.com/corporate/IVALUE927_06102026193125_Disclosure.pdf",
-      "sourceName": "NSE filing - Ivalue Infosolutions Limited"
-    },
-    {
-      "id": "academy-2026-10-05-0-nse-agarwaleye-05-oct-2026224957",
-      "sourceId": "nse-agarwaleye-05-oct-2026224957",
-      "date": "5 Oct 2026",
-      "category": "Companies Act",
-      "headline": "Dr. Agarwal's Health Care Limited: Amalgamation/Merger",
-      "why": "Amalgamation/Merger - Dr. Agarwal's Health Care Limited has informed the Exchange about the receipt of Sanction from the Hon'ble NCLT, Chennai Bench towards the Scheme of Amalgamation between Dr.",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/DRAGARWALS_05102026224943_C45_AHCL_NCLT_Sanction_Order_sd.pdf",
-      "sourceName": "NSE filing - Dr. Agarwal's Health Care Limited"
-    },
-    {
-      "id": "academy-2026-10-05-1-nse-kotarisug-05-oct-2026210458",
-      "sourceId": "nse-kotarisug-05-oct-2026210458",
-      "date": "5 Oct 2026",
-      "category": "Companies Act",
-      "headline": "Kothari Sugars And Chemicals Limited: Amalgamation/Merger",
-      "why": "Amalgamation/Merger - Kothari Sugars And Chemicals Limited has informed the Exchange about the receipt of Order passed by the Honble National Company Law Tribunal, Chennai Bench, in connection with the proposed Scheme of Amalgamation…",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/KOTARISUG_05102026210359_IntimationofreceiptofNCLTOrder.pdf",
-      "sourceName": "NSE filing - Kothari Sugars And Chemicals Limited"
     }
   ]
 }
