@@ -1,194 +1,284 @@
 # Corporate Law Tracker - Daily Brief
-_21 October 2026_
+_22 October 2026_
 
-21 new development(s).
+31 new development(s).
 
-### Veritas Legal, Norton Rose Fulbright, Freshfields act on Aegis Logistics' $809 million majority stake acquisition in Tristar Holdings
-**MA** · $809 mn · Cross-border · Reported
+### 🔴 InsuranceDekho merges with RenewBuy; DSK, Khaitan, CAM, CMS INDUSLAW, TT&A, Bharucha, EVA Law advise
+**MA** · ₹6,600 cr · India · Reported
 
-Aegis Logistics Limited has acquired an 89.8% stake in Tristar Holdings Limited for a consideration of $809 million. Veritas Legal advised Aegis Logistics on this acquisition.
+InsuranceDekho has merged with RenewBuy to create India’s largest AI-enabled insurance distribution platform by POSP-driven premium, FY2026. DSK Legal advised and assisted InsuranceDekho on this merger.
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/veritas-legal-norton-rose-fulbright-freshfields-act-on-aegis-logistics-809-million-majority-stake-acquisition-in-tristar-holdings)
-
----
-
-### SIGMA ADVANCED SYSTEMS LIMITED: Press Release
-**REG** · ₹174 cr · India · ✓ Verified
-
-Press Release - SIGMA ADVANCED SYSTEMS LIMITED has informed the Exchange regarding a press release dated October 21, 2026, titled pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirement) Regulations, 2015,…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MEGASOFT_21102026100925_Disclosure_Reg_30_-_20261021_signed.pdf)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/insurancedekho-merges-with-renewbuy-dsk-khaitan-cam-cms-induslaw-tta-bharucha-eva-law-advise)
 
 ---
 
-### TT&A, Trilegal act on Impact Fund Denmark investing $35 million in GreenCell Mobility
-**MA** · $35 mn · India · Reported
+### Slaughter and May, Eversheds Sutherland, Khaitan & Co act on Brahma AI $150 million fundraise
+**PE** · $150 mn · Cross-border · Reported
 
-Danish SDG Investment Fund II K/S (SDG II), managed by Impact Fund Denmark (IFU) has made an equity investment amounting to $35 million in GreenCell Mobility Private Limited. TT&A advised Danish SDG Investment Fund on this transaction.
+Brahma AI has raised $150 million through the issuance of preferred shares, with a $100 million investment by Multiples Alternate Asset Management. Slaughter and May advised Brahma AI on this transaction.
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/tta-trilegal-act-on-impact-fund-denmark-investing-35-million-in-greencell-mobility)
-
----
-
-### Khaitan & Co advises Vector Line Capital $75 million investment in Tessolve Semiconductor 
-**MA** · $75 mn · India · Reported
-
-Vector Line Capital has made an investment of $75 million in Tessolve Semiconductor Private Limited. Khaitan & Co advised Vector Line Capital on this investment.
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-vector-line-capital-75-million-investment-in-tessolve-semiconductor)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/slaughter-and-may-eversheds-sutherland-khaitan-co-act-on-brahma-ai-150-million-fundraise)
 
 ---
 
-### Juniper Green Energy Limited: Acquisition
+### Crawford Bayley, Trilegal, Hogan Lovells Cadwalader act on PTC Industries ₹1,800 crore QIP
+**IPO** · ₹1,800 cr · Cross-border · Reported
+
+PTC Industries Limited has raised ₹1,800 crore from a qualified institutions placement of equity shares. Crawford Bayley & Co advised PTC Industries on this QIP, as per the placement document.
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/crawford-bayley-trilegal-hogan-lovells-cadwalader-act-on-ptc-industries-1800-crore-qip)
+
+---
+
+### Khaitan & Co advises Dilip Buildcon on Solar Portfolio divestment
+**MA** · ₹6,263 cr · India · Reported
+
+Dilip Buildcon Limited has divested 49% equity stake in ten special purpose vehicles, held through DBL Renewable Private Limited, in favour of Alpha Alternatives Fund Advisors LLP. The SPVs undertake the development, design and engineering…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-dilip-buildcon-on-solar-portfolio-divestment)
+
+---
+
+### Everest Industries Limited: Options to purchase securities
+**REG** · ₹460 · India · ✓ Verified
+
+Options to purchase securities - Pursuant to the Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 ( Listing Regulations ) read with SEBI Master Circular No.…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/EVERESTINDUSTRIES_22102026171245_IntimationESOPGrant22102026.pdf)
+
+---
+
+### Kochhar & Co advised Agrawal Infrabuild on submission of ₹1,200 crore resolution plan for Ludhiana Talwandi Toll Roads
+**IBC** · ₹1,200 cr · India · Reported
+
+Agrawal Infrabuild Private Limited has made a submission of a resolution plan of approximately ₹1,200 crore for Ludhiana Talwandi Toll Roads Private Limited (Corporate Debtor). Kochhar & Co represented and advised Agrawal Infrabuild on…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/kochhar-co-advised-agrawal-infrabuild-on-submission-of-1200-crore-resolution-plan-for-ludhiana-talwandi-toll-roads)
+
+---
+
+### Khaitan & Co assists ANTA Sports on acquiring shares in PUMA
+**MA** · India · Reported
+
+ANTA Sports Products Limited has obtained Government approval under Press Note 3 of 2020 in connection with its proposed indirect acquisition of 29.06% of the issued and outstanding share capital of PUMA SE. The transaction required prior…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-assists-anta-sports-on-acquiring-shares-in-puma)
+
+---
+
+### Swelect Energy Systems Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - Juniper Green Energy Limited has informed the Exchange about Incorporation of Wholly Owned Subsidiaries
+Acquisition - SWELECT Energy Systems Limited has informed the Exchange about Acquisition of 100% (one hundred percent) equity shares of SUSHMA SOLAR ENERGY PRIVATE LIMITED, a Company based in Rajasthan.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/JGEL2025_21102026215104_2026_10_21_JGEL_Reg_30_Incorporation_Cosmic_15_and_Kite_15.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SWELECTES_22102026230525_SE_Acquis_SushmaSolar_22102026_signed.pdf)
 
 ---
 
-### SAGILITY LIMITED: Press Release
+### HFCL Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Press Release - SAGILITY LIMITED has informed the Exchange regarding a press release dated October 21, 2026, titled "Sagility Accelerates Provider Growth Strategy Through Acquisition of Chirok Health".
+Acquisition - HFCL Limited has informed the Exchange about Incorporation of HFCL Connectivity Systems Limited, as a Wholly-Owned Subsidiary Company of HFCL Limited ( HFCL / Company )
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SAGILITY_21102026212509_IntimationPressReleasesigned.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AHMED_22102026204758_HFCL_STX_Subsidiary_22102026.pdf)
 
 ---
 
-### SAGILITY LIMITED: General Updates
+### Apcotex Industries Limited: Acquisition
 **MA** · India · ✓ Verified
 
-General Updates - SAGILITY LIMITED has informed the Exchange about Sagility Accelerates Provider Growth Strategy Through Acquisition of Chirok Health
+Acquisition - Apcotex Industries Limited has informed the Exchange about Intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 Execution of Agreement.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SAGILITY_21102026212037_IntimationChirokAcquisitionsigned.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/APCOTEXIND_22102026192612_Intimation_-_Execution_of_agreement_-_signed.pdf)
 
 ---
 
-### PDS Limited: Acquisition
+### Maithan Alloys Limited: Others
 **MA** · India · ✓ Verified
 
-Acquisition - PDS Limited has informed the Exchange about Acquisition
+Others - Maithan Alloys Limited has informed the Exchange about Acquisition of Equity Shares through Stock Exchange.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PDSL_21102026203843_Ltr_SharetrfDBSLifestyle_21102026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MAITHANALL_22102026183912_Sterlite22102026.pdf)
 
 ---
 
-### Pine Labs Limited: Acquisition
+### Petronet LNG Limited: Agreements
 **MA** · India · ✓ Verified
 
-Acquisition - Pine Labs Limited has informed the Exchange about Acquisition
+Agreements - Petronet LNG Limited has informed the Exchange about Agreements i.e. signing of binding term sheet on 22.10.2026 between PLL and Gruner Renewable Energy Private Limited for formation of JV for setting up CBG plants across…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PINELABS_21102026171907_SFNPL_Intimation_PLL_Acquisition_Oct_2026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/PETRONET_22102026181323_termsheetgrunersi.pdf)
 
 ---
 
-### ETERNAL LIMITED: Sale or disposal
+### Ugro Capital Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-Sale or disposal - Eternal Limited has informed exchange regarding proposed restructuring, acquisition and divestment.
+Amalgamation/Merger - Order of final hearing date schedule for 20th November 2026, under the scheme of amalgamation.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ZOMATO_21102026153325_OutcomeSIGNED.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/UGROCAP_22102026172445_UGRONCLTOrder.pdf)
 
 ---
 
-### Kajaria Ceramics Limited: Rumour Verification - Regulation 30(11)
+### Jindal Stainless Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-Rumour Verification - Regulation 30(11) - Clarification on media reports regarding potential acquisition
+Amalgamation/Merger - Jindal Stainless Limited has informed the Exchange about Amalgamation/Merger
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KAJARIACER_21102026123120_Clarification.pdf)
-
----
-
-### Jindal Photo Limited: General Updates
-**IPO** · Mumbai · ✓ Verified
-
-General Updates - Intimation of receipt of In-principle approval for Voluntary Delisting of Equity Shares of the Company from Bombay Stock Exchange of India Limited ("BSE") and National Stock Exchange ( NSE ) in terms of Regulation 30 of…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/JINDALPHOT_21102026195058_Intimation_of_delisting.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/JSL_22102026153123_JSLRES.pdf)
 
 ---
 
-### GOCL Corporation Limited: Shareholders meeting
+### Shakti Pumps (India) Limited: Acquisition
+**MA** · ₹12 cr · India · ✓ Verified
+
+Acquisition - Shakti Pumps (India) Limited has informed the Exchange that the Company has invested Rs. 12 Crores in its wholly owned subsidiary i.e.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SHAKTIPUMP_22102026144057_IntimationunderReg30.pdf)
+
+---
+
+### Maithan Alloys Limited: Others
+**MA** · India · ✓ Verified
+
+Others - Maithan Alloys Limited has informed the Exchange about Acquisition of Equity Shares through Stock Exchange.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MAITHANALL_22102026125259_Sterlite19102026.pdf)
+
+---
+
+### Rane Holdings Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - The Finance Committee of the Board of Directors of the Company at their meeting held today, have, inter alia, approved further investment of equity in the joint venture M/s. ZF LIFETEC Rane Automotive India Private Limited.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/RANEHOLDIN_22102026114254_RHL_ZLRAI_Investment_Oct2026_SD.pdf)
+
+---
+
+### Shyam Metalics and Energy Limited: Amalgamation/Merger
+**MA** · India · ✓ Verified
+
+Amalgamation/Merger - Shyam Metalics And Energy Limited has informed the Exchange about Amalgamation/Merger
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SHYAMMETL_22102026114107_NCLTorder.pdf)
+
+---
+
+### The Bombay Burmah Trading Corporation Limited: Disclosure under SEBI Takeover Regulations
+**MA** · Mumbai · ✓ Verified
+
+Disclosure under SEBI Takeover Regulations - Nowrosjee Wadia and Sons Limited has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_22102026112143_Disc10.pdf)
+
+---
+
+### Sammaan Capital Limited: Updates
+**IPO** · India · ✓ Verified
+
+Updates - 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our Company has made timely payment of interest amount in respect of…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_22102026191134_SCL_Exchange_Retail_intimation_57_22102026_330.pdf)
+
+---
+
+### Sammaan Capital Limited: Updates
+**IPO** · India · ✓ Verified
+
+Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_22102026190403_SCL_Exchange_Retail_intimation_57_22102026_NV8.pdf)
+
+---
+
+### Swastika Infra Limited: Monitoring Agency Report
+**IPO** · India · ✓ Verified
+
+Monitoring Agency Report - Report of the Monitoring Agency with respect to utilization of proceeds of the Initial Public Offering (IPO), for the quarter ended September 30, 2026.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SWASTIKAINFRA_22102026183515_Monitering_Agency_Report_final.pdf)
+
+---
+
+### Hitech Corporation Limited: General Updates
+**IPO** · India · ✓ Verified
+
+General Updates - Hitech Corporation Limited has informed the Exchange about Receipt of Corrigendum to Outcome of Reverse Book Building Process ("RBBP") issued in accordance Regulation 17(3) and other applicable provisions with Securities…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HITECHCORP_22102026181456_SEIntimation22102026.pdf)
+
+---
+
+### Bonlon Industries Limited: General Updates
+**IPO** · India · ✓ Verified
+
+General Updates - Bonlon Industries Limited has informed the Exchange about Update on the Rights Issue Committee Meeting scheduled to be held on Thursday, October 22, 2026 - Meeting Cancelled
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/BONLON_22102026175453_Cancellation_of_RIC_Meeting.pdf)
+
+---
+
+### Jindal Photo Limited: Copy of Newspaper Publication
+**IPO** · India · ✓ Verified
+
+Copy of Newspaper Publication - Intimation regarding publication of Detailed Public Announcement dated October 21, 2026, on October 22, 2026, under Regulation 15 of the SEBI (Delisting of Equity Shares) Regulations, 2021, as amended (…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/JINDALPHOT_22102026171552_Intimation_Publication_of__DPA_Letter_JPL_22102026.pdf)
+
+---
+
+### Natco Pharma Limited: General Updates
+**IPO** · India · ✓ Verified
+
+General Updates - Natco Pharma Limited has informed the Exchange regarding Intimation of closure of the Issue period of the Rights Issue of NATCO Pharma Limited (the Company )
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NATCOPHARM_22102026132043_RightsClosingIntimation.pdf)
+
+---
+
+### Ola Electric Mobility Limited: Updates
+**IPO** · India · ✓ Verified
+
+Updates - Ola Electric Mobility Limited has informed the Exchange regarding 'Intimation as per Regulation 77B(2) of SEBI (ICDR) Regulations, 2018 regarding confirmation of application submitted by Specific Investors in respect of Rights…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/OLAELECTRIC_22102026105524_StockExchangeIntimationOctober222026.pdf)
+
+---
+
+### Talwalkars Better Value Fitness Limited: Suspension of Trading
 **IBC** · India · ✓ Verified
 
-Shareholders meeting - GOCL Corporation Limited has informed the Exchange regarding Notice of NCLT Convened Meeting of Equity Shareholders to be held on November 24, 2026
+Suspension of Trading - Members of the Exchange are hereby informed that the trading in Equity Shares of Talwalkars Better Value Fitness Limited shall remain to be suspended on account of Reduction of Share Capital pursuant to NCLT order.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/GULFCORP_21102026164809_SEIntimationNCLTShareholdersMeetingSigned.pdf)
+[Open source ↗](-)
 
 ---
 
-### SKIL Infrastructure Limited: Corporate Insolvency Resolution Process
+### Ashapura Intimates Fashion Limited: Suspension of Trading
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - SKIL Infrastructure Limited has informed the Exchange regarding the postponement of the Fourteenth (14th) Committee of Creditors Meeting to Tuesday, October 27, 2026
+Suspension of Trading - Members of the Exchange are hereby informed that the trading in equity shares of Ashapura Intimates Fashion Limited shall remain to be suspended on account of Reduction of Share Capital pursuant to NCLT order.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Skilinfra_21102026171050_SKIL_Letter.pdf)
+[Open source ↗](-)
 
 ---
 
-### Osia Hyper Retail Limited: Corporate Insolvency Resolution Process
+### Walchandnagar Industries Limited: Updates
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - Prior Intimation of 8th COC Meeting of OSIA Hyper Retail Limited (in CIRP) Scheduled to be held on 22nd October, 2026 at 3:00 PM
+Updates - Walchandnagar Industries Limited has informed the Exchange regarding 'Intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 Admission of Corporate Insolvency Resolution…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/OSIAHYPER_21102026155927_Intimation_of_Meeting_of_8th_CoC_Meeting_Osia.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/WALCHANNAG_22102026180256_WIL_Stock_exchange_intimation_22_10_26.pdf)
 
 ---
 
-### Shirpur Gold Refinery Limited: Corporate Insolvency Resolution Process
+### Future Consumer Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - Shirpur Gold Refinery Limited has informed the Exchange regarding compliances for the quarter and the half year ended 30 September 2026
+Corporate Insolvency Resolution Process - Future Consumer Limited has informed the Exchange about meeting of Committee of creditors
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SHIRPUR-G_21102026150112_Sep2026.pdf)
-
----
-
-### Compuage Infocom Limited: Corporate Insolvency Resolution Process
-**IBC** · India · ✓ Verified
-
-Corporate Insolvency Resolution Process - Compuage Infocom Limited has informed the Exchange about the intimation of 29th COC meeting to be held on 27th October, 2026
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/COMPINFO_21102026113042_letterintimationof29thCoCCompuagesigned.pdf)
-
----
-
-### Dua Associates advises Piramal Finance on ₹125 crore financing for residential projects in Bengaluru
-**BANK** · ₹125 cr · Bengaluru · Reported
-
-Piramal Finance Limited has sanctioned finances aggregating to ₹125 crore for two residential group housing projects in Bengaluru, Karnataka. The transactions involved financing of ₹80 crore to Akarsh Dwellings Private Limited for its…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/dua-associates-advises-piramal-finance-on-125-crore-financing-for-residential-projects-in-bengaluru)
-
----
-
-### SNG & Partners advises ICICI managed Fund on acquisition of Purva Ruby Properties
-**MA** · ₹626 cr · Bengaluru · Reported
-
-ICICI Prudential Office Yield Optimiser Fund – AIF II, managed by ICICI Prudential Asset Management Company Limited, has made a structured acquisition of Purva Ruby Properties Private Limited. The acquisition was made through Prishal…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/sng-partners-advises-icici-managed-fund-on-acquisition-of-purva-ruby-properties)
-
----
-
-### DSK Legal advises Foundry on seed fundraise
-**PE** · India · Reported
-
-Goodspeed Ventures Private Limited, dba Foundry, has raised capital from a seed fundraise Co-led by BEENEXT and Kettleborough VC, with participation from angel investors. DSK Legal advised Foundry and its founder, Ankit Jain, on this…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/dsk-legal-advises-foundry-on-seed-fundraise)
-
----
-
-### Fox & Mandal advises Tenty Limited on proposed IPO
-**IPO** · India · Reported
-
-Tenty Limited has filed a draft red herring prospectus for an initial public offering of equity shares on the National Stock Exchange of India Limited (NSE) and BSE Limited (BSE). Fox & Mandal is advising Tenty on this IPO.
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/fox-mandal-advises-tenty-limited-on-proposed-ipo)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/FCEL1_22102026112633_Intimation_of_3rd_Meeting_of_CoC.pdf)
 
 ---
 

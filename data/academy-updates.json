@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-21T20:56:33.149Z",
+  "generatedAt": "2026-10-22T20:51:16.903Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-22-0-nse-apcotexind-22-oct-2026192637",
+      "sourceId": "nse-apcotexind-22-oct-2026192637",
+      "date": "22 Oct 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Apcotex Industries Limited: Acquisition",
+      "why": "Acquisition - Apcotex Industries Limited has informed the Exchange about Intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 Execution of Agreement.",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/APCOTEXIND_22102026192612_Intimation_-_Execution_of_agreement_-_signed.pdf",
+      "sourceName": "NSE filing - Apcotex Industries Limited"
+    },
+    {
+      "id": "academy-2026-10-22-1-nse-ugrocap-22-oct-2026172454",
+      "sourceId": "nse-ugrocap-22-oct-2026172454",
+      "date": "22 Oct 2026",
+      "category": "Companies Act",
+      "headline": "Ugro Capital Limited: Amalgamation/Merger",
+      "why": "Amalgamation/Merger - Order of final hearing date schedule for 20th November 2026, under the scheme of amalgamation.",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/UGROCAP_22102026172445_UGRONCLTOrder.pdf",
+      "sourceName": "NSE filing - Ugro Capital Limited"
+    },
+    {
+      "id": "academy-2026-10-22-2-nse-bbtc-22-oct-2026112312",
+      "sourceId": "nse-bbtc-22-oct-2026112312",
+      "date": "22 Oct 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "The Bombay Burmah Trading Corporation Limited: Disclosure under SEBI Takeover Regulations",
+      "why": "Disclosure under SEBI Takeover Regulations - Nowrosjee Wadia and Sons Limited has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption…",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/team_sandeshc_22102026112143_Disc10.pdf",
+      "sourceName": "NSE filing - The Bombay Burmah Trading Corporation Limited"
+    },
     {
       "id": "academy-2026-10-21-0-nse-kajariacer-21-oct-2026123740",
       "sourceId": "nse-kajariacer-21-oct-2026123740",
@@ -408,39 +441,6 @@
       "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
       "source": "https://nsearchives.nseindia.com/corporate/GLS_07102026170648_Torrent_Disclosure_Update_Signed.pdf",
       "sourceName": "NSE filing - Alivus Life Sciences Limited"
-    },
-    {
-      "id": "academy-2026-10-07-2-nse-sedemac-07-oct-2026134442",
-      "sourceId": "nse-sedemac-07-oct-2026134442",
-      "date": "7 Oct 2026",
-      "category": "Companies Act",
-      "headline": "SEDEMAC Mechatronics Limited: General Updates",
-      "why": "General Updates - SEDEMAC Mechatronics Limited has informed the Exchange about Intimation of In-Principle approval for listing of equity shares under SEDEMAC Mechatronics Employee Stock Option Scheme - 2025",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/SEDEMAC2007_07102026134435_20261007-IntimationofESOPapproval.pdf",
-      "sourceName": "NSE filing - SEDEMAC Mechatronics Limited"
-    },
-    {
-      "id": "academy-2026-10-06-0-nse-birlanu-06-oct-2026224734",
-      "sourceId": "nse-birlanu-06-oct-2026224734",
-      "date": "6 Oct 2026",
-      "category": "Companies Act",
-      "headline": "BirlaNu Limited: Scheme of Arrangement",
-      "why": "Scheme of Arrangement - BirlaNu Limited has informed the Exchange about Sanction of Scheme of Amalgamation between Clean Coats Private Limited with BirlaNu Limited and their respective Members.",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/sumedha_06102026224510_SEIntimationSchemesanctionbyHyderabadBench06oct2026signed.pdf",
-      "sourceName": "NSE filing - BirlaNu Limited"
-    },
-    {
-      "id": "academy-2026-10-06-1-nse-meesho-06-oct-2026221220",
-      "sourceId": "nse-meesho-06-oct-2026221220",
-      "date": "6 Oct 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "Meesho Limited: General Updates",
-      "why": "General Updates - Meesho Limited has informed the Exchange about update on acquisition under Regulation 30 of SEBI (LODR) Regulations, 2015.",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/MEESHO_06102026221209_MLBMOutcome06Oct2026Final.pdf",
-      "sourceName": "NSE filing - Meesho Limited"
     }
   ]
 }
