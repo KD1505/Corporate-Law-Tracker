@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-22T20:51:16.903Z",
+  "generatedAt": "2026-10-23T20:43:31.969Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-23-0-nse-network18-23-oct-2026215738",
+      "sourceId": "nse-network18-23-oct-2026215738",
+      "date": "23 Oct 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Network18 Media & Investments Limited: Amalgamation/Merger",
+      "why": "Amalgamation/Merger - Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 Update on the Scheme of Amalgamation of News18 Marathi Private Limited (wholly-owned subsidiary of the…",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/Shambhu_23102026215356_NW18_Sanction_of_Scheme_SE_Intimation.pdf",
+      "sourceName": "NSE filing - Network18 Media & Investments Limited"
+    },
+    {
+      "id": "academy-2026-10-23-1-nse-bbtc-23-oct-2026172556",
+      "sourceId": "nse-bbtc-23-oct-2026172556",
+      "date": "23 Oct 2026",
+      "category": "FEMA / FDI",
+      "headline": "The Bombay Burmah Trading Corporation Limited: Disclosure under SEBI Takeover Regulations",
+      "why": "Disclosure under SEBI Takeover Regulations - Nowrosjee Wadia and Sons Limited has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and…",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/team_sandeshc_23102026114203_disc10.pdf",
+      "sourceName": "NSE filing - The Bombay Burmah Trading Corporation Limited"
+    },
+    {
+      "id": "academy-2026-10-23-2-nse-naukri-23-oct-2026150758",
+      "sourceId": "nse-naukri-23-oct-2026150758",
+      "date": "23 Oct 2026",
+      "category": "FEMA / FDI",
+      "headline": "Info Edge (India) Limited: Acquisition",
+      "why": "Acquisition - Info Edge (India) Limited has informed the Exchange about Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015.",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/NAUKRI2_23102026150744_IEIL_BijnisSEIntimation.pdf",
+      "sourceName": "NSE filing - Info Edge (India) Limited"
+    },
     {
       "id": "academy-2026-10-22-0-nse-apcotexind-22-oct-2026192637",
       "sourceId": "nse-apcotexind-22-oct-2026192637",
@@ -408,39 +441,6 @@
       "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
       "source": "https://nsearchives.nseindia.com/corporate/MRPL_08102026141943_CoveringLetterSD.pdf",
       "sourceName": "NSE filing - Mangalore Refinery and Petrochemicals Limited"
-    },
-    {
-      "id": "academy-2026-10-08-2-nse-kserasera-08-oct-2026215956",
-      "sourceId": "nse-kserasera-08-oct-2026215956",
-      "date": "8 Oct 2026",
-      "category": "IBC / Distressed M&A",
-      "headline": "KSS Limited: General Updates",
-      "why": "General Updates - KSS Limited has informed the Exchange about General Updates about rectification of the Resolution plan approval order dated 05th August 2026 passed by the Hon'ble NCLT Mumbai bench.",
-      "interviewPrompt": "Explain what changes for bidder eligibility, process certainty, liabilities and implementation of the resolution plan.",
-      "source": "https://nsearchives.nseindia.com/corporate/KSERASERA_08102026215947_SE_IntimationRactification_Order.pdf",
-      "sourceName": "NSE filing - KSS Limited"
-    },
-    {
-      "id": "academy-2026-10-07-0-nse-mahseamles-07-oct-2026172634",
-      "sourceId": "nse-mahseamles-07-oct-2026172634",
-      "date": "7 Oct 2026",
-      "category": "Companies Act",
-      "headline": "Maharashtra Seamless Limited: Scheme of Arrangement",
-      "why": "Scheme of Arrangement - Maharashtra Seamless Limited has informed the Exchange about Scheme of Arrangement",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/MAHSEAMLES_07102026172556_MSLIntimationDemerger.pdf",
-      "sourceName": "NSE filing - Maharashtra Seamless Limited"
-    },
-    {
-      "id": "academy-2026-10-07-1-nse-alivus-07-oct-2026171805",
-      "sourceId": "nse-alivus-07-oct-2026171805",
-      "date": "7 Oct 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "Alivus Life Sciences Limited: General Updates",
-      "why": "General Updates - Alivus Life Sciences Limited has informed the Exchange about announcement under Regulation 30 of SEBI (LODR), 2015 - Acquisition.",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/GLS_07102026170648_Torrent_Disclosure_Update_Signed.pdf",
-      "sourceName": "NSE filing - Alivus Life Sciences Limited"
     }
   ]
 }

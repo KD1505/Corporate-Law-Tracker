@@ -1,176 +1,194 @@
 # Corporate Law Tracker - Daily Brief
-_22 October 2026_
+_23 October 2026_
 
-31 new development(s).
+28 new development(s).
 
-### 🔴 InsuranceDekho merges with RenewBuy; DSK, Khaitan, CAM, CMS INDUSLAW, TT&A, Bharucha, EVA Law advise
-**MA** · ₹6,600 cr · India · Reported
+### Grasim Industries Limited: News Verification
+**IPO** · ₹329 cr · Mumbai · ✓ Verified
 
-InsuranceDekho has merged with RenewBuy to create India’s largest AI-enabled insurance distribution platform by POSP-driven premium, FY2026. DSK Legal advised and assisted InsuranceDekho on this merger.
+News Verification - The Exchange has sought clarification from Grasim Industries Limited with respect to recent news item captioned Bombay HC Quashes Rs 329 Crore Tax Claim Against Grasim Over Vodafone Idea Rights Issue.. The response from…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/insurancedekho-merges-with-renewbuy-dsk-khaitan-cam-cms-induslaw-tta-bharucha-eva-law-advise)
-
----
-
-### Slaughter and May, Eversheds Sutherland, Khaitan & Co act on Brahma AI $150 million fundraise
-**PE** · $150 mn · Cross-border · Reported
-
-Brahma AI has raised $150 million through the issuance of preferred shares, with a $100 million investment by Multiples Alternate Asset Management. Slaughter and May advised Brahma AI on this transaction.
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/slaughter-and-may-eversheds-sutherland-khaitan-co-act-on-brahma-ai-150-million-fundraise)
+[Open source ↗](-)
 
 ---
 
-### Crawford Bayley, Trilegal, Hogan Lovells Cadwalader act on PTC Industries ₹1,800 crore QIP
-**IPO** · ₹1,800 cr · Cross-border · Reported
-
-PTC Industries Limited has raised ₹1,800 crore from a qualified institutions placement of equity shares. Crawford Bayley & Co advised PTC Industries on this QIP, as per the placement document.
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/crawford-bayley-trilegal-hogan-lovells-cadwalader-act-on-ptc-industries-1800-crore-qip)
-
----
-
-### Khaitan & Co advises Dilip Buildcon on Solar Portfolio divestment
-**MA** · ₹6,263 cr · India · Reported
-
-Dilip Buildcon Limited has divested 49% equity stake in ten special purpose vehicles, held through DBL Renewable Private Limited, in favour of Alpha Alternatives Fund Advisors LLP. The SPVs undertake the development, design and engineering…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-dilip-buildcon-on-solar-portfolio-divestment)
-
----
-
-### Everest Industries Limited: Options to purchase securities
-**REG** · ₹460 · India · ✓ Verified
-
-Options to purchase securities - Pursuant to the Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 ( Listing Regulations ) read with SEBI Master Circular No.…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/EVERESTINDUSTRIES_22102026171245_IntimationESOPGrant22102026.pdf)
-
----
-
-### Kochhar & Co advised Agrawal Infrabuild on submission of ₹1,200 crore resolution plan for Ludhiana Talwandi Toll Roads
-**IBC** · ₹1,200 cr · India · Reported
-
-Agrawal Infrabuild Private Limited has made a submission of a resolution plan of approximately ₹1,200 crore for Ludhiana Talwandi Toll Roads Private Limited (Corporate Debtor). Kochhar & Co represented and advised Agrawal Infrabuild on…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/kochhar-co-advised-agrawal-infrabuild-on-submission-of-1200-crore-resolution-plan-for-ludhiana-talwandi-toll-roads)
-
----
-
-### Khaitan & Co assists ANTA Sports on acquiring shares in PUMA
-**MA** · India · Reported
-
-ANTA Sports Products Limited has obtained Government approval under Press Note 3 of 2020 in connection with its proposed indirect acquisition of 29.06% of the issued and outstanding share capital of PUMA SE. The transaction required prior…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-assists-anta-sports-on-acquiring-shares-in-puma)
-
----
-
-### Swelect Energy Systems Limited: Acquisition
+### Ideaforge Technology Limited: General Updates
 **MA** · India · ✓ Verified
 
-Acquisition - SWELECT Energy Systems Limited has informed the Exchange about Acquisition of 100% (one hundred percent) equity shares of SUSHMA SOLAR ENERGY PRIVATE LIMITED, a Company based in Rajasthan.
+General Updates - Termination of Joint Venture Agreement between ideaForge Technology Inc.(wholly-owned subsidiary of ideaForge Technology Limited) and First Breach Inc.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SWELECTES_22102026230525_SE_Acquis_SushmaSolar_22102026_signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IDEAFORGE_23102026225255_IDF_SE_FINAL.pdf)
 
 ---
 
-### HFCL Limited: Acquisition
+### Network18 Media & Investments Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-Acquisition - HFCL Limited has informed the Exchange about Incorporation of HFCL Connectivity Systems Limited, as a Wholly-Owned Subsidiary Company of HFCL Limited ( HFCL / Company )
+Amalgamation/Merger - Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 Update on the Scheme of Amalgamation of News18 Marathi Private Limited (wholly-owned subsidiary of the…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AHMED_22102026204758_HFCL_STX_Subsidiary_22102026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/Shambhu_23102026215356_NW18_Sanction_of_Scheme_SE_Intimation.pdf)
 
 ---
 
-### Apcotex Industries Limited: Acquisition
+### DOMS Industries Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - Apcotex Industries Limited has informed the Exchange about Intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 Execution of Agreement.
+Acquisition - DOMS Industries Limited has informed the Exchange about Incorporation of Wholly Owned Subsidiary
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/APCOTEXIND_22102026192612_Intimation_-_Execution_of_agreement_-_signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/RAHULBS35_23102026213722_IntimationForWOS.pdf)
 
 ---
 
-### Maithan Alloys Limited: Others
+### Aeroflex Enterprises Limited: General Updates
 **MA** · India · ✓ Verified
 
-Others - Maithan Alloys Limited has informed the Exchange about Acquisition of Equity Shares through Stock Exchange.
+General Updates - Update on Acquisition of Equity Stake in Stilonn Valves and Controls Private Limited ("Stilonn") by Aeroflex Neu Limited, Material Subsidiary of the Company
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MAITHANALL_22102026183912_Sterlite22102026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SATINDUSTRIES_23102026195523_AEL_update.pdf)
 
 ---
 
-### Petronet LNG Limited: Agreements
+### Trent Limited: Sale or disposal
 **MA** · India · ✓ Verified
 
-Agreements - Petronet LNG Limited has informed the Exchange about Agreements i.e. signing of binding term sheet on 22.10.2026 between PLL and Gruner Renewable Energy Private Limited for formation of JV for setting up CBG plants across…
+Sale or disposal - Trent Limited has informed the Exchange about Nahar Retail Trading Services Limited ( Nahar ), a wholly owned subsidiary of the Company, has entered into a binding term sheet dated 22nd October 2026 with TreBits…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PETRONET_22102026181323_termsheetgrunersi.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TRENT_23102026194710_Reg30DivestmentofstepdownsubsidiaryofNahar.pdf)
 
 ---
 
-### Ugro Capital Limited: Amalgamation/Merger
+### Relaxo Footwears Limited: Updates
 **MA** · India · ✓ Verified
 
-Amalgamation/Merger - Order of final hearing date schedule for 20th November 2026, under the scheme of amalgamation.
+Updates - Relaxo Footwears Limited has informed the Exchange regarding the acquisition of 26% of the paid-up equity share capital of Clean Max MUOI Private Limited ('SPV').
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/UGROCAP_22102026172445_UGRONCLTOrder.pdf)
-
----
-
-### Jindal Stainless Limited: Amalgamation/Merger
-**MA** · India · ✓ Verified
-
-Amalgamation/Merger - Jindal Stainless Limited has informed the Exchange about Amalgamation/Merger
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/JSL_22102026153123_JSLRES.pdf)
-
----
-
-### Shakti Pumps (India) Limited: Acquisition
-**MA** · ₹12 cr · India · ✓ Verified
-
-Acquisition - Shakti Pumps (India) Limited has informed the Exchange that the Company has invested Rs. 12 Crores in its wholly owned subsidiary i.e.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SHAKTIPUMP_22102026144057_IntimationunderReg30.pdf)
-
----
-
-### Maithan Alloys Limited: Others
-**MA** · India · ✓ Verified
-
-Others - Maithan Alloys Limited has informed the Exchange about Acquisition of Equity Shares through Stock Exchange.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MAITHANALL_22102026125259_Sterlite19102026.pdf)
-
----
-
-### Rane Holdings Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - The Finance Committee of the Board of Directors of the Company at their meeting held today, have, inter alia, approved further investment of equity in the joint venture M/s. ZF LIFETEC Rane Automotive India Private Limited.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/RANEHOLDIN_22102026114254_RHL_ZLRAI_Investment_Oct2026_SD.pdf)
-
----
-
-### Shyam Metalics and Energy Limited: Amalgamation/Merger
-**MA** · India · ✓ Verified
-
-Amalgamation/Merger - Shyam Metalics And Energy Limited has informed the Exchange about Amalgamation/Merger
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SHYAMMETL_22102026114107_NCLTorder.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/RELAXO_23102026175951_STX_Intimation_Letter_23_10_2026_Signed.pdf)
 
 ---
 
 ### The Bombay Burmah Trading Corporation Limited: Disclosure under SEBI Takeover Regulations
 **MA** · Mumbai · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations - Nowrosjee Wadia and Sons Limited has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption…
+Disclosure under SEBI Takeover Regulations - Nowrosjee Wadia and Sons Limited has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_22102026112143_Disc10.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_23102026114203_disc10.pdf)
+
+---
+
+### Aeroflex Neu Limited: General Updates
+**MA** · India · ✓ Verified
+
+General Updates - Update on Acquisition of Equity Stake in Stilonn Valves and Controls Private Limited
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SAHPOLYMERSLIMITEDIPO_23102026171316_Company_Update.pdf)
+
+---
+
+### Maithan Alloys Limited: Others
+**MA** · India · ✓ Verified
+
+Others - Maithan Alloys Limited has informed the Exchange about Acquisition of Equity Shares through Stock Exchange.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MAITHANALL_23102026171135_Sterlite23102023.pdf)
+
+---
+
+### Xtranet Technologies Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Xtranet Technologies Limited has informed the Exchange about incorporation of a Wholly Owned Subsidiary company.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/XTRANET_23102026161711_Intimation_WOS.pdf)
+
+---
+
+### Graphite India Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Graphite India Limited has informed the Exchange about Acquisition
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GILKOLKATA_23102026160214_Disclosure_to_Stock_Exchange-GIPL.pdf)
+
+---
+
+### Info Edge (India) Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Info Edge (India) Limited has informed the Exchange about Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NAUKRI2_23102026150744_IEIL_BijnisSEIntimation.pdf)
+
+---
+
+### Newgen Software Technologies Limited: Amalgamation/Merger
+**MA** · India · ✓ Verified
+
+Amalgamation/Merger - Newgen Software Technologies Limited has informed the Exchange about Approval of the Scheme of Arrangement for Amalgamation of Newgen Computers Technologies Limited ( Transferor Company ) with and into Newgen Software…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NEWGEN2_23102026134931_FinancialResult_23102026.pdf)
+
+---
+
+### Siemens Limited: Copy of Newspaper Publication
+**MA** · India · ✓ Verified
+
+Copy of Newspaper Publication - Newspaper Notice Regarding Final Hearing Of Company Scheme Petition In Relation To The Scheme Of Amalgamation Of Siemens Rail Automation Private Limited With Siemens Limited And Their Respective Shareholders
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SIEMENS57_23102026120411_SE_Disclosure.pdf)
+
+---
+
+### Heritage Foods Limited: Press Release
+**MA** · India · ✓ Verified
+
+Press Release - Heritage Foods Limited has informed the Exchange regarding a press release dated October 23, 2026, titled "Press release with regards to the amalgamation of wholly owned subsidiary, Heritage Novandie Foods Limited with…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HERITGFOOD_23102026110346_Press_Release_23102026.pdf)
+
+---
+
+### Heritage Foods Limited: Outcome of Board Meeting
+**MA** · India · ✓ Verified
+
+Outcome of Board Meeting - Heritage Foods Limited has informed the Exchange regarding Outcome of Board Meeting held on October 23, 2026 - Amalgamation Of Its Wholly-Owned Subsidiary I.E. Heritage Novandie Foods Limited.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HERITGFOOD_23102026105649_BM_Outcome_23102026.pdf)
+
+---
+
+### Shyam Metalics and Energy Limited: Press Release
+**MA** · India · ✓ Verified
+
+Press Release - Shyam Metalics And Energy Limited has informed the Exchange regarding a press release dated October 23, 2026, titled "Shyam Metalics Subsidiary Shyam Sel and Power Limited Secures NCLT Sanction for Merger of Shree…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SHYAMMETL_23102026091425_SMELPressRelease23102026.pdf)
+
+---
+
+### Natco Pharma Limited: Allotment of Securities
+**IPO** · India · ✓ Verified
+
+Allotment of Securities - Natco Pharma Limited has informed the Exchange regarding the approval of allotment of 17058082 Equity shares pursuant to Rights Issue by the Fund-Raising Committee at its meeting held on October 23, 2026
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NATCOPHARM_23102026210658_Outcome_of_FRC23102026.pdf)
+
+---
+
+### Natco Pharma Limited: Committee Meeting Updates
+**IPO** · India · ✓ Verified
+
+Committee Meeting Updates - Natco Pharma Limited has informed the Exchange regarding the approval of allotment of 17058082 Equity shares pursuant to Rights Issue by the Fund-Raising Committee at its meeting held on October 23, 2026
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NATCOPHARM_23102026210034_Outcome_of_FRC23102026.pdf)
+
+---
+
+### Avio Smart Market Stack Limited: Rights Issue
+**IPO** · ₹0 · India · ✓ Verified
+
+Rights Issue - Avio Smart Market Stack Limited has informed the Exchange that Board of Directors at its meeting held on October 23, 2026, has decided to issue equity shares on rights basis in the ratio of 0 : 0, i.e 0 Equity Shares for…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/BARTRONICS1_23102026200315_Outcome_of_Board_Meeting.pdf)
 
 ---
 
@@ -179,106 +197,61 @@ Disclosure under SEBI Takeover Regulations - Nowrosjee Wadia and Sons Limited ha
 
 Updates - 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our Company has made timely payment of interest amount in respect of…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_22102026191134_SCL_Exchange_Retail_intimation_57_22102026_330.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_23102026191749_SCL_Retail_intimation_-57__23102026_PM2.pdf)
 
 ---
 
 ### Sammaan Capital Limited: Updates
 **IPO** · India · ✓ Verified
 
-Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
+Updates - 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our Company has made timely payment of interest in respect of the…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_22102026190403_SCL_Exchange_Retail_intimation_57_22102026_NV8.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_23102026191236_SCL_Retail_Intimation_57_23102026_SJ2.pdf)
 
 ---
 
-### Swastika Infra Limited: Monitoring Agency Report
+### Sammaan Capital Limited: Updates
 **IPO** · India · ✓ Verified
 
-Monitoring Agency Report - Report of the Monitoring Agency with respect to utilization of proceeds of the Initial Public Offering (IPO), for the quarter ended September 30, 2026.
+Updates - 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our Company has made timely payment of interest amount in respect of…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SWASTIKAINFRA_22102026183515_Monitering_Agency_Report_final.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_23102026190704_SCL_Exchange_Retail_intimation_57_23102026_UD1.pdf)
 
 ---
 
-### Hitech Corporation Limited: General Updates
+### Sterlite Technologies Limited: Monitoring Agency Report
 **IPO** · India · ✓ Verified
 
-General Updates - Hitech Corporation Limited has informed the Exchange about Receipt of Corrigendum to Outcome of Reverse Book Building Process ("RBBP") issued in accordance Regulation 17(3) and other applicable provisions with Securities…
+Monitoring Agency Report - Monitoring Agency Report for the quarter ended September 30, 2026 for QIP.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/HITECHCORP_22102026181456_SEIntimation22102026.pdf)
-
----
-
-### Bonlon Industries Limited: General Updates
-**IPO** · India · ✓ Verified
-
-General Updates - Bonlon Industries Limited has informed the Exchange about Update on the Rights Issue Committee Meeting scheduled to be held on Thursday, October 22, 2026 - Meeting Cancelled
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/BONLON_22102026175453_Cancellation_of_RIC_Meeting.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/STLTECH_23102026131525_SEintimation_MAQIP_signed.pdf)
 
 ---
 
-### Jindal Photo Limited: Copy of Newspaper Publication
-**IPO** · India · ✓ Verified
-
-Copy of Newspaper Publication - Intimation regarding publication of Detailed Public Announcement dated October 21, 2026, on October 22, 2026, under Regulation 15 of the SEBI (Delisting of Equity Shares) Regulations, 2021, as amended (…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/JINDALPHOT_22102026171552_Intimation_Publication_of__DPA_Letter_JPL_22102026.pdf)
-
----
-
-### Natco Pharma Limited: General Updates
-**IPO** · India · ✓ Verified
-
-General Updates - Natco Pharma Limited has informed the Exchange regarding Intimation of closure of the Issue period of the Rights Issue of NATCO Pharma Limited (the Company )
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NATCOPHARM_22102026132043_RightsClosingIntimation.pdf)
-
----
-
-### Ola Electric Mobility Limited: Updates
-**IPO** · India · ✓ Verified
-
-Updates - Ola Electric Mobility Limited has informed the Exchange regarding 'Intimation as per Regulation 77B(2) of SEBI (ICDR) Regulations, 2018 regarding confirmation of application submitted by Specific Investors in respect of Rights…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/OLAELECTRIC_22102026105524_StockExchangeIntimationOctober222026.pdf)
-
----
-
-### Talwalkars Better Value Fitness Limited: Suspension of Trading
+### Arisinfra Solutions Limited: General Updates
 **IBC** · India · ✓ Verified
 
-Suspension of Trading - Members of the Exchange are hereby informed that the trading in Equity Shares of Talwalkars Better Value Fitness Limited shall remain to be suspended on account of Reduction of Share Capital pursuant to NCLT order.
+General Updates - Arisinfra Solutions Limited has informed the Exchange regarding Notice of NCLT Convened Meeting of Secured Creditors to be held on November 25, 2026
 
-[Open source ↗](-)
-
----
-
-### Ashapura Intimates Fashion Limited: Suspension of Trading
-**IBC** · India · ✓ Verified
-
-Suspension of Trading - Members of the Exchange are hereby informed that the trading in equity shares of Ashapura Intimates Fashion Limited shall remain to be suspended on account of Reduction of Share Capital pursuant to NCLT order.
-
-[Open source ↗](-)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ARISINFRA2024_23102026184904_Crs_meeting_sd.pdf)
 
 ---
 
-### Walchandnagar Industries Limited: Updates
+### Arisinfra Solutions Limited: Shareholders meeting
 **IBC** · India · ✓ Verified
 
-Updates - Walchandnagar Industries Limited has informed the Exchange regarding 'Intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 Admission of Corporate Insolvency Resolution…
+Shareholders meeting - Arisinfra Solutions Limited has informed the Exchange regarding Notice of NCLT Convened Meeting of Equity Shareholders to be held on November 25, 2026
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/WALCHANNAG_22102026180256_WIL_Stock_exchange_intimation_22_10_26.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ARISINFRA2024_23102026183527_Notice_Shareholders_sd.pdf)
 
 ---
 
-### Future Consumer Limited: Corporate Insolvency Resolution Process
+### Osia Hyper Retail Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - Future Consumer Limited has informed the Exchange about meeting of Committee of creditors
+Corporate Insolvency Resolution Process - Osia Hyper Retail Limited has convened 8th CoC meeting on 22nd October 2026, 3:00 p.m. as per the provisions of the Insolvency and Bankruptcy Code, 2016
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/FCEL1_22102026112633_Intimation_of_3rd_Meeting_of_CoC.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/OSIAHYPER_23102026133211_Postfactointimation.pdf)
 
 ---
 
