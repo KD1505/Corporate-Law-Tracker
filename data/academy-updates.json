@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-23T20:43:31.969Z",
+  "generatedAt": "2026-10-24T19:48:36.612Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-24-0-nse-ugrocap-24-oct-2026134115",
+      "sourceId": "nse-ugrocap-24-oct-2026134115",
+      "date": "24 Oct 2026",
+      "category": "Companies Act",
+      "headline": "Ugro Capital Limited: Amalgamation/Merger",
+      "why": "Amalgamation/Merger - Intimation regarding publication of Newspaper Advertisement for hearing of the Company Scheme Petition in connection with the Scheme of Amalgamation",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/UGROCAP_24102026134033_UGRONewspaperAdvertisement.pdf",
+      "sourceName": "NSE filing - Ugro Capital Limited"
+    },
+    {
+      "id": "academy-2026-10-24-1-nse-jindalphot-24-oct-2026210812",
+      "sourceId": "nse-jindalphot-24-oct-2026210812",
+      "date": "24 Oct 2026",
+      "category": "FEMA / FDI",
+      "headline": "Jindal Photo Limited: Copy of Newspaper Publication",
+      "why": "Copy of Newspaper Publication - Submission of Recommendations of the Committee of Independent Directors ( IDC ) under Regulation 28 of Securities and Exchange Board of India (Delisting of Equity Shares) Regulations, 2021, as amended ( SEBI…",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/JINDALPHOT_24102026210541_Publication_of_IDC_JPL.pdf",
+      "sourceName": "NSE filing - Jindal Photo Limited"
+    },
+    {
+      "id": "academy-2026-10-24-2-nse-aris-24-oct-2026165932",
+      "sourceId": "nse-aris-24-oct-2026165932",
+      "date": "24 Oct 2026",
+      "category": "IBC / Distressed M&A",
+      "headline": "Arisinfra Solutions Limited: Copy of Newspaper Publication",
+      "why": "Copy of Newspaper Publication - Arisinfra Solutions Limited has informed the Exchange about the copy of Newspaper Publication of NCLT Convened Meetings of Equity Shareholders and Secured Creditors to be held on November 25, 2026",
+      "interviewPrompt": "Explain what changes for bidder eligibility, process certainty, liabilities and implementation of the resolution plan.",
+      "source": "https://nsearchives.nseindia.com/corporate/ARISINFRA2024_24102026165908_Advertisment_SE_NCLT_sd.pdf",
+      "sourceName": "NSE filing - Arisinfra Solutions Limited"
+    },
     {
       "id": "academy-2026-10-23-0-nse-network18-23-oct-2026215738",
       "sourceId": "nse-network18-23-oct-2026215738",
@@ -408,39 +441,6 @@
       "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
       "source": "https://nsearchives.nseindia.com/corporate/JACPL_09102026185743_Intimation_2nd_MotionSigned.pdf",
       "sourceName": "NSE filing - Jubilant Agri and Consumer Products Limited"
-    },
-    {
-      "id": "academy-2026-10-10-2-nse-tru-09-oct-2026180157",
-      "sourceId": "nse-tru-09-oct-2026180157",
-      "date": "9 Oct 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "TruCap Finance Limited: Updates",
-      "why": "Updates - Sundae Capital Advisors Private Limited has Submitted to the Exchange a copy of Update on the Open Offer given by Marwadi Chandarana Intermediaries Brokers Private Limited (Acquirer) to the shareholders of Trucap Finance Limited…",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/team_sandeshc_09102026120350_openoffer.pdf",
-      "sourceName": "NSE filing - TruCap Finance Limited"
-    },
-    {
-      "id": "academy-2026-10-08-0-nse-mol-08-oct-2026183258",
-      "sourceId": "nse-mol-08-oct-2026183258",
-      "date": "8 Oct 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "Meghmani Organics Limited: Amalgamation/Merger",
-      "why": "Amalgamation/Merger - Please find attached intimation under Regulation 30 of SEBI (LODR) Regulation, 2015 for receipt of NCLT order.",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/MOL_08102026183249_Intimation_to_Stock_Exchanges_08102026.pdf",
-      "sourceName": "NSE filing - Meghmani Organics Limited"
-    },
-    {
-      "id": "academy-2026-10-08-1-nse-mrpl-08-oct-2026141953",
-      "sourceId": "nse-mrpl-08-oct-2026141953",
-      "date": "8 Oct 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "Mangalore Refinery and Petrochemicals Limited: General Updates",
-      "why": "General Updates - Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 - Incorporation of Integrated Petrochemicals Marketing & Trading Joint Venture Company in partnership with ONGC…",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/MRPL_08102026141943_CoveringLetterSD.pdf",
-      "sourceName": "NSE filing - Mangalore Refinery and Petrochemicals Limited"
     }
   ]
 }
