@@ -1,59 +1,32 @@
 # Corporate Law Tracker - Daily Brief
-_24 October 2026_
+_25 October 2026_
 
-6 new development(s).
+3 new development(s).
 
-### Ugro Capital Limited: Amalgamation/Merger
+### Grasim Industries Limited: News Verification
+**IPO** · ₹329 cr · Mumbai · ✓ Verified
+
+News Verification - The Exchange has sought clarification from Grasim Industries Limited with respect to recent news item captioned Bombay HC Quashes Rs 329 Crore Tax Claim Against Grasim Over Vodafone Idea Rights Issue.. The response from…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GRASIM_25102026131505_SEintimation_rumour_verification.pdf)
+
+---
+
+### Senco Gold Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Amalgamation/Merger - Intimation regarding publication of Newspaper Advertisement for hearing of the Company Scheme Petition in connection with the Scheme of Amalgamation
+Acquisition - Senco Gold Limited has informed the Exchange about update on acquisition of August Jewellery Private Limited
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/UGROCAP_24102026134033_UGRONewspaperAdvertisement.pdf)
-
----
-
-### Reliance Industries Limited: General Updates
-**IPO** · India · ✓ Verified
-
-General Updates - Initial Public Offer of Jio Platforms Limited
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PVIVINMA_24102026214355_RIL_SE_241026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/Sencogold_25102026164749_SGL_UpdatesonAcquisition.pdf)
 
 ---
 
-### Jindal Photo Limited: Copy of Newspaper Publication
-**IPO** · India · ✓ Verified
-
-Copy of Newspaper Publication - Submission of Recommendations of the Committee of Independent Directors ( IDC ) under Regulation 28 of Securities and Exchange Board of India (Delisting of Equity Shares) Regulations, 2021, as amended ( SEBI…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/JINDALPHOT_24102026210541_Publication_of_IDC_JPL.pdf)
-
----
-
-### Kalpataru Projects International Limited: General Updates
-**IPO** · India · ✓ Verified
-
-General Updates - Kalpataru Projects International Limited has informed the Exchange about Initial public offering of equity shares of Linjemontage i Grastorp AB, a first level step down material subsidiary of the Company ( LMG ) -…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KALPATPOWR_24102026134331_SEIntimationLMG24102026.pdf)
-
----
-
-### Sobha Limited: Copy of Newspaper Publication
-**IPO** · India · ✓ Verified
-
-Copy of Newspaper Publication - Sobha Limited has informed the Exchange regarding advertisement in newspapers about Final Reminder-cum-Forfeiture Notice related to Rights Issue.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SOBHA_24102026115125_SOBHA_NEWSPAPERPUBLICATION_FINALREMINDER.pdf)
-
----
-
-### Arisinfra Solutions Limited: Copy of Newspaper Publication
+### Shrenik Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Copy of Newspaper Publication - Arisinfra Solutions Limited has informed the Exchange about the copy of Newspaper Publication of NCLT Convened Meetings of Equity Shareholders and Secured Creditors to be held on November 25, 2026
+Corporate Insolvency Resolution Process - Shrenik Limited has informed the Exchange about Prior Intimation of the 3rd (Third) Meeting of the Committee of Creditors (CoC) of Shrenik Limited (In CIRP).
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ARISINFRA2024_24102026165908_Advertisment_SE_NCLT_sd.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SHRENIK_25102026113110_Copy_of_Disclosure_of_the_Third_CoC_Meeting.pdf)
 
 ---
 

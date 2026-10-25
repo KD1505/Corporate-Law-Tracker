@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-10-24T19:48:36.612Z",
+  "generatedAt": "2026-10-25T20:03:09.652Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-25-0-nse-shrenik-25-oct-2026113233",
+      "sourceId": "nse-shrenik-25-oct-2026113233",
+      "date": "25 Oct 2026",
+      "category": "IBC / Distressed M&A",
+      "headline": "Shrenik Limited: Corporate Insolvency Resolution Process",
+      "why": "Corporate Insolvency Resolution Process - Shrenik Limited has informed the Exchange about Prior Intimation of the 3rd (Third) Meeting of the Committee of Creditors (CoC) of Shrenik Limited (In CIRP).",
+      "interviewPrompt": "Explain what changes for bidder eligibility, process certainty, liabilities and implementation of the resolution plan.",
+      "source": "https://nsearchives.nseindia.com/corporate/SHRENIK_25102026113110_Copy_of_Disclosure_of_the_Third_CoC_Meeting.pdf",
+      "sourceName": "NSE filing - Shrenik Limited"
+    },
     {
       "id": "academy-2026-10-24-0-nse-ugrocap-24-oct-2026134115",
       "sourceId": "nse-ugrocap-24-oct-2026134115",
@@ -430,17 +441,6 @@
       "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
       "source": "https://nsearchives.nseindia.com/corporate/NIMBUS_10102026220109_Inc_of_Subsidiary_EPV.pdf",
       "sourceName": "NSE filing - Nimbus Projects Limited"
-    },
-    {
-      "id": "academy-2026-10-10-1-nse-jublcpl-09-oct-2026185801",
-      "sourceId": "nse-jublcpl-09-oct-2026185801",
-      "date": "9 Oct 2026",
-      "category": "Companies Act",
-      "headline": "Jubilant Agri and Consumer Products Limited: Demerger",
-      "why": "Demerger - Jubilant Agri and Consumer Products Limited has informed the Exchange about Second Motion Petition for Scheme of Arrangement for Demerger",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/JACPL_09102026185743_Intimation_2nd_MotionSigned.pdf",
-      "sourceName": "NSE filing - Jubilant Agri and Consumer Products Limited"
     }
   ]
 }
