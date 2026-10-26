@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-25T20:03:09.652Z",
+  "generatedAt": "2026-10-26T22:04:41.201Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-26-0-nse-motherson-26-oct-2026193355",
+      "sourceId": "nse-motherson-26-oct-2026193355",
+      "date": "26 Oct 2026",
+      "category": "Companies Act",
+      "headline": "Samvardhana Motherson International Limited: Scheme of Arrangement",
+      "why": "Scheme of Arrangement - Samvardhana Motherson International Limited has informed the Exchange about Scheme of Arrangement.",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/MOTHERSON_26102026193347_Approval_of_Scheme.pdf",
+      "sourceName": "NSE filing - Samvardhana Motherson International Limited"
+    },
+    {
+      "id": "academy-2026-10-26-1-nse-kpigreen-26-oct-2026185850",
+      "sourceId": "nse-kpigreen-26-oct-2026185850",
+      "date": "26 Oct 2026",
+      "category": "Deal Structuring",
+      "headline": "KPI Green Energy Limited: Acquisition",
+      "why": "Acquisition - KPI Green Energy Limited has informed the Exchange about Incorporation of Step-Down subsidiaries. The disclosure is attached herewith",
+      "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
+      "source": "https://nsearchives.nseindia.com/corporate/KPIGLOBAL_26102026185619_43_KPI_Intimation_of_Incorporation_of_Step_Down_Sub_26102026_Signed.pdf",
+      "sourceName": "NSE filing - KPI Green Energy Limited"
+    },
+    {
+      "id": "academy-2026-10-26-2-nse-mankind-26-oct-2026151739",
+      "sourceId": "nse-mankind-26-oct-2026151739",
+      "date": "26 Oct 2026",
+      "category": "Companies Act",
+      "headline": "Mankind Pharma Limited: Scheme of Arrangement",
+      "why": "Scheme of Arrangement - Please find attached outcome of Board Meeting where Board has noted the merger of MCPPL & UAPL",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/MANKIND1_26102026151729_Outcome26102026sd.pdf",
+      "sourceName": "NSE filing - Mankind Pharma Limited"
+    },
     {
       "id": "academy-2026-10-25-0-nse-shrenik-25-oct-2026113233",
       "sourceId": "nse-shrenik-25-oct-2026113233",
@@ -408,39 +441,6 @@
       "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
       "source": "https://nsearchives.nseindia.com/corporate/KMSUGAR_12102026210608_INTIMATION.pdf",
       "sourceName": "NSE filing - K.M.Sugar Mills Limited"
-    },
-    {
-      "id": "academy-2026-10-12-1-nse-ventive-12-oct-2026190122",
-      "sourceId": "nse-ventive-12-oct-2026190122",
-      "date": "12 Oct 2026",
-      "category": "Companies Act",
-      "headline": "Ventive Hospitality Limited: Amalgamation/Merger",
-      "why": "Amalgamation/Merger - VENTIVE: Scheme of Amalgamation Intimation regarding proposed appeal",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/VENTIVE_12102026185715_VHL_-_Appeal.pdf",
-      "sourceName": "NSE filing - Ventive Hospitality Limited"
-    },
-    {
-      "id": "academy-2026-10-12-2-nse-indswftlab-12-oct-2026173547",
-      "sourceId": "nse-indswftlab-12-oct-2026173547",
-      "date": "12 Oct 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "Ind-Swift Laboratories Limited: General Updates",
-      "why": "General Updates - Ind-Swift Laboratories Limited has informed the Exchange about Disclosures under Regulation 29(2) of the SEBI (Substantial Acquisition of Shares and Takeover) Regulations, 2011",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/INDSWFTLAB_12102026173502_Intimation_SAST12102026.pdf",
-      "sourceName": "NSE filing - Ind-Swift Laboratories Limited"
-    },
-    {
-      "id": "academy-2026-10-10-0-nse-nimbsproj-10-oct-2026220122",
-      "sourceId": "nse-nimbsproj-10-oct-2026220122",
-      "date": "10 Oct 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "Nimbus Projects Limited: Acquisition",
-      "why": "Acquisition - Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015- Incorporation of IITL Nimbus The Express Park View Private Limited as subsidiary company",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/NIMBUS_10102026220109_Inc_of_Subsidiary_EPV.pdf",
-      "sourceName": "NSE filing - Nimbus Projects Limited"
     }
   ]
 }
