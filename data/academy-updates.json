@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-26T22:04:41.201Z",
+  "generatedAt": "2026-10-27T21:33:03.360Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-27-0-nse-shahinvest-27-oct-2026200702",
+      "sourceId": "nse-shahinvest-27-oct-2026200702",
+      "date": "27 Oct 2026",
+      "category": "Deal Structuring",
+      "headline": "Shah Investor's Home Limited: General Updates",
+      "why": "General Updates - Shah Investor's Home Limited has informed the Exchange about Approval of the proposed Acquisition of Equity Shares of Ficus Food Lab Private Limited.",
+      "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
+      "source": "https://nsearchives.nseindia.com/corporate/SHAHINVESTORS_27102026200618_Outcome_Final_Signed.pdf",
+      "sourceName": "NSE filing - Shah Investor's Home Limited"
+    },
+    {
+      "id": "academy-2026-10-27-1-nse-efcil-27-oct-2026182431",
+      "sourceId": "nse-efcil-27-oct-2026182431",
+      "date": "27 Oct 2026",
+      "category": "Companies Act",
+      "headline": "EFC (I) Limited: Demerger",
+      "why": "Demerger - EFC (I) Limited has informed the Exchange about Final Date of Hearing of the Petition of Scheme of Arrangement (Demerger) between EFC Limited and EFC (I) Limited",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/EFCILTD_27102026182305_Intimation.pdf",
+      "sourceName": "NSE filing - EFC (I) Limited"
+    },
+    {
+      "id": "academy-2026-10-27-2-nse-maralover-27-oct-2026172446",
+      "sourceId": "nse-maralover-27-oct-2026172446",
+      "date": "27 Oct 2026",
+      "category": "Deal Structuring",
+      "headline": "Maral Overseas Limited: Outcome of Board Meeting",
+      "why": "Outcome of Board Meeting - Maral Overseas Limited has informed the Exchange regarding Outcome of Board Meeting held on October 27, 2026.in continuation to disclosure made on 7th May 2026 and 30th July 2026 regarding acquisition of 26%…",
+      "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
+      "source": "https://nsearchives.nseindia.com/corporate/MARALOVER_27102026172345_Stxintimationresultsandoutcomeofboardmeeting.pdf",
+      "sourceName": "NSE filing - Maral Overseas Limited"
+    },
     {
       "id": "academy-2026-10-26-0-nse-motherson-26-oct-2026193355",
       "sourceId": "nse-motherson-26-oct-2026193355",
@@ -408,39 +441,6 @@
       "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
       "source": "https://nsearchives.nseindia.com/corporate/ADVENTHTL_13102026201212_seintimation.pdf",
       "sourceName": "NSE filing - Advent Hotels International Limited"
-    },
-    {
-      "id": "academy-2026-10-13-1-nse-gtpl-13-oct-2026195303",
-      "sourceId": "nse-gtpl-13-oct-2026195303",
-      "date": "13 Oct 2026",
-      "category": "Deal Structuring",
-      "headline": "GTPL Hathway Limited: General Updates",
-      "why": "General Updates - GTPL Hathway Limited has informed the Exchange about approval of acquisition of balance 74% equity stake of DL GTPL Cabnet Private Limited as per the details enclosed.",
-      "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
-      "source": "https://nsearchives.nseindia.com/corporate/GTPLHL_13102026195252_Outcome_BM_Intimation.pdf",
-      "sourceName": "NSE filing - GTPL Hathway Limited"
-    },
-    {
-      "id": "academy-2026-10-13-2-nse-orientcem-13-oct-2026191135",
-      "sourceId": "nse-orientcem-13-oct-2026191135",
-      "date": "13 Oct 2026",
-      "category": "Companies Act",
-      "headline": "Orient Cement Limited: Copy of Newspaper Publication",
-      "why": "Copy of Newspaper Publication - Orient Cement Limited has informed the exchange about Newspaper Publication regarding hearing of Joint Company Petition before the Hon''ble NCLT, Ahmedabad Bench in connection with the Scheme of Amalgamation…",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/ORIENTCEM_13102026191119_OCL_Newspaper_Hearing_131012026.pdf",
-      "sourceName": "NSE filing - Orient Cement Limited"
-    },
-    {
-      "id": "academy-2026-10-12-0-nse-kmsugar-12-oct-2026210638",
-      "sourceId": "nse-kmsugar-12-oct-2026210638",
-      "date": "12 Oct 2026",
-      "category": "Companies Act",
-      "headline": "K.M.Sugar Mills Limited: Scheme of Arrangement",
-      "why": "Scheme of Arrangement - K.M.Sugar Mills Limited has informed the Exchange about Scheme of Arrangement",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/KMSUGAR_12102026210608_INTIMATION.pdf",
-      "sourceName": "NSE filing - K.M.Sugar Mills Limited"
     }
   ]
 }
