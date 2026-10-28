@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-27T21:33:03.360Z",
+  "generatedAt": "2026-10-28T21:57:38.093Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-28-0-nse-eclerx-28-oct-2026194625",
+      "sourceId": "nse-eclerx-28-oct-2026194625",
+      "date": "28 Oct 2026",
+      "category": "Companies Act",
+      "headline": "eClerx Services Limited: Scheme of Arrangement",
+      "why": "Scheme of Arrangement - eClerx Services Limited has informed the Exchange about Acquisition of equity shareholding in Personiv Eclipse Inc., USA, step down subsidiary of the Company",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/ECLERX_28102026194530_BSENSEacquisition28102026.pdf",
+      "sourceName": "NSE filing - eClerx Services Limited"
+    },
+    {
+      "id": "academy-2026-10-28-1-nse-tvsmotor-28-oct-2026194415",
+      "sourceId": "nse-tvsmotor-28-oct-2026194415",
+      "date": "28 Oct 2026",
+      "category": "Companies Act",
+      "headline": "TVS Motor Company Limited: Press Release",
+      "why": "Press Release - TVS Motor Company Limited has informed the Exchange regarding a press release dated October 28, 2026, titled \"Press release on the Composite Scheme of Arrangement \".",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/TVSMOTOR_28102026194328_TVSM_PRESSRELEASESD.pdf",
+      "sourceName": "NSE filing - TVS Motor Company Limited"
+    },
+    {
+      "id": "academy-2026-10-28-2-nse-honasa-28-oct-2026182205",
+      "sourceId": "nse-honasa-28-oct-2026182205",
+      "date": "28 Oct 2026",
+      "category": "Companies Act",
+      "headline": "Honasa Consumer Limited: Updates",
+      "why": "Updates - Intimation regarding proposed Scheme of Amalgamation between wholly owned subsidiaryand step-down wholly owned subsidiary of Honasa Consumer Limited",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/HONASA16_28102026181943_UpdateonMergerofBBluntandSpratts.pdf",
+      "sourceName": "NSE filing - Honasa Consumer Limited"
+    },
     {
       "id": "academy-2026-10-27-0-nse-shahinvest-27-oct-2026200702",
       "sourceId": "nse-shahinvest-27-oct-2026200702",
@@ -408,39 +441,6 @@
       "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
       "source": "https://nsearchives.nseindia.com/corporate/SEAMECLTD_14102026160821_NSEBSETakeoverofVesselSEAMECANANT14102026.pdf",
       "sourceName": "NSE filing - Seamec Limited"
-    },
-    {
-      "id": "academy-2026-10-14-1-nse-icil-14-oct-2026152647",
-      "sourceId": "nse-icil-14-oct-2026152647",
-      "date": "14 Oct 2026",
-      "category": "FEMA / FDI",
-      "headline": "Indo Count Industries Limited: Disclosure under SEBI Takeover Regulations",
-      "why": "Disclosure under SEBI Takeover Regulations - Orbis Consulting AG, as trustee of The Lhochhar Trust has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in…",
-      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
-      "source": "https://nsearchives.nseindia.com/corporate/team_sandeshc_14102026151406_Disclosure10.pdf",
-      "sourceName": "NSE filing - Indo Count Industries Limited"
-    },
-    {
-      "id": "academy-2026-10-14-2-nse-jswenergy-14-oct-2026121636",
-      "sourceId": "nse-jswenergy-14-oct-2026121636",
-      "date": "14 Oct 2026",
-      "category": "FEMA / FDI",
-      "headline": "JSW Energy Limited: General Updates",
-      "why": "General Updates - JSW Energy Limited has informed the Exchange about intimation of receipt of certified copy of order sanctioning the Scheme of Arrangement between GE Power India Limited ( GEPIL or Demerged Company ) and JSW Energy…",
-      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
-      "source": "https://nsearchives.nseindia.com/corporate/KRUTIKAJSWEL_14102026121618_SEintimationreceiptoforderFinal.pdf",
-      "sourceName": "NSE filing - JSW Energy Limited"
-    },
-    {
-      "id": "academy-2026-10-13-0-nse-adventhtl-13-oct-2026201223",
-      "sourceId": "nse-adventhtl-13-oct-2026201223",
-      "date": "13 Oct 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "Advent Hotels International Limited: Acquisition",
-      "why": "Acquisition - Advent Hotels International Limited has informed the Exchange about Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 - Acquisition",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/ADVENTHTL_13102026201212_seintimation.pdf",
-      "sourceName": "NSE filing - Advent Hotels International Limited"
     }
   ]
 }
