@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-28T21:57:38.093Z",
+  "generatedAt": "2026-10-29T22:03:23.193Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-29-0-nse-supremeinf-29-oct-2026195720",
+      "sourceId": "nse-supremeinf-29-oct-2026195720",
+      "date": "29 Oct 2026",
+      "category": "FEMA / FDI",
+      "headline": "Supreme Infrastructure India Limited: Scheme of Arrangement",
+      "why": "Scheme of Arrangement - Supreme Infrastructure India Limited has informed the Exchange about Scheme of Arrangement",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/SUPREMEINF_29102026195710_Scheme_extention_SIIL.pdf",
+      "sourceName": "NSE filing - Supreme Infrastructure India Limited"
+    },
+    {
+      "id": "academy-2026-10-29-1-nse-unimech-29-oct-2026185505",
+      "sourceId": "nse-unimech-29-oct-2026185505",
+      "date": "29 Oct 2026",
+      "category": "Deal Structuring",
+      "headline": "Unimech Aerospace and Manufacturing Limited: General Updates",
+      "why": "General Updates - In continuation of the disclosure submitted by the Company on October 27, 2026, regarding the acquisition of shares of Hobel Bellows Private Limited, and pursuant to Regulation 30 read with Part A of Schedule III of the…",
+      "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
+      "source": "https://nsearchives.nseindia.com/corporate/UNIMECH_29102026185453_Acquisition_of_Shares_of_Hobel.pdf",
+      "sourceName": "NSE filing - Unimech Aerospace and Manufacturing Limited"
+    },
+    {
+      "id": "academy-2026-10-29-2-nse-emmbi-29-oct-2026172646",
+      "sourceId": "nse-emmbi-29-oct-2026172646",
+      "date": "29 Oct 2026",
+      "category": "Deal Structuring",
+      "headline": "Emmbi Industries Limited: General Updates",
+      "why": "General Updates - Emmbi Industries Limited has informed the Exchange regarding the Board s approval, at its meeting held on October 29, 2026, of the proposal for acquisition of 50% of the equity share capital of Britpac AB, Sweden,…",
+      "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
+      "source": "https://nsearchives.nseindia.com/corporate/EMMBI_29102026172052_BritpacAB_Fortapac_AnnouncementSigned.pdf",
+      "sourceName": "NSE filing - Emmbi Industries Limited"
+    },
     {
       "id": "academy-2026-10-28-0-nse-eclerx-28-oct-2026194625",
       "sourceId": "nse-eclerx-28-oct-2026194625",
@@ -408,39 +441,6 @@
       "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
       "source": "https://nsearchives.nseindia.com/corporate/SATINDUSTRIES_15102026182439_AELupdate.pdf",
       "sourceName": "NSE filing - Aeroflex Enterprises Limited"
-    },
-    {
-      "id": "academy-2026-10-15-1-nse-texmopipes-15-oct-2026235336",
-      "sourceId": "nse-texmopipes-15-oct-2026235336",
-      "date": "15 Oct 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "Texmo Pipes and Products Limited: Updates",
-      "why": "Updates - Texmo Pipes and Products Limited has informed the Exchange regarding 'Disclosure under Regulation 29[2] of SEBI [Substantial Acquisition of Shares and Takeover]Regulations, 2011'.",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/TEXMOPIPES_15102026235325_Regulation_29__2__RSA_Madam_Signed.pdf",
-      "sourceName": "NSE filing - Texmo Pipes and Products Limited"
-    },
-    {
-      "id": "academy-2026-10-15-2-nse-texmopipes-15-oct-2026235220",
-      "sourceId": "nse-texmopipes-15-oct-2026235220",
-      "date": "15 Oct 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "Texmo Pipes and Products Limited: Updates",
-      "why": "Updates - Texmo Pipes and Products Limited has informed the Exchange regarding 'Disclosure under Regulation 29[2] of SEBI [Substantial Acquisition of Shares and Takeover]Regulations, 2011'.",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/TEXMOPIPES_15102026235210_Regulation29_2_SKA_Sir_Signed.pdf",
-      "sourceName": "NSE filing - Texmo Pipes and Products Limited"
-    },
-    {
-      "id": "academy-2026-10-14-0-nse-seamecltd-14-oct-2026160831",
-      "sourceId": "nse-seamecltd-14-oct-2026160831",
-      "date": "14 Oct 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "Seamec Limited: Updates",
-      "why": "Updates - Seamec Limited has informed the Exchange regarding 'Intimation on Takeover of Vessel \"SEAMEC ANANT\"'.",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/SEAMECLTD_14102026160821_NSEBSETakeoverofVesselSEAMECANANT14102026.pdf",
-      "sourceName": "NSE filing - Seamec Limited"
     }
   ]
 }
