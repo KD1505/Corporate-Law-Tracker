@@ -1,365 +1,293 @@
 # Corporate Law Tracker - Daily Brief
-_29 October 2026_
+_30 October 2026_
 
-46 new development(s) - top 40 shown.
+32 new development(s).
 
-### 🔴 Trilegal, Shardul Amarchand Mangaldas act on Zetwerk ₹5,012 crore IPO
-**IPO** · ₹5,012 cr · Cross-border · Reported
+### Khaitan, Latham, SAM, Linklaters act on Persistent Systems ₹4,264 crore QIP
+**IPO** · ₹4,264 cr · India · Reported
 
-Zetwerk Manufacturing Businesses Limited has made an initial public offering of equity shares comprised of an offer for sale by the company’s promoter selling shareholders, investor selling shareholders, promoter group selling shareholder…
+Persistent Systems Limited has raised ₹4,264.61 crore from its maiden Qualified Institutional Placement of equity shares. Khaitan & Co advised Persistent Systems on this QIP, as to Indian law.
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/trilegal-shardul-amarchand-mangaldas-act-on-zetwerk-5012-crore-ipo)
-
----
-
-### Shardul Amarchand Mangaldas, Khaitan & Co act on Bonfiglioli ₹2,533 crore IPO
-**IPO** · ₹2,533 cr · Cross-border · Reported
-
-Bonfiglioli Transmissions Limited has made an initial public offering of equity shares comprised of an offer for sale by Bonfiglioli S.p.A., the company’s promoter, aggregating to ₹2,533.66 crore. Shardul Amarchand Mangaldas & Co (SAM)…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-khaitan-co-act-on-bonfiglioli-2533-crore-ipo)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-latham-sam-linklaters-act-on-persistent-systems-4264-crore-qip)
 
 ---
 
-### Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Cemindia ₹1,400 crore QIP
-**IPO** · ₹1,400 cr · India · Reported
+### Reliance Industries Limited: Outcome of Board Meeting
+**BANK** · ₹15,000 cr · India · ✓ Verified
 
-Cemindia Projects Limited has raised ₹1,400 crore from a qualified institutions placement of equity shares. Cyril Amarchand Mangaldas advised Cemindia on this QIP.
+Outcome of Board Meeting - In continuation of our letter dated October 27, 2026, we wish to inform you that the Board of Directors of the Company, at its meeting held today, has, inter alia:1. approved the unaudited Financial Results…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-cemindia-1400-crore-qip)
-
----
-
-### Motilal Oswal Financial Services Limited: General Updates
-**IPO** · ₹3000,00,00,000 · India · ✓ Verified
-
-General Updates - The Board at its Meeting held on Thursday, October 29, 2026 has, inter-alia, considered and approved the Issuance of Non-Convertible Debentures ( NCDs") not exceeding Rs. 3000,00,00,000/- (Rupees Three Thousand Crore…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MOTILALOFS_29102026181113_MOFSL_Board_Meeting_Outcome_29102026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/kavinavora_30102026193935_SE_30102026_Results.pdf)
 
 ---
 
-### DSK Legal, AMR Law, CAM, SAM act on GreatWhite Electricals change in ownership
-**IBC** · Mumbai · Reported
+### JSA, Argus Partners act on myTVS ₹425 crore Series D fundraise
+**PE** · ₹425 cr · India · Reported
 
-Hemang Jadavji Shah and certain other sellers have sold off their entire shareholding, representing 50% of the issued and paid-up share capital, in Great White Global Private Limited, to Mehul Jadavji Shah and an alternate investment fund.…
+TVS Automobile Solutions Private Limited, owner of omnichannel brand myTVS, has raised ₹425 crore from a Series D fundraise led by CE-Invests. JSA Advocates & Solicitors advised myTVS on this fundraise.
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/dsk-legal-amr-law-cam-sam-act-on-greatwhite-electricals-change-in-ownership)
-
----
-
-### Emmbi Industries Limited: General Updates
-**MA** · Cross-border · ✓ Verified
-
-General Updates - Emmbi Industries Limited has informed the Exchange regarding the Board s approval, at its meeting held on October 29, 2026, of the proposal for acquisition of 50% of the equity share capital of Britpac AB, Sweden,…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/EMMBI_29102026172052_BritpacAB_Fortapac_AnnouncementSigned.pdf)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/jsa-argus-partners-act-on-mytvs-425-crore-series-d-fundraise)
 
 ---
 
-### NIIT Learning Systems Limited: Acquisition
-**MA** · Cross-border · ✓ Verified
+### Juniper Green Energy Limited: Acquisition
+**MA** · India · ✓ Verified
 
-Acquisition - Intimation about investment by NIIT (USA), Inc., a wholly owned overseas subsidiary of the Company, by way of acquisition of 100% membership interest in Bluewater Learning, LLC, a Texas based company.
+Acquisition - Juniper Green Energy Limited has informed the Exchange about Incorporation of Wholly Owned Subsidiary
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NLSL_29102026163803_BM_SE_intimation_letter_Txn_291026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/JGEL2025_30102026213215_2026_10_30_JGEL_Reg_30_Incorporation_Beta_15.pdf)
 
 ---
 
-### NIIT Learning Systems Limited: Outcome of Board Meeting
-**MA** · Cross-border · ✓ Verified
+### Rane Holdings Limited: Acquisition
+**MA** · ₹10 · India · ✓ Verified
 
-Outcome of Board Meeting - Intimation about investment by NIIT (USA), Inc., a wholly owned overseas subsidiary of the Company, by way of acquisition of 100% membership interest in Bluewater Learning, LLC, a Texas based company.
+Acquisition - The Company has been allotted 5,15,954 equity shares of Rs. 10/- each fully paid up pursuant to Rights Issue in the Joint venture i.e.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NLSL_29102026163332_BM_SE_intimation_letter_Txn_291026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/RANEHOLDIN_30102026212317_RHLZLRAIALLOTMENTOCT2026.pdf)
+
+---
+
+### Waaree Energies Limited: General Updates
+**MA** · India · ✓ Verified
+
+General Updates - Waaree Energies Limited has informed the Exchange about Completion of Acquisition.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/WAAREE_30102026203417_CompletionofAcquisition_signed.pdf)
+
+---
+
+### Tata Motors Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Tata Motors Limited has informed the Exchange about Acquisition
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TMLCOMMERCIAL_30102026201734_NSEBSELETTERFINALIVECOFINAL.pdf)
+
+---
+
+### Vimta Labs Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Vimta Labs Limited has informed the Exchange about Incorporation of Wholly Owned Subsidiary in USA.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/VIMTALABS_30102026195757_Reg_30.pdf)
+
+---
+
+### Brainbees Solutions Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Brainbees Solutions Limited has informed the Exchange about acquisition of additional stake in JW Brands Private Limited by Globalbees Brands Private Limited, material subsidiary of the Company
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/BRAINBEES_30102026195200_Disclosureunderregulation30AcquisitionbyGlobalbees_JWBrands.pdf)
+
+---
+
+### Aeroflex Neu Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Enter into the business of manufacture and exporting of wire and cables with an acquisition of Equity Shares of Aerolex Cables Private Limited.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SAHPOLYMERSLIMITEDIPO_30102026193434_ANL_Outcome_of_BMsigned.pdf)
+
+---
+
+### Aeroflex Neu Limited: Outcome of Board Meeting
+**MA** · India · ✓ Verified
+
+Outcome of Board Meeting - The Board of Directors at its meeting today, i.e., Friday, October 30, 2026, inter alia, considered and approved the following matters:1. Unaudited Financial Results of the Company for the quarter and half year…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SAHPOLYMERSLIMITEDIPO_30102026191008_ANL_Outcome_of_BMsigned.pdf)
+
+---
+
+### Grasim Industries Limited: General Updates
+**MA** · India · ✓ Verified
+
+General Updates - Update on acquisition of Solenergi Power Private Limited by Aditya Birla Renewables Limited, a subsidiary of the Company
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GRASIM_30102026191027_SEIntimation.pdf)
+
+---
+
+### HEG Advanced Materials Limited: Updates
+**MA** · India · ✓ Verified
+
+Updates - HEG Advanced Materials Limited has informed the Exchange regarding 'Communication by HEG Graphite Limited (renamed as HEG Limited), Resulting Company (as per Composite Scheme of Arrangement) regarding unaudited financial results…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HEGAM_30102026184640_StEX_HEGFinancials.pdf)
+
+---
+
+### Bharat Forge Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Bharat Forge Limited has informed the Exchange about Acquisition
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ANILSHINDE_30102026174953_SEIntimation_KSSL_AEL_Allotment_1.pdf)
+
+---
+
+### Advait Energy Transitions Limited: Outcome of Board Meeting
+**MA** · India · ✓ Verified
+
+Outcome of Board Meeting - Advait Energy Transitions Limited has informed the Exchange regarding Outcome of Board Meeting held on October 30, 2026., for ESOP grant options to employees and acquisition of additional shares of subsidiaries
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ADVAITENERGY_30102026173751_Outcome.pdf)
+
+---
+
+### Tinna Rubber and Infrastructure Limited: General Updates
+**MA** · India · ✓ Verified
+
+General Updates - Tinna Rubber and Infrastructure Limited has informed the Stock Exchange about remittance of 3rd tranche of loan granted to Mbodla Investments (PTY) LIMITED, South Africa (Joint Venture).
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TINNARUBBER_30102026171304_TRIL_SEIntimation_Mbodla_Loan_30Oct2026.pdf)
+
+---
+
+### Gayatri Projects Limited: Updates
+**MA** · Bengaluru · ✓ Verified
+
+Updates - Gayatri Projects Limited has informed the Exchange that it has been awarded a new project by Bengaluru Integrated Rail Infrastructure Development Enterprise Limited (B-RIDE) under a Joint Venture.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GAYAPROJ_30102026165940_Intmn_of_bagging_contract_30102026.pdf)
+
+---
+
+### Paras Healthcare Limited: Updates
+**MA** · India · ✓ Verified
+
+Updates - Paras Healthcare Limited has informed the Exchange regarding 'Disclosure under Regulation 29(1) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011, as amended ( SEBI SAST Regulations )'.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/PARASHEALTH_30102026165908_Disclosure_-_Regulation_29_1__-_SAST_-_Final.pdf)
+
+---
+
+### Delhivery Limited: Acquisition
+**MA** · India · ✓ Verified
+
+Acquisition - Investment in Wholly Owned Subsidiary
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/DELHIVERYLTD_30102026165135_OutcomeOfBM.pdf)
+
+---
+
+### SJVN Limited: Amalgamation/Merger
+**MA** · India · ✓ Verified
+
+Amalgamation/Merger - SJVN Limited has informed the Exchange about Amalgamation/Merger
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SJVN_30102026152058_stock_exchange_intimation_-_merger.pdf)
 
 ---
 
 ### Apar Industries Limited: Acquisition
-**MA** · Cross-border · ✓ Verified
-
-Acquisition - Apar Industries Limited has informed the Exchange about Approval for further investment in Petroleum Specialties Pte Ltd., Singapore.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/APARINDS_29102026140146_OutcomeQ2FY27.pdf)
-
----
-
-### JSA advises Forsee Power on joint venture with Varroc Engineering
-**PE** · India · Reported
-
-Forsee Power S.A. is forming a joint venture in India with Varroc Engineering Limited, Forsee Power India Private Limited.
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/jsa-advises-forsee-power-on-joint-venture-with-varroc-engineering)
-
----
-
-### Khaitan & Co, Metalegal act on L'Oreal acquiring majority stake in Innovist
-**BANK** · India · Reported
-
-L'Oreal India Private Limited has acquired a majority stake in Onesto Labs Private Limited (Innovist), a leading digital-first Indian personal care house of brands. The transaction involves the upfront acquisition of a majority stake in…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-metalegal-act-on-loreal-acquiring-majority-stake-in-innovist)
-
----
-
-### Khaitan & Co, Cyril Amarchand Mangaldas, Baker McKenzie act on acquisition of Entab by Nelnet
-**MA** · India · Reported
-
-Entab Infotech Private Limited has been acquired by Nelnet Business Services (NBS), a division of Nelnet, Inc. Khaitan & Co advised Entab and its promoters on this acquisition.
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-cyril-amarchand-mangaldas-baker-mckenzie-act-on-acquisition-of-entab-by-nelnet)
-
----
-
-### EPACK Durable Limited: Agreements
 **MA** · India · ✓ Verified
 
-Agreements - EPACK Durable Limited has informed the Exchange about Share Purchase Agreement with RRWL for sale of its entire stake held in EPAVO Electricals Private Limited - Joint Venture Company.
+Acquisition - Apar Industries Limited has informed the Exchange about Acquisition by Wholly Owned Subsidiary of the Company.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/EPACKNSE_29102026195825_Final_Outcome_V2_Signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/APARINDS_30102026145125_Chinaintimation.pdf)
 
 ---
 
-### Supreme Infrastructure India Limited: Scheme of Arrangement
+### Skipper Limited: General Updates
 **MA** · India · ✓ Verified
 
-Scheme of Arrangement - Supreme Infrastructure India Limited has informed the Exchange about Scheme of Arrangement
+General Updates - Acquisition of 100% equity stake in Sansha Fastener Private Limited. Consequent to thisacquisition, Sansha Fastener Private Limited shall become a wholly owned subsidiary of theCompany
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SUPREMEINF_29102026195710_Scheme_extention_SIIL.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/skipper_30102026141018_Outcome.pdf)
 
 ---
 
-### Skyways Air Services Limited: Acquisition
+### Hero MotoCorp Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - Skyways Air Services Limited has informed the Exchange about Acquisition
+Acquisition - Pursuant to Regulation 30 of the SEBI Listing Regulations, please find attached the disclosure document regarding the update on incorporation of a company under Section 8 of the Companies Act, 2013, under the name 'Hero…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SKYWAYS_29102026195637_11111111.pdf)
-
----
-
-### EPACK Durable Limited: Sale or disposal
-**MA** · India · ✓ Verified
-
-Sale or disposal - EPACK Durable Limited has informed the Exchange about Divestment of entire stake in EPAVO Electricals Private Limited - Joint Venture Company
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/EPACKNSE_29102026195259_Final_Outcome_V2_Signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HEROMOTO_30102026110358_Stxintimation30102026.pdf)
 
 ---
 
-### Panache Digilife Limited: Acquisition
-**MA** · India · ✓ Verified
+### Sudarshan Pharma Industries Limited: Issue of Securities
+**PE** · ₹72 cr · India · ✓ Verified
 
-Acquisition - Panache Digilife Limited has informed the Exchange about completion of Investment in Technofy Digital Private Limited
+Issue of Securities - Sudarshan Pharma Industries Limited has informed the Exchange about issue of Securities - In continuation of the Company''s letter dated 30/Oct/2026 (ref. no.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PANACHE_29102026190413_NSEIntimation_Signed.pdf)
-
----
-
-### Unimech Aerospace and Manufacturing Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - In continuation of the disclosure submitted by the Company on October 27, 2026, regarding the acquisition of shares of Hobel Bellows Private Limited, and pursuant to Regulation 30 read with Part A of Schedule III of the…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/UNIMECH_29102026185453_Acquisition_of_Shares_of_Hobel.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SUDARSHAN_30102026203241_Sudarshan_Outcome_Warrants_BM_30_10_2026_R.pdf)
 
 ---
 
-### Ram Ratna Wires Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - Ram Ratna Wires Limited has informed the Exchange about Acquisition
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/RAMRATNA_29102026180729_Epavo_-_RR_Board_Outcome_Draft.pdf)
-
----
-
-### Restaurant Brands Asia Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - Restaurant Brands Asia Limited has informed the Exchange about Acquisition of OCPS, Conversion of Loan into OCPS and change in terms of NCPS of PT Sari Burger Indonesia (Subsidiary).
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/RBA_29102026173242_FinalUpload.pdf)
-
----
-
-### Gayatri Highways Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - Gayatri Highways Limited has informed the Exchange about Intimation of further acquisition of Shares in subsidiary / associate Companies.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/GAYAHWS_29102026165358_GHL_Disclosure_for_Acquistion_29_10_2026.pdf)
-
----
-
-### NIIT Learning Systems Limited: Press Release
-**MA** · India · ✓ Verified
-
-Press Release - Press release dated October 29, 2026; acquisition of Bluewater Learning, LLP.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NLSL_29102026165205_NLSLSEBMPressRelease29102026Acquisition.pdf)
-
----
-
-### DCW Limited: Outcome of Board Meeting
-**MA** · ₹2 · India · ✓ Verified
-
-Outcome of Board Meeting - Further to our intimation dated October 26, 2026 and in terms of Regulation 30 of the Listing Regulations, we wish to inform you that the Board of Directors (the Board ) of Company at its meeting held on October…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DCW_29102026164842_Outcome_of_Board_Meeting_29-10-2026.pdf)
-
----
-
-### Astra Microwave Products Limited: Scheme of Arrangement
-**MA** · India · ✓ Verified
-
-Scheme of Arrangement - Receipt of Observation letter with no adverse observations/No Objection letter from the Stock Exchanges on the Scheme of Demerger.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ASTRAMICRO_29102026164303_NOCLetter.pdf)
-
----
-
-### Wipro Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - Wipro Limited has informed the Exchange to please refer to our earlier letter dated October 16, 2026, informing that Wipro Limited through its step-down subsidiary - Wipro IT Services, LLC had signed a definitive…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Cslogin_29102026154834_Reg30SEIntimation29102026.pdf)
-
----
-
-### Laurus Labs Limited: Press Release
-**MA** · India · ✓ Verified
-
-Press Release - Laurus Labs Limited has informed the Exchange regarding a press release dated October 29, 2026, titled "Press Release on the Financial Results for the quarter and half-year ended September 30, 2026 along with the…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/LAURUSLABS_29102026153754_1PressRelease29102026.pdf)
-
----
-
-### Ashiana Housing Limited: General Updates
-**MA** · Delhi-NCR · ✓ Verified
-
-General Updates - Ashiana Housing Limited has informed the Exchange regarding Intimation under Regulation 30 of the Securities Exchange Board of India (Listing Obligation and Disclosure Requirements) Regulations, 2015 ( LODR Regulations )…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ASHIANA_29102026153521_GurugramDealSigned.pdf)
-
----
-
-### Laurus Labs Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - Laurus Labs Limited has informed the Exchange about Acquisition
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/LAURUSLABS_29102026150634_SIandC.pdf)
-
----
-
-### Macpower CNC Machines Limited: Disclosure under SEBI Takeover Regulations
-**MA** · India · ✓ Verified
-
-Disclosure under SEBI Takeover Regulations - Reyan Rupeshbhai Mehta has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/vipulr_29102026145421_29102026134957_Mehta1.pdf)
-
----
-
-### Welspun Corp Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - Welspun Corp Limited has informed the Exchange about Acquisition
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/WELCORP_29102026143828_SEintimationFinal.pdf)
-
----
-
-### Ambuja Cements Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - Ambuja Cements Limited has informed the Exchange about acquisition of 26% equity shares of SWE Renewables Limited.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AMBUJACEM_29102026142909_ACL_Results_29102926.pdf)
-
----
-
-### Raghav Productivity Enhancers Limited: Updates
-**MA** · India · ✓ Verified
-
-Updates - Raghav Productivity Enhancers Limited has informed the Exchange regarding 'Acquisition of Joint Venture Entity'.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/RPEL2009_29102026135729_sign29th_Oct_Acquistion_of_Shares.pdf)
-
----
-
-### Embassy Developments Limited: Acquisition
-**MA** · India · ✓ Verified
-
-Acquisition - Execution of Share Purchase Agreement for acquisition of balance equity stake in Embassy Columbia Pacific ASL Private Limited.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/EMBDL_29102026103103_EDL_SE_Intimation_Acquisition_of_Embassy_Columbia_-_final.pdf)
-
----
-
-### Embassy Developments Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - Execution of Share Purchase Agreement for acquisition of balance equity stake in Embassy Columbia Pacific ASL Private Limited.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/EMBDL_29102026101540_EDL_SE_Intimation_Acquisition_of_Embassy_Columbia_-_final.pdf)
-
----
-
-### Suvidhaa Infoserve Limited: Rights Issue
-**IPO** · ₹1.50 · India · ✓ Verified
-
-Rights Issue - Suvidhaa Infoserve Limited has informed the Exchange that Board of Directors at its meeting held on October 29, 2026, has decided to issue equity shares on rights basis in the ratio of 3 : 8, i.e 3 Equity Shares for every 8…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SUVIDHAA_29102026214947_Boardmeetingoutcome29102026.pdf)
-
----
-
-### Restaurant Brands Asia Limited: Monitoring Agency Report
+### Sammaan Capital Limited: Updates
 **IPO** · India · ✓ Verified
 
-Monitoring Agency Report - Monitoring Agency Report w.r.t. utilisation of proceeds from Qualified Institutions Placement and Preferential issue on private placement basis.
+Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/RBA_29102026200022_Finalupload.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_30102026201448_SCL_Exchange_Retail_intimation_57_30102026_XR5.pdf)
 
 ---
 
-### Natco Pharma Limited: Copy of Newspaper Publication
+### Sammaan Capital Limited: Updates
 **IPO** · India · ✓ Verified
 
-Copy of Newspaper Publication - Natco Pharma Limited has informed the Exchange about Copy of News Paper Publication of Basis of Allotment for Rights Issue
+Updates - Sammaan Capital Limited has informed the Exchange regarding 'Pursuant to Regulation 57 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby certify that our…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NATCOPHARM_29102026171312_PaperPublications_BasisOfAllotment.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IHFL_30102026200252_SCL_Exchange_Retail_intimation_57_30102026_TG6.pdf)
 
 ---
 
-### Edelweiss Financial Services Limited: Updates
+### Ola Electric Mobility Limited: Updates
 **IPO** · India · ✓ Verified
 
-Updates - Edelweiss Financial Services Limited has informed the Exchange regarding IPO of EAAA India Alternatives Limited
+Updates - Ola Electric Mobility Limited has informed the Exchange regarding 'Intimation on closure of the Issue Period of the Rights Issue'.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/EDELWEISS_29102026143922_Exchange_Intimation.pdf)
-
----
-
-### Adani Enterprises Limited: Monitoring Agency Report
-**IPO** · India · ✓ Verified
-
-Monitoring Agency Report - Monitoring Agency Report for the quarter and half year ended on September 30, 2026 - Funds raised through issue of Qualified Institutional Placement ( QIP )
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_29102026133612_AELMonitoringAgency30092026QIPIssue.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/OLAELECTRIC_30102026132256_SEintimationIssueClosing30102026.pdf)
 
 ---
 
-### Punj Lloyd Limited: Corporate Insolvency Resolution Process
+### Value Industries Limited: Corporate Insolvency Resolution Process
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - Punj Lloyd Limited has informed NSE that the meeting of the Board of Directors of the Company is scheduled on 03/11/2026, inter alia, to consider and approve the Unaudited Financial Statements for…
+Corporate Insolvency Resolution Process - Pre-facto Intimation of the upcoming 66th meeting of the Committee of Creditors to be held on Tuesday, November 03, 2026.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PUNJLLOYD_29102026193643_BM_Intimation.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/VALUEIND_30102026165940_VAL_Intimation_66th_CoC_Meeting_dt_November_3_2026.pdf)
+
+---
+
+### Videocon Industries Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process - Pre-facto Intimation of the upcoming 66th meeting of the Committee of Creditors to be held on Tuesday, November 03, 2026.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/VIDEOIND_30102026152846_VIL_Intimation_66th_CoC_Meeting_dt_November_03__2026__signed.pdf)
+
+---
+
+### Polycab India Limited: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process - Polycab India Limited has informed the Exchange about the order passed by NCLAT setting aside the order of NCLT Ahmedabad bench dated October 07, 2026
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/POLYCAB_30102026121954_SECIRP30102026.pdf)
+
+---
+
+### BIL VYAPAR LIMITED: Corporate Insolvency Resolution Process
+**IBC** · India · ✓ Verified
+
+Corporate Insolvency Resolution Process - Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015- Intimation of meeting of Committee of Creditors.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/BINANIIND_30102026113714_SE_Intimation_COC.pdf)
+
+---
+
+### DSK Legal, Touchstone Partners act on Stride Ventures' investment into Buildmex-Infra
+**BANK** · India · Reported
+
+Stride Ventures Debt Fund 4 has subscribed to non-convertible debentures issued by Buildmex-Infra Private Limited on a private placement basis. DSK Legal advised Stride Ventures on this investment.
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/dsk-legal-touchstone-partners-act-on-stride-ventures-investment-into-buildmex-infra)
 
 ---
 

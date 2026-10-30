@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-29T22:03:23.193Z",
+  "generatedAt": "2026-10-30T21:47:12.187Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-30-0-nse-hegam-30-oct-2026184723",
+      "sourceId": "nse-hegam-30-oct-2026184723",
+      "date": "30 Oct 2026",
+      "category": "Companies Act",
+      "headline": "HEG Advanced Materials Limited: Updates",
+      "why": "Updates - HEG Advanced Materials Limited has informed the Exchange regarding 'Communication by HEG Graphite Limited (renamed as HEG Limited), Resulting Company (as per Composite Scheme of Arrangement) regarding unaudited financial results…",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/HEGAM_30102026184640_StEX_HEGFinancials.pdf",
+      "sourceName": "NSE filing - HEG Advanced Materials Limited"
+    },
+    {
+      "id": "academy-2026-10-30-1-nse-parashlth-30-oct-2026165937",
+      "sourceId": "nse-parashlth-30-oct-2026165937",
+      "date": "30 Oct 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Paras Healthcare Limited: Updates",
+      "why": "Updates - Paras Healthcare Limited has informed the Exchange regarding 'Disclosure under Regulation 29(1) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011, as amended ( SEBI SAST Regulations )'.",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/PARASHEALTH_30102026165908_Disclosure_-_Regulation_29_1__-_SAST_-_Final.pdf",
+      "sourceName": "NSE filing - Paras Healthcare Limited"
+    },
+    {
+      "id": "academy-2026-10-30-2-nse-heromotoco-30-oct-2026110407",
+      "sourceId": "nse-heromotoco-30-oct-2026110407",
+      "date": "30 Oct 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Hero MotoCorp Limited: Acquisition",
+      "why": "Acquisition - Pursuant to Regulation 30 of the SEBI Listing Regulations, please find attached the disclosure document regarding the update on incorporation of a company under Section 8 of the Companies Act, 2013, under the name 'Hero…",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/HEROMOTO_30102026110358_Stxintimation30102026.pdf",
+      "sourceName": "NSE filing - Hero MotoCorp Limited"
+    },
     {
       "id": "academy-2026-10-29-0-nse-supremeinf-29-oct-2026195720",
       "sourceId": "nse-supremeinf-29-oct-2026195720",
@@ -408,39 +441,6 @@
       "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
       "source": "https://nsearchives.nseindia.com/corporate/RBLBANK_16102026211705_SEOct162026DisclosureSigned.pdf",
       "sourceName": "NSE filing - RBL Bank Limited"
-    },
-    {
-      "id": "academy-2026-10-16-1-nse-hindwareap-16-oct-2026170029",
-      "sourceId": "nse-hindwareap-16-oct-2026170029",
-      "date": "16 Oct 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "Hindware Home Innovation Limited: Scheme of Arrangement",
-      "why": "Scheme of Arrangement - Hindware Home Innovation Limited has informed the Exchange about Scheme of Arrangementunder Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 pursuant to the NCLT Order on the…",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/SHIL_16102026170015_SE_NCLTOrder_HHIL.pdf",
-      "sourceName": "NSE filing - Hindware Home Innovation Limited"
-    },
-    {
-      "id": "academy-2026-10-16-2-nse-gfllimited-16-oct-2026164550",
-      "sourceId": "nse-gfllimited-16-oct-2026164550",
-      "date": "16 Oct 2026",
-      "category": "Companies Act",
-      "headline": "GFL Limited: Scheme of Arrangement",
-      "why": "Scheme of Arrangement - We wish to inform you that on Thursday, October 15, 2026 the Company has received the Certified true copy of the final order pronounced by Hon'ble Tribunal (NCLT) after its hearing held on Monday 28 September, 2026.…",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/GFLLIMITED_16102026164424_Upload.pdf",
-      "sourceName": "NSE filing - GFL Limited"
-    },
-    {
-      "id": "academy-2026-10-15-0-nse-aeroenter-15-oct-2026182555",
-      "sourceId": "nse-aeroenter-15-oct-2026182555",
-      "date": "15 Oct 2026",
-      "category": "Deal Structuring",
-      "headline": "Aeroflex Enterprises Limited: General Updates",
-      "why": "General Updates - Update Approval of Acquisition of Equity Shares of Stilonn Valves and Controls Private Limited by Aeroflex Neu Limited, a Material Subsidiary of the Company",
-      "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
-      "source": "https://nsearchives.nseindia.com/corporate/SATINDUSTRIES_15102026182439_AELupdate.pdf",
-      "sourceName": "NSE filing - Aeroflex Enterprises Limited"
     }
   ]
 }
