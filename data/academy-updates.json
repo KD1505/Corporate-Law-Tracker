@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-30T21:47:12.187Z",
+  "generatedAt": "2026-10-31T20:44:03.813Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-10-31-0-nse-aurionpro-31-oct-2026201309",
+      "sourceId": "nse-aurionpro-31-oct-2026201309",
+      "date": "31 Oct 2026",
+      "category": "Companies Act",
+      "headline": "Aurionpro Solutions Limited: Amalgamation/Merger",
+      "why": "Amalgamation/Merger - Aurionpro Solutions Limited has informed the Exchange about Scheme of Amalgamation of Three Wholly Owned Subsidiaries with Aurionpro Solutions Limited.",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/AURIONPRO_31102026201253_ASL_Outcome_of_Board_Meeting_Merger_sd.pdf",
+      "sourceName": "NSE filing - Aurionpro Solutions Limited"
+    },
+    {
+      "id": "academy-2026-10-31-1-nse-apcotexind-31-oct-2026131330",
+      "sourceId": "nse-apcotexind-31-oct-2026131330",
+      "date": "31 Oct 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Apcotex Industries Limited: Acquisition",
+      "why": "Acquisition - Apcotex Industries Limited has informed the Exchange about Intimation under Regulation 30 of the SEBI (LODR) Regulations, 2015 Acquisition of shares of Amplus Ampere Private Limited",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/APCOTEXIND_31102026131318_Intimation_-_Acquisition_of_shares-signed.pdf",
+      "sourceName": "NSE filing - Apcotex Industries Limited"
+    },
+    {
+      "id": "academy-2026-10-31-2-nse-dpscltd-31-oct-2026163237",
+      "sourceId": "nse-dpscltd-31-oct-2026163237",
+      "date": "31 Oct 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "DPSC Limited: Corporate Insolvency Resolution Process",
+      "why": "Corporate Insolvency Resolution Process - DPSC Limited has informed the Exchange about Corporate Insolvency Resolution Process-Notices for non-compliance with Regulation 34 of SEBI (Listing Obligations and Disclosure Requirements)…",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/DPSCLTD_31102026163215_IntimationunderReg30ofimpositionoffineunderReg34ofSEBI_LODR__31102026.pdf",
+      "sourceName": "NSE filing - DPSC Limited"
+    },
     {
       "id": "academy-2026-10-30-0-nse-hegam-30-oct-2026184723",
       "sourceId": "nse-hegam-30-oct-2026184723",
@@ -408,39 +441,6 @@
       "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
       "source": "https://nsearchives.nseindia.com/corporate/AMBER_18102026161739_Ascent.pdf",
       "sourceName": "NSE filing - Amber Enterprises India Limited"
-    },
-    {
-      "id": "academy-2026-10-17-0-nse-jswsteel-17-oct-2026110015",
-      "sourceId": "nse-jswsteel-17-oct-2026110015",
-      "date": "17 Oct 2026",
-      "category": "Companies Act",
-      "headline": "JSW Steel Limited: Amalgamation/Merger",
-      "why": "Amalgamation/Merger - JSW Steel Limited has informed the Exchange about Order ofHon ble National Company Law Tribunal sanctioning the Scheme of Amalgamation of Piombino Steel Limited with JSW Steel Limited and theirrespective shareholders…",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/DivyaMascarenhas_17102026105940_JSWSLSEIntimationforOrdersanctioningPSLMergerOct2026.pdf",
-      "sourceName": "NSE filing - JSW Steel Limited"
-    },
-    {
-      "id": "academy-2026-10-17-1-trilegal-advises-dailyobjects-on-332-crore-serie",
-      "sourceId": "trilegal-advises-dailyobjects-on-332-crore-series-c-fundraise",
-      "date": "17 Oct 2026",
-      "category": "Competition / CCI",
-      "headline": "Trilegal advises DailyObjects on ₹332 crore Series C fundraise",
-      "why": "Firki Wholesale Private Limited, dba DailyObjects, has raised ₹332 crore from a Series C fundraise led by Xponentia Capital Partners, Anicut Capital, and Axiom Asia Private Capital. The transaction is structured as a combination of a…",
-      "interviewPrompt": "Explain the trigger, whether standstill applies, and how the point changes conditions precedent, long-stop date or remedies drafting.",
-      "source": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-dailyobjects-on-332-crore-series-c-fundraise",
-      "sourceName": "Bar & Bench - Dealstreet"
-    },
-    {
-      "id": "academy-2026-10-16-0-nse-rblbank-16-oct-2026211758",
-      "sourceId": "nse-rblbank-16-oct-2026211758",
-      "date": "16 Oct 2026",
-      "category": "FEMA / FDI",
-      "headline": "RBL Bank Limited: General Updates",
-      "why": "General Updates - RBL Bank Limited has informed the Exchange about receipt of approval from the Reserve Bank of India for amalgamation of Indian branches of Emirates NBD Bank P.J.S.C. with RBL Bank Limited.",
-      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
-      "source": "https://nsearchives.nseindia.com/corporate/RBLBANK_16102026211705_SEOct162026DisclosureSigned.pdf",
-      "sourceName": "NSE filing - RBL Bank Limited"
     }
   ]
 }
