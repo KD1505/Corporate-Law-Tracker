@@ -1,32 +1,23 @@
 # Corporate Law Tracker - Daily Brief
 _1 November 2026_
 
-3 new development(s).
+2 new development(s).
 
-### Usha Martin Limited: General Updates
+### Affle 3i Limited: Press Release
 **MA** · India · ✓ Verified
 
-General Updates - USHAMART: Usha Martin Limited has informed the Exchange about Completion of Slump Sale of the Business Undertaking of U M Cables Limited ( Wholly-owned subsidiary ).
+Press Release - Affle 3i Limited has informed the Exchange regarding a press release dated November 01, 2026, titled "Affle to acquire Perion, to scale its CPCU business across Developed markets".
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/USHAMART_01112026103921_SEDisclosure01112026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AFFLE_01112026175154_Press_Release2.pdf)
 
 ---
 
-### R R Kabel Limited: Acquisition
+### Affle 3i Limited: General Updates
 **MA** · India · ✓ Verified
 
-Acquisition - RRKABEL: R R Kabel Limited has informed the Exchange regarding completion of the acquisition of the Business Undertaking from U M Cables Limited.
+General Updates - Affle 3i Limited has informed the Exchange that Affle 3iL Ltd. ( Affle ), wholly owned step down subsidiary of the Company has entered into a definitive merger agreement to acquire Perion Network Ltd., Israel.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/RRKL1995_01112026103522_Intimation_Reg_30_Completion_of_Acquisition.pdf)
-
----
-
-### JSW Steel Limited: Amalgamation/Merger
-**MA** · India · ✓ Verified
-
-Amalgamation/Merger - JSW Steel Limited has informed the Exchange about the Effectiveness of the Scheme of Amalgamation of Piombino Steel Limited with JSW Steel Limited and their respective shareholders
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Supriya_01112026020456_SE_Intimation_PSL_Scheme.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AFFLE_01112026174902_Acquisition_announcement1.pdf)
 
 ---
 

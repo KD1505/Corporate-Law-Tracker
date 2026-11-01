@@ -21,7 +21,7 @@
     "https://www.nseindia.com": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.nseindia.com/"
     },
     "https://guvnl.com/": {
@@ -39,7 +39,7 @@
     "https://www.nseindia.com/": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.nseindia.com/"
     },
     "https://www.barandbench.com/dealstreet/jsa-assists-continuum-green-energy-on-securing-1350-crore-from-chubu-electric-power-co": {
@@ -123,7 +123,7 @@
     "https://www.nseindia.com/corporate/": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.nseindia.com/corporate/"
     },
     "https://nsearchives.nseindia.com/corporate/IHFL_30032026114901_SCL_NCD_allotment_intimation_30Mar26_Final.pdf": {
@@ -447,13 +447,13 @@
     "https://www.sebi.gov.in/filings/public-issues.html": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/filings/public-issues.html"
     },
     "https://www.livelaw.in/": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.livelaw.in/"
     },
     "https://nsearchives.nseindia.com/corporate/SEPOWER_27022026142816_Intimation_Penalty_NSE.pdf": {
@@ -471,7 +471,7 @@
     "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6&smid=0": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=6&smid=0"
     },
     "https://www.barandbench.com/dealstreet/sng-partners-advises-icici-prudential-on-525-crore-office-space-acquisition-in-vios-tower-mumbai": {
@@ -705,7 +705,7 @@
     "https://nsearchives.nseindia.com/corporate/GUJGASLTD_17062026194939_1582Tradingapprovalinti17062026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/GUJGASLTD_17062026194939_1582Tradingapprovalinti17062026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_13052026184224_BLS.pdf": {
@@ -2511,7 +2511,7 @@
     "https://nseindia.com/": {
       "status": "redirected",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.nseindia.com/"
     },
     "https://www.sebi.gov.in/legal/regulations/may-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_35955.html": {
@@ -3531,7 +3531,7 @@
     "https://www.barandbench.com/": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/"
     },
     "https://www.hcl.com/investor-relations": {
@@ -3585,7 +3585,7 @@
     "https://www.bseindia.com/corporates/ann.aspx": {
       "status": "redirected",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.bseindia.com/corporates/ann"
     },
     "https://www.sebi.gov.in/legal/regulations/jan-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_34907.html": {
@@ -3627,7 +3627,7 @@
     "https://www.bseindia.com/corporates/announcements.html": {
       "status": "redirected",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.bseindia.com/corporates/announcements"
     },
     "https://www.sebi.gov.in/sebi_data/circulars/jan-2023/1674109353_SEBI_Circular_Takeover.pdf": {
@@ -4377,7 +4377,7 @@
     "https://www.bar-and-bench.com": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.bar-and-bench.com"
     },
     "https://nsearchives.nseindia.com/corporate/CONCORD_20062026183731_Intimation_Acquisition_-_FSGE.pdf": {
@@ -5151,13 +5151,13 @@
     "https://nclt.gov.in/order-judgement-date-wise": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nclt.gov.in/order-judgement-date-wise"
     },
     "https://ibbi.gov.in/en/orders": {
       "status": "unknown",
       "code": 500,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://ibbi.gov.in/orders"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_24042026122027_49.pdf": {
@@ -5529,7 +5529,7 @@
     "https://www.barandbench.com": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/"
     },
     "https://www.brecorder.com/news/40426393/ambanis-jio-platforms-eyes-record-38-billion-indian-ipo-sources-say": {
@@ -5601,7 +5601,7 @@
     "https://nclt.gov.in": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nclt.gov.in/"
     },
     "https://www.bseindia.com/corporatesactions/": {
@@ -5667,7 +5667,7 @@
     "https://nclt.gov.in/": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nclt.gov.in/"
     },
     "https://www.sebi.gov.in/legal/regulations/mar-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_28733.html": {
@@ -5895,7 +5895,7 @@
     "https://nseindia.com": {
       "status": "redirected",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.nseindia.com/"
     },
     "https://www.sebi.gov.in/legal/regulations/dec-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35408.html": {
@@ -5925,7 +5925,7 @@
     "https://www.ibbi.gov.in": {
       "status": "redirected",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://ibbi.gov.in/"
     },
     "https://www.sebi.gov.in/legal/regulations/takeover-regulations": {
@@ -6003,7 +6003,7 @@
     "https://ibbi.gov.in/": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://ibbi.gov.in/"
     },
     "https://www.sebi.gov.in/legal/regulations/oct-1997/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_29940.html": {
@@ -6345,7 +6345,7 @@
     "https://www.cci.gov.in/combinations": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.cci.gov.in/combinations"
     },
     "https://www.sebi.gov.in/legal/regulations/jul-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_29993.html": {
@@ -8283,7 +8283,7 @@
     "https://www.barandbench.com/dealstreet/khaitan-co-cyril-amarchand-mangaldas-act-on-fila-groups-934-crore-stake-sale-in-doms": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/khaitan-co-cyril-amarchand-mangaldas-act-on-fila-groups-934-crore-stake-sale-in-doms"
     },
     "https://www.business-standard.com/amp/companies/news/fila-group-sells-7-stake-in-doms-for-934-cr-sbi-axis-mfs-raise-holdings-126061800275_1.html": {
@@ -8295,61 +8295,61 @@
     "https://www.outlookbusiness.com/news/fila-group-sells-7-stake-in-doms-industries-for-934-crore": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.outlookbusiness.com/news/fila-group-sells-7-stake-in-doms-industries-for-934-crore"
     },
     "https://www.barandbench.com/dealstreet/argus-partners-assists-glassbox-on-acquisition-by-komerz": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/argus-partners-assists-glassbox-on-acquisition-by-komerz"
     },
     "https://www.scconline.com/blog/post/2026/06/23/cam-advises-bnp-paribas-jp-morgan-on-doms-industries-share-sale-by-fila/": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.scconline.com/blog/post/2026/06/23/cam-advises-bnp-paribas-jp-morgan-on-doms-industries-share-sale-by-fila/"
     },
     "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/2557209/f-i-l-a-trims-doms-stake-via-inr-934-crore-share-sale-retains-promoter-role/": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/2557209/f-i-l-a-trims-doms-stake-via-inr-934-crore-share-sale-retains-promoter-role/"
     },
     "https://www.legaleraonline.com/deal-street/cyril-amarchand-mangaldas-advised-bnp-paribas-jp-morgan-doms-industries-share-sale-987111": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.legaleraonline.com/deal-street/cyril-amarchand-mangaldas-advised-bnp-paribas-jp-morgan-doms-industries-share-sale-987111"
     },
     "https://missionmedia.asia/komerz-acquires-glassbox-330-million-creative-commerce/": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://missionmedia.asia/komerz-acquires-glassbox-330-million-creative-commerce/"
     },
     "https://www.socialsamosa.com/industry-updates/komerz-acquires-glassbox-11191139": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.socialsamosa.com/industry-updates/komerz-acquires-glassbox-11191139"
     },
     "https://itbrief.asia/story/komerz-buys-glassbox-in-deal-valuing-firm-at-usd-330m": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://itbrief.asia/story/komerz-buys-glassbox-in-deal-valuing-firm-at-usd-330m"
     },
     "https://www.sebi.gov.in/filings/public-issues/dec-2023/doms-industries-limited-prospectus_80116.html": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/filings/public-issues/dec-2023/doms-industries-limited-prospectus_80116.html"
     },
     "https://www.storyboard18.com/agency-news/london-based-komerz-buys-glassbox-as-it-targets-indias-growing-digital-commerce-market-91685.htm": {
-      "status": "unknown",
-      "code": 0,
-      "at": "2026-10-17",
+      "status": "ok",
+      "code": 200,
+      "at": "2026-11-01",
       "finalUrl": "https://www.storyboard18.com/agency-news/london-based-komerz-buys-glassbox-as-it-targets-indias-growing-digital-commerce-market-91685.htm"
     },
     "https://tracxn.com/d/companies/glassbox/__KHFhRPyxIoFu6WThKXZ1Kz2fN7wyYr67PZ1LoJSjpGI": {
@@ -8367,13 +8367,13 @@
     "https://nsearchives.nseindia.com/corporate/GREAVESCOT_23062026215129_GCL_Intimation_for_WOS_Incorporation_updatedsd.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/GREAVESCOT_23062026215129_GCL_Intimation_for_WOS_Incorporation_updatedsd.pdf"
     },
     "https://www.sebi.gov.in/legal/regulations/jan-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35206.html": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/legal/regulations/jan-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35206.html"
     },
     "https://www.kitexonline.com/investor-relations": {
@@ -8385,13 +8385,13 @@
     "https://www.bseindia.com/issuers/companyreport.aspx": {
       "status": "redirected",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.bseindia.com/issuers/companyreport"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_12052026112842_Reg1.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_12052026112842_Reg1.pdf"
     },
     "https://bar-and-bench.com": {
@@ -8403,37 +8403,37 @@
     "https://www.sebi.gov.in/legal/regulations/jan-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_29406.html": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/legal/regulations/jan-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_29406.html"
     },
     "https://nsearchives.nseindia.com/corporate/RASHI2024_23062026201259_signed_PR.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/RASHI2024_23062026201259_signed_PR.pdf"
     },
     "https://www.livelaw.in/news/schemes-of-arrangement": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.livelaw.in/news/schemes-of-arrangement"
     },
     "https://www.bseindia.com/stockinfo/stockpricequote.aspx?scripcode=505520": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.bseindia.com/stockinfo/stockpricequote.aspx?scripcode=505520"
     },
     "https://www.sebi.gov.in/legal/regulations/nov-2011/sebi-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35441.html": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/legal/regulations/nov-2011/sebi-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35441.html"
     },
     "https://www.sebi.gov.in/legal/regulations/jan-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_42701.html": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/legal/regulations/jan-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_42701.html"
     },
     "https://www.nseindia.com/corporates/corporate_announcement.jsp": {
@@ -8445,19 +8445,19 @@
     "https://nsearchives.nseindia.com/corporate/RASHI2024_23062026195816_Signed_P_R.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/RASHI2024_23062026195816_Signed_P_R.pdf"
     },
     "https://www.bseindia.com/corporates/KITEX.html": {
       "status": "redirected",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.bseindia.com/corporates/KITEX"
     },
     "https://www.sebi.gov.in/legal/regulations/jan-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_34786.html": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/legal/regulations/jan-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_34786.html"
     },
     "https://www.nseindia.com/rules/listing-rules.html": {
@@ -8469,55 +8469,55 @@
     "https://nsearchives.nseindia.com/corporate/WENDT_23062026195009_intimation_sd.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/WENDT_23062026195009_intimation_sd.pdf"
     },
     "https://www.sebi.gov.in/legal/regulations/nov-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35521.html": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/legal/regulations/nov-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35521.html"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_12052026112608_Reg.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_12052026112608_Reg.pdf"
     },
     "https://www.sebi.gov.in/legal/regulations/jun-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35164.html": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/legal/regulations/jun-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35164.html"
     },
     "https://nsearchives.nseindia.com/corporate/PIIND_23062026194152_OFCD23062026sd.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/PIIND_23062026194152_OFCD23062026sd.pdf"
     },
     "https://www.sebi.gov.in/legal/regulations/dec-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_40275.html": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/legal/regulations/dec-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_40275.html"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_12052026112320_Race.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_12052026112320_Race.pdf"
     },
     "https://www.sebi.gov.in/legal/regulations/sep-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_18626.html": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/legal/regulations/sep-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_18626.html"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_13052026181948_NAVNETEDUL.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_13052026181948_NAVNETEDUL.pdf"
     },
     "https://www.sebi.gov.in/legal/regulations/dec-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_26454.html": {
@@ -8529,7 +8529,7 @@
     "https://nsearchives.nseindia.com/corporate/team_bbodade_13052026163818_PPL.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_13052026163818_PPL.pdf"
     },
     "https://www.sebi.gov.in/sebi_data/regs/1594118129634_SEBI_Regulations_2011.pdf": {
@@ -8541,7 +8541,7 @@
     "https://nsearchives.nseindia.com/corporate/team_bbodade_13052026163457_SAMPANN1.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_13052026163457_SAMPANN1.pdf"
     },
     "https://www.sebi.gov.in/sebi_data/commondocs/Takeover_Regulations_Final_28022023.pdf": {
@@ -8553,7 +8553,7 @@
     "https://nsearchives.nseindia.com/corporate/team_bbodade_13052026162936_OCCLLTD1.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_13052026162936_OCCLLTD1.pdf"
     },
     "https://www.sebi.gov.in/legal/regulations/feb-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_36648.html": {
@@ -8565,7 +8565,7 @@
     "https://nsearchives.nseindia.com/corporate/team_bbodade_13052026162714_CRIZAC.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_13052026162714_CRIZAC.pdf"
     },
     "https://www.sebi.gov.in/legal/regulations/substantial-acquisition-of-shares-and-takeovers-regulations-2011": {
@@ -8577,7 +8577,7 @@
     "https://nsearchives.nseindia.com/corporate/team_bbodade_13052026162518_LEMONTREE.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_13052026162518_LEMONTREE.pdf"
     },
     "https://www.sebi.gov.in/legal/regulations/nov-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_37648.html": {
@@ -8589,109 +8589,109 @@
     "https://nsearchives.nseindia.com/corporate/team_bbodade_13052026162335_SAREGAMA.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_13052026162335_SAREGAMA.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_13052026162107_FOSECOIND1.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_13052026162107_FOSECOIND1.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/TIMETECHNO_23062026191124_TTLDisclosure23062026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/TIMETECHNO_23062026191124_TTLDisclosure23062026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_23062026190512_TIMETECHNO.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_23062026190512_TIMETECHNO.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/RASHI2024_23062026190627_Outcome_of_Board_Meeting_June_23_2026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/RASHI2024_23062026190627_Outcome_of_Board_Meeting_June_23_2026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/RASHI2024_23062026190220_Outcome_of_Board_Meeting_June_23_2026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/RASHI2024_23062026190220_Outcome_of_Board_Meeting_June_23_2026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/KITEX_23062026185752_KGL_Newspaper_publications.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/KITEX_23062026185752_KGL_Newspaper_publications.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/Wipro_Secretarial_23062026184037_Reg30SEIntimation_230626.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/Wipro_Secretarial_23062026184037_Reg30SEIntimation_230626.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_23062026183202_NURECA.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_23062026183202_NURECA.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_13052026161612_UBL.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_13052026161612_UBL.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_13052026133143_3.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_13052026133143_3.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_13052026125233_17.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_13052026125233_17.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_13052026125034_18.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_13052026125034_18.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_13052026124931_19.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_13052026124931_19.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_13052026124838_20.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_13052026124838_20.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_13052026124553_22.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_13052026124553_22.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_13052026124219_23.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_13052026124219_23.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_13052026124127_24.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_13052026124127_24.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/HONASA16_23062026181955_PressRelease.pdf": {
@@ -9087,7 +9087,7 @@
     "https://www.barandbench.com/news/corporate-law/bandhan-bank-quardra-medical-services-takeover-disclosure-sebi": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/news/corporate-law/bandhan-bank-quardra-medical-services-takeover-disclosure-sebi"
     },
     "https://www.screener.in/company/KIMS/consolidated/": {
@@ -9207,7 +9207,7 @@
     "https://www.nseindia.com/corporates/content/corporate_info.html": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.nseindia.com/corporates/content/corporate_info.html"
     },
     "https://www.bseindia.com/corporates/corpAnnouncement.do?cmppageflag=true": {
@@ -9243,7 +9243,7 @@
     "https://www.sebi.gov.in/legal/regulations/nov-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_51839.html": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/legal/regulations/nov-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_51839.html"
     },
     "https://www.bseindia.com/corporates/ShowAnnouncements.aspx?fileid=XX&did=XX": {
@@ -9267,13 +9267,13 @@
     "https://www.nseindia.com/corporates/corpAnnounce.jsp": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.nseindia.com/corporates/corpAnnounce.jsp"
     },
     "https://www.sebi.gov.in/legal/circulars/dec-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_26597.html": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/legal/circulars/dec-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_26597.html"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_23062026125050_ARIS.zip": {
@@ -9333,13 +9333,13 @@
     "https://www.bseindia.com/stock/TII/": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.bseindia.com/stock/TII/"
     },
     "https://www.sebi.gov.in/legal/regulations/nov-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_40275.html": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/legal/regulations/nov-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_40275.html"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_23062026123359_47.pdf": {
@@ -9375,13 +9375,13 @@
     "https://www.livelaw.in/news-updates": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.livelaw.in/news-updates"
     },
     "https://www.sebi.gov.in/legal/regulations/dec-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_34840.html": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/legal/regulations/dec-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_34840.html"
     },
     "https://nsearchives.nseindia.com/corporate/KANSAINER_24062026163400_FinalSEIntimation_-_Newspaper_Publication_-_GTSigned.pdf": {
@@ -9399,7 +9399,7 @@
     "https://www.sebi.gov.in/legal/regulations/mar-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_34840.html": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/legal/regulations/mar-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_34840.html"
     },
     "https://nsearchives.nseindia.com/corporate/VEDL_24062026161931_VEDLSEIntimationIncorporationofWOSFinalsigned.pdf": {
@@ -9423,7 +9423,7 @@
     "https://www.sebi.gov.in/legal/regulations/jan-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_45352.html": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/legal/regulations/jan-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_45352.html"
     },
     "https://nsearchives.nseindia.com/corporate/MEDIASSIST_24062026151448_SEIntimationAcquisitionofadditionalstakeMayfair.pdf": {
@@ -9435,7 +9435,7 @@
     "https://www.network18.com/investor-relations/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.network18.com/investor-relations/"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_23062026122937_48.pdf": {
@@ -9447,7 +9447,7 @@
     "https://www.sebi.gov.in/legal/regulations/jun-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_29996.html": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/legal/regulations/jun-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_29996.html"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_23062026122812_49.pdf": {
@@ -9459,25 +9459,25 @@
     "https://www.sebi.gov.in/legal/regulations/jul-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35648.html": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/legal/regulations/jul-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35648.html"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_23062026122639_50.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_23062026122639_50.pdf"
     },
     "https://www.sebi.gov.in/legal/regulations/feb-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_42905.html": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/legal/regulations/feb-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_42905.html"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_23062026122331_Annual.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_23062026122331_Annual.pdf"
     },
     "https://www.sebi.gov.in/sebi_data/attachdocs/1307091685271.pdf": {
@@ -9489,13 +9489,13 @@
     "https://nsearchives.nseindia.com/corporate/JCHAC_24062026143838_20260624Reg30PromoterHolding.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/JCHAC_24062026143838_20260624Reg30PromoterHolding.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/GICHSGFIN_24062026121233_NSE.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/GICHSGFIN_24062026121233_NSE.pdf"
     },
     "https://www.sebi.gov.in/sebiweb/home/list/29/4291/Substantial-Acquisition-of-Shares-and-Takeovers-Regulations-2011": {
@@ -9507,43 +9507,43 @@
     "https://nsearchives.nseindia.com/corporate/team_bbodade_22062026192147_AARTISURF.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_22062026192147_AARTISURF.pdf"
     },
     "https://www.sebi.gov.in/legal/regulations/sep-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_34786.html": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/legal/regulations/sep-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_34786.html"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_22062026191920_CHOLAHLDNG.zip": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_22062026191920_CHOLAHLDNG.zip"
     },
     "https://www.sebi.gov.in/sebi_data/PDF/SAST_2011.pdf": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/sebi_data/PDF/SAST_2011.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_22062026174542_BANDHANBNK.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_22062026174542_BANDHANBNK.pdf"
     },
     "https://www.sebi.gov.in/legal/regulations/jun-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_36983.html": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sebi.gov.in/legal/regulations/jun-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_36983.html"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_22062026174127_EPACKPEB3.zip": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_22062026174127_EPACKPEB3.zip"
     },
     "https://www.sebi.gov.in/legal/regulations/june-2018/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_40062.html": {
@@ -9555,193 +9555,193 @@
     "https://nsearchives.nseindia.com/corporate/team_bbodade_22062026164108_RETAIL.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_22062026164108_RETAIL.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_24062026115851_Reg.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_24062026115851_Reg.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_22062026163844_NETWORK18.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_22062026163844_NETWORK18.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_22062026163528_INFOMEDIA.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_22062026163528_INFOMEDIA.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026134950_38.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026134950_38.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026134844_39.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026134844_39.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026134703_40.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026134703_40.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_24062026114945_RHL.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_24062026114945_RHL.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026134611_41.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026134611_41.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_24062026114740_AHEL.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_24062026114740_AHEL.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026134349_42.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026134349_42.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026134234_43.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026134234_43.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/NAUKRI2_24062026114206_Stock_Exchange_Intimation-_IEIL_to_SIHL.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/NAUKRI2_24062026114206_Stock_Exchange_Intimation-_IEIL_to_SIHL.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026122018_46.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026122018_46.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026121922_Sanjeev.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026121922_Sanjeev.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026121655_47.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026121655_47.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026121540_48.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026121540_48.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026121229_JSWSTEEL.zip": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026121229_JSWSTEEL.zip"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026121045_TATVA.zip": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026121045_TATVA.zip"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026120829_Disclosure_31.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026120829_Disclosure_31.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026120109_49.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026120109_49.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026115935_50.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026115935_50.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026114709_Midwest.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_22062026114709_Midwest.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/RAVINDRA_24062026200026_REL_-_Rights_Issue_Closure-.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/RAVINDRA_24062026200026_REL_-_Rights_Issue_Closure-.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/tchari_24062026174726_Oversubscription_Notice.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/tchari_24062026174726_Oversubscription_Notice.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/bdesai_24062026123220_Intimation_for_Filing_of_DRHP_Sky_Alloys_signed.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/bdesai_24062026123220_Intimation_for_Filing_of_DRHP_Sky_Alloys_signed.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/VSLCS_24062026201441_VSL_intimation_of_the_updates_on_proceedings_June_24_2026_final.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/VSLCS_24062026201441_VSL_intimation_of_the_updates_on_proceedings_June_24_2026_final.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/BASFIL_24062026184215_Proceeding_Signed.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/BASFIL_24062026184215_Proceeding_Signed.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/BASFIL_24062026175949_Presentation.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/BASFIL_24062026175949_Presentation.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/SHIRPUR-G_24062026175839_Shirpur_30th_COC__Prior_Intimation.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/SHIRPUR-G_24062026175839_Shirpur_30th_COC__Prior_Intimation.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/RCOM_24062026161101_DisclosureLettertoSECOC25062026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/RCOM_24062026161101_DisclosureLettertoSECOC25062026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/RHFL_24062026154904_RHFL_-_Outcome_of_the_11th_CoC_Meeting_s.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/RHFL_24062026154904_RHFL_-_Outcome_of_the_11th_CoC_Meeting_s.pdf"
     },
     "https://www.barandbench.com/dealstreet/trilegal-azb-latham-sam-cms-induslaw-act-on-cred-securing-900-from-meta": {
@@ -9855,7 +9855,7 @@
     "https://nsearchives.nseindia.com/corporate/GUJGASLTD_25062026234408_1586SECRECORDDATE3EMAIL.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/GUJGASLTD_25062026234408_1586SECRECORDDATE3EMAIL.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/SWELECTES_25062026214115_SE_Gridnex_49pct_Acquisition_Intimation_2026_signed.pdf": {
@@ -12529,10 +12529,10 @@
       "finalUrl": "https://www.barandbench.com/dealstreet/cms-induslaw-secures-indias-first-successful-ofac-delisting-for-lokesh-machines"
     },
     "https://judgments.ecourts.gov.in/": {
-      "status": "redirected",
-      "code": 200,
-      "at": "2026-10-17",
-      "finalUrl": "https://judgments.ecourts.gov.in/pdfsearch/index.php"
+      "status": "unknown",
+      "code": 0,
+      "at": "2026-11-01",
+      "finalUrl": "https://judgments.ecourts.gov.in/"
     },
     "https://nsearchives.nseindia.com/corporate/COALINDIA_03072026214339_signing_of_jv__1___1_.pdf": {
       "status": "ok",
@@ -14637,121 +14637,121 @@
     "https://nsearchives.nseindia.com/corporate/IKS2006_10072026214451_SE_Subordination_Agreement_Disclosure_10July2026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/IKS2006_10072026214451_SE_Subordination_Agreement_Disclosure_10July2026.pdf"
     },
     "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-trilegal-act-on-cultfit-950-crore-proposed-ipo": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-trilegal-act-on-cultfit-950-crore-proposed-ipo"
     },
     "https://www.barandbench.com/dealstreet/azb-partners-acts-on-paras-hospitals-1800-crore-proposed-ipo": {
-      "status": "ok",
-      "code": 200,
-      "at": "2026-10-18",
+      "status": "dead",
+      "code": 404,
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/azb-partners-acts-on-paras-hospitals-1800-crore-proposed-ipo"
     },
     "https://nsearchives.nseindia.com/corporate/ORCHPHARMA_10072026200954_Stx_Ltr_Outcome.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/ORCHPHARMA_10072026200954_Stx_Ltr_Outcome.pdf"
     },
     "https://www.barandbench.com/dealstreet/tpg-led-consortium-to-acquire-aseem-infra-finance-cam-linklaters-trilegal-sam-advise": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/tpg-led-consortium-to-acquire-aseem-infra-finance-cam-linklaters-trilegal-sam-advise"
     },
     "https://nsearchives.nseindia.com/corporate/ADVAITENERGY_10072026200240_SEintimation10_7__s.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/ADVAITENERGY_10072026200240_SEintimation10_7__s.pdf"
     },
     "https://www.barandbench.com/dealstreet/shardul-amarchand-mangaldas-khaitan-co-act-on-swara-baby-products-1000-crore-ipo": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/shardul-amarchand-mangaldas-khaitan-co-act-on-swara-baby-products-1000-crore-ipo"
     },
     "https://nsearchives.nseindia.com/corporate/ORCHPHARMA_10072026194257_Stx_Ltr_Outcome.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/ORCHPHARMA_10072026194257_Stx_Ltr_Outcome.pdf"
     },
     "https://www.barandbench.com/dealstreet/clove-legal-azb-partners-stratage-law-act-on-adage-automation-230-crore-fundraise": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/clove-legal-azb-partners-stratage-law-act-on-adage-automation-230-crore-fundraise"
     },
     "https://nsearchives.nseindia.com/corporate/ORCHPHARMA_10072026193151_Stx_Ltr_Update_on_Scheme_sd.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/ORCHPHARMA_10072026193151_Stx_Ltr_Update_on_Scheme_sd.pdf"
     },
     "https://www.barandbench.com/dealstreet/luthra-and-luthra-advises-tata-capital-on-sanctioning-1200-crore-to-zerra-dc-for-data-centre-in-maharashtra": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/luthra-and-luthra-advises-tata-capital-on-sanctioning-1200-crore-to-zerra-dc-for-data-centre-in-maharashtra"
     },
     "https://nsearchives.nseindia.com/corporate/KITEX_10072026191902_Addendum_to_notice_of_meeting_to_shareholders.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/KITEX_10072026191902_Addendum_to_notice_of_meeting_to_shareholders.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/UGROCAP_10072026185854_UGROIntimationofreceiptofNOCFinal.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/UGROCAP_10072026185854_UGROIntimationofreceiptofNOCFinal.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/ABFRL_10072026183449_SE.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/ABFRL_10072026183449_SE.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/JSWINFRA_10072026164401_SEIntimationReg30CAKolkataouterharbour.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/JSWINFRA_10072026164401_SEIntimationReg30CAKolkataouterharbour.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/GULFPETRO_10072026160034_PressReleaseJVAmronOilIOCLGPPL.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/GULFPETRO_10072026160034_PressReleaseJVAmronOilIOCLGPPL.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/AUROPHARMA_10072026130738_LtrToSEsPTIndonesia10072026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/AUROPHARMA_10072026130738_LtrToSEsPTIndonesia10072026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_10072026113324_PREMEXPLN.zip": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_10072026113324_PREMEXPLN.zip"
     },
     "https://nsearchives.nseindia.com/corporate/FLUOROCHEM_10072026124249_GFCL_Intimation_for_NOC_for_Scheme_of_Arrangement_10July2026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/FLUOROCHEM_10072026124249_GFCL_Intimation_for_NOC_for_Scheme_of_Arrangement_10July2026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/IDEAFORGE_10072026232202_Allotment_of_shares.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/IDEAFORGE_10072026232202_Allotment_of_shares.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/SBIN_10072026222453_BSE_NSE_10072026.pdf": {
@@ -14817,13 +14817,13 @@
     "https://nsearchives.nseindia.com/corporate/TRIVENI_11072026100700_TEIL_RECORD_DATE.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/TRIVENI_11072026100700_TEIL_RECORD_DATE.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/SBIN_11072026192423_BSE_NSE_RHP_11072026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/SBIN_11072026192423_BSE_NSE_RHP_11072026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/SABEVENTS_11072026212244_Intimation_to_SE_Receipt_of_Order_Final.pdf": {
@@ -14841,13 +14841,13 @@
     "https://nsearchives.nseindia.com/corporate/PFOCUS_11072026172156_Reg_30_CIRP_Closure.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/PFOCUS_11072026172156_Reg_30_CIRP_Closure.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/BINANIIND_11072026154632_Reg_30-_Minutesof_14th_CoC_meeting.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/BINANIIND_11072026154632_Reg_30-_Minutesof_14th_CoC_meeting.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/Authum123_12072026000756_Reg30annoucemnetVAZ.pdf": {
@@ -15465,217 +15465,217 @@
     "https://www.barandbench.com/dealstreet/trilegal-dsk-legal-act-on-laser-power-infra-742-crore-ipo": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/trilegal-dsk-legal-act-on-laser-power-infra-742-crore-ipo"
     },
     "https://nsearchives.nseindia.com/corporate/ANURAS_17072026223910_ARILSLDSTX20260717032Reg30Intimation.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/ANURAS_17072026223910_ARILSLDSTX20260717032Reg30Intimation.pdf"
     },
     "https://www.barandbench.com/dealstreet/khaitan-co-hogan-lovells-act-on-ideaforge-500-crore-qip": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/khaitan-co-hogan-lovells-act-on-ideaforge-500-crore-qip"
     },
     "https://nsearchives.nseindia.com/corporate/MOTHERSON_17072026222732_Update_on_Yutaka_Acquisition_17072026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/MOTHERSON_17072026222732_Update_on_Yutaka_Acquisition_17072026.pdf"
     },
     "https://www.barandbench.com/dealstreet/rajani-associates-advises-lead-investor-bajaj-finserv-on-lumiq-series-b-fundraise": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/rajani-associates-advises-lead-investor-bajaj-finserv-on-lumiq-series-b-fundraise"
     },
     "https://nsearchives.nseindia.com/corporate/NLSL_17072026205759_SLI_merger_-_SE_intimation.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/NLSL_17072026205759_SLI_merger_-_SE_intimation.pdf"
     },
     "https://www.barandbench.com/dealstreet/jsa-tta-baker-mckenzie-advise-brokers-on-mylan-incs-3679-crore-exit-from-biocon": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/jsa-tta-baker-mckenzie-advise-brokers-on-mylan-incs-3679-crore-exit-from-biocon"
     },
     "https://nsearchives.nseindia.com/corporate/NDTV_17072026194543_NDTV_Disclosure_Update_on_GoodTimes_17072026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/NDTV_17072026194543_NDTV_Disclosure_Update_on_GoodTimes_17072026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_17072026192355_WAAREEENER.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_17072026192355_WAAREEENER.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/DCMSHRIRAM_17072026191318_DCMACQUISITIONPRESSRELEASESERENTICA17JULY2026SIGNED.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/DCMSHRIRAM_17072026191318_DCMACQUISITIONPRESSRELEASESERENTICA17JULY2026SIGNED.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/AHLEAST_17072026185050_Disclosure.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/AHLEAST_17072026185050_Disclosure.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/ALKEM_17072026180601_Reg30Occlutech-completion_Signed.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/ALKEM_17072026180601_Reg30Occlutech-completion_Signed.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/rsrai_17072026175552_ABCL_SE_Disclosure_ABSLI_Rights_Issue_Finalsigned.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/rsrai_17072026175552_ABCL_SE_Disclosure_ABSLI_Rights_Issue_Finalsigned.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/UGROCAP_17072026173509_UGROIntimationofFilingofCompanyApplicationwithNCLT.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/UGROCAP_17072026173509_UGROIntimationofFilingofCompanyApplicationwithNCLT.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/TCIEXP_17072026172634_StockExcahnge.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/TCIEXP_17072026172634_StockExcahnge.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/JAGSNPHARM_17072026165327_SignedAcquisitionIntimationJuly172026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/JAGSNPHARM_17072026165327_SignedAcquisitionIntimationJuly172026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/MPSLIMITED_17072026163923_Stx_Intimation_Receipt_of_Order_Sd.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/MPSLIMITED_17072026163923_Stx_Intimation_Receipt_of_Order_Sd.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/ZOTA_17072026163535_AcqDava17072026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/ZOTA_17072026163535_AcqDava17072026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/EUROPANEL_17072026163719_Intimation_Subsidiary_-_F.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/EUROPANEL_17072026163719_Intimation_Subsidiary_-_F.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/SHAKTIPUMP_17072026141839_IntimationunderReg30ShaktiEV.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/SHAKTIPUMP_17072026141839_IntimationunderReg30ShaktiEV.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/NRBBEARING1_17072026093010_NRB_SE_Disclosure_MTR_acquistion1.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/NRBBEARING1_17072026093010_NRB_SE_Disclosure_MTR_acquistion1.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/BELRISE_17072026230727_BelriseIntimationofAllotment17072026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/BELRISE_17072026230727_BelriseIntimationofAllotment17072026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/BELRISE_17072026205840_Belrise_Intimation_of_filing_PD17072026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/BELRISE_17072026205840_Belrise_Intimation_of_filing_PD17072026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/IHFL_17072026184432_SCL_Retail_Intimation_57_17072026_WH8.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/IHFL_17072026184432_SCL_Retail_Intimation_57_17072026_WH8.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/JAYKAY_17072026172810_SE_Intimation_RIC.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/JAYKAY_17072026172810_SE_Intimation_RIC.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/HEXAGONNUTRITION_17072026165700_HNL-Final-Reg_30_1707.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/HEXAGONNUTRITION_17072026165700_HNL-Final-Reg_30_1707.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/MCLEODRUSS_17072026154226_Disclosure.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/MCLEODRUSS_17072026154226_Disclosure.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/jessydenny_17072026144838_Offering_for_Sale.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/jessydenny_17072026144838_Offering_for_Sale.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/SBIN_17072026102320_BSE_NSE_SBIFunds_17072026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/SBIN_17072026102320_BSE_NSE_SBIFunds_17072026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/INDIAGLYCO_17072026182456_SE_Intimation_NCLT.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/INDIAGLYCO_17072026182456_SE_Intimation_NCLT.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/BINANIIND_17072026162039_Intimation_of_meeting_of_COC_17th.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/BINANIIND_17072026162039_Intimation_of_meeting_of_COC_17th.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/RHFL_17072026161037_Outcome_of_the_12th_CoC_Meeting_.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/RHFL_17072026161037_Outcome_of_the_12th_CoC_Meeting_.pdf"
     },
     "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-connects-dixon-technologies-vivo-jv": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-connects-dixon-technologies-vivo-jv"
     },
     "https://www.barandbench.com/dealstreet/dsk-legal-khaitan-co-act-on-sunsure-energy-securing-262-crore-project-finance-from-fmo-axis-bank": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/dsk-legal-khaitan-co-act-on-sunsure-energy-securing-262-crore-project-finance-from-fmo-axis-bank"
     },
     "https://www.barandbench.com/dealstreet/shardul-amarchand-mangaldas-jsa-act-on-trunativ-30-million-series-b-fundraise": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/shardul-amarchand-mangaldas-jsa-act-on-trunativ-30-million-series-b-fundraise"
     },
     "https://www.barandbench.com/dealstreet/agram-legal-elp-act-on-fraganote-series-a-fundraise": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/agram-legal-elp-act-on-fraganote-series-a-fundraise"
     },
     "https://www.barandbench.com/dealstreet/vertices-partners-acts-on-open-secret-fundraise": {
@@ -16539,349 +16539,349 @@
     "https://www.barandbench.com/dealstreet/universal-legal-advises-veriqus-on-387-crore-fundraise": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/universal-legal-advises-veriqus-on-387-crore-fundraise"
     },
     "https://nsearchives.nseindia.com/corporate/HDFCBANK_24072026190350_SE_Intimation_call_option.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_24072026190350_SE_Intimation_call_option.pdf"
     },
     "https://www.barandbench.com/dealstreet/tta-farooq-and-associates-advise-ifc-on-sanctioning-30-million-to-popular-pharma": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/tta-farooq-and-associates-advise-ifc-on-sanctioning-30-million-to-popular-pharma"
     },
     "https://nsearchives.nseindia.com/corporate/KITEX_24072026235531_KGL_Proceedings_of_meetings_240726s.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/KITEX_24072026235531_KGL_Proceedings_of_meetings_240726s.pdf"
     },
     "https://www.barandbench.com/dealstreet/khaitan-co-assists-gallagher-centre-of-excellence-on-leasing-offices-in-bengaluru-gurugram-pune": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/khaitan-co-assists-gallagher-centre-of-excellence-on-leasing-offices-in-bengaluru-gurugram-pune"
     },
     "https://www.barandbench.com/dealstreet/jsa-advises-lead-investor-ivycap-ventures-on-switchon-pre-series-b-fundraise": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/jsa-advises-lead-investor-ivycap-ventures-on-switchon-pre-series-b-fundraise"
     },
     "https://nsearchives.nseindia.com/corporate/CLEANMAX_24072026203509_Reg_30_Intimation_CMES_Sale_and_Acquisition_of_Shares.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/CLEANMAX_24072026203509_Reg_30_Intimation_CMES_Sale_and_Acquisition_of_Shares.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/TEXRAIL_24072026183858_TexRail.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/TEXRAIL_24072026183858_TexRail.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/SHRADHA_24072026183306_ShradhaUpdate24072026R.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/SHRADHA_24072026183306_ShradhaUpdate24072026R.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_24072026182703_DCMSIL.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_24072026182703_DCMSIL.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_24072026181510_DCMSRIND10.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_24072026181510_DCMSRIND10.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_24072026180855_DCMSRIND.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_24072026180855_DCMSRIND.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/SGLTPL_24072026180757_SETL_Regulation_30.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/SGLTPL_24072026180757_SETL_Regulation_30.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/TIMKEN_24072026165125_SE_Intimation24072026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/TIMKEN_24072026165125_SE_Intimation24072026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_17072026153725_BNALTD1.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_17072026153725_BNALTD1.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_21072026134208_Intimation.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_21072026134208_Intimation.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_22072026174745_VAML.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_22072026174745_VAML.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_22072026182245_VISL.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_22072026182245_VISL.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_22072026182940_VOGL.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_22072026182940_VOGL.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_24072026111349_Intimation.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_24072026111349_Intimation.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_23072026114657_SAST.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_23072026114657_SAST.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_21042026171718_OMAXE2.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_21042026171718_OMAXE2.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_26052026160440_KRITI1.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_26052026160440_KRITI1.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_15072026115230_WS.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_15072026115230_WS.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_17062026132455_11.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_17062026132455_11.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_01072026183413_UDS3.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_01072026183413_UDS3.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/HEG_24072026160341_Stxintimation24072026R.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/HEG_24072026160341_Stxintimation24072026R.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/ACC_1_24072026150715_ACC_Outcome_of_BM_24072026_Final.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/ACC_1_24072026150715_ACC_Outcome_of_BM_24072026_Final.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/WELCORP_24072026142528_OutcomeSEfilingsigned.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/WELCORP_24072026142528_OutcomeSEfilingsigned.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/GPIL_24072026135605_GPILNSEBSEOUTCOMEOFBM24072026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/GPIL_24072026135605_GPILNSEBSEOUTCOMEOFBM24072026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/GPIL_24072026135336_GPILNSEBSEOUTCOMEOFBM24072026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/GPIL_24072026135336_GPILNSEBSEOUTCOMEOFBM24072026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/LALPATHLAB_24072026134427_BMOUTCOME_24072026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/LALPATHLAB_24072026134427_BMOUTCOME_24072026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_21042026171535_GMRAIRPORT.zip": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_21042026171535_GMRAIRPORT.zip"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_21042026172000_GMRP.zip": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_21042026172000_GMRP.zip"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_14072026121611_28042026110106_reg.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_14072026121611_28042026110106_reg.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_14072026121425_Karan.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_14072026121425_Karan.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_14072026170322_28042026153406_ICEMAKE1.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_14072026170322_28042026153406_ICEMAKE1.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_21042026171223_OMAXE1.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_21042026171223_OMAXE1.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_14072026122143_IMPAL.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_14072026122143_IMPAL.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_13042026181456_AUTOAXLES.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_13042026181456_AUTOAXLES.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_09042026110858_HFL.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_09042026110858_HFL.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_06042026192550_VEDL.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_06042026192550_VEDL.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/APARINDS_24072026124751_OutcomeofBoardmeeting.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/APARINDS_24072026124751_OutcomeofBoardmeeting.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/AXISCADES_24072026120048_Acquisitionofland24072026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/AXISCADES_24072026120048_Acquisitionofland24072026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/SUNSEC_24072026085009_SEintimationPRforOrganonSHapproval.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/SUNSEC_24072026085009_SEintimationPRforOrganonSHapproval.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/IHFL_24072026195005_SCL_Exchange_Retail_intimation_57_24072026_OP8.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/IHFL_24072026195005_SCL_Exchange_Retail_intimation_57_24072026_OP8.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/IHFL_24072026193317_SCL_Exchange_Retail_intimation_57_24072026_VQ1.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/IHFL_24072026193317_SCL_Exchange_Retail_intimation_57_24072026_VQ1.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/NEOGEN_24072026193149_BMoutcome.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/NEOGEN_24072026193149_BMoutcome.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/IHFL_24072026191713_SCL_Exchange_Retail_intimation_57_24072026_RJ4.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/IHFL_24072026191713_SCL_Exchange_Retail_intimation_57_24072026_RJ4.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/IHFL_24072026184735_SCL_Exchange_Retail_intimation_24072026_GJ.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/IHFL_24072026184735_SCL_Exchange_Retail_intimation_24072026_GJ.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/IHFL_24072026183740_SCL_Retail_intimation_-57__24072026_PM2.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/IHFL_24072026183740_SCL_Retail_intimation_-57__24072026_PM2.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/IHFL_24072026182925_Interest_SCL_Retail_Intimation_57_24072026_SJ2.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/IHFL_24072026182925_Interest_SCL_Retail_Intimation_57_24072026_SJ2.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/IHFL_24072026182026_SCL_Exchange_Retail_intimation_57_24072026_UI0.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/IHFL_24072026182026_SCL_Exchange_Retail_intimation_57_24072026_UI0.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/SUMEETINDS_24072026170722_PressReleaase24072026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/SUMEETINDS_24072026170722_PressReleaase24072026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/OSIAHYPER_24072026212846_DisclosureOfPublicationOfFormGWithNewsPaperCuttings.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/OSIAHYPER_24072026212846_DisclosureOfPublicationOfFormGWithNewsPaperCuttings.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/Skilinfra_24072026171223_Letter_Post_Facto_Intimation_8th_COC.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/Skilinfra_24072026171223_Letter_Post_Facto_Intimation_8th_COC.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/LAURUSLABS_25072026170941_NCLTOrder25072026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/LAURUSLABS_25072026170941_NCLTOrder25072026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/SWELECTES_25072026152230_SE_Dexler_Acquisition_Intimation_2026_signed.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/SWELECTES_25072026152230_SE_Dexler_Acquisition_Intimation_2026_signed.pdf"
     },
     "https://www.barandbench.com/dealstreet/saraf-and-partners-advises-abakkus-on-100-crore-investment-in-ekkaa-electronics": {
@@ -17853,295 +17853,295 @@
     "https://www.barandbench.com/dealstreet/jsa-advises-aseem-infrastructure-finance-on-sanctioning-255-crore-to-clean-max-group-hybrid-power-projects": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/jsa-advises-aseem-infrastructure-finance-on-sanctioning-255-crore-to-clean-max-group-hybrid-power-projects"
     },
     "https://www.barandbench.com/dealstreet/trilegal-khaitan-co-hogan-lovells-cadwalader-act-on-indo-mim-3812-crore-ipo": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/trilegal-khaitan-co-hogan-lovells-cadwalader-act-on-indo-mim-3812-crore-ipo"
     },
     "https://nsearchives.nseindia.com/corporate/GENESYS_31072026173447_Outcome.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/GENESYS_31072026173447_Outcome.pdf"
     },
     "https://www.barandbench.com/dealstreet/cms-induslaw-acts-on-beauty-garage-proposed-ipo": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/cms-induslaw-acts-on-beauty-garage-proposed-ipo"
     },
     "https://nsearchives.nseindia.com/corporate/SHANTIGOLD_31072026134218_BM_Outcome_RI_31-07-2026_RI_and_IA_SGIL.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/SHANTIGOLD_31072026134218_BM_Outcome_RI_31-07-2026_RI_and_IA_SGIL.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/DGSL_31072026201628_SEIntimationJuly312026sd.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/DGSL_31072026201628_SEIntimationJuly312026sd.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/CLEANMAX_31072026194841_Reg_30_Merger.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/CLEANMAX_31072026194841_Reg_30_Merger.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/WELCORP_31072026193048_SEWCPGL.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/WELCORP_31072026193048_SEWCPGL.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/TCCLTD_31072026191434_Merger_TCC.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/TCCLTD_31072026191434_Merger_TCC.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/ENTERO_31072026185610_SE_Intimation.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/ENTERO_31072026185610_SE_Intimation.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/EMSLIMITED_31072026185559_Intimation_Acquisition_Mirzapur.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/EMSLIMITED_31072026185559_Intimation_Acquisition_Mirzapur.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/SUNDARMHLD_31072026172504_sdsdTSFILINTIMATIONACQ31072026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/SUNDARMHLD_31072026172504_sdsdTSFILINTIMATIONACQ31072026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/INDIAGLYCO_31072026171050_SE.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/INDIAGLYCO_31072026171050_SE.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_31072026161206_SHANKARA.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_31072026161206_SHANKARA.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/PPAP_31072026164635_Merger.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/PPAP_31072026164635_Merger.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/BSE1_31072026162905_NSEintimation_infusion_of_funds.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/BSE1_31072026162905_NSEintimation_infusion_of_funds.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/ONGC_31072026162420_ethaneonetwo31072026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/ONGC_31072026162420_ethaneonetwo31072026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/PARKMEDIWORLD2025_31072026155241_V3.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/PARKMEDIWORLD2025_31072026155241_V3.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/VAML_31072026145121_7VAMLSEIntimationOutcomeofBMJuly302026Serenticarevisedsigned.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/VAML_31072026145121_7VAMLSEIntimationOutcomeofBMJuly302026Serenticarevisedsigned.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/ZENSARTECH_31072026144829_SE_Intimation_Update_Merger_BVLS.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/ZENSARTECH_31072026144829_SE_Intimation_Update_Merger_BVLS.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/AVONMORECAPITAL_31072026141649_outcome.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/AVONMORECAPITAL_31072026141649_outcome.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/DEVIKA_31072026140652_KLL_Signed.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/DEVIKA_31072026140652_KLL_Signed.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/THELEELA_31072026134836_NSE.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/THELEELA_31072026134836_NSE.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/SOMANYCERAMICS_31072026132449_Intimation_Newspapersd.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/SOMANYCERAMICS_31072026132449_Intimation_Newspapersd.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/jpshah_31072026201236_EGFSLListingApproval25062026OnlyBSEApprovalfiling.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/jpshah_31072026201236_EGFSLListingApproval25062026OnlyBSEApprovalfiling.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/NTL_31072026173425_outcomesigned.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/NTL_31072026173425_outcomesigned.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/SHANTIGOLD_31072026165428_SGIL-RI-LOF-FINAL_310726_.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/SHANTIGOLD_31072026165428_SGIL-RI-LOF-FINAL_310726_.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/SHANTIGOLD_31072026135237_BM_Outcome_RI_31-07-2026_RI_SGIL.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/SHANTIGOLD_31072026135237_BM_Outcome_RI_31-07-2026_RI_SGIL.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/PUNJLLOYD_31072026175736_BMoutcome31072026PUNJLLOYDok.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/PUNJLLOYD_31072026175736_BMoutcome31072026PUNJLLOYDok.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/PUNJLLOYD_31072026175526_BMoutcome31072026PUNJLLOYDok.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/PUNJLLOYD_31072026175526_BMoutcome31072026PUNJLLOYDok.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/TVVISION_31072026165615_Intimation_to_SE_Detailed_Order_TVVL.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/TVVISION_31072026165615_Intimation_to_SE_Detailed_Order_TVVL.pdf"
     },
     "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-sr-associates-hogan-lovells-cadwalader-act-on-lohia-corp-1101-crore-ipo": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/cyril-amarchand-mangaldas-sr-associates-hogan-lovells-cadwalader-act-on-lohia-corp-1101-crore-ipo"
     },
     "https://nsearchives.nseindia.com/corporate/DIAMONDYD_01082026230841_OutcomeofBM01062026_1.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/DIAMONDYD_01082026230841_OutcomeofBM01062026_1.pdf"
     },
     "https://www.barandbench.com/dealstreet/touchstone-partners-secures-cci-clearance-for-amalgamation-of-go-digit-infoworks-with-go-digit-general-insurance": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/dealstreet/touchstone-partners-secures-cci-clearance-for-amalgamation-of-go-digit-infoworks-with-go-digit-general-insurance"
     },
     "https://nsearchives.nseindia.com/corporate/CENTURYTEX_01082026183229_CPPIntimationFINAL.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/CENTURYTEX_01082026183229_CPPIntimationFINAL.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/ITC_01082026175506_SE_Century_.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/ITC_01082026175506_SE_Century_.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/jessydenny_01082026141540_SE_Intimation_merger.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/jessydenny_01082026141540_SE_Intimation_merger.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/ORCHPHARMA_01082026135041_Stx_Ltr.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/ORCHPHARMA_01082026135041_Stx_Ltr.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/VBL_01082026130315_Update_DFILKenya.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/VBL_01082026130315_Update_DFILKenya.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/HCLTECH_01082026111411_Update_HPE.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/HCLTECH_01082026111411_Update_HPE.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/MPSLIMITED_01082026110440_StxIntimationMergerwithMPSNA01082026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/MPSLIMITED_01082026110440_StxIntimationMergerwithMPSNA01082026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/HCLTECH_01082026105426_Update_Guardian.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/HCLTECH_01082026105426_Update_Guardian.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/IHFL_01082026205402_SCL_Retail_Intimation_57_01082026_NA2.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/IHFL_01082026205402_SCL_Retail_Intimation_57_01082026_NA2.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/TEMBO_01082026143016_Intimation_to_NSE-Tembo_SD.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/TEMBO_01082026143016_Intimation_to_NSE-Tembo_SD.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/OSIAHYPER_01082026182115_OutcomeOfThe4thCoCMeeting.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/OSIAHYPER_01082026182115_OutcomeOfThe4thCoCMeeting.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/JACPL_01082026171126_Intimation_Notice_Unsecured_Creditors_Signed.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/JACPL_01082026171126_Intimation_Notice_Unsecured_Creditors_Signed.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/JACPL_01082026165940_Intimation_Notice_Equity_Shareholders_Signed.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/JACPL_01082026165940_Intimation_Notice_Equity_Shareholders_Signed.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/BINANIIND_01082026163825_SE_Intimation_COC__1_.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/BINANIIND_01082026163825_SE_Intimation_COC__1_.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/DPSCLTD_01082026132258_IntimationofResignationofNPrakah_IDUnderReg30ofSEBI_LODR_01082026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/DPSCLTD_01082026132258_IntimationofResignationofNPrakah_IDUnderReg30ofSEBI_LODR_01082026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/GREAVESCOT_02082026133432_SE_Intimation_-_Rights_Issue_in_GEML_Post_Allotmentsd.pdf": {
@@ -19167,55 +19167,55 @@
     "https://nsearchives.nseindia.com/corporate/EMPYREAN_08082026171144_Krishival_SEBI_SAST.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/EMPYREAN_08082026171144_Krishival_SEBI_SAST.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/DELHIVERYLTD_08082026165500_Outcome08082026_sd.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/DELHIVERYLTD_08082026165500_Outcome08082026_sd.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_08082026164822_AELIntimationAACLGlobal.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_08082026164822_AELIntimationAACLGlobal.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/AETL_08082026133801_Intimation.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/AETL_08082026133801_Intimation.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/TINNARUBBER_08082026125640_TRIL_SEIntimation_Mbodla_Loan_08Aug2026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/TINNARUBBER_08082026125640_TRIL_SEIntimation_Mbodla_Loan_08Aug2026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/PARSVNATH_08082026163258_Intimation-List_of_Creditor_signed.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/PARSVNATH_08082026163258_Intimation-List_of_Creditor_signed.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/DPSCLTD_08082026141340_IntimationofOutcomeoftheVotingResultsunderReg30ofLODR08082026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/DPSCLTD_08082026141340_IntimationofOutcomeoftheVotingResultsunderReg30ofLODR08082026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/DPSCLTD_08082026130050_Intimationof3rdCoCMeetingunderReg30ofLODR08082026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/DPSCLTD_08082026130050_Intimationof3rdCoCMeetingunderReg30ofLODR08082026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/IMPEXFERRO_08082026115052_Intimation_of_CoC_Approval_of_Resolution_Plan_SignedOCR.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/IMPEXFERRO_08082026115052_Intimation_of_CoC_Approval_of_Resolution_Plan_SignedOCR.pdf"
     },
     "https://www.barandbench.com/dealstreet/jsa-secures-cci-approval-for-interglobe-accor-hospitality-merger": {
@@ -19695,7 +19695,7 @@
     "https://tracxn.com/d/companies/solinas-integrity/__YlvK5C6NSXLkpoxNyv3ao0-tTPDhW8vMJoL0S-aoBVA": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://tracxn.com/d/companies/solinas-integrity/__YlvK5C6NSXLkpoxNyv3ao0-tTPDhW8vMJoL0S-aoBVA"
     },
     "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-lexygen-us-firms-act-on-standexs-acquisition-of-amrannarayan-group": {
@@ -19725,7 +19725,7 @@
     "https://tracxn.com/d/companies/pinegap/__3nr74MKmRJRoLVmTFd7M1iRo6vRm9RQxHCs2WcTu0yg": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://tracxn.com/d/companies/pinegap/__3nr74MKmRJRoLVmTFd7M1iRo6vRm9RQxHCs2WcTu0yg"
     },
     "https://www.barandbench.com/law-firms/dealstreet/novojuris-legal-advises-pinegapai-series-a-fundraise": {
@@ -19755,7 +19755,7 @@
     "https://www.sec.gov/Archives/edgar/data/310354/000143774925000976/ex_764498.htm": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sec.gov/Archives/edgar/data/310354/000143774925000976/ex_764498.htm"
     },
     "https://allaboutbelgaum.com/news/2000-crore-investment-puts-belagavi-foundry-sector-in-national-spotlight/": {
@@ -19779,7 +19779,7 @@
     "https://www.sec.gov/Archives/edgar/data/0000310354/000143774926022576/ex_983979.htm": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sec.gov/Archives/edgar/data/0000310354/000143774926022576/ex_983979.htm"
     },
     "https://www.chamberlainlaw.com/news-news-chamberlain-sale-transactions-to-standex.html": {
@@ -20499,7 +20499,7 @@
     "https://www1.nseindia.com/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www1.nseindia.com/"
     },
     "https://www.nseindia.com/corporates_action/corporate_action.html": {
@@ -20541,7 +20541,7 @@
     "https://www.sgmart.co.in/investor-relations": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.sgmart.co.in/investor-relations"
     },
     "https://www.nseindia.com/corporates/content/corporate_disclosures.htm": {
@@ -20667,7 +20667,7 @@
     "https://ipiis.auctiontiger.net/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://ipiis.auctiontiger.net/"
     },
     "https://www.nseindia.com/corporates/listing_major_events.htm": {
@@ -21993,7 +21993,7 @@
     "https://www.marketscreener.com/news/aidin-technologies-private-limited-announced-that-it-expects-to-receive-inr-780-46416-million-in-fun-ce7f58d9d880f524": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.marketscreener.com/news/aidin-technologies-private-limited-announced-that-it-expects-to-receive-inr-780-46416-million-in-fun-ce7f58d9d880f524"
     },
     "https://app.dealroom.co/news/feed/indo-national-acquires-31-82-stake-in-defence-electronics-firm-aidin-technologies-for-4-2m": {
@@ -22005,7 +22005,7 @@
     "https://tracxn.com/d/companies/aidin-technologies/__GyM_yY9MBHhHsW-cSi73sZ7vDy4U1wjPWWzJrmq9xRM": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://tracxn.com/d/companies/aidin-technologies/__GyM_yY9MBHhHsW-cSi73sZ7vDy4U1wjPWWzJrmq9xRM"
     },
     "https://www.bseindia.com/corporates/Aurobindo%20Pharma%20Limited/equity/": {
@@ -22083,7 +22083,7 @@
     "https://www.adityabirlarealnestate.com/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.adityabirlarealnestate.com/"
     },
     "https://nsearchives.nseindia.com/corporate/WAAREE_13082026192221_StockexchangeJVagreement_signed.pdf": {
@@ -22335,7 +22335,7 @@
     "https://www.lodha.com/investor-relations": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.lodha.com/investor-relations"
     },
     "https://www.bseindia.com/hotnews/": {
@@ -22359,7 +22359,7 @@
     "https://wakefit.co/investor-relations": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.wakefit.co/investor-relations"
     },
     "https://www.bseindia.com/stock/GUJALKALI": {
@@ -23283,7 +23283,7 @@
     "https://rollingstockworld.com/components/italian-lucchini-rs-acquires-a-stake-in-jupiter-wagons-facility-for-railwheel-production/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://rollingstockworld.com/components/italian-lucchini-rs-acquires-a-stake-in-jupiter-wagons-facility-for-railwheel-production/"
     },
     "https://www.globalrailwayreview.com/lucchini-rs-enters-indian-rail-market-through-strategic-partnership-with-jupiter-wagons/2136147.article": {
@@ -23337,7 +23337,7 @@
     "https://www.linkedin.com/in/kmukhija/": {
       "status": "unknown",
       "code": 999,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.linkedin.com/in/kmukhija"
     },
     "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-landowners-on-revenue-sharing-joint-development-with-puravankara": {
@@ -23391,7 +23391,7 @@
     "https://www.lexology.com/library/detail.aspx?g=3a41eb6b-29f1-4b6c-89a3-426eb0a62c62": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.lexology.com/library/detail.aspx?g=3a41eb6b-29f1-4b6c-89a3-426eb0a62c62"
     },
     "https://scanx.trade/stock-market-news/companies/belding-india-acquires-evolve-it-solutions-for-10-75-crore/46372602": {
@@ -23445,13 +23445,13 @@
     "https://www.bseindia.com/issuers/liststatus.aspx": {
       "status": "redirected",
       "code": 200,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.bseindia.com/issuers/liststatus"
     },
     "https://ackodrive.com/news/sml-mahindra-to-acquire-mahindra-truck-and-bus-division-for-rs-525-crore/": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://ackodrive.com/news/sml-mahindra-to-acquire-mahindra-truck-and-bus-division-for-rs-525-crore/"
     },
     "https://www.bseindia.com/stock/company/SPENCER/540220/": {
@@ -23475,7 +23475,7 @@
     "https://www.thermalcontrolmagazine.com/acquisition/belding-india-acquires-evolve-it-solutions/": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.thermalcontrolmagazine.com/acquisition/belding-india-acquires-evolve-it-solutions/"
     },
     "https://www.bseindia.com/corporates/page.aspx?pageid=7636": {
@@ -23613,7 +23613,7 @@
     "https://www.greavescotton.com/investor-relations/": {
       "status": "unknown",
       "code": 403,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.greavescotton.com/investor-relations/"
     },
     "https://nsearchives.nseindia.com/corporate/GREAVESCOT_14082026143836_GCL_Excel_SEintimationsd.pdf": {
@@ -23625,7 +23625,7 @@
     "https://www.tatasteelinvestors.com/": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.tatasteelinvestors.com/"
     },
     "https://nsearchives.nseindia.com/corporate/RAINBOWUSER_14082026134520_UpdateNellore.pdf": {
@@ -23655,7 +23655,7 @@
     "https://www.cercind.gov.in": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.cercind.gov.in"
     },
     "https://jamshedpurfc.com/": {
@@ -23739,7 +23739,7 @@
     "https://www.irfc.gov.in/ or https://www.nseindia.com/corporate/securities.html": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.irfc.gov.in/ or https://www.nseindia.com/corporate/securities.html"
     },
     "https://www.sebi.gov.in/legal/regulations/may-2011/sebi-substantial-acquisition-of-shares-and-takeovers-regulations-2011_34626.html": {
@@ -23781,7 +23781,7 @@
     "https://www.aperc.gov.in": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.aperc.gov.in"
     },
     "https://www.inoxwind.com/investor-relations/stock-exchange-announcements": {
@@ -23799,7 +23799,7 @@
     "https://www.chambalfertilizers.com": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.chambalfertilizers.com"
     },
     "https://pib.gov.in/ or https://indianrailways.gov.in/": {
@@ -23919,7 +23919,7 @@
     "https://www.nseindia.com/corporate/listing.do": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.nseindia.com/corporate/listing.do"
     },
     "https://www.sebi.gov.in/legal/regulations/nov-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_40934.html": {
@@ -24411,7 +24411,7 @@
     "https://www.futuregroup.in": {
       "status": "unknown",
       "code": 0,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://www.futuregroup.in"
     },
     "https://www.careratings.com": {
@@ -24447,7 +24447,7 @@
     "https://www.ibbi.gov.in/legal-framework": {
       "status": "unknown",
       "code": 500,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://ibbi.gov.in/legal-framework"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_14082026164347_AAKASH106.pdf": {
@@ -24627,7 +24627,7 @@
     "https://nclt.gov.in/ [search: Simbhaoli Sugars Limited - CIRP]": {
       "status": "dead",
       "code": 404,
-      "at": "2026-10-17",
+      "at": "2026-11-01",
       "finalUrl": "https://nclt.gov.in/%20[search:%20Simbhaoli%20Sugars%20Limited%20-%20CIRP]"
     },
     "https://nsearchives.nseindia.com/corporate/DPSCLTD_15082026220747_IntimationofInvocationofBankGuarantee_UnderReg30ofSEBI_LODR_.pdf": {
@@ -24645,13 +24645,13 @@
     "https://nsearchives.nseindia.com/corporate/DIGJAMLMTD_16082026224245_VR_SR_Final_Submission.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/DIGJAMLMTD_16082026224245_VR_SR_Final_Submission.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/DIGJAMLMTD_16082026200115_Proceedings_of_the_Shareholders_Meeting.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/DIGJAMLMTD_16082026200115_Proceedings_of_the_Shareholders_Meeting.pdf"
     },
     "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-acts-on-matel-130-crore-series-b-fundraise": {
@@ -28395,19 +28395,19 @@
     "https://nsearchives.nseindia.com/corporate/ORIENTCEM_27082026143739_OCL_Newspaper_Intimation_SE.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/ORIENTCEM_27082026143739_OCL_Newspaper_Intimation_SE.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/AMBUJACEM_27082026141531_ACL_Newspaper_Intimation_SE.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/AMBUJACEM_27082026141531_ACL_Newspaper_Intimation_SE.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/DPSCLTD_27082026131303_IntimationofoutcomeoftheAdjourned5thCOCMeetingtoSE_27082026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/DPSCLTD_27082026131303_IntimationofoutcomeoftheAdjourned5thCOCMeetingtoSE_27082026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/MEL_29082026001928_MEL_Outcome_28082026_Final.pdf": {
@@ -29739,7 +29739,7 @@
     "https://nsearchives.nseindia.com/corporate/CSBBANK_08092026220843_BSENSEICICIRBIApproval08092026f.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/CSBBANK_08092026220843_BSENSEICICIRBIApproval08092026f.pdf"
     },
     "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-trilegal-act-on-esds-720-crore-ipo": {
@@ -29751,85 +29751,85 @@
     "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-pixxel-on-100-million-series-c-fundraise": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-pixxel-on-100-million-series-c-fundraise"
     },
     "https://nsearchives.nseindia.com/corporate/PARKMEDIWORLD2025_08092026195837_intimation0809.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/PARKMEDIWORLD2025_08092026195837_intimation0809.pdf"
     },
     "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-assists-niif-on-setting-up-19000-crore-infrastructure-fund": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-assists-niif-on-setting-up-19000-crore-infrastructure-fund"
     },
     "https://nsearchives.nseindia.com/corporate/HMVL_08092026195725_HMVLdisclosure.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/HMVL_08092026195725_HMVLdisclosure.pdf"
     },
     "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-nabfid-axis-bank-ptc-india-finserv-on-financing-for-telecommunications-infrastructure-project": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-nabfid-axis-bank-ptc-india-finserv-on-financing-for-telecommunications-infrastructure-project"
     },
     "https://nsearchives.nseindia.com/corporate/PITTIENG_08092026190745_NCLTORDER.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/PITTIENG_08092026190745_NCLTORDER.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/MERCURYEV_08092026185039_Mercury_Disc_.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/MERCURYEV_08092026185039_Mercury_Disc_.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/SEQUENT1_08092026184504_SE_Intimation.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/SEQUENT1_08092026184504_SE_Intimation.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/TCCLTD_08092026172903_Stock_Exchanges_Disclosure_TCC.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/TCCLTD_08092026172903_Stock_Exchanges_Disclosure_TCC.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_08092026161244_SINDHUTRAD.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_08092026161244_SINDHUTRAD.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_08092026160817_FINEORG.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_08092026160817_FINEORG.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/SISL_08092026153238_REG30NCLTCTCORDER08092026signed.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/SISL_08092026153238_REG30NCLTCTCORDER08092026signed.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/SILGO_08092026141946_disclosure_under_29_2__08092026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/SILGO_08092026141946_disclosure_under_29_2__08092026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_sandeshc_08092026121733_TRUCAP.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_sandeshc_08092026121733_TRUCAP.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/VISHNU_08092026102751_VCL_Press_Release_on_JVA_Final_Signed.pdf": {
@@ -31197,187 +31197,187 @@
     "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-neogen-chemicals-600-crore-qip": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-neogen-chemicals-600-crore-qip"
     },
     "https://nsearchives.nseindia.com/corporate/NEOGEN_21092026160124_PRfinal.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/NEOGEN_21092026160124_PRfinal.pdf"
     },
     "https://www.barandbench.com/law-firms/dealstreet/trilegal-verist-law-tta-duane-morris-act-on-kanohar-electricals-1055-crore-ipo": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/law-firms/dealstreet/trilegal-verist-law-tta-duane-morris-act-on-kanohar-electricals-1055-crore-ipo"
     },
     "https://www.barandbench.com/law-firms/dealstreet/saraf-and-partners-acts-on-fortis-slj-society-collaboration-for-super-specialty-hospital-in-ashok-vihar-new-delhi": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/law-firms/dealstreet/saraf-and-partners-acts-on-fortis-slj-society-collaboration-for-super-specialty-hospital-in-ashok-vihar-new-delhi"
     },
     "https://nsearchives.nseindia.com/corporate/REFEX2002_21092026192404_Newspaper_Publication_stx.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/REFEX2002_21092026192404_Newspaper_Publication_stx.pdf"
     },
     "https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-advises-investors-on-comet-100-crore-series-b-fundraise": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-advises-investors-on-comet-100-crore-series-b-fundraise"
     },
     "https://nsearchives.nseindia.com/corporate/RACEECOCHAIN_21092026190827_Intimation_for_NOC.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/RACEECOCHAIN_21092026190827_Intimation_for_NOC.pdf"
     },
     "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-jsa-hogan-lovells-cadwalader-vertices-partners-act-on-glass-wall-systems-427-crore-ipo": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-jsa-hogan-lovells-cadwalader-vertices-partners-act-on-glass-wall-systems-427-crore-ipo"
     },
     "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advise-capital-numbers-on-acquisition-of-epitome-cloud-inc": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advise-capital-numbers-on-acquisition-of-epitome-cloud-inc"
     },
     "https://www.barandbench.com/law-firms/dealstreet/dua-associates-advises-odyssey-energy-solutions-on-availing-7-million-ecb-from-bio": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/law-firms/dealstreet/dua-associates-advises-odyssey-energy-solutions-on-availing-7-million-ecb-from-bio"
     },
     "https://nsearchives.nseindia.com/corporate/ROBL_21092026190541_Press_Release_signed.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/ROBL_21092026190541_Press_Release_signed.pdf"
     },
     "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-pranav-constructions-351-crore-ipo": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/law-firms/dealstreet/trilegal-acts-on-pranav-constructions-351-crore-ipo"
     },
     "https://nsearchives.nseindia.com/corporate/DIXON_21092026184010_AcquisitionAdivistarFinal21092026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/DIXON_21092026184010_AcquisitionAdivistarFinal21092026.pdf"
     },
     "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-ifc-on-500-million-ecb-facility-to-sidbi": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-ifc-on-500-million-ecb-facility-to-sidbi"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_21092026183331_CALSOFT.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_21092026183331_CALSOFT.pdf"
     },
     "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-crdit-agricole-on-sanctioning-700-crore-to-vertis-infrastructure-trust": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://www.barandbench.com/law-firms/dealstreet/jsa-advises-crdit-agricole-on-sanctioning-700-crore-to-vertis-infrastructure-trust"
     },
     "https://nsearchives.nseindia.com/corporate/INDSWFTLAB_21092026181020_Intimation_SAST.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/INDSWFTLAB_21092026181020_Intimation_SAST.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/ZODIAC_21092026174950_Reg_30_Zenwatt_Acquisition_.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/ZODIAC_21092026174950_Reg_30_Zenwatt_Acquisition_.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_21092026163757_GOODLUCK.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_21092026163757_GOODLUCK.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_21092026163400_OILCOUNTUB.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_21092026163400_OILCOUNTUB.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/team_bbodade_21092026160559_GROWW29_1.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/team_bbodade_21092026160559_GROWW29_1.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/PURPLESTYLE_21092026161742_PSL_BM_21Sep2026_Disclsoure_under_Reg_30_-_Acquistion_upload.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/PURPLESTYLE_21092026161742_PSL_BM_21Sep2026_Disclsoure_under_Reg_30_-_Acquistion_upload.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/THYROCARE_21092026150326_Outcome_Intimation-BM.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/THYROCARE_21092026150326_Outcome_Intimation-BM.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/TCLCONS_21092026123043_SaleOfSharesByUSCPLSeptember2026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/TCLCONS_21092026123043_SaleOfSharesByUSCPLSeptember2026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/HSCL_21092026100728_Boardoutcome21092026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/HSCL_21092026100728_Boardoutcome21092026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/HSCL_21092026100138_Boardoutcome21092026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/HSCL_21092026100138_Boardoutcome21092026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/NATCOPHARM_21092026224748_SE_Intimation_IP_Approval_21092026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/NATCOPHARM_21092026224748_SE_Intimation_IP_Approval_21092026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/SHIRPUR-G_21092026181718_Shirpur_31st_COC__Prior_Intimation.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/SHIRPUR-G_21092026181718_Shirpur_31st_COC__Prior_Intimation.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/Skilinfra_21092026175422_Letter_Adjournment_Intimation_11th_COC.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/Skilinfra_21092026175422_Letter_Adjournment_Intimation_11th_COC.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/VIDEOIND_21092026171012_VIL_Intimation_65th_CoC_Meeting_dt_September_23_2026_s.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/VIDEOIND_21092026171012_VIL_Intimation_65th_CoC_Meeting_dt_September_23_2026_s.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/VALUEIND_21092026162430_VAL_Intimation_65th_CoC_Meeting_dt_September_23_2026_s.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/VALUEIND_21092026162430_VAL_Intimation_65th_CoC_Meeting_dt_September_23_2026_s.pdf"
     },
     "https://www.barandbench.com/law-firms/dealstreet/cs-partners-advises-dr-lal-ventures-on-acquiring-30-stake-in-neuome-technologies": {
@@ -33663,7 +33663,7 @@
     "https://nsearchives.nseindia.com/corporate/DPSCLTD_04102026131531_IntimationofOutcomeof8thCoCVotingResults04102026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/DPSCLTD_04102026131531_IntimationofOutcomeof8thCoCVotingResults04102026.pdf"
     },
     "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-act-on-elevate-campuses-2100-crore-ipo": {
@@ -35697,31 +35697,31 @@
     "https://nsearchives.nseindia.com/corporate/AMBER_18102026163044_Ascent.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/AMBER_18102026163044_Ascent.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/AMBER_18102026161739_Ascent.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/AMBER_18102026161739_Ascent.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/AMBER_18102026170840_Power_One.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/AMBER_18102026170840_Power_One.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/AMBER_18102026164959_Power_One.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/AMBER_18102026164959_Power_One.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/ZENTEC_18102026112012_PressRelease18102026.pdf": {
       "status": "ok",
       "code": 200,
-      "at": "2026-10-18",
+      "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/ZENTEC_18102026112012_PressRelease18102026.pdf"
     },
     "https://nsearchives.nseindia.com/corporate/RECLTD_19102026232553_Signed_Intimation_OL_191026.pdf": {
@@ -37655,6 +37655,18 @@
       "code": 200,
       "at": "2026-11-01",
       "finalUrl": "https://nsearchives.nseindia.com/corporate/Supriya_01112026020456_SE_Intimation_PSL_Scheme.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/AFFLE_01112026175154_Press_Release2.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-11-01",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/AFFLE_01112026175154_Press_Release2.pdf"
+    },
+    "https://nsearchives.nseindia.com/corporate/AFFLE_01112026174902_Acquisition_announcement1.pdf": {
+      "status": "ok",
+      "code": 200,
+      "at": "2026-11-01",
+      "finalUrl": "https://nsearchives.nseindia.com/corporate/AFFLE_01112026174902_Acquisition_announcement1.pdf"
     }
   },
   "deals": {
@@ -43259,7 +43271,7 @@
     "argus-partners-assists-glassbox-on-acquisition-by-komerz": {
       "at": "2026-11-01",
       "total": 6,
-      "good": 4,
+      "good": 5,
       "dead": 0
     },
     "nse-GREAVESCOT-23-Jun-2026215206": {
@@ -46955,7 +46967,7 @@
     "cms-induslaw-secures-indias-first-successful-ofac-delisting-for-lokesh-machines": {
       "at": "2026-11-01",
       "total": 2,
-      "good": 2,
+      "good": 1,
       "dead": 0
     },
     "cyril-amarchand-mangaldas-advises-kotak-mahindra-bank-on-acquisition-of-private-banking-wealth-management-business-of-de": {
@@ -49097,8 +49109,8 @@
     "azb-partners-acts-on-paras-hospitals-1800-crore-proposed-ipo": {
       "at": "2026-11-01",
       "total": 4,
-      "good": 4,
-      "dead": 0
+      "good": 3,
+      "dead": 1
     },
     "tpg-led-consortium-to-acquire-aseem-infra-finance-cam-linklaters-trilegal-sam-advise": {
       "at": "2026-11-01",
@@ -51551,7 +51563,7 @@
     "tta-azb-partners-act-on-570-million-acquisition-of-ams-osrams-sensor-business-by-infineon-technologies": {
       "at": "2026-11-01",
       "total": 2,
-      "good": 2,
+      "good": 1,
       "dead": 0
     },
     "in-spaces-antariskh-ventures-invests-in-dhruva-space-tta-xander-law-advise": {
@@ -51779,7 +51791,7 @@
     "cms-induslaw-advises-itc-hotels-on-acquisition-of-welcomhotel-ahmedabad": {
       "at": "2026-11-01",
       "total": 2,
-      "good": 2,
+      "good": 1,
       "dead": 0
     },
     "vertices-partners-acts-on-apna-mart-120-crore-series-c-fundraise": {
@@ -51809,7 +51821,7 @@
     "dsk-legal-advisessigma-advanced-systems-on-153-crore-acquisition-ofbromford-precision-solutions": {
       "at": "2026-11-01",
       "total": 2,
-      "good": 2,
+      "good": 1,
       "dead": 0
     },
     "nse-BRIGADE-29-Jul-2026184513": {
@@ -52121,7 +52133,7 @@
     "universal-legal-advises-advy-biosciences-on-acquisition-of-diabetomics-medical": {
       "at": "2026-11-01",
       "total": 2,
-      "good": 2,
+      "good": 1,
       "dead": 0
     },
     "jsa-advises-snitch-apparels-on-acquisition-of-berrylush": {
@@ -52655,7 +52667,7 @@
     "tta-paul-weiss-avisen-legal-act-on-carrier-acquiring-75f-inc": {
       "at": "2026-11-01",
       "total": 2,
-      "good": 2,
+      "good": 1,
       "dead": 0
     },
     "dhir-dhir-associates-assists-in-powertronix-engineering-proposed-ipo": {
@@ -66985,19 +66997,21 @@
       "total": 1,
       "good": 1,
       "dead": 0
+    },
+    "nse-AFFLE-01-Nov-2026175246": {
+      "at": "2026-11-01",
+      "total": 1,
+      "good": 1,
+      "dead": 0
+    },
+    "nse-AFFLE-01-Nov-2026174930": {
+      "at": "2026-11-01",
+      "total": 1,
+      "good": 1,
+      "dead": 0
     }
   },
   "history": [
-    {
-      "at": "2026-10-02",
-      "checked": 400,
-      "dead": 35,
-      "redirected": 8,
-      "ok": 304,
-      "unknown": 53,
-      "verifiedDeals": 2074,
-      "issueDeals": 2130
-    },
     {
       "at": "2026-10-03",
       "checked": 400,
@@ -67297,6 +67311,16 @@
       "unknown": 13,
       "verifiedDeals": 2745,
       "issueDeals": 2128
+    },
+    {
+      "at": "2026-11-01",
+      "checked": 400,
+      "dead": 31,
+      "redirected": 8,
+      "ok": 332,
+      "unknown": 29,
+      "verifiedDeals": 2746,
+      "issueDeals": 2129
     }
   ],
   "lastRun": "2026-11-01"
