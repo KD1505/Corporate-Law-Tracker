@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-10-31T20:44:03.813Z",
+  "generatedAt": "2026-11-01T07:03:26.748Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-11-01-0-nse-jswsteel-01-nov-2026020535",
+      "sourceId": "nse-jswsteel-01-nov-2026020535",
+      "date": "1 Nov 2026",
+      "category": "Companies Act",
+      "headline": "JSW Steel Limited: Amalgamation/Merger",
+      "why": "Amalgamation/Merger - JSW Steel Limited has informed the Exchange about the Effectiveness of the Scheme of Amalgamation of Piombino Steel Limited with JSW Steel Limited and their respective shareholders",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/Supriya_01112026020456_SE_Intimation_PSL_Scheme.pdf",
+      "sourceName": "NSE filing - JSW Steel Limited"
+    },
     {
       "id": "academy-2026-10-31-0-nse-aurionpro-31-oct-2026201309",
       "sourceId": "nse-aurionpro-31-oct-2026201309",
@@ -429,17 +440,6 @@
       "why": "Acquisition - Pursuant to Regulation 30 of SEBI LODR Regulations, we wish to inform the exchange that, IL JIN Electronics (India) Limited, a material subsidiary of the Company has entered into a Share Swap Agreement on 18th October 2026,…",
       "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
       "source": "https://nsearchives.nseindia.com/corporate/AMBER_18102026170840_Power_One.pdf",
-      "sourceName": "NSE filing - Amber Enterprises India Limited"
-    },
-    {
-      "id": "academy-2026-10-18-2-nse-amber-18-oct-2026161821",
-      "sourceId": "nse-amber-18-oct-2026161821",
-      "date": "18 Oct 2026",
-      "category": "FEMA / FDI",
-      "headline": "Amber Enterprises India Limited: Agreements",
-      "why": "Agreements - Pursuant to Regulation 30 of SEBI LODR Regulations, we wish to inform the exchange that, IL JIN Electronics (India) Limited, a material subsidiary of the Company has entered into a Share Swap Agreement on 18th October 2026, in…",
-      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
-      "source": "https://nsearchives.nseindia.com/corporate/AMBER_18102026161739_Ascent.pdf",
       "sourceName": "NSE filing - Amber Enterprises India Limited"
     }
   ]
