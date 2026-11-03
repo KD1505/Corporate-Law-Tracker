@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-11-01T07:03:26.748Z",
+  "generatedAt": "2026-11-03T00:07:01.301Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-11-03-0-nse-lloydsengg-02-nov-2026215011",
+      "sourceId": "nse-lloydsengg-02-nov-2026215011",
+      "date": "2 Nov 2026",
+      "category": "Deal Structuring",
+      "headline": "LLOYDS ENGINEERING WORKS LIMITED: Disclosure of material issue",
+      "why": "Disclosure of material issue - LLOYDS ENGINEERING WORKS LIMITED has informed regarding update on acquisition of shares",
+      "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
+      "source": "https://nsearchives.nseindia.com/corporate/LSIL_02112026214956_Acquisitionsigned.pdf",
+      "sourceName": "NSE filing - LLOYDS ENGINEERING WORKS LIMITED"
+    },
+    {
+      "id": "academy-2026-11-03-1-nse-apollo-02-nov-2026080455",
+      "sourceId": "nse-apollo-02-nov-2026080455",
+      "date": "2 Nov 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Apollo Micro Systems Limited: Updates",
+      "why": "Updates - Apollo Micro Systems Limited has informed the Exchange regarding 'AMS Update on Open Offer made to public shareholders of Premier Explosives Ltd'.",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/APOLLO_02112026080444_AMS_Update_on_Open_Offer.pdf",
+      "sourceName": "NSE filing - Apollo Micro Systems Limited"
+    },
+    {
+      "id": "academy-2026-11-03-2-nse-rswm-02-nov-2026182431",
+      "sourceId": "nse-rswm-02-nov-2026182431",
+      "date": "2 Nov 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "RSWM Limited: General Updates",
+      "why": "General Updates - Pursuant to Regulation 30 & 33 of the SEBI (Listing Obligations and Disclosure Requirements)Regulations, 2015, the Board of Directors of the Company at its Meeting held today, i.e., 2ndNovember, 2026 have inter alia…",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/RSWM_02112026182422_Financial_Results30092026.pdf",
+      "sourceName": "NSE filing - RSWM Limited"
+    },
     {
       "id": "academy-2026-11-01-0-nse-jswsteel-01-nov-2026020535",
       "sourceId": "nse-jswsteel-01-nov-2026020535",
@@ -408,39 +441,6 @@
       "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
       "source": "https://nsearchives.nseindia.com/corporate/PFC2023_19102026223732_IntimationNoCNSEBSE19102026signed.pdf",
       "sourceName": "NSE filing - Power Finance Corporation Limited"
-    },
-    {
-      "id": "academy-2026-10-19-2-nse-goclcorp-19-oct-2026210249",
-      "sourceId": "nse-goclcorp-19-oct-2026210249",
-      "date": "19 Oct 2026",
-      "category": "Companies Act",
-      "headline": "GOCL Corporation Limited: Outcome of Board Meeting",
-      "why": "Outcome of Board Meeting - GOCL Corporation Limited has informed the Exchange regarding Outcome of Board Meeting held on October 19, 2026 - Update on Scheme of Merger of HNPCL with GOCL",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/GULFCORP_19102026205624_BMOutcomeQ219102026Signed.pdf",
-      "sourceName": "NSE filing - GOCL Corporation Limited"
-    },
-    {
-      "id": "academy-2026-10-18-0-nse-amber-18-oct-2026163110",
-      "sourceId": "nse-amber-18-oct-2026163110",
-      "date": "18 Oct 2026",
-      "category": "FEMA / FDI",
-      "headline": "Amber Enterprises India Limited: Acquisition",
-      "why": "Acquisition - Pursuant to Regulation 30 of SEBI LODR Regulations, we wish to inform the exchange that, IL JIN Electronics (India) Limited, a material subsidiary of the Company has entered into a Share Swap Agreement on 18th October 2026,…",
-      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
-      "source": "https://nsearchives.nseindia.com/corporate/AMBER_18102026163044_Ascent.pdf",
-      "sourceName": "NSE filing - Amber Enterprises India Limited"
-    },
-    {
-      "id": "academy-2026-10-18-1-nse-amber-18-oct-2026170916",
-      "sourceId": "nse-amber-18-oct-2026170916",
-      "date": "18 Oct 2026",
-      "category": "FEMA / FDI",
-      "headline": "Amber Enterprises India Limited: Acquisition",
-      "why": "Acquisition - Pursuant to Regulation 30 of SEBI LODR Regulations, we wish to inform the exchange that, IL JIN Electronics (India) Limited, a material subsidiary of the Company has entered into a Share Swap Agreement on 18th October 2026,…",
-      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
-      "source": "https://nsearchives.nseindia.com/corporate/AMBER_18102026170840_Power_One.pdf",
-      "sourceName": "NSE filing - Amber Enterprises India Limited"
     }
   ]
 }
