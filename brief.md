@@ -1,365 +1,365 @@
 # Corporate Law Tracker - Daily Brief
-_3 November 2026_
+_4 November 2026_
 
 47 new development(s) - top 40 shown.
 
-### Emkay Global Financial Services Limited: Granting/withdrawal/surrender/cancellation/suspension of key licenses/ regulatory approvals
-**IPO** · Cross-border · ✓ Verified
+### JM Financial Limited: Press Release
+**BANK** · ₹1,056 cr · India · ✓ Verified
 
-Granting/withdrawal/surrender/cancellation/suspension of key licenses/ regulatory approvals - Emkay Global Financial Services Limited has informed the Exchange about receipt of trading approval letters for listing of equity shares from…
+Press Release - JM Financial Limited has informed the Exchange regarding a press release dated November 4, 2026, titled "JM Financial Limited reports consolidated revenue of Rs. 1,056 crores and PAT of Rs.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/jpshah_03112026192555_IntimationtoBSEandNSEfortradingapproval03112026.pdf)
-
----
-
-### Shreeji Shipping Global Limited: Updates
-**IPO** · Cross-border · ✓ Verified
-
-Updates - Shreeji Shipping Global Limited has informed the Exchange regarding 'Update on Offer for sale by the promoters'.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SHREEJI_03112026170625_Green_Shoe_Intimation_S.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/JMFINANCIL_04112026175432_PressRelease04112026upload.pdf)
 
 ---
 
-### Shreeji Shipping Global Limited: Copy of Newspaper Publication
-**IPO** · Cross-border · ✓ Verified
+### Cyril Amarchand Mangaldas advised OnEMI Technology Solutions on ₹832 crore fundraise
+**IPO** · ₹832 cr · India · Reported
 
-Copy of Newspaper Publication - Newspaper publication of Notice of the proposed offer for sale of equity shares of face value of &#8377;10 each of Shreeji Shipping Global Limited (the Company) by its promoters (Ashokkumar Haridas Lal and…
+OnEMI Technology Solutions Limited has raised ~₹832 crore through an issuance of equity shares by way of a preferential issue on a private placement basis to ~ 34 investors/ investor entities. Cyril Amarchand Mangaldas advised OnEMI…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SHREEJI_03112026131007_Newspaper_Publication.pdf)
-
----
-
-### Dev Accelerator Limited: Issue of Securities
-**BANK** · ₹300 · India · ✓ Verified
-
-Issue of Securities - Dev Accelerator Limited has informed the Exchange about The Board of Directors of the Company, at its meeting held on November 03, 2026, considered and approved the proposal for raising funds through Issuance of…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DEVACCE_03112026193219_SE_Outcome_of_Board_Meeting.pdf)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-advised-onemi-technology-solutions-on-832-crore-fundraise)
 
 ---
 
-### Clean Max Enviro Energy Solutions Limited: Acquisition
+### Saraf and Partners, Anoma Legal, Kaizen Law act on AdOnMo - Mygate merger
+**MA** · ₹3,500 cr · India · Reported
+
+Digital advertising platform AdOnMo is set to merge with community management platform Mygate in a proposed merger, with the combined entity being valued at approximately ₹3,500 crore. The proposed all-stock merger is preceded by a share…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/saraf-and-partners-anoma-legal-kaizen-law-act-on-adonmo-mygate-merger)
+
+---
+
+### Aurobindo Pharma Limited: Acquisition
+**MA** · Cross-border · ✓ Verified
+
+Acquisition - Aurobindo Pharma Limited has informed the Exchange about transfer ownership of Auro Pharma LLC, Russia, from Auro Active Pharma Private Limited to Auropharm Overseas Limited, wholly owned subsidiaries of the Company
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AUROPHARMA_04112026203119_LtrToSEsOwnershipTransferRussia04112026.pdf)
+
+---
+
+### Gulf Oil Lubricants India Limited: News Verification
+**MA** · Cross-border · ✓ Verified
+
+News Verification - The Exchange has sought clarification from Gulf Oil Lubricants India Limited with respect to recent news item captioned Hindujas Gulf Oil scouts acquisitions in Asia, South America ahead of global listing. The response…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/GULFOILLUB_04112026143757_RumourVerifiactionET02112026.pdf)
+
+---
+
+### Khaitan & Co advises Sumitomo Corp on acquiring 49% stake in Hero Group's Clean Solar Power
+**MA** · India · Reported
+
+Sumitomo Corporation has acquired a 49% equity shareholding in Clean Solar Power (Baniyana) Private Limited, a subsidiary of HSEPL, which forms part of Hero Future Energies, the renewable energy business arm of the Hero Group. Khaitan & Co…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-sumitomo-corp-on-acquiring-49-stake-in-hero-groups-clean-solar-power)
+
+---
+
+### Creative Newtech Limited: Updates
+**MA** · ₹50.50 cr · India · ✓ Verified
+
+Updates - Creative Newtech Limited has informed the Exchange regarding 'Creative Newtech Limited approves acquisition of 100% stake in Zicom SaaS Private Limited for approximately Rs. 50.50 Crore (Enterprise Value) to strengthen its…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/CREATIVE_04112026123516_MR_Zicom_SaaS.pdf)
+
+---
+
+### Narayana Hrudayalaya Ltd.: Demerger
+**MA** · Bengaluru · ✓ Verified
+
+Demerger - Narayana Hrudayalaya Ltd. has informed the Exchange about Filing of the Orderof the Hon ble National Company Law Tribunal, Bengaluru Bench sanctioning the Scheme ofArrangement between NH Integrated Care Private Limited (WOS) and…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/Narayana_04112026222839_SE-Order_-NHIC_Demerger.pdf)
+
+---
+
+### Max Estates Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - Incorporation of a wholly owned subsidiary of the Company at the International Financial ServicesCentre (IFSC) in Gujarat Finance Tec-City (GIFT City), Gujarat, India
+Acquisition - Max Estates Limited has informed the Exchange about Acquisition.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CLEANMAX_03112026235251_FR30092026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MEL_04112026211832_20261104IntimationBoardMeeting.pdf)
 
 ---
 
-### Parag Milk Foods Limited: Amalgamation/Merger
+### Krishna Institute of Medical Sciences Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-Amalgamation/Merger - Parag Milk Foods Limited has informed the Exchange about Amalgamation/Merger
+Amalgamation/Merger - Krishna Institute of Medical Sciences Limited has informed the Exchange about Amalgamation/Merger
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PARAGMILK_03112026224807_Intimation.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/KIMS_04112026203114_Disclosure_to_SE_Rajhmundry.pdf)
 
 ---
 
-### Fractal Analytics Limited: General Updates
+### Aurobindo Pharma Limited: Amalgamation/Merger
 **MA** · India · ✓ Verified
 
-General Updates - Acquisition of certain assets and certain liabilities of Pricing One SA, by Asper. AI Inc., a step-down subsidiary of the Company
+Amalgamation/Merger - Aurobindo Pharma Limited has informed the Exchange about Amalgamation/Merger of Auroactive Pharma Private Limited with Apitoria Pharma Private Limited wholly owned subsidiaries of the Company.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/FRACTAL_03112026205732_SEIntimationPricing_One.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AUROPHARMA_04112026202447_LtrToSEAuroactiveApitoriaMerger04112026.pdf)
 
 ---
 
-### Kotak Mahindra Bank Limited: General Updates
+### Choice International Limited: General Updates
 **MA** · India · ✓ Verified
 
-General Updates - Update on acquisition of Deutsche Bank AG s Retail Banking, Private Banking and Wealth Management Business in India
+General Updates - Acquisition of "M/s Truestock Universe Private Limited" and "M/s. Quanthm Bit Works Private Limited" by the Company and sale of Investment in "SKP Green Ventures Private Limited" by our Material Subsidiary.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KMBLOMKAR_03112026201742_UpdateDeutscheBank.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/CHOICE_04112026200002_upload.pdf)
 
 ---
 
-### GSPL Transmission Limited: Updates
+### Mayur Uniquoters Ltd: Acquisition
+**MA** · ₹191.40 lakh · India · ✓ Verified
+
+Acquisition - Mayur Uniquoters Ltd has informed the Exchange about Approval of the Investment upto the amount of Rs. 191.40 lakhs (Rupees One Ninety-One Lakhs and Forty Thousand Only) in one or more tranches by way of subscribing to the…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MAYURUNIQ_04112026194940_OBMSD04112026.pdf)
+
+---
+
+### Share India Securities Limited: ESOP/ESOS/ESPS
 **MA** · India · ✓ Verified
 
-Updates - GSPL Transmission Limited has informed the Exchange regarding 'Submission of Report of Audit Committee and Independent Directors of GSPL Transmission Limited ("the Company") certifying that the Company has compensated the…
+ESOP/ESOS/ESPS - Pursuant to Regulation 30 of SEBI (LODR) Regulations, 2015, please be informed that Nomination and Remuneration Committee of the Board of Directors of the Company vide Resolution passed by circulation on November 04, 2026,…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/GSPLTRANS_03112026195207_NSEBSEReportofIDandAC.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SISL_04112026192028_Reg30AllotmentandGrant_04112026_signed.pdf)
 
 ---
 
-### Prestige Estates Projects Limited: Acquisition
+### Share India Securities Limited: Allotment of Securities
+**MA** · ₹2 · India · ✓ Verified
+
+Allotment of Securities - Pursuant to Regulation 30 of SEBI (LODR) Regulations, 2015, please be informed that the Board of Directors of the Company vide Resolution passed through Circulation on November 04, 2026, approved the allotment of…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SISL_04112026191644_Reg30AllotmentandGrant_04112026_signed.pdf)
+
+---
+
+### IIFL Capital Services Limited: Open Offer
 **MA** · India · ✓ Verified
 
-Acquisition - Prestige Estates Projects Limited has informed the Exchange about Acquisition of 100% stake in Gloind Vintage Infra Private Limited.
+Open Offer - "ICICI Securities Limited has submitted a copy of the Letter of Offer from IIFL Capital Services Limited to the Exchange
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/PRESTIGE_03112026194631_Intimation_under_Reg_30_Acquisition.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_04112026103543_Dis2.pdf)
 
 ---
 
-### Dalmia Bharat Sugar and Industries Limited: Scheme of Arrangement
+### Physicswallah Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Scheme of Arrangement - Dalmia Bharat Sugar and Industries Limited has informed the Exchange about Scheme of Arrangement
+Acquisition - Physicswallah Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DALMIACEM_03112026192721_Outcome_of_BM.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NEAPSPW_04112026182722_seintimation.pdf)
 
 ---
 
-### Amber Enterprises India Limited: Acquisition
+### Emmbi Industries Limited: General Updates
 **MA** · India · ✓ Verified
 
-Acquisition - Pursuant to Regulation 30 of SEBI (LODR) Regulations, 2015, we wish to inform the exchange that IL JIN Electronics (India) Limited, a material subsidiary of the Company ("IL JIN") has completed the acquisition of the balance…
+General Updates - Emmbi Industries Limited has informed the Exchange about SEBI Order Granting Exemption to Rinku Appalwar Business Trust and Makrand Appalwar Business Trust Under Regulation 11 of Securities and Exchange Board of India…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AMBER_03112026191915_SEIntimationUpdateonAcquisitionPowerOne.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/EMMBI_04112026175448_IntimationtoSE.pdf)
 
 ---
 
-### Amber Enterprises India Limited: Acquisition
+### Somany Ceramics Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - Pursuant to Regulation 30 of SEBI (LODR) Regulations, 2015, we wish to inform the exchange that IL JIN Electronics (India) Limited, a material subsidiary of the Company ("IL JIN") has completed acquisition of the balance…
+Acquisition - Somany Ceramics Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AMBER_03112026185712_SEIntimationUpdateonAcquisitionAscent.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SOMANYCERAMICS_04112026172254_OutcomeofBoardMeeting_04112026sd.pdf)
 
 ---
 
-### Brainbees Solutions Limited: Acquisition
+### RITES Limited: General Updates
 **MA** · India · ✓ Verified
 
-Acquisition - Brainbees Solutions Limited has informed the Exchange about acquisition of additional stake in Better & Brighter Homecare Private Limited by Globalbees Brands Private Limited, material subsidiary of the Company.
+General Updates - RITES Limited has informed the Exchange about that the Board took note that the proposal for formation of JV with NICC Infrastructure Construction LLC and contribution of capital therein is not materializing, this is in…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/BRAINBEES_03112026182841_DisclosureReg30AcquisitionbyGBBetterBrighter.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/RITES_04112026171930_OutcomeSigned.pdf)
 
 ---
 
-### Ceinsys Tech Limited: General Updates
+### 5Paisa Capital Limited: Acquisition
 **MA** · India · ✓ Verified
 
-General Updates - Ceinsys Tech Limited has informed the Exchange about Incorporation of Joint Venture Company.
+Acquisition - 5paisa Capital Limited has informed the Exchange about update on acquisition of Giskard Datatech Private Limited
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CEINSYSTECH_03112026182313_SEIntimationofIncorporationofJV.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/5PAISA_04112026165720_EXINTIMATION_Subsidiary.pdf)
 
 ---
 
-### Kamdhenu Ventures Limited: Acquisition
+### Jeena Sikho Lifecare Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - Kamdhenu Ventures Limited has informed the Exchange about an update on Acquisition of shares of wholly owned subsidiary of the Company.
+Acquisition - Jeena Sikho Lifecare Limited has informed the Exchange about Approval for the Proposed Incorporation of a Subsidiary
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KVENTURES_03112026180349_Fund_Transfer.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/JEENASIKHO_04112026165534_BM_Outcome_Subsidiary_Ayugenomics_Signed__1_.pdf)
 
 ---
 
-### Kapston Services Limited: General Updates
+### DPSC Limited: Updates
 **MA** · India · ✓ Verified
 
-General Updates - Kapston Services Limited has informed the Exchange about Disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 Disposal of shares
+Updates - DPSC Limited has informed the Exchange regarding 'CIRP Disclosures on the Q1FY27 Financial Results and the Business Transfer Agreement (BTA) between India Power Corporation Limited and IPCL Power Limited'.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KAPSTON_03112026160034_Kapston_Reg__29__2___Srikanth_Kodali.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/DPSCLTD_04112026164526_CIRP-DisclosuresontheQ1FY27_04112026.pdf)
 
 ---
 
-### Ceigall India Limited: Acquisition
+### DPSC Limited: Corporate Insolvency Resolution Process
 **MA** · India · ✓ Verified
 
-Acquisition - Ceigall India Limited has informed the Exchange about Acquisition
+Corporate Insolvency Resolution Process - DPSC Limited has informed the Exchange about Corporate Insolvency Resolution Process-CIRP Disclosures on the Q1FY27 Financial Results and the Business Transfer Agreement (BTA) between India Power…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ceigall_03112026145936_Mgmt_Committee_Outcome.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/DPSCLTD_04112026164018_CIRP-DisclosuresontheQ1FY27_04112026.pdf)
 
 ---
 
-### Share India Securities Limited: General Updates
+### FSN E-Commerce Ventures Limited: Press Release
 **MA** · India · ✓ Verified
 
-General Updates - We are pleased to inform you that pursuant to the filing of e-form INC 28 with the Registrar of Companies, the Scheme of Amalgamation of Silverleaf Capital Services Private Limited with Share India Securities Limited has…
+Press Release - FSN E Commerce Ventures Limited has informed the Exchange regarding a press release dated November 04, 2026, titled ""Unaudited Standalone and Consolidated Financial Results for the quarter and half year endedSeptember 30,…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SISL_03112026133527_Reg30EffectiveDate03112026Signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NYKAA_04112026161502_intimation_Press_release_final.pdf)
 
 ---
 
-### Tata Steel Limited: Amalgamation/Merger
+### Indian Metals & Ferro Alloys Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Amalgamation/Merger - Tata Steel Limited has informed the Exchange about Effective Date of the Scheme of Amalgamation amongst Tata Steel Limited and Rujuvalika Investments Limited, wholly owned subsidiary, and their respective…
+Acquisition - Indian Metals & Ferro Alloys Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NIDHIFADNAVIS_03112026124745_BSENSE.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IMFA_04112026161057_Financial_Result_Q2_Final.pdf)
 
 ---
 
-### Tata Steel Limited: Scheme of Arrangement
+### FSN E-Commerce Ventures Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Scheme of Arrangement - Tata Steel Limited has informed the Exchange about Effective Date of the Scheme of Amalgamation amongst Tata Steel Limited and Rujuvalika Investments Limited, wholly owned subsidiary, and their respective…
+Acquisition - FSN E Commerce Ventures Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NIDHIFADNAVIS_03112026124351_BSENSE.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NYKAA_04112026160435_outcome.pdf)
 
 ---
 
-### Kamdhenu Ventures Limited: Acquisition
+### FSN E-Commerce Ventures Limited: Outcome of Board Meeting
 **MA** · India · ✓ Verified
 
-Acquisition - KAMOPAINTS: Kamdhenu Ventures Limited has informed the Exchange about the submission of the outcome of Investment Committee relating to acquisition of shares of wholly owned subsidiary.
+Outcome of Board Meeting - FSN E Commerce Ventures Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026 and details of acquisition.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/KVENTURES_03112026124420_Intimation.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NYKAA_04112026160123_outcome.pdf)
 
 ---
 
-### Arkade Developers Limited: Press Release
+### Silgo Retail Limited: General Updates
 **MA** · India · ✓ Verified
 
-Press Release - Arkade Developers Limited has informed the Exchange regarding a press release dated November 03, 2026, titled "Acquisition of Woollen & Textile Industries Limited".
+General Updates - Silgo Retail Limited has informed the Exchange about Reports under Regulation 10(7) of the SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ARKADE_03112026121712_Operational_update_-_Copy.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SILGO_04112026153343_Reports_under_reg_10_7__SAST_NSE.pdf)
 
 ---
 
-### Arkade Developers Limited: General Updates
+### IIFL Capital Services Limited: Open Offer
 **MA** · India · ✓ Verified
 
-General Updates - Arkade Developers Limited has informed the Exchange about General Updates regarding acquisition of Woollen and Textile Industries Limited
+Open Offer - "ICICI Securities Limited has submitted a copy of the Letter of Offer from IIFL Capital Services Limited to the Exchange.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ARKADE_03112026121027_Acquistion.pdf)
-
----
-
-### Power Grid Corporation of India Limited: General Updates
-**MA** · ₹, · India · ✓ Verified
-
-General Updates - Power Grid Corporation of India Limited has informed the Exchange about Regional Director, Northern Region Directorate I, Ministry of Corporate Affairs, confirmed the respective schemes of merger of Wholly owned…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/POWERGRID1_03112026120246_BSENSEMerger.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_04112026152355_Dis22.pdf)
 
 ---
 
-### New Delhi Television Limited: General Updates
-**MA** · Delhi-NCR · ✓ Verified
-
-General Updates - New Delhi Television Limited has informed the Exchange about Completion of acquisition of Good Times Channel
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NDTV_03112026115251_Disclosure_Aquisation_of_GoodTimes_Channel.pdf)
-
----
-
-### Magellanic Cloud Limited: Press Release
+### Sundaram Finance Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Press Release - Magellanic Cloud Limited has informed the Exchange regarding a press release dated November 03, 2026, titled "Press Release Magellanic Cloud Announces Readiness of UAV Facility Premises (Counter Drone) Under Joint Venture".
+Acquisition - Sundaram Finance Limited has informed the Exchange regarding the approval granted for acquisition of 100% stake in Sundaram Alternate Assets Limited from Sundaram Asset Management Company Limited
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MCLOUD_03112026091422_Press_Release.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SUNDARMFIN_04112026143500_AcquisitionSD.pdf)
 
 ---
 
-### Magellanic Cloud Limited: General Updates
+### Ndr Auto Components Limited: Agreements
 **MA** · India · ✓ Verified
 
-General Updates - Magellanic Cloud Announces Readiness of UAV Facility Premises (Counter Drone) Under Joint Venture
+Agreements - Ndr Auto Components Limited has informed the Exchange about Joint Venture Agreement
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MCLOUD_03112026090627_Intimation__2_.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NDRAUTO_04112026134950_SE_outcome.pdf)
 
 ---
 
-### Meesho Limited: General Updates
+### JK Paper Limited: Acquisition
 **MA** · India · ✓ Verified
 
-General Updates - Meesho Limited has informed the Exchange under Regulation 30 of SEBI (LODR) Regulations, 2015 - Updates on Acquisition.
+Acquisition - JK Paper Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/MEESHO_03112026072231_MLIntimtionRightissueallotment03Nov2026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/JKPAPER_04112026133248_STX_Intimation.pdf)
 
 ---
 
-### Dhoot Transmission Limited: Monitoring Agency Report
+### Hindustan Media Ventures Limited: Outcome of Board Meeting
+**MA** · India · ✓ Verified
+
+Outcome of Board Meeting - Hindustan Media Ventures Limited has informed the Exchange regarding acquisition
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HMVL_04112026131549_HMVLoutcome.pdf)
+
+---
+
+### Vishnu Prakash R Punglia Limited: Updates
+**MA** · India · ✓ Verified
+
+Updates - Vishnu Prakash R Punglia Limited has informed the Exchange regarding 'Business update regarding MOU for proposed acquisition of N.K. Gupta Builders Private Limited'.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/VPRPL_04112026112533_Intimation.pdf)
+
+---
+
+### Belding India Limited: Amalgamation/Merger
+**MA** · India · ✓ Verified
+
+Amalgamation/Merger - Belding India Limited has informed the Exchange about Amalgamation/Merger
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/BELDING_04112026033929_Abeyance_of_Scheme_Covering_Page.pdf)
+
+---
+
+### NLC India Limited: Updates
+**IPO** · ₹10 · India · ✓ Verified
+
+Updates - NLC India Limited has informed the Exchange regarding 'Offer for Sale (OFS) of up to 10,00,00,000 (Ten Crore) equity shares of face value ofRs.10 each held by the Company in NLC India Renewables Limited (NIRL), WhollyNLC India…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/NLCINDIA_04112026142212_573_BM_-_Outcome_04112026_Signed.pdf)
+
+---
+
+### Ola Electric Mobility Limited: Copy of Newspaper Publication
 **IPO** · India · ✓ Verified
 
-Monitoring Agency Report - Monitoring Agency Report on the utilization of proceeds raised through issuance of equity shares by way of Public Issue of the Company.
+Copy of Newspaper Publication - OLAELEC: Ola Electric Mobility Limited has informed the Exchange about Copy of Newspaper Publication for the matters relating to Rights Issue
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DTL_03112026231833_DTL_MA_Report.pdf)
-
----
-
-### Shanti Gold International Limited: Monitoring Agency Report
-**IPO** · India · ✓ Verified
-
-Monitoring Agency Report - Monitoring Agency Report - Rights Issue
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SHANTIGOLD_03112026204929_Monitoring_Agency_Report_Rights_SGIL.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/OLAELECTRIC_04112026142126_Intimationnewspaperadv04112026.pdf)
 
 ---
 
-### Shanti Gold International Limited: Monitoring Agency Report
+### IGL Spirits Limited: Press Release
 **IPO** · India · ✓ Verified
 
-Monitoring Agency Report - Monitoring Agency Report - IPO
+Press Release - IGL Spirits Limited has informed the Exchange regarding a press release dated November 04, 2026, titled "Listing of Equity Shares".
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SHANTIGOLD_03112026204818_Monitoring_Agency_Report_IPO_SGIL.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/IGLSPIRITS_04112026141611_FINAL_PR_listing.pdf)
 
 ---
 
-### Jyoti Structures Limited: Monitoring Agency Report
+### Krishival Foods Limited: General Updates
 **IPO** · India · ✓ Verified
 
-Monitoring Agency Report - We are enclosing herewith the Monitoring Agency Report, received from Monitoring Agency Care ratings limited dated November 03, 2026 for the quarter ended September 30, 2026 with respect to the utilization of…
+General Updates - Krishival Foods Limited has informed the Exchange about Intimation regarding Listing of Equity Shares pursuant to Rights Issue
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/JYOTISTRUC_03112026203801_Monitoring_Agency_Report_.pdf)
-
----
-
-### Dev Accelerator Limited: Monitoring Agency Report
-**IPO** · India · ✓ Verified
-
-Monitoring Agency Report - Monitoring Agency Report in respect of utilization of proceeds through issuance of equity shares by way of Initial Public Offer of the Company for the quarter ended September 30, 2026
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DEVACCE_03112026193822_SE_Monitoring_Agency_Report.pdf)
-
----
-
-### Sri Lotus Developers and Realty Limited: Offer for sale
-**IPO** · India · ✓ Verified
-
-Offer for sale - Anand Kamalnayan Pandit has informed the Exchange about his intention to exercise over-subscription option for 27,04,182 equity shares.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/phonrao_03112026165433_LotusOFS_OversubscriptionIntimation.pdf)
-
----
-
-### Aurum PropTech Limited: Monitoring Agency Report
-**IPO** · India · ✓ Verified
-
-Monitoring Agency Report - Monitoring Agency Report for the quarter ended September 30, 2026, in relation to the Rights Issue of the Company.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AURUM_03112026165037_MonitoringAgencyReportDisclosureQ2FY27.pdf)
-
----
-
-### Neogen Chemicals Limited: General Updates
-**IPO** · India · ✓ Verified
-
-General Updates - Neogen Chemicals Limited has informed the Exchange about General Updates- Monitoring Agency Report issued by CRISIL Ratings Limited appointed to monitor the utilization of the proceeds raised through QIP for the quarter…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NEOGEN_03112026161616_MAQ2FY27.pdf)
-
----
-
-### Neogen Chemicals Limited: Monitoring Agency Report
-**IPO** · India · ✓ Verified
-
-Monitoring Agency Report - Monitoring Agency Report issued by CRISIL Ratings Limited appointed to monitor the utilization of the proceeds raised through QIP for the quarter ended September 30, 2026
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/NEOGEN_03112026161427_MAQ2FY27.pdf)
-
----
-
-### Diamond Power Infrastructure Limited: Updates
-**IPO** · India · ✓ Verified
-
-Updates - Diamond Power Infrastructure Limited has informed the Exchange regarding 'No Deviation statement on QIP Proceeds '.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/DIACABS_03112026135223_Statementofdeviation_signed.pdf)
-
----
-
-### Steamhouse India Limited: Monitoring Agency Report
-**IPO** · India · ✓ Verified
-
-Monitoring Agency Report - Pursuant to Regulation 32(6) of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, read with Regulation 41(4) of the Securities and Exchange Board of…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CAVAIBHAVGATTANI_03112026110659_Monitoring_Agency_Report.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/EMPYREAN_04112026120846_Krishival_Foods_-_Rights_Issue_Intimation.pdf)
 
 ---
 

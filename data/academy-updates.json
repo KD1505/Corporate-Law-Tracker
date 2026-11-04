@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-11-03T22:43:08.245Z",
+  "generatedAt": "2026-11-04T22:54:49.723Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-11-04-0-nse-nh-04-nov-2026223023",
+      "sourceId": "nse-nh-04-nov-2026223023",
+      "date": "4 Nov 2026",
+      "category": "Companies Act",
+      "headline": "Narayana Hrudayalaya Ltd.: Demerger",
+      "why": "Demerger - Narayana Hrudayalaya Ltd. has informed the Exchange about Filing of the Orderof the Hon ble National Company Law Tribunal, Bengaluru Bench sanctioning the Scheme ofArrangement between NH Integrated Care Private Limited (WOS) and…",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/Narayana_04112026222839_SE-Order_-NHIC_Demerger.pdf",
+      "sourceName": "NSE filing - Narayana Hrudayalaya Ltd."
+    },
+    {
+      "id": "academy-2026-11-04-1-nse-mayuruniq-04-nov-2026194958",
+      "sourceId": "nse-mayuruniq-04-nov-2026194958",
+      "date": "4 Nov 2026",
+      "category": "Deal Structuring",
+      "headline": "Mayur Uniquoters Ltd: Acquisition",
+      "why": "Acquisition - Mayur Uniquoters Ltd has informed the Exchange about Approval of the Investment upto the amount of Rs. 191.40 lakhs (Rupees One Ninety-One Lakhs and Forty Thousand Only) in one or more tranches by way of subscribing to the…",
+      "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
+      "source": "https://nsearchives.nseindia.com/corporate/MAYURUNIQ_04112026194940_OBMSD04112026.pdf",
+      "sourceName": "NSE filing - Mayur Uniquoters Ltd"
+    },
+    {
+      "id": "academy-2026-11-04-2-nse-iiflcaps-04-nov-2026185139",
+      "sourceId": "nse-iiflcaps-04-nov-2026185139",
+      "date": "4 Nov 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "IIFL Capital Services Limited: Open Offer",
+      "why": "Open Offer - \"ICICI Securities Limited has submitted a copy of the Letter of Offer from IIFL Capital Services Limited to the Exchange",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/team_sandeshc_04112026103543_Dis2.pdf",
+      "sourceName": "NSE filing - IIFL Capital Services Limited"
+    },
     {
       "id": "academy-2026-11-03-0-nse-amber-03-nov-2026191957",
       "sourceId": "nse-amber-03-nov-2026191957",
@@ -408,39 +441,6 @@
       "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
       "source": "https://nsearchives.nseindia.com/corporate/JINDALPHOT_21102026195058_Intimation_of_delisting.pdf",
       "sourceName": "NSE filing - Jindal Photo Limited"
-    },
-    {
-      "id": "academy-2026-10-21-2-nse-goclcorp-21-oct-2026171451",
-      "sourceId": "nse-goclcorp-21-oct-2026171451",
-      "date": "21 Oct 2026",
-      "category": "IBC / Distressed M&A",
-      "headline": "GOCL Corporation Limited: Shareholders meeting",
-      "why": "Shareholders meeting - GOCL Corporation Limited has informed the Exchange regarding Notice of NCLT Convened Meeting of Equity Shareholders to be held on November 24, 2026",
-      "interviewPrompt": "Explain what changes for bidder eligibility, process certainty, liabilities and implementation of the resolution plan.",
-      "source": "https://nsearchives.nseindia.com/corporate/GULFCORP_21102026164809_SEIntimationNCLTShareholdersMeetingSigned.pdf",
-      "sourceName": "NSE filing - GOCL Corporation Limited"
-    },
-    {
-      "id": "academy-2026-10-20-0-nse-agarwaleye-20-oct-2026185120",
-      "sourceId": "nse-agarwaleye-20-oct-2026185120",
-      "date": "20 Oct 2026",
-      "category": "Companies Act",
-      "headline": "Dr. Agarwal's Health Care Limited: Outcome of Board Meeting",
-      "why": "Outcome of Board Meeting - Material Update on the Scheme of Amalgamation between Dr. Agarwal's Eye Hospital Limited and Dr.",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/DRAGARWALS_20102026184801_AHCL_Board_Outcome_20102026_sd.pdf",
-      "sourceName": "NSE filing - Dr. Agarwal's Health Care Limited"
-    },
-    {
-      "id": "academy-2026-10-20-1-nse-agarwaleye-20-oct-2026191149",
-      "sourceId": "nse-agarwaleye-20-oct-2026191149",
-      "date": "20 Oct 2026",
-      "category": "Companies Act",
-      "headline": "Dr. Agarwal's Health Care Limited: Record Date",
-      "why": "Record Date - Dr. Agarwal's Health Care Limited has informed the Exchange that Record date for the purpose of Scheme of Amalgamation with Dr.",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/DRAGARWALS_20102026191018_AHCL_Board_Outcome_20102026_sd.pdf",
-      "sourceName": "NSE filing - Dr. Agarwal's Health Care Limited"
     }
   ]
 }
