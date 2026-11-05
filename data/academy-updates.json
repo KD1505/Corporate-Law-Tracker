@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-11-04T22:54:49.723Z",
+  "generatedAt": "2026-11-05T22:54:21.758Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-11-05-0-nse-secmark-05-nov-2026223246",
+      "sourceId": "nse-secmark-05-nov-2026223246",
+      "date": "5 Nov 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "SecMark Consultancy Limited: Acquisition",
+      "why": "Acquisition - Pursuant to Regulation 30 of SEBI (LODR) Regulations, 2015, we wish to inform you that the Board of Directors of the Company on November 05, 2026, has inter alia, approved the incorporation of the proposed Wholly Owned…",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/SECMARK_05112026223211_20261105_SCL_Reg_30_MSE.pdf",
+      "sourceName": "NSE filing - SecMark Consultancy Limited"
+    },
+    {
+      "id": "academy-2026-11-05-1-nse-gtecjainx-05-nov-2026195703",
+      "sourceId": "nse-gtecjainx-05-nov-2026195703",
+      "date": "5 Nov 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "G-TEC JAINX EDUCATION LIMITED: Open Offer",
+      "why": "Open Offer - G-TEC JAINX EDUCATION LIMITED has submitted a copy of the Letter of Offer from pursuant to Regulations 3(1) and 3(3) read with applicable provisions of the SEBI (Substantial Acquisition of Shares and Takeovers) Regulations,…",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/team_sandeshc_05112026191805_Dis.zip",
+      "sourceName": "NSE filing - G-TEC JAINX EDUCATION LIMITED"
+    },
+    {
+      "id": "academy-2026-11-05-2-nse-kusumgar-05-nov-2026195123",
+      "sourceId": "nse-kusumgar-05-nov-2026195123",
+      "date": "5 Nov 2026",
+      "category": "FEMA / FDI",
+      "headline": "Kusumgar Limited: Outcome of Board Meeting",
+      "why": "Outcome of Board Meeting - Kusumgar Limited has informed the Exchange regarding approval of execution of non-binding term sheet for proposed Joint Venture",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/KUSUMGAR_05112026195102_BM_Outcome_KL.pdf",
+      "sourceName": "NSE filing - Kusumgar Limited"
+    },
     {
       "id": "academy-2026-11-04-0-nse-nh-04-nov-2026223023",
       "sourceId": "nse-nh-04-nov-2026223023",
@@ -408,39 +441,6 @@
       "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
       "source": "https://nsearchives.nseindia.com/corporate/UGROCAP_22102026172445_UGRONCLTOrder.pdf",
       "sourceName": "NSE filing - Ugro Capital Limited"
-    },
-    {
-      "id": "academy-2026-10-22-2-nse-bbtc-22-oct-2026112312",
-      "sourceId": "nse-bbtc-22-oct-2026112312",
-      "date": "22 Oct 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "The Bombay Burmah Trading Corporation Limited: Disclosure under SEBI Takeover Regulations",
-      "why": "Disclosure under SEBI Takeover Regulations - Nowrosjee Wadia and Sons Limited has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption…",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/team_sandeshc_22102026112143_Disc10.pdf",
-      "sourceName": "NSE filing - The Bombay Burmah Trading Corporation Limited"
-    },
-    {
-      "id": "academy-2026-10-21-0-nse-kajariacer-21-oct-2026123740",
-      "sourceId": "nse-kajariacer-21-oct-2026123740",
-      "date": "21 Oct 2026",
-      "category": "Deal Structuring",
-      "headline": "Kajaria Ceramics Limited: Rumour Verification - Regulation 30(11)",
-      "why": "Rumour Verification - Regulation 30(11) - Clarification on media reports regarding potential acquisition",
-      "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
-      "source": "https://nsearchives.nseindia.com/corporate/KAJARIACER_21102026123120_Clarification.pdf",
-      "sourceName": "NSE filing - Kajaria Ceramics Limited"
-    },
-    {
-      "id": "academy-2026-10-21-1-nse-jindalphot-21-oct-2026195248",
-      "sourceId": "nse-jindalphot-21-oct-2026195248",
-      "date": "21 Oct 2026",
-      "category": "FEMA / FDI",
-      "headline": "Jindal Photo Limited: General Updates",
-      "why": "General Updates - Intimation of receipt of In-principle approval for Voluntary Delisting of Equity Shares of the Company from Bombay Stock Exchange of India Limited (\"BSE\") and National Stock Exchange ( NSE ) in terms of Regulation 30 of…",
-      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
-      "source": "https://nsearchives.nseindia.com/corporate/JINDALPHOT_21102026195058_Intimation_of_delisting.pdf",
-      "sourceName": "NSE filing - Jindal Photo Limited"
     }
   ]
 }
