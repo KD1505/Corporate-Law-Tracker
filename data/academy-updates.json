@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-11-05T22:54:21.758Z",
+  "generatedAt": "2026-11-06T22:28:47.343Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-11-06-0-nse-pakka-06-nov-2026225846",
+      "sourceId": "nse-pakka-06-nov-2026225846",
+      "date": "6 Nov 2026",
+      "category": "Companies Act",
+      "headline": "PAKKA LIMITED: Disclosure of material issue",
+      "why": "Disclosure of material issue - PAKKA LIMITED has informed regarding Sanction of the Scheme of Amalgamation of Pakka Impact Limited with Pakka Limited by the Hon ble National Company Law Tribunal, Allahabad Bench, Prayagraj",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/yashpakka_06112026225835_Disclosure_under_Regulation_30_SEBI_LODR.pdf",
+      "sourceName": "NSE filing - PAKKA LIMITED"
+    },
+    {
+      "id": "academy-2026-11-06-1-nse-asterdm-06-nov-2026193146",
+      "sourceId": "nse-asterdm-06-nov-2026193146",
+      "date": "6 Nov 2026",
+      "category": "Deal Structuring",
+      "headline": "Aster DM Quality Care Limited: Acquisition",
+      "why": "Acquisition - Aster DM Quality Care Limited has informed the Exchange about Board's approval for conversion of a pre-existing loan extended by the Company to Sri Sainatha Multispeciality Hospitals Private Limited ( Sri Saintha ), a wholly…",
+      "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
+      "source": "https://nsearchives.nseindia.com/corporate/ASTERDM2_06112026193116_Outcomesigned.pdf",
+      "sourceName": "NSE filing - Aster DM Quality Care Limited"
+    },
+    {
+      "id": "academy-2026-11-06-2-nse-aequs-06-nov-2026184106",
+      "sourceId": "nse-aequs-06-nov-2026184106",
+      "date": "6 Nov 2026",
+      "category": "FEMA / FDI",
+      "headline": "Aequs Limited: Amalgamation/Merger",
+      "why": "Amalgamation/Merger - Aequs Limited has informed the Exchange about sanction of Scheme of Amalgamation between Aequs Limited (\"Transferee Company) and AeroStructures Manufacturing India Private Limited, Aequs Engineered Plastics Private…",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/AEQUSLIMITED_06112026184033_SE_Intimation_Sanction_of_Order.pdf",
+      "sourceName": "NSE filing - Aequs Limited"
+    },
     {
       "id": "academy-2026-11-05-0-nse-secmark-05-nov-2026223246",
       "sourceId": "nse-secmark-05-nov-2026223246",
@@ -408,39 +441,6 @@
       "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
       "source": "https://nsearchives.nseindia.com/corporate/team_sandeshc_23102026114203_disc10.pdf",
       "sourceName": "NSE filing - The Bombay Burmah Trading Corporation Limited"
-    },
-    {
-      "id": "academy-2026-10-23-2-nse-naukri-23-oct-2026150758",
-      "sourceId": "nse-naukri-23-oct-2026150758",
-      "date": "23 Oct 2026",
-      "category": "FEMA / FDI",
-      "headline": "Info Edge (India) Limited: Acquisition",
-      "why": "Acquisition - Info Edge (India) Limited has informed the Exchange about Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015.",
-      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
-      "source": "https://nsearchives.nseindia.com/corporate/NAUKRI2_23102026150744_IEIL_BijnisSEIntimation.pdf",
-      "sourceName": "NSE filing - Info Edge (India) Limited"
-    },
-    {
-      "id": "academy-2026-10-22-0-nse-apcotexind-22-oct-2026192637",
-      "sourceId": "nse-apcotexind-22-oct-2026192637",
-      "date": "22 Oct 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "Apcotex Industries Limited: Acquisition",
-      "why": "Acquisition - Apcotex Industries Limited has informed the Exchange about Intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 Execution of Agreement.",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/APCOTEXIND_22102026192612_Intimation_-_Execution_of_agreement_-_signed.pdf",
-      "sourceName": "NSE filing - Apcotex Industries Limited"
-    },
-    {
-      "id": "academy-2026-10-22-1-nse-ugrocap-22-oct-2026172454",
-      "sourceId": "nse-ugrocap-22-oct-2026172454",
-      "date": "22 Oct 2026",
-      "category": "Companies Act",
-      "headline": "Ugro Capital Limited: Amalgamation/Merger",
-      "why": "Amalgamation/Merger - Order of final hearing date schedule for 20th November 2026, under the scheme of amalgamation.",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/UGROCAP_22102026172445_UGRONCLTOrder.pdf",
-      "sourceName": "NSE filing - Ugro Capital Limited"
     }
   ]
 }
