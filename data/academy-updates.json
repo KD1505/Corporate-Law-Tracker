@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-11-06T22:28:47.343Z",
+  "generatedAt": "2026-11-07T21:09:43.385Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-11-07-0-nse-meesho-07-nov-2026173222",
+      "sourceId": "nse-meesho-07-nov-2026173222",
+      "date": "7 Nov 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Meesho Limited: General Updates",
+      "why": "General Updates - Meesho Limited has informed the Exchange under Regulation 30 of SEBI (LODR) Regulations, 2015 - Update on acquisition",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/MEESHO_07112026173212_MLBM_Intimation_under_reg_30_-_KC_acqusition__1_.pdf",
+      "sourceName": "NSE filing - Meesho Limited"
+    },
+    {
+      "id": "academy-2026-11-07-1-nse-kross-07-nov-2026142035",
+      "sourceId": "nse-kross-07-nov-2026142035",
+      "date": "7 Nov 2026",
+      "category": "FEMA / FDI",
+      "headline": "Kross Limited: Updates",
+      "why": "Updates - Kross Limited has informed the Exchange regarding 'Disclosure under Regulation 29 (2) of Securities and Exchange Board of India (Substantial acquisition of Shares and Takeovers) Regulations, 2011'.",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/8910457293_07112026142006_Reg_29_2__06112026.pdf",
+      "sourceName": "NSE filing - Kross Limited"
+    },
+    {
+      "id": "academy-2026-11-07-2-nse-aaron-07-nov-2026120828",
+      "sourceId": "nse-aaron-07-nov-2026120828",
+      "date": "7 Nov 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Aaron Industries Limited: Updates",
+      "why": "Updates - Aaron Industries Limited has informed the Exchange regarding 'Disclosure received under Regulation 29(2) of the SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011'.",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/AARON_07112026120814_Intimation_under_Reg_29_2__of_SAST_AIL.pdf",
+      "sourceName": "NSE filing - Aaron Industries Limited"
+    },
     {
       "id": "academy-2026-11-06-0-nse-pakka-06-nov-2026225846",
       "sourceId": "nse-pakka-06-nov-2026225846",
@@ -408,39 +441,6 @@
       "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
       "source": "https://nsearchives.nseindia.com/corporate/JINDALPHOT_24102026210541_Publication_of_IDC_JPL.pdf",
       "sourceName": "NSE filing - Jindal Photo Limited"
-    },
-    {
-      "id": "academy-2026-10-24-2-nse-aris-24-oct-2026165932",
-      "sourceId": "nse-aris-24-oct-2026165932",
-      "date": "24 Oct 2026",
-      "category": "IBC / Distressed M&A",
-      "headline": "Arisinfra Solutions Limited: Copy of Newspaper Publication",
-      "why": "Copy of Newspaper Publication - Arisinfra Solutions Limited has informed the Exchange about the copy of Newspaper Publication of NCLT Convened Meetings of Equity Shareholders and Secured Creditors to be held on November 25, 2026",
-      "interviewPrompt": "Explain what changes for bidder eligibility, process certainty, liabilities and implementation of the resolution plan.",
-      "source": "https://nsearchives.nseindia.com/corporate/ARISINFRA2024_24102026165908_Advertisment_SE_NCLT_sd.pdf",
-      "sourceName": "NSE filing - Arisinfra Solutions Limited"
-    },
-    {
-      "id": "academy-2026-10-23-0-nse-network18-23-oct-2026215738",
-      "sourceId": "nse-network18-23-oct-2026215738",
-      "date": "23 Oct 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "Network18 Media & Investments Limited: Amalgamation/Merger",
-      "why": "Amalgamation/Merger - Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 Update on the Scheme of Amalgamation of News18 Marathi Private Limited (wholly-owned subsidiary of the…",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/Shambhu_23102026215356_NW18_Sanction_of_Scheme_SE_Intimation.pdf",
-      "sourceName": "NSE filing - Network18 Media & Investments Limited"
-    },
-    {
-      "id": "academy-2026-10-23-1-nse-bbtc-23-oct-2026172556",
-      "sourceId": "nse-bbtc-23-oct-2026172556",
-      "date": "23 Oct 2026",
-      "category": "FEMA / FDI",
-      "headline": "The Bombay Burmah Trading Corporation Limited: Disclosure under SEBI Takeover Regulations",
-      "why": "Disclosure under SEBI Takeover Regulations - Nowrosjee Wadia and Sons Limited has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and…",
-      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
-      "source": "https://nsearchives.nseindia.com/corporate/team_sandeshc_23102026114203_disc10.pdf",
-      "sourceName": "NSE filing - The Bombay Burmah Trading Corporation Limited"
     }
   ]
 }
