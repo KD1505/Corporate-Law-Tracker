@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-11-07T21:09:43.385Z",
+  "generatedAt": "2026-11-08T21:26:11.901Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-11-08-0-nse-aurigrow-08-nov-2026185303",
+      "sourceId": "nse-aurigrow-08-nov-2026185303",
+      "date": "8 Nov 2026",
+      "category": "FEMA / FDI",
+      "headline": "Auri Grow India Limited: Corporate Insolvency Resolution Process",
+      "why": "Corporate Insolvency Resolution Process - Auri Grow India Limited has informed the Exchange about Corporate Insolvency Resolution Process",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/GODHA_08112026185248_2nd_CoC_Outcome_-_Auri_Grow_India_Limited_NSE.pdf",
+      "sourceName": "NSE filing - Auri Grow India Limited"
+    },
+    {
+      "id": "academy-2026-11-08-1-nse-aurigrow-08-nov-2026185041",
+      "sourceId": "nse-aurigrow-08-nov-2026185041",
+      "date": "8 Nov 2026",
+      "category": "FEMA / FDI",
+      "headline": "Auri Grow India Limited: Corporate Insolvency Resolution Process",
+      "why": "Corporate Insolvency Resolution Process - Auri Grow India Limited has informed the Exchange about Corporate Insolvency Resolution Process",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/GODHA_08112026184946_1st_CoC_Outcome_-_Auri_Grow_India_Limited_NSE.pdf",
+      "sourceName": "NSE filing - Auri Grow India Limited"
+    },
     {
       "id": "academy-2026-11-07-0-nse-meesho-07-nov-2026173222",
       "sourceId": "nse-meesho-07-nov-2026173222",
@@ -419,28 +441,6 @@
       "interviewPrompt": "Explain what changes for bidder eligibility, process certainty, liabilities and implementation of the resolution plan.",
       "source": "https://nsearchives.nseindia.com/corporate/SHRENIK_25102026113110_Copy_of_Disclosure_of_the_Third_CoC_Meeting.pdf",
       "sourceName": "NSE filing - Shrenik Limited"
-    },
-    {
-      "id": "academy-2026-10-24-0-nse-ugrocap-24-oct-2026134115",
-      "sourceId": "nse-ugrocap-24-oct-2026134115",
-      "date": "24 Oct 2026",
-      "category": "Companies Act",
-      "headline": "Ugro Capital Limited: Amalgamation/Merger",
-      "why": "Amalgamation/Merger - Intimation regarding publication of Newspaper Advertisement for hearing of the Company Scheme Petition in connection with the Scheme of Amalgamation",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/UGROCAP_24102026134033_UGRONewspaperAdvertisement.pdf",
-      "sourceName": "NSE filing - Ugro Capital Limited"
-    },
-    {
-      "id": "academy-2026-10-24-1-nse-jindalphot-24-oct-2026210812",
-      "sourceId": "nse-jindalphot-24-oct-2026210812",
-      "date": "24 Oct 2026",
-      "category": "FEMA / FDI",
-      "headline": "Jindal Photo Limited: Copy of Newspaper Publication",
-      "why": "Copy of Newspaper Publication - Submission of Recommendations of the Committee of Independent Directors ( IDC ) under Regulation 28 of Securities and Exchange Board of India (Delisting of Equity Shares) Regulations, 2021, as amended ( SEBI…",
-      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
-      "source": "https://nsearchives.nseindia.com/corporate/JINDALPHOT_24102026210541_Publication_of_IDC_JPL.pdf",
-      "sourceName": "NSE filing - Jindal Photo Limited"
     }
   ]
 }
