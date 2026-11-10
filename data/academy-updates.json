@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-11-10T00:56:02.824Z",
+  "generatedAt": "2026-11-10T22:37:02.756Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-11-10-0-nse-jindalphot-10-nov-2026192356",
+      "sourceId": "nse-jindalphot-10-nov-2026192356",
+      "date": "10 Nov 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Jindal Photo Limited: Copy of Newspaper Publication",
+      "why": "Copy of Newspaper Publication - Intimation regarding publication of Post Offer Public Announcement ( Post Offer PA ) announcing the successful completion of the Delisting Offer of equity shares of Jindal Photo Limited from BSE Limited and…",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/JINDALPHOT_10112026192328_Intimation_Publication_of__Post_Offer_Announcement_JPL.pdf",
+      "sourceName": "NSE filing - Jindal Photo Limited"
+    },
     {
       "id": "academy-2026-11-10-0-nse-mgel-09-nov-2026184248",
       "sourceId": "nse-mgel-09-nov-2026184248",
@@ -430,17 +441,6 @@
       "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
       "source": "https://nsearchives.nseindia.com/corporate/MARALOVER_27102026172345_Stxintimationresultsandoutcomeofboardmeeting.pdf",
       "sourceName": "NSE filing - Maral Overseas Limited"
-    },
-    {
-      "id": "academy-2026-10-26-0-nse-motherson-26-oct-2026193355",
-      "sourceId": "nse-motherson-26-oct-2026193355",
-      "date": "26 Oct 2026",
-      "category": "Companies Act",
-      "headline": "Samvardhana Motherson International Limited: Scheme of Arrangement",
-      "why": "Scheme of Arrangement - Samvardhana Motherson International Limited has informed the Exchange about Scheme of Arrangement.",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/MOTHERSON_26102026193347_Approval_of_Scheme.pdf",
-      "sourceName": "NSE filing - Samvardhana Motherson International Limited"
     }
   ]
 }
