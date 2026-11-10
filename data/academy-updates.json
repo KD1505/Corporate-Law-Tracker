@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-11-08T21:26:11.901Z",
+  "generatedAt": "2026-11-10T00:56:02.824Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-11-10-0-nse-mgel-09-nov-2026184248",
+      "sourceId": "nse-mgel-09-nov-2026184248",
+      "date": "9 Nov 2026",
+      "category": "FEMA / FDI",
+      "headline": "Mangalam Global Enterprise Limited: Disclosure under SEBI Takeover Regulations",
+      "why": "Disclosure under SEBI Takeover Regulations - Mangalam Global Enterprise Limited has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and…",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/team_sandeshc_09112026183558_Dis2.pdf",
+      "sourceName": "NSE filing - Mangalam Global Enterprise Limited"
+    },
+    {
+      "id": "academy-2026-11-10-1-nse-starhealth-09-nov-2026183009",
+      "sourceId": "nse-starhealth-09-nov-2026183009",
+      "date": "9 Nov 2026",
+      "category": "Companies Act",
+      "headline": "Star Health and Allied Insurance Company Limited: General Updates",
+      "why": "General Updates - Star Health And Allied Insurance Company Limited has informed the Exchange regarding approval of IRDAI for acquisition of equity shares of Star Health & Allied Insurance Company Limited (Company) by the schemes of HDFC…",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/STARHEALTH_09112026182917_09112026.pdf",
+      "sourceName": "NSE filing - Star Health and Allied Insurance Company Limited"
+    },
+    {
+      "id": "academy-2026-11-10-2-nse-chembondch-09-nov-2026181039",
+      "sourceId": "nse-chembondch-09-nov-2026181039",
+      "date": "9 Nov 2026",
+      "category": "FEMA / FDI",
+      "headline": "Chembond Chemicals Limited: Disclosure under SEBI Takeover Regulations",
+      "why": "Disclosure under SEBI Takeover Regulations - Nirmal V. Shah has Submitted to the Exchange a copy of Disclosure under Regulation 29 (2) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)…",
+      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
+      "source": "https://nsearchives.nseindia.com/corporate/team_bbodade_09112026163402_SAST0811.pdf",
+      "sourceName": "NSE filing - Chembond Chemicals Limited"
+    },
     {
       "id": "academy-2026-11-08-0-nse-aurigrow-08-nov-2026185303",
       "sourceId": "nse-aurigrow-08-nov-2026185303",
@@ -408,39 +441,6 @@
       "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
       "source": "https://nsearchives.nseindia.com/corporate/MOTHERSON_26102026193347_Approval_of_Scheme.pdf",
       "sourceName": "NSE filing - Samvardhana Motherson International Limited"
-    },
-    {
-      "id": "academy-2026-10-26-1-nse-kpigreen-26-oct-2026185850",
-      "sourceId": "nse-kpigreen-26-oct-2026185850",
-      "date": "26 Oct 2026",
-      "category": "Deal Structuring",
-      "headline": "KPI Green Energy Limited: Acquisition",
-      "why": "Acquisition - KPI Green Energy Limited has informed the Exchange about Incorporation of Step-Down subsidiaries. The disclosure is attached herewith",
-      "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
-      "source": "https://nsearchives.nseindia.com/corporate/KPIGLOBAL_26102026185619_43_KPI_Intimation_of_Incorporation_of_Step_Down_Sub_26102026_Signed.pdf",
-      "sourceName": "NSE filing - KPI Green Energy Limited"
-    },
-    {
-      "id": "academy-2026-10-26-2-nse-mankind-26-oct-2026151739",
-      "sourceId": "nse-mankind-26-oct-2026151739",
-      "date": "26 Oct 2026",
-      "category": "Companies Act",
-      "headline": "Mankind Pharma Limited: Scheme of Arrangement",
-      "why": "Scheme of Arrangement - Please find attached outcome of Board Meeting where Board has noted the merger of MCPPL & UAPL",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/MANKIND1_26102026151729_Outcome26102026sd.pdf",
-      "sourceName": "NSE filing - Mankind Pharma Limited"
-    },
-    {
-      "id": "academy-2026-10-25-0-nse-shrenik-25-oct-2026113233",
-      "sourceId": "nse-shrenik-25-oct-2026113233",
-      "date": "25 Oct 2026",
-      "category": "IBC / Distressed M&A",
-      "headline": "Shrenik Limited: Corporate Insolvency Resolution Process",
-      "why": "Corporate Insolvency Resolution Process - Shrenik Limited has informed the Exchange about Prior Intimation of the 3rd (Third) Meeting of the Committee of Creditors (CoC) of Shrenik Limited (In CIRP).",
-      "interviewPrompt": "Explain what changes for bidder eligibility, process certainty, liabilities and implementation of the resolution plan.",
-      "source": "https://nsearchives.nseindia.com/corporate/SHRENIK_25102026113110_Copy_of_Disclosure_of_the_Third_CoC_Meeting.pdf",
-      "sourceName": "NSE filing - Shrenik Limited"
     }
   ]
 }
