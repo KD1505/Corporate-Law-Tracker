@@ -1,203 +1,239 @@
 # Corporate Law Tracker - Daily Brief
-_11 November 2026_
+_12 November 2026_
 
-22 new development(s).
+26 new development(s).
 
-### Adani Enterprises Limited: Acquisition
-**MA** · Cross-border · ✓ Verified
+### Shardul Amarchand Mangaldas, Trilegal act on The Pant Project ₹109 crore Series B fundraise
+**PE** · ₹109 cr · Mumbai · Reported
 
-Acquisition - Adani Enterprises Limited has informed the Exchange about incorporation of Adani Rovuma Chemicals Limited by Adani Global Limited, a wholly owned subsidiary of the Company
+Aanswr Fashion Private Limited, dba The Pant Project, has raised ₹109 crore from a Series B fundraise led by Mirae Asset Venture Opportunity Fund II, with participation from existing investors Sorin Investments, and marquee angels like…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_11112026201423_AELintimationIncorporation11112026.pdf)
-
----
-
-### Bajaj Hindusthan Sugar Limited: Outcome of Board Meeting
-**MA** · Cross-border · ✓ Verified
-
-Outcome of Board Meeting - Bajaj Hindusthan Sugar Limited has informed the Exchange regarding Outcome of Board Meeting held on November 11, 2026 and sale / divestment of the Company's entire (100%) shareholding in Bajaj Hindusthan…
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/BAJAJNEAPS1_11112026133116_SE_Intimation_Outcome_of_Board_Meeting_11112026_with_Annexure_1.pdf)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-the-pant-project-109-crore-series-b-fundraise)
 
 ---
 
-### JSA acts on Two Point O Capital Series A fundraise
-**PE** · $10 mn · India · Reported
-
-Two Point O Capital has raised $10 million from a Series A fundraise led by Transition Venture Capital Fund I, with participation from existing investor Omnivore Agritech & Climate Sustainability Fund 3, among others. JSA Advocates and…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/jsa-acts-on-two-point-o-capital-series-a-fundraise)
-
----
-
-### Abans Financial Services Limited: Acquisition
+### Kundan Minerals and Metals Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - Abans Financial Services Limited has informed the Exchange about acquisition of a company to be incorporated
+Acquisition - Kundan Minerals and Metals Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AHL_11112026215109_Outcome_others_F.pdf)
-
----
-
-### GP Petroleums Limited: Agreements
-**MA** · India · ✓ Verified
-
-Agreements - GP Petroleums Limited has informed the Exchange about the execution of Share Purchase Agreement with Incubit Pipavav Terminal Private Limited (IPTPL) and its selling shareholder for the acquisition of a 22.45% stake in IPTPL.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/GULFPETRO_11112026200642_IntimationSPAAcquisitionofSharesofIPTPLsigned.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/EASTSUGIND_12112026213935_Regulation_30-_Acqusition.pdf)
 
 ---
 
-### Cupid Limited: Acquisition
+### Skyways Air Services Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - Cupid Limited has informed the Exchange about Conversion of up to the total outstanding 56,00,000 Warrants, in one or more tranches, into an equivalent number of Equity Shares of Baazar Style Retail Limited.
+Acquisition - Skyways Air Services Limited has informed the Exchange about allotment of additional 16,96,791 equity shares by Forin Container Line Private Limited, Material Subsidiary
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/CUPID_11112026183831_Outcome_of_BM_held_on_11112026.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SKYWAYS_12112026211408_2124242.pdf)
 
 ---
 
-### EIH Associated Hotels Limited: General Updates
+### Juniper Green Energy Limited: Acquisition
 **MA** · India · ✓ Verified
 
-General Updates - EIH Associated Hotels Limited has informed the Exchange about Acquisition
+Acquisition - Juniper Green Energy Limited has informed the Exchange about Incorporation of Wholly Owned Subsidiaries
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/EIHAHOTELS_11112026183556_EAH_Solar_Power.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/JGEL2025_12112026210930_2026_11_12_JGEL_Reg_30_Incorporation_Infinite_6-Infinite_8-Sigma_15.pdf)
+
+---
+
+### Aeroflex Enterprises Limited: General Updates
+**MA** · India · ✓ Verified
+
+General Updates - Update on Acquisition of Equity Shares of Aerolex Cables Private Limited by Aeroflex Neu Limited, the material subsidiary of the Company
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SATINDUSTRIES_12112026182257_AEL_update_on_Aeroflex_Neu.pdf)
+
+---
+
+### VISA Chrome Limited: Scheme of Arrangement
+**MA** · India · ✓ Verified
+
+Scheme of Arrangement - VISA Chrome Limited has informed the Exchange about Scheme of Arrangement
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/VISASTEEL_12112026180944_Outcome.pdf)
+
+---
+
+### Aeroflex Neu Limited: General Updates
+**MA** · India · ✓ Verified
+
+General Updates - Update on acquisition of Equity Shares of Aerolex Cables Private Limited
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SAHPOLYMERSLIMITEDIPO_12112026180435_ANLcompanyupdate.pdf)
 
 ---
 
 ### IIFL Capital Services Limited: Open Offer
 **MA** · India · ✓ Verified
 
-Open Offer - ICICI Securities Limited has submitted to the Exchange a copy of the Open Offer from IIFL Capital Services Limited.
+Open Offer - ICICI Securities Limited has submitted a copy of the Letter of Offer of IIFL Capital Services Limited to the Exchange.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_11112026175801_Dis1.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_12112026144529_Dis11.pdf)
 
 ---
 
-### IIFL Capital Services Limited: Open Offer
+### Jana Small Finance Bank Limited: Updates
 **MA** · India · ✓ Verified
 
-Open Offer - ICICI Securities Limited has submitted a copy of the Letter of Offer from IIFL Capital Services Limited to the Exchange.
+Updates - Jana Small Finance Bank Limited has informed the Exchange regarding - 'Pursuant to Regulation 30 and 51 of the SEBI LODR Regulations, 2015, as amended, we hereby inform you that M/s. Jana Small Finance Bank Ltd..
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_11112026180807_Dis2.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/amrita_singh_jana_bank_in_12112026150101_JHL_JCL_Amalgamation_Signed.pdf)
 
 ---
 
-### Alivus Life Sciences Limited: General Updates
+### Maithan Alloys Limited: Others
 **MA** · India · ✓ Verified
 
-General Updates - Alivus Life Sciences Limited has informed the Exchange about update on acquisition
+Others - Maithan Alloys Limited has informed the Exchange about Acquisition of Equity Shares through Stock Exchange.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/GLS_11112026183004_BSE_NSE_Closing_Signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/MAITHANALL_12112026150157_ESDS12112026.pdf)
 
 ---
 
-### IIFL Capital Services Limited: Open Offer
+### Bosch Limited: General Updates
 **MA** · India · ✓ Verified
 
-Open Offer - ICICI Securities Limited has submitted a copy of the Letter of Offer from IIFL Capital Services Limited to the Exchange.
+General Updates - Bosch Limited has informed the Exchange about Incorporation of JV
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_bbodade_11112026181147_Dis3.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/BOSCHLTD2024_12112026142023_Letter2SE12112026.pdf)
 
 ---
 
-### Jeena Sikho Lifecare Limited: Acquisition
+### The Phoenix Mills Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Acquisition - Jeena Sikho Lifecare Limited has informed the Exchange about Intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 Incorporation of Subsidiary Company
+Acquisition - The Phoenix Mills Limited has informed the Exchange about Update on Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/JEENASIKHO_11112026173653_Incorporation_Subsidiary_Ayugenomics-_Sign.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/PHOENIXLTD_12112026141654_ISML_capital_reduction_update.pdf)
 
 ---
 
-### Awfis Space Solutions Limited: Updates
+### eClerx Services Limited: Press Release
 **MA** · India · ✓ Verified
 
-Updates - Awfis Space Solutions Limited has informed the Exchange regarding 'Voluntary intimation regarding acquisition of equity shares by members of Promoter/Promoter Group'.
+Press Release - eClerx Services Limited has informed the Exchange regarding a press release dated November 12, 2026, titled "eClerx announces acquisition of RegEdge".
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AWFIS2014_11112026163729_intimation_Purchase_Signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ECLERX_12112026130801_BSENSERegedge12112026_-_Press_release.pdf)
 
 ---
 
-### NCL Industries Limited: Disclosure under SEBI Takeover Regulations
+### eClerx Services Limited: Acquisition
 **MA** · India · ✓ Verified
 
-Disclosure under SEBI Takeover Regulations - NCL Industries Limited has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption provided…
+Acquisition - eClerx Services Limited has informed the Exchange about Acquisition
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/team_sandeshc_28102026171152_SASp11.pdf)
-
----
-
-### Worth Peripherals Limited: General Updates
-**MA** · India · ✓ Verified
-
-General Updates - Worth Peripherals Limited has informed the Exchange about General Updates for Acquisition of the Company Shares.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/WORTH_11112026115358_General_Intimation_Jayvir_Sir_and_Ganiv_Mam_Share_Acq_Signed.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ECLERX_12112026104405_BSENSERegedge12112026.pdf)
 
 ---
 
-### Aegis Logistics Limited: Qualified Institutional Placement
+### Ola Electric Mobility Limited: Updates
 **IPO** · India · ✓ Verified
 
-Qualified Institutional Placement - Aegis Logistics Limited has informed the Exchange about the outcome of fund raising committee meeting in relation to QIP opening.
+Updates - Ola Electric Mobility Limited has informed the Exchange regarding 'Submission of monitoring agency report for the quarter ended September 30, 2026, in relation to the Initial Public Offer (IPO) and Qualified Institutional…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AEGISCHEM_11112026213825_SE_Intimation_Approval_of_Floor_PricePPD_S.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/OLAELECTRIC_12112026224128_SEintimationmonitoringagencyreport.pdf)
 
 ---
 
-### Bajaj Finance Limited: General Updates
+### Ola Electric Mobility Limited: General Updates
 **IPO** · India · ✓ Verified
 
-General Updates - Bajaj Finance Limited has informed the Exchange about outcome of QIP 2026 - Special Committee meeting
+General Updates - Submission of monitoring agency report for the quarter ended September 30, 2026, in relation to the Initial Public Offer (IPO) and Qualified Institutional Placement (QIP)
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/BAJFINANCE_11112026171309_SEintimationopeningofissue.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/OLAELECTRIC_12112026223916_SEintimationmonitoringagencyreport.pdf)
 
 ---
 
-### Suvidhaa Infoserve Limited: Updates
+### Sunshine Pictures Limited: Monitoring Agency Report
 **IPO** · India · ✓ Verified
 
-Updates - Suvidhaa Infoserve Limited has informed the Exchange regarding 'Letter of Offer, Entitlement Letter along with the Application Form for Rights Issue.'.
+Monitoring Agency Report - Pursuant to Regulations 30 and 33 read with Schedule Ill of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 ("SEBI Listing Regulations"), we wish to inform you that the Board of…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SUVIDHAA_11112026160507_Coveringandallannexuresmerged.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/SUNSHINE_12112026205444_OutcomeofBMMonitoringAgencyReport.pdf)
 
 ---
 
-### SKIL Infrastructure Limited: Corporate Insolvency Resolution Process
+### Turtlemint Fintech Solutions Limited: Monitoring Agency Report
+**IPO** · India · ✓ Verified
+
+Monitoring Agency Report - Monitoring Agency Report of Turtlemint Fintech Solutions Limited for the quarter ended September 30, 2026, on the utlization of proceeds raised through issuance of equity shares by way of public issue of the…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/TURTLEMINT_12112026184731_Intimation_to_stock_exchange_Monitoring_Agency_Report.pdf)
+
+---
+
+### Hitachi Energy India Limited: Monitoring Agency Report
+**IPO** · India · ✓ Verified
+
+Monitoring Agency Report - Pursuant to Regulation 32(6) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 read with Regulation 173A of the SEBI (Issue of Capital and Disclosure Requirements) Regulations, 2018,…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/HitachiEnergy_12112026182131_MAReport.pdf)
+
+---
+
+### Ratnaveer Precision Engineering Limited: Monitoring Agency Report
+**IPO** · India · ✓ Verified
+
+Monitoring Agency Report - Monitoring Agency Report for the Quarter ended on 30th September, 2026 in respect of utilization of proceeds of the Qualified Institutional Placement of the Company.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/RATNAVEER_12112026181907_MA_Report_signed.pdf)
+
+---
+
+### Praxis Home Retail Limited: Committee Meeting Updates
+**IPO** · India · ✓ Verified
+
+Committee Meeting Updates - Praxis Home Retail Limited has informed the Exchange regarding outcome of the Committee of Directors Meeting held on November 12, 2026, pertaining to the approval of the terms of the Rights Issue, including the…
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/PRAXIS_12112026174215_PHRL_-_SE_Outcome__2nd_meeting_.pdf)
+
+---
+
+### Waaree Energies Limited: Monitoring Agency Report
+**IPO** · India · ✓ Verified
+
+Monitoring Agency Report - Monitoring Agency Report on the utilisation of the proceeds raised through issuance of Equity Shares by way of Public Issue for the quarter ended September 30, 2026.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/WAAREE_12112026173329_MonitoringAgencyReport_signed.pdf)
+
+---
+
+### Quadrant Future Tek Limited: Monitoring Agency Report
+**IPO** · India · ✓ Verified
+
+Monitoring Agency Report - Monitoring Agency Report for the Quarter ended September 30, 2026 in respect to the utilization of funds raised through Initial Public Offer (IPO) of the Company.
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/QUADRANT_12112026110323_MonitoringAgencyReport.pdf)
+
+---
+
+### Bharat Forge Limited: Updates
 **IBC** · India · ✓ Verified
 
-Corporate Insolvency Resolution Process - SKIL Infrastructure Limited has informed the Exchange regarding the Outcome of the Fifteenth (15th) Committee of Creditors meeting held on Wednesday, November 11, 2026
+Updates - Bharat Forge Limited has informed the Exchange regarding 'Approval of Resolution Plan for Tork Motors Private Limited'.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/Skilinfra_11112026185000_SKIL_Letter_Outcome_15th_COC.pdf)
-
----
-
-### Supreme Engineering Limited: One time settlement
-**IBC** · India · ✓ Verified
-
-One time settlement - Supreme Engineering Limited has informed the Exchange regarding the payment of the One-Time Settlement (OTS) amount to Bank of India.
-
-[Open source ↗](https://nsearchives.nseindia.com/corporate/SUPREMEENG_11112026183932_Announcements_OTS-Supreme.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/ANILSHINDE_12112026181908_SEIntimationTorkMotors.pdf)
 
 ---
 
-### King Stubb & Kasiva advises Prestige Group on ₹524 crore acquisition of Allure Developers
-**MA** · ₹524 cr · Delhi-NCR · Reported
+### Saraf and Partners advises IvyCap Ventures on Live2.ai $13 million pre-Series B fundraise
+**PE** · $13 mn · India · Reported
 
-Prestige Estates Projects Limited has acquired 100% of the equity share capital of Allure Developers Private Limited for a consideration of approximately ₹524 crore. King Stubb & Kasiva advised Prestige Group on this acquisition.
+Woovly India Private Limited, dba Live2.ai, has raised $13 million from a pre-Series B fundraise led by IvyCap Ventures. Saraf and Partners advised lead investor IvyCap Ventures on this fundraise.
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/king-stubb-kasiva-advises-prestige-group-on-524-crore-acquisition-of-allure-developers)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/saraf-and-partners-advises-ivycap-ventures-on-live2ai-13-million-pre-series-b-fundraise)
 
 ---
 
-### CMS INDUSLAW advises Focus Prime on securing ₹145 crore investment; acquiring Foodexo Chennai
-**PE** · ₹145 cr · India · Reported
+### Pinac advises TagMango on joint venture with ClickFunnels to launch Backstage Pass
+**PE** · India · Reported
 
-Focus Prism Private Limited has secured a ₹145 crore investment from OAKS Asset Management, and has simultaneously acquired Foodexo Chennai Private Limited. CMS INDUSLAW advised Focus Prism and its promoter on both the transactions.
+TagMango and ClickFunnels have jointly launched Backstage Pass, a creator platform that brings together live streaming, AI-powered content tools and monetisation features. Pinac advised and assisted TagMango on the transaction.
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cms-induslaw-advises-focus-prime-on-securing-145-crore-investment-acquiring-foodexo-chennai)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/pinac-advises-tagmango-on-joint-venture-with-clickfunnels-to-launch-backstage-pass)
 
 ---
 

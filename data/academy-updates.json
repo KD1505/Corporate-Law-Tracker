@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-11-11T23:47:48.175Z",
+  "generatedAt": "2026-11-12T22:56:27.687Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-11-12-0-nse-visachrome-12-nov-2026181001",
+      "sourceId": "nse-visachrome-12-nov-2026181001",
+      "date": "12 Nov 2026",
+      "category": "Companies Act",
+      "headline": "VISA Chrome Limited: Scheme of Arrangement",
+      "why": "Scheme of Arrangement - VISA Chrome Limited has informed the Exchange about Scheme of Arrangement",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/VISASTEEL_12112026180944_Outcome.pdf",
+      "sourceName": "NSE filing - VISA Chrome Limited"
+    },
+    {
+      "id": "academy-2026-11-12-1-nse-iiflcaps-12-nov-2026154826",
+      "sourceId": "nse-iiflcaps-12-nov-2026154826",
+      "date": "12 Nov 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "IIFL Capital Services Limited: Open Offer",
+      "why": "Open Offer - ICICI Securities Limited has submitted a copy of the Letter of Offer of IIFL Capital Services Limited to the Exchange.",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/team_bbodade_12112026144529_Dis11.pdf",
+      "sourceName": "NSE filing - IIFL Capital Services Limited"
+    },
+    {
+      "id": "academy-2026-11-12-2-nse-praxis-12-nov-2026174402",
+      "sourceId": "nse-praxis-12-nov-2026174402",
+      "date": "12 Nov 2026",
+      "category": "Deal Structuring",
+      "headline": "Praxis Home Retail Limited: Committee Meeting Updates",
+      "why": "Committee Meeting Updates - Praxis Home Retail Limited has informed the Exchange regarding outcome of the Committee of Directors Meeting held on November 12, 2026, pertaining to the approval of the terms of the Rights Issue, including the…",
+      "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
+      "source": "https://nsearchives.nseindia.com/corporate/PRAXIS_12112026174215_PHRL_-_SE_Outcome__2nd_meeting_.pdf",
+      "sourceName": "NSE filing - Praxis Home Retail Limited"
+    },
     {
       "id": "academy-2026-11-11-0-nse-iiflcaps-11-nov-2026183341",
       "sourceId": "nse-iiflcaps-11-nov-2026183341",
@@ -408,39 +441,6 @@
       "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
       "source": "https://nsearchives.nseindia.com/corporate/EMMBI_29102026172052_BritpacAB_Fortapac_AnnouncementSigned.pdf",
       "sourceName": "NSE filing - Emmbi Industries Limited"
-    },
-    {
-      "id": "academy-2026-10-28-0-nse-eclerx-28-oct-2026194625",
-      "sourceId": "nse-eclerx-28-oct-2026194625",
-      "date": "28 Oct 2026",
-      "category": "Companies Act",
-      "headline": "eClerx Services Limited: Scheme of Arrangement",
-      "why": "Scheme of Arrangement - eClerx Services Limited has informed the Exchange about Acquisition of equity shareholding in Personiv Eclipse Inc., USA, step down subsidiary of the Company",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/ECLERX_28102026194530_BSENSEacquisition28102026.pdf",
-      "sourceName": "NSE filing - eClerx Services Limited"
-    },
-    {
-      "id": "academy-2026-10-28-1-nse-tvsmotor-28-oct-2026194415",
-      "sourceId": "nse-tvsmotor-28-oct-2026194415",
-      "date": "28 Oct 2026",
-      "category": "Companies Act",
-      "headline": "TVS Motor Company Limited: Press Release",
-      "why": "Press Release - TVS Motor Company Limited has informed the Exchange regarding a press release dated October 28, 2026, titled \"Press release on the Composite Scheme of Arrangement \".",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/TVSMOTOR_28102026194328_TVSM_PRESSRELEASESD.pdf",
-      "sourceName": "NSE filing - TVS Motor Company Limited"
-    },
-    {
-      "id": "academy-2026-10-28-2-nse-honasa-28-oct-2026182205",
-      "sourceId": "nse-honasa-28-oct-2026182205",
-      "date": "28 Oct 2026",
-      "category": "Companies Act",
-      "headline": "Honasa Consumer Limited: Updates",
-      "why": "Updates - Intimation regarding proposed Scheme of Amalgamation between wholly owned subsidiaryand step-down wholly owned subsidiary of Honasa Consumer Limited",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/HONASA16_28102026181943_UpdateonMergerofBBluntandSpratts.pdf",
-      "sourceName": "NSE filing - Honasa Consumer Limited"
     }
   ]
 }
