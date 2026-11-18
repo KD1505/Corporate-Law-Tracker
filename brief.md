@@ -1,50 +1,59 @@
 # Corporate Law Tracker - Daily Brief
-_17 November 2026_
+_18 November 2026_
 
-5 new development(s).
+6 new development(s).
 
-### Trilegal advises Bodhi Tree Systems on $180 million majority stake acquisition in Adyar Anand Bhavan
-**MA** · $180 mn · India · Reported
+### 🔴 JSA advises Jindal Power on $1 billion financing for power project in Botswana
+**BANK** · $1 bn · Cross-border · Reported
 
-Bodhi Tree Systems has made an investment of $180 million to acquire a majority stake in Adyar Ananda Bhavan Sweets India Private Limited (A2B), one of the leading QSR chains in southern India. Trilegal advised Bodhi Tree Systems on all…
+Jindal Energy (Botswana) Proprietary Limited, part of the Jindal Power group, has availed $1 billion financing from a consortium of lenders comprising Axis Bank Limited, ICICI Bank Limited, and Export-Import Bank of India, for the…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-bodhi-tree-systems-on-180-million-majority-stake-acquisition-in-adyar-anand-bhavan)
-
----
-
-### Dentons Link Legal, Luthra act on Iris Global ₹200 crore+ proposed IPO
-**IPO** · ₹200 cr · Cross-border · Reported
-
-Iris Global Services Limited has filed its draft red herring prospectus with SEBI and the Stock Exchanges with relation to an initial public offering comprising a fresh issue of equity shares aggregating up to ₹200 crore and an offer for…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/dentons-link-legal-luthra-act-on-iris-global-200-crore-proposed-ipo)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/jsa-advises-jindal-power-on-1-billion-financing-for-power-project-in-botswana)
 
 ---
 
-### Verist Law advises KrazyBee on ₹500 crore NCD issuance
-**BANK** · ₹500 cr · India · Reported
+### 🔴 Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Bajaj Finance ₹11,700 crore QIP
+**IPO** · ₹11,700 cr · India · Reported
 
-KrazyBee Services Limited has made a ₹500 crore issuance of 50,000 senior secured listed fully paid-up non-convertible debentures including a green shoe option of up to ₹250 crore. Verist Law advised KrazyBee Services on this NCD issuance.
+Bajaj Finance Limited has made a qualified institutions placement of equity shares aggregating to ₹11,700 crore. Cyril Amarchand Mangaldas advised Bajaj Finance on this QIP, as well as on the preferential issuance of fully convertible…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/verist-law-advises-krazybee-on-500-crore-ncd-issuance)
-
----
-
-### Kanga & Co advises Anand Rathi Towers on ₹145 crore land acquisition in Worli, Mumbai
-**MA** · ₹145 cr · Mumbai · Reported
-
-Anand Rathi Towers Limited has acquired a land parcel admeasuring approximately 37,800 sq. ft.
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/kanga-co-advises-anand-rathi-towers-on-145-crore-land-acquisition-in-worli-mumbai)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-bajaj-finance-11700-crore-qip)
 
 ---
 
-### Argus Partners advises altM on $10 million Series A fundraise
-**PE** · $10 mn · India · Reported
+### AZB, Hogan Lovells, CAM, Linklaters act on Aegis Logistics ₹3,500 crore QIP
+**IPO** · ₹3,500 cr · India · Reported
 
-Alt Material Innovations Private Limited, dba altM, has raised $10.3 million from a Series A fundraise led by Rainmatter by Zerodha and Mela Ventures, with participation from existing investors Omnivore, Theia Ventures, Aureolis Ventures…
+Aegis Logistics Limited has raised ₹3,500 crore from a Qualified Institutions Placement of 2,89,25,619 equity shares. AZB & Partners and Hogan Lovells Cadwalader acted as the Indian counsel and international counsel for Aegis Logistics on…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/argus-partners-advises-altm-on-10-million-series-a-fundraise)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/azb-hlc-cam-linklaters-act-on-aegis-logistics-3500-crore-qip)
+
+---
+
+### Khaitan & Co advises HarbourFront on RBI engagement on In-Specie distribution by a Category II AIF
+**REG** · India · Reported
+
+Khaitan & Co has advised HarbourFront India Investment Advisory LLP in connection with its engagement with the Reserve Bank of India regarding the proposed in-specie distribution of assets by a Category II AIF, registered with the…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-harbourfront-on-rbi-engagement-on-in-specie-distribution-by-a-category-ii-aif)
+
+---
+
+### Trilegal advises SBI Funds International on launch of Signature CIO Funds from GIFT City
+**MA** · Cross-border · Reported
+
+Trilegal acted as fund counsel to SBI Funds International (IFSC) Limited in connection with the launch of Signature CIO Funds from GIFT City, being open-ended retail schemes, designed to provide investors in India with access to overseas…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-sbi-funds-international-on-launch-of-signature-cio-funds-from-gift-city)
+
+---
+
+### Argus Partners advises MakeMyTrip on acquisition of majority stake in Quick Ride
+**MA** · Bengaluru · Reported
+
+MakeMyTrip India has made a majority stake acquisition in Quick Ride, a Bengaluru-based, technology-led shared mobility platform. The transaction involved an internal restructuring of Quick Ride's business.
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/argus-partners-advises-makemytrip-on-acquisition-of-majority-stake-in-quick-ride)
 
 ---
 
