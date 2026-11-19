@@ -64,7 +64,7 @@ function valueText(text = "") {
 function magnitudeCr(value = "") {
   const v = value.replace(/,/g, "");
   let m = v.match(/₹\s?([\d.]+)\s?(cr|crore|bn|billion|lakh)?/i);
-  if (m) { let n = parseFloat(m[1]); const u = (m[2] || "cr").toLowerCase(); if (/bn|billion/.test(u)) n *= 100000; if (/lakh/.test(u)) n /= 100; return n; }
+  if (m) { let n = parseFloat(m[1]); const u = (m[2] || "cr").toLowerCase(); if (/bn|billion/.test(u)) n *= 100; if (/lakh/.test(u)) n /= 100; return n; }
   m = v.match(/\$\s?([\d.]+)\s?(mn|million|bn|billion)?/i);
   if (m) { let n = parseFloat(m[1]); const u = (m[2] || "mn").toLowerCase(); return n * (/bn|billion/.test(u) ? 8300 : 8.3); }
   return 0;

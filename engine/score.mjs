@@ -28,7 +28,7 @@ function magnitudeCr(value = "") {
   let m = v.match(/₹\s?([\d.]+)\s?(cr|crore|bn|billion|lakh)?/i);
   if (m) {
     let n = parseFloat(m[1]); const u = (m[2] || "cr").toLowerCase();
-    if (/bn|billion/.test(u)) n *= 100000; // ₹1bn = 100 cr
+    if (/bn|billion/.test(u)) n *= 100; // ₹1bn = 100 cr
     if (/lakh/.test(u)) n /= 100;
     return n;
   }

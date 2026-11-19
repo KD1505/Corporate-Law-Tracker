@@ -24,6 +24,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { attachEvidenceDossier } from "./deal-evidence.mjs";
+import { sanitiseDeal, dossierCounts } from "./quality.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // Location-robust: find the repo root by locating data.js, whether this file
@@ -183,10 +184,11 @@ function dealPage(d, all) {
   const firms = dealFirms(d);
   const why = clamp(d.implication, 600);
   const rel = all.filter(x => x.id!==d.id && (x.sector===d.sector || dealFirms(x).some(f=>firms.includes(f)))).slice(0,6);
-  const verified = d.verified ? `<span class="ok">✓ Verified</span>` : `<span class="rep">◔ Reported</span>`;
+  const verified = d.quality?.reviewed ? `<span class="ok">Document-reviewed case study</span>` : d.quality?.directOfficialFiling ? `<span class="ok">Official filing linked · facts not fully audited</span>` : `<span class="rep">Reported source</span>`;
   const canonical = `${SITE}${dealPath(d)}`;
   const body = `
 <h1>${esc(d.headline)}</h1>
+${d.quality?.kind!=="deal"?`<p class="lead"><b>Disclosure archive · not counted as a separate transaction.</b> ${esc(d.quality?.reason||"Requires further research")}</p>`:""}
 <div class="meta"><span class="pill">${esc(TYPE[d.type]||d.type||"Deal")}</span>
 <span class="tag">${esc(d.time||"")}</span>${d.value&&d.value!=="—"?`<span class="tag">· ${esc(d.value)}</span>`:""}
 ${d.stage&&STAGE[d.stage]?`<span class="tag">· ${esc(STAGE[d.stage])}</span>`:""}<span>· ${verified}</span></div>
@@ -209,7 +211,7 @@ ${rel.length?`<h2>Related deals</h2><ul class="links">${rel.map(r=>`<li><a class
   const jsonld = { "@context":"https://schema.org", "@type":"NewsArticle", headline: strip(d.headline),
     datePublished: pdate(d.time).toISOString().slice(0,10), description: clamp(d.sum||d.detail,300), url: canonical,
     isAccessibleForFree:true, publisher:{ "@type":"Organization", name:"CorpLawTracker", url:SITE } };
-  return page({ title:`${strip(d.headline)} | CorpLawTracker`, desc:clamp(d.implication||d.sum||d.detail,300),
+  return page({ noindex:d.quality?.kind!=="deal", title:`${strip(d.headline)} | CorpLawTracker`, desc:clamp(d.implication||d.sum||d.detail,300),
     canonical, jsonld, crumbs:`<a href="/">Home</a> / <a href="/deals.html">Deals</a> / ${esc(clamp(d.headline,60))}`, body });
 }
 
@@ -235,10 +237,15 @@ function firmPage(name, deals, rank, total) {
 
 /* ---- hub pages ---- */
 function dealsIndex(all) {
-  const body = `<h1>All tracked deals</h1><p class="lead">${all.length} corporate transactions and regulatory matters, newest first - each verified against primary filings.</p>
+  const body = `<h1>Corporate transaction intelligence</h1><p class="lead">${all.length} curated-or-source-linked transaction candidates, with precise evidence labels; <a href="/filings.html">routine disclosures and low-information records are in the separate filing archive</a>. Not all facts are independently reviewed.</p>
 <ul class="links">${all.map(d=>`<li><a class="card" href="${dealPath(d)}"><span class="ct">${esc(d.headline)}</span><span class="cs">${esc(TYPE[d.type]||d.type||"")} · ${esc(d.time||"")}${d.value&&d.value!=="—"?" · "+esc(d.value):""}</span></a></li>`).join("")}</ul>`;
-  return page({ title:"All tracked deals | CorpLawTracker", desc:`${all.length} verified Indian corporate deals and mandates, newest first.`,
+  return page({ title:"All tracked deals | CorpLawTracker", desc:`${all.length} source-linked Indian corporate transaction records, evidence-labelled.`,
     canonical:`${SITE}/deals.html`, crumbs:`<a href="/">Home</a> / Deals`, body });
+}
+function filingsIndex(records) {
+ const list=records.slice().sort((a,b)=>pdate(b.time)-pdate(a.time));
+ const body=`<h1>Disclosure archive</h1><p class="lead">${list.length} compliance filings or insufficiently described announcements withheld from the substantive transaction feed. These are not established economic deals; original-source links are retained for research.</p><ul class="links">${list.map(d=>`<li><a class="card" href="${dealPath(d)}"><span class="ct">${esc(d.headline)}</span><span class="cs">${esc(d.time||"")} · ${esc(d.quality.reason)}</span></a></li>`).join("")}</ul>`;
+ return page({title:"Corporate disclosure archive | CorpLawTracker",desc:"Unverified or routine exchange disclosures kept separate from transaction intelligence.",canonical:`${SITE}/filings.html`,crumbs:`<a href="/">Home</a> / Disclosure archive`,body});
 }
 function firmsIndex(firms) {
   const body = `<h1>Law firms</h1><p class="lead">${firms.length} firms named as counsel across tracked Indian corporate transactions, ranked by deal count.</p>
@@ -249,7 +256,7 @@ function firmsIndex(firms) {
 
 /* ---- homepage snapshot (injected into #main) ---- */
 function homeSnapshot(all) {
-  const latest = all.slice(0, HOME_SNAPSHOT);
+  const latest = all.slice().sort((a,b)=>(Number(!!b.quality?.reviewed)*1000+Number(!!b.quality?.directOfficialFiling)*15+(b.score||0))-(Number(!!a.quality?.reviewed)*1000+Number(!!a.quality?.directOfficialFiling)*15+(a.score||0))).slice(0,HOME_SNAPSHOT).sort((a,b)=>pdate(b.time)-pdate(a.time));
   // NOTE: homepage snapshot links use the SPA hash route, which ALWAYS resolves even if
   // the static /d/ pages haven't been committed yet. Crawlers reach the static deal pages
   // via sitemap.xml and the /deals.html hub instead. This makes index.html safe to deploy
@@ -286,8 +293,8 @@ function govPage(slug,title,desc,body){
 }
 
 function governancePages(all, firms, updated){
-  const verified = all.filter(d=>d.verified).length;
-  const official = all.filter(d=>(d.sources||[]).some(s=>s.official)).length;
+  const verified = all.filter(d=>d.quality?.reviewed).length;
+  const official = all.filter(d=>d.quality?.directOfficialFiling).length;
   const pctv = all.length?Math.round(verified/all.length*100):0;
   const pcto = all.length?Math.round(official/all.length*100):0;
   const dates = all.map(d=>pdate(d.time)).filter(d=>+d>0).sort((a,b)=>a-b);
@@ -296,7 +303,7 @@ function governancePages(all, firms, updated){
   return [
   govPage("about","About CorpLawTracker",
     "Who operates CorpLawTracker, what it tracks, and how it is built.",
-    `<p class="lead">CorpLawTracker is a deal-and-regulatory intelligence service for India's corporate legal market. It tracks corporate transactions and regulatory developments, records which law firms advised whom, and links every item to the primary filing that evidences it.</p>
+    `<p class="lead">CorpLawTracker is an evolving deal-and-regulatory research service for India's corporate legal market. It records publicly reported transactions, counsel where attributed, source documents and the limitations of available evidence.</p>
      <h2>Who operates it</h2><p>CorpLawTracker is operated and edited by <b>${esc(EDITOR)}</b>. Editorial responsibility for verification decisions and corrections rests with the named editor.</p>
      <h2>Who it is for</h2><p>Corporate partners and business-development teams, transactional associates, in-house and compliance counsel, and investors and advisers who need to know who is doing what in the Indian market - and be able to check it.</p>
      <h2>How it is built</h2><p>An automated pipeline ingests Indian corporate-law trade press and regulator feeds nightly, deduplicates against everything already tracked, structures each item (parties, value, counsel, stage), and links it to the statutes engaged. Items are then classified against the verification standard set out in the <a href="/methodology.html">methodology</a>.</p>
@@ -312,14 +319,15 @@ function governancePages(all, firms, updated){
 
   govPage("methodology","Methodology & verification standards",
     "How items reach CorpLawTracker, what each verification label asserts, coverage scope and known gaps.",
-    `<p class="lead">What each label asserts, precisely - and what it does not.</p>
+    `<p class="lead">Our evidence tiers explain source coverage, not a guarantee that every fact has been manually audited.</p>
      <h2>What CorpLawTracker is</h2><p>A decision engine, not a clippings file. Items are machine-collected nightly, verified against primary filings where they exist, and labelled honestly when they don't.</p>
      <h2>Pipeline &amp; cadence</h2><p>An automated pipeline ingests Indian corporate-law trade press and regulator feeds nightly, deduplicates, structures each item, and links it to the statutes engaged. The "last run" date is the date of the last successful pipeline run. There is no intraday updating.</p>
-     <h2>✓ Verified</h2><p>The matter is corroborated by a <b>specific official source</b> - the named company's BSE/NSE filing, a regulator's order or circular, or a court record - or has been editor-confirmed against such a filing. <b>A generic regulator portal is never treated as verification.</b></p>
+     <h2>Document-reviewed case study</h2><p>An editor has independently cross-checked transaction-specific materials and recorded limitations; review is dated. This status never follows merely from a successful URL response.</p>
+     <h2>Official filing linked</h2><p>At least one transaction-specific official filing URL is recorded. This is <b>not</b> a fact-by-fact validation of the summary. Source availability is separately monitored.</p>
      <h2>Reported</h2><p>Sourced to credible trade press but a specific primary filing has not yet been matched. Treat as press-level reliability and open the source before relying on it.</p>
-     <h2>OFFICIAL</h2><p>A source is marked OFFICIAL only when its URL resolves to a government, regulator, exchange or court domain (SEBI, RBI, CCI, IBBI, MCA, BSE/NSE, NCLT, e-Courts, PIB and equivalents).</p>
+     <h2>OFFICIAL filing link</h2><p>The source points to a specific government, exchange, regulator or court disclosure; generic portals are excluded from corroboration. We verify claim-level accuracy separately.</p>
      <h2>Coverage &amp; known gaps</h2>
-     <p>Corpus at last build: <b>${all.length.toLocaleString()}</b> items · <b>${pctv}%</b> verified · <b>${pcto}%</b> carrying an official source · <b>${firms.length}</b> firms with attributed mandates · date range ${esc(range)}.</p>
+     <p>Corpus at last build: <b>${all.length.toLocaleString()}</b> transaction records · <b>${pctv}%</b> document-reviewed · <b>${pcto}%</b> carrying a specific official link · <b>${firms.length}</b> firms with attributed mandates · date range ${esc(range)}.</p>
      <p><b>Known gaps, stated plainly:</b> coverage is drawn from trade press and regulator feeds, so <b>firms that do not publicise mandates are systematically undercounted</b>. Private transactions with no filing obligation and no press release will not appear at all. Counsel attribution reflects what the source states; where a source names only one side, only that side is recorded. Exchange filings are ingested above a materiality threshold, so routine disclosures may be omitted.</p>
      <h2>Editorial responsibility</h2><p>Editor: <b>${esc(EDITOR)}</b>. Errors: <a href="/corrections.html">corrections policy</a>.</p>
      <h2>Limits</h2><p>Research and current-awareness only - <b>not legal advice</b>. Always read the primary filing and the current text of the law before advising.</p>`),
@@ -341,13 +349,14 @@ function governancePages(all, firms, updated){
      <table><caption>Coverage at last build</caption>
      <tbody>
      <tr><th scope="row">Items tracked</th><td>${all.length.toLocaleString()}</td></tr>
-     <tr><th scope="row">Verified against an official source</th><td>${verified.toLocaleString()} (${pctv}%)</td></tr>
-     <tr><th scope="row">Carrying an official source link</th><td>${official.toLocaleString()} (${pcto}%)</td></tr>
+     <tr><th scope="row">Document-reviewed case studies</th><td>${verified.toLocaleString()} (${pctv}%)</td></tr>
+     <tr><th scope="row">Transaction-specific official document link</th><td>${official.toLocaleString()} (${pcto}%)</td></tr>
+     <tr><th scope="row">Routine/low-information disclosures kept outside deal feed</th><td>${filingArchive.length.toLocaleString()}</td></tr>
      <tr><th scope="row">Firms with attributed mandates</th><td>${firms.length}</td></tr>
      <tr><th scope="row">Date range</th><td>${esc(range)}</td></tr>
      <tr><th scope="row">Last successful run</th><td>${esc(updated)}</td></tr>
      </tbody></table>
-     <h2>Sources monitored</h2><p>Indian corporate-law trade press, and the BSE and NSE corporate-announcement feeds. Regulator sources: SEBI, RBI, CCI, IBBI, MCA, NCLT.</p>
+     <h2>Sources monitored</h2><p>Direct automated collection: BSE and NSE corporate disclosures; Bar & Bench trade reporting; and RBI / PIB RSS where available. Other regulator documents may appear through cross-linking and additional research, but <b>SEBI, CCI, IBBI, MCA and NCLT are not claimed as complete direct monitored feeds</b>. Source coverage is partial, and upstream access may fail. See the <a href="/data/source-health.json">source health report</a>.</p>
      <h2>Known gaps</h2>
      <p>These are real and we would rather state them than have you discover them:</p>
      <ul class="links">
@@ -402,8 +411,8 @@ function writeDataIndex(all, firms, updated){
     w: clamp(d.implication, 180) || undefined,       // why it matters
     t: d.type || "", g: d.geo || "", sec: d.sector || "",
     st: d.stage || "", v: d.value || "", d: d.time || "",
-    i: d.imp || "", ver: d.verified ? 1 : 0,
-    off: (d.sources || []).some(x => x.official) ? 1 : 0,
+    i: d.imp || "", ver: d.quality?.reviewed ? 1 : 0, q: d.quality?.reviewStatus||"reported",
+    off: d.quality?.directOfficialFiling ? 1 : 0,
     f: dealFirms(d),                                 // counsel
     sc: d.score || 0,
     fw: (d.framework && d.framework.length) ? d.framework : undefined,
@@ -443,11 +452,19 @@ function writeDataIndex(all, firms, updated){
 
 /* ============================ MAIN ============================ */
 const DATA = loadData();
-const all = (DATA.DEALS||[]).map(attachEvidenceDossier).sort((a,b)=>pdate(b.time)-pdate(a.time));
+const publishedRecords = (DATA.DEALS||[]).map(sanitiseDeal).map(attachEvidenceDossier);
+const filingArchive = publishedRecords.filter(d=>d.quality.kind!=="deal");
+const auditStats = dossierCounts(publishedRecords);
+const all = publishedRecords.filter(d=>d.quality.kind==="deal").sort((a,b)=>pdate(b.time)-pdate(a.time));
+console.log("quality gate: "+JSON.stringify(auditStats));
+fs.mkdirSync(path.join(ROOT,"data"),{recursive:true});
+fs.writeFileSync(path.join(ROOT,"data","filings.json"),JSON.stringify(filingArchive.map(d=>({id:d.id,headline:d.headline,time:d.time,reason:d.quality.reason,source:d.sources[0]?.url||""})))+"\n");
 
 const dossierSummary = {
   generatedAt: new Date().toISOString(),
   totalDeals: all.length,
+  rawRecords:publishedRecords.length,
+  excludedFromDealFeed:filingArchive.length,
   primaryFilingLinked: all.filter(d=>d.evidenceDossier?.specificOfficialDocuments>0).length,
   documentaryCaseStudies: all.filter(d=>d.evidenceDossier?.depth==="Document-intensive case study").length,
   substantiveRecords: all.filter(d=>d.evidenceDossier?.depth==="Substantive source-linked record").length,
@@ -470,12 +487,13 @@ const firms = [...firmMap.entries()].map(([name,deals])=>({name,deals})).filter(
 
 // write deal pages
 const dDir = path.join(ROOT,"d"); fs.mkdirSync(dDir,{recursive:true});
-for (const d of all) fs.writeFileSync(path.join(dDir,`${d.id}.html`), dealPage(d, all));
+for (const d of publishedRecords) fs.writeFileSync(path.join(dDir,`${d.id}.html`), dealPage(d, all));
 // write firm pages
 const fDir = path.join(ROOT,"firm"); fs.mkdirSync(fDir,{recursive:true});
 firms.forEach((f,i)=>fs.writeFileSync(path.join(fDir,`${slug(f.name)}.html`), firmPage(f.name, f.deals, i+1, firms.length)));
 // hubs
 fs.writeFileSync(path.join(ROOT,"deals.html"), dealsIndex(all));
+fs.writeFileSync(path.join(ROOT,"filings.html"), filingsIndex(filingArchive));
 fs.writeFileSync(path.join(ROOT,"firms.html"), firmsIndex(firms));
 // governance pages - operator, editor, corrections, coverage, privacy, terms
 const GOV = governancePages(all, firms, (DATA.UPDATED||"").replace(/^Updated\s+/,""));
@@ -484,7 +502,7 @@ for (const g of GOV) fs.writeFileSync(path.join(ROOT, g.slug + ".html"), g.html)
 
 // sitemap + robots
 const today = new Date().toISOString().slice(0,10);
-const urls = [ `${SITE}/`, `${SITE}/deals.html`, `${SITE}/firms.html`, `${SITE}/academy.html`,
+const urls = [ `${SITE}/`, `${SITE}/deals.html`, `${SITE}/filings.html`, `${SITE}/firms.html`, `${SITE}/academy.html`,
   ...GOV.map(g=>`${SITE}/${g.slug}.html`),
   ...all.map(d=>`${SITE}${dealPath(d)}`), ...firms.filter(f=>f.deals.length>=5).map(f=>`${SITE}${firmPath(f.name)}`) ];
 fs.writeFileSync(path.join(ROOT,"sitemap.xml"),
