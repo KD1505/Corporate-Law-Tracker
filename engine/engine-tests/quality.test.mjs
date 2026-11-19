@@ -38,6 +38,13 @@ test("generic acquisition filing without content goes to research queue",()=>{
   stage:"completed",type:"ma",sources:[],firms:[]};
  assert.equal(sanitiseDeal(d).quality.kind,"needs-research");
 });
+test("non-Indian global deals without Indian primary evidence stay outside India's deal feed",()=>{
+ const foreign={headline:"SpaceX completes $75 billion IPO",detail:"A US aerospace company priced an IPO at $135 and lists on Nasdaq.",geo:"global",type:"ipo",
+ sources:[{name:"Press",url:"https://example.com/spacex"}],firms:[{name:"Gibson, Dunn & Crutcher"}]};
+ assert.equal(recordQuality(foreign).kind,"needs-research");
+ const indian={...foreign,headline:"JSA advises Indian borrower on Botswana financing",firms:[{name:"JSA"}]};
+ assert.equal(recordQuality(indian).kind,"deal");
+});
 test("professional hires and broad generic updates cannot become deal mandates",()=>{
  const move={headline:"Ruchi Diwakar moves from IC RegFin Legal to JSA",
   detail:"Ruchi Diwakar has been appointed as retained partner in Mumbai.",type:"bank",stage:"completed"};

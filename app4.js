@@ -548,7 +548,7 @@ function renderDeal(id){
          ${structHtml}
          ${cltCuratedFacts(d)}
          ${cltEvidencePanel(d)}
-         ${(d.possibleRelatedFilings||[]).length?`<div class="sec"><h4>Possibly related filing notices · research leads</h4><p style="font-size:12px">Grouped by company, disclosure label and timing. These are <b>not</b> confirmed to belong to the same economic transaction.</p>${d.possibleRelatedFilings.map(x=>`<p><a href="#/deal/${encodeURIComponent(x.id)}">${(window.CLT_ESCAPE?window.CLT_ESCAPE(x.headline):x.headline)}</a> · ${(window.CLT_ESCAPE?window.CLT_ESCAPE(x.time):x.time)}</p>`).join("")}</div>`:""}
+         ${(d.possibleRelatedFilings||[]).length?`<div class="sec"><h4>Possibly related filing notices · research leads</h4><p style="font-size:12px">Grouped by company, disclosure label and timing. These are <b>not</b> confirmed to belong to the same economic transaction.</p>${d.possibleRelatedFilings.map(x=>`<p><a href="/d/${encodeURIComponent(x.id)}.html">${(window.CLT_ESCAPE?window.CLT_ESCAPE(x.headline):x.headline)}</a> · ${(window.CLT_ESCAPE?window.CLT_ESCAPE(x.time):x.time)}</p>`).join("")}</div>`:""}
 
          ${trigHtml}
          ${fwHtml}

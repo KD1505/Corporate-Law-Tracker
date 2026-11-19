@@ -107,6 +107,13 @@ const THIN_HEADLINE = /:\s*(?:updates|others|press release|acquisition|general u
 const REG31 = /\bregulation\s*31\s*\(\s*4\s*\)/i;
 export function recordQuality(d) {
  const headline=String(d?.headline||""),body=String(d?.detail||d?.sum||"");
+ // Corporate Law Tracker is India-focused. A global IPO or financing without
+ // Indian counsel, India nexus, or a source from Indian regulators is out of scope.
+ const india=/\b(?:India|Indian|Mumbai|Delhi|Bengaluru|Hyderabad|GIFT City|NSE|BSE|SEBI|RBI|FEMA|CCI|Maharashtra|Gujarat|Rupees|INR)\b|₹/i;
+ const officialIndia=(d.sources||[]).some(x=>/nseindia\.com|bseindia\.com|sebi\.gov\.in|cci\.gov\.in|rbi\.org\.in|mca\.gov\.in/i.test(x.url||""));
+ const indiaFirm=(d.firms||[]).some(x=>/\b(?:Khaitan|Trilegal|Amarchand|JSA|Sagar Associates|AZB|IndusLaw|DSK Legal|S&R Associates|TT&A|Bharucha|Saraf|Quillon|ELP|Economic Laws Practice|Vertices Partners|Dentons Link Legal|Argus Partners)\b/i.test(x.name||""));
+ if(d.geo==="global"&&!india.test([headline,body,d.parties||""].join(" "))&&!officialIndia&&!indiaFirm)
+   return {kind:"needs-research",reason:"Global transaction lacks a documented Indian market, client or legal-adviser connection"};
  const personnel=/\b(?:lateral move|joins? .{2,65} as (?:partner|senior associate|general counsel)|appointed as (?:retained |equity |senior )?partner|elevated to (?:equity |senior )?partner|promoted to partner|moves? from .{3,70} to .{3,70}|hired? .{2,45} as (?:partner|general counsel))\b/i;
  if(personnel.test(headline)&&!/acquires?|merger|purchase of shares|fundrais|investment in/i.test(headline))
    return {kind:"disclosure",reason:"Law-firm appointment or professional move is not an economic corporate transaction"};
