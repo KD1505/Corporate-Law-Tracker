@@ -4,7 +4,7 @@
 // The published "verified" flag means a relevant filing LINK exists;
 // it does not verify every sentence in the record.
 const REGULATOR_HOST = /(^|\.)(sebi\.gov\.in|rbi\.org\.in|cci\.gov\.in|ibbi\.gov\.in|mca\.gov\.in|bseindia\.com|nseindia\.com|nclt\.gov\.in|nclat\.gov\.in|sci\.gov\.in|pib\.gov\.in|egazette\.gov\.in|indiacode\.nic\.in|gov\.in|nic\.in)$/i;
-const PORTAL_ONLY = /(\/corporates\/ann\.html\/?$|\/corporate-filings-announcements\/?$|\/combination\/orders\/?$|\/public-issues\.html\/?$|\/sebiweb\/home\/|\/en\/orders\/?$|\/order-judgement-date-wise\/?$|^\/$)/i;
+const PORTAL_ONLY = /(\/stock-share-price\/|\/get-quotes\/|\/content\/RSS\/|\/rss-feed\/?$|(\/corporates\/ann\.html\/?$|\/corporate-filings-announcements\/?$|\/combination\/orders\/?$|\/public-issues\.html\/?$|\/sebiweb\/home\/|\/en\/orders\/?$|\/order-judgement-date-wise\/?$|^\/$)/i;
 const NO_DATA = /^(?:—|-|n\/a|unknown|undisclosed|not disclosed)$/i;
 function validUrl(url) {
   try { const x = new URL(url); return /^https?:$/.test(x.protocol) && x.hostname.length > 3; }

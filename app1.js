@@ -36,10 +36,11 @@ function officialPointers(type){
   return M[type]||EX;
 }
 // generic regulator/exchange PORTAL roots - these are "where to look", not proof of a specific filing
-const GENERIC_PORTAL=/(corporates\/ann\.html|companies-listing\/corporate-filings|combination\/orders|public-issues\.html|BS_ViewMasDirections|AllReleasem|order-judgement-date-wise|sebiweb\/home|dipam\.gov\.in\/?$|meity\.gov\.in\/?$|judgments\.ecourts\.gov\.in\/?$|ibbi\.gov\.in\/en\/orders$|nclt\.gov\.in)/i;
+const GENERIC_PORTAL=/(stock-share-price\/|get-quotes\/|content\/RSS\/|rss-feed|(corporates\/ann\.html|companies-listing\/corporate-filings|combination\/orders|public-issues\.html|BS_ViewMasDirections|AllReleasem|order-judgement-date-wise|sebiweb\/home|dipam\.gov\.in\/?$|meity\.gov\.in\/?$|judgments\.ecourts\.gov\.in\/?$|ibbi\.gov\.in\/en\/orders$|nclt\.gov\.in)/i;
 function specificOfficial(u){try{const x=new URL(u);return /^https?:$/.test(x.protocol)&&OFFICIAL_RE.test(x.hostname.replace(/^www\./,""))&&x.pathname!=="/"&&!GENERIC_PORTAL.test(x.pathname);}catch{return false;}}
 // a deal carries a REAL, specific official source (a named company's filings page or a specific filing) - not a generic portal
 function dealHasRealOfficial(d){
+  if(d.quality&&typeof d.quality.directOfficialFiling==="boolean")return d.quality.directOfficialFiling;
   return (d.sources||[]).some(s=>srcOfficial(s)&&specificOfficial(s.url))
     ||(typeof officialDocs==="function"&&officialDocs(d).some(o=>specificOfficial(o.url)))
     ||(d.docs||[]).some(x=>specificOfficial(x.url));
@@ -47,7 +48,7 @@ function dealHasRealOfficial(d){
 function dealHasOfficial(d){return dealHasRealOfficial(d);}
 // for the deal page: real official deep-links first, then generic verification portals as a fallback
 function srcsWithOfficial(d){
-  const od=(typeof officialDocs==="function"?officialDocs(d):[]).map(o=>({name:o.label,url:o.url,official:true,blurb:"Official filing / disclosure - opens the party's exchange or regulator page."}));
+  const od=(typeof officialDocs==="function"?officialDocs(d):[]).map(o=>({name:o.label,url:o.url,official:specificOfficial(o.url),blurb:"Research pointer; confirm the actual filing. A stock-quote or regulator homepage is not evidence of this transaction."}));
   const base=[...(d.sources||[]),...od];
   return base.filter(x=>x&&x.url&&/^https?:\/\//i.test(x.url));
 }

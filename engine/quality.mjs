@@ -77,7 +77,7 @@ export function cleanCounsel(firms=[]) {
  }
  return {accepted,quarantined};
 }
-const GENERIC_URL = /\/corporates\/ann\.html|\/companies-listing\/corporate-filings|\/combination\/orders\/?$|\/public-issues\.html\/?$|\/sebiweb\/home\/|\/BS_ViewMasDirections\.aspx|\/AllReleasem\.aspx|\/order-judgement-date-wise\/?$|\/en\/orders\/?$|\/corporates\/?$|\/corporate\/?$|\/legal\/regulations\/?$/i;
+const GENERIC_URL = /\/stock-share-price\/|\/get-quotes\/|\/content\/RSS\/|\/rss-feed\/?$|\/sitemap\/|\/corporates\/ann\.html|\/companies-listing\/corporate-filings|\/combination\/orders\/?$|\/public-issues\.html\/?$|\/sebiweb\/home\/|\/BS_ViewMasDirections\.aspx|\/AllReleasem\.aspx|\/order-judgement-date-wise\/?$|\/en\/orders\/?$|\/corporates\/?$|\/corporate\/?$|\/legal\/regulations\/?$/i;
 const OFFICIAL_HOST = /(^|\.)(?:sebi\.gov\.in|rbi\.org\.in|cci\.gov\.in|ibbi\.gov\.in|mca\.gov\.in|bseindia\.com|nseindia\.com|nclt\.gov\.in|nclat\.gov\.in|sci\.gov\.in|pib\.gov\.in|gov\.in|nic\.in)$/i;
 export function classifySource(url) {
  try {

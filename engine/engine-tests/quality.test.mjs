@@ -16,6 +16,9 @@ test("direct filing and generic regulator lookup are distinct",()=>{
  assert.equal(classifySource("https://nsearchives.nseindia.com/corporate/actual.pdf"),"official-filing-link");
  assert.equal(classifySource("https://www.sebi.gov.in/sebi_data/commondocs/oct-2025/offer.pdf"),"official-filing-link");
  assert.equal(classifySource("https://www.bseindia.com/corporates/ann.html"),"portal");
+ assert.equal(classifySource("https://www.bseindia.com/stock-share-price/example/abc/500001/"),"portal");
+ assert.equal(classifySource("https://www.nseindia.com/get-quotes/equity?symbol=ABC"),"portal");
+ assert.equal(classifySource("https://nsearchives.nseindia.com/content/RSS/Online_announcements.xml"),"portal");
  assert.equal(classifySource("https://www.cci.gov.in/combination/orders"),"portal");
  assert.equal(classifySource("javascript:alert(1)"),"invalid");
  assert.equal(classifySource("https://example.com/article"),"secondary");
