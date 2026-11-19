@@ -190,6 +190,7 @@ ${(d.framework&&d.framework.length)?`<div class="chips">${d.framework.map(f=>`<s
 ${d.evidenceDossier && !d.transaction ? `<h2>Source coverage and evidentiary limitations</h2><p><b>${esc(d.evidenceDossier.depth)}:</b> ${esc(d.evidenceDossier.coverageStatement)}</p>
 ${d.evidenceDossier.facts?.length ? `<h3>Evidence-linked findings</h3><ul class="links">${d.evidenceDossier.facts.map(f=>`<li><b>${esc(f.label || "Documented fact")}</b>: ${esc(f.fact)} <a href="${esc(f.sourceUrl)}" rel="nofollow">Source</a> ${f.status?`(${esc(f.status)})`:""}</li>`).join("")}</ul>` : ""}
 ${d.evidenceDossier.gaps?.length ? `<h3>Documentation gaps to verify</h3><ul class="links">${d.evidenceDossier.gaps.map(g=>`<li>${esc(g)}</li>`).join("")}</ul>` : ""}` : ""}
+${(d.editorialCautions||[]).length?`<h2>Editorial cautions</h2><ul class="links">${d.editorialCautions.map(c=>`<li>${esc(c)}</li>`).join("")}</ul>`:""}
 ${(d.sources&&d.sources.length)?`<h2>Sources</h2><ul class="links">${d.sources.map(s=>`<li><a href="${esc(s.url)}" rel="nofollow">${esc(s.name)}</a>${s.official?" · official":""}</li>`).join("")}</ul>`:""}
 <a class="cta" href="/#/deal/${encodeURIComponent(d.id)}">Open in the live tracker →</a>
 <p style="font-size:13px;margin-top:14px"><a href="mailto:corrections@corplawtracker.com?subject=${encodeURIComponent("Source or factual correction: "+d.id)}&body=${encodeURIComponent("Deal: "+canonical+"\nPlease describe the correction and attach or link the primary evidence:")}">Report a factual error on this record</a></p>

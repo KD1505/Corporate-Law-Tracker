@@ -666,7 +666,7 @@
     <button class="advbtn" id="advOpen">Advanced</button>
   </div>
   <div class="hstatus">
-    <div class="asof"><b><span class="okdot"></span><span id="updated">Updated 19 Nov 2026</span></b><span id="asofsub">Refreshed nightly from primary sources</span></div>
+    <div class="asof"><b><span class="okdot"></span><span id="updated">Updated 19 Nov 2026</span></b><span id="asofsub">Source collection status is independently monitored</span></div>
     <button class="briefbtn" id="briefOpen" title="Get the daily intelligence brief">✉ Get the brief</button>
     <a class="methlink" href="academy.html" style="background:var(--accent);border-color:var(--accent);color:#fff;text-decoration:none">Academy ↗</a>
     <button class="methlink" id="methOpen">Methodology</button>
@@ -1005,6 +1005,13 @@ hide it immediately so the live app renders instead of flashing a static list wh
     var t=document.createElement("script");
     t.textContent=out[1].join("\n");
     document.body.appendChild(t);
+    fetch("data/source-health.json", {cache:"no-store"}).then(function(r){if(!r.ok)throw Error("unavailable");return r.json();}).then(function(h){
+      var e=document.getElementById("asofsub");if(!e)return;
+      var failed=(h.monitors||[]).filter(function(m){return m.status==="failed";});
+      if(failed.length){e.textContent="⚠ "+failed.map(function(m){return m.source;}).join(" / ")+" feed delayed — see Coverage";e.style.color="#a85427";}
+      else e.textContent="Automated collection status · see Coverage";
+      e.title="Feeds can be blocked or delayed even when the website builds successfully.";
+    }).catch(function(){var e=document.getElementById("asofsub");if(e)e.textContent="Source freshness not independently confirmed";});
   }).catch(function(e){
     console.error("CorpLawTracker: failed to start -",e);
     var m=document.getElementById("main");

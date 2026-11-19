@@ -424,10 +424,12 @@ function cltEvidencePanel(d) {
     '<li style="margin:7px 0"><b>'+esc(f.label||"Documented fact")+':</b> '+esc(f.fact)
     +' <a href="'+esc(f.sourceUrl)+'" target="_blank" rel="noopener noreferrer">Evidence ↗</a>'
     +(f.status?' <span style="color:var(--ink3)">('+esc(f.status)+')</span>':"")+'</li>').join("");
+  const cautions=(d.editorialCautions||[]).slice(0,8).map(c=>'<li style="margin:7px 0">'+esc(c)+'</li>').join("");
   const gaps=(r.gaps||[]).slice(0,7).map(g=>'<li style="margin:7px 0">'+esc(g)+'</li>').join("");
   return '<section class="sec" id="sec-evidence"><h4>Research file · coverage &amp; limitations</h4>'
     +'<p><b>'+esc(r.depth||"Source-linked record")+'</b> — '+esc(r.coverageStatement||"")+'</p>'
     +(findings?'<div style="font-size:12px;font-weight:650;margin:14px 0 5px">Findings tied to a source</div><ul style="padding-left:18px">'+findings+'</ul>':"")
+    +(cautions?'<div style="font-size:12px;font-weight:650;margin:14px 0 5px">Editorial cautions and important distinctions</div><ul style="padding-left:18px">'+cautions+'</ul>':"")
     +(gaps?'<div style="font-size:12px;font-weight:650;margin:14px 0 5px">What the available record does not establish</div><ul style="padding-left:18px">'+gaps+'</ul>':"")
     +'<p style="font-size:12px;color:var(--ink3);margin-top:10px">A filing link does not verify every statement. Read the original filing; no missing terms have been inferred.</p></section>';
 }

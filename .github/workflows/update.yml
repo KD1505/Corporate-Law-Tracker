@@ -12,6 +12,7 @@ on:
       - "engine/build.mjs"
       - "engine/prerender.mjs"
       - "engine/quality.mjs"
+      - "data/curated-deals.json"
       - "engine/score.mjs"
       - "engine/spine.mjs"
       - "engine/package.json"

@@ -1,7 +1,7 @@
 // Evidence-first quality and market-entity hygiene.
 // This module is applied deterministically to EVERY historical and incoming record
 // at publication time; source items are not erased when removed from the deal feed.
-import { isOfficial } from "./score.mjs";
+import { scoreDeal } from "./score.mjs";
 
 const VERIFIED_FIRMS = [
  "Cyril Amarchand Mangaldas","Shardul Amarchand Mangaldas","Khaitan & Co",
@@ -131,8 +131,11 @@ export function sanitiseDeal(d) {
  // distinguishes editorial review from merely having a linked filing.
  const direct=[...sources.specific,...docs.specific].some(s=>s.sourceKind==="official-filing-link");
  const reviewed=!!((d.transaction&&d.openOffer&&d.verifiedAsOf) || (d.editoriallyReviewed===true && d.verifiedAsOf && (d.research?.facts||[]).length>=3 && direct));
+ const cleanDocs=docs.specific.map(x=>({label:x.name||"Document",url:x.url}));
+ const rating=scoreDeal({...d,verified:false,firms:firm.accepted,sources:sources.specific,docs:cleanDocs});
  return {...d,stage:evidenceStage(d,q),firms:firm.accepted,
-   sources:sources.specific,docs:docs.specific.map(x=>({label:x.name||"Document",url:x.url})),
+   score:reviewed?Math.max(d.score||0,rating.score):rating.score,imp:reviewed?(d.imp||rating.imp):rating.imp,
+   sources:sources.specific,docs:cleanDocs,
    researchPortals:[...sources.portals,...docs.portals],sourceQuarantine:[...sources.invalid,...docs.invalid],
    quality:{...q,counselQuarantine:firm.quarantined.map(x=>x.name),
      directOfficialFiling:direct,reviewed,reviewStatus:reviewed?"editorial-document-review":direct?"filing-linked":"reported"},
