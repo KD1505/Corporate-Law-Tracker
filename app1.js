@@ -36,7 +36,7 @@ function officialPointers(type){
   return M[type]||EX;
 }
 // generic regulator/exchange PORTAL roots - these are "where to look", not proof of a specific filing
-const GENERIC_PORTAL=/(stock-share-price\/|get-quotes\/|content\/RSS\/|rss-feed|(corporates\/ann\.html|companies-listing\/corporate-filings|combination\/orders|public-issues\.html|BS_ViewMasDirections|AllReleasem|order-judgement-date-wise|sebiweb\/home|dipam\.gov\.in\/?$|meity\.gov\.in\/?$|judgments\.ecourts\.gov\.in\/?$|ibbi\.gov\.in\/en\/orders$|nclt\.gov\.in)/i;
+const GENERIC_PORTAL=/(?:stock-share-price\/|get-quotes\/|content\/RSS\/|rss-feed|corporates\/ann\.html|companies-listing\/corporate-filings|combination\/orders|public-issues\.html|BS_ViewMasDirections|AllReleasem|order-judgement-date-wise|sebiweb\/home|dipam\.gov\.in\/?$|meity\.gov\.in\/?$|judgments\.ecourts\.gov\.in\/?$|ibbi\.gov\.in\/en\/orders$|nclt\.gov\.in)/i;
 function specificOfficial(u){try{const x=new URL(u);return /^https?:$/.test(x.protocol)&&OFFICIAL_RE.test(x.hostname.replace(/^www\./,""))&&x.pathname!=="/"&&!GENERIC_PORTAL.test(x.pathname);}catch{return false;}}
 // a deal carries a REAL, specific official source (a named company's filings page or a specific filing) - not a generic portal
 function dealHasRealOfficial(d){
