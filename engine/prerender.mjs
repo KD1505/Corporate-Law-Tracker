@@ -130,7 +130,7 @@ ${crumbs?`<nav class="crumbs" aria-label="Breadcrumb">${crumbs}</nav>`:""}
 ${body}
 </main>
 <footer role="contentinfo"><b>CorpLawTracker</b> - the decision engine for India's corporate legal market. Research and current-awareness only - not legal advice. Read the primary filing and the current text of the law before advising.<br>
-<a href="/">Home</a> · <a href="/deals.html">Deals</a> · <a href="/filings.html">Disclosure archive</a> · <a href="/brief.xml">Brief RSS</a> · <a href="/firms.html">Firms</a> · <a href="/methodology.html">Methodology</a> · <a href="/coverage.html">Coverage</a> · <a href="/corrections.html">Corrections</a> · <a href="/about.html">About</a> · <a href="/contact.html">Contact</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></footer>
+<a href="/">Home</a> · <a href="/deals.html">Deals</a> · <a href="/filings.html">Disclosure archive</a> · <a href="/changes.html">Research changes</a> · <a href="/brief.xml">Brief RSS</a> · <a href="/firms.html">Firms</a> · <a href="/methodology.html">Methodology</a> · <a href="/coverage.html">Coverage</a> · <a href="/corrections.html">Corrections</a> · <a href="/about.html">About</a> · <a href="/contact.html">Contact</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></footer>
 </div></body></html>`;
 }
 
@@ -249,6 +249,18 @@ function filingsIndex(records) {
  const body=`<h1>Disclosure archive</h1><p class="lead">${list.length} compliance filings or insufficiently described announcements withheld from the substantive transaction feed. These are not established economic deals; original-source links are retained for research.</p><ul class="links">${list.map(d=>`<li><a class="card" href="${dealPath(d)}"><span class="ct">${esc(d.headline)}</span><span class="cs">${esc(d.time||"")} · ${esc(d.quality.reason)}</span></a></li>`).join("")}</ul>`;
  return page({title:"Corporate disclosure archive | CorpLawTracker",desc:"Unverified or routine exchange disclosures kept separate from transaction intelligence.",canonical:`${SITE}/filings.html`,crumbs:`<a href="/">Home</a> / Disclosure archive`,body});
 }
+function changesPage(events) {
+ const list=events.slice(0,100);
+ const body='<h1>What changed in the research database?</h1>'
+  +'<p class="lead">This log covers new and revised <b>CorpLawTracker records</b>. A changed record does not, by itself, prove a newly completed transaction or regulatory decision.</p>'
+  +(list.length?'<ul class="links">'+list.map(x=>'<li><b>'+esc(x.date.slice(0,10))+'</b> · <a href="'+dealPath(x)+'">'+esc(x.headline)+'</a>'
+    +'<div style="font-size:12px;color:#777">'+x.changes.map(esc).join("; ")+'</div></li>').join('')+'</ul>':
+   '<p>No material database-field changes have yet been recorded. The log begins when an earlier generated index is available for comparison.</p>');
+ return page({title:"Research database updates | CorpLawTracker",
+ desc:"Transparent chronological record of newly published and materially revised transaction intelligence records.",
+ canonical:SITE+"/changes.html",crumbs:'<a href="/">Home</a> / Research updates',body});
+}
+
 function firmsIndex(firms) {
   const body = `<h1>Law firms</h1><p class="lead">${firms.length} firms named as counsel across tracked Indian corporate transactions, ranked by deal count.</p>
 <ul class="links">${firms.map((f,i)=>`<li><a class="card" href="${firmPath(f.name)}"><span class="ct">${esc(f.name)}</span><span class="cs">#${i+1} · ${f.deals.length} deals tracked</span></a></li>`).join("")}</ul>`;
@@ -423,6 +435,33 @@ function writeDataIndex(all, firms, updated){
     // verification chip and confidence meter; full prose lives in the per-deal file.
     src: (d.sources || []).slice(0,3).map(x => ({ n: x.name, u: x.url, o: x.official ? 1 : 0 }))
   }));
+  // Append-only publication event log for meaningful deal-record changes.
+  // Editorial record changes are labelled as such; do not imply a new transaction.
+  const historyFile=path.join(dir,"deal-changes.json");
+  const previousIndex=path.join(dir,"index.json");
+  let previous=[],history=[];
+  try{previous=JSON.parse(fs.readFileSync(previousIndex,"utf8")).deals||[];}catch{}
+  try{history=JSON.parse(fs.readFileSync(historyFile,"utf8")).events||[];}catch{}
+  if(previous.length){
+    const old=new Map(previous.map(d=>[d.id,d]));
+    const runDate=new Date().toISOString();
+    const additions=[];
+    for(const row of rows){
+      const before=old.get(row.id);
+      if(!before){additions.push({id:row.id,headline:row.h,date:runDate,kind:"record-added",changes:["New transaction record published"]});continue;}
+      const changes=[];
+      if(before.st!==row.st)changes.push("Recorded status changed: "+String(before.st||"unspecified")+" → "+String(row.st||"unspecified"));
+      if(before.v!==row.v)changes.push("Reported consideration updated: "+String(before.v||"undisclosed")+" → "+String(row.v||"undisclosed"));
+      if((before.f||[]).join("|")!==(row.f||[]).join("|"))changes.push("Named legal advisers updated");
+      if((before.src||[]).map(x=>x.u).join("|")!==(row.src||[]).map(x=>x.u).join("|"))changes.push("Source document links updated");
+      if((before.q||"")!==(row.q||""))changes.push("Evidence-review classification updated");
+      if(changes.length)additions.push({id:row.id,headline:row.h,date:runDate,kind:"record-updated",changes});
+    }
+    const known=new Set(history.map(x=>x.date.slice(0,10)+"|"+x.id+"|"+x.changes.join("|")));
+    history=[...additions.filter(x=>!known.has(x.date.slice(0,10)+"|"+x.id+"|"+x.changes.join("|"))),...history].slice(0,300);
+  }
+  fs.writeFileSync(historyFile,JSON.stringify({updatedAt:new Date().toISOString(),events:history,
+    meaning:"This is an editorial record-change log. Changes do not necessarily represent new legal events or transaction milestones."},null,2)+"\n");
   const payload = {
     updated, count: rows.length,
     firms: firms.map(f => ({ n: f.name, c: f.deals.length, u: firmPath(f.name) })),
@@ -525,6 +564,7 @@ firms.forEach((f,i)=>fs.writeFileSync(path.join(fDir,`${slug(f.name)}.html`), fi
 fs.writeFileSync(path.join(ROOT,"deals.html"), dealsIndex(all));
 fs.writeFileSync(path.join(ROOT,"filings.html"), filingsIndex(filingArchive));
 fs.writeFileSync(path.join(ROOT,"firms.html"), firmsIndex(firms));
+try{fs.writeFileSync(path.join(ROOT,"changes.html"),changesPage(JSON.parse(fs.readFileSync(path.join(ROOT,"data","deal-changes.json"),"utf8")).events||[]));}catch(e){console.warn("changes hub failed: "+e.message);}
 // governance pages - operator, editor, corrections, coverage, privacy, terms
 const GOV = governancePages(all, firms, (DATA.UPDATED||"").replace(/^Updated\s+/,""));
 writeDataIndex(all, firms, DATA.UPDATED || "");
@@ -553,7 +593,7 @@ if(!fs.existsSync(healthPath))fs.writeFileSync(healthPath,JSON.stringify({
 
 // sitemap + robots
 const today = new Date().toISOString().slice(0,10);
-const urls = [ `${SITE}/`, `${SITE}/deals.html`, `${SITE}/filings.html`, `${SITE}/firms.html`, `${SITE}/academy.html`,
+const urls = [ `${SITE}/`, `${SITE}/deals.html`, `${SITE}/filings.html`, `${SITE}/changes.html`, `${SITE}/firms.html`, `${SITE}/academy.html`,
   ...GOV.map(g=>`${SITE}/${g.slug}.html`),
   ...all.map(d=>`${SITE}${dealPath(d)}`), ...firms.filter(f=>f.deals.length>=5).map(f=>`${SITE}${firmPath(f.name)}`) ];
 fs.writeFileSync(path.join(ROOT,"sitemap.xml"),
