@@ -129,10 +129,10 @@ async function main(){
    upgraded++;claims+=facts.length;console.log("deep-research: "+d.id+": "+facts.length+" validated facts");
   }catch(e){
    errors++;console.warn("deep-research error: "+d.id+": "+String(e.message).slice(0,250));
-   if(CREDIT.test(e.message)){paused=true;console.warn("deep-research: AI credits exhausted; stopping calls");break;}
+   if(CREDIT.test(e.message)){paused=true;delete d.research.lastAttempt;console.warn("deep-research: AI credits exhausted; stopping calls");break;}
   }
  }
- if(upgraded||unreadable||errors)await fs.writeFile(DATA,serialized(C),"utf8");
+ if(upgraded||unreadable)await fs.writeFile(DATA,serialized(C),"utf8");
  console.log(JSON.stringify({job:"deep-research",due:queue.length,selected:Math.min(BATCH,queue.length),upgraded,claims,unreadable,errors,pausedForBilling:paused}));
 }
 main().catch(e=>{console.error(e);process.exit(1);});
