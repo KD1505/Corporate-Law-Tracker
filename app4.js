@@ -108,8 +108,18 @@ function matchesFilters(d){
   if(F.stage&&d.stage!==F.stage)return false;
   if(F.firm&&!dealFirms(d).includes(F.firm))return false;
   if(F.firm2&&!dealFirms(d).includes(F.firm2))return false;
-  if(F.q){const hay=(d.headline+d.sum+d.detail+d.parties+d.sector+d.firms.map(f=>f.name+" "+(f.lead||[]).map(l=>l.n).join(" ")+" "+(f.team||[]).join(" ")).join(" ")).toLowerCase();
-    if(!hay.includes(F.q.toLowerCase()))return false;}
+  if(F.q){
+    const hay=(d.headline+" "+d.sum+" "+d.detail+" "+d.parties+" "+d.sector+" "+
+      (d.firms||[]).map(f=>f.name+" "+(f.lead||[]).map(l=>l.n).join(" ")+" "+(f.team||[]).join(" ")).join(" ")).toLowerCase();
+    const needle=F.q.toLowerCase().trim();
+    const aliases=(window.CLT_COMPANY_ALIASES||[]).filter(e=>
+      [e.legalName,...(e.formerNames||[]),...(e.aliases||[]),...Object.values(e.identifiers||{})]
+        .some(label=>String(label).toLowerCase().includes(needle)));
+    const aliasMatch=aliases.some(e=>(e.dealIds||[]).includes(d.id)
+      ||hay.includes(String(e.legalName).toLowerCase())
+      ||(e.formerNames||[]).some(n=>hay.includes(n.toLowerCase())));
+    if(!hay.includes(needle)&&!aliasMatch)return false;
+  }
   return true;
 }
 const IMPRANK={hi:0,md:1,lo:2};

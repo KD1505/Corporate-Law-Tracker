@@ -1004,7 +1004,10 @@ hide it immediately so the live app renders instead of flashing a static list wh
           window.CLT_DATA.DEALS=curated.concat(deals.filter(function(d){return !ids.has(d.id);}));
         })
         .catch(function(e){console.warn("CorpLawTracker: curated records unavailable ("+e.message+")");});
-    });
+    })
+    .then(function(){return fetch("data/company-aliases.json").then(function(r){if(!r.ok)throw Error(r.status);return r.json();})
+      .then(function(x){window.CLT_COMPANY_ALIASES=Array.isArray(x.entities)?x.entities:[];})
+      .catch(function(){window.CLT_COMPANY_ALIASES=[];});});
 
   var code=Promise.all(PARTS.map(function(f){
     return fetch(f+"?v=20261119164345-2527").then(function(r){
