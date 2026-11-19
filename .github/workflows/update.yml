@@ -11,6 +11,9 @@ on:
       - "engine/reenrich.mjs"
       - "engine/build.mjs"
       - "engine/prerender.mjs"
+      - "engine/quality.mjs"
+      - "engine/score.mjs"
+      - "engine/spine.mjs"
       - "engine/package.json"
   schedule:
     - cron: "30 17 * * *"   # nightly 11:00 PM IST — ingest + enrich new deals
@@ -32,7 +35,7 @@ permissions:
 
 concurrency:
   group: clt-update
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update:
@@ -102,7 +105,7 @@ jobs:
 
       - name: Commit & push if changed
         run: |
-          PATHS="data.js data index.html deals.html firms.html sitemap.xml robots.txt d firm \
+          PATHS="data.js data index.html deals.html filings.html brief.xml firms.html sitemap.xml robots.txt d firm \
             about.html contact.html methodology.html corrections.html coverage.html privacy.html terms.html academy.html academy-curriculum.js \
             data/academy-updates.json data/research-status.json engine/seen.json engine/discovered-sources.json engine/link-report.json brief.md"
           if [[ -n "$(git status --porcelain $PATHS)" ]]; then
@@ -110,6 +113,8 @@ jobs:
             git config user.email "actions@github.com"
             git add $PATHS
             git commit -m "chore: nightly deal update + prerender ($(date -u +%Y-%m-%d))"
+            git fetch origin main
+            git rebase origin/main
             git push
             echo "Committed updated data.js + crawlable pages — Vercel will redeploy."
           else

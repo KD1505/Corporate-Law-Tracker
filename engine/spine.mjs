@@ -19,6 +19,11 @@
 // scrape HTML that may shift; they log their own status so the first live run tells
 // us exactly what to tune.
 
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+const SOURCE_HEALTH=path.resolve(path.dirname(fileURLToPath(import.meta.url)),"../data/source-health.json");
+
 const UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36";
 
@@ -241,7 +246,8 @@ export async function fetchPublicDeals(existing, opts = {}) {
   // and NSE already supplies comprehensive coverage — so default to the sources that work.
   // Re-enable with opts.sources if their endpoints become reachable.
   const sources = opts.sources ?? ["bse", "nse"];
-  const log = (m) => console.log(`  [spine] ${m}`);
+  const events=[];
+  const log = (m) => {events.push(m);console.log(`  [spine] ${m}`);};
   const out = [];
 
   if (sources.includes("bse")) await fetchBSE(existing, { days, maxPages, out, log });
@@ -250,6 +256,25 @@ export async function fetchPublicDeals(existing, opts = {}) {
   if (sources.includes("sebi")) await fetchSEBI(existing, { out, log });
 
   out.sort((a, b) => (b.material - a.material) || (b.published - a.published));
-  log(`TOTAL spine: ${out.length} deal events; taking top ${Math.min(limit, out.length)} by materiality.`);
+  log("TOTAL spine: "+out.length+" deal events; taking top "+Math.min(limit,out.length)+" by materiality.");
+  let prior={};try{prior=JSON.parse(fs.readFileSync(SOURCE_HEALTH,"utf8"));}catch{}
+  const now=new Date().toISOString();
+  const monitors=["BSE","NSE"].map(name=>{
+    const msgs=events.filter(m=>m.startsWith(name+" ")||m.startsWith(name+":")||m.startsWith(name+" page"));
+    const failed=msgs.find(m=>/failed|403|aborted|timeout|429/i.test(m));
+    const previous=prior.monitors?.find(m=>m.source===name)||{};
+    const success=msgs.length>0&&!failed;
+    return {source:name,kind:"exchange disclosure API",status:failed?"failed":success?"responded":"not attempted",
+      lastAttempt:now,lastSuccess:success?now:previous.lastSuccess||null,
+      error:failed?failed.slice(0,170):null,
+      recordsInBatch:out.filter(it=>it.source===name).length};
+  });
+  const health={asOf:now,monitors:[...monitors,
+   {source:"RBI / PIB",kind:"RSS feed",status:"best effort; per-source receipt not independently recorded"},
+   {source:"SEBI / CCI / IBBI / MCA / NCLT",kind:"occasional supporting documents",status:"not comprehensively monitored"}],
+   limitations:["A successful GitHub Actions build does not mean upstream BSE/NSE data refreshed.",
+   "HTTP 403, timeouts and automated blocking must not be mistaken for no disclosures."]};
+  fs.mkdirSync(path.dirname(SOURCE_HEALTH),{recursive:true});
+  fs.writeFileSync(SOURCE_HEALTH,JSON.stringify(health,null,2)+"\n");
   return out.slice(0, limit);
 }

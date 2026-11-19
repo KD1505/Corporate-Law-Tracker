@@ -39,7 +39,7 @@ async function fetchText(url){
    const buf=Buffer.concat(chunks);
    const pdf=/pdf/i.test(r.headers.get("content-type")||"")||/\.pdf(?:[?#]|$)/i.test(url);
    let result="";
-   if(pdf){try{const m=await import("pdf-parse");const parse=m.default||m;
+   if(pdf){try{const m=await import("pdf-parse/lib/pdf-parse.js");const parse=m.default||m;
      result=String((await parse(buf,{max:14})).text||"").slice(0,26000);}
      catch(e){console.warn("PDF extraction skipped: "+e.message);return null;}}
    else result=fromHtml(buf.toString("utf8"));
