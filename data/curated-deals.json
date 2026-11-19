@@ -265,5 +265,132 @@
       "Historical 2025 holdings are not current as of November 2026; subsequent shareholder changes must be reconciled independently.",
       "Actual acceptance count 17 comes from the original post-offer newspaper advertisement; the SEBI LOF predates tendering and cannot establish offer uptake."
     ]
+  },
+  {
+    "id": "vertices-partners-advises-marico-on-113-crore-stake-acquisition-in-cosmix",
+    "type": "ma",
+    "geo": "mumbai",
+    "city": "Mumbai / Bengaluru",
+    "sector": "Consumer & Retail",
+    "stage": "completed",
+    "time": "6 Nov 2026",
+    "value": "₹113.65 cr",
+    "imp": "md",
+    "score": 63,
+    "parties": "Marico Limited (buyer), Cosmix Wellness Private Limited (target)",
+    "headline": "Marico completes additional 20% Cosmix purchase for ₹113.65 crore, increasing ownership to 80%",
+    "sum": "<b>Completed 6 November 2026:</b> Marico acquired another 20% of Cosmix Wellness for ₹113.65 crore cash, lifting its stake from 60% to 80%. Its future right to buy the remaining 20% has not been exercised.",
+    "detail": "Marico's signed exchange disclosure confirms a completed acquisition of an additional 20% stake in its Bengaluru-headquartered subsidiary Cosmix Wellness Private Limited on 6 November 2026 for ₹113.65 crore in cash. It already held 60% following a February 2026 purchase; the additional tranche brings ownership to 80%. The issuer describes the deal as an arm's-length related-party transaction, confirms no promoter interest and states that government/regulatory approvals were not required. The separate right to acquire the remaining 20% only after FY2028-29 is conditional on milestones, requisite approvals and negotiated terms and is not an executed sale. Cosmix reported ₹91.53 crore turnover in FY2025-26 compared with ₹47.25 crore in FY2024-25 and ₹24.32 crore for FY2023-24 (Indian GAAP).",
+    "implication": "Staged subsidiary buyout: distinguish a completed second tranche from an unexercised later right; analyse RPT requirements and retained minority rights without inventing undisclosed contract protections.",
+    "firms": [
+      {
+        "name": "Vertices Partners",
+        "side": "Buyer-side counsel to Marico (reported)",
+        "lead": [],
+        "team": [],
+        "note": "Bar & Bench attribution; not stated in issuer's NSE filing."
+      }
+    ],
+    "framework": [
+      {
+        "ref": "SEBI LODR Regulation 30, Schedule III",
+        "note": "Listed issuer acquisition disclosure",
+        "flag": "central"
+      },
+      {
+        "ref": "Companies Act 2013; SEBI LODR related-party framework",
+        "note": "Applicable related-party governance if triggered; the filed transaction is described as arm's-length",
+        "flag": ""
+      }
+    ],
+    "structure": {
+      "consideration": "₹113.65 crore cash for 20% incremental holding",
+      "conditions": [
+        "Residual 20% is subject to a future contractual right after FY2028-29 and milestones; not completed"
+      ],
+      "approvals": [
+        "NSE issuer disclosure says no government/regulatory approvals required for this tranche"
+      ],
+      "novel": "Ownership rose from 60% to 80%; separate contingent remaining-stake purchase right",
+      "triggers": [
+        {
+          "law": "SEBI LODR Regulation 30",
+          "note": "Disclosure of the subsidiary acquisition and related material terms"
+        }
+      ],
+      "status": "Confirmed"
+    },
+    "timeline": [
+      {
+        "d": "4–5 Feb 2026",
+        "t": "Earlier 60% Cosmix Wellness acquisition disclosed"
+      },
+      {
+        "d": "6 Nov 2026",
+        "t": "20% additional holding acquired, taking Marico's stake to 80%"
+      }
+    ],
+    "research": {
+      "reviewedOn": "2026-11-19",
+      "facts": [
+        {
+          "label": "Completed acquisition",
+          "fact": "Marico completed acquisition of an additional 20% of Cosmix Wellness on 6 November 2026.",
+          "sourceUrl": "https://nsearchives.nseindia.com/corporate/marico_06112026171442_SEIntimationn.pdf",
+          "status": "completed"
+        },
+        {
+          "label": "Consideration",
+          "fact": "The incremental acquisition cost ₹113.65 crore cash.",
+          "sourceUrl": "https://nsearchives.nseindia.com/corporate/marico_06112026171442_SEIntimationn.pdf",
+          "status": "completed"
+        },
+        {
+          "label": "Ownership",
+          "fact": "Marico's shareholding increased from 60% to 80%.",
+          "sourceUrl": "https://nsearchives.nseindia.com/corporate/marico_06112026171442_SEIntimationn.pdf",
+          "status": "completed"
+        },
+        {
+          "label": "Future tranche",
+          "fact": "The balance 20% is subject to a contractual right after FY2028-29; that shareholding was not part of this completed purchase.",
+          "sourceUrl": "https://nsearchives.nseindia.com/corporate/marico_06112026171442_SEIntimationn.pdf",
+          "status": "conditional"
+        },
+        {
+          "label": "Counsel",
+          "fact": "Vertices Partners was reported as legal counsel advising Marico.",
+          "sourceUrl": "https://www.barandbench.com/law-firms/dealstreet/vertices-partners-advises-marico-on-113-crore-stake-acquisition-in-cosmix",
+          "status": "reported"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "name": "Marico — 6 November 2026 NSE acquisition disclosure",
+        "url": "https://nsearchives.nseindia.com/corporate/marico_06112026171442_SEIntimationn.pdf",
+        "official": true,
+        "blurb": "Signed exchange filing for consideration, ownership, RPT status and future right"
+      },
+      {
+        "name": "Bar & Bench — Vertices Partners mandate",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/vertices-partners-advises-marico-on-113-crore-stake-acquisition-in-cosmix",
+        "official": false,
+        "blurb": "Separately reports the buyer's legal adviser"
+      }
+    ],
+    "docs": [
+      {
+        "label": "Marico's signed Regulation 30 disclosure (PDF)",
+        "url": "https://nsearchives.nseindia.com/corporate/marico_06112026171442_SEIntimationn.pdf"
+      }
+    ],
+    "editorialCautions": [
+      "The future remaining-stake right is NOT a completed acquisition.",
+      "₹113.65 crore buys the incremental 20%, not the original 60%.",
+      "Counsel is attributed to trade press, not the NSE filing."
+    ],
+    "editoriallyReviewed": true,
+    "verifiedAsOf": "2026-11-19"
   }
 ]
