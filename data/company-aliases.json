@@ -1,0 +1,79 @@
+{
+  "updatedAt": "2026-11-19",
+  "scope": "Curated, source-linked aliases only; this is not a complete company directory.",
+  "entities": [
+    {
+      "id": "lake-shore-realty-limited",
+      "legalName": "Lake Shore Realty Limited",
+      "formerNames": [
+        "Mahaan Foods Limited"
+      ],
+      "aliases": [
+        "Mahaan Foods",
+        "MAHAANF"
+      ],
+      "identifiers": {
+        "cin": "L68100DL1987PLC350285",
+        "bse": "519612"
+      },
+      "effectiveNotes": "Previously known as Mahaan Foods Limited; historic deal and current company names must be dated",
+      "dealIds": [
+        "al-maha-indigo-infracon-lake-shore-realty-2025"
+      ],
+      "primarySource": "https://www.sebi.gov.in/sebi_data/commondocs/oct-2025/Lake%20Shore%20Realty%20Limited_LOO_p.pdf"
+    },
+    {
+      "id": "marico-limited",
+      "legalName": "Marico Limited",
+      "aliases": [
+        "Marico"
+      ],
+      "identifiers": {},
+      "dealIds": [
+        "vertices-partners-advises-marico-on-113-crore-stake-acquisition-in-cosmix"
+      ],
+      "primarySource": "https://nsearchives.nseindia.com/corporate/marico_06112026171442_SEIntimationn.pdf"
+    },
+    {
+      "id": "cosmix-wellness-private-limited",
+      "legalName": "Cosmix Wellness Private Limited",
+      "aliases": [
+        "Cosmix Wellness",
+        "Cosmix"
+      ],
+      "identifiers": {},
+      "dealIds": [
+        "vertices-partners-advises-marico-on-113-crore-stake-acquisition-in-cosmix"
+      ],
+      "primarySource": "https://nsearchives.nseindia.com/corporate/marico_06112026171442_SEIntimationn.pdf"
+    },
+    {
+      "id": "bajaj-finance-limited",
+      "legalName": "Bajaj Finance Limited",
+      "aliases": [
+        "Bajaj Finance",
+        "BAJFINANCE"
+      ],
+      "identifiers": {},
+      "dealIds": [
+        "cyril-amarchand-mangaldas-trilegal-linklaters-act-on-bajaj-finance-11700-crore-qip"
+      ],
+      "primarySource": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_17112026082518_BSENSE_Intimationofallotment.pdf"
+    },
+    {
+      "id": "aegis-logistics-limited",
+      "legalName": "Aegis Logistics Limited",
+      "aliases": [
+        "Aegis Logistics",
+        "AEGISLOG"
+      ],
+      "identifiers": {
+        "bse": "500003"
+      },
+      "dealIds": [
+        "azb-hlc-cam-linklaters-act-on-aegis-logistics-3500-crore-qip"
+      ],
+      "primarySource": "https://nsearchives.nseindia.com/corporate/AEGISCHEM_16112026221051_ALL_SE_Intimation_IssueClose_Signed.pdf"
+    }
+  ]
+}
