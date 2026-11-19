@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CorpLawTracker | The Decision Engine for India's Corporate Legal Market</title>
-<meta name="description" content="The decision engine for India's corporate legal market - material corporate deals, mandates and regulatory developments, each labelled by the available evidence and turned into the pitch to make, the precedent to cite and the documents to re-paper.">
+<meta name="description" content="Source-linked Indian corporate transaction research - material corporate deals, mandates and regulatory developments, each labelled by the available evidence and turned into the pitch to make, the precedent to cite and the documents to re-paper.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.corplawtracker.com/">
 <meta property="og:type" content="website">
@@ -16,7 +16,7 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:type" content="image/png">
-<meta property="og:image:alt" content="CorpLawTracker - the decision engine for India's corporate legal market. Built only on primary filings.">
+<meta property="og:image:alt" content="CorpLawTracker - the decision engine for India's corporate legal market. Primary filings linked where available.">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="CorpLawTracker | India's Corporate Deal & Counsel Intelligence">
@@ -903,6 +903,7 @@ hide it immediately so the live app renders instead of flashing a static list wh
       implication:r.w||"", type:r.t||"", geo:r.g||"", sector:r.sec||"",
       stage:r.st||"", value:r.v||"\u2014", time:r.d||"", imp:r.i||"",
       verified:!!r.ver, score:r.sc||0,
+      quality:{reviewed:!!r.ver,directOfficialFiling:!!r.off,reviewStatus:r.q||"reported"},
       framework:r.fw||[],
       firms:(r.f||[]).map(function(n){return {name:n,side:"",lead:[],team:[],note:""};}),
       sources:(r.src||[]).map(function(x){return {name:x.n,url:x.u,official:!!x.o};}),
@@ -919,6 +920,7 @@ hide it immediately so the live app renders instead of flashing a static list wh
       COMMENTARY:j.commentary||[], TRENDS:j.trends||[],
       UPDATED:j.updated||"", LINKCHECK:j.linkcheck||null
     };
+    window.CLT_FIRM_CATALOG=j.firms||[];
     window.CLT_SPLIT=true;            // detail view uses this to know it must hydrate
   }
 

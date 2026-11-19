@@ -261,33 +261,17 @@ function relAge(s=""){
   return Math.round(days/365)+"y";
 }
 function ageChip(d){return `<span class="age" title="${escA(d.time)}">${relAge(d.time)}</span>`;}
-const TIP_VERIFIED="Corroborated by a specific official filing (exchange/regulator/court) or editor-confirmed. See Methodology.";
+const TIP_VERIFIED="Document-intensive record reviewed against primary materials; check each cited fact before relying on it.";
 const TIP_REPORTED="Credible trade-press sourcing; specific primary filing not yet matched. See Methodology.";
-const TIP_OFFICIAL="Carries at least one source on a government, regulator, exchange or court domain.";
-function trustBadge(d){return isVerified(d)
-  ?`<span class="real" title="${escA(TIP_VERIFIED)}">✓ VERIFIED</span>`
-  :`<span class="real reported" title="${escA(TIP_REPORTED)}">REPORTED</span>`;}
+const TIP_OFFICIAL="A specific official filing is linked; this is not full claim-level verification.";
+function trustBadge(d){return isVerified(d)?`<span class="real" title="${escA(TIP_VERIFIED)}">DOCUMENT REVIEWED</span>`:dealHasOfficial(d)?`<span class="real reported" title="${escA(TIP_OFFICIAL)}">FILING LINKED</span>`:`<span class="real reported" title="${escA(TIP_REPORTED)}">REPORTED</span>`;}
 function stripTags(s=""){return s.replace(/<[^>]+>/g,"").replace(/\s+/g," ").trim();}
 function primarySrc(d){const off=(d.sources||[]).find(s=>srcOfficial(s));return off||(d.sources&&d.sources[0])||null;}
 function confidenceMeter(d){
-  const off=(d.sources||[]).filter(s=>srcOfficial(s)).length;
-  const n=(d.sources||[]).length;
-  const ver=isVerified(d);
-  const lc=(window.CLT_DATA&&window.CLT_DATA.LINKCHECK&&window.CLT_DATA.LINKCHECK.deals)||null;
-  const ls=lc?lc[d.id]:null;
-  let seg=0;
-  if(n>=1)seg++;
-  if(off>=1)seg++;
-  if(off>=2||(ver&&n>=2))seg++;
-  if(ls==="v"||(off>=2&&n>=3))seg++;
-  seg=Math.max(1,Math.min(4,seg));
-  const lvl=seg>=4?"High":seg>=3?"Strong":seg>=2?"Moderate":"Limited";
-  const parts=[];
-  if(off)parts.push(off+" official");
-  const other=n-off; if(other>0)parts.push(other+" press");
-  if(ls==="v")parts.push("links verified");
-  const bars=[1,2,3,4].map(i=>`<span class="cseg${i<=seg?' on':''}"></span>`).join("");
-  return `<div class="confm" title="Evidentiary confidence - from number of sources, how many are official/primary, and link health.">`
-    +`<span class="confm-l">Confidence</span><span class="confm-bar">${bars}</span><span class="confm-v">${lvl}</span>`
-    +`${parts.length?`<span class="confm-d">${parts.join(" · ")}</span>`:""}</div>`;
+  const sources=(d.sources||[]),direct=sources.filter(s=>specificOfficial(s.url)).length;
+  const other=sources.length-direct;
+  const audit=d.quality?.reviewed||d.quality?.reviewStatus==="editorial-document-review";
+  const label=audit?"Document-reviewed case study":direct?"Official source linked · details not fully audited":"Reported source · official filing not yet matched";
+  const count=direct+" specific official link"+(direct===1?"":"s")+(other?" · "+other+" other source"+(other===1?"":"s"):"");
+  return '<div class="confm" title="Source coverage, not a numerical accuracy score"><span class="confm-l">Research status</span><span class="confm-v">'+label+'</span><span class="confm-d">'+count+'</span></div>';
 }
