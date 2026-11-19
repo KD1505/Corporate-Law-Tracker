@@ -1,0 +1,266 @@
+{
+  "updatedAt": "2026-11-19T17:52:58.122Z",
+  "candidates": [
+    {
+      "company": "IIFL Capital Services Limited",
+      "category": "Open Offer",
+      "windowStart": "4 Nov 2026",
+      "windowEnd": "12 Nov 2026",
+      "ids": [
+        "nse-IIFLCAPS-04-Nov-2026185139",
+        "nse-IIFLCAPS-04-Nov-2026152902",
+        "nse-IIFLCAPS-05-Nov-2026173956",
+        "nse-IIFLCAPS-09-Nov-2026171811",
+        "nse-IIFLCAPS-09-Nov-2026171716",
+        "nse-IIFLCAPS-11-Nov-2026183341",
+        "nse-IIFLCAPS-11-Nov-2026183112",
+        "nse-IIFLCAPS-11-Nov-2026182933",
+        "nse-IIFLCAPS-12-Nov-2026154826"
+      ],
+      "note": "Potentially related public announcements. Grouped by company, disclosure label and date proximity only; may represent distinct transactions or obligations."
+    },
+    {
+      "company": "Hindware Home Innovation Limited",
+      "category": "Scheme of Arrangement",
+      "windowStart": "16 Oct 2026",
+      "windowEnd": "6 Nov 2026",
+      "ids": [
+        "nse-HINDWAREAP-16-Oct-2026170029",
+        "nse-HINDWAREAP-06-Nov-2026181801"
+      ],
+      "note": "Potentially related public announcements. Grouped by company, disclosure label and date proximity only; may represent distinct transactions or obligations."
+    },
+    {
+      "company": "Tata Steel Limited",
+      "category": "Scheme of Arrangement",
+      "windowStart": "1 Oct 2026",
+      "windowEnd": "3 Nov 2026",
+      "ids": [
+        "nse-TATASTEEL-01-Oct-2026210442",
+        "nse-TATASTEEL-03-Nov-2026124635"
+      ],
+      "note": "Potentially related public announcements. Grouped by company, disclosure label and date proximity only; may represent distinct transactions or obligations."
+    },
+    {
+      "company": "Mankind Pharma Limited",
+      "category": "Scheme of Arrangement",
+      "windowStart": "26 Oct 2026",
+      "windowEnd": "26 Oct 2026",
+      "ids": [
+        "nse-MANKIND-26-Oct-2026151739",
+        "nse-MANKIND-26-Oct-2026151515"
+      ],
+      "note": "Potentially related public announcements. Grouped by company, disclosure label and date proximity only; may represent distinct transactions or obligations."
+    },
+    {
+      "company": "Asian Energy Services Limited",
+      "category": "Scheme of Arrangement",
+      "windowStart": "30 Sept 2026",
+      "windowEnd": "15 Oct 2026",
+      "ids": [
+        "nse-ASIANENE-30-Sep-2026105800",
+        "nse-ASIANENE-15-Oct-2026184858"
+      ],
+      "note": "Potentially related public announcements. Grouped by company, disclosure label and date proximity only; may represent distinct transactions or obligations."
+    },
+    {
+      "company": "K.M.Sugar Mills Limited",
+      "category": "Scheme of Arrangement",
+      "windowStart": "22 Aug 2026",
+      "windowEnd": "12 Oct 2026",
+      "ids": [
+        "nse-KMSUGAR-22-Aug-2026184814",
+        "nse-KMSUGAR-15-Sep-2026175543",
+        "nse-KMSUGAR-19-Sep-2026114914",
+        "nse-KMSUGAR-19-Sep-2026114357",
+        "nse-KMSUGAR-01-Oct-2026234733",
+        "nse-KMSUGAR-12-Oct-2026210638"
+      ],
+      "note": "Potentially related public announcements. Grouped by company, disclosure label and date proximity only; may represent distinct transactions or obligations."
+    },
+    {
+      "company": "TD Power Systems Limited",
+      "category": "Qualified Institutional Placement",
+      "windowStart": "12 Oct 2026",
+      "windowEnd": "12 Oct 2026",
+      "ids": [
+        "nse-TDPOWERSYS-12-Oct-2026220730",
+        "nse-TDPOWERSYS-12-Oct-2026200435"
+      ],
+      "note": "Potentially related public announcements. Grouped by company, disclosure label and date proximity only; may represent distinct transactions or obligations."
+    },
+    {
+      "company": "Triveni Engineering & Industries Limited",
+      "category": "Scheme of Arrangement",
+      "windowStart": "11 Jul 2026",
+      "windowEnd": "9 Oct 2026",
+      "ids": [
+        "nse-TRIVENI-11-Jul-2026100720",
+        "nse-TRIVENI-03-Aug-2026144231",
+        "nse-TRIVENI-16-Sep-2026132135",
+        "nse-TRIVENI-09-Oct-2026133643"
+      ],
+      "note": "Potentially related public announcements. Grouped by company, disclosure label and date proximity only; may represent distinct transactions or obligations."
+    },
+    {
+      "company": "PTC Industries Limited",
+      "category": "Qualified Institutional Placement",
+      "windowStart": "6 Oct 2026",
+      "windowEnd": "9 Oct 2026",
+      "ids": [
+        "nse-PTCIL-06-Oct-2026223631",
+        "nse-PTCIL-09-Oct-2026224916"
+      ],
+      "note": "Potentially related public announcements. Grouped by company, disclosure label and date proximity only; may represent distinct transactions or obligations."
+    },
+    {
+      "company": "Inox Green Energy Services Limited",
+      "category": "Qualified Institutional Placement",
+      "windowStart": "24 Sept 2026",
+      "windowEnd": "30 Sept 2026",
+      "ids": [
+        "nse-INOXGREEN-24-Sep-2026174554",
+        "nse-INOXGREEN-30-Sep-2026005657"
+      ],
+      "note": "Potentially related public announcements. Grouped by company, disclosure label and date proximity only; may represent distinct transactions or obligations."
+    },
+    {
+      "company": "Dabur India Limited",
+      "category": "Scheme of Arrangement",
+      "windowStart": "25 Sept 2026",
+      "windowEnd": "26 Sept 2026",
+      "ids": [
+        "nse-DABUR-25-Sep-2026113241",
+        "nse-DABUR-26-Sep-2026133158"
+      ],
+      "note": "Potentially related public announcements. Grouped by company, disclosure label and date proximity only; may represent distinct transactions or obligations."
+    },
+    {
+      "company": "Natco Pharma Limited",
+      "category": "Rights Issue",
+      "windowStart": "9 Sept 2026",
+      "windowEnd": "25 Sept 2026",
+      "ids": [
+        "nse-NATCOPHARM-09-Sep-2026174859",
+        "nse-NATCOPHARM-25-Sep-2026111744"
+      ],
+      "note": "Potentially related public announcements. Grouped by company, disclosure label and date proximity only; may represent distinct transactions or obligations."
+    },
+    {
+      "company": "Aditya Infotech Limited",
+      "category": "Qualified Institutional Placement",
+      "windowStart": "22 Sept 2026",
+      "windowEnd": "25 Sept 2026",
+      "ids": [
+        "nse-CPPLUS-22-Sep-2026200928",
+        "nse-CPPLUS-25-Sep-2026214312"
+      ],
+      "note": "Potentially related public announcements. Grouped by company, disclosure label and date proximity only; may represent distinct transactions or obligations."
+    },
+    {
+      "company": "Go Digit General Insurance Limited",
+      "category": "Scheme of Arrangement",
+      "windowStart": "29 Jul 2026",
+      "windowEnd": "23 Sept 2026",
+      "ids": [
+        "nse-GODIGIT-29-Jul-2026183529",
+        "nse-GODIGIT-01-Sep-2026203609",
+        "nse-GODIGIT-23-Sep-2026193041"
+      ],
+      "note": "Potentially related public announcements. Grouped by company, disclosure label and date proximity only; may represent distinct transactions or obligations."
+    },
+    {
+      "company": "Neogen Chemicals Limited",
+      "category": "Qualified Institutional Placement",
+      "windowStart": "10 Sept 2026",
+      "windowEnd": "17 Sept 2026",
+      "ids": [
+        "nse-NEOGEN-10-Sep-2026200158",
+        "nse-NEOGEN-16-Sep-2026224124",
+        "nse-NEOGEN-17-Sep-2026003746"
+      ],
+      "note": "Potentially related public announcements. Grouped by company, disclosure label and date proximity only; may represent distinct transactions or obligations."
+    },
+    {
+      "company": "Larsen & Toubro Limited",
+      "category": "Scheme of Arrangement",
+      "windowStart": "24 Jun 2026",
+      "windowEnd": "1 Sept 2026",
+      "ids": [
+        "nse-LT-24-Jun-2026190058",
+        "nse-LT-04-Aug-2026195021",
+        "nse-LT-01-Sep-2026184741"
+      ],
+      "note": "Potentially related public announcements. Grouped by company, disclosure label and date proximity only; may represent distinct transactions or obligations."
+    },
+    {
+      "company": "Shanti Gold International Limited",
+      "category": "Rights Issue",
+      "windowStart": "31 Jul 2026",
+      "windowEnd": "31 Jul 2026",
+      "ids": [
+        "nse-SHANTIGOLD-31-Jul-2026134300",
+        "nse-SHANTIGOLD-31-Jul-2026135249"
+      ],
+      "note": "Potentially related public announcements. Grouped by company, disclosure label and date proximity only; may represent distinct transactions or obligations."
+    },
+    {
+      "company": "Siyaram Silk Mills Limited",
+      "category": "Scheme of Arrangement",
+      "windowStart": "22 Jul 2026",
+      "windowEnd": "29 Jul 2026",
+      "ids": [
+        "nse-SIYSIL-22-Jul-2026170850",
+        "nse-SIYSIL-29-Jul-2026191639"
+      ],
+      "note": "Potentially related public announcements. Grouped by company, disclosure label and date proximity only; may represent distinct transactions or obligations."
+    },
+    {
+      "company": "Astral Limited",
+      "category": "Scheme of Arrangement",
+      "windowStart": "25 Jun 2026",
+      "windowEnd": "29 Jul 2026",
+      "ids": [
+        "nse-ASTRAL-25-Jun-2026191202",
+        "nse-ASTRAL-05-Jul-2026150140",
+        "nse-ASTRAL-29-Jul-2026190335"
+      ],
+      "note": "Potentially related public announcements. Grouped by company, disclosure label and date proximity only; may represent distinct transactions or obligations."
+    },
+    {
+      "company": "Kitex Garments Limited",
+      "category": "Scheme of Arrangement",
+      "windowStart": "10 Jul 2026",
+      "windowEnd": "27 Jul 2026",
+      "ids": [
+        "nse-KITEX-10-Jul-2026191913",
+        "nse-KITEX-24-Jul-2026235543",
+        "nse-KITEX-27-Jul-2026203311"
+      ],
+      "note": "Potentially related public announcements. Grouped by company, disclosure label and date proximity only; may represent distinct transactions or obligations."
+    },
+    {
+      "company": "Ugro Capital Limited",
+      "category": "Scheme of Arrangement",
+      "windowStart": "10 Jul 2026",
+      "windowEnd": "17 Jul 2026",
+      "ids": [
+        "nse-UGROCAP-10-Jul-2026185942",
+        "nse-UGROCAP-17-Jul-2026173636"
+      ],
+      "note": "Potentially related public announcements. Grouped by company, disclosure label and date proximity only; may represent distinct transactions or obligations."
+    },
+    {
+      "company": "Craftsman Automation Limited",
+      "category": "Qualified Institutional Placement",
+      "windowStart": "18 Jun 2026",
+      "windowEnd": "18 Jun 2026",
+      "ids": [
+        "nse-CRAFTSMAN-18-Jun-2026230734",
+        "nse-CRAFTSMAN-18-Jun-2026220839"
+      ],
+      "note": "Potentially related public announcements. Grouped by company, disclosure label and date proximity only; may represent distinct transactions or obligations."
+    }
+  ],
+  "disclaimer": "Candidate groupings by company/label/time only; not verified as one economic transaction."
+}

@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-11-19T17:00:19.459Z",
+  "updatedAt": "2026-11-19T17:53:00.886Z",
   "events": [
+    {
+      "id": "azb-hlc-cam-linklaters-act-on-aegis-logistics-3500-crore-qip",
+      "headline": "Aegis Logistics closes ₹3,500-crore QIP; 28.93 million shares allocated at ₹1,210",
+      "date": "2026-11-19T17:53:00.885Z",
+      "kind": "record-updated",
+      "changes": [
+        "Named legal advisers updated"
+      ]
+    },
+    {
+      "id": "khaitan-co-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-molbio-diagnostics-939-crore-ipo",
+      "headline": "Molbio Diagnostics IPO: ₹939.7 cr book-built raise comprising ₹200 cr fresh issue & ₹739.7 cr OFS, listed Aug 17 at ₹980/share (21% premium).",
+      "date": "2026-11-19T17:53:00.885Z",
+      "kind": "record-updated",
+      "changes": [
+        "Named legal advisers updated"
+      ]
+    },
+    {
+      "id": "trilegal-tta-hogan-lovells-cadwalader-act-on-apar-industries-2500-crore-qip",
+      "headline": "<b>APAR Industries completes ₹2,500 cr QIP at ₹14,805/share</b>, placing 16.88 lakh shares to institutional buyers.",
+      "date": "2026-11-19T17:53:00.885Z",
+      "kind": "record-updated",
+      "changes": [
+        "Named legal advisers updated"
+      ]
+    },
     {
       "id": "NSE-rss-34dfb2854b48c73319d513",
       "headline": "One 97 Communications Limited",

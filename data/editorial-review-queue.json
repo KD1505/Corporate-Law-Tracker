@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-19T17:00:17.307Z",
-  "totalExceptions": 1146,
+  "generatedAt": "2026-11-19T17:52:58.150Z",
+  "totalExceptions": 1429,
   "queued": 500,
   "note": "A bounded editor review queue, not a claim that all flagged entries have been manually checked.",
   "items": [
@@ -15,13 +15,13 @@
       ]
     },
     {
-      "id": "255-million-in-legal-fees-the-law-firms-behind-spacexs-75-billion-ipo",
-      "headline": "SpaceX completes $75 billion IPO at $135/share, valued at ~$1.78 trillion; Gibson Dunn lead counsel",
+      "id": "azb-hlc-cam-linklaters-act-on-aegis-logistics-3500-crore-qip",
+      "headline": "Aegis Logistics closes ₹3,500-crore QIP; 28.93 million shares allocated at ₹1,210",
       "kind": "deal",
       "importance": "hi",
-      "score": 76,
+      "score": 85,
       "reasons": [
-        "High-impact record without a matched specific official filing"
+        "Unverified purported legal adviser: Hogan Lovells Cadwalader"
       ]
     },
     {
@@ -363,7 +363,7 @@
       "importance": "md",
       "score": 48,
       "reasons": [
-        "Unverified purported legal adviser: T T & A (Talwani & Associates)"
+        "Unverified purported legal adviser: T T & A (Talwani & Associates), Hogan Lovells Cadwalader"
       ]
     },
     {
@@ -384,6 +384,16 @@
       "score": 48,
       "reasons": [
         "Unverified purported legal adviser: TT&A (Transamerica & Associates / T&A)"
+      ]
+    },
+    {
+      "id": "khaitan-co-cyril-amarchand-mangaldas-hogan-lovells-cadwalader-act-on-molbio-diagnostics-939-crore-ipo",
+      "headline": "Molbio Diagnostics IPO: ₹939.7 cr book-built raise comprising ₹200 cr fresh issue & ₹739.7 cr OFS, listed Aug 17 at ₹980/share (21% premium).",
+      "kind": "deal",
+      "importance": "md",
+      "score": 45,
+      "reasons": [
+        "Unverified purported legal adviser: Hogan Lovells Cadwalader"
       ]
     },
     {
@@ -3187,13 +3197,143 @@
       ]
     },
     {
+      "id": "255-million-in-legal-fees-the-law-firms-behind-spacexs-75-billion-ipo",
+      "headline": "SpaceX completes $75 billion IPO at $135/share, valued at ~$1.78 trillion; Gibson Dunn lead counsel",
+      "kind": "needs-research",
+      "importance": "hi",
+      "score": 76,
+      "reasons": [
+        "Global transaction lacks a documented Indian market, client or legal-adviser connection"
+      ]
+    },
+    {
+      "id": "nse-HAPPSTMNDS-31-Aug-2026194145",
+      "headline": "Happiest Minds Technologies Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "hi",
+      "score": 55,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-JSWINFRA-01-Jul-2026153239",
+      "headline": "JSW Infrastructure Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "hi",
+      "score": 55,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-SIGMAADV-27-Jul-2026072236",
+      "headline": "SIGMA ADVANCED SYSTEMS LIMITED: Press Release",
+      "kind": "needs-research",
+      "importance": "md",
+      "score": 47,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "veritas-legal-norton-rose-fulbright-freshfields-act-on-aegis-logistics-809-million-majority-stake-acquisition-in-tristar",
+      "headline": "Veritas Legal, Norton Rose Fulbright, Freshfields act on Aegis Logistics' $809 million majority stake acquisition in Tristar Holdings",
+      "kind": "needs-research",
+      "importance": "md",
+      "score": 45,
+      "reasons": [
+        "Global transaction lacks a documented Indian market, client or legal-adviser connection"
+      ]
+    },
+    {
+      "id": "nse-SAMMAANCAP-25-Sep-2026125305",
+      "headline": "Sammaan Capital Limited: Updates",
+      "kind": "needs-research",
+      "importance": "md",
+      "score": 45,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-CDSL-28-Jul-2026185351",
+      "headline": "Central Depository Services (India) Limited: Updates",
+      "kind": "needs-research",
+      "importance": "md",
+      "score": 45,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-SAMMAANCAP-03-Jul-2026121605",
+      "headline": "Sammaan Capital Limited: Updates",
+      "kind": "needs-research",
+      "importance": "md",
+      "score": 45,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-PRESTIGE-26-Mar-2026192220",
+      "headline": "Prestige Estates Projects Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "md",
+      "score": 45,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-SAMMAANCAP-24-Mar-2026220516",
+      "headline": "Sammaan Capital Limited: Updates",
+      "kind": "needs-research",
+      "importance": "md",
+      "score": 45,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-IRFC-25-May-2026114603",
+      "headline": "Indian Railway Finance Corporation Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "md",
+      "score": 45,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-JMFINANCIL-04-Nov-2026175444",
+      "headline": "JM Financial Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "md",
+      "score": 35,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-PIRAMALFIN-31-Aug-2026073110",
+      "headline": "Piramal Finance Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "md",
+      "score": 35,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
       "id": "nse-STLTECH-02-Jul-2026190147",
       "headline": "Sterlite Technologies Limited: Press Release",
       "kind": "needs-research",
       "importance": "md",
       "score": 35,
       "reasons": [
-        "Generic filing headline without material transaction facts"
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
       ]
     },
     {
@@ -3203,7 +3343,17 @@
       "importance": "md",
       "score": 35,
       "reasons": [
-        "Generic filing headline without material transaction facts"
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-MANINFRA-29-Apr-2026103059",
+      "headline": "Man Infraconstruction Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "md",
+      "score": 35,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
       ]
     },
     {
@@ -3213,7 +3363,37 @@
       "importance": "md",
       "score": 35,
       "reasons": [
-        "Generic filing headline without material transaction facts"
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-SIGNATURE-14-Feb-2026121208",
+      "headline": "Signatureglobal (India) Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "md",
+      "score": 35,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-SIGMAADV-26-Oct-2026193822",
+      "headline": "SIGMA ADVANCED SYSTEMS LIMITED: Press Release",
+      "kind": "needs-research",
+      "importance": "md",
+      "score": 34,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-SIGMAADV-21-Oct-2026101008",
+      "headline": "SIGMA ADVANCED SYSTEMS LIMITED: Press Release",
+      "kind": "needs-research",
+      "importance": "md",
+      "score": 34,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
       ]
     },
     {
@@ -3427,6 +3607,16 @@
       ]
     },
     {
+      "id": "nse-SIGMAADV-14-Jul-2026064722",
+      "headline": "SIGMA ADVANCED SYSTEMS LIMITED: Press Release",
+      "kind": "needs-research",
+      "importance": "md",
+      "score": 32,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
       "id": "nse-AHLWEST-01-Jul-2026122259",
       "headline": "Chaman Lal Brijrani Charitale Trust files substantial acquisition disclosure under SEBI Takeover Code",
       "kind": "disclosure",
@@ -3547,6 +3737,16 @@
       ]
     },
     {
+      "id": "which-law-firms-are-advising-on-anthropics-ipo",
+      "headline": "Which law firms are advising on Anthropic's IPO?",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 28,
+      "reasons": [
+        "Global transaction lacks a documented Indian market, client or legal-adviser connection"
+      ]
+    },
+    {
       "id": "nse-RTNINDIA-06-Jul-2026115622",
       "headline": "Arbutus Consultancy LLP Files SEBI Takeover Disclosure for RattanIndia Enterprises",
       "kind": "disclosure",
@@ -3583,7 +3783,17 @@
       "importance": "lo",
       "score": 23,
       "reasons": [
-        "Generic filing headline without material transaction facts"
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-SHREEJISPG-02-Nov-2026195937",
+      "headline": "Shreeji Shipping Global Limited: Updates",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
       ]
     },
     {
@@ -3597,13 +3807,23 @@
       ]
     },
     {
+      "id": "nse-AXISCADES-15-Oct-2026091240",
+      "headline": "AXISCADES Technologies Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
       "id": "nse-TEMBO-08-Oct-2026110741",
       "headline": "Tembo Global Industries Limited: Updates",
       "kind": "needs-research",
       "importance": "lo",
       "score": 23,
       "reasons": [
-        "Generic filing headline without material transaction facts"
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
       ]
     },
     {
@@ -3614,6 +3834,26 @@
       "score": 23,
       "reasons": [
         "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-MEDANTA-29-Sep-2026120048",
+      "headline": "Global Health Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-ANURAS-28-Sep-2026195818",
+      "headline": "Anupam Rasayan India Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
       ]
     },
     {
@@ -3647,6 +3887,16 @@
       ]
     },
     {
+      "id": "nse-VCL-18-Sep-2026155656",
+      "headline": "Vaxtex Cotfab Limited: Updates",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
       "id": "nse-MOMSBELIEF-17-Sep-2026174524",
       "headline": "Rays of Belief Limited: Acquisition",
       "kind": "needs-research",
@@ -3663,7 +3913,17 @@
       "importance": "lo",
       "score": 23,
       "reasons": [
-        "Generic filing headline without material transaction facts"
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-PREMIERENE-10-Sep-2026194734",
+      "headline": "Premier Energies Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
       ]
     },
     {
@@ -3683,7 +3943,7 @@
       "importance": "lo",
       "score": 23,
       "reasons": [
-        "Generic filing headline without material transaction facts"
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
       ]
     },
     {
@@ -3697,6 +3957,16 @@
       ]
     },
     {
+      "id": "nse-TEMBO-28-Jul-2026113421",
+      "headline": "Tembo Global Industries Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
       "id": "nse-MPSLTD-21-Jul-2026173445",
       "headline": "MPS Limited: Acquisition",
       "kind": "needs-research",
@@ -3707,13 +3977,23 @@
       ]
     },
     {
+      "id": "nse-PDSL-14-Jul-2026201722",
+      "headline": "PDS Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
       "id": "nse-SWELECTES-14-Jul-2026201218",
       "headline": "Swelect Energy Systems Limited: Updates",
       "kind": "needs-research",
       "importance": "lo",
       "score": 23,
       "reasons": [
-        "Generic filing headline without material transaction facts"
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
       ]
     },
     {
@@ -3733,7 +4013,7 @@
       "importance": "lo",
       "score": 23,
       "reasons": [
-        "Generic filing headline without material transaction facts"
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
       ]
     },
     {
@@ -3743,7 +4023,17 @@
       "importance": "lo",
       "score": 23,
       "reasons": [
-        "Generic filing headline without material transaction facts"
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-ADANIENT-02-Jul-2026171843",
+      "headline": "Adani Enterprises Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
       ]
     },
     {
@@ -3767,13 +4057,123 @@
       ]
     },
     {
+      "id": "nse-FORTIS-28-Oct-2026191257",
+      "headline": "Fortis Healthcare Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 22,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-GULFPETRO-01-Oct-2026192546",
+      "headline": "GP Petroleums Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 22,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-CIFL-29-Sep-2026180118",
+      "headline": "Capital India Finance Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 22,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-AEQUS-25-Sep-2026191528",
+      "headline": "Aequs Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 22,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-NEOGEN-21-Sep-2026160131",
+      "headline": "Neogen Chemicals Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 22,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
       "id": "nse-JUNIPER-16-Sep-2026151557",
       "headline": "Juniper Hotels Limited: Press Release",
       "kind": "needs-research",
       "importance": "lo",
       "score": 22,
       "reasons": [
-        "Generic filing headline without material transaction facts"
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "saga-legal-advises-on-ultrahuman-on-70-million-fundraise",
+      "headline": "Saga Legal advises Ultrahuman on $70 million fundraise",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 22,
+      "reasons": [
+        "Global transaction lacks a documented Indian market, client or legal-adviser connection"
+      ]
+    },
+    {
+      "id": "nse-NAZARA-03-Aug-2026221549",
+      "headline": "Nazara Technologies Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 22,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-GREAVESCOT-03-Aug-2026101638",
+      "headline": "Greaves Cotton Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 22,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-BRIGADE-29-Jul-2026184513",
+      "headline": "Brigade Enterprises Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 22,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-SIGMAADV-12-Mar-2026163148",
+      "headline": "SIGMA ADVANCED SYSTEMS LIMITED: Press Release",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 22,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
+      ]
+    },
+    {
+      "id": "nse-PATELENG-23-Feb-2026155114",
+      "headline": "Patel Engineering Limited: Updates",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 22,
+      "reasons": [
+        "Broad exchange update lacks a specific evidenced economic transaction or closing"
       ]
     },
     {
@@ -3824,6 +4224,16 @@
       "score": 21,
       "reasons": [
         "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "novojuris-legal-advises-pinegapai-series-a-fundraise",
+      "headline": "NovoJuris Legal advises on PineGap.ai Series A fundraise",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Global transaction lacks a documented Indian market, client or legal-adviser connection"
       ]
     },
     {
@@ -4594,416 +5004,6 @@
       "score": 17,
       "reasons": [
         "Unverified purported legal adviser: Unknown"
-      ]
-    },
-    {
-      "id": "nse-ENGINERSIN-07-Jul-2026105218",
-      "headline": "Government files SEBI takeover disclosure for Engineers India Limited under Regulation 31(4)",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: Ministry of Petroleum & Natural Gas (Government of India)"
-      ]
-    },
-    {
-      "id": "nse-RTNINDIA-06-Jul-2026115907",
-      "headline": "Santosh Kumar Sharma files substantial acquisition disclosure under SEBI Takeover Regulations for Rattan India Enterprises",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —"
-      ]
-    },
-    {
-      "id": "nse-RAINBOW-03-Jul-2026130815",
-      "headline": "Rainbow Childrens Medicare files SEBI Regulation 31(4) takeover disclosure with NSE",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —"
-      ]
-    },
-    {
-      "id": "nse-DPABHUSHAN-01-Jul-2026113836",
-      "headline": "Sanjay Kataria files substantial acquisition disclosure under SEBI Takeover Code",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —"
-      ]
-    },
-    {
-      "id": "nse-SOLARWORLD-30-Jun-2026125554",
-      "headline": "Kartik Teltia files substantial acquisition disclosure under SEBI Regulation 31(4) for Solarworld Energy Solutions Limited",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —, —"
-      ]
-    },
-    {
-      "id": "nse-BAGFILMS-30-Jun-2026125354",
-      "headline": "B.A.G Films and Media Limited files SEBI Takeover Disclosure under Regulation 31(4)",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —"
-      ]
-    },
-    {
-      "id": "nse-GPTHEALTH-29-Jun-2026190747",
-      "headline": "Atul Tantia files SEBI Reg 31(4) substantial acquisition disclosure for GPT Healthcare",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —, —"
-      ]
-    },
-    {
-      "id": "nse-LATENTVIEW-29-Jun-2026161730",
-      "headline": "Substantial shareholder disclosure by Adugudi Viswanathan Venkatraman in Latent View Analytics under SEBI takeover regulations",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —"
-      ]
-    },
-    {
-      "id": "nse-SUPRIYA-29-Jun-2026161717",
-      "headline": "Satish Waman Wagh files SEBI Regulation 31(4) takeover disclosure for Supriya Lifescience",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —, —"
-      ]
-    },
-    {
-      "id": "nse-AARTISURF-24-Jun-2026120734",
-      "headline": "Parimal Hasmukhlal Desai files SEBI Regulation 31(4) substantial acquisition disclosure for Aarti Surfactants",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: Bar & Bench (Reporting)"
-      ]
-    },
-    {
-      "id": "nse-BANDHANBNK-24-Jun-2026120620",
-      "headline": "Quardra Medical Services Ltd discloses substantial acquisition under SEBI Takeover Regulations",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —"
-      ]
-    },
-    {
-      "id": "nse-UBL-23-Jun-2026182946",
-      "headline": "Heineken UK Limited Files Substantial Acquisition Disclosure Under SEBI Takeover Regulations for United Breweries",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —, —"
-      ]
-    },
-    {
-      "id": "nse-BSL-23-Jun-2026182616",
-      "headline": "Nivedan Churiwal files SEBI Regulation 31(4) disclosure for BSL Limited stake acquisition",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —, —"
-      ]
-    },
-    {
-      "id": "nse-SPENCERS-23-Jun-2026182600",
-      "headline": "Rainbow Investments Limited files Regulation 31(4) disclosure with NSE for substantial acquisition in Spencer's Retail",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —, —"
-      ]
-    },
-    {
-      "id": "nse-SWSOLAR-22-Jun-2026110621",
-      "headline": "Reliance New Energy discloses substantial acquisition of Sterling and Wilson Renewable Energy",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —"
-      ]
-    },
-    {
-      "id": "nse-CUB-23-Jun-2026183100",
-      "headline": "City Union Bank Limited: Outcome of Board Meeting - Fund Raising through QIP",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —"
-      ]
-    },
-    {
-      "id": "nse-CESC-22-Jun-2026191611",
-      "headline": "CESC Limited: Disclosure under SEBI Takeover Regulations by Rainbow Investments Limited",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —, —"
-      ]
-    },
-    {
-      "id": "nse-JITFINFRA-22-Jun-2026174303",
-      "headline": "Siddeshwari Tradex files substantial acquisition disclosure for JITF Infralogistics",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —, —"
-      ]
-    },
-    {
-      "id": "nse-ORICONENT-22-Jun-2026174158",
-      "headline": "Suhrid Somani files SEBI Regulation 31(4) substantial acquisition disclosure for Oricon Enterprises",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —"
-      ]
-    },
-    {
-      "id": "nse-PCBL-22-Jun-2026155850",
-      "headline": "Dotex Merchandise files substantial acquisition disclosure in PCBL Chemical",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —, —"
-      ]
-    },
-    {
-      "id": "nse-HTMEDIA-19-Jun-2026144002",
-      "headline": "HT Media Limited: SEBI Takeover Regulation 31(4) Disclosure Filed",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —"
-      ]
-    },
-    {
-      "id": "nse-KPRMILL-19-Jun-2026131213",
-      "headline": "N Jayanthi files substantial acquisition disclosure under SEBI Takeover Code for K.P.R. Mill Limited",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —"
-      ]
-    },
-    {
-      "id": "nse-QUADFUTURE-19-Jun-2026131148",
-      "headline": "Quadrant Future Tek: SEBI Takeover Disclosure by Mohit Vohra",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: Unknown"
-      ]
-    },
-    {
-      "id": "nse-MBAPL-19-Jun-2026130102",
-      "headline": "Madhya Bharat Agro Products Limited files SEBI Regulation 31(4) disclosure on substantial acquisition of shares.",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —, —"
-      ]
-    },
-    {
-      "id": "nse-TEXINFRA-19-Jun-2026125854",
-      "headline": "Shradha Agarwala Files SEBI Takeover Disclosure Under Regulation 31(4) for Texmaco Infrastructure",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —, —"
-      ]
-    },
-    {
-      "id": "nse-JTEKTINDIA-19-Jun-2026125743",
-      "headline": "JTEKT Corporation files substantial acquisition disclosure under SEBI Takeover Code",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —, —"
-      ]
-    },
-    {
-      "id": "nse-JUSTDIAL-19-Jun-2026124529",
-      "headline": "Ramani Iyer discloses substantial acquisition intent in Just Dial under SEBI Takeover Code",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —, —"
-      ]
-    },
-    {
-      "id": "nse-SEDEMAC-19-Jun-2026124111",
-      "headline": "Prof. Shashikanth Suryanarayanan discloses substantial acquisition in SEDEMAC Mechatronics Limited under SEBI Takeover Code",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —, —"
-      ]
-    },
-    {
-      "id": "nse-3MINDIA-19-Jun-2026124051",
-      "headline": "3M Company Initiates Takeover of 3M India Limited; Disclosure Filed under SEBI Regulation 31(4)",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —, —"
-      ]
-    },
-    {
-      "id": "nse-INOXINDIA-19-Jun-2026151102",
-      "headline": "Minal Somany Discloses Substantial Acquisition in INOX India under SEBI Takeover Code",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —, —"
-      ]
-    },
-    {
-      "id": "nse-VALIANTORG-19-Jun-2026150033",
-      "headline": "Vicky Hemchand Gala triggers SEBI takeover disclosure for Valiant Organics",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —, —"
-      ]
-    },
-    {
-      "id": "nse-QUESS-19-Jun-2026150017",
-      "headline": "Ajit Abraham Isaac and Isaac Enterprises LLP file SEBI Takeover disclosure for Quess Corp Limited",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —"
-      ]
-    },
-    {
-      "id": "nse-KSHINTL-18-Jun-2026110830",
-      "headline": "Rajesh Kushal Hegde files SEBI takeover disclosure for KSH International Limited",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —"
-      ]
-    },
-    {
-      "id": "nse-NEPHROPLUS-18-Jun-2026110540",
-      "headline": "Investcorp Private Equity Fund II files SEBI Reg 31(4) substantial acquisition disclosure for Nephrocare Health Services",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —, —"
-      ]
-    },
-    {
-      "id": "nse-MMFIN-18-Jun-2026103511",
-      "headline": "Mahindra & Mahindra Limited files SEBI Takeover disclosure for MMFSL stake",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: Legal counsel to Mahindra and Mahindra Limited / MMFSL"
-      ]
-    },
-    {
-      "id": "nse-KUNDANMM-12-Nov-2026213948",
-      "headline": "Kundan Minerals and Metals Limited: Acquisition",
-      "kind": "needs-research",
-      "importance": "lo",
-      "score": 13,
-      "reasons": [
-        "Generic filing headline without material transaction facts"
-      ]
-    },
-    {
-      "id": "nse-SKYWAYS-12-Nov-2026211422",
-      "headline": "Skyways Air Services Limited: Acquisition",
-      "kind": "needs-research",
-      "importance": "lo",
-      "score": 13,
-      "reasons": [
-        "Generic filing headline without material transaction facts"
-      ]
-    },
-    {
-      "id": "nse-JNPR-12-Nov-2026210941",
-      "headline": "Juniper Green Energy Limited: Acquisition",
-      "kind": "needs-research",
-      "importance": "lo",
-      "score": 13,
-      "reasons": [
-        "Generic filing headline without material transaction facts"
-      ]
-    },
-    {
-      "id": "nse-MAITHANALL-12-Nov-2026150231",
-      "headline": "Maithan Alloys Limited: Others",
-      "kind": "needs-research",
-      "importance": "lo",
-      "score": 13,
-      "reasons": [
-        "Generic filing headline without material transaction facts"
-      ]
-    },
-    {
-      "id": "nse-PHOENIXLTD-12-Nov-2026141710",
-      "headline": "The Phoenix Mills Limited: Acquisition",
-      "kind": "needs-research",
-      "importance": "lo",
-      "score": 13,
-      "reasons": [
-        "Generic filing headline without material transaction facts"
-      ]
-    },
-    {
-      "id": "nse-ECLERX-12-Nov-2026131018",
-      "headline": "eClerx Services Limited: Press Release",
-      "kind": "needs-research",
-      "importance": "lo",
-      "score": 13,
-      "reasons": [
-        "Generic filing headline without material transaction facts"
       ]
     }
   ]
