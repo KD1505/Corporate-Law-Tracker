@@ -24,6 +24,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { attachEvidenceDossier } from "./deal-evidence.mjs";
+import { groupPossibleRelatedFilings } from "./transaction-threads.mjs";
 import { sanitiseDeal, dossierCounts } from "./quality.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -205,6 +206,7 @@ ${d.evidenceDossier && !d.transaction ? `<h2>Source coverage and evidentiary lim
 ${d.evidenceDossier.facts?.length ? `<h3>Evidence-linked findings</h3><ul class="links">${d.evidenceDossier.facts.map(f=>`<li><b>${esc(f.label || "Documented fact")}</b>: ${esc(f.fact)} <a href="${esc(f.sourceUrl)}" rel="nofollow">Source</a> ${f.status?`(${esc(f.status)})`:""}</li>`).join("")}</ul>` : ""}
 ${d.evidenceDossier.gaps?.length ? `<h3>Documentation gaps to verify</h3><ul class="links">${d.evidenceDossier.gaps.map(g=>`<li>${esc(g)}</li>`).join("")}</ul>` : ""}` : ""}
 ${(d.editorialCautions||[]).length?`<h2>Editorial cautions</h2><ul class="links">${d.editorialCautions.map(c=>`<li>${esc(c)}</li>`).join("")}</ul>`:""}
+${(d.possibleRelatedFilings||[]).length?`<h2>Possibly related filings</h2><p><b>Research lead, not a verified single transaction:</b> ${esc(d.relatedDisclosureCaution)}</p><ul class="links">${d.possibleRelatedFilings.map(f=>`<li><a href="/d/${encodeURIComponent(f.id)}.html">${esc(f.headline)}</a> · ${esc(f.time||"")}</li>`).join("")}</ul>`:""}
 ${(d.sources&&d.sources.length)?`<h2>Sources</h2><ul class="links">${d.sources.map(s=>`<li><a href="${esc(s.url)}" rel="nofollow">${esc(s.name)}</a>${s.official?" · official":""}</li>`).join("")}</ul>`:""}
 <a class="cta" href="/#/deal/${encodeURIComponent(d.id)}">Open in the live tracker →</a>
 <p style="font-size:13px;margin-top:14px"><a href="mailto:corrections@corplawtracker.com?subject=${encodeURIComponent("Source or factual correction: "+d.id)}&body=${encodeURIComponent("Deal: "+canonical+"\nPlease describe the correction and attach or link the primary evidence:")}">Report a factual error on this record</a></p>
@@ -498,6 +500,9 @@ const publishedRecords = (DATA.DEALS||[]).map(sanitiseDeal).map(attachEvidenceDo
 const filingArchive = publishedRecords.filter(d=>d.quality.kind!=="deal");
 const auditStats = dossierCounts(publishedRecords);
 const all = publishedRecords.filter(d=>d.quality.kind==="deal").sort((a,b)=>pdate(b.time)-pdate(a.time));
+const candidateFilingThreads=groupPossibleRelatedFilings(publishedRecords);
+fs.writeFileSync(path.join(ROOT,"data","related-filings.json"),JSON.stringify({updatedAt:new Date().toISOString(),candidates:candidateFilingThreads,disclaimer:"Candidate groupings by company/label/time only; not verified as one economic transaction."},null,2)+"\n");
+console.log("possible related filing threads:",candidateFilingThreads.length);
 console.log("quality gate: "+JSON.stringify(auditStats));
 fs.mkdirSync(path.join(ROOT,"data"),{recursive:true});
 fs.writeFileSync(path.join(ROOT,"data","filings.json"),JSON.stringify(filingArchive.map(d=>({id:d.id,headline:d.headline,time:d.time,reason:d.quality.reason,source:d.sources[0]?.url||""})))+"\n");
