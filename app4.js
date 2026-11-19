@@ -413,6 +413,24 @@ function cltCuratedFacts(d) {
    </section>`;
 }
 
+// Published for all deals by the deterministic evidence pipeline.
+// A disclosure gap is an unknown in our sourced record, not a negative fact.
+function cltEvidencePanel(d) {
+  const r=d.evidenceDossier;
+  if (!r || (d.transaction && d.openOffer)) return "";
+  const esc=x=>String(x??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  const findings=(r.facts||[]).map(f=>
+    '<li style="margin:7px 0"><b>'+esc(f.label||"Documented fact")+':</b> '+esc(f.fact)
+    +' <a href="'+esc(f.sourceUrl)+'" target="_blank" rel="noopener noreferrer">Evidence ↗</a>'
+    +(f.status?' <span style="color:var(--ink3)">('+esc(f.status)+')</span>':"")+'</li>').join("");
+  const gaps=(r.gaps||[]).slice(0,7).map(g=>'<li style="margin:7px 0">'+esc(g)+'</li>').join("");
+  return '<section class="sec" id="sec-evidence"><h4>Research file · coverage &amp; limitations</h4>'
+    +'<p><b>'+esc(r.depth||"Source-linked record")+'</b> — '+esc(r.coverageStatement||"")+'</p>'
+    +(findings?'<div style="font-size:12px;font-weight:650;margin:14px 0 5px">Findings tied to a source</div><ul style="padding-left:18px">'+findings+'</ul>':"")
+    +(gaps?'<div style="font-size:12px;font-weight:650;margin:14px 0 5px">What the available record does not establish</div><ul style="padding-left:18px">'+gaps+'</ul>':"")
+    +'<p style="font-size:12px;color:var(--ink3);margin-top:10px">A filing link does not verify every statement. Read the original filing; no missing terms have been inferred.</p></section>';
+}
+
 function renderDeal(id){
   const d=DEALS.find(x=>x.id===id); if(!d){go({name:"feed"});return;}
   if(window.CLT_SPLIT && d._thin) hydrateDeal(id);
@@ -479,6 +497,7 @@ function renderDeal(id){
          ${(()=>{const su=(d.sum||"").replace(/<[^>]+>/g,"").trim().toLowerCase(),de=(d.detail||"").replace(/<[^>]+>/g,"").trim();return de&&de.toLowerCase().slice(0,60)!==su.slice(0,60)?`<div class="sec"><h4>What happened</h4><p>${d.detail}</p></div>`:"";})()}
          ${structHtml}
          ${cltCuratedFacts(d)}
+         ${cltEvidencePanel(d)}
          ${trigHtml}
          ${fwHtml}
          ${commHtml}
