@@ -327,8 +327,8 @@ function governancePages(all, firms, updated){
 
   govPage("contact","Contact",
     "How to reach CorpLawTracker, including corrections and editorial queries.",
-    `<p class="lead">We read everything sent to these addresses.</p>
-     <h2>Editorial and general</h2><p><a href="mailto:${CONTACT}">${CONTACT}</a> - we aim to respond within one working day.</p>
+    `<p class="lead">For editorial enquiries and corrections, use the addresses below. Email delivery and response times have not been independently verified, and no confidential client information should be submitted.</p>
+     <h2>Editorial and general</h2><p><a href="mailto:${CONTACT}">${CONTACT}</a> - include a clear question and supporting public link.</p>
      <h2>Corrections</h2><p><a href="mailto:${CORRECTIONS}">${CORRECTIONS}</a> - please include the item URL and the primary document. See the <a href="/corrections.html">corrections policy</a>.</p>
      <h2>Editor</h2><p>${esc(EDITOR)}</p>`),
 
@@ -350,8 +350,8 @@ function governancePages(all, firms, updated){
   govPage("corrections","Corrections",
     "CorpLawTracker's corrections policy and public corrections log. We do not silently edit.",
     `<p class="lead">We get things wrong. When we do, we fix the record and say so.</p>
-     <p>Email <a href="mailto:${CORRECTIONS}">${CORRECTIONS}</a> with the item URL and the primary document. We aim to respond within <b>one working day</b> and to correct verified errors within <b>two</b>.</p>
-     <p>Every correction is logged below with the original text, the corrected text and the date. <b>We do not silently edit.</b></p>
+     <p>Email <a href="mailto:${CORRECTIONS}">${CORRECTIONS}</a> with the item URL and the primary document. Please provide the original document and a concise explanation. Corrections are reviewed against available public evidence; no fixed turnaround is guaranteed.</p>
+     <p>Editor-confirmed substantive corrections should be reflected in the public log below. Automated research-record changes are separately recorded in <a href="/changes.html">Research changes</a>. These are different from corrections to factual errors.</p>
      <h2>Corrections log</h2>
      <table><caption>Published corrections</caption>
      <thead><tr><th scope="col">Date</th><th scope="col">Item</th><th scope="col">What was wrong</th><th scope="col">What it now says</th></tr></thead>

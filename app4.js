@@ -320,7 +320,7 @@ function renderFeed(title,list,sub){
     ${toolbarHtml(sorted,{save:anyFilterActive()&&route.name==="feed",sector:route.name==="feed",scope:route.name==="watch"?"watchlist":""})}
     ${body}
     ${home?briefCtaHtml():""}
-    <footer class="foot" role="contentinfo">CorpLawTracker · The decision engine for India's corporate legal market.<br>Headlines &amp; snippets shown under fair-use linking - open the primary source &amp; filings before advising.<br><nav aria-label="About this site" class="footnav"><a href="/about.html">About</a> · <a href="/methodology.html">Methodology</a> · <a href="/coverage.html">Coverage</a> · <a href="/corrections.html">Corrections</a> · <a href="/contact.html">Contact</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></nav></footer>`;
+    <footer class="foot" role="contentinfo">CorpLawTracker · The decision engine for India's corporate legal market.<br>Headlines and research summaries link to original sources; verify primary filings before advising.<br><nav aria-label="About this site" class="footnav"><a href="/about.html">About</a> · <a href="/methodology.html">Methodology</a> · <a href="/coverage.html">Coverage</a> · <a href="/corrections.html">Corrections</a> · <a href="/contact.html">Contact</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></nav></footer>`;
   if(home)buildStats();
   bindCards();bindToolbar(list,label);
   $("main").querySelectorAll("[data-nav]").forEach(n=>n.onclick=()=>go({name:n.dataset.nav}));
