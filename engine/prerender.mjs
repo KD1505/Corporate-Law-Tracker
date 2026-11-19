@@ -523,6 +523,44 @@ fs.writeFileSync(path.join(ROOT,"data","research-status.json"),JSON.stringify(do
 console.log("research coverage:",JSON.stringify(dossierSummary));
 
 
+// Conservative duplicate/exception review queue. Never auto-merge based on title
+// similarity: the same company can make multiple legally distinct filings.
+const dupGroups=new Map();
+for(const d of publishedRecords){
+ const normalized=String(d.headline||"").toLowerCase().replace(/&amp;/g,"&")
+  .replace(/[^\p{L}\p{N}]+/gu," ").replace(/\s+/g," ").trim();
+ if(normalized.length<24)continue;
+ if(!dupGroups.has(normalized))dupGroups.set(normalized,[]);
+ dupGroups.get(normalized).push(d);
+}
+const duplicates=[...dupGroups.entries()].filter(([,arr])=>arr.length>=2)
+ .map(([normalized,arr])=>({headlineKey:normalized,count:arr.length,
+   entries:arr.slice(0,15).map(d=>({id:d.id,headline:d.headline,time:d.time,
+     kind:d.quality.kind,source:d.sources?.[0]?.url||""}))}))
+ .sort((a,b)=>b.count-a.count).slice(0,350);
+fs.writeFileSync(path.join(ROOT,"data","duplicate-review.json"),JSON.stringify({
+ generatedAt:new Date().toISOString(),groups:duplicates,
+ interpretation:"Potential duplicate titles, not confirmation of a common legal transaction. Editor must check parties, document dates, securities and separate milestone events before merging."},null,2)+"\n");
+const qualityExceptions=[];
+for(const d of publishedRecords){
+ const reasons=[];
+ if(d.quality.counselQuarantine?.length)reasons.push("Unverified purported legal adviser: "+d.quality.counselQuarantine.slice(0,3).join(", "));
+ if(d.quality.kind==="needs-research")reasons.push(d.quality.reason);
+ if(d.quality.kind==="deal"&&!d.quality.directOfficialFiling&&d.imp==="hi")reasons.push("High-impact record without a matched specific official filing");
+ if(d.quality.kind==="deal"&&(d.sources||[]).length===0)reasons.push("No published source attached");
+ if(reasons.length)qualityExceptions.push({id:d.id,headline:d.headline,
+  kind:d.quality.kind,importance:d.imp||"lo",score:d.score||0,reasons});
+}
+qualityExceptions.sort((a,b)=>Number(b.kind==="deal")-Number(a.kind==="deal")||
+  Number(b.importance==="hi")-Number(a.importance==="hi")||b.score-a.score);
+fs.writeFileSync(path.join(ROOT,"data","editorial-review-queue.json"),JSON.stringify({
+ generatedAt:new Date().toISOString(),
+ totalExceptions:qualityExceptions.length,queued:Math.min(500,qualityExceptions.length),
+ note:"A bounded editor review queue, not a claim that all flagged entries have been manually checked.",
+ items:qualityExceptions.slice(0,500)},null,2)+"\n");
+console.log("editorial QA:",duplicates.length,"possible duplicate title groups;",
+ qualityExceptions.length,"source/counsel/research exceptions");
+
 // firms aggregate
 const firmMap = new Map();
 for (const d of all) for (const f of dealFirms(d)) { if(!firmMap.has(f)) firmMap.set(f,[]); firmMap.get(f).push(d); }
