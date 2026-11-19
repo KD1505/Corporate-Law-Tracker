@@ -6,7 +6,7 @@ import { isOfficial } from "./score.mjs";
 const VERIFIED_FIRMS = [
  "Cyril Amarchand Mangaldas","Shardul Amarchand Mangaldas","Khaitan & Co",
  "JSA","Trilegal","AZB & Partners","S&R Associates","TT&A","CMS INDUSLAW",
- "Hogan Lovells","Linklaters","Latham & Watkins","A&O Shearman","DSK Legal",
+ "Hogan Lovells","Hogan Lovells Cadwalader","Linklaters","Latham & Watkins","A&O Shearman","DSK Legal",
  "Legacy Law Offices","Saraf and Partners","Vertices Partners","Dentons Link Legal",
  "Sidley Austin","Bharucha & Partners","SNG & Partners","DMD Advocates","NovoJuris",
  "Universal Legal","Economic Laws Practice","Cravath","Rajani Associates",
@@ -104,7 +104,7 @@ function sourceList(sources=[]) {
 // narrow; ambiguous records are visible in a separate archive, never destroyed.
 const ROUTINE_TITLE = /\b(?:monitoring agency report|general updates|copy of newspaper publication|newspaper publication|intimation of (?:board|committee) meeting|scrutinizer(?:'s)? report|trading window closure|regulation 74\(5\)|regulation 31\(4\)|shareholding pattern|book closure|outcome of board meeting|quarterly compliance certificate)\b/i;
 const THIN_HEADLINE = /:\s*(?:updates|others|press release|acquisition|general update|corporate announcement)$/i;
-const REG31 = /\bregulation\s*31\s*\(?4\)?\b/i;
+const REG31 = /\bregulation\s*31\s*\(\s*4\s*\)/i;
 export function recordQuality(d) {
  const headline=String(d?.headline||""),body=String(d?.detail||d?.sum||"");
  if(ROUTINE_TITLE.test(headline)||REG31.test(body))return {kind:"disclosure",reason:"Routine compliance/disclosure, not proof of a new economic transaction"};
@@ -130,7 +130,7 @@ export function sanitiseDeal(d) {
  // Historical curated verified flags are *not* discarded, but the public badge
  // distinguishes editorial review from merely having a linked filing.
  const direct=[...sources.specific,...docs.specific].some(s=>s.sourceKind==="official-filing-link");
- const reviewed=!!(d.transaction&&d.openOffer&&d.verifiedAsOf);
+ const reviewed=!!((d.transaction&&d.openOffer&&d.verifiedAsOf) || (d.editoriallyReviewed===true && d.verifiedAsOf && (d.research?.facts||[]).length>=3 && direct));
  return {...d,stage:evidenceStage(d,q),firms:firm.accepted,
    sources:sources.specific,docs:docs.specific.map(x=>({label:x.name||"Document",url:x.url})),
    researchPortals:[...sources.portals,...docs.portals],sourceQuarantine:[...sources.invalid,...docs.invalid],
