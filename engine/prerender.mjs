@@ -23,6 +23,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { attachEvidenceDossier } from "./deal-evidence.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // Location-robust: find the repo root by locating data.js, whether this file
@@ -198,6 +199,9 @@ ${d.value&&d.value!=="—"?`<div><b>Value</b>${esc(d.value)}</div>`:""}
 </div>
 ${cltCuratedFacts(d)}
 ${(d.framework&&d.framework.length)?`<div class="chips">${d.framework.map(f=>`<span>${esc(f)}</span>`).join("")}</div>`:""}
+${d.evidenceDossier && !d.transaction ? `<h2>Source coverage and evidentiary limitations</h2><p><b>${esc(d.evidenceDossier.depth)}:</b> ${esc(d.evidenceDossier.coverageStatement)}</p>
+${d.evidenceDossier.facts?.length ? `<h3>Evidence-linked findings</h3><ul class="links">${d.evidenceDossier.facts.map(f=>`<li><b>${esc(f.label || "Documented fact")}</b>: ${esc(f.fact)} <a href="${esc(f.sourceUrl)}" rel="nofollow">Source</a> ${f.status?`(${esc(f.status)})`:""}</li>`).join("")}</ul>` : ""}
+${d.evidenceDossier.gaps?.length ? `<h3>Documentation gaps to verify</h3><ul class="links">${d.evidenceDossier.gaps.map(g=>`<li>${esc(g)}</li>`).join("")}</ul>` : ""}` : ""}
 ${(d.sources&&d.sources.length)?`<h2>Sources</h2><ul class="links">${d.sources.map(s=>`<li><a href="${esc(s.url)}" rel="nofollow">${esc(s.name)}</a>${s.official?" · official":""}</li>`).join("")}</ul>`:""}
 <a class="cta" href="/#/deal/${encodeURIComponent(d.id)}">Open in the live tracker →</a>
 ${rel.length?`<h2>Related deals</h2><ul class="links">${rel.map(r=>`<li><a class="card" href="${dealPath(r)}"><span class="ct">${esc(r.headline)}</span><span class="cs">${esc(r.time||"")}${r.value&&r.value!=="—"?" · "+esc(r.value):""}</span></a></li>`).join("")}</ul>`:""}
@@ -439,7 +443,7 @@ function writeDataIndex(all, firms, updated){
 
 /* ============================ MAIN ============================ */
 const DATA = loadData();
-const all = (DATA.DEALS||[]).slice().sort((a,b)=>pdate(b.time)-pdate(a.time));
+const all = (DATA.DEALS||[]).map(attachEvidenceDossier).sort((a,b)=>pdate(b.time)-pdate(a.time));
 
 // firms aggregate
 const firmMap = new Map();
