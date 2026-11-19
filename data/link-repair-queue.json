@@ -1,0 +1,1798 @@
+{
+  "generatedAt": "2026-11-19T16:30:15.791Z",
+  "sourceCheckAt": "2026-11-18",
+  "flaggedURLs": 221,
+  "queuedURLs": 221,
+  "note": "Historical automated 404/410 observations require independent reconfirmation, especially on regulator websites.",
+  "items": [
+    {
+      "url": "https://www.sarvam.ai/press",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "trilegal-tta-cyril-amarchand-mangaldas-act-on-sarvam-ai-300-million-series-b-fundraise"
+      ],
+      "maxPriority": 66
+    },
+    {
+      "url": "https://www.hcl.com/investor-relations",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "trilegal-tta-cyril-amarchand-mangaldas-act-on-sarvam-ai-300-million-series-b-fundraise"
+      ],
+      "maxPriority": 66
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/dec-2014/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_38041.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SAMPANN-27-Feb-2026142831"
+      ],
+      "maxPriority": 65
+    },
+    {
+      "url": "https://agilityglobal.com/about-agility-global/our-business-stories/tristar/",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-AEGISLOG-18-Aug-2026152908"
+      ],
+      "maxPriority": 63
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1704103968_MasterCircular2015Regulations_CFD_01012024.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-BHARATGEAR-04-Jun-2026173124"
+      ],
+      "maxPriority": 61
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/ - (filed with BSE/NSE per Regulation 30 LODR)",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "khaitan-co-trilegal-act-on-spr-auto-technologies-1000-crore-qip"
+      ],
+      "maxPriority": 58
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/eea639e9-d95a-4588-948a-2b336e7b0dcc.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "khaitan-co-trilegal-act-on-spr-auto-technologies-1000-crore-qip"
+      ],
+      "maxPriority": 58
+    },
+    {
+      "url": "https://www.barandbench.com/dealstreet/azb-partners-acts-on-paras-hospitals-1800-crore-proposed-ipo",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "azb-partners-acts-on-paras-hospitals-1800-crore-proposed-ipo"
+      ],
+      "maxPriority": 58
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/97b96ffe-7446-4165-b9d3-0e18dd602bd9.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "trilegal-advises-jupiter-tatravagonka-railwheel-factory-jupiter-wagons-on-strategic-partnership-with-lucchini-rs",
+        "trilegal-advises-jupiter-tatravagonka-railwheel-factory-jupiter-wagons-on-strategic-partnership-with-lucchini-rs"
+      ],
+      "maxPriority": 55
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dcbb7c84-f58e-4f2a-96b4-6f21c6e7c243.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "cyril-amarchand-mangaldas-advises-guardian-life-insurance-company-of-america-on-selling-guardian-india-to-hcl",
+        "cyril-amarchand-mangaldas-advises-guardian-life-insurance-company-of-america-on-selling-guardian-india-to-hcl"
+      ],
+      "maxPriority": 55
+    },
+    {
+      "url": "https://www.nseindia.com/corporate/corporateSearch.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-MAHLIFE-19-Jun-2026161951"
+      ],
+      "maxPriority": 53
+    },
+    {
+      "url": "https://mnre.gov.in/solar/current-policies-supports/guidelines-for-grid-connected-solar-projects/",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "trilegal-advised-patel-greentech-on-tender-process-for-700-mw-solar-project-in-gujarat"
+      ],
+      "maxPriority": 48
+    },
+    {
+      "url": "https://inc42.com/buzz/ev-components-manufacturer-matel-raises-%E2%82%B9130-cr-to-accelerate-r-d/",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "khaitan-co-acts-on-matel-130-crore-series-b-fundraise"
+      ],
+      "maxPriority": 45
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b555173-3fa4-40b0-8390-a8fd0046a106.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "mahindra-mahindra-sells-trucks-and-buses-division-to-sml-mahindra-for-525-crore-khaitan-co-azb-advise"
+      ],
+      "maxPriority": 45
+    },
+    {
+      "url": "https://www.sebi.gov.in/regulations/",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-BASF-24-Jun-2026184729"
+      ],
+      "maxPriority": 43
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1412155227733.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "jsa-advises-hdfc-bank-on-sanctioning-1940-crores-to-indus-infra-trust"
+      ],
+      "maxPriority": 43
+    },
+    {
+      "url": "https://www.mca.gov.in/content/dam/mca/pdf/final_act_13_12_2013.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-LUMAXTECH-29-May-2026183727"
+      ],
+      "maxPriority": 42
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1636372176934_SEBI_INCS_Regulations_2021.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-MWL-24-Feb-2026162030"
+      ],
+      "maxPriority": 42
+    },
+    {
+      "url": "https://www.rbi.org.in/en/web/rbi/publications/-/notification/master-direction-reserve-bank-s-regulatory-framework-for-nbfcs-as-on-25-april-2024-1050",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-MWL-24-Feb-2026162030"
+      ],
+      "maxPriority": 42
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e438ae07-fddc-4979-925e-f1adc252ed8a.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "oriental-hotels-merges-into-the-indian-hotel-company-cyril-amarchand-mangaldas-advises",
+        "oriental-hotels-merges-into-the-indian-hotel-company-cyril-amarchand-mangaldas-advises"
+      ],
+      "maxPriority": 36
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/00e0d62f-c477-488b-9a12-e88f4811eb04.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "oriental-hotels-merges-into-the-indian-hotel-company-cyril-amarchand-mangaldas-advises",
+        "oriental-hotels-merges-into-the-indian-hotel-company-cyril-amarchand-mangaldas-advises"
+      ],
+      "maxPriority": 36
+    },
+    {
+      "url": "https://www.nseindia.com/regulations/listing-agreement",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-JSFB-25-Aug-2026151236",
+        "nse-SAMMAANCAP-25-Aug-2026192657"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/jan-2018/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_40955.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SAMMAANCAP-25-Aug-2026192657"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/dec-2014/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_34701.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SAMMAANCAP-24-Aug-2026184506",
+        "nse-BILVYAPAR-03-Jul-2026165716"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/nov-2007/securities-and-exchange-board-of-india-issue-and-listing-of-debt-securities-regulations-2008_30570.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SAMMAANCAP-24-Aug-2026184506"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/dec-2014/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_34765.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SAMMAANCAP-21-Aug-2026184431"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.nseindia.com/regulations/listing-regulations",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SAMMAANCAP-21-Aug-2026184431"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-AHLEAST-20-Aug-2026180900",
+        "nse-UGROCAP-18-Aug-2026193528",
+        "nse-LEAPIND-17-Aug-2026195426",
+        "nse-VHLTD-14-Aug-2026145105",
+        "nse-OLAELEC-07-Jul-2026180330"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/mar-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_27997.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-ESTER-20-Aug-2026180843"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/nov-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_33826.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-HEXAGON-19-Aug-2026172508"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.nseindia.com/rules-regulations",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-HMAAGRO-13-Aug-2026170918",
+        "nse-NAUKRI-19-Jun-2026154605"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/dec-2014/listing-obligations-and-disclosure-requirements-regulations-2015_37372.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SAMMAANCAP-24-Jul-2026182934"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/jun-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_34621.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SAMMAANCAP-24-Jul-2026182032"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.nseindia.com/corporates/content/corporate_news.htm",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-GVPIL-21-Jul-2026170136"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/jul-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_34839.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SAMMAANCAP-03-Jul-2026192435"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/rules/takeover-code.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-CHOLAFIN-01-Jul-2026115059"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.nseindia.com/corporates/content/corporate_disclosures.htm",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-CHOLAFIN-01-Jul-2026115059"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/substantial-acquisition-shares-and-takeovers-regulations-2011",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-IIFLCAPS-30-Jun-2026130953"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/mar-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_34701.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SAMMAANCAP-30-Jun-2026155843"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/jun-2008/securities-and-exchange-board-of-india-issue-and-listing-of-debt-securities-regulations-2008_20356.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SAMMAANCAP-30-Jun-2026155843"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/mar-2015/sebi-listing-obligations-and-disclosure-requirements-regulations-2015_35625.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SAMMAANCAP-30-Jun-2026154607"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/dec-2008/sebi-issue-and-listing-of-debt-securities-regulations-2008_25411.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SAMMAANCAP-30-Jun-2026154607"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/dec-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_28268.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-NRBBEARING-29-Jun-2026113736"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/feb-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_34830.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SAMMAANCAP-25-Jun-2026184956"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/dec-2014/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_34840.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SAMMAANCAP-25-Jun-2026184011"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/jul-2021/securities-and-exchange-board-of-india-issue-and-listing-of-non-convertible-securities-regulations-2021_51014.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SAMMAANCAP-25-Jun-2026184011"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/commondocs/apr-2024/LODR%20Consolidated%20as%20on%20April%2029,%202024.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SAMMAANCAP-25-Jun-2026181934"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/jan-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_33595.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-GICHSGFIN-24-Jun-2026121240"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/master-circular-on-substantial-acquisition-of-shares-and-takeovers",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-GUJTHEM-24-Jun-2026115952"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/jan-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_34786.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-TIMETECHNO-23-Jun-2026190828",
+        "nse-TIMETECHNO-23-Jun-2026190828"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.bseindia.com/stockinfo/stockpricequote.aspx?scripcode=505520",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-TIMETECHNO-23-Jun-2026190828"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/sep-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_34639.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-LANDSMILL-23-Jun-2026104108"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/feb-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_38041.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SAMMAANCAP-23-Jun-2026183550"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1593519914_SEBI_SAST_2011.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-BANKINDIA-22-Jun-2026110754"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/feb-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_34617.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SAMMAANCAP-22-Jun-2026182324"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.mca.gov.in/content/dam/mca/pdf/Companies_Act_2013.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SAMMAANCAP-22-Jun-2026182324"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/nov-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_42557.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-KOTYARK-22-Jun-2026160335"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/dec-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35408.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-RAJOOENG-19-Jun-2026144016"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/sep-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_36865.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SUNFLAG-19-Jun-2026124453"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/regs/SEBI-Takeover-Code-2011-Nov2018.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-VASWANI-19-Jun-2026174529"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.nseindia.com/corporates/content/corporate_polcies.htm",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-VASWANI-19-Jun-2026174529"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/regs/SEBI-LODR-2015-Amended.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-VASWANI-19-Jun-2026174529"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/feb-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_27826.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-ADVAIT-19-Jun-2026174106"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/regsrules/SEBI%20(Substantial%20Acquisition%20of%20Shares%20and%20Takeovers)%20Regulations%202011.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SEPC-19-Jun-2026174058"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.nseindia.com/regulations/listingagreement",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SEPC-19-Jun-2026174058"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/sep-2011/substantial-acquisition-of-shares-and-takeover-regulations-2011_40003.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SEPC-19-Jun-2026174017"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.nseindia.com/corporates/listingsandfilings.htm",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SEPC-19-Jun-2026174017"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.nseindia.com/corporates/listing_company_info/cActions.jsp?symbol=JSWENERGY",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-JSWENERGY-18-Jun-2026214940"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/dec-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_31073.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-LANDSMILL-15-Jun-2026194800"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebiweb/rest/SEC_DATA_PRODUCT/doc_1600850460227.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-GENESYS-28-May-2026141811"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.nseindia.com/corporates/content/company_master_info.jsp?company=TVSELECT",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-TVSELECT-19-Jun-2026125436"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/takeovers",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-TVSELECT-19-Jun-2026125436"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/jan-2011/sebi-substantial-acquisition-of-shares-and-takeovers-regulations-2011_29814.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-AGARIND-19-Jun-2026144359"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.ashianahousing.com/investor-relations",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-ASHIANA-06-Mar-2026175029"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/circulars/nov-2023/sebi-master-circular-non-convertible-securities-2023_83646.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SAMMAANCAP-26-Feb-2026130210"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://www.varunbeverages.com/investors/news-and-media",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-VBL-25-Aug-2026162124"
+      ],
+      "maxPriority": 31
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/circulars/oct-2015/sebi-circular-on-listing-rules-2015_36236.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-IRIS-21-Aug-2026190743"
+      ],
+      "maxPriority": 31
+    },
+    {
+      "url": "https://www.nseindia.com/corporate (search: VBL, 2 July 2026 merger approval)",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-VBL-17-Aug-2026202840"
+      ],
+      "maxPriority": 31
+    },
+    {
+      "url": "https://www.varunbeverages.com/investor-relations (Annual Report 2025–26, consolidated subsidiary schedule)",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-VBL-17-Aug-2026202840"
+      ],
+      "maxPriority": 31
+    },
+    {
+      "url": "https://www.cci.gov.in/combinations",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-ADANIENSOL-14-Aug-2026145900",
+        "nse-WAAREERTL-18-Jun-2026144959"
+      ],
+      "maxPriority": 31
+    },
+    {
+      "url": "https://economictimes.indiatimes.com/tech/startups/lenskart-korea-expansion/",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-LENSKART-12-Aug-2026162543"
+      ],
+      "maxPriority": 31
+    },
+    {
+      "url": "https://rbi.org.in/en/web/base/notifications/fema-overseas-subsidiary",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-LENSKART-12-Aug-2026162543"
+      ],
+      "maxPriority": 31
+    },
+    {
+      "url": "https://www.nseindia.com/listing/corporate-actions",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-LUMAXTECH-30-Jun-2026061200"
+      ],
+      "maxPriority": 31
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/feb-2018/securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018_40261.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-KIMS-23-Jun-2026140122"
+      ],
+      "maxPriority": 31
+    },
+    {
+      "url": "https://www.bharatforge.com/investor-relations/",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-BHARATFORG-18-Jun-2026161652"
+      ],
+      "maxPriority": 31
+    },
+    {
+      "url": "https://www.hindustancopper.com/en/investor-relations/",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-HINDCOPPER-24-Aug-2026194953"
+      ],
+      "maxPriority": 30
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/nov-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_34797.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-GENESYS-26-Jun-2026122732"
+      ],
+      "maxPriority": 30
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/oct-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_35700.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SAMMAANCAP-25-Aug-2026193405"
+      ],
+      "maxPriority": 29
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1452082331541.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SAMMAANCAP-25-Aug-2026191957"
+      ],
+      "maxPriority": 29
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/nov-2015/substantial-acquisition-of-shares-and-takeovers-regulations-2011_35835.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-HMAAGRO-12-Aug-2026223844"
+      ],
+      "maxPriority": 29
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/nov-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35521.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-NURECA-23-Jun-2026183328"
+      ],
+      "maxPriority": 29
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/nov-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_32655.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-ATHERENERG-16-Jun-2026183214"
+      ],
+      "maxPriority": 29
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/AUROPHARMA_13082026162945_LtrToSEsArupharmaOverseas13082026.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-AUROPHARMA-13-Aug-2026163027"
+      ],
+      "maxPriority": 27
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/feb-2018/securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018_37922.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-E2E-25-Feb-2026204920"
+      ],
+      "maxPriority": 27
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/may-2015/sebi-listing-obligations-and-disclosure-requirements-regulations-2015_36401.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-STYL-25-Aug-2026225346"
+      ],
+      "maxPriority": 25
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/sep-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_38041.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-JSFB-25-Aug-2026151236"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.nseindia.com/corporates/corporate_tickers.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SKIL-24-Aug-2026165839"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/regulation/Takeover_Final_1104_Jun2011.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-BHARATRAS-24-Aug-2026182730"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/nov-1994/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_32830.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-JKIPL-24-Aug-2026160749"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.nseindia.com/corporates/listscrip.jsp?symbol=KPIGREEN",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-KPIGREEN-24-Aug-2026121808"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/jan-2011-sebi-regulations-2011_13990.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-JUSTDIAL-24-Aug-2026111254"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/DPSCLTD_24082026213702_Intimationofpostponementof5thCOCMeetingtoSE24082026.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-DPSCLTD-24-Aug-2026213724",
+        "nse-DPSCLTD-24-Aug-2026213724"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/listing-obligations-disclosure-requirements-regulations-2015",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-DPSCLTD-22-Aug-2026222139"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.mca.gov.in/content/dam/mca/pdf/other/IBC_16.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-DPSCLTD-22-Aug-2026222139"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.ibbi.gov.in/legal-framework/corporate-insolvency-resolution-process-regulations-2016",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-DPSCLTD-22-Aug-2026222139"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/nov-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_40234.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-KCPSUGIND-21-Aug-2026141122"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1502178119941.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-GATECHDVR-21-Aug-2026144542"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.nseindia.com/regulations/listing-regulations.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-GATECHDVR-21-Aug-2026144542"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.nseindia.com/corporate/content/listed_companies.htm",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-ELGIEQUIP-20-Aug-2026185808"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1330073127948.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-KRONOX-20-Aug-2026184352"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.nseindia.com/corporates/corporate_filings.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-AHLEAST-20-Aug-2026180900"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.nseindia.com/corporate/listing",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-KMSUGAR-20-Aug-2026144238"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/nov-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_34969.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-GPIL-19-Aug-2026185110",
+        "nse-GPIL-19-Aug-2026185110"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/feb-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_34393.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-HAPPSTMNDS-18-Aug-2026204334"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.rhimagnesita.com/en/investor-relations",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-RHIM-18-Aug-2026164059"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/nov-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_4881.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-DSFCL-18-Aug-2026110227"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.bseindia.com/xml-data/corpfactsheet/KSHITIJPOL_18082026_RightsIssue.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-KSHITIJPOL-18-Aug-2026144514",
+        "nse-KSHITIJPOL-18-Aug-2026144514"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/feb-2018/issue-of-capital-and-disclosure-requirements-regulations-2018_39606.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-KSHITIJPOL-18-Aug-2026144514"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/master-circulars/jul-2023/master-circular-icdr-regulations_56789.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-KSHITIJPOL-18-Aug-2026144514"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.nseindia.com/corporates/listingCompanies.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-VALUEIND-18-Aug-2026181451",
+        "nse-VARROC-30-Jun-2026130723"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.nseindia.com/corporates/corporate_action_new.jsp?symbol=AMBER",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-AMBER-17-Aug-2026184643"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/feb-2018/securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018_39828.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-NETWEB-17-Aug-2026194004"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.nseindia.com/rules-regulations/rules.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-NETWEB-17-Aug-2026194004"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/sep-2011/substantial-acquisition-shares-takeovers-regulations-2011_31227.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-TCIEXP-14-Aug-2026190557"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/DPSCLTD_14082026173513_IntimationofPostponementofManagement_BoardMeeting14082026.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-DPSCLTD-14-Aug-2026173551",
+        "nse-DPSCLTD-14-Aug-2026173551"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.legal500.com/rankings/ranking/c-india/city-focus-mumbai/real-estate-and-construction/30562-fox-mandal-associates",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "fox-mandal-associates-advises-landowners-on-revenue-sharing-joint-development-with-puravankara"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1385470593738.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-ESTER-14-Aug-2026123019"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.nseindia.com/resources/rules-regulations",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-VHLTD-14-Aug-2026145105"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/nov-1994/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011~p/regulations/",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-HMAAGRO-13-Aug-2026170918"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/oct-1997/substantial-acquisition-of-shares-and-takeovers-regulations-2011_36910.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-TCIEXP-13-Aug-2026170325"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/dec-2023/amendments-to-securities-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_68622.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-BLUSPRING-12-Aug-2026221159"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.mca.gov.in/content/dam/mca/pdf/ncltrules2016.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-BLUSPRING-12-Aug-2026221159"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/sep-2018/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_39724.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SECMARK-12-Aug-2026202045"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.mca.gov.in/content/dam/mca/pdf/act_rules/2013/CompaniesAct2013.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SECMARK-12-Aug-2026202045"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.nseindia.com/corporates/corporate_announcements.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SUPREMEENG-12-Aug-2026180859",
+        "nse-GEECEE-19-Jun-2026182109"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/DPSCLTD_12082026172728_IntimationofPostponementofBoardMeeting12082026.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-DPSCLTD-12-Aug-2026172743",
+        "nse-DPSCLTD-12-Aug-2026172743"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.nseindia.com/corporates/corporateInformation.jsp",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-DPSCLTD-12-Aug-2026172743"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-exim-bank-on-financing-jana-nayagan",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "fox-mandal-associates-advises-exim-bank-on-financing-jana-nayagan"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/nov-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_20839.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-DCMSRIND-06-Aug-2026111711"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/sep-2018/sebi-issue-of-capital-and-disclosure-requirements-regulations-2018_40271.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-INTERARCH-06-Aug-2026202829"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/dec-2015/sebi-listing-obligations-and-disclosure-requirements-regulations-2015_44143.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-INTERARCH-06-Aug-2026202829"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/jun-2021/securities-and-exchange-board-of-india-issue-and-listing-of-non-convertible-debentures-regulations-2021_50231.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-EDELWEISS-06-Aug-2026132302"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/dec-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_22608.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-AFCONS-29-Jul-2026124743"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.ibbi.gov.in/legal-framework/rules-regulations",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SKIL-24-Jul-2026171247"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://nclt.gov.in/ [search: Simbhaoli Sugars Limited]",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SIMBHALS-21-Jul-2026174056"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://nclt.gov.in/ [search: Simbhaoli Sugars Limited - CIRP]",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SIMBHALS-21-Jul-2026174056"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/feb-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_34744.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-BANDHANBNK-07-Jul-2026111432"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.nseindia.com/corporate/ADANIENT-QIP-allotment-070726.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-ADANIENT-07-Jul-2026232629"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.adanienterprises.com/investor-relations/announcements",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-ADANIENT-07-Jul-2026232629"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://dipam.gov.in/divestment",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-COCHINSHIP-06-Jul-2026215710"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.jsw.in/investor-relations",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-JSWSTEEL-03-Jul-2026104749"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.mca.gov.in/content/dam/mca/pdf/insolvency_and_bankruptcy_code_2016.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-BILVYAPAR-03-Jul-2026165716"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/feb-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_34840.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-FIRSTCRY-01-Jul-2026193935"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/dec-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_27949.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-VARROC-30-Jun-2026130723"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/jan-2018/securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018_38993.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-STLTECH-30-Jun-2026235740"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.nseindia.com/corporates/listing_rules.htm",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-STLTECH-30-Jun-2026235740"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/dec-2015/sebi-listing-obligations-and-disclosure-requirements-regulations-2015_34227.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SHIRPUR-G-30-Jun-2026153831"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/jun-2018/securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018_40119.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-MANORAMA-29-Jun-2026214111"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.mca.gov.in/content/dam/mca/pdf/acts_rules/2013/CompaniesAct2013.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-MANORAMA-29-Jun-2026214111"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/jun-2018/securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018_40268.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-JSWINFRA-25-Jun-2026234525"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/nov-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_34614.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-JSWINFRA-25-Jun-2026234525"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/feb-2018/securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018_38980.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-JSWINFRA-25-Jun-2026233827"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.ibbi.gov.in/legal_framework/regulations",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-DPSCLTD-25-Jun-2026154125"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/dec-2018/securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018_40813.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-STLTECH-25-Jun-2026000401"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/mar-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_30915.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-DONEAR-24-Jun-2026182547"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.vedantaresources.com/en/investors/news",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-VEDL-24-Jun-2026162141"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.livelaw.in/ or https://www.scconline.com/",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-VEDL-24-Jun-2026162141"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.vedantaresources.com/en/investors/financial-results",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-VEDL-24-Jun-2026162141"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/feb-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_42905.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-AHLEAST-24-Jun-2026114859"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://ibbi.gov.in/cases",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-RCOM-24-Jun-2026161148"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.livelaw.in/news/schemes-of-arrangement",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-KITEX-23-Jun-2026185814"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/commondocs/Takeover_Regulations_Final_28022023.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-ANTHEM-23-Jun-2026161349"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.nseindia.com/corporates/tcf_inspg.jsp?symbol=KGL",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-KITEX-23-Jun-2026123915"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://nseindia.com/corporates/corporateInfo.jsp?symbol=JSWINFRA",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-JSWINFRA-22-Jun-2026190148"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.nseindia.com/corporates/contentcsv.jsp?symbol=OSIAHYPER",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-OSIAHYPER-22-Jun-2026184848"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.nclt.gov.in/case/detail/20260615-001234",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-OSIAHYPER-22-Jun-2026184848"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/BILVYAPAR_22062026162907_INtimation.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-BILVYAPAR-22-Jun-2026163017",
+        "nse-BILVYAPAR-22-Jun-2026163017"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sunpharma.com/investor-relations/",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SUNPHARMA-20-Jun-2026172342"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.nseindia.com/listing/",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-RAMCOCEM-20-Jun-2026122759"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/mar-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_28733.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-RUSHIL-19-Jun-2026145903"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.nseindia.com/listing_compliance_norms.htm",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-RUSHIL-19-Jun-2026145903"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/jan-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_33410.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-CAMPUS-19-Jun-2026190002"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.nseindia.com/corporate/login.jsp?bypasslogin=yes&companyname=Campus%20Activewear%20Limited",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-CAMPUS-19-Jun-2026190002"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/may-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_40436.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-CAMPUS-19-Jun-2026190002"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.asterdmhealthcare.com/investor-relations/",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-ASTERDM-19-Jun-2026174240"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/jun-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_24854.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-KCPSUGIND-19-Jun-2026171133"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://nseindia.com/company-search",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-LLOYDSENT-19-Jun-2026155602"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/nov-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_23391.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SUDARCOLOR-19-Jun-2026153506"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/commondocs//files/PDF/SEBI_SAST_Regulations_2011.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-DIVGIITTS-19-Jun-2026151811"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://nseindia.com/corporate/corporate_home.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SHAREINDIA-18-Jun-2026173735"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/dec-2008/securities-and-exchange-board-of-india-issue-and-listing-of-debt-securities-regulations-2008_38969.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SHAREINDIA-18-Jun-2026173735"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.nseindia.com/corporates/contentws/corpfactsheet/equity/SHYAMMETL.jsp",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SHYAMMETL-18-Jun-2026183404"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/may-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_35955.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SHYAMMETL-18-Jun-2026183404"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/january-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_34174.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SHYAMMETL-18-Jun-2026183404"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.mca.gov.in/content/dam/mca/pdf/companiesact2013.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SHYAMMETL-18-Jun-2026183404"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.nseindia.com/corporates/corporateIndex.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SOTL-18-Jun-2026154749"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/commondocs/Takeover_nov15.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SOTL-18-Jun-2026154749"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/feb-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_34283.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-GEECEE-16-Jun-2026183913"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/dec-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_35177.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-GUJALKALI-16-Jun-2026183844"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/attachdocs/1370413076_Takeover%20_Regulation%202011_Final.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-KCPSUGIND-16-Jun-2026171647"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/mar-2018/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_38228.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-BHARTIARTL-15-Jun-2026224241"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/jan-2018/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_41107.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-TIMETECHNO-15-Jun-2026200129"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.nseindia.com/regulations/takeover-public-disclosure",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-TIMETECHNO-15-Jun-2026200129"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/sep-2013/substantial-acquisition-of-shares-and-takeovers-regulations-2011_36993.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-TIMETECHNO-15-Jun-2026194607"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/jun-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_34024.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-NEUEON-25-Jun-2026175411"
+      ],
+      "maxPriority": 21
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/jan-2018/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_37810.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-AAKASH-21-Aug-2026160313"
+      ],
+      "maxPriority": 17
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/jan-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_36900.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-BLUEBLENDS-20-Aug-2026180924"
+      ],
+      "maxPriority": 17
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/takeovernorms.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-BLUEBLENDS-20-Aug-2026174148"
+      ],
+      "maxPriority": 17
+    },
+    {
+      "url": "https://www.nseindia.com/corporates/corporate_index.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-KSHITIJPOL-20-Aug-2026232210"
+      ],
+      "maxPriority": 17
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/jun-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_34505.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-POCL-19-Aug-2026185317"
+      ],
+      "maxPriority": 17
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/jun-2011/sebi-substantial-acquisition-of-shares-and-takeover-regulations-2011_39872.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SIYSIL-18-Aug-2026190450"
+      ],
+      "maxPriority": 17
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/nov-2011/securities-and-exchange-board-of-india-substantial-acquisition-of-shares-and-takeovers-regulations-2011_36267.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-GFLLIMITED-17-Aug-2026190835"
+      ],
+      "maxPriority": 17
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/dec-2018/securities-and-exchange-board-of-india-issue-of-capital-and-disclosure-requirements-regulations-2018_41356.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-GATECH-17-Aug-2026181542"
+      ],
+      "maxPriority": 17
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/jun-2011/substantial-acquisition-of-shares-and-takeovers-regulations-2011_29996.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-RHL-24-Jun-2026115059"
+      ],
+      "maxPriority": 17
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/nov-2011/takeover-regulations_27945.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-SHARDAMOTR-22-Jun-2026191714"
+      ],
+      "maxPriority": 17
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/takeover.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-GMRPUI-22-Jun-2026184602"
+      ],
+      "maxPriority": 17
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/nov-2011/substantial-acquisition-of-shares-and-takeover-regulations-2011_37980.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-PARSVNATH-16-Jun-2026183343"
+      ],
+      "maxPriority": 17
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/nov-2015/securities-and-exchange-board-of-india-listing-obligations-and-disclosure-requirements-regulations-2015_27987.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-PARSVNATH-16-Jun-2026183343"
+      ],
+      "maxPriority": 17
+    },
+    {
+      "url": "https://www.sebi.gov.in/legal/regulations/nov-1994/substantial-acquisition-of-shares-and-takeovers--regulations--2011_37863.html",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-GPIL-19-Aug-2026193655"
+      ],
+      "maxPriority": 13
+    },
+    {
+      "url": "https://www.sebi.gov.in/sebi_data/takeover.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-AAKASH-14-Aug-2026191928"
+      ],
+      "maxPriority": 13
+    },
+    {
+      "url": "https://startuptalky.com/peeko-raises-67-4-crore-series-a-led-by-chiratae-ventures/",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "universal-legal-jsa-act-on-peeko-series-a-fundraise"
+      ],
+      "maxPriority": 11
+    }
+  ]
+}

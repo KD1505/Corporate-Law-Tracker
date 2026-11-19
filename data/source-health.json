@@ -1,0 +1,37 @@
+{
+  "asOf": "2026-11-19T16:30:10.332Z",
+  "monitors": [
+    {
+      "source": "BSE",
+      "kind": "exchange disclosure API",
+      "status": "failed",
+      "lastAttempt": "2026-11-19T16:30:10.332Z",
+      "lastSuccess": null,
+      "error": "BSE page 1 failed: bse 403",
+      "recordsInBatch": 0
+    },
+    {
+      "source": "NSE",
+      "kind": "exchange disclosure API",
+      "status": "failed",
+      "lastAttempt": "2026-11-19T16:30:10.332Z",
+      "lastSuccess": null,
+      "error": "NSE failed: This operation was aborted",
+      "recordsInBatch": 0
+    },
+    {
+      "source": "RBI / PIB",
+      "kind": "RSS feed",
+      "status": "best effort; per-source receipt not independently recorded"
+    },
+    {
+      "source": "SEBI / CCI / IBBI / MCA / NCLT",
+      "kind": "occasional supporting documents",
+      "status": "not comprehensively monitored"
+    }
+  ],
+  "limitations": [
+    "A successful GitHub Actions build does not mean upstream BSE/NSE data refreshed.",
+    "HTTP 403, timeouts and automated blocking must not be mistaken for no disclosures."
+  ]
+}
