@@ -363,7 +363,7 @@ function hydrateDeal(id){
     .then(r=>{ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
     .then(full=>{
       const i=DEALS.findIndex(x=>x.id===id);
-      if(i>=0){ DEALS[i]=Object.assign({},DEALS[i],full,{_thin:false}); }
+      if(i>=0){ DEALS[i]=Object.assign({},DEALS[i],window.CLT_SAFE_DEAL?window.CLT_SAFE_DEAL(full):full,{_thin:false}); }
       if(route.name==="deal"&&route.id===id) renderDeal(id);
     })
     .catch(e=>{ console.warn("CorpLawTracker: could not hydrate",id,e.message); })
@@ -443,7 +443,7 @@ function renderDeal(id){
     const fn=firmKnown(f.name)?`<span class="fn link" onclick="go({name:'firm',id:'${f.name.replace(/'/g,"\\'")}'})">${f.name}</span>`:`<span class="fn">${f.name}</span>`;
     return `<div class="firmblk"><div class="fh">${fn}<span class="sidetag">${f.side}</span></div>${lead}${team}${note}</div>`;
   }).join("");
-  const allSrcs=srcsWithOfficial(d);
+  const allSrcs=srcsWithOfficial(d).filter(s=>/^https?:\/\//i.test(s.url||""));
   const srcHtml=allSrcs.map(s=>`<div class="srcitem"><div class="st"><span class="snm">${s.name}</span>${srcOfficial(s)?`<span class="otag" title="${escA(TIP_OFFICIAL)}">OFFICIAL</span>`:''}<a class="sgo" href="${s.url}" target="_blank" rel="noopener">Open ↗</a></div><div class="sblurb">${s.blurb}</div></div>`).join("");
   const mergedDocs=[...officialDocs(d),...(d.docs||[])].filter((x,i,a)=>a.findIndex(y=>y.url===x.url)===i);
   const docsHtml=mergedDocs.length?mergedDocs.map(dc=>`<div class="doc" onclick="window.open('${dc.url}','_blank','noopener')"><span class="di">§</span>${dc.label}<span style="margin-left:auto;color:var(--ink3)">↗</span></div>`).join(""):`<div class="note">Primary filings link out via the source article above.</div>`;

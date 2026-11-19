@@ -895,6 +895,44 @@ hide it immediately so the live app renders instead of flashing a static list wh
 --------------------------------------------------------------------------- */
 (function(){
   var PARTS=["app1.js","app2.js","app3.js","app4.js","app5.js","app6.js"];
+  // Ingestion sources and AI-produced text are untrusted, even when a URL is official.
+  // Escape before any HTML-template insertion. Only attribute-free emphasis is allowed.
+  function cltEscape(s){return String(s??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");}
+  function cltSafeRich(s){
+    return cltEscape(s).replace(/&lt;(\/?)(b|strong|em|i)&gt;/gi,(_,slash,tag)=>"<"+slash+tag.toLowerCase()+">");
+  }
+  function cltSafeUrl(s) {
+    try {const u=new URL(s);return /^https?:$/.test(u.protocol)?u.href:"";}
+    catch{return "";}
+  }
+  function cltSafeDeal(d){
+    if(!d||d._cltScrubbed)return d;
+    const x={...d,_cltScrubbed:true};
+    for(const field of ["headline","sum","detail","implication","parties","city","value"]){
+      if(typeof x[field]==="string")x[field]=cltSafeRich(x[field]);
+    }
+    x.sources=(d.sources||[]).map(q=>({...q,url:cltSafeUrl(q.url),name:cltSafeRich(q.name),blurb:cltSafeRich(q.blurb)})).filter(q=>q.url);
+    x.docs=(d.docs||[]).map(q=>({...q,url:cltSafeUrl(q.url),label:cltSafeRich(q.label)})).filter(q=>q.url);
+    x.timeline=(d.timeline||[]).map(q=>({...q,d:cltSafeRich(q.d),t:cltSafeRich(q.t)}));
+    x.firms=(d.firms||[]).map(f=>({...f,
+      side:cltSafeRich(f.side),note:cltSafeRich(f.note),
+      lead:(f.lead||[]).map(l=>({...l,n:cltSafeRich(l.n),role:cltSafeRich(l.role)})),
+      team:(f.team||[]).map(cltSafeRich)}));
+    if(d.structure){const z=d.structure;x.structure={...z,consideration:cltSafeRich(z.consideration),
+      novel:cltSafeRich(z.novel),conditions:(z.conditions||[]).map(cltSafeRich),
+      approvals:(z.approvals||[]).map(cltSafeRich),
+      triggers:(z.triggers||[]).map(t=>({...t,law:cltSafeRich(t.law),note:cltSafeRich(t.note)}))};}
+    if(Array.isArray(d.framework))x.framework=d.framework.map(y=>typeof y==="string"?cltSafeRich(y):({...y,ref:cltSafeRich(y.ref),note:cltSafeRich(y.note)}));
+    if(d.evidenceDossier)x.evidenceDossier={...d.evidenceDossier,
+      coverageStatement:cltSafeRich(d.evidenceDossier.coverageStatement),
+      gaps:(d.evidenceDossier.gaps||[]).map(cltSafeRich),
+      facts:(d.evidenceDossier.facts||[]).map(f=>({...f,
+        label:cltSafeRich(f.label),fact:cltSafeRich(f.fact),sourceUrl:cltSafeUrl(f.sourceUrl)}))};
+    return x;
+  }
+  window.CLT_ESCAPE=cltEscape;
+  window.CLT_SAFE_DEAL=cltSafeDeal;
+
 
   // index row -> full deal record the app renders from
   function expand(r){
@@ -963,6 +1001,7 @@ hide it immediately so the live app renders instead of flashing a static list wh
   }));
 
   Promise.all([data,code]).then(function(out){
+    if(window.CLT_DATA&&Array.isArray(window.CLT_DATA.DEALS))window.CLT_DATA.DEALS=window.CLT_DATA.DEALS.map(cltSafeDeal);
     var t=document.createElement("script");
     t.textContent=out[1].join("\n");
     document.body.appendChild(t);

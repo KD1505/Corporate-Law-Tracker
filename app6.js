@@ -49,7 +49,7 @@ function renderSaved(){
     const cur=countForF(s.F);const delta=cur-(typeof s.n==="number"?s.n:cur);
     const when=s.at?new Date(s.at).toLocaleDateString("en-GB",{day:"numeric",month:"short"}):"";
     const meta=`${cur} match${cur===1?"":"es"}${delta>0?` · <span style="color:var(--green);font-weight:700">+${delta} since ${when}</span>`:(when?` · saved ${when}`:" · click to run")}`;
-    return `<div class="moverow"><div data-apply="${i}" style="flex:1;cursor:pointer"><div class="mv-who">${s.label}</div><div class="mv-what">${meta}</div></div><span class="delx" data-del="${i}">✕ remove</span></div>`;
+    return `<div class="moverow"><div data-apply="${i}" style="flex:1;cursor:pointer"><div class="mv-who">${window.CLT_ESCAPE?window.CLT_ESCAPE(s.label):s.label}</div><div class="mv-what">${meta}</div></div><span class="delx" data-del="${i}">✕ remove</span></div>`;
   }).join(""):'<div class="empty">No saved views yet. Apply filters on the feed, then click <b>Save &amp; track</b> in the toolbar. Saved views are stored in this browser; automatic alerts are not enabled.</div>';
   $("main").innerHTML=`<div class="vh"><h2>Saved Searches</h2><span class="sub">${a.length} saved · standing questions you can re-run locally; automatic notifications are not enabled</span></div>${body}`;
   $("main").querySelectorAll("[data-apply]").forEach(n=>n.onclick=()=>{F=JSON.parse(JSON.stringify(loadSaved()[+n.dataset.apply].F));$("q").value=F.q||"";go({name:"feed"});});
