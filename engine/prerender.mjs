@@ -40,7 +40,18 @@ const HOME_SNAPSHOT = 40; // deals baked into the homepage HTML
 /* ---- load data ---- */
 function loadData() {
   const src = fs.readFileSync(path.join(ROOT, "data.js"), "utf8");
-  const window = {}; new Function("window", src)(window); return window.CLT_DATA || {};
+  const window = {}; new Function("window", src)(window);
+  const data = window.CLT_DATA || {};
+  // Preserve separately curated primary-source deals in SEO pages, sitemap,
+  // split search index and on-demand detail records on every nightly rebuild.
+  const curatedPath = path.join(ROOT, "data", "curated-deals.json");
+  if (fs.existsSync(curatedPath)) {
+    const curated = JSON.parse(fs.readFileSync(curatedPath, "utf8"));
+    if (!Array.isArray(curated)) throw new Error("curated-deals.json must be an array");
+    const curatedIds = new Set(curated.map(d => d.id));
+    data.DEALS = [...curated, ...(data.DEALS || []).filter(d => !curatedIds.has(d.id))];
+  }
+  return data;
 }
 const MONTHS = { Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11 };
 const pdate = t => { const m = String(t||"").match(/(\d{1,2})\s+([A-Za-z]{3})\s+(\d{4})/); return m ? new Date(+m[3],MONTHS[m[2]]??0,+m[1]) : new Date(0); };
