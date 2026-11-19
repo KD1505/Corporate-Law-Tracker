@@ -12,6 +12,8 @@ on:
       - "engine/build.mjs"
       - "engine/prerender.mjs"
       - "engine/quality.mjs"
+      - "engine/transaction-threads.mjs"
+      - "engine/engine-tests/**"
       - "data/curated-deals.json"
       - "engine/score.mjs"
       - "engine/spine.mjs"
