@@ -20,6 +20,7 @@
 // us exactly what to tune.
 
 import fs from "node:fs";
+import {parseRss} from "./rss-fallback.mjs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 const SOURCE_HEALTH=path.resolve(path.dirname(fileURLToPath(import.meta.url)),"../data/source-health.json");
@@ -179,6 +180,30 @@ async function fetchNSE(existing, { days, out, log }) {
   log(`NSE: scanned ${scanned}, kept ${kept} deal events.`);
 }
 
+// Exchange-controlled RSS is the bounded fallback when vendor APIs block CI.
+// A feed headline is not a signed transaction document. Retain the original
+// link, provenance and dated item; the quality gate handles its evidence tier.
+async function fetchExchangeRss(label,url,existing,{days,out,log}){
+ try {
+  const resp=await timedFetch(url,{headers:{"User-Agent":UA,
+    "Accept":"application/rss+xml,application/xml,text/xml;q=0.9,*/*;q=0.5"}});
+  if(!resp.ok)throw Error("HTTP "+resp.status);
+  const xml=await resp.text();
+  const items=parseRss(xml,label,350);
+  if(!items.length)throw Error("No parseable feed items");
+  const horizon=Date.now()-Math.max(2,Math.min(14,days+2))*864e5;
+  let added=0;
+  for(const x of items){
+   if(x.published<horizon||existing.has(x.id)||out.some(d=>d.id===x.id))continue;
+   const it=mkItem({id:x.id,url:x.link,company:"",
+     head:x.title,ts:x.published,source:label+" RSS",raw:x.description});
+   if(it){out.push(it);added++;}
+  }
+  log(label+" RSS: fetched "+items.length+" feed items, "+added+" classified announcements; RSS is not a signed document.");
+  return true;
+ }catch(e){log(label+" RSS fallback failed: "+String(e.message).slice(0,110));return false;}
+}
+
 // ---- CCI: combination orders (every notifiable M&A) ------------------------
 // Best-effort HTML scrape. Structure may shift; isolated + logged.
 async function fetchCCI(existing, { out, log }) {
@@ -250,8 +275,16 @@ export async function fetchPublicDeals(existing, opts = {}) {
   const log = (m) => {events.push(m);console.log(`  [spine] ${m}`);};
   const out = [];
 
-  if (sources.includes("bse")) await fetchBSE(existing, { days, maxPages, out, log });
-  if (sources.includes("nse")) await fetchNSE(existing, { days, out, log });
+  if (sources.includes("bse")) {
+    await fetchBSE(existing,{days,maxPages,out,log});
+    if(events.some(m=>m.startsWith("BSE page")&&/failed/.test(m)))
+      await fetchExchangeRss("BSE","https://www.bseindia.com/data/xml/announcements.xml",existing,{days,out,log});
+  }
+  if (sources.includes("nse")) {
+    await fetchNSE(existing,{days,out,log});
+    if(events.some(m=>m.startsWith("NSE failed:")))
+      await fetchExchangeRss("NSE","https://nsearchives.nseindia.com/content/RSS/Online_announcements.xml",existing,{days,out,log});
+  }
   if (sources.includes("cci")) await fetchCCI(existing, { out, log });
   if (sources.includes("sebi")) await fetchSEBI(existing, { out, log });
 
@@ -261,13 +294,15 @@ export async function fetchPublicDeals(existing, opts = {}) {
   const now=new Date().toISOString();
   const monitors=["BSE","NSE"].map(name=>{
     const msgs=events.filter(m=>m.startsWith(name+" ")||m.startsWith(name+":")||m.startsWith(name+" page"));
-    const failed=msgs.find(m=>/failed|403|aborted|timeout|429/i.test(m));
+    const failed=msgs.find(m=>/failed|403|aborted|timeout|429/i.test(m)&&!m.includes("RSS: fetched"));
+    const fallback=msgs.find(m=>m.startsWith(name+" RSS: fetched "));
     const previous=prior.monitors?.find(m=>m.source===name)||{};
-    const success=msgs.length>0&&!failed;
-    return {source:name,kind:"exchange disclosure API",status:failed?"failed":success?"responded":"not attempted",
+    const success=!!fallback||(msgs.length>0&&!failed);
+    return {source:name,kind:"exchange announcement API + bounded official RSS fallback",
+      status:fallback?"RSS fallback used":failed?"failed":success?"responded":"not attempted",
       lastAttempt:now,lastSuccess:success?now:previous.lastSuccess||null,
       error:failed?failed.slice(0,170):null,
-      recordsInBatch:out.filter(it=>it.source===name).length};
+      recordsInBatch:out.filter(it=>it.source===name||it.source===name+" RSS").length};
   });
   const health={asOf:now,monitors:[...monitors,
    {source:"RBI / PIB",kind:"RSS feed",status:"best effort; per-source receipt not independently recorded"},
