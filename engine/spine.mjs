@@ -298,11 +298,13 @@ export async function fetchPublicDeals(existing, opts = {}) {
     const fallback=msgs.find(m=>m.startsWith(name+" RSS: fetched "));
     const previous=prior.monitors?.find(m=>m.source===name)||{};
     const success=!!fallback||(msgs.length>0&&!failed);
+    const records=out.filter(it=>it.source===name||it.source===name+" RSS").length;
     return {source:name,kind:"exchange announcement API + bounded official RSS fallback",
-      status:fallback?"RSS fallback used":failed?"failed":success?"responded":"not attempted",
+      status:fallback?(records?"RSS fallback returned candidate records":"RSS fallback responded; no qualifying records"):(failed?"failed":success?"responded":"not attempted"),
       lastAttempt:now,lastSuccess:success?now:previous.lastSuccess||null,
+      recentQualifyingRecords:records,contentFreshnessProven:records>0,
       error:failed?failed.slice(0,170):null,
-      recordsInBatch:out.filter(it=>it.source===name||it.source===name+" RSS").length};
+      recordsInBatch:records};
   });
   const health={asOf:now,monitors:[...monitors,
    {source:"RBI / PIB",kind:"RSS feed",status:"best effort; per-source receipt not independently recorded"},
