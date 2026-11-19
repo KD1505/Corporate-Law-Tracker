@@ -133,7 +133,7 @@ function sortList(list){
 /* ============================ SIDEBAR ============================ */
 function buildSidebar(){
   const grp=(label,items)=>`<div class="ng"><h4>${label}</h4>${items.map(b=>`<div class="ni" data-browse="${b.k}"><span class="ic">${b.ic}</span>${b.label}${b.ct!==undefined?`<span class="ct" ${b.ctid?`id="${b.ctid}"`:""}>${b.ct}</span>`:""}</div>`).join("")}</div>`;
-  const ws=[{k:"feed",ic:"▤",label:"Today"},{k:"foryou",ic:"◈",label:"My Practice"},{k:"watch",ic:"★",label:"Watchlist",ct:starred.size,ctid:"starCt"},{k:"saved",ic:"⌗",label:"Saved & Alerts"},{k:"compare",ic:"⊞",label:"Compare",ct:cmp.size,ctid:"cmpCt"}];
+  const ws=[{k:"feed",ic:"▤",label:"Today"},{k:"foryou",ic:"◈",label:"My Practice"},{k:"watch",ic:"★",label:"Watchlist",ct:starred.size,ctid:"starCt"},{k:"saved",ic:"⌗",label:"Saved Searches"},{k:"compare",ic:"⊞",label:"Compare",ct:cmp.size,ctid:"cmpCt"}];
   const intel=[{k:"precedents",ic:"⌕",label:"Precedent Transactions"},{k:"pipeline",ic:"◷",label:"Deal Pipeline"},{k:"analytics",ic:"▦",label:"League Tables"},{k:"trends",ic:"◎",label:"Market Trends"},{k:"moves",ic:"⇄",label:"People Moves"},{k:"firms",ic:"⚖",label:"Law Firms"}];
   const reg=[{k:"regulatory",ic:"§",label:"Regulatory Radar"},{k:"calendar",ic:"☷",label:"Regulatory Calendar"},{k:"coverage",ic:"◫",label:"Coverage & Method"}];
   const geo=`<div class="ng"><h4>Geography</h4>${GEOS.map(g=>{const ct=g.id==="all"?DEALS.length:DEALS.filter(d=>d.geo===g.id).length;
@@ -184,7 +184,7 @@ function dealCard(d){
 }
 function dealRow(d){
   const st=ST(d.stage);
-  const vr=isVerified(d)?`<span class="vr" style="color:var(--green);font-weight:750;font-size:11px" title="${escA(TIP_VERIFIED)}" aria-label="Verified">✓</span>`:`<span class="vr" style="color:var(--amber);font-weight:750;font-size:11px" title="${escA(TIP_REPORTED)}" aria-label="Reported">◔</span>`;
+  const vr=isVerified(d)?`<span class="vr" style="color:var(--green);font-weight:750;font-size:11px" title="${escA(TIP_VERIFIED)}" aria-label="Document reviewed">✓</span>`:`<span class="vr" style="color:var(--amber);font-weight:750;font-size:11px" title="${escA(TIP_REPORTED)}" aria-label="Reported">◔</span>`;
   return `<div class="crow" data-deal="${d.id}" title="${escA(stripTags(impl(d)||d.sum||d.headline))}">
     ${typeBadge(d)}${vr}
     <span class="ch">${d.headline}</span>
@@ -200,7 +200,7 @@ function heroHtml(){
   return `<div class="hero">
     <button class="hx" id="heroX" title="Dismiss - this stays available under Methodology">✕</button>
     <h1>The decision engine for India\u2019s corporate legal market.</h1>
-    <div class="hsub">Every overnight deal, mandate and regulatory change - verified against primary filings, connected to the firms, partners and statutes involved, and turned into actions you can take the same morning.</div>
+    <div class="hsub">Source-linked corporate transactions and regulatory developments, with named legal advisers when reported and evidence limitations shown - insights you can take the same morning.</div>
     <div class="hprops">
       <div class="hp"><b>Law-firm partners &amp; BD</b><span>See which companies are raising, buying or restructuring - and which rival firm took the mandate - while the pitch window is still open.</span></div>
       <div class="hp"><b>In-house counsel</b><span>Every new rule arrives with the deadline and the exact action for your documents - not a circular to decode.</span></div>
@@ -529,7 +529,7 @@ function renderDeal(id){
          ${commHtml}
          ${relRegHtml}
          ${firmsHtml?`<div class="sec"><h4>Counsel &amp; teams</h4>${firmsHtml}</div>`:""}
-         <div class="sec"><h4>Sources &amp; official filings · what each adds <span style="font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink4)">(${allSrcs.length})</span>${(()=>{var L=(window.CLT_DATA&&window.CLT_DATA.LINKCHECK)||{};var s=L.deals&&L.deals[d.id];if(s==='v')return ` <span class="lveri" title="At least one source URL responded successfully; link health does not validate research claims or prove every source is available.">✓ Links verified · ${L.at}</span>`;if(s==='i')return ` <span class="lveri warn" title="A source link could not be reached on the last automated check - under review.">⚠ Link under review</span>`;return '';})()}</h4>${srcHtml}</div>
+         <div class="sec"><h4>Sources &amp; official filings · what each adds <span style="font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink4)">(${allSrcs.length})</span>${(()=>{var L=(window.CLT_DATA&&window.CLT_DATA.LINKCHECK)||{};var s=L.deals&&L.deals[d.id];if(s==='v')return ` <span class="lveri" title="At least one source URL responded successfully; link health does not validate research claims or prove every source is available.">✓ URLs checked · ${L.at}</span>`;if(s==='i')return ` <span class="lveri warn" title="A source link could not be reached on the last automated check - under review.">⚠ Link under review</span>`;return '';})()}</h4>${srcHtml}</div>
          <div class="sec"><h4>Public documents</h4>${docsHtml}</div>
        </div>
        <div>
@@ -541,7 +541,7 @@ function renderDeal(id){
            <div class="mrow"><span class="mk">Sector</span><span class="mv">${d.sector}</span></div>
            <div class="mrow"><span class="mk">City</span><span class="mv">${d.city}</span></div>
            <div class="mrow"><span class="mk">Updated</span><span class="mv">${d.time}</span></div>
-           <div class="mrow"><span class="mk">Verification</span><span class="mv" style="color:${isVerified(d)?"var(--green)":"var(--amber)"}">${isVerified(d)?"Verified":"Reported"}</span></div>
+           <div class="mrow"><span class="mk">Research status</span><span class="mv" style="color:${isVerified(d)?"var(--green)":"var(--amber)"}">${isVerified(d)?"Document-reviewed":dealHasOfficial(d)?"Specific filing linked":"Reported source"}</span></div>
          </div></div>
          ${tl}
          ${relHtml}
