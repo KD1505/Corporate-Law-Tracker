@@ -451,8 +451,10 @@ const dossierSummary = {
   substantiveRecords: all.filter(d=>d.evidenceDossier?.depth==="Substantive source-linked record").length,
   officialLinkOnly: all.filter(d=>d.evidenceDossier?.depth==="Primary-filing linked record").length,
   pressLevel: all.filter(d=>d.evidenceDossier?.depth==="Reported-source record").length,
-  quoteAuditedRecords: all.filter(d=>(d.research?.facts||[]).length>0).length,
-  quoteAuditedFacts: all.reduce((n,d)=>n+(d.research?.facts||[]).length,0),
+  quoteAuditedRecords: all.filter(d=>(d.research?.facts||[]).some(f=>!!f.evidenceSha256)).length,
+  quoteAuditedFacts: all.reduce((n,d)=>n+(d.research?.facts||[]).filter(f=>!!f.evidenceSha256).length,0),
+  editorialClaimReferencedRecords: all.filter(d=>d.quality?.reviewed&&(d.research?.facts||[]).length>0).length,
+  editorialClaimReferences: all.reduce((n,d)=>n+(d.quality?.reviewed?(d.research?.facts||[]).length:0),0),
   statement: "A link to an official filing is not equivalent to a fact-by-fact audit. Only facts with cited source excerpts are marked quote-validated."
 };
 fs.mkdirSync(path.join(ROOT,"data"),{recursive:true});
