@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-11-12T22:56:27.687Z",
+  "generatedAt": "2026-11-19T13:46:14.769Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-11-19-0-nse-bharatforg-12-nov-2026181926",
+      "sourceId": "nse-bharatforg-12-nov-2026181926",
+      "date": "12 Nov 2026",
+      "category": "IBC / Distressed M&A",
+      "headline": "Bharat Forge Limited: Updates",
+      "why": "Updates - Bharat Forge Limited has informed the Exchange regarding 'Approval of Resolution Plan for Tork Motors Private Limited'.",
+      "interviewPrompt": "Explain what changes for bidder eligibility, process certainty, liabilities and implementation of the resolution plan.",
+      "source": "https://nsearchives.nseindia.com/corporate/ANILSHINDE_12112026181908_SEIntimationTorkMotors.pdf",
+      "sourceName": "NSE filing - Bharat Forge Limited"
+    },
+    {
+      "id": "academy-2026-11-19-1-nse-jsfb-12-nov-2026150921",
+      "sourceId": "nse-jsfb-12-nov-2026150921",
+      "date": "12 Nov 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Jana Small Finance Bank Limited: Updates",
+      "why": "Updates - Jana Small Finance Bank Limited has informed the Exchange regarding - 'Pursuant to Regulation 30 and 51 of the SEBI LODR Regulations, 2015, as amended, we hereby inform you that M/s. Jana Small Finance Bank Ltd..",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/amrita_singh_jana_bank_in_12112026150101_JHL_JCL_Amalgamation_Signed.pdf",
+      "sourceName": "NSE filing - Jana Small Finance Bank Limited"
+    },
+    {
+      "id": "academy-2026-11-19-2-nse-sunshine-12-nov-2026205456",
+      "sourceId": "nse-sunshine-12-nov-2026205456",
+      "date": "12 Nov 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Sunshine Pictures Limited: Monitoring Agency Report",
+      "why": "Monitoring Agency Report - Pursuant to Regulations 30 and 33 read with Schedule Ill of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (\"SEBI Listing Regulations\"), we wish to inform you that the Board of…",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/SUNSHINE_12112026205444_OutcomeofBMMonitoringAgencyReport.pdf",
+      "sourceName": "NSE filing - Sunshine Pictures Limited"
+    },
     {
       "id": "academy-2026-11-12-0-nse-visachrome-12-nov-2026181001",
       "sourceId": "nse-visachrome-12-nov-2026181001",
@@ -408,39 +441,6 @@
       "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
       "source": "https://nsearchives.nseindia.com/corporate/HEROMOTO_30102026110358_Stxintimation30102026.pdf",
       "sourceName": "NSE filing - Hero MotoCorp Limited"
-    },
-    {
-      "id": "academy-2026-10-29-0-nse-supremeinf-29-oct-2026195720",
-      "sourceId": "nse-supremeinf-29-oct-2026195720",
-      "date": "29 Oct 2026",
-      "category": "FEMA / FDI",
-      "headline": "Supreme Infrastructure India Limited: Scheme of Arrangement",
-      "why": "Scheme of Arrangement - Supreme Infrastructure India Limited has informed the Exchange about Scheme of Arrangement",
-      "interviewPrompt": "State the route/cap/pricing/reporting issue, then explain which approval, filing or SPA condition it changes.",
-      "source": "https://nsearchives.nseindia.com/corporate/SUPREMEINF_29102026195710_Scheme_extention_SIIL.pdf",
-      "sourceName": "NSE filing - Supreme Infrastructure India Limited"
-    },
-    {
-      "id": "academy-2026-10-29-1-nse-unimech-29-oct-2026185505",
-      "sourceId": "nse-unimech-29-oct-2026185505",
-      "date": "29 Oct 2026",
-      "category": "Deal Structuring",
-      "headline": "Unimech Aerospace and Manufacturing Limited: General Updates",
-      "why": "General Updates - In continuation of the disclosure submitted by the Company on October 27, 2026, regarding the acquisition of shares of Hobel Bellows Private Limited, and pursuant to Regulation 30 read with Part A of Schedule III of the…",
-      "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
-      "source": "https://nsearchives.nseindia.com/corporate/UNIMECH_29102026185453_Acquisition_of_Shares_of_Hobel.pdf",
-      "sourceName": "NSE filing - Unimech Aerospace and Manufacturing Limited"
-    },
-    {
-      "id": "academy-2026-10-29-2-nse-emmbi-29-oct-2026172646",
-      "sourceId": "nse-emmbi-29-oct-2026172646",
-      "date": "29 Oct 2026",
-      "category": "Deal Structuring",
-      "headline": "Emmbi Industries Limited: General Updates",
-      "why": "General Updates - Emmbi Industries Limited has informed the Exchange regarding the Board s approval, at its meeting held on October 29, 2026, of the proposal for acquisition of 50% of the equity share capital of Britpac AB, Sweden,…",
-      "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
-      "source": "https://nsearchives.nseindia.com/corporate/EMMBI_29102026172052_BritpacAB_Fortapac_AnnouncementSigned.pdf",
-      "sourceName": "NSE filing - Emmbi Industries Limited"
     }
   ]
 }

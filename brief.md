@@ -1,59 +1,41 @@
 # Corporate Law Tracker - Daily Brief
-_18 November 2026_
+_19 November 2026_
 
-6 new development(s).
+4 new development(s).
 
-### 🔴 JSA advises Jindal Power on $1 billion financing for power project in Botswana
-**BANK** · $1 bn · Cross-border · Reported
+### 🔴 Khaitan & Co advises Persistent Systems on ₹7,600 crore acquisition financing
+**BANK** · ₹7,600 cr · Cross-border · Reported
 
-Jindal Energy (Botswana) Proprietary Limited, part of the Jindal Power group, has availed $1 billion financing from a consortium of lenders comprising Axis Bank Limited, ICICI Bank Limited, and Export-Import Bank of India, for the…
+Khaitan & Co acted as legal advisors to Persistent Systems Limited on its acquisition financing and general corporate purposes funding for the proposed acquisition of Nagarro SE, a German-listed digital engineering company. The financing…
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/jsa-advises-jindal-power-on-1-billion-financing-for-power-project-in-botswana)
-
----
-
-### 🔴 Cyril Amarchand Mangaldas, Trilegal, Linklaters act on Bajaj Finance ₹11,700 crore QIP
-**IPO** · ₹11,700 cr · India · Reported
-
-Bajaj Finance Limited has made a qualified institutions placement of equity shares aggregating to ₹11,700 crore. Cyril Amarchand Mangaldas advised Bajaj Finance on this QIP, as well as on the preferential issuance of fully convertible…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-bajaj-finance-11700-crore-qip)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-persistent-systems-on-7600-crore-acquisition-financing)
 
 ---
 
-### AZB, Hogan Lovells, CAM, Linklaters act on Aegis Logistics ₹3,500 crore QIP
-**IPO** · ₹3,500 cr · India · Reported
+### JSA, Khaitan & Co act on Temasek's ₹2,500 crore investment in Godrej Capital
+**REG** · ₹2,500 cr · India · Reported
 
-Aegis Logistics Limited has raised ₹3,500 crore from a Qualified Institutions Placement of 2,89,25,619 equity shares. AZB & Partners and Hogan Lovells Cadwalader acted as the Indian counsel and international counsel for Aegis Logistics on…
+Temasek Holdings is set to invest ₹2,500 crore in Godrej Capital Limited, the financial services arm of Godrej Industries Limited. JSA Advocates and Solicitors advised Temasek Holdings on this transaction.
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/azb-hlc-cam-linklaters-act-on-aegis-logistics-3500-crore-qip)
-
----
-
-### Khaitan & Co advises HarbourFront on RBI engagement on In-Specie distribution by a Category II AIF
-**REG** · India · Reported
-
-Khaitan & Co has advised HarbourFront India Investment Advisory LLP in connection with its engagement with the Reserve Bank of India regarding the proposed in-specie distribution of assets by a Category II AIF, registered with the…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-harbourfront-on-rbi-engagement-on-in-specie-distribution-by-a-category-ii-aif)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-godrej-capital-on-securing-2500-crore-investment-from-temasek)
 
 ---
 
-### Trilegal advises SBI Funds International on launch of Signature CIO Funds from GIFT City
-**MA** · Cross-border · Reported
+### VERTICES PARTNERS advises Marico on ₹113 crore stake acquisition in Cosmix
+**MA** · ₹113 cr · India · Reported
 
-Trilegal acted as fund counsel to SBI Funds International (IFSC) Limited in connection with the launch of Signature CIO Funds from GIFT City, being open-ended retail schemes, designed to provide investors in India with access to overseas…
+Marico Limited has acquired an additional 20% stake in Cosmix Wellness Limited for ₹113.65 crore. VERTICES PARTNERS advised Marico on this transaction.
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/trilegal-advises-sbi-funds-international-on-launch-of-signature-cio-funds-from-gift-city)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/vertices-partners-advises-marico-on-113-crore-stake-acquisition-in-cosmix)
 
 ---
 
-### Argus Partners advises MakeMyTrip on acquisition of majority stake in Quick Ride
-**MA** · Bengaluru · Reported
+### Dr. Arvind Kapur, Rohan Yadav acquire minority stake in SeedWorks NeuVeg; Saraf and Partners, TLH Advocates advise
+**MA** · India · Reported
 
-MakeMyTrip India has made a majority stake acquisition in Quick Ride, a Bengaluru-based, technology-led shared mobility platform. The transaction involved an internal restructuring of Quick Ride's business.
+Renowned vegetable seeds industry veteran Dr. Arvind Kapur and Mr.
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/argus-partners-advises-makemytrip-on-acquisition-of-majority-stake-in-quick-ride)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/dr-arvind-kapur-rohan-yadav-acquire-minority-stake-in-seedworks-neuveg-saraf-and-partners-tlh-advocates-advise)
 
 ---
 
