@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-11-19T13:46:14.769Z",
+  "generatedAt": "2026-11-19T17:00:16.910Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-11-19-0-nse-rss-ea4053985280d170fab5b2",
+      "sourceId": "nse-rss-ea4053985280d170fab5b2",
+      "date": "19 Nov 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Siddhika Coatings Limited",
+      "why": "Siddhika Coatings Limited - Siddhika Coatings Limited has informed the Exchange regarding 'Submission of disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011'. |SUBJECT: Updates",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://nsearchives.nseindia.com/corporate/Siddhika_19112026195013_Updates.pdf",
+      "sourceName": "NSE RSS"
+    },
+    {
+      "id": "academy-2026-11-19-1-nse-rss-e1a00d910b994b18acee7c",
+      "sourceId": "nse-rss-e1a00d910b994b18acee7c",
+      "date": "19 Nov 2026",
+      "category": "Deal Structuring",
+      "headline": "Vishnusurya Projects and Infra Limited",
+      "why": "Vishnusurya Projects and Infra Limited - Vishnusurya Projects and Infra Limited has informed the Exchange regarding Outcome of Board Meeting held on November 19, 2026 for the Approval of Entering into a Joint Venture Agreement with Garuda…",
+      "interviewPrompt": "Explain why the structure matters commercially, then identify the legal risk and the clause/approval that manages it.",
+      "source": "https://nsearchives.nseindia.com/corporate/VISHNUSURYA_19112026193926_BoardMeetingOutcome18112026.pdf",
+      "sourceName": "NSE RSS"
+    },
+    {
+      "id": "academy-2026-11-19-2-nse-rss-d54e6bc99b023e0bf72a0a",
+      "sourceId": "nse-rss-d54e6bc99b023e0bf72a0a",
+      "date": "19 Nov 2026",
+      "category": "Companies Act",
+      "headline": "One 97 Communications Limited",
+      "why": "One 97 Communications Limited - ONE 97 COMMUNICATIONS LIMITED has informed the Exchange regarding Update-Acquisition/Scheme/Sale/Disposal-XBRL |SUBJECT: Update-Acquisition (including agreement to acquire)-XBRL",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/xbrl/REG30_Restructuring_19784_WebXMLFile_20261119_193301178.xml",
+      "sourceName": "NSE RSS"
+    },
     {
       "id": "academy-2026-11-19-0-nse-bharatforg-12-nov-2026181926",
       "sourceId": "nse-bharatforg-12-nov-2026181926",
@@ -408,39 +441,6 @@
       "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
       "source": "https://nsearchives.nseindia.com/corporate/DPSCLTD_31102026163215_IntimationunderReg30ofimpositionoffineunderReg34ofSEBI_LODR__31102026.pdf",
       "sourceName": "NSE filing - DPSC Limited"
-    },
-    {
-      "id": "academy-2026-10-30-0-nse-hegam-30-oct-2026184723",
-      "sourceId": "nse-hegam-30-oct-2026184723",
-      "date": "30 Oct 2026",
-      "category": "Companies Act",
-      "headline": "HEG Advanced Materials Limited: Updates",
-      "why": "Updates - HEG Advanced Materials Limited has informed the Exchange regarding 'Communication by HEG Graphite Limited (renamed as HEG Limited), Resulting Company (as per Composite Scheme of Arrangement) regarding unaudited financial results…",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/HEGAM_30102026184640_StEX_HEGFinancials.pdf",
-      "sourceName": "NSE filing - HEG Advanced Materials Limited"
-    },
-    {
-      "id": "academy-2026-10-30-1-nse-parashlth-30-oct-2026165937",
-      "sourceId": "nse-parashlth-30-oct-2026165937",
-      "date": "30 Oct 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "Paras Healthcare Limited: Updates",
-      "why": "Updates - Paras Healthcare Limited has informed the Exchange regarding 'Disclosure under Regulation 29(1) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011, as amended ( SEBI SAST Regulations )'.",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/PARASHEALTH_30102026165908_Disclosure_-_Regulation_29_1__-_SAST_-_Final.pdf",
-      "sourceName": "NSE filing - Paras Healthcare Limited"
-    },
-    {
-      "id": "academy-2026-10-30-2-nse-heromotoco-30-oct-2026110407",
-      "sourceId": "nse-heromotoco-30-oct-2026110407",
-      "date": "30 Oct 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "Hero MotoCorp Limited: Acquisition",
-      "why": "Acquisition - Pursuant to Regulation 30 of the SEBI Listing Regulations, please find attached the disclosure document regarding the update on incorporation of a company under Section 8 of the Companies Act, 2013, under the name 'Hero…",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/HEROMOTO_30102026110358_Stxintimation30102026.pdf",
-      "sourceName": "NSE filing - Hero MotoCorp Limited"
     }
   ]
 }

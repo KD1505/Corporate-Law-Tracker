@@ -1,0 +1,5010 @@
+{
+  "generatedAt": "2026-11-19T17:00:17.307Z",
+  "totalExceptions": 1146,
+  "queued": 500,
+  "note": "A bounded editor review queue, not a claim that all flagged entries have been manually checked.",
+  "items": [
+    {
+      "id": "dentons-link-legal-trilegal-sidley-austin-fbt-gibbons-act-on-33-billion-stake-sale-by-the-president-of-india-in-lic",
+      "headline": "<b>India's largest-ever OFS: Government raises ₹31,552 crore (US$3.3 billion) by divesting 6.5% stake in LIC, achieving 10% public shareholding milestone ahead of May 2027 regulatory deadline.</b>",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 88,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "255-million-in-legal-fees-the-law-firms-behind-spacexs-75-billion-ipo",
+      "headline": "SpaceX completes $75 billion IPO at $135/share, valued at ~$1.78 trillion; Gibson Dunn lead counsel",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 76,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "cyril-amarchand-mangaldas-jsa-azb-partners-act-as-adani-airports-set-to-raise-9825-crore",
+      "headline": "Cyril Amarchand Mangaldas, JSA, AZB act as Adani Airports set to raise ₹9,825 crore",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 68,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "linklaters-advises-renew-on-the-recommended-offer-by-a-consortium-led-by-cpp-investments",
+      "headline": "Linklaters advises ReNew on recommended US$7.02/share take-private by CPP Investments–Sinha consortium via UK scheme",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 68,
+      "reasons": [
+        "Unverified purported legal adviser: Rothschild & Co",
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "khaitan-kirkland-azb-macfarlanes-act-on-bain-capitals-1-billion-acquisition-of-vitabiotics",
+      "headline": "Khaitan, Kirkland, AZB, Macfarlanes act on Bain Capital's $1 billion acquisition of Vitabiotics",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 68,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "shapoorji-pallonji-group-closes-21350-crore-fundraise-desai-diwanji-tta-advise",
+      "headline": "Shapoorji Pallonji group closes ₹21,350 crore fundraise; Desai & Diwanji, TT&A advise",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 68,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "tpg-led-consortium-to-acquire-aseem-infra-finance-cam-linklaters-trilegal-sam-advise",
+      "headline": "TPG-led consortium to acquire Aseem Infra Finance; CAM, Linklaters, Trilegal, SAM advise",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 68,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "khaitan-co-trilegal-linklaters-act-on-jsw-infrastructure-7502-crore-qip",
+      "headline": "Khaitan & Co, Trilegal, Linklaters act on JSW Infrastructure ₹7,502 crore QIP",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 68,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "trilegal-azb-latham-sam-cms-induslaw-act-on-cred-securing-900-from-meta",
+      "headline": "Trilegal, AZB, Latham, SAM, CMS INDUSLAW act on CRED securing $900 million from Meta",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 68,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "khaitan-co-lexygen-us-firms-act-on-standexs-acquisition-of-amrannarayan-group",
+      "headline": "<b>Standex acquires US and India transformer makers for $462M landmark two-stage deal, largest in company history.</b>",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 66,
+      "reasons": [
+        "Unverified purported legal adviser: Chamberlain Hrdlicka (Chamberlain, Hrdlicka, White, Williams & Aughtry, P.C.), Shugarman Advisors",
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "inside-reliance-jios-ipo-the-lawyers-steering-indias-biggest-listing",
+      "headline": "<b>Jio Platforms files DRHP for India's largest IPO</b> - fresh issue of 270 million equity shares (₹10 face value) targeting ~$3.8 billion raise; legal advisors SAM, CAM, K&Co, Latham & Watkins, White & Case.",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 66,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "cyril-amarchand-mangaldas-advises-kotak-mahindra-bank-on-acquisition-of-private-banking-wealth-management-business-of-de",
+      "headline": "Cyril Amarchand Mangaldas advises Kotak Mahindra Bank on acquisition of Private Banking & Wealth Management Business of Deutsche Bank",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 62,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "khaitan-co-advises-persistent-systems-on-7600-crore-acquisition-financing",
+      "headline": "Khaitan & Co advises Persistent Systems on ₹7,600 crore acquisition financing",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 60,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "jsa-advises-jindal-power-on-1-billion-financing-for-power-project-in-botswana",
+      "headline": "JSA advises Jindal Power on $1 billion financing for power project in Botswana",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 60,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "trilegal-shardul-amarchand-mangaldas-act-on-zetwerk-5012-crore-ipo",
+      "headline": "Trilegal, Shardul Amarchand Mangaldas act on Zetwerk ₹5,012 crore IPO",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 60,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "tta-linklaters-advise-federal-bank-on-establishment-of-us-500000000-mtn-programme",
+      "headline": "TT&A, Linklaters advise Federal Bank on establishment of US$ 500,000,000 MTN Programme",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 60,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "khaitan-co-assists-niif-on-setting-up-19000-crore-infrastructure-fund",
+      "headline": "Khaitan & Co assists NIIF on setting up ₹19,000 crore infrastructure fund",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 60,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "upgrad-acquires-unacademy-for-206-million-jsa-khaitan-river-law-cam-sam-blc-bharucha-cms-induslaw-advise",
+      "headline": "upGrad acquires Unacademy for $206 million; JSA, CMS INDUSLAW, Khaitan, River Law, CAM, SAM, BLC, Bharucha advise",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 60,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "aditya-birla-acquires-sprng-energy-from-shell-for-18-billion-khaitan-co-trilegal-advise",
+      "headline": "Aditya Birla acquires Sprng Energy from Shell for $1.8 billion; Khaitan & Co, Trilegal advise",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 60,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "khaitan-co-advises-persistent-on-14-billion-acquisition-of-nagarro",
+      "headline": "Khaitan & Co, Hengeler Mueller, Freshfields act on Persistent's $1.4 billion acquisition of Nagarro",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 60,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "oyo-ipo-30-the-law-firms-behind-its-6650-crore-public-issue",
+      "headline": "OYO IPO 3.0: The law firms behind its ₹6,650 crore public issue",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 60,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "insurancedekho-merges-with-renewbuy-dsk-khaitan-cam-cms-induslaw-tta-bharucha-eva-law-advise",
+      "headline": "InsuranceDekho merges with RenewBuy; DSK, Khaitan, CAM, CMS INDUSLAW, TT&A, Bharucha, EVA Law advise",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 58,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "khaitan-co-tta-mayer-brown-linklaters-act-on-capri-loans-300-million-bond-issuance",
+      "headline": "Khaitan & Co, TT&A, Mayer Brown, Linklaters act on Capri Loans $300 million bond issuance",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 58,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "jsa-advises-indusind-bank-on-sanctioning-2501-crore-financing-to-lightstorm",
+      "headline": "<b>Lightstorm secures ₹2,500 crore debt facility from IndusInd Bank</b> for AI-focused terrestrial and subsea fibre network expansion across India and Southeast Asia.",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 58,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "cyril-amarchand-mangaldas-azb-partners-sidley-austin-act-on-cube-highways-trust-5000-crore-ipo",
+      "headline": "Cyril Amarchand Mangaldas, Shardul Amarchand Mangaldas, AZB & Partners, Sidley Austin act on Cube Highways Trust ₹5,000 crore IPO",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 58,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "trilegal-khaitan-co-hogan-lovells-cadwalader-act-on-indo-mim-3812-crore-ipo",
+      "headline": "Trilegal, Khaitan & Co, Hogan Lovells Cadwalader act on INDO-MIM ₹3,812 crore IPO",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 58,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "cyril-amarchand-mangaldas-trilegal-sidley-austin-act-on-belrise-industries-1700-crore-qip",
+      "headline": "Cyril Amarchand Mangaldas, Trilegal, Sidley Austin act on Belrise Industries ₹1,700 crore QIP",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 58,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "cyril-amarchand-mangaldas-trilegal-act-on-adani-enterprises-15000-crore-qip",
+      "headline": "Cyril Amarchand Mangaldas, Trilegal, A&O Shearman act on Adani Enterprises ₹15,000 crore QIP",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 58,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "coal-india-ofs",
+      "headline": "Khaitan advises President of India on ₹5,549 cr Coal India share sale",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 58,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "irfc-hyd-metro",
+      "headline": "Khaitan advises IRFC on ₹13,527 cr refinancing of Hyderabad Metro Rail",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 58,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "warburg-pincus-acquires-integrace-from-true-north-temasek-cam-khaitan-jsa-advise",
+      "headline": "<b>Warburg Pincus acquires therapy-focused formulations platform Integrace for ₹1,200 crore in full exit of True North and Temasek</b>",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 56,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "bharucha-partners-shardul-amarchand-mangaldas-khaitan-co-act-on-river-mobility-120-million-series-c-fundraise",
+      "headline": "<b>River Mobility closes $120 million Series C (equity + venture debt)</b> led by Indian institutional investors Elev8 & Claypond, marking first major backing from domestic capital alongside global strategic and impact investors.",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 56,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "shardul-amarchand-mangaldas-jsa-hogan-lovells-act-on-craftsman-automation-2000-crore-qip",
+      "headline": "<b>Craftsman Automation successfully raised ₹2,000 crore via QIP</b>, placing 22,98,850 equity shares at ₹8,700 per share to institutional investors including HDFC MF, SBI MF, and HDFC Life.",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 56,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "acme-qip",
+      "headline": "ACME Solar raises ₹2,800 cr via QIP; SAM, CAM and Hogan Lovells act",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 56,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "jsw-energy-qip",
+      "headline": "Khaitan, SAM and Linklaters act on JSW Energy ₹4,000 cr QIP",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 56,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
+      ]
+    },
+    {
+      "id": "trilegal-tta-hogan-lovells-cadwalader-act-on-apar-industries-2500-crore-qip",
+      "headline": "<b>APAR Industries completes ₹2,500 cr QIP at ₹14,805/share</b>, placing 16.88 lakh shares to institutional buyers.",
+      "kind": "deal",
+      "importance": "md",
+      "score": 48,
+      "reasons": [
+        "Unverified purported legal adviser: T T & A (Talwani & Associates)"
+      ]
+    },
+    {
+      "id": "jsa-advises-ashok-iron-works-on-indiarfs-majority-stake-acquisition-in-its-casting-and-machining-business",
+      "headline": "<cite index=\"38-2\">India Resurgence Fund (IndiaRF) acquired Fine Edge Engineering Private Limited in a transaction valued at around ₹2,000 crore</cite>, <b>establishing control over Ashok Iron Works' foundry and precision machining business.</b>",
+      "kind": "deal",
+      "importance": "md",
+      "score": 48,
+      "reasons": [
+        "Unverified purported legal adviser: Investec"
+      ]
+    },
+    {
+      "id": "trilegal-tta-cyril-amarchand-mangaldas-act-on-sarvam-ai-300-million-series-b-fundraise",
+      "headline": "Sarvam AI closes $300 million Series B led by HCL Technologies and Bessemer Venture Partners",
+      "kind": "deal",
+      "importance": "md",
+      "score": 48,
+      "reasons": [
+        "Unverified purported legal adviser: TT&A (Transamerica & Associates / T&A)"
+      ]
+    },
+    {
+      "id": "almt-legal-sam-greenberg-traurig-mcdermott-act-on-prochant-securing-investment-from-longshore-capital-partners",
+      "headline": "Prochant Healthcare secures strategic investment from Longshore Capital Partners; teams from ALMT Legal, SAM, Greenberg Traurig, McDermott advise on global and India legs.",
+      "kind": "deal",
+      "importance": "md",
+      "score": 44,
+      "reasons": [
+        "Unverified purported legal adviser: McDermott Will & Emery (also referred to as 'McDermott Will & Schulte')"
+      ]
+    },
+    {
+      "id": "nse-BASF-24-Jun-2026184729",
+      "headline": "BASF SE acquires remaining stake in BASF India via NCLT-convened delisting; shareholders approve scheme at 86.5% threshold",
+      "kind": "deal",
+      "importance": "md",
+      "score": 43,
+      "reasons": [
+        "Unverified purported legal adviser: Not disclosed in primary source"
+      ]
+    },
+    {
+      "id": "nse-SAMMAANCAP-05-Mar-2026133659",
+      "headline": "Sammaan Capital Limited allots ₹280 cr in secured NCDs across two series",
+      "kind": "deal",
+      "importance": "md",
+      "score": 38,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-PIRAMALFIN-24-Aug-2026104230",
+      "headline": "Piramal Finance Limited Board approves preferential issue of warrants to promoter group",
+      "kind": "deal",
+      "importance": "md",
+      "score": 35,
+      "reasons": [
+        "Unverified purported legal adviser: Unknown (Company Counsel)"
+      ]
+    },
+    {
+      "id": "nse-VAML-06-Aug-2026125025",
+      "headline": "Vedanta Aluminium Metal Limited: News Verification",
+      "kind": "deal",
+      "importance": "md",
+      "score": 35,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-ABREL-13-Aug-2026131943",
+      "headline": "Aditya Birla Real Estate Limited Board approves ABREL ESOP Scheme 2026",
+      "kind": "deal",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-GICHSGFIN-24-Jun-2026121240",
+      "headline": "LIC of India files substantial acquisition disclosure under SEBI takeover code for GIC Housing Finance",
+      "kind": "deal",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-TVSELECT-19-Jun-2026125436",
+      "headline": "TVS Electronics: Substantial Acquisition Disclosure under SEBI Takeover Code",
+      "kind": "deal",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-SEPC-19-Jun-2026174017",
+      "headline": "Mark AB Welfare Trust files SEBI Takeover Regulation disclosure for SEPC Limited acquisition",
+      "kind": "deal",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-ASHIANA-06-Mar-2026175029",
+      "headline": "Ashiana Housing repays ₹35 cr to IFC on listed NCDs",
+      "kind": "deal",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: Ashiana Housing Limited (internal/board)"
+      ]
+    },
+    {
+      "id": "nse-NAZARA-18-Mar-2026184706",
+      "headline": "Nazara to Acquire Controlling Stake in Social Gaming Platform Bluetile and BestPlay for USD 100.3 million",
+      "kind": "deal",
+      "importance": "md",
+      "score": 32,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-VBL-25-Aug-2026162124",
+      "headline": "Varun Beverages Limited Board approves wholly-owned Indian subsidiary and Tunisia joint venture",
+      "kind": "deal",
+      "importance": "md",
+      "score": 31,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-IRIS-21-Aug-2026190743",
+      "headline": "IRIS RegTech Solutions incorporates wholly owned subsidiary in UAE",
+      "kind": "deal",
+      "importance": "md",
+      "score": 31,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-VBL-17-Aug-2026202840",
+      "headline": "Varun Beverages: Twizza–Bevco merger completed in South Africa; Twizza ceases to be step-down subsidiary",
+      "kind": "deal",
+      "importance": "md",
+      "score": 31,
+      "reasons": [
+        "Unverified purported legal adviser: Not disclosed in primary source"
+      ]
+    },
+    {
+      "id": "nse-ADANIENSOL-14-Aug-2026145900",
+      "headline": "Adani Energy Solutions Limited executes share purchase agreement to acquire 100% of Vizag Power Transmission Limited",
+      "kind": "deal",
+      "importance": "md",
+      "score": 31,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-BHARATFORG-18-Jun-2026161652",
+      "headline": "Kalyani Strategic Systems and AM General Sign Strategic Partnership for Mounted Artillery Gun Systems",
+      "kind": "deal",
+      "importance": "md",
+      "score": 31,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-ELECTHERM-14-Aug-2026160217",
+      "headline": "Electrotherm allots 1,09,50,000 preference shares under NCLT restructuring",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 29,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-GVPIL-21-Jul-2026170136",
+      "headline": "GE Power India Limited: NCLT Convened Unsecured Creditors' Meeting – E-Voting Results",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 29,
+      "reasons": [
+        "Unverified purported legal adviser: Scrutinizer (appointed by GE Power India Limited for e-voting)"
+      ]
+    },
+    {
+      "id": "nse-OLAELEC-07-Jul-2026180330",
+      "headline": "Ola Electric: NSE Seeks Clarification on Reports of Two Suppliers Filing NCLT Over Dues",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 29,
+      "reasons": [
+        "Unverified purported legal adviser: Ola Electric Mobility Limited"
+      ]
+    },
+    {
+      "id": "nse-APOLLOHOSP-24-Jun-2026205805",
+      "headline": "Apollo Hospitals Enterprise Limited: Scheme of Arrangement filed with NCLT",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 29,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-RAJOOENG-19-Jun-2026144016",
+      "headline": "Rajoo Engineers: Kishor Nanalal Doshi files SEBI Regulation 31 disclosure on substantial share acquisition",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 29,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-ADVAIT-19-Jun-2026174106",
+      "headline": "Advait Energy Transitions: SEBI Takeover Regulation 10(6) Exemption Disclosure",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 29,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-CLEANMAX-17-Aug-2026133911",
+      "headline": "Clean Max Enviro divests stakes in wholly-owned Vietnam and China solar subsidiaries via NSE-intimated share sale",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 27,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-ESTER-12-Aug-2026172017",
+      "headline": "Ester Loop Infinite Technologies (ELITe JV) secures multi-year LOI with global sports brand for up to 15,000 MT/year",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 27,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-TIIL-20-Jul-2026161646",
+      "headline": "Technocraft Industries acquires newly incorporated subsidiary in Japan",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 27,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-LUMAXTECH-30-Jun-2026061200",
+      "headline": "Lumax Auto Technologies divests entire 50% equity stake in JV subsidiary Lumax Jopp Allied Technologies to German partner Jopp Holding GmbH",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 27,
+      "reasons": [
+        "Unverified purported legal adviser: Not disclosed"
+      ]
+    },
+    {
+      "id": "nse-INSPIRISYS-19-Jun-2026125626",
+      "headline": "CAC Holdings Corporation files substantial acquisition disclosure for Inspirisys Solutions under SEBI Takeover Regulations",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 27,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-E2E-25-Feb-2026204920",
+      "headline": "E2E Networks Limited launches Qualified Institutions Placement (QIP) with floor price of ₹2,630.60 per share",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 27,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-EFCIL-01-May-2026121502",
+      "headline": "EFC (I) Limited announces rights issue of 1.07 cr equity shares at ₹150/share",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 26,
+      "reasons": [
+        "Unverified purported legal adviser: EFC (I) Limited (In-house Legal/Company Secretary)"
+      ]
+    },
+    {
+      "id": "nse-GENESYS-26-Jun-2026122732",
+      "headline": "Genesys International launches Rights Issue of ₹139.30 cr",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 26,
+      "reasons": [
+        "Unverified purported legal adviser: Not disclosed in source"
+      ]
+    },
+    {
+      "id": "nse-RPTECH-23-Jun-2026201311",
+      "headline": "Rashi Peripherals to acquire strategic stake in VDA Infosolutions",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 26,
+      "reasons": [
+        "Unverified purported legal adviser: Rashi Peripherals Limited, VDA Infosolutions"
+      ]
+    },
+    {
+      "id": "nse-GODREJPROP-25-Aug-2026190050",
+      "headline": "NCLT Mumbai approves selective reduction of equity capital in Godrej Redevelopers (Mumbai) subsidiary",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 25,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-HEG-24-Aug-2026185833",
+      "headline": "HEG Limited: Relinquishment of Ravi Jhunjhunwala from Chairman, MD & CEO pursuant to Composite Scheme of Arrangement",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 25,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SOLARA-19-Aug-2026111148",
+      "headline": "Solara Active Pharma Sciences: Conversion of Partly Paid-Up Rights Shares into Fully Paid-Up Equity Shares",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 25,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SHAREINDIA-12-Aug-2026164741",
+      "headline": "Share India Securities approves issuance of NCDs up to ₹75 crore",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 25,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-OLAELEC-16-Mar-2026173847",
+      "headline": "Ola Electric Mobility Limited: News Verification",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 25,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-ABREL-17-Apr-2026172003",
+      "headline": "Aditya Birla Real Estate Limited: News Verification",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 25,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-IKS-13-Apr-2026181907",
+      "headline": "Inventurus Knowledge Solutions Limited: News Verification",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 25,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-GENSOL-13-Jul-2026120729",
+      "headline": "Gensol Engineering Limited: News Verification",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 24,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-SIGMAADV-25-Aug-2026073501",
+      "headline": "Sigma Advanced Systems deepens Rolls-Royce partnership with £125m long-term agreement post-Bromford acquisition",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-NELCO-17-Aug-2026163836",
+      "headline": "NELCO Announces Strategic Partnership with Elveo for Direct-to-Device and IoT Connectivity in South Asia",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Unverified purported legal adviser: Bar & Bench source reference"
+      ]
+    },
+    {
+      "id": "nse-MARKSANS-16-Jun-2026144455",
+      "headline": "Marksans Pharma updates acquisition of QliniQ B.V.",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-KRYSTAL-12-Aug-2026094517",
+      "headline": "Krystal Integrated Services Limited acquires 100% stake in Citelum India from EDF Group",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-SETL-07-Jul-2026004000",
+      "headline": "Standard Engineering Technology Limited announces strategic investment in GL HAKKO Co., Ltd., Japan",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Unverified purported legal adviser: Standard Engineering Technology Limited"
+      ]
+    },
+    {
+      "id": "nse-SWSOLAR-29-Jun-2026153652",
+      "headline": "SWREL JV secures landmark solar/renewable project in Egypt",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-MEDIASSIST-24-Jun-2026151501",
+      "headline": "Medi Assist Healthcare acquires additional stake in UK subsidiary Mayfair We Care",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-WIPRO-23-Jun-2026184135",
+      "headline": "Wipro acquires select customer contracts of Alpha Net Consulting LLC; completion extended to 30 September 2026",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-AUROPHARMA-22-Jun-2026073147",
+      "headline": "Aurobindo Pharma USA Receives FTC Approval to Acquire Lannett Company",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-AUROPHARMA-19-Jun-2026082821",
+      "headline": "Aurobindo Pharma obtains FTC approval for Lannett acquisition",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Unverified purported legal adviser: Aurobindo Pharma Limited (Acquiror)"
+      ]
+    },
+    {
+      "id": "nse-WIPRO-18-Jun-2026172433",
+      "headline": "Wipro to acquire additional 20% stake in Aggne Global entities",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-JUBLINGREA-18-Aug-2026213720",
+      "headline": "Jubilant Ingrevia acquires 40% stake in Zettaone Technologies for ₹189.2 crore",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 22,
+      "reasons": [
+        "Unverified purported legal adviser: Not disclosed in primary source"
+      ]
+    },
+    {
+      "id": "vidhistras-acts-for-pagani-capital-on-35-million-india-focused-residency-investment-programme",
+      "headline": "Vidhiśāstras advises Pagani Capital on $35M India-focused residency investment programme",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 22,
+      "reasons": [
+        "Unverified purported legal adviser: Vidhiśāstras – Advocates & Solicitors"
+      ]
+    },
+    {
+      "id": "nse-HEROMOTOCO-01-Apr-2026193132",
+      "headline": "Hero MotoCorp completes ₹210 cr investment in Euler Motors via Series E CCPS",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 22,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-PIRAMALFIN-30-Mar-2026150224",
+      "headline": "Piramal Finance completes sale of stake in Shriram Life Insurance for ₹600 crore",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 22,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-JSFB-25-Aug-2026151236",
+      "headline": "Jana Small Finance Bank, Federal Bank shares fall amid merger buzz; NSE seeks clarification",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: NSE (National Stock Exchange of India Ltd.)"
+      ]
+    },
+    {
+      "id": "nse-KPIGREEN-24-Aug-2026121808",
+      "headline": "KPI Green Energy and Raz Holding Group sign Non-Binding Letter of Intent for Strategic Investment and/or Collaboration",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-JUSTDIAL-24-Aug-2026111254",
+      "headline": "V.S.S. Mani Disclosure under SEBI Takeover Regulations",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-ORIENTHOT-24-Aug-2026091348",
+      "headline": "IHCL and Oriental Hotels Limited Announce Merger",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-DPSCLTD-22-Aug-2026222139",
+      "headline": "DPSC Limited files Corporate Insolvency Resolution Process notice; 5th CoC meeting of India Power Corporation Limited scheduled",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-KCPSUGIND-21-Aug-2026141122",
+      "headline": "KCP Sugar: Regulation 29(2) Disclosure under SEBI Takeovers Regulations",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-GATECHDVR-21-Aug-2026144542",
+      "headline": "GACM Technologies Limited Successfully Completes Qualified Institutions Placement",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SHRIPISTON-20-Aug-2026223819",
+      "headline": "SPR Auto Technologies Limited completes Qualified Institutional Placement",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-GPIL-19-Aug-2026185110",
+      "headline": "Godawari Power and Ispat Limited: SEBI Takeover Disclosure under Regulation 10(6)",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-UGROCAP-18-Aug-2026193528",
+      "headline": "Ugro Capital Limited files Scheme of Amalgamation; merger details to regulatory disclosure",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-DSFCL-18-Aug-2026110227",
+      "headline": "Urvashi Tilakdhar files SEBI Regulation 10(5) substantial shareholding disclosure in DCM Shriram Fine Chemicals",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-KSHITIJPOL-18-Aug-2026144514",
+      "headline": "Kshitij Polyline Limited intimates Letter of Offer for rights issue of equity shares",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-NETWEB-17-Aug-2026194004",
+      "headline": "Netweb Technologies India Limited announces Qualified Institution Placement of Equity Shares",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-FCONSUMER-14-Aug-2026175246",
+      "headline": "Future Consumer Limited: Committee of Creditors Meeting in Corporate Insolvency Resolution Process",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-TATASTEEL-14-Aug-2026122601",
+      "headline": "Tata Steel approves divestment of entire stake in Jamshedpur Football and Sporting",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-TCIEXP-13-Aug-2026170325",
+      "headline": "TCI Express: Substantial Acquisition Disclosure under SEBI Takeover Code",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-JSWCEMENT-13-Aug-2026193714",
+      "headline": "JSW Cement approves participation in JSW One Platforms IPO as promoter selling shareholder",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-BLUSPRING-12-Aug-2026221159",
+      "headline": "Bluspring Enterprises announces amalgamation of wholly owned subsidiaries",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SECMARK-12-Aug-2026202045",
+      "headline": "SecMark Consultancy Limited: Board Approves Scheme of Amalgamation with Codifi Finserv and SecMark Holding",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-INTERARCH-06-Aug-2026202829",
+      "headline": "Interarch Building Solutions Limited: Qualified Institutional Placement",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-EDELWEISS-06-Aug-2026132302",
+      "headline": "Edelweiss Financial Services Board approves Q1 FY27 results and public NCD issuance",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-BANDHANBNK-07-Jul-2026111432",
+      "headline": "Bandhan Bank receives SEBI disclosure on acquisition of healthcare entities",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-ADANIENT-07-Jul-2026232629",
+      "headline": "Adani Enterprises Limited: Qualified Institutional Placement – Allotment of Equity Shares",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: SBICaps"
+      ]
+    },
+    {
+      "id": "nse-JSWSTEEL-03-Jul-2026104749",
+      "headline": "NCLT approves amalgamation of ARCL, MCL and JRDL into JSW Steel Limited",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-FIRSTCRY-01-Jul-2026193935",
+      "headline": "Brainbees Solutions to participate in subsidiary Swara Baby Products' IPO via OFS",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-STLTECH-30-Jun-2026235740",
+      "headline": "Sterlite Technologies Limited: Qualified Institutional Placement Issue Closes",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-MANORAMA-29-Jun-2026214111",
+      "headline": "Manorama Industries board approves qualified institutional placement (QIP)",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-JSWINFRA-25-Jun-2026234525",
+      "headline": "JSW Infrastructure: QIP of equity shares + OFS by Sajjan Jindal Family Trust under SEBI ICDR, 2018",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-DONEAR-24-Jun-2026182547",
+      "headline": "Sonia Agarwal Bajaj submits SEBI Takeover Regulation 10(5) disclosure to NSE for Donear Industries",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-VEDL-24-Jun-2026162141",
+      "headline": "Vedanta Limited incorporates wholly owned subsidiary",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: Vedanta Limited (internal legal/company secretary)"
+      ]
+    },
+    {
+      "id": "nse-GCSL-24-Jun-2026123430",
+      "headline": "Sky Alloys and Power Limited files Draft Red Herring Prospectus on NSE and BSE",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: Gretex Corporate Services Limited"
+      ]
+    },
+    {
+      "id": "nse-KITEX-23-Jun-2026185814",
+      "headline": "Kitex Garments convenes shareholder & creditor meetings for Scheme of Arrangement with Kitex Childrenswear",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: Not disclosed in newspaper notice"
+      ]
+    },
+    {
+      "id": "nse-JSWINFRA-22-Jun-2026190148",
+      "headline": "JSW Infrastructure announces QIP and promoter OFS under SEBI ICDR",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-SUNPHARMA-20-Jun-2026172342",
+      "headline": "Sun Pharmaceutical acquires Innovcare Lifesciences",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-JSWENERGY-20-Jun-2026150049",
+      "headline": "JSW Energy seeks NCLT approval for scheme of arrangement with GE Power India Limited",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-RAMCOCEM-20-Jun-2026122759",
+      "headline": "Ramco Cements files Scheme of Amalgamation with NSE",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-DOLLAR-20-Jun-2026121011",
+      "headline": "Dollar Industries Limited files Composite Scheme of Arrangement with notice to equity shareholders and unsecured creditors",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-GUJGASLTD-19-Jun-2026181416",
+      "headline": "Gujarat Gas Limited: Record Date for Scheme of Arrangement set at 2 July 2026",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-JSWENERGY-19-Jun-2026153409",
+      "headline": "JSW Energy, GE Power India – NCLT convened meetings for scheme of arrangement",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: Bar & Bench (primary source: NSE letter)"
+      ]
+    },
+    {
+      "id": "nse-HEG-25-Aug-2026170615",
+      "headline": "HEG Demerger to Take Effect from September 1, 2026; Record Date Fixed for September 7, 2026",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-INOXGREEN-24-Aug-2026202317",
+      "headline": "Inox Green Energy Services Limited: Scheme of Arrangement – Allotment of Equity Shares",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-HEG-24-Aug-2026191705",
+      "headline": "HEG Limited: Change in Management Following Composite Scheme of Arrangement",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: Not disclosed in primary source"
+      ]
+    },
+    {
+      "id": "nse-VERANDA-24-Aug-2026091047",
+      "headline": "Veranda Learning Solutions Limited Receives NCLT Approval for Commerce Vertical Demerger",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SHRENIK-24-Aug-2026204718",
+      "headline": "Shrenik Limited enters Corporate Insolvency Resolution Process",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: Unknown"
+      ]
+    },
+    {
+      "id": "nse-GRASIM-21-Aug-2026191941",
+      "headline": "Grasim Industries incorporates UHG Holdings IFSC Private Limited subsidiary in GIFT City",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-ULTRACEMCO-21-Aug-2026180414",
+      "headline": "UltraTech Cement incorporates UHG Holdings IFSC subsidiary for acquisition strategy",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-PACEDIGITK-21-Aug-2026163214",
+      "headline": "Pace Digitek completes acquisition via newly incorporated wholly owned subsidiary",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-TEAMLEASE-20-Aug-2026185213",
+      "headline": "TeamLease Services divests entire stake in Crystal HR and Securities Solutions Private Limited",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-KRONOX-20-Aug-2026184352",
+      "headline": "IIFL Capital, Indo Borax & Zenrock Chemicals launch mandatory open offer for Kronox Lab Sciences",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-KMSUGAR-20-Aug-2026144238",
+      "headline": "K.M. Sugar Mills Limited files Scheme of Arrangement with NSE",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-INDIAGLYCO-20-Aug-2026201241",
+      "headline": "India Glycols Limited: Receipt of NCLT Order",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-HAPPSTMNDS-18-Aug-2026204334",
+      "headline": "Happiest Minds Technologies Limited files Scheme of Arrangement",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SIYSIL-18-Aug-2026190450",
+      "headline": "Rameshkumar D Poddar acquisition in Siyaram Silk Mills disclosed under SEBI takeover norms",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-RHIM-18-Aug-2026164059",
+      "headline": "RHI Magnesita India completes merger of wholly owned subsidiary",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-VIDEOIND-18-Aug-2026181636",
+      "headline": "Videocon Industries Ltd: 64th CoC meeting scheduled for resolution plan consideration",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: Insolvency Professional (IP) / Resolution Professional (RP)"
+      ]
+    },
+    {
+      "id": "nse-GFLLIMITED-17-Aug-2026190835",
+      "headline": "Siddharth Jain files substantial acquisition disclosure in GFL Limited under SEBI Takeover Regs",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-AMBER-17-Aug-2026184643",
+      "headline": "Amber Enterprises India: Material Subsidiary IL JIN Electronics Issues 30.49 Crore Bonus Equity Shares",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-LLOYDSENT-17-Aug-2026183731",
+      "headline": "Lloyds Enterprises Limited: Acquisition Update on Steel Infra Solutions Company Limited",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-GATECH-17-Aug-2026181542",
+      "headline": "GACM Technologies Limited: Allotment of 495 million securities under QIP",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-BLUESTARCO-14-Aug-2026210144",
+      "headline": "Blue Star Engineering & Electronics Limited executes Business Transfer Agreement",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-VOLTAS-14-Aug-2026172619",
+      "headline": "Voltas Limited: Proposed Joint Venture with Atomberg Innovation Private Limited",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-BILVYAPAR-14-Aug-2026190920",
+      "headline": "BIL Vyapar Limited CoC holds 19th meeting; outcome filed with NSE",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-GREAVESCOT-14-Aug-2026143848",
+      "headline": "Greaves Cotton acquires remaining stake in Excel Controlinkage to make it wholly owned subsidiary",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-GODIGIT-14-Aug-2026131723",
+      "headline": "Go Digit General Insurance Limited: NCLT grants first motion order on amalgamation scheme",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-ESTER-14-Aug-2026123019",
+      "headline": "Ester Industries: SEBI Regulation 10(5) Disclosure of Substantial Acquisition filed by Ayush Vardhan Singhania",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SKIL-24-Jul-2026171247",
+      "headline": "SKIL Infrastructure Limited: Eighth Committee of Creditors Meeting in Corporate Insolvency Resolution Process",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: Insolvency Professional (name not disclosed in filing)"
+      ]
+    },
+    {
+      "id": "nse-BLISSGVS-19-Jul-2026204713",
+      "headline": "Anupam Rasayan's open offer for Bliss GVS Pharma updated with PAC addendum",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-SIMBHALS-21-Jul-2026174056",
+      "headline": "Simbhaoli Sugars Limited: Committee of Creditors Constituted in CIRP",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-COCHINSHIP-06-Jul-2026215710",
+      "headline": "Cochin Shipyard Limited: Government of India undertakes offer for sale of 66.29 lakh equity shares via stock exchange mechanism",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: Ministry of Ports, Shipping and Waterways, Government of India"
+      ]
+    },
+    {
+      "id": "nse-GPIL-29-Jun-2026105356",
+      "headline": "Godawari Power And Ispat Limited: SEBI Takeover Regulation 10(6) Disclosure filed by Kumar Agrawal",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-ALKEM-29-Jun-2026093911",
+      "headline": "Alkem Laboratories Limited announces acquisition update under SEBI LODR Regulation 30",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SETL-29-Jun-2026024131",
+      "headline": "Standard Engineering Technology Limited: Addendum to Investors Presentation re Proposed Acquisition of GScale Energy Private Limited",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-JSWINFRA-25-Jun-2026233827",
+      "headline": "JSW Infrastructure QIP and Promoter OFS announced under SEBI ICDR 2018",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-ASTERDM-24-Jun-2026163853",
+      "headline": "Aster DM Healthcare receives NCLT sanction order for Scheme of Amalgamation",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-RHL-24-Jun-2026115059",
+      "headline": "Arun Kumar Saraf Discloses Substantial Acquisition in Robust Hotels Limited",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-AHLEAST-24-Jun-2026114859",
+      "headline": "Arun Kumar Saraf Files Substantial Acquisition Disclosure for Asian Hotels (East) Limited",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-RCOM-24-Jun-2026161148",
+      "headline": "Reliance Communications initiates Corporate Insolvency Resolution Process",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-PIIND-23-Jun-2026194352",
+      "headline": "PI Industries exercises conversion of OFCD into equity in subsidiary PI Health Sciences",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-ANTHEM-23-Jun-2026160745",
+      "headline": "Ganesh Sambasivam files substantial acquisition disclosure in Anthem Biosciences under SEBI Takeover Code",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-KITEX-23-Jun-2026123915",
+      "headline": "Kitex Garments Limited: Scheme of Arrangement between Kitex Childrenswear Limited and Kitex Garments Limited",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-VALUEIND-22-Jun-2026131352",
+      "headline": "Value Industries Limited: Corporate Insolvency Resolution Process - 62nd CoC Meeting",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: Insolvency Professional (name not disclosed in filing)"
+      ]
+    },
+    {
+      "id": "nse-BOSCH-HCIL-18-Jun-2026170810",
+      "headline": "Bosch Global Software Technologies exercises over-subscription option in Bosch Home Comfort India Limited OFS",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-JSWENERGY-20-Jun-2026132303",
+      "headline": "JSW Energy–GE Power India Scheme of Arrangement: NCLT Convened Shareholders & Creditors Meetings",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: Bar & Bench (reporting source)"
+      ]
+    },
+    {
+      "id": "nse-LOTUSEYE-19-Jun-2026144548",
+      "headline": "Lotus Eye Hospital Files SEBI Reg. 31(4) Substantial Acquisition Disclosure",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-AMBER-19-Jun-2026175454",
+      "headline": "Amber Enterprises acquires additional 37.50% stake in Ascent Circuits via IL JIN subsidiary",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-INDOTHAI-19-Jun-2026175307",
+      "headline": "Indo Thai Securities shareholder meeting convened under NCLT scheme of arrangement",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-DIVGIITTS-19-Jun-2026151811",
+      "headline": "Divgi Torqtransfer Systems Limited: Substantial Acquisition Disclosure under SEBI Regulation 31(4)",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-HSCL-18-Jun-2026190132",
+      "headline": "Himadri Speciality Chemical Limited announces acquisition transaction",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-GEECEE-18-Jun-2026184659",
+      "headline": "GeeCee Ventures acquires equity shares in GMR Power and Urban Infra Limited",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: NSE (filing agent/exchange)"
+      ]
+    },
+    {
+      "id": "nse-NDTV-18-Jun-2026184439",
+      "headline": "NDTV updates NSE on GoodTimes Channel acquisition",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: Bar & Bench source"
+      ]
+    },
+    {
+      "id": "nse-JSFB-25-Aug-2026132734",
+      "headline": "NSE seeks clarification from Jana Small Finance Bank on merger buzz reports",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 15,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-WINSOME-29-Jul-2026183509",
+      "headline": "Trading suspension of Winsome Yarns Limited equity shares effective July 31, 2026 pursuant to NCLT-approved share capital reduction",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 15,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "airtel-spectrum",
+      "headline": "Bombay HC quashes retrospective one-time spectrum levy on Airtel, Vodafone Idea",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 15,
+      "reasons": [
+        "Unverified purported legal adviser: Union of India"
+      ]
+    },
+    {
+      "id": "nse-GULFOILLUB-02-Nov-2026115514",
+      "headline": "Gulf Oil Lubricants India Limited: News Verification",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-SOLARINDS-03-Sep-2026122718",
+      "headline": "Solar Industries India Limited: News Verification",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-TIMETECHNO-26-Aug-2026215932",
+      "headline": "Time Technoplast Board Approves ₹50 Cr Equity Investment in Time Intercontinental",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-HONASA-25-Aug-2026210005",
+      "headline": "Honasa Consumer proposes acquisition of Fluence Pharma",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-SONATSOFTW-25-Aug-2026132329",
+      "headline": "Sonata Software intimates effective date of wholly owned subsidiary merger",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-AEGISLOG-24-Aug-2026185543",
+      "headline": "Aegis Logistics executes BTA with Aegis Terminal (Pipavav) for ammonia handling",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-AEGISVOPAK-24-Aug-2026183957",
+      "headline": "Aegis Logistics executes Business Transfer Agreement with subsidiary Aegis Terminal (Pipavav)",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-DABUR-24-Aug-2026163653",
+      "headline": "Dabur India Limited: Scheme of Arrangement – NCLT Order Reserved for Second Motion Petition",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-INDHOTEL-24-Aug-2026090811",
+      "headline": "IHCL and Oriental Hotels Limited announce Merger",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-INDHOTEL-24-Aug-2026085952",
+      "headline": "IHCL announces Scheme of Arrangement for amalgamation with Oriental Hotels Limited",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-DSKULKARNI-22-Aug-2026103551",
+      "headline": "DS Kulkarni Developers: Acquisition by Ashdan Township Holdings completed",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-MPSLTD-22-Aug-2026181111",
+      "headline": "MPS Limited NCLT-convened shareholders meeting voting results filed",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-VERANDA-21-Aug-2026194526",
+      "headline": "Veranda Learning Solutions receives NCLT Chennai approval for Scheme of Arrangement",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-GLOBAL-21-Aug-2026121652",
+      "headline": "NCLT sanctions scheme of demerger between Yola Stays Limited and Rishiraj Infravision Private Limited",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-NETWEB-20-Aug-2026235206",
+      "headline": "Netweb Technologies allots 2,505,219 shares in QIP",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-RATNAVEER-20-Aug-2026172758",
+      "headline": "Ratnaveer Precision Engineering Limited announces rights issue of 1.25 crore equity shares at ₹264 per share",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-HINDCOMPOS-20-Aug-2026215051",
+      "headline": "Hindustan Composites completes slump sale of friction business undertaking",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-RML-20-Aug-2026214827",
+      "headline": "Rane (Madras) Limited completes acquisition of Hindustan Composites' friction business",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-PNGJL-20-Aug-2026152217",
+      "headline": "P N Gadgil Jewellers Limited announces acquisition",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-NIRAJ-20-Aug-2026122221",
+      "headline": "Niraj Cement Structurals Limited: Open Offer Post-Advertisement Filed",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: Navigant Corporate Advisors Limited"
+      ]
+    },
+    {
+      "id": "nse-SHRIPISTON-20-Aug-2026223040",
+      "headline": "SPR Auto Technologies Limited: Allotment of Securities",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SAIPARENT-20-Aug-2026144504",
+      "headline": "Sai Parenterals files PAS-1 form for variation in IPO proceeds utilization",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: Sai Parenterals Limited"
+      ]
+    },
+    {
+      "id": "nse-HITECHGEAR-20-Aug-2026131013",
+      "headline": "Hi-Tech Gears Limited enters Corporate Insolvency Resolution Process",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: Insolvency Professional (appointed by NCLT)"
+      ]
+    },
+    {
+      "id": "nse-HEG-19-Aug-2026200404",
+      "headline": "NCLT Order sanctioning Composite Scheme of Arrangement for HEG Limited",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-UGROCAP-19-Aug-2026184622",
+      "headline": "Ugro Capital Limited publishes shareholder and creditor meeting notices for scheme of amalgamation",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-TVSHLTD-19-Aug-2026183908",
+      "headline": "TVS Holdings Limited: Scheme of Arrangement Approved",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-KOTHARIPET-19-Aug-2026183702",
+      "headline": "Kothari Petrochemicals receives NSE no-objection to amalgamation of Kothari Sugars and Chemicals",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-JUBLINGREA-18-Aug-2026194307",
+      "headline": "Jubilant Ingrevia to acquire 40% strategic equity stake in Zettaone Technologies via binding term sheet",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-ALIVUS-18-Aug-2026173557",
+      "headline": "Alivus Life Sciences announces acquisition of majority stake in IQGenX",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-ALIVUS-18-Aug-2026172840",
+      "headline": "Alivus Life Sciences Limited announces acquisition via board meeting outcome",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-MOBIKWIK-18-Aug-2026171955",
+      "headline": "One Mobikwik Systems Limited: Slump Sale Completion Intimation",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-MARKOLINES-18-Aug-2026150742",
+      "headline": "Markolines Pavement Technologies Limited receives NSE/BSE observation letter for amalgamation/merger",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-AIIL-18-Aug-2026213750",
+      "headline": "Authum Investment & Infrastructure to subscribe to subsidiary ISARC shares via rights issue",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-FCONSUMER-18-Aug-2026153813",
+      "headline": "Future Consumer Limited: Committee of Creditors meeting postponed in CIRP",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-MANIPALHOS-17-Aug-2026214519",
+      "headline": "Manipal Health Enterprises acquires Kinder Women's Hospital and Fertility Centre, Bengaluru",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: Not disclosed in primary filing"
+      ]
+    },
+    {
+      "id": "nse-SUDARCOLOR-17-Aug-2026190950",
+      "headline": "Sudarshan Chemical Industries: SEBI Takeover Disclosure Filed",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-NETWORK18-17-Aug-2026172211",
+      "headline": "Network18 Media & Investments Limited files Company Scheme Petition for amalgamation of News18 Marathi subsidiary",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-PICCADIL-17-Aug-2026165403",
+      "headline": "Piccadily Agro Industries receives no-adverse-observation letters from BSE and NSE for demerger",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-DPSCLTD-17-Aug-2026134614",
+      "headline": "DPSC Limited: Corporate Insolvency Resolution Process – 4th CoC Meeting of India Power Corporation Limited",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-DPSCLTD-15-Aug-2026215456",
+      "headline": "DPSC Limited: 4th CoC Meeting under Corporate Insolvency Resolution Process for IPCL",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-BIRLACABLE-14-Aug-2026205908",
+      "headline": "Birla Cable merger with Vindhya Telelinks clears stock exchange nod",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-VINDHYATEL-14-Aug-2026205424",
+      "headline": "Vindhya Telelinks receives NSE & BSE NOC for Birla Cable amalgamation scheme",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-GBGLOBAL-14-Aug-2026185948",
+      "headline": "GB Global Limited: Amalgamation/Merger",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-ASTERDM-14-Aug-2026183429",
+      "headline": "Aster DM Quality Care receives NSE trading approval for equity shares allotted under amalgamation scheme",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-AYE-27-Apr-2026121856",
+      "headline": "Aye Finance posts Q4 FY2026 profit of ₹86 crores, up 110% YoY, on enlarged post-IPO networth",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: Aye Finance Limited"
+      ]
+    },
+    {
+      "id": "nse-GUJENERGY-17-Jun-2026194950",
+      "headline": "Gujarat Gas Limited receives final listing and trading approval for 622.7 million equity shares issued under Scheme of Arrangement",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-NIRAJ-16-Jun-2026183518",
+      "headline": "Niraj Cement Structurals Limited: Public Announcement-Open Offer",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: Navigant Corporate Advisors Ltd"
+      ]
+    },
+    {
+      "id": "nse-LLOYDSME-16-Jun-2026172427",
+      "headline": "Lloyds Metals acquires majority stake in subsidiary Lloyds Steel via share subscription",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-WAAREEENER-13-Aug-2026192342",
+      "headline": "Waaree Energies subsidiary executes JV agreement for strategic manufacturing tie-up",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SWELECTES-13-Aug-2026190503",
+      "headline": "Swelect Energy Systems acquires Dexler Solar Park Phase 1; additional investment in subsidiary",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-TEAMLEASE-13-Aug-2026185604",
+      "headline": "TeamLease Services executes exit agreement from Crystal HR and Securities Solutions JV",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: Unknown"
+      ]
+    },
+    {
+      "id": "nse-ADANIENT-13-Aug-2026181330",
+      "headline": "Adani Enterprises acquires Path Highway LLP through road transport subsidiaries",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-EFCIL-13-Aug-2026123556",
+      "headline": "EFC (I) Limited to Acquire 100 percent Stake in Ultrafresh Modular Solutions Limited",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-TTKPRESTIG-13-Aug-2026123130",
+      "headline": "TTK Prestige to divest 51% stake in Ultrafresh Modular Solutions",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SUPREMEENG-13-Aug-2026191346",
+      "headline": "Supreme Engineering Limited announces one-time settlement with Bank of India",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SUDARSCHEM-12-Aug-2026203920",
+      "headline": "Sudarshan Chemical Industries acquisition announcement via NSE Board Meeting outcome notification",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SECMARK-12-Aug-2026203409",
+      "headline": "SecMark Consultancy Limited board approves three-way amalgamation scheme",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-MALLCOM-12-Aug-2026194636",
+      "headline": "Mallcom (India) Limited: NCLT Order for Scheme of Amalgamation with Wholly-Owned Subsidiary Certified Copy Received",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-63MOONS-12-Aug-2026183133",
+      "headline": "63 Moons Technologies acquires Quantum entity",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-UGROCAP-12-Aug-2026182330",
+      "headline": "Ugro Capital Limited NCLT Amalgamation Order Certified",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-MUKKA-12-Aug-2026172755",
+      "headline": "Mukka Proteins Limited acquires Swaccha Eco Solutions Private Limited",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-ULTRACEMCO-12-Aug-2026170442",
+      "headline": "UltraTech Cement acquires Solaris Horizon Energy",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-LENSKART-12-Aug-2026162243",
+      "headline": "Lenskart acquires additional stake in Baofeng Framekart JV subsidiary via Singapore holding company",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-MAXESTATES-12-Aug-2026151627",
+      "headline": "Max Estates Limited acquires equity shares in subsidiary Max Square Limited pursuant to CCD conversion",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-RCOM-12-Aug-2026150034",
+      "headline": "Reliance Communications initiates Corporate Insolvency Resolution Process",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-KSERASERA-07-Aug-2026173401",
+      "headline": "NCLT Mumbai approves resolution plan for KSS Limited; Regulation 30 intimation filed",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-BLISSGVS-20-Jul-2026125409",
+      "headline": "Anupam Rasayan launches open offer for Bliss GVS Pharma with PAC addition",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: SBI Capital Markets Limited"
+      ]
+    },
+    {
+      "id": "nse-TORNTPHARM-20-Jul-2026124419",
+      "headline": "Torrent Pharmaceuticals completes amalgamation of J. B. Chemicals & Pharmaceuticals; allots 4.19 crore shares",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-MINDACORP-20-Jul-2026114808",
+      "headline": "Minda Corporation acquires further shares in Spark Minda Green Mobility Systems under right issue",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-MPSLTD-19-Jul-2026123309",
+      "headline": "NCLT Chennai Passes First Motion Order in MPS–ADI BPO Amalgamation Scheme",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-ASIANENE-18-Jul-2026125230",
+      "headline": "NCLT Notice of Hearing: Scheme of Merger by Absorption of Oilmax Energy Private Limited into Asian Energy Services Limited",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SABEVENTS-21-Jul-2026201144",
+      "headline": "NCLT Mumbai orders Pre-Packaged Insolvency Resolution Process for Sab Events & Governance Now Media",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-JSWENERGY-20-Jul-2026211845",
+      "headline": "JSW Energy convenes shareholder and creditor meetings pursuant to NCLT order for scheme of arrangement",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-JSWENERGY-20-Jul-2026211548",
+      "headline": "JSW Energy Limited: NCLT-ordered Shareholders and Creditors Meetings Concluded",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SMARTWORKS-07-Jul-2026070342",
+      "headline": "Smartworks Coworking Spaces Limited: Acquisition",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-ADANIENT-07-Jul-2026224326",
+      "headline": "Adani Enterprises Limited: Qualified Institutional Placement - Closure and Pricing Approval",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: SBI Caps"
+      ]
+    },
+    {
+      "id": "nse-BILVYAPAR-06-Jul-2026155401",
+      "headline": "BIL Vyapar Limited: 16th Committee of Creditors Meeting Outcome",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-AGL-03-Jul-2026103731",
+      "headline": "Allcargo Global Limited commences trading on NSE and BSE following demerger from Allcargo Logistics Limited",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SUPREMEENG-01-Jul-2026163047",
+      "headline": "Supreme Engineering Limited: NCLT admits Corporate Insolvency Resolution Process",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-MUKKA-30-Jun-2026150628",
+      "headline": "Mukka Proteins Limited announces further delay in acquisition of Mukka Proteins Vietnam Co., Ltd.",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-MMFL-30-Jun-2026131216",
+      "headline": "MM Forgings Limited: Amalgamation/Merger Order Pronounced",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-BCLIND-30-Jun-2026112058",
+      "headline": "BCL Industries Completes Acquisition of Svaksha Distillery Limited",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-RELTD-30-Jun-2026234136",
+      "headline": "Ravindra Energy Limited: Rights Issue completion intimation",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SHANTIGOLD-30-Jun-2026140914",
+      "headline": "Shanti Gold International Limited: Board approval for Rights Issue to raise capital",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-DPSCLTD-30-Jun-2026154918",
+      "headline": "DPSC Limited notifies NSE of Executive Director tenure cessation during Corporate Insolvency Resolution Process",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-LUMAXTECH-29-Jun-2026180017",
+      "headline": "Lumax Auto Technologies completes acquisition of remaining 15.97% equity stake in Lumax FAE Technologies",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-MOTHERSON-29-Jun-2026172331",
+      "headline": "Samvardhana Motherson International Limited: Acquisition Disclosure",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-JAGSNPHARM-29-Jun-2026164941",
+      "headline": "Jagsonpal Pharmaceuticals announces acquisition of Aequitas Healthcare",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-JAGSNPHARM-29-Jun-2026163418",
+      "headline": "Jagsonpal Pharmaceuticals acquires Aequitas Healthcare",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-TRU-29-Jun-2026124530",
+      "headline": "SAT Issues Interim Order on Marwadi Chandarana's Open Offer for TruCap Finance",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: Sundae Capital Advisors Private Limited, Marwadi Chandarana Intermediaries Brokers Private Limited"
+      ]
+    },
+    {
+      "id": "nse-KANSAINER-24-Jun-2026163443",
+      "headline": "Kansai Nerolac Paints Limited files NCLT petition for amalgamation with Nerofix Private Limited",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-VIKRAMSOLR-24-Jun-2026201453",
+      "headline": "Vikram Solar Limited: Corporate Insolvency Resolution Process Update before NCLAT",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: Not disclosed in NSE intimation"
+      ]
+    },
+    {
+      "id": "nse-GREAVESCOT-23-Jun-2026215206",
+      "headline": "Greaves Cotton Limited: Incorporation of Wholly Owned Subsidiary",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-WENDT-23-Jun-2026195419",
+      "headline": "Wendt (India) Limited: Capital infusion in wholly owned subsidiary",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-RPTECH-23-Jun-2026190241",
+      "headline": "Rashi Peripherals acquires VDA Infosolutions; statutory auditors reappointed",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-HONASA-23-Jun-2026182117",
+      "headline": "Honasa Consumer Limited Enters Nutraceuticals with Majority Stake Acquisition in Fluence Pharma",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-HONASA-23-Jun-2026181149",
+      "headline": "Honasa Consumer acquires Fluence Pharma; incorporates wholly owned subsidiary",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-HINDZINC-23-Jun-2026172456",
+      "headline": "Vedanta submits SEBI Takeover Regulation 31 disclosure for Hindustan Zinc",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-SUNTECK-23-Jun-2026170232",
+      "headline": "Sunteck Realty Limited incorporates wholly owned subsidiaries",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-GAYAHWS-23-Jun-2026155607",
+      "headline": "Gayatri Highways acquires 23% stake in HKR Roadways from Kotak Special Situations Fund",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-HUBTOWN-23-Jun-2026145001",
+      "headline": "Hubtown merger of Saicharan Consultancy and 25 West Realty via scheme of arrangement",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-GTPL-23-Jun-2026144014",
+      "headline": "GTPL Hathway Limited acquires cable television business from ACT Group",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-VHLTD-23-Jun-2026132306",
+      "headline": "Viceroy Hotels Limited announces proposed rights issue",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-ZOTA-22-Jun-2026173625",
+      "headline": "Zota Health Care acquires 80% stake in Globotask IT Consultancy Services",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-ZOTA-22-Jun-2026172253",
+      "headline": "Zota Health Care acquires 20 lakh equity shares of wholly-owned subsidiary KMHP Ventures via right issue",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-ZOTA-22-Jun-2026170706",
+      "headline": "Zota Health Care acquires equity shares in Curexis Ventures Private Limited via subscription to right issue",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-AGSTRA-18-Jun-2026221705",
+      "headline": "AGS Transact Technologies Limited: CIRP Intimation to NSE/BSE",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: Resolution Professional / Insolvency Professional (Appointed)"
+      ]
+    },
+    {
+      "id": "nse-RBLBANK-19-Jun-2026183926",
+      "headline": "JP Morgan India launches open offer for RBL Bank under SEBI SAST Regulations",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: JP Morgan"
+      ]
+    },
+    {
+      "id": "nse-WIPRO-19-Jun-2026160927",
+      "headline": "Wipro completes acquisition of additional 20% stake in Aggne Global IT Services",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-CIFL-19-Jun-2026154642",
+      "headline": "Substantial Acquisition Disclosure in Capital India Finance Limited",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-AMBER-18-Jun-2026141020",
+      "headline": "Amber Enterprises' IL JIN subsidiary to acquire additional 38.50% stake in Ascent Circuits, raising holding to 98.50%",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-GRASIM-23-Oct-2026180708",
+      "headline": "Grasim Industries Limited: News Verification",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 12,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-ADANIENT-29-Sep-2026162030",
+      "headline": "Adani Enterprises Limited: News Verification",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 12,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-TALWALKARS-22-Oct-2026200107",
+      "headline": "Talwalkars Better Value Fitness Limited: Suspension of Trading",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 3,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-AIFL-22-Oct-2026193652",
+      "headline": "Ashapura Intimates Fashion Limited: Suspension of Trading",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 3,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-JSFB-19-Oct-2026131656",
+      "headline": "Jana Small Finance Bank Limited: News Verification",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 3,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-FEDERALBNK-19-Oct-2026131648",
+      "headline": "The Federal Bank  Limited: News Verification",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 3,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-CSBBANK-15-Oct-2026143748",
+      "headline": "CSB Bank Limited: News Verification",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 3,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-BANDHANBNK-13-Oct-2026112651",
+      "headline": "Bandhan Bank Limited: News Verification",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 3,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-SECURCRED-09-Oct-2026185712",
+      "headline": "SecUR Credentials Limited: Delisting",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 3,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-SUULD-09-Oct-2026185452",
+      "headline": "Suumaya Industries Limited: Delisting",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 3,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-PODDARHOUS-09-Oct-2026185106",
+      "headline": "Poddar Housing and Development Limited: Delisting",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 3,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-SUNTV-30-Sep-2026123127",
+      "headline": "Sun TV Network Limited: News Verification",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 3,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-ATCOM-31-Aug-2026194226",
+      "headline": "Atcom Technologies Limited: Delisting",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 3,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-YATHARTH-28-Aug-2026112131",
+      "headline": "Yatharth Hospital & Trauma Care Services Limited: News Verification",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 3,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-SAIL-10-Aug-2026145721",
+      "headline": "Steel Authority of India Limited: News Verification",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 3,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-CELLO-05-Aug-2026174102",
+      "headline": "Cello World Limited: News Verification",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 3,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-SABEVENTS-03-Aug-2026200846",
+      "headline": "Sab Events & Governance Now Media Limited: Suspension of Trading",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 3,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-GODIGIT-29-Jul-2026125405",
+      "headline": "Go Digit General Insurance Limited: News Verification",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 3,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-JBCHEPHARM-13-Jul-2026182530",
+      "headline": "JB Chemicals & Pharmaceuticals Limited: Suspension of Trading",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 3,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-HAPPSTMNDS-13-Jul-2026151720",
+      "headline": "Happiest Minds Technologies Limited: News Verification",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 3,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-BORORENEW-09-Jul-2026140027",
+      "headline": "BOROSIL RENEWABLES LIMITED: News Verification",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 3,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-DIXON-17-Jun-2026121701",
+      "headline": "Dixon Technologies (India) Limited: News Verification",
+      "kind": "deal",
+      "importance": "lo",
+      "score": 3,
+      "reasons": [
+        "No published source attached"
+      ]
+    },
+    {
+      "id": "nse-STLTECH-02-Jul-2026190147",
+      "headline": "Sterlite Technologies Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "md",
+      "score": 35,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-ATHERENERG-12-Jun-2026233133",
+      "headline": "Ather Energy Limited: Others",
+      "kind": "needs-research",
+      "importance": "md",
+      "score": 35,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-HCC-24-Apr-2026091510",
+      "headline": "Hindustan Construction Company Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "md",
+      "score": 35,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-IRFC-16-Jun-2026182600",
+      "headline": "Government of India files substantial acquisition disclosure under SEBI Takeover Code for Indian Railway Finance Corporation",
+      "kind": "disclosure",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-BOSCH-HCIL-16-Jun-2026150425",
+      "headline": "Robert Bosch GmbH files substantial acquisition disclosure under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-TEAMGTY-16-Jun-2026130524",
+      "headline": "Sharda Saraogi files SEBI Regulation 31(4) disclosure under Takeover Code",
+      "kind": "disclosure",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SHRIRAMPPS-16-Jun-2026125512",
+      "headline": "Shriram Group Executives Welfare Trust files substantial acquisition disclosure under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SOBHA-20-Jul-2026170335",
+      "headline": "Sobha Limited: Monitoring Agency Report - Rights Issue Q1 FY2026-27",
+      "kind": "disclosure",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-TRU-07-Jul-2026104755",
+      "headline": "Wilson Holdings discloses substantial acquisition in TruCap Finance under SEBI takeover norms",
+      "kind": "disclosure",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-MM-06-Jul-2026120024",
+      "headline": "Anand Mahindra Disclosure under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-TNPETRO-03-Jul-2026131528",
+      "headline": "TIDC files substantial acquisition disclosure under SEBI Takeover Code for Tamilnadu PetroProducts Limited",
+      "kind": "disclosure",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-KPIL-03-Jul-2026131444",
+      "headline": "Mofatraj P. Munot files substantial acquisition disclosure under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-ACMESOLAR-01-Jul-2026114439",
+      "headline": "Manoj Kumar Upadhyay files substantial acquisition disclosure under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-ASIANPAINT-30-Jun-2026125255",
+      "headline": "Vakil family entities file substantial shareholding disclosure under SEBI takeover regulations",
+      "kind": "disclosure",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-VGUARD-29-Jun-2026162405",
+      "headline": "Chittilappilly Thomas Kochouseph files SEBI Takeover Regulation Disclosure with NSE",
+      "kind": "disclosure",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-KRISHANA-19-Jun-2026143828",
+      "headline": "Praveen Ostwal files SEBI Regulation 31(4) Disclosure under Takeover Code for Krishana Phoschem",
+      "kind": "disclosure",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-KIRLOSBROS-19-Jun-2026131051",
+      "headline": "Sanjay Kirloskar files SEBI Takeover disclosure under Regulation 31(4)",
+      "kind": "disclosure",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-RAMAPHO-19-Jun-2026130911",
+      "headline": "Substantial Acquisition Disclosure filed by Haresh D. Ramsingahni in Rama Phosphates Limited under SEBI Takeover Code.",
+      "kind": "disclosure",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-XTGLOBAL-19-Jun-2026124014",
+      "headline": "Ramarao Atchuta Mullapudi files substantial acquisition disclosure under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-MRF-19-Jun-2026123336",
+      "headline": "MRF Limited: Disclosure under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-FMNL-19-Jun-2026160102",
+      "headline": "Vivek Biyani files substantial acquisition disclosure under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-INVENTURE-19-Jun-2026155739",
+      "headline": "Inventure Growth & Securities files SEBI Regulation 31(4) substantial acquisition disclosure with NSE",
+      "kind": "disclosure",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-CHAMBLFERT-18-Jun-2026111246",
+      "headline": "Shalini Nopany submits SEBI Takeover Regulation 31(4) disclosure to NSE for Chambal Fertilizers",
+      "kind": "disclosure",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-IFGLEXPOR-18-Jun-2026104738",
+      "headline": "Shishir Kumar Bajoria Files Substantial Acquisition Disclosure under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "md",
+      "score": 33,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-AHLWEST-01-Jul-2026122259",
+      "headline": "Chaman Lal Brijrani Charitale Trust files substantial acquisition disclosure under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 29,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-APOLLOTYRE-30-Jun-2026130357",
+      "headline": "Apollo Tyres: Onkar Kanwar Files SEBI Reg. 31(4) Disclosure of Substantial Share Acquisition",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 29,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-ENERGYDEV-30-Jun-2026125433",
+      "headline": "Sarvottam Caps files substantial acquisition disclosure under SEBI Takeover Regulations at NSE",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 29,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SIGNATURE-24-Jun-2026112853",
+      "headline": "Sarvpriya Securities Discloses Substantial Share Acquisition in Signatureglobal (India) Limited",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 29,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-AIIL-23-Jun-2026161041",
+      "headline": "Authum Investment & Infrastructure Limited: Disclosure under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 29,
+      "reasons": [
+        "Unverified purported legal adviser: Unknown"
+      ]
+    },
+    {
+      "id": "nse-BHAGCHEM-23-Jun-2026160608",
+      "headline": "Singavarapu Chandrasekhar files substantial acquisition disclosure under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 29,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-PIGL-22-Jun-2026170202",
+      "headline": "Padmaraj Padmanabhan Pillai files SEBI Takeover Disclosure for Power & Instrumentation (Gujarat) Limited",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 29,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-CRAFTSMAN-19-Jun-2026142737",
+      "headline": "SEBI Takeover Code Disclosure: Srinivasan Ravi files Regulation 31(4) disclosure with NSE",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 29,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-LATENTVIEW-19-Jun-2026130318",
+      "headline": "Latent View Analytics: SEBI Takeover Disclosure (Regulation 31(4))",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 29,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-MODIS-19-Jun-2026130150",
+      "headline": "Modis Navnirman Limited: Disclosure under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 29,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-MFSL-19-Jun-2026125302",
+      "headline": "Max Ventures Investments Holdings Private Ltd files substantial acquisition disclosure under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 29,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-KEYFINSERV-19-Jun-2026153340",
+      "headline": "Rita Suchanti files substantial acquisition disclosure under SEBI Takeover Regulations (Reg 31(4))",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 29,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-RTNINDIA-06-Jul-2026115622",
+      "headline": "Arbutus Consultancy LLP Files SEBI Takeover Disclosure for RattanIndia Enterprises",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 25,
+      "reasons": [
+        "Unverified purported legal adviser: Unknown (Arbutus Consultancy LLP's legal counsel not identified in source)"
+      ]
+    },
+    {
+      "id": "nse-KIRLOSIND-06-Jul-2026114536",
+      "headline": "Kirloskar Industries: SEBI Regulation 31(4) Substantial Acquisition Disclosure filed by Rahul Kirloskar",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 25,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-ADANIENT-11-Nov-2026201430",
+      "headline": "Adani Enterprises Limited: Acquisition",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-SHREEJISPG-03-Nov-2026170642",
+      "headline": "Shreeji Shipping Global Limited: Updates",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-APARINDS-29-Oct-2026140202",
+      "headline": "Apar Industries Limited: Acquisition",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-TEMBO-08-Oct-2026110741",
+      "headline": "Tembo Global Industries Limited: Updates",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-SMCGLOBAL-01-Oct-2026142713",
+      "headline": "SMC Global Securities Limited: Acquisition",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-ADANIENT-26-Sep-2026124837",
+      "headline": "Adani Enterprises Limited: Acquisition",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-SMCGLOBAL-24-Sep-2026192731",
+      "headline": "SMC Global Securities Limited: Acquisition",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-MOMSBELIEF-19-Sep-2026174508",
+      "headline": "Rays of Belief Limited: Acquisition",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-MOMSBELIEF-17-Sep-2026174524",
+      "headline": "Rays of Belief Limited: Acquisition",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-TEMBO-15-Sep-2026152332",
+      "headline": "Tembo Global Industries Limited: Updates",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-RGL-01-Sep-2026185812",
+      "headline": "Renaissance Global Limited: Acquisition",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-TEMBO-01-Aug-2026143057",
+      "headline": "Tembo Global Industries Limited: Updates",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-AGL-29-Jul-2026192743",
+      "headline": "Allcargo Global Limited: Acquisition",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-MPSLTD-21-Jul-2026173445",
+      "headline": "MPS Limited: Acquisition",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-SWELECTES-14-Jul-2026201218",
+      "headline": "Swelect Energy Systems Limited: Updates",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-AGL-09-Jul-2026210549",
+      "headline": "Allcargo Global Limited: Acquisition",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-SEPC-08-Jul-2026084645",
+      "headline": "SEPC Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-RBA-07-Jul-2026214035",
+      "headline": "Restaurant Brands Asia Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-SAGILITY-18-Jun-2026172538",
+      "headline": "Sagility B.V. files substantial acquisition disclosure under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-HEROMOTOCO-28-Oct-2026195015",
+      "headline": "Hero MotoCorp Limited: Acquisition",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 22,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-JUNIPER-16-Sep-2026151557",
+      "headline": "Juniper Hotels Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 22,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-HITECH-14-Aug-2026141523",
+      "headline": "Hi-Tech Pipes Limited: Monitoring Agency Report on QIP Proceeds Utilization (Q1 FY2026–27)",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: Monitoring Agency (Independent)"
+      ]
+    },
+    {
+      "id": "nse-EQUIPPP-16-Jun-2026192106",
+      "headline": "Equivas Capital files SEBI Takeover Regulation disclosure for Equippp Social Impact Technologies",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-WAKEFIT-16-Jun-2026192001",
+      "headline": "Wakefit Innovations Limited: SEBI Takeover Regulation Disclosure (Regulation 31(4))",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-HOMEFIRST-16-Jun-2026183404",
+      "headline": "True North Fund V LLP files SEBI Takeover Regulation Disclosure for Home First Finance",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-CHAMBLFERT-16-Jun-2026145743",
+      "headline": "Manavta Holdings files substantial acquisition disclosure for Chambal Fertilizers under SEBI takeover code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-AEQUS-29-Jul-2026200740",
+      "headline": "Aequs Limited Monitoring Agency Report for Pre-IPO Placement and IPO (Q1 FY27)",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: NSE (monitoring agency)"
+      ]
+    },
+    {
+      "id": "nse-PUNJABCHEM-06-Jul-2026111337",
+      "headline": "Shalil S Shroff files substantial acquisition disclosure under SEBI Takeover Code for Punjab Chemicals & Crop Protection",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-MIRZAINT-06-Jul-2026111258",
+      "headline": "Mirza International Limited: Disclosure under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-ASHAPURMIN-06-Jul-2026111148",
+      "headline": "Chetan Navnitlal Shah files substantial acquisition disclosure under SEBI Takeover Regulations for Ashapura Minechem Limited",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-NAZARA-03-Jul-2026131043",
+      "headline": "Plutus Wealth Management LLP discloses substantial acquisition in Nazara Technologies under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: Plutus Wealth Management LLP"
+      ]
+    },
+    {
+      "id": "nse-RTNPOWER-03-Jul-2026124613",
+      "headline": "RR Infralands files substantial acquisition disclosure in RattanIndia Power",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SHANTIGEAR-01-Jul-2026123938",
+      "headline": "Tube Investments of India submits substantial acquisition disclosure for Shanthi Gears Limited",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-CGPOWER-01-Jul-2026115344",
+      "headline": "Tube Investments files SEBI substantial acquisition disclosure for CG Power",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-HATHWAY-01-Jul-2026115251",
+      "headline": "Jio Content Distribution triggers substantial acquisition disclosure in Hathway Cable & Datacom under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-NETWORK18-01-Jul-2026114729",
+      "headline": "Reliance Industrial Investments and Holdings Limited discloses substantial acquisition under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: Not disclosed in primary source, Not disclosed in primary source"
+      ]
+    },
+    {
+      "id": "nse-WAAREEINDO-30-Jun-2026160212",
+      "headline": "Waaree Energies Limited files SEBI Regulation 31(4) disclosure for substantial acquisition in Indosolar Limited",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-DPABHUSHAN-30-Jun-2026160132",
+      "headline": "Vikas Kataria discloses substantial acquisition in D. P. Abhushan Limited under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-COHANCE-30-Jun-2026155801",
+      "headline": "Jusmiral Holdings submits substantial acquisition disclosure for Cohance Lifesciences under SEBI takeover code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-CHAMBLFERT-30-Jun-2026155153",
+      "headline": "CM Airtime Promotion LLP files substantial acquisition disclosure under SEBI Takeover Regulations for Chambal Fertilizers",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-RATEGAIN-30-Jun-2026154816",
+      "headline": "Bhanu Chopra files substantial acquisition disclosure in Rategain Travel Technologies under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-ARTEMISMED-30-Jun-2026130600",
+      "headline": "Onkar Kanwar Files Substantial Acquisition Disclosure for Artemis Medicare Services Limited",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-ROUTE-30-Jun-2026130342",
+      "headline": "Route Mobile Limited: Substantial Acquisition of Shares Disclosure under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-GNA-30-Jun-2026130329",
+      "headline": "Jasvinder Singh Disclosure under SEBI Takeover Regulations (Reg 31(4))",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-TRIGYN-30-Jun-2026124933",
+      "headline": "United Telecoms files substantial acquisition disclosure for Trigyn Technologies under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-BHARATSE-29-Jun-2026162303",
+      "headline": "Suzuki Motor Corporation files substantial acquisition disclosure under SEBI Takeover Regulations for Bharat Seats Limited",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-DISHTV-24-Jun-2026172439",
+      "headline": "Promoter Group Consortium Files SEBI Takeover Disclosure for Dish TV India",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: World Crest Advisors LLP"
+      ]
+    },
+    {
+      "id": "nse-AARTISURF-24-Jun-2026172132",
+      "headline": "Aarti Surfactants Limited: Disclosure under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SPANDANA-24-Jun-2026150709",
+      "headline": "Kedaara Capital Fund III LLP files substantial acquisition disclosure under SEBI Takeover Regulations for Spandana Sphoorty Financial",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-BLUESTONE-24-Jun-2026150639",
+      "headline": "BlueStone Jewellery substantial shareholder disclosure under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, BlueStone Jewellery and Lifestyle Limited"
+      ]
+    },
+    {
+      "id": "nse-RETAIL-24-Jun-2026120052",
+      "headline": "JHS Svendgaard Retail Ventures Limited files SEBI takeover disclosure under Regulation 31(4)",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-NETWORK18-24-Jun-2026115901",
+      "headline": "Siddhant Commercials files SEBI Reg 31(4) disclosure for Network18 stake acquisition",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-SHANTIGEAR-24-Jun-2026115154",
+      "headline": "Tube Investments of India discloses substantial acquisition in Shanthi Gears under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-JSWSTEEL-24-Jun-2026113456",
+      "headline": "JSW Steel Limited: Disclosure under SEBI Takeover Regulations (Regulation 31(4))",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-TATVA-24-Jun-2026113238",
+      "headline": "Tatva Chintan Pharma Chem: SEBI Takeover Disclosure Filed",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-MIDWESTLTD-24-Jun-2026112350",
+      "headline": "Rama Raghava Reddy Kollareddy files substantial acquisition disclosure for Midwest Limited under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-COHANCE-23-Jun-2026204557",
+      "headline": "Berhyanda Limited files Regulation 31(4) disclosure for substantial acquisition in Cohance Lifesciences",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-FOSECOIND-23-Jun-2026193919",
+      "headline": "Vesuvius plc files SEBI takeover disclosure for Foseco India",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SAMPANN-23-Jun-2026182814",
+      "headline": "Sachin Agarwal group files SEBI Reg 31(4) disclosure for substantial acquisition in Sampann Utpadan India Limited",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-BAGFILMS-23-Jun-2026161218",
+      "headline": "B.A.G Films and Media Limited: Substantial Acquisition Disclosure under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-NORBTEAEXP-23-Jun-2026161124",
+      "headline": "Norben Tea & Exports Limited: Disclosure under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-NETWORK18-22-Jun-2026114825",
+      "headline": "Independent Media Trust discloses substantial acquisition in Network18 under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-IIFL-22-Jun-2026192100",
+      "headline": "IIFL Finance Limited: Substantial Acquisition Disclosure under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-RPSGVENT-22-Jun-2026191954",
+      "headline": "Quest Capital Markets files SEBI Takeover Regulation disclosure for RPSG Ventures",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: Quest Capital Markets Limited"
+      ]
+    },
+    {
+      "id": "nse-RPSGVENT-22-Jun-2026191908",
+      "headline": "Lebnitze Real Estates discloses substantial acquisition in RPSG Ventures under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-CESC-22-Jun-2026191530",
+      "headline": "Quest Capital Markets files Regulation 31(4) disclosure under SEBI Takeover Regulations for CESC Limited",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-HYBRIDFIN-22-Jun-2026191516",
+      "headline": "K. Chandramouli files substantial acquisition disclosure in Hybrid Financial Services Limited",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-GANESHCP-22-Jun-2026191030",
+      "headline": "Ganesh Consumer Products Limited: Disclosure under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-BBL-22-Jun-2026155718",
+      "headline": "Bharat Bijlee Limited: Substantial Acquisition Disclosure under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-OSWALAGRO-22-Jun-2026155212",
+      "headline": "Aruna Oswal Substantial Acquisition Disclosure under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SPORTKING-19-Jun-2026145739",
+      "headline": "Sportking India Limited files SEBI Takeover Regulation 31(4) disclosure",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: Unknown, Unknown"
+      ]
+    },
+    {
+      "id": "nse-JSWCEMENT-19-Jun-2026145516",
+      "headline": "Adarsh Advisory Services files SEBI Regulation 31(4) takeover disclosure for JSW Cement",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: Adarsh Advisory Services Private Limited"
+      ]
+    },
+    {
+      "id": "nse-AVROIND-19-Jun-2026143949",
+      "headline": "Sushil Kumar Aggarwal triggers SEBI takeover disclosure under Regulation 31(4)",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-QUINTEGRA-19-Jun-2026143235",
+      "headline": "Quintegra Solutions Limited: Substantial Acquisition Disclosure filed under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-TEXINFRA-19-Jun-2026143031",
+      "headline": "Akshay Poddar files substantial acquisition disclosure in Texmaco Infrastructure under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-ALMONDZ-19-Jun-2026130958",
+      "headline": "Manpreet Singh files substantial acquisition disclosure under SEBI Takeover Regulations for Almondz Global Securities",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-ARCOTECH-19-Jun-2026130908",
+      "headline": "Arcotech Limited: Substantial Acquisition Disclosure by Arvind Kumar Saraf under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-TEXINFRA-19-Jun-2026130436",
+      "headline": "Puja Poddar Substantial Acquisition in Texmaco Infrastructure - SEBI Takeover Disclosure Filed",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-NEPHROPLUS-19-Jun-2026130416",
+      "headline": "Edoras Investment Holdings discloses substantial acquisition in Nephrocare Health Services Limited under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-GSS-19-Jun-2026123955",
+      "headline": "GSS Infotech Limited files SEBI Regulation 31(4) disclosure for substantial acquisition",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-DLINKINDIA-19-Jun-2026190234",
+      "headline": "D-Link Holding Mauritius files SEBI takeover disclosure for D-Link India stake consolidation",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-HBLENGINE-19-Jun-2026190216",
+      "headline": "HBL Engineering Limited files SEBI Regulation 31(4) disclosure of substantial acquisition",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-DEVIT-19-Jun-2026190130",
+      "headline": "Dev Information Technology Limited: Mandatory Regulation 31(4) Disclosure under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-ELDEHSG-19-Jun-2026162633",
+      "headline": "Bandana Kohli files substantial acquisition disclosure under SEBI Takeover Code for Eldeco Housing",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-GARFIBRES-19-Jun-2026155334",
+      "headline": "Vayu R. Garware discloses substantial acquisition under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-PRESTIGE-19-Jun-2026152233",
+      "headline": "Prestige Estates Projects Limited: Disclosure under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-TNPETRO-18-Jun-2026173825",
+      "headline": "SPICL Takeover of TNPETRO: SEBI Reg 31(4) Disclosure Filed",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-HINDUNILVR-18-Jun-2026172812",
+      "headline": "Unilever PLC files SEBI Takeover Disclosure for Hindustan Unilever Limited",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: Not disclosed in primary source"
+      ]
+    },
+    {
+      "id": "nse-EPACK-18-Jun-2026110334",
+      "headline": "Bajrang Bothra files substantial acquisition disclosure under SEBI Takeover Code for EPACK Durable",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-MHRIL-18-Jun-2026102815",
+      "headline": "M&M files SEBI Regulation 31(4) disclosure regarding substantial acquisition in MHRIL",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 21,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-NHPC-14-Aug-2026164842",
+      "headline": "NHPC announces newspaper publication of JPCL amalgamation scheme hearing notice",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SWARAJ-22-Jun-2026143918",
+      "headline": "Mohammed Sabir Khan Triggers Substantial Acquisition Disclosure in Swaraj Suiting Limited",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-NUCLEUS-16-Jun-2026192453",
+      "headline": "Vishnu R Dusad files Regulation 31(4) disclosure under SEBI Takeover Regulations for Nucleus Software",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-GILLETTE-16-Jun-2026192150",
+      "headline": "P&G files substantial acquisition disclosure for Gillette India under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-OMFREIGHT-16-Jun-2026192040",
+      "headline": "Harmesh Rahul Joshi files substantial acquisition disclosure in Om Freight Forwarders",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-PFOCUS-16-Jun-2026191904",
+      "headline": "A2R Holdings Discloses Substantial Acquisition in Prime Focus Limited Under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-DYNAMATECH-16-Jun-2026184913",
+      "headline": "Consortium led by Udayant Malhoutra files substantial acquisition disclosure for Dynamatic Technologies",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-DEN-16-Jun-2026152359",
+      "headline": "Jio Financial Services files SEBI Reg 31(4) substantial acquisition disclosure for Den Networks",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SHRADHA-16-Jun-2026130552",
+      "headline": "Shradha Realty Limited: Substantial Acquisition Disclosure under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-BALUFORGE-16-Jun-2026130512",
+      "headline": "Jaikaran Chandock files substantial acquisition disclosure in Balu Forge Industries under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-SWANDEF-15-Jun-2026194708",
+      "headline": "Hazel Infra files takeover disclosure under SEBI Regulations 31(4) for Swan Defence and Heavy Industries",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-YATRA-15-Jun-2026194604",
+      "headline": "Asia Consolidated DMC Pte. Ltd files substantial acquisition disclosure under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SUMIT-07-Jul-2026105954",
+      "headline": "Sumit Woods Limited: SEBI Takeover Regulation 31(4) Disclosure Filed",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: Unknown"
+      ]
+    },
+    {
+      "id": "nse-ENGINERSIN-07-Jul-2026105218",
+      "headline": "Government files SEBI takeover disclosure for Engineers India Limited under Regulation 31(4)",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: Ministry of Petroleum & Natural Gas (Government of India)"
+      ]
+    },
+    {
+      "id": "nse-RTNINDIA-06-Jul-2026115907",
+      "headline": "Santosh Kumar Sharma files substantial acquisition disclosure under SEBI Takeover Regulations for Rattan India Enterprises",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-RAINBOW-03-Jul-2026130815",
+      "headline": "Rainbow Childrens Medicare files SEBI Regulation 31(4) takeover disclosure with NSE",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-DPABHUSHAN-01-Jul-2026113836",
+      "headline": "Sanjay Kataria files substantial acquisition disclosure under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SOLARWORLD-30-Jun-2026125554",
+      "headline": "Kartik Teltia files substantial acquisition disclosure under SEBI Regulation 31(4) for Solarworld Energy Solutions Limited",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-BAGFILMS-30-Jun-2026125354",
+      "headline": "B.A.G Films and Media Limited files SEBI Takeover Disclosure under Regulation 31(4)",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-GPTHEALTH-29-Jun-2026190747",
+      "headline": "Atul Tantia files SEBI Reg 31(4) substantial acquisition disclosure for GPT Healthcare",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-LATENTVIEW-29-Jun-2026161730",
+      "headline": "Substantial shareholder disclosure by Adugudi Viswanathan Venkatraman in Latent View Analytics under SEBI takeover regulations",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-SUPRIYA-29-Jun-2026161717",
+      "headline": "Satish Waman Wagh files SEBI Regulation 31(4) takeover disclosure for Supriya Lifescience",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-AARTISURF-24-Jun-2026120734",
+      "headline": "Parimal Hasmukhlal Desai files SEBI Regulation 31(4) substantial acquisition disclosure for Aarti Surfactants",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: Bar & Bench (Reporting)"
+      ]
+    },
+    {
+      "id": "nse-BANDHANBNK-24-Jun-2026120620",
+      "headline": "Quardra Medical Services Ltd discloses substantial acquisition under SEBI Takeover Regulations",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-UBL-23-Jun-2026182946",
+      "headline": "Heineken UK Limited Files Substantial Acquisition Disclosure Under SEBI Takeover Regulations for United Breweries",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-BSL-23-Jun-2026182616",
+      "headline": "Nivedan Churiwal files SEBI Regulation 31(4) disclosure for BSL Limited stake acquisition",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-SPENCERS-23-Jun-2026182600",
+      "headline": "Rainbow Investments Limited files Regulation 31(4) disclosure with NSE for substantial acquisition in Spencer's Retail",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-SWSOLAR-22-Jun-2026110621",
+      "headline": "Reliance New Energy discloses substantial acquisition of Sterling and Wilson Renewable Energy",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-CUB-23-Jun-2026183100",
+      "headline": "City Union Bank Limited: Outcome of Board Meeting - Fund Raising through QIP",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-CESC-22-Jun-2026191611",
+      "headline": "CESC Limited: Disclosure under SEBI Takeover Regulations by Rainbow Investments Limited",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-JITFINFRA-22-Jun-2026174303",
+      "headline": "Siddeshwari Tradex files substantial acquisition disclosure for JITF Infralogistics",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-ORICONENT-22-Jun-2026174158",
+      "headline": "Suhrid Somani files SEBI Regulation 31(4) substantial acquisition disclosure for Oricon Enterprises",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-PCBL-22-Jun-2026155850",
+      "headline": "Dotex Merchandise files substantial acquisition disclosure in PCBL Chemical",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-HTMEDIA-19-Jun-2026144002",
+      "headline": "HT Media Limited: SEBI Takeover Regulation 31(4) Disclosure Filed",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-KPRMILL-19-Jun-2026131213",
+      "headline": "N Jayanthi files substantial acquisition disclosure under SEBI Takeover Code for K.P.R. Mill Limited",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-QUADFUTURE-19-Jun-2026131148",
+      "headline": "Quadrant Future Tek: SEBI Takeover Disclosure by Mohit Vohra",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: Unknown"
+      ]
+    },
+    {
+      "id": "nse-MBAPL-19-Jun-2026130102",
+      "headline": "Madhya Bharat Agro Products Limited files SEBI Regulation 31(4) disclosure on substantial acquisition of shares.",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-TEXINFRA-19-Jun-2026125854",
+      "headline": "Shradha Agarwala Files SEBI Takeover Disclosure Under Regulation 31(4) for Texmaco Infrastructure",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-JTEKTINDIA-19-Jun-2026125743",
+      "headline": "JTEKT Corporation files substantial acquisition disclosure under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-JUSTDIAL-19-Jun-2026124529",
+      "headline": "Ramani Iyer discloses substantial acquisition intent in Just Dial under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-SEDEMAC-19-Jun-2026124111",
+      "headline": "Prof. Shashikanth Suryanarayanan discloses substantial acquisition in SEDEMAC Mechatronics Limited under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-3MINDIA-19-Jun-2026124051",
+      "headline": "3M Company Initiates Takeover of 3M India Limited; Disclosure Filed under SEBI Regulation 31(4)",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-INOXINDIA-19-Jun-2026151102",
+      "headline": "Minal Somany Discloses Substantial Acquisition in INOX India under SEBI Takeover Code",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-VALIANTORG-19-Jun-2026150033",
+      "headline": "Vicky Hemchand Gala triggers SEBI takeover disclosure for Valiant Organics",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-QUESS-19-Jun-2026150017",
+      "headline": "Ajit Abraham Isaac and Isaac Enterprises LLP file SEBI Takeover disclosure for Quess Corp Limited",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-KSHINTL-18-Jun-2026110830",
+      "headline": "Rajesh Kushal Hegde files SEBI takeover disclosure for KSH International Limited",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —"
+      ]
+    },
+    {
+      "id": "nse-NEPHROPLUS-18-Jun-2026110540",
+      "headline": "Investcorp Private Equity Fund II files SEBI Reg 31(4) substantial acquisition disclosure for Nephrocare Health Services",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: —, —"
+      ]
+    },
+    {
+      "id": "nse-MMFIN-18-Jun-2026103511",
+      "headline": "Mahindra & Mahindra Limited files SEBI Takeover disclosure for MMFSL stake",
+      "kind": "disclosure",
+      "importance": "lo",
+      "score": 17,
+      "reasons": [
+        "Unverified purported legal adviser: Legal counsel to Mahindra and Mahindra Limited / MMFSL"
+      ]
+    },
+    {
+      "id": "nse-KUNDANMM-12-Nov-2026213948",
+      "headline": "Kundan Minerals and Metals Limited: Acquisition",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-SKYWAYS-12-Nov-2026211422",
+      "headline": "Skyways Air Services Limited: Acquisition",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-JNPR-12-Nov-2026210941",
+      "headline": "Juniper Green Energy Limited: Acquisition",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-MAITHANALL-12-Nov-2026150231",
+      "headline": "Maithan Alloys Limited: Others",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-PHOENIXLTD-12-Nov-2026141710",
+      "headline": "The Phoenix Mills Limited: Acquisition",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-ECLERX-12-Nov-2026131018",
+      "headline": "eClerx Services Limited: Press Release",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 13,
+      "reasons": [
+        "Generic filing headline without material transaction facts"
+      ]
+    }
+  ]
+}
