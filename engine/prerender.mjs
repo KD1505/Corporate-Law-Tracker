@@ -445,6 +445,23 @@ function writeDataIndex(all, firms, updated){
 const DATA = loadData();
 const all = (DATA.DEALS||[]).map(attachEvidenceDossier).sort((a,b)=>pdate(b.time)-pdate(a.time));
 
+const dossierSummary = {
+  generatedAt: new Date().toISOString(),
+  totalDeals: all.length,
+  primaryFilingLinked: all.filter(d=>d.evidenceDossier?.specificOfficialDocuments>0).length,
+  documentaryCaseStudies: all.filter(d=>d.evidenceDossier?.depth==="Document-intensive case study").length,
+  substantiveRecords: all.filter(d=>d.evidenceDossier?.depth==="Substantive source-linked record").length,
+  officialLinkOnly: all.filter(d=>d.evidenceDossier?.depth==="Primary-filing linked record").length,
+  pressLevel: all.filter(d=>d.evidenceDossier?.depth==="Reported-source record").length,
+  quoteAuditedRecords: all.filter(d=>(d.research?.facts||[]).length>0).length,
+  quoteAuditedFacts: all.reduce((n,d)=>n+(d.research?.facts||[]).length,0),
+  statement: "A link to an official filing is not equivalent to a fact-by-fact audit. Only facts with cited source excerpts are marked quote-validated."
+};
+fs.mkdirSync(path.join(ROOT,"data"),{recursive:true});
+fs.writeFileSync(path.join(ROOT,"data","research-status.json"),JSON.stringify(dossierSummary,null,2)+"\n");
+console.log("research coverage:",JSON.stringify(dossierSummary));
+
+
 // firms aggregate
 const firmMap = new Map();
 for (const d of all) for (const f of dealFirms(d)) { if(!firmMap.has(f)) firmMap.set(f,[]); firmMap.get(f).push(d); }
