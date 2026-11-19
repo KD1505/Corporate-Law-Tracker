@@ -602,10 +602,10 @@ firms.forEach((f,i)=>fs.writeFileSync(path.join(fDir,`${slug(f.name)}.html`), fi
 fs.writeFileSync(path.join(ROOT,"deals.html"), dealsIndex(all));
 fs.writeFileSync(path.join(ROOT,"filings.html"), filingsIndex(filingArchive));
 fs.writeFileSync(path.join(ROOT,"firms.html"), firmsIndex(firms));
-try{fs.writeFileSync(path.join(ROOT,"changes.html"),changesPage(JSON.parse(fs.readFileSync(path.join(ROOT,"data","deal-changes.json"),"utf8")).events||[]));}catch(e){console.warn("changes hub failed: "+e.message);}
 // governance pages - operator, editor, corrections, coverage, privacy, terms
 const GOV = governancePages(all, firms, (DATA.UPDATED||"").replace(/^Updated\s+/,""));
 writeDataIndex(all, firms, DATA.UPDATED || "");
+try{fs.writeFileSync(path.join(ROOT,"changes.html"),changesPage(JSON.parse(fs.readFileSync(path.join(ROOT,"data","deal-changes.json"),"utf8")).events||[]));}catch(e){console.warn("changes hub failed: "+e.message);}
 for (const g of GOV) fs.writeFileSync(path.join(ROOT, g.slug + ".html"), g.html);
 
 // Real machine-readable RSS brief; no claim of email delivery.
