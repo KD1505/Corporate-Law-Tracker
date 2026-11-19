@@ -115,8 +115,15 @@ async function main(){
  const C=parseData(await fs.readFile(DATA,"utf8"));
  const client=new Anthropic({apiKey:process.env.ANTHROPIC_API_KEY});
  const deals=C.DEALS||[],queue=deals.filter(eligible);
- queue.sort((a,b)=>Number(!!a.research?.facts?.length)-Number(!!b.research?.facts?.length)
-  ||Number(!!b.verified)-Number(!!a.verified)||(b.score||0)-(a.score||0));
+ // New disclosures take priority, then high-impact primary-filed historical deals.
+// Without this freshness boost, a 5,000+ record backlog can bury tomorrow's deals.
+ const rank=d=>{
+   const date=Date.parse(d.time||""),age=Number.isFinite(date)?(Date.now()-date)/864e5:99999;
+   return (age>=0&&age<=10?1500:age>=0&&age<=35?600:0)
+     +Number(!!d.verified)*130+(d.score||0)
+     -Math.min(100,(d.research?.facts||[]).length*12);
+ };
+ queue.sort((a,b)=>rank(b)-rank(a));
  let upgraded=0,claims=0,unreadable=0,errors=0,paused=false;
  for(const d of queue.slice(0,BATCH)){
   const docs=[];
