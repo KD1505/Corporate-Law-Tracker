@@ -133,6 +133,51 @@ ${body}
 }
 
 /* ---- deal page ---- */
+function cltCuratedFacts(d) {
+  if (!d || !d.transaction || !d.openOffer) return "";
+  const esc = x => String(x == null ? "" : x).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  const fmt = x => typeof x === "number" ? x.toLocaleString("en-IN") : esc(x);
+  const money = x => "₹" + Number(x).toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2});
+  const tx=d.transaction, oo=d.openOffer;
+  const row=(label,val)=>`<tr><th scope="row" style="text-align:left;padding:9px 10px;border-bottom:1px solid #e9e5db;min-width:180px">${esc(label)}</th><td style="padding:9px 10px;border-bottom:1px solid #e9e5db">${esc(val)}</td></tr>`;
+  const sellerRows=(tx.sellers||[]).map(s=>`<tr><td>${esc(s.name)}</td><td style="text-align:right">${fmt(s.sharesTransferred)}</td><td style="text-align:right">${fmt(s.sharesToAlMaha)}</td><td style="text-align:right">${fmt(s.sharesToIndigoInfracon)}</td></tr>`).join("");
+  const tableStyle="width:100%;border-collapse:collapse;font-size:13px;line-height:1.6";
+  const columnsStyle="padding:9px 10px;text-align:right;border-bottom:1px solid #e9e5db";
+  return `<section class="sec" id="sec-verified-maths">
+    <h2 style="margin:15px 0 10px">Verified transaction structure</h2>
+    <table style="${tableStyle}">
+      ${row("SPA date",tx.spaDate)}
+      ${row("Listed target",tx.target.name+" (formerly "+tx.target.previousName+"); BSE "+tx.target.bseScrip)}
+      ${row("Cash SPA value",money(tx.spaConsiderationINR))}
+      ${row("SPA share purchase",fmt(tx.spaShares)+" shares / "+tx.spaPct+"%")}
+      ${row("SPA price per share",money(tx.spaPricePerShareINR))}
+      ${row("Al Maha (Acquirer 1)",fmt(tx.alMaha.spaShares)+" shares / "+tx.alMaha.spaPctOfTarget+"% of target")}
+      ${row("Indigo Infracon (Acquirer 2)",fmt(tx.indigoInfracon.spaShares)+" shares / "+tx.indigoInfracon.spaPctOfTarget+"% of target")}
+      ${row("Inter-acquirer allocation",tx.buyerAllocationRatio)}
+      ${row("Share face value",money(tx.target.faceValueINR))}
+      ${row("Control transfer",tx.promoterChanges)}
+    </table>
+    <h2 style="margin:26px 0 12px">Seller-by-seller share allocation under the SPA</h2>
+    <div style="overflow-x:auto"><table style="${tableStyle};min-width:560px">
+      <thead><tr><th style="padding:9px 10px;text-align:left;border-bottom:1px solid #e9e5db">Selling promoter</th><th style="${columnsStyle}">Total shares</th><th style="${columnsStyle}">To Al Maha</th><th style="${columnsStyle}">To Indigo</th></tr></thead>
+      <tbody>${sellerRows}<tr style="font-weight:700"><td style="padding:9px 10px">Total</td><td style="${columnsStyle}">${fmt(tx.spaShares)}</td><td style="${columnsStyle}">${fmt(tx.alMaha.spaShares)}</td><td style="${columnsStyle}">${fmt(tx.indigoInfracon.spaShares)}</td></tr></tbody>
+    </table></div>
+    <h2 style="margin:26px 0 12px">Mandatory open offer: maximum vs. actual outcome</h2>
+    <table style="${tableStyle}">
+      <thead><tr><th style="text-align:left;padding:9px 10px;border-bottom:1px solid #e9e5db">Measure</th><th style="${columnsStyle}">Offer ceiling</th><th style="${columnsStyle}">Actual</th></tr></thead>
+      <tbody>
+       <tr><td style="padding:9px 10px">Public shares</td><td style="${columnsStyle}">${fmt(oo.offerSharesMaximum)}</td><td style="${columnsStyle}">${fmt(oo.acceptedSharesActual)} accepted (${fmt(oo.tenderedSharesActual)} tendered)</td></tr>
+       <tr><td style="padding:9px 10px">Cash consideration</td><td style="${columnsStyle}">${money(oo.offerConsiderationMaximumINR)}</td><td style="${columnsStyle}">${money(oo.acceptedConsiderationActualINR)}</td></tr>
+       <tr><td style="padding:9px 10px">Joint post-offer shares</td><td style="${columnsStyle}">${fmt(oo.fullAcceptanceProForma.combinedShares)} if fully accepted (${oo.fullAcceptanceProForma.combinedPct}%)</td><td style="${columnsStyle}">${fmt(oo.postOfferCombinedSharesActual)} (approx. ${oo.postOfferCombinedPctApprox}%)</td></tr>
+      </tbody>
+    </table>
+    <p style="margin:10px 0;font-size:13px"><b>Escrow:</b> ${money(oo.cashEscrowINR)} cash (100% of full-acceptance obligation) with ${esc(oo.escrowAgent)}. <b>Tender:</b> ${esc(oo.tenderOpen)} to ${esc(oo.tenderClose)}. <b>Manager:</b> ${esc(oo.manager)}. <b>Registrar:</b> ${esc(oo.registrar)}. This was not a minimum-acceptance or conditional offer.</p>
+    ${(d.keyContractTerms||[]).length?`<h2 style="margin:26px 0 12px">Disclosed SPA covenants and completion mechanics</h2><ul style="padding-left:20px">${d.keyContractTerms.map(t=>`<li style="margin-bottom:8px">${esc(t)}</li>`).join("")}</ul>`:""}
+    ${(d.followUp||[]).length?`<h2 style="margin:26px 0 12px">Later developments: separate from the 2025 acquisition</h2>${d.followUp.map(e=>`<p style="margin:8px 0"><b>${esc(e.date)}</b> · ${esc(e.description)} <span style="font-size:12px">(${esc(e.status)})</span> <a href="${esc(e.source)}" target="_blank" rel="noopener noreferrer">Disclosure index</a></p>`).join("")}`:""}
+    ${(d.editorialCautions||[]).length?`<h2 style="margin:26px 0 12px">Verification and interpretation notes</h2><ul style="padding-left:20px">${d.editorialCautions.map(t=>`<li style="margin-bottom:7px">${esc(t)}</li>`).join("")}</ul>`:""}
+   </section>`;
+}
+
 function dealPage(d, all) {
   const firms = dealFirms(d);
   const why = clamp(d.implication, 600);
@@ -151,6 +196,7 @@ ${firms.length?`<div><b>Counsel</b>${firms.map(f=>`<a href="${firmPath(f)}">${es
 ${d.sector?`<div><b>Sector</b>${esc(d.sector)}</div>`:""}
 ${d.value&&d.value!=="—"?`<div><b>Value</b>${esc(d.value)}</div>`:""}
 </div>
+${cltCuratedFacts(d)}
 ${(d.framework&&d.framework.length)?`<div class="chips">${d.framework.map(f=>`<span>${esc(f)}</span>`).join("")}</div>`:""}
 ${(d.sources&&d.sources.length)?`<h2>Sources</h2><ul class="links">${d.sources.map(s=>`<li><a href="${esc(s.url)}" rel="nofollow">${esc(s.name)}</a>${s.official?" · official":""}</li>`).join("")}</ul>`:""}
 <a class="cta" href="/#/deal/${encodeURIComponent(d.id)}">Open in the live tracker →</a>
