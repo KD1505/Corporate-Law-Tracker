@@ -392,5 +392,194 @@
     ],
     "editoriallyReviewed": true,
     "verifiedAsOf": "2026-11-19"
+  },
+  {
+    "id": "cyril-amarchand-mangaldas-trilegal-linklaters-act-on-bajaj-finance-11700-crore-qip",
+    "type": "ipo",
+    "geo": "mumbai",
+    "city": "Pune / Mumbai",
+    "sector": "BFSI",
+    "stage": "completed",
+    "time": "17 Nov 2026",
+    "value": "₹11,700 cr",
+    "imp": "hi",
+    "score": 90,
+    "parties": "Bajaj Finance Limited (issuer); qualified institutional buyers (investors)",
+    "headline": "Bajaj Finance completes ₹11,700-crore QIP allotment of 114.15 million shares at ₹1,025",
+    "sum": "<b>Allotment approved 17 November 2026:</b> 114,146,341 equity shares allotted at ₹1,025 each, above the ₹992.25 floor, for approximately ₹11,700 crore. A separately announced ₹5,800-crore promoter-warrant issue is not included.",
+    "detail": "Bajaj Finance's QIP Allotment Committee filing reports allotment of 114,146,341 fully paid-up ₹1 equity shares to QIBs at ₹1,025 per share (including ₹1,024 premium), above the ₹992.25 SEBI ICDR floor, totalling approximately ₹117,000 million (₹11,700 crore). Paid-up equity shares rose from 6,225,954,304 to 6,340,100,645. Annexure A lists ICICI Prudential Mutual Fund with 11,707,317 shares (10.26% of QIP issue size) and Government Pension Fund Global with 5,849,421 (5.12% of QIP issue size), not percentages of the company's total capital. The separately reported ₹5,800-crore issue of promoter warrants to Bajaj Finserv is a different transaction and not part of this QIP. The issuer filing proves allotment and economics; Bar & Bench independently names issuer-side and placement-agent-side counsel.",
+    "implication": "QIP precedent: reconcile issue price and floor, capital before/after, allotment approval, and issue-level investor percentages. Never add separately issued promoter warrants to QIP proceeds.",
+    "firms": [
+      {
+        "name": "Cyril Amarchand Mangaldas",
+        "side": "Issuer-side Indian counsel (reported)",
+        "lead": [
+          {
+            "n": "S. Vivek",
+            "role": "Partner, transaction lead"
+          },
+          {
+            "n": "Yash J. Ashar",
+            "role": "Senior Partner, guidance"
+          },
+          {
+            "n": "Manan Lahoty",
+            "role": "Partner, guidance"
+          }
+        ],
+        "team": [
+          "Vishesh Jain",
+          "Dhruv Sharma",
+          "Mohnish Khandale",
+          "Namita Kaushik",
+          "Siddharth Kaushik",
+          "Aditi Joshi",
+          "Avani Hegde"
+        ],
+        "note": "Firm and team attribution from Bar & Bench, not issuer filing"
+      },
+      {
+        "name": "Trilegal",
+        "side": "Indian counsel to book-running lead managers (reported)",
+        "lead": [
+          {
+            "n": "Bhakta Patnaik",
+            "role": "Partner, transaction lead"
+          },
+          {
+            "n": "Albin Thomas",
+            "role": "Partner, transaction lead"
+          }
+        ],
+        "team": [
+          "Somya Jena",
+          "Jahanvi Jain",
+          "Janhavi Shah",
+          "Manasi Barve",
+          "Avni Mishra",
+          "Chaitali Chopdekar",
+          "Rishab Taori"
+        ],
+        "note": "Bar & Bench identifies BRLMs including Kotak, JPMorgan, Morgan Stanley, IIFL Capital, JM Financial and Axis Capital"
+      },
+      {
+        "name": "Linklaters",
+        "side": "International counsel to BRLMs (reported)",
+        "lead": [],
+        "team": [],
+        "note": "Bar & Bench reports the counsel role but no individual advisers"
+      }
+    ],
+    "framework": [
+      {
+        "ref": "SEBI ICDR Chapter VI (Regulations 171 and 176)",
+        "note": "QIP pricing floor and relevant date",
+        "flag": "central"
+      },
+      {
+        "ref": "Companies Act 2013 Sections 42 and 62(1)(c)",
+        "note": "Institutional securities placement framework",
+        "flag": "central"
+      },
+      {
+        "ref": "SEBI LODR Regulation 30",
+        "note": "Allotment and paid-up capital exchange disclosure",
+        "flag": "central"
+      }
+    ],
+    "structure": {
+      "consideration": "114,146,341 shares @ ₹1,025 (approximately ₹11,700 crore)",
+      "conditions": [
+        "Issue price ₹1,025 exceeded disclosed SEBI pricing floor ₹992.25",
+        "Allotment Committee approved the equity share allotment on 17 Nov 2026"
+      ],
+      "approvals": [
+        "Dated QIP Allotment Committee approval of final issue"
+      ],
+      "novel": "Separate ₹5,800 crore promoter warrants transaction; two disclosed allottee stakes are percentages of QIP shares, not total outstanding share capital",
+      "triggers": [
+        {
+          "law": "SEBI ICDR Chapter VI",
+          "note": "QIP pricing and eligible allotment rules"
+        }
+      ],
+      "status": "Confirmed"
+    },
+    "timeline": [
+      {
+        "d": "11 Nov 2026",
+        "t": "QIP opening and formula floor announced"
+      },
+      {
+        "d": "17 Nov 2026",
+        "t": "Committee approved QIP allotment and exchange filing"
+      },
+      {
+        "d": "18 Nov 2026",
+        "t": "Legal trade press reported firms and BRLM-side roles"
+      }
+    ],
+    "research": {
+      "reviewedOn": "2026-11-19",
+      "facts": [
+        {
+          "label": "Completed allotment",
+          "fact": "114,146,341 equity shares were allotted on 17 November 2026.",
+          "sourceUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_17112026082518_BSENSE_Intimationofallotment.pdf",
+          "status": "completed"
+        },
+        {
+          "label": "Price versus floor",
+          "fact": "Issue price ₹1,025, including ₹1,024 premium, exceeded the ₹992.25 floor.",
+          "sourceUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_17112026082518_BSENSE_Intimationofallotment.pdf",
+          "status": "completed"
+        },
+        {
+          "label": "Share capital",
+          "fact": "Bajaj Finance outstanding shares increased from 6,225,954,304 to 6,340,100,645.",
+          "sourceUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_17112026082518_BSENSE_Intimationofallotment.pdf",
+          "status": "completed"
+        },
+        {
+          "label": "Large QIB allottee",
+          "fact": "ICICI Prudential Mutual Fund was allocated 11,707,317 shares, 10.26% of the QIP issue.",
+          "sourceUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_17112026082518_BSENSE_Intimationofallotment.pdf",
+          "status": "completed"
+        },
+        {
+          "label": "Named legal advisers",
+          "fact": "CAM was reported as issuer counsel; Trilegal and Linklaters as counsel to book-running lead managers.",
+          "sourceUrl": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-bajaj-finance-11700-crore-qip",
+          "status": "reported"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "name": "Bajaj Finance — 17 Nov 2026 NSE QIP allotment filing and Annexure A",
+        "url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_17112026082518_BSENSE_Intimationofallotment.pdf",
+        "official": true,
+        "blurb": "Primary shares, price, floor, capital changes and major allottees"
+      },
+      {
+        "name": "Bar & Bench — Bajaj Finance QIP legal counsel",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/cyril-amarchand-mangaldas-trilegal-linklaters-act-on-bajaj-finance-11700-crore-qip",
+        "official": false,
+        "blurb": "Separately identifies issuer-side and BRLM-side law firms, lawyers and promoter-warrant distinction"
+      }
+    ],
+    "docs": [
+      {
+        "label": "Signed Bajaj Finance QIP allotment disclosure and Annexure A (PDF)",
+        "url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_17112026082518_BSENSE_Intimationofallotment.pdf"
+      }
+    ],
+    "editorialCautions": [
+      "₹5,800-crore promoter warrants are a distinct transaction and are not QIP proceeds.",
+      "10.26% and 5.12% allottees' stakes are issue percentages, not percentages of total Bajaj Finance capital.",
+      "Counsel identities come from Bar & Bench, not the NSE filing."
+    ],
+    "editoriallyReviewed": true,
+    "verifiedAsOf": "2026-11-19"
   }
 ]
