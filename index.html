@@ -895,6 +895,8 @@ hide it immediately so the live app renders instead of flashing a static list wh
 --------------------------------------------------------------------------- */
 (function(){
   var PARTS=["app1.js","app2.js","app3.js","app4.js","app5.js","app6.js"];
+  // Device-local last-visit marker only; this is NOT a server-side alert or account.
+  try{window.CLT_PREVIOUS_VISIT=Number(localStorage.getItem("clt_last_visit")||0);}catch{window.CLT_PREVIOUS_VISIT=0;}
   // Ingestion sources and AI-produced text are untrusted, even when a URL is official.
   // Escape before any HTML-template insertion. Only attribute-free emphasis is allowed.
   function cltEscape(s){return String(s??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");}
@@ -1017,6 +1019,11 @@ hide it immediately so the live app renders instead of flashing a static list wh
   }));
 
   Promise.all([data,code]).then(function(out){
+    // Versioned record changes, not merely the announcement event date.
+    // A failed public log must never prevent the main app from rendering.
+    fetch("data/deal-changes.json").then(r=>r.ok?r.json():null)
+      .then(j=>{window.CLT_CHANGELOG=j&&Array.isArray(j.events)?j.events:[];if(window.CLT_CHANGELOG.length&&typeof render==="function"&&typeof route==="object"&&route.name==="foryou")render();})
+      .catch(()=>{});
     if(window.CLT_DATA&&Array.isArray(window.CLT_DATA.DEALS)){
       window.CLT_DATA.DEALS=window.CLT_DATA.DEALS.map(cltSafeDeal).filter(Boolean);
       for(const field of ["MOVES","REGITEMS","COMMENTARY","TRENDS"]){
@@ -1026,6 +1033,7 @@ hide it immediately so the live app renders instead of flashing a static list wh
     var t=document.createElement("script");
     t.textContent=out[1].join("\n");
     document.body.appendChild(t);
+    try{localStorage.setItem("clt_last_visit",String(Date.now()));}catch{}
     fetch("data/source-health.json", {cache:"no-store"}).then(function(r){if(!r.ok)throw Error("unavailable");return r.json();}).then(function(h){
       var e=document.getElementById("asofsub");if(!e)return;
       var failed=(h.monitors||[]).filter(function(m){return m.status==="failed";});

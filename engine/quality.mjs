@@ -6,7 +6,7 @@ import { scoreDeal } from "./score.mjs";
 const VERIFIED_FIRMS = [
  "Cyril Amarchand Mangaldas","Shardul Amarchand Mangaldas","Khaitan & Co",
  "JSA","Trilegal","AZB & Partners","S&R Associates","TT&A","CMS INDUSLAW",
- "Hogan Lovells","Hogan Lovells Cadwalader","Linklaters","Latham & Watkins","A&O Shearman","DSK Legal",
+ "Hogan Lovells","Linklaters","Latham & Watkins","A&O Shearman","DSK Legal",
  "Legacy Law Offices","Saraf and Partners","Vertices Partners","Dentons Link Legal",
  "Sidley Austin","Bharucha & Partners","SNG & Partners","DMD Advocates","NovoJuris",
  "Universal Legal","Economic Laws Practice","Cravath","Rajani Associates",

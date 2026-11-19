@@ -30,7 +30,19 @@ function renderForYou(){
   }
   const list=DEALS.filter(d=>(p.sectors.length?p.sectors.includes(d.sector):true)&&(p.types.length?p.types.includes(d.type):true));
   const label=[...p.sectors,...p.types.map(t=>TY(t)?TY(t).label:t)].join(", ")||"your practice";
+  const last=window.CLT_PREVIOUS_VISIT||0;
+  const publishedChanges=(window.CLT_CHANGELOG||[]).filter(e=>last&&Date.parse(e.date)>last);
+  const inPractice=new Set(list.map(d=>d.id));
+  const actualChanges=publishedChanges.filter(e=>inPractice.has(e.id));
+  const changesHtml=last&&actualChanges.length
+    ?'<div class="sec"><h4>New or revised since your previous visit · '+actualChanges.length+'</h4>'
+      +actualChanges.slice(0,12).map(e=>'<p style="margin:8px 0"><a href="#/deal/'+encodeURIComponent(e.id)+'">'
+        +(window.CLT_ESCAPE?window.CLT_ESCAPE(e.headline):e.headline)+'</a> · '
+        +(window.CLT_ESCAPE?window.CLT_ESCAPE((e.changes||[]).join("; ")):((e.changes||[]).join("; ")))+'</p>').join("")
+      +'<p class="note">Based on publication-record changes stored in this browser, not monitored transactions or verified customer alerts.</p></div>'
+    :'';
   $("main").innerHTML=`<div class="vh"><h2>My Practice</h2><span class="sub">${list.length} matching · ${label} · <span style="color:var(--accent);cursor:pointer;font-weight:700" id="pEdit">Edit practice</span></span></div>
+    ${changesHtml}
     ${toolbarHtml(list,{scope:"My Practice"})}
     <div class="feed">${list.length?sortList(list).map(density==="compact"?dealRow:dealCard).join(""):'<div class="empty">Nothing in your areas yet - it will populate as deals come in.</div>'}</div>`;
   $("pEdit").onclick=()=>{savePractice(null);render();};
