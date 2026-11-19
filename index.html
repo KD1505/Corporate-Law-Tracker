@@ -936,6 +936,21 @@ hide it immediately so the live app renders instead of flashing a static list wh
     .catch(function(e){
       console.warn("CorpLawTracker: index unavailable ("+e.message+") - falling back to data.js");
       return loadLegacy();
+    })
+    // Editor-vetted primary-filings records are kept separately from the 9 MB
+    // nightly-generated feed. Merge AFTER either index or legacy loads so the
+    // carefully sourced record appears immediately and is never overwritten.
+    .then(function(){
+      return fetch("data/curated-deals.json", {cache:"no-cache"})
+        .then(function(r){if(!r.ok)throw new Error("curated "+r.status);return r.json();})
+        .then(function(curated){
+          if(!Array.isArray(curated))throw new Error("curated-deals must be an array");
+          window.CLT_DATA=window.CLT_DATA||{};
+          var deals=window.CLT_DATA.DEALS||[];
+          var ids=new Set(curated.map(function(d){return d.id;}));
+          window.CLT_DATA.DEALS=curated.concat(deals.filter(function(d){return !ids.has(d.id);}));
+        })
+        .catch(function(e){console.warn("CorpLawTracker: curated records unavailable ("+e.message+")");});
     });
 
   var code=Promise.all(PARTS.map(function(f){
