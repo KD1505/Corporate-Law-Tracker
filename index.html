@@ -907,6 +907,7 @@ hide it immediately so the live app renders instead of flashing a static list wh
   }
   function cltSafeDeal(d){
     if(!d||d._cltScrubbed)return d;
+    if(typeof d.id!=="string"||!/^[A-Za-z0-9][A-Za-z0-9._-]{0,140}$/.test(d.id))return null;
     const x={...d,_cltScrubbed:true};
     for(const field of ["headline","sum","detail","implication","parties","city","value"]){
       if(typeof x[field]==="string")x[field]=cltSafeRich(x[field]);
@@ -929,6 +930,18 @@ hide it immediately so the live app renders instead of flashing a static list wh
       facts:(d.evidenceDossier.facts||[]).map(f=>({...f,
         label:cltSafeRich(f.label),fact:cltSafeRich(f.fact),sourceUrl:cltSafeUrl(f.sourceUrl)}))};
     return x;
+  }
+  function cltSafeOther(v,k) {
+    if(typeof v==="string"){
+      if(/^(?:url|href|src|link|attachment)$/i.test(k||""))return cltSafeUrl(v);
+      return cltSafeRich(v);
+    }
+    if(Array.isArray(v))return v.map(x=>cltSafeOther(x,k));
+    if(v&&typeof v==="object"){
+      const obj={};for(const key of Object.keys(v))obj[key]=cltSafeOther(v[key],key);
+      return obj;
+    }
+    return v;
   }
   window.CLT_ESCAPE=cltEscape;
   window.CLT_SAFE_DEAL=cltSafeDeal;
@@ -1001,7 +1014,12 @@ hide it immediately so the live app renders instead of flashing a static list wh
   }));
 
   Promise.all([data,code]).then(function(out){
-    if(window.CLT_DATA&&Array.isArray(window.CLT_DATA.DEALS))window.CLT_DATA.DEALS=window.CLT_DATA.DEALS.map(cltSafeDeal);
+    if(window.CLT_DATA&&Array.isArray(window.CLT_DATA.DEALS)){
+      window.CLT_DATA.DEALS=window.CLT_DATA.DEALS.map(cltSafeDeal).filter(Boolean);
+      for(const field of ["MOVES","REGITEMS","COMMENTARY","TRENDS"]){
+        if(Array.isArray(window.CLT_DATA[field]))window.CLT_DATA[field]=window.CLT_DATA[field].map(x=>cltSafeOther(x));
+      }
+    }
     var t=document.createElement("script");
     t.textContent=out[1].join("\n");
     document.body.appendChild(t);
