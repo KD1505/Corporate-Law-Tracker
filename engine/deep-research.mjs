@@ -2,6 +2,7 @@
 // New claims are admitted only when the source URL was fetched and a verbatim
 // supporting passage can be matched; unavailable material is never invented.
 import fs from "node:fs/promises";
+import { createHash } from "node:crypto";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import Anthropic from "@anthropic-ai/sdk";
@@ -60,7 +61,7 @@ function validFact(f,docs){
  if(nums(f.fact).some(x=>!supported.has(x)))return null;
  const status=/^(completed|proposed|announced|filed|conditional|reported|unknown)$/i.test(f.status||"")?f.status.toLowerCase():"reported";
  return {label:String(f.label||"Documented fact").slice(0,72),fact:f.fact.trim(),
-   sourceUrl:doc.url,supportingText:quote,status};
+   sourceUrl:doc.url,evidenceSha256:createHash("sha256").update(norm(quote)).digest("hex"),status};
 }
 function jsonResult(s){
  const a=s.indexOf("{"),b=s.lastIndexOf("}");if(a<0||b<=a)throw Error("Model did not return complete JSON");
@@ -86,8 +87,12 @@ async function researchOne(client,d,docs){
  const response=await client.messages.create({model:MODEL,max_tokens:4800,system,messages:[{role:"user",content:input}]});
  const obj=jsonResult(response.content.filter(x=>x.type==="text").map(x=>x.text).join("\n"));
  if(!Array.isArray(obj.facts))throw Error("No facts array");
- return [...new Map(obj.facts.map(f=>validFact(f,docs)).filter(Boolean)
-   .map(f=>[f.fact.toLowerCase(),f])).values()].slice(0,16);
+ const verified=[...new Map(obj.facts.map(f=>validFact(f,docs)).filter(Boolean)
+   .map(f=>[f.fact.toLowerCase(),f])).values()];
+ const cap=new Map(),out=[];
+ for(const f of verified){const n=cap.get(f.sourceUrl)||0;if(n>=4)continue;
+   cap.set(f.sourceUrl,n+1);out.push(f);if(out.length>=16)break;}
+ return out;
 }
 function parseData(s){const window={};new Function("window",s)(window);return window.CLT_DATA||{};}
 function serialized(C){
