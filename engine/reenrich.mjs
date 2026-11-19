@@ -55,6 +55,7 @@ async function main() {
   console.log(`reenrich: ${due.length} deals due; processing ${batch.length} this run (refresh age ${AGE_DAYS}d).`);
 
   let deep = 0, std = 0;
+  let creditBlocked = false;
   for (const { d, i } of batch) {
     const marquee = isMarquee(d);
     const url = (d.sources && d.sources[0] && d.sources[0].url) || "";
@@ -66,7 +67,17 @@ async function main() {
       const { score, imp } = scoreDeal(merged); merged.score = score; merged.imp = imp;
       deals[i] = merged; marquee ? deep++ : std++;
       console.log(`  ✓ ${marquee ? "deep " : "std  "} ${d.id}`);
-    } catch (err) { console.warn(`  ! skipped ${d.id} - ${err.message}`); }
+    } catch (err) {
+      console.warn(`  ! skipped ${d.id} - ${err.message}`);
+      if (/credit balance is too low|insufficient.*credit|purchase credits|billing/i.test(err.message)) {
+        creditBlocked = true; console.warn("reenrich: insufficient Anthropic credits; stopping remaining paid calls."); break;
+      }
+    }
+  }
+
+  if (!deep && !std) {
+    console.log(creditBlocked ? "reenrich: paused for API credits; preserved all existing records." : "reenrich: no successfully enriched deals; preserving data.js.");
+    return;
   }
 
   // regenerate data.js (preserve markers + LINKCHECK + UPDATED)
