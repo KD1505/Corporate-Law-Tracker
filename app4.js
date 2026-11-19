@@ -282,6 +282,18 @@ function initFeedLazy(){
     _feedObs.observe(s);
   }catch(err){ while(_feedCount<_feedList.length)feedAppend(); }
 }
+function cltSinceLastVisit() {
+  const prev=lsGet("clt_seen_ids",null);
+  if(!Array.isArray(prev)||!prev.length)return "";
+  const known=new Set(prev);
+  const fresh=DEALS.filter(d=>!known.has(d.id)).slice(0,6);
+  if(!fresh.length)return "";
+  const esc=window.CLT_ESCAPE||((s)=>String(s));
+  return '<section class="sec" style="margin:12px 0 22px"><h3 style="margin:0 0 8px">Added since your previous visit</h3>'
+    +'<p style="font-size:12px;color:var(--ink3);margin:0 0 8px">Newly published transaction records, not necessarily changes to previously tracked deals.</p>'
+    +fresh.map(d=>'<p style="margin:7px 0"><a href="#/deal/'+encodeURIComponent(d.id)+'">'+esc(d.headline)+'</a> <span style="color:var(--ink3)">'+esc(d.time)+'</span></p>').join("")
+    +'<p style="font-size:11px;color:var(--ink3);margin-top:8px">Based on saved browser state; clear browser data to reset.</p></section>';
+}
 function renderFeed(title,list,sub){
   const home=route.name==="feed"&&!anyFilterActive();
   const sorted=sortList(list);
@@ -290,10 +302,10 @@ function renderFeed(title,list,sub){
   const body=sorted.length?`<div class="feed">${sorted.slice(0,_feedCount).map(_feedFn).join("")}</div>${feedMoreHtml()}`:`<div class="empty">No matching developments. Clear the search or pick another filter.</div>`;
   const label=route.name==="watch"?"Watchlist":currentLabel();
   $("main").innerHTML=`
-    ${home&&!lsGet("clt_orient_hidden",false)?`<div class="orient"><span><b style="color:var(--ink)">Verified deal &amp; regulatory intelligence for India's corporate market</b> - every item sourced to a primary filing.</span><button class="orientx" id="orientX" aria-label="Dismiss this">✕</button></div>`:""}
-    ${home?`<div class="coverage"><span class="cv-dot"></span><b>${(window.CLT_DATA&&window.CLT_DATA.UPDATED)||'Updated 10 Jun 2026'}</b> · refreshed nightly · ${DEALS.length} matters · built only on primary filings - BSE/NSE · SEBI · RBI · CCI · IBBI · NCLT <span style="color:var(--accent);font-weight:700;cursor:pointer" onclick="openMeth()">Coverage &amp; method →</span></div>`:""}
+    ${home&&!lsGet("clt_orient_hidden",false)?`<div class="orient"><span><b style="color:var(--ink)">Source-linked corporate transaction research for India</b> - document coverage and editorial review vary by record.</span><button class="orientx" id="orientX" aria-label="Dismiss this">✕</button></div>`:""}
+    ${home?`<div class="coverage"><span class="cv-dot"></span><b>${(window.CLT_DATA&&window.CLT_DATA.UPDATED)||"Last data build not confirmed"}</b> · ${DEALS.length} source-labelled transaction records · exchange feeds may be delayed · <a href="/coverage.html">Detailed source coverage</a></div>`:""}
     ${home?`<div class="stats" id="stats"></div>`:""}
-    ${home?priorityBand()+deadlineStrip():""}
+    ${home?cltSinceLastVisit()+priorityBand()+deadlineStrip():""}
     <div class="vh"><h2>${title}</h2><span class="sub">${sub||(sorted.length+(sorted.length===1?" item":" items"))}</span>${clear}</div>
     ${toolbarHtml(sorted,{save:anyFilterActive()&&route.name==="feed",sector:route.name==="feed",scope:route.name==="watch"?"watchlist":""})}
     ${body}

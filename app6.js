@@ -102,6 +102,8 @@ $("sub").onclick=e=>{if(e.target.id==="sub")$("sub").classList.remove("on");};
 $("subForm").onsubmit=e=>{e.preventDefault();submitEmail($("subEmail").value,$("subBtn"),()=>{$("subBody").innerHTML=`<div class="brief-ok" style="margin-top:6px"><span class="tick">✓</span><span>You're on the list - the first brief lands tomorrow morning.</span></div>`;});};
 route=parseHash();
 buildSidebar();buildRail();buildAdv();render();
+// Remember visible IDs across visits to show only newly published records next time.
+lsSet("clt_seen_ids",DEALS.map(d=>d.id));
 
 try{if(window.CLT_DATA&&window.CLT_DATA.UPDATED){var _u=document.getElementById("updated");if(_u)_u.textContent=window.CLT_DATA.UPDATED;}}catch(e){}
 
