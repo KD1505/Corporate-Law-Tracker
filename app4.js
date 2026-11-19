@@ -244,6 +244,7 @@ function toolbarHtml(list,opts={}){
     ${opts.sector?`<select class="tsel" id="tbSector" title="Sector">${SECTORS.map(s=>`<option value="${s}" ${s===F.sector?"selected":""}>${s==="All Sectors"?"All sectors":s}</option>`).join("")}</select>`:""}
     ${opts.save?`<button class="abtn" id="saveV">Save &amp; track</button>`:""}
     <button class="abtn" id="tbLink">Copy link</button>
+    <button class="abtn" id="tbCSV">Export filtered CSV</button>
   </div>`;
 }
 function bindToolbar(list,label){
@@ -252,6 +253,29 @@ function bindToolbar(list,label){
   const c2=$("tbComp");if(c2)c2.onclick=()=>{density="compact";lsSet("clt_density",density);render();};
   const sec=$("tbSector");if(sec)sec.onchange=e=>{F.sector=e.target.value;render();};
   const lk=$("tbLink");if(lk)lk.onclick=()=>copyText(location.href,"View link copied");
+  const csv=$("tbCSV");if(csv)csv.onclick=()=>{
+    // Files are client-side, on the currently filtered records only.
+    // Apostrophe-prefix formula-like values to prevent spreadsheet injection.
+    const safeCell=value=>{
+      let t=String(value==null?"":value).replace(/<[^>]*>/g,"").trim();
+      if(/^[=+\-@]/.test(t))t="'"+t;
+      return '"'+t.replace(/"/g,'""')+'"';
+    };
+    const header=["Deal ID","Headline","Deal type","Stage","Sector","Date","Reported value","Counsel (source-attributed only)","Evidence level","Primary source URL","CorpLawTracker URL"];
+    const rows=[header,...list.map(d=>[
+      d.id,d.headline,TY(d.type).label,ST(d.stage).l,d.sector,d.time,d.value,
+      (d.firms||[]).map(f=>f.name).join("; "),
+      d.quality?.reviewed?"Document-reviewed":d.quality?.directOfficialFiling?"Official filing linked":"Reported only",
+      (d.sources||[]).find(s=>s.official)?.url||(d.sources||[])[0]?.url||"",
+      dealUrl(d.id)
+    ])];
+    const text=rows.map(row=>row.map(safeCell).join(",")).join("\r\n");
+    const blob=new Blob(["\uFEFF"+text],{type:"text/csv;charset=utf-8"});
+    const u=URL.createObjectURL(blob),a=document.createElement("a");a.href=u;
+    a.download="corplawtracker-filtered-"+new Date().toISOString().slice(0,10)+".csv";a.click();
+    setTimeout(()=>URL.revokeObjectURL(u),2000);
+    toast("Exported "+list.length+" filtered records with evidence labels");
+  };
   const sv=$("saveV");if(sv)sv.onclick=saveCurrentView;
 }
 /* ---- Windowed feed: render a screenful, stream the rest in on scroll ----
