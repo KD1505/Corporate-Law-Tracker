@@ -1,7 +1,7 @@
 function dealUrl(id){return location.origin+location.pathname+"#/deal/"+encodeURIComponent(id);}
 function citeText(d){
   const s=primarySrc(d);
-  return `"${d.headline}" - Corporate Law Tracker, ${d.time} (${isVerified(d)?"Verified against official source":"Reported; press source"}). ${s?`Primary source: ${s.name}, ${s.url}. `:""}${dealUrl(d.id)}`;
+  return `"${d.headline}" - Corporate Law Tracker, ${d.time} (${isVerified(d)?"Document-reviewed":dealHasOfficial(d)?"Official filing linked; full claim review pending":"Reported; review pending"}). ${s?`Primary source: ${s.name}, ${s.url}. `:""}${dealUrl(d.id)}`;
 }
 function openMeth(){$("meth").classList.add("on");}
 
@@ -11,6 +11,7 @@ function openMeth(){$("meth").classList.add("on");}
    locally and shown so you can confirm the UX. The field name is "email". */
 const SUBSCRIBE_ENDPOINT = ""; // e.g. "https://formspree.io/f/xxxxxx" or a Beehiiv embed URL
 function briefCtaHtml(){
+  if(!SUBSCRIBE_ENDPOINT)return `<div class="brief-cta"><h4>Daily source-linked deal brief</h4><p>Subscribe to our working RSS feed. Email delivery is not enabled yet, and this site does not collect subscriptions until a provider is connected.</p><a class="abtn primary" href="/brief.xml" target="_blank" rel="noopener">Open daily brief (RSS) ↗</a></div>`;
   if(lsGet("clt_subscribed",false)){
     return `<div class="brief-cta"><div class="brief-ok"><span class="tick">✓</span><span>You're on the list - the next brief lands tomorrow morning. <a href="#" id="briefManage" style="color:var(--accent)">Use a different email</a></span></div></div>`;
   }
@@ -32,6 +33,7 @@ function bindBriefCta(){
 }
 function openSub(){
   const b=$("subBody");
+  if(!SUBSCRIBE_ENDPOINT){b.innerHTML=`<h3>Stay current with CorpLawTracker</h3><p>Use the live RSS brief to follow source-linked transactions. Email delivery is not set up yet; we will not simulate a subscription.</p><p><a href="/brief.xml" target="_blank" rel="noopener">Open daily deal brief (RSS) ↗</a></p>`;$("sub").classList.add("on");return;}
   if(lsGet("clt_subscribed",false)){
     b.innerHTML=`<div class="brief-ok" style="margin-top:6px"><span class="tick">✓</span><span>You're already subscribed - the next brief lands tomorrow morning.</span></div>`;
   }
@@ -39,6 +41,7 @@ function openSub(){
 }
 function isEmail(v){return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test((v||"").trim());}
 function submitEmail(value,btn,after){
+  if(!SUBSCRIBE_ENDPOINT){toast("Email delivery not yet available. Follow RSS instead.");return;}
   const email=(value||"").trim();
   if(!isEmail(email)){toast("Enter a valid email address.");return;}
   const orig=btn?btn.textContent:"";
@@ -55,12 +58,10 @@ function submitEmail(value,btn,after){
   if(SUBSCRIBE_ENDPOINT){
     const body=new FormData(); body.append("email",email); body.append("source","corplawtracker.com");
     fetch(SUBSCRIBE_ENDPOINT,{method:"POST",body,headers:{Accept:"application/json"}})
-      .then(()=>done())
-      .catch(()=>{ reset(); toast("Couldn't reach the server - please try again."); });
+      .then(r=>{if(!r.ok)throw Error("Subscription rejected: "+r.status);done();})
+      .catch(()=>{ reset(); toast("Subscription failed. Please try again."); });
   } else {
-    // No provider wired yet: store locally and confirm UX.
-    console.info("[CorpLawTracker] Captured signup (no endpoint wired yet):",email);
-    setTimeout(done,300);
+    reset(); toast("Email delivery is not configured.");
   }
 }
 
@@ -321,8 +322,8 @@ function collectPartners(name){const set=new Map();
   DEALS.forEach(d=>d.firms.filter(f=>f.name===name).forEach(f=>(f.lead||[]).forEach(l=>set.set(l.n,l.role))));
   return [...set.entries()].map(([n,role])=>({n,role}));}
 function renderFirms(){
-  const names=Object.keys(FIRMS).filter(n=>cntFirm(n)>0).sort((a,b)=>cntFirm(b)-cntFirm(a));
-  const cards=names.map(n=>{const f=FIRMS[n];
+  const names=[...new Set([...Object.keys(FIRMS),...(window.CLT_FIRM_CATALOG||[]).map(f=>f.n)])].filter(n=>cntFirm(n)>0).sort((a,b)=>cntFirm(b)-cntFirm(a));
+  const cards=names.map(n=>{const f=FIRMS[n]||{city:"",type:"Legal practice",focus:"Published named-counsel attribution; further documentary review may be required.",web:""};
     return `<div class="fcard" data-firm="${encodeURIComponent(n)}">
       <div class="fnm">${n}</div><div class="fmeta">${f.city} · ${f.type}</div>
       <div class="ffocus">${f.focus}</div>
@@ -334,7 +335,7 @@ function renderFirms(){
   $("main").querySelectorAll("[data-firm]").forEach(c=>c.onclick=()=>go({name:"firm",id:decodeURIComponent(c.dataset.firm)}));
 }
 function renderFirm(name){
-  const f=FIRMS[name]; if(!f){go({name:"firms"});return;}
+  const f=FIRMS[name]||(firmKnown(name)?{city:"",type:"external legal practice",focus:"Published named-counsel attribution; further documentary review may be required.",web:""}:null); if(!f){go({name:"firms"});return;}
   const list=DEALS.filter(d=>dealFirms(d).includes(name));
   const partners=collectPartners(name);
   const pchips=partners.length?`<div class="pchips">${partners.map(p=>`<span class="pchip">${p.n}${p.role?` <span class="pr">· ${p.role}</span>`:""}</span>`).join("")}</div>`:`<div class="note" style="margin-top:8px">Individual partners are listed as deal announcements name them.</div>`;
@@ -485,6 +486,7 @@ function renderDeal(id){
        ${starBtn(d,'style="font-size:14px;border:1px solid var(--line);border-radius:6px;padding:4px 10px;margin-left:0"')}
        <button class="abtn" id="ddCite">Copy citation</button>
        <button class="abtn" id="ddLink">Copy link</button>
+       <button class="abtn" id="ddExport">Export source-backed research</button>
        ${ps?`<button class="abtn" id="ddSrc">Open primary source ↗</button>`:""}
        ${cmpBtn(d)}
      </div>
@@ -503,7 +505,7 @@ function renderDeal(id){
          ${commHtml}
          ${relRegHtml}
          ${firmsHtml?`<div class="sec"><h4>Counsel &amp; teams</h4>${firmsHtml}</div>`:""}
-         <div class="sec"><h4>Sources &amp; official filings · what each adds <span style="font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink4)">(${allSrcs.length})</span>${(()=>{var L=(window.CLT_DATA&&window.CLT_DATA.LINKCHECK)||{};var s=L.deals&&L.deals[d.id];if(s==='v')return ` <span class="lveri" title="Every source link was pinged and confirmed live as of ${L.at}.">✓ Links verified · ${L.at}</span>`;if(s==='i')return ` <span class="lveri warn" title="A source link could not be reached on the last automated check - under review.">⚠ Link under review</span>`;return '';})()}</h4>${srcHtml}</div>
+         <div class="sec"><h4>Sources &amp; official filings · what each adds <span style="font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink4)">(${allSrcs.length})</span>${(()=>{var L=(window.CLT_DATA&&window.CLT_DATA.LINKCHECK)||{};var s=L.deals&&L.deals[d.id];if(s==='v')return ` <span class="lveri" title="At least one source URL responded successfully; link health does not validate research claims or prove every source is available.">✓ Links verified · ${L.at}</span>`;if(s==='i')return ` <span class="lveri warn" title="A source link could not be reached on the last automated check - under review.">⚠ Link under review</span>`;return '';})()}</h4>${srcHtml}</div>
          <div class="sec"><h4>Public documents</h4>${docsHtml}</div>
        </div>
        <div>
@@ -528,6 +530,7 @@ function renderDeal(id){
   $("main").querySelectorAll(".trig-s[data-law]").forEach(n=>n.onclick=()=>go({name:"law",id:n.dataset.law}));
   $("ddCite")&&($("ddCite").onclick=()=>copyText(citeText(d),"Citation copied"));
   $("ddLink")&&($("ddLink").onclick=()=>copyText(dealUrl(d.id),"Deal link copied"));
+  $("ddExport")&&($("ddExport").onclick=()=>{const record={...d};delete record._thin;delete record.sourceQuarantine;const blob=new Blob([JSON.stringify(record,null,2)],{type:"application/json"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download="corplawtracker-"+String(d.id).replace(/[^a-z0-9_-]/gi,"-")+".json";a.click();setTimeout(()=>URL.revokeObjectURL(url),1500);toast("Research record exported with source URLs");});
   $("ddSrc")&&($("ddSrc").onclick=()=>window.open(ps.url,"_blank","noopener"));
 }
 

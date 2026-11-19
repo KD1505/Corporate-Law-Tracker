@@ -18,7 +18,7 @@ function savePractice(p){try{p?localStorage.setItem("clt_practice",JSON.stringif
 function renderForYou(){
   const p=loadPractice();
   if(!p||(!p.sectors.length&&!p.types.length)){
-    $("main").innerHTML=`<div class="vh"><h2>Set up your practice</h2><span class="sub">Pick your areas - My Practice (and your daily brief) is scoped to them</span></div>
+    $("main").innerHTML=`<div class="vh"><h2>Set up your practice</h2><span class="sub">Pick your areas - My Practice filters remain local to this browser</span></div>
       <div class="sec"><h4>Sectors</h4><div class="fb" id="pSec">${SECTORS.filter(s=>s!=="All Sectors").map(s=>`<span class="chip" data-sec="${s}">${s}</span>`).join("")}</div>
         <h4 style="margin-top:16px">Deal types</h4><div class="fb" id="pType">${Object.entries(TYPES).map(([k,v])=>`<span class="chip" data-type="${k}">${v.label}</span>`).join("")}</div>
         <button class="mbtn primary" id="pSave" style="margin-top:16px">Save my practice</button></div>`;
@@ -50,8 +50,8 @@ function renderSaved(){
     const when=s.at?new Date(s.at).toLocaleDateString("en-GB",{day:"numeric",month:"short"}):"";
     const meta=`${cur} match${cur===1?"":"es"}${delta>0?` · <span style="color:var(--green);font-weight:700">+${delta} since ${when}</span>`:(when?` · saved ${when}`:" · click to run")}`;
     return `<div class="moverow"><div data-apply="${i}" style="flex:1;cursor:pointer"><div class="mv-who">${s.label}</div><div class="mv-what">${meta}</div></div><span class="delx" data-del="${i}">✕ remove</span></div>`;
-  }).join(""):'<div class="empty">No saved views yet. Apply filters on the feed, then click <b>Save &amp; track</b> in the toolbar. Saved views also seed your daily brief.</div>';
-  $("main").innerHTML=`<div class="vh"><h2>Saved &amp; Alerts</h2><span class="sub">${a.length} saved · standing questions you can re-run in one click - these seed your daily brief</span></div>${body}`;
+  }).join(""):'<div class="empty">No saved views yet. Apply filters on the feed, then click <b>Save &amp; track</b> in the toolbar. Saved views are stored in this browser; automatic alerts are not enabled.</div>';
+  $("main").innerHTML=`<div class="vh"><h2>Saved Searches</h2><span class="sub">${a.length} saved · standing questions you can re-run locally; automatic notifications are not enabled</span></div>${body}`;
   $("main").querySelectorAll("[data-apply]").forEach(n=>n.onclick=()=>{F=JSON.parse(JSON.stringify(loadSaved()[+n.dataset.apply].F));$("q").value=F.q||"";go({name:"feed"});});
   $("main").querySelectorAll("[data-del]").forEach(n=>n.onclick=()=>{const a=loadSaved();a.splice(+n.dataset.del,1);persistSaved(a);renderSaved();});
 }

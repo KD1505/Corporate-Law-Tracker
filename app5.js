@@ -9,11 +9,11 @@ function buildStats(){
   const enriched=DEALS.filter(d=>(d.framework&&d.framework.length)||d.enrichTier==="deep"||d.enrichTier==="standard");
   const groups=[
    {n:DEALS.length,l:"Deals tracked",d:"sourced & deduped nightly",list:DEALS},
-   {n:verified.length,l:"Verified",d:`${pct(verified.length)}% corroborated by an official source`,list:verified},
-   {n:official.length,l:"Official filings",d:`${pct(official.length)}% primary-source linked`,muted:true,list:official},
+   {n:verified.length,l:"Document-reviewed",d:`${pct(verified.length)}% editor-reviewed case studies`,list:verified},
+   {n:official.length,l:"Specific filing linked",d:`${pct(official.length)}% have a specific official filing URL`,muted:true,list:official},
    linksList
-     ? {n:linksList.length,l:"Links verified",d:"pinged &amp; live - checked nightly",muted:true,list:linksList}
-     : {n:enriched.length,l:"Deep-enriched",d:"multi-source detail on file",muted:true,list:enriched}
+     ? {n:linksList.length,l:"URLs reachable",d:"automated URL check; claims not verified",muted:true,list:linksList}
+     : {n:enriched.length,l:"Structured records",d:"not necessarily fully fact-checked",muted:true,list:enriched}
   ];
   // Cap each popover: building a node per deal for 1,000+ deals x4 cards made
   // every home render (and every hover) crawl. Show the newest slice + a count.
