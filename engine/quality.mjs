@@ -107,6 +107,12 @@ const THIN_HEADLINE = /:\s*(?:updates|others|press release|acquisition|general u
 const REG31 = /\bregulation\s*31\s*\(\s*4\s*\)/i;
 export function recordQuality(d) {
  const headline=String(d?.headline||""),body=String(d?.detail||d?.sum||"");
+ const personnel=/\b(?:lateral move|joins? .{2,65} as (?:partner|senior associate|general counsel)|appointed as (?:retained |equity |senior )?partner|elevated to (?:equity |senior )?partner|promoted to partner|moves? from .{3,70} to .{3,70}|hired? .{2,45} as (?:partner|general counsel))\b/i;
+ if(personnel.test(headline)&&!/acquires?|merger|purchase of shares|fundrais|investment in/i.test(headline))
+   return {kind:"disclosure",reason:"Law-firm appointment or professional move is not an economic corporate transaction"};
+ if(/:\s*(?:Updates|Others|Press Release|General Update|Corporate Announcement)$/i.test(headline)
+     && !/\b(?:executed a (?:share|business|loan)|completed (?:its|the) acquisition|signed (?:a|the) (?:share purchase|definitive)|allotted [0-9,]+ shares|scheme (?:of|for) (?:amalgamation|merger)|approved resolution plan)\b/i.test(body))
+   return {kind:"needs-research",reason:"Broad exchange update lacks a specific evidenced economic transaction or closing"};
  if(ROUTINE_TITLE.test(headline)||REG31.test(body))return {kind:"disclosure",reason:"Routine compliance/disclosure, not proof of a new economic transaction"};
  if(THIN_HEADLINE.test(headline) && body.length<210)
   return {kind:"needs-research",reason:"Generic filing headline without material transaction facts"};

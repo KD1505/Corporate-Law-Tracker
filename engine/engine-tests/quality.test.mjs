@@ -38,6 +38,15 @@ test("generic acquisition filing without content goes to research queue",()=>{
   stage:"completed",type:"ma",sources:[],firms:[]};
  assert.equal(sanitiseDeal(d).quality.kind,"needs-research");
 });
+test("professional hires and broad generic updates cannot become deal mandates",()=>{
+ const move={headline:"Ruchi Diwakar moves from IC RegFin Legal to JSA",
+  detail:"Ruchi Diwakar has been appointed as retained partner in Mumbai.",type:"bank",stage:"completed"};
+ assert.equal(recordQuality(move).kind,"disclosure");
+ const generic={headline:"Sammaan Capital Limited: Updates",
+   detail:"Pursuant to SEBI Regulation 30, we are informing the Stock Exchange of the routine matters of the company.",
+   type:"ma",stage:"completed"};
+ assert.equal(recordQuality(generic).kind,"needs-research");
+});
 test("true economic deal stays in the transaction feed",()=>{
  const d={headline:"Buyer acquires 54% of Target Ltd",type:"ma",
    detail:"Under a share purchase agreement, Buyer acquired a 54% stake in Target Limited and the acquisition has closed.",
