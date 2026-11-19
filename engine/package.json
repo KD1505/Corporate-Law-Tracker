@@ -6,7 +6,7 @@
   "description": "Nightly ingestion + multi-source enrichment pipeline for Corporate Law Tracker.",
   "scripts": {
     "build": "node build.mjs",
-    "test:research": "node --test engine-tests/deal-evidence.test.mjs"
+    "test:research": "node --test engine-tests/*.test.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
