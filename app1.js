@@ -19,7 +19,7 @@ const CITYLABEL={mumbai:"Mumbai",delhi:"Delhi-NCR",bengaluru:"Bengaluru",other:"
 function TY(t){return (typeof TYPES!=="undefined"&&TYPES[t])||{label:String(t||"Other").toUpperCase(),cls:"t-ma",c:"var(--ink3)"};}
 function ST(s){return (typeof STAGES!=="undefined"&&STAGES[s])||{l:String(s||"—"),c:"var(--ink3)"};}
 function CL(g){return (typeof CITYLABEL!=="undefined"&&CITYLABEL[g])||String(g||"India");}
-const SECTORS=["All Sectors","Technology","BFSI","Pharma & Healthcare","Energy & Renewables","Infrastructure","Consumer & Retail","Telecom","FMCG","Metals & Mining","Financial Services","Industrials"];
+const SECTORS=["All Sectors","Technology","BFSI","Pharma & Healthcare","Energy & Renewables","Infrastructure","Real Estate","Consumer & Retail","Telecom","FMCG","Metals & Mining","Financial Services","Industrials"];
 // official / primary-source detection (the moat signal)
 const OFFICIAL_RE=/(\.gov\.in|\.nic\.in|sebi|rbi\.org|cci\.gov|ibbi|mca\.gov|dipam|pib\.gov|meity|bseindia|nseindia|nclt|nclat|sci\.gov|trai|irdai|ecourts)/i;
 function srcOfficial(s){return !!s&&(s.official===true||OFFICIAL_RE.test(s.url||""));}
