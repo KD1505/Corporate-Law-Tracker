@@ -64,6 +64,8 @@ jobs:
           CLT_SPINE_MAX: "120"    # safety ceiling on disclosures ingested per run
           CLT_SPINE_MIN: "25"     # materiality THRESHOLD — keep every deal above this, drop noise (LOWER = more deals)
           CLT_AI_MAX: "50"        # max AI enrichments per nightly run (cost cap; marquee→web-search, rest→no search)
+          # On code-change deploys skip the slow full link audit; nightly schedule retains it.
+          CLT_LINKCHECK: ${{ github.event_name == 'push' && '0' || '1' }}
           # Backfill: blank on schedule; set via the "Run workflow" button to load history once.
           CLT_BACKFILL: ${{ github.event.inputs.backfill_days }}
         run: npm run build
