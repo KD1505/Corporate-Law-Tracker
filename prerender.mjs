@@ -192,6 +192,7 @@ ${d.evidenceDossier.facts?.length ? `<h3>Evidence-linked findings</h3><ul class=
 ${d.evidenceDossier.gaps?.length ? `<h3>Documentation gaps to verify</h3><ul class="links">${d.evidenceDossier.gaps.map(g=>`<li>${esc(g)}</li>`).join("")}</ul>` : ""}` : ""}
 ${(d.sources&&d.sources.length)?`<h2>Sources</h2><ul class="links">${d.sources.map(s=>`<li><a href="${esc(s.url)}" rel="nofollow">${esc(s.name)}</a>${s.official?" · official":""}</li>`).join("")}</ul>`:""}
 <a class="cta" href="/#/deal/${encodeURIComponent(d.id)}">Open in the live tracker →</a>
+<p style="font-size:13px;margin-top:14px"><a href="mailto:corrections@corplawtracker.com?subject=${encodeURIComponent("Source or factual correction: "+d.id)}&body=${encodeURIComponent("Deal: "+canonical+"\nPlease describe the correction and attach or link the primary evidence:")}">Report a factual error on this record</a></p>
 ${rel.length?`<h2>Related deals</h2><ul class="links">${rel.map(r=>`<li><a class="card" href="${dealPath(r)}"><span class="ct">${esc(r.headline)}</span><span class="cs">${esc(r.time||"")}${r.value&&r.value!=="—"?" · "+esc(r.value):""}</span></a></li>`).join("")}</ul>`:""}
 `;
   const jsonld = { "@context":"https://schema.org", "@type":"NewsArticle", headline: strip(d.headline),
@@ -464,11 +465,36 @@ for (const d of all) for (const f of dealFirms(d)) { if(!firmMap.has(f)) firmMap
 const firms = [...firmMap.entries()].map(([name,deals])=>({name,deals})).filter(f=>f.name && f.deals.length)
   .sort((a,b)=>b.deals.length-a.deals.length);
 
+// Publicly accessible source-repair queue: preserve flagged URLs instead of
+// silently deleting evidence or assuming every failed automated request is a 404.
+let linkReport={};
+try{linkReport=JSON.parse(fs.readFileSync(path.join(ROOT,"engine","link-report.json"),"utf8"));}catch{}
+const suspect=new Map();
+for(const d of all){
+ for(const s of [...(d.sources||[]),...(d.docs||[])]){
+   const u=s.url;if(!u||linkReport.urls?.[u]?.status!=="dead")continue;
+   const item=suspect.get(u)||{url:u,httpStatus:linkReport.urls[u]?.code||null,affectedRecords:[],maxPriority:0};
+   if(item.affectedRecords.length<8)item.affectedRecords.push(d.id);
+   item.maxPriority=Math.max(item.maxPriority,(d.score||0)+(d.quality?.reviewed?200:0));
+   suspect.set(u,item);
+ }
+}
+const repairQueue=[...suspect.values()].sort((a,b)=>b.maxPriority-a.maxPriority).slice(0,500);
+fs.writeFileSync(path.join(ROOT,"data","link-repair-queue.json"),JSON.stringify({
+ generatedAt:new Date().toISOString(),sourceCheckAt:linkReport.lastRun||null,
+ flaggedURLs:suspect.size,queuedURLs:repairQueue.length,
+ note:"Historical automated 404/410 observations require independent reconfirmation, especially on regulator websites.",
+ items:repairQueue},null,2)+"\n");
+console.log("link-repair queue:",suspect.size,"flagged unique URLs");
 // write deal pages
 const dDir = path.join(ROOT,"d"); fs.mkdirSync(dDir,{recursive:true});
 for (const d of publishedRecords) fs.writeFileSync(path.join(dDir,`${d.id}.html`), dealPage(d, all));
 // write firm pages
 const fDir = path.join(ROOT,"firm"); fs.mkdirSync(fDir,{recursive:true});
+// Remove obsolete generated firm pages: old aliases and non-law-firm entries
+// must not remain indexable after being removed from the new league table.
+const approvedFirmFiles=new Set(firms.map(f=>slug(f.name)+".html"));
+for(const name of fs.readdirSync(fDir))if(name.endsWith(".html")&&!approvedFirmFiles.has(name))fs.unlinkSync(path.join(fDir,name));
 firms.forEach((f,i)=>fs.writeFileSync(path.join(fDir,`${slug(f.name)}.html`), firmPage(f.name, f.deals, i+1, firms.length)));
 // hubs
 fs.writeFileSync(path.join(ROOT,"deals.html"), dealsIndex(all));
