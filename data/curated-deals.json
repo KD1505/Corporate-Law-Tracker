@@ -581,5 +581,193 @@
     ],
     "editoriallyReviewed": true,
     "verifiedAsOf": "2026-11-19"
+  },
+  {
+    "id": "azb-hlc-cam-linklaters-act-on-aegis-logistics-3500-crore-qip",
+    "type": "ipo",
+    "geo": "mumbai",
+    "city": "Mumbai",
+    "sector": "Infrastructure",
+    "stage": "completed",
+    "time": "16 Nov 2026",
+    "value": "₹3,500 cr",
+    "imp": "hi",
+    "score": 85,
+    "parties": "Aegis Logistics Limited (issuer); qualified institutional buyers",
+    "headline": "Aegis Logistics closes ₹3,500-crore QIP; 28.93 million shares allocated at ₹1,210",
+    "sum": "<b>Issue closed 16 November 2026:</b> Aegis' fund-raising committee approved allocation of 28,925,619 shares at ₹1,210 each and adopted the placement document. The disclosed closing/allocation should not be mislabelled as a separate final allotment confirmation.",
+    "detail": "Aegis Logistics's NSE disclosure confirms that its institutional placement opened on 11 November 2026 and was closed on 16 November after receipt of applications and escrow funds from eligible QIBs. Its fundraising committee approved allocation of 28,925,619 shares of face value ₹1 at ₹1,210 per share, including ₹1,209 share premium, an implied aggregate of approximately ₹3,500 crore. The 16 November placement document and confirmation-of-allocation notice were also approved. This original document records closure and allocation; a separate final allotment filing should be checked before describing the actual legal allotment as already completed. Bar & Bench separately reports AZB & Partners and Hogan Lovells Cadwalader advising the issuer on Indian and international law, and Cyril Amarchand Mangaldas and Linklaters advising the placement agents on Indian and international law. The placement agents are investment banks, not law firms.",
+    "implication": "Separate issue close, share allocation and actual allotment; reconcile 28,925,619 × ₹1,210, cite the precise issuer filing for mechanics, and credit the four law firms only to their reported legal mandates.",
+    "firms": [
+      {
+        "name": "AZB & Partners",
+        "side": "Indian issuer counsel (reported)",
+        "lead": [],
+        "team": [],
+        "note": "Bar & Bench attribution; not established by NSE filing."
+      },
+      {
+        "name": "Hogan Lovells Cadwalader",
+        "side": "International issuer counsel (reported)",
+        "lead": [],
+        "team": [],
+        "note": "Bar & Bench identifies the international issuer-side role."
+      },
+      {
+        "name": "Cyril Amarchand Mangaldas",
+        "side": "Indian counsel to placement agents (reported)",
+        "lead": [
+          {
+            "n": "Ravi Dubey",
+            "role": "Partner, transaction lead"
+          },
+          {
+            "n": "Puneet Passi",
+            "role": "Partner, transaction lead"
+          },
+          {
+            "n": "Manan Lahoty",
+            "role": "Partner, strategic guidance"
+          }
+        ],
+        "team": [
+          "Sachin Santuka",
+          "Arjun Badola",
+          "Abhinav Singh Chauhan",
+          "Shvabh Chakarwarti",
+          "Alok Antony",
+          "Prishni Chakraborty",
+          "Sajal Soni",
+          "Shaktisena Kethiri"
+        ],
+        "note": "Team attribution from Bar & Bench."
+      },
+      {
+        "name": "Linklaters",
+        "side": "International counsel to placement agents (reported)",
+        "lead": [],
+        "team": [],
+        "note": "Bar & Bench reports counsel role; individual lawyers not identified."
+      }
+    ],
+    "framework": [
+      {
+        "ref": "SEBI ICDR Chapter VI, Regulation 176(1)",
+        "note": "Formula QIP issue price and eligibility",
+        "flag": "central"
+      },
+      {
+        "ref": "Companies Act 2013 Sections 42 and 62",
+        "note": "Institutional securities issue",
+        "flag": "central"
+      },
+      {
+        "ref": "SEBI LODR Regulation 30",
+        "note": "Filing of fund-raising committee decision and issue closure",
+        "flag": "central"
+      }
+    ],
+    "structure": {
+      "consideration": "28,925,619 shares allocated @ ₹1,210; approximately ₹3,500 crore",
+      "conditions": [
+        "QIP opened 11 Nov and closed 16 Nov 2026",
+        "Funds received in escrow from eligible QIBs",
+        "Placement document approved 16 Nov 2026"
+      ],
+      "approvals": [
+        "Fund Raising Committee approval of issue closure, allocation and placement document"
+      ],
+      "novel": "Four counsel roles across issuer/placement agent sides; distinguish allocation from later final allotment",
+      "triggers": [
+        {
+          "law": "SEBI ICDR Regulation 176(1)",
+          "note": "Price determination on institutional placement"
+        }
+      ],
+      "status": "Confirmed"
+    },
+    "timeline": [
+      {
+        "d": "11 Nov 2026",
+        "t": "QIP opened"
+      },
+      {
+        "d": "16 Nov 2026",
+        "t": "QIP closed; share allocation and placement document approved"
+      },
+      {
+        "d": "18 Nov 2026",
+        "t": "Bar & Bench reported law-firm mandates"
+      }
+    ],
+    "research": {
+      "reviewedOn": "2026-11-19",
+      "facts": [
+        {
+          "label": "Issue closed",
+          "fact": "QIP closed on 16 November 2026 with eligible QIB applications and funds in escrow.",
+          "sourceUrl": "https://nsearchives.nseindia.com/corporate/AEGISCHEM_16112026221051_ALL_SE_Intimation_IssueClose_Signed.pdf",
+          "status": "completed"
+        },
+        {
+          "label": "Allocated equity",
+          "fact": "Fundraising committee approved allocation of 28,925,619 equity shares at ₹1,210 each.",
+          "sourceUrl": "https://nsearchives.nseindia.com/corporate/AEGISCHEM_16112026221051_ALL_SE_Intimation_IssueClose_Signed.pdf",
+          "status": "completed"
+        },
+        {
+          "label": "Share premium",
+          "fact": "The issue price included ₹1,209 premium per share of ₹1 face value.",
+          "sourceUrl": "https://nsearchives.nseindia.com/corporate/AEGISCHEM_16112026221051_ALL_SE_Intimation_IssueClose_Signed.pdf",
+          "status": "completed"
+        },
+        {
+          "label": "Placement document",
+          "fact": "Placement document dated 16 November 2026 was approved and adopted.",
+          "sourceUrl": "https://nsearchives.nseindia.com/corporate/AEGISCHEM_16112026221051_ALL_SE_Intimation_IssueClose_Signed.pdf",
+          "status": "completed"
+        },
+        {
+          "label": "Issuer counsel",
+          "fact": "AZB & Partners and Hogan Lovells Cadwalader were reported as Indian and international issuer counsel.",
+          "sourceUrl": "https://www.barandbench.com/law-firms/dealstreet/azb-hlc-cam-linklaters-act-on-aegis-logistics-3500-crore-qip",
+          "status": "reported"
+        },
+        {
+          "label": "Placement-agent counsel",
+          "fact": "Cyril Amarchand Mangaldas and Linklaters were reported as Indian and international counsel to placement agents.",
+          "sourceUrl": "https://www.barandbench.com/law-firms/dealstreet/azb-hlc-cam-linklaters-act-on-aegis-logistics-3500-crore-qip",
+          "status": "reported"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "name": "Aegis Logistics — NSE QIP closure/allocation, 16 Nov 2026",
+        "url": "https://nsearchives.nseindia.com/corporate/AEGISCHEM_16112026221051_ALL_SE_Intimation_IssueClose_Signed.pdf",
+        "official": true,
+        "blurb": "Original committee-approved closing, share allocation price and placement document"
+      },
+      {
+        "name": "Bar & Bench — four law firms on Aegis QIP",
+        "url": "https://www.barandbench.com/law-firms/dealstreet/azb-hlc-cam-linklaters-act-on-aegis-logistics-3500-crore-qip",
+        "official": false,
+        "blurb": "Separately identifies law firms, their clients and reported lawyers"
+      }
+    ],
+    "docs": [
+      {
+        "label": "Signed QIP issue close and allocation committee intimation (PDF)",
+        "url": "https://nsearchives.nseindia.com/corporate/AEGISCHEM_16112026221051_ALL_SE_Intimation_IssueClose_Signed.pdf"
+      }
+    ],
+    "editorialCautions": [
+      "16 November primary filing confirms issue closure and approved allocation; it is not itself a separate final share allotment notice.",
+      "The ₹3,500-crore total is rounded from share count times issue price.",
+      "Placement agents are banks, not legal advisers.",
+      "Firm roles are sourced from Bar & Bench and not the exchange filing."
+    ],
+    "editoriallyReviewed": true,
+    "verifiedAsOf": "2026-11-19"
   }
 ]
