@@ -1,23 +1,23 @@
 {
-  "asOf": "2026-11-20T23:19:57.342Z",
+  "asOf": "2026-11-21T22:20:45.684Z",
   "monitors": [
     {
       "source": "BSE",
       "kind": "exchange announcement API + bounded official RSS fallback",
-      "status": "RSS fallback responded; no qualifying records",
-      "lastAttempt": "2026-11-20T23:19:57.342Z",
-      "lastSuccess": "2026-11-20T23:19:57.342Z",
-      "recentQualifyingRecords": 0,
-      "contentFreshnessProven": false,
+      "status": "RSS fallback returned candidate records",
+      "lastAttempt": "2026-11-21T22:20:45.684Z",
+      "lastSuccess": "2026-11-21T22:20:45.684Z",
+      "recentQualifyingRecords": 1,
+      "contentFreshnessProven": true,
       "error": "BSE page 1 failed: bse 403",
-      "recordsInBatch": 0
+      "recordsInBatch": 1
     },
     {
       "source": "NSE",
       "kind": "exchange announcement API + bounded official RSS fallback",
       "status": "RSS fallback responded; no qualifying records",
-      "lastAttempt": "2026-11-20T23:19:57.342Z",
-      "lastSuccess": "2026-11-20T23:19:57.342Z",
+      "lastAttempt": "2026-11-21T22:20:45.684Z",
+      "lastSuccess": "2026-11-21T22:20:45.684Z",
       "recentQualifyingRecords": 0,
       "contentFreshnessProven": false,
       "error": "NSE failed: This operation was aborted",
