@@ -313,3 +313,21 @@ footer{max-width:1500px;margin:auto;padding:20px 32px;border-top:1px solid var(-
 .transaction-table tr:hover{background:#f8faf9}
 .transaction-table .save{font-size:11px;min-width:0;white-space:normal;padding:6px}
 @media(max-width:767px){.hero h1{font-size:27px}.metrics{gap:4px 12px}.metrics strong,.metrics span{font-size:11px}.explorer-controls label{margin-left:0}.explorer-controls button,.explorer-controls select{min-height:44px}.transaction-table,.transaction-table tbody,.transaction-table tr,.transaction-table td{display:block;width:100%}.transaction-table thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.transaction-table tr{padding:12px;border-bottom:1px solid var(--line)}.transaction-table td{border:0;padding:4px 0}.transaction-table td:not(:first-child):before{content:attr(data-label) ": ";display:inline;color:#53656e;font-size:11px;font-weight:650}.transaction-table .save{min-height:34px}.transaction-table caption{display:block}}
+
+/* Audit round 3 — evidence-led standalone dossiers. */
+.deal-title{color:var(--navy);text-decoration:none}.deal-title:hover{text-decoration:underline}
+.standalone{max-width:820px}
+.standalone h1{font-size:clamp(2rem,4vw,2.6rem);line-height:1.16;margin:12px 0}
+.dossier-breadcrumb{font-size:12px;color:var(--muted);margin-bottom:8px}
+.dossier-nav{display:flex;flex-wrap:wrap;gap:8px 18px;padding:12px 0;border-block:1px solid var(--line);margin:16px 0 22px;font-size:13px}
+.dossier-nav a{font-weight:650}
+.dossier-overview{padding:16px 0;margin-top:16px;border-top:1px solid var(--line)}
+.dossier-overview h2{font-size:21px;line-height:1.3;margin:0 0 12px}
+.dossier-overview dl{display:grid;grid-template-columns:minmax(105px,145px) minmax(0,1fr);gap:8px 14px;margin:0 0 22px;font-size:14px}
+.dossier-overview dt{color:var(--muted);font-weight:600}.dossier-overview dd{margin:0;overflow-wrap:anywhere}
+.dossier-overview li{margin:6px 0}
+.standalone .entry{padding:18px 22px}
+.standalone [id]{scroll-margin-top:90px}
+.learning-note{margin-top:20px;padding:14px 0 0;border-top:1px solid var(--line);font-size:13px}
+.learning-note h4{margin:0 0 8px;color:var(--navy)}
+@media(max-width:520px){.standalone .entry{padding:14px}.dossier-overview dl{grid-template-columns:1fr;gap:3px}.dossier-overview dd{margin-bottom:9px}.dossier-nav{gap:7px 13px}}
