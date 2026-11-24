@@ -331,3 +331,10 @@ footer{max-width:1500px;margin:auto;padding:20px 32px;border-top:1px solid var(-
 .learning-note{margin-top:20px;padding:14px 0 0;border-top:1px solid var(--line);font-size:13px}
 .learning-note h4{margin:0 0 8px;color:var(--navy)}
 @media(max-width:520px){.standalone .entry{padding:14px}.dossier-overview dl{grid-template-columns:1fr;gap:3px}.dossier-overview dd{margin-bottom:9px}.dossier-nav{gap:7px 13px}}
+
+/* Audit round 5 — integrated comparison and mobile presentation. */
+.compare-choice{display:flex;align-items:center;gap:4px;font-size:11px;margin-top:8px;cursor:pointer}
+.compare-choice input{margin:0;width:16px;height:16px}
+.explorer-controls button:disabled{opacity:.6;cursor:default}
+.transaction-table th:last-child{width:16%}.transaction-table th:first-child{width:35%}
+@media(max-width:767px){.comparison,.comparison tbody,.comparison tr,.comparison td,.comparison th{display:block;width:100%}.comparison tr{border-bottom:1px solid var(--line);padding:10px 0}.comparison th,.comparison td{border:0;padding:5px 8px}.comparison td:before{content:attr(data-deal);display:block;font-size:11px;font-weight:650;color:var(--muted)}.comparison td{margin-bottom:8px}.compare-choice{display:inline-flex;margin:0 0 0 10px}}
