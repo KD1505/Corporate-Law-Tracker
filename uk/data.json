@@ -1179,10 +1179,10 @@
       "category": "Transactions",
       "title": "Microsoft / Activision Blizzard (restructured)",
       "eventDate": "2023-10-13",
-      "status": "Restructured deal cleared",
+      "status": "Completed; restructured deal cleared",
       "sector": "Gaming technology",
-      "fact": "After opposing the original transaction, the CMA cleared a revised structure in October 2023 involving the transfer of certain cloud-streaming rights to Ubisoft.",
-      "analysis": "Control over distribution rights can matter as much as ownership of the target. A carve-out may create licensing, transitional services and intellectual property issues that need separate documentation.",
+      "fact": "Microsoft completed its acquisition on 13 October 2023 after CMA consent to the revised transaction excluding specified non-EEA cloud streaming rights. Its FY2024 filing reports $75.4bn total purchase price.",
+      "analysis": "Content rights have strategic significance for Microsoft's distribution and subscription channels. Compare the competitive counterfactual before and after the rights transfer. The original $68.7bn headline and $75.4bn accounting purchase price are differently defined and must not be described as a price increase without reconciliation.",
       "watch": "Compare the original prohibition with the revised transaction; do not treat the decisions as contradictory on identical facts.",
       "sources": [
         {
@@ -1196,6 +1196,18 @@
         {
           "name": "CMA revised deal decision explanation",
           "url": "https://www.gov.uk/government/news/microsoft-concession-a-gamechanger-that-will-promote-competition"
+        },
+        {
+          "name": "Microsoft — 18 January 2022 offer announcement",
+          "url": "https://news.microsoft.com/source/2022/01/18/microsoft-to-acquire-activision-blizzard-to-bring-the-joy-and-community-of-gaming-to-everyone-across-every-device/"
+        },
+        {
+          "name": "Microsoft — FY2024 Form 10-K, business combinations",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm"
+        },
+        {
+          "name": "Simpson Thacher — 13 October closing and client announcement",
+          "url": "https://www.stblaw.com/about-us/news/view/2023/10/13/microsoft-closes-$75-billion-acquisition-of-activision-blizzard"
         }
       ],
       "related": [
@@ -1221,6 +1233,11 @@
       "regulatory": "The revised deal was allowed with enforceable undertakings following prohibition of the original proposal.",
       "timeline": [
         {
+          "date": "2022-01-18",
+          "event": "Original offer announced",
+          "source": "https://news.microsoft.com/source/2022/01/18/microsoft-to-acquire-activision-blizzard-to-bring-the-joy-and-community-of-gaming-to-everyone-across-every-device/"
+        },
+        {
           "date": "2023-08-22",
           "event": "Revised acquisition submitted",
           "source": "https://www.gov.uk/cma-cases/microsoft-slash-activision-blizzard-merger-inquiry"
@@ -1229,10 +1246,187 @@
           "date": "2023-10-13",
           "event": "CMA consent to revised acquisition",
           "source": "https://www.gov.uk/cma-cases/microsoft-slash-activision-blizzard-ex-cloud-streaming-rights-merger-inquiry"
+        },
+        {
+          "date": "2023-10-13",
+          "event": "Acquisition and rights transaction completed",
+          "source": "https://www.stblaw.com/about-us/news/view/2023/10/13/microsoft-closes-$75-billion-acquisition-of-activision-blizzard"
         }
       ],
       "legalWork": "Define IP and licensing perimeter, territory, duration and technical obligations; negotiate enforceability of rights transfers and assess interaction with other jurisdictions' commitments.",
-      "interview": "Why might transferring cloud distribution rights address competition concerns more effectively than behavioural promises?"
+      "interview": "Why might transferring cloud distribution rights address competition concerns more effectively than behavioural promises?",
+      "announcedOn": "2022-01-18",
+      "factSources": [
+        "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "https://www.stblaw.com/about-us/news/view/2023/10/13/microsoft-closes-$75-billion-acquisition-of-activision-blizzard",
+        "https://www.gov.uk/cma-cases/microsoft-slash-activision-blizzard-ex-cloud-streaming-rights-merger-inquiry"
+      ],
+      "financing": "Original cash offer; completed purchase price consisted primarily of cash. Detailed funding reconciliation remains open.",
+      "values": [
+        {
+          "label": "Original headline including target net cash",
+          "amount": "US$68.7bn",
+          "numericAmount": 68700000000,
+          "basis": "historical-offer-value",
+          "source": "https://news.microsoft.com/source/2022/01/18/microsoft-to-acquire-activision-blizzard-to-bring-the-joy-and-community-of-gaming-to-everyone-across-every-device/",
+          "currency": "USD",
+          "unit": "currency",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Original offer per share",
+          "amount": "US$95",
+          "numericAmount": 95,
+          "basis": "cash-per-share",
+          "source": "https://news.microsoft.com/source/2022/01/18/microsoft-to-acquire-activision-blizzard-to-bring-the-joy-and-community-of-gaming-to-everyone-across-every-device/",
+          "currency": "USD",
+          "unit": "currency-per-share",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Completed purchase price (FY2024 accounting)",
+          "amount": "US$75.4bn",
+          "numericAmount": 75400000000,
+          "basis": "acquisition-consideration",
+          "source": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+          "currency": "USD",
+          "unit": "currency",
+          "disclosure": "approximate"
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "Simpson Thacher & Bartlett",
+          "firmId": "simpson-thacher",
+          "client": "Microsoft Corporation",
+          "scope": "Acquisition and related rights transaction counsel (firm disclosure)",
+          "source": "https://www.stblaw.com/about-us/news/view/2023/10/13/microsoft-closes-$75-billion-acquisition-of-activision-blizzard"
+        }
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Valuation basis",
+            "text": "The original $95-per-share cash offer had a headline value including target net cash; the later buyer filing reports the acquisition accounting purchase price.",
+            "evidence": [
+              {
+                "url": "https://news.microsoft.com/source/2022/01/18/microsoft-to-acquire-activision-blizzard-to-bring-the-joy-and-community-of-gaming-to-everyone-across-every-device/",
+                "publisher": "Microsoft",
+                "locator": "18 January 2022 offer announcement"
+              },
+              {
+                "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+                "publisher": "Microsoft",
+                "locator": "FY2024 Form 10-K, business combinations"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Rights carve-out",
+            "text": "CMA consent excluded specified non-EEA cloud streaming rights; acquisition counsel reports the related Ubisoft transfer closed on the same date.",
+            "evidence": [
+              {
+                "url": "https://www.gov.uk/cma-cases/microsoft-slash-activision-blizzard-ex-cloud-streaming-rights-merger-inquiry",
+                "publisher": "CMA",
+                "locator": "13 October 2023 consent; revised perimeter"
+              },
+              {
+                "url": "https://www.stblaw.com/about-us/news/view/2023/10/13/microsoft-closes-$75-billion-acquisition-of-activision-blizzard",
+                "publisher": "Simpson Thacher",
+                "locator": "13 October closing and client announcement"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Closing and counsel",
+            "text": "The buyer filing and Simpson Thacher both report completion; the firm identifies Microsoft as its client.",
+            "evidence": [
+              {
+                "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+                "publisher": "Microsoft",
+                "locator": "FY2024 Form 10-K, business combinations"
+              },
+              {
+                "url": "https://www.stblaw.com/about-us/news/view/2023/10/13/microsoft-closes-$75-billion-acquisition-of-activision-blizzard",
+                "publisher": "Simpson Thacher",
+                "locator": "13 October closing and client announcement"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Strategic rationale",
+            "text": "Microsoft linked the game catalogue to subscription and distribution strategy; this is the buyer's stated rationale.",
+            "evidence": [
+              {
+                "url": "https://news.microsoft.com/source/2022/01/18/microsoft-to-acquire-activision-blizzard-to-bring-the-joy-and-community-of-gaming-to-everyone-across-every-device/",
+                "publisher": "Microsoft",
+                "locator": "18 January 2022 offer announcement"
+              }
+            ],
+            "qualification": "party-position"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "IP",
+            "question": "What rights passed to Ubisoft?",
+            "why": "Map territory, duration and licensing scope.",
+            "documents": "Revised CMA case"
+          },
+          {
+            "name": "Competition",
+            "question": "Why did revised structure matter?",
+            "why": "Compare competitive control of distribution.",
+            "documents": "Original and revised decisions"
+          },
+          {
+            "name": "Valuation",
+            "question": "How do measures reconcile?",
+            "why": "Review net cash, share counts and purchase accounting.",
+            "documents": "Offer and 10-K"
+          },
+          {
+            "name": "Cross-border",
+            "question": "What approval conditions applied?",
+            "why": "Distinguish UK and foreign remedies.",
+            "documents": "Foreign decisions"
+          }
+        ],
+        "documents": [
+          {
+            "title": "Microsoft",
+            "url": "https://news.microsoft.com/source/2022/01/18/microsoft-to-acquire-activision-blizzard-to-bring-the-joy-and-community-of-gaming-to-everyone-across-every-device/",
+            "purpose": "18 January 2022 offer announcement"
+          },
+          {
+            "title": "Microsoft",
+            "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+            "purpose": "FY2024 Form 10-K, business combinations"
+          },
+          {
+            "title": "Simpson Thacher",
+            "url": "https://www.stblaw.com/about-us/news/view/2023/10/13/microsoft-closes-$75-billion-acquisition-of-activision-blizzard",
+            "purpose": "13 October closing and client announcement"
+          },
+          {
+            "title": "CMA",
+            "url": "https://www.gov.uk/cma-cases/microsoft-slash-activision-blizzard-ex-cloud-streaming-rights-merger-inquiry",
+            "purpose": "13 October 2023 consent; revised perimeter"
+          }
+        ],
+        "openQuestions": [
+          "Target and specialist counsel, detailed rights agreement and funding reconciliation remain open."
+        ],
+        "relatedDeals": [
+          "adobe-figma",
+          "broadcom-vmware"
+        ]
+      },
+      "evidenceScope": "Targeted public-source review; not a comprehensive independent verification of every claim or confidential term."
     },
     {
       "id": "nationwide-virgin",
@@ -4406,8 +4600,8 @@
       "verifiedOn": "2026-11-24",
       "id": "greencore-bakkavor",
       "title": "Greencore / Bakkavor",
-      "eventDate": "2025-12-17",
-      "status": "CMA undertakings accepted",
+      "eventDate": "2026-01-16",
+      "status": "Completed; CMA undertakings accepted",
       "sector": "Food manufacturing",
       "dealType": "Public M&A",
       "parties": [
@@ -4420,10 +4614,15 @@
           "Bakkavor Group plc"
         ]
       ],
-      "structure": "Acquisition subject to competition review.",
-      "fact": "Following Phase 1 concerns in October 2025, the CMA accepted undertakings in lieu of Phase 2 on 17 December 2025. This record establishes the regulator milestone, not completion of the acquisition.",
-      "regulatory": "Phase 1 remedies accepted; final undertakings and their implementation should be checked separately.",
+      "structure": "Recommended cash-and-share acquisition by court-sanctioned scheme.",
+      "fact": "CMA accepted undertakings on 17 December 2025. Greencore completed the acquisition on 16 January 2026, as its H1 FY26 results confirm.",
+      "regulatory": "Phase 1 undertakings accepted after concerns about own-label chilled sauces; proposed remedy was divestment of the Bristol manufacturing business.",
       "timeline": [
+        {
+          "date": "2025-05-15",
+          "event": "Recommended acquisition announced",
+          "source": "https://www.slaughterandmay.com/recent-work/greencore-on-its-recommended-acquisition-of-bakkavor/"
+        },
         {
           "date": "2025-09-01",
           "event": "Formal inquiry commenced",
@@ -4438,22 +4637,224 @@
           "date": "2025-12-17",
           "event": "Undertakings accepted",
           "source": "https://www.gov.uk/cma-cases/greencore-slash-bakkavor-merger-inquiry"
+        },
+        {
+          "date": "2026-01-16",
+          "event": "Acquisition completed",
+          "source": "https://www.greencore.com/greencoregroup-plc-h1-interim-results-fy26/"
         }
       ],
-      "analysis": "Prepared-food businesses can have retailer-specific supply requirements and capacity constraints. An effective remedy may require a viable standalone operation rather than merely a transfer of physical assets.",
+      "analysis": "The combination expands convenience-food capabilities, but the CMA concern was focused on a narrower product market. Evaluate divestment separately from forecast integration gains. Use combined financial reporting rather than assuming synergies have been realised.",
       "legalWork": "Define remedy perimeter, transition arrangements and customer continuity; allocate responsibility for regulatory conditions and post-closing commitments.",
       "interview": "What makes a divestment package commercially viable?",
-      "watch": "Issuer confirmation of closing and implementation of undertakings.",
+      "watch": "Historical closing established; review integration and remedy implementation.",
       "sources": [
         {
           "name": "CMA case and final undertakings",
           "url": "https://www.gov.uk/cma-cases/greencore-slash-bakkavor-merger-inquiry"
+        },
+        {
+          "name": "Greencore — H1 26 acquisition and combined performance",
+          "url": "https://www.greencore.com/greencoregroup-plc-h1-interim-results-fy26/"
+        },
+        {
+          "name": "Slaughter and May — 15 May 2025 mandate",
+          "url": "https://www.slaughterandmay.com/recent-work/greencore-on-its-recommended-acquisition-of-bakkavor/"
+        },
+        {
+          "name": "Freshfields — 15 May 2025 mandate",
+          "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2025/05/freshfields-advises-bakkavor-on-its-recommended-acquisition-by-greencore"
+        },
+        {
+          "name": "CMA — Own-label chilled sauces and Bristol plant",
+          "url": "https://www.gov.uk/government/news/cma-proposes-to-accept-remedies-in-supermarket-supplier-deal"
+        },
+        {
+          "name": "Freshfields — Transaction experience: £1.2bn offer",
+          "url": "https://www.freshfields.com/en/find-a-lawyer/w/wade-kat"
         }
       ],
       "related": [
         "merger-control",
         "due-diligence"
-      ]
+      ],
+      "announcedOn": "2025-05-15",
+      "factSources": [
+        "https://www.greencore.com/greencoregroup-plc-h1-interim-results-fy26/",
+        "https://www.gov.uk/cma-cases/greencore-slash-bakkavor-merger-inquiry"
+      ],
+      "values": [
+        {
+          "label": "Recommended offer headline value (target counsel disclosure)",
+          "amount": "Approximately £1.2bn",
+          "numericAmount": 1200000000,
+          "basis": "historical-offer-value",
+          "source": "https://www.freshfields.com/en/find-a-lawyer/w/wade-kat",
+          "currency": "GBP",
+          "unit": "currency",
+          "disclosure": "approximate"
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "Slaughter and May",
+          "firmId": "slaughter-may",
+          "client": "Greencore Group plc",
+          "scope": "Recommended acquisition counsel",
+          "source": "https://www.slaughterandmay.com/recent-work/greencore-on-its-recommended-acquisition-of-bakkavor/"
+        },
+        {
+          "firm": "Freshfields",
+          "firmId": "freshfields",
+          "client": "Bakkavor Group plc",
+          "scope": "Recommended acquisition counsel",
+          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2025/05/freshfields-advises-bakkavor-on-its-recommended-acquisition-by-greencore"
+        }
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Closing versus clearance",
+            "text": "December undertakings were not completion; the issuer's combined results establish January completion.",
+            "evidence": [
+              {
+                "url": "https://www.gov.uk/cma-cases/greencore-slash-bakkavor-merger-inquiry",
+                "publisher": "CMA",
+                "locator": "17 December 2025 final undertakings"
+              },
+              {
+                "url": "https://www.greencore.com/greencoregroup-plc-h1-interim-results-fy26/",
+                "publisher": "Greencore",
+                "locator": "H1 26 acquisition and combined performance"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Competition concern",
+            "text": "The CMA identified concerns in own-label chilled sauces and proposed disposal of the Bristol soups and sauces plant.",
+            "evidence": [
+              {
+                "url": "https://www.gov.uk/government/news/cma-proposes-to-accept-remedies-in-supermarket-supplier-deal",
+                "publisher": "CMA",
+                "locator": "Own-label chilled sauces and Bristol plant"
+              },
+              {
+                "url": "https://www.gov.uk/cma-cases/greencore-slash-bakkavor-merger-inquiry",
+                "publisher": "CMA",
+                "locator": "17 December 2025 final undertakings"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Mandates and offer value",
+            "text": "Buyer and target counsel identify their respective clients. Freshfields describes an approximately £1.2bn recommended offer, not closing purchase accounting.",
+            "evidence": [
+              {
+                "url": "https://www.slaughterandmay.com/recent-work/greencore-on-its-recommended-acquisition-of-bakkavor/",
+                "publisher": "Slaughter and May",
+                "locator": "15 May 2025 mandate"
+              },
+              {
+                "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2025/05/freshfields-advises-bakkavor-on-its-recommended-acquisition-by-greencore",
+                "publisher": "Freshfields",
+                "locator": "15 May 2025 mandate"
+              },
+              {
+                "url": "https://www.freshfields.com/en/find-a-lawyer/w/wade-kat",
+                "publisher": "Freshfields",
+                "locator": "Transaction experience: £1.2bn offer"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Business context",
+            "text": "The firms describe convenience-food and fresh prepared-food businesses; Greencore reports combined operations following completion.",
+            "evidence": [
+              {
+                "url": "https://www.slaughterandmay.com/recent-work/greencore-on-its-recommended-acquisition-of-bakkavor/",
+                "publisher": "Slaughter and May",
+                "locator": "15 May 2025 mandate"
+              },
+              {
+                "url": "https://www.greencore.com/greencoregroup-plc-h1-interim-results-fy26/",
+                "publisher": "Greencore",
+                "locator": "H1 26 acquisition and combined performance"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Scheme",
+            "question": "When did the deal become effective?",
+            "why": "Separate court process, voting and delivery of the order from clearance.",
+            "documents": "Scheme and completion announcement"
+          },
+          {
+            "name": "Competition",
+            "question": "What constitutes a viable remedy?",
+            "why": "Analyse specific plant, assets, employees and customer continuity.",
+            "documents": "Final CMA undertakings"
+          },
+          {
+            "name": "Finance",
+            "question": "How is cash and equity reconciled?",
+            "why": "Distinguish historic offer price and closing accounting.",
+            "documents": "Scheme and acquisition accounting"
+          },
+          {
+            "name": "Integration",
+            "question": "Are forecast benefits achieved?",
+            "why": "Separate combined reporting and realised savings.",
+            "documents": "Interim results"
+          }
+        ],
+        "documents": [
+          {
+            "title": "Greencore",
+            "url": "https://www.greencore.com/greencoregroup-plc-h1-interim-results-fy26/",
+            "purpose": "H1 26 acquisition and combined performance"
+          },
+          {
+            "title": "Slaughter and May",
+            "url": "https://www.slaughterandmay.com/recent-work/greencore-on-its-recommended-acquisition-of-bakkavor/",
+            "purpose": "15 May 2025 mandate"
+          },
+          {
+            "title": "Freshfields",
+            "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2025/05/freshfields-advises-bakkavor-on-its-recommended-acquisition-by-greencore",
+            "purpose": "15 May 2025 mandate"
+          },
+          {
+            "title": "CMA",
+            "url": "https://www.gov.uk/government/news/cma-proposes-to-accept-remedies-in-supermarket-supplier-deal",
+            "purpose": "Own-label chilled sauces and Bristol plant"
+          },
+          {
+            "title": "Freshfields",
+            "url": "https://www.freshfields.com/en/find-a-lawyer/w/wade-kat",
+            "purpose": "Transaction experience: £1.2bn offer"
+          },
+          {
+            "title": "CMA",
+            "url": "https://www.gov.uk/cma-cases/greencore-slash-bakkavor-merger-inquiry",
+            "purpose": "17 December 2025 final undertakings"
+          }
+        ],
+        "openQuestions": [
+          "Full scheme consideration, CVR, financing and final remedy implementation require further document-level research."
+        ],
+        "relatedDeals": [
+          "carlsberg-britvic",
+          "ocs-mitie"
+        ]
+      },
+      "evidenceScope": "Targeted public-source review; not a comprehensive independent verification of every claim or confidential term."
     },
     {
       "jurisdiction": "UK",
@@ -4721,15 +5122,25 @@
         ]
       ],
       "structure": "Proposed cash-and-stock acquisition; subsequently terminated.",
-      "fact": "Adobe and Figma agreed to terminate their merger agreement on 18 December 2023 after concluding that required regulatory approvals lacked a clear path. The CMA cancelled its inquiry. No acquisition completed.",
+      "fact": "The parties signed a termination agreement on 17 December 2023, announced it on 18 December, and the CMA cancelled its inquiry. Figma received the agreed $1bn fee on 20 December. No acquisition closed.",
       "values": [
         {
           "label": "Proposed transaction value (not completed consideration)",
-          "amount": "US$20bn",
-          "source": "https://www.gov.uk/government/publications/cma-annual-report-and-accounts-2023-to-2024/annual-report-and-accounts-2023-to-2024",
-          "basis": "proposed-deal-value",
-          "currency": "USD",
+          "amount": "Approximately US$20bn",
           "numericAmount": 20000000000,
+          "basis": "proposed-deal-value",
+          "source": "https://news.adobe.com/news/news-details/2022/adobe-to-acquire-figma",
+          "currency": "USD",
+          "unit": "currency",
+          "disclosure": "approximate"
+        },
+        {
+          "label": "Termination fee received by Figma",
+          "amount": "US$1bn",
+          "numericAmount": 1000000000,
+          "basis": "termination-fee",
+          "source": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026009228/fig-20251231.htm",
+          "currency": "USD",
           "unit": "currency",
           "disclosure": "stated"
         }
@@ -4737,17 +5148,32 @@
       "regulatory": "CMA Phase 2 investigation cancelled following abandonment; cancellation is not a final prohibition decision.",
       "timeline": [
         {
-          "date": "2023-12-18",
-          "event": "Merger agreement terminated",
-          "source": "https://news.adobe.com/news/news-details/2023/adobe-and-figma-mutually-agree-to-terminate-merger-agreement"
+          "date": "2022-09-15",
+          "event": "Definitive agreement announced",
+          "source": "https://news.adobe.com/news/news-details/2022/adobe-to-acquire-figma"
+        },
+        {
+          "date": "2023-12-17",
+          "event": "Mutual termination agreement signed",
+          "source": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbe-20231217.htm"
         },
         {
           "date": "2023-12-18",
-          "event": "CMA cancelled inquiry",
+          "event": "Termination announced",
+          "source": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbedecember182023pressrel.htm"
+        },
+        {
+          "date": "2023-12-18",
+          "event": "CMA inquiry cancelled",
           "source": "https://www.gov.uk/cma-cases/adobe-slash-figma-merger-inquiry"
+        },
+        {
+          "date": "2023-12-20",
+          "event": "Figma received termination fee",
+          "source": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026009228/fig-20251231.htm"
         }
       ],
-      "analysis": "The case illustrates execution risk in acquisitions of innovative competitors. Even a signed agreement can fail if approvals cannot be obtained. Deal costs, opportunity costs and termination provisions matter to the parties' expected return.",
+      "analysis": "The $1bn fee is approximately 5% of the announced $20bn value (1/20); it is a separate payment, not acquisition consideration or a general market benchmark. The case shows why regulatory execution risk must be priced even after signing. Cancellation does not establish final CMA prohibition.",
       "legalWork": "Negotiate regulatory efforts, termination rights, outside dates and any reverse break fee; preserve independent operation while closing remains conditional. Model the buyer's exposure if the acquisition is abandoned.",
       "interview": "How should a buyer allocate the risk that regulatory approvals cannot be obtained?",
       "watch": "Historical precedent; the proposed merger is not pending.",
@@ -4763,12 +5189,210 @@
         {
           "name": "CMA annual report",
           "url": "https://www.gov.uk/government/publications/cma-annual-report-and-accounts-2023-to-2024/annual-report-and-accounts-2023-to-2024"
+        },
+        {
+          "name": "Adobe — 15 September 2022 announcement",
+          "url": "https://news.adobe.com/news/news-details/2022/adobe-to-acquire-figma"
+        },
+        {
+          "name": "Adobe — Form 8-K, Item 1.02; termination dated 17 December",
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbe-20231217.htm"
+        },
+        {
+          "name": "Adobe and Figma — 18 December joint release, advisers",
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbedecember182023pressrel.htm"
+        },
+        {
+          "name": "Figma — 2025 10-K, abandoned merger with Adobe",
+          "url": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026009228/fig-20251231.htm"
         }
       ],
       "related": [
         "merger-control",
         "contract-remedies"
-      ]
+      ],
+      "announcedOn": "2022-09-15",
+      "factSources": [
+        "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbe-20231217.htm",
+        "https://www.sec.gov/Archives/edgar/data/1579878/000162828026009228/fig-20251231.htm",
+        "https://www.gov.uk/cma-cases/adobe-slash-figma-merger-inquiry"
+      ],
+      "advisers": [
+        {
+          "firm": "Freshfields",
+          "firmId": "freshfields",
+          "client": "Adobe Inc.",
+          "scope": "Legal adviser; joint termination release",
+          "source": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbedecember182023pressrel.htm"
+        },
+        {
+          "firm": "Skadden",
+          "firmId": "skadden",
+          "client": "Adobe Inc.",
+          "scope": "Legal adviser; joint termination release",
+          "source": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbedecember182023pressrel.htm"
+        },
+        {
+          "firm": "Fenwick & West",
+          "firmId": "fenwick",
+          "client": "Figma, Inc.",
+          "scope": "Legal adviser; joint termination release",
+          "source": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbedecember182023pressrel.htm"
+        },
+        {
+          "firm": "Slaughter and May",
+          "firmId": "slaughter-may",
+          "client": "Figma, Inc.",
+          "scope": "Legal adviser; joint termination release",
+          "source": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbedecember182023pressrel.htm"
+        },
+        {
+          "firm": "Cleary Gottlieb",
+          "firmId": "cleary-gottlieb",
+          "client": "Figma, Inc.",
+          "scope": "Legal adviser; joint termination release",
+          "source": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbedecember182023pressrel.htm"
+        }
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Date and outcome",
+            "text": "Adobe's filing dates mutual termination to 17 December; public announcement and CMA cancellation followed on 18 December.",
+            "evidence": [
+              {
+                "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbe-20231217.htm",
+                "publisher": "Adobe",
+                "locator": "Form 8-K, Item 1.02; termination dated 17 December"
+              },
+              {
+                "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbedecember182023pressrel.htm",
+                "publisher": "Adobe and Figma",
+                "locator": "18 December joint release, advisers"
+              },
+              {
+                "url": "https://www.gov.uk/cma-cases/adobe-slash-figma-merger-inquiry",
+                "publisher": "CMA",
+                "locator": "18 December cancellation"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Actual fee and proposed value",
+            "text": "The target's financial statements record receipt on 20 December, distinct from the proposed cash-and-stock acquisition.",
+            "evidence": [
+              {
+                "url": "https://news.adobe.com/news/news-details/2022/adobe-to-acquire-figma",
+                "publisher": "Adobe",
+                "locator": "15 September 2022 announcement"
+              },
+              {
+                "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbe-20231217.htm",
+                "publisher": "Adobe",
+                "locator": "Form 8-K, Item 1.02; termination dated 17 December"
+              },
+              {
+                "url": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026009228/fig-20251231.htm",
+                "publisher": "Figma",
+                "locator": "2025 10-K, abandoned merger with Adobe"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Legal advisers",
+            "text": "The joint release names Wachtell, Skadden and Freshfields for Adobe; Fenwick, Slaughter and May and Cleary for Figma. Exact specialist scope is not established.",
+            "evidence": [
+              {
+                "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbedecember182023pressrel.htm",
+                "publisher": "Adobe and Figma",
+                "locator": "18 December joint release, advisers"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Stated rationale",
+            "text": "Adobe framed the deal around combining creative tools with collaborative design; the regulatory process prevented closing.",
+            "evidence": [
+              {
+                "url": "https://news.adobe.com/news/news-details/2022/adobe-to-acquire-figma",
+                "publisher": "Adobe",
+                "locator": "15 September 2022 announcement"
+              },
+              {
+                "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbe-20231217.htm",
+                "publisher": "Adobe",
+                "locator": "Form 8-K, Item 1.02; termination dated 17 December"
+              }
+            ],
+            "qualification": "party-position"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Merger agreement",
+            "question": "What triggers termination payment?",
+            "why": "Read actual agreement and termination instrument.",
+            "documents": "8-K and exhibits"
+          },
+          {
+            "name": "Competition",
+            "question": "What innovation concerns arose?",
+            "why": "Distinguish provisional and final decisions.",
+            "documents": "CMA case"
+          },
+          {
+            "name": "Economics",
+            "question": "What is downside exposure?",
+            "why": "Separate proposed price and paid fee.",
+            "documents": "Offer and target 10-K"
+          },
+          {
+            "name": "Interim operations",
+            "question": "How do parties remain independent?",
+            "why": "Review pre-close restraints and information exchange.",
+            "documents": "Merger agreement"
+          }
+        ],
+        "documents": [
+          {
+            "title": "Adobe",
+            "url": "https://news.adobe.com/news/news-details/2022/adobe-to-acquire-figma",
+            "purpose": "15 September 2022 announcement"
+          },
+          {
+            "title": "Adobe",
+            "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbe-20231217.htm",
+            "purpose": "Form 8-K, Item 1.02; termination dated 17 December"
+          },
+          {
+            "title": "Adobe and Figma",
+            "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbedecember182023pressrel.htm",
+            "purpose": "18 December joint release, advisers"
+          },
+          {
+            "title": "Figma",
+            "url": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026009228/fig-20251231.htm",
+            "purpose": "2025 10-K, abandoned merger with Adobe"
+          },
+          {
+            "title": "CMA",
+            "url": "https://www.gov.uk/cma-cases/adobe-slash-figma-merger-inquiry",
+            "purpose": "18 December cancellation"
+          }
+        ],
+        "openQuestions": [
+          "Wachtell requires a verified firm profile before structured linkage; detailed regulatory scope and original contractual triggers require review."
+        ],
+        "relatedDeals": [
+          "microsoft-activision",
+          "broadcom-vmware"
+        ]
+      },
+      "evidenceScope": "Targeted public-source review; not a comprehensive independent verification of every claim or confidential term."
     },
     {
       "jurisdiction": "UK",
@@ -4790,22 +5414,32 @@
           "VMware, Inc."
         ]
       ],
-      "structure": "Cross-border acquisition involving stockholder consideration elections.",
-      "fact": "The CMA referred the proposed transaction for in-depth investigation in March 2023. Broadcom subsequently confirmed completion on 22 November 2023.",
-      "regulatory": "UK Phase 2 review took place; consult the CMA case for the detailed decision and other jurisdictions' separate processes.",
+      "structure": "Cash-and-stock acquisition, with shareholder elections subject to proration.",
+      "fact": "The announcement valued VMware equity at about $61bn plus $8bn assumed net debt. CMA cleared the deal on 21 August 2023 after Phase 2; Broadcom completed on 22 November.",
+      "regulatory": "CMA found no substantial lessening of competition; UK clearance does not establish other authorities' terms.",
       "timeline": [
+        {
+          "date": "2022-05-26",
+          "event": "Merger agreement announced",
+          "source": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-acquire-vmware-approximately-61-billion-cash-and-stock"
+        },
         {
           "date": "2023-03-29",
           "event": "CMA Phase 2 referral",
           "source": "https://www.gov.uk/cma-cases/broadcom-slash-vmware-merger-inquiry"
         },
         {
+          "date": "2023-08-21",
+          "event": "CMA final clearance",
+          "source": "https://www.gov.uk/government/news/cma-clears-broadcom-s-deal-to-buy-vmware"
+        },
+        {
           "date": "2023-11-22",
-          "event": "Buyer confirmed completion",
-          "source": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-completes-acquisition-vmware"
+          "event": "Acquisition completed",
+          "source": "https://www.sec.gov/Archives/edgar/data/1730168/000114036123054354/ef20015100_form8k.htm"
         }
       ],
-      "analysis": "Infrastructure software and semiconductor businesses can have complementary products but also interoperability dependencies. Transaction analysis should distinguish actual foreclosure incentives from general market concentration.",
+      "analysis": "The CMA examined whether ownership of virtualisation software could disadvantage competing server hardware. It found potential gains from impairing interoperability would not outweigh lost business. The equity/debt bridge and separate debt commitment show why price and financing measures must not be aggregated.",
       "legalWork": "Review software and hardware interoperability evidence, customer contracts, consideration elections and multi-jurisdiction approvals; prepare integration under the final regulatory conditions.",
       "interview": "Why might an authority investigate a combination of firms that do not principally sell the same products?",
       "watch": "Historical completion; check subsequent company disclosures for integration developments.",
@@ -4817,12 +5451,216 @@
         {
           "name": "Broadcom completion",
           "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-completes-acquisition-vmware"
+        },
+        {
+          "name": "Broadcom and VMware — 26 May 2022 release, transaction details and advisers",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-acquire-vmware-approximately-61-billion-cash-and-stock"
+        },
+        {
+          "name": "CMA — 21 August 2023 clearance and note 3",
+          "url": "https://www.gov.uk/government/news/cma-clears-broadcom-s-deal-to-buy-vmware"
+        },
+        {
+          "name": "Broadcom — 22 November 2023 8-K Item 2.01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000114036123054354/ef20015100_form8k.htm"
         }
       ],
       "related": [
         "merger-control",
         "data-ip"
-      ]
+      ],
+      "announcedOn": "2022-05-26",
+      "factSources": [
+        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-acquire-vmware-approximately-61-billion-cash-and-stock",
+        "https://www.gov.uk/government/news/cma-clears-broadcom-s-deal-to-buy-vmware",
+        "https://www.sec.gov/Archives/edgar/data/1730168/000114036123054354/ef20015100_form8k.htm"
+      ],
+      "financing": "At signing, Broadcom disclosed $32bn committed debt financing; this is not transaction value. Final drawdowns not reconciled.",
+      "values": [
+        {
+          "label": "Announced equity value",
+          "amount": "Approximately US$61bn",
+          "numericAmount": 61000000000,
+          "basis": "equity-value",
+          "source": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-acquire-vmware-approximately-61-billion-cash-and-stock",
+          "currency": "USD",
+          "unit": "currency",
+          "disclosure": "approximate"
+        },
+        {
+          "label": "Assumed net debt",
+          "amount": "US$8bn",
+          "numericAmount": 8000000000,
+          "basis": "net-debt",
+          "source": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-acquire-vmware-approximately-61-billion-cash-and-stock",
+          "currency": "USD",
+          "unit": "currency",
+          "disclosure": "stated"
+        },
+        {
+          "label": "CMA headline including debt",
+          "amount": "US$69bn",
+          "numericAmount": 69000000000,
+          "basis": "acquisition-value",
+          "source": "https://www.gov.uk/government/news/cma-clears-broadcom-s-deal-to-buy-vmware",
+          "currency": "USD",
+          "unit": "currency",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Signing debt commitment",
+          "amount": "US$32bn",
+          "numericAmount": 32000000000,
+          "basis": "financing-commitment",
+          "source": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-acquire-vmware-approximately-61-billion-cash-and-stock",
+          "currency": "USD",
+          "unit": "currency",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Cash election per share",
+          "amount": "US$142.50",
+          "numericAmount": 142.5,
+          "basis": "cash-per-share",
+          "source": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-acquire-vmware-approximately-61-billion-cash-and-stock",
+          "currency": "USD",
+          "unit": "currency-per-share",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Stock election per share",
+          "amount": "0.2520 Broadcom shares",
+          "numericAmount": 0.252,
+          "basis": "share-exchange-ratio",
+          "source": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-acquire-vmware-approximately-61-billion-cash-and-stock",
+          "currency": null,
+          "unit": "shares-per-share",
+          "disclosure": "stated"
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "Cleary Gottlieb",
+          "firmId": "cleary-gottlieb",
+          "client": "Broadcom Inc.",
+          "scope": "Regulatory counsel",
+          "source": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-acquire-vmware-approximately-61-billion-cash-and-stock"
+        }
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Valuation bridge",
+            "text": "The CMA expressly identified $69bn as $61bn equity and $8bn debt on the announcement valuation basis.",
+            "evidence": [
+              {
+                "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-acquire-vmware-approximately-61-billion-cash-and-stock",
+                "publisher": "Broadcom and VMware",
+                "locator": "26 May 2022 release, transaction details and advisers"
+              },
+              {
+                "url": "https://www.gov.uk/government/news/cma-clears-broadcom-s-deal-to-buy-vmware",
+                "publisher": "CMA",
+                "locator": "21 August 2023 clearance and note 3"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Consideration and funding",
+            "text": "Cash and stock elections were subject to proration. The $32bn debt commitment and 40-day go-shop were disclosed at signing.",
+            "evidence": [
+              {
+                "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-acquire-vmware-approximately-61-billion-cash-and-stock",
+                "publisher": "Broadcom and VMware",
+                "locator": "26 May 2022 release, transaction details and advisers"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Competition reasoning",
+            "text": "The regulator considered interoperability and commercially sensitive information; it concluded no substantial lessening of competition.",
+            "evidence": [
+              {
+                "url": "https://www.gov.uk/government/news/cma-clears-broadcom-s-deal-to-buy-vmware",
+                "publisher": "CMA",
+                "locator": "21 August 2023 clearance and note 3"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Mandates and completion",
+            "text": "The announcement names Wachtell and O'Melveny as Broadcom counsel, Cleary as regulatory counsel and Gibson Dunn as VMware counsel; the closing filing records completion.",
+            "evidence": [
+              {
+                "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-acquire-vmware-approximately-61-billion-cash-and-stock",
+                "publisher": "Broadcom and VMware",
+                "locator": "26 May 2022 release, transaction details and advisers"
+              },
+              {
+                "url": "https://www.sec.gov/Archives/edgar/data/1730168/000114036123054354/ef20015100_form8k.htm",
+                "publisher": "Broadcom",
+                "locator": "22 November 2023 8-K Item 2.01"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Valuation",
+            "question": "What makes up $69bn?",
+            "why": "Separate equity, net debt and committed financing.",
+            "documents": "Offer and CMA"
+          },
+          {
+            "name": "Finance",
+            "question": "What was drawn at closing?",
+            "why": "Reconcile commitments and actual facilities.",
+            "documents": "Closing filings"
+          },
+          {
+            "name": "Merger control",
+            "question": "Was foreclosure profitable?",
+            "why": "Examine ability and incentives.",
+            "documents": "CMA decision"
+          },
+          {
+            "name": "Share consideration",
+            "question": "How did proration work?",
+            "why": "Reconcile actual elections and allocations.",
+            "documents": "Merger agreement and closing filing"
+          }
+        ],
+        "documents": [
+          {
+            "title": "Broadcom and VMware",
+            "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-acquire-vmware-approximately-61-billion-cash-and-stock",
+            "purpose": "26 May 2022 release, transaction details and advisers"
+          },
+          {
+            "title": "CMA",
+            "url": "https://www.gov.uk/government/news/cma-clears-broadcom-s-deal-to-buy-vmware",
+            "purpose": "21 August 2023 clearance and note 3"
+          },
+          {
+            "title": "Broadcom",
+            "url": "https://www.sec.gov/Archives/edgar/data/1730168/000114036123054354/ef20015100_form8k.htm",
+            "purpose": "22 November 2023 8-K Item 2.01"
+          }
+        ],
+        "openQuestions": [
+          "Wachtell, O'Melveny and Gibson Dunn need verified entity profiles before structured linkage. Closing debt, elections and foreign approvals remain open."
+        ],
+        "relatedDeals": [
+          "microsoft-activision",
+          "synopsys-ansys"
+        ]
+      },
+      "evidenceScope": "Targeted public-source review; not a comprehensive independent verification of every claim or confidential term."
     },
     {
       "jurisdiction": "UK",
@@ -6590,6 +7428,27 @@
       "url": "https://www.mcdermottlaw.com/careers/",
       "programme": "See official careers information for current routes.",
       "research": "Examine the firm's sourced client mandates and practice roles."
+    },
+    {
+      "id": "simpson-thacher",
+      "name": "Simpson Thacher & Bartlett",
+      "url": "https://www.stblaw.com/your-career/london-office-careers/",
+      "research": "Cross-border M&A and regulatory restructuring.",
+      "programme": "See official recruitment information; no current vacancy or UK qualification route asserted."
+    },
+    {
+      "id": "skadden",
+      "name": "Skadden",
+      "url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-kingdom",
+      "research": "Technology M&A and regulatory risk.",
+      "programme": "See official recruitment information; no current vacancy or UK qualification route asserted."
+    },
+    {
+      "id": "fenwick",
+      "name": "Fenwick & West",
+      "url": "https://www.fenwick.com/careers/experienced-lawyers",
+      "research": "Technology M&A and US transaction documentation.",
+      "programme": "See official recruitment information; no current vacancy or UK qualification route asserted."
     }
   ],
   "registry": [

@@ -21,7 +21,7 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: '22'
-      - run: node --check uk/app.js && node --check uk/research.js && node --test engine/uk/test.mjs && node engine/uk/render.mjs --check
+      - run: node --check uk/app.js && node --check uk/research.js && node --test engine/uk/test.mjs engine/uk/research-audit.test.mjs && node engine/uk/research-audit.mjs > /tmp/uk-research-audit.json && node engine/uk/render.mjs --check
       - run: npm install --no-save --package-lock=false playwright-core@1.51.1 axe-core@4.10.3
       - run: node engine/uk/browser-test.mjs
       - run: node engine/uk/quality-browser.mjs

@@ -1,0 +1,1370 @@
+{
+  "asOf": "2026-11-24",
+  "scope": "Structural coverage only; neither independence nor factual certification inferred",
+  "count": 40,
+  "rows": [
+    {
+      "id": "coop-southern",
+      "title": "Co-operative Group / Southern Co-operative",
+      "type": "Completed M&A",
+      "status": "Completed; undertakings accepted",
+      "sourceUrls": 1,
+      "distinctHosts": 1,
+      "independentOrigins": null,
+      "claims": 0,
+      "advisers": 0,
+      "financialValues": 0,
+      "announcementDate": null,
+      "eventSourceLinks": 0,
+      "structuralErrors": [],
+      "priority": 18,
+      "researchLeads": [
+        "https://www.gov.uk/cma-cases/co-operative-group-slash-southern-co-operative-merger-inquiry"
+      ],
+      "openQuestions": [],
+      "tasks": [
+        "Deep original-document research; economics, business rationale and legal workstreams",
+        "Search separate source origins; assess corroboration by claim",
+        "Recover buyer, seller and specialist counsel mandates",
+        "Find consideration and valuation basis or log non-disclosure",
+        "Establish announcement date rather than regulator milestone",
+        "Map summary assertions to precise evidence",
+        "Investigate funding and document non-disclosure",
+        "Review agreement, business perimeter, regulatory status and close/withdrawal",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "mari-atg",
+      "title": "MARI / ATG Entertainment",
+      "type": "M&A / regulatory review",
+      "status": "Pre-notification / invitation to comment",
+      "sourceUrls": 1,
+      "distinctHosts": 1,
+      "independentOrigins": null,
+      "claims": 0,
+      "advisers": 0,
+      "financialValues": 0,
+      "announcementDate": null,
+      "eventSourceLinks": 0,
+      "structuralErrors": [],
+      "priority": 18,
+      "researchLeads": [
+        "https://www.gov.uk/cma-cases/mari-slash-atg-entertainment-merger-inquiry"
+      ],
+      "openQuestions": [],
+      "tasks": [
+        "Deep original-document research; economics, business rationale and legal workstreams",
+        "Search separate source origins; assess corroboration by claim",
+        "Recover buyer, seller and specialist counsel mandates",
+        "Find consideration and valuation basis or log non-disclosure",
+        "Establish announcement date rather than regulator milestone",
+        "Map summary assertions to precise evidence",
+        "Investigate funding and document non-disclosure",
+        "Review agreement, business perimeter, regulatory status and close/withdrawal",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "nexfibre-substantial",
+      "title": "nexfibre / Substantial",
+      "type": "Cross-border M&A",
+      "status": "Phase 2; provisional concerns",
+      "sourceUrls": 1,
+      "distinctHosts": 1,
+      "independentOrigins": null,
+      "claims": 0,
+      "advisers": 0,
+      "financialValues": 0,
+      "announcementDate": null,
+      "eventSourceLinks": 0,
+      "structuralErrors": [],
+      "priority": 18,
+      "researchLeads": [
+        "https://www.gov.uk/cma-cases/nexfibre-slash-substantial-merger-inquiry"
+      ],
+      "openQuestions": [],
+      "tasks": [
+        "Deep original-document research; economics, business rationale and legal workstreams",
+        "Search separate source origins; assess corroboration by claim",
+        "Recover buyer, seller and specialist counsel mandates",
+        "Find consideration and valuation basis or log non-disclosure",
+        "Establish announcement date rather than regulator milestone",
+        "Map summary assertions to precise evidence",
+        "Investigate funding and document non-disclosure",
+        "Review agreement, business perimeter, regulatory status and close/withdrawal",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "vivisol-airliquide",
+      "title": "Vivisol / Air Liquide UK home oxygen business",
+      "type": "M&A / regulatory review",
+      "status": "Phase 1 concerns",
+      "sourceUrls": 1,
+      "distinctHosts": 1,
+      "independentOrigins": null,
+      "claims": 0,
+      "advisers": 0,
+      "financialValues": 0,
+      "announcementDate": null,
+      "eventSourceLinks": 0,
+      "structuralErrors": [],
+      "priority": 18,
+      "researchLeads": [
+        "https://www.gov.uk/cma-cases/vivisol-slash-air-liquide-home-oxygen-services-business-merger-inquiry"
+      ],
+      "openQuestions": [],
+      "tasks": [
+        "Deep original-document research; economics, business rationale and legal workstreams",
+        "Search separate source origins; assess corroboration by claim",
+        "Recover buyer, seller and specialist counsel mandates",
+        "Find consideration and valuation basis or log non-disclosure",
+        "Establish announcement date rather than regulator milestone",
+        "Map summary assertions to precise evidence",
+        "Investigate funding and document non-disclosure",
+        "Review agreement, business perimeter, regulatory status and close/withdrawal",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "abp-ifm",
+      "title": "IFM Investors / Associated British Ports stakes",
+      "type": "Infrastructure M&A",
+      "status": "Sale agreement disclosed",
+      "sourceUrls": 1,
+      "distinctHosts": 1,
+      "independentOrigins": null,
+      "claims": 0,
+      "advisers": 1,
+      "financialValues": 0,
+      "announcementDate": null,
+      "eventSourceLinks": 0,
+      "structuralErrors": [],
+      "priority": 15,
+      "researchLeads": [
+        "https://www.linklaters.com/about-us/news-and-deals/deals/2026/october/linklaters-advises-cpp-investments-and-omers-on-associated-british-ports-sale"
+      ],
+      "openQuestions": [],
+      "tasks": [
+        "Deep original-document research; economics, business rationale and legal workstreams",
+        "Search separate source origins; assess corroboration by claim",
+        "Find consideration and valuation basis or log non-disclosure",
+        "Establish announcement date rather than regulator milestone",
+        "Map summary assertions to precise evidence",
+        "Investigate funding and document non-disclosure",
+        "Review project perimeter, financial close, equity/debt and permits",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "synopsys-ansys",
+      "title": "Synopsys / Ansys",
+      "type": "Cross-border M&A",
+      "status": "Completed; UK remedies",
+      "sourceUrls": 2,
+      "distinctHosts": 2,
+      "independentOrigins": null,
+      "claims": 0,
+      "advisers": 0,
+      "financialValues": 0,
+      "announcementDate": null,
+      "eventSourceLinks": 0,
+      "structuralErrors": [],
+      "priority": 14,
+      "researchLeads": [
+        "https://www.gov.uk/cma-cases/synopsys-slash-ansys-merger-inquiry",
+        "https://news.synopsys.com/2025-07-17-Synopsys-Completes-Acquisition-of-Ansys"
+      ],
+      "openQuestions": [],
+      "tasks": [
+        "Deep original-document research; economics, business rationale and legal workstreams",
+        "Recover buyer, seller and specialist counsel mandates",
+        "Find consideration and valuation basis or log non-disclosure",
+        "Establish announcement date rather than regulator milestone",
+        "Map summary assertions to precise evidence",
+        "Investigate funding and document non-disclosure",
+        "Review agreement, business perimeter, regulatory status and close/withdrawal",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "standard-chartered-dnn",
+      "title": "Standard Chartered / US$200m digitally native notes",
+      "type": "Debt capital markets",
+      "status": "Notes issued (mandate disclosure)",
+      "sourceUrls": 1,
+      "distinctHosts": 1,
+      "independentOrigins": null,
+      "claims": 0,
+      "advisers": 1,
+      "financialValues": 1,
+      "announcementDate": null,
+      "eventSourceLinks": 0,
+      "structuralErrors": [],
+      "priority": 13,
+      "researchLeads": [
+        "https://www.cliffordchance.com/news/news/2026/08/clifford-chance-advises-on-landmark-digitally-native-note-issuance-for-standard-chartered.html"
+      ],
+      "openQuestions": [],
+      "tasks": [
+        "Deep original-document research; economics, business rationale and legal workstreams",
+        "Search separate source origins; assess corroboration by claim",
+        "Establish announcement date rather than regulator milestone",
+        "Map summary assertions to precise evidence",
+        "Investigate funding and document non-disclosure",
+        "Review issue or facility documents, maturity, security and arrangers",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "uk-logistics-cmbs",
+      "title": "UK Logistics 2026-3 / £603m CMBS",
+      "type": "Debt capital markets",
+      "status": "Securitisation completed (mandate disclosure)",
+      "sourceUrls": 1,
+      "distinctHosts": 1,
+      "independentOrigins": null,
+      "claims": 0,
+      "advisers": 1,
+      "financialValues": 1,
+      "announcementDate": null,
+      "eventSourceLinks": 0,
+      "structuralErrors": [],
+      "priority": 13,
+      "researchLeads": [
+        "https://www.cliffordchance.com/news/news/2026/10/clifford-chance-advises-deutsche-bank-and-standard-chartered-on-603-million-uk-logistics-cmbs.html"
+      ],
+      "openQuestions": [],
+      "tasks": [
+        "Deep original-document research; economics, business rationale and legal workstreams",
+        "Search separate source origins; assess corroboration by claim",
+        "Establish announcement date rather than regulator milestone",
+        "Map summary assertions to precise evidence",
+        "Investigate funding and document non-disclosure",
+        "Review issue or facility documents, maturity, security and arrangers",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "drax-bluefield",
+      "title": "Drax / Bluefield Solar Income Fund",
+      "type": "Public M&A",
+      "status": "Completed",
+      "sourceUrls": 2,
+      "distinctHosts": 1,
+      "independentOrigins": null,
+      "claims": 0,
+      "advisers": 0,
+      "financialValues": 2,
+      "announcementDate": null,
+      "eventSourceLinks": 0,
+      "structuralErrors": [],
+      "priority": 12,
+      "researchLeads": [
+        "https://www.drax.com/investors/bsif-acquisition/",
+        "https://www.drax.com/financial-news/trading-update-upgraded-outlook-for-2026-ebitda/"
+      ],
+      "openQuestions": [],
+      "tasks": [
+        "Deep original-document research; economics, business rationale and legal workstreams",
+        "Recover buyer, seller and specialist counsel mandates",
+        "Establish announcement date rather than regulator milestone",
+        "Map summary assertions to precise evidence",
+        "Investigate funding and document non-disclosure",
+        "Review firm offer, conditions, votes, sanction and effective date",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "hpe-juniper",
+      "title": "Hewlett Packard Enterprise / Juniper Networks",
+      "type": "Cross-border M&A",
+      "status": "Completed",
+      "sourceUrls": 2,
+      "distinctHosts": 2,
+      "independentOrigins": null,
+      "claims": 0,
+      "advisers": 0,
+      "financialValues": 0,
+      "announcementDate": "2024-01-09",
+      "eventSourceLinks": 0,
+      "structuralErrors": [],
+      "priority": 12,
+      "researchLeads": [
+        "https://www.gov.uk/cma-cases/hewlett-packard-enterprise-company-slash-juniper-networks-inc-merger-inquiry",
+        "https://www.hpe.com/us/en/newsroom/press-release/2025/07/hewlett-packard-enterprise-closes-acquisition-of-juniper-networks-to-offer-industry-leading-comprehensive-cloud-native-ai-driven-portfolio.html"
+      ],
+      "openQuestions": [],
+      "tasks": [
+        "Deep original-document research; economics, business rationale and legal workstreams",
+        "Recover buyer, seller and specialist counsel mandates",
+        "Find consideration and valuation basis or log non-disclosure",
+        "Map summary assertions to precise evidence",
+        "Investigate funding and document non-disclosure",
+        "Review agreement, business perimeter, regulatory status and close/withdrawal",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "abp-term-facility",
+      "title": "Associated British Ports / £300m infrastructure facility",
+      "type": "Banking & finance",
+      "status": "Facility agreement disclosed",
+      "sourceUrls": 2,
+      "distinctHosts": 2,
+      "independentOrigins": null,
+      "claims": 0,
+      "advisers": 1,
+      "financialValues": 3,
+      "announcementDate": null,
+      "eventSourceLinks": 0,
+      "structuralErrors": [],
+      "priority": 9,
+      "researchLeads": [
+        "https://www.nationalwealthfund.org.uk/news-and-publications/news/national-wealth-fund-backs-major-port-infrastructure-projects-with-200m-commitment-to-abp/",
+        "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/june/linklaters-advices-abp"
+      ],
+      "openQuestions": [],
+      "tasks": [
+        "Deep original-document research; economics, business rationale and legal workstreams",
+        "Establish announcement date rather than regulator milestone",
+        "Map summary assertions to precise evidence",
+        "Investigate funding and document non-disclosure",
+        "Review issue or facility documents, maturity, security and arrangers",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "goldman-celnor",
+      "title": "Goldman Sachs Alternatives / Celnor Group",
+      "type": "Private equity M&A",
+      "status": "Majority acquisition agreed",
+      "sourceUrls": 2,
+      "distinctHosts": 2,
+      "independentOrigins": null,
+      "claims": 0,
+      "advisers": 1,
+      "financialValues": 0,
+      "announcementDate": "2026-10-23",
+      "eventSourceLinks": 0,
+      "structuralErrors": [],
+      "priority": 9,
+      "researchLeads": [
+        "https://www.inflexion.com/news-and-insights/news/2026/inflexion-agrees-sale-of-majority-stake-in-celnor-to-goldman-sachs-alternatives/",
+        "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-goldman-sachs-alternatives-on-its-investment-in-celnor-group"
+      ],
+      "openQuestions": [],
+      "tasks": [
+        "Deep original-document research; economics, business rationale and legal workstreams",
+        "Find consideration and valuation basis or log non-disclosure",
+        "Map summary assertions to precise evidence",
+        "Investigate funding and document non-disclosure",
+        "Review sponsor, ownership, financing and exit terms",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "international-paper-ds-smith",
+      "title": "International Paper / DS Smith",
+      "type": "Cross-border M&A",
+      "status": "Completed",
+      "sourceUrls": 2,
+      "distinctHosts": 2,
+      "independentOrigins": null,
+      "claims": 0,
+      "advisers": 1,
+      "financialValues": 1,
+      "announcementDate": null,
+      "eventSourceLinks": 0,
+      "structuralErrors": [],
+      "priority": 9,
+      "researchLeads": [
+        "https://www.internationalpaper.com/en-gb/about-international-paper",
+        "https://www.slaughterandmay.com/services/practices/corporate-and-m-a/"
+      ],
+      "openQuestions": [],
+      "tasks": [
+        "Deep original-document research; economics, business rationale and legal workstreams",
+        "Establish announcement date rather than regulator milestone",
+        "Map summary assertions to precise evidence",
+        "Investigate funding and document non-disclosure",
+        "Review agreement, business perimeter, regulatory status and close/withdrawal",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "pai-elemis",
+      "title": "PAI Partners / ELEMIS",
+      "type": "Private equity M&A",
+      "status": "Agreement announced",
+      "sourceUrls": 2,
+      "distinctHosts": 2,
+      "independentOrigins": null,
+      "claims": 0,
+      "advisers": 1,
+      "financialValues": 0,
+      "announcementDate": "2026-11-04",
+      "eventSourceLinks": 0,
+      "structuralErrors": [],
+      "priority": 9,
+      "researchLeads": [
+        "https://www.paipartners.com/mediaitem/loccitane-group-and-pai-partners-announce-agreement-for-pai-to-acquire-elemis/",
+        "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-the-lenders-on-the-financing-of-pais-acquisition-of-elemis-from-loccitane"
+      ],
+      "openQuestions": [],
+      "tasks": [
+        "Deep original-document research; economics, business rationale and legal workstreams",
+        "Find consideration and valuation basis or log non-disclosure",
+        "Map summary assertions to precise evidence",
+        "Investigate funding and document non-disclosure",
+        "Review sponsor, ownership, financing and exit terms",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "cary-consortium",
+      "title": "Nordic Capital / CPP Investments / Ontario Teachers’ — Cary Group",
+      "type": "Private equity / consortium",
+      "status": "Investment agreement announced",
+      "sourceUrls": 3,
+      "distinctHosts": 3,
+      "independentOrigins": null,
+      "claims": 0,
+      "advisers": 2,
+      "financialValues": 1,
+      "announcementDate": "2026-11-17",
+      "eventSourceLinks": 0,
+      "structuralErrors": [],
+      "priority": 7,
+      "researchLeads": [
+        "https://www.nordiccapital.com/insights/press-releases/cpp-investments-and-ontario-teachers-to-join-nordic-capital-as-owners-of-cary-group-to-support-its-continued-international-expansion-and-long-term-development/",
+        "https://www.freshfields.com/en/our-thinking/news/news-search/2026/11/freshfields-advises-cpp-investments-on-the-acquisition-of-cary-group-by-a-consortium-comprised-of-nordic-capital-ontario-teachers-pension-plan-and-cpp-investments",
+        "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-ontario-teachers-on-its-investment-in-cary-group"
+      ],
+      "openQuestions": [],
+      "tasks": [
+        "Deep original-document research; economics, business rationale and legal workstreams",
+        "Map summary assertions to precise evidence",
+        "Investigate funding and document non-disclosure",
+        "Review sponsor, ownership, financing and exit terms",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "aab-kreston-reeves",
+      "title": "AAB / Kreston Reeves",
+      "type": "Private equity M&A",
+      "status": "Completed",
+      "sourceUrls": 3,
+      "distinctHosts": 2,
+      "independentOrigins": null,
+      "claims": 0,
+      "advisers": 2,
+      "financialValues": 0,
+      "announcementDate": "2026-02-09",
+      "eventSourceLinks": 2,
+      "structuralErrors": [],
+      "priority": 6,
+      "researchLeads": [
+        "https://www.krestonreeves.com/news/joining-forces-with-aab/",
+        "https://www.krestonreeves.com/news/we-have-joined-aab/",
+        "https://www.addleshawgoddard.com/en/news/2026/ag-advises-aab-investment-kreston-reeves-create-200m-group/"
+      ],
+      "openQuestions": [],
+      "tasks": [
+        "Deep original-document research; economics, business rationale and legal workstreams",
+        "Find consideration and valuation basis or log non-disclosure",
+        "Investigate funding and document non-disclosure",
+        "Review sponsor, ownership, financing and exit terms",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "boralex-wind2",
+      "title": "Boralex / Wind2",
+      "type": "Infrastructure M&A",
+      "status": "Completed; seller counsel subsequently disclosed",
+      "sourceUrls": 3,
+      "distinctHosts": 3,
+      "independentOrigins": null,
+      "claims": 0,
+      "advisers": 1,
+      "financialValues": 0,
+      "announcementDate": "2026-10-27",
+      "eventSourceLinks": 3,
+      "structuralErrors": [],
+      "priority": 6,
+      "researchLeads": [
+        "https://uk.boralex.com/en/press-releases/boralex-accelerates-expansion-united-kingdom-acquisition-wind2",
+        "https://wind2.co.uk/news/boralex-accelerates-growth-in-the-united-kingdom-with-the-acquisition-of-wind2-including-a-350-mw-development-platform",
+        "https://www.burges-salmon.com/burges-salmon-advises-the-shareholders-of-wind2-on-disposal-to-boralex/"
+      ],
+      "openQuestions": [],
+      "tasks": [
+        "Deep original-document research; economics, business rationale and legal workstreams",
+        "Find consideration and valuation basis or log non-disclosure",
+        "Investigate funding and document non-disclosure",
+        "Review project perimeter, financial close, equity/debt and permits",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "cip-noriker-kilmarnock",
+      "title": "Copenhagen Infrastructure Partners / Noriker Kilmarnock South BESS",
+      "type": "Infrastructure M&A",
+      "status": "Project sold; construction underway",
+      "sourceUrls": 2,
+      "distinctHosts": 2,
+      "independentOrigins": null,
+      "claims": 0,
+      "advisers": 1,
+      "financialValues": 1,
+      "announcementDate": null,
+      "eventSourceLinks": 2,
+      "structuralErrors": [],
+      "priority": 6,
+      "researchLeads": [
+        "https://www.cip.com/copenhagen-infrastructure-partners-p-s/r/copenhagen-infrastructure-partners-announces-eur-270-million-investment-in-new-scottish-battery-stor,c4388796?nfiid=3297",
+        "https://www.addleshawgoddard.com/en/news/2026/addleshaw-goddard-advises-noriker-power-major-uk-bess-project/"
+      ],
+      "openQuestions": [],
+      "tasks": [
+        "Deep original-document research; economics, business rationale and legal workstreams",
+        "Establish announcement date rather than regulator milestone",
+        "Investigate funding and document non-disclosure",
+        "Review project perimeter, financial close, equity/debt and permits",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "tilleghem-saragossa",
+      "title": "Tilleghem Capital / Saragossa",
+      "type": "Private equity M&A",
+      "status": "Growth equity investment disclosed",
+      "sourceUrls": 2,
+      "distinctHosts": 2,
+      "independentOrigins": null,
+      "claims": 0,
+      "advisers": 1,
+      "financialValues": 0,
+      "announcementDate": "2026-09-30",
+      "eventSourceLinks": 2,
+      "structuralErrors": [],
+      "priority": 6,
+      "researchLeads": [
+        "https://saragossa.io/insights/saragossa-secures-strategic-growth-investment-from-tilleghem-capital/",
+        "https://www.burges-salmon.com/burges-salmon-advises-tilleghem-capital-on-acquisition-of-equity-stake-in-saragossa-limited/"
+      ],
+      "openQuestions": [],
+      "tasks": [
+        "Deep original-document research; economics, business rationale and legal workstreams",
+        "Find consideration and valuation basis or log non-disclosure",
+        "Investigate funding and document non-disclosure",
+        "Review sponsor, ownership, financing and exit terms",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "athora-picg",
+      "title": "Athora / Pension Insurance Corporation Group",
+      "type": "Cross-border M&A",
+      "status": "Completed",
+      "sourceUrls": 5,
+      "distinctHosts": 4,
+      "independentOrigins": null,
+      "claims": 0,
+      "advisers": 2,
+      "financialValues": 2,
+      "announcementDate": "2025-07-03",
+      "eventSourceLinks": 3,
+      "structuralErrors": [],
+      "priority": 4,
+      "researchLeads": [
+        "https://www.athora.com/news/athora-to-acquire-PIC",
+        "https://www.athora.com/news/athora-group-completes-acquisition-pension-insurance-corporation-group-and-announces-plans",
+        "https://www.pensioncorporation.com/news-insights/press-releases/2026/athora-regulatory-approval-acquisition-pic",
+        "https://www.aoshearman.com/en/news/ao-shearman-advises-athora-on-landmark-gbp5-7-billion-acquisition-of-picg",
+        "https://www.sidley.com/en/newslanding/newsannouncements/2025/07/sidley-advises-athora-on-acquisition-of-pension-insurance-corporation-group-limited"
+      ],
+      "openQuestions": [],
+      "tasks": [
+        "Deep original-document research; economics, business rationale and legal workstreams",
+        "Investigate funding and document non-disclosure",
+        "Review agreement, business perimeter, regulatory status and close/withdrawal",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "itm-gbe-equity",
+      "title": "Great British Energy / ITM Power strategic equity investment",
+      "type": "Infrastructure investment",
+      "status": "Equity investment announced; related grant awarded",
+      "sourceUrls": 3,
+      "distinctHosts": 2,
+      "independentOrigins": null,
+      "claims": 0,
+      "advisers": 1,
+      "financialValues": 2,
+      "announcementDate": "2026-04-09",
+      "eventSourceLinks": 2,
+      "structuralErrors": [],
+      "priority": 4,
+      "researchLeads": [
+        "https://itm-power.com/news/pound86.5-million-equity-and-grant-package-for-chronos-from-the-uk-government",
+        "https://itm-power.com/news/award-of-pound46.5m-desnz-grant",
+        "https://www.burges-salmon.com/burges-salmon-advises-itm-power-plc-on-40m-strategic-equity-investment-by-great-british-energy/"
+      ],
+      "openQuestions": [],
+      "tasks": [
+        "Deep original-document research; economics, business rationale and legal workstreams",
+        "Investigate funding and document non-disclosure",
+        "Review project perimeter, financial close, equity/debt and permits",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "sky-itv",
+      "title": "Sky / ITV Media and Entertainment",
+      "type": "Public-interest M&A",
+      "status": "Public interest intervention",
+      "sourceUrls": 4,
+      "distinctHosts": 3,
+      "independentOrigins": null,
+      "claims": 4,
+      "advisers": 0,
+      "financialValues": 2,
+      "announcementDate": "2026-07-06",
+      "eventSourceLinks": 2,
+      "structuralErrors": [],
+      "priority": 3,
+      "researchLeads": [
+        "https://www.gov.uk/cma-cases/sky-slash-itv-merger-inquiry",
+        "https://www.gov.uk/government/publications/public-interest-intervention-notice-issued-by-secretary-of-state-lisa-nandy--2/public-interest-intervention-notice-issued-by-secretary-of-state-lisa-nandy",
+        "https://questions-statements.parliament.uk/written-statements/detail/2026-10-15/HCWS385",
+        "https://skyanditv.com/news/sky-and-itv-respond-to-public-interest-intervention-notice-on-proposed-acquisition-of-itv-media-entertainment"
+      ],
+      "openQuestions": [
+        "Executed transaction and content agreements not inspected.",
+        "Named counsel and funding terms not established.",
+        "Regulator reports and final decision outstanding."
+      ],
+      "tasks": [
+        "Recover buyer, seller and specialist counsel mandates",
+        "Investigate funding and document non-disclosure",
+        "Review firm offer, conditions, votes, sanction and effective date",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "carlsberg-britvic",
+      "title": "Carlsberg / Britvic",
+      "type": "Public M&A",
+      "status": "Completed",
+      "sourceUrls": 7,
+      "distinctHosts": 6,
+      "independentOrigins": null,
+      "claims": 4,
+      "advisers": 2,
+      "financialValues": 3,
+      "announcementDate": null,
+      "eventSourceLinks": 2,
+      "structuralErrors": [],
+      "priority": 2,
+      "researchLeads": [
+        "https://www.carlsberggroup.com/newsroom/carlsberg-group-completes-acquisition-of-britvic-plc/",
+        "https://www.gov.uk/cma-cases/carlsberg-slash-britvic-merger-inquiry",
+        "https://www.linklaters.com/about-us/news-and-deals/deals/2024/december/linklaters-secures-regulatory-clearances-for-britvics-takeover-by-carlsberg",
+        "https://www.linklaters.com/about-us/news-and-deals/deals/2024/july/linklaters-advises-britvic-on-its-takeover-by-carlsberg-for-3_3bn",
+        "https://www.britvic.com/our-news/performance/scheme-of-arrangement-becomes-effective/",
+        "https://insight.bakermckenzie.com/carlsberg-case-study",
+        "https://www.bakermckenzie.com/en/newsroom/2024/10/deal-digest-q3-2024"
+      ],
+      "openQuestions": [
+        "Complete scheme conditions, bridge financing and underlying bottling agreements have not been independently reviewed here.",
+        "Post-close realised synergies not established."
+      ],
+      "tasks": [
+        "Establish announcement date rather than regulator milestone",
+        "Investigate funding and document non-disclosure",
+        "Review firm offer, conditions, votes, sanction and effective date",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "chesnara-metlife-uk",
+      "title": "Chesnara / MetLife UK closed-book life business",
+      "type": "Private M&A",
+      "status": "Agreement announced",
+      "sourceUrls": 2,
+      "distinctHosts": 2,
+      "independentOrigins": null,
+      "claims": 4,
+      "advisers": 1,
+      "financialValues": 0,
+      "announcementDate": "2026-11-06",
+      "eventSourceLinks": 1,
+      "structuralErrors": [],
+      "priority": 2,
+      "researchLeads": [
+        "https://www.chesnara.co.uk/news-and-press-releases/news-story-listing/news-year/acquisition-of-metlife-uk-limited",
+        "https://www.slaughterandmay.com/recent-work/chesnara-on-its-acquisition-of-metlife-uk-limited-metlife-s-closed-book-life-insurance-company/"
+      ],
+      "openQuestions": [
+        "Exact consideration, closing adjustment formula and detailed actuarial assumptions not disclosed in these sources.",
+        "Seller legal counsel and executed SPA/reinsurance terms not established."
+      ],
+      "tasks": [
+        "Find consideration and valuation basis or log non-disclosure",
+        "Review agreement, business perimeter, regulatory status and close/withdrawal",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "cinven-theramex",
+      "title": "Cinven / Theramex",
+      "type": "Private equity M&A",
+      "status": "Agreement announced",
+      "sourceUrls": 4,
+      "distinctHosts": 4,
+      "independentOrigins": null,
+      "claims": 3,
+      "advisers": 3,
+      "financialValues": 0,
+      "announcementDate": "2026-11-03",
+      "eventSourceLinks": 2,
+      "structuralErrors": [],
+      "priority": 2,
+      "researchLeads": [
+        "https://www.cinven.com/news-insights/cinven-to-acquire-theramex/",
+        "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-cinven-on-its-acquisition-of-theramex",
+        "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-carlyle-pai-partners-and-theramex-on-the-sale-of-theramex-to-cinven",
+        "https://www.proskauer.com/release/proskauer-advises-financing-sources-on-cinvens-acquisition-of-theramex"
+      ],
+      "openQuestions": [
+        "Price, debt commitments and detailed conditions not established by primary sources; no unverified media number promoted to a confirmed valuation.",
+        "No completion milestone established."
+      ],
+      "tasks": [
+        "Find consideration and valuation basis or log non-disclosure",
+        "Investigate funding and document non-disclosure",
+        "Review sponsor, ownership, financing and exit terms",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "nationwide-virgin",
+      "title": "Nationwide / Virgin Money",
+      "type": "Banking M&A",
+      "status": "Completed",
+      "sourceUrls": 7,
+      "distinctHosts": 5,
+      "independentOrigins": null,
+      "claims": 3,
+      "advisers": 2,
+      "financialValues": 1,
+      "announcementDate": null,
+      "eventSourceLinks": 3,
+      "structuralErrors": [],
+      "priority": 2,
+      "researchLeads": [
+        "https://www.gov.uk/cma-cases/nationwide-building-society-slash-virgin-money-merger-inquiry",
+        "https://uk.virginmoney.com/nationwide-and-virginmoney/",
+        "https://www.nationwide.co.uk/about-us/the-big-nationwide-thank-you",
+        "https://www.nationwide.co.uk/nationwide-and-virgin-money-transfer",
+        "https://www.cliffordchance.com/news/news/2024/03/clifford-chance-advises-virgin-money-uk-plc-on-its-p2-9-billion-.html",
+        "https://www.slaughterandmay.com/recent-work/nationwide-building-society-on-its-recommended-all-cash-acquisition-of-virgin-money-uk-plc/",
+        "https://www.slaughterandmay.com/recent-work/clydesdale-bank-plc-and-nationwide-building-society-on-the-part-vii-transfer-of-clydesdale-s-business-to-nationwide/"
+      ],
+      "openQuestions": [
+        "The complete acquisition scheme and funding documentation are not reviewed in this enrichment.",
+        "No assertion of realised integration synergies or current capital position."
+      ],
+      "tasks": [
+        "Establish announcement date rather than regulator milestone",
+        "Investigate funding and document non-disclosure",
+        "Review firm offer, conditions, votes, sanction and effective date",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "adobe-figma",
+      "title": "Adobe / Figma",
+      "type": "Cross-border M&A",
+      "status": "Abandoned / agreement terminated",
+      "sourceUrls": 7,
+      "distinctHosts": 3,
+      "independentOrigins": null,
+      "claims": 4,
+      "advisers": 5,
+      "financialValues": 2,
+      "announcementDate": "2022-09-15",
+      "eventSourceLinks": 3,
+      "structuralErrors": [],
+      "priority": 0,
+      "researchLeads": [
+        "https://www.gov.uk/cma-cases/adobe-slash-figma-merger-inquiry",
+        "https://news.adobe.com/news/news-details/2023/adobe-and-figma-mutually-agree-to-terminate-merger-agreement",
+        "https://www.gov.uk/government/publications/cma-annual-report-and-accounts-2023-to-2024/annual-report-and-accounts-2023-to-2024",
+        "https://news.adobe.com/news/news-details/2022/adobe-to-acquire-figma",
+        "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbe-20231217.htm",
+        "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbedecember182023pressrel.htm",
+        "https://www.sec.gov/Archives/edgar/data/1579878/000162828026009228/fig-20251231.htm"
+      ],
+      "openQuestions": [
+        "Wachtell requires a verified firm profile before structured linkage; detailed regulatory scope and original contractual triggers require review."
+      ],
+      "tasks": [
+        "Investigate funding and document non-disclosure",
+        "Review agreement, business perimeter, regulatory status and close/withdrawal",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "aviva-direct-line",
+      "title": "Aviva / Direct Line",
+      "type": "Public M&A",
+      "status": "Completed",
+      "sourceUrls": 6,
+      "distinctHosts": 4,
+      "independentOrigins": null,
+      "claims": 4,
+      "advisers": 1,
+      "financialValues": 4,
+      "announcementDate": "2024-12-23",
+      "eventSourceLinks": 2,
+      "structuralErrors": [],
+      "priority": 0,
+      "researchLeads": [
+        "https://www.aviva.com/newsroom/news-and-research-overview/news-releases/2025/07/aviva-completes-acquisition-of-direct-line/",
+        "https://www.gov.uk/cma-cases/aviva-slash-direct-line-merger-inquiry",
+        "https://www.slaughterandmay.com/recent-work/direct-line-group-on-its-recommended-acquisition-by-aviva/",
+        "https://www.slaughterandmay.com/recent-work/aviva-direct-line-group-in-respect-of-the-prudential-regulation-authority-s-investigation-and-enforcement-outcome/",
+        "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000112476/NI-000112476.pdf",
+        "https://www.aviva.com/investors/strategy-and-performance-overview/acquisition-of-direct-line-insurance-group-plc/"
+      ],
+      "openQuestions": [
+        "Exact amount drawn under bridge facility and ultimate refinancing terms are not established here.",
+        "Post-closing synergy realisation and current capital effects require later results; do not treat projections as achieved."
+      ],
+      "tasks": [
+        "Review firm offer, conditions, votes, sanction and effective date",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "broadcom-vmware",
+      "title": "Broadcom / VMware",
+      "type": "Cross-border M&A",
+      "status": "Completed",
+      "sourceUrls": 5,
+      "distinctHosts": 3,
+      "independentOrigins": null,
+      "claims": 4,
+      "advisers": 1,
+      "financialValues": 6,
+      "announcementDate": "2022-05-26",
+      "eventSourceLinks": 3,
+      "structuralErrors": [],
+      "priority": 0,
+      "researchLeads": [
+        "https://www.gov.uk/cma-cases/broadcom-slash-vmware-merger-inquiry",
+        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-completes-acquisition-vmware",
+        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-acquire-vmware-approximately-61-billion-cash-and-stock",
+        "https://www.gov.uk/government/news/cma-clears-broadcom-s-deal-to-buy-vmware",
+        "https://www.sec.gov/Archives/edgar/data/1730168/000114036123054354/ef20015100_form8k.htm"
+      ],
+      "openQuestions": [
+        "Wachtell, O'Melveny and Gibson Dunn need verified entity profiles before structured linkage. Closing debt, elections and foreign approvals remain open."
+      ],
+      "tasks": [
+        "Review agreement, business perimeter, regulatory status and close/withdrawal",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "firstcash-ramsdens",
+      "title": "FirstCash / Ramsdens",
+      "type": "Public M&A",
+      "status": "Phase 1 inquiry",
+      "sourceUrls": 5,
+      "distinctHosts": 4,
+      "independentOrigins": null,
+      "claims": 5,
+      "advisers": 3,
+      "financialValues": 6,
+      "announcementDate": "2026-06-23",
+      "eventSourceLinks": 3,
+      "structuralErrors": [],
+      "priority": 0,
+      "researchLeads": [
+        "https://www.gov.uk/cma-cases/firstcash-slash-ramsdens-merger-inquiry",
+        "https://www.sec.gov/Archives/edgar/data/840489/000110465926076623/tm2618455d1_ex2-1.htm",
+        "https://www.lse.co.uk/rns/final-recommended-cash-offer-evgpeb59alcpxqd.html",
+        "https://www.lse.co.uk/rns/RFX/update-on-financing-arrangements-40ieyskxea1gbs2.html",
+        "https://gowlingwlg.com/en/insights-resources/client-work/2026/capital-markets-team-advises-chess-bidco-limited"
+      ],
+      "openQuestions": [
+        "Current operative scheme conditions, shareholder votes and closing status need further verification.",
+        "The executed credit documentation and final funding draw have not been inspected.",
+        "CMA decision and any remedies remain outstanding at review date."
+      ],
+      "tasks": [
+        "Review firm offer, conditions, votes, sanction and effective date",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "greencore-bakkavor",
+      "title": "Greencore / Bakkavor",
+      "type": "Public M&A",
+      "status": "Completed; CMA undertakings accepted",
+      "sourceUrls": 6,
+      "distinctHosts": 4,
+      "independentOrigins": null,
+      "claims": 4,
+      "advisers": 2,
+      "financialValues": 1,
+      "announcementDate": "2025-05-15",
+      "eventSourceLinks": 2,
+      "structuralErrors": [],
+      "priority": 0,
+      "researchLeads": [
+        "https://www.gov.uk/cma-cases/greencore-slash-bakkavor-merger-inquiry",
+        "https://www.greencore.com/greencoregroup-plc-h1-interim-results-fy26/",
+        "https://www.slaughterandmay.com/recent-work/greencore-on-its-recommended-acquisition-of-bakkavor/",
+        "https://www.freshfields.com/en/our-thinking/news/news-search/2025/05/freshfields-advises-bakkavor-on-its-recommended-acquisition-by-greencore",
+        "https://www.gov.uk/government/news/cma-proposes-to-accept-remedies-in-supermarket-supplier-deal",
+        "https://www.freshfields.com/en/find-a-lawyer/w/wade-kat"
+      ],
+      "openQuestions": [
+        "Full scheme consideration, CVR, financing and final remedy implementation require further document-level research."
+      ],
+      "tasks": [
+        "Investigate funding and document non-disclosure",
+        "Review firm offer, conditions, votes, sanction and effective date",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "leita-mobico",
+      "title": "Leita Mobility / Mobico Group",
+      "type": "Public M&A",
+      "status": "Recommended cash offer announced",
+      "sourceUrls": 2,
+      "distinctHosts": 2,
+      "independentOrigins": null,
+      "claims": 3,
+      "advisers": 2,
+      "financialValues": 3,
+      "announcementDate": "2026-10-30",
+      "eventSourceLinks": 2,
+      "structuralErrors": [],
+      "priority": 0,
+      "researchLeads": [
+        "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility",
+        "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-on-the-financing-of-cmc-group-and-asterion-industrial-partners-recommended-cash-offer-for-mobico-group.html"
+      ],
+      "openQuestions": [
+        "Obtain the issuer’s Rule 2.7 announcement, scheme, cash confirmation and conditions; neither law firm disclosure substitutes for these.",
+        "Completion, regulatory approvals and detailed debt amounts remain unestablished in this review."
+      ],
+      "tasks": [
+        "Investigate funding and document non-disclosure",
+        "Review firm offer, conditions, votes, sanction and effective date",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "lseg-octus",
+      "title": "LSEG / Octus",
+      "type": "Cross-border M&A",
+      "status": "Acquisition agreed",
+      "sourceUrls": 6,
+      "distinctHosts": 5,
+      "independentOrigins": null,
+      "claims": 4,
+      "advisers": 2,
+      "financialValues": 1,
+      "announcementDate": "2026-10-22",
+      "eventSourceLinks": 2,
+      "structuralErrors": [],
+      "priority": 0,
+      "researchLeads": [
+        "https://www.lseg.com/en/media-centre/press-releases/2026/lseg-acquire-octus-public-private-credit-solutions",
+        "https://www.lseg.com/en/investor-relations/regulatory-news/details/announcement/bff8-d7-2b-10-d5-4bdab1",
+        "https://www.lw.com/en/news/2026/10/Latham%20Advises%20LSEG%20on%20Acquisition%20of%20Octus",
+        "https://www.permira.com/news-and-insights/announcements/permira-agrees-sale-of-octus-to-lseg",
+        "https://octus.com/company/news/lseg-to-acquire-octus-creating-market-leader-across-public-and-private-credit-solutions/",
+        "https://www.mcdermottlaw.com/news/mcdermott-will-schulte-advises-permira-and-octus-on-agreed-3-535-billion-sale-to-lseg/"
+      ],
+      "openQuestions": [
+        "Executed acquisition agreement and debt terms not inspected.",
+        "Audited target results and regulatory filings not established.",
+        "Realised integration benefits require later reporting."
+      ],
+      "tasks": [
+        "Review agreement, business perimeter, regulatory status and close/withdrawal",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "mccormick-unilever",
+      "title": "McCormick / Unilever Foods",
+      "type": "Cross-border M&A",
+      "status": "Phase 1 concerns",
+      "sourceUrls": 7,
+      "distinctHosts": 6,
+      "independentOrigins": null,
+      "claims": 6,
+      "advisers": 3,
+      "financialValues": 5,
+      "announcementDate": "2026-03-31",
+      "eventSourceLinks": 4,
+      "structuralErrors": [],
+      "priority": 0,
+      "researchLeads": [
+        "https://www.gov.uk/cma-cases/mccormick-slash-unilever-merger-inquiry",
+        "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+        "https://www.unilever.com/news/press-and-media/press-releases/2026/continued-strong-performance-in-the-third-quarter/",
+        "https://ir.mccormick.com/news-releases/news-release-details/mccormick-combine-unilevers-foods-business-creating-preeminent",
+        "https://www.cliffordchance.com/news/news/2026/03/clifford-chance-advises-unilever-on-the-45bn-combination-of-unilever-foods1-with-mccormick-and-company-inc.html",
+        "https://www.hlc.com/en/news/hogan-lovells-advises-mccormick-on-its-landmark-448-billion-acquisition-of-unilevers-food-division",
+        "https://www.clearygottlieb.com/news-and-insights/news-listing/mccormick-in-44-8-billion-merger-with-unilevers-foods-business"
+      ],
+      "openQuestions": [
+        "Full Phase 1 reasons and any remedy package require further review.",
+        "Actual debt issuance, final closing adjustment and completed separation remain unknown.",
+        "The underlying executed agreement and tax opinions have not been independently inspected in this dossier."
+      ],
+      "tasks": [
+        "Review agreement, business perimeter, regulatory status and close/withdrawal",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "microsoft-activision",
+      "title": "Microsoft / Activision Blizzard (restructured)",
+      "type": "Cross-border M&A",
+      "status": "Completed; restructured deal cleared",
+      "sourceUrls": 6,
+      "distinctHosts": 4,
+      "independentOrigins": null,
+      "claims": 4,
+      "advisers": 1,
+      "financialValues": 3,
+      "announcementDate": "2022-01-18",
+      "eventSourceLinks": 3,
+      "structuralErrors": [],
+      "priority": 0,
+      "researchLeads": [
+        "https://www.gov.uk/cma-cases/microsoft-slash-activision-blizzard-ex-cloud-streaming-rights-merger-inquiry",
+        "https://www.gov.uk/cma-cases/microsoft-slash-activision-blizzard-merger-inquiry",
+        "https://www.gov.uk/government/news/microsoft-concession-a-gamechanger-that-will-promote-competition",
+        "https://news.microsoft.com/source/2022/01/18/microsoft-to-acquire-activision-blizzard-to-bring-the-joy-and-community-of-gaming-to-everyone-across-every-device/",
+        "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "https://www.stblaw.com/about-us/news/view/2023/10/13/microsoft-closes-$75-billion-acquisition-of-activision-blizzard"
+      ],
+      "openQuestions": [
+        "Target and specialist counsel, detailed rights agreement and funding reconciliation remain open."
+      ],
+      "tasks": [
+        "Review agreement, business perimeter, regulatory status and close/withdrawal",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "ocs-mitie",
+      "title": "OCS / Mitie",
+      "type": "Public M&A",
+      "status": "Inquiry launched",
+      "sourceUrls": 6,
+      "distinctHosts": 3,
+      "independentOrigins": null,
+      "claims": 5,
+      "advisers": 1,
+      "financialValues": 3,
+      "announcementDate": "2026-07-21",
+      "eventSourceLinks": 3,
+      "structuralErrors": [],
+      "priority": 0,
+      "researchLeads": [
+        "https://www.gov.uk/cma-cases/ocs-slash-mitie-merger-inquiry",
+        "https://www.mitie.com/investors/recommended-cash-offer-by-ocs-for-mitie/",
+        "https://www.mitie.com/wp-content/uploads/2026/08/Project-Marlin_Scheme_Document.pdf",
+        "https://www.mitie.com/wp-content/uploads/2026/11/Mitie-H1-FY27-Results.pdf",
+        "https://www.linklaters.com/about-us/news-and-deals/deals/2026/august/linklaters-advises-prologis-on-its-recommended-offer-for-segro-plc",
+        "https://www.linklaters.com/find-a-lawyer/daniel-cartwright"
+      ],
+      "openQuestions": [
+        "Buyer counsel and lending syndicate role mapping not yet established.",
+        "Latest scheme amendment terms, detailed financing conditions and regulator outcomes require document inspection."
+      ],
+      "tasks": [
+        "Review firm offer, conditions, votes, sanction and effective date",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "prologis-segro",
+      "title": "Prologis / SEGRO",
+      "type": "Public M&A",
+      "status": "Pre-notification / consultation",
+      "sourceUrls": 6,
+      "distinctHosts": 4,
+      "independentOrigins": null,
+      "claims": 4,
+      "advisers": 1,
+      "financialValues": 3,
+      "announcementDate": "2026-08-03",
+      "eventSourceLinks": 3,
+      "structuralErrors": [],
+      "priority": 0,
+      "researchLeads": [
+        "https://www.gov.uk/cma-cases/prologis-slash-segro-merger-inquiry",
+        "https://ir.prologis.com/news-events/press-releases/detail/1049/prologis-announces-recommended-acquisition-of-segro-plc",
+        "https://www.segro.com/en/investors/financial-results-centre/q3-trading-update",
+        "https://ir.prologis.com/financials/sec-filings/content/0001193125-26-436160/pld-20260930.htm",
+        "https://www.linklaters.com/about-us/news-and-deals/deals/2026/august/linklaters-advises-prologis-on-its-recommended-offer-for-segro-plc",
+        "https://ir.prologis.com/financials/sec-filings/content/0001104659-26-089980/tm2621154d2_ex2-1.htm"
+      ],
+      "openQuestions": [
+        "Exact cash election scaling, current regulatory outcomes outside the UK and all scheme conditions require continued review.",
+        "No completed acquisition or facility drawdown is established."
+      ],
+      "tasks": [
+        "Review firm offer, conditions, votes, sanction and effective date",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "rwe-kkr-vanguard",
+      "title": "RWE / KKR — Vanguard offshore wind projects",
+      "type": "Infrastructure investment",
+      "status": "Equity and financial close announced",
+      "sourceUrls": 7,
+      "distinctHosts": 5,
+      "independentOrigins": null,
+      "claims": 4,
+      "advisers": 1,
+      "financialValues": 4,
+      "announcementDate": "2026-01-14",
+      "eventSourceLinks": 3,
+      "structuralErrors": [],
+      "priority": 0,
+      "researchLeads": [
+        "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/news/news-2026-11-11_a/",
+        "https://www.gov.uk/government/news/prime-minister-hails-major-investment-in-uk-renewables",
+        "https://uk.rwe.com/press-and-news/2026-11-11-rwe-and-kkr-join-forces-to-deliver-2-8-gw-of-new-offshore-wind-capacity-in-the-uk/",
+        "https://media.kkr.com/news-details?linkId=1035438525&news_id=a2cab498-e90d-402d-8c90-58190a850a66",
+        "https://www.gov.uk/government/publications/contracts-for-difference-cfd-allocation-round-7-results/contracts-for-difference-allocation-round-7-results-accessible-webpage",
+        "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/news/news-2026-01-14/",
+        "https://www.kirkland.com/news/press-release/2026/01/kirkland-advises-kkr-on-strategic-partnership-with-rwe-to-realize-uk-offshore-windfarms"
+      ],
+      "openQuestions": [
+        "Executed financing documents, pricing and sponsor amounts not inspected.",
+        "RWE and lender legal counsel not established.",
+        "Construction and operational progress requires later review."
+      ],
+      "tasks": [
+        "Review project perimeter, financial close, equity/debt and permits",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "softcat-gdt",
+      "title": "Softcat / General Datatech",
+      "type": "Cross-border M&A",
+      "status": "Agreement announced",
+      "sourceUrls": 4,
+      "distinctHosts": 3,
+      "independentOrigins": null,
+      "claims": 3,
+      "advisers": 1,
+      "financialValues": 4,
+      "announcementDate": "2026-09-17",
+      "eventSourceLinks": 2,
+      "structuralErrors": [],
+      "priority": 0,
+      "researchLeads": [
+        "https://www.softcat.com/news/softcat-expands-international-reach-acquisition-gdt",
+        "https://www.slaughterandmay.com/recent-work/advised-softcat-on-the-acquisition-of-general-datatech/",
+        "https://www.slaughterandmay.com/insights/client-case-studies/transforming-softcat-into-a-leading-global-it-solutions-business/",
+        "https://data.fca.org.uk/artefacts/NSM/RNS/ef40df77-6c61-42aa-868a-5d3cbf3548a2.html"
+      ],
+      "openQuestions": [
+        "Actual equity issue proceeds, drawdown, final price adjustments and closing not established by the reviewed accessible sources.",
+        "Seller counsel and individual facility terms not established."
+      ],
+      "tasks": [
+        "Investigate funding and document non-disclosure",
+        "Review agreement, business perimeter, regulatory status and close/withdrawal",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "vodafone-three",
+      "title": "Vodafone UK / Three UK",
+      "type": "Joint venture / merger",
+      "status": "Completed",
+      "sourceUrls": 6,
+      "distinctHosts": 3,
+      "independentOrigins": null,
+      "claims": 4,
+      "advisers": 1,
+      "financialValues": 5,
+      "announcementDate": "2023-06-14",
+      "eventSourceLinks": 2,
+      "structuralErrors": [],
+      "priority": 0,
+      "researchLeads": [
+        "https://www.vodafone.com/news/newsroom/corporate-and-financial/completion-of-vodafone-and-three-merger-in-the-uk",
+        "https://www.gov.uk/cma-cases/vodafone-slash-ck-hutchison-jv-merger-inquiry",
+        "https://www.freshfields.com/en/our-thinking/news/news-search/2024/12/freshfields-advises-ck-hutchison-on-securing-landmark-cma-merger-approval-for-three-uk-and-vodafone-uk",
+        "https://www.vodafone.com/news/newsroom/corporate-and-financial/merger-vodafone-uk-three-uk-europe-leading-5g-networks",
+        "https://www.vodafone.com/news/newsroom/corporate-and-financial/vodafone-takes-full-ownership-of-vodafonethree",
+        "https://www.gov.uk/guidance/how-we-are-investigating-the-vodafonethree-potential-merger"
+      ],
+      "openQuestions": [
+        "Detailed debt covenants and shareholder agreement are not established.",
+        "Later purchase of the remaining 49% is a separate event; its settlement and ongoing remedy compliance require updated verification."
+      ],
+      "tasks": [
+        "Review agreement, business perimeter, regulatory status and close/withdrawal",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    }
+  ],
+  "metrics": {
+    "deep": 19,
+    "singleSource": 7,
+    "missingAdvisers": 8,
+    "missingValues": 14,
+    "missingAnnouncement": 14,
+    "missingEventEvidence": 15,
+    "sourceReferences": 145,
+    "adviserAssociations": 50,
+    "findings": 76,
+    "structuralErrors": 0
+  }
+}
