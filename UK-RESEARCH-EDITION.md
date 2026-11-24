@@ -18,3 +18,6 @@ Main pushes trigger a separate live-browser job which waits for exact editorial 
 
 ## UK-first portal v2
 Root and /uk.html generated from one editorial document; /india.html is the established India shell and all India nightly writers now target it. Legacy #/ India routes are forwarded. UK dossiers add typed values, parties, dated source-backed chronology, scoped mandates, commercial and legal-work analysis, watchlist and calendar. GOV.UK Content API enriches discovery separately; no auto-promotion to verified deals. Dossiers contain only bounded metadata and regulator-hosted PDF links, no personal contact data or copied full documents.
+
+## Reading desk and official newswire
+Curated reading desk links to dated analysis. Separate automated title/link feed queries GOV.UK organisation search and published Bank of England/PRA/FCA RSS endpoints; per-source success/failure and prior snapshots are retained. This is discovery, not editorial verification. No automated proprietary issuer feed or paywall access.

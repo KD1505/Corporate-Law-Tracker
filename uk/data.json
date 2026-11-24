@@ -1585,6 +1585,142 @@
       "related": [
         "merger-control"
       ]
+    },
+    {
+      "jurisdiction": "UK",
+      "verifiedOn": "2026-11-24",
+      "id": "insurance-stress",
+      "category": "Briefing",
+      "title": "PRA publishes general insurance stress test results",
+      "eventDate": "2026-11-23",
+      "sector": "Insurance",
+      "status": "Published supervisory exercise",
+      "fact": "The PRA published results of its 2026 dynamic general insurance stress test on 23 November. The exercise examined how participating insurers respond to severe shocks; it was designed to examine crisis management as well as financial resilience.",
+      "analysis": "Insurance clients face interconnected exposures across underwriting, reinsurance, liquidity and counterparty risk. Legal teams can use stress scenarios to test recovery governance, reinsurance contract terms and operational escalation, not treat the exercise as a guarantee of solvency.",
+      "watch": "PRA follow-up and firm-level risk management responses. No individual insurer capital conclusion is inferred.",
+      "sources": [
+        {
+          "name": "PRA results",
+          "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2026/november/dygist-2026"
+        },
+        {
+          "name": "Bank of England announcement",
+          "url": "https://www.bankofengland.co.uk/news/2026/november/general-insurance-stress-test-highlights-value-of-rehearsing-crisis-response-and-recovery"
+        }
+      ],
+      "related": [
+        "finance",
+        "corporate-governance"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "verifiedOn": "2026-11-24",
+      "id": "strategic-sites",
+      "category": "Briefing",
+      "title": "£700m Strategic Sites Accelerator",
+      "eventDate": "2026-11-02",
+      "sector": "Infrastructure / industrial policy",
+      "status": "Government funding programme announced",
+      "fact": "Government announced a programme of about £700m in debt, equity and targeted grants to unlock up to ten major industrial and commercial sites. This is programme-level funding, not a completed investment in any named site.",
+      "analysis": "Reducing planning, infrastructure and financing barriers can make development sites investable. Counsel will need to distinguish public commitments from private investment, examine grant and subsidy conditions, land rights, procurement and the sequencing of financing and development milestones.",
+      "watch": "Site selection, grant or funding decisions and evidence of private capital commitments.",
+      "sources": [
+        {
+          "name": "Government programme announcement",
+          "url": "https://www.gov.uk/government/news/mayors-and-local-leaders-work-with-no10-north-to-drive-search-for-top-10-biggest-strategic-investment-sites-across-country"
+        }
+      ],
+      "related": [
+        "project-finance",
+        "finance"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "verifiedOn": "2026-11-24",
+      "id": "corporate-reporting-consultation",
+      "category": "Regulation",
+      "title": "Modernising corporate reporting: consultation",
+      "eventDate": "2026-09-07",
+      "sector": "Corporate governance",
+      "status": "Consultation; not law",
+      "fact": "The government opened a consultation on modernising the corporate reporting framework on 7 September. Its proposals include reconsidering the existing distributable-profits and capital-maintenance regime.",
+      "analysis": "If adopted, a solvency-oriented approach could change how boards evaluate distributions and capital transactions. Existing law remains applicable until changes are enacted and in force. Companies should review reporting and governance processes without assuming that proposals are binding.",
+      "watch": "Consultation closes 30 November 2026; monitor response, legislation and commencement.",
+      "deadline": {
+        "date": "2026-11-30",
+        "label": "Corporate reporting consultation closes",
+        "source": "https://www.gov.uk/government/consultations/modernising-corporate-reporting"
+      },
+      "sources": [
+        {
+          "name": "Consultation",
+          "url": "https://www.gov.uk/government/consultations/modernising-corporate-reporting"
+        },
+        {
+          "name": "Government explanation",
+          "url": "https://www.gov.uk/government/news/firms-freed-from-pen-pushing-paperwork-and-costly-red-tape-in-business-reporting-overhaul"
+        }
+      ],
+      "related": [
+        "corporate-governance"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "verifiedOn": "2026-11-24",
+      "id": "primary-market-bulletin-67",
+      "category": "Regulation",
+      "title": "FCA Primary Market Bulletin 67: proposed technical-note changes",
+      "eventDate": "2026-11-04",
+      "sector": "Capital markets",
+      "status": "Guidance consultation",
+      "fact": "GC26/8 proposes updates to technical notes on prospectus exemptions and supplements, and revocation of other guidance following rule changes. The consultation is not itself a final amendment to binding rules.",
+      "analysis": "Issuer counsel should check the operative PRM rules and current guidance when assessing the need for a prospectus or supplement. Updating drafting precedents based solely on proposed notes risks prematurely applying a change.",
+      "watch": "Comments due 9 December 2026; monitor finalised guidance.",
+      "deadline": {
+        "date": "2026-12-09",
+        "label": "FCA GC26/8 consultation closes",
+        "source": "https://www.fca.org.uk/publications/guidance-consultations/gc26-8-primary-market-bulletin-no-67"
+      },
+      "sources": [
+        {
+          "name": "FCA guidance consultation",
+          "url": "https://www.fca.org.uk/publications/guidance-consultations/gc26-8-primary-market-bulletin-no-67"
+        }
+      ],
+      "related": [
+        "capital-markets"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "verifiedOn": "2026-11-24",
+      "id": "ifpr-review",
+      "category": "Regulation",
+      "title": "FCA review of investment firms prudential regime",
+      "eventDate": "2026-11-18",
+      "sector": "Financial regulation",
+      "status": "Call for evidence; no rule change",
+      "fact": "The FCA is seeking views on the IFPR, including ICARA, group consolidation, proportionality and wind-down planning. It expects to consult on possible amendments in 2027.",
+      "analysis": "Investment firms should distinguish the existing prudential regime from the proposed review. A group restructuring or acquisition can change the risk perimeter and capital and liquidity analysis, so regulatory due diligence needs current group-level data.",
+      "watch": "Feedback deadline 20 January 2027; monitor proposed changes. Existing transitional own-funds provisions expire on 31 December 2026, according to the FCA.",
+      "deadline": {
+        "date": "2027-01-20",
+        "label": "IFPR feedback deadline",
+        "source": "https://www.fca.org.uk/publications/calls-input/review-investment-firms-prudential-regime-ifpr"
+      },
+      "sources": [
+        {
+          "name": "FCA call for feedback",
+          "url": "https://www.fca.org.uk/publications/calls-input/review-investment-firms-prudential-regime-ifpr"
+        }
+      ],
+      "related": [
+        "finance",
+        "corporate-governance"
+      ]
     }
   ],
   "lessons": [
@@ -1853,6 +1989,20 @@
       "programme": "Official trainee information; check the jurisdiction and programme details.",
       "url": "https://www.burges-salmon.com/join-us/emerging-talent/trainees/",
       "research": "Use the project finance case to identify client risks and relevant practice teams."
+    },
+    {
+      "id": "ao-shearman",
+      "name": "A&O Shearman",
+      "programme": "London training contract and early careers programmes. Review the current entry criteria and application window on the official page.",
+      "url": "https://careers.aoshearman.com/en-gb/london-training-contract",
+      "research": "Prepare a comparison of a debt-financed public M&A transaction and a capital-markets issuance."
+    },
+    {
+      "id": "slaughter-may",
+      "name": "Slaughter and May",
+      "programme": "London early-careers application guidance, including training contract, work experience and apprenticeship pathways.",
+      "url": "https://www.slaughterandmay.com/careers/early-careers/apply/",
+      "research": "Practise an evidence-led discussion of a public takeover and the distinction between deal economics and completion conditions."
     }
   ],
   "registry": [
@@ -1909,6 +2059,24 @@
       "https://www.lseg.com/en/media-centre/press-releases/2026/lseg-acquire-octus-public-private-credit-solutions",
       "Editorial primary evidence",
       "Reviewed manually for scope, values and adviser roles; automated collection requires source-specific review."
+    ],
+    [
+      "Bank of England news and PRA RSS",
+      "https://www.bankofengland.co.uk/rss",
+      "Automated source desk",
+      "Link and title monitoring, distinct from curated analysis."
+    ],
+    [
+      "FCA RSS",
+      "https://www.fca.org.uk/what-we-publish",
+      "Automated source desk",
+      "Selected non-warning news links; editorial review remains separate."
+    ],
+    [
+      "Government policy sources",
+      "https://www.gov.uk/government/organisations",
+      "Automated source desk",
+      "Treasury, Companies House, CMA, and business department notices via GOV.UK Search API."
     ]
   ]
 }
