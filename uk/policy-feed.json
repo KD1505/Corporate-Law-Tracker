@@ -1,1 +1,574 @@
-{"attemptedAt":null,"sources":[]}
+{
+  "attemptedAt": "2026-11-24T07:07:28.259Z",
+  "sources": [
+    {
+      "name": "Treasury",
+      "status": "ok",
+      "checkedAt": "2026-11-24T07:07:27.291Z",
+      "items": [
+        {
+          "title": "National risk assessment of proliferation financing 2026",
+          "url": "https://www.gov.uk/government/publications/national-risk-assessment-of-proliferation-financing-2026",
+          "date": "2026-11-23T12:30:00.000Z"
+        },
+        {
+          "title": "Methodology: Economic Impact of the UK–EU Youth Experience Scheme",
+          "url": "https://www.gov.uk/government/publications/methodology-economic-impact-of-the-uk-eu-youth-experience-scheme",
+          "date": "2026-11-20T13:09:59.000Z"
+        },
+        {
+          "title": "HM Treasury Market Engagement Group summary minutes – November 2026",
+          "url": "https://www.gov.uk/government/publications/hm-treasury-market-engagement-group-summary-minutes-november-2026",
+          "date": "2026-11-19T07:30:00.000Z"
+        },
+        {
+          "title": "Study to examine skills retention in UK financial services",
+          "url": "https://www.gov.uk/government/publications/study-to-examine-skills-retention-in-uk-financial-services",
+          "date": "2026-11-18T11:00:08.000Z"
+        },
+        {
+          "title": "HMT workforce management information: October 2026",
+          "url": "https://www.gov.uk/government/publications/hmt-workforce-management-information-october-2026",
+          "date": "2026-11-18T10:16:06.000Z"
+        },
+        {
+          "title": "Orange Book",
+          "url": "https://www.gov.uk/government/publications/orange-book",
+          "date": "2026-11-18T10:06:59.000Z"
+        },
+        {
+          "title": "OSCAR annual release: November 2026",
+          "url": "https://www.gov.uk/government/publications/oscar-annual-release-november-2026",
+          "date": "2026-11-18T09:30:02.000Z"
+        },
+        {
+          "title": "Clarifying limitation periods in the Consumer Credit Act 1974",
+          "url": "https://www.gov.uk/government/publications/clarifying-limitation-periods-in-the-consumer-credit-act-1974",
+          "date": "2026-11-17T18:00:02.000Z"
+        },
+        {
+          "title": "Preston guidance: October 2026",
+          "url": "https://www.gov.uk/government/publications/preston-guidance-october-2026",
+          "date": "2026-11-17T13:48:26.000Z"
+        },
+        {
+          "title": "Government Functional Standard GovS 006: Finance",
+          "url": "https://www.gov.uk/government/publications/government-finance-standards-page",
+          "date": "2026-11-17T13:24:07.000Z"
+        },
+        {
+          "title": "Five further Critical Third Parties designated",
+          "url": "https://www.gov.uk/government/news/five-further-critical-third-parties-designated",
+          "date": "2026-11-17T11:37:40.000Z"
+        },
+        {
+          "title": "Government commits to safeguard face-to-face banking",
+          "url": "https://www.gov.uk/government/news/government-commits-to-safeguard-face-to-face-banking",
+          "date": "2026-11-16T11:05:36.000Z"
+        },
+        {
+          "title": "HM Treasury – Access to Banking Services Review",
+          "url": "https://www.gov.uk/government/publications/hm-treasury-access-to-banking-services-review",
+          "date": "2026-11-16T11:00:05.000Z"
+        },
+        {
+          "title": "Stronger savings for hundreds of thousands of workers",
+          "url": "https://www.gov.uk/government/news/stronger-savings-for-hundreds-of-thousands-of-workers",
+          "date": "2026-11-14T11:07:16.000Z"
+        },
+        {
+          "title": "Ukraine’s drone pioneers bring battle-tested tech and high-skilled jobs to Britain",
+          "url": "https://www.gov.uk/government/news/ukraines-drone-pioneers-bring-battle-tested-tech-and-high-skilled-jobs-to-britain",
+          "date": "2026-11-12T17:07:37.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Companies House",
+      "status": "ok",
+      "checkedAt": "2026-11-24T07:07:27.427Z",
+      "items": [
+        {
+          "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
+          "url": "https://www.gov.uk/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
+          "date": "2026-11-19T16:26:33.000Z"
+        },
+        {
+          "title": "Companies House approach to non-compliance with mandatory identity verification",
+          "url": "https://www.gov.uk/government/publications/companies-house-approach-to-non-compliance-with-mandatory-identity-verification",
+          "date": "2026-11-19T00:01:00.000Z"
+        },
+        {
+          "title": "Identity verification is making the UK's company register more trustworthy",
+          "url": "https://www.gov.uk/government/news/identity-verification-is-making-the-uks-company-register-more-trustworthy",
+          "date": "2026-11-18T09:00:07.000Z"
+        },
+        {
+          "title": "List of Authorised Corporate Service Providers (ACSPs)",
+          "url": "https://www.gov.uk/government/publications/list-of-authorised-corporate-service-providers-acsps",
+          "date": "2026-11-12T13:43:19.000Z"
+        },
+        {
+          "title": "Technical interface specifications for Companies House software",
+          "url": "https://www.gov.uk/government/publications/technical-interface-specifications-for-companies-house-software",
+          "date": "2026-11-09T10:12:33.000Z"
+        },
+        {
+          "title": "Confirmation statement (CS01)",
+          "url": "https://www.gov.uk/government/publications/confirmation-statement-form-cs01-new-version",
+          "date": "2026-10-29T13:53:03.000Z"
+        },
+        {
+          "title": "Companies House third-party code of conduct",
+          "url": "https://www.gov.uk/government/publications/companies-house-third-party-code-of-conduct",
+          "date": "2026-10-28T10:12:13.000Z"
+        },
+        {
+          "title": "Economic Crime and Corporate Transparency Act: outline transition plan for Companies House",
+          "url": "https://www.gov.uk/government/publications/economic-crime-and-corporate-transparency-act-outline-transition-plan-for-companies-house",
+          "date": "2026-10-23T15:09:39.000Z"
+        },
+        {
+          "title": "Filing your Companies House accounts",
+          "url": "https://www.gov.uk/government/publications/filing-your-companies-house-accounts",
+          "date": "2026-10-23T10:19:47.000Z"
+        },
+        {
+          "title": "Companies House update to accounts filing from April 2028",
+          "url": "https://www.gov.uk/government/news/companies-house-update-to-accounts-filing-from-april-2028",
+          "date": "2026-10-23T10:16:40.000Z"
+        },
+        {
+          "title": "Companies House purchase ledger spend 2026",
+          "url": "https://www.gov.uk/government/publications/companies-house-purchase-ledger-spend-2026",
+          "date": "2026-10-21T12:51:41.000Z"
+        },
+        {
+          "title": "Companies House government procurement card (GPC) spending 2026",
+          "url": "https://www.gov.uk/government/publications/companies-house-government-procurement-card-gpc-spending-2026",
+          "date": "2026-10-21T12:51:23.000Z"
+        },
+        {
+          "title": "Incorporation and names",
+          "url": "https://www.gov.uk/government/publications/incorporation-and-names",
+          "date": "2026-10-19T10:39:28.000Z"
+        },
+        {
+          "title": "Seven linked companies shut down after Insolvency Service investigation with Companies House",
+          "url": "https://www.gov.uk/government/news/seven-linked-companies-shut-down-after-insolvency-service-investigation-with-companies-house",
+          "date": "2026-10-14T12:12:13.000Z"
+        },
+        {
+          "title": "Companies House accessibility statements",
+          "url": "https://www.gov.uk/government/publications/companies-house-accessibility-statements",
+          "date": "2026-10-06T15:54:48.000Z"
+        }
+      ]
+    },
+    {
+      "name": "CMA policy",
+      "status": "ok",
+      "checkedAt": "2026-11-24T07:07:26.983Z",
+      "items": [
+        {
+          "title": "BAE Systems undertakings review",
+          "url": "https://www.gov.uk/government/consultations/bae-systems-undertakings-review",
+          "date": "2026-11-23T14:00:37.000Z"
+        },
+        {
+          "title": "Google’s general search services: proposed user choice conduct requirement",
+          "url": "https://www.gov.uk/government/consultations/googles-general-search-services-proposed-user-choice-conduct-requirement",
+          "date": "2026-11-23T12:31:09.000Z"
+        },
+        {
+          "title": "CMA response to Consumer Services Code Review consultations",
+          "url": "https://www.gov.uk/government/publications/cma-response-to-consumer-services-code-review-consultations",
+          "date": "2026-11-20T12:00:41.000Z"
+        },
+        {
+          "title": "Private Motor Insurance Market Investigation Order 2015",
+          "url": "https://www.gov.uk/government/publications/private-motor-insurance-market-investigation-order-2015",
+          "date": "2026-11-19T11:00:09.000Z"
+        },
+        {
+          "title": "Business software and cloud services",
+          "url": "https://www.gov.uk/government/publications/business-software-and-cloud-services",
+          "date": "2026-11-19T10:32:47.000Z"
+        },
+        {
+          "title": "CMA provisionally finds that viagogo may have broken the law on hidden fees",
+          "url": "https://www.gov.uk/government/news/cma-provisionally-finds-that-viagogo-may-have-broken-the-law-on-hidden-fees",
+          "date": "2026-11-19T10:00:22.000Z"
+        },
+        {
+          "title": "Merger investigation outcomes",
+          "url": "https://www.gov.uk/government/publications/merger-investigation-outcomes",
+          "date": "2026-11-18T11:16:54.000Z"
+        },
+        {
+          "title": "Travel and leisure businesses investigated over pricing practices",
+          "url": "https://www.gov.uk/government/news/travel-and-leisure-businesses-investigated-over-pricing-practices",
+          "date": "2026-11-18T11:00:00.000Z"
+        },
+        {
+          "title": "Provisional decision: strategic review of CMA markets remedies",
+          "url": "https://www.gov.uk/government/consultations/provisional-decision-strategic-review-of-cma-markets-remedies",
+          "date": "2026-11-16T14:02:25.000Z"
+        },
+        {
+          "title": "Supplementary provisional decision: strategic review of CMA markets remedies",
+          "url": "https://www.gov.uk/government/consultations/supplementary-provisional-decision-strategic-review-of-cma-markets-remedies",
+          "date": "2026-11-16T14:01:18.000Z"
+        },
+        {
+          "title": "CMA panel member biographies and disclosures of interest",
+          "url": "https://www.gov.uk/government/publications/cma-panel-member-biographies-and-disclosures-of-interest",
+          "date": "2026-11-12T11:38:24.000Z"
+        },
+        {
+          "title": "Application of the Chapter I prohibition in the Competition Act 1998 to technology transfer agreements",
+          "url": "https://www.gov.uk/government/consultations/application-of-the-chapter-i-prohibition-in-the-competition-act-1998-to-technology-transfer-agreements",
+          "date": "2026-11-10T14:09:28.000Z"
+        },
+        {
+          "title": "Technology transfer agreements and competition law",
+          "url": "https://www.gov.uk/government/publications/technology-transfer-agreements-and-competition-law",
+          "date": "2026-11-10T14:09:13.000Z"
+        },
+        {
+          "title": "CMA response to consultation on equal pay and pay discrimination",
+          "url": "https://www.gov.uk/government/publications/cma-response-to-consultation-on-equal-pay-and-pay-discrimination",
+          "date": "2026-11-10T11:00:41.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Business department",
+      "status": "ok",
+      "checkedAt": "2026-11-24T07:07:28.207Z",
+      "items": [
+        {
+          "title": "British Industrial Competitiveness Scheme: funding information",
+          "url": "https://www.gov.uk/government/publications/british-industrial-competitiveness-scheme-funding-information",
+          "date": "2026-11-23T17:22:24.000Z"
+        },
+        {
+          "title": "DBT: workforce management information October 2026",
+          "url": "https://www.gov.uk/government/publications/dbt-workforce-management-information-october-2026",
+          "date": "2026-11-23T15:34:51.000Z"
+        },
+        {
+          "title": "Employment Rights Act 2025: factsheets",
+          "url": "https://www.gov.uk/government/publications/employment-rights-bill-factsheets",
+          "date": "2026-11-23T09:33:22.000Z"
+        },
+        {
+          "title": "UK reaches for stars with NATO space launch plan",
+          "url": "https://www.gov.uk/government/news/uk-reaches-for-stars-with-nato-space-launch-plan",
+          "date": "2026-11-22T00:01:05.000Z"
+        },
+        {
+          "title": "Gangmasters Licensing Appeals results and judgements",
+          "url": "https://www.gov.uk/government/publications/gangmasters-licensing-appeals-results-and-judgements",
+          "date": "2026-11-20T13:19:09.000Z"
+        },
+        {
+          "title": "Online choice architecture mapping",
+          "url": "https://www.gov.uk/government/publications/online-choice-architecture-mapping",
+          "date": "2026-11-19T16:25:56.000Z"
+        },
+        {
+          "title": "Price personalisation: evidence from the UK online market",
+          "url": "https://www.gov.uk/government/publications/price-personalisation-evidence-from-the-uk-online-market",
+          "date": "2026-11-19T16:25:51.000Z"
+        },
+        {
+          "title": "Horizon Shortfall Scheme: independent assessor privacy notice",
+          "url": "https://www.gov.uk/government/publications/horizon-shortfall-scheme-independent-assessor-privacy-notice",
+          "date": "2026-11-19T14:29:53.000Z"
+        },
+        {
+          "title": "UK confirms participation at Expo 2030 Riyadh",
+          "url": "https://www.gov.uk/government/news/uk-confirms-participation-at-expo-2030-riyadh",
+          "date": "2026-11-19T13:23:22.000Z"
+        },
+        {
+          "title": "Notice to exporters 2026/25: Cryptographic OIELs will be discontinued",
+          "url": "https://www.gov.uk/government/publications/notice-to-exporters-202625-cryptographic-oiels-will-be-discontinued",
+          "date": "2026-11-19T10:00:00.000Z"
+        },
+        {
+          "title": "British Industrial Competitiveness Scheme: guidance for suppliers",
+          "url": "https://www.gov.uk/government/publications/british-industrial-competitiveness-scheme-guidance-for-suppliers",
+          "date": "2026-11-19T10:00:00.000Z"
+        },
+        {
+          "title": "Trade remedies notices: robot lawn mowers from China (anti-dumping)",
+          "url": "https://www.gov.uk/government/publications/trade-remedies-notices-robot-lawn-mowers-from-china-anti-dumping",
+          "date": "2026-11-18T15:30:03.000Z"
+        },
+        {
+          "title": "Arbitrators for UK free trade agreements (FTAs)",
+          "url": "https://www.gov.uk/government/publications/arbitrators-for-uk-free-trade-agreements-ftas",
+          "date": "2026-11-18T14:33:51.000Z"
+        },
+        {
+          "title": "HSS fixed sum offer permission to appeal process: registration form",
+          "url": "https://www.gov.uk/government/publications/hss-fixed-sum-offer-permission-to-appeal-process-registration-form",
+          "date": "2026-11-18T13:51:44.000Z"
+        },
+        {
+          "title": "Horizon Shortfall Scheme (HSS): fixed sum offer permission to appeal process",
+          "url": "https://www.gov.uk/government/publications/horizon-shortfall-scheme-hss-fixed-sum-offer-permission-to-appeal-process",
+          "date": "2026-11-18T13:51:03.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Bank of England",
+      "status": "ok",
+      "checkedAt": "2026-11-24T07:07:27.886Z",
+      "items": [
+        {
+          "title": "General insurance stress test highlights value of rehearsing crisis response and recovery",
+          "url": "https://www.bankofengland.co.uk/news/2026/november/general-insurance-stress-test-highlights-value-of-rehearsing-crisis-response-and-recovery",
+          "date": "2026-11-23T10:00:00.000Z"
+        },
+        {
+          "title": "Cyber resilience guidance consultation and AI and quantum effective practices",
+          "url": "https://www.bankofengland.co.uk/news/2026/november/cyber-resilience-guidance-consultation-and-ai-and-quantum-effective-practices",
+          "date": "2026-11-19T08:00:00.000Z"
+        },
+        {
+          "title": "Minutes of the Market Participants Group meeting – 18 November 2026",
+          "url": "https://www.bankofengland.co.uk/minutes/2026/november/market-participants-group-meeting-18-november-2026",
+          "date": "2026-11-19T07:30:00.000Z"
+        },
+        {
+          "title": "The Bank of England, the Monetary Authority of Singapore, and the Bank of Thailand: Project Meridian FX APAC",
+          "url": "https://www.bankofengland.co.uk/news/2026/november/the-boe-monetary-authority-of-singapore-and-bank-of-thailand-media-release",
+          "date": "2026-11-13T09:00:00.000Z"
+        },
+        {
+          "title": "Exchange of letters between the Governor and the Chancellor on the Asset Purchase Facility - November 2026",
+          "url": "https://www.bankofengland.co.uk/letter/2026/asset-purchase-facility-november-2026",
+          "date": "2026-11-10T12:00:00.000Z"
+        },
+        {
+          "title": "Bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
+          "date": "2026-11-05T12:00:00.000Z"
+        },
+        {
+          "title": "Summary of the RTGS CHAPS Industry Forum - 13 October 2026",
+          "url": "https://www.bankofengland.co.uk/minutes/2026/october/rtgs-chaps-industry-forum-13-october-2026",
+          "date": "2026-11-04T14:51:45.000Z"
+        },
+        {
+          "title": "Regulators explore credit union reforms to support growth, innovation and better outcomes for members",
+          "url": "https://www.bankofengland.co.uk/news/2026/november/regulators-explore-credit-union-reforms-to-support-growth-innovation-and-better-outcomes-for-members",
+          "date": "2026-11-03T10:00:00.000Z"
+        },
+        {
+          "title": "Minutes of the Meeting of the Court of Directors held on 17 September 2026",
+          "url": "https://www.bankofengland.co.uk/minutes/2026/september/court-minutes-17-september-2026",
+          "date": "2026-10-29T14:00:00.000Z"
+        },
+        {
+          "title": "Bank of England sets out approach to tokenised collateral in central clearing",
+          "url": "https://www.bankofengland.co.uk/news/2026/october/bank-of-england-sets-out-approach-to-tokenised-collateral-in-central-clearing",
+          "date": "2026-10-29T10:00:00.000Z"
+        },
+        {
+          "title": "Remit for the Monetary Policy Committee - October 2026",
+          "url": "https://www.bankofengland.co.uk/letter/2026/mpc-remit-2026",
+          "date": "2026-10-28T14:16:49.000Z"
+        },
+        {
+          "title": "Regulators unveil plans to simplify Senior Manager and Certification Regime",
+          "url": "https://www.bankofengland.co.uk/news/2026/october/regulators-unveil-plans-to-simplify-senior-manager-and-certification-regime",
+          "date": "2026-10-22T20:00:00.000Z"
+        },
+        {
+          "title": "Minutes of the Securities Lending Committee meeting – September 2026",
+          "url": "https://www.bankofengland.co.uk/minutes/2026/september/securities-lending-committee-meeting-september-2026",
+          "date": "2026-10-22T15:35:53.000Z"
+        },
+        {
+          "title": "Banknote imagery advisory group minutes – 15 July 2026",
+          "url": "https://www.bankofengland.co.uk/minutes/2026/july/banknote-advisory-minutes-15-july",
+          "date": "2026-10-16T11:00:00.000Z"
+        },
+        {
+          "title": "David Roberts CV and questionnaire for the Treasury Select Committee",
+          "url": "https://www.bankofengland.co.uk/news/2026/october/david-roberts-tsc-reappointment",
+          "date": "2026-10-15T09:52:41.000Z"
+        }
+      ]
+    },
+    {
+      "name": "PRA",
+      "status": "ok",
+      "checkedAt": "2026-11-24T07:07:28.046Z",
+      "items": [
+        {
+          "title": "Dynamic General Insurance Stress Test (DyGIST): 2026 results",
+          "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2026/november/dygist-2026",
+          "date": "2026-11-23T10:00:00.000Z"
+        },
+        {
+          "title": "Effective practices: Cyber risk and resilience management relating to quantum computing",
+          "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2026/november/effective-practices-cyber-risk-and-resilience-management-relating-to-quantum-computing",
+          "date": "2026-11-19T10:00:00.000Z"
+        },
+        {
+          "title": "Effective practices: Cyber risk and resilience management relating to artificial intelligence (AI)",
+          "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2026/november/effective-practices-cyber-risk-and-resilience-management-relating-to-artificial-intelligence",
+          "date": "2026-11-19T10:00:00.000Z"
+        },
+        {
+          "title": "CP17/26 and GC26/9 – Cyber risk and resilience management",
+          "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2026/november/cyber-risk-and-resilience-management-consultation-paper",
+          "date": "2026-11-19T08:00:00.000Z"
+        },
+        {
+          "title": "CP16/26 – Clarifying the Prudential Regulation Authority’s approach to the implementation of the O-SII buffer",
+          "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2026/november/clarifying-the-pra-approach-to-the-implementation-of-the-o-sii-buffer-consultation-paper",
+          "date": "2026-11-18T10:00:00.000Z"
+        },
+        {
+          "title": "PS20/26 – Amendments to the Large Exposures Framework – Part 2",
+          "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2026/november/amendments-to-the-large-exposures-framework-part-2-policy-statement",
+          "date": "2026-11-10T10:00:00.000Z"
+        },
+        {
+          "title": "CP15/26 – Northern Ireland Credit Unions: Implementing legislative changes",
+          "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2026/november/nicu-implementing-legislative-changes-consultation-paper",
+          "date": "2026-11-03T10:00:00.000Z"
+        },
+        {
+          "title": "DP2/26 – Credit Unions: Supporting sustainable growth and resilience",
+          "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2026/november/credit-unions-supporting-sustainable-growth-and-resilience-discussion-paper",
+          "date": "2026-11-03T10:00:00.000Z"
+        },
+        {
+          "title": "PRA Regulatory Digest – October 2026",
+          "url": "https://www.bankofengland.co.uk/prudential-regulation/regulatory-digest/2026/october-2026",
+          "date": "2026-11-02T10:00:00.000Z"
+        },
+        {
+          "title": "CP14/26 – Review of the Senior Managers and Certification Regime (SM&CR) – Phase 2",
+          "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2026/october/review-of-the-smcr-phase-two-consultation-paper",
+          "date": "2026-10-22T20:00:00.000Z"
+        },
+        {
+          "title": "SS2/26 – High loan to income lending",
+          "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2026/october/high-loan-to-income-lending-supervisory-statement",
+          "date": "2026-10-14T09:00:00.000Z"
+        },
+        {
+          "title": "PS19/26 – High loan to income lending",
+          "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2026/october/high-loan-to-income-lending-policy-statement",
+          "date": "2026-10-14T09:00:00.000Z"
+        },
+        {
+          "title": "CP13/26 – The Prudential Regulation Authority’s automatic thresholds indexation framework",
+          "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2026/october/updating-regulatory-thresholds-consultation-paper",
+          "date": "2026-10-07T09:00:00.000Z"
+        },
+        {
+          "title": "PRA Regulatory Digest – September 2026",
+          "url": "https://www.bankofengland.co.uk/prudential-regulation/regulatory-digest/2026/september-2026",
+          "date": "2026-10-01T09:00:00.000Z"
+        },
+        {
+          "title": "Letter from David Bailey 'Thematic feedback on accounting for IFRS 9 expected credit losses (ECL)'",
+          "url": "https://www.bankofengland.co.uk/prudential-regulation/letter/2026/thematic-feedback-on-accounting-for-ifrs-9-ecl",
+          "date": "2026-09-30T14:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "name": "FCA",
+      "status": "ok",
+      "checkedAt": "2026-11-24T07:07:28.259Z",
+      "items": [
+        {
+          "title": "Kandoo Car Credit Ltd enters administration",
+          "url": "https://www.fca.org.uk/news/news-stories/kandoo-car-credit-ltd-enters-administration",
+          "date": null
+        },
+        {
+          "title": "Bereaved families need support, not a battle with paperwork",
+          "url": "https://www.fca.org.uk/news/press-releases/bereaved-families-need-support-not-battle-paperwork",
+          "date": null
+        },
+        {
+          "title": "Geordie Shore star and illegal finfluencer sentenced for promoting high-risk investments on social media",
+          "url": "https://www.fca.org.uk/news/press-releases/geordie-shore-star-illegal-finfluencer-sentenced-promoting-high-risk-investments-social-media",
+          "date": null
+        },
+        {
+          "title": "The courage to change",
+          "url": "https://www.fca.org.uk/news/speeches/courage-change",
+          "date": null
+        },
+        {
+          "title": "Insurance firms called on to improve claims handling",
+          "url": "https://www.fca.org.uk/news/news-stories/insurance-firms-called-improve-claims-handling",
+          "date": null
+        },
+        {
+          "title": "FCA launches world-first platform giving firms new insight into AI innovation",
+          "url": "https://www.fca.org.uk/news/press-releases/fca-launches-world-first-platform-giving-firms-new-insight-ai-innovation",
+          "date": null
+        },
+        {
+          "title": "UK financial watchdogs clarify cyber expectations as attacks rise",
+          "url": "https://www.fca.org.uk/news/press-releases/uk-financial-watchdogs-clarify-cyber-expectations-attacks-rise",
+          "date": null
+        },
+        {
+          "title": "Helping more people break the cycle of persistent credit card debt",
+          "url": "https://www.fca.org.uk/news/blogs/helping-more-people-break-cycle-persistent-credit-card-debt",
+          "date": null
+        },
+        {
+          "title": "FCA charges individual with money laundering",
+          "url": "https://www.fca.org.uk/news/press-releases/fca-charges-individual-money-laundering",
+          "date": null
+        },
+        {
+          "title": "Getting the full picture of trading in UK shares",
+          "url": "https://www.fca.org.uk/news/blogs/getting-full-picture-trading-uk-shares",
+          "date": null
+        },
+        {
+          "title": "What we’re learning from firms engaging with our innovation services",
+          "url": "https://www.fca.org.uk/news/blogs/what-were-learning-firms-engaging-our-innovation-services",
+          "date": null
+        },
+        {
+          "title": "FCA proposes greater pension investment flexibility to support long-term value for savers",
+          "url": "https://www.fca.org.uk/news/press-releases/fca-proposes-greater-pension-investment-flexibility-support-long-term-value-savers",
+          "date": null
+        },
+        {
+          "title": "Man sentenced over £154m fake takeover bid targeting UK-listed company",
+          "url": "https://www.fca.org.uk/news/press-releases/man-sentenced-over-154m-fake-takeover-bid-targeting-uk-listed-company",
+          "date": null
+        },
+        {
+          "title": "The not-so-fine print: making consumer contracts fair",
+          "url": "https://www.fca.org.uk/news/blogs/not-so-fine-print-making-consumer-contracts-fair",
+          "date": null
+        },
+        {
+          "title": "FCA acts to protect consumers facing demands for disguised remuneration scheme loan repayments",
+          "url": "https://www.fca.org.uk/news/statements/fca-acts-protect-consumers-demands-disguised-remuneration-scheme-loan-repayments",
+          "date": null
+        }
+      ]
+    }
+  ]
+}
