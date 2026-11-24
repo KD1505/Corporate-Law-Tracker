@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-24T08:32:03.922Z",
-  "totalExceptions": 1444,
+  "generatedAt": "2026-11-24T08:38:41.501Z",
+  "totalExceptions": 1445,
   "queued": 500,
   "note": "A bounded editor review queue, not a claim that all flagged entries have been manually checked.",
   "items": [
