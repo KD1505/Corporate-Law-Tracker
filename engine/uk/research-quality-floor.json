@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 1,
+  "notice": "Structural regression floor, not factual certification; justified corrections may revise floors in a reviewed PR.",
+  "records": [
+    {
+      "id": "ocs-mitie",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 5,
+      "minAdvisers": 1,
+      "mappedEvent": true
+    },
+    {
+      "id": "mccormick-unilever",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 6,
+      "minAdvisers": 3,
+      "mappedEvent": true
+    },
+    {
+      "id": "sky-itv",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 4,
+      "minAdvisers": 0,
+      "mappedEvent": true
+    },
+    {
+      "id": "coop-southern",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 4,
+      "minAdvisers": 0,
+      "mappedEvent": true
+    },
+    {
+      "id": "vodafone-three",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 4,
+      "minAdvisers": 1,
+      "mappedEvent": true
+    },
+    {
+      "id": "microsoft-activision",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 4,
+      "minAdvisers": 1,
+      "mappedEvent": true
+    },
+    {
+      "id": "nationwide-virgin",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 3,
+      "minAdvisers": 2,
+      "mappedEvent": true
+    },
+    {
+      "id": "pai-elemis",
+      "minSources": 2,
+      "deep": false,
+      "minClaims": 0,
+      "minAdvisers": 1,
+      "mappedEvent": false
+    },
+    {
+      "id": "leita-mobico",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 3,
+      "minAdvisers": 2,
+      "mappedEvent": true
+    },
+    {
+      "id": "cary-consortium",
+      "minSources": 2,
+      "deep": false,
+      "minClaims": 0,
+      "minAdvisers": 2,
+      "mappedEvent": false
+    },
+    {
+      "id": "goldman-celnor",
+      "minSources": 2,
+      "deep": false,
+      "minClaims": 0,
+      "minAdvisers": 1,
+      "mappedEvent": false
+    },
+    {
+      "id": "rwe-kkr-vanguard",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 4,
+      "minAdvisers": 1,
+      "mappedEvent": true
+    },
+    {
+      "id": "lseg-octus",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 4,
+      "minAdvisers": 2,
+      "mappedEvent": true
+    },
+    {
+      "id": "abp-ifm",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 3,
+      "minAdvisers": 1,
+      "mappedEvent": true
+    },
+    {
+      "id": "abp-term-facility",
+      "minSources": 2,
+      "deep": false,
+      "minClaims": 0,
+      "minAdvisers": 1,
+      "mappedEvent": false
+    },
+    {
+      "id": "uk-logistics-cmbs",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 3,
+      "minAdvisers": 1,
+      "mappedEvent": true
+    },
+    {
+      "id": "standard-chartered-dnn",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 3,
+      "minAdvisers": 1,
+      "mappedEvent": true
+    },
+    {
+      "id": "drax-bluefield",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 5,
+      "minAdvisers": 1,
+      "mappedEvent": true
+    },
+    {
+      "id": "vivisol-airliquide",
+      "minSources": 2,
+      "deep": false,
+      "minClaims": 0,
+      "minAdvisers": 0,
+      "mappedEvent": true
+    },
+    {
+      "id": "firstcash-ramsdens",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 5,
+      "minAdvisers": 3,
+      "mappedEvent": true
+    },
+    {
+      "id": "prologis-segro",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 4,
+      "minAdvisers": 1,
+      "mappedEvent": true
+    },
+    {
+      "id": "aviva-direct-line",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 4,
+      "minAdvisers": 1,
+      "mappedEvent": true
+    },
+    {
+      "id": "carlsberg-britvic",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 4,
+      "minAdvisers": 2,
+      "mappedEvent": true
+    },
+    {
+      "id": "mari-atg",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 4,
+      "minAdvisers": 2,
+      "mappedEvent": true
+    },
+    {
+      "id": "nexfibre-substantial",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 4,
+      "minAdvisers": 3,
+      "mappedEvent": true
+    },
+    {
+      "id": "greencore-bakkavor",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 4,
+      "minAdvisers": 2,
+      "mappedEvent": true
+    },
+    {
+      "id": "synopsys-ansys",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 5,
+      "minAdvisers": 3,
+      "mappedEvent": true
+    },
+    {
+      "id": "international-paper-ds-smith",
+      "minSources": 2,
+      "deep": false,
+      "minClaims": 0,
+      "minAdvisers": 1,
+      "mappedEvent": false
+    },
+    {
+      "id": "adobe-figma",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 4,
+      "minAdvisers": 5,
+      "mappedEvent": true
+    },
+    {
+      "id": "broadcom-vmware",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 4,
+      "minAdvisers": 1,
+      "mappedEvent": true
+    },
+    {
+      "id": "hpe-juniper",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 5,
+      "minAdvisers": 4,
+      "mappedEvent": true
+    },
+    {
+      "id": "athora-picg",
+      "minSources": 2,
+      "deep": false,
+      "minClaims": 0,
+      "minAdvisers": 2,
+      "mappedEvent": true
+    },
+    {
+      "id": "itm-gbe-equity",
+      "minSources": 2,
+      "deep": false,
+      "minClaims": 0,
+      "minAdvisers": 1,
+      "mappedEvent": true
+    },
+    {
+      "id": "cip-noriker-kilmarnock",
+      "minSources": 2,
+      "deep": false,
+      "minClaims": 0,
+      "minAdvisers": 1,
+      "mappedEvent": true
+    },
+    {
+      "id": "aab-kreston-reeves",
+      "minSources": 2,
+      "deep": false,
+      "minClaims": 0,
+      "minAdvisers": 2,
+      "mappedEvent": true
+    },
+    {
+      "id": "tilleghem-saragossa",
+      "minSources": 2,
+      "deep": false,
+      "minClaims": 0,
+      "minAdvisers": 1,
+      "mappedEvent": true
+    },
+    {
+      "id": "boralex-wind2",
+      "minSources": 2,
+      "deep": false,
+      "minClaims": 0,
+      "minAdvisers": 1,
+      "mappedEvent": true
+    },
+    {
+      "id": "chesnara-metlife-uk",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 4,
+      "minAdvisers": 1,
+      "mappedEvent": true
+    },
+    {
+      "id": "cinven-theramex",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 3,
+      "minAdvisers": 3,
+      "mappedEvent": true
+    },
+    {
+      "id": "softcat-gdt",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 3,
+      "minAdvisers": 1,
+      "mappedEvent": true
+    },
+    {
+      "id": "harp-hargreaves-lansdown",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 6,
+      "minAdvisers": 3,
+      "mappedEvent": true
+    },
+    {
+      "id": "ep-ids-royal-mail",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 7,
+      "minAdvisers": 1,
+      "mappedEvent": true
+    }
+  ],
+  "strictIds": [
+    "harp-hargreaves-lansdown",
+    "ep-ids-royal-mail"
+  ]
+}

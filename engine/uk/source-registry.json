@@ -666,7 +666,8 @@
         "https://www.slaughterandmay.com/recent-work/chesnara-on-its-acquisition-of-metlife-uk-limited-metlife-s-closed-book-life-insurance-company/",
         "https://www.slaughterandmay.com/recent-work/advised-softcat-on-the-acquisition-of-general-datatech/",
         "https://www.slaughterandmay.com/insights/client-case-studies/transforming-softcat-into-a-leading-global-it-solutions-business/",
-        "https://www.slaughterandmay.com/services/practices/foreign-investment-and-national-security/"
+        "https://www.slaughterandmay.com/services/practices/foreign-investment-and-national-security/",
+        "https://www.slaughterandmay.com/recent-work/ids-on-its-3-5billion-recommended-all-cash-offer-by-ep-group/"
       ],
       "transactionIds": [
         "nationwide-virgin",
@@ -1042,11 +1043,13 @@
       "state": "referenced; retrieval and independence not certified",
       "documentUrls": [
         "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000112476/NI-000112476.pdf",
-        "https://data.fca.org.uk/artefacts/NSM/RNS/ef40df77-6c61-42aa-868a-5d3cbf3548a2.html"
+        "https://data.fca.org.uk/artefacts/NSM/RNS/ef40df77-6c61-42aa-868a-5d3cbf3548a2.html",
+        "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000103868/NI-000103868.pdf"
       ],
       "transactionIds": [
         "aviva-direct-line",
-        "softcat-gdt"
+        "softcat-gdt",
+        "harp-hargreaves-lansdown"
       ],
       "lastRetrieval": null,
       "accessReview": "Source-specific review pending",
@@ -1485,16 +1488,39 @@
       "claimUse": "Inspect document and claim before publication"
     },
     {
-      "host": "investegate.co.uk",
+      "host": "idsoffer.shareview.info",
       "state": "referenced; retrieval and independence not certified",
       "documentUrls": [
-        "https://www.investegate.co.uk/announcement/rns/hargreaves-lansdown--hl./offer-for-hargreaves-lansdown-plc/8358252",
-        "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/recommended-cash-offer-for-ids-plc/8227019",
-        "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/declaration-of-the-special-dividend/8855268",
-        "https://www.investegate.co.uk/announcement/rns/international-distributions-services--ids/closure-of-the-offer-and-compulsory-acquisition-/8899272"
+        "https://idsoffer.shareview.info/docs/Offer_Document.pdf",
+        "https://idsoffer.shareview.info/docs/offer_declared_unconditional.pdf"
       ],
       "transactionIds": [
-        "harp-hargreaves-lansdown",
+        "ep-ids-royal-mail"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "epgroup.eu",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://epgroup.eu/en/press-releases/the-ep-group-reported-exceptional-growth-in-2025"
+      ],
+      "transactionIds": [
+        "ep-ids-royal-mail"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "data.parliament.uk",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://data.parliament.uk/DepositedPapers/Files/DEP2024-0823/2024-12-16-HMG_DBT_Deed_of_Undertaking.pdf"
+      ],
+      "transactionIds": [
         "ep-ids-royal-mail"
       ],
       "lastRetrieval": null,
@@ -2088,5 +2114,23 @@
     "knownGaps",
     "alternativeSources"
   ],
-  "monitoringPolicy": "Active cases daily and at deadlines; company/counsel discovery daily subject to permitted collection; closed cases quarterly or event-driven; legal authorities at effective-date change. Alert on stale payloads, empty results, repeated hashes and failures."
+  "monitoringPolicy": "Active cases daily and at deadlines; company/counsel discovery daily subject to permitted collection; closed cases quarterly or event-driven; legal authorities at effective-date change. Alert on stale payloads, empty results, repeated hashes and failures.",
+  "plannedFeedExpansion": [
+    {
+      "name": "HPE",
+      "state": "adapter configured; live retrieval not yet observed"
+    },
+    {
+      "name": "Adobe",
+      "state": "adapter configured; live retrieval not yet observed"
+    },
+    {
+      "name": "Broadcom",
+      "state": "adapter configured; live retrieval not yet observed"
+    },
+    {
+      "name": "Figma",
+      "state": "adapter configured; live retrieval not yet observed"
+    }
+  ]
 }
