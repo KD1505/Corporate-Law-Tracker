@@ -21,3 +21,6 @@ Root and /uk.html generated from one editorial document; /india.html is the esta
 
 ## Reading desk and official newswire
 Curated reading desk links to dated analysis. Separate automated title/link feed queries GOV.UK organisation search and published Bank of England/PRA/FCA RSS endpoints; per-source success/failure and prior snapshots are retained. This is discovery, not editorial verification. No automated proprietary issuer feed or paywall access.
+
+## Research and careers v3
+Historical and current dossiers add evidence-backed chronology; application windows are manually reviewed, with date-aware display and a local tracker. No live vacancy or visa guarantee. Coverage bars count curated dossiers only; compare two deals without aggregating figures. Academy includes diligence, data/IP, employment, contracts, statistics and firm economics. Existing India architecture unchanged.

@@ -3,7 +3,7 @@ on:
   pull_request:
     paths: ['uk.html','uk/**','engine/uk/**','.github/workflows/uk.yml','index.html','india.html','vercel.json']
   push:
-    branches: [uk-intelligence-foundation, uk-portal-v2, uk-daily-desk, main]
+    branches: [uk-intelligence-foundation, uk-portal-v2, uk-daily-desk, uk-research-careers-v3, main]
     paths: ['uk.html','uk/**','engine/uk/**','.github/workflows/uk.yml']
   schedule:
     - cron: '20 6 * * *'
