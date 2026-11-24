@@ -294,6 +294,22 @@
         {
           "name": "Unilever Q3 update",
           "url": "https://www.unilever.com/news/press-and-media/press-releases/2026/continued-strong-performance-in-the-third-quarter/"
+        },
+        {
+          "name": "McCormick announcement",
+          "url": "https://ir.mccormick.com/news-releases/news-release-details/mccormick-combine-unilevers-foods-business-creating-preeminent"
+        },
+        {
+          "name": "Clifford Chance mandate",
+          "url": "https://www.cliffordchance.com/news/news/2026/03/clifford-chance-advises-unilever-on-the-45bn-combination-of-unilever-foods1-with-mccormick-and-company-inc.html"
+        },
+        {
+          "name": "Hogan Lovells mandate",
+          "url": "https://www.hlc.com/en/news/hogan-lovells-advises-mccormick-on-its-landmark-448-billion-acquisition-of-unilevers-food-division"
+        },
+        {
+          "name": "Cleary Gottlieb mandate",
+          "url": "https://www.clearygottlieb.com/news-and-insights/news-listing/mccormick-in-44-8-billion-merger-with-unilevers-foods-business"
         }
       ],
       "related": [
@@ -320,6 +336,16 @@
       "structure": "Separation of Unilever Foods and combination with McCormick via a Reverse Morris Trust structure.",
       "values": [
         {
+          "label": "Announced Unilever Foods enterprise value",
+          "amount": "US$44.8bn",
+          "numericAmount": 44800000000,
+          "currency": "USD",
+          "basis": "enterprise-value",
+          "source": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+          "unit": "currency",
+          "disclosure": "approximate"
+        },
+        {
           "label": "Announced cash component (subject to adjustments)",
           "amount": "US$15.7bn",
           "source": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
@@ -336,6 +362,26 @@
           "basis": "financing-commitment",
           "currency": "USD",
           "numericAmount": 15700000000,
+          "unit": "currency",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Illustrative equity component at announcement VWAP",
+          "amount": "US$29.1bn",
+          "numericAmount": 29100000000,
+          "currency": "USD",
+          "basis": "equity-consideration",
+          "source": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+          "unit": "currency",
+          "disclosure": "approximate"
+        },
+        {
+          "label": "Specified termination fee (conditional, not purchase price)",
+          "amount": "US$420m",
+          "numericAmount": 420000000,
+          "currency": "USD",
+          "basis": "termination-fee",
+          "source": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
           "unit": "currency",
           "disclosure": "stated"
         }
@@ -360,7 +406,220 @@
         }
       ],
       "legalWork": "Carve-out perimeter, transition services, tax structuring, financing commitments and remedy allocation should be negotiated together. Assess whether a required divestment would undermine the economics of the combined foods business.",
-      "interview": "How does a carve-out differ from a simple share acquisition, and what happens to the financing case if competition remedies remove profitable brands?"
+      "interview": "How does a carve-out differ from a simple share acquisition, and what happens to the financing case if competition remedies remove profitable brands?",
+      "factSources": [
+        "https://www.gov.uk/cma-cases/mccormick-slash-unilever-merger-inquiry",
+        "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+        "https://www.unilever.com/news/press-and-media/press-releases/2026/continued-strong-performance-in-the-third-quarter/",
+        "https://ir.mccormick.com/news-releases/news-release-details/mccormick-combine-unilevers-foods-business-creating-preeminent"
+      ],
+      "advisers": [
+        {
+          "firmId": "clifford-chance",
+          "firm": "Clifford Chance",
+          "client": "Unilever",
+          "scope": "Seller-side combination",
+          "source": "https://www.cliffordchance.com/news/news/2026/03/clifford-chance-advises-unilever-on-the-45bn-combination-of-unilever-foods1-with-mccormick-and-company-inc.html"
+        },
+        {
+          "firmId": "hogan-lovells",
+          "firm": "Hogan Lovells",
+          "client": "McCormick",
+          "scope": "Multi-jurisdictional acquisition counsel",
+          "source": "https://www.hlc.com/en/news/hogan-lovells-advises-mccormick-on-its-landmark-448-billion-acquisition-of-unilevers-food-division"
+        },
+        {
+          "firmId": "cleary-gottlieb",
+          "firm": "Cleary Gottlieb",
+          "client": "McCormick",
+          "scope": "Combination counsel including M&A, US/UK tax and finance",
+          "source": "https://www.clearygottlieb.com/news-and-insights/news-listing/mccormick-in-44-8-billion-merger-with-unilevers-foods-business"
+        }
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Perimeter and consideration",
+            "text": "The proposed separation excludes India, Nepal and Portugal food operations and specified other businesses. The transaction attributes approximately $44.8bn EV to the transferred Foods business; the $29.1bn illustrative share component uses the announcement reference share price. The $15.7bn cash payment is adjustable at closing. These components should not be confused with the combined company's valuation.",
+            "evidence": [
+              {
+                "url": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+                "publisher": "Unilever",
+                "locator": "Transaction details and Appendix 1"
+              },
+              {
+                "url": "https://ir.mccormick.com/news-releases/news-release-details/mccormick-combine-unilevers-foods-business-creating-preeminent",
+                "publisher": "McCormick",
+                "locator": "Transaction overview"
+              },
+              {
+                "url": "https://www.hlc.com/en/news/hogan-lovells-advises-mccormick-on-its-landmark-448-billion-acquisition-of-unilevers-food-division",
+                "publisher": "Hogan Lovells",
+                "locator": "Mandate announcement and value"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Ownership and structure",
+            "text": "The announced Reverse Morris Trust transaction separates the Foods business before combination with McCormick. On closing, existing Unilever shareholders are expected to own 55.1%, Unilever 9.9%, and existing McCormick shareholders 35% of fully diluted equity. The separation agreement addresses intercompany balances and closing adjustments.",
+            "evidence": [
+              {
+                "url": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+                "publisher": "Unilever",
+                "locator": "Principal terms / Separation and Distribution Agreement"
+              },
+              {
+                "url": "https://ir.mccormick.com/news-releases/news-release-details/mccormick-combine-unilevers-foods-business-creating-preeminent",
+                "publisher": "McCormick",
+                "locator": "Transaction details"
+              },
+              {
+                "url": "https://www.clearygottlieb.com/news-and-insights/news-listing/mccormick-in-44-8-billion-merger-with-unilevers-foods-business",
+                "publisher": "Cleary Gottlieb",
+                "locator": "Expected post-closing ownership"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Financing and leverage",
+            "text": "The $15.7bn committed bridge is a financing commitment, not an additional acquisition payment. Permanent funding is intended to combine new borrowing with balance-sheet cash. The parties forecast net leverage no higher than 4.0x at closing and a return to 3.0x within two years; those targets depend on execution and are not achieved results.",
+            "evidence": [
+              {
+                "url": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+                "publisher": "Unilever",
+                "locator": "Financing and leverage"
+              },
+              {
+                "url": "https://ir.mccormick.com/news-releases/news-release-details/mccormick-combine-unilevers-foods-business-creating-preeminent",
+                "publisher": "McCormick",
+                "locator": "Financing and capital structure"
+              }
+            ],
+            "qualification": "forecast"
+          },
+          {
+            "heading": "Contractual risk allocation",
+            "text": "The merger agreement provides a conditional $420m termination payment in defined recommendation-change or competing-transaction circumstances; a separate capped $75m expense reimbursement applies in specified shareholder-approval failure circumstances. These are not unconditional obligations.",
+            "evidence": [
+              {
+                "url": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+                "publisher": "Unilever",
+                "locator": "Appendix 1, Merger Agreement"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Current competition procedure",
+            "text": "CMA opened formal Phase 1 on 16 September and on 11 November identified potential substantial lessening of competition. An in-depth referral can be avoided if acceptable undertakings are offered. The published case has not established clearance. The parties' mid-2027 closing expectation remains conditional.",
+            "evidence": [
+              {
+                "url": "https://www.gov.uk/cma-cases/mccormick-slash-unilever-merger-inquiry",
+                "publisher": "CMA",
+                "locator": "Phase 1 / decision and timetable"
+              },
+              {
+                "url": "https://www.clearygottlieb.com/news-and-insights/news-listing/mccormick-in-44-8-billion-merger-with-unilevers-foods-business",
+                "publisher": "Cleary Gottlieb",
+                "locator": "Expected closing subject to approvals"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Mandate allocation",
+            "text": "Clifford Chance identifies Unilever as its client; Hogan Lovells and Cleary separately identify McCormick as theirs. The latter disclosures describe cross-border corporate, antitrust, finance, tax and other specialist roles. A firm announcement establishes its disclosed mandate, not exclusivity.",
+            "evidence": [
+              {
+                "url": "https://www.cliffordchance.com/news/news/2026/03/clifford-chance-advises-unilever-on-the-45bn-combination-of-unilever-foods1-with-mccormick-and-company-inc.html",
+                "publisher": "Clifford Chance",
+                "locator": "Client attribution"
+              },
+              {
+                "url": "https://www.hlc.com/en/news/hogan-lovells-advises-mccormick-on-its-landmark-448-billion-acquisition-of-unilevers-food-division",
+                "publisher": "Hogan Lovells",
+                "locator": "Client and practice roles"
+              },
+              {
+                "url": "https://www.clearygottlieb.com/news-and-insights/news-listing/mccormick-in-44-8-billion-merger-with-unilevers-foods-business",
+                "publisher": "Cleary Gottlieb",
+                "locator": "Client and specialist teams"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Carve-out",
+            "question": "What assets, liabilities and contracts actually transfer?",
+            "why": "Map exclusions and shared services; test stranded costs, consent requirements and transitional arrangements in IT and distribution.",
+            "documents": "Separation and Distribution Agreement; TSA schedules; asset perimeter and IP register."
+          },
+          {
+            "name": "Tax structure",
+            "question": "What assumptions must hold for the proposed Reverse Morris Trust treatment?",
+            "why": "Evaluate tax opinions, control and continuity requirements and post-closing restrictions; do not assume UK or US tax treatment from the label alone.",
+            "documents": "Tax matters agreement; tax opinions; ownership schedule."
+          },
+          {
+            "name": "Acquisition finance",
+            "question": "How resilient is the capital structure to closing delay or remedies?",
+            "why": "Model debt issuance, bridge maturity, interest rates, adjusted cash consideration and a lower earnings base if divestment is required.",
+            "documents": "Bridge commitments; capital structure model; financing conditions."
+          },
+          {
+            "name": "Competition and governance",
+            "question": "What remedy would compromise the strategic rationale?",
+            "why": "Track remedy proposals separately from management forecasts. Consider approval mechanics, board composition and covenants as the process develops.",
+            "documents": "CMA decision and any undertakings; merger agreement; shareholder materials."
+          }
+        ],
+        "documents": [
+          {
+            "title": "Unilever transaction announcement",
+            "url": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+            "purpose": "Perimeter, economics, principal contractual terms"
+          },
+          {
+            "title": "McCormick announcement",
+            "url": "https://ir.mccormick.com/news-releases/news-release-details/mccormick-combine-unilevers-foods-business-creating-preeminent",
+            "purpose": "Counterparty announcement and financial rationale"
+          },
+          {
+            "title": "CMA case",
+            "url": "https://www.gov.uk/cma-cases/mccormick-slash-unilever-merger-inquiry",
+            "purpose": "Regulatory timetable and published decisions"
+          },
+          {
+            "title": "Clifford Chance mandate",
+            "url": "https://www.cliffordchance.com/news/news/2026/03/clifford-chance-advises-unilever-on-the-45bn-combination-of-unilever-foods1-with-mccormick-and-company-inc.html",
+            "purpose": "Unilever mandate"
+          },
+          {
+            "title": "Hogan Lovells mandate",
+            "url": "https://www.hlc.com/en/news/hogan-lovells-advises-mccormick-on-its-landmark-448-billion-acquisition-of-unilevers-food-division",
+            "purpose": "McCormick mandate"
+          },
+          {
+            "title": "Cleary Gottlieb mandate",
+            "url": "https://www.clearygottlieb.com/news-and-insights/news-listing/mccormick-in-44-8-billion-merger-with-unilevers-foods-business",
+            "purpose": "McCormick mandate and specialist workstreams"
+          }
+        ],
+        "openQuestions": [
+          "Full Phase 1 reasons and any remedy package require further review.",
+          "Actual debt issuance, final closing adjustment and completed separation remain unknown.",
+          "The underlying executed agreement and tax opinions have not been independently inspected in this dossier."
+        ],
+        "relatedDeals": [
+          "carlsberg-britvic",
+          "greencore-bakkavor"
+        ]
+      }
     },
     {
       "id": "sky-itv",
@@ -2219,7 +2478,7 @@
       "eventDate": "2026-10-26",
       "status": "Phase 1 inquiry",
       "sector": "Financial services",
-      "dealType": "M&A / regulatory review",
+      "dealType": "Public M&A",
       "parties": [
         [
           "Buyer",
@@ -2230,14 +2489,24 @@
           "Ramsdens Holdings PLC"
         ]
       ],
-      "structure": "Proposed acquisition under CMA review; consideration and definitive structure not established.",
-      "fact": "CMA launched its formal inquiry into the anticipated acquisition on 26 October.",
+      "structure": "Recommended cash acquisition through a scheme of arrangement by Chess Bidco, an indirect FirstCash subsidiary; revised terms announced 16 July.",
+      "fact": "FirstCash's Chess Bidco agreed an initial offer on 23 June and increased it on 16 July to 675p cash per share plus up to 9p permitted dividends. The revised fully diluted value is approximately £232m including dividends. CMA launched Phase 1 on 26 October.",
       "regulatory": "CMA launched its formal inquiry into the anticipated acquisition on 26 October.",
       "analysis": "The published procedural milestone identifies regulatory risk, not a completed or prohibited transaction. Transaction economics require separate issuer or party evidence.",
       "legalWork": "Assess market overlap in relevant consumer financial services, local competition and any separate regulatory requirements; map completion conditions.",
       "watch": "2026-12-22 — subject to extensions",
       "interview": "How can local market competition affect a national acquisition?",
       "timeline": [
+        {
+          "date": "2026-06-23",
+          "event": "Initial recommended offer announced",
+          "source": "https://www.sec.gov/Archives/edgar/data/840489/000110465926076623/tm2618455d1_ex2-1.htm"
+        },
+        {
+          "date": "2026-07-16",
+          "event": "Revised final offer announced with stated exceptions",
+          "source": "https://www.lse.co.uk/rns/final-recommended-cash-offer-evgpeb59alcpxqd.html"
+        },
         {
           "date": "2026-10-26",
           "event": "Phase 1 inquiry",
@@ -2253,11 +2522,271 @@
         {
           "name": "CMA case",
           "url": "https://www.gov.uk/cma-cases/firstcash-slash-ramsdens-merger-inquiry"
+        },
+        {
+          "name": "23 June Rule 2.7 announcement, SEC exhibit",
+          "url": "https://www.sec.gov/Archives/edgar/data/840489/000110465926076623/tm2618455d1_ex2-1.htm"
+        },
+        {
+          "name": "16 July revised offer, issuer announcement via RNS mirror",
+          "url": "https://www.lse.co.uk/rns/final-recommended-cash-offer-evgpeb59alcpxqd.html"
+        },
+        {
+          "name": "Subsequent financing update, issuer announcement via RNS mirror",
+          "url": "https://www.lse.co.uk/rns/RFX/update-on-financing-arrangements-40ieyskxea1gbs2.html"
+        },
+        {
+          "name": "Gowling WLG mandate",
+          "url": "https://gowlingwlg.com/en/insights-resources/client-work/2026/capital-markets-team-advises-chess-bidco-limited"
         }
       ],
       "related": [
         "merger-control"
-      ]
+      ],
+      "factSources": [
+        "https://www.gov.uk/cma-cases/firstcash-slash-ramsdens-merger-inquiry",
+        "https://www.lse.co.uk/rns/final-recommended-cash-offer-evgpeb59alcpxqd.html",
+        "https://www.sec.gov/Archives/edgar/data/840489/000110465926076623/tm2618455d1_ex2-1.htm"
+      ],
+      "announcedOn": "2026-06-23",
+      "values": [
+        {
+          "label": "Revised fully diluted value including permitted dividends",
+          "amount": "Up to c.£232m",
+          "numericAmount": 232000000,
+          "currency": "GBP",
+          "basis": "acquisition-value",
+          "source": "https://www.lse.co.uk/rns/final-recommended-cash-offer-evgpeb59alcpxqd.html",
+          "unit": "currency",
+          "disclosure": "approximate"
+        },
+        {
+          "label": "Revised cash consideration in aggregate",
+          "amount": "c.£229m",
+          "numericAmount": 229000000,
+          "currency": "GBP",
+          "basis": "cash-component",
+          "source": "https://www.lse.co.uk/rns/final-recommended-cash-offer-evgpeb59alcpxqd.html",
+          "unit": "currency",
+          "disclosure": "approximate"
+        },
+        {
+          "label": "Revised bid cash price per share",
+          "amount": "675p",
+          "numericAmount": 6.75,
+          "currency": "GBP",
+          "basis": "cash-per-share",
+          "source": "https://www.lse.co.uk/rns/final-recommended-cash-offer-evgpeb59alcpxqd.html",
+          "unit": "currency-per-share",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Permitted dividend cap per share",
+          "amount": "9p",
+          "numericAmount": 0.09,
+          "currency": "GBP",
+          "basis": "dividend-per-share",
+          "source": "https://www.lse.co.uk/rns/final-recommended-cash-offer-evgpeb59alcpxqd.html",
+          "unit": "currency-per-share",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Initial announced fully diluted offer value (superseded)",
+          "amount": "c.£206m",
+          "numericAmount": 206000000,
+          "currency": "GBP",
+          "basis": "historical-offer-value",
+          "source": "https://gowlingwlg.com/en/insights-resources/client-work/2026/capital-markets-team-advises-chess-bidco-limited",
+          "unit": "currency",
+          "disclosure": "approximate"
+        },
+        {
+          "label": "July amended bridge facility ceiling",
+          "amount": "Up to £239m",
+          "numericAmount": 239000000,
+          "currency": "GBP",
+          "basis": "financing-commitment",
+          "source": "https://www.lse.co.uk/rns/final-recommended-cash-offer-evgpeb59alcpxqd.html",
+          "unit": "currency",
+          "disclosure": "stated"
+        }
+      ],
+      "financing": "July amended bridge facility up to £239m; subsequent update envisaged drawing the US unsecured revolving facility and published a further amendment. Commitment ceiling is not an actual drawing.",
+      "advisers": [
+        {
+          "firmId": "gowling-wlg",
+          "firm": "Gowling WLG",
+          "client": "FirstCash / Chess Bidco",
+          "scope": "English law bidder counsel",
+          "source": "https://www.sec.gov/Archives/edgar/data/840489/000110465926076623/tm2618455d1_ex2-1.htm"
+        },
+        {
+          "firmId": "alston-bird",
+          "firm": "Alston & Bird",
+          "client": "FirstCash / Chess Bidco",
+          "scope": "US law bidder counsel",
+          "source": "https://www.sec.gov/Archives/edgar/data/840489/000110465926076623/tm2618455d1_ex2-1.htm"
+        },
+        {
+          "firmId": "addleshaw",
+          "firm": "Addleshaw Goddard",
+          "client": "Ramsdens Holdings",
+          "scope": "Target legal adviser",
+          "source": "https://www.sec.gov/Archives/edgar/data/840489/000110465926076623/tm2618455d1_ex2-1.htm"
+        }
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Original offer versus revised price",
+            "text": "The initial bid valued Ramsdens at about £206m fully diluted including the permitted dividend entitlement. The July revision increased the cash price from 600p to 675p. Including up to 9p dividends, total shareholder value is up to 684p or approximately £232m fully diluted. The cash consideration itself is approximately £229m. This is a proposed acquisition, not a completed payment.",
+            "evidence": [
+              {
+                "url": "https://www.sec.gov/Archives/edgar/data/840489/000110465926076623/tm2618455d1_ex2-1.htm",
+                "publisher": "FirstCash / Ramsdens",
+                "locator": "Original Rule 2.7 terms"
+              },
+              {
+                "url": "https://gowlingwlg.com/en/insights-resources/client-work/2026/capital-markets-team-advises-chess-bidco-limited",
+                "publisher": "Gowling WLG",
+                "locator": "Initial mandate and valuation"
+              },
+              {
+                "url": "https://www.lse.co.uk/rns/final-recommended-cash-offer-evgpeb59alcpxqd.html",
+                "publisher": "FirstCash / Ramsdens",
+                "locator": "Revised offer and Appendix II"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Premium and value bridge",
+            "text": "The revised announcement calculates a 49% premium for the 675p cash price to the 453p close on 22 June; including the permitted dividends it reports 51%. Its pre-IFRS 16 enterprise valuation is about £229m, distinct from the coincidentally similar aggregate cash payment. The disclosed net cash adjustment is measured at 31 March.",
+            "evidence": [
+              {
+                "url": "https://www.lse.co.uk/rns/final-recommended-cash-offer-evgpeb59alcpxqd.html",
+                "publisher": "FirstCash / Ramsdens",
+                "locator": "Premiums and Appendix II valuation methodology"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Financing evolution",
+            "text": "The July announcement describes a bridge credit agreement amended to provide up to £239m. A subsequent announcement envisages funding from FirstCash's unsecured US revolving facility and refers to a tenth amendment announced 31 August. It also anticipates fees and possible repayment of target indebtedness. The final funding mix or amount drawn has not been established.",
+            "evidence": [
+              {
+                "url": "https://www.lse.co.uk/rns/final-recommended-cash-offer-evgpeb59alcpxqd.html",
+                "publisher": "FirstCash / Ramsdens",
+                "locator": "Financing of the acquisition"
+              },
+              {
+                "url": "https://www.lse.co.uk/rns/RFX/update-on-financing-arrangements-40ieyskxea1gbs2.html",
+                "publisher": "FirstCash / Bidco",
+                "locator": "FirstCash RCF Agreement"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Regulatory status",
+            "text": "The CMA opened the formal inquiry on 26 October; its published Phase 1 deadline is 22 December subject to any extension. A scheme recommendation is not evidence that competition conditions have been satisfied.",
+            "evidence": [
+              {
+                "url": "https://www.gov.uk/cma-cases/firstcash-slash-ramsdens-merger-inquiry",
+                "publisher": "CMA",
+                "locator": "Statutory timetable and Phase 1"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Adviser allocation",
+            "text": "The Rule 2.7 announcement identifies Alston & Bird and Gowling WLG as US and English law advisers to the bidder side, and Addleshaw Goddard for Ramsdens. Gowling's separate client announcement confirms its Chess Bidco role. The original mandate publication's valuation predates the higher offer.",
+            "evidence": [
+              {
+                "url": "https://www.sec.gov/Archives/edgar/data/840489/000110465926076623/tm2618455d1_ex2-1.htm",
+                "publisher": "FirstCash / Ramsdens",
+                "locator": "Enquiries / legal advisers"
+              },
+              {
+                "url": "https://gowlingwlg.com/en/insights-resources/client-work/2026/capital-markets-team-advises-chess-bidco-limited",
+                "publisher": "Gowling WLG",
+                "locator": "Client work announcement"
+              },
+              {
+                "url": "https://www.lse.co.uk/rns/RFX/update-on-financing-arrangements-40ieyskxea1gbs2.html",
+                "publisher": "FirstCash / Bidco",
+                "locator": "Bidder legal advisers"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Public takeover",
+            "question": "How do permitted dividends and a final offer statement affect the price?",
+            "why": "Model dividend payment timing, reductions for other distributions and the expressly reserved exceptions to the final offer; track the scheme conditions rather than extrapolate a new bid.",
+            "documents": "Rule 2.7 and revised announcement; scheme document; Takeover Code."
+          },
+          {
+            "name": "Competition",
+            "question": "Where might local overlap arise in a consumer financial-services acquisition?",
+            "why": "Assess customer alternatives, store catchments and relevant products separately; these are research questions, not published CMA findings.",
+            "documents": "CMA case; store-level and customer data; decision when published."
+          },
+          {
+            "name": "Finance",
+            "question": "Can the buyer fund the offer under alternative liquidity scenarios?",
+            "why": "Compare the bridge and revolving facilities, available commitments, FX conversion, draw conditions, repayment needs and covenant capacity.",
+            "documents": "Amended bridge credit agreement; RCF amendments; cash confirmation."
+          },
+          {
+            "name": "Regulated business",
+            "question": "What change-of-control and consumer protection questions should be tested?",
+            "why": "Identify the entities, permissions, regulatory conditions and financial crime controls applicable to the actual business; do not assume approvals.",
+            "documents": "Scheme conditions; regulatory permissions; compliance policies."
+          }
+        ],
+        "documents": [
+          {
+            "title": "23 June Rule 2.7 announcement, SEC exhibit",
+            "url": "https://www.sec.gov/Archives/edgar/data/840489/000110465926076623/tm2618455d1_ex2-1.htm",
+            "purpose": "Initial terms and legal advisers"
+          },
+          {
+            "title": "16 July revised offer, issuer announcement via RNS mirror",
+            "url": "https://www.lse.co.uk/rns/final-recommended-cash-offer-evgpeb59alcpxqd.html",
+            "purpose": "Revised price, financing and basis of calculations"
+          },
+          {
+            "title": "Subsequent financing update, issuer announcement via RNS mirror",
+            "url": "https://www.lse.co.uk/rns/RFX/update-on-financing-arrangements-40ieyskxea1gbs2.html",
+            "purpose": "Later RCF amendment disclosure"
+          },
+          {
+            "title": "CMA case",
+            "url": "https://www.gov.uk/cma-cases/firstcash-slash-ramsdens-merger-inquiry",
+            "purpose": "Competition inquiry and deadlines"
+          },
+          {
+            "title": "Gowling WLG mandate",
+            "url": "https://gowlingwlg.com/en/insights-resources/client-work/2026/capital-markets-team-advises-chess-bidco-limited",
+            "purpose": "Separate English counsel mandate confirmation"
+          }
+        ],
+        "openQuestions": [
+          "Current operative scheme conditions, shareholder votes and closing status need further verification.",
+          "The executed credit documentation and final funding draw have not been inspected.",
+          "CMA decision and any remedies remain outstanding at review date."
+        ],
+        "relatedDeals": [
+          "ocs-mitie",
+          "nationwide-virgin"
+        ]
+      }
     },
     {
       "jurisdiction": "UK",
@@ -5481,6 +6010,34 @@
       "url": "https://www.proskauer.com/careers",
       "programme": "See the firm’s official recruitment pages for current programmes.",
       "research": "Compare sponsor counsel with financing sources' counsel across private capital mandates."
+    },
+    {
+      "id": "hogan-lovells",
+      "name": "Hogan Lovells",
+      "url": "https://www.hoganlovells.com/en/careers",
+      "programme": "See the firm's official careers information for current opportunities.",
+      "research": "Review the attributed client-side mandate and original transaction sources. No unverified recruitment deadline is asserted."
+    },
+    {
+      "id": "cleary-gottlieb",
+      "name": "Cleary Gottlieb",
+      "url": "https://www.clearygottlieb.com/careers",
+      "programme": "See the firm's official careers information for current opportunities.",
+      "research": "Review the attributed client-side mandate and original transaction sources. No unverified recruitment deadline is asserted."
+    },
+    {
+      "id": "gowling-wlg",
+      "name": "Gowling WLG",
+      "url": "https://gowlingwlg.com/en/careers",
+      "programme": "See the firm's official careers information for current opportunities.",
+      "research": "Review the attributed client-side mandate and original transaction sources. No unverified recruitment deadline is asserted."
+    },
+    {
+      "id": "alston-bird",
+      "name": "Alston & Bird",
+      "url": "https://www.alston.com/en/careers",
+      "programme": "See the firm's official careers information for current opportunities.",
+      "research": "Review the attributed client-side mandate and original transaction sources. No unverified recruitment deadline is asserted."
     }
   ],
   "registry": [
@@ -5573,6 +6130,18 @@
       "https://www.slaughterandmay.com/recent-work",
       "Mandate discovery",
       "Firm disclosures establish their own client and scope; a second publication of the same statement is not independent corroboration."
+    ],
+    [
+      "SEC EDGAR submissions API",
+      "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
+      "Issuer filing discovery",
+      "Issuer-level submission metadata; not automatic transaction attribution or independent corroboration."
+    ],
+    [
+      "Clifford Chance news RSS",
+      "https://www.cliffordchance.com/rss/rss-feed-news.html",
+      "Counsel announcement discovery",
+      "Titles and links only; client, mandate, jurisdiction and source evidence require editorial review."
     ]
   ],
   "opportunities": [
