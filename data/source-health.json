@@ -1,27 +1,27 @@
 {
-  "asOf": "2026-11-24T07:19:11.395Z",
+  "asOf": "2026-11-24T08:31:58.311Z",
   "monitors": [
     {
       "source": "BSE",
       "kind": "exchange announcement API + bounded official RSS fallback",
       "status": "RSS fallback returned candidate records",
-      "lastAttempt": "2026-11-24T07:19:11.395Z",
-      "lastSuccess": "2026-11-24T07:19:11.395Z",
-      "recentQualifyingRecords": 40,
+      "lastAttempt": "2026-11-24T08:31:58.311Z",
+      "lastSuccess": "2026-11-24T08:31:58.311Z",
+      "recentQualifyingRecords": 58,
       "contentFreshnessProven": true,
       "error": "BSE page 1 failed: bse 403",
-      "recordsInBatch": 40
+      "recordsInBatch": 58
     },
     {
       "source": "NSE",
       "kind": "exchange announcement API + bounded official RSS fallback",
       "status": "RSS fallback returned candidate records",
-      "lastAttempt": "2026-11-24T07:19:11.395Z",
-      "lastSuccess": "2026-11-24T07:19:11.395Z",
-      "recentQualifyingRecords": 12,
+      "lastAttempt": "2026-11-24T08:31:58.311Z",
+      "lastSuccess": "2026-11-24T08:31:58.311Z",
+      "recentQualifyingRecords": 16,
       "contentFreshnessProven": true,
       "error": "NSE failed: This operation was aborted",
-      "recordsInBatch": 12
+      "recordsInBatch": 16
     },
     {
       "source": "RBI / PIB",

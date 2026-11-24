@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-24T07:19:16.810Z",
-  "totalExceptions": 1430,
+  "generatedAt": "2026-11-24T08:32:03.922Z",
+  "totalExceptions": 1444,
   "queued": 500,
   "note": "A bounded editor review queue, not a claim that all flagged entries have been manually checked.",
   "items": [
@@ -3627,6 +3627,16 @@
       ]
     },
     {
+      "id": "jsa-advises-united-spirits-on-investment-in-nuvola-spirits",
+      "headline": "JSA advises United Spirits on investment in Nuvola Spirits",
+      "kind": "needs-research",
+      "importance": "md",
+      "score": 30,
+      "reasons": [
+        "Scraped player metadata; editorial review required"
+      ]
+    },
+    {
       "id": "nse-AHLWEST-01-Jul-2026122259",
       "headline": "Chaman Lal Brijrani Charitale Trust files substantial acquisition disclosure under SEBI Takeover Code",
       "kind": "disclosure",
@@ -3757,6 +3767,16 @@
       ]
     },
     {
+      "id": "jsa-advises-henfruit-on-its-15-million-series-a-fundraise",
+      "headline": "JSA advises Henfruit on its $15 million Series A fundraise",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 27,
+      "reasons": [
+        "Scraped player metadata; editorial review required"
+      ]
+    },
+    {
       "id": "nse-RTNINDIA-06-Jul-2026115622",
       "headline": "Arbutus Consultancy LLP Files SEBI Takeover Disclosure for RattanIndia Enterprises",
       "kind": "disclosure",
@@ -3784,6 +3804,16 @@
       "score": 23,
       "reasons": [
         "Generic filing headline without material transaction facts"
+      ]
+    },
+    {
+      "id": "nse-SHREEJISPG-05-Nov-2026171012",
+      "headline": "Shreeji Shipping Global Limited: General Updates",
+      "kind": "needs-research",
+      "importance": "lo",
+      "score": 23,
+      "reasons": [
+        "Malformed extracted financial value; editorial review required"
       ]
     },
     {
@@ -4969,36 +4999,6 @@
     {
       "id": "nse-SHRADHA-16-Jun-2026130552",
       "headline": "Shradha Realty Limited: Substantial Acquisition Disclosure under SEBI Takeover Regulations",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —"
-      ]
-    },
-    {
-      "id": "nse-BALUFORGE-16-Jun-2026130512",
-      "headline": "Jaikaran Chandock files substantial acquisition disclosure in Balu Forge Industries under SEBI Takeover Regulations",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —, —"
-      ]
-    },
-    {
-      "id": "nse-SWANDEF-15-Jun-2026194708",
-      "headline": "Hazel Infra files takeover disclosure under SEBI Regulations 31(4) for Swan Defence and Heavy Industries",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: —"
-      ]
-    },
-    {
-      "id": "nse-YATRA-15-Jun-2026194604",
-      "headline": "Asia Consolidated DMC Pte. Ltd files substantial acquisition disclosure under SEBI Takeover Code",
       "kind": "disclosure",
       "importance": "lo",
       "score": 17,

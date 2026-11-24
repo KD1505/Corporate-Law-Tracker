@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-11-19T17:00:16.910Z",
+  "generatedAt": "2026-11-24T08:32:03.405Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-11-24-0-nse-rss-3bde51824082579db670bc",
+      "sourceId": "nse-rss-3bde51824082579db670bc",
+      "date": "24 Nov 2026",
+      "category": "Companies Act",
+      "headline": "Kalpataru Limited",
+      "why": "Kalpataru Limited - Kalpataru Limited has informed the Exchange about the receipt of Regional Director confirmation Order for the Scheme of Arrangement (Merger by Absorption) of Kalpataru Hills Residency Private Limited, a step-down…",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://nsearchives.nseindia.com/corporate/ravi_sah_24112026131637_Reg_30_disclosure_-_RD_order_for_merger_of_K_Hills.pdf",
+      "sourceName": "NSE RSS"
+    },
+    {
+      "id": "academy-2026-11-24-1-bse-rss-d64d5315df4f455625ff6b",
+      "sourceId": "bse-rss-d64d5315df4f455625ff6b",
+      "date": "24 Nov 2026",
+      "category": "Companies Act",
+      "headline": "Kalpataru Ltd (544423)",
+      "why": "Kalpataru Ltd (544423) - Intimation regarding the receipt of Regional Director Confirmation Order for the Scheme of Arrangement (Merger by Absorption) of Kalpataru Hills Residency Private Limited, step down wholly-owned subsidiary, with…",
+      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
+      "source": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3cf67013-e76e-47ca-97d9-21e188a9b6a2.pdf",
+      "sourceName": "BSE RSS"
+    },
     {
       "id": "academy-2026-11-19-0-nse-rss-ea4053985280d170fab5b2",
       "sourceId": "nse-rss-ea4053985280d170fab5b2",
@@ -419,28 +441,6 @@
       "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
       "source": "https://nsearchives.nseindia.com/corporate/AURIONPRO_31102026201253_ASL_Outcome_of_Board_Meeting_Merger_sd.pdf",
       "sourceName": "NSE filing - Aurionpro Solutions Limited"
-    },
-    {
-      "id": "academy-2026-10-31-1-nse-apcotexind-31-oct-2026131330",
-      "sourceId": "nse-apcotexind-31-oct-2026131330",
-      "date": "31 Oct 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "Apcotex Industries Limited: Acquisition",
-      "why": "Acquisition - Apcotex Industries Limited has informed the Exchange about Intimation under Regulation 30 of the SEBI (LODR) Regulations, 2015 Acquisition of shares of Amplus Ampere Private Limited",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/APCOTEXIND_31102026131318_Intimation_-_Acquisition_of_shares-signed.pdf",
-      "sourceName": "NSE filing - Apcotex Industries Limited"
-    },
-    {
-      "id": "academy-2026-10-31-2-nse-dpscltd-31-oct-2026163237",
-      "sourceId": "nse-dpscltd-31-oct-2026163237",
-      "date": "31 Oct 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "DPSC Limited: Corporate Insolvency Resolution Process",
-      "why": "Corporate Insolvency Resolution Process - DPSC Limited has informed the Exchange about Corporate Insolvency Resolution Process-Notices for non-compliance with Regulation 34 of SEBI (Listing Obligations and Disclosure Requirements)…",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/DPSCLTD_31102026163215_IntimationunderReg30ofimpositionoffineunderReg34ofSEBI_LODR__31102026.pdf",
-      "sourceName": "NSE filing - DPSC Limited"
     }
   ]
 }

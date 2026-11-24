@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T07:19:16.805Z",
+  "generatedAt": "2026-11-24T08:32:03.917Z",
   "groups": [
     {
       "headlineKey": "sammaan capital limited updates",
@@ -3411,7 +3411,7 @@
           "id": "nse-ANURAS-21-Jul-2026213521",
           "headline": "Anupam Rasayan India Limited: General Updates",
           "time": "21 Jul 2026",
-          "kind": "disclosure",
+          "kind": "needs-research",
           "source": "https://nsearchives.nseindia.com/corporate/ANURAS_21072026213132_ARILSLDSTX20260721034LOF.pdf"
         },
         {
@@ -5268,14 +5268,14 @@
           "id": "nse-UGROCAP-14-Aug-2026234823",
           "headline": "Ugro Capital Limited: Amalgamation/Merger",
           "time": "14 Aug 2026",
-          "kind": "deal",
+          "kind": "needs-research",
           "source": "https://nsearchives.nseindia.com/corporate/UGROCAP_14082026234709_IntimationUGRO14082026final.pdf"
         },
         {
           "id": "nse-UGROCAP-07-Aug-2026153849",
           "headline": "Ugro Capital Limited: Amalgamation/Merger",
           "time": "7 Aug 2026",
-          "kind": "deal",
+          "kind": "needs-research",
           "source": "https://nsearchives.nseindia.com/corporate/UGROCAP_07082026153832_UGROIntimationofReceiptofNCLT.pdf"
         }
       ]
@@ -10773,7 +10773,7 @@
           "id": "nse-WIPRO-01-Oct-2026155930",
           "headline": "Wipro Limited: General Updates",
           "time": "1 Oct 2026",
-          "kind": "disclosure",
+          "kind": "needs-research",
           "source": "https://nsearchives.nseindia.com/corporate/Wipro_Secretarial_01102026155838_Reg30SEIntimation01102026.pdf"
         }
       ]
@@ -11413,7 +11413,7 @@
           "id": "nse-WIPRO-30-Sep-2026153734",
           "headline": "Wipro Limited: Acquisition",
           "time": "30 Sept 2026",
-          "kind": "deal",
+          "kind": "needs-research",
           "source": "https://nsearchives.nseindia.com/corporate/Wipro_Secretarial_30092026153230_Reg30SEIntimation30092026.pdf"
         }
       ]

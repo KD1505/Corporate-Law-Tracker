@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-11-24T07:19:19.250Z",
+  "updatedAt": "2026-11-24T08:32:06.566Z",
   "events": [
+    {
+      "id": "NSE-rss-3bde51824082579db670bc",
+      "headline": "Kalpataru Limited",
+      "date": "2026-11-24T08:32:06.564Z",
+      "kind": "record-added",
+      "changes": [
+        "New transaction record published"
+      ]
+    },
+    {
+      "id": "BSE-rss-d64d5315df4f455625ff6b",
+      "headline": "Kalpataru Ltd (544423)",
+      "date": "2026-11-24T08:32:06.564Z",
+      "kind": "record-added",
+      "changes": [
+        "New transaction record published"
+      ]
+    },
+    {
+      "id": "BSE-rss-f541697d60508e6a16e7e8",
+      "headline": "Dachepalli Publishers Ltd (544667)",
+      "date": "2026-11-24T08:32:06.564Z",
+      "kind": "record-added",
+      "changes": [
+        "New transaction record published"
+      ]
+    },
     {
       "id": "shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-white-case-act-on-urban-company-2500-crore-qip",
       "headline": "Shardul Amarchand Mangaldas, Cyril Amarchand Mangaldas, White & Case act on Urban Company ₹2,500 crore QIP",
