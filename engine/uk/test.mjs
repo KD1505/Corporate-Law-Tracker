@@ -6,3 +6,5 @@ test("candidate parsing rejects offsite and duplicate paths",()=>{const a={link:
 test("India navigation preserved and UK crosslink present",()=>{const india=fs.readFileSync(new URL("index.html",root),"utf8");assert(india.includes('href="/uk.html"'));assert(india.includes("PRERENDER-START"));assert(html.includes('href="/"'));});
 
 test("adviser attribution is tied to a source and known firm",()=>{for(const r of data.records)for(const a of r.advisers||[]){assert(data.firms.some(f=>f.id===a.firmId));assert(r.sources.some(s=>s.url===a.source));assert(a.client&&a.scope);}});
+
+test("disclosed figures are type-labelled and supported by attached sources",()=>{for(const r of data.records)for(const v of r.values||[]){assert(v.label&&v.amount);assert(r.sources.some(s=>s.url===v.source));}});

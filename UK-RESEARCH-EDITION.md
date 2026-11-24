@@ -12,3 +12,6 @@ node --check uk/app.js; node --test engine/uk/test.mjs. Branch preview, then che
 
 ## Initial competitor evidence and positioning
 Mergermarket (https://info.mergermarket.com/legal/) emphasises relationships, deal chronology and alerts. PitchBook (https://pitchbook.com/platform-data/deals) offers broad private-market screening. Practical Law (https://uk.practicallaw.thomsonreuters.com/Browse/Home/About/AboutUs) provides peer-reviewed practitioner resources. Chambers Student (https://chambers.com/student) and LawCareers.Net (https://www.lawcareers.net/commercial-awareness/welcome) combine firm and recruitment research with awareness. TCLA (https://www.thecorporatelawacademy.com/tcla-premium/) offers application and assessment preparation. The proposed differentiation is a single primary-source case-to-concept-to-interview workflow; no claim of parity on breadth, proprietary datasets or reviewed know-how. A fuller user study remains outstanding.
+
+## Production verification
+Main pushes trigger a separate live-browser job which waits for exact editorial JSON parity and then exercises the public domain. A failed job does not certify a release. Main pushes also trigger the first CMA discovery attempt, in addition to the daily schedule. Discovery output remains separate from editorial records.

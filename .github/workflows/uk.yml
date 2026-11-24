@@ -25,7 +25,7 @@ jobs:
       - run: npm install --no-save --package-lock=false playwright-core@1.51.1
       - run: node engine/uk/browser-test.mjs
   discover:
-    if: github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.event_name == 'push')
     needs: verify
     permissions:
       contents: write
@@ -45,3 +45,16 @@ jobs:
           git fetch origin main
           git rebase origin/main
           git push origin HEAD:main
+
+  production:
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: npm install --no-save --package-lock=false playwright-core@1.51.1
+      - run: node engine/uk/live-check.mjs
