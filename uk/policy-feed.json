@@ -1,10 +1,10 @@
 {
-  "attemptedAt": "2026-11-24T09:43:05.264Z",
+  "attemptedAt": "2026-11-24T09:47:59.398Z",
   "sources": [
     {
       "name": "Treasury",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:43:04.466Z",
+      "checkedAt": "2026-11-24T09:47:58.513Z",
       "items": [
         {
           "title": "Better regulation chief appointed to cut unnecessary bureaucracy",
@@ -86,7 +86,7 @@
     {
       "name": "Companies House",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:43:04.463Z",
+      "checkedAt": "2026-11-24T09:47:58.181Z",
       "items": [
         {
           "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
@@ -168,7 +168,7 @@
     {
       "name": "CMA policy",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:43:04.831Z",
+      "checkedAt": "2026-11-24T09:47:58.570Z",
       "items": [
         {
           "title": "BAE Systems undertakings review",
@@ -245,7 +245,7 @@
     {
       "name": "Business department",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:43:04.986Z",
+      "checkedAt": "2026-11-24T09:47:59.304Z",
       "items": [
         {
           "title": "British Industrial Competitiveness Scheme: funding information",
@@ -327,7 +327,7 @@
     {
       "name": "Bank of England",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:43:05.201Z",
+      "checkedAt": "2026-11-24T09:47:59.275Z",
       "items": [
         {
           "title": "General insurance stress test highlights value of rehearsing crisis response and recovery",
@@ -409,7 +409,7 @@
     {
       "name": "PRA",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:43:05.199Z",
+      "checkedAt": "2026-11-24T09:47:59.274Z",
       "items": [
         {
           "title": "DP3/26 – Critical third parties: regulatory fees and cost recovery",
@@ -491,7 +491,7 @@
     {
       "name": "FCA",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:43:05.264Z",
+      "checkedAt": "2026-11-24T09:47:59.398Z",
       "items": [
         {
           "title": "Kandoo Car Credit Ltd enters administration",
