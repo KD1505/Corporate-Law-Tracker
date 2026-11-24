@@ -287,3 +287,29 @@ footer{max-width:1500px;margin:auto;padding:20px 32px;border-top:1px solid var(-
 /* Audit release 1: essential input boundaries and deadline labels. */
 .search input,.search select,.compare-controls select,#archive-search{border-color:#75847f}
 .calendar-row .calendar-state{font-weight:600;color:#53656e}
+
+/* Audit round 2 — compact editorial coverage and research explorer. */
+.hero h1{font-size:clamp(1.85rem,2.55vw,2.3rem);line-height:1.16;letter-spacing:-.7px}
+.metrics{display:flex;flex-wrap:wrap;gap:4px 18px;border:0;border-radius:0;background:transparent;margin:9px 0 12px}
+.metrics div{padding:0;display:flex;gap:5px;align-items:baseline}
+.metrics div+div{border:0}
+.metrics strong{font:650 13px/1.4 var(--sans,system-ui);letter-spacing:0}
+.metrics span{font-size:12px;margin:0}
+.explorer-controls{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:0 0 12px}
+.explorer-controls button{background:white;border:1px solid #75847f;border-radius:4px;padding:7px 12px;min-height:36px;cursor:pointer;font-size:13px}
+.explorer-controls button[aria-pressed=true]{background:#eaf2ef;color:#225c57;border-color:#225c57;font-weight:650}
+.explorer-controls label{margin-left:auto;font-size:12px;color:var(--muted)}
+.explorer-controls select{border:1px solid #75847f;padding:7px;border-radius:4px;background:white;max-width:100%;min-height:36px;font-size:13px}
+#transactions.table-active>.entries{display:none}
+.transaction-table{width:100%;border-collapse:collapse;table-layout:fixed;background:#fff;font-size:13px;line-height:1.45}
+.transaction-table caption{text-align:left;color:var(--muted);font-size:12px;padding:0 0 9px}
+.transaction-table th,.transaction-table td{border-bottom:1px solid var(--line);padding:12px 9px;text-align:left;vertical-align:top;overflow-wrap:anywhere}
+.transaction-table th{font-size:12px;font-weight:650;background:#f6f7f6;color:#53656e}
+.transaction-table th:first-child{width:39%}.transaction-table th:nth-child(2){width:30%}.transaction-table th:nth-child(3){width:19%}.transaction-table th:last-child{width:12%}
+.transaction-table td:first-child>a{display:block;font-weight:650;font-size:14px}
+.transaction-table small{display:block;color:#53656e;font-size:11px;margin:4px 0}
+.transaction-table td:nth-child(2)>strong{font-variant-numeric:tabular-nums;font-size:14px}
+.transaction-table td:nth-child(2)>a{font-size:11px}
+.transaction-table tr:hover{background:#f8faf9}
+.transaction-table .save{font-size:11px;min-width:0;white-space:normal;padding:6px}
+@media(max-width:767px){.hero h1{font-size:27px}.metrics{gap:4px 12px}.metrics strong,.metrics span{font-size:11px}.explorer-controls label{margin-left:0}.explorer-controls button,.explorer-controls select{min-height:44px}.transaction-table,.transaction-table tbody,.transaction-table tr,.transaction-table td{display:block;width:100%}.transaction-table thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.transaction-table tr{padding:12px;border-bottom:1px solid var(--line)}.transaction-table td{border:0;padding:4px 0}.transaction-table td:not(:first-child):before{content:attr(data-label) ": ";display:inline;color:#53656e;font-size:11px;font-weight:650}.transaction-table .save{min-height:34px}.transaction-table caption{display:block}}
