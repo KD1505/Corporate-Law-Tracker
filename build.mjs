@@ -1,6 +1,6 @@
 // build.mjs — nightly orchestrator (run by GitHub Actions).
 //   Ingests new deals (press + mandated-disclosure spine), enriches them, and writes data.js.
-//   data.js is the SINGLE SOURCE OF TRUTH; index.html is a data-free shell that reads it.
+//   data.js is the SINGLE SOURCE OF TRUTH; india.html is a data-free shell that reads it.
 //
 // Enrichment is TIERED: marquee/significant deals get DEEP enrichment (AI + web-search
 // triangulation across sources); everything else gets AI enrichment WITHOUT web search
@@ -19,7 +19,7 @@ const GENERIC_PORTAL=/(corporates\/ann\.html|companies-listing\/corporate-filing
 function hasSpecificOfficial(d){return (d.sources||[]).some(s=>(s.official===true||OFFICIAL_RE.test(s.url||""))&&!GENERIC_PORTAL.test(s.url||""));}
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const HTML = path.join(__dirname, "..", "index.html");
+const HTML = path.join(__dirname, "..", "india.html");
 const DATA = path.join(__dirname, "..", "data.js");
 const SEEN = path.join(__dirname, "seen.json");
 const DISCOVERED = path.join(__dirname, "discovered-sources.json");
@@ -125,7 +125,7 @@ async function writeBrief(deals) {
 async function ensureDataFile() {
   try { return await readFile(DATA, "utf8"); }
   catch {
-    console.log("data.js not found — migrating data out of index.html (one-time).");
+    console.log("data.js not found — migrating data out of india.html (one-time).");
     const html = await readFile(HTML, "utf8");
     const NAMES = ["DEALS", "MOVES", "REGITEMS", "COMMENTARY", "TRENDS"];
     let out = "/* CLT DATA — generated & owned by engine/build.mjs. Single source of truth.\n   Do NOT hand-edit; the nightly pipeline regenerates this file. */\nwindow.CLT_DATA = window.CLT_DATA || {};\n\n";

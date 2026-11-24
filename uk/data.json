@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "editorialAsOf": "2026-11-24",
   "records": [
     {
@@ -10,42 +10,174 @@
       "eventDate": "2026-11-18",
       "status": "Inquiry launched",
       "sector": "Facilities management",
-      "fact": "The CMA formally opened its merger inquiry on 18 November 2026. This is a procedural milestone, not clearance or evidence that the transaction completed.",
+      "fact": "OCS agreed a recommended cash offer for Mitie in July. Mitie's 19 November interim results reported 99.7% shareholder support and two of three regulatory clearances. CMA Phase 1 began on 18 November.",
       "analysis": "Overlapping service contracts may require close analysis of customers’ alternatives, bidding patterns and local or national market definition. Counsel should separate commercial closing conditions from the regulator’s timetable.",
       "watch": "Read the latest CMA case update before relying on this snapshot.",
       "sources": [
         {
           "name": "CMA case",
           "url": "https://www.gov.uk/cma-cases/ocs-slash-mitie-merger-inquiry"
+        },
+        {
+          "name": "Mitie offer document hub",
+          "url": "https://www.mitie.com/investors/recommended-cash-offer-by-ocs-for-mitie/"
+        },
+        {
+          "name": "Mitie scheme document",
+          "url": "https://www.mitie.com/wp-content/uploads/2026/08/Project-Marlin_Scheme_Document.pdf"
+        },
+        {
+          "name": "Mitie interim results, 19 November",
+          "url": "https://www.mitie.com/wp-content/uploads/2026/11/Mitie-H1-FY27-Results.pdf"
         }
       ],
       "related": [
-        "merger-control"
+        "merger-control",
+        "public-schemes"
       ],
-      "verifiedOn": "2026-11-24"
+      "verifiedOn": "2026-11-24",
+      "dealType": "Public M&A",
+      "parties": [
+        [
+          "Bidder",
+          "OCS Group International Limited"
+        ],
+        [
+          "Target",
+          "Mitie Group plc"
+        ]
+      ],
+      "announcedOn": "2026-07-21",
+      "structure": "Recommended all-cash acquisition via scheme of arrangement.",
+      "values": [
+        {
+          "label": "Fully diluted acquisition value, including final dividend",
+          "amount": "Approximately £3.1bn",
+          "source": "https://www.mitie.com/wp-content/uploads/2026/08/Project-Marlin_Scheme_Document.pdf"
+        },
+        {
+          "label": "Cash offer per share",
+          "amount": "218.5p",
+          "source": "https://www.mitie.com/wp-content/uploads/2026/11/Mitie-H1-FY27-Results.pdf"
+        },
+        {
+          "label": "FY26 final dividend per share (paid separately)",
+          "amount": "3.1p",
+          "source": "https://www.mitie.com/wp-content/uploads/2026/11/Mitie-H1-FY27-Results.pdf"
+        }
+      ],
+      "financing": "Specific financing terms have not been verified for this dossier.",
+      "regulatory": "The published Phase 1 decision deadline is 20 January 2027, subject to extension. Shareholder support is not regulatory approval.",
+      "timeline": [
+        {
+          "date": "2026-07-21",
+          "event": "Recommended acquisition agreed",
+          "source": "https://www.mitie.com/investors/recommended-cash-offer-by-ocs-for-mitie/"
+        },
+        {
+          "date": "2026-09-15",
+          "event": "CMA consultation opened",
+          "source": "https://www.gov.uk/cma-cases/ocs-slash-mitie-merger-inquiry"
+        },
+        {
+          "date": "2026-11-18",
+          "event": "Formal Phase 1 inquiry started",
+          "source": "https://www.gov.uk/cma-cases/ocs-slash-mitie-merger-inquiry"
+        },
+        {
+          "date": "2026-11-19",
+          "event": "Mitie reported approval progress and expected Q1 2027 completion",
+          "source": "https://www.mitie.com/wp-content/uploads/2026/11/Mitie-H1-FY27-Results.pdf"
+        }
+      ],
+      "legalWork": "Review the scheme conditions and court timetable; map regulatory clearance conditions and long-stop mechanics; evaluate overlapping facilities services using customer and bidding data. Separate dividend treatment from the headline cash offer.",
+      "interview": "Why can an overwhelmingly approved scheme remain pending? Explain the distinction between shareholder approval, court sanction and competition clearance.",
+      "deadline": {
+        "date": "2027-01-20",
+        "label": "CMA Phase 1 decision deadline",
+        "source": "https://www.gov.uk/cma-cases/ocs-slash-mitie-merger-inquiry"
+      }
     },
     {
       "id": "mccormick-unilever",
       "jurisdiction": "UK",
       "category": "Transactions",
-      "title": "McCormick / Unilever",
+      "title": "McCormick / Unilever Foods",
       "eventDate": "2026-11-11",
       "status": "Phase 1 concerns",
       "sector": "Consumer goods",
-      "fact": "The CMA announced competition concerns on 11 November 2026; the matter would proceed to Phase 2 unless acceptable commitments were offered, according to that decision.",
+      "fact": "Unilever announced the Foods combination on 31 March. Its October update said the transaction remained on track; on 11 November the CMA found potential competition concerns requiring an acceptable remedy to avoid a Phase 2 referral.",
       "analysis": "The case illustrates how anticipated competition remedies can change the economic perimeter of a deal. A buyer must test whether any divestment would undermine the investment thesis or financing model.",
       "watch": "Check subsequent decisions and any published commitments; this is not a live status guarantee.",
       "sources": [
         {
           "name": "CMA case",
           "url": "https://www.gov.uk/cma-cases/mccormick-slash-unilever-merger-inquiry"
+        },
+        {
+          "name": "Unilever transaction announcement",
+          "url": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/"
+        },
+        {
+          "name": "Unilever Q3 update",
+          "url": "https://www.unilever.com/news/press-and-media/press-releases/2026/continued-strong-performance-in-the-third-quarter/"
         }
       ],
       "related": [
         "merger-control",
         "valuation"
       ],
-      "verifiedOn": "2026-11-24"
+      "verifiedOn": "2026-11-24",
+      "dealType": "Cross-border M&A",
+      "parties": [
+        [
+          "Combination partner",
+          "McCormick & Company"
+        ],
+        [
+          "Carve-out",
+          "Unilever Foods"
+        ],
+        [
+          "Seller group",
+          "Unilever plc"
+        ]
+      ],
+      "announcedOn": "2026-03-31",
+      "structure": "Separation of Unilever Foods and combination with McCormick via a Reverse Morris Trust structure.",
+      "values": [
+        {
+          "label": "Announced cash component (subject to adjustments)",
+          "amount": "US$15.7bn",
+          "source": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/"
+        },
+        {
+          "label": "Committed bridge financing (not deal value)",
+          "amount": "US$15.7bn",
+          "source": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/"
+        }
+      ],
+      "financing": "The announcement identifies Citi, Goldman Sachs Bank USA and Morgan Stanley Senior Funding as bridge financing providers; the intended permanent funding includes new debt and cash.",
+      "regulatory": "CMA Phase 1 concerns are not a prohibition. Shareholder approval, regulatory clearances and separation conditions remain relevant.",
+      "timeline": [
+        {
+          "date": "2026-03-31",
+          "event": "Combination announced",
+          "source": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/"
+        },
+        {
+          "date": "2026-09-16",
+          "event": "CMA Phase 1 launched",
+          "source": "https://www.gov.uk/cma-cases/mccormick-slash-unilever-merger-inquiry"
+        },
+        {
+          "date": "2026-11-11",
+          "event": "CMA announced competition concerns",
+          "source": "https://www.gov.uk/cma-cases/mccormick-slash-unilever-merger-inquiry"
+        }
+      ],
+      "legalWork": "Carve-out perimeter, transition services, tax structuring, financing commitments and remedy allocation should be negotiated together. Assess whether a required divestment would undermine the economics of the combined foods business.",
+      "interview": "How does a carve-out differ from a simple share acquisition, and what happens to the financing case if competition remedies remove profitable brands?"
     },
     {
       "id": "sky-itv",
@@ -67,7 +199,44 @@
       "related": [
         "merger-control"
       ],
-      "verifiedOn": "2026-11-24"
+      "verifiedOn": "2026-11-24",
+      "dealType": "Public-interest M&A",
+      "parties": [
+        [
+          "Proposed acquirer",
+          "Sky UK Limited"
+        ],
+        [
+          "Target",
+          "ITV M&E Holdings Limited"
+        ]
+      ],
+      "structure": "Proposed acquisition of ITV media and entertainment business; detailed definitive terms not established here.",
+      "regulatory": "Section 42 Enterprise Act 2002 intervention requires separate reports from CMA and Ofcom. The notice addresses media plurality and free expression. A proposed extension to on-demand programming is not treated as enacted law.",
+      "timeline": [
+        {
+          "date": "2026-07-23",
+          "event": "CMA invitation to comment",
+          "source": "https://www.gov.uk/cma-cases/sky-slash-itv-merger-inquiry"
+        },
+        {
+          "date": "2026-10-15",
+          "event": "Secretary of State indicated intention to intervene",
+          "source": "https://www.gov.uk/cma-cases/sky-slash-itv-merger-inquiry"
+        },
+        {
+          "date": "2026-11-04",
+          "event": "Public interest intervention notice issued",
+          "source": "https://www.gov.uk/cma-cases/sky-slash-itv-merger-inquiry"
+        }
+      ],
+      "deadline": {
+        "date": "2027-01-27",
+        "label": "CMA and Ofcom reports due",
+        "source": "https://www.gov.uk/cma-cases/sky-slash-itv-merger-inquiry"
+      },
+      "legalWork": "Map media ownership and audiences, assess competition and public-interest requirements separately, allocate risk of conditions and extensions, and plan communications without prejudging the Secretary of State's decision.",
+      "interview": "How can a merger with limited conventional competition concerns still face a public-interest review?"
     },
     {
       "id": "coop-southern",
@@ -89,7 +258,39 @@
       "related": [
         "merger-control"
       ],
-      "verifiedOn": "2026-11-24"
+      "verifiedOn": "2026-11-24",
+      "dealType": "Completed M&A",
+      "parties": [
+        [
+          "Acquirer",
+          "Co-operative Group Limited"
+        ],
+        [
+          "Target",
+          "The Southern Co-operative Limited"
+        ]
+      ],
+      "structure": "Completed acquisition reviewed by the CMA.",
+      "regulatory": "Phase 1 concerns resolved through undertakings in lieu accepted 5 November 2026. This is a remedy decision, not unconditional clearance.",
+      "timeline": [
+        {
+          "date": "2026-07-30",
+          "event": "Phase 1 inquiry launched",
+          "source": "https://www.gov.uk/cma-cases/co-operative-group-slash-southern-co-operative-merger-inquiry"
+        },
+        {
+          "date": "2026-09-15",
+          "event": "Competition concerns announced",
+          "source": "https://www.gov.uk/cma-cases/co-operative-group-slash-southern-co-operative-merger-inquiry"
+        },
+        {
+          "date": "2026-11-05",
+          "event": "Undertakings accepted",
+          "source": "https://www.gov.uk/cma-cases/co-operative-group-slash-southern-co-operative-merger-inquiry"
+        }
+      ],
+      "legalWork": "Post-closing integration controls and remedy compliance need an owner, deadlines and documentary evidence. Review final undertakings before specifying affected assets or operational commitments.",
+      "interview": "What risks arise from closing a UK merger before CMA clearance?"
     },
     {
       "id": "vodafone-three",
@@ -99,7 +300,7 @@
       "eventDate": "2025-05-31",
       "status": "Completed",
       "sector": "Telecommunications",
-      "fact": "Vodafone confirmed the UK combination closed on 31 May 2025. The CMA accepted binding commitments before clearance on 28 March 2025.",
+      "fact": "The combination completed on 31 May 2025 with Vodafone initially holding 51%. Vodafone subsequently announced acquisition of CK Hutchison's remaining 49%, taking full ownership; the £4.3bn figure relates to that later transaction, not the original merger.",
       "analysis": "A network merger can create scale benefits but reduce competitive pressure. Commitments on investment and customer outcomes may affect integration economics and ongoing compliance long after closing.",
       "watch": "CMA monitoring reports and performance against the commitments.",
       "sources": [
@@ -114,6 +315,14 @@
         {
           "name": "Freshfields mandate announcement",
           "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2024/12/freshfields-advises-ck-hutchison-on-securing-landmark-cma-merger-approval-for-three-uk-and-vodafone-uk"
+        },
+        {
+          "name": "Original combination terms",
+          "url": "https://www.vodafone.com/news/newsroom/corporate-and-financial/merger-vodafone-uk-three-uk-europe-leading-5g-networks"
+        },
+        {
+          "name": "Subsequent ownership buyout",
+          "url": "https://www.vodafone.com/news/newsroom/corporate-and-financial/vodafone-takes-full-ownership-of-vodafonethree"
         }
       ],
       "related": [
@@ -129,7 +338,57 @@
           "scope": "CMA merger approval",
           "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2024/12/freshfields-advises-ck-hutchison-on-securing-landmark-cma-merger-approval-for-three-uk-and-vodafone-uk"
         }
-      ]
+      ],
+      "dealType": "Joint venture / merger",
+      "parties": [
+        [
+          "Combining party",
+          "Vodafone Group"
+        ],
+        [
+          "Combining party",
+          "CK Hutchison Group Telecom"
+        ],
+        [
+          "Combined company",
+          "VodafoneThree"
+        ]
+      ],
+      "announcedOn": "2023-06-14",
+      "structure": "Contribution of UK mobile businesses with different debt amounts to produce initial 51:49 ownership, without cash consideration on original combination.",
+      "values": [
+        {
+          "label": "Original merger cash consideration",
+          "amount": "None",
+          "source": "https://www.vodafone.com/news/newsroom/corporate-and-financial/merger-vodafone-uk-three-uk-europe-leading-5g-networks"
+        },
+        {
+          "label": "Subsequent 49% stake buyout (separate transaction)",
+          "amount": "£4.3bn",
+          "source": "https://www.vodafone.com/news/newsroom/corporate-and-financial/vodafone-takes-full-ownership-of-vodafonethree"
+        }
+      ],
+      "financing": "The later stake purchase was funded from existing cash resources, according to Vodafone.",
+      "regulatory": "CMA commitments relate to the original network combination; the subsequent ownership acquisition is a distinct event.",
+      "timeline": [
+        {
+          "date": "2023-06-14",
+          "event": "Original merger announcement",
+          "source": "https://www.vodafone.com/news/newsroom/corporate-and-financial/merger-vodafone-uk-three-uk-europe-leading-5g-networks"
+        },
+        {
+          "date": "2025-03-28",
+          "event": "CMA accepted binding commitments",
+          "source": "https://www.gov.uk/cma-cases/vodafone-slash-ck-hutchison-jv-merger-inquiry"
+        },
+        {
+          "date": "2025-05-31",
+          "event": "Merger completed at initial 51:49 ownership",
+          "source": "https://www.vodafone.com/news/newsroom/corporate-and-financial/completion-of-vodafone-and-three-merger-in-the-uk"
+        }
+      ],
+      "legalWork": "For the original combination, separate contribution agreements, governance and network commitments from later share acquisition documentation. Monitor enforceable commitments and distinguish projected synergies from realised benefits.",
+      "interview": "Why is the £4.3bn buyout not the value of the original Vodafone/Three merger?"
     },
     {
       "id": "microsoft-activision",
@@ -150,12 +409,47 @@
         {
           "name": "Original CMA case",
           "url": "https://www.gov.uk/cma-cases/microsoft-slash-activision-blizzard-merger-inquiry"
+        },
+        {
+          "name": "CMA revised deal decision explanation",
+          "url": "https://www.gov.uk/government/news/microsoft-concession-a-gamechanger-that-will-promote-competition"
         }
       ],
       "related": [
         "merger-control"
       ],
-      "verifiedOn": "2026-11-24"
+      "verifiedOn": "2026-11-24",
+      "dealType": "Cross-border M&A",
+      "parties": [
+        [
+          "Buyer",
+          "Microsoft Corporation"
+        ],
+        [
+          "Target",
+          "Activision Blizzard"
+        ],
+        [
+          "Rights purchaser",
+          "Ubisoft"
+        ]
+      ],
+      "structure": "Revised acquisition excludes non-EEA cloud streaming rights transferred to Ubisoft.",
+      "regulatory": "The revised deal was allowed with enforceable undertakings following prohibition of the original proposal.",
+      "timeline": [
+        {
+          "date": "2023-08-22",
+          "event": "Revised acquisition submitted",
+          "source": "https://www.gov.uk/cma-cases/microsoft-slash-activision-blizzard-merger-inquiry"
+        },
+        {
+          "date": "2023-10-13",
+          "event": "CMA consent to revised acquisition",
+          "source": "https://www.gov.uk/cma-cases/microsoft-slash-activision-blizzard-ex-cloud-streaming-rights-merger-inquiry"
+        }
+      ],
+      "legalWork": "Define IP and licensing perimeter, territory, duration and technical obligations; negotiate enforceability of rights transfers and assess interaction with other jurisdictions' commitments.",
+      "interview": "Why might transferring cloud distribution rights address competition concerns more effectively than behavioural promises?"
     },
     {
       "id": "nationwide-virgin",
@@ -190,7 +484,39 @@
         "finance",
         "merger-control"
       ],
-      "verifiedOn": "2026-11-24"
+      "verifiedOn": "2026-11-24",
+      "dealType": "Banking M&A",
+      "parties": [
+        [
+          "Acquirer",
+          "Nationwide Building Society"
+        ],
+        [
+          "Target",
+          "Virgin Money UK"
+        ]
+      ],
+      "structure": "Acquisition of Virgin Money followed by a distinct legal transfer of its business.",
+      "regulatory": "Competition, prudential and conduct approvals are separate; the legal business transfer is not the same as completion of the share acquisition.",
+      "timeline": [
+        {
+          "date": "2024-07-19",
+          "event": "CMA clearance",
+          "source": "https://www.gov.uk/cma-cases/nationwide-building-society-slash-virgin-money-merger-inquiry"
+        },
+        {
+          "date": "2024-10-01",
+          "event": "Acquisition completed",
+          "source": "https://www.nationwide.co.uk/about-us/the-big-nationwide-thank-you"
+        },
+        {
+          "date": "2026-04-02",
+          "event": "Separate business transfer completed",
+          "source": "https://www.nationwide.co.uk/nationwide-and-virgin-money-transfer"
+        }
+      ],
+      "legalWork": "Review regulated change-of-control requirements, deposit and customer communications, operational resilience and integration dependencies; distinguish acquisition closing from later business-transfer mechanics.",
+      "interview": "Why might a bank acquisition take multiple regulatory and legal workstreams after completion?"
     },
     {
       "id": "bank-rate",
@@ -343,7 +669,33 @@
           "scope": "Acquisition financing",
           "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-the-lenders-on-the-financing-of-pais-acquisition-of-elemis-from-loccitane"
         }
-      ]
+      ],
+      "dealType": "Private equity M&A",
+      "parties": [
+        [
+          "Buyer",
+          "PAI Partners"
+        ],
+        [
+          "Seller",
+          "L’Occitane Group"
+        ],
+        [
+          "Target",
+          "ELEMIS"
+        ]
+      ],
+      "structure": "Sponsor acquisition of the skincare business, subject to transaction conditions.",
+      "financing": "Lender-side acquisition financing mandate disclosed; principal amount and facility terms not established.",
+      "timeline": [
+        {
+          "date": "2026-11-04",
+          "event": "Agreement announced",
+          "source": "https://www.paipartners.com/mediaitem/loccitane-group-and-pai-partners-announce-agreement-for-pai-to-acquire-elemis/"
+        }
+      ],
+      "legalWork": "Review trademarks, formulation rights, product claims, distribution and retailer change-of-control consents; align acquisition CPs with financing availability and security package.",
+      "interview": "How would you diligence a consumer brand whose value depends on IP, distribution and repeat customers?"
     },
     {
       "jurisdiction": "UK",
@@ -388,7 +740,8 @@
       "related": [
         "valuation",
         "capital-markets",
-        "finance"
+        "finance",
+        "public-schemes"
       ],
       "advisers": [
         {
@@ -405,7 +758,33 @@
           "scope": "Acquisition financing",
           "source": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-on-the-financing-of-cmc-group-and-asterion-industrial-partners-recommended-cash-offer-for-mobico-group.html"
         }
-      ]
+      ],
+      "dealType": "Public M&A",
+      "parties": [
+        [
+          "Bidder",
+          "Leita Mobility"
+        ],
+        [
+          "Target",
+          "Mobico Group"
+        ],
+        [
+          "Financing sponsors",
+          "CMC Group and Asterion Industrial Partners"
+        ]
+      ],
+      "structure": "Recommended cash offer intended to be implemented by scheme of arrangement.",
+      "financing": "Clifford Chance disclosed financing work; detailed debt terms not verified. Equity and enterprise valuations are separately disclosed.",
+      "timeline": [
+        {
+          "date": "2026-10-30",
+          "event": "Recommended acquisition announced",
+          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility"
+        }
+      ],
+      "legalWork": "Model equity bridge and existing debt treatment, test cash confirmation and financing conditions, prepare scheme timetable and coordinate regulatory work. Review change-of-control clauses in transport concessions.",
+      "interview": "Why can a £308m equity offer imply a £2.3bn enterprise valuation? Which debt and cash definitions must be checked?"
     },
     {
       "jurisdiction": "UK",
@@ -460,7 +839,36 @@
           "scope": "Investment",
           "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-ontario-teachers-on-its-investment-in-cary-group"
         }
-      ]
+      ],
+      "dealType": "Private equity / consortium",
+      "parties": [
+        [
+          "Continuing owner",
+          "Nordic Capital"
+        ],
+        [
+          "Incoming investor",
+          "CPP Investments"
+        ],
+        [
+          "Incoming investor",
+          "Ontario Teachers’"
+        ],
+        [
+          "Target",
+          "Cary Group"
+        ]
+      ],
+      "structure": "Joint investment by institutional investors alongside existing sponsor.",
+      "timeline": [
+        {
+          "date": "2026-11-17",
+          "event": "Consortium investment announced",
+          "source": "https://www.nordiccapital.com/insights/press-releases/cpp-investments-and-ontario-teachers-to-join-nordic-capital-as-owners-of-cary-group-to-support-its-continued-international-expansion-and-long-term-development/"
+        }
+      ],
+      "legalWork": "Set governance, reserved matters, information and transfer rights; specify funding commitments and exit process. Diligence multi-country operating subsidiaries and local approvals.",
+      "interview": "How do investment horizons of pension funds and a private equity sponsor affect shareholder agreements?"
     },
     {
       "jurisdiction": "UK",
@@ -496,7 +904,32 @@
           "scope": "Investment",
           "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-goldman-sachs-alternatives-on-its-investment-in-celnor-group"
         }
-      ]
+      ],
+      "dealType": "Private equity M&A",
+      "parties": [
+        [
+          "Buyer",
+          "Goldman Sachs Alternatives"
+        ],
+        [
+          "Seller / reinvestor",
+          "Inflexion"
+        ],
+        [
+          "Target",
+          "Celnor Group"
+        ]
+      ],
+      "structure": "Majority acquisition with continuing investment by seller and management.",
+      "timeline": [
+        {
+          "date": "2026-10-23",
+          "event": "Majority sale agreement announced",
+          "source": "https://www.inflexion.com/news-and-insights/news/2026/inflexion-agrees-sale-of-majority-stake-in-celnor-to-goldman-sachs-alternatives/"
+        }
+      ],
+      "legalWork": "Negotiate governance and management incentive documents alongside the SPA, review acquisition pipeline and integration risk, identify change-of-control consents in regulated testing and compliance businesses.",
+      "interview": "Why does management rollover create both alignment and potential conflicts?"
     },
     {
       "jurisdiction": "UK",
@@ -530,7 +963,32 @@
       "related": [
         "project-finance",
         "finance"
-      ]
+      ],
+      "dealType": "Infrastructure investment",
+      "parties": [
+        [
+          "Project sponsor",
+          "RWE"
+        ],
+        [
+          "Investment partner",
+          "KKR"
+        ],
+        [
+          "Projects",
+          "Vanguard West and East"
+        ]
+      ],
+      "structure": "Offshore wind project investment; not a purchase-price announcement.",
+      "timeline": [
+        {
+          "date": "2026-11-11",
+          "event": "Final investment decisions announced",
+          "source": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/news/news-2026-11-11_a/"
+        }
+      ],
+      "legalWork": "Map procurement, construction, grid and offtake interfaces; consider security, lender step-in and completion support. Model cost overruns and delays rather than assuming investment approval proves funding has been drawn.",
+      "interview": "How do construction and revenue risks change the financing of offshore wind compared with an operating asset?"
     },
     {
       "jurisdiction": "UK",
@@ -578,6 +1036,554 @@
       ],
       "related": [
         "corporate-governance"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "id": "lseg-octus",
+      "title": "LSEG / Octus",
+      "eventDate": "2026-10-22",
+      "announcedOn": "2026-10-22",
+      "status": "Acquisition agreed",
+      "sector": "Financial data",
+      "dealType": "Cross-border M&A",
+      "parties": [
+        [
+          "Acquirer",
+          "London Stock Exchange Group plc"
+        ],
+        [
+          "Target",
+          "Octus"
+        ],
+        [
+          "Sellers",
+          "Permira-advised funds and management"
+        ]
+      ],
+      "structure": "Cash acquisition of credit intelligence provider.",
+      "fact": "LSEG agreed to buy Octus for US$3.535bn in cash. The transaction extends the group's credit data and analytics offering. LSEG expects closing in H1 2027 subject to regulatory approval.",
+      "values": [
+        {
+          "label": "Cash consideration",
+          "amount": "US$3.535bn",
+          "source": "https://www.lseg.com/en/media-centre/press-releases/2026/lseg-acquire-octus-public-private-credit-solutions"
+        }
+      ],
+      "financing": "External debt; LSEG expects leverage near the top of its 1.5–2.5x target range at end-2027 under its stated assumptions.",
+      "regulatory": "Regulatory approval is a condition; specific authority decisions are not established here.",
+      "financialAdvisers": "Morgan Stanley (lead) and Barclays for LSEG; Evercore and Goldman Sachs for Octus shareholders.",
+      "analysis": "Subscription credit intelligence can complement LSEG's data business. The buyer's forecasts are not guarantees: debt-financed growth raises leverage and integration risk.",
+      "legalWork": "Diligence rights to financial data, contractual licences, IP, privacy and customer change-of-control terms; coordinate financing, regulatory conditions and cross-border acquisition documentation.",
+      "watch": "Regulatory decisions, debt financing and closing confirmation.",
+      "interview": "How could a debt-funded data acquisition affect both recurring revenue and the buyer’s leverage?",
+      "timeline": [
+        {
+          "date": "2026-10-22",
+          "event": "Acquisition announced",
+          "source": "https://www.lseg.com/en/investor-relations/regulatory-news/details/announcement/bff8-d7-2b-10-d5-4bdab1"
+        }
+      ],
+      "sources": [
+        {
+          "name": "LSEG announcement",
+          "url": "https://www.lseg.com/en/media-centre/press-releases/2026/lseg-acquire-octus-public-private-credit-solutions"
+        },
+        {
+          "name": "LSEG regulatory announcement",
+          "url": "https://www.lseg.com/en/investor-relations/regulatory-news/details/announcement/bff8-d7-2b-10-d5-4bdab1"
+        },
+        {
+          "name": "Latham mandate",
+          "url": "https://www.lw.com/en/news/2026/10/Latham%20Advises%20LSEG%20on%20Acquisition%20of%20Octus"
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "Latham & Watkins",
+          "firmId": "latham",
+          "client": "LSEG",
+          "scope": "Acquisition",
+          "source": "https://www.lw.com/en/news/2026/10/Latham%20Advises%20LSEG%20on%20Acquisition%20of%20Octus"
+        }
+      ],
+      "related": [
+        "valuation",
+        "finance",
+        "business-model"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "id": "abp-ifm",
+      "title": "IFM Investors / Associated British Ports stakes",
+      "eventDate": "2026-10-28",
+      "status": "Sale agreement disclosed",
+      "sector": "Infrastructure",
+      "dealType": "Infrastructure M&A",
+      "parties": [
+        [
+          "Buyer",
+          "IFM Investors-managed fund"
+        ],
+        [
+          "Sellers",
+          "CPP Investments and OMERS"
+        ],
+        [
+          "Target",
+          "Associated British Ports"
+        ]
+      ],
+      "structure": "Sale of two existing institutional shareholdings: 33.9% and 30%.",
+      "fact": "Linklaters disclosed agreements to sell the CPP Investments and OMERS stakes to an IFM-managed fund. ABP operates 19 UK port facilities; completion was expected in H1 2027 subject to conditions.",
+      "analysis": "Long-life infrastructure assets may appeal to institutional investors seeking cash flows, but capital-intensive port operations create maintenance, concession and environmental exposure.",
+      "legalWork": "Examine shareholder and financing agreements, change-of-control provisions, land and port rights, antitrust and foreign-investment screening. Do not infer that a particular approval is mandatory without reviewing the actual structure.",
+      "regulatory": "Conditions disclosed in broad terms only; individual approval status not established.",
+      "timeline": [
+        {
+          "date": "2026-10-28",
+          "event": "Seller counsel disclosed the agreements",
+          "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/october/linklaters-advises-cpp-investments-and-omers-on-associated-british-ports-sale"
+        }
+      ],
+      "watch": "Conditions, financing and closing announcement.",
+      "interview": "How do port infrastructure risks differ from a software acquisition?",
+      "sources": [
+        {
+          "name": "Seller legal adviser disclosure",
+          "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/october/linklaters-advises-cpp-investments-and-omers-on-associated-british-ports-sale"
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "Linklaters",
+          "firmId": "linklaters",
+          "client": "CPP Investments and OMERS",
+          "scope": "Sale of stakes",
+          "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/october/linklaters-advises-cpp-investments-and-omers-on-associated-british-ports-sale"
+        }
+      ],
+      "related": [
+        "private-equity",
+        "project-finance",
+        "national-security"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "id": "abp-term-facility",
+      "title": "Associated British Ports / £300m infrastructure facility",
+      "eventDate": "2026-06-08",
+      "status": "Facility agreement disclosed",
+      "sector": "Infrastructure",
+      "dealType": "Banking & finance",
+      "parties": [
+        [
+          "Borrower",
+          "Associated British Ports"
+        ],
+        [
+          "Public lender",
+          "National Wealth Fund"
+        ],
+        [
+          "Bank lenders",
+          "Bank of America London branch, Lloyds and NatWest"
+        ]
+      ],
+      "structure": "Term facility combining public and private capital.",
+      "fact": "The National Wealth Fund announced a £200m commitment on 3 June; Linklaters subsequently disclosed a £300m overall term facility including £100m from commercial banks.",
+      "values": [
+        {
+          "label": "Total facility",
+          "amount": "£300m",
+          "source": "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/june/linklaters-advices-abp"
+        },
+        {
+          "label": "National Wealth Fund commitment",
+          "amount": "£200m",
+          "source": "https://www.nationalwealthfund.org.uk/news-and-publications/news/national-wealth-fund-backs-major-port-infrastructure-projects-with-200m-commitment-to-abp/"
+        },
+        {
+          "label": "Commercial bank commitments",
+          "amount": "£100m",
+          "source": "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/june/linklaters-advices-abp"
+        }
+      ],
+      "financing": "Public and private lenders fund a port investment programme. Drawdowns, maturity and pricing are not established in this record.",
+      "analysis": "Combining public and commercial capital can support infrastructure with significant upfront costs. Lender objectives may differ, so permitted use and reporting are material.",
+      "legalWork": "Negotiate facility documentation, conditions to utilisation, representations, covenants and coordination among lenders; test permitted investment use and reporting requirements.",
+      "watch": "Drawdown and project delivery announcements.",
+      "interview": "How does a £300m committed facility differ from £300m of drawn debt?",
+      "timeline": [
+        {
+          "date": "2026-06-03",
+          "event": "Public lender announced commitment",
+          "source": "https://www.nationalwealthfund.org.uk/news-and-publications/news/national-wealth-fund-backs-major-port-infrastructure-projects-with-200m-commitment-to-abp/"
+        },
+        {
+          "date": "2026-06-08",
+          "event": "Borrower counsel disclosed facility",
+          "source": "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/june/linklaters-advices-abp"
+        }
+      ],
+      "sources": [
+        {
+          "name": "National Wealth Fund",
+          "url": "https://www.nationalwealthfund.org.uk/news-and-publications/news/national-wealth-fund-backs-major-port-infrastructure-projects-with-200m-commitment-to-abp/"
+        },
+        {
+          "name": "Linklaters borrower counsel",
+          "url": "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/june/linklaters-advices-abp"
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "Linklaters",
+          "firmId": "linklaters",
+          "client": "Associated British Ports",
+          "scope": "Term facility",
+          "source": "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/june/linklaters-advices-abp"
+        }
+      ],
+      "related": [
+        "finance",
+        "project-finance"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "id": "uk-logistics-cmbs",
+      "title": "UK Logistics 2026-3 / £603m CMBS",
+      "eventDate": "2026-10-08",
+      "status": "Securitisation completed (mandate disclosure)",
+      "sector": "Real estate finance",
+      "dealType": "Debt capital markets",
+      "parties": [
+        [
+          "Issuer",
+          "UK Logistics 2026-3 DAC"
+        ],
+        [
+          "Banks",
+          "Deutsche Bank and Standard Chartered"
+        ],
+        [
+          "Asset sponsor",
+          "Blackstone-managed funds"
+        ],
+        [
+          "Operator",
+          "Indurent"
+        ]
+      ],
+      "structure": "Commercial mortgage-backed notes backed by a portion of a logistics property financing.",
+      "fact": "Clifford Chance disclosed completion of securitisation of £603m of financing secured against 39 logistics and industrial properties in England and Wales.",
+      "values": [
+        {
+          "label": "Securitised financing portion",
+          "amount": "£603m",
+          "source": "https://www.cliffordchance.com/news/news/2026/10/clifford-chance-advises-deutsche-bank-and-standard-chartered-on-603-million-uk-logistics-cmbs.html"
+        }
+      ],
+      "financing": "Commercial mortgage-backed note issuance; tranche details not established in this record.",
+      "analysis": "Property cash flows and valuation affect credit risk. Securitisation distributes mortgage exposure to investors, but does not eliminate default or refinancing risks.",
+      "legalWork": "Review loan transfer, security, issuer structure, servicing, cash-flow waterfall, disclosure and tax; coordinate UK real estate and securities advice across jurisdictions.",
+      "watch": "Note documentation and property performance where publicly available.",
+      "interview": "How does a CMBS differ from a direct bilateral property loan?",
+      "timeline": [
+        {
+          "date": "2026-10-08",
+          "event": "Completed issuance reported by transaction counsel",
+          "source": "https://www.cliffordchance.com/news/news/2026/10/clifford-chance-advises-deutsche-bank-and-standard-chartered-on-603-million-uk-logistics-cmbs.html"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Clifford Chance mandate",
+          "url": "https://www.cliffordchance.com/news/news/2026/10/clifford-chance-advises-deutsche-bank-and-standard-chartered-on-603-million-uk-logistics-cmbs.html"
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "Clifford Chance",
+          "firmId": "clifford-chance",
+          "client": "Deutsche Bank and Standard Chartered",
+          "scope": "Arrangers, managers, loan sellers and issuer lenders",
+          "source": "https://www.cliffordchance.com/news/news/2026/10/clifford-chance-advises-deutsche-bank-and-standard-chartered-on-603-million-uk-logistics-cmbs.html"
+        }
+      ],
+      "related": [
+        "finance",
+        "capital-markets",
+        "securitisation"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "id": "standard-chartered-dnn",
+      "title": "Standard Chartered / US$200m digitally native notes",
+      "eventDate": "2026-08-21",
+      "status": "Notes issued (mandate disclosure)",
+      "sector": "Banking / fintech",
+      "dealType": "Debt capital markets",
+      "parties": [
+        [
+          "Issuer",
+          "Standard Chartered Bank"
+        ],
+        [
+          "Infrastructure",
+          "Euroclear D-FMI"
+        ]
+      ],
+      "structure": "Floating-rate digitally native notes due 2029.",
+      "fact": "Clifford Chance reported the UK bank's US$200m issuance through Euroclear's digital issuance infrastructure; application was made for admission to London's International Securities Market.",
+      "values": [
+        {
+          "label": "Note principal",
+          "amount": "US$200m",
+          "source": "https://www.cliffordchance.com/news/news/2026/08/clifford-chance-advises-on-landmark-digitally-native-note-issuance-for-standard-chartered.html"
+        }
+      ],
+      "analysis": "Digital settlement infrastructure can change operational processes without eliminating ordinary debt and securities-law obligations.",
+      "legalWork": "Examine issuance and settlement arrangements, title and payment mechanics, continuity provisions, disclosure and admission requirements. Distinguish application for admission from actual admission.",
+      "watch": "Further issuances and evidence of completed admission.",
+      "interview": "What legal and operational risks remain when a bond is issued using distributed ledger infrastructure?",
+      "timeline": [
+        {
+          "date": "2026-08-21",
+          "event": "Issuer counsel disclosed issuance",
+          "source": "https://www.cliffordchance.com/news/news/2026/08/clifford-chance-advises-on-landmark-digitally-native-note-issuance-for-standard-chartered.html"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Clifford Chance issuer mandate",
+          "url": "https://www.cliffordchance.com/news/news/2026/08/clifford-chance-advises-on-landmark-digitally-native-note-issuance-for-standard-chartered.html"
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "Clifford Chance",
+          "firmId": "clifford-chance",
+          "client": "Standard Chartered Bank",
+          "scope": "Legal structuring, documentation and execution",
+          "source": "https://www.cliffordchance.com/news/news/2026/08/clifford-chance-advises-on-landmark-digitally-native-note-issuance-for-standard-chartered.html"
+        }
+      ],
+      "related": [
+        "capital-markets",
+        "finance"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "id": "drax-bluefield",
+      "title": "Drax / Bluefield Solar Income Fund",
+      "eventDate": "2026-07-31",
+      "status": "Completed",
+      "sector": "Renewable energy",
+      "dealType": "Public M&A",
+      "parties": [
+        [
+          "Buyer",
+          "Drax Smart Generation Holdco"
+        ],
+        [
+          "Target",
+          "Bluefield Solar Income Fund"
+        ]
+      ],
+      "structure": "Acquisition of renewable infrastructure investment fund.",
+      "fact": "Drax confirms completion effective 31 July. Its later trading update reports £561m consideration and £1.082bn enterprise value.",
+      "values": [
+        {
+          "label": "Consideration reported in trading update",
+          "amount": "£561m",
+          "source": "https://www.drax.com/financial-news/trading-update-upgraded-outlook-for-2026-ebitda/"
+        },
+        {
+          "label": "Enterprise value reported in trading update",
+          "amount": "£1.082bn",
+          "source": "https://www.drax.com/financial-news/trading-update-upgraded-outlook-for-2026-ebitda/"
+        }
+      ],
+      "analysis": "Acquiring operating renewable assets changes the buyer's generation mix and introduces portfolio-specific debt, power-price and asset performance exposure.",
+      "legalWork": "Review project SPV debt, change-of-control provisions, revenue support contracts, generation asset title and integration. Distinguish the acquisition consideration from enterprise valuation.",
+      "watch": "Operating performance and integration disclosures.",
+      "interview": "Why might a renewable portfolio's enterprise value be substantially greater than its equity consideration?",
+      "timeline": [
+        {
+          "date": "2026-07-31",
+          "event": "Acquisition effective",
+          "source": "https://www.drax.com/investors/bsif-acquisition/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Drax acquisition archive",
+          "url": "https://www.drax.com/investors/bsif-acquisition/"
+        },
+        {
+          "name": "Drax trading update",
+          "url": "https://www.drax.com/financial-news/trading-update-upgraded-outlook-for-2026-ebitda/"
+        }
+      ],
+      "related": [
+        "valuation",
+        "project-finance",
+        "finance"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "id": "vivisol-airliquide",
+      "title": "Vivisol / Air Liquide UK home oxygen business",
+      "eventDate": "2026-11-19",
+      "status": "Phase 1 concerns",
+      "sector": "Healthcare",
+      "dealType": "M&A / regulatory review",
+      "parties": [
+        [
+          "Buyer",
+          "Vivisol"
+        ],
+        [
+          "Target",
+          "Air Liquide UK home oxygen services business"
+        ]
+      ],
+      "structure": "Proposed acquisition under CMA review; consideration and definitive structure not established.",
+      "fact": "CMA announced possible competition harm and a reference unless acceptable undertakings are offered.",
+      "regulatory": "CMA announced possible competition harm and a reference unless acceptable undertakings are offered.",
+      "analysis": "The published procedural milestone identifies regulatory risk, not a completed or prohibited transaction. Transaction economics require separate issuer or party evidence.",
+      "legalWork": "Assess regional supply and tender alternatives, continuity of patient services and viability of possible remedies; do not assume divestment terms.",
+      "watch": "Subsequent CMA decision or formal start.",
+      "interview": "Why is continuity of supply important when considering remedies in healthcare?",
+      "timeline": [
+        {
+          "date": "2026-11-19",
+          "event": "Phase 1 concerns",
+          "source": "https://www.gov.uk/cma-cases/vivisol-slash-air-liquide-home-oxygen-services-business-merger-inquiry"
+        }
+      ],
+      "sources": [
+        {
+          "name": "CMA case",
+          "url": "https://www.gov.uk/cma-cases/vivisol-slash-air-liquide-home-oxygen-services-business-merger-inquiry"
+        }
+      ],
+      "related": [
+        "merger-control"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "id": "firstcash-ramsdens",
+      "title": "FirstCash / Ramsdens",
+      "eventDate": "2026-10-26",
+      "status": "Phase 1 inquiry",
+      "sector": "Financial services",
+      "dealType": "M&A / regulatory review",
+      "parties": [
+        [
+          "Buyer",
+          "FirstCash Holdings"
+        ],
+        [
+          "Target",
+          "Ramsdens Holdings PLC"
+        ]
+      ],
+      "structure": "Proposed acquisition under CMA review; consideration and definitive structure not established.",
+      "fact": "CMA launched its formal inquiry into the anticipated acquisition on 26 October.",
+      "regulatory": "CMA launched its formal inquiry into the anticipated acquisition on 26 October.",
+      "analysis": "The published procedural milestone identifies regulatory risk, not a completed or prohibited transaction. Transaction economics require separate issuer or party evidence.",
+      "legalWork": "Assess market overlap in relevant consumer financial services, local competition and any separate regulatory requirements; map completion conditions.",
+      "watch": "2026-12-22 — subject to extensions",
+      "interview": "How can local market competition affect a national acquisition?",
+      "timeline": [
+        {
+          "date": "2026-10-26",
+          "event": "Phase 1 inquiry",
+          "source": "https://www.gov.uk/cma-cases/firstcash-slash-ramsdens-merger-inquiry"
+        }
+      ],
+      "deadline": {
+        "date": "2026-12-22",
+        "label": "CMA Phase 1 decision deadline",
+        "source": "https://www.gov.uk/cma-cases/firstcash-slash-ramsdens-merger-inquiry"
+      },
+      "sources": [
+        {
+          "name": "CMA case",
+          "url": "https://www.gov.uk/cma-cases/firstcash-slash-ramsdens-merger-inquiry"
+        }
+      ],
+      "related": [
+        "merger-control"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "id": "prologis-segro",
+      "title": "Prologis / SEGRO",
+      "eventDate": "2026-10-27",
+      "status": "Pre-notification / consultation",
+      "sector": "Real estate",
+      "dealType": "M&A / regulatory review",
+      "parties": [
+        [
+          "Proposed acquirer",
+          "Prologis"
+        ],
+        [
+          "Target",
+          "SEGRO plc"
+        ]
+      ],
+      "structure": "Proposed acquisition under CMA review; consideration and definitive structure not established.",
+      "fact": "CMA opened an invitation to comment on the anticipated acquisition; formal Phase 1 start was listed as to be confirmed.",
+      "regulatory": "CMA opened an invitation to comment on the anticipated acquisition; formal Phase 1 start was listed as to be confirmed.",
+      "analysis": "The published procedural milestone identifies regulatory risk, not a completed or prohibited transaction. Transaction economics require separate issuer or party evidence.",
+      "legalWork": "Assess logistics property market definition, customer alternatives and geographic overlap; avoid equating pre-notification with formal inquiry.",
+      "watch": "Subsequent CMA decision or formal start.",
+      "interview": "Why might geographic market definition matter for warehouse tenants?",
+      "timeline": [
+        {
+          "date": "2026-10-27",
+          "event": "Pre-notification / consultation",
+          "source": "https://www.gov.uk/cma-cases/prologis-slash-segro-merger-inquiry"
+        }
+      ],
+      "sources": [
+        {
+          "name": "CMA case",
+          "url": "https://www.gov.uk/cma-cases/prologis-slash-segro-merger-inquiry"
+        }
+      ],
+      "related": [
+        "merger-control"
       ]
     }
   ],
@@ -765,6 +1771,44 @@
         "name": "Government NSI guidance",
         "url": "https://www.gov.uk/guidance/national-security-and-investment-act-guidance-on-acquisitions"
       }
+    },
+    {
+      "id": "securitisation",
+      "title": "Securitisation and credit risk",
+      "level": "Intermediate",
+      "body": "A securitisation uses a financing structure in which investors are paid from a pool of underlying exposures, subject to contractual priorities. Analyse asset transfer, security, servicing, cash-flow waterfalls, credit enhancement and insolvency risk. CMBS can expose investors to property cash flow and refinancing risk.",
+      "scenario": "A CMBS issuer sells senior and junior notes. Does securitisation eliminate borrower default risk?",
+      "options": [
+        "Yes",
+        "No; losses are allocated through the contractual structure",
+        "Yes, if notes are listed",
+        "Yes, if property is insured"
+      ],
+      "answer": 1,
+      "explanation": "The structure allocates credit risk rather than making the underlying exposure risk-free.",
+      "source": {
+        "name": "UK logistics CMBS example",
+        "url": "https://www.cliffordchance.com/news/news/2026/10/clifford-chance-advises-deutsche-bank-and-standard-chartered-on-603-million-uk-logistics-cmbs.html"
+      }
+    },
+    {
+      "id": "public-schemes",
+      "title": "Schemes of arrangement and deal certainty",
+      "level": "Applied",
+      "body": "A scheme of arrangement is a court-supervised process. A public takeover implemented by scheme typically requires the relevant shareholder approvals and court sanction, alongside satisfaction of applicable offer conditions. Check the transaction documents and the relevant Companies Act and Takeover Code provisions.",
+      "scenario": "A scheme has shareholder support but merger clearance is outstanding. Which conclusion is sound?",
+      "options": [
+        "It must close immediately",
+        "A closing condition may remain outstanding",
+        "The CMA has implicitly approved",
+        "Court sanction is unnecessary"
+      ],
+      "answer": 1,
+      "explanation": "Shareholder support is not the same as satisfaction of all conditions or legal completion.",
+      "source": {
+        "name": "Mitie scheme document",
+        "url": "https://www.mitie.com/wp-content/uploads/2026/08/Project-Marlin_Scheme_Document.pdf"
+      }
     }
   ],
   "firms": [
@@ -853,6 +1897,18 @@
       "https://docs.publishing.service.gov.uk/repos/search-api/using-the-search-api.html",
       "Discovery",
       "Public documented API; runtime verification pending."
+    ],
+    [
+      "GOV.UK Content API",
+      "https://content-api.publishing.service.gov.uk/",
+      "Regulator source dossiers",
+      "Structured source metadata and document links; independent from reviewed editorial data."
+    ],
+    [
+      "Issuer and counsel announcements",
+      "https://www.lseg.com/en/media-centre/press-releases/2026/lseg-acquire-octus-public-private-credit-solutions",
+      "Editorial primary evidence",
+      "Reviewed manually for scope, values and adviser roles; automated collection requires source-specific review."
     ]
   ]
 }

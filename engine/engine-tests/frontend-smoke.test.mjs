@@ -9,7 +9,7 @@ test("the six concatenated client scripts remain syntactically executable",()=>{
  assert.doesNotThrow(()=>new Function(src)); // syntax check, no browser execution
 });
 test("main homepage bootloader is valid JavaScript",()=>{
- const html=fs.readFileSync(path.join(ROOT,"index.html"),"utf8");
+ const html=fs.readFileSync(path.join(ROOT,"india.html"),"utf8");
  const pivot=html.lastIndexOf('var PARTS=["app1.js"');
  assert.ok(pivot>0,"bootloader exists");
  const start=html.lastIndexOf("(function(){",pivot);
@@ -24,7 +24,7 @@ test("unconfigured email subscription must not claim success",()=>{
  assert.match(js,/Subscription failed/);
 });
 test("frontend must escape source-provided text and validate URLs",()=>{
- const html=fs.readFileSync(path.join(ROOT,"index.html"),"utf8");
+ const html=fs.readFileSync(path.join(ROOT,"india.html"),"utf8");
  assert.match(html,/function cltEscape/);
  assert.match(html,/function cltSafeDeal/);
  assert.match(html,/function cltSafeUrl/);
