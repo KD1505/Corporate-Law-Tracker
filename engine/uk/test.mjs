@@ -29,3 +29,5 @@ test("publication rejects malformed player summaries and monetary punctuation",(
 test("UK reading desk does not depend on a fixed calendar month",()=>{const source=fs.readFileSync(new URL("engine/uk/render.mjs",root),"utf8");assert(!source.includes('r.eventDate.slice(0,7)==="2026-11"'));});
 
 test("standalone dossiers expose overview, sourced advisers and save before optional analysis",()=>{for(const r of data.records.filter(x=>x.category==="Transactions")){const page=fs.readFileSync(new URL("uk/deals/"+r.id+".html",root),"utf8");assert(page.indexOf('id="overview"')<page.indexOf('class="dossier" open'));assert(page.includes('id="advisers"')&&page.includes('id="sources"')&&page.includes('data-save="'+r.id+'"'));assert.equal((page.match(/<h1>/g)||[]).length,1);assert(!page.includes('<h3><a class="deal-title"'));}});
+
+test("known unsupported Coal India amount does not pass the publishing gate",()=>{assert.equal(recordQuality({id:"NSE-rss-dfc550b85c71fdb64a7176",headline:"Coal India Limited",value:"₹ 2"}).kind,"needs-research");});
