@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-22T22:50:41.350Z",
-  "totalExceptions": 1429,
+  "generatedAt": "2026-11-24T03:33:38.948Z",
+  "totalExceptions": 1430,
   "queued": 500,
   "note": "A bounded editor review queue, not a claim that all flagged entries have been manually checked.",
   "items": [
@@ -22,6 +22,16 @@
       "score": 85,
       "reasons": [
         "Unverified purported legal adviser: Hogan Lovells Cadwalader"
+      ]
+    },
+    {
+      "id": "khaitan-co-advises-blackstone-on-5000-crore-equity-investment-in-iifl-finance",
+      "headline": "Khaitan & Co advises Blackstone on ₹5,000 crore equity investment in IIFL Finance",
+      "kind": "deal",
+      "importance": "hi",
+      "score": 72,
+      "reasons": [
+        "High-impact record without a matched specific official filing"
       ]
     },
     {
@@ -4994,16 +5004,6 @@
       "score": 17,
       "reasons": [
         "Unverified purported legal adviser: —"
-      ]
-    },
-    {
-      "id": "nse-SUMIT-07-Jul-2026105954",
-      "headline": "Sumit Woods Limited: SEBI Takeover Regulation 31(4) Disclosure Filed",
-      "kind": "disclosure",
-      "importance": "lo",
-      "score": 17,
-      "reasons": [
-        "Unverified purported legal adviser: Unknown"
       ]
     }
   ]

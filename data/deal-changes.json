@@ -1,6 +1,51 @@
 {
-  "updatedAt": "2026-11-22T22:50:43.897Z",
+  "updatedAt": "2026-11-24T03:33:41.180Z",
   "events": [
+    {
+      "id": "NSE-rss-dfc550b85c71fdb64a7176",
+      "headline": "Coal India Limited",
+      "date": "2026-11-24T03:33:41.178Z",
+      "kind": "record-added",
+      "changes": [
+        "New transaction record published"
+      ]
+    },
+    {
+      "id": "BSE-rss-ef29c31e358e7b0fd23eea",
+      "headline": "Gujarat Toolroom Ltd (513337)",
+      "date": "2026-11-24T03:33:41.178Z",
+      "kind": "record-added",
+      "changes": [
+        "New transaction record published"
+      ]
+    },
+    {
+      "id": "shardul-amarchand-mangaldas-advises-ifc-on-150-million-financing-to-sbi-gift-city",
+      "headline": "Shardul Amarchand Mangaldas advises IFC on $150 million financing to SBI GIFT City",
+      "date": "2026-11-24T03:33:41.178Z",
+      "kind": "record-added",
+      "changes": [
+        "New transaction record published"
+      ]
+    },
+    {
+      "id": "khaitan-co-advises-blackstone-on-5000-crore-equity-investment-in-iifl-finance",
+      "headline": "Khaitan & Co advises Blackstone on ₹5,000 crore equity investment in IIFL Finance",
+      "date": "2026-11-24T03:33:41.178Z",
+      "kind": "record-added",
+      "changes": [
+        "New transaction record published"
+      ]
+    },
+    {
+      "id": "universal-legal-acts-for-dsp-designs-on-its-sale-to-anarock-group",
+      "headline": "Universal Legal acts for DSP Designs on its sale to Anarock Group",
+      "date": "2026-11-24T03:33:41.178Z",
+      "kind": "record-added",
+      "changes": [
+        "New transaction record published"
+      ]
+    },
     {
       "id": "azb-hlc-cam-linklaters-act-on-aegis-logistics-3500-crore-qip",
       "headline": "Aegis Logistics closes ₹3,500-crore QIP; 28.93 million shares allocated at ₹1,210",

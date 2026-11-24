@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-22T22:50:41.393Z",
-  "sourceCheckAt": "2026-11-22",
-  "flaggedURLs": 221,
-  "queuedURLs": 221,
+  "generatedAt": "2026-11-24T03:33:38.981Z",
+  "sourceCheckAt": "2026-11-24",
+  "flaggedURLs": 222,
+  "queuedURLs": 222,
   "note": "Historical automated 404/410 observations require independent reconfirmation, especially on regulator websites.",
   "items": [
     {
@@ -252,6 +252,15 @@
       "httpStatus": 404,
       "affectedRecords": [
         "nse-ESTER-20-Aug-2026180843"
+      ],
+      "maxPriority": 33
+    },
+    {
+      "url": "https://nsearchives.nseindia.com/corporate/HEXAGON-NUTRITION_19082026172001_Intimation-Nikhil_Kelkar.pdf",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-HEXAGON-19-Aug-2026172508",
+        "nse-HEXAGON-19-Aug-2026172508"
       ],
       "maxPriority": 33
     },

@@ -1,16 +1,16 @@
 {
   "_note": "Auto-grown source funnel. Each run logs every domain that corroborated a deal, with a running count. Domains marked official:true are government/regulator/exchange/court. Review the high-count entries periodically and promote the best into sources.json as curated corroborators.",
   "barandbench.com": {
-    "count": 665,
+    "count": 668,
     "firstSeen": "2026-06-08",
     "official": true,
-    "lastSeen": "2026-11-19"
+    "lastSeen": "2026-11-24"
   },
   "bseindia.com": {
-    "count": 2732,
+    "count": 2733,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-08-26"
+    "lastSeen": "2026-11-24"
   },
   "nseindia.com": {
     "count": 2778,
@@ -43,10 +43,10 @@
     "lastSeen": "2026-08-03"
   },
   "nsearchives.nseindia.com": {
-    "count": 4998,
+    "count": 4999,
     "firstSeen": "2026-06-14",
     "official": true,
-    "lastSeen": "2026-11-19"
+    "lastSeen": "2026-11-24"
   },
   "hfcl.com": {
     "count": 2,
