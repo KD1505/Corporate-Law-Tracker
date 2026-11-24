@@ -634,7 +634,7 @@ if(!fs.existsSync(healthPath))fs.writeFileSync(healthPath,JSON.stringify({
 
 // sitemap + robots
 const today = new Date().toISOString().slice(0,10);
-const urls = [ `${SITE}/`, `${SITE}/deals.html`, `${SITE}/filings.html`, `${SITE}/changes.html`, `${SITE}/firms.html`, `${SITE}/academy.html`,
+const urls = [ `${SITE}/`, `${SITE}/uk.html`, `${SITE}/deals.html`, `${SITE}/filings.html`, `${SITE}/changes.html`, `${SITE}/firms.html`, `${SITE}/academy.html`,
   ...GOV.map(g=>`${SITE}/${g.slug}.html`),
   ...all.map(d=>`${SITE}${dealPath(d)}`), ...firms.filter(f=>f.deals.length>=5).map(f=>`${SITE}${firmPath(f.name)}`) ];
 fs.writeFileSync(path.join(ROOT,"sitemap.xml"),

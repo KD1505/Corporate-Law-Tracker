@@ -1,0 +1,45 @@
+name: UK intelligence checks and discovery
+on:
+  pull_request:
+    paths: ['uk.html','uk/**','engine/uk/**','.github/workflows/uk.yml','index.html']
+  push:
+    branches: [uk-intelligence-foundation, main]
+    paths: ['uk.html','uk/**','engine/uk/**','.github/workflows/uk.yml']
+  schedule:
+    - cron: '20 6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: uk-intelligence-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: node --check uk/app.js && node --test engine/uk/test.mjs
+  discover:
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+    needs: verify
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - run: node engine/uk/discover.mjs
+      - run: |
+          git config user.name "corporate-law-tracker-bot"
+          git config user.email "actions@github.com"
+          git add uk/discovery.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "chore: UK CMA discovery snapshot"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
