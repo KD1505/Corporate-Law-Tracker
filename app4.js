@@ -134,13 +134,13 @@ function sortList(list){
 function buildSidebar(){
   const grp=(label,items)=>`<div class="ng"><h4>${label}</h4>${items.map(b=>`<div class="ni" data-browse="${b.k}"><span class="ic">${b.ic}</span>${b.label}${b.ct!==undefined?`<span class="ct" ${b.ctid?`id="${b.ctid}"`:""}>${b.ct}</span>`:""}</div>`).join("")}</div>`;
   const ws=[{k:"feed",ic:"▤",label:"Today"},{k:"foryou",ic:"◈",label:"My Practice"},{k:"watch",ic:"★",label:"Watchlist",ct:starred.size,ctid:"starCt"},{k:"saved",ic:"⌗",label:"Saved Searches"},{k:"compare",ic:"⊞",label:"Compare",ct:cmp.size,ctid:"cmpCt"}];
-  const intel=[{k:"precedents",ic:"⌕",label:"Precedent Transactions"},{k:"pipeline",ic:"◷",label:"Deal Pipeline"},{k:"analytics",ic:"▦",label:"League Tables"},{k:"trends",ic:"◎",label:"Market Trends"},{k:"moves",ic:"⇄",label:"People Moves"},{k:"firms",ic:"⚖",label:"Law Firms"}];
+  const intel=[{k:"precedents",ic:"⌕",label:"Precedent Transactions"},{k:"pipeline",ic:"◷",label:"Deal Pipeline"},{k:"analytics",ic:"▦",label:"Observed mandates"},{k:"trends",ic:"◎",label:"Market Trends"},{k:"moves",ic:"⇄",label:"People Moves"},{k:"firms",ic:"⚖",label:"Law Firms"}];
   const reg=[{k:"regulatory",ic:"§",label:"Regulatory Radar"},{k:"calendar",ic:"☷",label:"Regulatory Calendar"},{k:"coverage",ic:"◫",label:"Coverage & Method"}];
   const geo=`<div class="ng"><h4>Geography</h4>${GEOS.map(g=>{const ct=g.id==="all"?DEALS.length:DEALS.filter(d=>d.geo===g.id).length;
     return `<div class="ni" data-geo="${g.id}"><span class="dot" style="background:${g.dot}"></span>${g.label}<span class="ct">${ct}</span></div>`}).join("")}</div>`;
   const typ=`<div class="ng"><h4>Deal Type</h4>${Object.entries(TYPES).map(([k,v])=>{const ct=DEALS.filter(d=>d.type===k).length;
     return ct?`<div class="ni" data-type="${k}"><span class="dot" style="background:${v.c}"></span>${v.label}<span class="ct">${ct}</span></div>`:""}).join("")}</div>`;
-  const learn=`<div class="ng"><h4>Learn</h4><div class="ni" data-href="academy.html"><span class="ic">◆</span>Academy<span class="ct">↗</span></div></div>`;
+  const learn=`<div class="ng"><h4>Learn</h4><div class="ni" data-href="academy.html"><span class="ic">◆</span>India Academy<span class="ct">↗</span></div></div>`;
   $("sidebar").innerHTML=grp("Workspace",ws)+grp("Intelligence",intel)+grp("Regulatory",reg)+learn+geo+typ;
   $("sidebar").querySelectorAll("[data-href]").forEach(n=>n.onclick=()=>{location.href=n.dataset.href;});
   $("sidebar").querySelectorAll("[data-browse]").forEach(n=>n.onclick=()=>{const k=n.dataset.browse;
