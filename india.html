@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CorpLawTracker | The Decision Engine for India's Corporate Legal Market</title>
+<title>CorpLawTracker | India legal &amp; commercial intelligence</title>
 <meta name="description" content="Source-linked Indian corporate transaction research - material corporate deals, mandates and regulatory developments, each labelled by the available evidence and turned into the pitch to make, the precedent to cite and the documents to re-paper.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.corplawtracker.com/india.html">
@@ -25,9 +25,7 @@
 <meta name="twitter:image:alt" content="CorpLawTracker - source-linked Indian corporate deal and regulatory intelligence.">
 <link rel="icon" type="image/svg+xml" href="logo.svg?v=3">
 <link rel="apple-touch-icon" href="logo.svg?v=3">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/shared/tokens.css?v=1">
 <style>
   :root{
     --bg:#f6f4ef; --surface:#fffefc; --surface2:#faf8f3;
@@ -641,23 +639,20 @@
       transition-duration:.01ms!important;scroll-behavior:auto!important}
     .crow:hover,.card:hover,.fcard:hover,.priocard:hover,.stat:hover{transform:none}
   }
+
+  html[data-theme="light"]{--bg:var(--clt-paper,#f6f7f6);--surface:var(--clt-surface,#fff);--surface2:var(--clt-surface-subtle,#f9faf9);--ink:var(--clt-ink,#26353f);--ink2:var(--clt-muted,#53656e);--ink3:var(--clt-muted,#53656e);--ink4:var(--clt-muted,#53656e);--line:var(--clt-line,#dce3e2);--line2:#eaf2ef;--accent:var(--clt-accent,#225c57);--accent-soft:var(--clt-selected,#eaf2ef);--green:var(--clt-positive,#24543d);--amber:var(--clt-warning,#745518)}
+  :root{--sans:var(--clt-sans,system-ui,sans-serif);--serif:var(--clt-serif,Georgia,serif);--mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
+  html[data-theme="light"] :focus-visible{outline:3px solid var(--clt-focus,#916217);outline-offset:3px}
+  html[data-theme="light"] .search input,html[data-theme="light"] .methlink{border-color:var(--clt-control,#75847f)}
+  .brand{text-decoration:none}.brand img{flex:none}.brand .nm .wm{font-weight:700;color:var(--ink)}
+
 </style>
 </head>
 <body>
 <a class="skiplink" href="#main">Skip to main content</a>
 <header role="banner">
   <button class="navtoggle" id="navToggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
-  <div class="brand" role="button" tabindex="0" aria-label="CorpLawTracker home" onclick="go({name:'feed'});resetFilters()" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();go({name:'feed'});resetFilters();}">
-    <div class="mark" aria-label="Corporate Law Tracker">
-      <svg width="22" height="22" viewBox="0 0 64 64" aria-hidden="true" fill="#fff">
-        <rect x="15" y="15" width="27" height="8.5"/>
-        <rect x="15" y="15" width="8.5" height="34"/>
-        <rect x="15" y="40.5" width="27" height="8.5"/>
-        <rect x="33" y="27.75" width="20" height="8.5"/>
-      </svg>
-    </div>
-    <div class="nm"><span class="wm"><b>CorpLaw</b>Tracker</span><span class="sub">LEGAL &amp; COMMERCIAL INTELLIGENCE · INDIA</span></div>
-  </div>
+  <a class="brand" href="/india.html" aria-label="CorpLawTracker India home"><img src="/logo.svg" alt="" width="32" height="32"><div class="nm"><span class="wm">CorpLawTracker</span><span class="sub">LEGAL &amp; COMMERCIAL INTELLIGENCE · INDIA</span></div></a>
   <div class="search">
     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8b93a3" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
     <label for="q" class="sr-only">Search deals, firms, partners and rules</label>

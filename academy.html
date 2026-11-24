@@ -39,6 +39,7 @@
     });
 })();
 </script>
+<link rel="stylesheet" href="/shared/tokens.css?v=1">
 <style>
   :root{
     --bg:#f3f1ec;--surface:#fff;--surface2:#faf8f3;--ink:#16181d;--ink2:#474d59;--ink3:#838995;--ink4:#aeb3bd;
@@ -126,15 +127,20 @@
 
   footer{padding:44px 0 70px;color:var(--ink3);font-size:13px;border-top:1px solid var(--line);margin-top:30px}
   footer a{font-weight:600}
+
+  html[data-theme="light"]{--bg:var(--clt-paper,#f6f7f6);--surface:var(--clt-surface,#fff);--surface2:var(--clt-surface-subtle,#f9faf9);--ink:var(--clt-ink,#26353f);--ink2:var(--clt-muted,#53656e);--ink3:var(--clt-muted,#53656e);--ink4:var(--clt-muted,#53656e);--line:var(--clt-line,#dce3e2);--line2:#eaf2ef;--accent:var(--clt-accent,#225c57);--accent-soft:var(--clt-selected,#eaf2ef);--green:var(--clt-positive,#24543d);--amber:var(--clt-warning,#745518)}
+  :root{--sans:var(--clt-sans,system-ui,sans-serif);--serif:var(--clt-serif,Georgia,serif);--mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
+  html[data-theme="light"] :focus-visible{outline:3px solid var(--clt-focus,#916217);outline-offset:3px}
+  html[data-theme="light"] .search input,html[data-theme="light"] .methlink{border-color:var(--clt-control,#75847f)}
+  .brand{text-decoration:none}.brand img{flex:none}.brand .nm .wm{font-weight:700;color:var(--ink)}
+
+  header{background:var(--surface);backdrop-filter:none}.htabs{flex-wrap:wrap;align-items:center}.htabs a{border-color:var(--clt-control,#75847f)}.brand .nm{font-family:var(--sans);color:var(--ink)}@media(max-width:520px){header{height:auto;min-height:58px;padding:10px 12px;flex-wrap:wrap}.htabs{margin-left:0;gap:5px}.htabs a{padding:6px 8px;font-size:12px}}
 </style>
 </head>
 <body>
 
 <header>
-  <div class="brand" onclick="location.href='india.html'">
-    <div class="mk"><svg width="20" height="20" viewBox="0 0 48 48" aria-hidden="true"><path d="M28.17 36.84 A13.5 13.5 0 1 1 28.17 11.16" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/><circle cx="24" cy="24" r="4" fill="#fff"/></svg></div>
-    <div class="nm">India Academy<span>INDIAN CORPORATE LAW</span></div>
-  </div>
+  <a class="brand" href="/india.html"><img src="/logo.svg" alt="" width="32" height="32"><div class="nm">India Academy<span>INDIAN CORPORATE LAW</span></div></a>
   <nav class="htabs"><a href="india.html">India dashboard</a> · <a href="/#academy">UK Academy</a></nav>
 </header>
 

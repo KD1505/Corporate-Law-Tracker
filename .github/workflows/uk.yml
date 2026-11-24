@@ -1,10 +1,10 @@
 name: UK intelligence checks and discovery
 on:
   pull_request:
-    paths: ['uk.html','uk/**','engine/uk/**','.github/workflows/uk.yml','index.html','india.html','vercel.json']
+    paths: ['uk.html','uk/**','shared/**','engine/uk/**','.github/workflows/uk.yml','index.html','india.html','vercel.json']
   push:
     branches: [uk-intelligence-foundation, uk-portal-v2, uk-daily-desk, uk-research-careers-v3, uk-archive-seo-v4, uk-ui-polish-v5, main]
-    paths: ['uk.html','uk/**','engine/uk/**','.github/workflows/uk.yml']
+    paths: ['uk.html','uk/**','shared/**','engine/uk/**','.github/workflows/uk.yml']
   schedule:
     - cron: '20 6 * * *'
   workflow_dispatch:
