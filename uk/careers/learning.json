@@ -1,0 +1,950 @@
+{
+  "asOf": "2026-11-24",
+  "modules": [
+    {
+      "id": "career-module-1",
+      "title": "Targeting applications",
+      "pathway": "Career foundations",
+      "body": "Distinguish a programme commencing in several years from a current vacancy. Read mandatory requirements before preferences, record the published application route and select roles that fit your actual experience.",
+      "exercise": "Choose three adverts; classify each requirement as mandatory, desirable or unclear. Record evidence or a question for each.",
+      "scenario": "A candidate with a law degree sees a vacancy requiring two years of paralegal experience. They have three months of internship experience. What should they do?",
+      "options": [
+        "Treat the two-year requirement as met because the degree is relevant",
+        "Check whether the wording permits equivalents; target genuinely suitable roles and avoid misrepresenting experience",
+        "Claim the internship was two years",
+        "Ignore the requirement"
+      ],
+      "answer": 1,
+      "explanation": "A law degree does not establish a specified period of work. A transparent application may be appropriate if the employer explicitly allows equivalent experience."
+    },
+    {
+      "id": "career-module-2",
+      "title": "Eligibility and right to work",
+      "pathway": "Career foundations",
+      "body": "Right to work now and eligibility for employer-sponsored work later are distinct. A sponsor licence is not evidence of support for a particular vacancy. Use official immigration rules and ask recruiters about the precise role.",
+      "exercise": "Create a timeline of current permission and future requirements without recording passport or visa numbers.",
+      "scenario": "An employer appears on the sponsor register. Does that prove it will sponsor a paralegal vacancy?",
+      "options": [
+        "Yes",
+        "No, check role-specific policy and current immigration requirements",
+        "Only in London",
+        "Only if the vacancy is permanent"
+      ],
+      "answer": 1,
+      "explanation": "A licence is a necessary organisational capability for many sponsorship routes, not an individual commitment."
+    },
+    {
+      "id": "career-module-3",
+      "title": "Firm differentiation",
+      "pathway": "Applications",
+      "body": "Differentiate firms using actual practice work, client relationships and strategy. A deal attribution demonstrates a mandate, not necessarily a firm-wide strength. Combine evidence of work with genuine personal motivation.",
+      "exercise": "Compare two firm profiles; explain one meaningful difference using named mandates and an honest connection to your interests.",
+      "scenario": "Which is the strongest reason for applying?",
+      "options": [
+        "Prestige alone",
+        "A specific mandate, what interests you about the legal work, and how it relates to your experience",
+        "A copied slogan",
+        "A ranking without context"
+      ],
+      "answer": 1,
+      "explanation": "Specific evidence plus genuine motivation is more informative than generic prestige language."
+    },
+    {
+      "id": "career-module-4",
+      "title": "CV evidence",
+      "pathway": "Applications",
+      "body": "Use clear action, legal or business context and the real output. Distinguish observed, assisted, researched, drafted, reviewed and led. Never invent results or authority.",
+      "exercise": "Rewrite two truthful experience statements; check the verbs against what you actually did.",
+      "scenario": "You checked a draft agreement under supervision. Which wording is accurate?",
+      "options": [
+        "Led negotiations",
+        "Closed the deal",
+        "Reviewed draft agreement clauses and flagged issues for supervisor",
+        "Advised the client independently"
+      ],
+      "answer": 2,
+      "explanation": "The third answer reflects the actual contribution and preserves the supervision boundary."
+    },
+    {
+      "id": "career-module-5",
+      "title": "Competency examples",
+      "pathway": "Applications",
+      "body": "Use a concise situation, task, action and result structure. Focus on your own contribution, decisions, lessons and verifiable outcomes.",
+      "exercise": "Build three examples covering teamwork, accuracy and prioritisation. Record what you would improve next time.",
+      "scenario": "What makes a teamwork example strongest?",
+      "options": [
+        "A detailed team achievement without your contribution",
+        "Your specific actions, how you worked with others and the actual outcome",
+        "A hypothetical answer presented as fact",
+        "The longest possible story"
+      ],
+      "answer": 1,
+      "explanation": "The example should establish your behaviour, not simply the group's result."
+    },
+    {
+      "id": "career-module-6",
+      "title": "Interview motivation",
+      "pathway": "Interview skills",
+      "body": "Connect the role to informed interests and relevant personal evidence. For paralegal jobs show understanding of the day-to-day work, not only ambition to qualify.",
+      "exercise": "Record a 90-second response for why this role and why this employer.",
+      "scenario": "What is a strong answer for a legal support role?",
+      "options": [
+        "Only say you want a future training contract",
+        "Explain how accurate support, document work and client service interest you, with relevant evidence",
+        "Criticise previous employers",
+        "Repeat the advert"
+      ],
+      "answer": 1,
+      "explanation": "Recruiters need evidence of motivation for the actual position."
+    },
+    {
+      "id": "career-module-7",
+      "title": "Feedback and rejection",
+      "pathway": "Applications",
+      "body": "Recruitment outcomes have multiple possible explanations. Use actual feedback and observable patterns rather than assuming the ATS or a protected characteristic caused rejection.",
+      "exercise": "Review your last five applications by stage and record one testable improvement for the next cycle.",
+      "scenario": "Three employers reject you without explanation. What can you establish?",
+      "options": [
+        "All used the same scoring rule",
+        "Your CV is definitely the only cause",
+        "Only the outcomes; examine eligibility, targeting and writing and seek feedback where available",
+        "Your interview skills caused them"
+      ],
+      "answer": 2,
+      "explanation": "Avoid unsupported causal claims. Review evidence and test a specific change."
+    },
+    {
+      "id": "career-module-8",
+      "title": "Written client advice",
+      "pathway": "Practical skills",
+      "body": "Lead with the answer and key uncertainty, separate facts from analysis, specify a practical next step and use plain language. Do not overpromise a legal conclusion.",
+      "exercise": "Draft a 150-word client email from a fictional problem and revise for actionability.",
+      "scenario": "What should a short client email put first?",
+      "options": [
+        "A long history of the law",
+        "The issue, practical recommendation and important caveat",
+        "All possible citations",
+        "An unsupported guarantee"
+      ],
+      "answer": 1,
+      "explanation": "A useful email helps the client decide, while respecting uncertainties and scope."
+    },
+    {
+      "id": "career-module-9",
+      "title": "Research method",
+      "pathway": "Practical skills",
+      "body": "Begin with the issue and jurisdiction, find primary legislation or regulator guidance, verify date and application, then explain facts and caveats. Secondary commentary can help locate sources.",
+      "exercise": "Research a narrow question using an official source and document the exact section and date.",
+      "scenario": "A blog contradicts current official rules. What next?",
+      "options": [
+        "Use the more convenient conclusion",
+        "Read the current primary source and reconcile scope/date before advising",
+        "Average both opinions",
+        "Ignore the date"
+      ],
+      "answer": 1,
+      "explanation": "Authority, currency and applicability matter more than search rank."
+    },
+    {
+      "id": "career-module-10",
+      "title": "Document control",
+      "pathway": "Practical skills",
+      "body": "Track version, author, recipient, changes and confidentiality. Check comparison direction and verify the clean copy reflects agreed edits.",
+      "exercise": "Compare two fictional versions of a clause; log the change and flag the version used.",
+      "scenario": "A revised contract arrives just before execution. What is safest?",
+      "options": [
+        "Send it immediately",
+        "Compare to agreed version, escalate unexpected changes and verify approval",
+        "Assume file name proves it is agreed",
+        "Overwrite all previous versions"
+      ],
+      "answer": 1,
+      "explanation": "Execution readiness requires a reliable version history and approval."
+    },
+    {
+      "id": "career-module-11",
+      "title": "Prioritisation",
+      "pathway": "Practical skills",
+      "body": "Clarify deadline, impact, dependency and scope. Escalate conflicts early with a proposed sequence; communicate accurately rather than promising impossible timing.",
+      "exercise": "Prioritise three tasks with different deadlines and commercial consequences.",
+      "scenario": "Two supervisors assign urgent work due at the same time. What should you do?",
+      "options": [
+        "Silently miss one deadline",
+        "Confirm priorities with the supervisors, give realistic timing and propose a plan",
+        "Guess which is more senior",
+        "Send unfinished work without disclosure"
+      ],
+      "answer": 1,
+      "explanation": "Early communication and prioritisation preserve quality and trust."
+    },
+    {
+      "id": "career-module-12",
+      "title": "Confidentiality",
+      "pathway": "Practical skills",
+      "body": "Do not send client material to an unapproved service or use real client information in training exercises. Report potential data exposure using the organisation's policy.",
+      "exercise": "Identify what must be redacted from a fictional document before training use.",
+      "scenario": "Can you upload a confidential client SPA to a public AI tool for convenience?",
+      "options": [
+        "Yes if no one sees you",
+        "Only if you delete it afterward",
+        "No without approved policy, authority and safeguards",
+        "Yes if it is long"
+      ],
+      "answer": 2,
+      "explanation": "Confidential information requires authorised systems and appropriate safeguards."
+    },
+    {
+      "id": "career-module-13",
+      "title": "Commercial numeracy",
+      "pathway": "Assessment skills",
+      "body": "Distinguish margin, growth, multiples and percentage points. Always identify the denominator, units and timeframe before interpreting a calculation.",
+      "exercise": "Calculate revenue growth and EBITDA margin for a fictional company; explain why neither proves cash flow.",
+      "scenario": "Revenue rises from £80m to £100m. What is the growth rate?",
+      "options": [
+        "20%",
+        "25%",
+        "80%",
+        "125%"
+      ],
+      "answer": 1,
+      "explanation": "Growth is (100−80)/80 = 25%."
+    },
+    {
+      "id": "career-module-14",
+      "title": "Critical reasoning",
+      "pathway": "Assessment skills",
+      "body": "A conclusion must be supported by the stated premises. Separate necessary inference from plausible assumptions and evaluate the argument, not your prior opinion.",
+      "exercise": "Read a short factual paragraph and list what is certain, possible and unsupported.",
+      "scenario": "All approved transactions require a signature. A transaction has a signature. Is it necessarily approved?",
+      "options": [
+        "Yes",
+        "No; signature may be necessary but not sufficient",
+        "Only if digital",
+        "Cannot have a signature"
+      ],
+      "answer": 1,
+      "explanation": "The conditional does not establish its converse."
+    },
+    {
+      "id": "career-module-15",
+      "title": "Group exercise",
+      "pathway": "Assessment skills",
+      "body": "Contribute substance, listen, invite quieter participants and help the group make a reasoned decision under time pressure. Do not dominate or withdraw.",
+      "exercise": "Discuss a fictional acquisition with a partner; summarise options and propose a decision.",
+      "scenario": "Two group members disagree on a recommendation. Best action?",
+      "options": [
+        "Speak over them",
+        "Identify shared criteria, test both options and agree a next step",
+        "Ignore disagreement",
+        "Vote immediately without discussion"
+      ],
+      "answer": 1,
+      "explanation": "Useful collaboration turns disagreement into a reasoned comparison."
+    },
+    {
+      "id": "career-module-16",
+      "title": "Video interview",
+      "pathway": "Assessment skills",
+      "body": "Practise aloud, use a clear structure and check employer rules about recording, notes and AI. Never use unauthorised assistance during an assessment.",
+      "exercise": "Record a local practice answer independently; assess structure and specificity.",
+      "scenario": "A firm prohibits AI during its assessment. What should you do?",
+      "options": [
+        "Use hidden assistance",
+        "Ask AI to answer in real time",
+        "Follow the employer rule; use independent preparation beforehand",
+        "Assume practice exceptions apply"
+      ],
+      "answer": 2,
+      "explanation": "Respect the exact assessment conditions."
+    },
+    {
+      "id": "career-module-17",
+      "title": "Networking",
+      "pathway": "Career foundations",
+      "body": "Ask focused, respectful questions about work and recruitment. Personalise outreach without requesting confidential information or assuming a referral.",
+      "exercise": "Draft a brief message asking for insight into a practice area, then plan one polite follow-up.",
+      "scenario": "What is appropriate in a first outreach?",
+      "options": [
+        "Demand a referral",
+        "Ask a concise question connected to the person's public work",
+        "Ask for confidential interview questions",
+        "Send repeated daily messages"
+      ],
+      "answer": 1,
+      "explanation": "A specific, respectful request reduces burden and respects boundaries."
+    },
+    {
+      "id": "career-module-18",
+      "title": "Qualifying experience",
+      "pathway": "Career foundations",
+      "body": "For ordinary SQE candidates, QWE is assessed against SRA requirements and needs confirmation; a job title is not enough. Qualified lawyers have a different route.",
+      "exercise": "Maintain a non-confidential log of work, competencies and potential confirmer; verify eligibility with the SRA.",
+      "scenario": "Does a virtual simulation automatically count as QWE?",
+      "options": [
+        "Yes",
+        "No, assess the regulatory requirements; a simulation is not automatically qualifying experience",
+        "Only if a certificate exists",
+        "Yes if completed online"
+      ],
+      "answer": 1,
+      "explanation": "QWE depends on legal-services experience and regulatory confirmation, not a badge."
+    },
+    {
+      "id": "career-module-19",
+      "title": "In-house counsel mindset",
+      "pathway": "Practical skills",
+      "body": "Understand the product, customer, revenue and operating constraints. Frame legal risks in business terms, provide options and escalate decisions appropriately.",
+      "exercise": "Write a brief recommendation about a fictional vendor contract.",
+      "scenario": "Which response best helps a commercial team?",
+      "options": [
+        "Only list legal doctrines",
+        "Identify material risk, options, business consequences and approval required",
+        "Approve everything",
+        "Refuse without explanation"
+      ],
+      "answer": 1,
+      "explanation": "In-house support connects legal risk to a practical business decision."
+    },
+    {
+      "id": "career-module-20",
+      "title": "Legal operations",
+      "pathway": "Practical skills",
+      "body": "Use structured matter information, ownership, deadlines and status. Measure turnaround carefully; speed alone is not quality. Avoid putting sensitive matter details into unapproved tools.",
+      "exercise": "Build a fictional matter table with owner, next action and deadline.",
+      "scenario": "Which is a useful operations metric?",
+      "options": [
+        "Total emails sent alone",
+        "Turnaround by request type alongside quality and rework",
+        "Number of lawyers only",
+        "Total file size"
+      ],
+      "answer": 1,
+      "explanation": "Contextual metrics help identify bottlenecks without rewarding poor quality."
+    },
+    {
+      "id": "career-module-21",
+      "title": "Negotiation",
+      "pathway": "Practical skills",
+      "body": "Identify interests, alternatives, authority and trade-offs. Distinguish positions from underlying commercial needs and document unresolved points accurately.",
+      "exercise": "Prepare three issues, alternatives and possible concessions for a fictional SPA negotiation.",
+      "scenario": "A seller wants a lower liability cap. What is a useful first step?",
+      "options": [
+        "Agree automatically",
+        "Understand risk allocation, price, insurance and buyer alternatives",
+        "Threaten to abandon the deal",
+        "Ignore the cap"
+      ],
+      "answer": 1,
+      "explanation": "A cap is part of overall risk allocation; concessions should be considered in context."
+    },
+    {
+      "id": "career-module-22",
+      "title": "Professional judgement",
+      "pathway": "Practical skills",
+      "body": "Do not conceal errors. Protect confidentiality, report concerns promptly and seek supervision when outside competence. Check applicable professional rules and firm policy.",
+      "exercise": "Describe how you would report an accidental drafting error and propose mitigation.",
+      "scenario": "You find a material mistake after a draft was sent. What should you do?",
+      "options": [
+        "Hide the mistake",
+        "Immediately tell the supervisor, identify impact and propose correction",
+        "Delete the email",
+        "Blame a colleague"
+      ],
+      "answer": 1,
+      "explanation": "Prompt escalation and correction are safer than concealment."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-1",
+      "skill": "Numerical",
+      "prompt": "A price falls from £120 to £90. Percentage decline?",
+      "options": [
+        "25%",
+        "30%",
+        "33.3%",
+        "75%"
+      ],
+      "answer": 0,
+      "explanation": "30/120=25%; use original price."
+    },
+    {
+      "id": "q-2",
+      "skill": "Numerical",
+      "prompt": "Revenue £150m, EBITDA £30m. EBITDA margin?",
+      "options": [
+        "5%",
+        "20%",
+        "30%",
+        "50%"
+      ],
+      "answer": 1,
+      "explanation": "30/150=20%."
+    },
+    {
+      "id": "q-3",
+      "skill": "Numerical",
+      "prompt": "Debt £60m and cash £15m. Net debt, ignoring other items?",
+      "options": [
+        "£75m",
+        "£45m",
+        "£15m",
+        "£60m"
+      ],
+      "answer": 1,
+      "explanation": "Net debt is debt less cash."
+    },
+    {
+      "id": "q-4",
+      "skill": "Numerical",
+      "prompt": "Equity £120m plus net debt £30m. Simplified EV?",
+      "options": [
+        "£90m",
+        "£120m",
+        "£150m",
+        "£30m"
+      ],
+      "answer": 2,
+      "explanation": "EV equals equity plus net debt in the simplified model."
+    },
+    {
+      "id": "q-5",
+      "skill": "Numerical",
+      "prompt": "A 400MW battery can deliver power for 3 hours at full rating. Nominal energy?",
+      "options": [
+        "400 MWh",
+        "1,200 MWh",
+        "133 MWh",
+        "3 MW"
+      ],
+      "answer": 1,
+      "explanation": "Power multiplied by duration gives energy."
+    },
+    {
+      "id": "q-6",
+      "skill": "Numerical",
+      "prompt": "A facility commitment is £80m; £50m drawn. Undrawn amount?",
+      "options": [
+        "£130m",
+        "£80m",
+        "£50m",
+        "£30m"
+      ],
+      "answer": 3,
+      "explanation": "Commitment minus drawn = 30; availability may depend on terms."
+    },
+    {
+      "id": "q-7",
+      "skill": "Numerical",
+      "prompt": "A margin rises from 10% to 13%. Increase in percentage points?",
+      "options": [
+        "30 points",
+        "3 points",
+        "13 points",
+        "0.3 points"
+      ],
+      "answer": 1,
+      "explanation": "13−10=3 percentage points; relative increase is 30%."
+    },
+    {
+      "id": "q-8",
+      "skill": "Numerical",
+      "prompt": "An offer pays 90p cash plus a 5p dividend. Total shareholder amount?",
+      "options": [
+        "95p",
+        "90p",
+        "85p",
+        "5p"
+      ],
+      "answer": 0,
+      "explanation": "Total is 95p; bidder cash is only 90p."
+    },
+    {
+      "id": "q-9",
+      "skill": "Numerical",
+      "prompt": "A £12m loan bears 5% annual simple interest. Annual interest?",
+      "options": [
+        "£60,000",
+        "£600,000",
+        "£6m",
+        "£12.6m"
+      ],
+      "answer": 1,
+      "explanation": "12m×0.05=£600k."
+    },
+    {
+      "id": "q-10",
+      "skill": "Numerical",
+      "prompt": "A company has 80m shares and issues 20m new shares. New investor's share of enlarged capital?",
+      "options": [
+        "25%",
+        "20%",
+        "80%",
+        "16%"
+      ],
+      "answer": 1,
+      "explanation": "20/(80+20)=20%."
+    },
+    {
+      "id": "q-11",
+      "skill": "Critical reasoning",
+      "prompt": "Every eligible applicant has a degree. Maya has a degree. Is she necessarily eligible?",
+      "options": [
+        "Yes",
+        "No",
+        "Yes, if law degree",
+        "Only if a graduate"
+      ],
+      "answer": 1,
+      "explanation": "Necessary does not imply sufficient."
+    },
+    {
+      "id": "q-12",
+      "skill": "Critical reasoning",
+      "prompt": "No deal may close before regulatory approval. Approval has been obtained. Must it close?",
+      "options": [
+        "Yes",
+        "No",
+        "It already closed",
+        "Approval is irrelevant"
+      ],
+      "answer": 1,
+      "explanation": "Other conditions and decisions may remain."
+    },
+    {
+      "id": "q-13",
+      "skill": "Critical reasoning",
+      "prompt": "A release says expected synergies of £20m. What follows?",
+      "options": [
+        "£20m already saved",
+        "Forecast is documented; realisation unproven",
+        "Profit doubled",
+        "Synergies guaranteed"
+      ],
+      "answer": 1,
+      "explanation": "Expectation is not an achieved outcome."
+    },
+    {
+      "id": "q-14",
+      "skill": "Critical reasoning",
+      "prompt": "A firm represented a lender on one acquisition. What is established?",
+      "options": [
+        "Firm advised buyer",
+        "Firm advises every lender",
+        "Firm had that lender mandate",
+        "Firm is market leader"
+      ],
+      "answer": 2,
+      "explanation": "The specific client and role only."
+    },
+    {
+      "id": "q-15",
+      "skill": "Critical reasoning",
+      "prompt": "A published deadline has passed. What is established?",
+      "options": [
+        "All roles are closed forever",
+        "Published deadline passed; check for extensions",
+        "Candidate was rejected",
+        "Employer ceased hiring"
+      ],
+      "answer": 1,
+      "explanation": "An elapsed deadline does not establish any extension or individual status."
+    },
+    {
+      "id": "q-16",
+      "skill": "Critical reasoning",
+      "prompt": "Two websites reproduce the same issuer release. Independent corroboration?",
+      "options": [
+        "Yes always",
+        "No, shared origin",
+        "Only if different domains",
+        "Only if both quote price"
+      ],
+      "answer": 1,
+      "explanation": "Different domains do not establish independent evidence."
+    },
+    {
+      "id": "q-17",
+      "skill": "Critical reasoning",
+      "prompt": "A target is described as profitable; no financial data given. Can EBITDA margin be calculated?",
+      "options": [
+        "Yes",
+        "No",
+        "Assume 20%",
+        "Use EV"
+      ],
+      "answer": 1,
+      "explanation": "No revenue or EBITDA amounts."
+    },
+    {
+      "id": "q-18",
+      "skill": "Critical reasoning",
+      "prompt": "A conditional offer is announced. Can completion be asserted?",
+      "options": [
+        "Yes",
+        "No",
+        "Only if counsel listed",
+        "If price is known"
+      ],
+      "answer": 1,
+      "explanation": "Announcement is distinct from completion."
+    },
+    {
+      "id": "q-19",
+      "skill": "Verbal reasoning",
+      "prompt": "A release says the buyer may raise additional debt. Does it say the buyer has drawn it?",
+      "options": [
+        "Yes",
+        "No",
+        "Debt equals consideration",
+        "Not if international"
+      ],
+      "answer": 1,
+      "explanation": "May raise is not actual drawing."
+    },
+    {
+      "id": "q-20",
+      "skill": "Verbal reasoning",
+      "prompt": "A report gives projected capacity in development. Which statement is supported?",
+      "options": [
+        "All capacity is operating",
+        "Capacity is planned, not necessarily operating",
+        "All permits secured",
+        "Revenue is guaranteed"
+      ],
+      "answer": 1,
+      "explanation": "Development status is distinct from operational capacity."
+    },
+    {
+      "id": "q-21",
+      "skill": "Verbal reasoning",
+      "prompt": "The application says experience desirable. Is it explicitly mandatory?",
+      "options": [
+        "Yes",
+        "No",
+        "Only for graduates",
+        "Always two years"
+      ],
+      "answer": 1,
+      "explanation": "Desirable is not the same as mandatory; confirm other criteria."
+    },
+    {
+      "id": "q-22",
+      "skill": "Verbal reasoning",
+      "prompt": "A company says it intends to preserve jobs. What is established?",
+      "options": [
+        "Legally binding guarantee",
+        "Stated intention",
+        "No redundancies ever",
+        "Government approved"
+      ],
+      "answer": 1,
+      "explanation": "An intention is not necessarily an enforceable undertaking."
+    },
+    {
+      "id": "q-23",
+      "skill": "Verbal reasoning",
+      "prompt": "A role is hybrid; no days specified. What can you infer?",
+      "options": [
+        "Exactly two office days",
+        "Office location and schedule unknown unless stated",
+        "Fully remote",
+        "Five office days"
+      ],
+      "answer": 1,
+      "explanation": "Do not invent attendance frequency."
+    },
+    {
+      "id": "q-24",
+      "skill": "Situational judgement",
+      "prompt": "A supervisor gives a task beyond your competence. Best action?",
+      "options": [
+        "Guess",
+        "Explain limits and ask for guidance",
+        "Refuse all work",
+        "Copy an unrelated answer"
+      ],
+      "answer": 1,
+      "explanation": "Seek supervision and establish scope."
+    },
+    {
+      "id": "q-25",
+      "skill": "Situational judgement",
+      "prompt": "You receive a suspicious email requesting client data. Best action?",
+      "options": [
+        "Reply with data",
+        "Verify via approved channel and report if appropriate",
+        "Forward to personal email",
+        "Ignore all messages forever"
+      ],
+      "answer": 1,
+      "explanation": "Avoid unverified disclosure."
+    },
+    {
+      "id": "q-26",
+      "skill": "Situational judgement",
+      "prompt": "Two sources disagree on acquisition value. Best action?",
+      "options": [
+        "Use larger number",
+        "Reconcile date, basis and scope; flag unresolved difference",
+        "Average both",
+        "Delete both"
+      ],
+      "answer": 1,
+      "explanation": "Disagreement may arise from distinct valuation bases."
+    },
+    {
+      "id": "q-27",
+      "skill": "Situational judgement",
+      "prompt": "A colleague asks you to claim work they performed as yours on an application. Best action?",
+      "options": [
+        "Agree",
+        "Describe only your actual contribution",
+        "Claim it if a team",
+        "Change dates"
+      ],
+      "answer": 1,
+      "explanation": "Authenticity is necessary."
+    },
+    {
+      "id": "q-28",
+      "skill": "Situational judgement",
+      "prompt": "A client asks for advice before the supervisor approves it. Best action?",
+      "options": [
+        "Give definitive advice independently",
+        "Explain timing and obtain appropriate review",
+        "Send draft marked final",
+        "Ignore client"
+      ],
+      "answer": 1,
+      "explanation": "Respect supervision and authority."
+    },
+    {
+      "id": "q-29",
+      "skill": "Situational judgement",
+      "prompt": "A hearing deadline conflicts with an internal research task. Best action?",
+      "options": [
+        "Work on the easier task",
+        "Confirm legal deadline and priorities; communicate conflict promptly",
+        "Ignore hearing",
+        "Promise both without checking"
+      ],
+      "answer": 1,
+      "explanation": "Assess consequences and escalate."
+    },
+    {
+      "id": "q-30",
+      "skill": "Situational judgement",
+      "prompt": "You find an accessibility issue in a practice test. Best action?",
+      "options": [
+        "Dismiss it",
+        "Report issue, request reasonable adjustment where appropriate",
+        "Assume all employers identical",
+        "Share private medical details publicly"
+      ],
+      "answer": 1,
+      "explanation": "Ask relevant provider through appropriate channels."
+    },
+    {
+      "id": "q-31",
+      "skill": "Commercial reasoning",
+      "prompt": "A buyer plans to integrate systems; a remedy requires divestment. What matters?",
+      "options": [
+        "Only purchase price",
+        "Effect on synergies, separability and closing conditions",
+        "Only buyer's logo",
+        "None"
+      ],
+      "answer": 1,
+      "explanation": "Remedy affects strategic value and execution."
+    },
+    {
+      "id": "q-32",
+      "skill": "Commercial reasoning",
+      "prompt": "A sponsor uses leverage. What increases vulnerability?",
+      "options": [
+        "Lower debt service",
+        "Higher debt service with weaker cash flow",
+        "Better margins",
+        "Lower capex"
+      ],
+      "answer": 1,
+      "explanation": "Debt service and cash generation affect resilience."
+    },
+    {
+      "id": "q-33",
+      "skill": "Commercial reasoning",
+      "prompt": "A firm advises a borrower on financing. Is it necessarily acting for lenders?",
+      "options": [
+        "Yes",
+        "No",
+        "Always both",
+        "Only if syndicated"
+      ],
+      "answer": 1,
+      "explanation": "Mandates are client-specific."
+    },
+    {
+      "id": "q-34",
+      "skill": "Commercial reasoning",
+      "prompt": "A £100m grant is awarded subject to eligible spend. Is it £100m cash received today?",
+      "options": [
+        "Yes",
+        "No",
+        "It is equity",
+        "It is a bond"
+      ],
+      "answer": 1,
+      "explanation": "Award, entitlement and disbursement are distinct."
+    },
+    {
+      "id": "q-35",
+      "skill": "Commercial reasoning",
+      "prompt": "A buyer acquires 60% of shares. What still needs review?",
+      "options": [
+        "Nothing",
+        "Voting, reserved matters and minority rights",
+        "Only logo",
+        "Only staff names"
+      ],
+      "answer": 1,
+      "explanation": "Ownership percentage alone does not establish governance powers."
+    },
+    {
+      "id": "q-36",
+      "skill": "Commercial reasoning",
+      "prompt": "Why distinguish a closing date and delisting date?",
+      "options": [
+        "They always match",
+        "They are different legal/market milestones",
+        "Delisting is a price",
+        "Closing means voting"
+      ],
+      "answer": 1,
+      "explanation": "A scheme effective date and trading cancellation can differ."
+    }
+  ],
+  "simulations": [
+    {
+      "id": "simulation-1",
+      "title": "M&A due diligence",
+      "scenario": "Buyer of fictional Atlas Ltd is reviewing three contracts.",
+      "documents": "Customer A: 35% of sales; consent required on change of control. Supplier B: terminable on 30 days' notice. Licence C: non-transferable, expires six weeks after closing.",
+      "task": "Prepare a three-row red-flag report with severity, impact, proposed mitigation and unresolved facts.",
+      "model": "High: consent on Customer A may jeopardise revenue; seek consent/CP or price and risk allocation. Supplier B: continuity risk; negotiate longer notice or alternative sourcing. Licence C: verify whether share sale triggers restriction; secure renewal or transition. Quantify impacts; do not assume consent refusal.",
+      "rubric": "Correct clause interpretation; materiality; mitigation; concise caveats.",
+      "notice": "Original fictional exercise; not employer assessment, legal advice or work experience."
+    },
+    {
+      "id": "simulation-2",
+      "title": "SPA risk allocation",
+      "scenario": "Fictional buyer discovers £400k tax exposure before signing.",
+      "documents": "Draft SPA: general warranties capped at 10% of price; known tax claim excluded from warranties; separate tax covenant not agreed; disclosure letter identifies dispute.",
+      "task": "Explain why the buyer should consider a specific indemnity or tax covenant rather than rely solely on warranties.",
+      "model": "Known risk may not be recoverable under a disclosed warranty. Consider specific payment protection, scope, exclusions, control of claim, time limits, cap and security. Alternatives include price adjustment or escrow; avoid double recovery.",
+      "rubric": "Distinguish known risk and warranty; specific protection; economics; no guaranteed recovery.",
+      "notice": "Original fictional exercise; not employer assessment, legal advice or work experience."
+    },
+    {
+      "id": "simulation-3",
+      "title": "Acquisition finance",
+      "scenario": "Fictional £100m committed loan finances acquisition.",
+      "documents": "Conditions: signed SPA, board approvals, KYC, legal opinions and no specified default. £60m drawn at closing; £40m available subject to conditions.",
+      "task": "Create a closing conditions checklist and explain liquidity risk.",
+      "model": "List each document, owner, status and deadline. Check actual availability conditions and long-stop date; undrawn commitment is not cash. Escalate missing legal opinion and align SPA completion with drawdown mechanics.",
+      "rubric": "Conditions checklist; commitment vs draw; dependencies; escalation.",
+      "notice": "Original fictional exercise; not employer assessment, legal advice or work experience."
+    },
+    {
+      "id": "simulation-4",
+      "title": "Debt capital markets",
+      "scenario": "Fictional issuer launches £200m floating-rate notes.",
+      "documents": "Coupon benchmark + 150bp; quarterly reset; maturity 2030; senior unsecured; no actual listing notice supplied.",
+      "task": "Prepare a one-page note term summary and identify two questions.",
+      "model": "Principal £200m, floating interest, quarterly reset, maturity 2030, senior unsecured. Ask benchmark fallback, covenants, redemption, governing law and actual admission. Issuance amount is not enterprise value.",
+      "rubric": "Accurate terms; no invented listing; risk questions; plain language.",
+      "notice": "Original fictional exercise; not employer assessment, legal advice or work experience."
+    },
+    {
+      "id": "simulation-5",
+      "title": "Competition analysis",
+      "scenario": "Two fictional suppliers propose a merger.",
+      "documents": "Market A has four significant suppliers; overlapping products; clients report limited switching; no authority decision.",
+      "task": "Write a preliminary note on what to investigate, not a definitive clearance prediction.",
+      "model": "Define candidate product/geographic markets, market shares, substitution, switching, entry and counterfactual. Assess jurisdictional thresholds and applicable process from current official guidance. Consider potential remedy viability; do not predict outcome.",
+      "rubric": "Competition framework; evidence gaps; jurisdiction; uncertainty.",
+      "notice": "Original fictional exercise; not employer assessment, legal advice or work experience."
+    },
+    {
+      "id": "simulation-6",
+      "title": "Contract review",
+      "scenario": "Fictional SaaS vendor agreement.",
+      "documents": "Liability cap equals 3 months' fees; unlimited buyer indemnity; vendor can terminate on 10 days' notice; service levels absent.",
+      "task": "Draft three negotiation priorities for a business client.",
+      "model": "Assess whether cap is adequate relative to losses and insurance; narrow indemnity scope, third-party claims and fault; improve notice/transition and service commitments. Prioritise continuity and risk proportionality; offer commercial alternatives.",
+      "rubric": "Clause identification; commercial consequences; realistic trade-offs; prioritisation.",
+      "notice": "Original fictional exercise; not employer assessment, legal advice or work experience."
+    },
+    {
+      "id": "simulation-7",
+      "title": "Private equity rollover",
+      "scenario": "Fictional founder sells 70% and reinvests part of proceeds.",
+      "documents": "New shares have different voting rights; sponsor preferred return; leaver rules; drag-along provisions; no waterfall provided.",
+      "task": "Identify founder-side issues and questions for documents.",
+      "model": "Determine rollover valuation and instrument rights, dilution, preference waterfall, leaver pricing, drag/tag and exit. Do not equate headline stake with economic proceeds. Request illustrative exit scenarios and tax advice.",
+      "rubric": "Economic vs voting rights; waterfall; exit; open questions.",
+      "notice": "Original fictional exercise; not employer assessment, legal advice or work experience."
+    },
+    {
+      "id": "simulation-8",
+      "title": "Corporate approvals",
+      "scenario": "Fictional company plans an asset acquisition.",
+      "documents": "Board has five directors; one has a disclosed interest; constitutional reserved matters and authority matrix not supplied.",
+      "task": "Prepare an approval and signing checklist.",
+      "model": "Check articles, board quorum/conflict procedures, reserved matters, delegated signatories, any shareholder/third-party approvals; record resolutions and signing version. Do not assume all approvals required without documents.",
+      "rubric": "Authority; conflict; documents; signing controls.",
+      "notice": "Original fictional exercise; not employer assessment, legal advice or work experience."
+    },
+    {
+      "id": "simulation-9",
+      "title": "Legal research memo",
+      "scenario": "A fictional graduate asks whether work as a paralegal always qualifies as QWE.",
+      "documents": "Only job title is known; no tasks or confirmer identified. Use official SRA QWE guidance.",
+      "task": "Write a 150-word memo separating rule, application and caveat.",
+      "model": "No automatic qualification by title. Review whether work provides legal services, develops relevant competencies, duration and confirmation under SRA rules. Ask for task description and confirmer. Qualified lawyers follow different route. Cite official guidance and date.",
+      "rubric": "Authority; correct limitation; factual application; next steps.",
+      "notice": "Original fictional exercise; not employer assessment, legal advice or work experience."
+    },
+    {
+      "id": "simulation-10",
+      "title": "In-house triage",
+      "scenario": "Fictional tech company receives three legal requests.",
+      "documents": "Supplier renewal tomorrow; privacy incident reported this morning; marketing copy for next week. Incident severity unknown.",
+      "task": "Prepare a prioritised action email with owners and next steps.",
+      "model": "Escalate privacy incident immediately through incident process; establish scope/timeline and applicable obligations. Parallel assign supplier renewal, check commercial deadline and authority. Schedule marketing review. Communicate dependencies; no unsupported notification conclusion.",
+      "rubric": "Urgency; incident response; delegation; clear communication.",
+      "notice": "Original fictional exercise; not employer assessment, legal advice or work experience."
+    },
+    {
+      "id": "simulation-11",
+      "title": "Legal operations",
+      "scenario": "Fictional legal team has 40 open matters.",
+      "documents": "Ten high-priority matters have no owner; six deadlines in next week; several duplicates; sensitive details in free-text field.",
+      "task": "Design a short matter tracker and review process.",
+      "model": "Fields: matter ID, category, owner, priority, due date, stage, next action, authorised link; deduplicate and assign owners. Escalate imminent deadlines. Keep sensitive details in approved system; review turnaround and rework.",
+      "rubric": "Data minimisation; owner/deadline; deduplication; quality metrics.",
+      "notice": "Original fictional exercise; not employer assessment, legal advice or work experience."
+    },
+    {
+      "id": "simulation-12",
+      "title": "Professional conduct",
+      "scenario": "Fictional trainee sends wrong draft to a client.",
+      "documents": "Draft contains outdated fee clause and internal comments. Recipient has not responded.",
+      "task": "Write immediate steps for supervisor.",
+      "model": "Notify supervisor promptly; preserve accurate record; assess confidentiality and scope under policy. Agree correction/recall and communication; document actions and prevent repeat through version controls. Do not conceal or contact recipient contrary to instructions.",
+      "rubric": "Prompt escalation; confidentiality; mitigation; prevention.",
+      "notice": "Original fictional exercise; not employer assessment, legal advice or work experience."
+    }
+  ],
+  "notice": "Original practice material; no employer endorsement or psychometric validity claimed. Review by qualified practitioners remains outstanding."
+}

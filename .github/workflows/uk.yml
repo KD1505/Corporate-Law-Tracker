@@ -21,10 +21,11 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: '22'
-      - run: node --check uk/app.js && node --check uk/research.js && node --test engine/uk/test.mjs engine/uk/research-audit.test.mjs engine/uk/nightly-research.test.mjs && node engine/uk/nightly-research.mjs --check && node engine/uk/research-audit.mjs > /tmp/uk-research-audit.json && node engine/uk/render.mjs --check
+      - run: node --check uk/app.js && node --check uk/research.js && node --test engine/uk/test.mjs engine/uk/research-audit.test.mjs engine/uk/nightly-research.test.mjs engine/uk/careers/test.mjs && node engine/uk/careers/discover.mjs --check && node --check uk/careers/workspace.js && node engine/uk/nightly-research.mjs --check && node engine/uk/research-audit.mjs > /tmp/uk-research-audit.json && node engine/uk/render.mjs --check
       - run: npm install --no-save --package-lock=false playwright-core@1.51.1 axe-core@4.10.3
       - run: node engine/uk/browser-test.mjs
       - run: node engine/uk/quality-browser.mjs
+      - run: node engine/uk/careers/browser-test.mjs
       - if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -51,17 +52,19 @@ jobs:
       - if: always()
         run: node engine/uk/research-queue.mjs
       - if: always()
+        run: node engine/uk/careers/discover.mjs
+      - if: always()
         id: research_quality
         run: node engine/uk/nightly-research.mjs
       - if: always() && steps.research_quality.outcome == 'success'
         run: |
           git config user.name "corporate-law-tracker-bot"
           git config user.email "actions@github.com"
-          git add uk/discovery.json uk/source-dossiers.json uk/policy-feed.json uk/case-archive.json uk/research-queue.json uk/research-quality.json
+          git add uk/discovery.json uk/source-dossiers.json uk/policy-feed.json uk/case-archive.json uk/research-queue.json uk/research-quality.json uk/careers/discovery.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "chore: UK research discovery snapshot"
           git fetch origin main
-          if ! git diff --quiet HEAD origin/main -- uk/data.json engine/uk; then echo 'Editorial changes since collection; skip stale snapshot'; exit 0; fi
+          if ! git diff --quiet HEAD origin/main -- uk/data.json uk/careers/data.json uk/careers/learning.json engine/uk; then echo 'Editorial changes since collection; skip stale snapshot'; exit 0; fi
           git rebase origin/main
           git push origin HEAD:main
 

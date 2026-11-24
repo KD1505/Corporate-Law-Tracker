@@ -1,0 +1,18 @@
+export function validate(data,learning,registry){
+ const errors=[],ids=new Set(),https=s=>typeof s==="string"&&/^https:\/\/[a-z0-9.-]+(?:\/|$)/i.test(s),day=s=>/^\d{4}-\d{2}-\d{2}$/.test(s||"");
+ for(const o of data.opportunities){if(ids.has(o.id))errors.push("duplicate "+o.id);ids.add(o.id);if(!o.employer||!o.title||!o.type||!o.location||!o.eligibility||!day(o.verifiedOn)||!https(o.url)||!["unknown","confirmed","not-offered"].includes(o.sponsorshipState)||!o.evidence||!o.experience)errors.push("incomplete "+o.id);if(o.deadline&&!day(o.deadline))errors.push("bad deadline "+o.id);if(o.sponsorshipState!=="unknown"&&!https(o.sponsorshipSource))errors.push("unsubstantiated sponsorship "+o.id);}
+ for(const f of data.employers){if(!https(f.url)||!f.exercise||!f.reviewState)errors.push("employer "+f.id);for(const x of f.researchFacts||[])if(!https(x.url)||!x.value||!day(x.reviewedOn))errors.push("employer fact "+f.id)}
+ for(const r of data.resources)if(!https(r.url)||!r.status||!day(r.reviewedOn))errors.push("resource "+r.id);
+ const q=[...data.lessons,...learning.modules,...learning.questions];const seen=new Set();for(const x of q){if(seen.has(x.id)||!x.explanation||!Array.isArray(x.options)||x.options.length<2||new Set(x.options).size!==x.options.length||!Number.isInteger(x.answer)||x.answer<0||x.answer>=x.options.length)errors.push("invalid exercise "+x.id);seen.add(x.id)}
+ for(const x of learning.simulations)if(!x.documents||!x.task||!x.model||!x.rubric||!x.notice)errors.push("incomplete simulation "+x.id);
+ for(const s of registry.sources)if(!https(s.url)||!s.id||!["listing","employer","resource","greenhouse"].includes(s.kind))errors.push("source "+s.id);
+ return errors;
+}
+export function parseGreenhouse(payload,source){
+ if(!Array.isArray(payload?.jobs)||!payload.meta||typeof payload.meta.total!=="number")throw Error("Unexpected Greenhouse schema");
+ const out=[];for(const j of payload.jobs){if(!j||typeof j.title!=="string"||!j.id||!j.location?.name||!j.absolute_url)continue;let url;try{url=new URL(j.absolute_url)}catch{continue}if(url.protocol!=="https:"||!["job-boards.greenhouse.io","boards.greenhouse.io"].includes(url.hostname)||!url.pathname.startsWith("/"+source.board+"/jobs/"))continue;if(!/\b(london|united kingdom|england|scotland|wales|belfast|bristol|manchester|leeds|birmingham|edinburgh|glasgow|uk)\b/i.test(j.location.name))continue;if(!/\b(legal|paralegal|compliance|solicitor|lawyer|contracts? analyst|company secretarial)\b/i.test(j.title))continue;out.push({id:"greenhouse:"+source.board+":"+j.id,title:j.title.slice(0,180),employer:source.name,location:j.location.name.slice(0,150),url:url.href,kind:"unreviewed direct ATS lead",updated:j.updated_at||null,reviewState:"pending"})}return out;
+}
+export function htmlLeads(body,source){
+ const base=new URL(source.url),out=[],seen=new Set();const pattern=/<a\b[^>]*\bhref\s*=\s*["']([^"']+)["'][^>]*>([\s\S]{0,500}?)<\/a>/gi;let m;
+ while((m=pattern.exec(body))&&out.length<25){let u;try{u=new URL(m[1].replace(/&amp;/g,"&"),base)}catch{continue}if(u.protocol!=="https:"||u.hostname!==base.hostname||u.href===base.href||seen.has(u.href))continue;const title=m[2].replace(/<[^>]*>/g," ").replace(/&amp;/g,"&").replace(/\s+/g," ").trim();if(!title||title.length>180||!/\b(paralegal|legal assistant|legal analyst|vacation scheme|training contract|solicitor apprentice|legal counsel|legal operations|compliance analyst|insight day)\b/i.test(title)||!/(job|vacanc|career|programme|scheme|training|apply)/i.test(u.pathname))continue;seen.add(u.href);out.push({id:"html:"+u.href,title,employer:source.name,url:u.href,kind:"unreviewed employer page link",reviewState:"pending"})}return out;
+}
