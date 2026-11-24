@@ -1,0 +1,2448 @@
+{
+  "asOf": "2026-11-24",
+  "notice": "Reviewed source-linked entries; future deadlines and observed application instructions are not guarantees. Sources with unknown sponsorship or minimum experience remain unknown.",
+  "opportunities": [
+    {
+      "id": "linklaters-tc-2026",
+      "firmId": "linklaters",
+      "title": "London training contract",
+      "location": "London",
+      "deadline": "2026-12-03",
+      "eligibility": "Check academic and programme criteria on the employer page.",
+      "url": "https://www.linklaters.com/careers/early-careers/training-contracts",
+      "verifiedOn": "2026-11-24",
+      "sponsorship": "Not verified for this specific programme",
+      "type": "Training contract",
+      "process": "Online application, online assessment and assessment centre.",
+      "employer": "Linklaters",
+      "sponsorshipState": "unknown",
+      "experience": "Check criteria",
+      "kind": "Programme",
+      "evidence": "Existing curated employer listing; reconfirm original source."
+    },
+    {
+      "id": "linklaters-vs-2027",
+      "firmId": "linklaters",
+      "title": "Spring and summer vacation schemes 2027",
+      "location": "London",
+      "deadline": "2026-12-03",
+      "eligibility": "Published criteria include eligible undergraduates, graduates and postgraduates; check university and academic requirements.",
+      "url": "https://www.linklaters.com/careers/early-careers/vacation-schemes",
+      "verifiedOn": "2026-11-24",
+      "sponsorship": "Not verified for this specific programme",
+      "type": "Vacation scheme",
+      "employer": "Linklaters",
+      "sponsorshipState": "unknown",
+      "experience": "Check criteria",
+      "kind": "Programme",
+      "evidence": "Existing curated employer listing; reconfirm original source."
+    },
+    {
+      "id": "latham-vs-2027",
+      "firmId": "latham",
+      "title": "Spring and summer vacation schemes 2027",
+      "location": "London",
+      "deadline": "2026-12-06",
+      "eligibility": "Employer describes eligibility as second-year students and above; confirm individual eligibility.",
+      "url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-kingdom/our-programmes",
+      "verifiedOn": "2026-11-24",
+      "sponsorship": "Not verified for this specific programme",
+      "type": "Vacation scheme",
+      "employer": "Latham & Watkins",
+      "sponsorshipState": "unknown",
+      "experience": "Check criteria",
+      "kind": "Programme",
+      "evidence": "Existing curated employer listing; reconfirm original source."
+    },
+    {
+      "id": "burges-sector-2029",
+      "firmId": "burges",
+      "title": "Sector-focused training contracts 2029",
+      "location": "UK — check office",
+      "deadline": "2027-01-05",
+      "eligibility": "Candidates should demonstrate interest in energy or the built environment; check route and degree criteria.",
+      "url": "https://www.burges-salmon.com/jobs/sector-focused-training-contracts-2029-energy-built-environment/",
+      "verifiedOn": "2026-11-24",
+      "sponsorship": "Not verified for this specific programme",
+      "type": "Training contract",
+      "employer": "Burges Salmon",
+      "sponsorshipState": "unknown",
+      "experience": "Check criteria",
+      "kind": "Programme",
+      "evidence": "Existing curated employer listing; reconfirm original source."
+    },
+    {
+      "id": "burges-bristol-2029",
+      "firmId": "burges",
+      "title": "Bristol direct training contract 2029",
+      "location": "Bristol",
+      "deadline": "2027-06-21",
+      "eligibility": "Eligible law students from the relevant year, final-year non-law students and graduates; one training-contract process at a time.",
+      "url": "https://www.burges-salmon.com/jobs/bristol-direct-training-contract-2029/",
+      "verifiedOn": "2026-11-24",
+      "sponsorship": "Not verified for this specific programme",
+      "type": "Training contract",
+      "deadlineTime": "18:00 BST",
+      "employer": "Burges Salmon",
+      "sponsorshipState": "unknown",
+      "experience": "Check criteria",
+      "kind": "Programme",
+      "evidence": "Existing curated employer listing; reconfirm original source."
+    },
+    {
+      "id": "cc-tc-2029",
+      "firmId": "clifford-chance",
+      "title": "London training contract 2029/2030",
+      "location": "London",
+      "deadline": "2026-11-18",
+      "eligibility": "Relevant law/non-law students and graduates; availability for specified intake.",
+      "url": "https://jobs.cliffordchance.com/training-contract-london",
+      "verifiedOn": "2026-11-24",
+      "sponsorship": "Not verified for this specific programme",
+      "type": "Training contract",
+      "process": "Application, immersive assessment, Watson Glaser, video interview and assessment day.",
+      "employer": "Clifford Chance",
+      "sponsorshipState": "unknown",
+      "experience": "Check criteria",
+      "kind": "Programme",
+      "evidence": "Existing curated employer listing; reconfirm original source."
+    },
+    {
+      "id": "freshfields-tc-2026",
+      "firmId": "freshfields",
+      "title": "UK trainee associate programme application window",
+      "location": "London",
+      "deadline": "2026-11-13",
+      "eligibility": "Eligible to commence in 2028 or 2029 under the published window.",
+      "url": "https://www.freshfields.com/en/your-career/united-kingdom/early-careers/trainee-associate-program",
+      "verifiedOn": "2026-11-24",
+      "sponsorship": "Not verified for this specific programme",
+      "type": "Training contract",
+      "employer": "Freshfields",
+      "sponsorshipState": "unknown",
+      "experience": "Check criteria",
+      "kind": "Programme",
+      "evidence": "Existing curated employer listing; reconfirm original source."
+    },
+    {
+      "id": "slaughter-tc-2026",
+      "firmId": "slaughter-may",
+      "title": "September 2029 / March 2030 training contract — finalists and graduates",
+      "location": "London",
+      "deadline": "2026-11-13",
+      "eligibility": "Law and non-law finalists and graduates in the specified application window.",
+      "url": "https://www.slaughterandmay.com/careers/early-careers/apply/",
+      "verifiedOn": "2026-11-24",
+      "sponsorship": "Not verified for this specific programme",
+      "type": "Training contract",
+      "employer": "Slaughter and May",
+      "sponsorshipState": "unknown",
+      "experience": "Check criteria",
+      "kind": "Programme",
+      "evidence": "Existing curated employer listing; reconfirm original source."
+    },
+    {
+      "id": "ao-gfm-pa-11504",
+      "firmId": "ao-shearman",
+      "title": "Legal PA – Global Financial Markets (12-month FTC)",
+      "location": "London · hybrid",
+      "deadline": "2026-12-04",
+      "type": "Legal support",
+      "eligibility": "Practice support role in securitisation; strong document handling, matter administration and professional organisation skills. Read full requirements.",
+      "url": "https://careers.aoshearman.com/en/job/london/legal-pa-gfm-12-month-ftc/3392/47088161728",
+      "contract": "12-month fixed term",
+      "verifiedOn": "2026-11-24",
+      "listingState": "application-link-observed",
+      "sponsorship": "Not established for this vacancy; confirm right-to-work and sponsorship with employer.",
+      "employer": "A&O Shearman",
+      "sponsorshipState": "unknown",
+      "experience": "Check criteria",
+      "kind": "Employment",
+      "evidence": "Existing curated employer listing; reconfirm original source."
+    },
+    {
+      "id": "ao-corporate-10959",
+      "firmId": "ao-shearman",
+      "title": "Associate – Corporate, Advanced Delivery",
+      "location": "Belfast · hybrid",
+      "deadline": null,
+      "type": "Associate",
+      "eligibility": "Corporate transactional and commercial legal experience preferred, including diligence and reorganisations; exact qualification and experience requirements should be confirmed with the firm.",
+      "url": "https://careers.aoshearman.com/en-gb/job/belfast/associate-corporate/3392/40135470336",
+      "contract": "Permanent",
+      "verifiedOn": "2026-11-24",
+      "listingState": "application-link-observed",
+      "sponsorship": "Not established for this vacancy; confirm right-to-work and sponsorship with employer.",
+      "employer": "A&O Shearman",
+      "sponsorshipState": "unknown",
+      "experience": "Check criteria",
+      "kind": "Employment",
+      "evidence": "Existing curated employer listing; reconfirm original source."
+    },
+    {
+      "id": "burges-company-secretarial",
+      "firmId": "burges",
+      "title": "Company Secretarial Paralegal – interim",
+      "location": "UK · flexible",
+      "deadline": null,
+      "type": "Paralegal",
+      "eligibility": "Experience in corporate governance, entity management or company secretarial work; ability to manage a governance-data review independently.",
+      "url": "https://www.burges-salmon.com/jobs/corporate-governance-paralegal/",
+      "contract": "Six-month consultancy assignment",
+      "verifiedOn": "2026-11-24",
+      "listingState": "application-link-observed",
+      "sponsorship": "Not established for this vacancy; confirm right-to-work and sponsorship with employer.",
+      "employer": "Burges Salmon",
+      "sponsorshipState": "unknown",
+      "experience": "Check criteria",
+      "kind": "Employment",
+      "evidence": "Existing curated employer listing; reconfirm original source."
+    },
+    {
+      "id": "cc-legal-tech-jr8002",
+      "firmId": "clifford-chance",
+      "title": "Legal Technology Advisor (Forward Deployed)",
+      "location": "London · hybrid",
+      "deadline": null,
+      "type": "Legal technology",
+      "eligibility": "Degree or equivalent experience; demonstrated delivery of legal technology in professional services and familiarity with document automation and AI-enabled workflows.",
+      "url": "https://jobs.cliffordchance.com/job/legal-technology-advisor-forward-deployed-in-london-jid-3004",
+      "contract": "Permanent",
+      "verifiedOn": "2026-11-24",
+      "listingState": "application-link-observed",
+      "sponsorship": "Not established for this vacancy; confirm right-to-work and sponsorship with employer.",
+      "employer": "Clifford Chance",
+      "sponsorshipState": "unknown",
+      "experience": "Check criteria",
+      "kind": "Employment",
+      "evidence": "Existing curated employer listing; reconfirm original source."
+    },
+    {
+      "id": "wise-legal-counsel-4365",
+      "employer": "Wise",
+      "title": "Legal Counsel (UK) – platform commercial",
+      "location": "London",
+      "deadline": null,
+      "type": "In-house counsel",
+      "eligibility": "England and Wales or other common-law qualified lawyer, 4–6 years PQE; substantial business-to-business commercial and contracting experience.",
+      "url": "https://wise.jobs/job/legal-counsel-uk-in-london-jid-4365",
+      "contract": "Full-time",
+      "verifiedOn": "2026-11-24",
+      "listingState": "application-link-observed",
+      "sponsorship": "Not established for this vacancy; confirm right-to-work and sponsorship with employer.",
+      "sponsorshipState": "unknown",
+      "experience": "Check criteria",
+      "kind": "Employment",
+      "evidence": "Existing curated employer listing; reconfirm original source."
+    },
+    {
+      "id": "entain-corporate-ma-counsel",
+      "employer": "Entain",
+      "title": "Legal Counsel, Corporate and M&A",
+      "location": "London · hybrid",
+      "deadline": null,
+      "type": "In-house counsel",
+      "eligibility": "3+ years PQE with corporate and M&A experience, governance and transaction drafting skills.",
+      "url": "https://jobs.smartrecruiters.com/Entain/744000153712609",
+      "contract": "Full-time",
+      "verifiedOn": "2026-11-24",
+      "listingState": "application-link-observed",
+      "sponsorship": "Not established for this vacancy; confirm right-to-work and sponsorship with employer.",
+      "sponsorshipState": "unknown",
+      "experience": "Check criteria",
+      "kind": "Employment",
+      "evidence": "Existing curated employer listing; reconfirm original source."
+    },
+    {
+      "id": "dechert-spring-2027",
+      "employer": "Dechert",
+      "title": "Spring vacation scheme 2027",
+      "type": "Vacation scheme",
+      "location": "London",
+      "deadline": "2026-12-31",
+      "eligibility": "Penultimate-year law students, final-year law/non-law students, graduates, postgraduates and career changers.",
+      "url": "https://www.dechert.com/careers/london-training-programme/faqs.html",
+      "experience": "Student / graduate",
+      "kind": "Programme",
+      "sponsorshipState": "unknown",
+      "sponsorship": "Role-specific sponsorship not established",
+      "verifiedOn": "2026-11-24",
+      "listingState": "published-window",
+      "evidence": "Employer-published recruitment information inspected 24 November 2026; confirm before applying."
+    },
+    {
+      "id": "farrer-vs-2027",
+      "employer": "Farrer & Co",
+      "title": "Vacation scheme 2027",
+      "type": "Vacation scheme",
+      "location": "London",
+      "deadline": "2026-12-18",
+      "eligibility": "Eligible candidates in this training-contract recruitment round; check degree-year criteria.",
+      "url": "https://www.farrer.co.uk/careers/early-careers/vacation-scheme/",
+      "experience": "Student / graduate",
+      "kind": "Programme",
+      "sponsorshipState": "unknown",
+      "sponsorship": "Role-specific sponsorship not established",
+      "verifiedOn": "2026-11-24",
+      "listingState": "published-window",
+      "evidence": "Employer-published recruitment information inspected 24 November 2026; confirm before applying.",
+      "deadlineTime": "23:59 UK"
+    },
+    {
+      "id": "covington-summer-2027",
+      "employer": "Covington & Burling",
+      "title": "Summer vacation scheme 2027",
+      "type": "Vacation scheme",
+      "location": "London",
+      "deadline": "2027-01-15",
+      "eligibility": "From penultimate law year or final non-law year; participants assessed for training contract/QWE.",
+      "url": "https://www.cov.com/en/careers/lawyers/london/our-opportunities/vacation-schemes",
+      "experience": "Student / graduate",
+      "kind": "Programme",
+      "sponsorshipState": "unknown",
+      "sponsorship": "Role-specific sponsorship not established",
+      "verifiedOn": "2026-11-24",
+      "listingState": "published-window",
+      "evidence": "Employer-published recruitment information inspected 24 November 2026; confirm before applying.",
+      "firmId": "covington"
+    },
+    {
+      "id": "trowers-vs-2027",
+      "employer": "Trowers & Hamlins",
+      "title": "Summer vacation scheme",
+      "type": "Vacation scheme",
+      "location": "UK offices",
+      "deadline": "2027-01-04",
+      "eligibility": "Check office and degree-stage requirements on official programme page.",
+      "url": "https://www.trowers.com/careers/trainee-solicitors",
+      "experience": "Student / graduate",
+      "kind": "Programme",
+      "sponsorshipState": "unknown",
+      "sponsorship": "Role-specific sponsorship not established",
+      "verifiedOn": "2026-11-24",
+      "listingState": "published-window",
+      "evidence": "Employer-published recruitment information inspected 24 November 2026; confirm before applying.",
+      "deadlineTime": "23:59 UK"
+    },
+    {
+      "id": "trowers-tc-2029",
+      "employer": "Trowers & Hamlins",
+      "title": "Training contract recruitment",
+      "type": "Training contract",
+      "location": "UK offices",
+      "deadline": "2027-01-04",
+      "eligibility": "Check degree-stage and office criteria before applying.",
+      "url": "https://www.trowers.com/careers/trainee-solicitors",
+      "experience": "Student / graduate",
+      "kind": "Programme",
+      "sponsorshipState": "unknown",
+      "sponsorship": "Role-specific sponsorship not established",
+      "verifiedOn": "2026-11-24",
+      "listingState": "published-window",
+      "evidence": "Employer-published recruitment information inspected 24 November 2026; confirm before applying.",
+      "deadlineTime": "23:59 UK"
+    },
+    {
+      "id": "burges-vs-2027",
+      "employer": "Burges Salmon",
+      "title": "2027 vacation schemes",
+      "type": "Vacation scheme",
+      "location": "UK — check scheme",
+      "deadline": "2027-01-05",
+      "eligibility": "Eligible to start a training contract in 2029 or earlier; check individual scheme criteria.",
+      "url": "https://www.burges-salmon.com/join-us/emerging-talent/vacation-scheme/",
+      "experience": "Student / graduate",
+      "kind": "Programme",
+      "sponsorshipState": "unknown",
+      "sponsorship": "Role-specific sponsorship not established",
+      "verifiedOn": "2026-11-24",
+      "listingState": "published-window",
+      "evidence": "Employer-published recruitment information inspected 24 November 2026; confirm before applying.",
+      "firmId": "burges"
+    },
+    {
+      "id": "gt-police-paralegal",
+      "employer": "GT Stewart",
+      "title": "Paralegal — actions against police and public authorities",
+      "type": "Paralegal",
+      "location": "London",
+      "deadline": null,
+      "eligibility": "Previous legal assistant or paralegal experience and Legal Aid/CPR knowledge advantageous, not essential.",
+      "url": "https://gtstewart.co.uk/vacancies/paralegal-actions-against-the-police-and-public-authorities/",
+      "experience": "Experience desirable",
+      "kind": "Employment",
+      "sponsorshipState": "unknown",
+      "sponsorship": "Role-specific sponsorship not established",
+      "verifiedOn": "2026-11-24",
+      "listingState": "application-link-observed",
+      "evidence": "Employer-published recruitment information inspected 24 November 2026; confirm before applying.",
+      "practice": "Disputes / public law",
+      "postedOn": "2026-11-10"
+    },
+    {
+      "id": "gt-housing-paralegal",
+      "employer": "GT Stewart",
+      "title": "Housing paralegal",
+      "type": "Paralegal",
+      "location": "East Dulwich, London",
+      "deadline": null,
+      "eligibility": "Interest in social justice; review full employer criteria.",
+      "url": "https://gtstewart.co.uk/vacancies/housing-paralegal-east-dulwich/",
+      "experience": "Check criteria",
+      "kind": "Employment",
+      "sponsorshipState": "unknown",
+      "sponsorship": "Role-specific sponsorship not established",
+      "verifiedOn": "2026-11-24",
+      "listingState": "application-link-observed",
+      "evidence": "Employer-published recruitment information inspected 24 November 2026; confirm before applying.",
+      "practice": "Housing",
+      "postedOn": "2026-11-10"
+    },
+    {
+      "id": "gt-family-paralegal",
+      "employer": "GT Stewart",
+      "title": "Family paralegal",
+      "type": "Paralegal",
+      "location": "Hammersmith, London",
+      "deadline": null,
+      "eligibility": "Employer seeks LPC/BPTC study or completion and relevant family elective; read full criteria.",
+      "url": "https://gtstewart.co.uk/vacancies/family-paralegal-hammersmith/",
+      "experience": "Check criteria",
+      "kind": "Employment",
+      "sponsorshipState": "unknown",
+      "sponsorship": "Role-specific sponsorship not established",
+      "verifiedOn": "2026-11-24",
+      "listingState": "application-link-observed",
+      "evidence": "Employer-published recruitment information inspected 24 November 2026; confirm before applying.",
+      "practice": "Family",
+      "postedOn": "2026-11-10"
+    },
+    {
+      "id": "gt-prison-paralegal",
+      "employer": "GT Stewart",
+      "title": "Prison law paralegal",
+      "type": "Paralegal",
+      "location": "Dartford",
+      "deadline": null,
+      "eligibility": "Prison law experience advantageous; relevant criminal law or Legal Aid experience considered.",
+      "url": "https://gtstewart.co.uk/vacancies/prison-law-paralegal-dartford/",
+      "experience": "Experience desirable",
+      "kind": "Employment",
+      "sponsorshipState": "unknown",
+      "sponsorship": "Role-specific sponsorship not established",
+      "verifiedOn": "2026-11-24",
+      "listingState": "application-link-observed",
+      "evidence": "Employer-published recruitment information inspected 24 November 2026; confirm before applying.",
+      "practice": "Criminal / prison law",
+      "postedOn": "2026-11-10"
+    },
+    {
+      "id": "carta-compliance-7980732003",
+      "employer": "Carta",
+      "title": "Compliance paralegal",
+      "type": "Paralegal",
+      "location": "London",
+      "deadline": null,
+      "eligibility": "Law, compliance or finance degree or related qualification; relevant financial services/legal background useful. Check full experience criteria.",
+      "url": "https://job-boards.greenhouse.io/carta/jobs/7980732003",
+      "experience": "Check criteria",
+      "kind": "Employment",
+      "sponsorshipState": "unknown",
+      "sponsorship": "Role-specific sponsorship not established",
+      "verifiedOn": "2026-11-24",
+      "listingState": "application-link-observed",
+      "evidence": "Employer-published recruitment information inspected 24 November 2026; confirm before applying.",
+      "practice": "Compliance"
+    },
+    {
+      "id": "carta-7798948003",
+      "employer": "Carta",
+      "title": "Paralegal, Compliance",
+      "type": "Paralegal",
+      "location": "London",
+      "deadline": null,
+      "eligibility": "Transactional compliance, KYC documentation and coordination with deal teams. Check full requirements.",
+      "url": "https://job-boards.greenhouse.io/carta/jobs/7798948003",
+      "experience": "Check criteria",
+      "kind": "Employment",
+      "sponsorshipState": "unknown",
+      "sponsorship": "Role-specific sponsorship not established",
+      "verifiedOn": "2026-11-24",
+      "listingState": "application-link-observed",
+      "evidence": "Employer-published recruitment information inspected 24 November 2026; confirm before applying.",
+      "practice": "Compliance"
+    },
+    {
+      "id": "octopus-legacy-5018965101",
+      "employer": "Octopus Legacy",
+      "title": "Legal & Compliance Associate",
+      "type": "Compliance",
+      "location": "London",
+      "deadline": null,
+      "eligibility": "Employer describes role as suited to an experienced paralegal transitioning in-house.",
+      "url": "https://job-boards.greenhouse.io/octopuslegacy/jobs/5018965101",
+      "experience": "Experience required",
+      "kind": "Employment",
+      "sponsorshipState": "unknown",
+      "sponsorship": "Role-specific sponsorship not established",
+      "verifiedOn": "2026-11-24",
+      "listingState": "application-link-observed",
+      "evidence": "Employer-published recruitment information inspected 24 November 2026; confirm before applying."
+    },
+    {
+      "id": "gibson-secretary-4469300009",
+      "employer": "Gibson Dunn",
+      "title": "Float legal secretary",
+      "type": "Legal support",
+      "location": "London",
+      "deadline": null,
+      "eligibility": "Legal secretarial document production and practice support; check experience requirements.",
+      "url": "https://job-boards.greenhouse.io/gibsondunn/jobs/4469300009",
+      "experience": "Check criteria",
+      "kind": "Employment",
+      "sponsorshipState": "unknown",
+      "sponsorship": "Role-specific sponsorship not established",
+      "verifiedOn": "2026-11-24",
+      "listingState": "application-link-observed",
+      "evidence": "Employer-published recruitment information inspected 24 November 2026; confirm before applying."
+    }
+  ],
+  "employers": [
+    {
+      "id": "linklaters",
+      "name": "Linklaters",
+      "url": "https://www.linklaters.com/careers/early-careers/training-contracts",
+      "programme": "London training contracts and vacation schemes; international routes also described.",
+      "preparation": "Compare its published transaction and practice material with the capital markets module.",
+      "focus": "Cross-border banking, corporate and capital-markets work",
+      "exercise": "Compare the ABP facility and PAI/ELEMIS lender mandate; identify which client the firm represents and distinguish facility commitments from purchase consideration.",
+      "mandates": [
+        {
+          "id": "ocs-mitie",
+          "title": "OCS / Mitie",
+          "roles": [
+            "Mitie Group plc — Target-side public M&A (firm experience disclosure)"
+          ]
+        },
+        {
+          "id": "pai-elemis",
+          "title": "PAI Partners / ELEMIS",
+          "roles": [
+            "Lenders — Acquisition financing"
+          ]
+        },
+        {
+          "id": "cary-consortium",
+          "title": "Nordic Capital / CPP Investments / Ontario Teachers’ — Cary Group",
+          "roles": [
+            "Ontario Teachers’ — Investment"
+          ]
+        },
+        {
+          "id": "goldman-celnor",
+          "title": "Goldman Sachs Alternatives / Celnor Group",
+          "roles": [
+            "Goldman Sachs Alternatives — Investment"
+          ]
+        },
+        {
+          "id": "abp-ifm",
+          "title": "IFM Investors / Associated British Ports stakes",
+          "roles": [
+            "CPP Investments and OMERS — Sale of stakes"
+          ]
+        },
+        {
+          "id": "abp-term-facility",
+          "title": "Associated British Ports / £300m infrastructure facility",
+          "roles": [
+            "Associated British Ports — Term facility"
+          ]
+        },
+        {
+          "id": "prologis-segro",
+          "title": "Prologis / SEGRO",
+          "roles": [
+            "Prologis — Recommended offer; cross-practice bidder counsel"
+          ]
+        },
+        {
+          "id": "carlsberg-britvic",
+          "title": "Carlsberg / Britvic",
+          "roles": [
+            "Britvic — Takeover and regulatory clearances"
+          ]
+        },
+        {
+          "id": "nexfibre-substantial",
+          "title": "nexfibre / Substantial",
+          "roles": [
+            "nexfibre and its investors — Acquisition"
+          ]
+        },
+        {
+          "id": "aab-kreston-reeves",
+          "title": "AAB / Kreston Reeves",
+          "roles": [
+            "AAB — Co-adviser, as disclosed by Addleshaw Goddard"
+          ]
+        },
+        {
+          "id": "cinven-theramex",
+          "title": "Cinven / Theramex",
+          "roles": [
+            "Carlyle, PAI Partners and Theramex — Seller/target counsel"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "clifford-chance",
+      "name": "Clifford Chance",
+      "url": "https://jobs.cliffordchance.com/training-contract-london",
+      "programme": "London training contract and early-careers information.",
+      "preparation": "Use the finance module to prepare a client-focused discussion of borrowing costs.",
+      "focus": "Cross-border finance and transactional work",
+      "exercise": "Contrast a digitally native note with a CMBS; distinguish debt issuance, asset credit and settlement risk.",
+      "mandates": [
+        {
+          "id": "mccormick-unilever",
+          "title": "McCormick / Unilever Foods",
+          "roles": [
+            "Unilever — Seller-side combination"
+          ]
+        },
+        {
+          "id": "nationwide-virgin",
+          "title": "Nationwide / Virgin Money",
+          "roles": [
+            "Virgin Money UK plc — Target counsel"
+          ]
+        },
+        {
+          "id": "leita-mobico",
+          "title": "Leita Mobility / Mobico Group",
+          "roles": [
+            "Lenders — Acquisition financing"
+          ]
+        },
+        {
+          "id": "uk-logistics-cmbs",
+          "title": "UK Logistics 2026-3 / £603m CMBS",
+          "roles": [
+            "Deutsche Bank and Standard Chartered — Arrangers, managers, loan sellers and issuer lenders"
+          ]
+        },
+        {
+          "id": "standard-chartered-dnn",
+          "title": "Standard Chartered / US$200m digitally native notes",
+          "roles": [
+            "Standard Chartered Bank — Legal structuring, documentation and execution"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "freshfields",
+      "name": "Freshfields",
+      "url": "https://www.freshfields.com/en/your-career/united-kingdom/early-careers",
+      "programme": "UK trainee associate programme, vacation schemes and early insight routes.",
+      "preparation": "Prepare a merger-control case and explain what a transactional team and competition team would each do.",
+      "focus": "Public M&A and cross-border regulatory work",
+      "exercise": "Compare the Hargreaves Lansdown scheme and ITV's proposed business disposal; identify bidder, seller and target counsel.",
+      "mandates": [
+        {
+          "id": "sky-itv",
+          "title": "Sky / ITV Media and Entertainment",
+          "roles": [
+            "ITV plc — M&E sale and Love Productions acquisition"
+          ]
+        },
+        {
+          "id": "vodafone-three",
+          "title": "Vodafone UK / Three UK",
+          "roles": [
+            "CK Hutchison — CMA merger approval"
+          ]
+        },
+        {
+          "id": "leita-mobico",
+          "title": "Leita Mobility / Mobico Group",
+          "roles": [
+            "Mobico — Recommended acquisition"
+          ]
+        },
+        {
+          "id": "cary-consortium",
+          "title": "Nordic Capital / CPP Investments / Ontario Teachers’ — Cary Group",
+          "roles": [
+            "CPP Investments — Consortium acquisition"
+          ]
+        },
+        {
+          "id": "greencore-bakkavor",
+          "title": "Greencore / Bakkavor",
+          "roles": [
+            "Bakkavor Group plc — Recommended acquisition counsel"
+          ]
+        },
+        {
+          "id": "adobe-figma",
+          "title": "Adobe / Figma",
+          "roles": [
+            "Adobe Inc. — Legal adviser; joint termination release"
+          ]
+        },
+        {
+          "id": "hpe-juniper",
+          "title": "Hewlett Packard Enterprise / Juniper Networks",
+          "roles": [
+            "HPE — Legal adviser"
+          ]
+        },
+        {
+          "id": "cinven-theramex",
+          "title": "Cinven / Theramex",
+          "roles": [
+            "Cinven — Buyer counsel"
+          ]
+        },
+        {
+          "id": "harp-hargreaves-lansdown",
+          "title": "CVC / Nordic Capital / ADIA — Hargreaves Lansdown",
+          "roles": [
+            "Hargreaves Lansdown plc — Target counsel"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "latham",
+      "name": "Latham & Watkins",
+      "url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-kingdom/London-Graduate-Recruitment-FAQs",
+      "programme": "London graduate recruitment FAQs, including application and work-authorisation guidance; verify the current programme-specific terms.",
+      "preparation": "Practise explaining acquisition financing and why lender and sponsor interests differ.",
+      "focus": "Sponsor and finance mandates",
+      "exercise": "Review evidence of client allocation in Hargreaves Lansdown; distinguish acquisition debt from equity value.",
+      "mandates": [
+        {
+          "id": "lseg-octus",
+          "title": "LSEG / Octus",
+          "roles": [
+            "LSEG — Acquisition"
+          ]
+        },
+        {
+          "id": "harp-hargreaves-lansdown",
+          "title": "CVC / Nordic Capital / ADIA — Hargreaves Lansdown",
+          "roles": [
+            "CVC — Legal adviser"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "addleshaw",
+      "name": "Addleshaw Goddard",
+      "url": "https://earlycareers.addleshawgoddard.com/careers/training-contracts/",
+      "programme": "Official training contract information; confirm office-specific application windows on the employer site.",
+      "preparation": "Connect infrastructure investment to construction, financing and commercial contracts.",
+      "focus": "Corporate investment and project development",
+      "exercise": "Compare Noriker project sale with AAB professional services combination; separate transaction counsel from future workstreams.",
+      "mandates": [
+        {
+          "id": "goldman-celnor",
+          "title": "Goldman Sachs Alternatives / Celnor Group",
+          "roles": [
+            "Celnor and Inflexion — Legal adviser, joint seller-side disclosure"
+          ]
+        },
+        {
+          "id": "firstcash-ramsdens",
+          "title": "FirstCash / Ramsdens",
+          "roles": [
+            "Ramsdens Holdings — Target legal adviser"
+          ]
+        },
+        {
+          "id": "cip-noriker-kilmarnock",
+          "title": "Copenhagen Infrastructure Partners / Noriker Kilmarnock South BESS",
+          "roles": [
+            "Noriker Power — Project sale and construction arrangements"
+          ]
+        },
+        {
+          "id": "aab-kreston-reeves",
+          "title": "AAB / Kreston Reeves",
+          "roles": [
+            "AAB — Investment, diligence and acquisition terms"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "burges",
+      "name": "Burges Salmon",
+      "url": "https://www.burges-salmon.com/join-us/emerging-talent/trainees/",
+      "programme": "Official trainee information; check the jurisdiction and programme details.",
+      "preparation": "Use the project finance case to identify client risks and relevant practice teams.",
+      "focus": "UK energy, infrastructure and corporate work",
+      "exercise": "Compare ITM equity/grant and Wind2 development portfolio; explain differences in funding and operational capacity.",
+      "mandates": [
+        {
+          "id": "itm-gbe-equity",
+          "title": "Great British Energy / ITM Power strategic equity investment",
+          "roles": [
+            "ITM Power plc — Equity capital markets advice on strategic investment"
+          ]
+        },
+        {
+          "id": "tilleghem-saragossa",
+          "title": "Tilleghem Capital / Saragossa",
+          "roles": [
+            "Tilleghem Capital — Equity stake acquisition"
+          ]
+        },
+        {
+          "id": "boralex-wind2",
+          "title": "Boralex / Wind2",
+          "roles": [
+            "Wind2 shareholders — Disposal; corporate and specialist workstreams"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "ao-shearman",
+      "name": "A&O Shearman",
+      "url": "https://careers.aoshearman.com/en-gb/london-training-contract",
+      "programme": "London training contract and early careers programmes. Review the current entry criteria and application window on the official page.",
+      "preparation": "Prepare a comparison of a debt-financed public M&A transaction and a capital-markets issuance.",
+      "focus": "International finance and corporate work",
+      "exercise": "Compare Athora prudential requirements and PAI acquisition financing; use the actual counsel attribution.",
+      "mandates": [
+        {
+          "id": "pai-elemis",
+          "title": "PAI Partners / ELEMIS",
+          "roles": [
+            "PAI Partners — Buyer legal adviser"
+          ]
+        },
+        {
+          "id": "nexfibre-substantial",
+          "title": "nexfibre / Substantial",
+          "roles": [
+            "Liberty Global, Telefónica and Virgin Media O2 — Transaction advice"
+          ]
+        },
+        {
+          "id": "athora-picg",
+          "title": "Athora / Pension Insurance Corporation Group",
+          "roles": [
+            "Athora — Acquisition co-counsel"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "slaughter-may",
+      "name": "Slaughter and May",
+      "url": "https://www.slaughterandmay.com/careers/early-careers/apply/",
+      "programme": "London early-careers application guidance, including training contract, work experience and apprenticeship pathways.",
+      "preparation": "Practise an evidence-led discussion of a public takeover and the distinction between deal economics and completion conditions.",
+      "focus": "UK public M&A and governance",
+      "exercise": "Compare scheme mechanics in DS Smith with contractual offer and government safeguards in IDS.",
+      "mandates": [
+        {
+          "id": "nationwide-virgin",
+          "title": "Nationwide / Virgin Money",
+          "roles": [
+            "Nationwide Building Society — Bidder counsel"
+          ]
+        },
+        {
+          "id": "goldman-celnor",
+          "title": "Goldman Sachs Alternatives / Celnor Group",
+          "roles": [
+            "Funds advised by Inflexion — Majority stake sale"
+          ]
+        },
+        {
+          "id": "aviva-direct-line",
+          "title": "Aviva / Direct Line",
+          "roles": [
+            "Direct Line — Recommended acquisition"
+          ]
+        },
+        {
+          "id": "greencore-bakkavor",
+          "title": "Greencore / Bakkavor",
+          "roles": [
+            "Greencore Group plc — Recommended acquisition counsel"
+          ]
+        },
+        {
+          "id": "international-paper-ds-smith",
+          "title": "International Paper / DS Smith",
+          "roles": [
+            "DS Smith — Competing offers and agreed acquisition"
+          ]
+        },
+        {
+          "id": "adobe-figma",
+          "title": "Adobe / Figma",
+          "roles": [
+            "Figma, Inc. — Legal adviser; joint termination release"
+          ]
+        },
+        {
+          "id": "chesnara-metlife-uk",
+          "title": "Chesnara / MetLife UK closed-book life business",
+          "roles": [
+            "Chesnara — Corporate and specialist acquisition counsel"
+          ]
+        },
+        {
+          "id": "softcat-gdt",
+          "title": "Softcat / General Datatech",
+          "roles": [
+            "Softcat — Cross-border acquisition and equity/debt financing"
+          ]
+        },
+        {
+          "id": "ep-ids-royal-mail",
+          "title": "EP Group / International Distribution Services (Royal Mail)",
+          "roles": [
+            "International Distribution Services — Target corporate, competition/FDI, employment, pensions, financing, financial regulation and tax"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "sidley",
+      "name": "Sidley Austin",
+      "url": "https://www.sidley.com/en/careers",
+      "programme": "Official careers directory includes London experienced-lawyer and business-professional routes and a separate student careers site. Check current vacancy and eligibility information.",
+      "preparation": "Use the Athora / PICG acquisition to discuss insurer change-of-control approval, acquisition financing and cross-border coordination.",
+      "focus": "Insurance and transaction work",
+      "exercise": "Examine Athora/PICG acquisition and common-equity funding; discuss why prudential approval matters.",
+      "mandates": [
+        {
+          "id": "athora-picg",
+          "title": "Athora / Pension Insurance Corporation Group",
+          "roles": [
+            "Athora — Acquisition counsel"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "baker-mckenzie",
+      "name": "Baker McKenzie",
+      "url": "https://www.bakermckenzie.com/en/careers",
+      "programme": "Consult official UK careers pages for current vacancies and graduate routes.",
+      "preparation": "Review disclosed cross-border mandates and identify how local and international counsel coordinate.",
+      "focus": "Review source-backed mandates; no firm-wide ranking inferred.",
+      "exercise": "Choose an observed mandate; describe the client, deal economics, actual scope of advice and one unresolved question.",
+      "mandates": [
+        {
+          "id": "carlsberg-britvic",
+          "title": "Carlsberg / Britvic",
+          "roles": [
+            "Carlsberg — Bidder counsel"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "proskauer",
+      "name": "Proskauer Rose",
+      "url": "https://www.proskauer.com/careers",
+      "programme": "See the firm’s official recruitment pages for current programmes.",
+      "preparation": "Compare sponsor counsel with financing sources' counsel across private capital mandates.",
+      "focus": "Review source-backed mandates; no firm-wide ranking inferred.",
+      "exercise": "Choose an observed mandate; describe the client, deal economics, actual scope of advice and one unresolved question.",
+      "mandates": [
+        {
+          "id": "nexfibre-substantial",
+          "title": "nexfibre / Substantial",
+          "roles": [
+            "Lenders to nexfibre — Financing counsel"
+          ]
+        },
+        {
+          "id": "cinven-theramex",
+          "title": "Cinven / Theramex",
+          "roles": [
+            "Financing sources — Acquisition financing"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "hogan-lovells",
+      "name": "Hogan Lovells",
+      "url": "https://www.hoganlovells.com/en/careers",
+      "programme": "See the firm's official careers information for current opportunities.",
+      "preparation": "Review the attributed client-side mandate and original transaction sources. No unverified recruitment deadline is asserted.",
+      "focus": "Review source-backed mandates; no firm-wide ranking inferred.",
+      "exercise": "Choose an observed mandate; describe the client, deal economics, actual scope of advice and one unresolved question.",
+      "mandates": [
+        {
+          "id": "mccormick-unilever",
+          "title": "McCormick / Unilever Foods",
+          "roles": [
+            "McCormick — Multi-jurisdictional acquisition counsel"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "cleary-gottlieb",
+      "name": "Cleary Gottlieb",
+      "url": "https://www.clearygottlieb.com/careers",
+      "programme": "See the firm's official careers information for current opportunities.",
+      "preparation": "Review the attributed client-side mandate and original transaction sources. No unverified recruitment deadline is asserted.",
+      "focus": "Review source-backed mandates; no firm-wide ranking inferred.",
+      "exercise": "Choose an observed mandate; describe the client, deal economics, actual scope of advice and one unresolved question.",
+      "mandates": [
+        {
+          "id": "mccormick-unilever",
+          "title": "McCormick / Unilever Foods",
+          "roles": [
+            "McCormick — Combination counsel including M&A, US/UK tax and finance"
+          ]
+        },
+        {
+          "id": "synopsys-ansys",
+          "title": "Synopsys / Ansys",
+          "roles": [
+            "Synopsys — Acquisition counsel"
+          ]
+        },
+        {
+          "id": "adobe-figma",
+          "title": "Adobe / Figma",
+          "roles": [
+            "Figma, Inc. — Legal adviser; joint termination release"
+          ]
+        },
+        {
+          "id": "broadcom-vmware",
+          "title": "Broadcom / VMware",
+          "roles": [
+            "Broadcom Inc. — Regulatory counsel"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "gowling-wlg",
+      "name": "Gowling WLG",
+      "url": "https://gowlingwlg.com/en/careers",
+      "programme": "See the firm's official careers information for current opportunities.",
+      "preparation": "Review the attributed client-side mandate and original transaction sources. No unverified recruitment deadline is asserted.",
+      "focus": "Review source-backed mandates; no firm-wide ranking inferred.",
+      "exercise": "Choose an observed mandate; describe the client, deal economics, actual scope of advice and one unresolved question.",
+      "mandates": [
+        {
+          "id": "firstcash-ramsdens",
+          "title": "FirstCash / Ramsdens",
+          "roles": [
+            "FirstCash / Chess Bidco — English law bidder counsel"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "alston-bird",
+      "name": "Alston & Bird",
+      "url": "https://www.alston.com/en/careers",
+      "programme": "See the firm's official careers information for current opportunities.",
+      "preparation": "Review the attributed client-side mandate and original transaction sources. No unverified recruitment deadline is asserted.",
+      "focus": "Review source-backed mandates; no firm-wide ranking inferred.",
+      "exercise": "Choose an observed mandate; describe the client, deal economics, actual scope of advice and one unresolved question.",
+      "mandates": [
+        {
+          "id": "firstcash-ramsdens",
+          "title": "FirstCash / Ramsdens",
+          "roles": [
+            "FirstCash / Chess Bidco — US law bidder counsel"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "kirkland-ellis",
+      "name": "Kirkland & Ellis",
+      "url": "https://www.kirkland.com/careers",
+      "programme": "See official careers information for current routes.",
+      "preparation": "Examine the firm's sourced client mandates and practice roles.",
+      "focus": "Private equity and consortium acquisitions",
+      "exercise": "Analyse the HL rollover alternative and financing; identify sponsor-side rather than target-side counsel.",
+      "mandates": [
+        {
+          "id": "rwe-kkr-vanguard",
+          "title": "RWE / KKR — Vanguard offshore wind projects",
+          "roles": [
+            "KKR — January strategic partnership; not attributed as lender counsel"
+          ]
+        },
+        {
+          "id": "mari-atg",
+          "title": "MARI / ATG Entertainment",
+          "roles": [
+            "Providence Equity Partners — Sale counsel"
+          ]
+        },
+        {
+          "id": "harp-hargreaves-lansdown",
+          "title": "CVC / Nordic Capital / ADIA — Hargreaves Lansdown",
+          "roles": [
+            "Consortium — Acquisition counsel"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "mcdermott",
+      "name": "McDermott Will & Schulte",
+      "url": "https://www.mcdermottlaw.com/careers/",
+      "programme": "See official careers information for current routes.",
+      "preparation": "Examine the firm's sourced client mandates and practice roles.",
+      "focus": "Review source-backed mandates; no firm-wide ranking inferred.",
+      "exercise": "Choose an observed mandate; describe the client, deal economics, actual scope of advice and one unresolved question.",
+      "mandates": [
+        {
+          "id": "lseg-octus",
+          "title": "LSEG / Octus",
+          "roles": [
+            "Permira and Octus — Agreed sale of Octus"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "simpson-thacher",
+      "name": "Simpson Thacher & Bartlett",
+      "url": "https://www.stblaw.com/your-career/london-office-careers/",
+      "programme": "See official recruitment information; no current vacancy or UK qualification route asserted.",
+      "preparation": "Cross-border M&A and regulatory restructuring.",
+      "focus": "Review source-backed mandates; no firm-wide ranking inferred.",
+      "exercise": "Choose an observed mandate; describe the client, deal economics, actual scope of advice and one unresolved question.",
+      "mandates": [
+        {
+          "id": "microsoft-activision",
+          "title": "Microsoft / Activision Blizzard (restructured)",
+          "roles": [
+            "Microsoft Corporation — Acquisition and related rights transaction counsel (firm disclosure)"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "skadden",
+      "name": "Skadden",
+      "url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-kingdom",
+      "programme": "See official recruitment information; no current vacancy or UK qualification route asserted.",
+      "preparation": "Technology M&A and regulatory risk.",
+      "focus": "Cross-border public and private M&A",
+      "exercise": "Compare Synopsys stock consideration and HPE cash acquisition; discuss regulatory execution risks.",
+      "mandates": [
+        {
+          "id": "pai-elemis",
+          "title": "PAI Partners / ELEMIS",
+          "roles": [
+            "L’Occitane Group — Seller transaction counsel"
+          ]
+        },
+        {
+          "id": "synopsys-ansys",
+          "title": "Synopsys / Ansys",
+          "roles": [
+            "Ansys — Legal adviser"
+          ]
+        },
+        {
+          "id": "international-paper-ds-smith",
+          "title": "International Paper / DS Smith",
+          "roles": [
+            "International Paper Company — Contested all-equity acquisition"
+          ]
+        },
+        {
+          "id": "adobe-figma",
+          "title": "Adobe / Figma",
+          "roles": [
+            "Adobe Inc. — Legal adviser; joint termination release"
+          ]
+        },
+        {
+          "id": "hpe-juniper",
+          "title": "Hewlett Packard Enterprise / Juniper Networks",
+          "roles": [
+            "Juniper — Legal adviser"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "fenwick",
+      "name": "Fenwick & West",
+      "url": "https://www.fenwick.com/careers/experienced-lawyers",
+      "programme": "See official recruitment information; no current vacancy or UK qualification route asserted.",
+      "preparation": "Technology M&A and US transaction documentation.",
+      "focus": "Review source-backed mandates; no firm-wide ranking inferred.",
+      "exercise": "Choose an observed mandate; describe the client, deal economics, actual scope of advice and one unresolved question.",
+      "mandates": [
+        {
+          "id": "adobe-figma",
+          "title": "Adobe / Figma",
+          "roles": [
+            "Figma, Inc. — Legal adviser; joint termination release"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "akin-gump",
+      "name": "Akin Gump",
+      "url": "https://www.akingump.com/en/careers/uk-students",
+      "programme": "Consult the firm's official UK early-careers information.",
+      "preparation": "Distinguish buyer counsel from seller counsel using transaction-specific announcements.",
+      "focus": "Review source-backed mandates; no firm-wide ranking inferred.",
+      "exercise": "Choose an observed mandate; describe the client, deal economics, actual scope of advice and one unresolved question.",
+      "mandates": [
+        {
+          "id": "mari-atg",
+          "title": "MARI / ATG Entertainment",
+          "roles": [
+            "MARI — Legal adviser"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "goodwin",
+      "name": "Goodwin",
+      "url": "https://www.goodwinlaw.com/en/careers",
+      "programme": "Consult official careers information; no current vacancy is asserted.",
+      "preparation": "Technology M&A and acquisition counsel.",
+      "focus": "Review source-backed mandates; no firm-wide ranking inferred.",
+      "exercise": "Choose an observed mandate; describe the client, deal economics, actual scope of advice and one unresolved question.",
+      "mandates": [
+        {
+          "id": "synopsys-ansys",
+          "title": "Synopsys / Ansys",
+          "roles": [
+            "Ansys — M&A and technology counsel"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "norton-rose-fulbright",
+      "name": "Norton Rose Fulbright",
+      "url": "https://www.nortonrosefulbright.com/en-gb/careers",
+      "programme": "Consult official careers information; no current vacancy is asserted.",
+      "preparation": "Energy and infrastructure public M&A.",
+      "focus": "Review source-backed mandates; no firm-wide ranking inferred.",
+      "exercise": "Choose an observed mandate; describe the client, deal economics, actual scope of advice and one unresolved question.",
+      "mandates": [
+        {
+          "id": "drax-bluefield",
+          "title": "Drax / Bluefield Solar Income Fund",
+          "roles": [
+            "Bluefield Solar Income Fund — Target counsel"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "wachtell",
+      "name": "Wachtell, Lipton, Rosen & Katz",
+      "url": "https://www.wlrk.com/",
+      "programme": "Consult official careers information; no current vacancy is asserted.",
+      "preparation": "US public M&A; UK recruitment not established.",
+      "focus": "Review source-backed mandates; no firm-wide ranking inferred.",
+      "exercise": "Choose an observed mandate; describe the client, deal economics, actual scope of advice and one unresolved question.",
+      "mandates": [
+        {
+          "id": "hpe-juniper",
+          "title": "Hewlett Packard Enterprise / Juniper Networks",
+          "roles": [
+            "HPE — Legal adviser"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "covington",
+      "name": "Covington & Burling",
+      "url": "https://www.cov.com/en/careers",
+      "programme": "Consult official careers information; no current vacancy is asserted.",
+      "preparation": "Cross-border technology and regulatory matters.",
+      "focus": "Review source-backed mandates; no firm-wide ranking inferred.",
+      "exercise": "Choose an observed mandate; describe the client, deal economics, actual scope of advice and one unresolved question.",
+      "mandates": [
+        {
+          "id": "hpe-juniper",
+          "title": "Hewlett Packard Enterprise / Juniper Networks",
+          "roles": [
+            "HPE — Legal adviser"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    }
+  ],
+  "resources": [
+    {
+      "id": "resource-0",
+      "title": "SRA qualification pathways",
+      "category": "Qualification",
+      "description": "Compare ordinary SQE, transitional and qualified lawyer routes.",
+      "url": "https://www.sra.org.uk/pathways",
+      "status": "Directory resource; current intake not confirmed",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "resource-1",
+      "title": "SQE assessment structure",
+      "category": "Qualification",
+      "description": "Understand SQE1 and SQE2 and the other admission requirements.",
+      "url": "https://sqe.sra.org.uk/about/what-is-sqe/what-sqe-involves",
+      "status": "Directory resource; current intake not confirmed",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "resource-2",
+      "title": "SRA qualifying work experience",
+      "category": "Qualification",
+      "description": "Check requirements and confirmation; a job title alone does not establish QWE.",
+      "url": "https://www.sra.org.uk/qwe",
+      "status": "Directory resource; current intake not confirmed",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "resource-3",
+      "title": "Overseas qualified lawyers",
+      "category": "International",
+      "description": "Already-qualified lawyers are exempt from QWE; assessment exemptions depend on the individual route.",
+      "url": "https://www.sra.org.uk/become-solicitor/admission/pathways-qualification/qualified-lawyers/",
+      "status": "Directory resource; current intake not confirmed",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "resource-4",
+      "title": "Graduate visa",
+      "category": "International",
+      "description": "Official eligibility, timing and duration rules; check current conditions before applying.",
+      "url": "https://www.gov.uk/graduate-visa",
+      "status": "Directory resource; current intake not confirmed",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "resource-5",
+      "title": "Appendix Graduate",
+      "category": "International",
+      "description": "Current rule: eligible non-doctoral applications before 1 January 2027 receive two years; from that date 18 months.",
+      "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-graduate",
+      "status": "Directory resource; current intake not confirmed",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "resource-6",
+      "title": "Skilled Worker visa",
+      "category": "International",
+      "description": "Check current occupation, pay, employer and other visa requirements.",
+      "url": "https://www.gov.uk/skilled-worker-visa",
+      "status": "Directory resource; current intake not confirmed",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "resource-7",
+      "title": "Sponsor register",
+      "category": "International",
+      "description": "Licence status is not role-specific sponsorship confirmation.",
+      "url": "https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers",
+      "status": "Directory resource; current intake not confirmed",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "resource-8",
+      "title": "LawWorks",
+      "category": "Pro bono",
+      "description": "Explore volunteering, clinic and student resources; check provider criteria.",
+      "url": "https://www.lawworks.org.uk/",
+      "status": "Directory resource; current intake not confirmed",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "resource-9",
+      "title": "Aspiring Solicitors",
+      "category": "Mentoring / events",
+      "description": "Explore eligibility-based mentoring and career opportunities.",
+      "url": "https://www.aspiringsolicitors.co.uk/",
+      "status": "Directory resource; current intake not confirmed",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "resource-10",
+      "title": "GROW Mentoring",
+      "category": "Mentoring / events",
+      "description": "Check current mentoring application cycles.",
+      "url": "https://www.growmentoring.org/",
+      "status": "Directory resource; current intake not confirmed",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "resource-11",
+      "title": "Forage",
+      "category": "Virtual experience",
+      "description": "Explore employer-designed job simulations; not employment or QWE by default.",
+      "url": "https://www.theforage.com/",
+      "status": "Directory resource; current intake not confirmed",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "resource-12",
+      "title": "Government Legal Profession",
+      "category": "Public sector",
+      "description": "Explore government legal careers and recruitment information.",
+      "url": "https://www.gov.uk/government/organisations/government-legal-profession",
+      "status": "Directory resource; current intake not confirmed",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "resource-13",
+      "title": "Civil Service Jobs",
+      "category": "Public sector",
+      "description": "Search official vacancies; check nationality and eligibility criteria.",
+      "url": "https://www.civilservicejobs.service.gov.uk/",
+      "status": "Directory resource; current intake not confirmed",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "resource-14",
+      "title": "Find an apprenticeship",
+      "category": "Apprenticeships",
+      "description": "Official apprenticeship search; check funding and individual eligibility.",
+      "url": "https://www.gov.uk/apply-apprenticeship",
+      "status": "Directory resource; current intake not confirmed",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "resource-15",
+      "title": "Taylor Root",
+      "category": "Recruitment agency",
+      "description": "Legal recruitment discovery; individual listings require verification.",
+      "url": "https://www.taylorroot.com/",
+      "status": "Directory resource; current intake not confirmed",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "resource-16",
+      "title": "Flex Legal",
+      "category": "Recruitment agency",
+      "description": "Explore legal staffing and early career routes; not a confirmed vacancy.",
+      "url": "https://flex.legal/",
+      "status": "Directory resource; current intake not confirmed",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "resource-17",
+      "title": "Ryder Reid",
+      "category": "Recruitment agency",
+      "description": "Law firm and business support recruitment.",
+      "url": "https://www.ryderreid.com/",
+      "status": "Directory resource; current intake not confirmed",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "resource-18",
+      "title": "Jameson Legal",
+      "category": "Recruitment agency",
+      "description": "Legal recruitment; verify role and location.",
+      "url": "https://www.jamesonlegal.com/",
+      "status": "Directory resource; current intake not confirmed",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "resource-19",
+      "title": "BCL Legal",
+      "category": "Recruitment agency",
+      "description": "Legal recruitment across practice areas.",
+      "url": "https://www.bcllegal.com/",
+      "status": "Directory resource; current intake not confirmed",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "resource-20",
+      "title": "Chadwick Nott",
+      "category": "Recruitment agency",
+      "description": "Legal recruitment including regional roles.",
+      "url": "https://www.chadwicknott.co.uk/",
+      "status": "Directory resource; current intake not confirmed",
+      "reviewedOn": "2026-11-24"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "valuation",
+      "title": "Enterprise value, equity value and cash flow",
+      "body": "Enterprise value measures the operating business under a specified valuation convention. In a simplified cash-free, debt-free deal, equity value equals enterprise value less debt plus cash. Actual price adjustments depend on the agreed definitions of cash, debt, debt-like items and working capital. EBITDA is not cash flow: capital expenditure, tax and working capital may consume cash.",
+      "pathway": "Foundations",
+      "exercise": "Prepare a one-page bridge from enterprise value to equity consideration, identifying net debt, debt-like items, working capital and leakage. Explain how a disputed debt-like item affects buyer and seller differently.",
+      "practical": "In a transaction, first separate operating-business valuation from the cash paid to shareholders. For example, an enterprise value of £200m and net debt of £45m imply £155m equity value before other adjustments. A target with £10m EBITDA may still need £6m capital expenditure and £3m additional working capital; EBITDA alone is a poor proxy for available debt service. A locked-box price uses a historical balance sheet and leakage protections; completion accounts adjust against agreed closing metrics. Neither mechanism guarantees a particular price without the definitions.",
+      "scenario": "A business has £120m enterprise value, £35m debt and £5m cash. Ignoring other adjustments, what equity price is implied?",
+      "options": [
+        "£80m",
+        "£90m",
+        "£120m",
+        "£150m"
+      ],
+      "answer": 1,
+      "explanation": "£120m − £35m + £5m = £90m. The SPA must specify which items count as cash and debt.",
+      "source": null
+    },
+    {
+      "id": "finance",
+      "title": "Debt, interest rates and covenants",
+      "body": "Floating-rate borrowing commonly references a benchmark plus margin. Rate rises can reduce interest cover, increase refinancing pressure and reduce the debt a buyer can service. Fixed-rate debt and hedging may change the impact. A covenant breach depends on the precise financial definitions, test dates and cure rights, not on a headline rate alone.",
+      "pathway": "Foundations",
+      "exercise": "Draft a lender diligence checklist: facility amount, tenor, rate, financial covenants, mandatory prepayment, security, hedging and change-of-control terms.",
+      "practical": "Suppose £80m of floating debt pays a benchmark plus 300 basis points. A benchmark increase affects interest expense, while the margin may depend on leverage or rating. In a leveraged acquisition, a higher rate can reduce cash available for amortisation or distributions and affect covenant headroom. Review the definition of EBITDA, permitted add-backs, interest coverage, testing periods and cure provisions. A borrower can hedge some benchmark risk, but hedge break costs and mismatched tenors can create new exposure.",
+      "scenario": "A borrower has £80m of unhedged floating-rate debt. Assuming immediate full pass-through, what is the additional annual interest from a 25bp rise?",
+      "options": [
+        "£20,000",
+        "£200,000",
+        "£2m",
+        "£20m"
+      ],
+      "answer": 1,
+      "explanation": "25 basis points = 0.0025; £80m × 0.0025 = £200,000 before other changes.",
+      "source": {
+        "name": "Bank of England policy example",
+        "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+      }
+    },
+    {
+      "id": "merger-control",
+      "title": "UK merger control and remedies",
+      "body": "The UK merger regime is generally voluntary, but the CMA may investigate qualifying anticipated or completed transactions. Review can lead to clearance, commitments, deeper investigation or prohibition. Contractual closing conditions, long-stop dates and risk allocation need to reflect the transaction's particular facts and any separate mandatory regimes.",
+      "pathway": "Applied transactions",
+      "exercise": "Using the linked dossier, identify the parties, the recorded CMA stage, the next dated milestone and the impact of a potential remedy on deal economics.",
+      "practical": "Competition analysis begins with the enterprises, control and jurisdictional tests, then considers overlap, market definition and the theory of harm. The UK regime permits voluntary notification in many cases; completion without clearance can still expose parties to investigation and interim measures. In an SPA, a competition condition, cooperation obligations, remedy commitments and long-stop date allocate timing and outcome risk. A divestiture could remove assets the buyer expected to use to achieve synergies. Do not infer clearance merely from the expiry of a privately agreed deadline.",
+      "scenario": "A buyer completes a UK transaction before the CMA reviews it. Which statement is safest?",
+      "options": [
+        "CMA cannot review because legal ownership has transferred",
+        "Only the contractual long-stop date determines CMA jurisdiction",
+        "The CMA may still review a qualifying completed merger",
+        "The CMA may review only if a competitor submits a formal complaint"
+      ],
+      "answer": 2,
+      "explanation": "A qualifying completed merger may still be reviewed; the Co-operative case provides a concrete illustration.",
+      "source": {
+        "name": "CMA jurisdiction guidance",
+        "url": "https://www.gov.uk/government/publications/mergers-guidance-on-the-cmas-jurisdiction-and-procedure"
+      }
+    },
+    {
+      "id": "capital-markets",
+      "title": "Public M&A and capital markets",
+      "body": "A public takeover and an equity issuance solve different commercial problems. Before planning a public acquisition, establish whether the Takeover Code applies; before a capital raising, identify the market, admission route, offer and applicable prospectus rules. Regulatory timetables, disclosure and execution risk affect the financing plan.",
+      "pathway": "Applied transactions",
+      "exercise": "Compare a takeover and a primary equity issuance: client objective, cash flows, principal documents, approvals and timing risk.",
+      "practical": "For a takeover, establish the target's status and the applicable scope of the Takeover Code before considering announcement, offer or scheme routes. For an issuance, distinguish primary proceeds received by the issuer from a secondary sale by investors. Publicity and disclosure obligations, underwriting or placing arrangements, investor eligibility, admission and transaction timetable are separate workstreams. The client's funding objective and existing shareholder dilution are central commercial questions. Do not transpose takeover requirements into a capital raising simply because both involve listed securities.",
+      "scenario": "A foreign bidder retains a London law firm to acquire a foreign private company. Does that alone establish Takeover Code jurisdiction?",
+      "options": [
+        "Yes, because English governing law can determine Code jurisdiction",
+        "No; test the target and Code scope",
+        "Yes, if a UK bank arranges acquisition financing",
+        "Yes, if the bidder intends to list the combined business in London"
+      ],
+      "answer": 1,
+      "explanation": "The location of an adviser is not a standalone test of the Code’s applicability.",
+      "source": {
+        "name": "Panel scope guidance",
+        "url": "https://www.takeoverpanel.org.uk/the-code/companies-to-which-the-takeover-code-applies"
+      }
+    },
+    {
+      "id": "business-model",
+      "title": "How clients make money",
+      "body": "Revenue is sales before expenses; profit depends on costs and accounting rules. Operating cash flow also reflects collection and payment timing. A high-growth company can be profitable on paper but short of cash. Ask what customers pay for, what drives costs, how working capital behaves and what regulation constrains the business.",
+      "pathway": "Foundations",
+      "exercise": "Choose a company and explain its customers, revenue drivers, largest costs, working-capital cycle and two contractual or regulatory risks.",
+      "practical": "Trace a company's cash conversion cycle from purchasing inventory to collecting sales. If a business invoices £100m and collection slows by 30 days, the additional receivables balance could be material even if the profit margin is unchanged. Distinguish fixed costs from variable costs, recurring from transactional revenue, and customer concentration from overall sales growth. In diligence, compare contractual payment terms, termination rights and actual collections. A facility may fund a seasonal working-capital gap, but it cannot fix structurally unprofitable operations.",
+      "scenario": "Sales rise but customers take much longer to pay. What can happen?",
+      "options": [
+        "Operating cash flow must increase in proportion to recognised revenue",
+        "Cash flow can weaken despite higher revenue",
+        "Receivables affect investing cash flow rather than operating cash flow",
+        "A longer collection period necessarily reduces recognised revenue"
+      ],
+      "answer": 1,
+      "explanation": "Receivables tie up cash. A profitable business may still need working-capital finance.",
+      "source": null
+    },
+    {
+      "id": "interview",
+      "title": "Commercial interview reasoning",
+      "body": "Start with a specific, dated fact. Identify the client and its commercial objective, trace the financial or operational impact, identify legal work and risks, then state what evidence could change your view. Avoid pretending that every issue has the same impact on all clients.",
+      "pathway": "Interview preparation",
+      "exercise": "Deliver a 90-second answer: fact, client objective, commercial effect, legal workstream, uncertainty and next event.",
+      "practical": "A useful interview answer should connect a dated development to a particular client's decision. A buyer may care about synergies and certainty; lenders may focus on repayment, conditions and security; a seller may care about price and timing. Separate a verified event from your prediction. For a competition remedy, consider whether the asset to be sold is strategically important, what remedy commitments the SPA imposes and whether financing remains available. End with a concrete question or next milestone rather than a generic conclusion.",
+      "scenario": "A buyer is concerned about a competition remedy. Which response demonstrates the strongest reasoning?",
+      "options": [
+        "Focus on the possibility of a remedy without discussing its economics",
+        "Assess regulatory approval separately from the agreed acquisition conditions",
+        "Test the remedy’s impact on synergies, financing and closing conditions",
+        "Compare the headline purchase price with unrelated recent transactions"
+      ],
+      "answer": 2,
+      "explanation": "The best answer links a concrete regulatory outcome to deal economics and legal drafting. This is original practice material, not an employer question.",
+      "source": {
+        "name": "CMA guidance",
+        "url": "https://www.gov.uk/government/publications/mergers-guidance-on-the-cmas-jurisdiction-and-procedure"
+      }
+    },
+    {
+      "id": "private-equity",
+      "title": "Private equity and management rollover",
+      "body": "Sponsors seek returns through operating improvements, growth, capital structure and eventual exit. Rollover means existing investors or management reinvest some proceeds or retain an interest. Review shareholder rights, dilution, incentives, transfer restrictions and exit arrangements. The investment’s value and the target’s enterprise value are different concepts.",
+      "pathway": "Applied transactions",
+      "exercise": "Identify five questions to ask about rollover securities, governance, incentives, transfer restrictions and exit economics.",
+      "practical": "Consider a sponsor acquiring 80% while management rolls 20% into the new ownership structure. Management's economics may differ from the sponsor's because of preferred securities, vesting, ratchets or leaver terms. The shareholders' agreement and articles may address reserved matters, board representation, information, transfer restrictions, drag/tag rights and exit. Acquisition financing and distributions interact with equity returns but are not the same as the enterprise valuation. Review conflicts of interest and management incentives as well as the SPA.",
+      "scenario": "A sponsor buys a majority stake and management reinvests. What is a priority alongside the SPA?",
+      "options": [
+        "Rely on the SPA alone because it governs the initial acquisition",
+        "Negotiate governance, incentives and exit rights",
+        "Prioritise lender security without examining management's equity rights",
+        "Give management veto rights over all decisions irrespective of economics"
+      ],
+      "answer": 1,
+      "explanation": "Continuing shareholders need a workable governance and exit framework, distinct from the acquisition terms.",
+      "source": {
+        "name": "Celnor transaction example",
+        "url": "https://www.inflexion.com/news-and-insights/news/2026/inflexion-agrees-sale-of-majority-stake-in-celnor-to-goldman-sachs-alternatives/"
+      }
+    },
+    {
+      "id": "project-finance",
+      "title": "Infrastructure and project finance",
+      "body": "Project finance often relies on cash flows of a project company, with limited or non-recourse structures depending on the agreed financing. Construction, operating, revenue and political risks are allocated across contracts, insurance, security and sponsor support. A final investment decision is not the same as financial close or operational completion.",
+      "pathway": "Applied transactions",
+      "exercise": "Map construction, revenue, operational and refinancing risks to contractual mitigants and identify who bears residual exposure.",
+      "practical": "A project company's debt service depends on construction completion and operating cash flows. A lender may examine EPC obligations, completion tests, delay damages, revenue arrangements, operating contracts, insurance, reserves and direct agreements. A final investment decision signals sponsor approval; financing documentation, drawdown conditions and construction risk may remain. A contracted revenue stream can mitigate price exposure but creates counterparty and performance risks. Distinguish project investment from the committed facility and actual drawn debt.",
+      "scenario": "An offshore wind development has a final investment decision. What can you safely conclude?",
+      "options": [
+        "The sponsor decision establishes that all debt commitments are unconditional",
+        "Financial close is deemed to occur when the investment decision is announced",
+        "The investment has been approved; delivery and funding milestones still matter",
+        "The revenue contract guarantees that lenders will be repaid"
+      ],
+      "answer": 2,
+      "explanation": "An investment decision is distinct from completion, drawdown and commissioning.",
+      "source": {
+        "name": "RWE project example",
+        "url": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/news/news-2026-11-11_a/"
+      }
+    },
+    {
+      "id": "corporate-governance",
+      "title": "Corporate governance and completion readiness",
+      "body": "Completion involves more than payment: approvals, executed documents, registers, appointments and filings may matter. In UK transactions the precise obligations depend on company type, structure and the law in force. Check current Companies House identity-verification requirements for directors and persons with significant control rather than applying one deadline to everyone.",
+      "pathway": "Legal workstreams",
+      "exercise": "Build a completion checklist for a director appointment and share acquisition, with responsible person, dependency and evidence of completion.",
+      "practical": "Prepare a completion agenda that distinguishes documents signed before closing, items delivered at completion and post-closing filings. Verify authority under the company's constitutional documents, board and shareholder approvals, execution capacity, registers and any applicable identity-verification requirements. Director and PSC requirements may have different commencement or transition arrangements. The Companies House process does not replace review of the underlying corporate approvals or transaction-specific conditions. Escalate missing evidence rather than marking a checklist complete prematurely.",
+      "scenario": "A director will be appointed at completion. Which approach is best?",
+      "options": [
+        "Record the appointment and treat identity verification as a routine later filing in all cases",
+        "Check the applicable verification requirement and filing sequence",
+        "Use the seller's verification status for the incoming director",
+        "Treat the signed SPA as evidence of all corporate authorisations"
+      ],
+      "answer": 1,
+      "explanation": "Verification and filing readiness should be checked against the applicable rules for the individual and transaction.",
+      "source": {
+        "name": "Companies House guidance",
+        "url": "https://www.gov.uk/government/publications/companies-house-approach-to-non-compliance-with-mandatory-identity-verification/companies-house-approach-to-non-compliance-with-mandatory-identity-verification"
+      }
+    },
+    {
+      "id": "national-security",
+      "title": "UK national security screening",
+      "body": "The National Security and Investment Act creates a distinct national security review regime. Certain qualifying acquisitions of control over entities in specified sectors require mandatory notification. Asset acquisitions are not subject to mandatory notification but may be called in. Competition and national security reviews require separate analysis.",
+      "pathway": "Legal workstreams",
+      "exercise": "Prepare a screening memo listing target activities, acquired rights, control change, possible mandatory sector, call-in risk and proposed next step.",
+      "practical": "Distinguish mandatory notification of qualifying acquisitions of entities in specified sectors from the wider call-in power. Analyse the activities of the target, the control threshold and transaction structure, rather than relying only on the buyer's nationality or industry label. Review the regime alongside competition and other sector approvals. A potentially notifiable transaction requires specialist assessment before completion; the SPA should address conditions, information obligations and timing. The government guidance and legislation must be checked for the particular acquisition.",
+      "scenario": "An acquisition is cleared by the CMA on competition grounds. Does that establish NSI clearance?",
+      "options": [
+        "Yes, provided the CMA considered the same assets",
+        "No; separately assess NSI jurisdiction and any notification requirement",
+        "Only if the CMA clearance expressly discusses foreign investment",
+        "Yes, provided the transaction does not create a competition concern"
+      ],
+      "answer": 1,
+      "explanation": "The regimes serve different purposes and must be assessed separately.",
+      "source": {
+        "name": "Government NSI guidance",
+        "url": "https://www.gov.uk/guidance/national-security-and-investment-act-guidance-on-acquisitions"
+      }
+    },
+    {
+      "id": "securitisation",
+      "title": "Securitisation and credit risk",
+      "body": "A securitisation uses a financing structure in which investors are paid from a pool of underlying exposures, subject to contractual priorities. Analyse asset transfer, security, servicing, cash-flow waterfalls, credit enhancement and insolvency risk. CMBS can expose investors to property cash flow and refinancing risk.",
+      "pathway": "Applied transactions",
+      "exercise": "Draw a simplified payment waterfall and explain how a missed borrower payment reaches different investors. Identify two legal assumptions that require verification.",
+      "practical": "Consider senior and junior notes backed by a pool of loans. The waterfall allocates available collections according to priorities; junior exposure may absorb losses first, subject to the actual structure. Asset eligibility, transfer or security mechanics, servicing, liquidity support, account control and insolvency remoteness matter. A rating addresses defined credit risks under assumptions, not every legal or market risk. In CMBS, property income, tenant concentration and refinancing of the underlying loans can affect note performance.",
+      "scenario": "A CMBS issuer sells senior and junior notes. Does securitisation eliminate borrower default risk?",
+      "options": [
+        "Yes, if the assets are transferred to an insolvency-remote vehicle",
+        "No; losses are allocated through the contractual structure",
+        "Yes, if the senior notes receive an investment-grade rating",
+        "Only junior investors can ever experience a loss"
+      ],
+      "answer": 1,
+      "explanation": "The structure allocates credit risk rather than making the underlying exposure risk-free.",
+      "source": {
+        "name": "UK logistics CMBS example",
+        "url": "https://www.cliffordchance.com/news/news/2026/10/clifford-chance-advises-deutsche-bank-and-standard-chartered-on-603-million-uk-logistics-cmbs.html"
+      }
+    },
+    {
+      "id": "public-schemes",
+      "title": "Schemes of arrangement and deal certainty",
+      "body": "A scheme of arrangement is a court-supervised process. A public takeover implemented by scheme typically requires the relevant shareholder approvals and court sanction, alongside satisfaction of applicable offer conditions. Check the transaction documents and the relevant Companies Act and Takeover Code provisions.",
+      "pathway": "Legal workstreams",
+      "exercise": "Build a timeline from recommended announcement to shareholder meeting, regulatory decisions, court hearing and effectiveness. Mark the dependencies.",
+      "practical": "A scheme can bind the relevant class when the statutory and procedural requirements are met and the scheme becomes effective. Do not confuse an announcement, shareholder vote, court sanction and effectiveness. Transaction documentation identifies conditions, long-stop arrangements and the required steps. Competition review or sector approvals may remain outstanding even after shareholders vote. Consider whether the consideration, financing arrangements or timetable could be affected by a delay. The governing transaction documents and statutory provisions determine the precise position.",
+      "scenario": "A scheme has shareholder support but merger clearance is outstanding. Which conclusion is sound?",
+      "options": [
+        "Shareholder approval generally removes all regulatory conditions",
+        "A closing condition may remain outstanding",
+        "Court sanction may substitute for an outstanding merger decision",
+        "The offer consideration becomes payable immediately upon shareholder approval"
+      ],
+      "answer": 1,
+      "explanation": "Shareholder support is not the same as satisfaction of all conditions or legal completion.",
+      "source": {
+        "name": "Mitie scheme document",
+        "url": "https://www.mitie.com/wp-content/uploads/2026/08/Project-Marlin_Scheme_Document.pdf"
+      }
+    },
+    {
+      "id": "due-diligence",
+      "title": "Legal due diligence and SPA risk allocation",
+      "body": "Diligence maps material legal risks to commercial responses. A known issue may justify a price adjustment, specific indemnity, closing condition, covenant or decision not to proceed. Warranties allocate contractual risk subject to the negotiated disclosure and liability framework; they are not a substitute for verification.",
+      "pathway": "Legal workstreams",
+      "exercise": "Write a short red-flag diligence report for a customer responsible for 35% of revenue, with clause reference, risk, commercial effect and proposed SPA response.",
+      "practical": "First establish whether the agreement really contains a change-of-control trigger and whether the proposed structure activates it. Identify notice requirements, consent discretion, termination rights and the revenue or operational dependence on that counterparty. A consent condition may be appropriate for a critical contract; for less material contracts, a covenant, price adjustment or targeted protection may suffice. Disclosure can qualify warranties but does not itself obtain consent. Record the issue, evidence, materiality, recommendation and unresolved questions.",
+      "scenario": "A target's material customer contract requires consent for a change of control. What should counsel prioritise?",
+      "options": [
+        "Use a general warranty alone to cover the known consent issue",
+        "Verify the clause and assess a consent condition or alternative risk allocation",
+        "Request consent after completion in all cases to protect deal confidentiality",
+        "Treat inclusion in the disclosure letter as sufficient to preserve the contract"
+      ],
+      "answer": 1,
+      "explanation": "Verify the clause and quantify the exposure. Depending on materiality, consent may be a condition to completion or another negotiated protection.",
+      "source": null
+    },
+    {
+      "id": "data-ip",
+      "title": "Data and intellectual property diligence",
+      "body": "For a software or data business, distinguish ownership of IP from permission to use third-party content. Review licence scope, assignment and change-of-control clauses, data protection duties, processing arrangements, security and relevant statutory commencement. Commercial value may depend on rights that cannot automatically be transferred.",
+      "pathway": "Legal workstreams",
+      "exercise": "Draft five targeted diligence requests covering licence terms, rights chain, data processing, change-of-control and incident history.",
+      "practical": "Create an inventory distinguishing owned IP, licensed software, third-party data, open-source components and processing activities. A share sale may preserve the contracting entity but can still trigger express change-of-control restrictions. An asset transfer may require assignment or novation. Examine permitted uses, sublicensing, audit, termination, renewal, data transfer and security obligations. If a core licence cannot transfer or remain valid, assess alternative supply, consent, transaction structure or price risk. Verify current applicable legislation and guidance for personal data separately.",
+      "scenario": "The target uses a third-party data feed under a non-transferable licence. What is the first step?",
+      "options": [
+        "Conclude that a share acquisition avoids the restriction without reading the agreement",
+        "Verify contractual restrictions, change-of-control wording and consent requirements",
+        "Treat a licence renewal as equivalent to consent to the acquisition",
+        "Seek a warranty covering ownership even though the target licenses the feed"
+      ],
+      "answer": 1,
+      "explanation": "The licence and structure determine whether consent is required. Review the actual terms and applicable law rather than applying a universal rule.",
+      "source": {
+        "name": "UK commencement guidance",
+        "url": "https://www.gov.uk/guidance/data-use-and-access-act-2025-plans-for-commencement"
+      }
+    },
+    {
+      "id": "employment-diligence",
+      "title": "Workforce risk and transaction structures",
+      "body": "Employment risk can arise from accrued liabilities, incentives, pensions, disputes, consultation and transfer rules. In England and Wales, analyse the applicable law and the difference between a share sale, where the employer entity usually remains unchanged, and a qualifying business transfer. Check current commencement and exceptions.",
+      "pathway": "Legal workstreams",
+      "exercise": "Compare a share acquisition and a business transfer in a two-column diligence note, with employment, consultation, pension and liability questions.",
+      "practical": "Start by identifying the legal employer, the assets and activities transferring, and the affected workforce. A share acquisition normally does not change the employing entity, while a qualifying business transfer may engage TUPE. Analyse information and consultation duties, historic claims, employment terms, incentives and pension issues with specialist input. The parties may allocate some liabilities contractually, but contractual allocation does not necessarily remove statutory rights. Consider proposed integration and restrictions on transfer-related changes.",
+      "scenario": "A deal involves transfer of an operating business rather than the company's shares. Which is best?",
+      "options": [
+        "Assume the purchase agreement alone determines whether TUPE applies",
+        "Assess whether TUPE applies and identify information, consultation and liability issues",
+        "Treat all liabilities as excluded if the buyer purchases assets only",
+        "Rely on the absence of employee objections as proof of compliance"
+      ],
+      "answer": 1,
+      "explanation": "The factual structure determines the legal analysis. TUPE may apply to a qualifying transfer; review scope, obligations and relevant exceptions.",
+      "source": {
+        "name": "Government TUPE guidance",
+        "url": "https://www.gov.uk/transfers-takeovers"
+      }
+    },
+    {
+      "id": "market-methodology",
+      "title": "Reading deal statistics and market trends",
+      "body": "Official series may count completed control acquisitions; a research database may include pending offers, finance and regulatory events. Compare like with like: period, universe, currency, value basis and status. A rising aggregate value can reflect a single large deal rather than broader activity.",
+      "pathway": "Foundations",
+      "exercise": "Write a two-sentence caveat for a chart comparing 20 tracked transactions with an official completed-M&A series.",
+      "practical": "A deal count depends on what is counted: completed control acquisitions, announced offers, minority investments, restructurings or financing. A market total is sensitive to currency conversion, transaction value definitions and missing disclosures. Compare periods only on a consistent basis, and do not infer market share from a curated adviser database. A spike in aggregate value may be driven by a single transaction. Report observed mandates separately from independent market statistics, with period, denominator and known limitations.",
+      "scenario": "A tracker includes a £300m facility and an acquisition with £300m equity value. Can you add them to estimate total M&A consideration?",
+      "options": [
+        "Yes, because both amounts are denominated in the same currency",
+        "No; they measure different economic quantities",
+        "Yes, if the loan is intended to fund an acquisition",
+        "Only if the facility has been fully drawn"
+      ],
+      "answer": 1,
+      "explanation": "Facility commitment and equity consideration are not comparable transaction values. Market measures need a consistent definition.",
+      "source": {
+        "name": "ONS methodology and bulletin",
+        "url": "https://www.ons.gov.uk/businessindustryandtrade/changestobusiness/mergersandacquisitions/bulletins/mergersandacquisitionsinvolvingukcompanies/apriltojune2026"
+      }
+    },
+    {
+      "id": "contract-remedies",
+      "title": "Commercial contracts: warranties, indemnities and caps",
+      "body": "A warranty is a contractual statement; an indemnity can allocate specified losses under its wording. Liability caps, baskets, exclusions, time limits and mitigation provisions require careful interpretation. A contract's exact terms matter more than labels.",
+      "pathway": "Legal workstreams",
+      "exercise": "Draft a term-sheet-level risk allocation proposal for a known tax dispute, covering trigger, duration, claims process, financial limit and alternative protections.",
+      "practical": "A known risk should be addressed in the transaction economics and contract. A specific indemnity may define the covered event, recoverable loss, procedure, caps, exclusions and survival; a warranty claim may involve different requirements under the negotiated agreement and applicable law. Other responses include escrow, retention, price adjustment, remediation or a closing condition. Consider disclosure, insurance, enforceability, counterparty credit and double recovery. Avoid promising that a label automatically yields full compensation.",
+      "scenario": "A diligence report identifies a particular historic tax exposure. What is the appropriate response?",
+      "options": [
+        "Rely exclusively on a general accounts warranty despite the identified exposure",
+        "Assess a specifically negotiated indemnity or other protection, with clear scope and limitations",
+        "Require disclosure alone and assume it preserves a full damages remedy",
+        "Insist on an unlimited indemnity without assessing the estimated exposure"
+      ],
+      "answer": 1,
+      "explanation": "A known issue calls for explicit risk allocation. The choice depends on value, enforceability, bargaining power and the drafting.",
+      "source": null
+    },
+    {
+      "id": "law-firm-economics",
+      "title": "Law firm economics and client value",
+      "body": "A commercial firm sells expertise, judgment and execution capacity. Fee arrangements may include hourly rates, fixed fees or other structures. Profitability depends on utilisation, staffing, realisation and overhead; a high-value matter is not necessarily a high-margin matter. Clients value predictable scope, risk control and timely outcomes.",
+      "pathway": "Interview preparation",
+      "exercise": "Prepare a concise client update explaining an unexpected diligence workstream, revised options and estimated cost implications without guaranteeing the outcome.",
+      "practical": "A client chooses counsel for expertise, execution, risk judgment and cost predictability. On a fixed-fee transaction, additional jurisdictions, unexpected diligence or repeated negotiation may change the assumptions underlying scope. A lawyer should identify the change, explain commercial and legal implications, propose options and obtain appropriate agreement before significant out-of-scope work. Efficient delegation, knowledge management and accurate time capture support both service quality and profitability. A large transaction value does not determine the legal fee or margin.",
+      "scenario": "A transaction expands unexpectedly. What demonstrates commercial judgment?",
+      "options": [
+        "Continue under the original scope and disclose the cost increase at billing",
+        "Explain scope changes, cost impact and options to the client",
+        "Automatically convert the whole engagement to hourly billing",
+        "Reduce diligence coverage without discussing the changed risk with the client"
+      ],
+      "answer": 1,
+      "explanation": "Transparent scope management helps the client make a business decision while preserving quality and the professional relationship.",
+      "source": null
+    }
+  ],
+  "deals": [
+    {
+      "id": "ocs-mitie",
+      "title": "OCS / Mitie",
+      "fact": "OCS agreed a cash acquisition of Mitie in July. Mitie's 19 November interim results reported 99.7% shareholder support and two of three regulatory clearances. CMA Phase 1 began on 18 November; the decision deadline is 20 January 2027.",
+      "analysis": "Overlapping service contracts may require close analysis of customers’ alternatives, bidding patterns and local or national market definition. Counsel should separate commercial closing conditions from the regulator’s timetable.",
+      "interview": "Why can an overwhelmingly approved scheme remain pending? Explain the distinction between shareholder approval, court sanction and competition clearance.",
+      "related": [
+        "merger-control",
+        "public-schemes"
+      ],
+      "eventDate": "2026-11-19"
+    },
+    {
+      "id": "vivisol-airliquide",
+      "title": "Vivisol / Air Liquide UK home oxygen business",
+      "fact": "The CMA found a realistic prospect of substantial lessening of competition in UK home oxygen services. Its Phase 1 summary identifies four existing suppliers and two alternatives after the merger, one a relatively weak constraint. Undertakings are due by 26 November 2026.",
+      "analysis": "The transferred assets serve one region, but the CMA assessed competition nationally. A remedy must address viable competitive alternatives and patient-service continuity rather than simply transfer nominal assets. The CMA found entry or expansion difficult; this is the regulator's assessment, not a prediction of a final decision.",
+      "interview": "Why is continuity of supply important when considering remedies in healthcare?",
+      "related": [
+        "merger-control"
+      ],
+      "eventDate": "2026-11-19"
+    },
+    {
+      "id": "nexfibre-substantial",
+      "title": "nexfibre / Substantial",
+      "fact": "The parties announced the proposed £2bn enterprise-value acquisition on 18 February 2026. The CMA fast-tracked the case to Phase 2 on 1 July; provisional wholesale broadband concerns were published on 2 October. The deal remains under review.",
+      "analysis": "Wholesale network ownership and the separate retail transfer create different commercial and regulatory workstreams. The parties' claimed scale and investment benefits must be tested against the CMA's provisional concerns about independent wholesale alternatives; funding commitments are not the purchase price.",
+      "interview": "How do competition authorities assess investment efficiencies against reduced wholesale competition?",
+      "related": [
+        "merger-control",
+        "project-finance"
+      ],
+      "eventDate": "2026-11-18"
+    },
+    {
+      "id": "cary-consortium",
+      "title": "Nordic Capital / CPP Investments / Ontario Teachers’ — Cary Group",
+      "fact": "CPP Investments and Ontario Teachers’ agreed to join Nordic Capital as owners of Cary Group, which operates in the UK among other markets. Linklaters disclosed a proposed €545m Ontario Teachers’ investment; this is not the overall transaction value.",
+      "analysis": "A consortium structure raises governance questions distinct from the purchase price: reserved matters, future funding, exit rights and alignment between investors with different investment horizons.",
+      "interview": "How do investment horizons of pension funds and a private equity sponsor affect shareholder agreements?",
+      "related": [
+        "private-equity",
+        "valuation"
+      ],
+      "eventDate": "2026-11-17"
+    },
+    {
+      "id": "mari-atg",
+      "title": "MARI / ATG Entertainment",
+      "fact": "MARI announced a definitive agreement to acquire ATG Entertainment from Providence Equity Partners on 11 August 2026; financial terms were not disclosed in the announcement. The CMA opened an invitation to comment on 16 November; formal Phase 1 had not yet begun as of the recorded review.",
+      "analysis": "ATG's venue operations provide the buyer with access to live-entertainment infrastructure. Venue management, production and ticketing may involve separate markets and contractual rights; this is a diligence hypothesis, not a finding of competitive harm. The commercial logic should be assessed against the buyer's existing operations and actual contract perimeter.",
+      "interview": "What distinguishes early market testing from a formal merger investigation?",
+      "related": [
+        "merger-control",
+        "due-diligence"
+      ],
+      "eventDate": "2026-11-16"
+    },
+    {
+      "id": "mccormick-unilever",
+      "title": "McCormick / Unilever Foods",
+      "fact": "Unilever announced the Foods combination on 31 March. Its October update said the transaction remained on track; on 11 November the CMA found potential competition concerns requiring an acceptable remedy to avoid a Phase 2 referral.",
+      "analysis": "The case illustrates how anticipated competition remedies can change the economic perimeter of a deal. A buyer must test whether any divestment would undermine the investment thesis or financing model.",
+      "interview": "How does a carve-out differ from a simple share acquisition, and what happens to the financing case if competition remedies remove profitable brands?",
+      "related": [
+        "merger-control",
+        "valuation"
+      ],
+      "eventDate": "2026-11-11"
+    },
+    {
+      "id": "rwe-kkr-vanguard",
+      "title": "RWE / KKR — Vanguard offshore wind projects",
+      "fact": "On 11 November the sponsors announced investment decisions, 50:50 equity participation and financial close. The approximately £12bn project investment is distinct from £11.1bn cash facilities and £1.7bn ancillary facilities.",
+      "analysis": "Project economics depend on construction cost, revenue arrangements, grid connection and risk allocation. The investment decision does not eliminate construction risk; advisers must distinguish committed funding, drawdown conditions and completion milestones.",
+      "interview": "How do construction and revenue risks change the financing of offshore wind compared with an operating asset?",
+      "related": [
+        "project-finance",
+        "finance"
+      ],
+      "eventDate": "2026-11-11"
+    },
+    {
+      "id": "chesnara-metlife-uk",
+      "title": "Chesnara / MetLife UK closed-book life business",
+      "fact": "Chesnara agreed to acquire MetLife UK Limited. The portfolio had approximately 18,000 policies and £1.7bn assets under administration at 31 December 2025. Closing was expected in H1 2027 subject to regulatory approval.",
+      "analysis": "A closed-book acquisition is principally a cash-flow, capital and servicing proposition, not a strategy to acquire new-business distribution. The existing outsourcing and reinsurance arrangements affect integration economics.",
+      "interview": "Why can a £1.7bn assets-under-administration portfolio be acquired for consideration that is not expected to be material?",
+      "related": [
+        "due-diligence",
+        "finance"
+      ],
+      "eventDate": "2026-11-06"
+    },
+    {
+      "id": "coop-southern",
+      "title": "Co-operative Group / Southern Co-operative",
+      "fact": "The societies announced plans to combine on 8 April 2026. Southern Co-op subsequently announced member approval and legal completion in July. The CMA accepted undertakings in lieu of a Phase 2 reference on 5 November 2026.",
+      "analysis": "A co-operative transfer of engagements has member-governance and continuity questions unlike a conventional listed-company takeover. Closing preceded the formal merger investigation, illustrating how UK merger review can constrain post-closing operations. The CMA's concerns involved local overlaps, making store and funeral-home catchments more informative than national market shares alone.",
+      "interview": "What risks arise from closing a UK merger before CMA clearance?",
+      "related": [
+        "merger-control"
+      ],
+      "eventDate": "2026-11-05"
+    },
+    {
+      "id": "boralex-wind2",
+      "title": "Boralex / Wind2",
+      "fact": "Boralex announced the acquisition on 27 October. Wind2 published a closing announcement dated 29 October, describing approximately 350MW of advanced development projects. Seller counsel disclosed its mandate on 5 November. The capacity figure is not a financial valuation.",
+      "analysis": "Buying a development platform may accelerate access to projects and specialist staff but does not guarantee future operating capacity. Value depends on the probability of delivery, grid connections, consenting, capital needs and revenue arrangements.",
+      "interview": "Why is a 350MW development pipeline not equivalent to 350MW of operating capacity?",
+      "related": [
+        "project-finance",
+        "due-diligence",
+        "business-model"
+      ],
+      "eventDate": "2026-11-05"
+    },
+    {
+      "id": "sky-itv",
+      "title": "Sky / ITV Media and Entertainment",
+      "fact": "A public-interest intervention notice was issued on 4 November 2026 in connection with Sky UK's proposed purchase of ITV M&E Holdings. The published timetable identifies 27 January 2027 for CMA and Ofcom reports to the Secretary of State.",
+      "analysis": "Media acquisitions may face scrutiny beyond ordinary competition effects, including plurality of news views. Regulatory allocation and long-stop dates become important negotiation points.",
+      "interview": "How can a merger with limited conventional competition concerns still face a public-interest review?",
+      "related": [
+        "merger-control"
+      ],
+      "eventDate": "2026-11-04"
+    },
+    {
+      "id": "pai-elemis",
+      "title": "PAI Partners / ELEMIS",
+      "fact": "L’Occitane Group and PAI announced an agreement for PAI to acquire British skincare brand ELEMIS. Linklaters subsequently announced its work for the lenders providing acquisition financing.",
+      "analysis": "A sponsor acquisition connects brand valuation and distribution strategy to financing capacity. Counsel must coordinate diligence on IP, distribution and supply arrangements with the financing conditions and acquisition timetable.",
+      "interview": "How would you diligence a consumer brand whose value depends on IP, distribution and repeat customers?",
+      "related": [
+        "private-equity",
+        "finance"
+      ],
+      "eventDate": "2026-11-04"
+    },
+    {
+      "id": "cinven-theramex",
+      "title": "Cinven / Theramex",
+      "fact": "Cinven announced an agreement to acquire Theramex on 3 November 2026. The buyer’s release does not disclose financial terms. Counsel disclosures identify separate buyer, seller and financing-side mandates.",
+      "analysis": "The sponsor-to-sponsor exit centres on durable product rights, commercialisation networks and management of regulatory/IP risk. Leverage and returns depend on the actual debt and acquisition economics, not media headline estimates.",
+      "interview": "How would diligence of a specialty pharmaceutical portfolio differ from diligence of an ordinary consumer-products company?",
+      "related": [
+        "due-diligence",
+        "finance"
+      ],
+      "eventDate": "2026-11-03"
+    },
+    {
+      "id": "leita-mobico",
+      "title": "Leita Mobility / Mobico Group",
+      "fact": "The recommended cash acquisition of UK-listed Mobico was announced at 46p per share, with an intended scheme of arrangement. The disclosed equity valuation was approximately £308m and enterprise valuation approximately £2.3bn.",
+      "analysis": "The gap between equity and enterprise valuation makes the capital structure central to the investment thesis. Do not infer net debt from the gap without checking the valuation definitions. A scheme requires its own shareholder and court process; lenders also need certainty on funding and closing.",
+      "interview": "Why can a £308m equity offer imply a £2.3bn enterprise valuation? Which debt and cash definitions must be checked?",
+      "related": [
+        "valuation",
+        "capital-markets",
+        "finance",
+        "public-schemes"
+      ],
+      "eventDate": "2026-10-30"
+    },
+    {
+      "id": "abp-ifm",
+      "title": "IFM Investors / Associated British Ports stakes",
+      "fact": "CPP Investments and OMERS agreed to sell their 33.9% and 30% holdings in ABP to an IFM-managed fund. The stakes total 63.9%; terms are undisclosed and completion remains subject to approvals.",
+      "analysis": "The combined 63.9% shareholding implies a majority interest in the port operator, not necessarily unconstrained governance control. Unlike buying individual ports, the stake sale transfers exposure to a portfolio with operating and capital expenditure obligations. The June £300m ABP facility is a separate financing, not evidence of purchase consideration.",
+      "interview": "How do port infrastructure risks differ from a software acquisition?",
+      "related": [
+        "private-equity",
+        "project-finance",
+        "national-security"
+      ],
+      "eventDate": "2026-10-28"
+    },
+    {
+      "id": "cip-noriker-kilmarnock",
+      "title": "Copenhagen Infrastructure Partners / Noriker Kilmarnock South BESS",
+      "fact": "CIP disclosed its investment decision on 2 October for the 350MW, four-hour Scottish storage project. Noriker's counsel disclosed on 28 October that Noriker had sold the project in January 2026 and continued supporting construction. The announced project commitment is not the sale price.",
+      "analysis": "Battery storage economics depend on grid access, availability and revenue arrangements. A developer selling a project but retaining construction responsibilities faces distinct execution obligations; the investment commitment should not be treated as seller consideration.",
+      "interview": "How would you separate acquisition risk from construction risk when a project developer remains involved after sale?",
+      "related": [
+        "project-finance",
+        "due-diligence",
+        "contract-remedies"
+      ],
+      "eventDate": "2026-10-28"
+    },
+    {
+      "id": "prologis-segro",
+      "title": "Prologis / SEGRO",
+      "fact": "Prologis announced a recommended offer for SEGRO in August 2026; SEGRO reports shareholder approval on 28 September. The CMA invited comments on 27 October. Completion is not established.",
+      "analysis": "The published procedural milestone identifies regulatory risk, not a completed or prohibited transaction. Transaction economics require separate issuer or party evidence.",
+      "interview": "Why might geographic market definition matter for warehouse tenants?",
+      "related": [
+        "merger-control"
+      ],
+      "eventDate": "2026-10-27"
+    },
+    {
+      "id": "firstcash-ramsdens",
+      "title": "FirstCash / Ramsdens",
+      "fact": "FirstCash's Chess Bidco agreed an initial offer on 23 June and increased it on 16 July to 675p cash per share plus up to 9p permitted dividends. The revised fully diluted value is approximately £232m including dividends. CMA launched Phase 1 on 26 October.",
+      "analysis": "The published procedural milestone identifies regulatory risk, not a completed or prohibited transaction. Transaction economics require separate issuer or party evidence.",
+      "interview": "How can local market competition affect a national acquisition?",
+      "related": [
+        "merger-control"
+      ],
+      "eventDate": "2026-10-26"
+    },
+    {
+      "id": "goldman-celnor",
+      "title": "Goldman Sachs Alternatives / Celnor Group",
+      "fact": "Inflexion announced an agreement to sell a majority stake in UK-based Celnor to Goldman Sachs Alternatives. Inflexion and management are to reinvest. Linklaters disclosed its advice to Goldman Sachs Alternatives.",
+      "analysis": "Reinvestment can align the seller and management with the buyer’s growth strategy, but the documents must address governance, leaver provisions, future capital needs and exit mechanics. A majority investment does not imply acquisition of every share.",
+      "interview": "Why does management rollover create both alignment and potential conflicts?",
+      "related": [
+        "private-equity"
+      ],
+      "eventDate": "2026-10-23"
+    },
+    {
+      "id": "lseg-octus",
+      "title": "LSEG / Octus",
+      "fact": "LSEG agreed to buy Octus for US$3.535bn in cash. The transaction extends the group's credit data and analytics offering. LSEG expects closing in H1 2027 subject to regulatory approval.",
+      "analysis": "Subscription credit intelligence can complement LSEG's data business. The buyer's forecasts are not guarantees: debt-financed growth raises leverage and integration risk.",
+      "interview": "How could a debt-funded data acquisition affect both recurring revenue and the buyer’s leverage?",
+      "related": [
+        "valuation",
+        "finance",
+        "business-model"
+      ],
+      "eventDate": "2026-10-22"
+    },
+    {
+      "id": "tilleghem-saragossa",
+      "title": "Tilleghem Capital / Saragossa",
+      "fact": "Saragossa's announcement dated 30 September disclosed a strategic growth investment from Tilleghem Capital. Burges Salmon subsequently reported advising the investor on the equity stake on 15 October.",
+      "analysis": "A growth investment in a founder-led services business may finance expansion without a complete sale. The commercial relationship depends on founder alignment, customer concentration and the rights attaching to the investor's stake.",
+      "interview": "What information would you need before advising a founder on the control and dilution implications of this investment?",
+      "related": [
+        "private-equity",
+        "data-ip",
+        "due-diligence"
+      ],
+      "eventDate": "2026-10-15"
+    },
+    {
+      "id": "uk-logistics-cmbs",
+      "title": "UK Logistics 2026-3 / £603m CMBS",
+      "fact": "Counsel reported completed note issuance backed by a £603m portion of a £753m first-lien mortgage loan against 39 industrial/logistics properties. Preliminary ratings were announced in July; the actual note closing date remains unestablished.",
+      "analysis": "The £603m participation is approximately 80.1% of the £753m loan (603/753); this is not loan-to-value, nor a separate £603m acquisition. A short floating-rate loan against longer-life properties introduces extension and refinancing risk. The note waterfall, collateral coverage and servicing arrangements govern how underlying borrower risk reaches investors.",
+      "interview": "How does a CMBS differ from a direct bilateral property loan?",
+      "related": [
+        "finance",
+        "capital-markets",
+        "securitisation"
+      ],
+      "eventDate": "2026-10-08"
+    },
+    {
+      "id": "softcat-gdt",
+      "title": "Softcat / General Datatech",
+      "fact": "Softcat announced the $1.05bn enterprise-value acquisition of General Datatech on 17 September 2026. The financing includes new equity and term/revolving facilities. Closing is not established in the reviewed sources.",
+      "analysis": "A UK-listed company's acquisition of a sizeable US technology platform creates a mixed financing and cross-border disclosure project. Financing certainty, FX hedging and distribution/channel arrangements are as important as headline enterprise value.",
+      "interview": "Why might a listed buyer combine an accelerated bookbuild with bank debt instead of funding the whole transaction through cash?",
+      "related": [
+        "due-diligence",
+        "finance"
+      ],
+      "eventDate": "2026-09-17"
+    },
+    {
+      "id": "standard-chartered-dnn",
+      "title": "Standard Chartered / US$200m digitally native notes",
+      "fact": "Standard Chartered announced $200m three-year floating-rate digitally native notes on 20 August 2026 using Euroclear D-FMI. Issuer counsel confirmed maturity in 2029; an application for ISM admission was made, not established as granted.",
+      "analysis": "This is a debt funding transaction, not a token investment or equity raising. D-FMI uses distributed ledger infrastructure while connecting to established settlement and servicing workflows. The credit exposure remains to the issuer; digital title, settlement finality and operational continuity require separate diligence.",
+      "interview": "What legal and operational risks remain when a bond is issued using distributed ledger infrastructure?",
+      "related": [
+        "capital-markets",
+        "finance"
+      ],
+      "eventDate": "2026-08-21"
+    },
+    {
+      "id": "drax-bluefield",
+      "title": "Drax / Bluefield Solar Income Fund",
+      "fact": "Drax confirms completion effective 31 July. Its later trading update reports £561m consideration and £1.082bn enterprise value.",
+      "analysis": "The fund acquisition adds operating solar and wind generation rather than merely a development pipeline. The £548m announced headline, £561m later consideration and £1.082bn later EV are distinct measures requiring reconciliation. Drax separately agreed a £9.15m services-business acquisition in November, which should not be silently folded into the earlier fund price.",
+      "interview": "Why might a renewable portfolio's enterprise value be substantially greater than its equity consideration?",
+      "related": [
+        "valuation",
+        "project-finance",
+        "finance"
+      ],
+      "eventDate": "2026-07-31"
+    },
+    {
+      "id": "itm-gbe-equity",
+      "title": "Great British Energy / ITM Power strategic equity investment",
+      "fact": "ITM Power announced a £40m equity investment from Great British Energy on 9 April. On 9 July it confirmed formal award of a £46.5m DESNZ grant supporting its Sheffield manufacturing plans. The grant and equity investment are distinct funding instruments.",
+      "analysis": "Equity capital may dilute existing holders, while a grant can provide targeted funding subject to specific conditions. The economic outcome depends on manufacturing delivery, utilisation and demand; neither funding announcement proves commercial profitability.",
+      "interview": "Why is the £46.5m grant not part of the £40m equity investment, and what different risks would you diligence?",
+      "related": [
+        "capital-markets",
+        "finance",
+        "project-finance"
+      ],
+      "eventDate": "2026-07-09"
+    },
+    {
+      "id": "aab-kreston-reeves",
+      "title": "AAB / Kreston Reeves",
+      "fact": "Kreston Reeves announced its planned combination with AAB in February and confirmed on 1 July that it had joined the group following necessary regulatory approvals. The reported combined annual revenue exceeding £200m is a business metric, not transaction consideration.",
+      "analysis": "A professional-services combination can broaden client offerings and geographic reach, but value depends on partner and employee retention, integration and regulatory constraints. Combined turnover is not enterprise or equity value.",
+      "interview": "Why would the acquisition of a regulated professional-services business require a different diligence plan from an ordinary trading company?",
+      "related": [
+        "private-equity",
+        "due-diligence",
+        "business-model"
+      ],
+      "eventDate": "2026-07-01"
+    },
+    {
+      "id": "abp-term-facility",
+      "title": "Associated British Ports / £300m infrastructure facility",
+      "fact": "The National Wealth Fund announced a £200m commitment on 3 June; Linklaters subsequently disclosed a £300m overall term facility including £100m from commercial banks.",
+      "analysis": "Combining public and commercial capital can support infrastructure with significant upfront costs. Lender objectives may differ, so permitted use and reporting are material.",
+      "interview": "How does a £300m committed facility differ from £300m of drawn debt?",
+      "related": [
+        "finance",
+        "project-finance"
+      ],
+      "eventDate": "2026-06-08"
+    },
+    {
+      "id": "athora-picg",
+      "title": "Athora / Pension Insurance Corporation Group",
+      "fact": "Athora agreed the acquisition in July 2025 and announced completion on 27 March 2026. The transaction establishes its UK insurance platform. The announced price was approximately £5.7bn; the purchaser also disclosed a separate new equity raise.",
+      "analysis": "A pension risk-transfer acquisition combines long-duration liabilities and investment portfolios. The buyer's capacity to source suitable assets and maintain prudential capital matters alongside purchase price. Integration and group supervision are separate from completion.",
+      "interview": "How do prudential approval, acquisition financing and the buyer's planned relocation create separate workstreams?",
+      "related": [
+        "finance",
+        "private-equity",
+        "due-diligence"
+      ],
+      "eventDate": "2026-03-27"
+    },
+    {
+      "id": "greencore-bakkavor",
+      "title": "Greencore / Bakkavor",
+      "fact": "CMA accepted undertakings on 17 December 2025. Greencore completed the acquisition on 16 January 2026, as its H1 FY26 results confirm.",
+      "analysis": "The combination expands convenience-food capabilities, but the CMA concern was focused on a narrower product market. Evaluate divestment separately from forecast integration gains. Use combined financial reporting rather than assuming synergies have been realised.",
+      "interview": "What makes a divestment package commercially viable?",
+      "related": [
+        "merger-control",
+        "due-diligence"
+      ],
+      "eventDate": "2026-01-16"
+    },
+    {
+      "id": "synopsys-ansys",
+      "title": "Synopsys / Ansys",
+      "fact": "Synopsys announced a roughly $35bn enterprise-value acquisition of Ansys in January 2024. UK undertakings were accepted on 5 March 2025; closing occurred 17 July 2025. Its later SEC filing records approximately $34.9bn purchase consideration.",
+      "analysis": "Engineering design and simulation are complementary across the chip-to-system workflow, but the divestitures show that complementarity at portfolio level can coexist with rivalry in individual software products. The original EV is tied to the December 2023 stock price; compare it with closing accounting only after reconciling the different basis and stock consideration.",
+      "interview": "Why can a deal involving two US companies still require UK competition analysis?",
+      "related": [
+        "merger-control",
+        "due-diligence",
+        "data-ip"
+      ],
+      "eventDate": "2025-07-17"
+    },
+    {
+      "id": "hpe-juniper",
+      "title": "Hewlett Packard Enterprise / Juniper Networks",
+      "fact": "HPE confirmed closing on 2 July 2025. It states the acquisition was announced on 9 January 2024 and approved by Juniper shareholders on 2 April 2024. The CMA case records UK clearance.",
+      "analysis": "The buyer described networking as a larger and higher-margin part of the combined business. But enterprise wireless competition created a US execution obstacle after UK clearance. The financing redemption trigger connects acquisition timing to debt-market risk: a failed deal could require redemption of bonds even though acquisition consideration was never paid.",
+      "interview": "Why should a cross-border acquisition model maintain separate approval workstreams even after UK clearance?",
+      "related": [
+        "merger-control",
+        "data-ip",
+        "due-diligence"
+      ],
+      "eventDate": "2025-07-02"
+    },
+    {
+      "id": "aviva-direct-line",
+      "title": "Aviva / Direct Line",
+      "fact": "Aviva completed the acquisition on 1 July 2025, following CMA clearance that day. The offer comprised new Aviva shares and cash, with a permitted pre-completion dividend.",
+      "analysis": "A share component shares some future buyer performance risk with target holders, while a cash element delivers immediate value. Insurance integration adds prudential reporting, claims and operational risks; a historical enforcement matter illustrates why diligence must test financial and regulatory data.",
+      "interview": "Why would a buyer use a cash-and-share offer instead of all cash, and what additional risks arise in insurance M&A?",
+      "related": [
+        "valuation",
+        "public-schemes",
+        "finance",
+        "due-diligence"
+      ],
+      "eventDate": "2025-07-01"
+    },
+    {
+      "id": "vodafone-three",
+      "title": "Vodafone UK / Three UK",
+      "fact": "The combination completed on 31 May 2025 with Vodafone initially holding 51%. Vodafone subsequently announced acquisition of CK Hutchison's remaining 49%, taking full ownership; the £4.3bn figure relates to that later transaction, not the original merger.",
+      "analysis": "A network merger can create scale benefits but reduce competitive pressure. Commitments on investment and customer outcomes may affect integration economics and ongoing compliance long after closing.",
+      "interview": "Why is the £4.3bn buyout not the value of the original Vodafone/Three merger?",
+      "related": [
+        "merger-control",
+        "finance"
+      ],
+      "eventDate": "2025-05-31"
+    },
+    {
+      "id": "ep-ids-royal-mail",
+      "title": "EP Group / International Distribution Services (Royal Mail)",
+      "fact": "Recommended contractual offer announced 29 May 2024 and declared unconditional 30 April 2025. EP Group subsequently confirmed completion in 2025. The government deed and NSI order impose distinct safeguards.",
+      "analysis": "The target combines UK postal services and international parcel operations. The government golden share reserves consent rights over specified matters rather than a conventional economic interest. A buyer must distinguish commercially negotiated conditions, statutory national-security protections and contractual undertakings to government. The 370p shareholder value includes 10p dividends; using it as the bidder cash price overstates the cash component.",
+      "interview": "How does a golden share differ from an ordinary equity share and from a statutory regulatory condition?",
+      "related": [
+        "national-security",
+        "merger-control",
+        "valuation"
+      ],
+      "eventDate": "2025-04-30"
+    },
+    {
+      "id": "harp-hargreaves-lansdown",
+      "title": "CVC / Nordic Capital / ADIA — Hargreaves Lansdown",
+      "fact": "The consortium agreed a £5.443bn fully diluted cash offer including dividend on 9 August 2024. The Part 26 scheme became effective on 24 March 2025; listing and trading were cancelled on 25 March.",
+      "analysis": "The rollover election permits exposure to private ownership rather than cash exit, but unlisted shares have different liquidity and governance characteristics. A regulated investment platform's value depends on client assets, net flows, pricing and technology investment; sponsor strategy should be assessed against actual retention rather than forecasts.",
+      "interview": "Why would a shareholder elect rollover rather than cash, and what protections are lost after delisting?",
+      "related": [
+        "public-schemes",
+        "private-equity",
+        "valuation"
+      ],
+      "eventDate": "2025-03-25"
+    },
+    {
+      "id": "international-paper-ds-smith",
+      "title": "International Paper / DS Smith",
+      "fact": "International Paper completed the combination on 31 January 2025, issuing 178,126,631 new shares. Five European plants were subsequently sold on 30 June as a competition remedy.",
+      "analysis": "Packaging consolidation can create procurement, manufacturing and regional network opportunities. Integration economics depend on capacity utilisation, customer retention, energy costs and competition constraints.",
+      "interview": "How do competing offers affect the target board's process and the bidder's execution risk?",
+      "related": [
+        "public-schemes",
+        "valuation",
+        "corporate-governance"
+      ],
+      "eventDate": "2025-01-31"
+    },
+    {
+      "id": "carlsberg-britvic",
+      "title": "Carlsberg / Britvic",
+      "fact": "Carlsberg confirmed completion on 17 January 2025 after the CMA cleared the acquisition on 17 December 2024. The combined UK business brings beer and soft-drink distribution together.",
+      "analysis": "Combining distribution networks may deliver efficiencies, but commercial value also depends on bottling agreements, brand rights, customer concentration and the ability to integrate supply chains. Expected efficiencies are not realised results.",
+      "interview": "What contractual rights could determine the value of a branded consumer-goods acquisition?",
+      "related": [
+        "public-schemes",
+        "merger-control",
+        "due-diligence"
+      ],
+      "eventDate": "2025-01-17"
+    },
+    {
+      "id": "nationwide-virgin",
+      "title": "Nationwide / Virgin Money",
+      "fact": "The CMA cleared the proposed acquisition on 19 July 2024; Virgin Money later confirmed FCA and PRA approval. Nationwide confirms completion on 1 October 2024. A separate legal transfer of Virgin Money's business to Nationwide completed on 2 April 2026.",
+      "analysis": "Bank acquisitions may involve separate prudential and competition workstreams. Clearance from one authority does not establish satisfaction of all conditions or completion.",
+      "interview": "Why might a bank acquisition take multiple regulatory and legal workstreams after completion?",
+      "related": [
+        "finance",
+        "merger-control"
+      ],
+      "eventDate": "2024-10-01"
+    },
+    {
+      "id": "adobe-figma",
+      "title": "Adobe / Figma",
+      "fact": "The parties signed a termination agreement on 17 December 2023, announced it on 18 December, and the CMA cancelled its inquiry. Figma received the agreed $1bn fee on 20 December. No acquisition closed.",
+      "analysis": "The $1bn fee is approximately 5% of the announced $20bn value (1/20); it is a separate payment, not acquisition consideration or a general market benchmark. The case shows why regulatory execution risk must be priced even after signing. Cancellation does not establish final CMA prohibition.",
+      "interview": "How should a buyer allocate the risk that regulatory approvals cannot be obtained?",
+      "related": [
+        "merger-control",
+        "contract-remedies"
+      ],
+      "eventDate": "2023-12-18"
+    },
+    {
+      "id": "broadcom-vmware",
+      "title": "Broadcom / VMware",
+      "fact": "The announcement valued VMware equity at about $61bn plus $8bn assumed net debt. CMA cleared the deal on 21 August 2023 after Phase 2; Broadcom completed on 22 November.",
+      "analysis": "The CMA examined whether ownership of virtualisation software could disadvantage competing server hardware. It found potential gains from impairing interoperability would not outweigh lost business. The equity/debt bridge and separate debt commitment show why price and financing measures must not be aggregated.",
+      "interview": "Why might an authority investigate a combination of firms that do not principally sell the same products?",
+      "related": [
+        "merger-control",
+        "data-ip"
+      ],
+      "eventDate": "2023-11-22"
+    },
+    {
+      "id": "microsoft-activision",
+      "title": "Microsoft / Activision Blizzard (restructured)",
+      "fact": "Microsoft completed its acquisition on 13 October 2023 after CMA consent to the revised transaction excluding specified non-EEA cloud streaming rights. Its FY2024 filing reports $75.4bn total purchase price.",
+      "analysis": "Content rights have strategic significance for Microsoft's distribution and subscription channels. Compare the competitive counterfactual before and after the rights transfer. The original $68.7bn headline and $75.4bn accounting purchase price are differently defined and must not be described as a price increase without reconciliation.",
+      "interview": "Why might transferring cloud distribution rights address competition concerns more effectively than behavioural promises?",
+      "related": [
+        "merger-control"
+      ],
+      "eventDate": "2023-10-13"
+    }
+  ]
+}
