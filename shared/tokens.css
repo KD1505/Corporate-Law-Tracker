@@ -11,3 +11,5 @@
   --clt-radius:7px;
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+/* Exact logo navy: hierarchy and navigation, not legal or financial status. */
+:root{--clt-brand:#16243f;--clt-brand-tint:#edf1f7;--clt-brand-line:#c8d2e2;--clt-brand-hover:#263e62}
