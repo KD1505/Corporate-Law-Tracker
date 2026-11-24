@@ -1,10 +1,10 @@
 {
-  "attemptedAt": "2026-11-24T09:47:59.398Z",
+  "attemptedAt": "2026-11-24T09:51:14.307Z",
   "sources": [
     {
       "name": "Treasury",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:47:58.513Z",
+      "checkedAt": "2026-11-24T09:51:13.355Z",
       "items": [
         {
           "title": "Better regulation chief appointed to cut unnecessary bureaucracy",
@@ -86,8 +86,13 @@
     {
       "name": "Companies House",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:47:58.181Z",
+      "checkedAt": "2026-11-24T09:51:13.400Z",
       "items": [
+        {
+          "title": "Give notice of subscribers: company with share capital",
+          "url": "https://www.gov.uk/government/publications/give-notice-of-subscribers-company-with-share-capital",
+          "date": "2026-11-24T09:48:23.000Z"
+        },
         {
           "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
           "url": "https://www.gov.uk/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
@@ -157,18 +162,13 @@
           "title": "Seven linked companies shut down after Insolvency Service investigation with Companies House",
           "url": "https://www.gov.uk/government/news/seven-linked-companies-shut-down-after-insolvency-service-investigation-with-companies-house",
           "date": "2026-10-14T12:12:13.000Z"
-        },
-        {
-          "title": "Companies House accessibility statements",
-          "url": "https://www.gov.uk/government/publications/companies-house-accessibility-statements",
-          "date": "2026-10-06T15:54:48.000Z"
         }
       ]
     },
     {
       "name": "CMA policy",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:47:58.570Z",
+      "checkedAt": "2026-11-24T09:51:13.708Z",
       "items": [
         {
           "title": "BAE Systems undertakings review",
@@ -245,8 +245,13 @@
     {
       "name": "Business department",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:47:59.304Z",
+      "checkedAt": "2026-11-24T09:51:14.203Z",
       "items": [
+        {
+          "title": "Potential UK-Thailand free trade agreement",
+          "url": "https://www.gov.uk/government/consultations/potential-uk-thailand-free-trade-agreement",
+          "date": "2026-11-24T09:50:05.000Z"
+        },
         {
           "title": "British Industrial Competitiveness Scheme: funding information",
           "url": "https://www.gov.uk/government/publications/british-industrial-competitiveness-scheme-funding-information",
@@ -316,18 +321,13 @@
           "title": "HSS fixed sum offer permission to appeal process: registration form",
           "url": "https://www.gov.uk/government/publications/hss-fixed-sum-offer-permission-to-appeal-process-registration-form",
           "date": "2026-11-18T13:51:44.000Z"
-        },
-        {
-          "title": "Horizon Shortfall Scheme (HSS): fixed sum offer permission to appeal process",
-          "url": "https://www.gov.uk/government/publications/horizon-shortfall-scheme-hss-fixed-sum-offer-permission-to-appeal-process",
-          "date": "2026-11-18T13:51:03.000Z"
         }
       ]
     },
     {
       "name": "Bank of England",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:47:59.275Z",
+      "checkedAt": "2026-11-24T09:51:14.031Z",
       "items": [
         {
           "title": "General insurance stress test highlights value of rehearsing crisis response and recovery",
@@ -409,7 +409,7 @@
     {
       "name": "PRA",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:47:59.274Z",
+      "checkedAt": "2026-11-24T09:51:14.029Z",
       "items": [
         {
           "title": "DP3/26 – Critical third parties: regulatory fees and cost recovery",
@@ -491,7 +491,7 @@
     {
       "name": "FCA",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:47:59.398Z",
+      "checkedAt": "2026-11-24T09:51:14.307Z",
       "items": [
         {
           "title": "Kandoo Car Credit Ltd enters administration",
