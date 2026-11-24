@@ -8,23 +8,26 @@
       "title": "Vivisol / Air Liquide UK home oxygen business",
       "type": "M&A / regulatory review",
       "status": "Phase 1 concerns",
-      "sourceUrls": 2,
-      "distinctHosts": 2,
+      "sourceUrls": 4,
+      "distinctHosts": 4,
       "independentOrigins": null,
-      "claims": 0,
+      "claims": 4,
       "advisers": 0,
       "financialValues": 0,
       "announcementDate": null,
       "eventSourceLinks": 1,
       "structuralErrors": [],
-      "priority": 11,
+      "priority": 7,
       "researchLeads": [
         "https://www.gov.uk/cma-cases/vivisol-slash-air-liquide-home-oxygen-services-business-merger-inquiry",
-        "https://assets.publishing.service.gov.uk/media/6afe99192ee8ec8187b570fa/Summary_of_phase_1_decision.pdf"
+        "https://assets.publishing.service.gov.uk/media/6afe99192ee8ec8187b570fa/Summary_of_phase_1_decision.pdf",
+        "https://www.vivisol.co.uk/who-we-are/",
+        "https://www.gasworld.com/story/vivisols-air-liquide-home-oxygen-deal-faces-deeper-probe-by-uk-regulator/2264415.article/"
       ],
-      "openQuestions": [],
+      "openQuestions": [
+        "Purchase price, funding, transaction announcement date, named buyer/seller counsel and exact contractual consent terms not established. Company material corroborates buyer identity/business context only; trade reporting relies on CMA for the regulatory finding. Monitor 26 November undertakings and subsequent decision."
+      ],
       "tasks": [
-        "Deep original-document research; economics, business rationale and legal workstreams",
         "Recover buyer, seller and specialist counsel mandates",
         "Find consideration and valuation basis or log non-disclosure",
         "Establish announcement date rather than regulator milestone",
@@ -1450,15 +1453,15 @@
     }
   ],
   "metrics": {
-    "deep": 41,
+    "deep": 42,
     "singleSource": 0,
     "missingAdvisers": 2,
     "missingValues": 11,
     "missingAnnouncement": 5,
     "missingEventEvidence": 0,
-    "sourceReferences": 203,
+    "sourceReferences": 205,
     "adviserAssociations": 73,
-    "findings": 170,
+    "findings": 174,
     "structuralErrors": 0
   }
 }

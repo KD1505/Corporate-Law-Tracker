@@ -2228,7 +2228,7 @@
         "https://www.paipartners.com/mediaitem/loccitane-group-and-pai-partners-announce-agreement-for-pai-to-acquire-elemis/",
         "https://www.skadden.com/about/news-and-rankings/news/2026/11/loccitane-group-announces-acquisition-of-elemis"
       ],
-      "evidenceScope": "Targeted public-document research; factual findings and prospective legal workstreams are distinguished. Full independent certification not established."
+      "evidenceScope": "Targeted public-document research; prospective legal workstreams are not documented mandates. Underlying non-public agreements not independently inspected; full independent certification not established."
     },
     {
       "jurisdiction": "UK",
@@ -2665,7 +2665,7 @@
         "https://www.nordiccapital.com/insights/press-releases/cpp-investments-and-ontario-teachers-to-join-nordic-capital-as-owners-of-cary-group-to-support-its-continued-international-expansion-and-long-term-development/",
         "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-ontario-teachers-on-its-investment-in-cary-group"
       ],
-      "evidenceScope": "Targeted public-document research; factual findings and prospective legal workstreams are distinguished. Full independent certification not established."
+      "evidenceScope": "Targeted public-document research; prospective legal workstreams are not documented mandates. Underlying non-public agreements not independently inspected; full independent certification not established."
     },
     {
       "jurisdiction": "UK",
@@ -2892,7 +2892,7 @@
         "https://am.gs.com/en-int/advisors/news/press-release/2026/Celnor-Group-Announces-New-Investment-from-Goldman-Sachs-Alternatives",
         "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-goldman-sachs-alternatives-on-its-investment-in-celnor-group"
       ],
-      "evidenceScope": "Targeted public-document research; factual findings and prospective legal workstreams are distinguished. Full independent certification not established."
+      "evidenceScope": "Targeted public-document research; prospective legal workstreams are not documented mandates. Underlying non-public agreements not independently inspected; full independent certification not established."
     },
     {
       "jurisdiction": "UK",
@@ -3850,7 +3850,7 @@
         "https://www.nationalwealthfund.org.uk/news-and-publications/news/national-wealth-fund-backs-major-port-infrastructure-projects-with-200m-commitment-to-abp/",
         "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/june/linklaters-advices-abp"
       ],
-      "evidenceScope": "Targeted public-document research; factual findings and prospective legal workstreams are distinguished. Full independent certification not established."
+      "evidenceScope": "Targeted public-document research; prospective legal workstreams are not documented mandates. Underlying non-public agreements not independently inspected; full independent certification not established."
     },
     {
       "jurisdiction": "UK",
@@ -4568,6 +4568,16 @@
       "interview": "Why is continuity of supply important when considering remedies in healthcare?",
       "timeline": [
         {
+          "date": "2026-08-11",
+          "event": "CMA case opened; invitation to comment",
+          "source": "https://www.gov.uk/cma-cases/vivisol-slash-air-liquide-home-oxygen-services-business-merger-inquiry"
+        },
+        {
+          "date": "2026-09-24",
+          "event": "Formal merger inquiry launched",
+          "source": "https://www.gov.uk/cma-cases/vivisol-slash-air-liquide-home-oxygen-services-business-merger-inquiry"
+        },
+        {
           "date": "2026-11-19",
           "event": "Phase 1 concerns",
           "source": "https://www.gov.uk/cma-cases/vivisol-slash-air-liquide-home-oxygen-services-business-merger-inquiry"
@@ -4581,6 +4591,14 @@
         {
           "name": "CMA Phase 1 decision summary, paragraphs 1–16",
           "url": "https://assets.publishing.service.gov.uk/media/6afe99192ee8ec8187b570fa/Summary_of_phase_1_decision.pdf"
+        },
+        {
+          "name": "Vivisol UK — Who we are: business history and NHS contracts",
+          "url": "https://www.vivisol.co.uk/who-we-are/"
+        },
+        {
+          "name": "gasworld — 19 November report, business perimeter; relies on CMA for regulatory finding",
+          "url": "https://www.gasworld.com/story/vivisols-air-liquide-home-oxygen-deal-faces-deeper-probe-by-uk-regulator/2264415.article/"
         }
       ],
       "related": [
@@ -4593,7 +4611,136 @@
         "date": "2026-11-26",
         "label": "Deadline for undertakings in lieu",
         "source": "https://assets.publishing.service.gov.uk/media/6afe99192ee8ec8187b570fa/Summary_of_phase_1_decision.pdf"
-      }
+      },
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Buyer identity and service context",
+            "text": "CMA identifies Dolby Medical Home Respiratory Care Limited as the acquiring entity. Vivisol’s business description confirms the 2023 UK rebrand and describes home respiratory care and oxygen therapy delivered under NHS contracts.",
+            "evidence": [
+              {
+                "publisher": "CMA",
+                "url": "https://www.gov.uk/cma-cases/vivisol-slash-air-liquide-home-oxygen-services-business-merger-inquiry",
+                "locator": "Statutory timetable and 19 November Phase 1 announcement"
+              },
+              {
+                "publisher": "Vivisol UK",
+                "url": "https://www.vivisol.co.uk/who-we-are/",
+                "locator": "Who we are: business history and NHS contracts"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Asset perimeter and competition",
+            "text": "The transaction concerns the South West home oxygen services business rather than acquisition of Air Liquide Healthcare as a whole. The CMA assesses competitive alternatives nationally; gasworld reports the proposed regional transfer relying on the regulator’s findings.",
+            "evidence": [
+              {
+                "publisher": "CMA",
+                "url": "https://assets.publishing.service.gov.uk/media/6afe99192ee8ec8187b570fa/Summary_of_phase_1_decision.pdf",
+                "locator": "Phase 1 summary, transaction and competition assessment"
+              },
+              {
+                "publisher": "gasworld",
+                "url": "https://www.gasworld.com/story/vivisols-air-liquide-home-oxygen-deal-faces-deeper-probe-by-uk-regulator/2264415.article/",
+                "locator": "19 November report, business perimeter; relies on CMA for regulatory finding"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Phase 1 and remedy deadline",
+            "text": "The case opened 11 August and formal inquiry launched 24 September. The 19 November Phase 1 finding requires acceptable undertakings to avoid Phase 2; the summary states 26 November for offers. This is not a final prohibition.",
+            "evidence": [
+              {
+                "publisher": "CMA",
+                "url": "https://www.gov.uk/cma-cases/vivisol-slash-air-liquide-home-oxygen-services-business-merger-inquiry",
+                "locator": "Statutory timetable and 19 November Phase 1 announcement"
+              },
+              {
+                "publisher": "CMA",
+                "url": "https://assets.publishing.service.gov.uk/media/6afe99192ee8ec8187b570fa/Summary_of_phase_1_decision.pdf",
+                "locator": "Phase 1 summary, transaction and competition assessment"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Evidence and commercial uncertainty",
+            "text": "Vivisol says it holds four NHS regional home oxygen contracts serving around 20,000 patients. The company page describes the business but does not confirm the acquisition price, financing or prospective contractual changes; the CMA case remains the principal evidence for the transaction itself.",
+            "evidence": [
+              {
+                "publisher": "Vivisol UK",
+                "url": "https://www.vivisol.co.uk/who-we-are/",
+                "locator": "Who we are: business history and NHS contracts"
+              },
+              {
+                "publisher": "CMA",
+                "url": "https://www.gov.uk/cma-cases/vivisol-slash-air-liquide-home-oxygen-services-business-merger-inquiry",
+                "locator": "Statutory timetable and 19 November Phase 1 announcement"
+              }
+            ],
+            "qualification": "party-position"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Competition remedies",
+            "question": "Would an undertaking preserve a viable alternative supplier?",
+            "why": "Assess assets, geographic service capability, contract rights, personnel and feasibility of independent operation; do not assume an agreed divestment.",
+            "documents": "CMA decision; proposed undertakings; asset perimeter."
+          },
+          {
+            "name": "NHS contracts",
+            "question": "What consents and continuity requirements apply to transfer?",
+            "why": "Check contracting authority consent, service credits, patient handover and emergency supply arrangements.",
+            "documents": "Contract and consent terms; service-level schedule."
+          },
+          {
+            "name": "Asset transfer",
+            "question": "Which liabilities accompany staff, plant and patient-service obligations?",
+            "why": "Review employment-transfer applicability, equipment ownership, liability allocation and data handling.",
+            "documents": "Business purchase agreement; staff and asset schedules; data plan."
+          },
+          {
+            "name": "Commercial capacity",
+            "question": "Why might entry be difficult in home oxygen services?",
+            "why": "Test logistics, tender qualification, equipment deployment and patient continuity alongside regulator findings.",
+            "documents": "NHS tender requirements; capacity and cost analysis."
+          }
+        ],
+        "documents": [
+          {
+            "title": "CMA",
+            "url": "https://www.gov.uk/cma-cases/vivisol-slash-air-liquide-home-oxygen-services-business-merger-inquiry",
+            "purpose": "Statutory timetable and 19 November Phase 1 announcement"
+          },
+          {
+            "title": "CMA",
+            "url": "https://assets.publishing.service.gov.uk/media/6afe99192ee8ec8187b570fa/Summary_of_phase_1_decision.pdf",
+            "purpose": "Phase 1 summary, transaction and competition assessment"
+          },
+          {
+            "title": "Vivisol UK",
+            "url": "https://www.vivisol.co.uk/who-we-are/",
+            "purpose": "Who we are: business history and NHS contracts"
+          },
+          {
+            "title": "gasworld",
+            "url": "https://www.gasworld.com/story/vivisols-air-liquide-home-oxygen-deal-faces-deeper-probe-by-uk-regulator/2264415.article/",
+            "purpose": "19 November report, business perimeter; relies on CMA for regulatory finding"
+          }
+        ],
+        "openQuestions": [
+          "Purchase price, funding, transaction announcement date, named buyer/seller counsel and exact contractual consent terms not established. Company material corroborates buyer identity/business context only; trade reporting relies on CMA for the regulatory finding. Monitor 26 November undertakings and subsequent decision."
+        ],
+        "relatedDeals": [
+          "coop-southern",
+          "greencore-bakkavor"
+        ]
+      },
+      "evidenceScope": "Regulator-led transaction evidence plus buyer business context; underlying purchase agreement not independently inspected. No independent corroboration inferred for CMA findings."
     },
     {
       "jurisdiction": "UK",
@@ -7255,7 +7402,7 @@
           "drax-bluefield"
         ]
       },
-      "evidenceScope": "Targeted public-document research; factual findings and prospective legal workstreams are distinguished. Full independent certification not established."
+      "evidenceScope": "Targeted public-document research; prospective legal workstreams are not documented mandates. Underlying non-public agreements not independently inspected; full independent certification not established."
     },
     {
       "id": "duaa-implementation",
@@ -8235,7 +8382,7 @@
       "jurisdiction": "UK",
       "category": "Transactions",
       "verifiedOn": "2026-11-24",
-      "evidenceScope": "Targeted public-document research; factual findings and prospective legal workstreams are distinguished. Full independent certification not established.",
+      "evidenceScope": "Targeted public-document research; prospective legal workstreams are not documented mandates. Underlying non-public agreements not independently inspected; full independent certification not established.",
       "id": "athora-picg",
       "title": "Athora / Pension Insurance Corporation Group",
       "eventDate": "2026-03-27",
@@ -8514,7 +8661,7 @@
       "jurisdiction": "UK",
       "category": "Transactions",
       "verifiedOn": "2026-11-24",
-      "evidenceScope": "Targeted public-document research; factual findings and prospective legal workstreams are distinguished. Full independent certification not established.",
+      "evidenceScope": "Targeted public-document research; prospective legal workstreams are not documented mandates. Underlying non-public agreements not independently inspected; full independent certification not established.",
       "id": "itm-gbe-equity",
       "title": "Great British Energy / ITM Power strategic equity investment",
       "eventDate": "2026-07-09",
@@ -8776,7 +8923,7 @@
       "jurisdiction": "UK",
       "category": "Transactions",
       "verifiedOn": "2026-11-24",
-      "evidenceScope": "Targeted public-document research; factual findings and prospective legal workstreams are distinguished. Full independent certification not established.",
+      "evidenceScope": "Targeted public-document research; prospective legal workstreams are not documented mandates. Underlying non-public agreements not independently inspected; full independent certification not established.",
       "id": "cip-noriker-kilmarnock",
       "title": "Copenhagen Infrastructure Partners / Noriker Kilmarnock South BESS",
       "eventDate": "2026-10-28",
@@ -8989,7 +9136,7 @@
       "jurisdiction": "UK",
       "category": "Transactions",
       "verifiedOn": "2026-11-24",
-      "evidenceScope": "Targeted public-document research; factual findings and prospective legal workstreams are distinguished. Full independent certification not established.",
+      "evidenceScope": "Targeted public-document research; prospective legal workstreams are not documented mandates. Underlying non-public agreements not independently inspected; full independent certification not established.",
       "id": "aab-kreston-reeves",
       "title": "AAB / Kreston Reeves",
       "eventDate": "2026-07-01",
@@ -9217,7 +9364,7 @@
       "jurisdiction": "UK",
       "category": "Transactions",
       "verifiedOn": "2026-11-24",
-      "evidenceScope": "Targeted public-document research; factual findings and prospective legal workstreams are distinguished. Full independent certification not established.",
+      "evidenceScope": "Targeted public-document research; prospective legal workstreams are not documented mandates. Underlying non-public agreements not independently inspected; full independent certification not established.",
       "id": "tilleghem-saragossa",
       "title": "Tilleghem Capital / Saragossa",
       "eventDate": "2026-10-15",
@@ -9424,7 +9571,7 @@
       "jurisdiction": "UK",
       "category": "Transactions",
       "verifiedOn": "2026-11-24",
-      "evidenceScope": "Targeted public-document research; factual findings and prospective legal workstreams are distinguished. Full independent certification not established.",
+      "evidenceScope": "Targeted public-document research; prospective legal workstreams are not documented mandates. Underlying non-public agreements not independently inspected; full independent certification not established.",
       "id": "boralex-wind2",
       "title": "Boralex / Wind2",
       "eventDate": "2026-11-05",

@@ -149,8 +149,8 @@
     {
       "id": "vivisol-airliquide",
       "minSources": 2,
-      "deep": false,
-      "minClaims": 0,
+      "deep": true,
+      "minClaims": 4,
       "minAdvisers": 0,
       "mappedEvent": true
     },

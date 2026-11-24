@@ -561,7 +561,8 @@
         "https://www.freshfields.com/en/our-thinking/news/news-search/2025/05/freshfields-advises-bakkavor-on-its-recommended-acquisition-by-greencore",
         "https://www.freshfields.com/en/find-a-lawyer/w/wade-kat",
         "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-cinven-on-its-acquisition-of-theramex",
-        "https://www.freshfields.com/en/our-thinking/news/news-search/2024/08/freshfields-advises-hargreaves-lansdown-on-recommended-final-cash-acquisition-by-a-consortium-comprised-of-cvc-private-equity-funds-nordic-capital-xi-delta-scsp-acting-through-its-general-partner-nordic-capital-xi-delta-gp-sarl-and-platinum-ivy-b-201"
+        "https://www.freshfields.com/en/our-thinking/news/news-search/2024/08/freshfields-advises-hargreaves-lansdown-on-recommended-final-cash-acquisition-by-a-consortium-comprised-of-cvc-private-equity-funds-nordic-capital-xi-delta-scsp-acting-through-its-general-partner-nordic-capital-xi-delta-gp-sarl-and-platinum-ivy-b-201",
+        "https://www.freshfields.com/en/our-thinking/news/news-search/2026/07/freshfields-advises-itv-on-sale-of-its-media--entertainment-business-to-sky-and-the-acquisition-of-love-productions"
       ],
       "transactionIds": [
         "vodafone-three",
@@ -569,7 +570,8 @@
         "cary-consortium",
         "greencore-bakkavor",
         "cinven-theramex",
-        "harp-hargreaves-lansdown"
+        "harp-hargreaves-lansdown",
+        "sky-itv"
       ],
       "lastRetrieval": null,
       "accessReview": "Source-specific review pending",
@@ -599,7 +601,9 @@
         "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbedecember182023pressrel.htm",
         "https://www.sec.gov/Archives/edgar/data/1579878/000162828026009228/fig-20251231.htm",
         "https://www.sec.gov/Archives/edgar/data/1730168/000114036123054354/ef20015100_form8k.htm",
-        "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000068/hpe-20250430.htm"
+        "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000068/hpe-20250430.htm",
+        "https://www.sec.gov/Archives/edgar/data/51434/000005143425000025/ip-20250331.htm",
+        "https://www.sec.gov/Archives/edgar/data/51434/000005143425000048/ip-20250630.htm"
       ],
       "transactionIds": [
         "microsoft-activision",
@@ -607,7 +611,8 @@
         "synopsys-ansys",
         "adobe-figma",
         "broadcom-vmware",
-        "hpe-juniper"
+        "hpe-juniper",
+        "international-paper-ds-smith"
       ],
       "lastRetrieval": null,
       "accessReview": "Source-specific review pending",
@@ -667,7 +672,8 @@
         "https://www.slaughterandmay.com/recent-work/advised-softcat-on-the-acquisition-of-general-datatech/",
         "https://www.slaughterandmay.com/insights/client-case-studies/transforming-softcat-into-a-leading-global-it-solutions-business/",
         "https://www.slaughterandmay.com/services/practices/foreign-investment-and-national-security/",
-        "https://www.slaughterandmay.com/recent-work/ids-on-its-3-5billion-recommended-all-cash-offer-by-ep-group/"
+        "https://www.slaughterandmay.com/recent-work/ids-on-its-3-5billion-recommended-all-cash-offer-by-ep-group/",
+        "https://www.slaughterandmay.com/recent-work/inflexion-private-equity-partners-inflexion-on-the-sale-of-celnor-to-goldman-sachs-alternatives/"
       ],
       "transactionIds": [
         "nationwide-virgin",
@@ -676,7 +682,8 @@
         "international-paper-ds-smith",
         "chesnara-metlife-uk",
         "softcat-gdt",
-        "ep-ids-royal-mail"
+        "ep-ids-royal-mail",
+        "goldman-celnor"
       ],
       "lastRetrieval": null,
       "accessReview": "Source-specific review pending",
@@ -959,12 +966,14 @@
         "https://www.lse.co.uk/rns/DRX/acquisition-of-bluefield-services-ltd-1o7abi4tld9xhqm.html",
         "https://www.lse.co.uk/rns/final-recommended-cash-offer-evgpeb59alcpxqd.html",
         "https://www.lse.co.uk/rns/RFX/update-on-financing-arrangements-40ieyskxea1gbs2.html",
-        "https://www.lse.co.uk/rns/de-listing-and-cancellation-of-trading-2a5rjzmp1h5wajb.html"
+        "https://www.lse.co.uk/rns/de-listing-and-cancellation-of-trading-2a5rjzmp1h5wajb.html",
+        "https://www.lse.co.uk/rns/ITM/preliminary-results-znn5zx1rujjli0z.html"
       ],
       "transactionIds": [
         "drax-bluefield",
         "firstcash-ramsdens",
-        "harp-hargreaves-lansdown"
+        "harp-hargreaves-lansdown",
+        "itm-gbe-equity"
       ],
       "lastRetrieval": null,
       "accessReview": "Source-specific review pending",
@@ -1301,7 +1310,8 @@
       "state": "referenced; retrieval and independence not certified",
       "documentUrls": [
         "https://www.athora.com/news/athora-to-acquire-PIC",
-        "https://www.athora.com/news/athora-group-completes-acquisition-pension-insurance-corporation-group-and-announces-plans"
+        "https://www.athora.com/news/athora-group-completes-acquisition-pension-insurance-corporation-group-and-announces-plans",
+        "https://www.athora.com/news/athora-holding-ltd-publishes-its-full-year-2025-results"
       ],
       "transactionIds": [
         "athora-picg"
@@ -1341,7 +1351,8 @@
       "state": "referenced; retrieval and independence not certified",
       "documentUrls": [
         "https://itm-power.com/news/pound86.5-million-equity-and-grant-package-for-chronos-from-the-uk-government",
-        "https://itm-power.com/news/award-of-pound46.5m-desnz-grant"
+        "https://itm-power.com/news/award-of-pound46.5m-desnz-grant",
+        "https://itm-power.com/investors/shareholders"
       ],
       "transactionIds": [
         "itm-gbe-equity"
@@ -1413,7 +1424,8 @@
       "host": "saragossa.io",
       "state": "referenced; retrieval and independence not certified",
       "documentUrls": [
-        "https://saragossa.io/insights/saragossa-secures-strategic-growth-investment-from-tilleghem-capital/"
+        "https://saragossa.io/insights/saragossa-secures-strategic-growth-investment-from-tilleghem-capital/",
+        "https://saragossa.io/insights/saragossa-accelerates-east-coast-expansion/"
       ],
       "transactionIds": [
         "tilleghem-saragossa"
@@ -1522,6 +1534,151 @@
       ],
       "transactionIds": [
         "ep-ids-royal-mail"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "cmcsa.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.cmcsa.com/news-releases/news-release-details/sky-agrees-acquire-itv-media-entertainment-creating-commercial"
+      ],
+      "transactionIds": [
+        "sky-itv"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "skadden.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.skadden.com/about/news-and-rankings/news/2026/11/loccitane-group-announces-acquisition-of-elemis",
+        "https://www.skadden.com/professionals/c/corte-lorenzo"
+      ],
+      "transactionIds": [
+        "pai-elemis",
+        "international-paper-ds-smith"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "am.gs.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://am.gs.com/en-int/advisors/news/press-release/2026/Celnor-Group-Announces-New-Investment-from-Goldman-Sachs-Alternatives"
+      ],
+      "transactionIds": [
+        "goldman-celnor"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "vivisol.co.uk",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.vivisol.co.uk/who-we-are/"
+      ],
+      "transactionIds": [
+        "vivisol-airliquide"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "gasworld.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.gasworld.com/story/vivisols-air-liquide-home-oxygen-deal-faces-deeper-probe-by-uk-regulator/2264415.article/"
+      ],
+      "transactionIds": [
+        "vivisol-airliquide"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "dssmith.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.dssmith.com/media/our-stories/2024/4/recommended-all-share-combination-of-ds-smith-plc-with-international-paper-company"
+      ],
+      "transactionIds": [
+        "international-paper-ds-smith"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "bailii.org",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.bailii.org/ew/cases/EWHC/Ch/2025/696.html"
+      ],
+      "transactionIds": [
+        "international-paper-ds-smith"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "eur-lex.europa.eu",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32025M11564"
+      ],
+      "transactionIds": [
+        "international-paper-ds-smith"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "noriker.co.uk",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://noriker.co.uk/case-studies/kilmarnock-south/"
+      ],
+      "transactionIds": [
+        "cip-noriker-kilmarnock"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "aab.uk",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://aab.uk/news/aab-closes-deal-with-kreston-reeves/"
+      ],
+      "transactionIds": [
+        "aab-kreston-reeves"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "bdo.co.uk",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.bdo.co.uk/en-gb/deals/investment-in-saragossa-limited-by-tilleghem-partners-bv"
+      ],
+      "transactionIds": [
+        "tilleghem-saragossa"
       ],
       "lastRetrieval": null,
       "accessReview": "Source-specific review pending",
