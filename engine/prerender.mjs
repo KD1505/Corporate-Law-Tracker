@@ -289,9 +289,7 @@ function homeSnapshot(all) {
 <p style="color:#57534a;font-size:14px;margin:0 0 6px">Important transactions, named counsel where disclosed, and the evidence behind each claim. <a href="/deals.html">Transactions</a> · <a href="/filings.html">Disclosure archive</a> · <a href="/firms.html">Law firms</a>.</p>
 ${items}
 <script type="application/ld+json">${JSON.stringify(jsonld)}</script></section>
-<script>/* Progressive enhancement: crawlers (no JS) keep the static content above; browsers
-hide it immediately so the live app renders instead of flashing a static list while data.js loads. */
-(function(){var n=document.getElementById('seo-snapshot');if(n)n.style.display='none';})();</script><!--PRERENDER-END-->`;
+<!-- Keep the source-linked snapshot visible until the live app replaces it. --><!--PRERENDER-END-->`;
 }
 
 
