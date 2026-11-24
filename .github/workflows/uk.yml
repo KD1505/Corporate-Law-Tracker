@@ -3,7 +3,7 @@ on:
   pull_request:
     paths: ['uk.html','uk/**','engine/uk/**','.github/workflows/uk.yml','index.html','india.html','vercel.json']
   push:
-    branches: [uk-intelligence-foundation, uk-portal-v2, main]
+    branches: [uk-intelligence-foundation, uk-portal-v2, uk-daily-desk, main]
     paths: ['uk.html','uk/**','engine/uk/**','.github/workflows/uk.yml']
   schedule:
     - cron: '20 6 * * *'
@@ -37,10 +37,13 @@ jobs:
           node-version: '22'
       - run: node engine/uk/discover.mjs
       - run: node engine/uk/source-dossiers.mjs
-      - run: |
+      - if: always()
+        run: node engine/uk/policy-feed.mjs
+      - if: always()
+        run: |
           git config user.name "corporate-law-tracker-bot"
           git config user.email "actions@github.com"
-          git add uk/discovery.json uk/source-dossiers.json
+          git add uk/discovery.json uk/source-dossiers.json uk/policy-feed.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "chore: UK CMA discovery snapshot"
           git fetch origin main
