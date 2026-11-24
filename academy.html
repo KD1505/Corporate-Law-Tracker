@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CorpLaw Academy - Know what to know</title>
+<title>India Academy | CorpLawTracker</title>
 <meta name="description" content="Pick your goal - land a Tier-1 job, prep for an interview at a specific firm, or survive your first years - and get a clear reference list of what you should know, built from live market data.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.corplawtracker.com/academy.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="CorpLawTracker">
-<meta property="og:title" content="CorpLaw Academy | Know what to know">
+<meta property="og:title" content="India Academy | CorpLawTracker">
 <meta property="og:description" content="Pick your goal - land a Tier-1 job, prep for an interview at a specific firm, or survive your first years - and get a clear reference list of what you should know, built from live market data.">
 <meta property="og:url" content="https://www.corplawtracker.com/academy.html">
 <meta property="og:image" content="https://www.corplawtracker.com/og.png?v=1">
@@ -20,8 +20,7 @@
 <link rel="icon" type="image/svg+xml" href="logo.svg">
 <script>
 /* Academy reads the same corpus as the app. Load the slim index (about 2 MB)
-   rather than the full data.js (about 10 MB); fall back to data.js if the
-   index is unavailable, so the page never renders empty. */
+   rather than the full data.js; keep static learning material when the index fails. */
 (function(){
   function expand(r){ return { id:r.id, headline:r.h||"", sum:r.s||"", type:r.t||"",
     time:r.d||"", value:r.v||"\u2014",
@@ -36,10 +35,7 @@
       ready();
     })
     .catch(function(){
-      var t=document.createElement("script");
-      t.src="data.js"; t.onload=ready;
-      t.onerror=function(){ window.CLT_DATA=window.CLT_DATA||{DEALS:[]}; ready(); };
-      document.head.appendChild(t);
+      window.CLT_DATA={DEALS:[],UPDATED:"Live deal index unavailable; static learning material remains available"}; ready();
     });
 })();
 </script>
@@ -137,9 +133,9 @@
 <header>
   <div class="brand" onclick="location.href='india.html'">
     <div class="mk"><svg width="20" height="20" viewBox="0 0 48 48" aria-hidden="true"><path d="M28.17 36.84 A13.5 13.5 0 1 1 28.17 11.16" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/><circle cx="24" cy="24" r="4" fill="#fff"/></svg></div>
-    <div class="nm">CorpLaw Academy<span>KNOW WHAT TO KNOW</span></div>
+    <div class="nm">India Academy<span>INDIAN CORPORATE LAW</span></div>
   </div>
-  <nav class="htabs"><a href="india.html">← Dashboard</a></nav>
+  <nav class="htabs"><a href="india.html">India dashboard</a> · <a href="/#academy">UK Academy</a></nav>
 </header>
 
 <div class="wrap">

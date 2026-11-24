@@ -177,7 +177,7 @@ function renderCoverage(){
     <div class="vh"><h2>Coverage &amp; Method</h2><span class="sub">${upd} · how this data is sourced, verified and kept honest</span></div>
     <div class="stats" style="margin-bottom:24px">
       ${metric(total,"Deals tracked","sourced & deduped nightly")}
-      ${metric(pct(verified)+"%","Verified","corroborated by an official source")}
+      ${metric(pct(verified)+"%","Document-reviewed",verified+" of "+total+" tracked records")}
       ${metric(pct(official)+"%","Official-linked","carry a primary filing")}
       ${metric(lcd?Math.round(lv/Math.max(1,lv+li+lu)*100)+"%":"—","Links live","pinged nightly")}
     </div>
@@ -185,21 +185,20 @@ function renderCoverage(){
       <div class="sec"><h4>Source mix</h4><p style="font-size:13px;color:var(--ink2);line-height:1.65"><b>${sTot}</b> source links across <b>${total}</b> deals - <b>${sOff}</b> official/primary (exchange, regulator, court, company) and <b>${sPress}</b> press/secondary. <b>${attributed}</b> deals carry named counsel.</p></div>
       <div class="sec"><h4>Link health · checked nightly</h4>${lcd?`<p style="font-size:13px;color:var(--ink2);line-height:1.65"><span style="color:var(--green);font-weight:700">${lv}</span> deals with every link confirmed live · <span style="color:var(--amber);font-weight:700">${li}</span> with a link under review · ${lu} not yet checked. Every source URL is pinged on a rolling nightly basis - a genuine 404 is flagged; a bot-blocked government page is not falsely failed.</p>`:`<p style="font-size:13px;color:var(--ink2);line-height:1.65">The nightly link-checker pings every source URL and flags any that die or redirect. Results appear here after the first run.</p>`}</div>
       <div class="sec"><h4>The verification ladder</h4>
-        <div class="fwitem"><div class="fwref">⛉ Official</div><div class="fwnote">Carries a specific primary filing - an exchange disclosure, a regulator/court order, or the company's own release.</div></div>
-        <div class="fwitem"><div class="fwref">✓ Verified</div><div class="fwnote">Corroborated by at least one official/primary source.</div></div>
+        <div class="fwitem"><div class="fwref">⛉ Official</div><div class="fwnote">Carries a specific official filing link; this does not establish that the summary or every claim has been reviewed.</div></div>
+        <div class="fwitem"><div class="fwref">✓ Document-reviewed</div><div class="fwnote">Dated editorial cross-check of transaction-specific documents; limitations remain.</div></div>
         <div class="fwitem"><div class="fwref">◔ Reported</div><div class="fwnote">A single press source; not yet corroborated against a primary filing.</div></div>
       </div>
       <div class="sec"><h4>Recently entered</h4>${recent.map(d=>`<div class="lr" data-deal="${d.id}"><span class="fn" style="font-family:var(--sans)">${d.headline}</span><span class="dl" style="color:var(--ink3)">${d.time}</span></div>`).join("")}</div>
       <div class="sec"><h4>Corrections log</h4>${corrections.length?corrections.map(c=>`<div class="fwitem"><div class="fwref">${c.date||""}</div><div class="fwnote">${c.note||""}</div></div>`).join(""):`<div class="empty" style="text-align:left">No corrections logged to date. When we fix or retract an item, it is recorded here - openly. We would rather show our edits than claim perfection.</div>`}</div>
-      <div class="sec"><h4>How we keep this honest</h4><p style="font-size:12.5px;color:var(--ink2);line-height:1.7">Deals are machine-collected nightly from primary disclosures (BSE/NSE filings, regulator and court orders) and named-counsel legal press, deduplicated, and scored. We tag each item by evidentiary strength rather than hiding uncertainty, link every claim to its source, ping those links nightly, and rank league tables only on deals with attributed counsel. Nothing here is fabricated; where we don't know, we mark it "—".</p></div>
+      <div class="sec"><h4>How we keep this honest</h4><p style="font-size:12.5px;color:var(--ink2);line-height:1.7">Deals are machine-collected nightly from primary disclosures (BSE/NSE filings, regulator and court orders) and named-counsel legal press, deduplicated, and scored. We tag each item by evidentiary strength rather than hiding uncertainty, retain source links, distinguish document review from link presence, and count only observed counsel mandates. Unknown or unestablished details are not treated as zero.</p></div>
     </div>`;
   $("main").querySelectorAll("[data-deal]").forEach(n=>n.onclick=()=>go({name:"deal",id:n.dataset.deal}));
 }
 function renderAnalytics(){
-  const fc={},fv={},pc={},tc={},sc={};
+  const fc={},pc={},tc={},sc={};
   DEALS.forEach(d=>{
-    const val=parseCr(d.value);
-    d.firms.forEach(f=>{if(!firmKnown(f.name))return;fc[f.name]=(fc[f.name]||0)+1;fv[f.name]=(fv[f.name]||0)+val;
+    d.firms.forEach(f=>{if(!firmKnown(f.name))return;fc[f.name]=(fc[f.name]||0)+1;
       (f.lead||[]).forEach(l=>pc[l.n]=(pc[l.n]||0)+1);});
     tc[TY(d.type).label]=(tc[TY(d.type).label]||0)+1;
     sc[d.sector]=(sc[d.sector]||0)+1;
@@ -208,17 +207,16 @@ function renderAnalytics(){
   const attributed=DEALS.filter(d=>(d.firms||[]).some(f=>firmKnown(f.name))).length;
   const MIN=2;
   const fcG=Object.fromEntries(Object.entries(fc).filter(([,v])=>v>=MIN));
-  const fvG=Object.fromEntries(Object.entries(fv).filter(([k])=>fc[k]>=MIN));
   const enough=Object.keys(fcG).length>=3;
-  $("main").innerHTML=`<div class="vh"><h2>League Tables</h2><span class="sub">${attributed} of ${DEALS.length} deals carry attributed counsel · firms with ≥${MIN} tracked mandates ranked</span></div>
+  $("main").innerHTML=`<div class="vh"><h2>Observed mandates</h2><span class="sub">${attributed} of ${DEALS.length} tracked records carry attributed counsel · firms with ≥${MIN} observed mandates · not market share</span></div>
     <div class="anwrap">
-      ${enough?`<div class="sec"><h4>Top firms · by deals tracked</h4>${barRows(top(fcG),v=>v+" deals","firm")}</div>
-      <div class="sec"><h4>Top firms · by aggregate deal value</h4>${barRows(top(fvG),fmtCr,"firm")}</div>`
+      ${enough?`<div class="sec"><h4>Firms · observed mandate counts</h4>${barRows(top(fcG),v=>v+" records","firm")}</div>
+      <div class="sec"><h4>Financial comparability</h4><p>Aggregate deal-value rankings are not presented: the corpus includes different financial value bases, financing commitments and incomplete disclosures.</p></div>`
       :`<div class="sec"><h4>Top firms</h4><div class="empty">Not enough deals carry attributed counsel yet to rank firms reliably. This fills out as deals are enriched with their advising firms.</div></div>`}
-      <div class="sec"><h4>Most active partners</h4>${barRows(top(pc),v=>v+(v>1?" deals":" deal"))}</div>
+      <div class="sec"><h4>Partners named in tracked records</h4>${barRows(top(pc),v=>v+(v>1?" deals":" deal"))}</div>
       <div class="sec"><h4>Deals by type</h4>${barRows(top(tc,9),v=>v+"")}</div>
       <div class="sec"><h4>Deals by sector</h4>${barRows(top(sc,12),v=>v+"")}</div>
-      <div class="sec"><h4>How to read this · methodology</h4><p style="font-size:12.5px;color:var(--ink2);line-height:1.6">League tables are computed <b>only from deals where counsel is named</b> (${attributed} of ${DEALS.length} tracked). To avoid noise from one-off appearances, only firms with <b>≥${MIN} mandates</b> are ranked. Aggregate value sums every attributed deal's value; a firm is credited on every side it is named on. Click any firm to open its page.</p></div>
+      <div class="sec"><h4>How to read this · methodology</h4><p style="font-size:12.5px;color:var(--ink2);line-height:1.6">Observed counts cover <b>only records where counsel is named</b> (${attributed} of ${DEALS.length} tracked). Firms with <b>≥${MIN} recorded mandates</b> are shown. Public disclosure is selective; these figures are not market share, actual activity or firm quality. A record may involve multiple advisers. Click a firm to inspect its records.</p></div>
     </div>`;
   $("main").querySelectorAll("[data-firm]").forEach(n=>n.onclick=()=>go({name:"firm",id:decodeURIComponent(n.dataset.firm)}));
 }

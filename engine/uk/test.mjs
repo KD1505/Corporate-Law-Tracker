@@ -33,3 +33,5 @@ test("standalone dossiers expose overview, sourced advisers and save before opti
 test("known unsupported Coal India amount does not pass the publishing gate",()=>{assert.equal(recordQuality({id:"NSE-rss-dfc550b85c71fdb64a7176",headline:"Coal India Limited",value:"₹ 2"}).kind,"needs-research");});
 
 test("Academy lessons include an applied explanation, exercise, pathway and version",()=>{for(const l of data.lessons){assert(l.practical.split(/\s+/).length>=65);assert(l.exercise&&l.pathway&&l.version);assert(html.includes('data-pathway="'+l.pathway+'"'));}});
+
+test("India evidence labels distinguish document review and observed counts",()=>{const app=fs.readFileSync(new URL("app5.js",root),"utf8");assert(app.includes('Observed mandates'));assert(app.includes('Document-reviewed'));assert(!app.includes('Top firms · by aggregate deal value'));const academy=fs.readFileSync(new URL("academy.html",root),"utf8");assert(academy.includes('India Academy'));assert(!academy.includes('t.src="data.js"'));});

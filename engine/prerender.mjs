@@ -83,7 +83,7 @@ function page({ title, desc, canonical, jsonld, body, crumbs, noindex }) {
 <meta property="og:site_name" content="CorpLawTracker"><meta property="og:image" content="${SITE}/og.png?v=1">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta property="og:image:type" content="image/png">
-<meta property="og:image:alt" content="CorpLawTracker - verified Indian corporate deal and regulatory intelligence, built only on primary filings.">
+<meta property="og:image:alt" content="CorpLawTracker - source-linked Indian corporate deal and regulatory intelligence.">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${esc(title)}">
@@ -208,7 +208,7 @@ ${d.evidenceDossier.gaps?.length ? `<h3>Documentation gaps to verify</h3><ul cla
 ${(d.editorialCautions||[]).length?`<h2>Editorial cautions</h2><ul class="links">${d.editorialCautions.map(c=>`<li>${esc(c)}</li>`).join("")}</ul>`:""}
 ${(d.possibleRelatedFilings||[]).length?`<h2>Possibly related filings</h2><p><b>Research lead, not a verified single transaction:</b> ${esc(d.relatedDisclosureCaution)}</p><ul class="links">${d.possibleRelatedFilings.map(f=>`<li><a href="/d/${encodeURIComponent(f.id)}.html">${esc(f.headline)}</a> · ${esc(f.time||"")}</li>`).join("")}</ul>`:""}
 ${(d.sources&&d.sources.length)?`<h2>Sources</h2><ul class="links">${d.sources.map(s=>`<li><a href="${esc(s.url)}" rel="nofollow">${esc(s.name)}</a>${s.official?" · official":""}</li>`).join("")}</ul>`:""}
-<a class="cta" href="/#/deal/${encodeURIComponent(d.id)}">Open in the live tracker →</a>
+<a class="cta" href="/india.html#/deal/${encodeURIComponent(d.id)}">Open in the live tracker →</a>
 <p style="font-size:13px;margin-top:14px"><a href="mailto:corrections@corplawtracker.com?subject=${encodeURIComponent("Source or factual correction: "+d.id)}&body=${encodeURIComponent("Deal: "+canonical+"\nPlease describe the correction and attach or link the primary evidence:")}">Report a factual error on this record</a></p>
 ${rel.length?`<h2>Related deals</h2><ul class="links">${rel.map(r=>`<li><a class="card" href="${dealPath(r)}"><span class="ct">${esc(r.headline)}</span><span class="cs">${esc(r.time||"")}${r.value&&r.value!=="—"?" · "+esc(r.value):""}</span></a></li>`).join("")}</ul>`:""}
 `;
@@ -225,17 +225,17 @@ function firmPage(name, deals, rank, total) {
   const canonical = `${SITE}${firmPath(name)}`;
   const body = `
 <h1>${esc(name)}</h1>
-<div class="meta"><span class="pill">Law firm</span><span class="tag">${deals.length} deals tracked</span>${rank?`<span class="tag">· #${rank} of ${total} by deal count</span>`:""}</div>
-<p class="lead">Corporate transactions and mandates on which ${esc(name)} has been named counsel, verified against primary filings and tracked by CorpLawTracker.</p>
+<div class="meta"><span class="pill">Law firm</span><span class="tag">${deals.length} deals tracked</span><span class="tag">· observed corpus, not market share</span></div>
+<p class="lead">Corporate transactions and mandates on which ${esc(name)} has been named counsel, recorded in the India edition. Source quality varies; a reported mandate is not necessarily document-reviewed. Coverage is selective and not a measure of firm quality or market share.</p>
 <h2>Tracked mandates</h2>
 <ul class="links">${list.map(d=>`<li><a class="card" href="${dealPath(d)}"><span class="ct">${esc(d.headline)}</span><span class="cs">${esc(d.time||"")}${d.value&&d.value!=="—"?" · "+esc(d.value):""}${d.sector?" · "+esc(d.sector):""}</span></a></li>`).join("")}</ul>
-<a class="cta" href="/#/firm/${encodeURIComponent(name)}">Open in the live tracker →</a>
+<a class="cta" href="/india.html#/firm/${encodeURIComponent(name)}">Open in the live tracker →</a>
 `;
   const jsonld = { "@context":"https://schema.org", "@type":"Organization", name, url:canonical,
     description:`${name} - ${deals.length} corporate-law mandates tracked by CorpLawTracker.` };
   return page({ noindex: deals.length < 5,
-    title:`${name} - deals, mandates & league position | CorpLawTracker`,
-    desc:`${name}: ${deals.length} tracked corporate mandates${rank?`, #${rank} of ${total} by deal count`:""}. Verified against primary filings.`,
+    title:`${name} - observed corporate mandates | CorpLawTracker`,
+    desc:`${name}: ${deals.length} observed corporate mandates in the India edition. Source coverage is selective.`,
     canonical, jsonld, crumbs:`<a href="/india.html">India home</a> / <a href="/firms.html">Firms</a> / ${esc(name)}`, body });
 }
 
@@ -264,9 +264,9 @@ function changesPage(events) {
 }
 
 function firmsIndex(firms) {
-  const body = `<h1>Law firms</h1><p class="lead">${firms.length} firms named as counsel across tracked Indian corporate transactions, ranked by deal count.</p>
-<ul class="links">${firms.map((f,i)=>`<li><a class="card" href="${firmPath(f.name)}"><span class="ct">${esc(f.name)}</span><span class="cs">#${i+1} · ${f.deals.length} deals tracked</span></a></li>`).join("")}</ul>`;
-  return page({ title:"Law firms - league & mandates | CorpLawTracker", desc:`${firms.length} Indian corporate law firms ranked by tracked deal count.`,
+  const body = `<h1>Law firms</h1><p class="lead">${firms.length} firms named as counsel in the tracked Indian corpus, ordered by observed mandate count. This is not a market-share or quality ranking.</p>
+<ul class="links">${firms.map((f,i)=>`<li><a class="card" href="${firmPath(f.name)}"><span class="ct">${esc(f.name)}</span><span class="cs">${f.deals.length} observed mandates</span></a></li>`).join("")}</ul>`;
+  return page({ title:"Law firms - observed mandates | CorpLawTracker", desc:`${firms.length} Indian corporate law firms with observed mandates in the tracked corpus.`,
     canonical:`${SITE}/firms.html`, crumbs:`<a href="/india.html">India home</a> / Firms`, body });
 }
 
@@ -279,7 +279,7 @@ function homeSnapshot(all) {
   // via sitemap.xml and the /deals.html hub instead. This makes india.html safe to deploy
   // on its own - it can never produce a 404.
   const items = latest.map(d=>`<article style="padding:14px 0;border-bottom:1px solid #e9e5db">
-<a href="/#/deal/${encodeURIComponent(d.id)}" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">${esc(d.headline)}</h3></a>
+<a href="/india.html#/deal/${encodeURIComponent(d.id)}" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">${esc(d.headline)}</h3></a>
 <div style="font-size:12px;color:#8e897c;margin-bottom:6px">${esc(TYPE[d.type]||d.type||"")} · ${esc(d.time||"")}${d.value&&d.value!=="—"?" · "+esc(d.value):""}${dealFirms(d).length?" · "+esc(dealFirms(d).slice(0,2).join(", ")):""}</div>
 <p style="font-size:13.5px;color:#41454c;margin:0">${esc(clamp(d.implication||d.sum||d.detail,220))}</p></article>`).join("");
   const jsonld = { "@context":"https://schema.org", "@type":"ItemList", name:"Latest Indian corporate deals | CorpLawTracker",
