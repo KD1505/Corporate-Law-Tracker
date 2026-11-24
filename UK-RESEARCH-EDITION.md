@@ -15,3 +15,6 @@ Mergermarket (https://info.mergermarket.com/legal/) emphasises relationships, de
 
 ## Production verification
 Main pushes trigger a separate live-browser job which waits for exact editorial JSON parity and then exercises the public domain. A failed job does not certify a release. Main pushes also trigger the first CMA discovery attempt, in addition to the daily schedule. Discovery output remains separate from editorial records.
+
+## UK-first portal v2
+Root and /uk.html generated from one editorial document; /india.html is the established India shell and all India nightly writers now target it. Legacy #/ India routes are forwarded. UK dossiers add typed values, parties, dated source-backed chronology, scoped mandates, commercial and legal-work analysis, watchlist and calendar. GOV.UK Content API enriches discovery separately; no auto-promotion to verified deals. Dossiers contain only bounded metadata and regulator-hosted PDF links, no personal contact data or copied full documents.

@@ -11,7 +11,7 @@
      • /deals.html         - crawlable index of every deal (link hub)
      • /firms.html         - crawlable index of every firm (link hub)
      • sitemap.xml + robots.txt
-     • injects a static snapshot of the latest deals into index.html's #main
+     • injects a static snapshot of the latest deals into india.html's #main
        (between <!--PRERENDER-START--> / <!--PRERENDER-END-->). The SPA overwrites
        #main on load, so JS users get the live app; crawlers keep the static HTML.
        This is progressive enhancement (same content), NOT cloaking.
@@ -113,11 +113,11 @@ a.card:hover .ct{text-decoration:underline}
 footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:12px;color:var(--ink3)}
 footer a{color:var(--ink2);text-decoration:none}
 </style></head><body><div class="wrap">
-<header class="top"><span class="mark"></span><a class="brand" href="/">CorpLaw<span>Tracker</span></a></header>
+<header class="top"><span class="mark"></span><a class="brand" href="/india.html">CorpLaw<span>Tracker</span></a></header>
 ${crumbs?`<div class="crumbs">${crumbs}</div>`:""}
 ${body}
 <footer><b>CorpLawTracker</b> - the decision engine for India's corporate legal market. Research and current-awareness only - not legal advice. Read the primary filing and the current text of the law before advising.<br>
-<a href="/">Home</a> · <a href="/deals.html">Deals</a> · <a href="/filings.html">Disclosure archive</a> · <a href="/changes.html">Research changes</a> · <a href="/brief.xml">Brief RSS</a> · <a href="/firms.html">Firms</a> · <a href="/methodology.html">Methodology</a> · <a href="/coverage.html">Coverage</a> · <a href="/corrections.html">Corrections</a> · <a href="/about.html">About</a> · <a href="/contact.html">Contact</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></footer>
+<a href="/india.html">India home</a> · <a href="/deals.html">Deals</a> · <a href="/filings.html">Disclosure archive</a> · <a href="/changes.html">Research changes</a> · <a href="/brief.xml">Brief RSS</a> · <a href="/firms.html">Firms</a> · <a href="/methodology.html">Methodology</a> · <a href="/coverage.html">Coverage</a> · <a href="/corrections.html">Corrections</a> · <a href="/about.html">About</a> · <a href="/contact.html">Contact</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></footer>
 </div></body></html>`;
 }
 
@@ -202,7 +202,7 @@ ${rel.length?`<h2>Related deals</h2><ul class="links">${rel.map(r=>`<li><a class
     datePublished: pdate(d.time).toISOString().slice(0,10), description: clamp(d.sum||d.detail,300), url: canonical,
     isAccessibleForFree:true, publisher:{ "@type":"Organization", name:"CorpLawTracker", url:SITE } };
   return page({ noindex:d.quality?.kind!=="deal", title:`${strip(d.headline)} | CorpLawTracker`, desc:clamp(d.implication||d.sum||d.detail,300),
-    canonical, jsonld, crumbs:`<a href="/">Home</a> / <a href="/deals.html">Deals</a> / ${esc(clamp(d.headline,60))}`, body });
+    canonical, jsonld, crumbs:`<a href="/india.html">India home</a> / <a href="/deals.html">Deals</a> / ${esc(clamp(d.headline,60))}`, body });
 }
 
 /* ---- firm page ---- */
@@ -222,7 +222,7 @@ function firmPage(name, deals, rank, total) {
   return page({ noindex: deals.length < 5,
     title:`${name} - deals, mandates & league position | CorpLawTracker`,
     desc:`${name}: ${deals.length} tracked corporate mandates${rank?`, #${rank} of ${total} by deal count`:""}. Verified against primary filings.`,
-    canonical, jsonld, crumbs:`<a href="/">Home</a> / <a href="/firms.html">Firms</a> / ${esc(name)}`, body });
+    canonical, jsonld, crumbs:`<a href="/india.html">India home</a> / <a href="/firms.html">Firms</a> / ${esc(name)}`, body });
 }
 
 /* ---- hub pages ---- */
@@ -230,12 +230,12 @@ function dealsIndex(all) {
   const body = `<h1>Corporate transaction intelligence</h1><p class="lead">${all.length} curated-or-source-linked transaction candidates, with precise evidence labels; <a href="/filings.html">routine disclosures and low-information records are in the separate filing archive</a>. Not all facts are independently reviewed.</p>
 <ul class="links">${all.map(d=>`<li><a class="card" href="${dealPath(d)}"><span class="ct">${esc(d.headline)}</span><span class="cs">${esc(TYPE[d.type]||d.type||"")} · ${esc(d.time||"")}${d.value&&d.value!=="—"?" · "+esc(d.value):""}</span></a></li>`).join("")}</ul>`;
   return page({ title:"All tracked deals | CorpLawTracker", desc:`${all.length} source-linked Indian corporate transaction records, evidence-labelled.`,
-    canonical:`${SITE}/deals.html`, crumbs:`<a href="/">Home</a> / Deals`, body });
+    canonical:`${SITE}/deals.html`, crumbs:`<a href="/india.html">India home</a> / Deals`, body });
 }
 function filingsIndex(records) {
  const list=records.slice().sort((a,b)=>pdate(b.time)-pdate(a.time));
  const body=`<h1>Disclosure archive</h1><p class="lead">${list.length} compliance filings or insufficiently described announcements withheld from the substantive transaction feed. These are not established economic deals; original-source links are retained for research.</p><ul class="links">${list.map(d=>`<li><a class="card" href="${dealPath(d)}"><span class="ct">${esc(d.headline)}</span><span class="cs">${esc(d.time||"")} · ${esc(d.quality.reason)}</span></a></li>`).join("")}</ul>`;
- return page({title:"Corporate disclosure archive | CorpLawTracker",desc:"Unverified or routine exchange disclosures kept separate from transaction intelligence.",canonical:`${SITE}/filings.html`,crumbs:`<a href="/">Home</a> / Disclosure archive`,body});
+ return page({title:"Corporate disclosure archive | CorpLawTracker",desc:"Unverified or routine exchange disclosures kept separate from transaction intelligence.",canonical:`${SITE}/filings.html`,crumbs:`<a href="/india.html">India home</a> / Disclosure archive`,body});
 }
 function changesPage(events) {
  const list=events.slice(0,100);
@@ -246,14 +246,14 @@ function changesPage(events) {
    '<p>No material database-field changes have yet been recorded. The log begins when an earlier generated index is available for comparison.</p>');
  return page({title:"Research database updates | CorpLawTracker",
  desc:"Transparent chronological record of newly published and materially revised transaction intelligence records.",
- canonical:SITE+"/changes.html",crumbs:'<a href="/">Home</a> / Research updates',body});
+ canonical:SITE+"/changes.html",crumbs:'<a href="/india.html">India home</a> / Research updates',body});
 }
 
 function firmsIndex(firms) {
   const body = `<h1>Law firms</h1><p class="lead">${firms.length} firms named as counsel across tracked Indian corporate transactions, ranked by deal count.</p>
 <ul class="links">${firms.map((f,i)=>`<li><a class="card" href="${firmPath(f.name)}"><span class="ct">${esc(f.name)}</span><span class="cs">#${i+1} · ${f.deals.length} deals tracked</span></a></li>`).join("")}</ul>`;
   return page({ title:"Law firms - league & mandates | CorpLawTracker", desc:`${firms.length} Indian corporate law firms ranked by tracked deal count.`,
-    canonical:`${SITE}/firms.html`, crumbs:`<a href="/">Home</a> / Firms`, body });
+    canonical:`${SITE}/firms.html`, crumbs:`<a href="/india.html">India home</a> / Firms`, body });
 }
 
 /* ---- homepage snapshot (injected into #main) ---- */
@@ -262,7 +262,7 @@ function homeSnapshot(all) {
   const latest=(recent.length>=HOME_SNAPSHOT?recent:all.slice(0,HOME_SNAPSHOT*3)).sort((a,b)=>(b.score||0)-(a.score||0)).slice(0,HOME_SNAPSHOT).sort((a,b)=>pdate(b.time)-pdate(a.time));
   // NOTE: homepage snapshot links use the SPA hash route, which ALWAYS resolves even if
   // the static /d/ pages haven't been committed yet. Crawlers reach the static deal pages
-  // via sitemap.xml and the /deals.html hub instead. This makes index.html safe to deploy
+  // via sitemap.xml and the /deals.html hub instead. This makes india.html safe to deploy
   // on its own - it can never produce a 404.
   const items = latest.map(d=>`<article style="padding:14px 0;border-bottom:1px solid #e9e5db">
 <a href="/#/deal/${encodeURIComponent(d.id)}" style="text-decoration:none;color:#1c1b17"><h3 style="font:600 17px/1.3 Georgia,serif;margin:0 0 5px">${esc(d.headline)}</h3></a>
@@ -291,7 +291,7 @@ const CORRECTIONS = "corrections@corplawtracker.com";
 
 function govPage(slug,title,desc,body){
   return { slug, html: page({ title:`${title} | CorpLawTracker`, desc,
-    canonical:`${SITE}/${slug}.html`, crumbs:`<a href="/">Home</a> / ${esc(title)}`,
+    canonical:`${SITE}/${slug}.html`, crumbs:`<a href="/india.html">India home</a> / ${esc(title)}`,
     body:`<h1>${esc(title)}</h1>${body}` }) };
 }
 
@@ -614,7 +614,7 @@ if(!fs.existsSync(healthPath))fs.writeFileSync(healthPath,JSON.stringify({
 
 // sitemap + robots
 const today = new Date().toISOString().slice(0,10);
-const urls = [ `${SITE}/`, `${SITE}/deals.html`, `${SITE}/filings.html`, `${SITE}/changes.html`, `${SITE}/firms.html`, `${SITE}/academy.html`,
+const urls = [ `${SITE}/`, `${SITE}/india.html`, `${SITE}/deals.html`, `${SITE}/filings.html`, `${SITE}/changes.html`, `${SITE}/firms.html`, `${SITE}/academy.html`,
   ...GOV.map(g=>`${SITE}/${g.slug}.html`),
   ...all.map(d=>`${SITE}${dealPath(d)}`), ...firms.filter(f=>f.deals.length>=5).map(f=>`${SITE}${firmPath(f.name)}`) ];
 fs.writeFileSync(path.join(ROOT,"sitemap.xml"),
@@ -623,13 +623,13 @@ fs.writeFileSync(path.join(ROOT,"sitemap.xml"),
 fs.writeFileSync(path.join(ROOT,"robots.txt"),
   `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`);
 
-// inject homepage snapshot between markers in index.html
-const idxPath = path.join(ROOT,"index.html");
+// inject homepage snapshot between markers in india.html
+const idxPath = path.join(ROOT,"india.html");
 let idx = fs.readFileSync(idxPath,"utf8");
 const snap = homeSnapshot(all);
 idx=idx.replace(/<span id="updated">[^<]*<\/span>/,'<span id="updated">'+esc(DATA.UPDATED||"Date not confirmed")+'</span>');
 const re = /<!--PRERENDER-START-->[\s\S]*?<!--PRERENDER-END-->/;
 if (re.test(idx)) { idx = idx.replace(re, snap); fs.writeFileSync(idxPath, idx); }
-else console.warn("prerender: PRERENDER markers not found in index.html - homepage snapshot NOT injected.");
+else console.warn("prerender: PRERENDER markers not found in india.html - homepage snapshot NOT injected.");
 
 console.log(`prerender: ${all.length} deal pages, ${firms.length} firm pages, ${GOV.length} governance pages, hubs, sitemap (${urls.length} urls), robots. Homepage snapshot: ${re.test(fs.readFileSync(idxPath,"utf8"))?"injected":"MISSING"}.`);
