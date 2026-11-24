@@ -1,50 +1,95 @@
 # Corporate Law Tracker - Daily Brief
 _24 November 2026_
 
-5 new development(s).
+10 new development(s).
 
-### 🔴 Khaitan & Co advises Blackstone on ₹5,000 crore equity investment in IIFL Finance
-**REG** · ₹5,000 cr · Cross-border · Reported
+### Shardul Amarchand Mangaldas, Cyril Amarchand Mangaldas, White & Case act on Urban Company ₹2,500 crore QIP
+**IPO** · ₹2,500 cr · India · Reported
 
-Blackstone, through its Singapore-based affiliate Ingot SG Pte. Ltd., is set to make a primary equity investment of ₹5,000 crore (approx.
+Urban Company Limited has raised ₹2,500 crore from a Qualified Institutions Placement of equity shares. Shardul Amarchand Mangaldas & Co advised Urban Company on this QIP.
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/khaitan-co-advises-blackstone-on-5000-crore-equity-investment-in-iifl-finance)
-
----
-
-### Shardul Amarchand Mangaldas advises IFC on $150 million financing to SBI GIFT City
-**BANK** · $150 mn · India · Reported
-
-Shardul Amarchand Mangaldas & Co acted as legal counsel to International Finance Corporation in connection with an unsecured USD-denominated term loan facility of up to $150 million availed by State Bank of India's GIFT City Branch. The…
-
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-advises-ifc-on-150-million-financing-to-sbi-gift-city)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-cyril-amarchand-mangaldas-white-case-act-on-urban-company-2500-crore-qip)
 
 ---
 
-### Coal India Limited
-**IPO** · ₹ 2 · India · ✓ Verified
+### JSA advises Henfruit on its $15 million Series A fundraise
+**PE** · $15 mn · India · Reported
 
-Coal India Limited - Disclosure under Regulation 30 of Securities and Exchange Board of India(Listing Obligations and Disclosure Requirements) Regulations, 2015 ( ListingRegulations ) Initial public oﬀering ( IPO ) of equity shares of face…
+","playBackSpeedTitle":"Playback…
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/COALINDIA_24112026070916_MCL-Prospectus.pdf)
-
----
-
-### Gujarat Toolroom Ltd (513337)
-**IBC** · ₹, · India · ✓ Verified
-
-Gujarat Toolroom Ltd (513337) - We wish to inform you that pursunat to Regulation 13(2) (c) of the Insolvency and Bankruptcy Board of India ( Insolvency Resolution Process for Corporate Persons) Regulations, 2016, a copy of list of…
-
-[Open source ↗](https://www.bseindia.com/xml-data/corpfiling/AttachLive/67279787-dc97-4c52-a095-dd6618b3c450.pdf)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/jsa-advises-henfruit-on-its-15-million-series-a-fundraise)
 
 ---
 
-### Universal Legal acts for DSP Designs on its sale to Anarock Group
+### Aritra Partners, GameChanger Law, Shardul Amarchand Mangaldas act on Arborum pre-Series fundraise
+**PE** · Bengaluru · Reported
+
+Arborum Labs Private Limited has raised capital from a pre-series fundraise co-led by Speciale Invest and Ideaspring Capital. Aritra Partners advised Arborum on this fundraise.
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/aritra-partners-gamechanger-law-shardul-amarchand-mangaldas-act-on-arborum-pre-series-fundraise)
+
+---
+
+### Zydus Lifesciences Limited
+**MA** · India · ✓ Verified
+
+Zydus Lifesciences Limited - Zydus Lifesciences Limited has informed the Exchange regarding Acquisition of to be incorporated companies |SUBJECT: Acquisition of 'to be incorporated companies'-XBRL
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/xbrl/REG30_Restructuring_1852_WebXMLFile_20261124_115506086.xml)
+
+---
+
+### AXISCADES Technologies Limited
+**MA** · India · ✓ Verified
+
+AXISCADES Technologies Limited - AXISCADES Technologies Limited has informed the Exchange regarding Acquisition of to be incorporated companies |SUBJECT: Acquisition of 'to be incorporated companies'-XBRL
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/xbrl/REG30_Restructuring_1939_WebXMLFile_20261124_095630992.xml)
+
+---
+
+### AXISCADES Technologies Limited
+**MA** · India · ✓ Verified
+
+AXISCADES Technologies Limited - AXISCADES Technologies Limited has informed the Exchange about Incorporation of a Subsidiary. |SUBJECT: Acquisition
+
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AXISCADES_24112026095411_IncorporationUK24112026.pdf)
+
+---
+
+### Fox Mandal & Associates advises Kotak Mahindra Investments on extending ₹300 crore+ to Adarsh Developers
+**MA** · ₹300 cr · India · Reported
+
+Kotak Mahindra Investments Limited is set to extend project funding of approximately ₹300 crores+ to Adarsh Developers for its residential project 'District 25 – Phase I'. Fox Mandal & Associates advised Kotak Mahindra Investments on this…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/fox-mandal-associates-advises-kotak-mahindra-investments-on-extending-300-crore-to-adarsh-developers)
+
+---
+
+### DMD Advocates advises NDR Auto Components on Joint Venture with South Korea’s DYA
+**PE** · India · Reported
+
+NDR Auto Components Limited is forming a joint venture with DYA Co., Ltd., a South Korean manufacturer of automotive seating systems based in Gwangju and an established seat supplier to Hyundai and Kia in Korea. DMD Advocates advised NDR…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/dmd-advocates-advises-ndr-auto-components-on-joint-venture-with-south-koreas-dya)
+
+---
+
+### Sarvaank Associates advises CAPGRID on fundraise
+**PE** · ₹50 cr · Delhi-NCR · Reported
+
+CAPGRID has raised ₹50 crore (~$5.2 million) from a fundraise led by Hero Enterprise Venture Partners with participation from existing investors Axilor Ventures, Anicut Capital, Nexus Venture Partners and other investors. Sarvaank…
+
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/sarvaank-associates-advises-capgrid-on-fundraise)
+
+---
+
+### ELP advises IHCL on strategic franchise arrangement with Lords Hotels & Resorts
 **MA** · India · Reported
 
-Anarock Group has acquired a majority stake in DSP Design Associates. Universal Legal advised the promoters of DSP Designs, Bimal Desai, Mehul Shah and Yatin Patel, on the sale of their stakes to Anarock.
+The Indian Hotels Company Limited has entered into a strategic franchise arrangement with Lords Hotels & Resorts for IHCL's Ginger brand. Economic Laws Practice (ELP) advised IHCL on this arrangement.
 
-[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/universal-legal-acts-for-dsp-designs-on-its-sale-to-anarock-group)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/elp-advises-ihcl-on-strategic-franchise-arrangement-with-lords-hotels-resorts)
 
 ---
 

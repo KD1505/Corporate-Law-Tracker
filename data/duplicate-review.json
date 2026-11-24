@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T03:33:38.943Z",
+  "generatedAt": "2026-11-24T06:29:58.167Z",
   "groups": [
     {
       "headlineKey": "sammaan capital limited updates",
@@ -9379,6 +9379,26 @@
       ]
     },
     {
+      "headlineKey": "axiscades technologies limited",
+      "count": 2,
+      "entries": [
+        {
+          "id": "NSE-rss-d8fd6566efa7822de5d8da",
+          "headline": "AXISCADES Technologies Limited",
+          "time": "24 Nov 2026",
+          "kind": "deal",
+          "source": "https://nsearchives.nseindia.com/corporate/xbrl/REG30_Restructuring_1939_WebXMLFile_20261124_095630992.xml"
+        },
+        {
+          "id": "NSE-rss-e09fc77bc67b9ade3449db",
+          "headline": "AXISCADES Technologies Limited",
+          "time": "24 Nov 2026",
+          "kind": "deal",
+          "source": "https://nsearchives.nseindia.com/corporate/AXISCADES_24112026095411_IncorporationUK24112026.pdf"
+        }
+      ]
+    },
+    {
       "headlineKey": "anand rathi wealth limited",
       "count": 2,
       "entries": [
@@ -11535,26 +11555,6 @@
           "time": "13 Oct 2026",
           "kind": "deal",
           "source": "https://nsearchives.nseindia.com/corporate/SITINET_13102026211145_App_of_RP.pdf"
-        }
-      ]
-    },
-    {
-      "headlineKey": "orient cement limited copy of newspaper publication",
-      "count": 2,
-      "entries": [
-        {
-          "id": "nse-ORIENTCEM-13-Oct-2026191135",
-          "headline": "Orient Cement Limited: Copy of Newspaper Publication",
-          "time": "13 Oct 2026",
-          "kind": "disclosure",
-          "source": "https://nsearchives.nseindia.com/corporate/ORIENTCEM_13102026191119_OCL_Newspaper_Hearing_131012026.pdf"
-        },
-        {
-          "id": "nse-ORIENTCEM-27-Aug-2026143959",
-          "headline": "Orient Cement Limited: Copy of Newspaper Publication",
-          "time": "27 Aug 2026",
-          "kind": "disclosure",
-          "source": "https://nsearchives.nseindia.com/corporate/ORIENTCEM_27082026143739_OCL_Newspaper_Intimation_SE.pdf"
         }
       ]
     }
