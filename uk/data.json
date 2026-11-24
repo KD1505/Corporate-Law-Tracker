@@ -852,13 +852,29 @@
       "eventDate": "2026-11-05",
       "status": "Completed; undertakings accepted",
       "sector": "Retail",
-      "fact": "The CMA accepted commitments on 5 November 2026 to resolve its concerns over the already-completed acquisition without a Phase 2 reference.",
-      "analysis": "Completion does not necessarily end UK merger risk. A buyer completing before clearance may face restrictions on integration or remedial commitments; transaction documents should allocate these risks explicitly.",
+      "fact": "The societies announced plans to combine on 8 April 2026. Southern Co-op subsequently announced member approval and legal completion in July. The CMA accepted undertakings in lieu of a Phase 2 reference on 5 November 2026.",
+      "analysis": "A co-operative transfer of engagements has member-governance and continuity questions unlike a conventional listed-company takeover. Closing preceded the formal merger investigation, illustrating how UK merger review can constrain post-closing operations. The CMA's concerns involved local overlaps, making store and funeral-home catchments more informative than national market shares alone.",
       "watch": "Check the final undertakings and implementation updates.",
       "sources": [
         {
-          "name": "CMA case",
+          "name": "CMA — Case chronology and 5 November undertakings",
           "url": "https://www.gov.uk/cma-cases/co-operative-group-slash-southern-co-operative-merger-inquiry"
+        },
+        {
+          "name": "Co-op Group — 8 April 2026 combination announcement",
+          "url": "https://www.co-operative.coop/media/news-releases/co-op-group-and-southern-co-op-to-join-forces"
+        },
+        {
+          "name": "Southern Co-op — 22 May member vote announcement",
+          "url": "https://southern.coop/news/members-vote-to-join-forces-with-co-op-group"
+        },
+        {
+          "name": "Southern Co-op — July legal completion announcement",
+          "url": "https://southern.coop/news/co-op-group-and-southern-co-op-reach-major-transaction-milestone"
+        },
+        {
+          "name": "CMA — Proposed remedy package and local overlaps",
+          "url": "https://www.gov.uk/government/news/cma-proposes-to-accept-remedies-package-in-co-op-group-deal-to-address-competition-concerns"
         }
       ],
       "related": [
@@ -876,9 +892,24 @@
           "The Southern Co-operative Limited"
         ]
       ],
-      "structure": "Completed acquisition reviewed by the CMA.",
+      "structure": "Transfer of engagements involving Southern Co-operative and a Co-op Group subsidiary; not presented as a conventional share purchase.",
       "regulatory": "Phase 1 concerns resolved through undertakings in lieu accepted 5 November 2026. This is a remedy decision, not unconditional clearance.",
       "timeline": [
+        {
+          "date": "2026-04-08",
+          "event": "Proposed combination announced",
+          "source": "https://www.co-operative.coop/media/news-releases/co-op-group-and-southern-co-op-to-join-forces"
+        },
+        {
+          "date": "2026-05-22",
+          "event": "Member vote outcome announced",
+          "source": "https://southern.coop/news/members-vote-to-join-forces-with-co-op-group"
+        },
+        {
+          "date": "2026-07-26",
+          "event": "Legal completion",
+          "source": "https://www.gov.uk/cma-cases/co-operative-group-slash-southern-co-operative-merger-inquiry"
+        },
         {
           "date": "2026-07-30",
           "event": "Phase 1 inquiry launched",
@@ -896,7 +927,147 @@
         }
       ],
       "legalWork": "Post-closing integration controls and remedy compliance need an owner, deadlines and documentary evidence. Review final undertakings before specifying affected assets or operational commitments.",
-      "interview": "What risks arise from closing a UK merger before CMA clearance?"
+      "interview": "What risks arise from closing a UK merger before CMA clearance?",
+      "announcedOn": "2026-04-08",
+      "factSources": [
+        "https://www.co-operative.coop/media/news-releases/co-op-group-and-southern-co-op-to-join-forces",
+        "https://southern.coop/news/co-op-group-and-southern-co-op-reach-major-transaction-milestone",
+        "https://www.gov.uk/cma-cases/co-operative-group-slash-southern-co-operative-merger-inquiry"
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Structure",
+            "text": "The parties pursued a co-operative combination through transfer of engagements, rather than describing a conventional share acquisition.",
+            "qualification": "documented",
+            "evidence": [
+              {
+                "publisher": "Co-op Group",
+                "url": "https://www.co-operative.coop/media/news-releases/co-op-group-and-southern-co-op-to-join-forces",
+                "locator": "8 April 2026 combination announcement"
+              },
+              {
+                "publisher": "Southern Co-op",
+                "url": "https://southern.coop/news/co-op-group-and-southern-co-op-reach-major-transaction-milestone",
+                "locator": "July legal completion announcement"
+              },
+              {
+                "publisher": "CMA",
+                "url": "https://www.gov.uk/cma-cases/co-operative-group-slash-southern-co-operative-merger-inquiry",
+                "locator": "Case chronology and 5 November undertakings"
+              }
+            ]
+          },
+          {
+            "heading": "Chronology",
+            "text": "The member vote was reported in May; legal completion occurred in July before the CMA accepted undertakings in November.",
+            "qualification": "documented",
+            "evidence": [
+              {
+                "publisher": "Southern Co-op",
+                "url": "https://southern.coop/news/members-vote-to-join-forces-with-co-op-group",
+                "locator": "22 May member vote announcement"
+              },
+              {
+                "publisher": "Southern Co-op",
+                "url": "https://southern.coop/news/co-op-group-and-southern-co-op-reach-major-transaction-milestone",
+                "locator": "July legal completion announcement"
+              },
+              {
+                "publisher": "CMA",
+                "url": "https://www.gov.uk/cma-cases/co-operative-group-slash-southern-co-operative-merger-inquiry",
+                "locator": "Case chronology and 5 November undertakings"
+              }
+            ]
+          },
+          {
+            "heading": "Competition",
+            "text": "The CMA's proposed remedy package involved 15 convenience stores and two funeral homes; the final undertakings should be consulted for binding obligations.",
+            "qualification": "documented",
+            "evidence": [
+              {
+                "publisher": "CMA",
+                "url": "https://www.gov.uk/government/news/cma-proposes-to-accept-remedies-package-in-co-op-group-deal-to-address-competition-concerns",
+                "locator": "Proposed remedy package and local overlaps"
+              }
+            ]
+          },
+          {
+            "heading": "Commercial context",
+            "text": "The parties' combination announcement describes the intended benefits; those stated intentions are not established realised synergies.",
+            "qualification": "party-position",
+            "evidence": [
+              {
+                "publisher": "Co-op Group",
+                "url": "https://www.co-operative.coop/media/news-releases/co-op-group-and-southern-co-op-to-join-forces",
+                "locator": "8 April 2026 combination announcement"
+              }
+            ]
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Governance",
+            "question": "Which member approvals and statutory mechanics were required?",
+            "why": "Differentiate co-operative governance from shareholder approval.",
+            "documents": "Member vote and transfer documents."
+          },
+          {
+            "name": "Competition",
+            "question": "Which local catchments overlap?",
+            "why": "Evaluate local alternatives, not merely national concentration.",
+            "documents": "CMA decision and undertakings."
+          },
+          {
+            "name": "Remedies",
+            "question": "Which assets must be divested and by when?",
+            "why": "Establish binding obligations from final text.",
+            "documents": "Final undertakings and monitoring reports."
+          },
+          {
+            "name": "Integration",
+            "question": "How is service continuity maintained?",
+            "why": "Track post-closing restrictions and operational separation.",
+            "documents": "CMA orders and issuer updates."
+          }
+        ],
+        "documents": [
+          {
+            "title": "Co-op Group — 8 April 2026 combination announcement",
+            "url": "https://www.co-operative.coop/media/news-releases/co-op-group-and-southern-co-op-to-join-forces",
+            "purpose": "8 April 2026 combination announcement"
+          },
+          {
+            "title": "Southern Co-op — 22 May member vote announcement",
+            "url": "https://southern.coop/news/members-vote-to-join-forces-with-co-op-group",
+            "purpose": "22 May member vote announcement"
+          },
+          {
+            "title": "Southern Co-op — July legal completion announcement",
+            "url": "https://southern.coop/news/co-op-group-and-southern-co-op-reach-major-transaction-milestone",
+            "purpose": "July legal completion announcement"
+          },
+          {
+            "title": "CMA — Case chronology and 5 November undertakings",
+            "url": "https://www.gov.uk/cma-cases/co-operative-group-slash-southern-co-operative-merger-inquiry",
+            "purpose": "Case chronology and 5 November undertakings"
+          },
+          {
+            "title": "CMA — Proposed remedy package and local overlaps",
+            "url": "https://www.gov.uk/government/news/cma-proposes-to-accept-remedies-package-in-co-op-group-deal-to-address-competition-concerns",
+            "purpose": "Proposed remedy package and local overlaps"
+          }
+        ],
+        "openQuestions": [
+          "Final binding remedy terms and implementation",
+          "Any disclosed financial terms",
+          "Legal adviser mandates not yet established"
+        ],
+        "relatedDeals": [
+          "nexfibre-substantial"
+        ]
+      }
     },
     {
       "id": "vodafone-three",
@@ -3170,19 +3341,23 @@
       "parties": [
         [
           "Buyer",
-          "Vivisol"
+          "Dolby Medical Home Respiratory Care Limited (Vivisol)"
         ],
         [
-          "Target",
-          "Air Liquide UK home oxygen services business"
+          "Seller",
+          "Air Liquide Healthcare Limited"
+        ],
+        [
+          "Assets",
+          "South West England NHS home oxygen services contract, staff and plant"
         ]
       ],
-      "structure": "Proposed acquisition under CMA review; consideration and definitive structure not established.",
-      "fact": "CMA announced possible competition harm and a reference unless acceptable undertakings are offered.",
-      "regulatory": "CMA announced possible competition harm and a reference unless acceptable undertakings are offered.",
-      "analysis": "The published procedural milestone identifies regulatory risk, not a completed or prohibited transaction. Transaction economics require separate issuer or party evidence.",
+      "structure": "Business asset acquisition pursuant to a Business Purchase Agreement; price not established.",
+      "fact": "The CMA found a realistic prospect of substantial lessening of competition in UK home oxygen services. Its Phase 1 summary identifies four existing suppliers and two alternatives after the merger, one a relatively weak constraint. Undertakings are due by 26 November 2026.",
+      "regulatory": "Phase 1 concerns, not prohibition: CMA applied the share of supply test and assessed prevailing competition as the counterfactual. If no sufficient undertaking is offered, an in-depth reference follows under Enterprise Act 2002 sections 33(1) and 34ZA(2).",
+      "analysis": "The transferred assets serve one region, but the CMA assessed competition nationally. A remedy must address viable competitive alternatives and patient-service continuity rather than simply transfer nominal assets. The CMA found entry or expansion difficult; this is the regulator's assessment, not a prediction of a final decision.",
       "legalWork": "Assess regional supply and tender alternatives, continuity of patient services and viability of possible remedies; do not assume divestment terms.",
-      "watch": "Subsequent CMA decision or formal start.",
+      "watch": "Check undertakings deadline and subsequent CMA decision. Price, seller and buyer counsel remain unverified.",
       "interview": "Why is continuity of supply important when considering remedies in healthcare?",
       "timeline": [
         {
@@ -3195,11 +3370,23 @@
         {
           "name": "CMA case",
           "url": "https://www.gov.uk/cma-cases/vivisol-slash-air-liquide-home-oxygen-services-business-merger-inquiry"
+        },
+        {
+          "name": "CMA Phase 1 decision summary, paragraphs 1–16",
+          "url": "https://assets.publishing.service.gov.uk/media/6afe99192ee8ec8187b570fa/Summary_of_phase_1_decision.pdf"
         }
       ],
       "related": [
         "merger-control"
-      ]
+      ],
+      "factSources": [
+        "https://assets.publishing.service.gov.uk/media/6afe99192ee8ec8187b570fa/Summary_of_phase_1_decision.pdf"
+      ],
+      "deadline": {
+        "date": "2026-11-26",
+        "label": "Deadline for undertakings in lieu",
+        "source": "https://assets.publishing.service.gov.uk/media/6afe99192ee8ec8187b570fa/Summary_of_phase_1_decision.pdf"
+      }
     },
     {
       "jurisdiction": "UK",
@@ -4497,12 +4684,21 @@
         [
           "Target",
           "IE Investments S.à r.l. (ATG Entertainment)"
+        ],
+        [
+          "Seller",
+          "Providence Equity Partners"
         ]
       ],
-      "structure": "Anticipated acquisition; definitive price and financing not established.",
-      "fact": "On 16 November the CMA invited comments on the proposed acquisition. Its published timetable does not yet identify the formal Phase 1 start or decision date.",
+      "structure": "Definitive acquisition agreement; CMA identifies buyer and target holding vehicles. Consideration and financing not established.",
+      "fact": "MARI announced a definitive agreement to acquire ATG Entertainment from Providence Equity Partners on 11 August 2026; financial terms were not disclosed in the announcement. The CMA opened an invitation to comment on 16 November; formal Phase 1 had not yet begun as of the recorded review.",
       "regulatory": "Pre-notification is not the statutory Phase 1 investigation. Comments are requested by 1 December 2026.",
       "timeline": [
+        {
+          "date": "2026-08-11",
+          "event": "Definitive acquisition announced",
+          "source": "https://marigrp.com/press/mari-to-acquire-atg-entertainment"
+        },
         {
           "date": "2026-11-16",
           "event": "Invitation to comment opened",
@@ -4514,20 +4710,168 @@
         "label": "CMA invitation to comment closes",
         "source": "https://www.gov.uk/cma-cases/mari-slash-atg-entertainment-merger-inquiry"
       },
-      "analysis": "Live entertainment markets can involve distinct relationships among venues, promoters, ticketing and producers. A lawyer should identify the actual overlaps and market evidence before assuming a theory of harm.",
+      "analysis": "ATG's venue operations provide the buyer with access to live-entertainment infrastructure. Venue management, production and ticketing may involve separate markets and contractual rights; this is a diligence hypothesis, not a finding of competitive harm. The commercial logic should be assessed against the buyer's existing operations and actual contract perimeter.",
       "legalWork": "Map relevant commercial relationships, venue rights, ticketing arrangements and the regulatory timetable; review conditions and remedy allocation.",
       "interview": "What distinguishes early market testing from a formal merger investigation?",
       "watch": "Formal inquiry announcement or revised timetable.",
       "sources": [
         {
-          "name": "CMA case",
+          "name": "CMA — Invitation to comment and legal entity names",
           "url": "https://www.gov.uk/cma-cases/mari-slash-atg-entertainment-merger-inquiry"
+        },
+        {
+          "name": "MARI — 11 August 2026 announcement; businesses and advisers",
+          "url": "https://marigrp.com/press/mari-to-acquire-atg-entertainment"
+        },
+        {
+          "name": "Kirkland & Ellis — Providence sale mandate",
+          "url": "https://www.kirkland.com/news/press-release/2026/08/kirkland-advises-providence-equity-partners-on-sale-of-atg-to-mari"
         }
       ],
       "related": [
         "merger-control",
         "due-diligence"
-      ]
+      ],
+      "announcedOn": "2026-08-11",
+      "factSources": [
+        "https://marigrp.com/press/mari-to-acquire-atg-entertainment",
+        "https://www.gov.uk/cma-cases/mari-slash-atg-entertainment-merger-inquiry"
+      ],
+      "advisers": [
+        {
+          "firm": "Akin Gump",
+          "firmId": "akin-gump",
+          "client": "MARI",
+          "scope": "Legal adviser",
+          "source": "https://marigrp.com/press/mari-to-acquire-atg-entertainment"
+        },
+        {
+          "firm": "Kirkland & Ellis",
+          "firmId": "kirkland-ellis",
+          "client": "Providence Equity Partners",
+          "scope": "Sale counsel",
+          "source": "https://www.kirkland.com/news/press-release/2026/08/kirkland-advises-providence-equity-partners-on-sale-of-atg-to-mari"
+        }
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Business and deal perimeter",
+            "text": "The buyer announced the acquisition of ATG, a live-entertainment venue operator, from Providence; the CMA identifies the relevant holding entities.",
+            "qualification": "documented",
+            "evidence": [
+              {
+                "publisher": "MARI",
+                "url": "https://marigrp.com/press/mari-to-acquire-atg-entertainment",
+                "locator": "11 August 2026 announcement; businesses and advisers"
+              },
+              {
+                "publisher": "CMA",
+                "url": "https://www.gov.uk/cma-cases/mari-slash-atg-entertainment-merger-inquiry",
+                "locator": "Invitation to comment and legal entity names"
+              },
+              {
+                "publisher": "Kirkland & Ellis",
+                "url": "https://www.kirkland.com/news/press-release/2026/08/kirkland-advises-providence-equity-partners-on-sale-of-atg-to-mari",
+                "locator": "Providence sale mandate"
+              }
+            ]
+          },
+          {
+            "heading": "Economics",
+            "text": "The transaction announcement does not disclose financial terms; absence of a published price is not evidence that the price is zero.",
+            "qualification": "documented",
+            "evidence": [
+              {
+                "publisher": "MARI",
+                "url": "https://marigrp.com/press/mari-to-acquire-atg-entertainment",
+                "locator": "11 August 2026 announcement; businesses and advisers"
+              }
+            ]
+          },
+          {
+            "heading": "Advisers",
+            "text": "MARI identifies Akin Gump; Kirkland independently identifies Providence as its sale client.",
+            "qualification": "documented",
+            "evidence": [
+              {
+                "publisher": "MARI",
+                "url": "https://marigrp.com/press/mari-to-acquire-atg-entertainment",
+                "locator": "11 August 2026 announcement; businesses and advisers"
+              },
+              {
+                "publisher": "Kirkland & Ellis",
+                "url": "https://www.kirkland.com/news/press-release/2026/08/kirkland-advises-providence-equity-partners-on-sale-of-atg-to-mari",
+                "locator": "Providence sale mandate"
+              }
+            ]
+          },
+          {
+            "heading": "Regulatory sequence",
+            "text": "The invitation to comment closes on 1 December 2026; no formal Phase 1 start date is recorded on the case timetable.",
+            "qualification": "documented",
+            "evidence": [
+              {
+                "publisher": "CMA",
+                "url": "https://www.gov.uk/cma-cases/mari-slash-atg-entertainment-merger-inquiry",
+                "locator": "Invitation to comment and legal entity names"
+              }
+            ]
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Corporate",
+            "question": "What entities and venue rights are transferred?",
+            "why": "Define share and contractual perimeter.",
+            "documents": "Definitive announcement; transaction documents if public."
+          },
+          {
+            "name": "Commercial",
+            "question": "How do venue, promotion and ticketing economics interact?",
+            "why": "Identify actual revenue streams and dependencies.",
+            "documents": "Issuer descriptions; venue contracts if public."
+          },
+          {
+            "name": "Competition",
+            "question": "Where could the parties overlap?",
+            "why": "Separate possible horizontal or vertical theories from established findings.",
+            "documents": "CMA invitation and later decision."
+          },
+          {
+            "name": "Finance",
+            "question": "Are acquisition funding or leverage terms available?",
+            "why": "Avoid attributing sponsor financing without disclosure.",
+            "documents": "Issuer, lender and financial adviser releases."
+          }
+        ],
+        "documents": [
+          {
+            "title": "MARI — 11 August 2026 announcement; businesses and advisers",
+            "url": "https://marigrp.com/press/mari-to-acquire-atg-entertainment",
+            "purpose": "11 August 2026 announcement; businesses and advisers"
+          },
+          {
+            "title": "CMA — Invitation to comment and legal entity names",
+            "url": "https://www.gov.uk/cma-cases/mari-slash-atg-entertainment-merger-inquiry",
+            "purpose": "Invitation to comment and legal entity names"
+          },
+          {
+            "title": "Kirkland & Ellis — Providence sale mandate",
+            "url": "https://www.kirkland.com/news/press-release/2026/08/kirkland-advises-providence-equity-partners-on-sale-of-atg-to-mari",
+            "purpose": "Providence sale mandate"
+          }
+        ],
+        "openQuestions": [
+          "Price, financing and full adviser list",
+          "Formal Phase 1 start and final competition decision",
+          "Definitive structure and conditions beyond announcement"
+        ],
+        "relatedDeals": [
+          "nexfibre-substantial"
+        ]
+      }
     },
     {
       "jurisdiction": "UK",
@@ -4549,10 +4893,15 @@
           "Substantial group (Netomnia, Brsk, Brsk ISP and YouFibre)"
         ]
       ],
-      "structure": "Anticipated acquisition under in-depth merger investigation.",
-      "fact": "CMA referred the acquisition for Phase 2 on 1 July at the parties' request. Its interim findings raised concerns about wholesale fixed broadband on 2 October. Further responses and a derogation were published on 18 November.",
+      "structure": "Proposed acquisition of Substantial by nexfibre, with a separate onward acquisition of retail operations by Virgin Media O2; subject to approvals.",
+      "fact": "The parties announced the proposed £2bn enterprise-value acquisition on 18 February 2026. The CMA fast-tracked the case to Phase 2 on 1 July; provisional wholesale broadband concerns were published on 2 October. The deal remains under review.",
       "regulatory": "Provisional findings are not final. Published statutory deadline is 15 December 2026, subject to change.",
       "timeline": [
+        {
+          "date": "2026-02-18",
+          "event": "Proposed acquisition announced",
+          "source": "https://www.libertyglobal.com/liberty-global-substantial-group-nexfibre/"
+        },
         {
           "date": "2026-06-29",
           "event": "Formal inquiry opened",
@@ -4579,20 +4928,225 @@
         "label": "CMA Phase 2 statutory deadline",
         "source": "https://www.gov.uk/cma-cases/nexfibre-slash-substantial-merger-inquiry"
       },
-      "analysis": "Fibre-network consolidation may affect investment scale and wholesale alternatives. Assess counterfactual network roll-out, geographic coverage and access agreements rather than assuming claimed efficiencies offset concerns.",
+      "analysis": "Wholesale network ownership and the separate retail transfer create different commercial and regulatory workstreams. The parties' claimed scale and investment benefits must be tested against the CMA's provisional concerns about independent wholesale alternatives; funding commitments are not the purchase price.",
       "legalWork": "Review evidence supporting efficiencies and market definition; assess remedy feasibility, financing dependencies, interim undertakings and permitted integration activities.",
       "interview": "How do competition authorities assess investment efficiencies against reduced wholesale competition?",
       "watch": "Final Phase 2 decision and possible remedies.",
       "sources": [
         {
-          "name": "CMA case and chronology",
+          "name": "CMA — Phase 2 case chronology and provisional findings",
           "url": "https://www.gov.uk/cma-cases/nexfibre-slash-substantial-merger-inquiry"
+        },
+        {
+          "name": "Liberty Global — 18 February 2026 joint transaction announcement",
+          "url": "https://www.libertyglobal.com/liberty-global-substantial-group-nexfibre/"
+        },
+        {
+          "name": "Linklaters — Mandate announcement",
+          "url": "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/february/linklaters-advises-nexfibre"
+        },
+        {
+          "name": "A&O Shearman — Mandate announcement",
+          "url": "https://www.aoshearman.com/en/news/ao-shearman-represents-liberty-global-telefonica-and-virgin-media"
+        },
+        {
+          "name": "Proskauer — Lender mandate announcement",
+          "url": "https://www.proskauer.com/release/proskauer-advises-the-lenders-of-nexfibre-the-infravia-liberty-global-and-telefnica-joint-venture-in-respect-of-the-2-billion-acquisition-of-substantial-group"
         }
       ],
       "related": [
         "merger-control",
         "project-finance"
-      ]
+      ],
+      "announcedOn": "2026-02-18",
+      "factSources": [
+        "https://www.libertyglobal.com/liberty-global-substantial-group-nexfibre/",
+        "https://www.gov.uk/cma-cases/nexfibre-slash-substantial-merger-inquiry"
+      ],
+      "values": [
+        {
+          "label": "Announced enterprise value",
+          "amount": "£2 billion",
+          "basis": "Enterprise value of Substantial",
+          "currency": "GBP",
+          "numericAmount": 2000000000,
+          "unit": "currency",
+          "disclosure": "stated",
+          "source": "https://www.libertyglobal.com/liberty-global-substantial-group-nexfibre/"
+        },
+        {
+          "label": "New net funding",
+          "amount": "£1 billion",
+          "basis": "New net funding for transaction, not consideration",
+          "currency": "GBP",
+          "numericAmount": 1000000000,
+          "unit": "currency",
+          "disclosure": "stated",
+          "source": "https://www.libertyglobal.com/liberty-global-substantial-group-nexfibre/"
+        },
+        {
+          "label": "Separate onward retail transaction",
+          "amount": "£150 million",
+          "basis": "Proposed onward retail operations acquisition by VMO2",
+          "currency": "GBP",
+          "numericAmount": 150000000,
+          "unit": "currency",
+          "disclosure": "stated",
+          "source": "https://www.libertyglobal.com/liberty-global-substantial-group-nexfibre/"
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "Linklaters",
+          "firmId": "linklaters",
+          "client": "nexfibre and its investors",
+          "scope": "Acquisition",
+          "source": "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/february/linklaters-advises-nexfibre"
+        },
+        {
+          "firm": "A&O Shearman",
+          "firmId": "ao-shearman",
+          "client": "Liberty Global, Telefónica and Virgin Media O2",
+          "scope": "Transaction advice",
+          "source": "https://www.aoshearman.com/en/news/ao-shearman-represents-liberty-global-telefonica-and-virgin-media"
+        },
+        {
+          "firm": "Proskauer Rose",
+          "firmId": "proskauer",
+          "client": "Lenders to nexfibre",
+          "scope": "Financing counsel",
+          "source": "https://www.proskauer.com/release/proskauer-advises-the-lenders-of-nexfibre-the-infravia-liberty-global-and-telefnica-joint-venture-in-respect-of-the-2-billion-acquisition-of-substantial-group"
+        }
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Economics",
+            "text": "The announced £2bn enterprise value is distinct from £1bn new net funding and the separate £150m retail transfer.",
+            "qualification": "documented",
+            "evidence": [
+              {
+                "publisher": "Liberty Global",
+                "url": "https://www.libertyglobal.com/liberty-global-substantial-group-nexfibre/",
+                "locator": "18 February 2026 joint transaction announcement"
+              },
+              {
+                "publisher": "Linklaters",
+                "url": "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/february/linklaters-advises-nexfibre",
+                "locator": "Mandate announcement"
+              }
+            ]
+          },
+          {
+            "heading": "Funding",
+            "text": "The announcement allocates £850m of new net funding to InfraVia and £150m jointly to Liberty Global and Telefónica; facility terms are not established here.",
+            "qualification": "documented",
+            "evidence": [
+              {
+                "publisher": "Liberty Global",
+                "url": "https://www.libertyglobal.com/liberty-global-substantial-group-nexfibre/",
+                "locator": "18 February 2026 joint transaction announcement"
+              }
+            ]
+          },
+          {
+            "heading": "Regulatory",
+            "text": "The CMA's Phase 2 provisional wholesale competition concerns are not a final prohibition; the published deadline is 15 December 2026.",
+            "qualification": "documented",
+            "evidence": [
+              {
+                "publisher": "CMA",
+                "url": "https://www.gov.uk/cma-cases/nexfibre-slash-substantial-merger-inquiry",
+                "locator": "Phase 2 case chronology and provisional findings"
+              }
+            ]
+          },
+          {
+            "heading": "Counsel",
+            "text": "Buyer/investor-side and lender mandates are distinct; Proskauer represents lenders, not the acquirer.",
+            "qualification": "documented",
+            "evidence": [
+              {
+                "publisher": "Linklaters",
+                "url": "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/february/linklaters-advises-nexfibre",
+                "locator": "Mandate announcement"
+              },
+              {
+                "publisher": "A&O Shearman",
+                "url": "https://www.aoshearman.com/en/news/ao-shearman-represents-liberty-global-telefonica-and-virgin-media",
+                "locator": "Mandate announcement"
+              },
+              {
+                "publisher": "Proskauer",
+                "url": "https://www.proskauer.com/release/proskauer-advises-the-lenders-of-nexfibre-the-infravia-liberty-global-and-telefnica-joint-venture-in-respect-of-the-2-billion-acquisition-of-substantial-group",
+                "locator": "Lender mandate announcement"
+              }
+            ]
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Corporate",
+            "question": "How is the onward retail transfer conditional on the wholesale acquisition?",
+            "why": "Separate asset perimeter and linked completion risk.",
+            "documents": "Transaction announcement; definitive agreements if public."
+          },
+          {
+            "name": "Finance",
+            "question": "How are sponsor funds and lender commitments allocated?",
+            "why": "Funding cannot be counted as acquisition value.",
+            "documents": "Funding and lender disclosures."
+          },
+          {
+            "name": "Competition",
+            "question": "Which wholesale alternatives remain under the counterfactual?",
+            "why": "Assess geographic overlaps and independent network investment.",
+            "documents": "CMA provisional findings and submissions."
+          },
+          {
+            "name": "Integration",
+            "question": "What conduct is allowed before clearance?",
+            "why": "Avoid premature integration and preserve remedy options.",
+            "documents": "CMA orders, derogations and final decision."
+          }
+        ],
+        "documents": [
+          {
+            "title": "Liberty Global — 18 February 2026 joint transaction announcement",
+            "url": "https://www.libertyglobal.com/liberty-global-substantial-group-nexfibre/",
+            "purpose": "18 February 2026 joint transaction announcement"
+          },
+          {
+            "title": "CMA — Phase 2 case chronology and provisional findings",
+            "url": "https://www.gov.uk/cma-cases/nexfibre-slash-substantial-merger-inquiry",
+            "purpose": "Phase 2 case chronology and provisional findings"
+          },
+          {
+            "title": "Linklaters — Mandate announcement",
+            "url": "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/february/linklaters-advises-nexfibre",
+            "purpose": "Mandate announcement"
+          },
+          {
+            "title": "A&O Shearman — Mandate announcement",
+            "url": "https://www.aoshearman.com/en/news/ao-shearman-represents-liberty-global-telefonica-and-virgin-media",
+            "purpose": "Mandate announcement"
+          },
+          {
+            "title": "Proskauer — Lender mandate announcement",
+            "url": "https://www.proskauer.com/release/proskauer-advises-the-lenders-of-nexfibre-the-infravia-liberty-global-and-telefnica-joint-venture-in-respect-of-the-2-billion-acquisition-of-substantial-group",
+            "purpose": "Lender mandate announcement"
+          }
+        ],
+        "openQuestions": [
+          "Actual final clearance or remedy outcome",
+          "Definitive financing terms and seller-side counsel",
+          "Completion dates and final consideration"
+        ],
+        "relatedDeals": [
+          "mari-atg"
+        ]
+      }
     },
     {
       "jurisdiction": "UK",
@@ -7449,6 +8003,13 @@
       "url": "https://www.fenwick.com/careers/experienced-lawyers",
       "research": "Technology M&A and US transaction documentation.",
       "programme": "See official recruitment information; no current vacancy or UK qualification route asserted."
+    },
+    {
+      "id": "akin-gump",
+      "name": "Akin Gump",
+      "programme": "Consult the firm's official UK early-careers information.",
+      "url": "https://www.akingump.com/en/careers/uk-students",
+      "research": "Distinguish buyer counsel from seller counsel using transaction-specific announcements."
     }
   ],
   "registry": [

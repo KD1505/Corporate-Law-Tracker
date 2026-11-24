@@ -4,142 +4,6 @@
   "count": 40,
   "rows": [
     {
-      "id": "coop-southern",
-      "title": "Co-operative Group / Southern Co-operative",
-      "type": "Completed M&A",
-      "status": "Completed; undertakings accepted",
-      "sourceUrls": 1,
-      "distinctHosts": 1,
-      "independentOrigins": null,
-      "claims": 0,
-      "advisers": 0,
-      "financialValues": 0,
-      "announcementDate": null,
-      "eventSourceLinks": 0,
-      "structuralErrors": [],
-      "priority": 18,
-      "researchLeads": [
-        "https://www.gov.uk/cma-cases/co-operative-group-slash-southern-co-operative-merger-inquiry"
-      ],
-      "openQuestions": [],
-      "tasks": [
-        "Deep original-document research; economics, business rationale and legal workstreams",
-        "Search separate source origins; assess corroboration by claim",
-        "Recover buyer, seller and specialist counsel mandates",
-        "Find consideration and valuation basis or log non-disclosure",
-        "Establish announcement date rather than regulator milestone",
-        "Map summary assertions to precise evidence",
-        "Investigate funding and document non-disclosure",
-        "Review agreement, business perimeter, regulatory status and close/withdrawal",
-        "Review each material claim, original source, independence and current status"
-      ],
-      "qualityScore": null,
-      "reviewState": "structural-screen-complete; independent claim audit pending",
-      "commercialGate": "not-certified"
-    },
-    {
-      "id": "mari-atg",
-      "title": "MARI / ATG Entertainment",
-      "type": "M&A / regulatory review",
-      "status": "Pre-notification / invitation to comment",
-      "sourceUrls": 1,
-      "distinctHosts": 1,
-      "independentOrigins": null,
-      "claims": 0,
-      "advisers": 0,
-      "financialValues": 0,
-      "announcementDate": null,
-      "eventSourceLinks": 0,
-      "structuralErrors": [],
-      "priority": 18,
-      "researchLeads": [
-        "https://www.gov.uk/cma-cases/mari-slash-atg-entertainment-merger-inquiry"
-      ],
-      "openQuestions": [],
-      "tasks": [
-        "Deep original-document research; economics, business rationale and legal workstreams",
-        "Search separate source origins; assess corroboration by claim",
-        "Recover buyer, seller and specialist counsel mandates",
-        "Find consideration and valuation basis or log non-disclosure",
-        "Establish announcement date rather than regulator milestone",
-        "Map summary assertions to precise evidence",
-        "Investigate funding and document non-disclosure",
-        "Review agreement, business perimeter, regulatory status and close/withdrawal",
-        "Review each material claim, original source, independence and current status"
-      ],
-      "qualityScore": null,
-      "reviewState": "structural-screen-complete; independent claim audit pending",
-      "commercialGate": "not-certified"
-    },
-    {
-      "id": "nexfibre-substantial",
-      "title": "nexfibre / Substantial",
-      "type": "Cross-border M&A",
-      "status": "Phase 2; provisional concerns",
-      "sourceUrls": 1,
-      "distinctHosts": 1,
-      "independentOrigins": null,
-      "claims": 0,
-      "advisers": 0,
-      "financialValues": 0,
-      "announcementDate": null,
-      "eventSourceLinks": 0,
-      "structuralErrors": [],
-      "priority": 18,
-      "researchLeads": [
-        "https://www.gov.uk/cma-cases/nexfibre-slash-substantial-merger-inquiry"
-      ],
-      "openQuestions": [],
-      "tasks": [
-        "Deep original-document research; economics, business rationale and legal workstreams",
-        "Search separate source origins; assess corroboration by claim",
-        "Recover buyer, seller and specialist counsel mandates",
-        "Find consideration and valuation basis or log non-disclosure",
-        "Establish announcement date rather than regulator milestone",
-        "Map summary assertions to precise evidence",
-        "Investigate funding and document non-disclosure",
-        "Review agreement, business perimeter, regulatory status and close/withdrawal",
-        "Review each material claim, original source, independence and current status"
-      ],
-      "qualityScore": null,
-      "reviewState": "structural-screen-complete; independent claim audit pending",
-      "commercialGate": "not-certified"
-    },
-    {
-      "id": "vivisol-airliquide",
-      "title": "Vivisol / Air Liquide UK home oxygen business",
-      "type": "M&A / regulatory review",
-      "status": "Phase 1 concerns",
-      "sourceUrls": 1,
-      "distinctHosts": 1,
-      "independentOrigins": null,
-      "claims": 0,
-      "advisers": 0,
-      "financialValues": 0,
-      "announcementDate": null,
-      "eventSourceLinks": 0,
-      "structuralErrors": [],
-      "priority": 18,
-      "researchLeads": [
-        "https://www.gov.uk/cma-cases/vivisol-slash-air-liquide-home-oxygen-services-business-merger-inquiry"
-      ],
-      "openQuestions": [],
-      "tasks": [
-        "Deep original-document research; economics, business rationale and legal workstreams",
-        "Search separate source origins; assess corroboration by claim",
-        "Recover buyer, seller and specialist counsel mandates",
-        "Find consideration and valuation basis or log non-disclosure",
-        "Establish announcement date rather than regulator milestone",
-        "Map summary assertions to precise evidence",
-        "Investigate funding and document non-disclosure",
-        "Review agreement, business perimeter, regulatory status and close/withdrawal",
-        "Review each material claim, original source, independence and current status"
-      ],
-      "qualityScore": null,
-      "reviewState": "structural-screen-complete; independent claim audit pending",
-      "commercialGate": "not-certified"
-    },
-    {
       "id": "abp-ifm",
       "title": "IFM Investors / Associated British Ports stakes",
       "type": "Infrastructure M&A",
@@ -328,6 +192,39 @@
         "Recover buyer, seller and specialist counsel mandates",
         "Find consideration and valuation basis or log non-disclosure",
         "Map summary assertions to precise evidence",
+        "Investigate funding and document non-disclosure",
+        "Review agreement, business perimeter, regulatory status and close/withdrawal",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "vivisol-airliquide",
+      "title": "Vivisol / Air Liquide UK home oxygen business",
+      "type": "M&A / regulatory review",
+      "status": "Phase 1 concerns",
+      "sourceUrls": 2,
+      "distinctHosts": 2,
+      "independentOrigins": null,
+      "claims": 0,
+      "advisers": 0,
+      "financialValues": 0,
+      "announcementDate": null,
+      "eventSourceLinks": 1,
+      "structuralErrors": [],
+      "priority": 11,
+      "researchLeads": [
+        "https://www.gov.uk/cma-cases/vivisol-slash-air-liquide-home-oxygen-services-business-merger-inquiry",
+        "https://assets.publishing.service.gov.uk/media/6afe99192ee8ec8187b570fa/Summary_of_phase_1_decision.pdf"
+      ],
+      "openQuestions": [],
+      "tasks": [
+        "Deep original-document research; economics, business rationale and legal workstreams",
+        "Recover buyer, seller and specialist counsel mandates",
+        "Find consideration and valuation basis or log non-disclosure",
+        "Establish announcement date rather than regulator milestone",
         "Investigate funding and document non-disclosure",
         "Review agreement, business perimeter, regulatory status and close/withdrawal",
         "Review each material claim, original source, independence and current status"
@@ -623,6 +520,44 @@
       "commercialGate": "not-certified"
     },
     {
+      "id": "coop-southern",
+      "title": "Co-operative Group / Southern Co-operative",
+      "type": "Completed M&A",
+      "status": "Completed; undertakings accepted",
+      "sourceUrls": 5,
+      "distinctHosts": 3,
+      "independentOrigins": null,
+      "claims": 4,
+      "advisers": 0,
+      "financialValues": 0,
+      "announcementDate": "2026-04-08",
+      "eventSourceLinks": 3,
+      "structuralErrors": [],
+      "priority": 5,
+      "researchLeads": [
+        "https://www.gov.uk/cma-cases/co-operative-group-slash-southern-co-operative-merger-inquiry",
+        "https://www.co-operative.coop/media/news-releases/co-op-group-and-southern-co-op-to-join-forces",
+        "https://southern.coop/news/members-vote-to-join-forces-with-co-op-group",
+        "https://southern.coop/news/co-op-group-and-southern-co-op-reach-major-transaction-milestone",
+        "https://www.gov.uk/government/news/cma-proposes-to-accept-remedies-package-in-co-op-group-deal-to-address-competition-concerns"
+      ],
+      "openQuestions": [
+        "Final binding remedy terms and implementation",
+        "Any disclosed financial terms",
+        "Legal adviser mandates not yet established"
+      ],
+      "tasks": [
+        "Recover buyer, seller and specialist counsel mandates",
+        "Find consideration and valuation basis or log non-disclosure",
+        "Investigate funding and document non-disclosure",
+        "Review agreement, business perimeter, regulatory status and close/withdrawal",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
       "id": "athora-picg",
       "title": "Athora / Pension Insurance Corporation Group",
       "type": "Cross-border M&A",
@@ -821,6 +756,41 @@
         "Find consideration and valuation basis or log non-disclosure",
         "Investigate funding and document non-disclosure",
         "Review sponsor, ownership, financing and exit terms",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "mari-atg",
+      "title": "MARI / ATG Entertainment",
+      "type": "M&A / regulatory review",
+      "status": "Pre-notification / invitation to comment",
+      "sourceUrls": 3,
+      "distinctHosts": 3,
+      "independentOrigins": null,
+      "claims": 4,
+      "advisers": 2,
+      "financialValues": 0,
+      "announcementDate": "2026-08-11",
+      "eventSourceLinks": 2,
+      "structuralErrors": [],
+      "priority": 2,
+      "researchLeads": [
+        "https://www.gov.uk/cma-cases/mari-slash-atg-entertainment-merger-inquiry",
+        "https://marigrp.com/press/mari-to-acquire-atg-entertainment",
+        "https://www.kirkland.com/news/press-release/2026/08/kirkland-advises-providence-equity-partners-on-sale-of-atg-to-mari"
+      ],
+      "openQuestions": [
+        "Price, financing and full adviser list",
+        "Formal Phase 1 start and final competition decision",
+        "Definitive structure and conditions beyond announcement"
+      ],
+      "tasks": [
+        "Find consideration and valuation basis or log non-disclosure",
+        "Investigate funding and document non-disclosure",
+        "Review agreement, business perimeter, regulatory status and close/withdrawal",
         "Review each material claim, original source, independence and current status"
       ],
       "qualityScore": null,
@@ -1179,6 +1149,42 @@
       "commercialGate": "not-certified"
     },
     {
+      "id": "nexfibre-substantial",
+      "title": "nexfibre / Substantial",
+      "type": "Cross-border M&A",
+      "status": "Phase 2; provisional concerns",
+      "sourceUrls": 5,
+      "distinctHosts": 5,
+      "independentOrigins": null,
+      "claims": 4,
+      "advisers": 3,
+      "financialValues": 3,
+      "announcementDate": "2026-02-18",
+      "eventSourceLinks": 2,
+      "structuralErrors": [],
+      "priority": 0,
+      "researchLeads": [
+        "https://www.gov.uk/cma-cases/nexfibre-slash-substantial-merger-inquiry",
+        "https://www.libertyglobal.com/liberty-global-substantial-group-nexfibre/",
+        "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/february/linklaters-advises-nexfibre",
+        "https://www.aoshearman.com/en/news/ao-shearman-represents-liberty-global-telefonica-and-virgin-media",
+        "https://www.proskauer.com/release/proskauer-advises-the-lenders-of-nexfibre-the-infravia-liberty-global-and-telefnica-joint-venture-in-respect-of-the-2-billion-acquisition-of-substantial-group"
+      ],
+      "openQuestions": [
+        "Actual final clearance or remedy outcome",
+        "Definitive financing terms and seller-side counsel",
+        "Completion dates and final consideration"
+      ],
+      "tasks": [
+        "Investigate funding and document non-disclosure",
+        "Review agreement, business perimeter, regulatory status and close/withdrawal",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
       "id": "ocs-mitie",
       "title": "OCS / Mitie",
       "type": "Public M&A",
@@ -1356,15 +1362,15 @@
     }
   ],
   "metrics": {
-    "deep": 19,
-    "singleSource": 7,
-    "missingAdvisers": 8,
-    "missingValues": 14,
-    "missingAnnouncement": 14,
-    "missingEventEvidence": 15,
-    "sourceReferences": 145,
-    "adviserAssociations": 50,
-    "findings": 76,
+    "deep": 22,
+    "singleSource": 3,
+    "missingAdvisers": 6,
+    "missingValues": 13,
+    "missingAnnouncement": 11,
+    "missingEventEvidence": 11,
+    "sourceReferences": 156,
+    "adviserAssociations": 55,
+    "findings": 88,
     "structuralErrors": 0
   }
 }
