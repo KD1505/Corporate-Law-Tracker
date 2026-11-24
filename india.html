@@ -980,8 +980,10 @@ html[data-theme="light"] header{border-top:3px solid var(--clt-brand,#16243f)}ht
   // Never automatically transfer the full legacy data.js when the index fails.
   function fetchBounded(url,options={},ms=12000){
     const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),ms);
-    return fetch(url,{...options,signal:controller.signal}).finally(()=>clearTimeout(timer));
+    return fetch(url,{...options,signal:controller.signal}).then(function(r){return {ok:r.ok,status:r.status,json:function(){return r.json().finally(()=>clearTimeout(timer))},text:function(){return r.text().finally(()=>clearTimeout(timer))}}},function(e){clearTimeout(timer);throw e});
   }
+  var curatedRequest=fetchBounded("data/curated-deals.json",{cache:"no-cache"},8000).then(function(r){if(!r.ok)throw new Error("curated "+r.status);return r.json();}).catch(function(e){console.warn("CorpLawTracker: curated records unavailable ("+e.message+")");return null;});
+  var aliasesRequest=fetchBounded("data/company-aliases.json",{},8000).then(function(r){if(!r.ok)throw Error(r.status);return r.json();}).catch(function(){return {entities:[]};});
   var data=fetchBounded("data/index.json")
     .then(function(r){if(!r.ok)throw new Error("index unavailable");return r.json();})
     .then(fromIndex)
@@ -990,8 +992,7 @@ html[data-theme="light"] header{border-top:3px solid var(--clt-brand,#16243f)}ht
     // nightly-generated feed. Merge AFTER either index or legacy loads so the
     // carefully sourced record appears immediately and is never overwritten.
     .then(function(){
-      return fetchBounded("data/curated-deals.json",{cache:"no-cache"},8000)
-        .then(function(r){if(!r.ok)throw new Error("curated "+r.status);return r.json();})
+      return curatedRequest
         .then(function(curated){
           if(!Array.isArray(curated))throw new Error("curated-deals must be an array");
           window.CLT_DATA=window.CLT_DATA||{};
@@ -1001,7 +1002,7 @@ html[data-theme="light"] header{border-top:3px solid var(--clt-brand,#16243f)}ht
         })
         .catch(function(e){console.warn("CorpLawTracker: curated records unavailable ("+e.message+")");});
     })
-    .then(function(){return fetchBounded("data/company-aliases.json",{},8000).then(function(r){if(!r.ok)throw Error(r.status);return r.json();})
+    .then(function(){return aliasesRequest
       .then(function(x){window.CLT_COMPANY_ALIASES=Array.isArray(x.entities)?x.entities:[];})
       .catch(function(){window.CLT_COMPANY_ALIASES=[];});});
 
