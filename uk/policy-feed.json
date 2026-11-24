@@ -1,11 +1,16 @@
 {
-  "attemptedAt": "2026-11-24T09:00:32.759Z",
+  "attemptedAt": "2026-11-24T09:02:48.203Z",
   "sources": [
     {
       "name": "Treasury",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:00:31.900Z",
+      "checkedAt": "2026-11-24T09:02:47.106Z",
       "items": [
+        {
+          "title": "Better regulation chief appointed to cut unnecessary bureaucracy",
+          "url": "https://www.gov.uk/government/news/better-regulation-chief-appointed-to-cut-unnecessary-bureaucracy",
+          "date": "2026-11-24T09:01:06.000Z"
+        },
         {
           "title": "National risk assessment of proliferation financing 2026",
           "url": "https://www.gov.uk/government/publications/national-risk-assessment-of-proliferation-financing-2026",
@@ -75,18 +80,13 @@
           "title": "Stronger savings for hundreds of thousands of workers",
           "url": "https://www.gov.uk/government/news/stronger-savings-for-hundreds-of-thousands-of-workers",
           "date": "2026-11-14T11:07:16.000Z"
-        },
-        {
-          "title": "Ukraine’s drone pioneers bring battle-tested tech and high-skilled jobs to Britain",
-          "url": "https://www.gov.uk/government/news/ukraines-drone-pioneers-bring-battle-tested-tech-and-high-skilled-jobs-to-britain",
-          "date": "2026-11-12T17:07:37.000Z"
         }
       ]
     },
     {
       "name": "Companies House",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:00:31.887Z",
+      "checkedAt": "2026-11-24T09:02:47.027Z",
       "items": [
         {
           "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
@@ -168,7 +168,7 @@
     {
       "name": "CMA policy",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:00:31.307Z",
+      "checkedAt": "2026-11-24T09:02:47.388Z",
       "items": [
         {
           "title": "BAE Systems undertakings review",
@@ -245,7 +245,7 @@
     {
       "name": "Business department",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:00:32.713Z",
+      "checkedAt": "2026-11-24T09:02:48.091Z",
       "items": [
         {
           "title": "British Industrial Competitiveness Scheme: funding information",
@@ -327,7 +327,7 @@
     {
       "name": "Bank of England",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:00:32.356Z",
+      "checkedAt": "2026-11-24T09:02:47.897Z",
       "items": [
         {
           "title": "General insurance stress test highlights value of rehearsing crisis response and recovery",
@@ -409,8 +409,13 @@
     {
       "name": "PRA",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:00:32.512Z",
+      "checkedAt": "2026-11-24T09:02:47.895Z",
       "items": [
+        {
+          "title": "DP3/26 – Critical third parties: regulatory fees and cost recovery",
+          "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2026/november/critical-third-parties-regulatory-fees-and-cost-recovery",
+          "date": "2026-11-24T09:00:00.000Z"
+        },
         {
           "title": "Dynamic General Insurance Stress Test (DyGIST): 2026 results",
           "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2026/november/dygist-2026",
@@ -480,18 +485,13 @@
           "title": "PRA Regulatory Digest – September 2026",
           "url": "https://www.bankofengland.co.uk/prudential-regulation/regulatory-digest/2026/september-2026",
           "date": "2026-10-01T09:00:00.000Z"
-        },
-        {
-          "title": "Letter from David Bailey 'Thematic feedback on accounting for IFRS 9 expected credit losses (ECL)'",
-          "url": "https://www.bankofengland.co.uk/prudential-regulation/letter/2026/thematic-feedback-on-accounting-for-ifrs-9-ecl",
-          "date": "2026-09-30T14:00:00.000Z"
         }
       ]
     },
     {
       "name": "FCA",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:00:32.759Z",
+      "checkedAt": "2026-11-24T09:02:48.202Z",
       "items": [
         {
           "title": "Kandoo Car Credit Ltd enters administration",
