@@ -359,3 +359,29 @@ footer{max-width:1500px;margin:auto;padding:20px 32px;border-top:1px solid var(-
 .mast{border-top:3px solid var(--clt-brand,#16243f)}.brand,.hero h1{color:var(--clt-brand,#16243f)}.hero .eyebrow,.section-head .eyebrow{color:var(--clt-brand,#16243f)}.workspace-dot{background:var(--clt-brand,#16243f)}.side a.active{background:var(--clt-brand-tint,#edf1f7);border-left-color:var(--clt-brand,#16243f);color:var(--clt-brand,#16243f)}.markets a[aria-current]{background:var(--clt-brand-tint,#edf1f7);color:var(--clt-brand,#16243f);border-color:var(--clt-control,#75847f)}.markets .india{background:var(--clt-brand,#16243f);border-color:var(--clt-brand,#16243f)}.desk-item:first-child{background:var(--clt-brand-tint,#edf1f7);border-left-color:var(--clt-brand,#16243f)}.reading-desk .section-head h2,.section-head h2{color:var(--clt-brand,#16243f)}.transaction-table thead th{background:var(--clt-brand-tint,#edf1f7);color:var(--clt-brand,#16243f)}.explorer-controls button[aria-pressed=true]{background:var(--clt-brand,#16243f);border-color:var(--clt-brand,#16243f);color:white}.quiz button,#save-search:not(:disabled){background:var(--clt-brand,#16243f);border-color:var(--clt-brand,#16243f);color:white}.quiz button:hover,#save-search:not(:disabled):hover{background:var(--clt-brand-hover,#263e62)}.dossier-nav{border-top-color:var(--clt-brand-line,#c8d2e2)}.dossier-nav a{color:var(--clt-brand,#16243f)}.rail-card:first-child{border-top:3px solid var(--clt-brand,#16243f)}.markets a{min-height:44px}.compare-choice input{width:20px;height:20px}.compare-choice{min-height:24px}@media(max-width:767px){.side a{min-height:44px}.search button,.search select,.learning-controls button,.learning-controls select,.opportunity-controls input[type=search],.application-stage{min-height:44px}.transaction-table .save{min-height:40px}.markets a{min-height:40px}}
 
 .follow-btn{font-size:11px;min-height:32px;padding:5px 8px}.follow-btn[aria-pressed=true]{color:#16243f;background:#edf1f7;border-color:#16243f}.entry-top .follow-btn{margin-left:0}.transaction-table .follow-btn{display:block;margin-top:8px;white-space:normal}.follow-group{margin-top:10px}.follow-group h4{font-size:16px;margin:8px 0}.follow-row{margin:8px 0}.follow-row label{display:block;font-size:12px;color:var(--muted)}.follow-row input{max-width:100%;border:1px solid #75847f;border-radius:4px;padding:8px;margin:6px 8px 8px 0}.follow-row button{margin:4px 6px 4px 0}@media(max-width:767px){.follow-btn{min-height:40px}.entry-top{flex-wrap:wrap}}
+
+.opportunity-controls select{font:inherit;font-size:13px;border:1px solid var(--clt-control,#75847f);border-radius:4px;padding:8px;min-height:36px;max-width:100%}@media(max-width:767px){.opportunity-controls select{min-height:44px}}
+
+/* First paint uses the URL workspace; no-script and timeout fallbacks retain the static corpus. */
+html[data-clt-pending="overview"] #main>section:not(#reading-desk):not(#transactions){display:none}
+html[data-clt-pending="overview"] #transactions>.entries>.entry:nth-of-type(n+7){display:none}
+html[data-clt-pending="transactions"] #main>section:not(#transactions){display:none}
+html[data-clt-pending="briefing"] #main>section:not(#briefing){display:none}
+html[data-clt-pending="regulation"] #main>section:not(#regulation){display:none}
+html[data-clt-pending="firms"] #main>section:not(#firms){display:none}
+html[data-clt-pending="academy"] #main>section:not(#academy){display:none}
+html[data-clt-pending="analytics"] #main>section:not(#analytics){display:none}
+html[data-clt-pending="opportunities"] #main>section:not(#opportunities){display:none}
+html[data-clt-pending="my-research"] #main>section:not(#my-research){display:none}
+html[data-clt-pending="policy-monitor"] #main>section:not(#policy-monitor){display:none}
+html[data-clt-pending="archive"] #main>section:not(#archive){display:none}
+html[data-clt-pending="discovery"] #main>section:not(#discovery){display:none}
+html[data-clt-pending="method"] #main>section:not(#method){display:none}
+html[data-clt-pending="search"] #reading-desk{display:none}
+html[data-clt-pending] #advanced-controls[hidden],html[data-clt-pending] #transaction-explorer[hidden],html[data-clt-pending="academy"] #learning-controls[hidden]{display:block!important}
+html[data-clt-pending][data-clt-table="yes"] #transactions>.entries{display:none}
+html[data-clt-pending][data-clt-table="yes"] #explorer-results[hidden]{display:block!important}
+html[data-clt-pending][data-clt-table="yes"] #compare-selection[hidden],html[data-clt-pending][data-clt-table="yes"] #export-matches[hidden]{display:inline-block!important}
+html[data-clt-pending][data-clt-table="yes"] #show-table{background:var(--clt-brand,#16243f);color:white;border-color:var(--clt-brand,#16243f)}
+html[data-clt-pending] .quiz details{display:none}
+@media(max-width:760px){html[data-clt-pending] #mobile-nav[hidden]{display:flex!important;flex:1;justify-content:space-between;align-items:center;min-height:40px;gap:8px}html[data-clt-pending] #section-navigation{display:none}html[data-clt-pending] #research-search>.filter-field{display:none}html[data-clt-pending] #filter-toggle[hidden]{display:flex!important;grid-column:1/-1;align-items:center;justify-content:space-between;min-height:44px;color:var(--accent)}}
