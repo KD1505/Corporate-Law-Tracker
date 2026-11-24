@@ -22,8 +22,8 @@
       "id": "sky-itv",
       "minSources": 2,
       "deep": true,
-      "minClaims": 4,
-      "minAdvisers": 0,
+      "minClaims": 5,
+      "minAdvisers": 1,
       "mappedEvent": true
     },
     {
@@ -61,10 +61,10 @@
     {
       "id": "pai-elemis",
       "minSources": 2,
-      "deep": false,
-      "minClaims": 0,
-      "minAdvisers": 1,
-      "mappedEvent": false
+      "deep": true,
+      "minClaims": 4,
+      "minAdvisers": 3,
+      "mappedEvent": true
     },
     {
       "id": "leita-mobico",
@@ -77,18 +77,18 @@
     {
       "id": "cary-consortium",
       "minSources": 2,
-      "deep": false,
-      "minClaims": 0,
+      "deep": true,
+      "minClaims": 4,
       "minAdvisers": 2,
-      "mappedEvent": false
+      "mappedEvent": true
     },
     {
       "id": "goldman-celnor",
       "minSources": 2,
-      "deep": false,
-      "minClaims": 0,
-      "minAdvisers": 1,
-      "mappedEvent": false
+      "deep": true,
+      "minClaims": 4,
+      "minAdvisers": 3,
+      "mappedEvent": true
     },
     {
       "id": "rwe-kkr-vanguard",
@@ -117,10 +117,10 @@
     {
       "id": "abp-term-facility",
       "minSources": 2,
-      "deep": false,
-      "minClaims": 0,
+      "deep": true,
+      "minClaims": 4,
       "minAdvisers": 1,
-      "mappedEvent": false
+      "mappedEvent": true
     },
     {
       "id": "uk-logistics-cmbs",
@@ -221,10 +221,10 @@
     {
       "id": "international-paper-ds-smith",
       "minSources": 2,
-      "deep": false,
-      "minClaims": 0,
-      "minAdvisers": 1,
-      "mappedEvent": false
+      "deep": true,
+      "minClaims": 4,
+      "minAdvisers": 2,
+      "mappedEvent": true
     },
     {
       "id": "adobe-figma",
@@ -253,48 +253,48 @@
     {
       "id": "athora-picg",
       "minSources": 2,
-      "deep": false,
-      "minClaims": 0,
+      "deep": true,
+      "minClaims": 4,
       "minAdvisers": 2,
       "mappedEvent": true
     },
     {
       "id": "itm-gbe-equity",
       "minSources": 2,
-      "deep": false,
-      "minClaims": 0,
+      "deep": true,
+      "minClaims": 4,
       "minAdvisers": 1,
       "mappedEvent": true
     },
     {
       "id": "cip-noriker-kilmarnock",
       "minSources": 2,
-      "deep": false,
-      "minClaims": 0,
+      "deep": true,
+      "minClaims": 4,
       "minAdvisers": 1,
       "mappedEvent": true
     },
     {
       "id": "aab-kreston-reeves",
       "minSources": 2,
-      "deep": false,
-      "minClaims": 0,
+      "deep": true,
+      "minClaims": 4,
       "minAdvisers": 2,
       "mappedEvent": true
     },
     {
       "id": "tilleghem-saragossa",
       "minSources": 2,
-      "deep": false,
-      "minClaims": 0,
+      "deep": true,
+      "minClaims": 4,
       "minAdvisers": 1,
       "mappedEvent": true
     },
     {
       "id": "boralex-wind2",
       "minSources": 2,
-      "deep": false,
-      "minClaims": 0,
+      "deep": true,
+      "minClaims": 4,
       "minAdvisers": 1,
       "mappedEvent": true
     },

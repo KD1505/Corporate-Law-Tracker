@@ -648,6 +648,14 @@
         {
           "name": "Sky and ITV joint response",
           "url": "https://skyanditv.com/news/sky-and-itv-respond-to-public-interest-intervention-notice-on-proposed-acquisition-of-itv-media-entertainment"
+        },
+        {
+          "name": "Comcast — 6 July terms and consideration components",
+          "url": "https://www.cmcsa.com/news-releases/news-release-details/sky-agrees-acquire-itv-media-entertainment-creating-commercial"
+        },
+        {
+          "name": "Freshfields — 6 July ITV mandate",
+          "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/07/freshfields-advises-itv-on-sale-of-its-media--entertainment-business-to-sky-and-the-acquisition-of-love-productions"
         }
       ],
       "related": [
@@ -665,7 +673,7 @@
           "ITV M&E Holdings Limited"
         ]
       ],
-      "structure": "Proposed acquisition of ITV media and entertainment business; detailed definitive terms not established here.",
+      "structure": "£1.2bn cash, Love Productions and up to £200m performance-linked earn-out, subject to adjustments and approvals.",
       "regulatory": "Section 42 Enterprise Act 2002 intervention requires separate reports from CMA and Ofcom. The notice addresses media plurality and free expression. A proposed extension to on-demand programming is not treated as enacted law.",
       "timeline": [
         {
@@ -721,6 +729,26 @@
           "source": "https://skyanditv.com/news/sky-and-itv-respond-to-public-interest-intervention-notice-on-proposed-acquisition-of-itv-media-entertainment",
           "unit": "currency",
           "disclosure": "stated"
+        },
+        {
+          "label": "Announced cash component",
+          "amount": "£1.2bn",
+          "numericAmount": 1200000000,
+          "currency": "GBP",
+          "basis": "cash-consideration",
+          "source": "https://www.cmcsa.com/news-releases/news-release-details/sky-agrees-acquire-itv-media-entertainment-creating-commercial",
+          "disclosure": "stated",
+          "unit": "currency"
+        },
+        {
+          "label": "Maximum performance-linked earn-out (ceiling)",
+          "amount": "Up to £200m",
+          "numericAmount": 200000000,
+          "currency": "GBP",
+          "basis": "contingent-consideration",
+          "source": "https://www.cmcsa.com/news-releases/news-release-details/sky-agrees-acquire-itv-media-entertainment-creating-commercial",
+          "disclosure": "stated",
+          "unit": "currency"
         }
       ],
       "research": {
@@ -783,6 +811,23 @@
               }
             ],
             "qualification": "party-position"
+          },
+          {
+            "heading": "Consideration mechanics and seller advice",
+            "text": "Comcast describes £1.2bn cash, Love Productions and performance-related earn-out capped at £200m. Freshfields confirms advice to ITV plc on its sale and Love Productions acquisition. The separate content agreement is not purchase price.",
+            "evidence": [
+              {
+                "publisher": "Comcast",
+                "url": "https://www.cmcsa.com/news-releases/news-release-details/sky-agrees-acquire-itv-media-entertainment-creating-commercial",
+                "locator": "6 July terms and consideration components"
+              },
+              {
+                "publisher": "Freshfields",
+                "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/07/freshfields-advises-itv-on-sale-of-its-media--entertainment-business-to-sky-and-the-acquisition-of-love-productions",
+                "locator": "6 July ITV mandate"
+              }
+            ],
+            "qualification": "documented"
           }
         ],
         "workstreams": [
@@ -831,18 +876,37 @@
             "title": "Sky and ITV joint response",
             "url": "https://skyanditv.com/news/sky-and-itv-respond-to-public-interest-intervention-notice-on-proposed-acquisition-of-itv-media-entertainment",
             "purpose": "Party-stated commercial commitments"
+          },
+          {
+            "title": "Comcast",
+            "url": "https://www.cmcsa.com/news-releases/news-release-details/sky-agrees-acquire-itv-media-entertainment-creating-commercial",
+            "purpose": "6 July terms and consideration components"
+          },
+          {
+            "title": "Freshfields",
+            "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/07/freshfields-advises-itv-on-sale-of-its-media--entertainment-business-to-sky-and-the-acquisition-of-love-productions",
+            "purpose": "6 July ITV mandate"
           }
         ],
         "openQuestions": [
           "Executed transaction and content agreements not inspected.",
-          "Named counsel and funding terms not established.",
+          "Buyer counsel and funding terms not established.",
           "Regulator reports and final decision outstanding."
         ],
         "relatedDeals": [
           "vodafone-three",
           "mccormick-unilever"
         ]
-      }
+      },
+      "advisers": [
+        {
+          "firm": "Freshfields",
+          "firmId": "freshfields",
+          "client": "ITV plc",
+          "scope": "M&E sale and Love Productions acquisition",
+          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/07/freshfields-advises-itv-on-sale-of-its-media--entertainment-business-to-sky-and-the-acquisition-of-love-productions"
+        }
+      ]
     },
     {
       "id": "coop-southern",
@@ -1983,6 +2047,10 @@
         {
           "name": "Linklaters financing mandate",
           "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-the-lenders-on-the-financing-of-pais-acquisition-of-elemis-from-loccitane"
+        },
+        {
+          "name": "Skadden — 13 November seller mandate",
+          "url": "https://www.skadden.com/about/news-and-rankings/news/2026/11/loccitane-group-announces-acquisition-of-elemis"
         }
       ],
       "related": [
@@ -1996,6 +2064,20 @@
           "client": "Lenders",
           "scope": "Acquisition financing",
           "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-the-lenders-on-the-financing-of-pais-acquisition-of-elemis-from-loccitane"
+        },
+        {
+          "firm": "Skadden",
+          "firmId": "skadden",
+          "client": "L’Occitane Group",
+          "scope": "Seller transaction counsel",
+          "source": "https://www.skadden.com/about/news-and-rankings/news/2026/11/loccitane-group-announces-acquisition-of-elemis"
+        },
+        {
+          "firm": "A&O Shearman",
+          "firmId": "ao-shearman",
+          "client": "PAI Partners",
+          "scope": "Buyer legal adviser",
+          "source": "https://www.paipartners.com/mediaitem/loccitane-group-and-pai-partners-announce-agreement-for-pai-to-acquire-elemis/"
         }
       ],
       "dealType": "Private equity M&A",
@@ -2023,7 +2105,130 @@
         }
       ],
       "legalWork": "Review trademarks, formulation rights, product claims, distribution and retailer change-of-control consents; align acquisition CPs with financing availability and security package.",
-      "interview": "How would you diligence a consumer brand whose value depends on IP, distribution and repeat customers?"
+      "interview": "How would you diligence a consumer brand whose value depends on IP, distribution and repeat customers?",
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Perimeter and sponsor",
+            "text": "PAI agreed to acquire the prestige skincare brand from L’Occitane. Seller counsel separately confirms its mandate. Reviewed announcements do not establish consideration.",
+            "evidence": [
+              {
+                "publisher": "PAI announcement",
+                "url": "https://www.paipartners.com/mediaitem/loccitane-group-and-pai-partners-announce-agreement-for-pai-to-acquire-elemis/",
+                "locator": "Joint acquisition release, sales and advisers"
+              },
+              {
+                "publisher": "Skadden",
+                "url": "https://www.skadden.com/about/news-and-rankings/news/2026/11/loccitane-group-announces-acquisition-of-elemis",
+                "locator": "13 November seller mandate"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Historical sales",
+            "text": "L’Occitane reports net sales exceeding US$300m for FY2026, almost double sales during its ownership. Revenue is not price or profit.",
+            "evidence": [
+              {
+                "publisher": "PAI announcement",
+                "url": "https://www.paipartners.com/mediaitem/loccitane-group-and-pai-partners-announce-agreement-for-pai-to-acquire-elemis/",
+                "locator": "Joint acquisition release, sales and advisers"
+              }
+            ],
+            "qualification": "party-position"
+          },
+          {
+            "heading": "Distinct legal roles",
+            "text": "The joint release names Skadden for seller and A&O Shearman for PAI; Linklaters separately identifies a lender financing mandate.",
+            "evidence": [
+              {
+                "publisher": "PAI announcement",
+                "url": "https://www.paipartners.com/mediaitem/loccitane-group-and-pai-partners-announce-agreement-for-pai-to-acquire-elemis/",
+                "locator": "Joint acquisition release, sales and advisers"
+              },
+              {
+                "publisher": "Skadden",
+                "url": "https://www.skadden.com/about/news-and-rankings/news/2026/11/loccitane-group-announces-acquisition-of-elemis",
+                "locator": "13 November seller mandate"
+              },
+              {
+                "publisher": "Linklaters financing mandate",
+                "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-the-lenders-on-the-financing-of-pais-acquisition-of-elemis-from-loccitane",
+                "locator": "Lender-side financing mandate"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Commercial drivers",
+            "text": "The seller describes expansion of global retail and commercial partnerships; maintaining distribution and brand positioning after separation is central to the stated growth strategy.",
+            "evidence": [
+              {
+                "publisher": "PAI announcement",
+                "url": "https://www.paipartners.com/mediaitem/loccitane-group-and-pai-partners-announce-agreement-for-pai-to-acquire-elemis/",
+                "locator": "Joint acquisition release, sales and advisers"
+              }
+            ],
+            "qualification": "party-position"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Carve-out",
+            "question": "What must be separated from seller?",
+            "why": "Map trademark, IT, manufacturing and distribution dependencies; negotiate transitional support.",
+            "documents": "Perimeter schedules; TSA; IP licences"
+          },
+          {
+            "name": "Finance",
+            "question": "Can earnings support leverage?",
+            "why": "Stress-test cash conversion, inventory and marketing costs; align funding conditions with closing.",
+            "documents": "Facilities; funds flow; forecasts"
+          },
+          {
+            "name": "Consumer regulation",
+            "question": "What product risks transfer?",
+            "why": "Review formulations, safety, labelling and advertising compliance by market.",
+            "documents": "Product dossiers; distribution terms"
+          },
+          {
+            "name": "Valuation",
+            "question": "What supports returns?",
+            "why": "Analyse margins and working capital rather than inferring a multiple from sales.",
+            "documents": "Quality of earnings; debt and forecasts"
+          }
+        ],
+        "documents": [
+          {
+            "title": "PAI announcement",
+            "url": "https://www.paipartners.com/mediaitem/loccitane-group-and-pai-partners-announce-agreement-for-pai-to-acquire-elemis/",
+            "purpose": "Joint acquisition release, sales and advisers"
+          },
+          {
+            "title": "Skadden",
+            "url": "https://www.skadden.com/about/news-and-rankings/news/2026/11/loccitane-group-announces-acquisition-of-elemis",
+            "purpose": "13 November seller mandate"
+          },
+          {
+            "title": "Linklaters financing mandate",
+            "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-the-lenders-on-the-financing-of-pais-acquisition-of-elemis-from-loccitane",
+            "purpose": "Lender-side financing mandate"
+          }
+        ],
+        "openQuestions": [
+          "Price, EBITDA, debt terms, separation schedules and closing date not established."
+        ],
+        "relatedDeals": [
+          "goldman-celnor",
+          "cary-consortium"
+        ]
+      },
+      "factSources": [
+        "https://www.paipartners.com/mediaitem/loccitane-group-and-pai-partners-announce-agreement-for-pai-to-acquire-elemis/",
+        "https://www.skadden.com/about/news-and-rankings/news/2026/11/loccitane-group-announces-acquisition-of-elemis"
+      ],
+      "evidenceScope": "Targeted public-document research; factual findings and prospective legal workstreams are distinguished. Full independent certification not established."
     },
     {
       "jurisdiction": "UK",
@@ -2256,6 +2461,16 @@
           "numericAmount": 545000000,
           "unit": "currency",
           "disclosure": "stated"
+        },
+        {
+          "label": "CPP Investments expected investment",
+          "amount": "€500m",
+          "numericAmount": 500000000,
+          "currency": "EUR",
+          "basis": "investment-commitment",
+          "source": "https://www.nordiccapital.com/insights/press-releases/cpp-investments-and-ontario-teachers-to-join-nordic-capital-as-owners-of-cary-group-to-support-its-continued-international-expansion-and-long-term-development/",
+          "disclosure": "stated",
+          "unit": "currency"
         }
       ],
       "analysis": "A consortium structure raises governance questions distinct from the purchase price: reserved matters, future funding, exit rights and alignment between investors with different investment horizons.",
@@ -2322,7 +2537,135 @@
         }
       ],
       "legalWork": "Set governance, reserved matters, information and transfer rights; specify funding commitments and exit process. Diligence multi-country operating subsidiaries and local approvals.",
-      "interview": "How do investment horizons of pension funds and a private equity sponsor affect shareholder agreements?"
+      "interview": "How do investment horizons of pension funds and a private equity sponsor affect shareholder agreements?",
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Consortium structure",
+            "text": "CPP and Ontario Teachers’ agreed to join Nordic Capital as owners; investor commitments do not establish whole-company valuation.",
+            "evidence": [
+              {
+                "publisher": "Nordic Capital announcement",
+                "url": "https://www.nordiccapital.com/insights/press-releases/cpp-investments-and-ontario-teachers-to-join-nordic-capital-as-owners-of-cary-group-to-support-its-continued-international-expansion-and-long-term-development/",
+                "locator": "17 November consortium release"
+              },
+              {
+                "publisher": "Linklaters Ontario Teachers’ mandate",
+                "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-ontario-teachers-on-its-investment-in-cary-group",
+                "locator": "Ontario Teachers’ investment and footprint"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Capital commitments",
+            "text": "Expected commitments of €545m and €500m total €1.045bn for Ontario Teachers’ and CPP respectively. Nordic’s commitment and overall consideration are not established.",
+            "evidence": [
+              {
+                "publisher": "Nordic Capital announcement",
+                "url": "https://www.nordiccapital.com/insights/press-releases/cpp-investments-and-ontario-teachers-to-join-nordic-capital-as-owners-of-cary-group-to-support-its-continued-international-expansion-and-long-term-development/",
+                "locator": "17 November consortium release"
+              },
+              {
+                "publisher": "Linklaters Ontario Teachers’ mandate",
+                "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-ontario-teachers-on-its-investment-in-cary-group",
+                "locator": "Ontario Teachers’ investment and footprint"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Operating scale",
+            "text": "The group reports €820m equivalent LTM revenue to October 2026 and around 1.4m vehicle-glass jobs; counsel reports about 1,800 workshops across 13 European countries.",
+            "evidence": [
+              {
+                "publisher": "Nordic Capital announcement",
+                "url": "https://www.nordiccapital.com/insights/press-releases/cpp-investments-and-ontario-teachers-to-join-nordic-capital-as-owners-of-cary-group-to-support-its-continued-international-expansion-and-long-term-development/",
+                "locator": "17 November consortium release"
+              },
+              {
+                "publisher": "Linklaters Ontario Teachers’ mandate",
+                "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-ontario-teachers-on-its-investment-in-cary-group",
+                "locator": "Ontario Teachers’ investment and footprint"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Legal roles",
+            "text": "Freshfields identifies CPP as client; Linklaters identifies Ontario Teachers’ and its €545m proposed investment.",
+            "evidence": [
+              {
+                "publisher": "Freshfields CPP mandate",
+                "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/11/freshfields-advises-cpp-investments-on-the-acquisition-of-cary-group-by-a-consortium-comprised-of-nordic-capital-ontario-teachers-pension-plan-and-cpp-investments",
+                "locator": "CPP mandate"
+              },
+              {
+                "publisher": "Linklaters Ontario Teachers’ mandate",
+                "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-ontario-teachers-on-its-investment-in-cary-group",
+                "locator": "Ontario Teachers’ investment and footprint"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Governance",
+            "question": "What control does each investor obtain?",
+            "why": "Check reserved matters, voting, deadlock and exit rather than relying on contribution size.",
+            "documents": "Shareholders’ agreement"
+          },
+          {
+            "name": "Funding",
+            "question": "How much is primary versus secondary?",
+            "why": "Distinguish growth funding from payments to sellers.",
+            "documents": "Subscription and sale agreements"
+          },
+          {
+            "name": "Competition",
+            "question": "Where are local overlaps?",
+            "why": "Assess workshop density, insurer purchasing power and notification thresholds.",
+            "documents": "Market data; jurisdiction matrix"
+          },
+          {
+            "name": "Commercial",
+            "question": "What drives repair economics?",
+            "why": "Review insurer contracts, job volumes, labour capacity and calibration technology.",
+            "documents": "Contracts; workshop economics"
+          }
+        ],
+        "documents": [
+          {
+            "title": "Nordic Capital announcement",
+            "url": "https://www.nordiccapital.com/insights/press-releases/cpp-investments-and-ontario-teachers-to-join-nordic-capital-as-owners-of-cary-group-to-support-its-continued-international-expansion-and-long-term-development/",
+            "purpose": "17 November consortium release"
+          },
+          {
+            "title": "Linklaters Ontario Teachers’ mandate",
+            "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-ontario-teachers-on-its-investment-in-cary-group",
+            "purpose": "Ontario Teachers’ investment and footprint"
+          },
+          {
+            "title": "Freshfields CPP mandate",
+            "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/11/freshfields-advises-cpp-investments-on-the-acquisition-of-cary-group-by-a-consortium-comprised-of-nordic-capital-ontario-teachers-pension-plan-and-cpp-investments",
+            "purpose": "CPP mandate"
+          }
+        ],
+        "openQuestions": [
+          "Overall price, ownership percentages, Nordic contribution, leverage and approval timetable not established."
+        ],
+        "relatedDeals": [
+          "goldman-celnor",
+          "pai-elemis"
+        ]
+      },
+      "factSources": [
+        "https://www.nordiccapital.com/insights/press-releases/cpp-investments-and-ontario-teachers-to-join-nordic-capital-as-owners-of-cary-group-to-support-its-continued-international-expansion-and-long-term-development/",
+        "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-ontario-teachers-on-its-investment-in-cary-group"
+      ],
+      "evidenceScope": "Targeted public-document research; factual findings and prospective legal workstreams are distinguished. Full independent certification not established."
     },
     {
       "jurisdiction": "UK",
@@ -2345,6 +2688,14 @@
         {
           "name": "Linklaters mandate",
           "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-goldman-sachs-alternatives-on-its-investment-in-celnor-group"
+        },
+        {
+          "name": "Goldman Sachs Asset Management — Definitive agreement and advisers",
+          "url": "https://am.gs.com/en-int/advisors/news/press-release/2026/Celnor-Group-Announces-New-Investment-from-Goldman-Sachs-Alternatives"
+        },
+        {
+          "name": "Slaughter and May — 23 October seller mandate",
+          "url": "https://www.slaughterandmay.com/recent-work/inflexion-private-equity-partners-inflexion-on-the-sale-of-celnor-to-goldman-sachs-alternatives/"
         }
       ],
       "related": [
@@ -2357,6 +2708,20 @@
           "client": "Goldman Sachs Alternatives",
           "scope": "Investment",
           "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-goldman-sachs-alternatives-on-its-investment-in-celnor-group"
+        },
+        {
+          "firm": "Slaughter and May",
+          "firmId": "slaughter-may",
+          "client": "Funds advised by Inflexion",
+          "scope": "Majority stake sale",
+          "source": "https://www.slaughterandmay.com/recent-work/inflexion-private-equity-partners-inflexion-on-the-sale-of-celnor-to-goldman-sachs-alternatives/"
+        },
+        {
+          "firm": "Addleshaw Goddard",
+          "firmId": "addleshaw",
+          "client": "Celnor and Inflexion",
+          "scope": "Legal adviser, joint seller-side disclosure",
+          "source": "https://am.gs.com/en-int/advisors/news/press-release/2026/Celnor-Group-Announces-New-Investment-from-Goldman-Sachs-Alternatives"
         }
       ],
       "dealType": "Private equity M&A",
@@ -2383,7 +2748,151 @@
         }
       ],
       "legalWork": "Negotiate governance and management incentive documents alongside the SPA, review acquisition pipeline and integration risk, identify change-of-control consents in regulated testing and compliance businesses.",
-      "interview": "Why does management rollover create both alignment and potential conflicts?"
+      "interview": "Why does management rollover create both alignment and potential conflicts?",
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Control and rollover",
+            "text": "Goldman Sachs Alternatives agreed to acquire majority control, with Inflexion, founder and management reinvesting; not a disclosed acquisition of all shares.",
+            "evidence": [
+              {
+                "publisher": "Inflexion announcement",
+                "url": "https://www.inflexion.com/news-and-insights/news/2026/inflexion-agrees-sale-of-majority-stake-in-celnor-to-goldman-sachs-alternatives/",
+                "locator": "23 October majority sale"
+              },
+              {
+                "publisher": "Goldman Sachs Asset Management",
+                "url": "https://am.gs.com/en-int/advisors/news/press-release/2026/Celnor-Group-Announces-New-Investment-from-Goldman-Sachs-Alternatives",
+                "locator": "Definitive agreement and advisers"
+              },
+              {
+                "publisher": "Linklaters mandate",
+                "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-goldman-sachs-alternatives-on-its-investment-in-celnor-group",
+                "locator": "12 November buyer mandate"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Business model",
+            "text": "Celnor was founded in 2023 and supplies built-environment testing, inspection, certification and compliance services. Accreditation and skilled labour are important diligence areas.",
+            "evidence": [
+              {
+                "publisher": "Inflexion announcement",
+                "url": "https://www.inflexion.com/news-and-insights/news/2026/inflexion-agrees-sale-of-majority-stake-in-celnor-to-goldman-sachs-alternatives/",
+                "locator": "23 October majority sale"
+              },
+              {
+                "publisher": "Goldman Sachs Asset Management",
+                "url": "https://am.gs.com/en-int/advisors/news/press-release/2026/Celnor-Group-Announces-New-Investment-from-Goldman-Sachs-Alternatives",
+                "locator": "Definitive agreement and advisers"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Management",
+            "text": "The buyer identifies Simon Parrington and existing management as continuing leadership; amount and terms of their reinvestment are not disclosed.",
+            "evidence": [
+              {
+                "publisher": "Goldman Sachs Asset Management",
+                "url": "https://am.gs.com/en-int/advisors/news/press-release/2026/Celnor-Group-Announces-New-Investment-from-Goldman-Sachs-Alternatives",
+                "locator": "Definitive agreement and advisers"
+              },
+              {
+                "publisher": "Linklaters mandate",
+                "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-goldman-sachs-alternatives-on-its-investment-in-celnor-group",
+                "locator": "12 November buyer mandate"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Adviser allocation",
+            "text": "Linklaters advises Goldman Sachs Alternatives; Slaughter and May names funds advised by Inflexion. The joint release also lists Addleshaw Goddard for Celnor and Inflexion without precise workstream allocation.",
+            "evidence": [
+              {
+                "publisher": "Goldman Sachs Asset Management",
+                "url": "https://am.gs.com/en-int/advisors/news/press-release/2026/Celnor-Group-Announces-New-Investment-from-Goldman-Sachs-Alternatives",
+                "locator": "Definitive agreement and advisers"
+              },
+              {
+                "publisher": "Slaughter and May",
+                "url": "https://www.slaughterandmay.com/recent-work/inflexion-private-equity-partners-inflexion-on-the-sale-of-celnor-to-goldman-sachs-alternatives/",
+                "locator": "23 October seller mandate"
+              },
+              {
+                "publisher": "Linklaters mandate",
+                "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-goldman-sachs-alternatives-on-its-investment-in-celnor-group",
+                "locator": "12 November buyer mandate"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Rollover",
+            "question": "Which securities do continuing holders receive?",
+            "why": "Analyse valuation, preferences, dilution and exit waterfall.",
+            "documents": "Equity documents; waterfall"
+          },
+          {
+            "name": "Governance",
+            "question": "What rights survive majority transfer?",
+            "why": "Review board rights, vetoes, leaver and incentive provisions.",
+            "documents": "Shareholders’ agreement"
+          },
+          {
+            "name": "Diligence",
+            "question": "Can accreditation be maintained?",
+            "why": "Check regulatory certifications, liability and integration of prior acquisitions.",
+            "documents": "Certificates; insurance; contracts"
+          },
+          {
+            "name": "Finance",
+            "question": "Can recurring compliance demand support debt?",
+            "why": "Test margins and cash conversion rather than presuming low credit risk.",
+            "documents": "Quality of earnings; leverage model"
+          }
+        ],
+        "documents": [
+          {
+            "title": "Inflexion announcement",
+            "url": "https://www.inflexion.com/news-and-insights/news/2026/inflexion-agrees-sale-of-majority-stake-in-celnor-to-goldman-sachs-alternatives/",
+            "purpose": "23 October majority sale"
+          },
+          {
+            "title": "Goldman Sachs Asset Management",
+            "url": "https://am.gs.com/en-int/advisors/news/press-release/2026/Celnor-Group-Announces-New-Investment-from-Goldman-Sachs-Alternatives",
+            "purpose": "Definitive agreement and advisers"
+          },
+          {
+            "title": "Linklaters mandate",
+            "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-goldman-sachs-alternatives-on-its-investment-in-celnor-group",
+            "purpose": "12 November buyer mandate"
+          },
+          {
+            "title": "Slaughter and May",
+            "url": "https://www.slaughterandmay.com/recent-work/inflexion-private-equity-partners-inflexion-on-the-sale-of-celnor-to-goldman-sachs-alternatives/",
+            "purpose": "23 October seller mandate"
+          }
+        ],
+        "openQuestions": [
+          "Price, precise stake, leverage, rollover economics and closing date not established."
+        ],
+        "relatedDeals": [
+          "cary-consortium",
+          "pai-elemis"
+        ]
+      },
+      "factSources": [
+        "https://www.inflexion.com/news-and-insights/news/2026/inflexion-agrees-sale-of-majority-stake-in-celnor-to-goldman-sachs-alternatives/",
+        "https://am.gs.com/en-int/advisors/news/press-release/2026/Celnor-Group-Announces-New-Investment-from-Goldman-Sachs-Alternatives",
+        "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-goldman-sachs-alternatives-on-its-investment-in-celnor-group"
+      ],
+      "evidenceScope": "Targeted public-document research; factual findings and prospective legal workstreams are distinguished. Full independent certification not established."
     },
     {
       "jurisdiction": "UK",
@@ -3227,7 +3736,121 @@
       "related": [
         "finance",
         "project-finance"
-      ]
+      ],
+      "announcedOn": "2026-06-03",
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Commitment split",
+            "text": "The £300m term facility comprises £200m National Wealth Fund and £100m from a private group led by Bank of America with Lloyds and NatWest. Two-thirds is public commitment; commitments are not drawings.",
+            "evidence": [
+              {
+                "publisher": "National Wealth Fund",
+                "url": "https://www.nationalwealthfund.org.uk/news-and-publications/news/national-wealth-fund-backs-major-port-infrastructure-projects-with-200m-commitment-to-abp/",
+                "locator": "3 June public commitment and eligible projects"
+              },
+              {
+                "publisher": "Linklaters borrower counsel",
+                "url": "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/june/linklaters-advices-abp",
+                "locator": "8 June facility and banks"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Eligible projects",
+            "text": "The lender identifies Immingham freight terminal, Lowestoft offshore wind, Ipswich Sizewell C supply chain and Solent Gateway among eligible projects.",
+            "evidence": [
+              {
+                "publisher": "National Wealth Fund",
+                "url": "https://www.nationalwealthfund.org.uk/news-and-publications/news/national-wealth-fund-backs-major-port-infrastructure-projects-with-200m-commitment-to-abp/",
+                "locator": "3 June public commitment and eligible projects"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Counsel and lender roles",
+            "text": "Linklaters confirms ABP as client; bank group membership does not establish each bank’s commitment amount.",
+            "evidence": [
+              {
+                "publisher": "Linklaters borrower counsel",
+                "url": "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/june/linklaters-advices-abp",
+                "locator": "8 June facility and banks"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Transaction perimeter",
+            "text": "The financing supports infrastructure investment. It is distinct from ABP share disposals and is not acquisition consideration.",
+            "evidence": [
+              {
+                "publisher": "National Wealth Fund",
+                "url": "https://www.nationalwealthfund.org.uk/news-and-publications/news/national-wealth-fund-backs-major-port-infrastructure-projects-with-200m-commitment-to-abp/",
+                "locator": "3 June public commitment and eligible projects"
+              },
+              {
+                "publisher": "Linklaters borrower counsel",
+                "url": "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/june/linklaters-advices-abp",
+                "locator": "8 June facility and banks"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Use of proceeds",
+            "question": "How is eligible spend monitored?",
+            "why": "Review reporting, evidence of spend and diversion restrictions.",
+            "documents": "Facility; investment schedule"
+          },
+          {
+            "name": "Lender coordination",
+            "question": "How do public/private lenders share risk?",
+            "why": "Review voting, enforcement and distinct conditions.",
+            "documents": "Common terms; intercreditor"
+          },
+          {
+            "name": "Project delivery",
+            "question": "What must happen before revenues?",
+            "why": "Assess procurement, milestones, permits and overruns.",
+            "documents": "Project contracts; drawdown conditions"
+          },
+          {
+            "name": "Credit",
+            "question": "Can port network cash flows service debt?",
+            "why": "Assess borrower leverage and maturity rather than assuming standalone project debt.",
+            "documents": "Accounts; covenant model"
+          }
+        ],
+        "documents": [
+          {
+            "title": "National Wealth Fund",
+            "url": "https://www.nationalwealthfund.org.uk/news-and-publications/news/national-wealth-fund-backs-major-port-infrastructure-projects-with-200m-commitment-to-abp/",
+            "purpose": "3 June public commitment and eligible projects"
+          },
+          {
+            "title": "Linklaters borrower counsel",
+            "url": "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/june/linklaters-advices-abp",
+            "purpose": "8 June facility and banks"
+          }
+        ],
+        "openQuestions": [
+          "Pricing, tenor, security, covenants, actual drawings and project allocation unverified."
+        ],
+        "relatedDeals": [
+          "abp-ifm",
+          "cip-noriker-kilmarnock"
+        ]
+      },
+      "factSources": [
+        "https://www.nationalwealthfund.org.uk/news-and-publications/news/national-wealth-fund-backs-major-port-infrastructure-projects-with-200m-commitment-to-abp/",
+        "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/june/linklaters-advices-abp"
+      ],
+      "evidenceScope": "Targeted public-document research; factual findings and prospective legal workstreams are distinguished. Full independent certification not established."
     },
     {
       "jurisdiction": "UK",
@@ -6358,8 +6981,8 @@
           "DS Smith"
         ]
       ],
-      "structure": "Cross-border acquisition of packaging group.",
-      "fact": "International Paper confirms the combination completed on 31 January 2025. Slaughter and May reports advising DS Smith on competing approaches leading to the agreed International Paper acquisition.",
+      "structure": "Part 26 court-sanctioned all-share scheme; 0.1285 new IP shares per DS Smith share.",
+      "fact": "International Paper completed the combination on 31 January 2025, issuing 178,126,631 new shares. Five European plants were subsequently sold on 30 June as a competition remedy.",
       "values": [
         {
           "label": "Agreed acquisition value reported by target counsel",
@@ -6370,13 +6993,53 @@
           "numericAmount": 7800000000,
           "unit": "currency",
           "disclosure": "stated"
+        },
+        {
+          "label": "Scheme exchange ratio",
+          "amount": "0.1285 IP shares per DS Smith share",
+          "numericAmount": 0.1285,
+          "currency": null,
+          "basis": "exchange-ratio",
+          "source": "https://www.bailii.org/ew/cases/EWHC/Ch/2025/696.html",
+          "disclosure": "stated",
+          "unit": "shares-per-share"
+        },
+        {
+          "label": "Reference implied offer value",
+          "amount": "415p",
+          "numericAmount": 4.15,
+          "currency": "GBP",
+          "basis": "reference-offer-value",
+          "source": "https://www.dssmith.com/media/our-stories/2024/4/recommended-all-share-combination-of-ds-smith-plc-with-international-paper-company",
+          "disclosure": "stated",
+          "unit": "currency-per-share"
         }
       ],
       "timeline": [
         {
+          "date": "2024-04-16",
+          "event": "Recommended all-share combination",
+          "source": "https://www.dssmith.com/media/our-stories/2024/4/recommended-all-share-combination-of-ds-smith-plc-with-international-paper-company"
+        },
+        {
+          "date": "2025-01-24",
+          "event": "European Commission conditional clearance",
+          "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32025M11564"
+        },
+        {
+          "date": "2025-01-30",
+          "event": "High Court scheme sanction",
+          "source": "https://www.bailii.org/ew/cases/EWHC/Ch/2025/696.html"
+        },
+        {
           "date": "2025-01-31",
-          "event": "Combination completed",
-          "source": "https://www.internationalpaper.com/en-gb/about-international-paper"
+          "event": "Completion and share issuance",
+          "source": "https://www.sec.gov/Archives/edgar/data/51434/000005143425000025/ip-20250331.htm"
+        },
+        {
+          "date": "2025-06-30",
+          "event": "Five remedy plants divested",
+          "source": "https://www.sec.gov/Archives/edgar/data/51434/000005143425000048/ip-20250630.htm"
         }
       ],
       "analysis": "Packaging consolidation can create procurement, manufacturing and regional network opportunities. Integration economics depend on capacity utilisation, customer retention, energy costs and competition constraints.",
@@ -6391,6 +7054,30 @@
         {
           "name": "Slaughter and May corporate practice mandate",
           "url": "https://www.slaughterandmay.com/services/practices/corporate-and-m-a/"
+        },
+        {
+          "name": "DS Smith — 16 April 2024 Rule 2.7 announcement",
+          "url": "https://www.dssmith.com/media/our-stories/2024/4/recommended-all-share-combination-of-ds-smith-plc-with-international-paper-company"
+        },
+        {
+          "name": "High Court — 30 January sanction judgment, scheme economics",
+          "url": "https://www.bailii.org/ew/cases/EWHC/Ch/2025/696.html"
+        },
+        {
+          "name": "International Paper SEC 10-Q — Acquisitions note: share issuance",
+          "url": "https://www.sec.gov/Archives/edgar/data/51434/000005143425000025/ip-20250331.htm"
+        },
+        {
+          "name": "European Commission — 24 January decision M.11564",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32025M11564"
+        },
+        {
+          "name": "International Paper SEC 10-Q — Completed remedy disposals",
+          "url": "https://www.sec.gov/Archives/edgar/data/51434/000005143425000048/ip-20250630.htm"
+        },
+        {
+          "name": "Skadden — International Paper representation",
+          "url": "https://www.skadden.com/professionals/c/corte-lorenzo"
         }
       ],
       "advisers": [
@@ -6400,13 +7087,175 @@
           "client": "DS Smith",
           "scope": "Competing offers and agreed acquisition",
           "source": "https://www.slaughterandmay.com/services/practices/corporate-and-m-a/"
+        },
+        {
+          "firm": "Skadden",
+          "firmId": "skadden",
+          "client": "International Paper Company",
+          "scope": "Contested all-equity acquisition",
+          "source": "https://www.skadden.com/professionals/c/corte-lorenzo"
         }
       ],
       "related": [
         "public-schemes",
         "valuation",
         "corporate-governance"
-      ]
+      ],
+      "announcedOn": "2024-04-16",
+      "factSources": [
+        "https://www.sec.gov/Archives/edgar/data/51434/000005143425000025/ip-20250331.htm",
+        "https://www.sec.gov/Archives/edgar/data/51434/000005143425000048/ip-20250630.htm"
+      ],
+      "regulatory": "European Commission M.11564 conditional clearance, 24 January 2025; remedy sales completed 30 June.",
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Scheme mechanics",
+            "text": "Announcement and sanction judgment specify 0.1285 new IP shares per scheme share; SEC filing confirms 178,126,631 shares issued on closing.",
+            "evidence": [
+              {
+                "publisher": "DS Smith",
+                "url": "https://www.dssmith.com/media/our-stories/2024/4/recommended-all-share-combination-of-ds-smith-plc-with-international-paper-company",
+                "locator": "16 April 2024 Rule 2.7 announcement"
+              },
+              {
+                "publisher": "High Court",
+                "url": "https://www.bailii.org/ew/cases/EWHC/Ch/2025/696.html",
+                "locator": "30 January sanction judgment, scheme economics"
+              },
+              {
+                "publisher": "International Paper SEC 10-Q",
+                "url": "https://www.sec.gov/Archives/edgar/data/51434/000005143425000025/ip-20250331.htm",
+                "locator": "Acquisitions note: share issuance"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Reference valuation",
+            "text": "415p implied value uses IP’s US$40.85 price and GBP/USD rate of 1.2645 on 25 March 2024. Value fluctuates with share price and FX, rather than fixed cash consideration.",
+            "evidence": [
+              {
+                "publisher": "DS Smith",
+                "url": "https://www.dssmith.com/media/our-stories/2024/4/recommended-all-share-combination-of-ds-smith-plc-with-international-paper-company",
+                "locator": "16 April 2024 Rule 2.7 announcement"
+              },
+              {
+                "publisher": "High Court",
+                "url": "https://www.bailii.org/ew/cases/EWHC/Ch/2025/696.html",
+                "locator": "30 January sanction judgment, scheme economics"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Competition remedies",
+            "text": "Commission conditionally cleared on 24 January; June filing confirms divestment of five plants in France, Portugal and Spain on 30 June.",
+            "evidence": [
+              {
+                "publisher": "European Commission",
+                "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32025M11564",
+                "locator": "24 January decision M.11564"
+              },
+              {
+                "publisher": "International Paper SEC 10-Q",
+                "url": "https://www.sec.gov/Archives/edgar/data/51434/000005143425000048/ip-20250630.htm",
+                "locator": "Completed remedy disposals"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Legal roles",
+            "text": "Skadden identifies IP as client for its contested all-equity offer; Slaughter and May identifies DS Smith work across competing approaches.",
+            "evidence": [
+              {
+                "publisher": "Skadden",
+                "url": "https://www.skadden.com/professionals/c/corte-lorenzo",
+                "locator": "International Paper representation"
+              },
+              {
+                "publisher": "Slaughter and May corporate practice mandate",
+                "url": "https://www.slaughterandmay.com/services/practices/corporate-and-m-a/",
+                "locator": "DS Smith competing offers mandate"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Public M&A",
+            "question": "How does a UK scheme deliver US shares?",
+            "why": "Coordinate scheme sanction, approvals and SEC issuance/disclosure.",
+            "documents": "Scheme; sanction order; SEC filings"
+          },
+          {
+            "name": "Valuation",
+            "question": "How does the ratio translate into sterling?",
+            "why": "Use reference-date buyer price and FX; avoid treating 415p as cash paid.",
+            "documents": "Market prices; FX; scheme terms"
+          },
+          {
+            "name": "Competition",
+            "question": "How are divested plants made viable?",
+            "why": "Assess staff, customer, asset and transitional support perimeter.",
+            "documents": "Commitments; disposal contracts"
+          },
+          {
+            "name": "Integration",
+            "question": "What constrains packaging synergies?",
+            "why": "Assess local plant utilisation, logistics and customer retention after divestments.",
+            "documents": "Segment accounts; integration plan"
+          }
+        ],
+        "documents": [
+          {
+            "title": "DS Smith",
+            "url": "https://www.dssmith.com/media/our-stories/2024/4/recommended-all-share-combination-of-ds-smith-plc-with-international-paper-company",
+            "purpose": "16 April 2024 Rule 2.7 announcement"
+          },
+          {
+            "title": "High Court",
+            "url": "https://www.bailii.org/ew/cases/EWHC/Ch/2025/696.html",
+            "purpose": "30 January sanction judgment, scheme economics"
+          },
+          {
+            "title": "International Paper SEC 10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/51434/000005143425000025/ip-20250331.htm",
+            "purpose": "Acquisitions note: share issuance"
+          },
+          {
+            "title": "European Commission",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32025M11564",
+            "purpose": "24 January decision M.11564"
+          },
+          {
+            "title": "International Paper SEC 10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/51434/000005143425000048/ip-20250630.htm",
+            "purpose": "Completed remedy disposals"
+          },
+          {
+            "title": "Skadden",
+            "url": "https://www.skadden.com/professionals/c/corte-lorenzo",
+            "purpose": "International Paper representation"
+          },
+          {
+            "title": "Slaughter and May corporate practice mandate",
+            "url": "https://www.slaughterandmay.com/services/practices/corporate-and-m-a/",
+            "purpose": "DS Smith competing offers mandate"
+          }
+        ],
+        "openQuestions": [
+          "Accounting acquisition value and other advisers require further reconciliation."
+        ],
+        "relatedDeals": [
+          "synopsys-ansys",
+          "drax-bluefield"
+        ]
+      },
+      "evidenceScope": "Targeted public-document research; factual findings and prospective legal workstreams are distinguished. Full independent certification not established."
     },
     {
       "id": "duaa-implementation",
@@ -7386,7 +8235,7 @@
       "jurisdiction": "UK",
       "category": "Transactions",
       "verifiedOn": "2026-11-24",
-      "evidenceScope": "Public transaction-party and adviser disclosures reviewed; underlying contracts and confidential terms not independently inspected.",
+      "evidenceScope": "Targeted public-document research; factual findings and prospective legal workstreams are distinguished. Full independent certification not established.",
       "id": "athora-picg",
       "title": "Athora / Pension Insurance Corporation Group",
       "eventDate": "2026-03-27",
@@ -7490,6 +8339,10 @@
         {
           "name": "Sidley mandate disclosure",
           "url": "https://www.sidley.com/en/newslanding/newsannouncements/2025/07/sidley-advises-athora-on-acquisition-of-pension-insurance-corporation-group-limited"
+        },
+        {
+          "name": "Athora FY2025 results — Common equity commitments and pro forma scale",
+          "url": "https://www.athora.com/news/athora-holding-ltd-publishes-its-full-year-2025-results"
         }
       ],
       "advisers": [
@@ -7512,13 +8365,156 @@
         "finance",
         "private-equity",
         "due-diligence"
-      ]
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Purchase and capital",
+            "text": "Athora announced around £5.7bn acquisition value; later results identify €3.5bn common equity commitments secured 6 March. Equity also supports growth and is not consideration.",
+            "evidence": [
+              {
+                "publisher": "Athora acquisition announcement",
+                "url": "https://www.athora.com/news/athora-to-acquire-PIC",
+                "locator": "Acquisition price"
+              },
+              {
+                "publisher": "PIC regulatory approval and financing update",
+                "url": "https://www.pensioncorporation.com/news-insights/press-releases/2026/athora-regulatory-approval-acquisition-pic",
+                "locator": "6 March regulatory and equity update"
+              },
+              {
+                "publisher": "Athora FY2025 results",
+                "url": "https://www.athora.com/news/athora-holding-ltd-publishes-its-full-year-2025-results",
+                "locator": "Common equity commitments and pro forma scale"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Regulatory chronology",
+            "text": "PIC reported PRA approval in March and Athora confirmed completion 27 March. Proposed UK headquarters relocation is separately subject to approvals.",
+            "evidence": [
+              {
+                "publisher": "PIC regulatory approval and financing update",
+                "url": "https://www.pensioncorporation.com/news-insights/press-releases/2026/athora-regulatory-approval-acquisition-pic",
+                "locator": "6 March regulatory and equity update"
+              },
+              {
+                "publisher": "Athora completion announcement",
+                "url": "https://www.athora.com/news/athora-group-completes-acquisition-pension-insurance-corporation-group-and-announces-plans",
+                "locator": "27 March completion and pro forma group scale"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Business scale",
+            "text": "Athora reports €139bn AuMA and about 3.1m policyholders pro forma at 31 December 2025; these are operating metrics, not transaction value.",
+            "evidence": [
+              {
+                "publisher": "Athora completion announcement",
+                "url": "https://www.athora.com/news/athora-group-completes-acquisition-pension-insurance-corporation-group-and-announces-plans",
+                "locator": "27 March completion and pro forma group scale"
+              },
+              {
+                "publisher": "Athora FY2025 results",
+                "url": "https://www.athora.com/news/athora-holding-ltd-publishes-its-full-year-2025-results",
+                "locator": "Common equity commitments and pro forma scale"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Counsel",
+            "text": "Both A&O Shearman and Sidley identify Athora as client, supporting coexisting acquisition mandates.",
+            "evidence": [
+              {
+                "publisher": "A&O Shearman mandate disclosure",
+                "url": "https://www.aoshearman.com/en/news/ao-shearman-advises-athora-on-landmark-gbp5-7-billion-acquisition-of-picg",
+                "locator": "Co-counsel mandate"
+              },
+              {
+                "publisher": "Sidley mandate disclosure",
+                "url": "https://www.sidley.com/en/newslanding/newsannouncements/2025/07/sidley-advises-athora-on-acquisition-of-pension-insurance-corporation-group-limited",
+                "locator": "Acquisition counsel mandate"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Prudential",
+            "question": "What permissions and capital requirements apply?",
+            "why": "Separate change-of-control approval from group reorganisation.",
+            "documents": "PRA/FCA approval; solvency reports"
+          },
+          {
+            "name": "Asset-liability matching",
+            "question": "How are long-duration liabilities funded?",
+            "why": "Assess duration, liquidity and credit quality.",
+            "documents": "Portfolios; actuarial model"
+          },
+          {
+            "name": "Capital",
+            "question": "How does equity support purchase and growth?",
+            "why": "Reconcile deployed equity, financing and group capital.",
+            "documents": "Funds flow; capital plan"
+          },
+          {
+            "name": "Integration",
+            "question": "What protects policyholders?",
+            "why": "Assess continuity, governance, outsourcing and reporting.",
+            "documents": "Integration plans; outsourcing"
+          }
+        ],
+        "documents": [
+          {
+            "title": "Athora acquisition announcement",
+            "url": "https://www.athora.com/news/athora-to-acquire-PIC",
+            "purpose": "Acquisition price"
+          },
+          {
+            "title": "PIC regulatory approval and financing update",
+            "url": "https://www.pensioncorporation.com/news-insights/press-releases/2026/athora-regulatory-approval-acquisition-pic",
+            "purpose": "6 March regulatory and equity update"
+          },
+          {
+            "title": "Athora FY2025 results",
+            "url": "https://www.athora.com/news/athora-holding-ltd-publishes-its-full-year-2025-results",
+            "purpose": "Common equity commitments and pro forma scale"
+          },
+          {
+            "title": "Athora completion announcement",
+            "url": "https://www.athora.com/news/athora-group-completes-acquisition-pension-insurance-corporation-group-and-announces-plans",
+            "purpose": "27 March completion and pro forma group scale"
+          },
+          {
+            "title": "A&O Shearman mandate disclosure",
+            "url": "https://www.aoshearman.com/en/news/ao-shearman-advises-athora-on-landmark-gbp5-7-billion-acquisition-of-picg",
+            "purpose": "Co-counsel mandate"
+          },
+          {
+            "title": "Sidley mandate disclosure",
+            "url": "https://www.sidley.com/en/newslanding/newsannouncements/2025/07/sidley-advises-athora-on-acquisition-of-pension-insurance-corporation-group-limited",
+            "purpose": "Acquisition counsel mandate"
+          }
+        ],
+        "openQuestions": [
+          "Funding allocations, detailed capital effects, seller mandates and relocation approvals remain unverified."
+        ],
+        "relatedDeals": [
+          "harp-hargreaves-lansdown",
+          "abp-ifm"
+        ]
+      }
     },
     {
       "jurisdiction": "UK",
       "category": "Transactions",
       "verifiedOn": "2026-11-24",
-      "evidenceScope": "Public transaction-party and adviser disclosures reviewed; underlying contracts and confidential terms not independently inspected.",
+      "evidenceScope": "Targeted public-document research; factual findings and prospective legal workstreams are distinguished. Full independent certification not established.",
       "id": "itm-gbe-equity",
       "title": "Great British Energy / ITM Power strategic equity investment",
       "eventDate": "2026-07-09",
@@ -7568,7 +8564,7 @@
           "source": "https://itm-power.com/news/award-of-pound46.5m-desnz-grant"
         }
       ],
-      "financing": "Equity participation and grant support; detailed subscription and grant conditions not established.",
+      "financing": "£40m gross equity for 71,994,240 shares; separate £46.5m grant awarded and drawn against spend.",
       "regulatory": "No specific regulatory approval or grant compliance determination is asserted here.",
       "analysis": "Equity capital may dilute existing holders, while a grant can provide targeted funding subject to specific conditions. The economic outcome depends on manufacturing delivery, utilisation and demand; neither funding announcement proves commercial profitability.",
       "legalWork": "Examine subscription terms, shareholder authorities, applicable AIM disclosure obligations, grant conditions and permitted expenditure, reporting and project delivery covenants.",
@@ -7603,6 +8599,14 @@
         {
           "name": "Burges Salmon mandate disclosure",
           "url": "https://www.burges-salmon.com/burges-salmon-advises-itm-power-plc-on-40m-strategic-equity-investment-by-great-british-energy/"
+        },
+        {
+          "name": "ITM Power RNS preliminary results — Share capital note and grant disclosure",
+          "url": "https://www.lse.co.uk/rns/ITM/preliminary-results-znn5zx1rujjli0z.html"
+        },
+        {
+          "name": "ITM Power investor relations — 15 July holdings",
+          "url": "https://itm-power.com/investors/shareholders"
         }
       ],
       "advisers": [
@@ -7618,13 +8622,161 @@
         "capital-markets",
         "finance",
         "project-finance"
-      ]
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Equity versus grant",
+            "text": "April announced £40m equity and intended £46.5m grant; July confirmed award. Results record 71,994,240 shares issued on 9 April; investor page confirms GBE holding.",
+            "evidence": [
+              {
+                "publisher": "ITM Power equity and grant announcement",
+                "url": "https://itm-power.com/news/pound86.5-million-equity-and-grant-package-for-chronos-from-the-uk-government",
+                "locator": "9 April equity and intended grant"
+              },
+              {
+                "publisher": "ITM Power grant award",
+                "url": "https://itm-power.com/news/award-of-pound46.5m-desnz-grant",
+                "locator": "9 July grant award"
+              },
+              {
+                "publisher": "ITM Power RNS preliminary results",
+                "url": "https://www.lse.co.uk/rns/ITM/preliminary-results-znn5zx1rujjli0z.html",
+                "locator": "Share capital note and grant disclosure"
+              },
+              {
+                "publisher": "ITM Power investor relations",
+                "url": "https://itm-power.com/investors/shareholders",
+                "locator": "15 July holdings"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Subscription economics",
+            "text": "£40m divided by 71,994,240 implies about 55.56p per share. Grant funding is distinct from equity proceeds.",
+            "evidence": [
+              {
+                "publisher": "ITM Power equity and grant announcement",
+                "url": "https://itm-power.com/news/pound86.5-million-equity-and-grant-package-for-chronos-from-the-uk-government",
+                "locator": "9 April equity and intended grant"
+              },
+              {
+                "publisher": "ITM Power RNS preliminary results",
+                "url": "https://www.lse.co.uk/rns/ITM/preliminary-results-znn5zx1rujjli0z.html",
+                "locator": "Share capital note and grant disclosure"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Manufacturing purpose",
+            "text": "Package supports UK Chronos production. Results report grant drawdown as spend is incurred; award is not immediate cash receipt.",
+            "evidence": [
+              {
+                "publisher": "ITM Power equity and grant announcement",
+                "url": "https://itm-power.com/news/pound86.5-million-equity-and-grant-package-for-chronos-from-the-uk-government",
+                "locator": "9 April equity and intended grant"
+              },
+              {
+                "publisher": "ITM Power grant award",
+                "url": "https://itm-power.com/news/award-of-pound46.5m-desnz-grant",
+                "locator": "9 July grant award"
+              },
+              {
+                "publisher": "ITM Power RNS preliminary results",
+                "url": "https://www.lse.co.uk/rns/ITM/preliminary-results-znn5zx1rujjli0z.html",
+                "locator": "Share capital note and grant disclosure"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Counsel",
+            "text": "Burges Salmon identifies ITM as client on the strategic investment, not advice to the grant authority.",
+            "evidence": [
+              {
+                "publisher": "Burges Salmon mandate disclosure",
+                "url": "https://www.burges-salmon.com/burges-salmon-advises-itm-power-plc-on-40m-strategic-equity-investment-by-great-british-energy/",
+                "locator": "Issuer equity mandate"
+              },
+              {
+                "publisher": "ITM Power equity and grant announcement",
+                "url": "https://itm-power.com/news/pound86.5-million-equity-and-grant-package-for-chronos-from-the-uk-government",
+                "locator": "9 April equity and intended grant"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Capital markets",
+            "question": "What is dilution and issuance authority?",
+            "why": "Review pre-emption disapplication, admission and allocation.",
+            "documents": "Subscription; resolutions; register"
+          },
+          {
+            "name": "Subsidy control",
+            "question": "What attaches to grant?",
+            "why": "Assess eligible spend, milestones, clawback and assessment separately from equity.",
+            "documents": "Grant award; subsidy assessment"
+          },
+          {
+            "name": "Delivery",
+            "question": "Can capacity be commissioned on budget?",
+            "why": "Review procurement, demand and utilisation.",
+            "documents": "Capex model; suppliers"
+          },
+          {
+            "name": "Governance",
+            "question": "Does GBE obtain special rights?",
+            "why": "Do not infer vetoes, board seats or offtake from shareholding.",
+            "documents": "Investment terms"
+          }
+        ],
+        "documents": [
+          {
+            "title": "ITM Power equity and grant announcement",
+            "url": "https://itm-power.com/news/pound86.5-million-equity-and-grant-package-for-chronos-from-the-uk-government",
+            "purpose": "9 April equity and intended grant"
+          },
+          {
+            "title": "ITM Power grant award",
+            "url": "https://itm-power.com/news/award-of-pound46.5m-desnz-grant",
+            "purpose": "9 July grant award"
+          },
+          {
+            "title": "ITM Power RNS preliminary results",
+            "url": "https://www.lse.co.uk/rns/ITM/preliminary-results-znn5zx1rujjli0z.html",
+            "purpose": "Share capital note and grant disclosure"
+          },
+          {
+            "title": "ITM Power investor relations",
+            "url": "https://itm-power.com/investors/shareholders",
+            "purpose": "15 July holdings"
+          },
+          {
+            "title": "Burges Salmon mandate disclosure",
+            "url": "https://www.burges-salmon.com/burges-salmon-advises-itm-power-plc-on-40m-strategic-equity-investment-by-great-british-energy/",
+            "purpose": "Issuer equity mandate"
+          }
+        ],
+        "openQuestions": [
+          "Grant disbursement, milestone terms, governance rights and manufacturing economics not fully verified."
+        ],
+        "relatedDeals": [
+          "cip-noriker-kilmarnock",
+          "boralex-wind2"
+        ]
+      }
     },
     {
       "jurisdiction": "UK",
       "category": "Transactions",
       "verifiedOn": "2026-11-24",
-      "evidenceScope": "Public transaction-party and adviser disclosures reviewed; underlying contracts and confidential terms not independently inspected.",
+      "evidenceScope": "Targeted public-document research; factual findings and prospective legal workstreams are distinguished. Full independent certification not established.",
       "id": "cip-noriker-kilmarnock",
       "title": "Copenhagen Infrastructure Partners / Noriker Kilmarnock South BESS",
       "eventDate": "2026-10-28",
@@ -7689,6 +8841,10 @@
         {
           "name": "Addleshaw Goddard mandate disclosure",
           "url": "https://www.addleshawgoddard.com/en/news/2026/addleshaw-goddard-advises-noriker-power-major-uk-bess-project/"
+        },
+        {
+          "name": "Noriker — Developer origination and development",
+          "url": "https://noriker.co.uk/case-studies/kilmarnock-south/"
         }
       ],
       "advisers": [
@@ -7704,13 +8860,136 @@
         "project-finance",
         "due-diligence",
         "contract-remedies"
-      ]
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Sale versus construction",
+            "text": "CIP announced October investment decision; Noriker counsel reports prior January sale with continuing construction management. Ownership and contractor duties are distinct.",
+            "evidence": [
+              {
+                "publisher": "CIP investment decision",
+                "url": "https://www.cip.com/copenhagen-infrastructure-partners-p-s/r/copenhagen-infrastructure-partners-announces-eur-270-million-investment-in-new-scottish-battery-stor,c4388796?nfiid=3297",
+                "locator": "Investment decision and project capacity"
+              },
+              {
+                "publisher": "Addleshaw Goddard mandate disclosure",
+                "url": "https://www.addleshawgoddard.com/en/news/2026/addleshaw-goddard-advises-noriker-power-major-uk-bess-project/",
+                "locator": "January sale and construction relationship"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Capacity and funding",
+            "text": "350MW four-hour system implies nominal 1,400MWh. CIP reports project investment over €270m, not seller price or debt amount.",
+            "evidence": [
+              {
+                "publisher": "CIP investment decision",
+                "url": "https://www.cip.com/copenhagen-infrastructure-partners-p-s/r/copenhagen-infrastructure-partners-announces-eur-270-million-investment-in-new-scottish-battery-stor,c4388796?nfiid=3297",
+                "locator": "Investment decision and project capacity"
+              },
+              {
+                "publisher": "Addleshaw Goddard mandate disclosure",
+                "url": "https://www.addleshawgoddard.com/en/news/2026/addleshaw-goddard-advises-noriker-power-major-uk-bess-project/",
+                "locator": "January sale and construction relationship"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Portfolio context",
+            "text": "CIP names Kilmarnock South alongside Coalburn 1, Coalburn 2 and Devilla; Noriker describes its origination work.",
+            "evidence": [
+              {
+                "publisher": "CIP investment decision",
+                "url": "https://www.cip.com/copenhagen-infrastructure-partners-p-s/r/copenhagen-infrastructure-partners-announces-eur-270-million-investment-in-new-scottish-battery-stor,c4388796?nfiid=3297",
+                "locator": "Investment decision and project capacity"
+              },
+              {
+                "publisher": "Noriker",
+                "url": "https://noriker.co.uk/case-studies/kilmarnock-south/",
+                "locator": "Developer origination and development"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Legal scope",
+            "text": "Addleshaw identifies Noriker as client on sale and construction arrangements, not CIP financing.",
+            "evidence": [
+              {
+                "publisher": "Addleshaw Goddard mandate disclosure",
+                "url": "https://www.addleshawgoddard.com/en/news/2026/addleshaw-goddard-advises-noriker-power-major-uk-bess-project/",
+                "locator": "January sale and construction relationship"
+              },
+              {
+                "publisher": "CIP investment decision",
+                "url": "https://www.cip.com/copenhagen-infrastructure-partners-p-s/r/copenhagen-infrastructure-partners-announces-eur-270-million-investment-in-new-scottish-battery-stor,c4388796?nfiid=3297",
+                "locator": "Investment decision and project capacity"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Project sale",
+            "question": "Which rights transfer?",
+            "why": "Review land, grid, permissions and SPV ownership.",
+            "documents": "Sale; grid; land documents"
+          },
+          {
+            "name": "Construction",
+            "question": "Who bears delay and overrun?",
+            "why": "Assess interfaces, testing, performance and security.",
+            "documents": "Construction contract; warranties"
+          },
+          {
+            "name": "Revenue",
+            "question": "What supports storage returns?",
+            "why": "Test contracted/merchant revenues, degradation and cycling.",
+            "documents": "Revenue contracts; dispatch model"
+          },
+          {
+            "name": "Finance",
+            "question": "What funds construction versus acquisition?",
+            "why": "Distinguish price, capex, debt and equity.",
+            "documents": "Budget; facilities; funds flow"
+          }
+        ],
+        "documents": [
+          {
+            "title": "CIP investment decision",
+            "url": "https://www.cip.com/copenhagen-infrastructure-partners-p-s/r/copenhagen-infrastructure-partners-announces-eur-270-million-investment-in-new-scottish-battery-stor,c4388796?nfiid=3297",
+            "purpose": "Investment decision and project capacity"
+          },
+          {
+            "title": "Addleshaw Goddard mandate disclosure",
+            "url": "https://www.addleshawgoddard.com/en/news/2026/addleshaw-goddard-advises-noriker-power-major-uk-bess-project/",
+            "purpose": "January sale and construction relationship"
+          },
+          {
+            "title": "Noriker",
+            "url": "https://noriker.co.uk/case-studies/kilmarnock-south/",
+            "purpose": "Developer origination and development"
+          }
+        ],
+        "openQuestions": [
+          "Exact January date, sale price, debt/equity mix, contract terms and grid/revenue agreements not established."
+        ],
+        "relatedDeals": [
+          "rwe-kkr-vanguard",
+          "boralex-wind2"
+        ]
+      }
     },
     {
       "jurisdiction": "UK",
       "category": "Transactions",
       "verifiedOn": "2026-11-24",
-      "evidenceScope": "Public transaction-party and adviser disclosures reviewed; underlying contracts and confidential terms not independently inspected.",
+      "evidenceScope": "Targeted public-document research; factual findings and prospective legal workstreams are distinguished. Full independent certification not established.",
       "id": "aab-kreston-reeves",
       "title": "AAB / Kreston Reeves",
       "eventDate": "2026-07-01",
@@ -7773,6 +9052,10 @@
         {
           "name": "Addleshaw Goddard mandate disclosure",
           "url": "https://www.addleshawgoddard.com/en/news/2026/ag-advises-aab-investment-kreston-reeves-create-200m-group/"
+        },
+        {
+          "name": "AAB — 1 July buyer confirmation",
+          "url": "https://aab.uk/news/aab-closes-deal-with-kreston-reeves/"
         }
       ],
       "advisers": [
@@ -7795,13 +9078,146 @@
         "private-equity",
         "due-diligence",
         "business-model"
-      ]
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Completion chronology",
+            "text": "February announcement targeted spring completion subject to approvals; both parties confirmed completion 1 July. Earlier expected timing is not actual closing.",
+            "evidence": [
+              {
+                "publisher": "Kreston Reeves announcement",
+                "url": "https://www.krestonreeves.com/news/joining-forces-with-aab/",
+                "locator": "February planned combination"
+              },
+              {
+                "publisher": "Kreston Reeves completion announcement",
+                "url": "https://www.krestonreeves.com/news/we-have-joined-aab/",
+                "locator": "1 July completion and scale"
+              },
+              {
+                "publisher": "AAB",
+                "url": "https://aab.uk/news/aab-closes-deal-with-kreston-reeves/",
+                "locator": "1 July buyer confirmation"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Scale",
+            "text": "Combined business reports revenue over £200m, over 1,800 people and 25 locations in UK and Ireland; turnover is not consideration.",
+            "evidence": [
+              {
+                "publisher": "Kreston Reeves completion announcement",
+                "url": "https://www.krestonreeves.com/news/we-have-joined-aab/",
+                "locator": "1 July completion and scale"
+              },
+              {
+                "publisher": "AAB",
+                "url": "https://aab.uk/news/aab-closes-deal-with-kreston-reeves/",
+                "locator": "1 July buyer confirmation"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Mandate",
+            "text": "Addleshaw identifies work for AAB and confirms Linklaters involvement; exact workstream allocation beyond disclosure remains uncertain.",
+            "evidence": [
+              {
+                "publisher": "Addleshaw Goddard mandate disclosure",
+                "url": "https://www.addleshawgoddard.com/en/news/2026/ag-advises-aab-investment-kreston-reeves-create-200m-group/",
+                "locator": "AAB counsel disclosure"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Commercial perimeter",
+            "text": "Target describes a growth partnership broadening geographic coverage and capacity; ownership and purchase terms are not established.",
+            "evidence": [
+              {
+                "publisher": "Kreston Reeves announcement",
+                "url": "https://www.krestonreeves.com/news/joining-forces-with-aab/",
+                "locator": "February planned combination"
+              },
+              {
+                "publisher": "Kreston Reeves completion announcement",
+                "url": "https://www.krestonreeves.com/news/we-have-joined-aab/",
+                "locator": "1 July completion and scale"
+              },
+              {
+                "publisher": "AAB",
+                "url": "https://aab.uk/news/aab-closes-deal-with-kreston-reeves/",
+                "locator": "1 July buyer confirmation"
+              }
+            ],
+            "qualification": "party-position"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Professional regulation",
+            "question": "How are regulated audit services structured?",
+            "why": "Identify audit independence, ownership and authorisation constraints.",
+            "documents": "Approvals; entity structure"
+          },
+          {
+            "name": "People",
+            "question": "How are partner interests aligned?",
+            "why": "Review remuneration, retention, governance and restrictive covenants.",
+            "documents": "Partner terms; employment"
+          },
+          {
+            "name": "Clients",
+            "question": "What consent and conflict risks arise?",
+            "why": "Map engagements, confidentiality and independence.",
+            "documents": "Engagements; conflicts register"
+          },
+          {
+            "name": "Economics",
+            "question": "How do regional combinations create returns?",
+            "why": "Track margins, retention and integration expense separately from sales.",
+            "documents": "Quality of earnings; integration model"
+          }
+        ],
+        "documents": [
+          {
+            "title": "Kreston Reeves announcement",
+            "url": "https://www.krestonreeves.com/news/joining-forces-with-aab/",
+            "purpose": "February planned combination"
+          },
+          {
+            "title": "Kreston Reeves completion announcement",
+            "url": "https://www.krestonreeves.com/news/we-have-joined-aab/",
+            "purpose": "1 July completion and scale"
+          },
+          {
+            "title": "AAB",
+            "url": "https://aab.uk/news/aab-closes-deal-with-kreston-reeves/",
+            "purpose": "1 July buyer confirmation"
+          },
+          {
+            "title": "Addleshaw Goddard mandate disclosure",
+            "url": "https://www.addleshawgoddard.com/en/news/2026/ag-advises-aab-investment-kreston-reeves-create-200m-group/",
+            "purpose": "AAB counsel disclosure"
+          }
+        ],
+        "openQuestions": [
+          "Price, ownership, funding and specific approval authorities and terms unverified."
+        ],
+        "relatedDeals": [
+          "goldman-celnor",
+          "tilleghem-saragossa"
+        ]
+      }
     },
     {
       "jurisdiction": "UK",
       "category": "Transactions",
       "verifiedOn": "2026-11-24",
-      "evidenceScope": "Public transaction-party and adviser disclosures reviewed; underlying contracts and confidential terms not independently inspected.",
+      "evidenceScope": "Targeted public-document research; factual findings and prospective legal workstreams are distinguished. Full independent certification not established.",
       "id": "tilleghem-saragossa",
       "title": "Tilleghem Capital / Saragossa",
       "eventDate": "2026-10-15",
@@ -7851,6 +9267,14 @@
         {
           "name": "Burges Salmon mandate disclosure",
           "url": "https://www.burges-salmon.com/burges-salmon-advises-tilleghem-capital-on-acquisition-of-equity-stake-in-saragossa-limited/"
+        },
+        {
+          "name": "BDO — 1 October transaction entry",
+          "url": "https://www.bdo.co.uk/en-gb/deals/investment-in-saragossa-limited-by-tilleghem-partners-bv"
+        },
+        {
+          "name": "Saragossa — New York expansion and office network",
+          "url": "https://saragossa.io/insights/saragossa-accelerates-east-coast-expansion/"
         }
       ],
       "advisers": [
@@ -7866,13 +9290,141 @@
         "private-equity",
         "data-ip",
         "due-diligence"
-      ]
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Equity structure",
+            "text": "Target announced growth investment from Tilleghem Capital. Counsel describes equity stake acquisition; BDO identifies Tilleghem Partners BV. Control and percentage not disclosed.",
+            "evidence": [
+              {
+                "publisher": "Saragossa investment announcement",
+                "url": "https://saragossa.io/insights/saragossa-secures-strategic-growth-investment-from-tilleghem-capital/",
+                "locator": "30 September growth investment"
+              },
+              {
+                "publisher": "Burges Salmon mandate disclosure",
+                "url": "https://www.burges-salmon.com/burges-salmon-advises-tilleghem-capital-on-acquisition-of-equity-stake-in-saragossa-limited/",
+                "locator": "Investor-side equity mandate"
+              },
+              {
+                "publisher": "BDO",
+                "url": "https://www.bdo.co.uk/en-gb/deals/investment-in-saragossa-limited-by-tilleghem-partners-bv",
+                "locator": "1 October transaction entry"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Business model",
+            "text": "Saragossa provides technology, project delivery and talent services to investment firms. Prior expansion included New York after Bristol, London and Chicago.",
+            "evidence": [
+              {
+                "publisher": "Saragossa investment announcement",
+                "url": "https://saragossa.io/insights/saragossa-secures-strategic-growth-investment-from-tilleghem-capital/",
+                "locator": "30 September growth investment"
+              },
+              {
+                "publisher": "Saragossa",
+                "url": "https://saragossa.io/insights/saragossa-accelerates-east-coast-expansion/",
+                "locator": "New York expansion and office network"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Adviser",
+            "text": "Burges Salmon identifies Tilleghem as client for stake acquisition; target-side counsel not established.",
+            "evidence": [
+              {
+                "publisher": "Burges Salmon mandate disclosure",
+                "url": "https://www.burges-salmon.com/burges-salmon-advises-tilleghem-capital-on-acquisition-of-equity-stake-in-saragossa-limited/",
+                "locator": "Investor-side equity mandate"
+              },
+              {
+                "publisher": "BDO",
+                "url": "https://www.bdo.co.uk/en-gb/deals/investment-in-saragossa-limited-by-tilleghem-partners-bv",
+                "locator": "1 October transaction entry"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Growth rationale",
+            "text": "Target describes strategic growth investment but does not identify primary versus secondary allocation.",
+            "evidence": [
+              {
+                "publisher": "Saragossa investment announcement",
+                "url": "https://saragossa.io/insights/saragossa-secures-strategic-growth-investment-from-tilleghem-capital/",
+                "locator": "30 September growth investment"
+              }
+            ],
+            "qualification": "party-position"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Mechanics",
+            "question": "Is capital primary or secondary?",
+            "why": "Distinguish funds entering business from seller liquidity.",
+            "documents": "Subscription; purchase terms"
+          },
+          {
+            "name": "Governance",
+            "question": "What protections attach to stake?",
+            "why": "Check veto, board, information and exit rights.",
+            "documents": "Shareholders’ agreement"
+          },
+          {
+            "name": "Diligence",
+            "question": "What drives recurring services income?",
+            "why": "Assess customer concentration, utilisation and contractor arrangements.",
+            "documents": "Contracts; accounts"
+          },
+          {
+            "name": "Cross-border",
+            "question": "What risk accompanies US growth?",
+            "why": "Review tax, employment, data and entity structure.",
+            "documents": "Entity records; employment; data policies"
+          }
+        ],
+        "documents": [
+          {
+            "title": "Saragossa investment announcement",
+            "url": "https://saragossa.io/insights/saragossa-secures-strategic-growth-investment-from-tilleghem-capital/",
+            "purpose": "30 September growth investment"
+          },
+          {
+            "title": "Burges Salmon mandate disclosure",
+            "url": "https://www.burges-salmon.com/burges-salmon-advises-tilleghem-capital-on-acquisition-of-equity-stake-in-saragossa-limited/",
+            "purpose": "Investor-side equity mandate"
+          },
+          {
+            "title": "BDO",
+            "url": "https://www.bdo.co.uk/en-gb/deals/investment-in-saragossa-limited-by-tilleghem-partners-bv",
+            "purpose": "1 October transaction entry"
+          },
+          {
+            "title": "Saragossa",
+            "url": "https://saragossa.io/insights/saragossa-accelerates-east-coast-expansion/",
+            "purpose": "New York expansion and office network"
+          }
+        ],
+        "openQuestions": [
+          "Price, stake, rights, primary/secondary split, funding and exact closing mechanics not established."
+        ],
+        "relatedDeals": [
+          "aab-kreston-reeves",
+          "goldman-celnor"
+        ]
+      }
     },
     {
       "jurisdiction": "UK",
       "category": "Transactions",
       "verifiedOn": "2026-11-24",
-      "evidenceScope": "Public transaction-party and adviser disclosures reviewed; underlying contracts and confidential terms not independently inspected.",
+      "evidenceScope": "Targeted public-document research; factual findings and prospective legal workstreams are distinguished. Full independent certification not established.",
       "id": "boralex-wind2",
       "title": "Boralex / Wind2",
       "eventDate": "2026-11-05",
@@ -7951,7 +9503,125 @@
         "project-finance",
         "due-diligence",
         "business-model"
-      ]
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Perimeter",
+            "text": "Boralex acquired Wind2, a renewable developer founded in 2016. Releases describe around 350MW advanced wind projects across Scotland, England and Wales.",
+            "evidence": [
+              {
+                "publisher": "Boralex announcement",
+                "url": "https://uk.boralex.com/en/press-releases/boralex-accelerates-expansion-united-kingdom-acquisition-wind2",
+                "locator": "27 October acquisition and portfolio"
+              },
+              {
+                "publisher": "Wind2 closing announcement",
+                "url": "https://wind2.co.uk/news/boralex-accelerates-growth-in-the-united-kingdom-with-the-acquisition-of-wind2-including-a-350-mw-development-platform",
+                "locator": "29 October closing announcement"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Capacity distinction",
+            "text": "350MW represents development projects, not operating generation or financial value. Conversion into operating assets depends on delivery.",
+            "evidence": [
+              {
+                "publisher": "Boralex announcement",
+                "url": "https://uk.boralex.com/en/press-releases/boralex-accelerates-expansion-united-kingdom-acquisition-wind2",
+                "locator": "27 October acquisition and portfolio"
+              },
+              {
+                "publisher": "Wind2 closing announcement",
+                "url": "https://wind2.co.uk/news/boralex-accelerates-growth-in-the-united-kingdom-with-the-acquisition-of-wind2-including-a-350-mw-development-platform",
+                "locator": "29 October closing announcement"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Closing and counsel",
+            "text": "Target published closing announcement dated 29 October; Burges Salmon confirms advice to Wind2 shareholders on disposal.",
+            "evidence": [
+              {
+                "publisher": "Wind2 closing announcement",
+                "url": "https://wind2.co.uk/news/boralex-accelerates-growth-in-the-united-kingdom-with-the-acquisition-of-wind2-including-a-350-mw-development-platform",
+                "locator": "29 October closing announcement"
+              },
+              {
+                "publisher": "Burges Salmon mandate disclosure",
+                "url": "https://www.burges-salmon.com/burges-salmon-advises-the-shareholders-of-wind2-on-disposal-to-boralex/",
+                "locator": "5 November seller mandate"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Strategy",
+            "text": "Buyer presents platform acquisition as acceleration of UK growth. Pipeline MW is not guaranteed future revenue.",
+            "evidence": [
+              {
+                "publisher": "Boralex announcement",
+                "url": "https://uk.boralex.com/en/press-releases/boralex-accelerates-expansion-united-kingdom-acquisition-wind2",
+                "locator": "27 October acquisition and portfolio"
+              }
+            ],
+            "qualification": "party-position"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Perimeter",
+            "question": "Which development rights and SPVs transfer?",
+            "why": "Verify title, lease options, grid offers and minority interests.",
+            "documents": "SPV and project schedules"
+          },
+          {
+            "name": "Development",
+            "question": "How advanced is each project?",
+            "why": "Review planning milestones, grid, environmental constraints and capex.",
+            "documents": "Planning; grid; environmental reports"
+          },
+          {
+            "name": "Consideration",
+            "question": "Does price depend on milestones?",
+            "why": "Check contingent consideration without assuming it exists.",
+            "documents": "SPA; accounts"
+          },
+          {
+            "name": "Integration",
+            "question": "How is development expertise retained?",
+            "why": "Assess staff, local obligations and management handover.",
+            "documents": "Employment; development contracts"
+          }
+        ],
+        "documents": [
+          {
+            "title": "Boralex announcement",
+            "url": "https://uk.boralex.com/en/press-releases/boralex-accelerates-expansion-united-kingdom-acquisition-wind2",
+            "purpose": "27 October acquisition and portfolio"
+          },
+          {
+            "title": "Wind2 closing announcement",
+            "url": "https://wind2.co.uk/news/boralex-accelerates-growth-in-the-united-kingdom-with-the-acquisition-of-wind2-including-a-350-mw-development-platform",
+            "purpose": "29 October closing announcement"
+          },
+          {
+            "title": "Burges Salmon mandate disclosure",
+            "url": "https://www.burges-salmon.com/burges-salmon-advises-the-shareholders-of-wind2-on-disposal-to-boralex/",
+            "purpose": "5 November seller mandate"
+          }
+        ],
+        "openQuestions": [
+          "Price, funding and project-level ownership and consent status remain unverified."
+        ],
+        "relatedDeals": [
+          "cip-noriker-kilmarnock",
+          "rwe-kkr-vanguard"
+        ]
+      }
     },
     {
       "id": "chesnara-metlife-uk",
