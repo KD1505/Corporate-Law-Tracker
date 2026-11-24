@@ -636,6 +636,18 @@
         {
           "name": "CMA case",
           "url": "https://www.gov.uk/cma-cases/sky-slash-itv-merger-inquiry"
+        },
+        {
+          "name": "Public-interest intervention notice",
+          "url": "https://www.gov.uk/government/publications/public-interest-intervention-notice-issued-by-secretary-of-state-lisa-nandy--2/public-interest-intervention-notice-issued-by-secretary-of-state-lisa-nandy"
+        },
+        {
+          "name": "15 October ministerial statement",
+          "url": "https://questions-statements.parliament.uk/written-statements/detail/2026-10-15/HCWS385"
+        },
+        {
+          "name": "Sky and ITV joint response",
+          "url": "https://skyanditv.com/news/sky-and-itv-respond-to-public-interest-intervention-notice-on-proposed-acquisition-of-itv-media-entertainment"
         }
       ],
       "related": [
@@ -656,6 +668,11 @@
       "structure": "Proposed acquisition of ITV media and entertainment business; detailed definitive terms not established here.",
       "regulatory": "Section 42 Enterprise Act 2002 intervention requires separate reports from CMA and Ofcom. The notice addresses media plurality and free expression. A proposed extension to on-demand programming is not treated as enacted law.",
       "timeline": [
+        {
+          "date": "2026-07-06",
+          "event": "Agreed terms reported in subsequent ministerial statement",
+          "source": "https://questions-statements.parliament.uk/written-statements/detail/2026-10-15/HCWS385"
+        },
         {
           "date": "2026-07-23",
           "event": "CMA invitation to comment",
@@ -678,7 +695,154 @@
         "source": "https://www.gov.uk/cma-cases/sky-slash-itv-merger-inquiry"
       },
       "legalWork": "Map media ownership and audiences, assess competition and public-interest requirements separately, allocate risk of conditions and extensions, and plan communications without prejudging the Secretary of State's decision.",
-      "interview": "How can a merger with limited conventional competition concerns still face a public-interest review?"
+      "interview": "How can a merger with limited conventional competition concerns still face a public-interest review?",
+      "announcedOn": "2026-07-06",
+      "factSources": [
+        "https://www.gov.uk/government/publications/public-interest-intervention-notice-issued-by-secretary-of-state-lisa-nandy--2/public-interest-intervention-notice-issued-by-secretary-of-state-lisa-nandy",
+        "https://www.gov.uk/cma-cases/sky-slash-itv-merger-inquiry"
+      ],
+      "values": [
+        {
+          "label": "Announced consideration ceiling",
+          "amount": "Up to £1.6bn",
+          "numericAmount": 1600000000,
+          "currency": "GBP",
+          "basis": "acquisition-value",
+          "source": "https://questions-statements.parliament.uk/written-statements/detail/2026-10-15/HCWS385",
+          "unit": "currency",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Separate five-year content supply agreement",
+          "amount": "£2.1bn",
+          "numericAmount": 2100000000,
+          "currency": "GBP",
+          "basis": "commercial-contract-value",
+          "source": "https://skyanditv.com/news/sky-and-itv-respond-to-public-interest-intervention-notice-on-proposed-acquisition-of-itv-media-entertainment",
+          "unit": "currency",
+          "disclosure": "stated"
+        }
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Acquisition perimeter",
+            "text": "The October ministerial statement records agreed terms announced on 6 July for up to £1.6bn. The target is ITV's Media and Entertainment business rather than the entirety of ITV plc. The parties describe a separate five-year £2.1bn ITV Studios content supply arrangement; it is not acquisition consideration.",
+            "evidence": [
+              {
+                "url": "https://questions-statements.parliament.uk/written-statements/detail/2026-10-15/HCWS385",
+                "publisher": "UK Parliament / DCMS",
+                "locator": "Transaction background"
+              },
+              {
+                "url": "https://skyanditv.com/news/sky-and-itv-respond-to-public-interest-intervention-notice-on-proposed-acquisition-of-itv-media-entertainment",
+                "publisher": "Sky and ITV",
+                "locator": "Programming commitments"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Statutory procedure",
+            "text": "The 4 November notice invokes section 42 of the Enterprise Act 2002. Under sections 44 and 44A, CMA and Ofcom must report by 5pm on 27 January 2027, on competition/jurisdiction and media public interest respectively. This is not a clearance or prohibition.",
+            "evidence": [
+              {
+                "url": "https://www.gov.uk/government/publications/public-interest-intervention-notice-issued-by-secretary-of-state-lisa-nandy--2/public-interest-intervention-notice-issued-by-secretary-of-state-lisa-nandy",
+                "publisher": "DCMS",
+                "locator": "Operative notice and deadline"
+              },
+              {
+                "url": "https://www.gov.uk/cma-cases/sky-slash-itv-merger-inquiry",
+                "publisher": "CMA",
+                "locator": "Merger case"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Media plurality and programme availability",
+            "text": "The notice identifies freedom of expression, plurality of news views and ownership/control as public-interest issues under section 58. It also identifies diversity and quality of broadcasting and on-demand content as a further consideration not already specified in section 58 at issue date.",
+            "evidence": [
+              {
+                "url": "https://www.gov.uk/government/publications/public-interest-intervention-notice-issued-by-secretary-of-state-lisa-nandy--2/public-interest-intervention-notice-issued-by-secretary-of-state-lisa-nandy",
+                "publisher": "DCMS",
+                "locator": "Enumerated public-interest considerations"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Party commitments",
+            "text": "Sky and ITV describe preserving free-to-air viewing, separate editorial voices and ITV Studios content supply. These are stated intentions, not remedies accepted by the authorities.",
+            "evidence": [
+              {
+                "url": "https://skyanditv.com/news/sky-and-itv-respond-to-public-interest-intervention-notice-on-proposed-acquisition-of-itv-media-entertainment",
+                "publisher": "Sky and ITV",
+                "locator": "Response to intervention"
+              }
+            ],
+            "qualification": "party-position"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Regulatory strategy",
+            "question": "How do CMA and Ofcom's functions differ?",
+            "why": "Build separate competition and media plurality submissions and follow the statutory decision sequence.",
+            "documents": "PIIN; CMA and Ofcom reports."
+          },
+          {
+            "name": "Content rights",
+            "question": "How does the content supply contract support the acquisition?",
+            "why": "Test rights windows, exclusivity, minimum spend and renewals separately from purchase price.",
+            "documents": "Content agreement; rights register."
+          },
+          {
+            "name": "Editorial governance",
+            "question": "What protects independent editorial decisions?",
+            "why": "Evaluate proposed ownership, appointments, budgets and monitoring; distinguish intentions from binding remedies.",
+            "documents": "Editorial governance; proposed undertakings."
+          },
+          {
+            "name": "Closing risk",
+            "question": "Who bears regulatory delay?",
+            "why": "Review remedy allocation, long-stop, termination and cooperation conditions.",
+            "documents": "Acquisition agreement; regulatory conditions."
+          }
+        ],
+        "documents": [
+          {
+            "title": "Public-interest intervention notice",
+            "url": "https://www.gov.uk/government/publications/public-interest-intervention-notice-issued-by-secretary-of-state-lisa-nandy--2/public-interest-intervention-notice-issued-by-secretary-of-state-lisa-nandy",
+            "purpose": "Operative statutory notice"
+          },
+          {
+            "title": "CMA case",
+            "url": "https://www.gov.uk/cma-cases/sky-slash-itv-merger-inquiry",
+            "purpose": "Case timeline"
+          },
+          {
+            "title": "15 October ministerial statement",
+            "url": "https://questions-statements.parliament.uk/written-statements/detail/2026-10-15/HCWS385",
+            "purpose": "Initial consideration and intervention background"
+          },
+          {
+            "title": "Sky and ITV joint response",
+            "url": "https://skyanditv.com/news/sky-and-itv-respond-to-public-interest-intervention-notice-on-proposed-acquisition-of-itv-media-entertainment",
+            "purpose": "Party-stated commercial commitments"
+          }
+        ],
+        "openQuestions": [
+          "Executed transaction and content agreements not inspected.",
+          "Named counsel and funding terms not established.",
+          "Regulator reports and final decision outstanding."
+        ],
+        "relatedDeals": [
+          "vodafone-three",
+          "mccormick-unilever"
+        ]
+      }
     },
     {
       "id": "coop-southern",
@@ -1863,9 +2027,9 @@
       "category": "Transactions",
       "title": "RWE / KKR — Vanguard offshore wind projects",
       "eventDate": "2026-11-11",
-      "status": "Final investment decision announced",
+      "status": "Equity and financial close announced",
       "sector": "Energy / infrastructure",
-      "fact": "RWE announced final investment decisions for the UK Vanguard West and East offshore wind projects. The announced combined project investment is approximately £12bn, not an acquisition price or debt facility.",
+      "fact": "On 11 November the sponsors announced investment decisions, 50:50 equity participation and financial close. The approximately £12bn project investment is distinct from £11.1bn cash facilities and £1.7bn ancillary facilities.",
       "values": [
         {
           "label": "Combined project investment",
@@ -1876,6 +2040,36 @@
           "numericAmount": 12000000000,
           "unit": "currency",
           "disclosure": "approximate"
+        },
+        {
+          "label": "Cash facilities",
+          "amount": "£11.1bn",
+          "numericAmount": 11100000000,
+          "currency": "GBP",
+          "basis": "financing-commitment",
+          "source": "https://uk.rwe.com/press-and-news/2026-11-11-rwe-and-kkr-join-forces-to-deliver-2-8-gw-of-new-offshore-wind-capacity-in-the-uk/",
+          "unit": "currency",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Ancillary facilities",
+          "amount": "£1.7bn",
+          "numericAmount": 1700000000,
+          "currency": "GBP",
+          "basis": "ancillary-facilities",
+          "source": "https://uk.rwe.com/press-and-news/2026-11-11-rwe-and-kkr-join-forces-to-deliver-2-8-gw-of-new-offshore-wind-capacity-in-the-uk/",
+          "unit": "currency",
+          "disclosure": "stated"
+        },
+        {
+          "label": "National Wealth Fund commitment within package",
+          "amount": "£1bn",
+          "numericAmount": 1000000000,
+          "currency": "GBP",
+          "basis": "financing-component",
+          "source": "https://uk.rwe.com/press-and-news/2026-11-11-rwe-and-kkr-join-forces-to-deliver-2-8-gw-of-new-offshore-wind-capacity-in-the-uk/",
+          "unit": "currency",
+          "disclosure": "stated"
         }
       ],
       "analysis": "Project economics depend on construction cost, revenue arrangements, grid connection and risk allocation. The investment decision does not eliminate construction risk; advisers must distinguish committed funding, drawdown conditions and completion milestones.",
@@ -1888,6 +2082,26 @@
         {
           "name": "UK government announcement",
           "url": "https://www.gov.uk/government/news/prime-minister-hails-major-investment-in-uk-renewables"
+        },
+        {
+          "name": "RWE equity and financial close",
+          "url": "https://uk.rwe.com/press-and-news/2026-11-11-rwe-and-kkr-join-forces-to-deliver-2-8-gw-of-new-offshore-wind-capacity-in-the-uk/"
+        },
+        {
+          "name": "KKR joint announcement",
+          "url": "https://media.kkr.com/news-details?linkId=1035438525&news_id=a2cab498-e90d-402d-8c90-58190a850a66"
+        },
+        {
+          "name": "Official AR7 CfD results",
+          "url": "https://www.gov.uk/government/publications/contracts-for-difference-cfd-allocation-round-7-results/contracts-for-difference-allocation-round-7-results-accessible-webpage"
+        },
+        {
+          "name": "January partnership",
+          "url": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/news/news-2026-01-14/"
+        },
+        {
+          "name": "Kirkland mandate",
+          "url": "https://www.kirkland.com/news/press-release/2026/01/kirkland-advises-kkr-on-strategic-partnership-with-rwe-to-realize-uk-offshore-windfarms"
         }
       ],
       "related": [
@@ -1909,16 +2123,177 @@
           "Vanguard West and East"
         ]
       ],
-      "structure": "Offshore wind project investment; not a purchase-price announcement.",
+      "structure": "Two offshore wind projects, each 50:50 RWE and KKR; non-recourse project financing.",
       "timeline": [
+        {
+          "date": "2026-01-14",
+          "event": "CfD award and partnership announced",
+          "source": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/news/news-2026-01-14/"
+        },
         {
           "date": "2026-11-11",
           "event": "Final investment decisions announced",
           "source": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/news/news-2026-11-11_a/"
+        },
+        {
+          "date": "2026-11-11",
+          "event": "Equity and financial close announced",
+          "source": "https://uk.rwe.com/press-and-news/2026-11-11-rwe-and-kkr-join-forces-to-deliver-2-8-gw-of-new-offshore-wind-capacity-in-the-uk/"
         }
       ],
       "legalWork": "Map procurement, construction, grid and offtake interfaces; consider security, lender step-in and completion support. Model cost overruns and delays rather than assuming investment approval proves funding has been drawn.",
-      "interview": "How do construction and revenue risks change the financing of offshore wind compared with an operating asset?"
+      "interview": "How do construction and revenue risks change the financing of offshore wind compared with an operating asset?",
+      "factSources": [
+        "https://uk.rwe.com/press-and-news/2026-11-11-rwe-and-kkr-join-forces-to-deliver-2-8-gw-of-new-offshore-wind-capacity-in-the-uk/",
+        "https://media.kkr.com/news-details?linkId=1035438525&news_id=a2cab498-e90d-402d-8c90-58190a850a66",
+        "https://www.gov.uk/government/publications/contracts-for-difference-cfd-allocation-round-7-results/contracts-for-difference-allocation-round-7-results-accessible-webpage"
+      ],
+      "announcedOn": "2026-01-14",
+      "financing": "35 international banks, NWF participation and Euler Hermes / EIFO credit cover. Facility limits are not evidence of debt drawn.",
+      "advisers": [
+        {
+          "firmId": "kirkland-ellis",
+          "firm": "Kirkland & Ellis",
+          "client": "KKR",
+          "scope": "January strategic partnership; not attributed as lender counsel",
+          "source": "https://www.kirkland.com/news/press-release/2026/01/kirkland-advises-kkr-on-strategic-partnership-with-rwe-to-realize-uk-offshore-windfarms"
+        }
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Ownership and project economics",
+            "text": "KKR acquired 50% of each Vanguard project, with both sponsors committing equity. The approximately £12bn budget relates to development of the two projects, not the price KKR paid for the stakes.",
+            "evidence": [
+              {
+                "url": "https://uk.rwe.com/press-and-news/2026-11-11-rwe-and-kkr-join-forces-to-deliver-2-8-gw-of-new-offshore-wind-capacity-in-the-uk/",
+                "publisher": "RWE",
+                "locator": "Equity close"
+              },
+              {
+                "url": "https://media.kkr.com/news-details?linkId=1035438525&news_id=a2cab498-e90d-402d-8c90-58190a850a66",
+                "publisher": "KKR",
+                "locator": "Joint announcement"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Financing components",
+            "text": "Financial close includes £11.1bn cash facilities, £1.7bn ancillary facilities and participation by 35 banks. The £1bn NWF commitment is a component of the package, not an additional transaction valuation. Euler Hermes and EIFO provide credit cover.",
+            "evidence": [
+              {
+                "url": "https://uk.rwe.com/press-and-news/2026-11-11-rwe-and-kkr-join-forces-to-deliver-2-8-gw-of-new-offshore-wind-capacity-in-the-uk/",
+                "publisher": "RWE",
+                "locator": "Financing package"
+              },
+              {
+                "url": "https://media.kkr.com/news-details?linkId=1035438525&news_id=a2cab498-e90d-402d-8c90-58190a850a66",
+                "publisher": "KKR",
+                "locator": "Shared announcement"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Revenue support",
+            "text": "Official AR7 results identify both projects at £91.20/MWh in 2024 prices. The sponsors report 20-year indexed CfDs and expect full commissioning in 2030. These are not guaranteed profitability or completed capacity.",
+            "evidence": [
+              {
+                "url": "https://www.gov.uk/government/publications/contracts-for-difference-cfd-allocation-round-7-results/contracts-for-difference-allocation-round-7-results-accessible-webpage",
+                "publisher": "DESNZ",
+                "locator": "Vanguard East and West results"
+              },
+              {
+                "url": "https://uk.rwe.com/press-and-news/2026-11-11-rwe-and-kkr-join-forces-to-deliver-2-8-gw-of-new-offshore-wind-capacity-in-the-uk/",
+                "publisher": "RWE",
+                "locator": "CfD and construction schedule"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Adviser scope",
+            "text": "Kirkland & Ellis identifies KKR as its strategic partnership client in January. That mandate does not establish who advised lenders on the subsequent project financing.",
+            "evidence": [
+              {
+                "url": "https://www.kirkland.com/news/press-release/2026/01/kirkland-advises-kkr-on-strategic-partnership-with-rwe-to-realize-uk-offshore-windfarms",
+                "publisher": "Kirkland & Ellis",
+                "locator": "Client attribution"
+              },
+              {
+                "url": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/news/news-2026-01-14/",
+                "publisher": "RWE",
+                "locator": "Partnership announcement"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Debt bankability",
+            "question": "How are construction overruns allocated?",
+            "why": "Review draw conditions, completion tests, sponsor support, security and step-in rights.",
+            "documents": "Facilities; intercreditor; security and support agreements."
+          },
+          {
+            "name": "CfD economics",
+            "question": "Which revenue risks persist with a CfD?",
+            "why": "Model generation volumes, reference prices, negative pricing, availability and expiry.",
+            "documents": "Executed CfDs; AR7 terms; grid agreements."
+          },
+          {
+            "name": "JV governance",
+            "question": "How does equal ownership manage funding calls?",
+            "why": "Check reserved matters, deadlock, default funding, transfers and exit rights.",
+            "documents": "Shareholders agreements; equity commitments."
+          },
+          {
+            "name": "Construction",
+            "question": "Where could shared infrastructure cause delays?",
+            "why": "Map turbine, cable, grid and commissioning interfaces and associated delay remedies.",
+            "documents": "Supply and construction contracts; grid schedule."
+          }
+        ],
+        "documents": [
+          {
+            "title": "RWE equity and financial close",
+            "url": "https://uk.rwe.com/press-and-news/2026-11-11-rwe-and-kkr-join-forces-to-deliver-2-8-gw-of-new-offshore-wind-capacity-in-the-uk/",
+            "purpose": "Financing, ownership and construction"
+          },
+          {
+            "title": "KKR joint announcement",
+            "url": "https://media.kkr.com/news-details?linkId=1035438525&news_id=a2cab498-e90d-402d-8c90-58190a850a66",
+            "purpose": "Counterparty shared announcement"
+          },
+          {
+            "title": "Official AR7 CfD results",
+            "url": "https://www.gov.uk/government/publications/contracts-for-difference-cfd-allocation-round-7-results/contracts-for-difference-allocation-round-7-results-accessible-webpage",
+            "purpose": "Separately originating CfD award evidence"
+          },
+          {
+            "title": "January partnership",
+            "url": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/news/news-2026-01-14/",
+            "purpose": "Original partnership"
+          },
+          {
+            "title": "Kirkland mandate",
+            "url": "https://www.kirkland.com/news/press-release/2026/01/kirkland-advises-kkr-on-strategic-partnership-with-rwe-to-realize-uk-offshore-windfarms",
+            "purpose": "Investor-side mandate"
+          }
+        ],
+        "openQuestions": [
+          "Executed financing documents, pricing and sponsor amounts not inspected.",
+          "RWE and lender legal counsel not established.",
+          "Construction and operational progress requires later review."
+        ],
+        "relatedDeals": [
+          "cip-noriker-kilmarnock",
+          "abp-term-facility"
+        ]
+      }
     },
     {
       "jurisdiction": "UK",
@@ -2039,6 +2414,18 @@
         {
           "name": "Latham mandate",
           "url": "https://www.lw.com/en/news/2026/10/Latham%20Advises%20LSEG%20on%20Acquisition%20of%20Octus"
+        },
+        {
+          "name": "Permira announcement",
+          "url": "https://www.permira.com/news-and-insights/announcements/permira-agrees-sale-of-octus-to-lseg"
+        },
+        {
+          "name": "Octus announcement",
+          "url": "https://octus.com/company/news/lseg-to-acquire-octus-creating-market-leader-across-public-and-private-credit-solutions/"
+        },
+        {
+          "name": "McDermott seller/target mandate",
+          "url": "https://www.mcdermottlaw.com/news/mcdermott-will-schulte-advises-permira-and-octus-on-agreed-3-535-billion-sale-to-lseg/"
         }
       ],
       "advisers": [
@@ -2048,13 +2435,164 @@
           "client": "LSEG",
           "scope": "Acquisition",
           "source": "https://www.lw.com/en/news/2026/10/Latham%20Advises%20LSEG%20on%20Acquisition%20of%20Octus"
+        },
+        {
+          "firmId": "mcdermott",
+          "firm": "McDermott Will & Schulte",
+          "client": "Permira and Octus",
+          "scope": "Agreed sale of Octus",
+          "source": "https://www.mcdermottlaw.com/news/mcdermott-will-schulte-advises-permira-and-octus-on-agreed-3-535-billion-sale-to-lseg/"
         }
       ],
       "related": [
         "valuation",
         "finance",
         "business-model"
-      ]
+      ],
+      "factSources": [
+        "https://www.lseg.com/en/media-centre/press-releases/2026/lseg-acquire-octus-public-private-credit-solutions",
+        "https://www.permira.com/news-and-insights/announcements/permira-agrees-sale-of-octus-to-lseg"
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Price and exit",
+            "text": "LSEG and Permira announce an agreed $3.535bn cash acquisition. Permira describes full realisation of its funds' investment. Expected H1 2027 completion remains subject to regulatory approval.",
+            "evidence": [
+              {
+                "url": "https://www.lseg.com/en/media-centre/press-releases/2026/lseg-acquire-octus-public-private-credit-solutions",
+                "publisher": "LSEG",
+                "locator": "Acquisition announcement"
+              },
+              {
+                "url": "https://www.permira.com/news-and-insights/announcements/permira-agrees-sale-of-octus-to-lseg",
+                "publisher": "Permira",
+                "locator": "Sale announcement"
+              },
+              {
+                "url": "https://www.mcdermottlaw.com/news/mcdermott-will-schulte-advises-permira-and-octus-on-agreed-3-535-billion-sale-to-lseg/",
+                "publisher": "McDermott Will & Schulte",
+                "locator": "Price and mandate"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Operating profile",
+            "text": "The announced 2026 target revenue forecast exceeds $300m, with adjusted EBITDA margin around 40%. These are forecasts, not audited actuals. Data subscriptions make retention, licence rights and customer concentration critical diligence questions.",
+            "evidence": [
+              {
+                "url": "https://www.lseg.com/en/media-centre/press-releases/2026/lseg-acquire-octus-public-private-credit-solutions",
+                "publisher": "LSEG",
+                "locator": "Target financial profile"
+              },
+              {
+                "url": "https://octus.com/company/news/lseg-to-acquire-octus-creating-market-leader-across-public-and-private-credit-solutions/",
+                "publisher": "Octus",
+                "locator": "Transaction announcement"
+              }
+            ],
+            "qualification": "forecast"
+          },
+          {
+            "heading": "Leverage and integration",
+            "text": "LSEG intends external debt financing. Management forecasts year-end 2027 leverage near the top of 1.5–2.5x target range, subject to Octus and Trumid completion, forecast cash flows and buyback assumptions. Expected adjusted EPS neutrality in year one and accretion thereafter remain projections.",
+            "evidence": [
+              {
+                "url": "https://www.lseg.com/en/media-centre/press-releases/2026/lseg-acquire-octus-public-private-credit-solutions",
+                "publisher": "LSEG",
+                "locator": "Financial impact"
+              },
+              {
+                "url": "https://www.lseg.com/en/investor-relations/regulatory-news/details/announcement/bff8-d7-2b-10-d5-4bdab1",
+                "publisher": "LSEG",
+                "locator": "Regulatory announcement"
+              }
+            ],
+            "qualification": "forecast"
+          },
+          {
+            "heading": "Client-side legal mandates",
+            "text": "Latham identifies LSEG as its acquisition client and specialist roles in finance, antitrust, financial regulation, privacy and IP. McDermott identifies Permira and Octus as its clients. The separate mandates do not imply exclusivity.",
+            "evidence": [
+              {
+                "url": "https://www.lw.com/en/news/2026/10/Latham%20Advises%20LSEG%20on%20Acquisition%20of%20Octus",
+                "publisher": "Latham & Watkins",
+                "locator": "Buyer counsel and practice roles"
+              },
+              {
+                "url": "https://www.mcdermottlaw.com/news/mcdermott-will-schulte-advises-permira-and-octus-on-agreed-3-535-billion-sale-to-lseg/",
+                "publisher": "McDermott Will & Schulte",
+                "locator": "Seller and target counsel"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Data rights",
+            "question": "Does Octus control the data it sells?",
+            "why": "Examine source licences, redistribution, derived products, third-party restrictions and employee IP.",
+            "documents": "Material licences; IP assignments; provenance register."
+          },
+          {
+            "name": "Revenue quality",
+            "question": "How resilient is the subscription model?",
+            "why": "Test retention, renewal, churn, concentration, deferred revenue and change-of-control rights; reconcile forecasts to audited results.",
+            "documents": "Customer contracts; revenue cohort data; accounts."
+          },
+          {
+            "name": "Regulation",
+            "question": "Could integration restrict access to critical credit data?",
+            "why": "Evaluate overlap, bundling and financial regulatory perimeter without assuming authority findings.",
+            "documents": "Regulatory submissions; product map."
+          },
+          {
+            "name": "Financing",
+            "question": "What if growth disappoints?",
+            "why": "Stress interest costs, leverage, buybacks and integration costs; coordinate debt availability and closing conditions.",
+            "documents": "Financing terms; cash flow model; acquisition agreement."
+          }
+        ],
+        "documents": [
+          {
+            "title": "LSEG announcement",
+            "url": "https://www.lseg.com/en/media-centre/press-releases/2026/lseg-acquire-octus-public-private-credit-solutions",
+            "purpose": "Economics and forecasts"
+          },
+          {
+            "title": "Permira announcement",
+            "url": "https://www.permira.com/news-and-insights/announcements/permira-agrees-sale-of-octus-to-lseg",
+            "purpose": "Seller confirmation"
+          },
+          {
+            "title": "Octus announcement",
+            "url": "https://octus.com/company/news/lseg-to-acquire-octus-creating-market-leader-across-public-and-private-credit-solutions/",
+            "purpose": "Target announcement"
+          },
+          {
+            "title": "Latham mandate",
+            "url": "https://www.lw.com/en/news/2026/10/Latham%20Advises%20LSEG%20on%20Acquisition%20of%20Octus",
+            "purpose": "Acquirer mandate"
+          },
+          {
+            "title": "McDermott seller/target mandate",
+            "url": "https://www.mcdermottlaw.com/news/mcdermott-will-schulte-advises-permira-and-octus-on-agreed-3-535-billion-sale-to-lseg/",
+            "purpose": "Seller and target mandate"
+          }
+        ],
+        "openQuestions": [
+          "Executed acquisition agreement and debt terms not inspected.",
+          "Audited target results and regulatory filings not established.",
+          "Realised integration benefits require later reporting."
+        ],
+        "relatedDeals": [
+          "softcat-gdt",
+          "mccormick-unilever"
+        ]
+      }
     },
     {
       "jurisdiction": "UK",
@@ -6038,6 +6576,20 @@
       "url": "https://www.alston.com/en/careers",
       "programme": "See the firm's official careers information for current opportunities.",
       "research": "Review the attributed client-side mandate and original transaction sources. No unverified recruitment deadline is asserted."
+    },
+    {
+      "id": "kirkland-ellis",
+      "name": "Kirkland & Ellis",
+      "url": "https://www.kirkland.com/careers",
+      "programme": "See official careers information for current routes.",
+      "research": "Examine the firm's sourced client mandates and practice roles."
+    },
+    {
+      "id": "mcdermott",
+      "name": "McDermott Will & Schulte",
+      "url": "https://www.mcdermottlaw.com/careers/",
+      "programme": "See official careers information for current routes.",
+      "research": "Examine the firm's sourced client mandates and practice roles."
     }
   ],
   "registry": [
