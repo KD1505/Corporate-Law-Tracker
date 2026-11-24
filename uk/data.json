@@ -7,10 +7,10 @@
       "jurisdiction": "UK",
       "category": "Transactions",
       "title": "OCS / Mitie",
-      "eventDate": "2026-11-18",
+      "eventDate": "2026-11-19",
       "status": "Inquiry launched",
       "sector": "Facilities management",
-      "fact": "OCS agreed a recommended cash offer for Mitie in July. Mitie's 19 November interim results reported 99.7% shareholder support and two of three regulatory clearances. CMA Phase 1 began on 18 November.",
+      "fact": "OCS agreed a cash acquisition of Mitie in July. Mitie's 19 November interim results reported 99.7% shareholder support and two of three regulatory clearances. CMA Phase 1 began on 18 November; the decision deadline is 20 January 2027.",
       "analysis": "Overlapping service contracts may require close analysis of customers’ alternatives, bidding patterns and local or national market definition. Counsel should separate commercial closing conditions from the regulator’s timetable.",
       "watch": "Read the latest CMA case update before relying on this snapshot.",
       "sources": [
@@ -29,6 +29,14 @@
         {
           "name": "Mitie interim results, 19 November",
           "url": "https://www.mitie.com/wp-content/uploads/2026/11/Mitie-H1-FY27-Results.pdf"
+        },
+        {
+          "name": "Linklaters public mandate summary",
+          "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/august/linklaters-advises-prologis-on-its-recommended-offer-for-segro-plc"
+        },
+        {
+          "name": "Linklaters corporate lawyer transaction experience",
+          "url": "https://www.linklaters.com/find-a-lawyer/daniel-cartwright"
         }
       ],
       "related": [
@@ -48,7 +56,7 @@
         ]
       ],
       "announcedOn": "2026-07-21",
-      "structure": "Recommended all-cash acquisition via scheme of arrangement.",
+      "structure": "Scottish court-sanctioned Part 26 scheme to transfer Mitie shares to OCS.",
       "values": [
         {
           "label": "Fully diluted acquisition value, including final dividend",
@@ -81,7 +89,7 @@
           "disclosure": "stated"
         }
       ],
-      "financing": "Specific financing terms have not been verified for this dossier.",
+      "financing": "The August scheme describes CD&R fund equity and term loan financing; Lazard provided the bidder's resources confirmation. Subsequent commitment-paper amendments are listed in the offer document register.",
       "regulatory": "The published Phase 1 decision deadline is 20 January 2027, subject to extension. Shareholder support is not regulatory approval.",
       "timeline": [
         {
@@ -111,7 +119,157 @@
         "date": "2027-01-20",
         "label": "CMA Phase 1 decision deadline",
         "source": "https://www.gov.uk/cma-cases/ocs-slash-mitie-merger-inquiry"
-      }
+      },
+      "advisers": [
+        {
+          "firm": "Linklaters",
+          "firmId": "linklaters",
+          "client": "Mitie Group plc",
+          "scope": "Target-side public M&A (firm experience disclosure)",
+          "source": "https://www.linklaters.com/find-a-lawyer/daniel-cartwright"
+        }
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Scheme mechanics and consideration",
+            "text": "Mitie is incorporated in Scotland. The scheme document specifies a Scottish court-sanctioned Part 26 process, 218.5p per share payable by OCS plus a separate FY26 dividend of 3.1p. The published £3.1bn acquisition value includes the latter. Linklaters' experience disclosure independently identifies the £3.1bn recommended acquisition, but does not verify the individual components.",
+            "qualification": "documented",
+            "evidence": [
+              {
+                "url": "https://www.mitie.com/wp-content/uploads/2026/08/Project-Marlin_Scheme_Document.pdf",
+                "publisher": "Mitie",
+                "locator": "Part Two §2 and Part Seven §15.3 (printed p. 106)"
+              },
+              {
+                "url": "https://www.linklaters.com/find-a-lawyer/daniel-cartwright",
+                "publisher": "Linklaters",
+                "locator": "Transaction experience: headline acquisition value"
+              }
+            ]
+          },
+          {
+            "heading": "Formal CMA review",
+            "text": "The case opened for comments on 15 September; consultation closed on 29 September. Formal Phase 1 commenced on 18 November, with a published decision deadline of 20 January 2027 subject to possible extension. This is an open inquiry, not a clearance.",
+            "evidence": [
+              {
+                "url": "https://www.gov.uk/cma-cases/ocs-slash-mitie-merger-inquiry",
+                "publisher": "CMA",
+                "locator": "Statutory timetable and Phase 1"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Offer document trail",
+            "text": "Mitie's transaction document hub provides the scheme publication materials and an announcement of amendments to financing documents dated 28 August 2026. A later financing amendment is a reason to review the current operative documents rather than relying on the original financing summary.",
+            "evidence": [
+              {
+                "url": "https://www.mitie.com/investors/recommended-cash-offer-by-ocs-for-mitie/",
+                "publisher": "Mitie",
+                "locator": "Offer document register"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Adviser attribution",
+            "text": "Linklaters lists the OCS/Mitie offer among its major public M&A mandates and a corporate lawyer's published experience specifies advice to Mitie. The latter provides the client-side attribution; the generic transaction list alone would not.",
+            "evidence": [
+              {
+                "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/august/linklaters-advises-prologis-on-its-recommended-offer-for-segro-plc",
+                "publisher": "Linklaters",
+                "locator": "Public M&A mandate list"
+              },
+              {
+                "url": "https://www.linklaters.com/find-a-lawyer/daniel-cartwright",
+                "publisher": "Linklaters",
+                "locator": "Named lawyer's client experience"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Funding documents and security",
+            "text": "Part Two §10 describes equity from CD&R funds and term loan financing. Lazard confirms available cash resources. Part Seven describes the interim facility guarantee structure and Scottish-law share pledge and assignation in security. The offer hub separately lists debt/equity commitment letters, interim loan agreement and amended commitment papers, and a clean-team agreement. Terms may have changed; the initial summary must be read with the amendments.",
+            "qualification": "documented",
+            "evidence": [
+              {
+                "url": "https://www.mitie.com/wp-content/uploads/2026/08/Project-Marlin_Scheme_Document.pdf",
+                "publisher": "Mitie",
+                "locator": "Part Two §10; Part Seven §8.2 (printed pp. 40, 100)"
+              },
+              {
+                "url": "https://www.mitie.com/investors/recommended-cash-offer-by-ocs-for-mitie/",
+                "publisher": "Mitie",
+                "locator": "Offer related agreements and financing arrangement letters"
+              }
+            ]
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Public scheme",
+            "question": "Which conditions remain despite reported shareholder support?",
+            "why": "Build a condition tracker for regulatory clearances, court sanction and closing deliverables. A 99.7% vote does not extinguish competition review.",
+            "documents": "Scheme document; interim results; CMA timeline."
+          },
+          {
+            "name": "Competition",
+            "question": "How should a facilities-management overlap be analysed?",
+            "why": "Tender data, customer switching, bundling, service categories and contract renewal intervals may inform market definition and competitive effects. These are diligence questions, not CMA findings.",
+            "documents": "CMA commencement notice; bid/tender datasets; customer contracts."
+          },
+          {
+            "name": "Finance",
+            "question": "What changed in the financing amendments dated 28 August?",
+            "why": "Use the latest documents to reconcile availability periods, CPs, mandatory repayment and long-stop alignment. Do not infer changes merely from the existence of an amendment.",
+            "documents": "Original and amended financing documents in issuer hub."
+          },
+          {
+            "name": "Contracts and workforce",
+            "question": "Which customer consents, public procurement and employee obligations could affect integration?",
+            "why": "A service business depends on contract continuity and staff deployment. Review change of control, termination, service levels, pensions and TUPE applicability, depending on the integration steps.",
+            "documents": "Material contract schedules; employment and pension diligence; integration plan."
+          }
+        ],
+        "documents": [
+          {
+            "title": "Mitie offer documents",
+            "url": "https://www.mitie.com/investors/recommended-cash-offer-by-ocs-for-mitie/",
+            "purpose": "Scheme, financing amendments and supporting materials"
+          },
+          {
+            "title": "CMA case",
+            "url": "https://www.gov.uk/cma-cases/ocs-slash-mitie-merger-inquiry",
+            "purpose": "Phase 1 timetable"
+          },
+          {
+            "title": "Linklaters experience",
+            "url": "https://www.linklaters.com/find-a-lawyer/daniel-cartwright",
+            "purpose": "Target-side adviser attribution"
+          },
+          {
+            "title": "August scheme document",
+            "url": "https://www.mitie.com/wp-content/uploads/2026/08/Project-Marlin_Scheme_Document.pdf",
+            "purpose": "Part Two: consideration, financing and voting; Part Three: conditions; Part Seven: facility and security disclosures"
+          }
+        ],
+        "openQuestions": [
+          "Buyer counsel and lending syndicate role mapping not yet established.",
+          "Latest scheme amendment terms, detailed financing conditions and regulator outcomes require document inspection."
+        ],
+        "relatedDeals": [
+          "leita-mobico",
+          "prologis-segro"
+        ]
+      },
+      "factSources": [
+        "https://www.gov.uk/cma-cases/ocs-slash-mitie-merger-inquiry",
+        "https://www.mitie.com/wp-content/uploads/2026/08/Project-Marlin_Scheme_Document.pdf",
+        "https://www.mitie.com/wp-content/uploads/2026/11/Mitie-H1-FY27-Results.pdf"
+      ]
     },
     {
       "id": "mccormick-unilever",
@@ -348,6 +506,10 @@
         {
           "name": "Subsequent ownership buyout",
           "url": "https://www.vodafone.com/news/newsroom/corporate-and-financial/vodafone-takes-full-ownership-of-vodafonethree"
+        },
+        {
+          "name": "CMA investigation explanation and remedy terms",
+          "url": "https://www.gov.uk/guidance/how-we-are-investigating-the-vodafonethree-potential-merger"
         }
       ],
       "related": [
@@ -401,9 +563,39 @@
           "numericAmount": 4300000000,
           "unit": "currency",
           "disclosure": "stated"
+        },
+        {
+          "label": "Expected net debt on completion",
+          "amount": "£6.0bn",
+          "basis": "net-debt",
+          "currency": "GBP",
+          "numericAmount": 6000000000,
+          "source": "https://www.vodafone.com/news/newsroom/corporate-and-financial/completion-of-vodafone-and-three-merger-in-the-uk",
+          "unit": "currency",
+          "disclosure": "approximate"
+        },
+        {
+          "label": "Agreed parent equity funding",
+          "amount": "£800m",
+          "basis": "equity-funding",
+          "currency": "GBP",
+          "numericAmount": 800000000,
+          "source": "https://www.vodafone.com/news/newsroom/corporate-and-financial/completion-of-vodafone-and-three-merger-in-the-uk",
+          "unit": "currency",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Announced ten-year network investment",
+          "amount": "£11bn",
+          "basis": "project-investment",
+          "currency": "GBP",
+          "numericAmount": 11000000000,
+          "source": "https://www.vodafone.com/news/newsroom/corporate-and-financial/completion-of-vodafone-and-three-merger-in-the-uk",
+          "unit": "currency",
+          "disclosure": "stated"
         }
       ],
-      "financing": "The later stake purchase was funded from existing cash resources, according to Vodafone.",
+      "financing": "At closing Vodafone expected £6bn net debt, subject to adjustments, and £800m of new parent equity for working capital. This is not cash paid for the original merger.",
       "regulatory": "CMA commitments relate to the original network combination; the subsequent ownership acquisition is a distinct event.",
       "timeline": [
         {
@@ -423,7 +615,140 @@
         }
       ],
       "legalWork": "For the original combination, separate contribution agreements, governance and network commitments from later share acquisition documentation. Monitor enforceable commitments and distinguish projected synergies from realised benefits.",
-      "interview": "Why is the £4.3bn buyout not the value of the original Vodafone/Three merger?"
+      "interview": "Why is the £4.3bn buyout not the value of the original Vodafone/Three merger?",
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Ownership and funding at closing",
+            "text": "The UK businesses combined on 31 May 2025, with Vodafone initially owning 51% and CK Hutchison 49%. The combined group’s expected opening net debt was £6bn, including £4.3bn contributed by Vodafone UK and £1.7bn by Three UK. Parent equity commitments totalled £800m. These are financing and balance sheet figures, not a price for the original merger.",
+            "evidence": [
+              {
+                "url": "https://www.vodafone.com/news/newsroom/corporate-and-financial/completion-of-vodafone-and-three-merger-in-the-uk",
+                "publisher": "Vodafone and CK Hutchison",
+                "locator": "Completion; notes to editors"
+              },
+              {
+                "url": "https://www.gov.uk/cma-cases/vodafone-slash-ck-hutchison-jv-merger-inquiry",
+                "publisher": "CMA",
+                "locator": "Case outcome"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Competition theories and binding remedies",
+            "text": "The regulator examined the reduction from four network operators to three, consumer tariff risks and wholesale bargaining power. Final undertakings accepted on 28 March 2025 included an eight-year joint network plan, three-year protections for selected retail tariffs and three-year wholesale pricing/contract safeguards. The CMA and Ofcom oversee the investment commitments, including annual reporting.",
+            "evidence": [
+              {
+                "url": "https://www.gov.uk/guidance/how-we-are-investigating-the-vodafonethree-potential-merger",
+                "publisher": "CMA",
+                "locator": "Final report and outcome"
+              },
+              {
+                "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2024/12/freshfields-advises-ck-hutchison-on-securing-landmark-cma-merger-approval-for-three-uk-and-vodafone-uk",
+                "publisher": "Freshfields",
+                "locator": "December 2024 remedy package disclosure"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Commercial targets versus binding obligations",
+            "text": "The completion announcement projects £11bn network investment over ten years and £700m annual cost and capex synergies by year five. These management forecasts are not achieved results, and the ten-year headline investment horizon should not be confused with the regulator’s eight-year network plan.",
+            "evidence": [
+              {
+                "url": "https://www.vodafone.com/news/newsroom/corporate-and-financial/completion-of-vodafone-and-three-merger-in-the-uk",
+                "publisher": "Vodafone and CK Hutchison",
+                "locator": "Completion and investment expectations"
+              },
+              {
+                "url": "https://www.gov.uk/guidance/how-we-are-investigating-the-vodafonethree-potential-merger",
+                "publisher": "CMA",
+                "locator": "Undertakings: eight-year joint network plan"
+              }
+            ],
+            "qualification": "forecast"
+          },
+          {
+            "heading": "Counsel role",
+            "text": "Freshfields advised CK Hutchison on merger control and foreign investment. Its December 2024 publication preceded the March 2025 acceptance of final undertakings; do not infer that it represented Vodafone or all financing parties.",
+            "evidence": [
+              {
+                "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2024/12/freshfields-advises-ck-hutchison-on-securing-landmark-cma-merger-approval-for-three-uk-and-vodafone-uk",
+                "publisher": "Freshfields",
+                "locator": "Mandate disclosure"
+              },
+              {
+                "url": "https://www.gov.uk/guidance/how-we-are-investigating-the-vodafonethree-potential-merger",
+                "publisher": "CMA",
+                "locator": "Final undertakings date"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Competition economics",
+            "question": "How do wholesale access and retail tariff protections address separate theories of harm?",
+            "why": "An investment remedy depends on credible execution; commercial teams must translate commitments into budgets and measurable obligations.",
+            "documents": "Final undertakings; monitoring arrangements; annual network report."
+          },
+          {
+            "name": "Joint venture governance",
+            "question": "How would reserved matters and funding defaults be designed for 51/49 owners?",
+            "why": "Control, consolidation and capital commitments are distinct. Negotiate decision rights, escalation, information access, liquidity and exit without assuming undisclosed shareholder agreement terms.",
+            "documents": "Shareholder agreement (not reviewed); original combination terms; closing announcement."
+          },
+          {
+            "name": "Banking and finance",
+            "question": "How does £6bn opening debt interact with the funding of the network build?",
+            "why": "Project liquidity must account for committed capital expenditure, refinancing, covenants and remedy compliance; do not interpret parent equity contributions as acquisition consideration.",
+            "documents": "Debt facilities (not reviewed); closing notes; capital expenditure plan."
+          },
+          {
+            "name": "Post-closing compliance",
+            "question": "What evidence would demonstrate that network rollout and price protections remain compliant?",
+            "why": "Create owners, milestones, evidence logs and escalation processes for missed targets; board approvals alone do not satisfy regulator obligations.",
+            "documents": "CMA final undertakings; Ofcom monitoring statement; subsequent annual reports."
+          }
+        ],
+        "documents": [
+          {
+            "title": "CMA case and decision record",
+            "url": "https://www.gov.uk/cma-cases/vodafone-slash-ck-hutchison-jv-merger-inquiry",
+            "purpose": "Primary decision chronology"
+          },
+          {
+            "title": "CMA plain-language remedy explanation",
+            "url": "https://www.gov.uk/guidance/how-we-are-investigating-the-vodafonethree-potential-merger",
+            "purpose": "Specific remedy duration and obligations"
+          },
+          {
+            "title": "Completion announcement",
+            "url": "https://www.vodafone.com/news/newsroom/corporate-and-financial/completion-of-vodafone-and-three-merger-in-the-uk",
+            "purpose": "Ownership, financing and investment expectations"
+          },
+          {
+            "title": "Freshfields disclosure",
+            "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2024/12/freshfields-advises-ck-hutchison-on-securing-landmark-cma-merger-approval-for-three-uk-and-vodafone-uk",
+            "purpose": "Client and precise practice scope"
+          }
+        ],
+        "openQuestions": [
+          "Detailed debt covenants and shareholder agreement are not established.",
+          "Later purchase of the remaining 49% is a separate event; its settlement and ongoing remedy compliance require updated verification."
+        ],
+        "relatedDeals": [
+          "microsoft-activision",
+          "nexfibre-substantial"
+        ]
+      },
+      "factSources": [
+        "https://www.vodafone.com/news/newsroom/corporate-and-financial/completion-of-vodafone-and-three-merger-in-the-uk",
+        "https://www.gov.uk/cma-cases/vodafone-slash-ck-hutchison-jv-merger-inquiry"
+      ]
     },
     {
       "id": "microsoft-activision",
@@ -513,6 +838,18 @@
         {
           "name": "Nationwide business transfer",
           "url": "https://www.nationwide.co.uk/nationwide-and-virgin-money-transfer"
+        },
+        {
+          "name": "Clifford Chance target mandate",
+          "url": "https://www.cliffordchance.com/news/news/2024/03/clifford-chance-advises-virgin-money-uk-plc-on-its-p2-9-billion-.html"
+        },
+        {
+          "name": "Slaughter and May bidder mandate",
+          "url": "https://www.slaughterandmay.com/recent-work/nationwide-building-society-on-its-recommended-all-cash-acquisition-of-virgin-money-uk-plc/"
+        },
+        {
+          "name": "Slaughter and May subsequent Part VII transfer",
+          "url": "https://www.slaughterandmay.com/recent-work/clydesdale-bank-plc-and-nationwide-building-society-on-the-part-vii-transfer-of-clydesdale-s-business-to-nationwide/"
         }
       ],
       "related": [
@@ -551,7 +888,157 @@
         }
       ],
       "legalWork": "Review regulated change-of-control requirements, deposit and customer communications, operational resilience and integration dependencies; distinguish acquisition closing from later business-transfer mechanics.",
-      "interview": "Why might a bank acquisition take multiple regulatory and legal workstreams after completion?"
+      "interview": "Why might a bank acquisition take multiple regulatory and legal workstreams after completion?",
+      "values": [
+        {
+          "label": "Announced equity acquisition value",
+          "amount": "Approximately £2.9bn",
+          "basis": "equity-value",
+          "currency": "GBP",
+          "numericAmount": 2900000000,
+          "source": "https://www.slaughterandmay.com/recent-work/nationwide-building-society-on-its-recommended-all-cash-acquisition-of-virgin-money-uk-plc/",
+          "unit": "currency",
+          "disclosure": "approximate"
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "Clifford Chance",
+          "firmId": "clifford-chance",
+          "client": "Virgin Money UK plc",
+          "scope": "Target counsel",
+          "source": "https://www.cliffordchance.com/news/news/2024/03/clifford-chance-advises-virgin-money-uk-plc-on-its-p2-9-billion-.html"
+        },
+        {
+          "firm": "Slaughter and May",
+          "firmId": "slaughter-may",
+          "client": "Nationwide Building Society",
+          "scope": "Bidder counsel",
+          "source": "https://www.slaughterandmay.com/recent-work/nationwide-building-society-on-its-recommended-all-cash-acquisition-of-virgin-money-uk-plc/"
+        }
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Offer and closing",
+            "text": "The agreed cash acquisition of Virgin Money was announced on 21 March 2024 at about £2.9bn. The CMA cleared the transaction in July, and completion followed on 1 October. The later transfer of banking business in April 2026 was not the acquisition closing.",
+            "evidence": [
+              {
+                "url": "https://www.slaughterandmay.com/recent-work/nationwide-building-society-on-its-recommended-all-cash-acquisition-of-virgin-money-uk-plc/",
+                "publisher": "Slaughter and May",
+                "locator": "Bidder mandate and value"
+              },
+              {
+                "url": "https://www.cliffordchance.com/news/news/2024/03/clifford-chance-advises-virgin-money-uk-plc-on-its-p2-9-billion-.html",
+                "publisher": "Clifford Chance",
+                "locator": "Target mandate and value"
+              },
+              {
+                "url": "https://www.nationwide.co.uk/about-us/the-big-nationwide-thank-you",
+                "publisher": "Nationwide",
+                "locator": "Completion"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Counsel and specialist coverage",
+            "text": "Slaughter and May advised Nationwide; its disclosed corporate team included David Watkins, Nick Pacheco and Jack Wharton, with financial regulation support including Jan Putnis and David Shone. Corrs Chambers Westgarth supported Australian law matters. Clifford Chance advised Virgin Money, with David Pudge and Katherine Moir leading. Each team represented its own client.",
+            "evidence": [
+              {
+                "url": "https://www.slaughterandmay.com/recent-work/nationwide-building-society-on-its-recommended-all-cash-acquisition-of-virgin-money-uk-plc/",
+                "publisher": "Slaughter and May",
+                "locator": "Named team and Australian law scope"
+              },
+              {
+                "url": "https://www.cliffordchance.com/news/news/2024/03/clifford-chance-advises-virgin-money-uk-plc-on-its-p2-9-billion-.html",
+                "publisher": "Clifford Chance",
+                "locator": "Named target team"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Separate business transfer",
+            "text": "Slaughter and May disclosed that the High Court sanctioned the later Part VII transfer of Clydesdale Bank’s business on 23 February 2026, effective 2 April. That statutory transfer followed the acquisition of its parent; share ownership and transfer of the underlying bank business are different legal events.",
+            "evidence": [
+              {
+                "url": "https://www.slaughterandmay.com/recent-work/clydesdale-bank-plc-and-nationwide-building-society-on-the-part-vii-transfer-of-clydesdale-s-business-to-nationwide/",
+                "publisher": "Slaughter and May",
+                "locator": "Transfer and sanction dates"
+              },
+              {
+                "url": "https://www.nationwide.co.uk/nationwide-and-virgin-money-transfer",
+                "publisher": "Nationwide",
+                "locator": "Business transfer information"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Bank ownership",
+            "question": "Why buy the listed parent first and later transfer the bank business?",
+            "why": "Corporate control and the transfer of regulated business are different mechanisms, with different stakeholders and approvals. Build a separate dependency map for each.",
+            "documents": "Acquisition scheme and subsequent transfer scheme."
+          },
+          {
+            "name": "Prudential regulation",
+            "question": "How do capital, liquidity and governance workstreams change at group and regulated-entity levels?",
+            "why": "A group acquisition can leave distinct regulated entities and obligations until later transfer. Counsel should map permissions and supervisory engagement rather than assume they merge automatically.",
+            "documents": "Regulatory approvals; transfer court order; entity-level accounts."
+          },
+          {
+            "name": "Competition",
+            "question": "How would overlapping current accounts, mortgages and savings be tested?",
+            "why": "Consider switching, segment-specific alternatives and distribution channels. Clearance is not a general finding that every market is unconcentrated.",
+            "documents": "CMA case; decision reasons."
+          },
+          {
+            "name": "Customer migration",
+            "question": "Which contractual and operational steps are necessary before customers move?",
+            "why": "Business transfer can affect deposits, notices, payment instructions, consumer communications and complaint handling. Coordinate legal and operational readiness.",
+            "documents": "Transfer scheme; customer communications; migration and resilience plan."
+          }
+        ],
+        "documents": [
+          {
+            "title": "Bidder counsel announcement",
+            "url": "https://www.slaughterandmay.com/recent-work/nationwide-building-society-on-its-recommended-all-cash-acquisition-of-virgin-money-uk-plc/",
+            "purpose": "Price, advisers and workstreams"
+          },
+          {
+            "title": "Target counsel announcement",
+            "url": "https://www.cliffordchance.com/news/news/2024/03/clifford-chance-advises-virgin-money-uk-plc-on-its-p2-9-billion-.html",
+            "purpose": "Adviser attribution"
+          },
+          {
+            "title": "CMA case",
+            "url": "https://www.gov.uk/cma-cases/nationwide-building-society-slash-virgin-money-merger-inquiry",
+            "purpose": "Regulatory chronology"
+          },
+          {
+            "title": "Part VII transfer disclosure",
+            "url": "https://www.slaughterandmay.com/recent-work/clydesdale-bank-plc-and-nationwide-building-society-on-the-part-vii-transfer-of-clydesdale-s-business-to-nationwide/",
+            "purpose": "Separate statutory transfer"
+          }
+        ],
+        "openQuestions": [
+          "The complete acquisition scheme and funding documentation are not reviewed in this enrichment.",
+          "No assertion of realised integration synergies or current capital position."
+        ],
+        "relatedDeals": [
+          "aviva-direct-line",
+          "athora-picg"
+        ]
+      },
+      "factSources": [
+        "https://www.slaughterandmay.com/recent-work/nationwide-building-society-on-its-recommended-all-cash-acquisition-of-virgin-money-uk-plc/",
+        "https://www.cliffordchance.com/news/news/2024/03/clifford-chance-advises-virgin-money-uk-plc-on-its-p2-9-billion-.html",
+        "https://www.nationwide.co.uk/about-us/the-big-nationwide-thank-you"
+      ]
     },
     {
       "id": "bank-rate",
@@ -852,7 +1339,113 @@
         }
       ],
       "legalWork": "Model equity bridge and existing debt treatment, test cash confirmation and financing conditions, prepare scheme timetable and coordinate regulatory work. Review change-of-control clauses in transport concessions.",
-      "interview": "Why can a £308m equity offer imply a £2.3bn enterprise valuation? Which debt and cash definitions must be checked?"
+      "interview": "Why can a £308m equity offer imply a £2.3bn enterprise valuation? Which debt and cash definitions must be checked?",
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Bidder ownership and target perimeter",
+            "text": "Leita Mobility is an indirect wholly owned subsidiary of Autobuses de León. Freshfields identifies the joint ownership of that entity by the Cosmen family’s investment interests and an Asterion-managed fund; the family was already Mobico’s largest shareholder. Mobico is a diversified international transport operator, so the buyer-side ownership structure matters to the governance analysis.",
+            "evidence": [
+              {
+                "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility",
+                "publisher": "Freshfields",
+                "locator": "Bidder ownership"
+              },
+              {
+                "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-on-the-financing-of-cmc-group-and-asterion-industrial-partners-recommended-cash-offer-for-mobico-group.html",
+                "publisher": "Clifford Chance",
+                "locator": "Buyer consortium and target business"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Valuation distinction",
+            "text": "Both the target and lenders' counsel state approximately £308m equity value and approximately £2.3bn implied enterprise value. These are not interchangeable. Their difference of about £1.992bn is an arithmetic gap between headline measures, not verified net debt or a financing commitment.",
+            "evidence": [
+              {
+                "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility",
+                "publisher": "Freshfields",
+                "locator": "Equity and enterprise values"
+              },
+              {
+                "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-on-the-financing-of-cmc-group-and-asterion-industrial-partners-recommended-cash-offer-for-mobico-group.html",
+                "publisher": "Clifford Chance",
+                "locator": "Equity and enterprise values"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Financing and counsel",
+            "text": "Freshfields represents Mobico. Clifford Chance acts for the lenders and identifies Julia House as the lead debt finance partner; the disclosed team also includes high yield, M&A, hedging, Madrid financing and tax specialists. The lender mandate does not establish the size or terms of the facility.",
+            "evidence": [
+              {
+                "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility",
+                "publisher": "Freshfields",
+                "locator": "Target representation"
+              },
+              {
+                "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-on-the-financing-of-cmc-group-and-asterion-industrial-partners-recommended-cash-offer-for-mobico-group.html",
+                "publisher": "Clifford Chance",
+                "locator": "Lenders and named practice workstreams"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Valuation",
+            "question": "Build a bridge from £308m equity value to £2.3bn implied enterprise value.",
+            "why": "The gap requires reconciliation of net debt, leases, pensions, minorities and any other adjustments according to the offer definitions; a headline subtraction is not a debt diligence conclusion.",
+            "documents": "Offer announcement, debt schedule, lease liabilities and defined terms."
+          },
+          {
+            "name": "Conflicts and governance",
+            "question": "How should an existing major shareholder's participation in the acquiring consortium affect the process?",
+            "why": "Review independent board decision-making, adviser independence, shareholder voting eligibility and related arrangements. Do not assume the specific conflict procedures without the scheme.",
+            "documents": "Scheme document and board recommendation; irrevocable undertakings."
+          },
+          {
+            "name": "Acquisition finance",
+            "question": "How should existing high yield debt, lender CPs and hedging align with closing?",
+            "why": "A leveraged buyout may require debt repayment, consent, hedge novation and new funding at the same time; lender counsel's cross-practice team points to relevant workstreams, not confirmed contractual terms.",
+            "documents": "Financing documents and public cash confirmation, not yet reviewed."
+          },
+          {
+            "name": "Transport operations",
+            "question": "Which public contracts and licences could have change-of-control constraints?",
+            "why": "Review concessions, regulated operating licences, public procurement contracts and vehicle fleet financing across relevant countries.",
+            "documents": "Operating contracts; consent register; local law diligence."
+          }
+        ],
+        "documents": [
+          {
+            "title": "Freshfields mandate",
+            "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility",
+            "purpose": "Ownership, offer valuations, target counsel"
+          },
+          {
+            "title": "Clifford Chance mandate",
+            "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-on-the-financing-of-cmc-group-and-asterion-industrial-partners-recommended-cash-offer-for-mobico-group.html",
+            "purpose": "Independent lender-side confirmation of valuations and specialist workstreams"
+          }
+        ],
+        "openQuestions": [
+          "Obtain the issuer’s Rule 2.7 announcement, scheme, cash confirmation and conditions; neither law firm disclosure substitutes for these.",
+          "Completion, regulatory approvals and detailed debt amounts remain unestablished in this review."
+        ],
+        "relatedDeals": [
+          "ocs-mitie",
+          "prologis-segro"
+        ]
+      },
+      "factSources": [
+        "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility",
+        "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-on-the-financing-of-cmc-group-and-asterion-industrial-partners-recommended-cash-offer-for-mobico-group.html"
+      ]
     },
     {
       "jurisdiction": "UK",
@@ -1675,7 +2268,7 @@
       "eventDate": "2026-10-27",
       "status": "Pre-notification / consultation",
       "sector": "Real estate",
-      "dealType": "M&A / regulatory review",
+      "dealType": "Public M&A",
       "parties": [
         [
           "Proposed acquirer",
@@ -1686,28 +2279,245 @@
           "SEGRO plc"
         ]
       ],
-      "structure": "Proposed acquisition under CMA review; consideration and definitive structure not established.",
-      "fact": "CMA opened an invitation to comment on the anticipated acquisition; formal Phase 1 start was listed as to be confirmed.",
-      "regulatory": "CMA opened an invitation to comment on the anticipated acquisition; formal Phase 1 start was listed as to be confirmed.",
+      "structure": "Recommended share offer with partial cash alternative, proposed Part 26 scheme.",
+      "fact": "Prologis announced a recommended offer for SEGRO in August 2026; SEGRO reports shareholder approval on 28 September. The CMA invited comments on 27 October. Completion is not established.",
+      "regulatory": "CMA invitation to comment recorded 27 October; the target reported shareholder approval and expected H1 2027 closing subject to remaining conditions.",
       "analysis": "The published procedural milestone identifies regulatory risk, not a completed or prohibited transaction. Transaction economics require separate issuer or party evidence.",
       "legalWork": "Assess logistics property market definition, customer alternatives and geographic overlap; avoid equating pre-notification with formal inquiry.",
       "watch": "Subsequent CMA decision or formal start.",
       "interview": "Why might geographic market definition matter for warehouse tenants?",
       "timeline": [
         {
+          "date": "2026-08-03",
+          "event": "Recommended offer announced",
+          "source": "https://ir.prologis.com/news-events/press-releases/detail/1049/prologis-announces-recommended-acquisition-of-segro-plc"
+        },
+        {
+          "date": "2026-09-28",
+          "event": "Shareholders approved scheme at court and general meetings",
+          "source": "https://www.segro.com/en/investors/financial-results-centre/q3-trading-update"
+        },
+        {
           "date": "2026-10-27",
           "event": "Pre-notification / consultation",
           "source": "https://www.gov.uk/cma-cases/prologis-slash-segro-merger-inquiry"
+        },
+        {
+          "date": "2026-10-28",
+          "event": "Quarterly filing discloses acquisition term loan",
+          "source": "https://ir.prologis.com/financials/sec-filings/content/0001193125-26-436160/pld-20260930.htm"
         }
       ],
       "sources": [
         {
           "name": "CMA case",
           "url": "https://www.gov.uk/cma-cases/prologis-slash-segro-merger-inquiry"
+        },
+        {
+          "name": "Prologis recommended offer",
+          "url": "https://ir.prologis.com/news-events/press-releases/detail/1049/prologis-announces-recommended-acquisition-of-segro-plc"
+        },
+        {
+          "name": "SEGRO Q3 trading update",
+          "url": "https://www.segro.com/en/investors/financial-results-centre/q3-trading-update"
+        },
+        {
+          "name": "Prologis Q3 2026 Form 10-Q",
+          "url": "https://ir.prologis.com/financials/sec-filings/content/0001193125-26-436160/pld-20260930.htm"
+        },
+        {
+          "name": "Linklaters bidder mandate",
+          "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/august/linklaters-advises-prologis-on-its-recommended-offer-for-segro-plc"
+        },
+        {
+          "name": "Rule 2.7 announcement filed with SEC",
+          "url": "https://ir.prologis.com/financials/sec-filings/content/0001104659-26-089980/tm2621154d2_ex2-1.htm"
         }
       ],
       "related": [
         "merger-control"
+      ],
+      "announcedOn": "2026-08-03",
+      "values": [
+        {
+          "label": "Announced offer value",
+          "amount": "£14bn",
+          "basis": "equity-value",
+          "currency": "GBP",
+          "numericAmount": 14000000000,
+          "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/august/linklaters-advises-prologis-on-its-recommended-offer-for-segro-plc",
+          "unit": "currency",
+          "disclosure": "approximate"
+        },
+        {
+          "label": "Share exchange ratio",
+          "amount": "0.0920",
+          "basis": "share-exchange-ratio",
+          "currency": null,
+          "numericAmount": 0.092,
+          "source": "https://ir.prologis.com/news-events/press-releases/detail/1049/prologis-announces-recommended-acquisition-of-segro-plc",
+          "unit": "shares-per-share",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Unsecured term loan commitments",
+          "amount": "£3.6bn",
+          "basis": "financing-commitment",
+          "currency": "GBP",
+          "numericAmount": 3600000000,
+          "source": "https://ir.prologis.com/financials/sec-filings/content/0001193125-26-436160/pld-20260930.htm",
+          "unit": "currency",
+          "disclosure": "stated"
+        }
+      ],
+      "financing": "£3.6bn unsecured term loan commitments with borrowing conditional on closing and other conditions; sterling SONIA or euro EURIBOR rates with ratings-based margin.",
+      "advisers": [
+        {
+          "firm": "Linklaters",
+          "firmId": "linklaters",
+          "client": "Prologis",
+          "scope": "Recommended offer; cross-practice bidder counsel",
+          "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/august/linklaters-advises-prologis-on-its-recommended-offer-for-segro-plc"
+        }
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Public offer and conditions",
+            "text": "The recommended combination provides 0.0920 Prologis shares for each SEGRO share, with a partial cash alternative. The bidder's Rule 2.7 announcement and target's later trading update establish agreement and shareholder approval; the October CMA invitation does not establish regulatory clearance or completion.",
+            "evidence": [
+              {
+                "url": "https://ir.prologis.com/news-events/press-releases/detail/1049/prologis-announces-recommended-acquisition-of-segro-plc",
+                "publisher": "Prologis",
+                "locator": "Recommended offer terms"
+              },
+              {
+                "url": "https://www.segro.com/en/investors/financial-results-centre/q3-trading-update",
+                "publisher": "SEGRO",
+                "locator": "Q3 shareholder approval and expected timing"
+              },
+              {
+                "url": "https://www.gov.uk/cma-cases/prologis-slash-segro-merger-inquiry",
+                "publisher": "CMA",
+                "locator": "Invitation to comment"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Funding mechanics",
+            "text": "Prologis's quarterly filing describes a £3.6bn unsecured term loan, conditional on closing and other conditions, drawable in sterling or euros. The maturity is one year after closing, with two possible one-year extensions subject to conditions and fees. At the reported rating the applicable margin was 0.7%, above the relevant SONIA or EURIBOR benchmark. Commitment is not a statement of amount drawn.",
+            "evidence": [
+              {
+                "url": "https://ir.prologis.com/financials/sec-filings/content/0001193125-26-436160/pld-20260930.htm",
+                "publisher": "Prologis",
+                "locator": "Note on debt, 2026 Term Loan"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Commercial scale",
+            "text": "Linklaters described an approximately £14bn offer and a global logistics property platform. SEGRO's Q3 update recorded 33% loan-to-value and £1.2bn available liquidity as separate target metrics. Do not confuse portfolio assets or management scale with the consideration or the acquiring group's leverage.",
+            "evidence": [
+              {
+                "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/august/linklaters-advises-prologis-on-its-recommended-offer-for-segro-plc",
+                "publisher": "Linklaters",
+                "locator": "Offer and mandate"
+              },
+              {
+                "url": "https://www.segro.com/en/investors/financial-results-centre/q3-trading-update",
+                "publisher": "SEGRO",
+                "locator": "Q3 balance sheet metrics"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Mandate and specialist work",
+            "text": "Linklaters' bidder team was led by Iain Fenn and Jonathan Sadler. Its announcement identifies antitrust and foreign investment, banking, employment and incentives support. Target counsel and any lender-side representation are not inferred from this disclosure.",
+            "evidence": [
+              {
+                "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/august/linklaters-advises-prologis-on-its-recommended-offer-for-segro-plc",
+                "publisher": "Linklaters",
+                "locator": "Named corporate and specialist team"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Public M&A",
+            "question": "How does a partial cash alternative affect shareholder elections and allocation?",
+            "why": "The cash option may be limited and subject to scaling. Model election and exchange mechanics using the filed Rule 2.7 terms rather than assuming each holder can choose unlimited cash.",
+            "documents": "Rule 2.7 announcement; scheme; election forms."
+          },
+          {
+            "name": "Real estate and REIT tax",
+            "question": "Which entity-level tax and asset-level title issues matter in a global logistics portfolio?",
+            "why": "REIT status, joint venture governance, lease security, change-of-control and asset valuation affect economics across jurisdictions.",
+            "documents": "Property and JV schedules; REIT tax opinions; debt and guarantees."
+          },
+          {
+            "name": "Finance",
+            "question": "What happens if a bridge/term loan maturity falls before permanent financing is available?",
+            "why": "Model drawdown CPs, extension fees, interest benchmark mismatch, ratings sensitivity, refinancing and FX risk.",
+            "documents": "Form 10-Q term loan disclosure; executed facility agreement."
+          },
+          {
+            "name": "Competition and closing",
+            "question": "Which markets and geographies should be tested before integration?",
+            "why": "Logistics property markets can be local and asset-specific. Check overlap and substitute sites, and keep competitively sensitive information controlled pending regulatory clearance.",
+            "documents": "CMA case; competition filings; clean-team protocol."
+          }
+        ],
+        "documents": [
+          {
+            "title": "Rule 2.7 announcement",
+            "url": "https://ir.prologis.com/financials/sec-filings/content/0001104659-26-089980/tm2621154d2_ex2-1.htm",
+            "purpose": "Detailed offer terms and conditions"
+          },
+          {
+            "title": "Bidder press announcement",
+            "url": "https://ir.prologis.com/news-events/press-releases/detail/1049/prologis-announces-recommended-acquisition-of-segro-plc",
+            "purpose": "Exchange ratio and proposed transaction"
+          },
+          {
+            "title": "Target Q3 trading update",
+            "url": "https://www.segro.com/en/investors/financial-results-centre/q3-trading-update",
+            "purpose": "Shareholder approval and latest financial snapshot"
+          },
+          {
+            "title": "Form 10-Q",
+            "url": "https://ir.prologis.com/financials/sec-filings/content/0001193125-26-436160/pld-20260930.htm",
+            "purpose": "Financing structure and maturity"
+          },
+          {
+            "title": "CMA case",
+            "url": "https://www.gov.uk/cma-cases/prologis-slash-segro-merger-inquiry",
+            "purpose": "Regulatory timetable"
+          },
+          {
+            "title": "Counsel mandate",
+            "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/august/linklaters-advises-prologis-on-its-recommended-offer-for-segro-plc",
+            "purpose": "Bidder-side roles"
+          }
+        ],
+        "openQuestions": [
+          "Exact cash election scaling, current regulatory outcomes outside the UK and all scheme conditions require continued review.",
+          "No completed acquisition or facility drawdown is established."
+        ],
+        "relatedDeals": [
+          "leita-mobico",
+          "ocs-mitie"
+        ]
+      },
+      "factSources": [
+        "https://ir.prologis.com/news-events/press-releases/detail/1049/prologis-announces-recommended-acquisition-of-segro-plc",
+        "https://www.segro.com/en/investors/financial-results-centre/q3-trading-update",
+        "https://www.gov.uk/cma-cases/prologis-slash-segro-merger-inquiry"
       ]
     },
     {
@@ -1917,15 +2727,30 @@
           "numericAmount": 0.2867,
           "unit": "shares-per-share",
           "disclosure": "stated"
+        },
+        {
+          "label": "Permitted pre-completion dividends per share (maximum)",
+          "amount": "Up to 5p",
+          "basis": "dividend-per-share",
+          "currency": "GBP",
+          "numericAmount": 0.05,
+          "source": "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000112476/NI-000112476.pdf",
+          "unit": "currency-per-share",
+          "disclosure": "stated"
         }
       ],
-      "financing": "Mixed cash and equity consideration; detailed funding terms not established here.",
+      "financing": "The scheme document identifies a bridge facility agreement and the cash-resources confirmation by Goldman Sachs International and Citi. The consideration also included new Aviva shares.",
       "regulatory": "CMA cleared on 1 July 2025. Separate March 2026 counsel disclosure concerns a PRA investigation into historical balance-sheet miscalculation, not a reversal of merger clearance.",
       "timeline": [
         {
           "date": "2024-12-23",
           "event": "Target counsel disclosed recommended offer",
           "source": "https://www.slaughterandmay.com/recent-work/direct-line-group-on-its-recommended-acquisition-by-aviva/"
+        },
+        {
+          "date": "2025-02-10",
+          "event": "Scheme document published",
+          "source": "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000112476/NI-000112476.pdf"
         },
         {
           "date": "2025-07-01",
@@ -1963,6 +2788,14 @@
         {
           "name": "Separate PRA mandate",
           "url": "https://www.slaughterandmay.com/recent-work/aviva-direct-line-group-in-respect-of-the-prudential-regulation-authority-s-investigation-and-enforcement-outcome/"
+        },
+        {
+          "name": "Direct Line scheme document, 10 February 2025",
+          "url": "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000112476/NI-000112476.pdf"
+        },
+        {
+          "name": "Aviva offer document register",
+          "url": "https://www.aviva.com/investors/strategy-and-performance-overview/acquisition-of-direct-line-insurance-group-plc/"
         }
       ],
       "advisers": [
@@ -1979,6 +2812,139 @@
         "public-schemes",
         "finance",
         "due-diligence"
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Acquisition mechanics",
+            "text": "Aviva acquired the entire issued and to-be-issued share capital through a Part 26 scheme. The scheme required a class vote, a separate general meeting resolution and court sanction. Completion occurred on 1 July 2025, distinct from the board agreement in December 2024.",
+            "evidence": [
+              {
+                "url": "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000112476/NI-000112476.pdf",
+                "publisher": "Direct Line",
+                "locator": "Part I §2; Part II §§2, 15"
+              },
+              {
+                "url": "https://www.aviva.com/newsroom/news-and-research-overview/news-releases/2025/07/aviva-completes-acquisition-of-direct-line/",
+                "publisher": "Aviva",
+                "locator": "Completion announcement"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Price bridge and dilution",
+            "text": "The fixed exchange ratio was 0.2867 Aviva shares plus 129.7p cash per Direct Line share; permitted dividends were separate. At a 489.3p reference Aviva share price, the offer implied 275p including the maximum 5p dividend, a 73.3% premium to Direct Line’s 27 November 2024 close. The scheme document estimated that target shareholders would hold about 12.5% of the combined company. Those are announcement-basis calculations, not the realised market value on settlement.",
+            "evidence": [
+              {
+                "url": "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000112476/NI-000112476.pdf",
+                "publisher": "Direct Line",
+                "locator": "Part I §2"
+              },
+              {
+                "url": "https://www.aviva.com/newsroom/news-and-research-overview/news-releases/2025/07/aviva-completes-acquisition-of-direct-line/",
+                "publisher": "Aviva",
+                "locator": "Consideration on effectiveness"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Funding and conditions",
+            "text": "The scheme describes a bridge facility and the bidder advisers’ resources confirmation. Admission of the new shares and court sanction were conditions. The initial long-stop date was 31 December 2025, with a specified extension mechanism for Phase 2 review. The CMA in fact cleared the deal on 1 July 2025.",
+            "evidence": [
+              {
+                "url": "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000112476/NI-000112476.pdf",
+                "publisher": "Direct Line",
+                "locator": "Indicative timetable note 8; Part II §6; Part III"
+              },
+              {
+                "url": "https://www.gov.uk/cma-cases/aviva-slash-direct-line-merger-inquiry",
+                "publisher": "CMA",
+                "locator": "Clearance decision"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Mandate scope",
+            "text": "Slaughter and May advised Direct Line on the recommended acquisition. The separate 2026 PRA matter is a different mandate and must not be counted as a second acquisition advisory role.",
+            "evidence": [
+              {
+                "url": "https://www.slaughterandmay.com/recent-work/direct-line-group-on-its-recommended-acquisition-by-aviva/",
+                "publisher": "Slaughter and May",
+                "locator": "Acquisition mandate"
+              },
+              {
+                "url": "https://www.slaughterandmay.com/recent-work/aviva-direct-line-group-in-respect-of-the-prudential-regulation-authority-s-investigation-and-enforcement-outcome/",
+                "publisher": "Slaughter and May",
+                "locator": "PRA enforcement mandate"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Public M&A",
+            "question": "How do the scheme conditions, court process and share issuance interlock?",
+            "why": "A signed agreement does not transfer ownership; the closing checklist must reflect the legal sequence and settlement obligations.",
+            "documents": "Scheme Part III; court order; admission and registrar delivery."
+          },
+          {
+            "name": "Financing and valuation",
+            "question": "What is the value of the consideration if Aviva's share price moves?",
+            "why": "A fixed exchange ratio transfers market-price risk to target shareholders. Model cash, shares and dividends separately; do not compare a pre-announcement premium with closing proceeds.",
+            "documents": "Scheme Part I §2; bridge agreement summary; offer resources confirmation."
+          },
+          {
+            "name": "Insurance and prudential risk",
+            "question": "What historical reserving, capital and operational risks could survive completion?",
+            "why": "Prudential approval is not an indemnity for historical liabilities; validate capital models, claims reserves, reinsurance recoverables, governance and data quality before integration.",
+            "documents": "Regulatory approvals; financial statements; separate PRA outcome."
+          },
+          {
+            "name": "Integration",
+            "question": "Which policyholder, systems and employment workstreams need sequencing?",
+            "why": "Define controls for access to customer data, complaints, claims continuity and accountable management during migration.",
+            "documents": "Integration plan; data-sharing agreements; operational resilience plan."
+          }
+        ],
+        "documents": [
+          {
+            "title": "Scheme document",
+            "url": "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000112476/NI-000112476.pdf",
+            "purpose": "Part I consideration and recommendation; Part III conditions; Part VII finance terms"
+          },
+          {
+            "title": "Offer document register",
+            "url": "https://www.aviva.com/investors/strategy-and-performance-overview/acquisition-of-direct-line-insurance-group-plc/",
+            "purpose": "Locate consent letters, share plan communications and transaction filings"
+          },
+          {
+            "title": "CMA case",
+            "url": "https://www.gov.uk/cma-cases/aviva-slash-direct-line-merger-inquiry",
+            "purpose": "Clearance milestone"
+          },
+          {
+            "title": "Completion announcement",
+            "url": "https://www.aviva.com/newsroom/news-and-research-overview/news-releases/2025/07/aviva-completes-acquisition-of-direct-line/",
+            "purpose": "Effectiveness and settlement"
+          }
+        ],
+        "openQuestions": [
+          "Exact amount drawn under bridge facility and ultimate refinancing terms are not established here.",
+          "Post-closing synergy realisation and current capital effects require later results; do not treat projections as achieved."
+        ],
+        "relatedDeals": [
+          "nationwide-virgin",
+          "athora-picg"
+        ]
+      },
+      "factSources": [
+        "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000112476/NI-000112476.pdf",
+        "https://www.aviva.com/newsroom/news-and-research-overview/news-releases/2025/07/aviva-completes-acquisition-of-direct-line/"
       ]
     },
     {
@@ -2013,6 +2979,26 @@
           "numericAmount": 3300000000,
           "unit": "currency",
           "disclosure": "stated"
+        },
+        {
+          "label": "Cash consideration per share",
+          "amount": "1,290p",
+          "basis": "cash-per-share",
+          "currency": "GBP",
+          "numericAmount": 12.9,
+          "source": "https://www.britvic.com/our-news/performance/scheme-of-arrangement-becomes-effective/",
+          "unit": "currency-per-share",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Special dividend per share",
+          "amount": "25p",
+          "basis": "dividend-per-share",
+          "currency": "GBP",
+          "numericAmount": 0.25,
+          "source": "https://www.britvic.com/our-news/performance/scheme-of-arrangement-becomes-effective/",
+          "unit": "currency-per-share",
+          "disclosure": "stated"
         }
       ],
       "regulatory": "CMA clearance in December 2024; Linklaters reported securing regulatory clearances for Britvic.",
@@ -2023,9 +3009,19 @@
           "source": "https://www.gov.uk/cma-cases/carlsberg-slash-britvic-merger-inquiry"
         },
         {
+          "date": "2025-01-15",
+          "event": "Court sanctioned scheme",
+          "source": "https://www.britvic.com/our-news/performance/scheme-of-arrangement-becomes-effective/"
+        },
+        {
           "date": "2025-01-17",
           "event": "Completion confirmed",
           "source": "https://www.carlsberggroup.com/newsroom/carlsberg-group-completes-acquisition-of-britvic-plc/"
+        },
+        {
+          "date": "2025-01-17",
+          "event": "Court order delivered; scheme effective",
+          "source": "https://www.britvic.com/our-news/performance/scheme-of-arrangement-becomes-effective/"
         }
       ],
       "analysis": "Combining distribution networks may deliver efficiencies, but commercial value also depends on bottling agreements, brand rights, customer concentration and the ability to integrate supply chains. Expected efficiencies are not realised results.",
@@ -2048,6 +3044,18 @@
         {
           "name": "Initial counsel disclosure",
           "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2024/july/linklaters-advises-britvic-on-its-takeover-by-carlsberg-for-3_3bn"
+        },
+        {
+          "name": "Britvic scheme effective announcement",
+          "url": "https://www.britvic.com/our-news/performance/scheme-of-arrangement-becomes-effective/"
+        },
+        {
+          "name": "Baker McKenzie bidder case study",
+          "url": "https://insight.bakermckenzie.com/carlsberg-case-study"
+        },
+        {
+          "name": "Baker McKenzie deal digest",
+          "url": "https://www.bakermckenzie.com/en/newsroom/2024/10/deal-digest-q3-2024"
         }
       ],
       "advisers": [
@@ -2057,12 +3065,157 @@
           "client": "Britvic",
           "scope": "Takeover and regulatory clearances",
           "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2024/december/linklaters-secures-regulatory-clearances-for-britvics-takeover-by-carlsberg"
+        },
+        {
+          "firm": "Baker McKenzie",
+          "firmId": "baker-mckenzie",
+          "client": "Carlsberg",
+          "scope": "Bidder counsel",
+          "source": "https://insight.bakermckenzie.com/carlsberg-case-study"
         }
       ],
       "related": [
         "public-schemes",
         "merger-control",
         "due-diligence"
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Scheme terms and settlement",
+            "text": "The parties agreed the recommended cash acquisition on 8 July 2024. On 17 January 2025 the scheme became effective following delivery of the court order. Each eligible share carried 1,290p cash and a 25p special dividend, producing the 1,315p total acquisition value per share. The dividend is not an additional amount on top of 1,315p.",
+            "evidence": [
+              {
+                "url": "https://www.britvic.com/our-news/performance/scheme-of-arrangement-becomes-effective/",
+                "publisher": "Britvic",
+                "locator": "Scheme effective; settlement"
+              },
+              {
+                "url": "https://www.carlsberggroup.com/newsroom/carlsberg-group-completes-acquisition-of-britvic-plc/",
+                "publisher": "Carlsberg",
+                "locator": "Completion"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Approval sequence",
+            "text": "Regulatory conditions were reported satisfied on 17 December 2024; the court sanctioned the scheme on 15 January 2025 and the scheme became effective two days later. The issuer separately announced expected cancellation of listing and the deadline for cash settlement.",
+            "evidence": [
+              {
+                "url": "https://www.britvic.com/our-news/performance/scheme-of-arrangement-becomes-effective/",
+                "publisher": "Britvic",
+                "locator": "Regulatory conditions and settlement"
+              },
+              {
+                "url": "https://www.gov.uk/cma-cases/carlsberg-slash-britvic-merger-inquiry",
+                "publisher": "CMA",
+                "locator": "Merger inquiry"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Industrial rationale",
+            "text": "The acquisition was intended to combine beer and soft-drink operations in the UK. Linklaters reported PepsiCo support and anticipated a major European bottling platform. The underlying commercial case depends on distribution scale, the bottling relationship and integration; do not treat stated intentions as completed synergies.",
+            "evidence": [
+              {
+                "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2024/july/linklaters-advises-britvic-on-its-takeover-by-carlsberg-for-3_3bn",
+                "publisher": "Linklaters",
+                "locator": "Transaction rationale"
+              },
+              {
+                "url": "https://www.carlsberggroup.com/newsroom/carlsberg-group-completes-acquisition-of-britvic-plc/",
+                "publisher": "Carlsberg",
+                "locator": "Completion"
+              }
+            ],
+            "qualification": "party-position"
+          },
+          {
+            "heading": "Legal representation",
+            "text": "Linklaters advised Britvic; Baker McKenzie advised Carlsberg. Separate client-side counsel announcements establish attribution, rather than guessing from firm rankings.",
+            "evidence": [
+              {
+                "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2024/july/linklaters-advises-britvic-on-its-takeover-by-carlsberg-for-3_3bn",
+                "publisher": "Linklaters",
+                "locator": "Target mandate"
+              },
+              {
+                "url": "https://insight.bakermckenzie.com/carlsberg-case-study",
+                "publisher": "Baker McKenzie",
+                "locator": "Bidder case study"
+              },
+              {
+                "url": "https://www.bakermckenzie.com/en/newsroom/2024/10/deal-digest-q3-2024",
+                "publisher": "Baker McKenzie",
+                "locator": "Q3 deal digest"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Public takeover",
+            "question": "Which amounts should the consideration table and shareholder communications show?",
+            "why": "A dividend-inclusive headline is not the bidder's entire per-share cash payment. Reconcile the record date, settlement and corporate action.",
+            "documents": "Scheme document and effective announcement."
+          },
+          {
+            "name": "Commercial contracts",
+            "question": "What if a bottling or distribution agreement has change-of-control provisions?",
+            "why": "Strategic customer/supplier rights can alter deal certainty; diligence must identify consent, exclusivity, territory and termination rights without assuming the actual clauses.",
+            "documents": "Bottling contracts (not reviewed); public announcements."
+          },
+          {
+            "name": "Competition",
+            "question": "Where are the horizontal and vertical issues in beverages and distribution?",
+            "why": "Assess product substitution, grocery channel leverage, input/customer access and routes to market; distinguish a theory from the CMA's actual findings.",
+            "documents": "CMA decision; customer and supplier contracts."
+          },
+          {
+            "name": "Post-close",
+            "question": "How should brand integration and employment risks be controlled?",
+            "why": "A portfolio combination does not automatically permit contract migration. Review IP licensing, distribution, pensions, employment and data separation.",
+            "documents": "Integration plan; IP schedule; third-party consents."
+          }
+        ],
+        "documents": [
+          {
+            "title": "Britvic effective notice",
+            "url": "https://www.britvic.com/our-news/performance/scheme-of-arrangement-becomes-effective/",
+            "purpose": "Terms, court order, settlement"
+          },
+          {
+            "title": "CMA case",
+            "url": "https://www.gov.uk/cma-cases/carlsberg-slash-britvic-merger-inquiry",
+            "purpose": "Decision record"
+          },
+          {
+            "title": "Linklaters announcement",
+            "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2024/july/linklaters-advises-britvic-on-its-takeover-by-carlsberg-for-3_3bn",
+            "purpose": "Target counsel and strategic rationale"
+          },
+          {
+            "title": "Baker McKenzie case study",
+            "url": "https://insight.bakermckenzie.com/carlsberg-case-study",
+            "purpose": "Bidder mandate"
+          }
+        ],
+        "openQuestions": [
+          "Complete scheme conditions, bridge financing and underlying bottling agreements have not been independently reviewed here.",
+          "Post-close realised synergies not established."
+        ],
+        "relatedDeals": [
+          "greencore-bakkavor",
+          "aviva-direct-line"
+        ]
+      },
+      "factSources": [
+        "https://www.britvic.com/our-news/performance/scheme-of-arrangement-becomes-effective/",
+        "https://www.carlsberggroup.com/newsroom/carlsberg-group-completes-acquisition-of-britvic-plc/"
       ]
     },
     {
@@ -3235,6 +4388,619 @@
         "due-diligence",
         "business-model"
       ]
+    },
+    {
+      "id": "chesnara-metlife-uk",
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "title": "Chesnara / MetLife UK closed-book life business",
+      "eventDate": "2026-11-06",
+      "announcedOn": "2026-11-06",
+      "verifiedOn": "2026-11-24",
+      "status": "Agreement announced",
+      "dealType": "Private M&A",
+      "sector": "Insurance",
+      "parties": [
+        [
+          "Buyer",
+          "Chesnara plc"
+        ],
+        [
+          "Seller",
+          "MetLife, Inc."
+        ],
+        [
+          "Target",
+          "MetLife UK Limited"
+        ]
+      ],
+      "structure": "Agreement to acquire the entire share capital of the closed-book UK life insurer; ongoing UK protection business excluded.",
+      "fact": "Chesnara agreed to acquire MetLife UK Limited. The portfolio had approximately 18,000 policies and £1.7bn assets under administration at 31 December 2025. Closing was expected in H1 2027 subject to regulatory approval.",
+      "analysis": "A closed-book acquisition is principally a cash-flow, capital and servicing proposition, not a strategy to acquire new-business distribution. The existing outsourcing and reinsurance arrangements affect integration economics.",
+      "legalWork": "Review control approvals, policy liabilities, reinsurance guarantees, outsourcing, data protection and closing adjustments.",
+      "interview": "Why can a £1.7bn assets-under-administration portfolio be acquired for consideration that is not expected to be material?",
+      "watch": "Regulatory approvals, closing adjustments, capital emergence and servicing continuity.",
+      "sources": [
+        {
+          "name": "Chesnara transaction announcement",
+          "url": "https://www.chesnara.co.uk/news-and-press-releases/news-story-listing/news-year/acquisition-of-metlife-uk-limited"
+        },
+        {
+          "name": "Slaughter and May transaction mandate",
+          "url": "https://www.slaughterandmay.com/recent-work/chesnara-on-its-acquisition-of-metlife-uk-limited-metlife-s-closed-book-life-insurance-company/"
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-11-06",
+          "event": "Share acquisition agreement announced",
+          "source": "https://www.chesnara.co.uk/news-and-press-releases/news-story-listing/news-year/acquisition-of-metlife-uk-limited"
+        }
+      ],
+      "related": [
+        "due-diligence",
+        "finance"
+      ],
+      "financing": "Consideration not quantified; issuer describes it as not expected to be material and subject to customary completion adjustments.",
+      "regulatory": "Expected H1 2027 closing subject to regulatory approval.",
+      "advisers": [
+        {
+          "firm": "Slaughter and May",
+          "firmId": "slaughter-may",
+          "client": "Chesnara",
+          "scope": "Corporate and specialist acquisition counsel",
+          "source": "https://www.slaughterandmay.com/recent-work/chesnara-on-its-acquisition-of-metlife-uk-limited-metlife-s-closed-book-life-insurance-company/"
+        }
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Perimeter and consideration",
+            "text": "The proposed acquisition covers all shares in MetLife UK Limited, which stopped writing new business in 2017. It excludes the seller's ongoing UK protection business. The price is not quantified; Chesnara describes the consideration as subject to closing adjustments and not expected to be material.",
+            "evidence": [
+              {
+                "url": "https://www.chesnara.co.uk/news-and-press-releases/news-story-listing/news-year/acquisition-of-metlife-uk-limited",
+                "publisher": "Chesnara",
+                "locator": "Proposed transaction and perimeter"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Portfolio economics",
+            "text": "The issuer records approximately 18,000 customers and £1.7bn of assets under administration at 31 December 2025. Slaughter and May also reports the portfolio scale. The assets administered are not the purchase price or the buyer's equity value.",
+            "evidence": [
+              {
+                "url": "https://www.chesnara.co.uk/news-and-press-releases/news-story-listing/news-year/acquisition-of-metlife-uk-limited",
+                "publisher": "Chesnara",
+                "locator": "Portfolio background"
+              },
+              {
+                "url": "https://www.slaughterandmay.com/recent-work/chesnara-on-its-acquisition-of-metlife-uk-limited-metlife-s-closed-book-life-insurance-company/",
+                "publisher": "Slaughter and May",
+                "locator": "Portfolio scale and acquisition"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Forecast and operating model",
+            "text": "Chesnara estimates £90m lifetime cash flow and identifies existing administration by SS&C. Its announcement states that an external reinsurance arrangement for variable-annuity guarantee risk will remain in place. The cash-flow projection is not cash received at closing; service continuity and recoverability matter to its realisation.",
+            "evidence": [
+              {
+                "url": "https://www.chesnara.co.uk/news-and-press-releases/news-story-listing/news-year/acquisition-of-metlife-uk-limited",
+                "publisher": "Chesnara",
+                "locator": "Financial impact and portfolio arrangements"
+              }
+            ],
+            "qualification": "forecast"
+          },
+          {
+            "heading": "Advisers",
+            "text": "The issuer names Slaughter and May, Fenchurch Advisory Partners and PwC. Slaughter and May confirms its legal mandate and identifies corporate, financial regulation, technology, tax, data protection and employment specialists. The financial and accounting advisers are not counted as legal mandates.",
+            "evidence": [
+              {
+                "url": "https://www.chesnara.co.uk/news-and-press-releases/news-story-listing/news-year/acquisition-of-metlife-uk-limited",
+                "publisher": "Chesnara",
+                "locator": "Advisers"
+              },
+              {
+                "url": "https://www.slaughterandmay.com/recent-work/chesnara-on-its-acquisition-of-metlife-uk-limited-metlife-s-closed-book-life-insurance-company/",
+                "publisher": "Slaughter and May",
+                "locator": "Named practices"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Prudential diligence",
+            "question": "What liabilities, own-funds movements and solvency sensitivities sit behind expected cash flows?",
+            "why": "A portfolio of policies may have guarantees and future liability run-off. Assess stress scenarios, reserving, asset-liability matching and regulatory capital, not just AUA.",
+            "documents": "Actuarial reports, solvency disclosures, price-adjustment mechanism."
+          },
+          {
+            "name": "Reinsurance",
+            "question": "Will the guarantee-risk protection survive ownership change?",
+            "why": "Review counterparty credit, exclusions, termination, collateral and consent conditions; an external arrangement is not risk elimination.",
+            "documents": "Reinsurance treaty and counterparty due diligence."
+          },
+          {
+            "name": "Outsourcing",
+            "question": "How do SS&C's service arrangements support or limit the operating model?",
+            "why": "Examine service levels, exit/transition rights, operational resilience, subcontracting and data migration. Shared provider does not mean automatic contract continuity.",
+            "documents": "Administration agreement and service-level schedules."
+          },
+          {
+            "name": "Closing",
+            "question": "How should the purchase-price adjustment and regulatory approvals be tracked?",
+            "why": "Separate price, portfolio value and expected future capital emergence; ensure the precise control approvals and conditions are evidenced before announcing completion.",
+            "documents": "SPA and regulatory submissions (not reviewed)."
+          }
+        ],
+        "documents": [
+          {
+            "title": "Issuer release",
+            "url": "https://www.chesnara.co.uk/news-and-press-releases/news-story-listing/news-year/acquisition-of-metlife-uk-limited",
+            "purpose": "Transaction perimeter, portfolio, forecast and adviser list"
+          },
+          {
+            "title": "Counsel announcement",
+            "url": "https://www.slaughterandmay.com/recent-work/chesnara-on-its-acquisition-of-metlife-uk-limited-metlife-s-closed-book-life-insurance-company/",
+            "purpose": "Legal mandate, specialist roles and conditional closing"
+          }
+        ],
+        "openQuestions": [
+          "Exact consideration, closing adjustment formula and detailed actuarial assumptions not disclosed in these sources.",
+          "Seller legal counsel and executed SPA/reinsurance terms not established."
+        ],
+        "relatedDeals": [
+          "athora-picg",
+          "aviva-direct-line"
+        ]
+      },
+      "factSources": [
+        "https://www.chesnara.co.uk/news-and-press-releases/news-story-listing/news-year/acquisition-of-metlife-uk-limited"
+      ]
+    },
+    {
+      "id": "cinven-theramex",
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "title": "Cinven / Theramex",
+      "eventDate": "2026-11-03",
+      "announcedOn": "2026-11-03",
+      "verifiedOn": "2026-11-24",
+      "status": "Agreement announced",
+      "dealType": "Private equity M&A",
+      "sector": "Healthcare",
+      "parties": [
+        [
+          "Buyer",
+          "Cinven funds"
+        ],
+        [
+          "Sellers",
+          "Carlyle and PAI Partners"
+        ],
+        [
+          "Target",
+          "Theramex"
+        ]
+      ],
+      "structure": "Agreement for Cinven to acquire London-headquartered specialty pharmaceuticals group from its private equity owners.",
+      "fact": "Cinven announced an agreement to acquire Theramex on 3 November 2026. The buyer’s release does not disclose financial terms. Counsel disclosures identify separate buyer, seller and financing-side mandates.",
+      "analysis": "The sponsor-to-sponsor exit centres on durable product rights, commercialisation networks and management of regulatory/IP risk. Leverage and returns depend on the actual debt and acquisition economics, not media headline estimates.",
+      "legalWork": "Investigate product authorisations, distribution and licensing rights, pharmacovigilance, supply chain, IP, leveraged acquisition financing and management rollover.",
+      "interview": "How would diligence of a specialty pharmaceutical portfolio differ from diligence of an ordinary consumer-products company?",
+      "watch": "Closing announcement, regulatory conditions, financing and product-rights perimeter.",
+      "sources": [
+        {
+          "name": "Cinven acquisition announcement",
+          "url": "https://www.cinven.com/news-insights/cinven-to-acquire-theramex/"
+        },
+        {
+          "name": "Freshfields buyer mandate",
+          "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-cinven-on-its-acquisition-of-theramex"
+        },
+        {
+          "name": "Linklaters seller mandate",
+          "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-carlyle-pai-partners-and-theramex-on-the-sale-of-theramex-to-cinven"
+        },
+        {
+          "name": "Proskauer financing sources mandate",
+          "url": "https://www.proskauer.com/release/proskauer-advises-financing-sources-on-cinvens-acquisition-of-theramex"
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-11-03",
+          "event": "Buyer and legal advisers disclosed agreement",
+          "source": "https://www.cinven.com/news-insights/cinven-to-acquire-theramex/"
+        },
+        {
+          "date": "2026-11-04",
+          "event": "Financing-source mandate disclosed",
+          "source": "https://www.proskauer.com/release/proskauer-advises-financing-sources-on-cinvens-acquisition-of-theramex"
+        }
+      ],
+      "related": [
+        "due-diligence",
+        "finance"
+      ],
+      "advisers": [
+        {
+          "firm": "Freshfields",
+          "firmId": "freshfields",
+          "client": "Cinven",
+          "scope": "Buyer counsel",
+          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-cinven-on-its-acquisition-of-theramex"
+        },
+        {
+          "firm": "Linklaters",
+          "firmId": "linklaters",
+          "client": "Carlyle, PAI Partners and Theramex",
+          "scope": "Seller/target counsel",
+          "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-carlyle-pai-partners-and-theramex-on-the-sale-of-theramex-to-cinven"
+        },
+        {
+          "firm": "Proskauer Rose",
+          "firmId": "proskauer",
+          "client": "Financing sources",
+          "scope": "Acquisition financing",
+          "source": "https://www.proskauer.com/release/proskauer-advises-financing-sources-on-cinvens-acquisition-of-theramex"
+        }
+      ],
+      "financing": "Proskauer disclosed a financing-source mandate; financing amount and instruments are not established in the reviewed primary sources.",
+      "regulatory": "Specific conditions and closing timetable not established in these sources.",
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Acquisition and business footprint",
+            "text": "Cinven reached an agreement with Carlyle and PAI Partners for Theramex. The company commercialises treatments across menopause, osteoporosis, contraception and fertility. Its London headquarters and presence across many markets make the acquisition relevant to UK and cross-border legal work. Financial details are undisclosed by the buyer.",
+            "evidence": [
+              {
+                "url": "https://www.cinven.com/news-insights/cinven-to-acquire-theramex/",
+                "publisher": "Cinven",
+                "locator": "Announcement and company overview"
+              },
+              {
+                "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-cinven-on-its-acquisition-of-theramex",
+                "publisher": "Freshfields",
+                "locator": "Acquisition and company profile"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Seller investment history",
+            "text": "Linklaters discloses its work across the prior investment lifecycle, including the 2018 acquisition and 2023 product acquisitions from Viatris. That historical work is relevant to the portfolio's origins but not a new mandate or evidence of specific warranties under the current transaction.",
+            "evidence": [
+              {
+                "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-carlyle-pai-partners-and-theramex-on-the-sale-of-theramex-to-cinven",
+                "publisher": "Linklaters",
+                "locator": "Investment lifecycle"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Three-sided counsel map",
+            "text": "Freshfields represents Cinven; Linklaters represents Carlyle, PAI and Theramex on the sale; Proskauer advises financing sources. Each role comes from the firm’s own announcement. The lender announcement confirms financing involvement but does not establish debt quantum or leverage.",
+            "evidence": [
+              {
+                "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-cinven-on-its-acquisition-of-theramex",
+                "publisher": "Freshfields",
+                "locator": "Buyer mandate"
+              },
+              {
+                "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-carlyle-pai-partners-and-theramex-on-the-sale-of-theramex-to-cinven",
+                "publisher": "Linklaters",
+                "locator": "Seller/target mandate"
+              },
+              {
+                "url": "https://www.proskauer.com/release/proskauer-advises-financing-sources-on-cinvens-acquisition-of-theramex",
+                "publisher": "Proskauer",
+                "locator": "Financing sources mandate"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Product IP and licensing",
+            "question": "Does the business own or in-license each product and in which territories?",
+            "why": "Value depends on enforceable territorial rights, royalties, duration, exclusivity, change-of-control consents and termination rights.",
+            "documents": "Product and licence schedules; material agreements."
+          },
+          {
+            "name": "Medicines regulation",
+            "question": "Which marketing authorisations, regulatory filings and pharmacovigilance obligations need continuity?",
+            "why": "Separate legal entity control from transfer of individual authorisations. Assess regulator notifications and product-safety responsibilities country by country.",
+            "documents": "Authorisation register and safety systems; local law advice."
+          },
+          {
+            "name": "Sponsor exit",
+            "question": "What historic acquisition obligations, management incentives and leakage risks survive the sale?",
+            "why": "Review legacy indemnities, deferred consideration, management reinvestment, W&I policy scope and limitations. No assumption that any specific device was used.",
+            "documents": "SPA, prior acquisition documents, insurance policies (not reviewed)."
+          },
+          {
+            "name": "Leveraged finance",
+            "question": "How would financing diligence address pharma revenue durability and IP risks?",
+            "why": "Cash flows can be sensitive to patent/licence expiry, reimbursement, supply disruptions and product liability. Link debt availability to actual closing conditions.",
+            "documents": "Facility documents and financial model (not reviewed)."
+          }
+        ],
+        "documents": [
+          {
+            "title": "Cinven release",
+            "url": "https://www.cinven.com/news-insights/cinven-to-acquire-theramex/",
+            "purpose": "Primary transaction facts, explicit non-disclosure"
+          },
+          {
+            "title": "Freshfields buyer mandate",
+            "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-cinven-on-its-acquisition-of-theramex",
+            "purpose": "Acquirer representation"
+          },
+          {
+            "title": "Linklaters seller mandate",
+            "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-carlyle-pai-partners-and-theramex-on-the-sale-of-theramex-to-cinven",
+            "purpose": "Seller roles and investment history"
+          },
+          {
+            "title": "Proskauer financing announcement",
+            "url": "https://www.proskauer.com/release/proskauer-advises-financing-sources-on-cinvens-acquisition-of-theramex",
+            "purpose": "Financing-side representation"
+          }
+        ],
+        "openQuestions": [
+          "Price, debt commitments and detailed conditions not established by primary sources; no unverified media number promoted to a confirmed valuation.",
+          "No completion milestone established."
+        ],
+        "relatedDeals": [
+          "pai-elemis",
+          "goldman-celnor"
+        ]
+      },
+      "factSources": [
+        "https://www.cinven.com/news-insights/cinven-to-acquire-theramex/",
+        "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-cinven-on-its-acquisition-of-theramex"
+      ]
+    },
+    {
+      "id": "softcat-gdt",
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "title": "Softcat / General Datatech",
+      "eventDate": "2026-09-17",
+      "announcedOn": "2026-09-17",
+      "verifiedOn": "2026-11-24",
+      "status": "Agreement announced",
+      "dealType": "Cross-border M&A",
+      "sector": "Technology",
+      "parties": [
+        [
+          "Buyer",
+          "Softcat plc"
+        ],
+        [
+          "Target",
+          "General Datatech, L.P."
+        ],
+        [
+          "Sellers",
+          "H.I.G. Capital-affiliated sellers"
+        ]
+      ],
+      "structure": "Agreed acquisition of a US technology-solutions provider, funded through balance-sheet cash, equity issuance and new debt.",
+      "fact": "Softcat announced the $1.05bn enterprise-value acquisition of General Datatech on 17 September 2026. The financing includes new equity and term/revolving facilities. Closing is not established in the reviewed sources.",
+      "analysis": "A UK-listed company's acquisition of a sizeable US technology platform creates a mixed financing and cross-border disclosure project. Financing certainty, FX hedging and distribution/channel arrangements are as important as headline enterprise value.",
+      "legalWork": "Coordinate transaction documents, equity placing, retail participation, debt facility CPs, US and UK regulatory steps and disclosure controls.",
+      "interview": "Why might a listed buyer combine an accelerated bookbuild with bank debt instead of funding the whole transaction through cash?",
+      "watch": "Check closing conditions, next issuer results, financing draws and integration.",
+      "sources": [
+        {
+          "name": "Softcat acquisition announcement",
+          "url": "https://www.softcat.com/news/softcat-expands-international-reach-acquisition-gdt"
+        },
+        {
+          "name": "Slaughter and May acquisition mandate",
+          "url": "https://www.slaughterandmay.com/recent-work/advised-softcat-on-the-acquisition-of-general-datatech/"
+        },
+        {
+          "name": "Slaughter and May transaction case study",
+          "url": "https://www.slaughterandmay.com/insights/client-case-studies/transforming-softcat-into-a-leading-global-it-solutions-business/"
+        },
+        {
+          "name": "Issuer equity issue filing (FCA NSM)",
+          "url": "https://data.fca.org.uk/artefacts/NSM/RNS/ef40df77-6c61-42aa-868a-5d3cbf3548a2.html"
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-09-17",
+          "event": "Acquisition and funding announced",
+          "source": "https://www.slaughterandmay.com/insights/client-case-studies/transforming-softcat-into-a-leading-global-it-solutions-business/"
+        }
+      ],
+      "related": [
+        "due-diligence",
+        "finance"
+      ],
+      "values": [
+        {
+          "label": "Enterprise value",
+          "amount": "US$1.05bn",
+          "basis": "enterprise-value",
+          "currency": "USD",
+          "numericAmount": 1050000000,
+          "source": "https://www.slaughterandmay.com/recent-work/advised-softcat-on-the-acquisition-of-general-datatech/",
+          "unit": "currency",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Announced equity placing",
+          "amount": "Approximately £350m",
+          "basis": "equity-funding",
+          "currency": "GBP",
+          "numericAmount": 350000000,
+          "source": "https://www.slaughterandmay.com/recent-work/advised-softcat-on-the-acquisition-of-general-datatech/",
+          "unit": "currency",
+          "disclosure": "approximate"
+        },
+        {
+          "label": "New revolving credit facility",
+          "amount": "£450m",
+          "basis": "financing-commitment",
+          "currency": "GBP",
+          "numericAmount": 450000000,
+          "source": "https://www.slaughterandmay.com/recent-work/advised-softcat-on-the-acquisition-of-general-datatech/",
+          "unit": "currency",
+          "disclosure": "stated"
+        },
+        {
+          "label": "New term loan",
+          "amount": "£100m",
+          "basis": "financing-commitment",
+          "currency": "GBP",
+          "numericAmount": 100000000,
+          "source": "https://www.slaughterandmay.com/recent-work/advised-softcat-on-the-acquisition-of-general-datatech/",
+          "unit": "currency",
+          "disclosure": "stated"
+        }
+      ],
+      "financing": "Balance-sheet cash plus an announced c.£350m placing, £450m revolving credit facility and £100m term loan; actual drawdowns not established.",
+      "regulatory": "Closing subject to applicable regulatory steps; specific clearances not established in reviewed material.",
+      "advisers": [
+        {
+          "firm": "Slaughter and May",
+          "firmId": "slaughter-may",
+          "client": "Softcat",
+          "scope": "Cross-border acquisition and equity/debt financing",
+          "source": "https://www.slaughterandmay.com/recent-work/advised-softcat-on-the-acquisition-of-general-datatech/"
+        }
+      ],
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Strategic perimeter",
+            "text": "Softcat announced the acquisition of US-based GDT, with capabilities in networking and data-centre solutions. Its own announcement describes expanded North American and Indian reach, complementing the UK buyer's existing customer base. The case study identifies sellers affiliated with H.I.G. Capital.",
+            "evidence": [
+              {
+                "url": "https://www.softcat.com/news/softcat-expands-international-reach-acquisition-gdt",
+                "publisher": "Softcat",
+                "locator": "Strategic rationale"
+              },
+              {
+                "url": "https://www.slaughterandmay.com/insights/client-case-studies/transforming-softcat-into-a-leading-global-it-solutions-business/",
+                "publisher": "Slaughter and May",
+                "locator": "Transaction overview"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Enterprise value and capital structure",
+            "text": "Slaughter and May identifies enterprise value of $1.05bn and funding by existing cash, an approximately £350m placing and new facilities of £450m revolving and £100m term. The equity raising included institutional bookbuilding and retail participation. Facility commitments are not necessarily the closing cash outlay or amount drawn.",
+            "evidence": [
+              {
+                "url": "https://www.slaughterandmay.com/recent-work/advised-softcat-on-the-acquisition-of-general-datatech/",
+                "publisher": "Slaughter and May",
+                "locator": "Funding breakdown"
+              },
+              {
+                "url": "https://www.slaughterandmay.com/insights/client-case-studies/transforming-softcat-into-a-leading-global-it-solutions-business/",
+                "publisher": "Slaughter and May",
+                "locator": "Transaction economics"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Documentation and public disclosure",
+            "text": "The issuer announced the acquisition in September and the counsel case study describes coordinated financing. The FCA filing is linked as a further document for equity issue details; direct retrieval returned a restriction in this research pass, so no additional claim is asserted from its unread body.",
+            "evidence": [
+              {
+                "url": "https://www.softcat.com/news/softcat-expands-international-reach-acquisition-gdt",
+                "publisher": "Softcat",
+                "locator": "Transaction announcement"
+              },
+              {
+                "url": "https://www.slaughterandmay.com/insights/client-case-studies/transforming-softcat-into-a-leading-global-it-solutions-business/",
+                "publisher": "Slaughter and May",
+                "locator": "Funding and transaction overview"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Capital markets",
+            "question": "What risks arise from coordinating the acquisition and an accelerated bookbuild?",
+            "why": "Disclosure of inside information, underwriting commitments, allocation and admission must align with funding certainty. Confirm the exact UK Listing Rules classification in the issuer's filed announcement.",
+            "documents": "Equity issue announcement; underwriting agreement; admission notices."
+          },
+          {
+            "name": "Debt and FX",
+            "question": "How can GBP capital fund a USD purchase price?",
+            "why": "Build a sources-and-uses and currency conversion schedule. Review hedging strategy, funding CPs, revolver purpose, debt repayment and refinancing flexibility.",
+            "documents": "Facilities, FX instruments and treasury policy (not reviewed)."
+          },
+          {
+            "name": "Technology diligence",
+            "question": "Which vendor authorisations and customer contracts drive GDT's economics?",
+            "why": "Reseller and distribution contracts may restrict transfer, pricing or territory. Test material relationships, revenue concentration, cybersecurity and data obligations.",
+            "documents": "Vendor and customer contracts; software licence register."
+          },
+          {
+            "name": "Cross-border execution",
+            "question": "What approvals and accounting workstreams need US and UK coordination?",
+            "why": "Map applicable antitrust and foreign investment triggers, employment and tax structure, and reporting controls; avoid assuming filings solely from deal size.",
+            "documents": "Transaction agreement; jurisdictional filing matrix; reporting integration plan."
+          }
+        ],
+        "documents": [
+          {
+            "title": "Softcat release",
+            "url": "https://www.softcat.com/news/softcat-expands-international-reach-acquisition-gdt",
+            "purpose": "Business rationale and geographic reach"
+          },
+          {
+            "title": "Counsel announcement",
+            "url": "https://www.slaughterandmay.com/recent-work/advised-softcat-on-the-acquisition-of-general-datatech/",
+            "purpose": "Valuation and funding"
+          },
+          {
+            "title": "Counsel case study",
+            "url": "https://www.slaughterandmay.com/insights/client-case-studies/transforming-softcat-into-a-leading-global-it-solutions-business/",
+            "purpose": "Seller identification and execution context"
+          },
+          {
+            "title": "Equity issue filing",
+            "url": "https://data.fca.org.uk/artefacts/NSM/RNS/ef40df77-6c61-42aa-868a-5d3cbf3548a2.html",
+            "purpose": "Source to retrieve for detailed listing and placement terms; access restricted in this review"
+          }
+        ],
+        "openQuestions": [
+          "Actual equity issue proceeds, drawdown, final price adjustments and closing not established by the reviewed accessible sources.",
+          "Seller counsel and individual facility terms not established."
+        ],
+        "relatedDeals": [
+          "lseg-octus",
+          "leita-mobico"
+        ]
+      },
+      "factSources": [
+        "https://www.softcat.com/news/softcat-expands-international-reach-acquisition-gdt",
+        "https://www.slaughterandmay.com/insights/client-case-studies/transforming-softcat-into-a-leading-global-it-solutions-business/"
+      ]
     }
   ],
   "lessons": [
@@ -3701,6 +5467,20 @@
       "programme": "Official careers directory includes London experienced-lawyer and business-professional routes and a separate student careers site. Check current vacancy and eligibility information.",
       "url": "https://www.sidley.com/en/careers",
       "research": "Use the Athora / PICG acquisition to discuss insurer change-of-control approval, acquisition financing and cross-border coordination."
+    },
+    {
+      "id": "baker-mckenzie",
+      "name": "Baker McKenzie",
+      "url": "https://www.bakermckenzie.com/en/careers",
+      "programme": "Consult official UK careers pages for current vacancies and graduate routes.",
+      "research": "Review disclosed cross-border mandates and identify how local and international counsel coordinate."
+    },
+    {
+      "id": "proskauer",
+      "name": "Proskauer Rose",
+      "url": "https://www.proskauer.com/careers",
+      "programme": "See the firm’s official recruitment pages for current programmes.",
+      "research": "Compare sponsor counsel with financing sources' counsel across private capital mandates."
     }
   ],
   "registry": [
@@ -3775,6 +5555,24 @@
       "https://www.gov.uk/government/organisations",
       "Automated source desk",
       "Treasury, Companies House, CMA, and business department notices via GOV.UK Search API."
+    ],
+    [
+      "SEC issuer filings",
+      "https://www.sec.gov/edgar/search/",
+      "Original issuer filings and transaction exhibits",
+      "Use transaction-specific filing or issuer-hosted filing; primary corporate disclosures are not independent assurance."
+    ],
+    [
+      "Issuer offer document registers",
+      "https://www.aviva.com/investors/strategy-and-performance-overview/acquisition-of-direct-line-insurance-group-plc/",
+      "Scheme documents, conditions and financing disclosures",
+      "Document-level review with explicit page or section anchors."
+    ],
+    [
+      "Counsel announcements",
+      "https://www.slaughterandmay.com/recent-work",
+      "Mandate discovery",
+      "Firm disclosures establish their own client and scope; a second publication of the same statement is not independent corroboration."
     ]
   ],
   "opportunities": [
