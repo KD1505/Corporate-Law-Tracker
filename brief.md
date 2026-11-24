@@ -3,21 +3,21 @@ _24 November 2026_
 
 2 new development(s).
 
-### AXISCADES Technologies Limited
+### Gamco Ltd (540097)
 **MA** · India · ✓ Verified
 
-AXISCADES Technologies Limited - AXISCADES Technologies Limited has informed the Exchange regarding Acquisition of to be incorporated companies |SUBJECT: Acquisition of 'to be incorporated companies'-XBRL
+Gamco Ltd (540097) - The Company has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulation , 2011 from Mrs. Rashi Goenka.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/xbrl/REG30_Restructuring_1939_WebXMLFile_20261124_141750939.xml)
+[Open source ↗](https://www.bseindia.com/xml-data/corpfiling/AttachLive/e98df868-5eec-431b-8b99-189734d15ebe.pdf)
 
 ---
 
-### AXISCADES Technologies Limited
+### Gamco Ltd (540097)
 **MA** · India · ✓ Verified
 
-AXISCADES Technologies Limited - AXISCADES Technologies Limited has informed the Exchange about Acquisition |SUBJECT: Acquisition
+Gamco Ltd (540097) - The Company has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Sharws & Takeovers) Regulations, 2011 from Mrs. Raj Goenka.
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/AXISCADES_24112026141426_IncorporationUSA24112026.pdf)
+[Open source ↗](https://www.bseindia.com/xml-data/corpfiling/AttachLive/ba22bea3-a115-4226-8669-df701734a49a.pdf)
 
 ---
 

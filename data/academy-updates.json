@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-11-24T08:32:03.405Z",
+  "generatedAt": "2026-11-24T09:07:50.360Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-11-24-0-bse-rss-e728a14e867636d35873f9",
+      "sourceId": "bse-rss-e728a14e867636d35873f9",
+      "date": "24 Nov 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Gamco Ltd (540097)",
+      "why": "Gamco Ltd (540097) - The Company has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulation , 2011 from Mrs. Rashi Goenka.",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e98df868-5eec-431b-8b99-189734d15ebe.pdf",
+      "sourceName": "BSE RSS"
+    },
+    {
+      "id": "academy-2026-11-24-1-bse-rss-63b307875d4757dba4e7ed",
+      "sourceId": "bse-rss-63b307875d4757dba4e7ed",
+      "date": "24 Nov 2026",
+      "category": "Listed M&A / SEBI",
+      "headline": "Gamco Ltd (540097)",
+      "why": "Gamco Ltd (540097) - The Company has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Sharws & Takeovers) Regulations, 2011 from Mrs. Raj Goenka.",
+      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
+      "source": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ba22bea3-a115-4226-8669-df701734a49a.pdf",
+      "sourceName": "BSE RSS"
+    },
     {
       "id": "academy-2026-11-24-0-nse-rss-3bde51824082579db670bc",
       "sourceId": "nse-rss-3bde51824082579db670bc",
@@ -419,28 +441,6 @@
       "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
       "source": "https://nsearchives.nseindia.com/corporate/RSWM_02112026182422_Financial_Results30092026.pdf",
       "sourceName": "NSE filing - RSWM Limited"
-    },
-    {
-      "id": "academy-2026-11-01-0-nse-jswsteel-01-nov-2026020535",
-      "sourceId": "nse-jswsteel-01-nov-2026020535",
-      "date": "1 Nov 2026",
-      "category": "Companies Act",
-      "headline": "JSW Steel Limited: Amalgamation/Merger",
-      "why": "Amalgamation/Merger - JSW Steel Limited has informed the Exchange about the Effectiveness of the Scheme of Amalgamation of Piombino Steel Limited with JSW Steel Limited and their respective shareholders",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/Supriya_01112026020456_SE_Intimation_PSL_Scheme.pdf",
-      "sourceName": "NSE filing - JSW Steel Limited"
-    },
-    {
-      "id": "academy-2026-10-31-0-nse-aurionpro-31-oct-2026201309",
-      "sourceId": "nse-aurionpro-31-oct-2026201309",
-      "date": "31 Oct 2026",
-      "category": "Companies Act",
-      "headline": "Aurionpro Solutions Limited: Amalgamation/Merger",
-      "why": "Amalgamation/Merger - Aurionpro Solutions Limited has informed the Exchange about Scheme of Amalgamation of Three Wholly Owned Subsidiaries with Aurionpro Solutions Limited.",
-      "interviewPrompt": "Identify the corporate approval/capital step, the document or filing affected, and the consequence of getting it wrong.",
-      "source": "https://nsearchives.nseindia.com/corporate/AURIONPRO_31102026201253_ASL_Outcome_of_Board_Meeting_Merger_sd.pdf",
-      "sourceName": "NSE filing - Aurionpro Solutions Limited"
     }
   ]
 }
