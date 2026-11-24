@@ -3330,7 +3330,6 @@
         "capital-markets",
         "securitisation"
       ],
-      "announcedOn": "2026-07-10",
       "factSources": [
         "https://www.cliffordchance.com/news/news/2026/10/clifford-chance-advises-deutsche-bank-and-standard-chartered-on-603-million-uk-logistics-cmbs.html",
         "https://www.kbra.com/publications/mMNVTBgB/kbra-assigns-preliminary-ratings-to-uk-logistics-2026-3-dac?format=web",
@@ -3671,6 +3670,36 @@
           "numericAmount": 1082000000,
           "unit": "currency",
           "disclosure": "stated"
+        },
+        {
+          "label": "Bridge facility drawn for acquisition and refinancing",
+          "amount": "£800m",
+          "numericAmount": 800000000,
+          "basis": "financing-drawn",
+          "source": "https://www.drax.com/financial-news/trading-update-upgraded-outlook-for-2026-ebitda/",
+          "currency": "GBP",
+          "unit": "currency",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Existing BSIF facilities repaid",
+          "amount": "£300m",
+          "numericAmount": 300000000,
+          "basis": "debt-repaid",
+          "source": "https://www.drax.com/financial-news/trading-update-upgraded-outlook-for-2026-ebitda/",
+          "currency": "GBP",
+          "unit": "currency",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Existing BSIF facilities retained",
+          "amount": "£200m",
+          "numericAmount": 200000000,
+          "basis": "debt-retained",
+          "source": "https://www.drax.com/financial-news/trading-update-upgraded-outlook-for-2026-ebitda/",
+          "currency": "GBP",
+          "unit": "currency",
+          "disclosure": "stated"
         }
       ],
       "analysis": "The fund acquisition adds operating solar and wind generation rather than merely a development pipeline. The £548m announced headline, £561m later consideration and £1.082bn later EV are distinct measures requiring reconciliation. Drax separately agreed a £9.15m services-business acquisition in November, which should not be silently folded into the earlier fund price.",
@@ -3806,6 +3835,18 @@
               }
             ],
             "qualification": "documented"
+          },
+          {
+            "heading": "Funding and operating portfolio",
+            "text": "September reporting distinguishes actual bridge borrowing, repayment and retained debt. The operating solar/wind portfolio was 0.9GW; the gross development pipeline was 2.9GW, of which BSIF's share was 1.8GW. Pipeline is not operational capacity. The operating portfolio earns revenues through indexed renewable schemes and contracted power sales.",
+            "evidence": [
+              {
+                "publisher": "Drax September trading update",
+                "url": "https://www.drax.com/financial-news/trading-update-upgraded-outlook-for-2026-ebitda/",
+                "locator": "17 September 2026; successful completion; funding and balance sheet"
+              }
+            ],
+            "qualification": "documented"
           }
         ],
         "workstreams": [
@@ -3862,13 +3903,14 @@
           }
         ],
         "openQuestions": [
-          "Full scheme price/dividend bridge, bidder and specialist counsel, funding and detailed project liabilities need review."
+          "Full scheme price/dividend bridge, bidder and specialist counsel, detailed facility terms and project liabilities."
         ],
         "relatedDeals": [
           "rwe-kkr-vanguard",
           "cip-noriker-kilmarnock"
         ]
-      }
+      },
+      "financing": "Drax reported £800m bridge borrowing used to fund acquisition and repay £300m existing facilities; £200m BSIF facilities remained, in addition to Lyceum Solar JV facilities. Bridge refinancing was anticipated."
     },
     {
       "jurisdiction": "UK",
@@ -5509,7 +5551,7 @@
         {
           "label": "Announced enterprise value",
           "amount": "£2 billion",
-          "basis": "Enterprise value of Substantial",
+          "basis": "enterprise-value",
           "currency": "GBP",
           "numericAmount": 2000000000,
           "unit": "currency",
@@ -5519,7 +5561,7 @@
         {
           "label": "New net funding",
           "amount": "£1 billion",
-          "basis": "New net funding for transaction, not consideration",
+          "basis": "financing-commitment",
           "currency": "GBP",
           "numericAmount": 1000000000,
           "unit": "currency",
@@ -5529,7 +5571,7 @@
         {
           "label": "Separate onward retail transaction",
           "amount": "£150 million",
-          "basis": "Proposed onward retail operations acquisition by VMO2",
+          "basis": "separate-transaction",
           "currency": "GBP",
           "numericAmount": 150000000,
           "unit": "currency",
@@ -8550,10 +8592,6 @@
       ],
       "sources": [
         {
-          "name": "HL and Harp Bidco — 9 August final offer terms",
-          "url": "https://www.investegate.co.uk/announcement/rns/hargreaves-lansdown--hl./offer-for-hargreaves-lansdown-plc/8358252"
-        },
-        {
           "name": "HL issuer notice — 25 March delisting and 24 March effective date",
           "url": "https://www.lse.co.uk/rns/de-listing-and-cancellation-of-trading-2a5rjzmp1h5wajb.html"
         },
@@ -8568,6 +8606,10 @@
         {
           "name": "Freshfields — Target counsel and approximate fully diluted value",
           "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2024/08/freshfields-advises-hargreaves-lansdown-on-recommended-final-cash-acquisition-by-a-consortium-comprised-of-cvc-private-equity-funds-nordic-capital-xi-delta-scsp-acting-through-its-general-partner-nordic-capital-xi-delta-gp-sarl-and-platinum-ivy-b-201"
+        },
+        {
+          "name": "HL / Harp Bidco scheme document — 6 September 2024; Part I §2, Part II §7, Part IX §15, Part X",
+          "url": "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000103868/NI-000103868.pdf"
         }
       ],
       "related": [
@@ -8575,26 +8617,66 @@
         "private-equity",
         "valuation"
       ],
-      "structure": "Recommended final cash acquisition by court-sanctioned scheme, with an alternative rollover equity election subject to offer terms.",
-      "fact": "A consortium agreed a roughly £5.4bn fully diluted acquisition of Hargreaves Lansdown on 9 August 2024. The scheme became effective on 24 March 2025 and listing and trading were cancelled on 25 March.",
+      "structure": "Part 26 Companies Act 2006 scheme; eligible shareholders could elect Bidco loan notes ultimately exchangeable for Topco B ordinary shares, subject to implementation.",
+      "fact": "The consortium agreed a £5.443bn fully diluted cash offer including dividend on 9 August 2024. The Part 26 scheme became effective on 24 March 2025; listing and trading were cancelled on 25 March.",
       "analysis": "The rollover election permits exposure to private ownership rather than cash exit, but unlisted shares have different liquidity and governance characteristics. A regulated investment platform's value depends on client assets, net flows, pricing and technology investment; sponsor strategy should be assessed against actual retention rather than forecasts.",
       "legalWork": "Review scheme conditions, rollover election restrictions, regulated entity change-of-control and post-delisting governance.",
       "interview": "Why would a shareholder elect rollover rather than cash, and what protections are lost after delisting?",
       "watch": "Post-acquisition client retention, platform investment and financial disclosures.",
       "regulatory": "Offer was conditional on shareholder and regulatory approvals; the effective notice establishes completion but does not identify every approval separately.",
-      "financing": "Detailed sponsor and debt financing not yet reconciled.",
+      "financing": "Scheme Part II §7 identifies sponsor equity, passive co-investment and a £1.75bn interim senior term facility. Goldman Sachs confirmed sufficient cash availability. Commitment is not drawdown.",
       "factSources": [
-        "https://www.investegate.co.uk/announcement/rns/hargreaves-lansdown--hl./offer-for-hargreaves-lansdown-plc/8358252",
+        "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000103868/NI-000103868.pdf",
         "https://www.lse.co.uk/rns/de-listing-and-cancellation-of-trading-2a5rjzmp1h5wajb.html",
         "https://www.nordiccapital.com/insights/press-releases/cvc-nordic-capital-and-adia-complete-acquisition-of-hargreaves-lansdown-to-accelerate-and-enhance-its-transformation-plan-and-deliver-on-its-growth-potential/"
       ],
       "values": [
         {
-          "label": "Fully diluted headline acquisition value",
-          "amount": "Approx. £5.4bn",
-          "numericAmount": 5400000000,
+          "label": "Fully diluted cash-offer equity value including dividend",
+          "amount": "Approx. £5.443bn",
+          "numericAmount": 5443000000,
           "basis": "equity-value",
-          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2024/08/freshfields-advises-hargreaves-lansdown-on-recommended-final-cash-acquisition-by-a-consortium-comprised-of-cvc-private-equity-funds-nordic-capital-xi-delta-scsp-acting-through-its-general-partner-nordic-capital-xi-delta-gp-sarl-and-platinum-ivy-b-201",
+          "source": "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000103868/NI-000103868.pdf",
+          "currency": "GBP",
+          "unit": "currency",
+          "disclosure": "approximate"
+        },
+        {
+          "label": "Cash consideration per share",
+          "amount": "1,110p",
+          "numericAmount": 11.1,
+          "basis": "cash-per-share",
+          "source": "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000103868/NI-000103868.pdf",
+          "currency": "GBP",
+          "unit": "currency-per-share",
+          "disclosure": "stated"
+        },
+        {
+          "label": "FY2024 dividend per share",
+          "amount": "30p",
+          "numericAmount": 0.3,
+          "basis": "dividend-per-share",
+          "source": "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000103868/NI-000103868.pdf",
+          "currency": "GBP",
+          "unit": "currency-per-share",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Interim senior term loan facility",
+          "amount": "£1.75bn",
+          "numericAmount": 1750000000,
+          "basis": "financing-commitment",
+          "source": "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000103868/NI-000103868.pdf",
+          "currency": "GBP",
+          "unit": "currency",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Estimated bidder transaction expenses",
+          "amount": "Approx. £123.4m",
+          "numericAmount": 123400000,
+          "basis": "transaction-expenses-estimate",
+          "source": "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000103868/NI-000103868.pdf",
           "currency": "GBP",
           "unit": "currency",
           "disclosure": "approximate"
@@ -8627,7 +8709,12 @@
         {
           "date": "2024-08-09",
           "event": "Final recommended acquisition announced",
-          "source": "https://www.investegate.co.uk/announcement/rns/hargreaves-lansdown--hl./offer-for-hargreaves-lansdown-plc/8358252"
+          "source": "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000103868/NI-000103868.pdf"
+        },
+        {
+          "date": "2024-09-06",
+          "event": "Scheme document published",
+          "source": "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000103868/NI-000103868.pdf"
         },
         {
           "date": "2025-03-24",
@@ -8650,9 +8737,9 @@
             "text": "The final recommended acquisition valued the fully diluted share capital at about £5.4bn. Target counsel confirms the proposed scheme; subsequent issuer notice confirms effectiveness and delisting.",
             "evidence": [
               {
-                "publisher": "HL and Harp Bidco",
-                "url": "https://www.investegate.co.uk/announcement/rns/hargreaves-lansdown--hl./offer-for-hargreaves-lansdown-plc/8358252",
-                "locator": "9 August final offer terms"
+                "publisher": "HL / Harp Bidco scheme document",
+                "url": "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000103868/NI-000103868.pdf",
+                "locator": "6 September 2024; Part I §2, Part II §7, Part IX §15, Part X"
               },
               {
                 "publisher": "Freshfields",
@@ -8706,14 +8793,38 @@
             "text": "The cash acquisition and rollover alternative require distinct consideration and governance analysis; the latter is not equivalent to listed shares.",
             "evidence": [
               {
-                "publisher": "HL and Harp Bidco",
-                "url": "https://www.investegate.co.uk/announcement/rns/hargreaves-lansdown--hl./offer-for-hargreaves-lansdown-plc/8358252",
-                "locator": "9 August final offer terms"
+                "publisher": "HL / Harp Bidco scheme document",
+                "url": "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000103868/NI-000103868.pdf",
+                "locator": "6 September 2024; Part I §2, Part II §7, Part IX §15, Part X"
               },
               {
                 "publisher": "HL issuer notice",
                 "url": "https://www.lse.co.uk/rns/de-listing-and-cancellation-of-trading-2a5rjzmp1h5wajb.html",
                 "locator": "25 March delisting and 24 March effective date"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Cash, dividends and premium reference date",
+            "text": "The scheme specifies 1,110p cash plus a 30p dividend. The total 1,140p implies a 54.1% premium to 740p on 11 April 2024, versus 22.2% to 932.8p on 21 May. Different reference dates explain the different premium figures.",
+            "evidence": [
+              {
+                "publisher": "HL / Harp Bidco scheme document",
+                "url": "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000103868/NI-000103868.pdf",
+                "locator": "Part I §2"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Debt, fees and rollover",
+            "text": "The interim senior term facility is £1.75bn; bidder costs were estimated at £123.4m before tax, including £13.7m for legal advice. These are forecast expenses rather than actual consideration. The rollover alternative uses loan notes convertible into private equity on implementation.",
+            "evidence": [
+              {
+                "publisher": "HL / Harp Bidco scheme document",
+                "url": "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000103868/NI-000103868.pdf",
+                "locator": "Part II §7; Part IX §15; Part X"
               }
             ],
             "qualification": "documented"
@@ -8747,9 +8858,9 @@
         ],
         "documents": [
           {
-            "title": "HL and Harp Bidco",
-            "url": "https://www.investegate.co.uk/announcement/rns/hargreaves-lansdown--hl./offer-for-hargreaves-lansdown-plc/8358252",
-            "purpose": "9 August final offer terms"
+            "title": "HL / Harp Bidco scheme document",
+            "url": "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000103868/NI-000103868.pdf",
+            "purpose": "6 September 2024; Part I §2, Part II §7, Part IX §15, Part X"
           },
           {
             "title": "HL issuer notice",
@@ -8773,7 +8884,7 @@
           }
         ],
         "openQuestions": [
-          "Exact cash/dividend bridge, rollover cap and actual elections, debt funding and individual regulatory approvals require further document review."
+          "Actual drawdowns, equity syndication, rollover allocation, individual regulatory approvals and post-completion financial performance."
         ],
         "relatedDeals": [
           "nationwide-virgin",
@@ -8788,7 +8899,7 @@
       "title": "EP Group / International Distribution Services (Royal Mail)",
       "eventDate": "2025-04-30",
       "announcedOn": "2024-05-29",
-      "status": "Offer unconditional; subsequent compulsory acquisition announced",
+      "status": "Completed; offer declared unconditional 30 April 2025",
       "sector": "Postal and logistics",
       "dealType": "Public M&A",
       "parties": [
@@ -8807,14 +8918,6 @@
       ],
       "sources": [
         {
-          "name": "IDS and EP UK Bidco — 29 May 2024 recommended offer",
-          "url": "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/recommended-cash-offer-for-ids-plc/8227019"
-        },
-        {
-          "name": "IDS issuer announcement — 30 April 2025 unconditional offer and dividend",
-          "url": "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/declaration-of-the-special-dividend/8855268"
-        },
-        {
           "name": "UK Government — 16 December 2024 binding commitments and golden share",
           "url": "https://www.gov.uk/government/news/royal-mail-remains-based-in-uk-in-deal-to-bolster-key-services"
         },
@@ -8823,12 +8926,28 @@
           "url": "https://www.gov.uk/government/publications/acquisition-of-international-distribution-services-plc-by-ep-uk-bidco-limited-notice-of-final-order/acquisition-of-international-distribution-services-plc-by-ep-uk-bidco-limited-notice-of-final-order"
         },
         {
-          "name": "IDS issuer announcement — Closure and compulsory acquisition",
-          "url": "https://www.investegate.co.uk/announcement/rns/international-distributions-services--ids/closure-of-the-offer-and-compulsory-acquisition-/8899272"
-        },
-        {
           "name": "Slaughter and May — Representative matter: IDS foreign investment and merger control",
           "url": "https://www.slaughterandmay.com/services/practices/foreign-investment-and-national-security/"
+        },
+        {
+          "name": "EP UK Bidco offer document — 26 June 2024; Part 1 §§2 and 13; Part 2",
+          "url": "https://idsoffer.shareview.info/docs/Offer_Document.pdf"
+        },
+        {
+          "name": "EP UK Bidco — 30 April 2025 unconditional announcement",
+          "url": "https://idsoffer.shareview.info/docs/offer_declared_unconditional.pdf"
+        },
+        {
+          "name": "EP Group — 2025 results; acquisition completed",
+          "url": "https://epgroup.eu/en/press-releases/the-ep-group-reported-exceptional-growth-in-2025"
+        },
+        {
+          "name": "EP UK Bidco / UK Government deed — 16 December 2024; recitals A–E",
+          "url": "https://data.parliament.uk/DepositedPapers/Files/DEP2024-0823/2024-12-16-HMG_DBT_Deed_of_Undertaking.pdf"
+        },
+        {
+          "name": "Slaughter and May — 29 May 2024 mandate and teams",
+          "url": "https://www.slaughterandmay.com/recent-work/ids-on-its-3-5billion-recommended-all-cash-offer-by-ep-group/"
         }
       ],
       "related": [
@@ -8837,27 +8956,68 @@
         "valuation"
       ],
       "structure": "Recommended contractual cash offer for shares not already owned or controlled by VESA Equity Investment; separate government commitments and NSI order.",
-      "fact": "The recommended offer was announced on 29 May 2024 and became unconditional on 30 April 2025. Government commitments on Royal Mail governance were announced separately from the NSI final order. A subsequent issuer notice addresses closure and compulsory acquisition.",
-      "analysis": "The target combines UK postal services and international parcel operations. The government golden share reserves consent rights over specified matters rather than a conventional economic interest. A buyer must distinguish commercially negotiated conditions, statutory national-security protections and contractual undertakings to government.",
+      "fact": "Recommended contractual offer announced 29 May 2024 and declared unconditional 30 April 2025. EP Group subsequently confirmed completion in 2025. The government deed and NSI order impose distinct safeguards.",
+      "analysis": "The target combines UK postal services and international parcel operations. The government golden share reserves consent rights over specified matters rather than a conventional economic interest. A buyer must distinguish commercially negotiated conditions, statutory national-security protections and contractual undertakings to government. The 370p shareholder value includes 10p dividends; using it as the bidder cash price overstates the cash component.",
       "legalWork": "Map offer acceptance and compulsory acquisition mechanics, separate NSI conditions from negotiated commitments, review regulated postal obligations and workforce arrangements.",
       "interview": "How does a golden share differ from an ordinary equity share and from a statutory regulatory condition?",
       "watch": "Monitor fulfilment of government commitments and future changes to Royal Mail operations.",
-      "financing": "Detailed acquisition financing not yet established.",
+      "financing": "Offer Part 1 §13 describes new EP equity and underwritten interim debt arranged by BNP Paribas, Citibank London, Société Générale London, UniCredit Bank GmbH and UniCredit Bank Czech Republic and Slovakia. J.P. Morgan confirmed sufficient cash resources; actual drawdowns not yet reconciled.",
       "regulatory": "The 19 December 2024 final order is under section 26 NSI Act 2021; the 16 December government commitments are distinct.",
       "factSources": [
-        "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/recommended-cash-offer-for-ids-plc/8227019",
-        "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/declaration-of-the-special-dividend/8855268",
+        "https://idsoffer.shareview.info/docs/Offer_Document.pdf",
+        "https://idsoffer.shareview.info/docs/offer_declared_unconditional.pdf",
         "https://www.gov.uk/government/news/royal-mail-remains-based-in-uk-in-deal-to-bolster-key-services",
         "https://www.gov.uk/government/publications/acquisition-of-international-distribution-services-plc-by-ep-uk-bidco-limited-notice-of-final-order/acquisition-of-international-distribution-services-plc-by-ep-uk-bidco-limited-notice-of-final-order",
-        "https://www.investegate.co.uk/announcement/rns/international-distributions-services--ids/closure-of-the-offer-and-compulsory-acquisition-/8899272"
+        "https://epgroup.eu/en/press-releases/the-ep-group-reported-exceptional-growth-in-2025",
+        "https://data.parliament.uk/DepositedPapers/Files/DEP2024-0823/2024-12-16-HMG_DBT_Deed_of_Undertaking.pdf"
       ],
       "values": [
         {
-          "label": "Special dividend declared after offer unconditional",
+          "label": "Fully diluted equity value including dividends",
+          "amount": "Approx. £3.587bn",
+          "numericAmount": 3587000000,
+          "basis": "equity-value",
+          "source": "https://data.parliament.uk/DepositedPapers/Files/DEP2024-0823/2024-12-16-HMG_DBT_Deed_of_Undertaking.pdf",
+          "currency": "GBP",
+          "unit": "currency",
+          "disclosure": "approximate"
+        },
+        {
+          "label": "Implied enterprise value",
+          "amount": "£5.303bn",
+          "numericAmount": 5303000000,
+          "basis": "enterprise-value",
+          "source": "https://data.parliament.uk/DepositedPapers/Files/DEP2024-0823/2024-12-16-HMG_DBT_Deed_of_Undertaking.pdf",
+          "currency": "GBP",
+          "unit": "currency",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Cash offer per share",
+          "amount": "360p",
+          "numericAmount": 3.6,
+          "basis": "cash-per-share",
+          "source": "https://data.parliament.uk/DepositedPapers/Files/DEP2024-0823/2024-12-16-HMG_DBT_Deed_of_Undertaking.pdf",
+          "currency": "GBP",
+          "unit": "currency-per-share",
+          "disclosure": "stated"
+        },
+        {
+          "label": "FY2024 final dividend per share",
+          "amount": "2p",
+          "numericAmount": 0.02,
+          "basis": "dividend-per-share",
+          "source": "https://data.parliament.uk/DepositedPapers/Files/DEP2024-0823/2024-12-16-HMG_DBT_Deed_of_Undertaking.pdf",
+          "currency": "GBP",
+          "unit": "currency-per-share",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Special dividend per share in offer",
           "amount": "8p",
           "numericAmount": 0.08,
           "basis": "dividend-per-share",
-          "source": "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/declaration-of-the-special-dividend/8855268",
+          "source": "https://data.parliament.uk/DepositedPapers/Files/DEP2024-0823/2024-12-16-HMG_DBT_Deed_of_Undertaking.pdf",
           "currency": "GBP",
           "unit": "currency-per-share",
           "disclosure": "stated"
@@ -8868,15 +9028,20 @@
           "firm": "Slaughter and May",
           "firmId": "slaughter-may",
           "client": "International Distribution Services",
-          "scope": "Foreign investment and merger control",
-          "source": "https://www.slaughterandmay.com/services/practices/foreign-investment-and-national-security/"
+          "scope": "Target corporate, competition/FDI, employment, pensions, financing, financial regulation and tax",
+          "source": "https://www.slaughterandmay.com/recent-work/ids-on-its-3-5billion-recommended-all-cash-offer-by-ep-group/"
         }
       ],
       "timeline": [
         {
           "date": "2024-05-29",
           "event": "Recommended offer announced",
-          "source": "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/recommended-cash-offer-for-ids-plc/8227019"
+          "source": "https://idsoffer.shareview.info/docs/Offer_Document.pdf"
+        },
+        {
+          "date": "2024-06-26",
+          "event": "Offer document published",
+          "source": "https://idsoffer.shareview.info/docs/Offer_Document.pdf"
         },
         {
           "date": "2024-12-16",
@@ -8890,8 +9055,8 @@
         },
         {
           "date": "2025-04-30",
-          "event": "Offer unconditional; special dividend declared",
-          "source": "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/declaration-of-the-special-dividend/8855268"
+          "event": "Offer declared unconditional",
+          "source": "https://idsoffer.shareview.info/docs/offer_declared_unconditional.pdf"
         }
       ],
       "verifiedOn": "2026-11-24",
@@ -8901,22 +9066,22 @@
         "claims": [
           {
             "heading": "Offer lifecycle",
-            "text": "The bidder's offer excluded existing VESA-controlled shares. The 30 April issuer announcement establishes unconditional status and declaration of the special dividend, while the later notice addresses offer closure and compulsory acquisition.",
+            "text": "The offer excludes VESA-controlled shares. Bidco declared it unconditional on 30 April; EP Group later confirmed the acquisition completed in 2025. Final settlement and compulsory acquisition dates require further review.",
             "evidence": [
               {
-                "publisher": "IDS and EP UK Bidco",
-                "url": "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/recommended-cash-offer-for-ids-plc/8227019",
-                "locator": "29 May 2024 recommended offer"
+                "publisher": "EP UK Bidco offer document",
+                "url": "https://idsoffer.shareview.info/docs/Offer_Document.pdf",
+                "locator": "26 June 2024; Part 1 §§2 and 13; Part 2"
               },
               {
-                "publisher": "IDS issuer announcement",
-                "url": "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/declaration-of-the-special-dividend/8855268",
-                "locator": "30 April 2025 unconditional offer and dividend"
+                "publisher": "EP UK Bidco",
+                "url": "https://idsoffer.shareview.info/docs/offer_declared_unconditional.pdf",
+                "locator": "30 April 2025 unconditional announcement"
               },
               {
-                "publisher": "IDS issuer announcement",
-                "url": "https://www.investegate.co.uk/announcement/rns/international-distributions-services--ids/closure-of-the-offer-and-compulsory-acquisition-/8899272",
-                "locator": "Closure and compulsory acquisition"
+                "publisher": "EP Group",
+                "url": "https://epgroup.eu/en/press-releases/the-ep-group-reported-exceptional-growth-in-2025",
+                "locator": "2025 results; acquisition completed"
               }
             ],
             "qualification": "documented"
@@ -8940,12 +9105,17 @@
           },
           {
             "heading": "Adviser attribution",
-            "text": "Slaughter and May identifies IDS as its client for foreign investment and merger control, not necessarily lead corporate advice.",
+            "text": "Slaughter and May's practice page identifies its foreign investment and merger control role; its deal announcement separately confirms broader corporate and specialist advice.",
             "evidence": [
               {
                 "publisher": "Slaughter and May",
                 "url": "https://www.slaughterandmay.com/services/practices/foreign-investment-and-national-security/",
                 "locator": "Representative matter: IDS foreign investment and merger control"
+              },
+              {
+                "publisher": "Slaughter and May",
+                "url": "https://www.slaughterandmay.com/recent-work/ids-on-its-3-5billion-recommended-all-cash-offer-by-ep-group/",
+                "locator": "29 May 2024 mandate and teams"
               }
             ],
             "qualification": "documented"
@@ -8955,14 +9125,55 @@
             "text": "The deal involves a holding company with Royal Mail and GLS; commitments protecting UK postal operations should not be treated as identical to controls over the entire international parcel business.",
             "evidence": [
               {
-                "publisher": "IDS and EP UK Bidco",
-                "url": "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/recommended-cash-offer-for-ids-plc/8227019",
-                "locator": "29 May 2024 recommended offer"
+                "publisher": "EP UK Bidco offer document",
+                "url": "https://idsoffer.shareview.info/docs/Offer_Document.pdf",
+                "locator": "26 June 2024; Part 1 §§2 and 13; Part 2"
               },
               {
                 "publisher": "UK Government",
                 "url": "https://www.gov.uk/government/news/royal-mail-remains-based-in-uk-in-deal-to-bolster-key-services",
                 "locator": "16 December 2024 binding commitments and golden share"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Offer valuation and consideration",
+            "text": "The executed deed records 370p total per share, comprising 360p bidder cash and dividends of 2p and 8p. The fully diluted equity value is £3.587bn; implied EV is £5.303bn. Neither is the actual cash required to buy shares not already held by VESA.",
+            "evidence": [
+              {
+                "publisher": "EP UK Bidco / UK Government deed",
+                "url": "https://data.parliament.uk/DepositedPapers/Files/DEP2024-0823/2024-12-16-HMG_DBT_Deed_of_Undertaking.pdf",
+                "locator": "16 December 2024; recitals A–E"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Acquisition finance and independent financial advice",
+            "text": "The formal offer identifies sponsor equity, interim facilities and a cash confirmation from J.P. Morgan. Barclays, BofA and Goldman Sachs advised the target directors under Rule 3.",
+            "evidence": [
+              {
+                "publisher": "EP UK Bidco offer document",
+                "url": "https://idsoffer.shareview.info/docs/Offer_Document.pdf",
+                "locator": "26 June 2024; Part 1 §§2 and 13; Part 2"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Government commitments versus Code undertakings",
+            "text": "The signed deed expressly distinguishes its commitments to the Secretary of State from Rule 19.5 post-offer undertakings. The NSI final order is a separate statutory instrument.",
+            "evidence": [
+              {
+                "publisher": "EP UK Bidco / UK Government deed",
+                "url": "https://data.parliament.uk/DepositedPapers/Files/DEP2024-0823/2024-12-16-HMG_DBT_Deed_of_Undertaking.pdf",
+                "locator": "16 December 2024; recitals A–E"
+              },
+              {
+                "publisher": "UK Government",
+                "url": "https://www.gov.uk/government/publications/acquisition-of-international-distribution-services-plc-by-ep-uk-bidco-limited-notice-of-final-order/acquisition-of-international-distribution-services-plc-by-ep-uk-bidco-limited-notice-of-final-order",
+                "locator": "19 December NSI final order"
               }
             ],
             "qualification": "documented"
@@ -8996,14 +9207,14 @@
         ],
         "documents": [
           {
-            "title": "IDS and EP UK Bidco",
-            "url": "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/recommended-cash-offer-for-ids-plc/8227019",
-            "purpose": "29 May 2024 recommended offer"
+            "title": "EP UK Bidco offer document",
+            "url": "https://idsoffer.shareview.info/docs/Offer_Document.pdf",
+            "purpose": "26 June 2024; Part 1 §§2 and 13; Part 2"
           },
           {
-            "title": "IDS issuer announcement",
-            "url": "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/declaration-of-the-special-dividend/8855268",
-            "purpose": "30 April 2025 unconditional offer and dividend"
+            "title": "EP UK Bidco",
+            "url": "https://idsoffer.shareview.info/docs/offer_declared_unconditional.pdf",
+            "purpose": "30 April 2025 unconditional announcement"
           },
           {
             "title": "UK Government",
@@ -9016,24 +9227,35 @@
             "purpose": "19 December NSI final order"
           },
           {
-            "title": "IDS issuer announcement",
-            "url": "https://www.investegate.co.uk/announcement/rns/international-distributions-services--ids/closure-of-the-offer-and-compulsory-acquisition-/8899272",
-            "purpose": "Closure and compulsory acquisition"
+            "title": "EP Group",
+            "url": "https://epgroup.eu/en/press-releases/the-ep-group-reported-exceptional-growth-in-2025",
+            "purpose": "2025 results; acquisition completed"
           },
           {
             "title": "Slaughter and May",
             "url": "https://www.slaughterandmay.com/services/practices/foreign-investment-and-national-security/",
             "purpose": "Representative matter: IDS foreign investment and merger control"
+          },
+          {
+            "title": "EP UK Bidco / UK Government deed",
+            "url": "https://data.parliament.uk/DepositedPapers/Files/DEP2024-0823/2024-12-16-HMG_DBT_Deed_of_Undertaking.pdf",
+            "purpose": "16 December 2024; recitals A–E"
+          },
+          {
+            "title": "Slaughter and May",
+            "url": "https://www.slaughterandmay.com/recent-work/ids-on-its-3-5billion-recommended-all-cash-offer-by-ep-group/",
+            "purpose": "29 May 2024 mandate and teams"
           }
         ],
         "openQuestions": [
-          "Full offer price and enterprise-value bridge, actual settlement and compulsory-acquisition dates, funding and all other counsel mandates remain for full document review."
+          "Actual financing and settlement amounts, compulsory acquisition date, bidder and lender counsel, and compliance with government commitments."
         ],
         "relatedDeals": [
           "nationwide-virgin",
           "harp-hargreaves-lansdown"
         ]
-      }
+      },
+      "financialAdvisers": "J.P. Morgan for Bidco; Barclays, BofA Securities and Goldman Sachs providing Rule 3 advice to IDS directors."
     }
   ],
   "lessons": [

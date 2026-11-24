@@ -670,6 +670,38 @@
       "commercialGate": "not-certified"
     },
     {
+      "id": "uk-logistics-cmbs",
+      "title": "UK Logistics 2026-3 / £603m CMBS",
+      "type": "Debt capital markets",
+      "status": "Securitisation completed (mandate disclosure)",
+      "sourceUrls": 3,
+      "distinctHosts": 3,
+      "independentOrigins": null,
+      "claims": 3,
+      "advisers": 1,
+      "financialValues": 2,
+      "announcementDate": null,
+      "eventSourceLinks": 3,
+      "structuralErrors": [],
+      "priority": 2,
+      "researchLeads": [
+        "https://www.cliffordchance.com/news/news/2026/10/clifford-chance-advises-deutsche-bank-and-standard-chartered-on-603-million-uk-logistics-cmbs.html",
+        "https://www.kbra.com/publications/mMNVTBgB/kbra-assigns-preliminary-ratings-to-uk-logistics-2026-3-dac?format=web",
+        "https://www.spglobal.com/ratings/de/regulatory/article/-/view/type/HTML/id/3593104"
+      ],
+      "openQuestions": [
+        "July is earliest established public ratings disclosure, not a confirmed formal announcement or closing date; final offering circular, tranche terms and final ratings not yet reviewed."
+      ],
+      "tasks": [
+        "Establish announcement date rather than regulator milestone",
+        "Review issue or facility documents, maturity, security and arrangers",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
       "id": "adobe-figma",
       "title": "Adobe / Figma",
       "type": "Cross-border M&A",
@@ -781,9 +813,9 @@
       "sourceUrls": 6,
       "distinctHosts": 4,
       "independentOrigins": null,
-      "claims": 4,
+      "claims": 5,
       "advisers": 1,
-      "financialValues": 3,
+      "financialValues": 6,
       "announcementDate": "2026-06-01",
       "eventSourceLinks": 3,
       "structuralErrors": [],
@@ -797,10 +829,9 @@
         "https://www.lse.co.uk/rns/DRX/acquisition-of-bluefield-services-ltd-1o7abi4tld9xhqm.html"
       ],
       "openQuestions": [
-        "Full scheme price/dividend bridge, bidder and specialist counsel, funding and detailed project liabilities need review."
+        "Full scheme price/dividend bridge, bidder and specialist counsel, detailed facility terms and project liabilities."
       ],
       "tasks": [
-        "Investigate funding and document non-disclosure",
         "Review firm offer, conditions, votes, sanction and effective date",
         "Review each material claim, original source, independence and current status"
       ],
@@ -812,27 +843,29 @@
       "id": "ep-ids-royal-mail",
       "title": "EP Group / International Distribution Services (Royal Mail)",
       "type": "Public M&A",
-      "status": "Offer unconditional; subsequent compulsory acquisition announced",
-      "sourceUrls": 6,
-      "distinctHosts": 3,
+      "status": "Completed; offer declared unconditional 30 April 2025",
+      "sourceUrls": 8,
+      "distinctHosts": 5,
       "independentOrigins": null,
-      "claims": 4,
+      "claims": 7,
       "advisers": 1,
-      "financialValues": 1,
+      "financialValues": 5,
       "announcementDate": "2024-05-29",
-      "eventSourceLinks": 5,
+      "eventSourceLinks": 6,
       "structuralErrors": [],
       "priority": 0,
       "researchLeads": [
-        "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/recommended-cash-offer-for-ids-plc/8227019",
-        "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/declaration-of-the-special-dividend/8855268",
         "https://www.gov.uk/government/news/royal-mail-remains-based-in-uk-in-deal-to-bolster-key-services",
         "https://www.gov.uk/government/publications/acquisition-of-international-distribution-services-plc-by-ep-uk-bidco-limited-notice-of-final-order/acquisition-of-international-distribution-services-plc-by-ep-uk-bidco-limited-notice-of-final-order",
-        "https://www.investegate.co.uk/announcement/rns/international-distributions-services--ids/closure-of-the-offer-and-compulsory-acquisition-/8899272",
-        "https://www.slaughterandmay.com/services/practices/foreign-investment-and-national-security/"
+        "https://www.slaughterandmay.com/services/practices/foreign-investment-and-national-security/",
+        "https://idsoffer.shareview.info/docs/Offer_Document.pdf",
+        "https://idsoffer.shareview.info/docs/offer_declared_unconditional.pdf",
+        "https://epgroup.eu/en/press-releases/the-ep-group-reported-exceptional-growth-in-2025",
+        "https://data.parliament.uk/DepositedPapers/Files/DEP2024-0823/2024-12-16-HMG_DBT_Deed_of_Undertaking.pdf",
+        "https://www.slaughterandmay.com/recent-work/ids-on-its-3-5billion-recommended-all-cash-offer-by-ep-group/"
       ],
       "openQuestions": [
-        "Full offer price and enterprise-value bridge, actual settlement and compulsory-acquisition dates, funding and all other counsel mandates remain for full document review."
+        "Actual financing and settlement amounts, compulsory acquisition date, bidder and lender counsel, and compliance with government commitments."
       ],
       "tasks": [
         "Review firm offer, conditions, votes, sanction and effective date",
@@ -920,22 +953,22 @@
       "sourceUrls": 5,
       "distinctHosts": 5,
       "independentOrigins": null,
-      "claims": 4,
+      "claims": 6,
       "advisers": 3,
-      "financialValues": 1,
+      "financialValues": 5,
       "announcementDate": "2024-08-09",
       "eventSourceLinks": 3,
       "structuralErrors": [],
       "priority": 0,
       "researchLeads": [
-        "https://www.investegate.co.uk/announcement/rns/hargreaves-lansdown--hl./offer-for-hargreaves-lansdown-plc/8358252",
         "https://www.lse.co.uk/rns/de-listing-and-cancellation-of-trading-2a5rjzmp1h5wajb.html",
         "https://www.nordiccapital.com/insights/press-releases/cvc-nordic-capital-and-adia-complete-acquisition-of-hargreaves-lansdown-to-accelerate-and-enhance-its-transformation-plan-and-deliver-on-its-growth-potential/",
         "https://www.kirkland.com/news/press-release/2024/08/kirkland-advises-consortium-of-cvc-pef-nc-and-adia-on-recommended-cash-acquisition-of-hl",
-        "https://www.freshfields.com/en/our-thinking/news/news-search/2024/08/freshfields-advises-hargreaves-lansdown-on-recommended-final-cash-acquisition-by-a-consortium-comprised-of-cvc-private-equity-funds-nordic-capital-xi-delta-scsp-acting-through-its-general-partner-nordic-capital-xi-delta-gp-sarl-and-platinum-ivy-b-201"
+        "https://www.freshfields.com/en/our-thinking/news/news-search/2024/08/freshfields-advises-hargreaves-lansdown-on-recommended-final-cash-acquisition-by-a-consortium-comprised-of-cvc-private-equity-funds-nordic-capital-xi-delta-scsp-acting-through-its-general-partner-nordic-capital-xi-delta-gp-sarl-and-platinum-ivy-b-201",
+        "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000103868/NI-000103868.pdf"
       ],
       "openQuestions": [
-        "Exact cash/dividend bridge, rollover cap and actual elections, debt funding and individual regulatory approvals require further document review."
+        "Actual drawdowns, equity syndication, rollover allocation, individual regulatory approvals and post-completion financial performance."
       ],
       "tasks": [
         "Review sponsor, ownership, financing and exit terms",
@@ -1361,37 +1394,6 @@
       "commercialGate": "not-certified"
     },
     {
-      "id": "uk-logistics-cmbs",
-      "title": "UK Logistics 2026-3 / £603m CMBS",
-      "type": "Debt capital markets",
-      "status": "Securitisation completed (mandate disclosure)",
-      "sourceUrls": 3,
-      "distinctHosts": 3,
-      "independentOrigins": null,
-      "claims": 3,
-      "advisers": 1,
-      "financialValues": 2,
-      "announcementDate": "2026-07-10",
-      "eventSourceLinks": 3,
-      "structuralErrors": [],
-      "priority": 0,
-      "researchLeads": [
-        "https://www.cliffordchance.com/news/news/2026/10/clifford-chance-advises-deutsche-bank-and-standard-chartered-on-603-million-uk-logistics-cmbs.html",
-        "https://www.kbra.com/publications/mMNVTBgB/kbra-assigns-preliminary-ratings-to-uk-logistics-2026-3-dac?format=web",
-        "https://www.spglobal.com/ratings/de/regulatory/article/-/view/type/HTML/id/3593104"
-      ],
-      "openQuestions": [
-        "July is earliest established public ratings disclosure, not a confirmed formal announcement or closing date; final offering circular, tranche terms and final ratings not yet reviewed."
-      ],
-      "tasks": [
-        "Review issue or facility documents, maturity, security and arrangers",
-        "Review each material claim, original source, independence and current status"
-      ],
-      "qualityScore": null,
-      "reviewState": "structural-screen-complete; independent claim audit pending",
-      "commercialGate": "not-certified"
-    },
-    {
       "id": "vodafone-three",
       "title": "Vodafone UK / Three UK",
       "type": "Joint venture / merger",
@@ -1432,11 +1434,11 @@
     "singleSource": 0,
     "missingAdvisers": 3,
     "missingValues": 11,
-    "missingAnnouncement": 6,
+    "missingAnnouncement": 7,
     "missingEventEvidence": 5,
-    "sourceReferences": 183,
+    "sourceReferences": 185,
     "adviserAssociations": 67,
-    "findings": 119,
+    "findings": 125,
     "structuralErrors": 0
   }
 }
