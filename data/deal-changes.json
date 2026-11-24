@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-11-24T08:38:44.036Z",
+  "updatedAt": "2026-11-24T08:56:49.433Z",
   "events": [
+    {
+      "id": "NSE-rss-b702b02c3694e7c458ad86",
+      "headline": "AXISCADES Technologies Limited",
+      "date": "2026-11-24T08:56:49.431Z",
+      "kind": "record-added",
+      "changes": [
+        "New transaction record published"
+      ]
+    },
+    {
+      "id": "NSE-rss-92ff2a6c5dea6741b83a89",
+      "headline": "AXISCADES Technologies Limited",
+      "date": "2026-11-24T08:56:49.431Z",
+      "kind": "record-added",
+      "changes": [
+        "New transaction record published"
+      ]
+    },
     {
       "id": "NSE-rss-3bde51824082579db670bc",
       "headline": "Kalpataru Limited",

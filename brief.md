@@ -1,32 +1,23 @@
 # Corporate Law Tracker - Daily Brief
 _24 November 2026_
 
-3 new development(s).
+2 new development(s).
 
-### Kalpataru Limited
+### AXISCADES Technologies Limited
 **MA** · India · ✓ Verified
 
-Kalpataru Limited - Kalpataru Limited has informed the Exchange about the receipt of Regional Director confirmation Order for the Scheme of Arrangement (Merger by Absorption) of Kalpataru Hills Residency Private Limited, a step-down…
+AXISCADES Technologies Limited - AXISCADES Technologies Limited has informed the Exchange regarding Acquisition of to be incorporated companies |SUBJECT: Acquisition of 'to be incorporated companies'-XBRL
 
-[Open source ↗](https://nsearchives.nseindia.com/corporate/ravi_sah_24112026131637_Reg_30_disclosure_-_RD_order_for_merger_of_K_Hills.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/xbrl/REG30_Restructuring_1939_WebXMLFile_20261124_141750939.xml)
 
 ---
 
-### Kalpataru Ltd (544423)
+### AXISCADES Technologies Limited
 **MA** · India · ✓ Verified
 
-Kalpataru Ltd (544423) - Intimation regarding the receipt of Regional Director Confirmation Order for the Scheme of Arrangement (Merger by Absorption) of Kalpataru Hills Residency Private Limited, step down wholly-owned subsidiary, with…
+AXISCADES Technologies Limited - AXISCADES Technologies Limited has informed the Exchange about Acquisition |SUBJECT: Acquisition
 
-[Open source ↗](https://www.bseindia.com/xml-data/corpfiling/AttachLive/3cf67013-e76e-47ca-97d9-21e188a9b6a2.pdf)
-
----
-
-### Dachepalli Publishers Ltd (544667)
-**MA** · India · ✓ Verified
-
-Dachepalli Publishers Ltd (544667) - Pursuant to Regulation 30 read with Para A of Schedule III of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, we would like to inform you that the meeting of the Board of…
-
-[Open source ↗](https://www.bseindia.com/xml-data/corpfiling/AttachLive/a6bfee6a-b52a-406a-bf64-e398b65d2852.pdf)
+[Open source ↗](https://nsearchives.nseindia.com/corporate/AXISCADES_24112026141426_IncorporationUSA24112026.pdf)
 
 ---
 

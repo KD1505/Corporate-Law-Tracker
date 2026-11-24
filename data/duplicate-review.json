@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T08:38:41.496Z",
+  "generatedAt": "2026-11-24T08:56:47.418Z",
   "groups": [
     {
       "headlineKey": "sammaan capital limited updates",
@@ -4665,6 +4665,40 @@
           "time": "17 Jun 2026",
           "kind": "disclosure",
           "source": "https://nsearchives.nseindia.com/corporate/team_sandeshc_16062026113311_48.pdf"
+        }
+      ]
+    },
+    {
+      "headlineKey": "axiscades technologies limited",
+      "count": 4,
+      "entries": [
+        {
+          "id": "NSE-rss-b702b02c3694e7c458ad86",
+          "headline": "AXISCADES Technologies Limited",
+          "time": "24 Nov 2026",
+          "kind": "deal",
+          "source": "https://nsearchives.nseindia.com/corporate/xbrl/REG30_Restructuring_1939_WebXMLFile_20261124_141750939.xml"
+        },
+        {
+          "id": "NSE-rss-92ff2a6c5dea6741b83a89",
+          "headline": "AXISCADES Technologies Limited",
+          "time": "24 Nov 2026",
+          "kind": "deal",
+          "source": "https://nsearchives.nseindia.com/corporate/AXISCADES_24112026141426_IncorporationUSA24112026.pdf"
+        },
+        {
+          "id": "NSE-rss-d8fd6566efa7822de5d8da",
+          "headline": "AXISCADES Technologies Limited",
+          "time": "24 Nov 2026",
+          "kind": "deal",
+          "source": "https://nsearchives.nseindia.com/corporate/xbrl/REG30_Restructuring_1939_WebXMLFile_20261124_095630992.xml"
+        },
+        {
+          "id": "NSE-rss-e09fc77bc67b9ade3449db",
+          "headline": "AXISCADES Technologies Limited",
+          "time": "24 Nov 2026",
+          "kind": "deal",
+          "source": "https://nsearchives.nseindia.com/corporate/AXISCADES_24112026095411_IncorporationUK24112026.pdf"
         }
       ]
     },
@@ -9375,26 +9409,6 @@
           "time": "11 Jun 2026",
           "kind": "deal",
           "source": "https://nsearchives.nseindia.com/corporate/team_bbodade_11062026153732_ARCHIDPLY.pdf"
-        }
-      ]
-    },
-    {
-      "headlineKey": "axiscades technologies limited",
-      "count": 2,
-      "entries": [
-        {
-          "id": "NSE-rss-d8fd6566efa7822de5d8da",
-          "headline": "AXISCADES Technologies Limited",
-          "time": "24 Nov 2026",
-          "kind": "deal",
-          "source": "https://nsearchives.nseindia.com/corporate/xbrl/REG30_Restructuring_1939_WebXMLFile_20261124_095630992.xml"
-        },
-        {
-          "id": "NSE-rss-e09fc77bc67b9ade3449db",
-          "headline": "AXISCADES Technologies Limited",
-          "time": "24 Nov 2026",
-          "kind": "deal",
-          "source": "https://nsearchives.nseindia.com/corporate/AXISCADES_24112026095411_IncorporationUK24112026.pdf"
         }
       ]
     },
