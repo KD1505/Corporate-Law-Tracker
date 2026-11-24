@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "editorialAsOf": "2026-11-24",
   "records": [
     {
@@ -2229,7 +2229,7 @@
       "jurisdiction": "UK",
       "category": "Regulation",
       "title": "Employment Rights Act implementation: 2027 changes",
-      "eventDate": "2026-11-24",
+      "eventDate": "2026-11-05",
       "verifiedOn": "2026-11-24",
       "sector": "Employment",
       "status": "Implementation timetable; prospective measures",
@@ -2240,6 +2240,10 @@
         {
           "name": "Government implementation timetable",
           "url": "https://www.gov.uk/government/publications/implementing-the-plan-to-make-work-pay-and-employment-rights-act/plan-to-make-work-pay-and-employment-rights-act-timeline-update"
+        },
+        {
+          "name": "Government Act overview, updated 23 November",
+          "url": "https://www.gov.uk/government/publications/employment-rights-bill-factsheets/employment-rights-act-2025-overview"
         }
       ],
       "related": [
@@ -2277,7 +2281,7 @@
       "verifiedOn": "2026-11-24",
       "sector": "Market statistics",
       "status": "Published statistical bulletin",
-      "fact": "The ONS published its April–June 2026 UK M&A bulletin on 1 September. The official series covers qualifying changes of ultimate control of £1m or more, not every financing, minority investment or announced offer.",
+      "fact": "The ONS published its April–June 2026 UK M&A bulletin on 1 September. Provisional completed-control transaction values were £25.4bn inward, £2.7bn outward and £4.2bn domestic. The official series covers qualifying changes of ultimate control of £1m or more, not every financing, minority investment or announced offer.",
       "analysis": "A database of announced transactions and financing mandates cannot be compared directly with a completed-control acquisition series. Deal value trends can be dominated by a few unusually large transactions; check counts, direction of investment and revision notes separately.",
       "watch": "Next ONS quarterly release scheduled 1 December 2026; check publication calendar.",
       "sources": [
@@ -2289,6 +2293,186 @@
       "related": [
         "valuation",
         "market-methodology"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "id": "adobe-figma",
+      "title": "Adobe / Figma",
+      "eventDate": "2023-12-18",
+      "status": "Abandoned / agreement terminated",
+      "sector": "Design software",
+      "dealType": "Cross-border M&A",
+      "parties": [
+        [
+          "Proposed buyer",
+          "Adobe Inc."
+        ],
+        [
+          "Target",
+          "Figma, Inc."
+        ]
+      ],
+      "structure": "Proposed cash-and-stock acquisition; subsequently terminated.",
+      "fact": "Adobe and Figma agreed to terminate their merger agreement on 18 December 2023 after concluding that required regulatory approvals lacked a clear path. The CMA cancelled its inquiry. No acquisition completed.",
+      "values": [
+        {
+          "label": "Proposed transaction value (not completed consideration)",
+          "amount": "US$20bn",
+          "source": "https://www.gov.uk/government/publications/cma-annual-report-and-accounts-2023-to-2024/annual-report-and-accounts-2023-to-2024"
+        }
+      ],
+      "regulatory": "CMA Phase 2 investigation cancelled following abandonment; cancellation is not a final prohibition decision.",
+      "timeline": [
+        {
+          "date": "2023-12-18",
+          "event": "Merger agreement terminated",
+          "source": "https://news.adobe.com/news/news-details/2023/adobe-and-figma-mutually-agree-to-terminate-merger-agreement"
+        },
+        {
+          "date": "2023-12-18",
+          "event": "CMA cancelled inquiry",
+          "source": "https://www.gov.uk/cma-cases/adobe-slash-figma-merger-inquiry"
+        }
+      ],
+      "analysis": "The case illustrates execution risk in acquisitions of innovative competitors. Even a signed agreement can fail if approvals cannot be obtained. Deal costs, opportunity costs and termination provisions matter to the parties' expected return.",
+      "legalWork": "Negotiate regulatory efforts, termination rights, outside dates and any reverse break fee; preserve independent operation while closing remains conditional. Model the buyer's exposure if the acquisition is abandoned.",
+      "interview": "How should a buyer allocate the risk that regulatory approvals cannot be obtained?",
+      "watch": "Historical precedent; the proposed merger is not pending.",
+      "sources": [
+        {
+          "name": "CMA case",
+          "url": "https://www.gov.uk/cma-cases/adobe-slash-figma-merger-inquiry"
+        },
+        {
+          "name": "Adobe termination announcement",
+          "url": "https://news.adobe.com/news/news-details/2023/adobe-and-figma-mutually-agree-to-terminate-merger-agreement"
+        },
+        {
+          "name": "CMA annual report",
+          "url": "https://www.gov.uk/government/publications/cma-annual-report-and-accounts-2023-to-2024/annual-report-and-accounts-2023-to-2024"
+        }
+      ],
+      "related": [
+        "merger-control",
+        "contract-remedies"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "id": "broadcom-vmware",
+      "title": "Broadcom / VMware",
+      "eventDate": "2023-11-22",
+      "status": "Completed",
+      "sector": "Enterprise software",
+      "dealType": "Cross-border M&A",
+      "parties": [
+        [
+          "Buyer",
+          "Broadcom Inc."
+        ],
+        [
+          "Target",
+          "VMware, Inc."
+        ]
+      ],
+      "structure": "Cross-border acquisition involving stockholder consideration elections.",
+      "fact": "The CMA referred the proposed transaction for in-depth investigation in March 2023. Broadcom subsequently confirmed completion on 22 November 2023.",
+      "regulatory": "UK Phase 2 review took place; consult the CMA case for the detailed decision and other jurisdictions' separate processes.",
+      "timeline": [
+        {
+          "date": "2023-03-29",
+          "event": "CMA Phase 2 referral",
+          "source": "https://www.gov.uk/cma-cases/broadcom-slash-vmware-merger-inquiry"
+        },
+        {
+          "date": "2023-11-22",
+          "event": "Buyer confirmed completion",
+          "source": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-completes-acquisition-vmware"
+        }
+      ],
+      "analysis": "Infrastructure software and semiconductor businesses can have complementary products but also interoperability dependencies. Transaction analysis should distinguish actual foreclosure incentives from general market concentration.",
+      "legalWork": "Review software and hardware interoperability evidence, customer contracts, consideration elections and multi-jurisdiction approvals; prepare integration under the final regulatory conditions.",
+      "interview": "Why might an authority investigate a combination of firms that do not principally sell the same products?",
+      "watch": "Historical completion; check subsequent company disclosures for integration developments.",
+      "sources": [
+        {
+          "name": "CMA case",
+          "url": "https://www.gov.uk/cma-cases/broadcom-slash-vmware-merger-inquiry"
+        },
+        {
+          "name": "Broadcom completion",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-completes-acquisition-vmware"
+        }
+      ],
+      "related": [
+        "merger-control",
+        "data-ip"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "id": "hpe-juniper",
+      "title": "Hewlett Packard Enterprise / Juniper Networks",
+      "eventDate": "2025-07-02",
+      "announcedOn": "2024-01-09",
+      "status": "Completed",
+      "sector": "Network infrastructure",
+      "dealType": "Cross-border M&A",
+      "parties": [
+        [
+          "Buyer",
+          "Hewlett Packard Enterprise Company"
+        ],
+        [
+          "Target",
+          "Juniper Networks, Inc."
+        ]
+      ],
+      "structure": "Cross-border network technology acquisition.",
+      "fact": "HPE confirmed closing on 2 July 2025. It states the acquisition was announced on 9 January 2024 and approved by Juniper shareholders on 2 April 2024. The CMA case records UK clearance.",
+      "regulatory": "The UK cleared the acquisition; other authorities' outcomes should be established separately.",
+      "timeline": [
+        {
+          "date": "2024-01-09",
+          "event": "Acquisition announced",
+          "source": "https://www.hpe.com/us/en/newsroom/press-release/2025/07/hewlett-packard-enterprise-closes-acquisition-of-juniper-networks-to-offer-industry-leading-comprehensive-cloud-native-ai-driven-portfolio.html"
+        },
+        {
+          "date": "2024-04-02",
+          "event": "Target shareholder approval",
+          "source": "https://www.hpe.com/us/en/newsroom/press-release/2025/07/hewlett-packard-enterprise-closes-acquisition-of-juniper-networks-to-offer-industry-leading-comprehensive-cloud-native-ai-driven-portfolio.html"
+        },
+        {
+          "date": "2025-07-02",
+          "event": "Completion confirmed",
+          "source": "https://www.hpe.com/us/en/newsroom/press-release/2025/07/hewlett-packard-enterprise-closes-acquisition-of-juniper-networks-to-offer-industry-leading-comprehensive-cloud-native-ai-driven-portfolio.html"
+        }
+      ],
+      "analysis": "Combining enterprise networking products may broaden the buyer's offering but creates integration, support and customer migration challenges. A regulatory clearance in one market does not guarantee completion.",
+      "legalWork": "Diligence enterprise contracts, software rights, supply chain and customer support obligations. Coordinate deal conditions, cross-border regulatory timelines and integration planning.",
+      "interview": "Why should a cross-border acquisition model maintain separate approval workstreams even after UK clearance?",
+      "watch": "Historical completed deal; monitor public integration disclosures.",
+      "sources": [
+        {
+          "name": "CMA case",
+          "url": "https://www.gov.uk/cma-cases/hewlett-packard-enterprise-company-slash-juniper-networks-inc-merger-inquiry"
+        },
+        {
+          "name": "HPE completion",
+          "url": "https://www.hpe.com/us/en/newsroom/press-release/2025/07/hewlett-packard-enterprise-closes-acquisition-of-juniper-networks-to-offer-industry-leading-comprehensive-cloud-native-ai-driven-portfolio.html"
+        }
+      ],
+      "related": [
+        "merger-control",
+        "data-ip",
+        "due-diligence"
       ]
     }
   ],
@@ -2853,5 +3037,25 @@
       "sponsorship": "Not verified for this specific programme",
       "type": "Training contract"
     }
-  ]
+  ],
+  "marketSnapshot": {
+    "period": "April–June 2026",
+    "published": "2026-09-01",
+    "source": "https://www.ons.gov.uk/businessindustryandtrade/changestobusiness/mergersandacquisitions/bulletins/mergersandacquisitionsinvolvingukcompanies/apriltojune2026",
+    "figures": [
+      [
+        "Inward M&A",
+        "£25.4bn"
+      ],
+      [
+        "Outward M&A",
+        "£2.7bn"
+      ],
+      [
+        "Domestic M&A",
+        "£4.2bn"
+      ]
+    ],
+    "note": "ONS provisional estimates of qualifying completed transactions; subject to revisions. Not the total of CorpLawTracker dossiers."
+  }
 }

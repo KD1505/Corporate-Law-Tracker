@@ -621,7 +621,7 @@ fs.writeFileSync(path.join(ROOT,"sitemap.xml"),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`
   + urls.map(u=>`  <url><loc>${u}</loc><lastmod>${today}</lastmod></url>`).join("\n") + `\n</urlset>\n`);
 fs.writeFileSync(path.join(ROOT,"robots.txt"),
-  `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`);
+  `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\nSitemap: ${SITE}/uk/sitemap.xml\n`);
 
 // inject homepage snapshot between markers in india.html
 const idxPath = path.join(ROOT,"india.html");

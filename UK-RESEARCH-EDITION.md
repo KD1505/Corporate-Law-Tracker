@@ -24,3 +24,6 @@ Curated reading desk links to dated analysis. Separate automated title/link feed
 
 ## Research and careers v3
 Historical and current dossiers add evidence-backed chronology; application windows are manually reviewed, with date-aware display and a local tracker. No live vacancy or visa guarantee. Coverage bars count curated dossiers only; compare two deals without aggregating figures. Academy includes diligence, data/IP, employment, contracts, statistics and firm economics. Existing India architecture unchanged.
+
+## Archive and discovery v4
+The bounded historical archive queries up to 600 GOV.UK search rows for CMA case pages updated from 2023, deduplicates merger-title candidates and retains the previous snapshot on collection failure. It is not an exhaustive announcement database. Each curated transaction now has a server-rendered standalone URL and UK sitemap; the India generator retains both sitemap references in robots.txt. ONS provisional market estimates are separately labelled and never computed from the curated tracker.
