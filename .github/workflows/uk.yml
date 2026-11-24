@@ -24,6 +24,12 @@ jobs:
       - run: node --check uk/app.js && node --test engine/uk/test.mjs && node engine/uk/render.mjs --check
       - run: npm install --no-save --package-lock=false playwright-core@1.51.1
       - run: node engine/uk/browser-test.mjs
+      - if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: uk-ui-review
+          path: ui-review/
+          retention-days: 7
   discover:
     if: github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.event_name == 'push')
     needs: verify

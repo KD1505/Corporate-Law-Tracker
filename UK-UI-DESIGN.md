@@ -12,3 +12,5 @@ Compact masthead, lighter editorial introduction, search before reading desk, gr
 
 ## Verification
 Browser smoke tests exercise overview counts, more/reset, applied filters, mobile section navigation, multiple viewport widths and pre-existing functionality. Production browser smoke verifies the served homepage and standalone detail pages. These checks do not constitute a full accessibility audit or human visual review.
+
+Pull-request verification captures desktop and mobile screenshots as review artifacts. Mobile closed-menu label reflects the selected workspace.
