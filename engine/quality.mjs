@@ -107,6 +107,13 @@ const THIN_HEADLINE = /:\s*(?:updates|others|press release|acquisition|general u
 const REG31 = /\bregulation\s*31\s*\(\s*4\s*\)/i;
 export function recordQuality(d) {
  const headline=String(d?.headline||""),body=String(d?.detail||d?.sum||"");
+ // Reject player/UI metadata and incomplete monetary extraction before publication.
+ const payload=[d.headline,d.sum,d.detail,d.implication].map(x=>String(x||"")).join(" ");
+ if(/\b(?:playBackSpeedTitle|playbackRateMenu|videoPlayerConfig|playerControlsConfig)\b/i.test(payload))
+  return {kind:"needs-research",reason:"Scraped player metadata; editorial review required"};
+ const rawValue=String(d.value||"").trim();
+ if(/^(?:₹|INR|Rs\.?|\$|USD|£|GBP|€)\s*[,.;:\-–—]*$/i.test(rawValue))
+  return {kind:"needs-research",reason:"Malformed extracted financial value; editorial review required"};
  // Corporate Law Tracker is India-focused. A global IPO or financing without
  // Indian counsel, India nexus, or a source from Indian regulators is out of scope.
  const india=/\b(?:India|Indian|Mumbai|Delhi|Bengaluru|Hyderabad|GIFT City|NSE|BSE|SEBI|RBI|FEMA|CCI|Maharashtra|Gujarat|Rupees|INR)\b|₹/i;

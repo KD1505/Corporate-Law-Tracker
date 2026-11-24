@@ -23,3 +23,7 @@ test("historical archive deduplicates bounded official case links",()=>{const a=
 test("each transaction has a static canonical dossier and UK sitemap entry",()=>{const sitemap=fs.readFileSync(new URL("uk/sitemap.xml",root),"utf8");for(const r of data.records.filter(r=>r.category==="Transactions")){const path="uk/deals/"+r.id+".html",page=fs.readFileSync(new URL(path,root),"utf8");assert(page.includes('href="https://www.corplawtracker.com/'+path+'"'));assert(page.includes('class="dossier" open'));assert(sitemap.includes("https://www.corplawtracker.com/"+path));}});
 
 test("UK interface keeps search ahead of briefing and single initial navigation state",()=>{assert(html.indexOf('id="research-search"')<html.indexOf('id="reading-desk"'));assert.equal((html.match(/class="active"/g)||[]).length,1);assert(html.includes('aria-controls="section-navigation"'));assert(html.includes('id="applied-filters"'));});
+
+import {recordQuality} from "../quality.mjs";
+test("publication rejects malformed player summaries and monetary punctuation",()=>{assert.equal(recordQuality({headline:"Fundraise",sum:'"playBackSpeedTitle":"Playback"'}).kind,"needs-research");assert.equal(recordQuality({headline:"Transaction",value:"₹,"}).kind,"needs-research");assert.equal(recordQuality({headline:"Transaction",value:"₹ 25 crore"}).kind,"deal");});
+test("UK reading desk does not depend on a fixed calendar month",()=>{const source=fs.readFileSync(new URL("engine/uk/render.mjs",root),"utf8");assert(!source.includes('r.eventDate.slice(0,7)==="2026-11"'));});

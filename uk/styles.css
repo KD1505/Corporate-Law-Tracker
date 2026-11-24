@@ -283,3 +283,7 @@ footer{max-width:1500px;margin:auto;padding:20px 32px;border-top:1px solid var(-
  .desk-item:first-child strong{font-size:21px}
  .desk-item strong{font-size:18px}
 }
+
+/* Audit release 1: essential input boundaries and deadline labels. */
+.search input,.search select,.compare-controls select,#archive-search{border-color:#75847f}
+.calendar-row .calendar-state{font-weight:600;color:#53656e}
