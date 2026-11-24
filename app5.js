@@ -39,7 +39,7 @@ function buildRail(){
     :'<div class="note">Ranks build up as deals gain attributed counsel.</div>';
   $("league").querySelectorAll("[data-firm]").forEach(n=>n.onclick=()=>go({name:"firm",id:decodeURIComponent(n.dataset.firm)}));
   const radar=DEALS.filter(d=>d.type==="reg"||d.type==="bank");
-  $("radar").innerHTML=radar.map(d=>`<div class="reg" data-deal="${d.id}"><div class="when">${d.sources[0].name.split("—")[0].trim()} · ${d.time}</div><div class="what">${d.headline}</div></div>`).join("");
+  $("radar").innerHTML=radar.map(d=>`<div class="reg" data-deal="${d.id}"><div class="when">${(d.sources?.[0]?.name||"Source not available").split("—")[0].trim()} · ${d.time}</div><div class="what">${d.headline}</div></div>`).join("");
   $("radar").querySelectorAll("[data-deal]").forEach(n=>n.onclick=()=>go({name:"deal",id:n.dataset.deal}));
   $("cov").innerHTML=`Bar &amp; Bench · LiveLaw · Mint · Economic Times · Business Standard · VCCircle · BSE / NSE · SEBI · CCI · IBBI · RBI · PIB<br><span style="color:var(--accent);font-weight:700;cursor:pointer" onclick="openMeth()">How verification works →</span>`;
 }
