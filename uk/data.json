@@ -1,0 +1,858 @@
+{
+  "schemaVersion": 1,
+  "editorialAsOf": "2026-11-24",
+  "records": [
+    {
+      "id": "ocs-mitie",
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "title": "OCS / Mitie",
+      "eventDate": "2026-11-18",
+      "status": "Inquiry launched",
+      "sector": "Facilities management",
+      "fact": "The CMA formally opened its merger inquiry on 18 November 2026. This is a procedural milestone, not clearance or evidence that the transaction completed.",
+      "analysis": "Overlapping service contracts may require close analysis of customers’ alternatives, bidding patterns and local or national market definition. Counsel should separate commercial closing conditions from the regulator’s timetable.",
+      "watch": "Read the latest CMA case update before relying on this snapshot.",
+      "sources": [
+        {
+          "name": "CMA case",
+          "url": "https://www.gov.uk/cma-cases/ocs-slash-mitie-merger-inquiry"
+        }
+      ],
+      "related": [
+        "merger-control"
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "id": "mccormick-unilever",
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "title": "McCormick / Unilever",
+      "eventDate": "2026-11-11",
+      "status": "Phase 1 concerns",
+      "sector": "Consumer goods",
+      "fact": "The CMA announced competition concerns on 11 November 2026; the matter would proceed to Phase 2 unless acceptable commitments were offered, according to that decision.",
+      "analysis": "The case illustrates how anticipated competition remedies can change the economic perimeter of a deal. A buyer must test whether any divestment would undermine the investment thesis or financing model.",
+      "watch": "Check subsequent decisions and any published commitments; this is not a live status guarantee.",
+      "sources": [
+        {
+          "name": "CMA case",
+          "url": "https://www.gov.uk/cma-cases/mccormick-slash-unilever-merger-inquiry"
+        }
+      ],
+      "related": [
+        "merger-control",
+        "valuation"
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "id": "sky-itv",
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "title": "Sky / ITV Media and Entertainment",
+      "eventDate": "2026-11-04",
+      "status": "Public interest intervention",
+      "sector": "Media",
+      "fact": "A public-interest intervention notice was issued on 4 November 2026 in connection with Sky UK's proposed purchase of ITV M&E Holdings. The published timetable identifies 27 January 2027 for CMA and Ofcom reports to the Secretary of State.",
+      "analysis": "Media acquisitions may face scrutiny beyond ordinary competition effects, including plurality of news views. Regulatory allocation and long-stop dates become important negotiation points.",
+      "watch": "27 January 2027: published reporting deadline; check for extensions.",
+      "sources": [
+        {
+          "name": "CMA case",
+          "url": "https://www.gov.uk/cma-cases/sky-slash-itv-merger-inquiry"
+        }
+      ],
+      "related": [
+        "merger-control"
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "id": "coop-southern",
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "title": "Co-operative Group / Southern Co-operative",
+      "eventDate": "2026-11-05",
+      "status": "Completed; undertakings accepted",
+      "sector": "Retail",
+      "fact": "The CMA accepted commitments on 5 November 2026 to resolve its concerns over the already-completed acquisition without a Phase 2 reference.",
+      "analysis": "Completion does not necessarily end UK merger risk. A buyer completing before clearance may face restrictions on integration or remedial commitments; transaction documents should allocate these risks explicitly.",
+      "watch": "Check the final undertakings and implementation updates.",
+      "sources": [
+        {
+          "name": "CMA case",
+          "url": "https://www.gov.uk/cma-cases/co-operative-group-slash-southern-co-operative-merger-inquiry"
+        }
+      ],
+      "related": [
+        "merger-control"
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "id": "vodafone-three",
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "title": "Vodafone UK / Three UK",
+      "eventDate": "2025-05-31",
+      "status": "Completed",
+      "sector": "Telecommunications",
+      "fact": "Vodafone confirmed the UK combination closed on 31 May 2025. The CMA accepted binding commitments before clearance on 28 March 2025.",
+      "analysis": "A network merger can create scale benefits but reduce competitive pressure. Commitments on investment and customer outcomes may affect integration economics and ongoing compliance long after closing.",
+      "watch": "CMA monitoring reports and performance against the commitments.",
+      "sources": [
+        {
+          "name": "Vodafone completion",
+          "url": "https://www.vodafone.com/news/newsroom/corporate-and-financial/completion-of-vodafone-and-three-merger-in-the-uk"
+        },
+        {
+          "name": "CMA case",
+          "url": "https://www.gov.uk/cma-cases/vodafone-slash-ck-hutchison-jv-merger-inquiry"
+        },
+        {
+          "name": "Freshfields mandate announcement",
+          "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2024/12/freshfields-advises-ck-hutchison-on-securing-landmark-cma-merger-approval-for-three-uk-and-vodafone-uk"
+        }
+      ],
+      "related": [
+        "merger-control",
+        "finance"
+      ],
+      "verifiedOn": "2026-11-24",
+      "advisers": [
+        {
+          "firm": "Freshfields",
+          "firmId": "freshfields",
+          "client": "CK Hutchison",
+          "scope": "CMA merger approval",
+          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2024/12/freshfields-advises-ck-hutchison-on-securing-landmark-cma-merger-approval-for-three-uk-and-vodafone-uk"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-activision",
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "title": "Microsoft / Activision Blizzard (restructured)",
+      "eventDate": "2023-10-13",
+      "status": "Restructured deal cleared",
+      "sector": "Gaming technology",
+      "fact": "After opposing the original transaction, the CMA cleared a revised structure in October 2023 involving the transfer of certain cloud-streaming rights to Ubisoft.",
+      "analysis": "Control over distribution rights can matter as much as ownership of the target. A carve-out may create licensing, transitional services and intellectual property issues that need separate documentation.",
+      "watch": "Compare the original prohibition with the revised transaction; do not treat the decisions as contradictory on identical facts.",
+      "sources": [
+        {
+          "name": "Revised CMA case",
+          "url": "https://www.gov.uk/cma-cases/microsoft-slash-activision-blizzard-ex-cloud-streaming-rights-merger-inquiry"
+        },
+        {
+          "name": "Original CMA case",
+          "url": "https://www.gov.uk/cma-cases/microsoft-slash-activision-blizzard-merger-inquiry"
+        }
+      ],
+      "related": [
+        "merger-control"
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "id": "nationwide-virgin",
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "title": "Nationwide / Virgin Money",
+      "eventDate": "2024-10-01",
+      "status": "Completed",
+      "sector": "Banking",
+      "fact": "The CMA cleared the proposed acquisition on 19 July 2024; Virgin Money later confirmed FCA and PRA approval. Nationwide confirms completion on 1 October 2024. A separate legal transfer of Virgin Money's business to Nationwide completed on 2 April 2026.",
+      "analysis": "Bank acquisitions may involve separate prudential and competition workstreams. Clearance from one authority does not establish satisfaction of all conditions or completion.",
+      "watch": "Distinguish the original share acquisition from the later business transfer and integration.",
+      "sources": [
+        {
+          "name": "CMA case",
+          "url": "https://www.gov.uk/cma-cases/nationwide-building-society-slash-virgin-money-merger-inquiry"
+        },
+        {
+          "name": "Virgin Money regulatory update",
+          "url": "https://uk.virginmoney.com/nationwide-and-virginmoney/"
+        },
+        {
+          "name": "Nationwide completion",
+          "url": "https://www.nationwide.co.uk/about-us/the-big-nationwide-thank-you"
+        },
+        {
+          "name": "Nationwide business transfer",
+          "url": "https://www.nationwide.co.uk/nationwide-and-virgin-money-transfer"
+        }
+      ],
+      "related": [
+        "finance",
+        "merger-control"
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "id": "bank-rate",
+      "jurisdiction": "UK",
+      "category": "Briefing",
+      "title": "Bank Rate rises to 4%",
+      "eventDate": "2026-11-05",
+      "status": "Dated policy decision",
+      "sector": "Economy",
+      "fact": "At the meeting ending 4 November 2026, the MPC voted 8–1 to raise Bank Rate by 25 basis points to 4%.",
+      "analysis": "Floating-rate borrowers may face higher debt service. Acquisition models should revisit interest cover, covenant headroom and refinancing assumptions; fixed-rate borrowers may be less immediately affected.",
+      "watch": "Next MPC decision, lender pricing and borrower hedging requirements.",
+      "sources": [
+        {
+          "name": "Bank of England minutes",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+        }
+      ],
+      "related": [
+        "finance",
+        "valuation"
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "id": "inflation-oct",
+      "jurisdiction": "UK",
+      "category": "Briefing",
+      "title": "October inflation release: transport pressure",
+      "eventDate": "2026-11-18",
+      "status": "Dated statistical release",
+      "sector": "Economy",
+      "fact": "The ONS October release identifies transport, especially motor fuels, as the largest upward contributor to the change in annual CPI inflation.",
+      "analysis": "Fuel-intensive businesses may face margin pressure where contracts lack effective cost pass-through. Counsel can assess price adjustment, hardship and supplier renegotiation mechanisms without assuming inflation excuses performance.",
+      "watch": "Next ONS release and evidence of cost pass-through in company results.",
+      "sources": [
+        {
+          "name": "ONS statistical bulletin",
+          "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026"
+        }
+      ],
+      "related": [
+        "finance"
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "id": "prospectus",
+      "jurisdiction": "UK",
+      "category": "Regulation",
+      "title": "Public offers and admissions to trading regime",
+      "eventDate": "2026-01-19",
+      "status": "In force from event date",
+      "sector": "Capital markets",
+      "fact": "The new public offers and admissions framework and associated changes to UK listing processes took effect on 19 January 2026, according to the FCA. The FCA also describes a notification requirement for admissions under PRM 1.6.4R.",
+      "analysis": "For equity issuers and advisers, prospectus analysis must begin with the relevant offer/admission route and exceptions under the current regime, rather than recycling old templates.",
+      "watch": "Check the current FCA Handbook and transitional rules before advising on a particular issuance.",
+      "sources": [
+        {
+          "name": "FCA statement",
+          "url": "https://www.fca.org.uk/news/statements/statement-notifications-relating-admissions-trading-recent-changes-uk-listing-rules"
+        },
+        {
+          "name": "FCA policy statement",
+          "url": "https://www.fca.org.uk/publications/policy-statements/ps25-9-new-rules-public-offers-admissions-trading-regime"
+        }
+      ],
+      "related": [
+        "capital-markets"
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "id": "merger-guidance",
+      "jurisdiction": "UK",
+      "category": "Regulation",
+      "title": "CMA merger procedure guidance",
+      "eventDate": "2025-12-01",
+      "status": "Guidance; December 2025 version",
+      "sector": "Competition",
+      "fact": "The CMA's guidance page identifies a December 2025 version of its merger jurisdiction and procedure guidance. The date here denotes the month of that version, not a claimed commencement day.",
+      "analysis": "Screen UK nexus, jurisdiction and possible review early; agree responsibility for submissions, cooperation and remedy risk in the deal documents. Guidance is not itself legislation.",
+      "watch": "Use the latest version and applicable Enterprise Act provisions.",
+      "sources": [
+        {
+          "name": "CMA guidance",
+          "url": "https://www.gov.uk/government/publications/mergers-guidance-on-the-cmas-jurisdiction-and-procedure"
+        }
+      ],
+      "related": [
+        "merger-control"
+      ],
+      "verifiedOn": "2026-11-24",
+      "datePrecision": "month"
+    },
+    {
+      "id": "code-scope",
+      "jurisdiction": "UK",
+      "category": "Regulation",
+      "title": "Takeover Code scope and transition",
+      "eventDate": "2025-02-03",
+      "status": "Scope guidance; check transition",
+      "sector": "Public M&A",
+      "fact": "The Panel’s revised jurisdictional scope has a transition period from 3 February 2025 until 2 February 2027 for certain companies previously covered. A UK adviser alone does not make an offer subject to the Code.",
+      "analysis": "Check incorporation, admission history and transition criteria before selecting the public bid timetable. Do not assume every UK-connected acquisition is a Code transaction.",
+      "watch": "Check the Panel’s current applicability guidance for the specific target.",
+      "sources": [
+        {
+          "name": "Takeover Panel scope",
+          "url": "https://www.takeoverpanel.org.uk/the-code/companies-to-which-the-takeover-code-applies"
+        }
+      ],
+      "related": [
+        "capital-markets"
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "jurisdiction": "UK",
+      "verifiedOn": "2026-11-24",
+      "id": "pai-elemis",
+      "category": "Transactions",
+      "title": "PAI Partners / ELEMIS",
+      "eventDate": "2026-11-04",
+      "announcedOn": "2026-11-04",
+      "status": "Agreement announced",
+      "sector": "Consumer / beauty",
+      "fact": "L’Occitane Group and PAI announced an agreement for PAI to acquire British skincare brand ELEMIS. Linklaters subsequently announced its work for the lenders providing acquisition financing.",
+      "analysis": "A sponsor acquisition connects brand valuation and distribution strategy to financing capacity. Counsel must coordinate diligence on IP, distribution and supply arrangements with the financing conditions and acquisition timetable.",
+      "watch": "Completion confirmation and any disclosed financing terms. Do not treat signing as closing.",
+      "sources": [
+        {
+          "name": "PAI announcement",
+          "url": "https://www.paipartners.com/mediaitem/loccitane-group-and-pai-partners-announce-agreement-for-pai-to-acquire-elemis/"
+        },
+        {
+          "name": "Linklaters financing mandate",
+          "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-the-lenders-on-the-financing-of-pais-acquisition-of-elemis-from-loccitane"
+        }
+      ],
+      "related": [
+        "private-equity",
+        "finance"
+      ],
+      "advisers": [
+        {
+          "firm": "Linklaters",
+          "firmId": "linklaters",
+          "client": "Lenders",
+          "scope": "Acquisition financing",
+          "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-the-lenders-on-the-financing-of-pais-acquisition-of-elemis-from-loccitane"
+        }
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "verifiedOn": "2026-11-24",
+      "id": "leita-mobico",
+      "category": "Transactions",
+      "title": "Leita Mobility / Mobico Group",
+      "eventDate": "2026-10-30",
+      "announcedOn": "2026-10-30",
+      "status": "Recommended cash offer announced",
+      "sector": "Transport",
+      "fact": "The recommended cash acquisition of UK-listed Mobico was announced at 46p per share, with an intended scheme of arrangement. The disclosed equity valuation was approximately £308m and enterprise valuation approximately £2.3bn.",
+      "values": [
+        {
+          "label": "Equity value",
+          "amount": "Approximately £308m",
+          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility"
+        },
+        {
+          "label": "Enterprise value",
+          "amount": "Approximately £2.3bn",
+          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility"
+        },
+        {
+          "label": "Offer per share",
+          "amount": "46p",
+          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility"
+        }
+      ],
+      "analysis": "The gap between equity and enterprise valuation makes the capital structure central to the investment thesis. Do not infer net debt from the gap without checking the valuation definitions. A scheme requires its own shareholder and court process; lenders also need certainty on funding and closing.",
+      "watch": "Scheme timetable, applicable approvals and completion announcements.",
+      "sources": [
+        {
+          "name": "Freshfields target mandate",
+          "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility"
+        },
+        {
+          "name": "Clifford Chance financing mandate",
+          "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-on-the-financing-of-cmc-group-and-asterion-industrial-partners-recommended-cash-offer-for-mobico-group.html"
+        }
+      ],
+      "related": [
+        "valuation",
+        "capital-markets",
+        "finance"
+      ],
+      "advisers": [
+        {
+          "firm": "Freshfields",
+          "firmId": "freshfields",
+          "client": "Mobico",
+          "scope": "Recommended acquisition",
+          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility"
+        },
+        {
+          "firm": "Clifford Chance",
+          "firmId": "clifford-chance",
+          "client": "Lenders",
+          "scope": "Acquisition financing",
+          "source": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-on-the-financing-of-cmc-group-and-asterion-industrial-partners-recommended-cash-offer-for-mobico-group.html"
+        }
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "verifiedOn": "2026-11-24",
+      "id": "cary-consortium",
+      "category": "Transactions",
+      "title": "Nordic Capital / CPP Investments / Ontario Teachers’ — Cary Group",
+      "eventDate": "2026-11-17",
+      "announcedOn": "2026-11-17",
+      "status": "Investment agreement announced",
+      "sector": "Automotive services",
+      "fact": "CPP Investments and Ontario Teachers’ agreed to join Nordic Capital as owners of Cary Group, which operates in the UK among other markets. Linklaters disclosed a proposed €545m Ontario Teachers’ investment; this is not the overall transaction value.",
+      "values": [
+        {
+          "label": "Ontario Teachers’ proposed investment only",
+          "amount": "€545m",
+          "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-ontario-teachers-on-its-investment-in-cary-group"
+        }
+      ],
+      "analysis": "A consortium structure raises governance questions distinct from the purchase price: reserved matters, future funding, exit rights and alignment between investors with different investment horizons.",
+      "watch": "Regulatory approvals and confirmation of closing; the announced expectation was the first half of 2027.",
+      "sources": [
+        {
+          "name": "Nordic Capital announcement",
+          "url": "https://www.nordiccapital.com/insights/press-releases/cpp-investments-and-ontario-teachers-to-join-nordic-capital-as-owners-of-cary-group-to-support-its-continued-international-expansion-and-long-term-development/"
+        },
+        {
+          "name": "Freshfields CPP mandate",
+          "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/11/freshfields-advises-cpp-investments-on-the-acquisition-of-cary-group-by-a-consortium-comprised-of-nordic-capital-ontario-teachers-pension-plan-and-cpp-investments"
+        },
+        {
+          "name": "Linklaters Ontario Teachers’ mandate",
+          "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-ontario-teachers-on-its-investment-in-cary-group"
+        }
+      ],
+      "related": [
+        "private-equity",
+        "valuation"
+      ],
+      "advisers": [
+        {
+          "firm": "Freshfields",
+          "firmId": "freshfields",
+          "client": "CPP Investments",
+          "scope": "Consortium acquisition",
+          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/11/freshfields-advises-cpp-investments-on-the-acquisition-of-cary-group-by-a-consortium-comprised-of-nordic-capital-ontario-teachers-pension-plan-and-cpp-investments"
+        },
+        {
+          "firm": "Linklaters",
+          "firmId": "linklaters",
+          "client": "Ontario Teachers’",
+          "scope": "Investment",
+          "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-ontario-teachers-on-its-investment-in-cary-group"
+        }
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "verifiedOn": "2026-11-24",
+      "id": "goldman-celnor",
+      "category": "Transactions",
+      "title": "Goldman Sachs Alternatives / Celnor Group",
+      "eventDate": "2026-10-23",
+      "announcedOn": "2026-10-23",
+      "status": "Majority acquisition agreed",
+      "sector": "Testing, inspection and compliance",
+      "fact": "Inflexion announced an agreement to sell a majority stake in UK-based Celnor to Goldman Sachs Alternatives. Inflexion and management are to reinvest. Linklaters disclosed its advice to Goldman Sachs Alternatives.",
+      "analysis": "Reinvestment can align the seller and management with the buyer’s growth strategy, but the documents must address governance, leaver provisions, future capital needs and exit mechanics. A majority investment does not imply acquisition of every share.",
+      "watch": "Closing, subject to the announced timetable, and any publicly disclosed governance arrangements.",
+      "sources": [
+        {
+          "name": "Inflexion announcement",
+          "url": "https://www.inflexion.com/news-and-insights/news/2026/inflexion-agrees-sale-of-majority-stake-in-celnor-to-goldman-sachs-alternatives/"
+        },
+        {
+          "name": "Linklaters mandate",
+          "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-goldman-sachs-alternatives-on-its-investment-in-celnor-group"
+        }
+      ],
+      "related": [
+        "private-equity"
+      ],
+      "advisers": [
+        {
+          "firm": "Linklaters",
+          "firmId": "linklaters",
+          "client": "Goldman Sachs Alternatives",
+          "scope": "Investment",
+          "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-goldman-sachs-alternatives-on-its-investment-in-celnor-group"
+        }
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "verifiedOn": "2026-11-24",
+      "id": "rwe-kkr-vanguard",
+      "category": "Transactions",
+      "title": "RWE / KKR — Vanguard offshore wind projects",
+      "eventDate": "2026-11-11",
+      "status": "Final investment decision announced",
+      "sector": "Energy / infrastructure",
+      "fact": "RWE announced final investment decisions for the UK Vanguard West and East offshore wind projects. The announced combined project investment is approximately £12bn, not an acquisition price or debt facility.",
+      "values": [
+        {
+          "label": "Combined project investment",
+          "amount": "Approximately £12bn",
+          "source": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/news/news-2026-11-11_a/"
+        }
+      ],
+      "analysis": "Project economics depend on construction cost, revenue arrangements, grid connection and risk allocation. The investment decision does not eliminate construction risk; advisers must distinguish committed funding, drawdown conditions and completion milestones.",
+      "watch": "Construction, grid connection and financing milestones; distinguish investment approval from operational completion.",
+      "sources": [
+        {
+          "name": "RWE investment announcement",
+          "url": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/news/news-2026-11-11_a/"
+        },
+        {
+          "name": "UK government announcement",
+          "url": "https://www.gov.uk/government/news/prime-minister-hails-major-investment-in-uk-renewables"
+        }
+      ],
+      "related": [
+        "project-finance",
+        "finance"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "verifiedOn": "2026-11-24",
+      "id": "clean-power-auction",
+      "category": "Briefing",
+      "title": "New UK renewable power auction",
+      "eventDate": "2026-11-19",
+      "status": "Auction launch announced",
+      "sector": "Energy",
+      "fact": "The UK government announced a new clean-power renewables auction on 19 November.",
+      "analysis": "Revenue support can improve cash flow predictability for qualifying projects, but winning an auction is not equivalent to securing construction funding. Developers need to test bid economics against financing cost, procurement and delivery risk.",
+      "watch": "Auction results, project-specific contracts and subsequent investment decisions.",
+      "sources": [
+        {
+          "name": "Government announcement",
+          "url": "https://www.gov.uk/government/news/new-clean-power-renewables-auction-launched-to-lower-bills"
+        }
+      ],
+      "related": [
+        "project-finance"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "verifiedOn": "2026-11-24",
+      "id": "ch-identity",
+      "category": "Regulation",
+      "title": "Companies House identity verification: enforcement approach",
+      "eventDate": "2026-11-19",
+      "status": "Published enforcement guidance",
+      "sector": "Corporate governance",
+      "fact": "Companies House published its approach to non-compliance with mandatory identity verification. The rollout began in November 2025; applicable deadlines depend on the person’s role and circumstances.",
+      "analysis": "Deal teams should include identity verification and filing readiness in completion and post-completion checklists. A general rollout date is not a substitute for checking the specific statutory deadline and enforcement guidance.",
+      "watch": "Current Companies House guidance for the relevant director or person with significant control.",
+      "sources": [
+        {
+          "name": "Companies House enforcement guidance",
+          "url": "https://www.gov.uk/government/publications/companies-house-approach-to-non-compliance-with-mandatory-identity-verification/companies-house-approach-to-non-compliance-with-mandatory-identity-verification"
+        },
+        {
+          "name": "Identity verification guidance",
+          "url": "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house"
+        }
+      ],
+      "related": [
+        "corporate-governance"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "valuation",
+      "title": "Enterprise value, equity value and cash flow",
+      "level": "Foundation",
+      "body": "Enterprise value measures the operating business under a specified valuation convention. In a simplified cash-free, debt-free deal, equity value equals enterprise value less debt plus cash. Actual price adjustments depend on the agreed definitions of cash, debt, debt-like items and working capital. EBITDA is not cash flow: capital expenditure, tax and working capital may consume cash.",
+      "scenario": "A business has £120m enterprise value, £35m debt and £5m cash. Ignoring other adjustments, what equity price is implied?",
+      "options": [
+        "£80m",
+        "£90m",
+        "£120m",
+        "£150m"
+      ],
+      "answer": 1,
+      "explanation": "£120m − £35m + £5m = £90m. The SPA must specify which items count as cash and debt.",
+      "source": null
+    },
+    {
+      "id": "finance",
+      "title": "Debt, interest rates and covenants",
+      "level": "Intermediate",
+      "body": "Floating-rate borrowing commonly references a benchmark plus margin. Rate rises can reduce interest cover, increase refinancing pressure and reduce the debt a buyer can service. Fixed-rate debt and hedging may change the impact. A covenant breach depends on the precise financial definitions, test dates and cure rights, not on a headline rate alone.",
+      "scenario": "A borrower has £80m of unhedged floating-rate debt. Assuming immediate full pass-through, what is the additional annual interest from a 25bp rise?",
+      "options": [
+        "£20,000",
+        "£200,000",
+        "£2m",
+        "£20m"
+      ],
+      "answer": 1,
+      "explanation": "25 basis points = 0.0025; £80m × 0.0025 = £200,000 before other changes.",
+      "source": {
+        "name": "Bank of England policy example",
+        "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+      }
+    },
+    {
+      "id": "merger-control",
+      "title": "UK merger control and remedies",
+      "level": "Intermediate",
+      "body": "The UK merger regime is generally voluntary, but the CMA may investigate qualifying anticipated or completed transactions. Review can lead to clearance, commitments, deeper investigation or prohibition. Contractual closing conditions, long-stop dates and risk allocation need to reflect the transaction's particular facts and any separate mandatory regimes.",
+      "scenario": "A buyer completes a UK transaction before the CMA reviews it. Which statement is safest?",
+      "options": [
+        "Completion removes CMA jurisdiction",
+        "The parties automatically receive clearance",
+        "The CMA may still review a qualifying completed merger",
+        "Only the seller faces regulatory risk"
+      ],
+      "answer": 2,
+      "explanation": "A qualifying completed merger may still be reviewed; the Co-operative case provides a concrete illustration.",
+      "source": {
+        "name": "CMA jurisdiction guidance",
+        "url": "https://www.gov.uk/government/publications/mergers-guidance-on-the-cmas-jurisdiction-and-procedure"
+      }
+    },
+    {
+      "id": "capital-markets",
+      "title": "Public M&A and capital markets",
+      "level": "Intermediate",
+      "body": "A public takeover and an equity issuance solve different commercial problems. Before planning a public acquisition, establish whether the Takeover Code applies; before a capital raising, identify the market, admission route, offer and applicable prospectus rules. Regulatory timetables, disclosure and execution risk affect the financing plan.",
+      "scenario": "A foreign bidder retains a London law firm to acquire a foreign private company. Does that alone establish Takeover Code jurisdiction?",
+      "options": [
+        "Yes, always",
+        "No; test the target and Code scope",
+        "Yes, if consideration is sterling",
+        "Yes, if counsel is Magic Circle"
+      ],
+      "answer": 1,
+      "explanation": "The location of an adviser is not a standalone test of the Code’s applicability.",
+      "source": {
+        "name": "Panel scope guidance",
+        "url": "https://www.takeoverpanel.org.uk/the-code/companies-to-which-the-takeover-code-applies"
+      }
+    },
+    {
+      "id": "business-model",
+      "title": "How clients make money",
+      "level": "Foundation",
+      "body": "Revenue is sales before expenses; profit depends on costs and accounting rules. Operating cash flow also reflects collection and payment timing. A high-growth company can be profitable on paper but short of cash. Ask what customers pay for, what drives costs, how working capital behaves and what regulation constrains the business.",
+      "scenario": "Sales rise but customers take much longer to pay. What can happen?",
+      "options": [
+        "Cash flow necessarily improves",
+        "Cash flow can weaken despite higher revenue",
+        "Debt automatically falls",
+        "Revenue becomes equal to cash"
+      ],
+      "answer": 1,
+      "explanation": "Receivables tie up cash. A profitable business may still need working-capital finance.",
+      "source": null
+    },
+    {
+      "id": "interview",
+      "title": "Commercial interview reasoning",
+      "level": "Applied",
+      "body": "Start with a specific, dated fact. Identify the client and its commercial objective, trace the financial or operational impact, identify legal work and risks, then state what evidence could change your view. Avoid pretending that every issue has the same impact on all clients.",
+      "scenario": "A buyer is concerned about a competition remedy. Which response demonstrates the strongest reasoning?",
+      "options": [
+        "All M&A is risky",
+        "The lawyers should guarantee clearance",
+        "Test the remedy’s impact on synergies, financing and closing conditions",
+        "Repeat the purchase price"
+      ],
+      "answer": 2,
+      "explanation": "The best answer links a concrete regulatory outcome to deal economics and legal drafting. This is original practice material, not an employer question.",
+      "source": {
+        "name": "CMA guidance",
+        "url": "https://www.gov.uk/government/publications/mergers-guidance-on-the-cmas-jurisdiction-and-procedure"
+      }
+    },
+    {
+      "id": "private-equity",
+      "title": "Private equity and management rollover",
+      "level": "Intermediate",
+      "body": "Sponsors seek returns through operating improvements, growth, capital structure and eventual exit. Rollover means existing investors or management reinvest some proceeds or retain an interest. Review shareholder rights, dilution, incentives, transfer restrictions and exit arrangements. The investment’s value and the target’s enterprise value are different concepts.",
+      "scenario": "A sponsor buys a majority stake and management reinvests. What is a priority alongside the SPA?",
+      "options": [
+        "Assume management has no continuing rights",
+        "Negotiate governance, incentives and exit rights",
+        "Treat all debt as seller proceeds",
+        "Assume the business has already been sold"
+      ],
+      "answer": 1,
+      "explanation": "Continuing shareholders need a workable governance and exit framework, distinct from the acquisition terms.",
+      "source": {
+        "name": "Celnor transaction example",
+        "url": "https://www.inflexion.com/news-and-insights/news/2026/inflexion-agrees-sale-of-majority-stake-in-celnor-to-goldman-sachs-alternatives/"
+      }
+    },
+    {
+      "id": "project-finance",
+      "title": "Infrastructure and project finance",
+      "level": "Intermediate",
+      "body": "Project finance often relies on cash flows of a project company, with limited or non-recourse structures depending on the agreed financing. Construction, operating, revenue and political risks are allocated across contracts, insurance, security and sponsor support. A final investment decision is not the same as financial close or operational completion.",
+      "scenario": "An offshore wind development has a final investment decision. What can you safely conclude?",
+      "options": [
+        "All turbines are operating",
+        "All borrowing has been drawn",
+        "The investment has been approved; delivery and funding milestones still matter",
+        "No construction risk remains"
+      ],
+      "answer": 2,
+      "explanation": "An investment decision is distinct from completion, drawdown and commissioning.",
+      "source": {
+        "name": "RWE project example",
+        "url": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/news/news-2026-11-11_a/"
+      }
+    },
+    {
+      "id": "corporate-governance",
+      "title": "Corporate governance and completion readiness",
+      "level": "Foundation",
+      "body": "Completion involves more than payment: approvals, executed documents, registers, appointments and filings may matter. In UK transactions the precise obligations depend on company type, structure and the law in force. Check current Companies House identity-verification requirements for directors and persons with significant control rather than applying one deadline to everyone.",
+      "scenario": "A director will be appointed at completion. Which approach is best?",
+      "options": [
+        "Ignore identity verification until a problem occurs",
+        "Check the applicable verification requirement and filing sequence",
+        "Assume all directors had one identical deadline",
+        "Treat verification as a competition-law approval"
+      ],
+      "answer": 1,
+      "explanation": "Verification and filing readiness should be checked against the applicable rules for the individual and transaction.",
+      "source": {
+        "name": "Companies House guidance",
+        "url": "https://www.gov.uk/government/publications/companies-house-approach-to-non-compliance-with-mandatory-identity-verification/companies-house-approach-to-non-compliance-with-mandatory-identity-verification"
+      }
+    },
+    {
+      "id": "national-security",
+      "title": "UK national security screening",
+      "level": "Intermediate",
+      "body": "The National Security and Investment Act creates a distinct national security review regime. Certain qualifying acquisitions of control over entities in specified sectors require mandatory notification. Asset acquisitions are not subject to mandatory notification but may be called in. Competition and national security reviews require separate analysis.",
+      "scenario": "An acquisition is cleared by the CMA on competition grounds. Does that establish NSI clearance?",
+      "options": [
+        "Yes",
+        "No; separately assess NSI jurisdiction and any notification requirement",
+        "Yes if both parties are British",
+        "Only if the deal is a share purchase"
+      ],
+      "answer": 1,
+      "explanation": "The regimes serve different purposes and must be assessed separately.",
+      "source": {
+        "name": "Government NSI guidance",
+        "url": "https://www.gov.uk/guidance/national-security-and-investment-act-guidance-on-acquisitions"
+      }
+    }
+  ],
+  "firms": [
+    {
+      "id": "linklaters",
+      "name": "Linklaters",
+      "programme": "London training contracts and vacation schemes; international routes also described.",
+      "url": "https://www.linklaters.com/careers/early-careers/training-contracts",
+      "research": "Compare its published transaction and practice material with the capital markets module."
+    },
+    {
+      "id": "clifford-chance",
+      "name": "Clifford Chance",
+      "programme": "London training contract and early-careers information.",
+      "url": "https://jobs.cliffordchance.com/training-contract-london",
+      "research": "Use the finance module to prepare a client-focused discussion of borrowing costs."
+    },
+    {
+      "id": "freshfields",
+      "name": "Freshfields",
+      "programme": "UK trainee associate programme, vacation schemes and early insight routes.",
+      "url": "https://www.freshfields.com/en/your-career/united-kingdom/early-careers",
+      "research": "Prepare a merger-control case and explain what a transactional team and competition team would each do."
+    },
+    {
+      "id": "latham",
+      "name": "Latham & Watkins",
+      "programme": "London graduate recruitment FAQs, including application and work-authorisation guidance; verify the current programme-specific terms.",
+      "url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-kingdom/London-Graduate-Recruitment-FAQs",
+      "research": "Practise explaining acquisition financing and why lender and sponsor interests differ."
+    },
+    {
+      "id": "addleshaw",
+      "name": "Addleshaw Goddard",
+      "programme": "Official training contract information; confirm office-specific application windows on the employer site.",
+      "url": "https://earlycareers.addleshawgoddard.com/careers/training-contracts/",
+      "research": "Connect infrastructure investment to construction, financing and commercial contracts."
+    },
+    {
+      "id": "burges",
+      "name": "Burges Salmon",
+      "programme": "Official trainee information; check the jurisdiction and programme details.",
+      "url": "https://www.burges-salmon.com/join-us/emerging-talent/trainees/",
+      "research": "Use the project finance case to identify client risks and relevant practice teams."
+    }
+  ],
+  "registry": [
+    [
+      "CMA cases",
+      "https://www.gov.uk/cma-cases",
+      "Primary regulatory decisions",
+      "Public GOV.UK; discovery adapter below. Case evidence separate from transaction completion."
+    ],
+    [
+      "FCA NSM",
+      "https://www.fca.org.uk/markets/primary-markets/regulatory-disclosures/national-storage-mechanism",
+      "Issuer disclosures",
+      "Public search and export; automated reuse/access conditions require review."
+    ],
+    [
+      "Takeover Panel",
+      "https://www.takeoverpanel.org.uk/disclosure/disclosure-table",
+      "Public offer disclosure",
+      "Reference link; not an integrated feed."
+    ],
+    [
+      "Bank of England",
+      "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
+      "Monetary policy",
+      "Dated editorial source; no live rate feed."
+    ],
+    [
+      "ONS",
+      "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026",
+      "Economic statistics",
+      "Dated editorial source; no live series integration."
+    ],
+    [
+      "SRA",
+      "https://www.sra.org.uk/become-solicitor/admission/pathways-qualification/qualified-lawyers/",
+      "England and Wales qualification",
+      "Official guidance; not automated."
+    ],
+    [
+      "GOV.UK Search API",
+      "https://docs.publishing.service.gov.uk/repos/search-api/using-the-search-api.html",
+      "Discovery",
+      "Public documented API; runtime verification pending."
+    ]
+  ]
+}
