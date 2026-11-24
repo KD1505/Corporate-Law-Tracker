@@ -349,3 +349,5 @@ footer{max-width:1500px;margin:auto;padding:20px 32px;border-top:1px solid var(-
 
 /* Focused workspace and local research */
 .research-list{list-style:none;padding:0;margin:12px 0 24px}.research-list li{display:flex;justify-content:space-between;align-items:center;gap:12px;border-bottom:1px solid #dce3e2;padding:12px 0;overflow-wrap:anywhere}.research-list a{font-weight:600}.research-list button{flex:none}.application-stage-label{display:inline-block;margin:10px 8px 0 0;font-size:12px;color:#53656e}.application-stage,.opportunity-controls input[type=search]{border:1px solid #75847f;border-radius:4px;background:white;min-height:36px;padding:6px;font:inherit;font-size:13px}.opportunity-controls{flex-wrap:wrap;gap:8px}.opportunity-controls label{font-size:13px}.application-stage[hidden],.application-stage-label[hidden]{display:none!important}
+
+.regulation-filters{grid-column:1/-1;padding:0 0 10px}.regulation-filters[hidden]{display:none!important}.regulation-facts{border-left:3px solid #dce3e2;padding:4px 12px;margin:10px 0;font-size:13px}.regulation-facts p{margin:6px 0}.regulation-facts time{font-variant-numeric:tabular-nums}

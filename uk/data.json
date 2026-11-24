@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 4,
+  "schemaVersion": 5,
   "editorialAsOf": "2026-11-24",
   "records": [
     {
@@ -53,17 +53,32 @@
         {
           "label": "Fully diluted acquisition value, including final dividend",
           "amount": "Approximately £3.1bn",
-          "source": "https://www.mitie.com/wp-content/uploads/2026/08/Project-Marlin_Scheme_Document.pdf"
+          "source": "https://www.mitie.com/wp-content/uploads/2026/08/Project-Marlin_Scheme_Document.pdf",
+          "basis": "acquisition-value",
+          "currency": "GBP",
+          "numericAmount": 3100000000,
+          "unit": "currency",
+          "disclosure": "approximate"
         },
         {
           "label": "Cash offer per share",
           "amount": "218.5p",
-          "source": "https://www.mitie.com/wp-content/uploads/2026/11/Mitie-H1-FY27-Results.pdf"
+          "source": "https://www.mitie.com/wp-content/uploads/2026/11/Mitie-H1-FY27-Results.pdf",
+          "basis": "cash-per-share",
+          "currency": "GBP",
+          "numericAmount": 2.185,
+          "unit": "currency-per-share",
+          "disclosure": "stated"
         },
         {
           "label": "FY26 final dividend per share (paid separately)",
           "amount": "3.1p",
-          "source": "https://www.mitie.com/wp-content/uploads/2026/11/Mitie-H1-FY27-Results.pdf"
+          "source": "https://www.mitie.com/wp-content/uploads/2026/11/Mitie-H1-FY27-Results.pdf",
+          "basis": "dividend-per-share",
+          "currency": "GBP",
+          "numericAmount": 0.031,
+          "unit": "currency-per-share",
+          "disclosure": "stated"
         }
       ],
       "financing": "Specific financing terms have not been verified for this dossier.",
@@ -149,12 +164,22 @@
         {
           "label": "Announced cash component (subject to adjustments)",
           "amount": "US$15.7bn",
-          "source": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/"
+          "source": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+          "basis": "cash-component",
+          "currency": "USD",
+          "numericAmount": 15700000000,
+          "unit": "currency",
+          "disclosure": "stated"
         },
         {
           "label": "Committed bridge financing (not deal value)",
           "amount": "US$15.7bn",
-          "source": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/"
+          "source": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+          "basis": "financing-commitment",
+          "currency": "USD",
+          "numericAmount": 15700000000,
+          "unit": "currency",
+          "disclosure": "stated"
         }
       ],
       "financing": "The announcement identifies Citi, Goldman Sachs Bank USA and Morgan Stanley Senior Funding as bridge financing providers; the intended permanent funding includes new debt and cash.",
@@ -360,12 +385,22 @@
         {
           "label": "Original merger cash consideration",
           "amount": "None",
-          "source": "https://www.vodafone.com/news/newsroom/corporate-and-financial/merger-vodafone-uk-three-uk-europe-leading-5g-networks"
+          "source": "https://www.vodafone.com/news/newsroom/corporate-and-financial/merger-vodafone-uk-three-uk-europe-leading-5g-networks",
+          "basis": "cash-component",
+          "currency": null,
+          "numericAmount": null,
+          "unit": "not-applicable",
+          "disclosure": "explicit-none"
         },
         {
           "label": "Subsequent 49% stake buyout (separate transaction)",
           "amount": "£4.3bn",
-          "source": "https://www.vodafone.com/news/newsroom/corporate-and-financial/vodafone-takes-full-ownership-of-vodafonethree"
+          "source": "https://www.vodafone.com/news/newsroom/corporate-and-financial/vodafone-takes-full-ownership-of-vodafonethree",
+          "basis": "separate-transaction",
+          "currency": "GBP",
+          "numericAmount": 4300000000,
+          "unit": "currency",
+          "disclosure": "stated"
         }
       ],
       "financing": "The later stake purchase was funded from existing cash resources, according to Vodafone.",
@@ -587,7 +622,13 @@
       "related": [
         "capital-markets"
       ],
-      "verifiedOn": "2026-11-24"
+      "verifiedOn": "2026-11-24",
+      "regulation": {
+        "authority": "FCA",
+        "instrument": "Rules / policy statement",
+        "phase": "In force",
+        "applicability": "Issuers and advisers considering offers or admission to trading under the applicable regime."
+      }
     },
     {
       "id": "merger-guidance",
@@ -610,7 +651,13 @@
         "merger-control"
       ],
       "verifiedOn": "2026-11-24",
-      "datePrecision": "month"
+      "datePrecision": "month",
+      "regulation": {
+        "authority": "CMA",
+        "instrument": "Guidance",
+        "phase": "Guidance",
+        "applicability": "Parties assessing UK merger jurisdiction and procedure."
+      }
     },
     {
       "id": "code-scope",
@@ -632,7 +679,13 @@
       "related": [
         "capital-markets"
       ],
-      "verifiedOn": "2026-11-24"
+      "verifiedOn": "2026-11-24",
+      "regulation": {
+        "authority": "Takeover Panel",
+        "instrument": "Guidance",
+        "phase": "Transition",
+        "applicability": "Companies and bidders assessing Code applicability and transition criteria."
+      }
     },
     {
       "jurisdiction": "UK",
@@ -712,17 +765,32 @@
         {
           "label": "Equity value",
           "amount": "Approximately £308m",
-          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility"
+          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility",
+          "basis": "equity-value",
+          "currency": "GBP",
+          "numericAmount": 308000000,
+          "unit": "currency",
+          "disclosure": "approximate"
         },
         {
           "label": "Enterprise value",
           "amount": "Approximately £2.3bn",
-          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility"
+          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility",
+          "basis": "enterprise-value",
+          "currency": "GBP",
+          "numericAmount": 2300000000,
+          "unit": "currency",
+          "disclosure": "approximate"
         },
         {
           "label": "Offer per share",
           "amount": "46p",
-          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility"
+          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility",
+          "basis": "cash-per-share",
+          "currency": "GBP",
+          "numericAmount": 0.46,
+          "unit": "currency-per-share",
+          "disclosure": "stated"
         }
       ],
       "analysis": "The gap between equity and enterprise valuation makes the capital structure central to the investment thesis. Do not infer net debt from the gap without checking the valuation definitions. A scheme requires its own shareholder and court process; lenders also need certainty on funding and closing.",
@@ -801,7 +869,12 @@
         {
           "label": "Ontario Teachers’ proposed investment only",
           "amount": "€545m",
-          "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-ontario-teachers-on-its-investment-in-cary-group"
+          "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-ontario-teachers-on-its-investment-in-cary-group",
+          "basis": "investment-commitment",
+          "currency": "EUR",
+          "numericAmount": 545000000,
+          "unit": "currency",
+          "disclosure": "stated"
         }
       ],
       "analysis": "A consortium structure raises governance questions distinct from the purchase price: reserved matters, future funding, exit rights and alignment between investors with different investment horizons.",
@@ -945,7 +1018,12 @@
         {
           "label": "Combined project investment",
           "amount": "Approximately £12bn",
-          "source": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/news/news-2026-11-11_a/"
+          "source": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/news/news-2026-11-11_a/",
+          "basis": "project-investment",
+          "currency": "GBP",
+          "numericAmount": 12000000000,
+          "unit": "currency",
+          "disclosure": "approximate"
         }
       ],
       "analysis": "Project economics depend on construction cost, revenue arrangements, grid connection and risk allocation. The investment decision does not eliminate construction risk; advisers must distinguish committed funding, drawdown conditions and completion milestones.",
@@ -1036,7 +1114,13 @@
       ],
       "related": [
         "corporate-governance"
-      ]
+      ],
+      "regulation": {
+        "authority": "Companies House",
+        "instrument": "Enforcement guidance",
+        "phase": "Guidance",
+        "applicability": "Directors, persons with significant control and teams managing company filings."
+      }
     },
     {
       "jurisdiction": "UK",
@@ -1069,7 +1153,12 @@
         {
           "label": "Cash consideration",
           "amount": "US$3.535bn",
-          "source": "https://www.lseg.com/en/media-centre/press-releases/2026/lseg-acquire-octus-public-private-credit-solutions"
+          "source": "https://www.lseg.com/en/media-centre/press-releases/2026/lseg-acquire-octus-public-private-credit-solutions",
+          "basis": "cash-consideration",
+          "currency": "USD",
+          "numericAmount": 3535000000,
+          "unit": "currency",
+          "disclosure": "stated"
         }
       ],
       "financing": "External debt; LSEG expects leverage near the top of its 1.5–2.5x target range at end-2027 under its stated assumptions.",
@@ -1204,17 +1293,32 @@
         {
           "label": "Total facility",
           "amount": "£300m",
-          "source": "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/june/linklaters-advices-abp"
+          "source": "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/june/linklaters-advices-abp",
+          "basis": "financing-commitment",
+          "currency": "GBP",
+          "numericAmount": 300000000,
+          "unit": "currency",
+          "disclosure": "stated"
         },
         {
           "label": "National Wealth Fund commitment",
           "amount": "£200m",
-          "source": "https://www.nationalwealthfund.org.uk/news-and-publications/news/national-wealth-fund-backs-major-port-infrastructure-projects-with-200m-commitment-to-abp/"
+          "source": "https://www.nationalwealthfund.org.uk/news-and-publications/news/national-wealth-fund-backs-major-port-infrastructure-projects-with-200m-commitment-to-abp/",
+          "basis": "financing-commitment",
+          "currency": "GBP",
+          "numericAmount": 200000000,
+          "unit": "currency",
+          "disclosure": "stated"
         },
         {
           "label": "Commercial bank commitments",
           "amount": "£100m",
-          "source": "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/june/linklaters-advices-abp"
+          "source": "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/june/linklaters-advices-abp",
+          "basis": "financing-commitment",
+          "currency": "GBP",
+          "numericAmount": 100000000,
+          "unit": "currency",
+          "disclosure": "stated"
         }
       ],
       "financing": "Public and private lenders fund a port investment programme. Drawdowns, maturity and pricing are not established in this record.",
@@ -1292,7 +1396,12 @@
         {
           "label": "Securitised financing portion",
           "amount": "£603m",
-          "source": "https://www.cliffordchance.com/news/news/2026/10/clifford-chance-advises-deutsche-bank-and-standard-chartered-on-603-million-uk-logistics-cmbs.html"
+          "source": "https://www.cliffordchance.com/news/news/2026/10/clifford-chance-advises-deutsche-bank-and-standard-chartered-on-603-million-uk-logistics-cmbs.html",
+          "basis": "financing-commitment",
+          "currency": "GBP",
+          "numericAmount": 603000000,
+          "unit": "currency",
+          "disclosure": "stated"
         }
       ],
       "financing": "Commercial mortgage-backed note issuance; tranche details not established in this record.",
@@ -1354,7 +1463,12 @@
         {
           "label": "Note principal",
           "amount": "US$200m",
-          "source": "https://www.cliffordchance.com/news/news/2026/08/clifford-chance-advises-on-landmark-digitally-native-note-issuance-for-standard-chartered.html"
+          "source": "https://www.cliffordchance.com/news/news/2026/08/clifford-chance-advises-on-landmark-digitally-native-note-issuance-for-standard-chartered.html",
+          "basis": "note-principal",
+          "currency": "USD",
+          "numericAmount": 200000000,
+          "unit": "currency",
+          "disclosure": "stated"
         }
       ],
       "analysis": "Digital settlement infrastructure can change operational processes without eliminating ordinary debt and securities-law obligations.",
@@ -1414,12 +1528,22 @@
         {
           "label": "Consideration reported in trading update",
           "amount": "£561m",
-          "source": "https://www.drax.com/financial-news/trading-update-upgraded-outlook-for-2026-ebitda/"
+          "source": "https://www.drax.com/financial-news/trading-update-upgraded-outlook-for-2026-ebitda/",
+          "basis": "acquisition-consideration",
+          "currency": "GBP",
+          "numericAmount": 561000000,
+          "unit": "currency",
+          "disclosure": "stated"
         },
         {
           "label": "Enterprise value reported in trading update",
           "amount": "£1.082bn",
-          "source": "https://www.drax.com/financial-news/trading-update-upgraded-outlook-for-2026-ebitda/"
+          "source": "https://www.drax.com/financial-news/trading-update-upgraded-outlook-for-2026-ebitda/",
+          "basis": "enterprise-value",
+          "currency": "GBP",
+          "numericAmount": 1082000000,
+          "unit": "currency",
+          "disclosure": "stated"
         }
       ],
       "analysis": "Acquiring operating renewable assets changes the buyer's generation mix and introduces portfolio-specific debt, power-price and asset performance exposure.",
@@ -1665,7 +1789,13 @@
       ],
       "related": [
         "corporate-governance"
-      ]
+      ],
+      "regulation": {
+        "authority": "UK government",
+        "instrument": "Consultation",
+        "phase": "Consultation",
+        "applicability": "Companies and advisers assessing proposals for reporting, distributions and capital maintenance."
+      }
     },
     {
       "jurisdiction": "UK",
@@ -1692,7 +1822,13 @@
       ],
       "related": [
         "capital-markets"
-      ]
+      ],
+      "regulation": {
+        "authority": "FCA",
+        "instrument": "Guidance consultation",
+        "phase": "Consultation",
+        "applicability": "Issuers and advisers applying prospectus and supplementary prospectus rules."
+      }
     },
     {
       "jurisdiction": "UK",
@@ -1720,7 +1856,13 @@
       "related": [
         "finance",
         "corporate-governance"
-      ]
+      ],
+      "regulation": {
+        "authority": "FCA",
+        "instrument": "Call for evidence",
+        "phase": "Call for evidence",
+        "applicability": "Investment firms and groups assessing prudential obligations."
+      }
     },
     {
       "jurisdiction": "UK",
@@ -1749,17 +1891,32 @@
         {
           "label": "Announced equity offer valuation",
           "amount": "Approximately £3.7bn",
-          "source": "https://www.slaughterandmay.com/recent-work/direct-line-group-on-its-recommended-acquisition-by-aviva/"
+          "source": "https://www.slaughterandmay.com/recent-work/direct-line-group-on-its-recommended-acquisition-by-aviva/",
+          "basis": "equity-value",
+          "currency": "GBP",
+          "numericAmount": 3700000000,
+          "unit": "currency",
+          "disclosure": "approximate"
         },
         {
           "label": "Cash per scheme share",
           "amount": "129.7p",
-          "source": "https://www.aviva.com/newsroom/news-and-research-overview/news-releases/2025/07/aviva-completes-acquisition-of-direct-line/"
+          "source": "https://www.aviva.com/newsroom/news-and-research-overview/news-releases/2025/07/aviva-completes-acquisition-of-direct-line/",
+          "basis": "cash-per-share",
+          "currency": "GBP",
+          "numericAmount": 1.297,
+          "unit": "currency-per-share",
+          "disclosure": "stated"
         },
         {
           "label": "New Aviva shares per scheme share",
           "amount": "0.2867",
-          "source": "https://www.aviva.com/newsroom/news-and-research-overview/news-releases/2025/07/aviva-completes-acquisition-of-direct-line/"
+          "source": "https://www.aviva.com/newsroom/news-and-research-overview/news-releases/2025/07/aviva-completes-acquisition-of-direct-line/",
+          "basis": "share-exchange-ratio",
+          "currency": null,
+          "numericAmount": 0.2867,
+          "unit": "shares-per-share",
+          "disclosure": "stated"
         }
       ],
       "financing": "Mixed cash and equity consideration; detailed funding terms not established here.",
@@ -1850,7 +2007,12 @@
         {
           "label": "Reported takeover value",
           "amount": "£3.3bn",
-          "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2024/december/linklaters-secures-regulatory-clearances-for-britvics-takeover-by-carlsberg"
+          "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2024/december/linklaters-secures-regulatory-clearances-for-britvics-takeover-by-carlsberg",
+          "basis": "acquisition-value",
+          "currency": "GBP",
+          "numericAmount": 3300000000,
+          "unit": "currency",
+          "disclosure": "stated"
         }
       ],
       "regulatory": "CMA clearance in December 2024; Linklaters reported securing regulatory clearances for Britvic.",
@@ -2159,7 +2321,12 @@
         {
           "label": "Agreed acquisition value reported by target counsel",
           "amount": "£7.8bn",
-          "source": "https://www.slaughterandmay.com/services/practices/corporate-and-m-a/"
+          "source": "https://www.slaughterandmay.com/services/practices/corporate-and-m-a/",
+          "basis": "acquisition-value",
+          "currency": "GBP",
+          "numericAmount": 7800000000,
+          "unit": "currency",
+          "disclosure": "stated"
         }
       ],
       "timeline": [
@@ -2222,7 +2389,13 @@
       ],
       "related": [
         "data-ip"
-      ]
+      ],
+      "regulation": {
+        "authority": "UK government / legislation",
+        "instrument": "Commencement legislation",
+        "phase": "Phased commencement",
+        "applicability": "Organisations assessing specific data protection provisions and transitional rules."
+      }
     },
     {
       "id": "employment-rights-implementation",
@@ -2248,7 +2421,13 @@
       ],
       "related": [
         "employment-diligence"
-      ]
+      ],
+      "regulation": {
+        "authority": "UK government",
+        "instrument": "Implementation timetable",
+        "phase": "Prospective measures",
+        "applicability": "Employers and transaction teams assessing prospective employment changes."
+      }
     },
     {
       "id": "dmcc-consumer-enforcement",
@@ -2270,7 +2449,13 @@
       ],
       "related": [
         "due-diligence"
-      ]
+      ],
+      "regulation": {
+        "authority": "UK legislation",
+        "instrument": "Commencement legislation",
+        "phase": "In force",
+        "applicability": "Consumer-facing businesses and advisers assessing Part 3 enforcement powers."
+      }
     },
     {
       "id": "ons-ma-q2-2026",
@@ -2321,7 +2506,12 @@
         {
           "label": "Proposed transaction value (not completed consideration)",
           "amount": "US$20bn",
-          "source": "https://www.gov.uk/government/publications/cma-annual-report-and-accounts-2023-to-2024/annual-report-and-accounts-2023-to-2024"
+          "source": "https://www.gov.uk/government/publications/cma-annual-report-and-accounts-2023-to-2024/annual-report-and-accounts-2023-to-2024",
+          "basis": "proposed-deal-value",
+          "currency": "USD",
+          "numericAmount": 20000000000,
+          "unit": "currency",
+          "disclosure": "stated"
         }
       ],
       "regulatory": "CMA Phase 2 investigation cancelled following abandonment; cancellation is not a final prohibition decision.",
@@ -2976,7 +3166,7 @@
       "GOV.UK Search API",
       "https://docs.publishing.service.gov.uk/repos/search-api/using-the-search-api.html",
       "Discovery",
-      "Public documented API; runtime verification pending."
+      "See the source monitor for the latest retrieval result and failures."
     ],
     [
       "GOV.UK Content API",
