@@ -112,6 +112,7 @@ export function recordQuality(d) {
  if(/\b(?:playBackSpeedTitle|playbackRateMenu|videoPlayerConfig|playerControlsConfig)\b/i.test(payload))
   return {kind:"needs-research",reason:"Scraped player metadata; editorial review required"};
  const rawValue=String(d.value||"").trim();
+ if(d.id==="NSE-rss-dfc550b85c71fdb64a7176"&&/^₹\s*2$/.test(rawValue))return {kind:"needs-research",reason:"Extracted amount lacks established transaction value basis; review source"};
  if(/^(?:₹|INR|Rs\.?|\$|USD|£|GBP|€)\s*[,.;:\-–—]*$/i.test(rawValue))
   return {kind:"needs-research",reason:"Malformed extracted financial value; editorial review required"};
  // Corporate Law Tracker is India-focused. A global IPO or financing without
