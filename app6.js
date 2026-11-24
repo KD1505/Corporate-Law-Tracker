@@ -113,7 +113,12 @@ $("subClose").onclick=()=>$("sub").classList.remove("on");
 $("sub").onclick=e=>{if(e.target.id==="sub")$("sub").classList.remove("on");};
 $("subForm").onsubmit=e=>{e.preventDefault();submitEmail($("subEmail").value,$("subBtn"),()=>{$("subBody").innerHTML=`<div class="brief-ok" style="margin-top:6px"><span class="tick">✓</span><span>You're on the list - the first brief lands tomorrow morning.</span></div>`;});};
 route=parseHash();
-buildSidebar();buildRail();buildAdv();render();
+buildSidebar();
+// Render the requested route before supplementary widgets; neither widget may block the feed.
+render();
+for(const [label,setup] of [["rail",buildRail],["advanced search",buildAdv]]){
+  try{setup();}catch(e){console.error("CorpLawTracker: "+label+" initialization failed",e);}
+}
 // Remember visible IDs across visits to show only newly published records next time.
 lsSet("clt_seen_ids",DEALS.map(d=>d.id));
 
