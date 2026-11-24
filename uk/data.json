@@ -2664,6 +2664,577 @@
         "data-ip",
         "due-diligence"
       ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "evidenceScope": "Public transaction-party and adviser disclosures reviewed; underlying contracts and confidential terms not independently inspected.",
+      "id": "athora-picg",
+      "title": "Athora / Pension Insurance Corporation Group",
+      "eventDate": "2026-03-27",
+      "announcedOn": "2025-07-03",
+      "status": "Completed",
+      "sector": "Insurance",
+      "dealType": "Cross-border M&A",
+      "parties": [
+        [
+          "Buyer",
+          "Athora Holding Ltd."
+        ],
+        [
+          "Target",
+          "Pension Insurance Corporation Group Limited"
+        ],
+        [
+          "Sellers",
+          "Reinet, ADIA subsidiary, CVC and HPS-managed funds and other shareholders"
+        ]
+      ],
+      "structure": "Acquisition of the UK insurer's holding company under a definitive agreement.",
+      "fact": "Athora agreed the acquisition in July 2025 and announced completion on 27 March 2026. The transaction establishes its UK insurance platform. The announced price was approximately £5.7bn; the purchaser also disclosed a separate new equity raise.",
+      "factSources": [
+        "https://www.athora.com/news/athora-to-acquire-PIC",
+        "https://www.athora.com/news/athora-group-completes-acquisition-pension-insurance-corporation-group-and-announces-plans",
+        "https://www.pensioncorporation.com/news-insights/press-releases/2026/athora-regulatory-approval-acquisition-pic"
+      ],
+      "values": [
+        {
+          "label": "Announced acquisition value",
+          "amount": "Approximately £5.7bn",
+          "basis": "acquisition-value",
+          "currency": "GBP",
+          "numericAmount": 5700000000,
+          "unit": "currency",
+          "disclosure": "approximate",
+          "source": "https://www.athora.com/news/athora-to-acquire-PIC"
+        },
+        {
+          "label": "New common equity raised to support acquisition and growth",
+          "amount": "€3.5bn",
+          "basis": "equity-financing",
+          "currency": "EUR",
+          "numericAmount": 3500000000,
+          "unit": "currency",
+          "disclosure": "stated",
+          "source": "https://www.pensioncorporation.com/news-insights/press-releases/2026/athora-regulatory-approval-acquisition-pic"
+        }
+      ],
+      "financing": "PIC reported €3.5bn of new common equity supporting the transaction and growth; detailed funding allocations not established.",
+      "regulatory": "PIC reported PRA change-in-control approval on 6 March 2026 and no FCA objection. Planned headquarters relocation is separate and subject to further approvals.",
+      "analysis": "A pension risk-transfer acquisition combines long-duration liabilities and investment portfolios. The buyer's capacity to source suitable assets and maintain prudential capital matters alongside purchase price. Integration and group supervision are separate from completion.",
+      "legalWork": "Assess change-in-control notifications, insurance solvency and group structure, investment and reinsurance arrangements, funding conditions, warranties and post-closing governance.",
+      "interview": "How do prudential approval, acquisition financing and the buyer's planned relocation create separate workstreams?",
+      "watch": "The separately proposed UK headquarters relocation and applicable supervisory arrangements.",
+      "timeline": [
+        {
+          "date": "2025-07-03",
+          "event": "Definitive acquisition agreement announced",
+          "source": "https://www.athora.com/news/athora-to-acquire-PIC"
+        },
+        {
+          "date": "2025-07-03",
+          "event": "Sidley disclosed its buyer mandate",
+          "source": "https://www.sidley.com/en/newslanding/newsannouncements/2025/07/sidley-advises-athora-on-acquisition-of-pension-insurance-corporation-group-limited"
+        },
+        {
+          "date": "2025-07-07",
+          "event": "A&O Shearman disclosed its co-counsel role",
+          "source": "https://www.aoshearman.com/en/news/ao-shearman-advises-athora-on-landmark-gbp5-7-billion-acquisition-of-picg"
+        },
+        {
+          "date": "2026-03-06",
+          "event": "PRA approval and common equity raise reported",
+          "source": "https://www.pensioncorporation.com/news-insights/press-releases/2026/athora-regulatory-approval-acquisition-pic"
+        },
+        {
+          "date": "2026-03-27",
+          "event": "Buyer announced completion",
+          "source": "https://www.athora.com/news/athora-group-completes-acquisition-pension-insurance-corporation-group-and-announces-plans"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Athora acquisition announcement",
+          "url": "https://www.athora.com/news/athora-to-acquire-PIC"
+        },
+        {
+          "name": "Athora completion announcement",
+          "url": "https://www.athora.com/news/athora-group-completes-acquisition-pension-insurance-corporation-group-and-announces-plans"
+        },
+        {
+          "name": "PIC regulatory approval and financing update",
+          "url": "https://www.pensioncorporation.com/news-insights/press-releases/2026/athora-regulatory-approval-acquisition-pic"
+        },
+        {
+          "name": "A&O Shearman mandate disclosure",
+          "url": "https://www.aoshearman.com/en/news/ao-shearman-advises-athora-on-landmark-gbp5-7-billion-acquisition-of-picg"
+        },
+        {
+          "name": "Sidley mandate disclosure",
+          "url": "https://www.sidley.com/en/newslanding/newsannouncements/2025/07/sidley-advises-athora-on-acquisition-of-pension-insurance-corporation-group-limited"
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "A&O Shearman",
+          "firmId": "ao-shearman",
+          "client": "Athora",
+          "scope": "Acquisition co-counsel",
+          "source": "https://www.aoshearman.com/en/news/ao-shearman-advises-athora-on-landmark-gbp5-7-billion-acquisition-of-picg"
+        },
+        {
+          "firm": "Sidley Austin",
+          "firmId": "sidley",
+          "client": "Athora",
+          "scope": "Acquisition counsel",
+          "source": "https://www.sidley.com/en/newslanding/newsannouncements/2025/07/sidley-advises-athora-on-acquisition-of-pension-insurance-corporation-group-limited"
+        }
+      ],
+      "related": [
+        "finance",
+        "private-equity",
+        "due-diligence"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "evidenceScope": "Public transaction-party and adviser disclosures reviewed; underlying contracts and confidential terms not independently inspected.",
+      "id": "itm-gbe-equity",
+      "title": "Great British Energy / ITM Power strategic equity investment",
+      "eventDate": "2026-07-09",
+      "announcedOn": "2026-04-09",
+      "status": "Equity investment announced; related grant awarded",
+      "sector": "Energy",
+      "dealType": "Infrastructure investment",
+      "parties": [
+        [
+          "Investor",
+          "Great British Energy"
+        ],
+        [
+          "Issuer",
+          "ITM Power plc"
+        ],
+        [
+          "Grant authority",
+          "Department for Energy Security and Net Zero"
+        ]
+      ],
+      "structure": "Strategic equity investment alongside separate government grant funding.",
+      "fact": "ITM Power announced a £40m equity investment from Great British Energy on 9 April. On 9 July it confirmed formal award of a £46.5m DESNZ grant supporting its Sheffield manufacturing plans. The grant and equity investment are distinct funding instruments.",
+      "factSources": [
+        "https://itm-power.com/news/pound86.5-million-equity-and-grant-package-for-chronos-from-the-uk-government",
+        "https://itm-power.com/news/award-of-pound46.5m-desnz-grant"
+      ],
+      "values": [
+        {
+          "label": "Strategic equity investment",
+          "amount": "£40m",
+          "basis": "investment-commitment",
+          "currency": "GBP",
+          "numericAmount": 40000000,
+          "unit": "currency",
+          "disclosure": "stated",
+          "source": "https://itm-power.com/news/pound86.5-million-equity-and-grant-package-for-chronos-from-the-uk-government"
+        },
+        {
+          "label": "Separate DESNZ grant award",
+          "amount": "£46.5m",
+          "basis": "grant-funding",
+          "currency": "GBP",
+          "numericAmount": 46500000,
+          "unit": "currency",
+          "disclosure": "stated",
+          "source": "https://itm-power.com/news/award-of-pound46.5m-desnz-grant"
+        }
+      ],
+      "financing": "Equity participation and grant support; detailed subscription and grant conditions not established.",
+      "regulatory": "No specific regulatory approval or grant compliance determination is asserted here.",
+      "analysis": "Equity capital may dilute existing holders, while a grant can provide targeted funding subject to specific conditions. The economic outcome depends on manufacturing delivery, utilisation and demand; neither funding announcement proves commercial profitability.",
+      "legalWork": "Examine subscription terms, shareholder authorities, applicable AIM disclosure obligations, grant conditions and permitted expenditure, reporting and project delivery covenants.",
+      "interview": "Why is the £46.5m grant not part of the £40m equity investment, and what different risks would you diligence?",
+      "watch": "Manufacturing commissioning, delivery milestones and the disclosed conditions of each funding instrument.",
+      "timeline": [
+        {
+          "date": "2026-04-09",
+          "event": "Equity investment and intended grant announced",
+          "source": "https://itm-power.com/news/pound86.5-million-equity-and-grant-package-for-chronos-from-the-uk-government"
+        },
+        {
+          "date": "2026-04-09",
+          "event": "Burges Salmon disclosed issuer mandate",
+          "source": "https://www.burges-salmon.com/burges-salmon-advises-itm-power-plc-on-40m-strategic-equity-investment-by-great-british-energy/"
+        },
+        {
+          "date": "2026-07-09",
+          "event": "Grant formally awarded",
+          "source": "https://itm-power.com/news/award-of-pound46.5m-desnz-grant"
+        }
+      ],
+      "sources": [
+        {
+          "name": "ITM Power equity and grant announcement",
+          "url": "https://itm-power.com/news/pound86.5-million-equity-and-grant-package-for-chronos-from-the-uk-government"
+        },
+        {
+          "name": "ITM Power grant award",
+          "url": "https://itm-power.com/news/award-of-pound46.5m-desnz-grant"
+        },
+        {
+          "name": "Burges Salmon mandate disclosure",
+          "url": "https://www.burges-salmon.com/burges-salmon-advises-itm-power-plc-on-40m-strategic-equity-investment-by-great-british-energy/"
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "Burges Salmon",
+          "firmId": "burges",
+          "client": "ITM Power plc",
+          "scope": "Equity capital markets advice on strategic investment",
+          "source": "https://www.burges-salmon.com/burges-salmon-advises-itm-power-plc-on-40m-strategic-equity-investment-by-great-british-energy/"
+        }
+      ],
+      "related": [
+        "capital-markets",
+        "finance",
+        "project-finance"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "evidenceScope": "Public transaction-party and adviser disclosures reviewed; underlying contracts and confidential terms not independently inspected.",
+      "id": "cip-noriker-kilmarnock",
+      "title": "Copenhagen Infrastructure Partners / Noriker Kilmarnock South BESS",
+      "eventDate": "2026-10-28",
+      "status": "Project sold; construction underway",
+      "sector": "Energy",
+      "dealType": "Infrastructure M&A",
+      "parties": [
+        [
+          "Buyer / investor",
+          "Copenhagen Infrastructure Partners (CI IV)"
+        ],
+        [
+          "Developer / seller",
+          "Noriker Power"
+        ],
+        [
+          "Asset",
+          "Kilmarnock South battery energy storage project, Scotland"
+        ]
+      ],
+      "structure": "Project sale followed by construction management arrangements; investment decision separately reported.",
+      "fact": "CIP disclosed its investment decision on 2 October for the 350MW, four-hour Scottish storage project. Noriker's counsel disclosed on 28 October that Noriker had sold the project in January 2026 and continued supporting construction. The announced project commitment is not the sale price.",
+      "factSources": [
+        "https://www.cip.com/copenhagen-infrastructure-partners-p-s/r/copenhagen-infrastructure-partners-announces-eur-270-million-investment-in-new-scottish-battery-stor,c4388796?nfiid=3297",
+        "https://www.addleshawgoddard.com/en/news/2026/addleshaw-goddard-advises-noriker-power-major-uk-bess-project/"
+      ],
+      "values": [
+        {
+          "label": "Project investment commitment (not acquisition price)",
+          "amount": "Over €270m",
+          "basis": "project-investment",
+          "currency": "EUR",
+          "numericAmount": 270000000,
+          "unit": "currency",
+          "disclosure": "lower-bound",
+          "source": "https://www.cip.com/copenhagen-infrastructure-partners-p-s/r/copenhagen-infrastructure-partners-announces-eur-270-million-investment-in-new-scottish-battery-stor,c4388796?nfiid=3297"
+        }
+      ],
+      "financing": "CIP reported a project investment commitment; debt structure, purchase price and drawdown terms are not established.",
+      "regulatory": "Specific planning, grid and other consent conditions are not independently established here.",
+      "analysis": "Battery storage economics depend on grid access, availability and revenue arrangements. A developer selling a project but retaining construction responsibilities faces distinct execution obligations; the investment commitment should not be treated as seller consideration.",
+      "legalWork": "Diligence land rights, planning and grid arrangements; allocate construction and performance risk; review the construction management agreement, procurement and revenue contract.",
+      "interview": "How would you separate acquisition risk from construction risk when a project developer remains involved after sale?",
+      "watch": "Construction milestones and the announced target of commercial operation in Q1 2028.",
+      "timeline": [
+        {
+          "date": "2026-10-02",
+          "event": "CIP announced investment decision and construction status",
+          "source": "https://www.cip.com/copenhagen-infrastructure-partners-p-s/r/copenhagen-infrastructure-partners-announces-eur-270-million-investment-in-new-scottish-battery-stor,c4388796?nfiid=3297"
+        },
+        {
+          "date": "2026-10-28",
+          "event": "Noriker counsel disclosed earlier sale and construction work",
+          "source": "https://www.addleshawgoddard.com/en/news/2026/addleshaw-goddard-advises-noriker-power-major-uk-bess-project/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "CIP investment decision",
+          "url": "https://www.cip.com/copenhagen-infrastructure-partners-p-s/r/copenhagen-infrastructure-partners-announces-eur-270-million-investment-in-new-scottish-battery-stor,c4388796?nfiid=3297"
+        },
+        {
+          "name": "Addleshaw Goddard mandate disclosure",
+          "url": "https://www.addleshawgoddard.com/en/news/2026/addleshaw-goddard-advises-noriker-power-major-uk-bess-project/"
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "Addleshaw Goddard",
+          "firmId": "addleshaw",
+          "client": "Noriker Power",
+          "scope": "Project sale and construction arrangements",
+          "source": "https://www.addleshawgoddard.com/en/news/2026/addleshaw-goddard-advises-noriker-power-major-uk-bess-project/"
+        }
+      ],
+      "related": [
+        "project-finance",
+        "due-diligence",
+        "contract-remedies"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "evidenceScope": "Public transaction-party and adviser disclosures reviewed; underlying contracts and confidential terms not independently inspected.",
+      "id": "aab-kreston-reeves",
+      "title": "AAB / Kreston Reeves",
+      "eventDate": "2026-07-01",
+      "announcedOn": "2026-02-09",
+      "status": "Completed",
+      "sector": "Professional services",
+      "dealType": "Private equity M&A",
+      "parties": [
+        [
+          "Investor / acquirer",
+          "AAB"
+        ],
+        [
+          "Target",
+          "Kreston Reeves"
+        ],
+        [
+          "Sponsor backing AAB",
+          "Goldman Sachs Alternatives"
+        ]
+      ],
+      "structure": "Investment and combination with AAB; precise acquisition structure not disclosed in these sources.",
+      "fact": "Kreston Reeves announced its planned combination with AAB in February and confirmed on 1 July that it had joined the group following necessary regulatory approvals. The reported combined annual revenue exceeding £200m is a business metric, not transaction consideration.",
+      "factSources": [
+        "https://www.krestonreeves.com/news/joining-forces-with-aab/",
+        "https://www.krestonreeves.com/news/we-have-joined-aab/"
+      ],
+      "financing": "Purchase price and acquisition financing not established; sponsor backing disclosed.",
+      "regulatory": "Target confirmed receipt of necessary approvals; the particular authorities and conditions are not identified in this dossier.",
+      "analysis": "A professional-services combination can broaden client offerings and geographic reach, but value depends on partner and employee retention, integration and regulatory constraints. Combined turnover is not enterprise or equity value.",
+      "legalWork": "Review ownership and regulatory permissions, partner arrangements, client engagement terms, conflicts, confidentiality, tax structuring and integration risk. Assess closing conditions and retention arrangements.",
+      "interview": "Why would the acquisition of a regulated professional-services business require a different diligence plan from an ordinary trading company?",
+      "watch": "Integration, client continuity and future investment in systems and services.",
+      "timeline": [
+        {
+          "date": "2026-02-09",
+          "event": "Target announced intended combination",
+          "source": "https://www.krestonreeves.com/news/joining-forces-with-aab/"
+        },
+        {
+          "date": "2026-02-10",
+          "event": "Addleshaw Goddard disclosed advice alongside Linklaters",
+          "source": "https://www.addleshawgoddard.com/en/news/2026/ag-advises-aab-investment-kreston-reeves-create-200m-group/"
+        },
+        {
+          "date": "2026-07-01",
+          "event": "Target confirmed joining AAB after approvals",
+          "source": "https://www.krestonreeves.com/news/we-have-joined-aab/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Kreston Reeves announcement",
+          "url": "https://www.krestonreeves.com/news/joining-forces-with-aab/"
+        },
+        {
+          "name": "Kreston Reeves completion announcement",
+          "url": "https://www.krestonreeves.com/news/we-have-joined-aab/"
+        },
+        {
+          "name": "Addleshaw Goddard mandate disclosure",
+          "url": "https://www.addleshawgoddard.com/en/news/2026/ag-advises-aab-investment-kreston-reeves-create-200m-group/"
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "Addleshaw Goddard",
+          "firmId": "addleshaw",
+          "client": "AAB",
+          "scope": "Investment, diligence and acquisition terms",
+          "source": "https://www.addleshawgoddard.com/en/news/2026/ag-advises-aab-investment-kreston-reeves-create-200m-group/"
+        },
+        {
+          "firm": "Linklaters",
+          "firmId": "linklaters",
+          "client": "AAB",
+          "scope": "Co-adviser, as disclosed by Addleshaw Goddard",
+          "source": "https://www.addleshawgoddard.com/en/news/2026/ag-advises-aab-investment-kreston-reeves-create-200m-group/"
+        }
+      ],
+      "related": [
+        "private-equity",
+        "due-diligence",
+        "business-model"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "evidenceScope": "Public transaction-party and adviser disclosures reviewed; underlying contracts and confidential terms not independently inspected.",
+      "id": "tilleghem-saragossa",
+      "title": "Tilleghem Capital / Saragossa",
+      "eventDate": "2026-10-15",
+      "announcedOn": "2026-09-30",
+      "status": "Growth equity investment disclosed",
+      "sector": "Technology / professional services",
+      "dealType": "Private equity M&A",
+      "parties": [
+        [
+          "Investor",
+          "Tilleghem Capital"
+        ],
+        [
+          "Target",
+          "Saragossa Limited"
+        ]
+      ],
+      "structure": "Acquisition of an equity stake; size, control rights and exact instrument not established.",
+      "fact": "Saragossa's announcement dated 30 September disclosed a strategic growth investment from Tilleghem Capital. Burges Salmon subsequently reported advising the investor on the equity stake on 15 October.",
+      "factSources": [
+        "https://saragossa.io/insights/saragossa-secures-strategic-growth-investment-from-tilleghem-capital/",
+        "https://www.burges-salmon.com/burges-salmon-advises-tilleghem-capital-on-acquisition-of-equity-stake-in-saragossa-limited/"
+      ],
+      "financing": "Investment amount and ownership percentage not established.",
+      "regulatory": "Specific approvals and filing requirements not established.",
+      "analysis": "A growth investment in a founder-led services business may finance expansion without a complete sale. The commercial relationship depends on founder alignment, customer concentration and the rights attaching to the investor's stake.",
+      "legalWork": "Review subscription or purchase mechanics, governance and reserved matters, management incentives, IP and key contracts, employment, tax and exit rights. Do not assume a majority stake.",
+      "interview": "What information would you need before advising a founder on the control and dilution implications of this investment?",
+      "watch": "Disclosed expansion, product development and integration milestones.",
+      "timeline": [
+        {
+          "date": "2026-09-30",
+          "event": "Target dated its investment announcement",
+          "source": "https://saragossa.io/insights/saragossa-secures-strategic-growth-investment-from-tilleghem-capital/"
+        },
+        {
+          "date": "2026-10-15",
+          "event": "Investor counsel disclosed mandate",
+          "source": "https://www.burges-salmon.com/burges-salmon-advises-tilleghem-capital-on-acquisition-of-equity-stake-in-saragossa-limited/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Saragossa investment announcement",
+          "url": "https://saragossa.io/insights/saragossa-secures-strategic-growth-investment-from-tilleghem-capital/"
+        },
+        {
+          "name": "Burges Salmon mandate disclosure",
+          "url": "https://www.burges-salmon.com/burges-salmon-advises-tilleghem-capital-on-acquisition-of-equity-stake-in-saragossa-limited/"
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "Burges Salmon",
+          "firmId": "burges",
+          "client": "Tilleghem Capital",
+          "scope": "Equity stake acquisition",
+          "source": "https://www.burges-salmon.com/burges-salmon-advises-tilleghem-capital-on-acquisition-of-equity-stake-in-saragossa-limited/"
+        }
+      ],
+      "related": [
+        "private-equity",
+        "data-ip",
+        "due-diligence"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "evidenceScope": "Public transaction-party and adviser disclosures reviewed; underlying contracts and confidential terms not independently inspected.",
+      "id": "boralex-wind2",
+      "title": "Boralex / Wind2",
+      "eventDate": "2026-11-05",
+      "announcedOn": "2026-10-27",
+      "status": "Completed; seller counsel subsequently disclosed",
+      "sector": "Energy",
+      "dealType": "Infrastructure M&A",
+      "parties": [
+        [
+          "Buyer",
+          "Boralex Inc."
+        ],
+        [
+          "Target",
+          "Wind2"
+        ],
+        [
+          "Sellers",
+          "Wind2 shareholders"
+        ]
+      ],
+      "structure": "Acquisition of a UK renewable-energy development business and its project pipeline.",
+      "fact": "Boralex announced the acquisition on 27 October. Wind2 published a closing announcement dated 29 October, describing approximately 350MW of advanced development projects. Seller counsel disclosed its mandate on 5 November. The capacity figure is not a financial valuation.",
+      "factSources": [
+        "https://uk.boralex.com/en/press-releases/boralex-accelerates-expansion-united-kingdom-acquisition-wind2",
+        "https://wind2.co.uk/news/boralex-accelerates-growth-in-the-united-kingdom-with-the-acquisition-of-wind2-including-a-350-mw-development-platform",
+        "https://www.burges-salmon.com/burges-salmon-advises-the-shareholders-of-wind2-on-disposal-to-boralex/"
+      ],
+      "financing": "Financial consideration and financing not established in these sources.",
+      "regulatory": "Individual project planning, land and grid approvals require separate review; no universal clearance inferred.",
+      "analysis": "Buying a development platform may accelerate access to projects and specialist staff but does not guarantee future operating capacity. Value depends on the probability of delivery, grid connections, consenting, capital needs and revenue arrangements.",
+      "legalWork": "Diligence project-company ownership, land and option rights, planning status, grid connections, development contracts, workforce and possible contingent consideration; allocate development-stage risks.",
+      "interview": "Why is a 350MW development pipeline not equivalent to 350MW of operating capacity?",
+      "watch": "Project-specific construction and commissioning milestones.",
+      "timeline": [
+        {
+          "date": "2026-10-27",
+          "event": "Buyer announced acquisition",
+          "source": "https://uk.boralex.com/en/press-releases/boralex-accelerates-expansion-united-kingdom-acquisition-wind2"
+        },
+        {
+          "date": "2026-10-29",
+          "event": "Closing announcement published by target",
+          "source": "https://wind2.co.uk/news/boralex-accelerates-growth-in-the-united-kingdom-with-the-acquisition-of-wind2-including-a-350-mw-development-platform"
+        },
+        {
+          "date": "2026-11-05",
+          "event": "Seller counsel disclosed mandate",
+          "source": "https://www.burges-salmon.com/burges-salmon-advises-the-shareholders-of-wind2-on-disposal-to-boralex/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Boralex announcement",
+          "url": "https://uk.boralex.com/en/press-releases/boralex-accelerates-expansion-united-kingdom-acquisition-wind2"
+        },
+        {
+          "name": "Wind2 closing announcement",
+          "url": "https://wind2.co.uk/news/boralex-accelerates-growth-in-the-united-kingdom-with-the-acquisition-of-wind2-including-a-350-mw-development-platform"
+        },
+        {
+          "name": "Burges Salmon mandate disclosure",
+          "url": "https://www.burges-salmon.com/burges-salmon-advises-the-shareholders-of-wind2-on-disposal-to-boralex/"
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "Burges Salmon",
+          "firmId": "burges",
+          "client": "Wind2 shareholders",
+          "scope": "Disposal; corporate and specialist workstreams",
+          "source": "https://www.burges-salmon.com/burges-salmon-advises-the-shareholders-of-wind2-on-disposal-to-boralex/"
+        }
+      ],
+      "related": [
+        "project-finance",
+        "due-diligence",
+        "business-model"
+      ]
     }
   ],
   "lessons": [
@@ -3123,6 +3694,13 @@
       "programme": "London early-careers application guidance, including training contract, work experience and apprenticeship pathways.",
       "url": "https://www.slaughterandmay.com/careers/early-careers/apply/",
       "research": "Practise an evidence-led discussion of a public takeover and the distinction between deal economics and completion conditions."
+    },
+    {
+      "id": "sidley",
+      "name": "Sidley Austin",
+      "programme": "Official careers directory includes London experienced-lawyer and business-professional routes and a separate student careers site. Check current vacancy and eligibility information.",
+      "url": "https://www.sidley.com/en/careers",
+      "research": "Use the Athora / PICG acquisition to discuss insurer change-of-control approval, acquisition financing and cross-border coordination."
     }
   ],
   "registry": [
