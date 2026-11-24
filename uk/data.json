@@ -110,13 +110,26 @@
         {
           "name": "CMA case",
           "url": "https://www.gov.uk/cma-cases/vodafone-slash-ck-hutchison-jv-merger-inquiry"
+        },
+        {
+          "name": "Freshfields mandate announcement",
+          "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2024/12/freshfields-advises-ck-hutchison-on-securing-landmark-cma-merger-approval-for-three-uk-and-vodafone-uk"
         }
       ],
       "related": [
         "merger-control",
         "finance"
       ],
-      "verifiedOn": "2026-11-24"
+      "verifiedOn": "2026-11-24",
+      "advisers": [
+        {
+          "firm": "Freshfields",
+          "firmId": "freshfields",
+          "client": "CK Hutchison",
+          "scope": "CMA merger approval",
+          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2024/12/freshfields-advises-ck-hutchison-on-securing-landmark-cma-merger-approval-for-three-uk-and-vodafone-uk"
+        }
+      ]
     },
     {
       "id": "microsoft-activision",
@@ -149,12 +162,12 @@
       "jurisdiction": "UK",
       "category": "Transactions",
       "title": "Nationwide / Virgin Money",
-      "eventDate": "2024-07-19",
-      "status": "CMA clearance at event date",
+      "eventDate": "2024-10-01",
+      "status": "Completed",
       "sector": "Banking",
-      "fact": "The CMA cleared the proposed acquisition on 19 July 2024. Virgin Money subsequently reported FCA and PRA approval ahead of the planned court hearing in September 2024.",
+      "fact": "The CMA cleared the proposed acquisition on 19 July 2024; Virgin Money later confirmed FCA and PRA approval. Nationwide confirms completion on 1 October 2024. A separate legal transfer of Virgin Money's business to Nationwide completed on 2 April 2026.",
       "analysis": "Bank acquisitions may involve separate prudential and competition workstreams. Clearance from one authority does not establish satisfaction of all conditions or completion.",
-      "watch": "This entry records historical approvals, not a current ownership-status determination.",
+      "watch": "Distinguish the original share acquisition from the later business transfer and integration.",
       "sources": [
         {
           "name": "CMA case",
@@ -163,6 +176,14 @@
         {
           "name": "Virgin Money regulatory update",
           "url": "https://uk.virginmoney.com/nationwide-and-virginmoney/"
+        },
+        {
+          "name": "Nationwide completion",
+          "url": "https://www.nationwide.co.uk/about-us/the-big-nationwide-thank-you"
+        },
+        {
+          "name": "Nationwide business transfer",
+          "url": "https://www.nationwide.co.uk/nationwide-and-virgin-money-transfer"
         }
       ],
       "related": [
@@ -262,7 +283,8 @@
       "related": [
         "merger-control"
       ],
-      "verifiedOn": "2026-11-24"
+      "verifiedOn": "2026-11-24",
+      "datePrecision": "month"
     },
     {
       "id": "code-scope",
@@ -272,7 +294,7 @@
       "eventDate": "2025-02-03",
       "status": "Scope guidance; check transition",
       "sector": "Public M&A",
-      "fact": "The Panel publishes guidance distinguishing the Code's jurisdiction before, during and after its transition period. A UK adviser alone does not make an offer subject to the Code.",
+      "fact": "The Panel’s revised jurisdictional scope has a transition period from 3 February 2025 until 2 February 2027 for certain companies previously covered. A UK adviser alone does not make an offer subject to the Code.",
       "analysis": "Check incorporation, admission history and transition criteria before selecting the public bid timetable. Do not assume every UK-connected acquisition is a Code transaction.",
       "watch": "Check the Panel’s current applicability guidance for the specific target.",
       "sources": [

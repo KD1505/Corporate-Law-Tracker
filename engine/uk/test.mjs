@@ -4,3 +4,5 @@ test("records have unique IDs, dated sources and valid crosslinks",()=>{const id
 test("quiz answer bounds and static fallback",()=>{for(const l of data.lessons){assert(l.answer>=0&&l.answer<l.options.length);assert.equal(new Set(l.options).size,l.options.length);assert(l.explanation);assert(html.includes('id="'+l.id+'"'));}});
 test("candidate parsing rejects offsite and duplicate paths",()=>{const a={link:"/cma-cases/example-merger",title:"Example merger"};assert.equal(parseCandidates({results:[a,a,{link:"//evil.test",title:"merger"},{link:"/cma-cases/foo",title:"market study"}]}).length,1);assert.throws(()=>parseCandidates({}));});
 test("India navigation preserved and UK crosslink present",()=>{const india=fs.readFileSync(new URL("index.html",root),"utf8");assert(india.includes('href="/uk.html"'));assert(india.includes("PRERENDER-START"));assert(html.includes('href="/"'));});
+
+test("adviser attribution is tied to a source and known firm",()=>{for(const r of data.records)for(const a of r.advisers||[]){assert(data.firms.some(f=>f.id===a.firmId));assert(r.sources.some(s=>s.url===a.source));assert(a.client&&a.scope);}});

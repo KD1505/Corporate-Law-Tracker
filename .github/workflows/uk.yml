@@ -21,7 +21,9 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: '22'
-      - run: node --check uk/app.js && node --test engine/uk/test.mjs
+      - run: node --check uk/app.js && node --test engine/uk/test.mjs && node engine/uk/render.mjs --check
+      - run: npm install --no-save --package-lock=false playwright-core@1.51.1
+      - run: node engine/uk/browser-test.mjs
   discover:
     if: github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
     needs: verify
