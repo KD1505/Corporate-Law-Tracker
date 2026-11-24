@@ -1,1 +1,843 @@
-{"checkedAt":null,"items":[]}
+{
+  "checkedAt": "2026-11-24T07:16:57.309Z",
+  "query": "CMA case pages updated from 2023-01-01; maximum 600 search rows, merger-title filtered",
+  "pages": 5,
+  "sourceRows": 435,
+  "items": [
+    {
+      "path": "/cma-cases/vivisol-slash-air-liquide-home-oxygen-services-business-merger-inquiry",
+      "title": "Vivisol / Air Liquide (home oxygen services business) merger inquiry",
+      "sourceUpdated": "2026-11-19T07:00:13Z"
+    },
+    {
+      "path": "/cma-cases/nexfibre-slash-substantial-merger-inquiry",
+      "title": "nexfibre / Substantial merger inquiry",
+      "sourceUpdated": "2026-11-18T15:04:01Z"
+    },
+    {
+      "path": "/cma-cases/ocs-slash-mitie-merger-inquiry",
+      "title": "OCS / Mitie merger inquiry",
+      "sourceUpdated": "2026-11-18T10:30:50Z"
+    },
+    {
+      "path": "/cma-cases/mari-slash-atg-entertainment-merger-inquiry",
+      "title": "Mari / ATG Entertainment merger inquiry",
+      "sourceUpdated": "2026-11-16T12:00:44Z"
+    },
+    {
+      "path": "/cma-cases/pilgrims-slash-walkers-deli-and-sausage-co-merger-inquiry",
+      "title": "Pilgrim’s / Walkers Deli & Sausage Co merger inquiry",
+      "sourceUpdated": "2026-11-11T12:01:14Z"
+    },
+    {
+      "path": "/cma-cases/akzonobel-slash-axalta-merger-inquiry",
+      "title": "AkzoNobel / Axalta merger inquiry",
+      "sourceUpdated": "2026-11-11T07:30:31Z"
+    },
+    {
+      "path": "/cma-cases/mccormick-slash-unilever-merger-inquiry",
+      "title": "McCormick / Unilever merger inquiry",
+      "sourceUpdated": "2026-11-11T07:02:26Z"
+    },
+    {
+      "path": "/cma-cases/co-operative-group-slash-southern-co-operative-merger-inquiry",
+      "title": "Co-operative Group / Southern Co-operative merger inquiry",
+      "sourceUpdated": "2026-11-10T12:01:26Z"
+    },
+    {
+      "path": "/cma-cases/nrg-fleet-services-slash-specialist-fleet-services-merger-inquiry",
+      "title": "NRG Fleet Services / Specialist Fleet Services merger inquiry",
+      "sourceUpdated": "2026-11-04T14:00:50Z"
+    },
+    {
+      "path": "/cma-cases/sky-slash-itv-merger-inquiry",
+      "title": "Sky / ITV merger inquiry",
+      "sourceUpdated": "2026-11-04T13:52:01Z"
+    },
+    {
+      "path": "/cma-cases/abp-slash-dovecote-park-merger-inquiry",
+      "title": "ABP / Dovecote Park merger inquiry",
+      "sourceUpdated": "2026-10-29T12:02:05Z"
+    },
+    {
+      "path": "/cma-cases/peoplesafe-slash-soloprotect-merger-inquiry",
+      "title": "Peoplesafe / SoloProtect merger inquiry",
+      "sourceUpdated": "2026-10-29T11:01:48Z"
+    },
+    {
+      "path": "/cma-cases/aramark-slash-entier-merger-inquiry",
+      "title": "Aramark / Entier merger inquiry",
+      "sourceUpdated": "2026-10-27T13:00:32Z"
+    },
+    {
+      "path": "/cma-cases/macquarie-asset-management-slash-energy-assets-group-merger-inquiry",
+      "title": "Macquarie Asset Management / Energy Assets Group merger inquiry",
+      "sourceUpdated": "2026-10-27T12:31:57Z"
+    },
+    {
+      "path": "/cma-cases/prologis-slash-segro-merger-inquiry",
+      "title": "Prologis / SEGRO merger inquiry",
+      "sourceUpdated": "2026-10-27T07:00:14Z"
+    },
+    {
+      "path": "/cma-cases/firstcash-slash-ramsdens-merger-inquiry",
+      "title": "FirstCash / Ramsdens merger inquiry",
+      "sourceUpdated": "2026-10-26T11:01:40Z"
+    },
+    {
+      "path": "/cma-cases/intersurgical-slash-teleflex-acute-care-and-interventional-urology-businesses-merger-inquiry",
+      "title": "Intersurgical / Teleflex (acute care and interventional urology businesses) merger inquiry",
+      "sourceUpdated": "2026-10-20T09:00:42Z"
+    },
+    {
+      "path": "/cma-cases/bt-slash-talktalk-merger-inquiry",
+      "title": "BT / TalkTalk merger inquiry",
+      "sourceUpdated": "2026-10-19T14:31:52Z"
+    },
+    {
+      "path": "/cma-cases/daily-mail-and-general-trust-plc-slash-telegraph-media-group-merger-inquiry",
+      "title": "Daily Mail and General Trust plc / Telegraph Media Group merger inquiry",
+      "sourceUpdated": "2026-10-16T10:47:36Z"
+    },
+    {
+      "path": "/cma-cases/redbird-imi-slash-telegraph-media-group-merger-inquiry",
+      "title": "RedBird IMI / Telegraph Media Group merger inquiry",
+      "sourceUpdated": "2026-10-16T10:47:28Z"
+    },
+    {
+      "path": "/cma-cases/the-brinks-company-slash-ncr-atleos-corporation-merger-inquiry",
+      "title": "The Brink’s Company / NCR Atleos Corporation merger inquiry",
+      "sourceUpdated": "2026-10-14T10:00:45Z"
+    },
+    {
+      "path": "/cma-cases/vandemoortele-slash-delifrance-merger-inquiry",
+      "title": "Vandemoortele / Délifrance merger inquiry",
+      "sourceUpdated": "2026-10-07T11:59:54Z"
+    },
+    {
+      "path": "/cma-cases/healthcare-ireland-slash-hutchinson-homes-merger-inquiry",
+      "title": "Healthcare Ireland / Hutchinson Homes merger inquiry",
+      "sourceUpdated": "2026-10-07T11:05:11Z"
+    },
+    {
+      "path": "/cma-cases/eon-slash-ovo-merger-inquiry",
+      "title": "E.ON / OVO merger inquiry",
+      "sourceUpdated": "2026-10-06T10:00:27Z"
+    },
+    {
+      "path": "/cma-cases/vodafone-slash-ck-hutchison-jv-merger-inquiry",
+      "title": "Vodafone / CK Hutchison JV merger inquiry",
+      "sourceUpdated": "2026-09-29T11:00:38Z"
+    },
+    {
+      "path": "/cma-cases/gxo-slash-wincanton-merger-inquiry",
+      "title": "GXO / Wincanton merger inquiry",
+      "sourceUpdated": "2026-09-23T09:00:33Z"
+    },
+    {
+      "path": "/cma-cases/kone-slash-tk-elevator-merger-inquiry",
+      "title": "KONE / TK Elevator merger inquiry",
+      "sourceUpdated": "2026-09-22T06:00:31Z"
+    },
+    {
+      "path": "/cma-cases/welltower-slash-multiple-care-homes-merger-inquiries",
+      "title": "Welltower / multiple care homes merger inquiries",
+      "sourceUpdated": "2026-09-15T11:01:10Z"
+    },
+    {
+      "path": "/cma-cases/seras-slash-enva-dedicated-waste-wood-business-merger-inquiry",
+      "title": "Seras / Enva (dedicated waste wood business) merger inquiry",
+      "sourceUpdated": "2026-09-03T10:31:03Z"
+    },
+    {
+      "path": "/cma-cases/danone-slash-huel-merger-inquiry",
+      "title": "Danone / Huel merger inquiry",
+      "sourceUpdated": "2026-08-25T11:00:49Z"
+    },
+    {
+      "path": "/cma-cases/schlumberger-slash-championx-merger-inquiry",
+      "title": "Schlumberger / ChampionX merger inquiry",
+      "sourceUpdated": "2026-08-25T08:27:20Z"
+    },
+    {
+      "path": "/cma-cases/paramount-slash-warner-bros-discovery-merger-inquiry",
+      "title": "Paramount / Warner Bros. Discovery merger inquiry",
+      "sourceUpdated": "2026-08-17T11:01:48Z"
+    },
+    {
+      "path": "/cma-cases/ebay-slash-depop-merger-inquiry",
+      "title": "eBay / Depop merger inquiry",
+      "sourceUpdated": "2026-07-17T11:00:24Z"
+    },
+    {
+      "path": "/cma-cases/getty-images-slash-shutterstock-merger-inquiry",
+      "title": "Getty Images / Shutterstock merger inquiry",
+      "sourceUpdated": "2026-07-08T11:26:49Z"
+    },
+    {
+      "path": "/cma-cases/suzano-slash-kimberly-clark-jv-merger-inquiry",
+      "title": "Suzano / Kimberly-Clark JV merger inquiry",
+      "sourceUpdated": "2026-06-19T09:00:38Z"
+    },
+    {
+      "path": "/cma-cases/abf-slash-hovis-merger-inquiry",
+      "title": "ABF / Hovis merger inquiry",
+      "sourceUpdated": "2026-06-16T10:01:13Z"
+    },
+    {
+      "path": "/cma-cases/spreadex-slash-sporting-index-merger-inquiry",
+      "title": "Spreadex / Sporting Index merger inquiry",
+      "sourceUpdated": "2026-06-12T10:01:12Z"
+    },
+    {
+      "path": "/cma-cases/lb-group-slash-venator-uk-tio2-assets-merger-inquiry",
+      "title": "LB Group / Venator UK (TiO2 assets) merger inquiry",
+      "sourceUpdated": "2026-06-04T10:00:28Z"
+    },
+    {
+      "path": "/cma-cases/hays-slash-polka-dot-and-hays-slash-millington-merger-inquiries",
+      "title": "Hays / Polka Dot and Hays / Millington merger inquiries",
+      "sourceUpdated": "2026-05-29T10:01:20Z"
+    },
+    {
+      "path": "/cma-cases/ldc-slash-green-label-merger-inquiry",
+      "title": "LDC / Green Label merger inquiry",
+      "sourceUpdated": "2026-04-29T12:00:55Z"
+    },
+    {
+      "path": "/cma-cases/crh-slash-gibson-merger-inquiry",
+      "title": "CRH / Gibson merger inquiry",
+      "sourceUpdated": "2026-03-18T14:00:24Z"
+    },
+    {
+      "path": "/cma-cases/korean-air-slash-asiana-airlines-merger-inquiry",
+      "title": "Korean Air / Asiana Airlines merger inquiry",
+      "sourceUpdated": "2026-03-16T13:00:42Z"
+    },
+    {
+      "path": "/cma-cases/topps-tiles-slash-ctd-tiles-certain-assets-merger-inquiry",
+      "title": "Topps Tiles / CTD Tiles (certain assets) merger inquiry",
+      "sourceUpdated": "2026-01-22T12:00:59Z"
+    },
+    {
+      "path": "/cma-cases/rhone-capital-slash-archimed-slash-dhg-slash-invacare-merger-inquiry",
+      "title": "Rhône Capital / Archimed / DHG / Invacare merger inquiry",
+      "sourceUpdated": "2026-01-16T11:00:09Z"
+    },
+    {
+      "path": "/cma-cases/beacon-slash-eversholt-merger-inquiry",
+      "title": "Beacon / Eversholt merger inquiry",
+      "sourceUpdated": "2026-01-16T10:30:37Z"
+    },
+    {
+      "path": "/cma-cases/greencore-slash-bakkavor-merger-inquiry",
+      "title": "Greencore / Bakkavor merger inquiry",
+      "sourceUpdated": "2025-12-18T11:30:15Z"
+    },
+    {
+      "path": "/cma-cases/fis-slash-tsys-merger-inquiry",
+      "title": "FIS / TSYS merger inquiry",
+      "sourceUpdated": "2025-12-15T14:00:04Z"
+    },
+    {
+      "path": "/cma-cases/rundvirke-slash-calders-and-grandidge-merger-inquiry",
+      "title": "Rundvirke / Calders & Grandidge merger inquiry",
+      "sourceUpdated": "2025-12-11T11:00:57Z"
+    },
+    {
+      "path": "/cma-cases/unite-slash-empiric-merger-inquiry",
+      "title": "Unite / Empiric merger inquiry",
+      "sourceUpdated": "2025-12-05T11:00:06Z"
+    },
+    {
+      "path": "/cma-cases/synopsys-slash-ansys-merger-inquiry",
+      "title": "Synopsys / Ansys merger inquiry",
+      "sourceUpdated": "2025-11-27T13:00:11Z"
+    },
+    {
+      "path": "/cma-cases/smflh-slash-mrl-merger-inquiry",
+      "title": "SMFLH / MRL merger inquiry",
+      "sourceUpdated": "2025-11-21T12:00:31Z"
+    },
+    {
+      "path": "/cma-cases/subsea7-slash-saipem-merger-inquiry",
+      "title": "Subsea7 / Saipem merger inquiry",
+      "sourceUpdated": "2025-11-20T13:00:24Z"
+    },
+    {
+      "path": "/cma-cases/php-slash-assura-merger-inquiry",
+      "title": "PHP / Assura merger inquiry",
+      "sourceUpdated": "2025-11-13T11:00:30Z"
+    },
+    {
+      "path": "/cma-cases/s-and-p-global-slash-orbcomm-ais-merger-inquiry",
+      "title": "S&P Global / ORBCOMM AIS merger inquiry",
+      "sourceUpdated": "2025-11-11T12:01:02Z"
+    },
+    {
+      "path": "/cma-cases/global-payments-slash-worldpay-merger-inquiry",
+      "title": "Global Payments / WorldPay merger inquiry",
+      "sourceUpdated": "2025-11-05T11:00:14Z"
+    },
+    {
+      "path": "/cma-cases/sportradar-slash-img-arena-merger-inquiry",
+      "title": "Sportradar / IMG Arena merger inquiry",
+      "sourceUpdated": "2025-11-03T14:00:19Z"
+    },
+    {
+      "path": "/cma-cases/accent-wire-slash-dr-baling-wire-merger-inquiry",
+      "title": "Accent Wire / DR Baling Wire merger inquiry",
+      "sourceUpdated": "2025-10-30T12:00:06Z"
+    },
+    {
+      "path": "/cma-cases/norcros-slash-fibo-merger-inquiry",
+      "title": "Norcros / Fibo merger inquiry",
+      "sourceUpdated": "2025-10-20T11:00:48Z"
+    },
+    {
+      "path": "/cma-cases/rubix-uk-slash-eriks-uk-merger-inquiry",
+      "title": "Rubix UK/Eriks UK merger inquiry",
+      "sourceUpdated": "2025-09-08T10:00:15Z"
+    },
+    {
+      "path": "/cma-cases/evri-slash-dhl-merger-inquiry",
+      "title": "EVRi / DHL merger inquiry",
+      "sourceUpdated": "2025-09-05T14:15:44Z"
+    },
+    {
+      "path": "/cma-cases/safran-slash-collins-merger-inquiry",
+      "title": "Safran / Collins merger inquiry",
+      "sourceUpdated": "2025-09-02T12:56:56Z"
+    },
+    {
+      "path": "/cma-cases/the-boeing-company-slash-spirit-aerosystems-holdings-inc-merger-inquiry",
+      "title": "The Boeing Company / Spirit Aerosystems Holdings Inc. merger inquiry",
+      "sourceUpdated": "2025-08-27T12:00:17Z"
+    },
+    {
+      "path": "/cma-cases/omnicom-slash-interpublic-merger-inquiry",
+      "title": "Omnicom / Interpublic merger inquiry",
+      "sourceUpdated": "2025-08-26T10:00:09Z"
+    },
+    {
+      "path": "/cma-cases/kingspan-slash-coverworld-merger-inquiry",
+      "title": "Kingspan / Coverworld merger inquiry",
+      "sourceUpdated": "2025-08-15T10:00:21Z"
+    },
+    {
+      "path": "/cma-cases/aviva-slash-direct-line-merger-inquiry",
+      "title": "Aviva / Direct Line merger inquiry",
+      "sourceUpdated": "2025-08-07T11:00:17Z"
+    },
+    {
+      "path": "/cma-cases/kpler-slash-spire-global-merger-inquiry",
+      "title": "Kpler / Spire Global merger inquiry",
+      "sourceUpdated": "2025-07-29T10:00:37Z"
+    },
+    {
+      "path": "/cma-cases/wabtec-slash-dellner-merger-inquiry",
+      "title": "Wabtec / Dellner merger inquiry",
+      "sourceUpdated": "2025-07-21T10:00:17Z"
+    },
+    {
+      "path": "/cma-cases/lindab-slash-has-vent-merger-inquiry",
+      "title": "Lindab / HAS-Vent merger inquiry",
+      "sourceUpdated": "2025-07-03T09:41:53Z"
+    },
+    {
+      "path": "/cma-cases/lesaffre-slash-biorigin-merger-inquiry",
+      "title": "Lesaffre / Biorigin merger inquiry",
+      "sourceUpdated": "2025-06-12T09:31:04Z"
+    },
+    {
+      "path": "/cma-cases/ses-sa-slash-intelsat-holdings-sa-r-dot-l-merger-inquiry",
+      "title": "SES S.A. / Intelsat Holdings S.à r.l. merger inquiry",
+      "sourceUpdated": "2025-06-10T12:00:17Z"
+    },
+    {
+      "path": "/cma-cases/viagogo-stubhub-merger-inquiry",
+      "title": "viagogo / StubHub merger inquiry",
+      "sourceUpdated": "2025-06-05T10:05:11Z"
+    },
+    {
+      "path": "/cma-cases/cellnex-slash-ck-hutchison-uk-towers-merger-inquiry",
+      "title": "Cellnex / CK Hutchison UK towers merger inquiry",
+      "sourceUpdated": "2025-06-03T10:31:06Z"
+    },
+    {
+      "path": "/cma-cases/mastercard-vocalink-merger-inquiry",
+      "title": "MasterCard / VocaLink merger inquiry",
+      "sourceUpdated": "2025-06-03T10:31:03Z"
+    },
+    {
+      "path": "/cma-cases/hunter-douglas-n-v-247-home-furnishings-ltd-merger-inquiry",
+      "title": "Hunter Douglas N.V. / 247 Home Furnishings Ltd merger inquiry",
+      "sourceUpdated": "2025-06-03T10:30:52Z"
+    },
+    {
+      "path": "/cma-cases/bauer-media-group-merger-inquiry",
+      "title": "Bauer Media Group merger inquiry",
+      "sourceUpdated": "2025-06-03T10:30:49Z"
+    },
+    {
+      "path": "/cma-cases/barratt-slash-redrow-merger-inquiry",
+      "title": "Barratt / Redrow merger inquiry",
+      "sourceUpdated": "2025-06-03T10:30:45Z"
+    },
+    {
+      "path": "/cma-cases/hitachi-slash-thales-merger-inquiry",
+      "title": "Hitachi / Thales merger inquiry",
+      "sourceUpdated": "2025-06-03T10:30:37Z"
+    },
+    {
+      "path": "/cma-cases/keysight-slash-spirent-merger-inquiry",
+      "title": "Keysight / Spirent merger inquiry",
+      "sourceUpdated": "2025-05-16T13:00:07Z"
+    },
+    {
+      "path": "/cma-cases/iberdrola-slash-nwen-merger-inquiry",
+      "title": "Iberdrola / NWEN merger inquiry",
+      "sourceUpdated": "2025-05-01T09:02:00Z"
+    },
+    {
+      "path": "/cma-cases/microsoft-slash-openai-partnership-merger-inquiry",
+      "title": "Microsoft / OpenAI partnership merger inquiry",
+      "sourceUpdated": "2025-04-15T10:30:20Z"
+    },
+    {
+      "path": "/cma-cases/mri-software-slash-capita-one-merger-inquiry",
+      "title": "MRI Software / Capita One merger inquiry",
+      "sourceUpdated": "2025-04-10T11:00:16Z"
+    },
+    {
+      "path": "/cma-cases/william-grant-and-sons-slash-the-famous-grouse-merger-inquiry",
+      "title": "William Grant & Sons / The Famous Grouse merger inquiry",
+      "sourceUpdated": "2025-04-03T11:00:13Z"
+    },
+    {
+      "path": "/cma-cases/ibm-slash-hashicorp-merger-inquiry",
+      "title": "IBM / HashiCorp merger inquiry",
+      "sourceUpdated": "2025-04-03T10:00:59Z"
+    },
+    {
+      "path": "/cma-cases/bidvest-phs-group-slash-citron-hygiene-merger-inquiry",
+      "title": "Bidvest (phs Group) / Citron Hygiene merger inquiry",
+      "sourceUpdated": "2025-04-01T13:00:39Z"
+    },
+    {
+      "path": "/cma-cases/blackrock-slash-preqin-merger-inquiry",
+      "title": "BlackRock / Preqin merger inquiry",
+      "sourceUpdated": "2025-03-20T12:00:15Z"
+    },
+    {
+      "path": "/cma-cases/boparan-slash-forfarmers-burston-and-radstock-mills-merger-inquiry",
+      "title": "Boparan / ForFarmers (Burston and Radstock mills) merger inquiry",
+      "sourceUpdated": "2025-03-19T07:00:10Z"
+    },
+    {
+      "path": "/cma-cases/outbrain-inc-slash-teads-sa-merger-inquiry",
+      "title": "Outbrain Inc. / Teads S.A. / Altice Teads S.A. merger inquiry",
+      "sourceUpdated": "2025-03-11T10:00:28Z"
+    },
+    {
+      "path": "/cma-cases/cerelia-slash-jus-rol-merger-inquiry",
+      "title": "Cérélia / Jus-Rol merger inquiry",
+      "sourceUpdated": "2025-03-07T13:05:21Z"
+    },
+    {
+      "path": "/cma-cases/global-business-travel-group-inc-slash-cwt-holdings-llc-merger-inquiry",
+      "title": "Global Business Travel Group, Inc / CWT Holdings, LLC merger inquiry",
+      "sourceUpdated": "2025-03-06T16:55:13Z"
+    },
+    {
+      "path": "/cma-cases/carlsberg-slash-britvic-merger-inquiry",
+      "title": "Carlsberg / Britvic merger inquiry",
+      "sourceUpdated": "2025-02-04T11:00:18Z"
+    },
+    {
+      "path": "/cma-cases/altrad-slash-stork-uk-merger-inquiry",
+      "title": "Altrad / Stork UK merger inquiry",
+      "sourceUpdated": "2025-01-23T10:30:52Z"
+    },
+    {
+      "path": "/cma-cases/sonoco-slash-eviosys-merger-inquiry",
+      "title": "Sonoco / Eviosys merger inquiry",
+      "sourceUpdated": "2025-01-14T13:00:57Z"
+    },
+    {
+      "path": "/cma-cases/alphabet-inc-google-llc-slash-anthropic-merger-inquiry",
+      "title": "Alphabet Inc. (Google LLC) / Anthropic merger inquiry",
+      "sourceUpdated": "2024-12-24T12:01:45Z"
+    },
+    {
+      "path": "/cma-cases/xsys-slash-mgs-merger-inquiry",
+      "title": "XSYS / MGS merger inquiry",
+      "sourceUpdated": "2024-12-11T10:30:33Z"
+    },
+    {
+      "path": "/cma-cases/arla-foods-ingredients-slash-volac-whey-nutrition-merger-inquiry",
+      "title": "Arla Foods Ingredients / Volac Whey Nutrition merger inquiry",
+      "sourceUpdated": "2024-12-10T11:05:14Z"
+    },
+    {
+      "path": "/cma-cases/muller-dairy-uk-limited-slash-yew-tree-dairy-holdings-limited-merger-inquiry",
+      "title": "Muller Dairy (UK) Limited / Yew Tree Dairy Holdings Limited merger inquiry",
+      "sourceUpdated": "2024-12-06T14:02:18Z"
+    },
+    {
+      "path": "/cma-cases/acerinox-slash-haynes-merger-inquiry",
+      "title": "Acerinox / Haynes merger inquiry",
+      "sourceUpdated": "2024-11-15T11:00:54Z"
+    },
+    {
+      "path": "/cma-cases/t-and-l-sugars-slash-tereos-merger-inquiry",
+      "title": "T&L Sugars/Tereos merger inquiry",
+      "sourceUpdated": "2024-10-28T15:42:30Z"
+    },
+    {
+      "path": "/cma-cases/amazon-slash-anthropic-partnership-merger-inquiry",
+      "title": "Amazon / Anthropic partnership merger inquiry",
+      "sourceUpdated": "2024-10-17T11:00:38Z"
+    },
+    {
+      "path": "/cma-cases/macquarie-asset-management-slash-last-mile-infrastructure-merger-inquiry",
+      "title": "Macquarie Asset Management / Last Mile Infrastructure merger inquiry",
+      "sourceUpdated": "2024-10-10T10:09:58Z"
+    },
+    {
+      "path": "/cma-cases/hewlett-packard-enterprise-company-slash-juniper-networks-inc-merger-inquiry",
+      "title": "Hewlett Packard Enterprise Company / Juniper Networks, Inc. merger inquiry",
+      "sourceUpdated": "2024-09-17T09:01:11Z"
+    },
+    {
+      "path": "/cma-cases/nationwide-building-society-slash-virgin-money-merger-inquiry",
+      "title": "Nationwide Building Society / Virgin Money merger inquiry",
+      "sourceUpdated": "2024-08-29T11:02:01Z"
+    },
+    {
+      "path": "/cma-cases/roche-slash-lumiradx-merger-inquiry",
+      "title": "Roche / LumiraDx merger inquiry",
+      "sourceUpdated": "2024-08-28T10:01:54Z"
+    },
+    {
+      "path": "/cma-cases/easypark-slash-flowbird-merger-inquiry",
+      "title": "EasyPark / Flowbird merger inquiry",
+      "sourceUpdated": "2024-08-22T10:42:03Z"
+    },
+    {
+      "path": "/cma-cases/eurofins-slash-cellmark-merger-inquiry",
+      "title": "Eurofins / Cellmark merger inquiry",
+      "sourceUpdated": "2024-08-19T09:04:09Z"
+    },
+    {
+      "path": "/cma-cases/scanpole-slash-c-and-g-merger-inquiry",
+      "title": "Scanpole / C&G merger inquiry",
+      "sourceUpdated": "2024-08-14T13:01:10Z"
+    },
+    {
+      "path": "/cma-cases/thermo-fisher-scientific-slash-olink-merger-inquiry",
+      "title": "Thermo Fisher Scientific / Olink merger inquiry",
+      "sourceUpdated": "2024-07-30T10:24:15Z"
+    },
+    {
+      "path": "/cma-cases/alphatheta-slash-serato-merger-inquiry",
+      "title": "AlphaTheta / Serato merger inquiry",
+      "sourceUpdated": "2024-07-22T11:18:43Z"
+    },
+    {
+      "path": "/cma-cases/reviews-of-three-merger-undertakings-and-one-market-investigation-order",
+      "title": "Reviews of three merger undertakings and one market investigation Order",
+      "sourceUpdated": "2024-07-10T10:34:21Z"
+    },
+    {
+      "path": "/cma-cases/tgs-slash-pgs-uk-merger-inquiry",
+      "title": "TGS/PGS UK merger inquiry",
+      "sourceUpdated": "2024-07-09T11:00:06Z"
+    },
+    {
+      "path": "/cma-cases/pennon-slash-sumisho-osaka-gas-water-uk-merger-inquiry",
+      "title": "Pennon / Sumisho Osaka Gas Water UK merger inquiry",
+      "sourceUpdated": "2024-06-24T11:02:30Z"
+    },
+    {
+      "path": "/cma-cases/cochlear-slash-oticon-merger-inquiry",
+      "title": "Cochlear / Oticon merger inquiry",
+      "sourceUpdated": "2024-05-29T12:48:10Z"
+    },
+    {
+      "path": "/cma-cases/hanson-slash-mick-george-merger-inquiry",
+      "title": "Hanson / Mick George merger inquiry",
+      "sourceUpdated": "2024-05-28T11:44:59Z"
+    },
+    {
+      "path": "/cma-cases/microsoft-slash-mistral-ai-partnership-merger-inquiry",
+      "title": "Microsoft / Mistral AI partnership merger inquiry",
+      "sourceUpdated": "2024-05-21T10:32:05Z"
+    },
+    {
+      "path": "/cma-cases/venus-topco-limited-slash-atlanta-investment-holdings-3-limited-merger-inquiry",
+      "title": "Venus Topco Limited / Atlanta Investment Holdings 3 Limited merger inquiry",
+      "sourceUpdated": "2024-05-14T11:00:38Z"
+    },
+    {
+      "path": "/cma-cases/aviva-slash-aig-life-merger-inquiry",
+      "title": "Aviva / AIG Life merger inquiry",
+      "sourceUpdated": "2024-05-03T10:02:11Z"
+    },
+    {
+      "path": "/cma-cases/daily-mail-and-general-holdings-limited-slash-news-corp-uk-and-ireland-limited-merger-inquiry",
+      "title": "Daily Mail and General Holdings Limited / News Corp UK & Ireland Limited merger inquiry",
+      "sourceUpdated": "2024-05-01T09:05:13Z"
+    },
+    {
+      "path": "/cma-cases/pharmacy2u-slash-lloyds-direct-assets-merger-inquiry",
+      "title": "Pharmacy2U / Lloyds Direct merger inquiry",
+      "sourceUpdated": "2024-04-19T11:00:41Z"
+    },
+    {
+      "path": "/cma-cases/arcelik-slash-whirlpool-emea-merger-inquiry",
+      "title": "Arçelik / Whirlpool EMEA merger inquiry",
+      "sourceUpdated": "2024-04-09T12:02:08Z"
+    },
+    {
+      "path": "/cma-cases/wolseley-slash-kooltech-merger-inquiry",
+      "title": "Wolseley/Kooltech merger inquiry",
+      "sourceUpdated": "2024-04-03T09:30:43Z"
+    },
+    {
+      "path": "/cma-cases/qualcomm-incorporated-slash-autotalks-ltd-merger-inquiry",
+      "title": "Qualcomm Incorporated / Autotalks Ltd merger inquiry",
+      "sourceUpdated": "2024-03-25T10:16:41Z"
+    },
+    {
+      "path": "/cma-cases/asda-slash-arthur-co-op-merger-inquiry",
+      "title": "Asda / Arthur (Co-op) merger inquiry",
+      "sourceUpdated": "2024-02-01T10:00:16Z"
+    },
+    {
+      "path": "/cma-cases/alumasc-slash-arp-and-rainwater-online-holdings-merger-inquiry",
+      "title": "Alumasc / ARP and Rainwater Online Holdings merger inquiry",
+      "sourceUpdated": "2024-01-29T11:00:19Z"
+    },
+    {
+      "path": "/cma-cases/copart-slash-hills-motors-merger-inquiry",
+      "title": "Copart / Hills Motors merger inquiry",
+      "sourceUpdated": "2024-01-19T12:00:53Z"
+    },
+    {
+      "path": "/cma-cases/adobe-slash-figma-merger-inquiry",
+      "title": "Adobe / Figma merger inquiry",
+      "sourceUpdated": "2023-12-19T12:12:07Z"
+    },
+    {
+      "path": "/cma-cases/brookfield-and-cameco-slash-westinghouse-merger-inquiry",
+      "title": "Brookfield & Cameco / Westinghouse merger inquiry",
+      "sourceUpdated": "2023-12-19T12:00:22Z"
+    },
+    {
+      "path": "/cma-cases/bestway-panacea-holdings-limited-slash-lexon-uk-holdings-and-asurex-merger-inquiry",
+      "title": "Bestway Panacea Holdings Limited / Lexon UK Holdings and Asurex merger inquiry",
+      "sourceUpdated": "2023-12-18T11:04:02Z"
+    },
+    {
+      "path": "/cma-cases/abp-slash-scotbeef-assets-merger-inquiry",
+      "title": "ABP / Scotbeef assets merger inquiry",
+      "sourceUpdated": "2023-12-14T09:02:15Z"
+    },
+    {
+      "path": "/cma-cases/siemens-slash-chargeco-topholding-bv-heliox-merger-inquiry",
+      "title": "Siemens / Heliox merger inquiry",
+      "sourceUpdated": "2023-12-04T11:01:44Z"
+    },
+    {
+      "path": "/cma-cases/whitby-seafoods-slash-kilhorne-bay-seafoods-merger-inquiry",
+      "title": "Whitby Seafoods / Kilhorne Bay Seafoods merger inquiry",
+      "sourceUpdated": "2023-11-10T09:00:06Z"
+    },
+    {
+      "path": "/cma-cases/morrisons-slash-mccolls-merger-inquiry-review-of-undertakings",
+      "title": "Morrisons / McColl's merger Inquiry: Review of undertakings",
+      "sourceUpdated": "2023-10-31T10:00:07Z"
+    },
+    {
+      "path": "/cma-cases/morrisons-slash-mccolls-merger-inquiry",
+      "title": "Morrisons / McColl's merger inquiry",
+      "sourceUpdated": "2023-10-31T09:59:59Z"
+    },
+    {
+      "path": "/cma-cases/microsoft-slash-activision-blizzard-merger-inquiry",
+      "title": "Microsoft / Activision Blizzard merger inquiry",
+      "sourceUpdated": "2023-10-13T06:00:40Z"
+    },
+    {
+      "path": "/cma-cases/microsoft-slash-activision-blizzard-ex-cloud-streaming-rights-merger-inquiry",
+      "title": "Microsoft / Activision Blizzard (ex-cloud streaming rights) merger inquiry",
+      "sourceUpdated": "2023-10-13T06:00:22Z"
+    },
+    {
+      "path": "/cma-cases/medivet-group-limited-slash-multiple-independent-veterinary-businesses-merger-inquiries",
+      "title": "Medivet Group Limited / multiple independent veterinary businesses merger inquiries",
+      "sourceUpdated": "2023-10-05T14:07:43Z"
+    },
+    {
+      "path": "/cma-cases/portman-healthcare-slash-dentex-healthcare-merger-inquiry",
+      "title": "Portman Healthcare / Dentex Healthcare merger inquiry",
+      "sourceUpdated": "2023-10-05T09:57:02Z"
+    },
+    {
+      "path": "/cma-cases/unitedhealth-group-slash-emis-merger-inquiry",
+      "title": "UnitedHealth Group / EMIS merger inquiry",
+      "sourceUpdated": "2023-09-29T13:05:34Z"
+    },
+    {
+      "path": "/cma-cases/lkq-corporation-slash-uni-select-merger-inquiry",
+      "title": "LKQ Corporation / Uni-Select merger inquiry",
+      "sourceUpdated": "2023-09-25T11:01:10Z"
+    },
+    {
+      "path": "/cma-cases/bloomberg-slash-broadway-technology-merger-inquiry",
+      "title": "Bloomberg / Broadway Technology merger inquiry",
+      "sourceUpdated": "2023-09-07T10:59:22Z"
+    },
+    {
+      "path": "/cma-cases/nucleus-slash-curtis-banks-merger-inquiry",
+      "title": "Nucleus / Curtis Banks merger inquiry",
+      "sourceUpdated": "2023-09-07T08:13:42Z"
+    },
+    {
+      "path": "/cma-cases/independent-vetcare-limited-ivc-slash-multiple-independent-veterinary-businesses-merger-inquiries",
+      "title": "Independent Vetcare Limited (IVC) / multiple independent veterinary businesses merger inquiries",
+      "sourceUpdated": "2023-08-31T13:31:51Z"
+    },
+    {
+      "path": "/cma-cases/broadcom-slash-vmware-merger-inquiry",
+      "title": "Broadcom / VMware merger inquiry",
+      "sourceUpdated": "2023-08-21T12:00:37Z"
+    },
+    {
+      "path": "/cma-cases/severn-trent-slash-andigestion-merger-inquiry",
+      "title": "Severn Trent / Andigestion merger inquiry",
+      "sourceUpdated": "2023-08-18T08:02:33Z"
+    },
+    {
+      "path": "/cma-cases/dye-and-durham-uk-limited-slash-tm-group-uk-limited-merger-inquiry",
+      "title": "Dye & Durham (UK) Limited / TM Group (UK) Limited merger inquiry",
+      "sourceUpdated": "2023-08-10T09:31:56Z"
+    },
+    {
+      "path": "/cma-cases/nec-software-solutions-uk-slash-capita-secure-solutions-and-services-merger-inquiry",
+      "title": "NEC Software Solutions UK / Capita Secure Solutions and Services merger inquiry",
+      "sourceUpdated": "2023-08-07T11:38:25Z"
+    },
+    {
+      "path": "/cma-cases/amazon-slash-irobot-merger-inquiry",
+      "title": "Amazon / iRobot merger inquiry",
+      "sourceUpdated": "2023-07-24T11:00:06Z"
+    },
+    {
+      "path": "/cma-cases/the-key-slash-rm-merger-inquiry",
+      "title": "The Key / RM merger inquiry",
+      "sourceUpdated": "2023-07-18T08:00:04Z"
+    },
+    {
+      "path": "/cma-cases/facebook-inc-giphy-inc-merger-inquiry",
+      "title": "Facebook, Inc (now Meta Platforms, Inc) / Giphy, Inc merger inquiry",
+      "sourceUpdated": "2023-06-30T09:18:24Z"
+    },
+    {
+      "path": "/cma-cases/bybox-slash-pelipod-merger-inquiry",
+      "title": "ByBox / Pelipod merger inquiry",
+      "sourceUpdated": "2023-06-29T11:01:41Z"
+    },
+    {
+      "path": "/cma-cases/review-of-merger-undertakings-given-by-british-sky-broadcasting",
+      "title": "Review of merger undertakings given by British Sky Broadcasting",
+      "sourceUpdated": "2023-06-28T09:58:22Z"
+    },
+    {
+      "path": "/cma-cases/edf-slash-ge-nuclear-steam-power-business-merger-inquiry",
+      "title": "EDF / GE (nuclear steam power business) merger inquiry",
+      "sourceUpdated": "2023-06-26T08:59:17Z"
+    },
+    {
+      "path": "/cma-cases/carpenter-co-slash-recticel-nv-slash-sa-merger-inquiry",
+      "title": "Carpenter Co. / Recticel NV/SA merger inquiry",
+      "sourceUpdated": "2023-06-19T12:08:10Z"
+    },
+    {
+      "path": "/cma-cases/riviera-bidco-limited-slash-dental-partners-group-limited-merger-inquiry",
+      "title": "Riviera Bidco Limited / Dental Partners Group Limited merger inquiry",
+      "sourceUpdated": "2023-06-19T08:17:43Z"
+    },
+    {
+      "path": "/cma-cases/calisen-slash-mapleco-merger-inquiry",
+      "title": "Calisen / MapleCo merger inquiry",
+      "sourceUpdated": "2023-06-14T10:00:41Z"
+    },
+    {
+      "path": "/cma-cases/stryker-slash-cerus-merger-inquiry",
+      "title": "Stryker / Cerus merger inquiry",
+      "sourceUpdated": "2023-05-19T11:01:28Z"
+    },
+    {
+      "path": "/cma-cases/sika-ag-slash-mbcc-group-merger-inquiry",
+      "title": "Sika AG / MBCC Group merger inquiry",
+      "sourceUpdated": "2023-05-11T10:36:14Z"
+    },
+    {
+      "path": "/cma-cases/viasat-slash-inmarsat-merger-inquiry",
+      "title": "Viasat / Inmarsat merger inquiry",
+      "sourceUpdated": "2023-05-10T13:34:50Z"
+    },
+    {
+      "path": "/cma-cases/yokohama-rubber-co-dot-ltd-slash-trelleborg-wheels-systems-holding-ab-merger-inquiry",
+      "title": "The Yokohama Rubber Co., Ltd / Trelleborg Wheels Systems Holding AB merger inquiry",
+      "sourceUpdated": "2023-05-04T12:08:45Z"
+    },
+    {
+      "path": "/cma-cases/eville-and-jones-slash-vorenta-merger-inquiry",
+      "title": "Eville & Jones / Vorenta merger inquiry",
+      "sourceUpdated": "2023-05-03T13:40:20Z"
+    },
+    {
+      "path": "/cma-cases/chc-slash-babcock-merger-inquiry",
+      "title": "CHC / Babcock merger inquiry",
+      "sourceUpdated": "2023-04-28T12:47:04Z"
+    },
+    {
+      "path": "/cma-cases/gic-realty-slash-greystar-slash-student-roost-merger-inquiry",
+      "title": "GIC / Greystar / Student Roost merger inquiry",
+      "sourceUpdated": "2023-04-12T11:00:07Z"
+    },
+    {
+      "path": "/cma-cases/baker-hughes-nederland-holdings-bv-slash-oz-midco-as-altus-intervention-merger-inquiry",
+      "title": "Baker Hughes Nederland Holdings B.V. / Oz MidCo AS (Altus Intervention) merger inquiry",
+      "sourceUpdated": "2023-04-11T13:41:08Z"
+    },
+    {
+      "path": "/cma-cases/capco-slash-shaftesbury-merger-inquiry",
+      "title": "Capco / Shaftesbury merger inquiry",
+      "sourceUpdated": "2023-04-05T10:32:34Z"
+    },
+    {
+      "path": "/cma-cases/veolia-slash-suez-merger-inquiry",
+      "title": "Veolia / Suez merger inquiry",
+      "sourceUpdated": "2023-02-22T10:00:54Z"
+    },
+    {
+      "path": "/cma-cases/forfarmers-slash-boparan-jv-merger-inquiry",
+      "title": "ForFarmers / Boparan JV merger inquiry",
+      "sourceUpdated": "2023-02-15T10:03:59Z"
+    },
+    {
+      "path": "/cma-cases/fedrigoni-spa-slash-arjowiggins-group-limited-merger-inquiry",
+      "title": "Fedrigoni S.p.A. / Arjowiggins Group Limited merger inquiry",
+      "sourceUpdated": "2023-01-13T12:00:17Z"
+    },
+    {
+      "path": "/cma-cases/cobham-slash-ultra-electronics-merger-inquiry",
+      "title": "Cobham / Ultra Electronics merger inquiry",
+      "sourceUpdated": "2023-01-10T11:02:01Z"
+    }
+  ]
+}
