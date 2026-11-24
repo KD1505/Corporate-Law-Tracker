@@ -602,6 +602,60 @@
       "name": "A&O Shearman",
       "url": "https://careers.aoshearman.com/en-gb/london-vacation-schemes",
       "kind": "employer"
+    },
+    {
+      "id": "listing:forsters-vs-2027",
+      "name": "Forsters",
+      "url": "https://www.forsters.co.uk/early-careers/vacation-schemes",
+      "kind": "listing",
+      "listingId": "forsters-vs-2027"
+    },
+    {
+      "id": "listing:forsters-tc-2029",
+      "name": "Forsters",
+      "url": "https://www.forsters.co.uk/early-careers/vacation-schemes",
+      "kind": "listing",
+      "listingId": "forsters-tc-2029"
+    },
+    {
+      "id": "listing:akin-spring-2027",
+      "name": "Akin",
+      "url": "https://www.akingump.com/en/careers/uk-students",
+      "kind": "listing",
+      "listingId": "akin-spring-2027"
+    },
+    {
+      "id": "listing:wfw-vs-2027",
+      "name": "Watson Farley & Williams",
+      "url": "https://earlycareers.wfw.com/what-we-offer/vacation-schemes/",
+      "kind": "listing",
+      "listingId": "wfw-vs-2027"
+    },
+    {
+      "id": "listing:hlc-vs-2027",
+      "name": "Hogan Lovells Cadwalader",
+      "url": "https://ukearlycareers.hlc.com/what-we-offer/vacation-scheme",
+      "kind": "listing",
+      "listingId": "hlc-vs-2027"
+    },
+    {
+      "id": "listing:ao-belfast-inhouse-paralegal",
+      "name": "A&O Shearman",
+      "url": "https://careers.aoshearman.com/en/job/belfast/paralegal/3392/46389448320",
+      "kind": "listing",
+      "listingId": "ao-belfast-inhouse-paralegal"
+    },
+    {
+      "id": "ao-career-search",
+      "name": "A&O Shearman",
+      "url": "https://careers.aoshearman.com/en-gb/search_jobs",
+      "kind": "employer"
+    },
+    {
+      "id": "cc-career-search",
+      "name": "Clifford Chance",
+      "url": "https://jobs.cliffordchance.com/",
+      "kind": "employer"
     }
   ]
 }

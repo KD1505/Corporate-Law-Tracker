@@ -761,6 +761,70 @@
       "url": "https://careers.aoshearman.com/en-gb/london-vacation-schemes",
       "status": "not-checked",
       "checkedAt": null
+    },
+    {
+      "id": "listing:forsters-vs-2027",
+      "name": "Forsters",
+      "kind": "listing",
+      "url": "https://www.forsters.co.uk/early-careers/vacation-schemes",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:forsters-tc-2029",
+      "name": "Forsters",
+      "kind": "listing",
+      "url": "https://www.forsters.co.uk/early-careers/vacation-schemes",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:akin-spring-2027",
+      "name": "Akin",
+      "kind": "listing",
+      "url": "https://www.akingump.com/en/careers/uk-students",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:wfw-vs-2027",
+      "name": "Watson Farley & Williams",
+      "kind": "listing",
+      "url": "https://earlycareers.wfw.com/what-we-offer/vacation-schemes/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:hlc-vs-2027",
+      "name": "Hogan Lovells Cadwalader",
+      "kind": "listing",
+      "url": "https://ukearlycareers.hlc.com/what-we-offer/vacation-scheme",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:ao-belfast-inhouse-paralegal",
+      "name": "A&O Shearman",
+      "kind": "listing",
+      "url": "https://careers.aoshearman.com/en/job/belfast/paralegal/3392/46389448320",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "ao-career-search",
+      "name": "A&O Shearman",
+      "kind": "employer",
+      "url": "https://careers.aoshearman.com/en-gb/search_jobs",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "cc-career-search",
+      "name": "Clifford Chance",
+      "kind": "employer",
+      "url": "https://jobs.cliffordchance.com/",
+      "status": "not-checked",
+      "checkedAt": null
     }
   ],
   "leads": [],
@@ -902,6 +966,36 @@
     },
     {
       "id": "gibson-secretary-4469300009",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "forsters-vs-2027",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "forsters-tc-2029",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "akin-spring-2027",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "wfw-vs-2027",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "hlc-vs-2027",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "ao-belfast-inhouse-paralegal",
       "priority": 70,
       "task": "Reconfirm role, requirements, status and sponsorship at official source."
     }
