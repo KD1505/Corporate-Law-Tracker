@@ -21,10 +21,11 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: '22'
-      - run: node --check uk/app.js && node --test engine/uk/test.mjs && node engine/uk/render.mjs --check
-      - run: npm install --no-save --package-lock=false playwright-core@1.51.1
+      - run: node --check uk/app.js && node --check uk/research.js && node --test engine/uk/test.mjs && node engine/uk/render.mjs --check
+      - run: npm install --no-save --package-lock=false playwright-core@1.51.1 axe-core@4.10.3
       - run: node engine/uk/browser-test.mjs
-      - if: github.event_name == 'pull_request'
+      - run: node engine/uk/quality-browser.mjs
+      - if: always()
         uses: actions/upload-artifact@v4
         with:
           name: uk-ui-review

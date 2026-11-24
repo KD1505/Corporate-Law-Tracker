@@ -47,4 +47,4 @@ test("shared design tokens and common brand are loaded by both jurisdictions",()
 
 test("exact logo navy is a shared design accent",()=>{const css=fs.readFileSync(new URL("shared/tokens.css",root),"utf8"),logo=fs.readFileSync(new URL("logo.svg",root),"utf8");assert(css.includes("--clt-brand:#16243f"));assert(logo.toLowerCase().includes("#16243f"));});
 
-test("research snapshots and source review metadata appear in every deal",()=>{for(const r of data.records.filter(r=>r.category==="Transactions")){const p=fs.readFileSync(new URL("uk/deals/"+r.id+".html",root),"utf8");assert(p.includes('data-snapshot="'));assert(p.includes('data-reviewed="'+r.verifiedOn+'"'));assert(p.includes('/uk/research.js?v=1'));}});
+test("research snapshots and source review metadata appear in every deal",()=>{for(const r of data.records.filter(r=>r.category==="Transactions")){const p=fs.readFileSync(new URL("uk/deals/"+r.id+".html",root),"utf8");assert(p.includes('data-snapshot="'));assert(p.includes('data-reviewed="'+r.verifiedOn+'"'));assert(p.includes('/uk/research.js?v=2'));}});
