@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "editorialAsOf": "2026-11-24",
   "records": [
     {
@@ -1721,6 +1721,575 @@
         "finance",
         "corporate-governance"
       ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "id": "aviva-direct-line",
+      "title": "Aviva / Direct Line",
+      "eventDate": "2025-07-01",
+      "announcedOn": "2024-12-23",
+      "status": "Completed",
+      "sector": "Insurance",
+      "dealType": "Public M&A",
+      "parties": [
+        [
+          "Bidder",
+          "Aviva plc"
+        ],
+        [
+          "Target",
+          "Direct Line Insurance Group plc"
+        ]
+      ],
+      "structure": "Recommended cash-and-share offer through court-sanctioned scheme.",
+      "fact": "Aviva completed the acquisition on 1 July 2025, following CMA clearance that day. The offer comprised new Aviva shares and cash, with a permitted pre-completion dividend.",
+      "values": [
+        {
+          "label": "Announced equity offer valuation",
+          "amount": "Approximately £3.7bn",
+          "source": "https://www.slaughterandmay.com/recent-work/direct-line-group-on-its-recommended-acquisition-by-aviva/"
+        },
+        {
+          "label": "Cash per scheme share",
+          "amount": "129.7p",
+          "source": "https://www.aviva.com/newsroom/news-and-research-overview/news-releases/2025/07/aviva-completes-acquisition-of-direct-line/"
+        },
+        {
+          "label": "New Aviva shares per scheme share",
+          "amount": "0.2867",
+          "source": "https://www.aviva.com/newsroom/news-and-research-overview/news-releases/2025/07/aviva-completes-acquisition-of-direct-line/"
+        }
+      ],
+      "financing": "Mixed cash and equity consideration; detailed funding terms not established here.",
+      "regulatory": "CMA cleared on 1 July 2025. Separate March 2026 counsel disclosure concerns a PRA investigation into historical balance-sheet miscalculation, not a reversal of merger clearance.",
+      "timeline": [
+        {
+          "date": "2024-12-23",
+          "event": "Target counsel disclosed recommended offer",
+          "source": "https://www.slaughterandmay.com/recent-work/direct-line-group-on-its-recommended-acquisition-by-aviva/"
+        },
+        {
+          "date": "2025-07-01",
+          "event": "CMA clearance",
+          "source": "https://www.gov.uk/cma-cases/aviva-slash-direct-line-merger-inquiry"
+        },
+        {
+          "date": "2025-07-01",
+          "event": "Acquisition completed",
+          "source": "https://www.aviva.com/newsroom/news-and-research-overview/news-releases/2025/07/aviva-completes-acquisition-of-direct-line/"
+        },
+        {
+          "date": "2026-03-11",
+          "event": "Counsel disclosed separate historical PRA enforcement matter",
+          "source": "https://www.slaughterandmay.com/recent-work/aviva-direct-line-group-in-respect-of-the-prudential-regulation-authority-s-investigation-and-enforcement-outcome/"
+        }
+      ],
+      "analysis": "A share component shares some future buyer performance risk with target holders, while a cash element delivers immediate value. Insurance integration adds prudential reporting, claims and operational risks; a historical enforcement matter illustrates why diligence must test financial and regulatory data.",
+      "legalWork": "Draft scheme and offer documents; model exchange ratio and dividend treatment; review prudential capital, historical reporting, policyholder and integration risks. Counsel publicly disclosed corporate, competition, financial regulation, tax, financing, employment and pensions workstreams.",
+      "interview": "Why would a buyer use a cash-and-share offer instead of all cash, and what additional risks arise in insurance M&A?",
+      "watch": "Integration and public prudential disclosures.",
+      "sources": [
+        {
+          "name": "Aviva completion",
+          "url": "https://www.aviva.com/newsroom/news-and-research-overview/news-releases/2025/07/aviva-completes-acquisition-of-direct-line/"
+        },
+        {
+          "name": "CMA clearance",
+          "url": "https://www.gov.uk/cma-cases/aviva-slash-direct-line-merger-inquiry"
+        },
+        {
+          "name": "Slaughter and May target mandate",
+          "url": "https://www.slaughterandmay.com/recent-work/direct-line-group-on-its-recommended-acquisition-by-aviva/"
+        },
+        {
+          "name": "Separate PRA mandate",
+          "url": "https://www.slaughterandmay.com/recent-work/aviva-direct-line-group-in-respect-of-the-prudential-regulation-authority-s-investigation-and-enforcement-outcome/"
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "Slaughter and May",
+          "firmId": "slaughter-may",
+          "client": "Direct Line",
+          "scope": "Recommended acquisition",
+          "source": "https://www.slaughterandmay.com/recent-work/direct-line-group-on-its-recommended-acquisition-by-aviva/"
+        }
+      ],
+      "related": [
+        "valuation",
+        "public-schemes",
+        "finance",
+        "due-diligence"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "id": "carlsberg-britvic",
+      "title": "Carlsberg / Britvic",
+      "eventDate": "2025-01-17",
+      "status": "Completed",
+      "sector": "Consumer / beverages",
+      "dealType": "Public M&A",
+      "parties": [
+        [
+          "Acquirer",
+          "Carlsberg UK Holdings Limited"
+        ],
+        [
+          "Target",
+          "Britvic plc"
+        ]
+      ],
+      "structure": "Recommended cash takeover of UK soft-drinks company.",
+      "fact": "Carlsberg confirmed completion on 17 January 2025 after the CMA cleared the acquisition on 17 December 2024. The combined UK business brings beer and soft-drink distribution together.",
+      "values": [
+        {
+          "label": "Reported takeover value",
+          "amount": "£3.3bn",
+          "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2024/december/linklaters-secures-regulatory-clearances-for-britvics-takeover-by-carlsberg"
+        }
+      ],
+      "regulatory": "CMA clearance in December 2024; Linklaters reported securing regulatory clearances for Britvic.",
+      "timeline": [
+        {
+          "date": "2024-12-17",
+          "event": "UK competition clearance",
+          "source": "https://www.gov.uk/cma-cases/carlsberg-slash-britvic-merger-inquiry"
+        },
+        {
+          "date": "2025-01-17",
+          "event": "Completion confirmed",
+          "source": "https://www.carlsberggroup.com/newsroom/carlsberg-group-completes-acquisition-of-britvic-plc/"
+        }
+      ],
+      "analysis": "Combining distribution networks may deliver efficiencies, but commercial value also depends on bottling agreements, brand rights, customer concentration and the ability to integrate supply chains. Expected efficiencies are not realised results.",
+      "legalWork": "Review material bottling and brand licence arrangements, scheme documents, regulatory submissions, integration planning and change-of-control consents.",
+      "interview": "What contractual rights could determine the value of a branded consumer-goods acquisition?",
+      "watch": "Post-merger integration and disclosed business disposals.",
+      "sources": [
+        {
+          "name": "Carlsberg completion",
+          "url": "https://www.carlsberggroup.com/newsroom/carlsberg-group-completes-acquisition-of-britvic-plc/"
+        },
+        {
+          "name": "CMA decision",
+          "url": "https://www.gov.uk/cma-cases/carlsberg-slash-britvic-merger-inquiry"
+        },
+        {
+          "name": "Linklaters mandate and clearance",
+          "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2024/december/linklaters-secures-regulatory-clearances-for-britvics-takeover-by-carlsberg"
+        },
+        {
+          "name": "Initial counsel disclosure",
+          "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2024/july/linklaters-advises-britvic-on-its-takeover-by-carlsberg-for-3_3bn"
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "Linklaters",
+          "firmId": "linklaters",
+          "client": "Britvic",
+          "scope": "Takeover and regulatory clearances",
+          "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2024/december/linklaters-secures-regulatory-clearances-for-britvics-takeover-by-carlsberg"
+        }
+      ],
+      "related": [
+        "public-schemes",
+        "merger-control",
+        "due-diligence"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "id": "mari-atg",
+      "title": "MARI / ATG Entertainment",
+      "eventDate": "2026-11-16",
+      "status": "Pre-notification / invitation to comment",
+      "sector": "Entertainment",
+      "dealType": "M&A / regulatory review",
+      "parties": [
+        [
+          "Proposed buyer",
+          "MARI Overture Holdings LLC"
+        ],
+        [
+          "Target",
+          "IE Investments S.à r.l. (ATG Entertainment)"
+        ]
+      ],
+      "structure": "Anticipated acquisition; definitive price and financing not established.",
+      "fact": "On 16 November the CMA invited comments on the proposed acquisition. Its published timetable does not yet identify the formal Phase 1 start or decision date.",
+      "regulatory": "Pre-notification is not the statutory Phase 1 investigation. Comments are requested by 1 December 2026.",
+      "timeline": [
+        {
+          "date": "2026-11-16",
+          "event": "Invitation to comment opened",
+          "source": "https://www.gov.uk/cma-cases/mari-slash-atg-entertainment-merger-inquiry"
+        }
+      ],
+      "deadline": {
+        "date": "2026-12-01",
+        "label": "CMA invitation to comment closes",
+        "source": "https://www.gov.uk/cma-cases/mari-slash-atg-entertainment-merger-inquiry"
+      },
+      "analysis": "Live entertainment markets can involve distinct relationships among venues, promoters, ticketing and producers. A lawyer should identify the actual overlaps and market evidence before assuming a theory of harm.",
+      "legalWork": "Map relevant commercial relationships, venue rights, ticketing arrangements and the regulatory timetable; review conditions and remedy allocation.",
+      "interview": "What distinguishes early market testing from a formal merger investigation?",
+      "watch": "Formal inquiry announcement or revised timetable.",
+      "sources": [
+        {
+          "name": "CMA case",
+          "url": "https://www.gov.uk/cma-cases/mari-slash-atg-entertainment-merger-inquiry"
+        }
+      ],
+      "related": [
+        "merger-control",
+        "due-diligence"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "id": "nexfibre-substantial",
+      "title": "nexfibre / Substantial",
+      "eventDate": "2026-11-18",
+      "status": "Phase 2; provisional concerns",
+      "sector": "Telecommunications",
+      "dealType": "Cross-border M&A",
+      "parties": [
+        [
+          "Buyer",
+          "nexfibre joint venture (Liberty Global, Telefónica and InfraVia)"
+        ],
+        [
+          "Target",
+          "Substantial group (Netomnia, Brsk, Brsk ISP and YouFibre)"
+        ]
+      ],
+      "structure": "Anticipated acquisition under in-depth merger investigation.",
+      "fact": "CMA referred the acquisition for Phase 2 on 1 July at the parties' request. Its interim findings raised concerns about wholesale fixed broadband on 2 October. Further responses and a derogation were published on 18 November.",
+      "regulatory": "Provisional findings are not final. Published statutory deadline is 15 December 2026, subject to change.",
+      "timeline": [
+        {
+          "date": "2026-06-29",
+          "event": "Formal inquiry opened",
+          "source": "https://www.gov.uk/cma-cases/nexfibre-slash-substantial-merger-inquiry"
+        },
+        {
+          "date": "2026-07-01",
+          "event": "Fast-track Phase 2 referral",
+          "source": "https://www.gov.uk/cma-cases/nexfibre-slash-substantial-merger-inquiry"
+        },
+        {
+          "date": "2026-10-02",
+          "event": "Provisional competition concerns",
+          "source": "https://www.gov.uk/cma-cases/nexfibre-slash-substantial-merger-inquiry"
+        },
+        {
+          "date": "2026-11-18",
+          "event": "Further case documents published",
+          "source": "https://www.gov.uk/cma-cases/nexfibre-slash-substantial-merger-inquiry"
+        }
+      ],
+      "deadline": {
+        "date": "2026-12-15",
+        "label": "CMA Phase 2 statutory deadline",
+        "source": "https://www.gov.uk/cma-cases/nexfibre-slash-substantial-merger-inquiry"
+      },
+      "analysis": "Fibre-network consolidation may affect investment scale and wholesale alternatives. Assess counterfactual network roll-out, geographic coverage and access agreements rather than assuming claimed efficiencies offset concerns.",
+      "legalWork": "Review evidence supporting efficiencies and market definition; assess remedy feasibility, financing dependencies, interim undertakings and permitted integration activities.",
+      "interview": "How do competition authorities assess investment efficiencies against reduced wholesale competition?",
+      "watch": "Final Phase 2 decision and possible remedies.",
+      "sources": [
+        {
+          "name": "CMA case and chronology",
+          "url": "https://www.gov.uk/cma-cases/nexfibre-slash-substantial-merger-inquiry"
+        }
+      ],
+      "related": [
+        "merger-control",
+        "project-finance"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "id": "greencore-bakkavor",
+      "title": "Greencore / Bakkavor",
+      "eventDate": "2025-12-17",
+      "status": "CMA undertakings accepted",
+      "sector": "Food manufacturing",
+      "dealType": "Public M&A",
+      "parties": [
+        [
+          "Buyer",
+          "Greencore Group plc"
+        ],
+        [
+          "Target",
+          "Bakkavor Group plc"
+        ]
+      ],
+      "structure": "Acquisition subject to competition review.",
+      "fact": "Following Phase 1 concerns in October 2025, the CMA accepted undertakings in lieu of Phase 2 on 17 December 2025. This record establishes the regulator milestone, not completion of the acquisition.",
+      "regulatory": "Phase 1 remedies accepted; final undertakings and their implementation should be checked separately.",
+      "timeline": [
+        {
+          "date": "2025-09-01",
+          "event": "Formal inquiry commenced",
+          "source": "https://www.gov.uk/cma-cases/greencore-slash-bakkavor-merger-inquiry"
+        },
+        {
+          "date": "2025-10-27",
+          "event": "Competition concerns identified",
+          "source": "https://www.gov.uk/cma-cases/greencore-slash-bakkavor-merger-inquiry"
+        },
+        {
+          "date": "2025-12-17",
+          "event": "Undertakings accepted",
+          "source": "https://www.gov.uk/cma-cases/greencore-slash-bakkavor-merger-inquiry"
+        }
+      ],
+      "analysis": "Prepared-food businesses can have retailer-specific supply requirements and capacity constraints. An effective remedy may require a viable standalone operation rather than merely a transfer of physical assets.",
+      "legalWork": "Define remedy perimeter, transition arrangements and customer continuity; allocate responsibility for regulatory conditions and post-closing commitments.",
+      "interview": "What makes a divestment package commercially viable?",
+      "watch": "Issuer confirmation of closing and implementation of undertakings.",
+      "sources": [
+        {
+          "name": "CMA case and final undertakings",
+          "url": "https://www.gov.uk/cma-cases/greencore-slash-bakkavor-merger-inquiry"
+        }
+      ],
+      "related": [
+        "merger-control",
+        "due-diligence"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "id": "synopsys-ansys",
+      "title": "Synopsys / Ansys",
+      "eventDate": "2025-07-17",
+      "status": "Completed; UK remedies",
+      "sector": "Engineering software",
+      "dealType": "Cross-border M&A",
+      "parties": [
+        [
+          "Buyer",
+          "Synopsys, Inc."
+        ],
+        [
+          "Target",
+          "ANSYS, Inc."
+        ]
+      ],
+      "structure": "International software acquisition with UK merger review.",
+      "fact": "Synopsys confirmed the acquisition closed on 17 July 2025. UK competition concerns had been addressed through undertakings accepted on 5 March 2025.",
+      "regulatory": "UK undertakings in lieu were accepted; other jurisdictions' decisions require separate evidence.",
+      "timeline": [
+        {
+          "date": "2024-12-20",
+          "event": "CMA identified Phase 1 concerns",
+          "source": "https://www.gov.uk/cma-cases/synopsys-slash-ansys-merger-inquiry"
+        },
+        {
+          "date": "2025-03-05",
+          "event": "CMA accepted undertakings",
+          "source": "https://www.gov.uk/cma-cases/synopsys-slash-ansys-merger-inquiry"
+        },
+        {
+          "date": "2025-07-17",
+          "event": "Buyer confirmed completion",
+          "source": "https://news.synopsys.com/2025-07-17-Synopsys-Completes-Acquisition-of-Ansys"
+        }
+      ],
+      "analysis": "Complementary engineering software can improve product integration but overlapping tools may create competition issues. Licensing interoperability, customer retention and debt servicing influence value.",
+      "legalWork": "Diligence software licensing, IP and customer concentration; separate remedy assets and ongoing services; coordinate cross-border conditions and transitional arrangements.",
+      "interview": "Why can a deal involving two US companies still require UK competition analysis?",
+      "watch": "Remedy compliance and integration disclosures.",
+      "sources": [
+        {
+          "name": "CMA decision",
+          "url": "https://www.gov.uk/cma-cases/synopsys-slash-ansys-merger-inquiry"
+        },
+        {
+          "name": "Buyer completion announcement",
+          "url": "https://news.synopsys.com/2025-07-17-Synopsys-Completes-Acquisition-of-Ansys"
+        }
+      ],
+      "related": [
+        "merger-control",
+        "due-diligence",
+        "data-ip"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "verifiedOn": "2026-11-24",
+      "id": "international-paper-ds-smith",
+      "title": "International Paper / DS Smith",
+      "eventDate": "2025-01-31",
+      "status": "Completed",
+      "sector": "Packaging",
+      "dealType": "Cross-border M&A",
+      "parties": [
+        [
+          "Acquirer",
+          "International Paper Company"
+        ],
+        [
+          "Target",
+          "DS Smith"
+        ]
+      ],
+      "structure": "Cross-border acquisition of packaging group.",
+      "fact": "International Paper confirms the combination completed on 31 January 2025. Slaughter and May reports advising DS Smith on competing approaches leading to the agreed International Paper acquisition.",
+      "values": [
+        {
+          "label": "Agreed acquisition value reported by target counsel",
+          "amount": "£7.8bn",
+          "source": "https://www.slaughterandmay.com/services/practices/corporate-and-m-a/"
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2025-01-31",
+          "event": "Combination completed",
+          "source": "https://www.internationalpaper.com/en-gb/about-international-paper"
+        }
+      ],
+      "analysis": "Packaging consolidation can create procurement, manufacturing and regional network opportunities. Integration economics depend on capacity utilisation, customer retention, energy costs and competition constraints.",
+      "legalWork": "Assess competing proposal processes, board duties, cross-border disclosures, supply contracts and integration planning. Avoid assuming the agreed offer valuation equals final accounting purchase consideration.",
+      "interview": "How do competing offers affect the target board's process and the bidder's execution risk?",
+      "watch": "Buyer disclosures on post-acquisition strategy.",
+      "sources": [
+        {
+          "name": "International Paper group history",
+          "url": "https://www.internationalpaper.com/en-gb/about-international-paper"
+        },
+        {
+          "name": "Slaughter and May corporate practice mandate",
+          "url": "https://www.slaughterandmay.com/services/practices/corporate-and-m-a/"
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "Slaughter and May",
+          "firmId": "slaughter-may",
+          "client": "DS Smith",
+          "scope": "Competing offers and agreed acquisition",
+          "source": "https://www.slaughterandmay.com/services/practices/corporate-and-m-a/"
+        }
+      ],
+      "related": [
+        "public-schemes",
+        "valuation",
+        "corporate-governance"
+      ]
+    },
+    {
+      "id": "duaa-implementation",
+      "jurisdiction": "UK",
+      "category": "Regulation",
+      "title": "Data (Use and Access) Act: phased commencement",
+      "eventDate": "2026-11-09",
+      "verifiedOn": "2026-11-24",
+      "sector": "Data protection",
+      "status": "Phased statutory commencement",
+      "fact": "Most Part 5 privacy and data protection provisions commenced in February 2026. Regulator governance changes took effect in September; a further commencement instrument specifies provisions brought into force on 9 November.",
+      "analysis": "A transaction diligence checklist should identify applicable commencement dates and transitional rules, review processing records, contracts and transfer arrangements, and distinguish legislative amendments from regulatory guidance.",
+      "watch": "Read the commencement instrument for the specific provision; do not treat the whole Act as effective on a single date.",
+      "sources": [
+        {
+          "name": "Government commencement guidance",
+          "url": "https://www.gov.uk/guidance/data-use-and-access-act-2025-plans-for-commencement"
+        },
+        {
+          "name": "Commencement No. 10 regulations",
+          "url": "https://www.legislation.gov.uk/uksi/2026/1167/regulation/2/made"
+        }
+      ],
+      "related": [
+        "data-ip"
+      ]
+    },
+    {
+      "id": "employment-rights-implementation",
+      "jurisdiction": "UK",
+      "category": "Regulation",
+      "title": "Employment Rights Act implementation: 2027 changes",
+      "eventDate": "2026-11-24",
+      "verifiedOn": "2026-11-24",
+      "sector": "Employment",
+      "status": "Implementation timetable; prospective measures",
+      "fact": "The published government timetable identifies 1 January 2027 for a reduction in the ordinary unfair dismissal qualifying period to six months and removal of the compensatory award cap, subject to the relevant legal provisions.",
+      "analysis": "Employers should update risk assumptions for workforce restructurings, probation and dismissal processes. Deal teams should review employment liabilities and integration costs rather than assume a proposed or prospective rule is already in force.",
+      "watch": "Check current commencement and transitional provisions before applying to an individual dismissal.",
+      "sources": [
+        {
+          "name": "Government implementation timetable",
+          "url": "https://www.gov.uk/government/publications/implementing-the-plan-to-make-work-pay-and-employment-rights-act/plan-to-make-work-pay-and-employment-rights-act-timeline-update"
+        }
+      ],
+      "related": [
+        "employment-diligence"
+      ]
+    },
+    {
+      "id": "dmcc-consumer-enforcement",
+      "jurisdiction": "UK",
+      "category": "Regulation",
+      "title": "DMCC Act: consumer enforcement powers",
+      "eventDate": "2025-04-06",
+      "verifiedOn": "2026-11-24",
+      "sector": "Consumer protection",
+      "status": "Part 3 commenced",
+      "fact": "The commencement regulations brought Part 3 of the Digital Markets, Competition and Consumers Act 2024 into force on 6 April 2025, subject to the instrument's provisions.",
+      "analysis": "Consumer-facing acquisitions require scrutiny of marketing, subscription and pricing practices and the applicable enforcement regime. Historic revenue may be less sustainable if built on non-compliant practices.",
+      "watch": "Check the relevant substantive consumer rules and their separate commencement dates.",
+      "sources": [
+        {
+          "name": "Commencement regulations",
+          "url": "https://www.legislation.gov.uk/uksi/2025/272/regulation/2/made"
+        }
+      ],
+      "related": [
+        "due-diligence"
+      ]
+    },
+    {
+      "id": "ons-ma-q2-2026",
+      "jurisdiction": "UK",
+      "category": "Briefing",
+      "title": "ONS completed M&A: reading the market correctly",
+      "eventDate": "2026-09-01",
+      "verifiedOn": "2026-11-24",
+      "sector": "Market statistics",
+      "status": "Published statistical bulletin",
+      "fact": "The ONS published its April–June 2026 UK M&A bulletin on 1 September. The official series covers qualifying changes of ultimate control of £1m or more, not every financing, minority investment or announced offer.",
+      "analysis": "A database of announced transactions and financing mandates cannot be compared directly with a completed-control acquisition series. Deal value trends can be dominated by a few unusually large transactions; check counts, direction of investment and revision notes separately.",
+      "watch": "Next ONS quarterly release scheduled 1 December 2026; check publication calendar.",
+      "sources": [
+        {
+          "name": "ONS quarterly bulletin",
+          "url": "https://www.ons.gov.uk/businessindustryandtrade/changestobusiness/mergersandacquisitions/bulletins/mergersandacquisitionsinvolvingukcompanies/apriltojune2026"
+        }
+      ],
+      "related": [
+        "valuation",
+        "market-methodology"
+      ]
     }
   ],
   "lessons": [
@@ -1945,6 +2514,111 @@
         "name": "Mitie scheme document",
         "url": "https://www.mitie.com/wp-content/uploads/2026/08/Project-Marlin_Scheme_Document.pdf"
       }
+    },
+    {
+      "id": "due-diligence",
+      "title": "Legal due diligence and SPA risk allocation",
+      "level": "Applied",
+      "body": "Diligence maps material legal risks to commercial responses. A known issue may justify a price adjustment, specific indemnity, closing condition, covenant or decision not to proceed. Warranties allocate contractual risk subject to the negotiated disclosure and liability framework; they are not a substitute for verification.",
+      "scenario": "A target's material customer contract requires consent for a change of control. What should counsel prioritise?",
+      "options": [
+        "Ignore it if the target is profitable",
+        "Verify the clause and assess a consent condition or alternative risk allocation",
+        "Always demand a criminal penalty",
+        "Assume signing provides consent"
+      ],
+      "answer": 1,
+      "explanation": "Verify the clause and quantify the exposure. Depending on materiality, consent may be a condition to completion or another negotiated protection.",
+      "source": null
+    },
+    {
+      "id": "data-ip",
+      "title": "Data and intellectual property diligence",
+      "level": "Intermediate",
+      "body": "For a software or data business, distinguish ownership of IP from permission to use third-party content. Review licence scope, assignment and change-of-control clauses, data protection duties, processing arrangements, security and relevant statutory commencement. Commercial value may depend on rights that cannot automatically be transferred.",
+      "scenario": "The target uses a third-party data feed under a non-transferable licence. What is the first step?",
+      "options": [
+        "Assume share acquisition eliminates every licence restriction",
+        "Verify contractual restrictions, change-of-control wording and consent requirements",
+        "Publish the feed publicly",
+        "Ignore it because data is intangible"
+      ],
+      "answer": 1,
+      "explanation": "The licence and structure determine whether consent is required. Review the actual terms and applicable law rather than applying a universal rule.",
+      "source": {
+        "name": "UK commencement guidance",
+        "url": "https://www.gov.uk/guidance/data-use-and-access-act-2025-plans-for-commencement"
+      }
+    },
+    {
+      "id": "employment-diligence",
+      "title": "Workforce risk and transaction structures",
+      "level": "Intermediate",
+      "body": "Employment risk can arise from accrued liabilities, incentives, pensions, disputes, consultation and transfer rules. In England and Wales, analyse the applicable law and the difference between a share sale, where the employer entity usually remains unchanged, and a qualifying business transfer. Check current commencement and exceptions.",
+      "scenario": "A deal involves transfer of an operating business rather than the company's shares. Which is best?",
+      "options": [
+        "Assume all employment contracts terminate",
+        "Assess whether TUPE applies and identify information, consultation and liability issues",
+        "Assume employment law is irrelevant",
+        "Treat every employee as an independent contractor"
+      ],
+      "answer": 1,
+      "explanation": "The factual structure determines the legal analysis. TUPE may apply to a qualifying transfer; review scope, obligations and relevant exceptions.",
+      "source": {
+        "name": "Government TUPE guidance",
+        "url": "https://www.gov.uk/transfers-takeovers"
+      }
+    },
+    {
+      "id": "market-methodology",
+      "title": "Reading deal statistics and market trends",
+      "level": "Applied",
+      "body": "Official series may count completed control acquisitions; a research database may include pending offers, finance and regulatory events. Compare like with like: period, universe, currency, value basis and status. A rising aggregate value can reflect a single large deal rather than broader activity.",
+      "scenario": "A tracker includes a £300m facility and an acquisition with £300m equity value. Can you add them to estimate total M&A consideration?",
+      "options": [
+        "Yes",
+        "No; they measure different economic quantities",
+        "Yes if sterling",
+        "Only if the same adviser acted"
+      ],
+      "answer": 1,
+      "explanation": "Facility commitment and equity consideration are not comparable transaction values. Market measures need a consistent definition.",
+      "source": {
+        "name": "ONS methodology and bulletin",
+        "url": "https://www.ons.gov.uk/businessindustryandtrade/changestobusiness/mergersandacquisitions/bulletins/mergersandacquisitionsinvolvingukcompanies/apriltojune2026"
+      }
+    },
+    {
+      "id": "contract-remedies",
+      "title": "Commercial contracts: warranties, indemnities and caps",
+      "level": "Applied",
+      "body": "A warranty is a contractual statement; an indemnity can allocate specified losses under its wording. Liability caps, baskets, exclusions, time limits and mitigation provisions require careful interpretation. A contract's exact terms matter more than labels.",
+      "scenario": "A diligence report identifies a particular historic tax exposure. What is the appropriate response?",
+      "options": [
+        "A generic warranty necessarily gives complete recovery",
+        "Assess a specifically negotiated indemnity or other protection, with clear scope and limitations",
+        "Ignore known exposure because the accounts were audited",
+        "Use only an NDA"
+      ],
+      "answer": 1,
+      "explanation": "A known issue calls for explicit risk allocation. The choice depends on value, enforceability, bargaining power and the drafting.",
+      "source": null
+    },
+    {
+      "id": "law-firm-economics",
+      "title": "Law firm economics and client value",
+      "level": "Foundation",
+      "body": "A commercial firm sells expertise, judgment and execution capacity. Fee arrangements may include hourly rates, fixed fees or other structures. Profitability depends on utilisation, staffing, realisation and overhead; a high-value matter is not necessarily a high-margin matter. Clients value predictable scope, risk control and timely outcomes.",
+      "scenario": "A transaction expands unexpectedly. What demonstrates commercial judgment?",
+      "options": [
+        "Keep working without communicating cost",
+        "Explain scope changes, cost impact and options to the client",
+        "Guarantee the transaction closes",
+        "Assign all work to partners"
+      ],
+      "answer": 1,
+      "explanation": "Transparent scope management helps the client make a business decision while preserving quality and the professional relationship.",
+      "source": null
     }
   ],
   "firms": [
@@ -2078,5 +2752,106 @@
       "Automated source desk",
       "Treasury, Companies House, CMA, and business department notices via GOV.UK Search API."
     ]
+  ],
+  "opportunities": [
+    {
+      "id": "linklaters-tc-2026",
+      "firmId": "linklaters",
+      "title": "London training contract",
+      "location": "London",
+      "deadline": "2026-12-03",
+      "eligibility": "Check academic and programme criteria on the employer page.",
+      "url": "https://www.linklaters.com/careers/early-careers/training-contracts",
+      "verifiedOn": "2026-11-24",
+      "sponsorship": "Not verified for this specific programme",
+      "type": "Training contract",
+      "process": "Online application, online assessment and assessment centre."
+    },
+    {
+      "id": "linklaters-vs-2027",
+      "firmId": "linklaters",
+      "title": "Spring and summer vacation schemes 2027",
+      "location": "London",
+      "deadline": "2026-12-03",
+      "eligibility": "Published criteria include eligible undergraduates, graduates and postgraduates; check university and academic requirements.",
+      "url": "https://www.linklaters.com/careers/early-careers/vacation-schemes",
+      "verifiedOn": "2026-11-24",
+      "sponsorship": "Not verified for this specific programme",
+      "type": "Vacation scheme"
+    },
+    {
+      "id": "latham-vs-2027",
+      "firmId": "latham",
+      "title": "Spring and summer vacation schemes 2027",
+      "location": "London",
+      "deadline": "2026-12-06",
+      "eligibility": "Employer describes eligibility as second-year students and above; confirm individual eligibility.",
+      "url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-kingdom/our-programmes",
+      "verifiedOn": "2026-11-24",
+      "sponsorship": "Not verified for this specific programme",
+      "type": "Vacation scheme"
+    },
+    {
+      "id": "burges-sector-2029",
+      "firmId": "burges",
+      "title": "Sector-focused training contracts 2029",
+      "location": "UK — check office",
+      "deadline": "2027-01-05",
+      "eligibility": "Candidates should demonstrate interest in energy or the built environment; check route and degree criteria.",
+      "url": "https://www.burges-salmon.com/jobs/sector-focused-training-contracts-2029-energy-built-environment/",
+      "verifiedOn": "2026-11-24",
+      "sponsorship": "Not verified for this specific programme",
+      "type": "Training contract"
+    },
+    {
+      "id": "burges-bristol-2029",
+      "firmId": "burges",
+      "title": "Bristol direct training contract 2029",
+      "location": "Bristol",
+      "deadline": "2027-06-21",
+      "eligibility": "Eligible law students from the relevant year, final-year non-law students and graduates; one training-contract process at a time.",
+      "url": "https://www.burges-salmon.com/jobs/bristol-direct-training-contract-2029/",
+      "verifiedOn": "2026-11-24",
+      "sponsorship": "Not verified for this specific programme",
+      "type": "Training contract",
+      "deadlineTime": "18:00 BST"
+    },
+    {
+      "id": "cc-tc-2029",
+      "firmId": "clifford-chance",
+      "title": "London training contract 2029/2030",
+      "location": "London",
+      "deadline": "2026-11-18",
+      "eligibility": "Relevant law/non-law students and graduates; availability for specified intake.",
+      "url": "https://jobs.cliffordchance.com/training-contract-london",
+      "verifiedOn": "2026-11-24",
+      "sponsorship": "Not verified for this specific programme",
+      "type": "Training contract",
+      "process": "Application, immersive assessment, Watson Glaser, video interview and assessment day."
+    },
+    {
+      "id": "freshfields-tc-2026",
+      "firmId": "freshfields",
+      "title": "UK trainee associate programme application window",
+      "location": "London",
+      "deadline": "2026-11-13",
+      "eligibility": "Eligible to commence in 2028 or 2029 under the published window.",
+      "url": "https://www.freshfields.com/en/your-career/united-kingdom/early-careers/trainee-associate-program",
+      "verifiedOn": "2026-11-24",
+      "sponsorship": "Not verified for this specific programme",
+      "type": "Training contract"
+    },
+    {
+      "id": "slaughter-tc-2026",
+      "firmId": "slaughter-may",
+      "title": "September 2029 / March 2030 training contract — finalists and graduates",
+      "location": "London",
+      "deadline": "2026-11-13",
+      "eligibility": "Law and non-law finalists and graduates in the specified application window.",
+      "url": "https://www.slaughterandmay.com/careers/early-careers/apply/",
+      "verifiedOn": "2026-11-24",
+      "sponsorship": "Not verified for this specific programme",
+      "type": "Training contract"
+    }
   ]
 }
