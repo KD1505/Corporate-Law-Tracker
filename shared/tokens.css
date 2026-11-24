@@ -13,3 +13,79 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 /* Exact logo navy: hierarchy and navigation, not legal or financial status. */
 :root{--clt-brand:#16243f;--clt-brand-tint:#edf1f7;--clt-brand-line:#c8d2e2;--clt-brand-hover:#263e62}
+
+/* Card separation: restrained elevation and structural accents, not status colours.
+   Scope to the two existing workspaces; leave print and compact table rows untouched. */
+:root {
+  --clt-card-line:#cbd5d8;
+  --clt-card-shadow:0 1px 2px rgba(22,36,63,.055),0 3px 9px rgba(22,36,63,.075);
+  --clt-card-hover:0 2px 4px rgba(22,36,63,.07),0 5px 15px rgba(22,36,63,.12);
+  --clt-card-rule:#8a9db0;
+}
+@media screen {
+  /* UK: these are actual card surfaces, not every nested div or control. */
+  html:not([data-theme]) :is(.entry,.rail-card,.reading-desk,.search,.feed-group,.research-finding):not(:target) {
+    border-color:var(--clt-card-line);
+    box-shadow:var(--clt-card-shadow);
+  }
+  html:not([data-theme]) .entry:not(:target) {
+    border-left:3px solid var(--clt-card-rule);
+  }
+  html:not([data-theme]) #transactions .entry:not(:target) {
+    border-left-color:var(--clt-brand);
+  }
+  html:not([data-theme]) #briefing .entry:not(:target) {
+    border-left-color:var(--clt-accent);
+  }
+  html:not([data-theme]) .reading-desk {
+    border-top:3px solid var(--clt-brand);
+  }
+  html:not([data-theme]) #method {
+    border-color:var(--clt-card-line);
+    box-shadow:var(--clt-card-shadow);
+  }
+  html:not([data-theme]) .desk-grid {row-gap:10px;column-gap:12px}
+  html:not([data-theme]) .desk-item {
+    border:1px solid var(--clt-card-line);
+    border-radius:5px;
+    padding:10px 12px;
+    box-shadow:0 1px 3px rgba(22,36,63,.07);
+  }
+  html:not([data-theme]) .desk-item:first-child {
+    border-left:3px solid var(--clt-brand);
+    margin:0;
+  }
+  html:not([data-theme]) .desk-item:focus-visible {
+    outline:3px solid var(--clt-focus);
+    outline-offset:3px;
+  }
+  @media (hover:hover) and (pointer:fine) {
+    html:not([data-theme]) .desk-item:hover {
+      border-color:var(--clt-card-rule);
+      box-shadow:var(--clt-card-hover);
+    }
+  }
+
+  /* India: build on existing theme tokens; retain priority/regulatory accents. */
+  html[data-theme="light"] {
+    --shadow:var(--clt-card-shadow);
+    --shadow-h:var(--clt-card-hover);
+  }
+  html[data-theme="dark"] {
+    --clt-card-line:#3a3b45;
+    --clt-card-rule:#65718a;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 10px rgba(0,0,0,.32);
+    --shadow-h:0 3px 6px rgba(0,0,0,.45),0 8px 20px rgba(0,0,0,.42);
+  }
+  html[data-theme] :is(.card,.trendcard,.fcard,.stat,.sec,.firmhero,.lawcard,.pcol,.hero,.toolbar,.moverow,.cmptbl):not(:hover):not(:focus-within) {
+    border-color:var(--clt-card-line);
+  }
+  html[data-theme] :is(.priocard,.regc,.dlitem):not(:hover):not(:focus-within) {
+    border-top-color:var(--clt-card-line);
+    border-right-color:var(--clt-card-line);
+    border-bottom-color:var(--clt-card-line);
+  }
+  html[data-theme] :is(.card,.fcard,.trendcard,.lawcard):not(:hover):not(:focus-within) {
+    border-left:3px solid var(--clt-card-rule);
+  }
+}
