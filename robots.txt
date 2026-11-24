@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.corplawtracker.com/sitemap.xml
+Sitemap: https://www.corplawtracker.com/uk/sitemap.xml
