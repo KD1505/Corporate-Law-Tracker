@@ -56,7 +56,7 @@
         ]
       ],
       "announcedOn": "2026-07-21",
-      "structure": "Recommended all-cash acquisition via scheme of arrangement.",
+      "structure": "Scottish court-sanctioned Part 26 scheme to transfer Mitie shares to OCS.",
       "values": [
         {
           "label": "Fully diluted acquisition value, including final dividend",
@@ -89,7 +89,7 @@
           "disclosure": "stated"
         }
       ],
-      "financing": "Specific financing terms have not been verified for this dossier.",
+      "financing": "The August scheme describes CD&R fund equity and term loan financing; Lazard provided the bidder's resources confirmation. Subsequent commitment-paper amendments are listed in the offer document register.",
       "regulatory": "The published Phase 1 decision deadline is 20 January 2027, subject to extension. Shareholder support is not regulatory approval.",
       "timeline": [
         {
@@ -133,6 +133,23 @@
         "reviewedOn": "2026-11-24",
         "claims": [
           {
+            "heading": "Scheme mechanics and consideration",
+            "text": "Mitie is incorporated in Scotland. The scheme document specifies a Scottish court-sanctioned Part 26 process, 218.5p per share payable by OCS plus a separate FY26 dividend of 3.1p. The published £3.1bn acquisition value includes the latter. Linklaters' experience disclosure independently identifies the £3.1bn recommended acquisition, but does not verify the individual components.",
+            "qualification": "documented",
+            "evidence": [
+              {
+                "url": "https://www.mitie.com/wp-content/uploads/2026/08/Project-Marlin_Scheme_Document.pdf",
+                "publisher": "Mitie",
+                "locator": "Part Two §2 and Part Seven §15.3 (printed p. 106)"
+              },
+              {
+                "url": "https://www.linklaters.com/find-a-lawyer/daniel-cartwright",
+                "publisher": "Linklaters",
+                "locator": "Transaction experience: headline acquisition value"
+              }
+            ]
+          },
+          {
             "heading": "Formal CMA review",
             "text": "The case opened for comments on 15 September; consultation closed on 29 September. Formal Phase 1 commenced on 18 November, with a published decision deadline of 20 January 2027 subject to possible extension. This is an open inquiry, not a clearance.",
             "evidence": [
@@ -172,6 +189,23 @@
               }
             ],
             "qualification": "documented"
+          },
+          {
+            "heading": "Funding documents and security",
+            "text": "Part Two §10 describes equity from CD&R funds and term loan financing. Lazard confirms available cash resources. Part Seven describes the interim facility guarantee structure and Scottish-law share pledge and assignation in security. The offer hub separately lists debt/equity commitment letters, interim loan agreement and amended commitment papers, and a clean-team agreement. Terms may have changed; the initial summary must be read with the amendments.",
+            "qualification": "documented",
+            "evidence": [
+              {
+                "url": "https://www.mitie.com/wp-content/uploads/2026/08/Project-Marlin_Scheme_Document.pdf",
+                "publisher": "Mitie",
+                "locator": "Part Two §10; Part Seven §8.2 (printed pp. 40, 100)"
+              },
+              {
+                "url": "https://www.mitie.com/investors/recommended-cash-offer-by-ocs-for-mitie/",
+                "publisher": "Mitie",
+                "locator": "Offer related agreements and financing arrangement letters"
+              }
+            ]
           }
         ],
         "workstreams": [
@@ -215,6 +249,11 @@
             "title": "Linklaters experience",
             "url": "https://www.linklaters.com/find-a-lawyer/daniel-cartwright",
             "purpose": "Target-side adviser attribution"
+          },
+          {
+            "title": "August scheme document",
+            "url": "https://www.mitie.com/wp-content/uploads/2026/08/Project-Marlin_Scheme_Document.pdf",
+            "purpose": "Part Two: consideration, financing and voting; Part Three: conditions; Part Seven: facility and security disclosures"
           }
         ],
         "openQuestions": [
@@ -227,7 +266,9 @@
         ]
       },
       "factSources": [
-        "https://www.gov.uk/cma-cases/ocs-slash-mitie-merger-inquiry"
+        "https://www.gov.uk/cma-cases/ocs-slash-mitie-merger-inquiry",
+        "https://www.mitie.com/wp-content/uploads/2026/08/Project-Marlin_Scheme_Document.pdf",
+        "https://www.mitie.com/wp-content/uploads/2026/11/Mitie-H1-FY27-Results.pdf"
       ]
     },
     {
