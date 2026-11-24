@@ -1,0 +1,287 @@
+{
+  "attemptedAt": null,
+  "notice": "Awaiting first scheduled collection. Source configuration only; no retrieval success is asserted.",
+  "sources": [],
+  "gaps": [
+    {
+      "id": "ocs-mitie",
+      "title": "OCS / Mitie",
+      "sourceLinks": 6,
+      "findings": 5,
+      "adviserAssociations": 1
+    },
+    {
+      "id": "mccormick-unilever",
+      "title": "McCormick / Unilever Foods",
+      "sourceLinks": 7,
+      "findings": 6,
+      "adviserAssociations": 3
+    },
+    {
+      "id": "sky-itv",
+      "title": "Sky / ITV Media and Entertainment",
+      "sourceLinks": 1,
+      "findings": 0,
+      "adviserAssociations": 0
+    },
+    {
+      "id": "coop-southern",
+      "title": "Co-operative Group / Southern Co-operative",
+      "sourceLinks": 1,
+      "findings": 0,
+      "adviserAssociations": 0
+    },
+    {
+      "id": "vodafone-three",
+      "title": "Vodafone UK / Three UK",
+      "sourceLinks": 6,
+      "findings": 4,
+      "adviserAssociations": 1
+    },
+    {
+      "id": "microsoft-activision",
+      "title": "Microsoft / Activision Blizzard (restructured)",
+      "sourceLinks": 3,
+      "findings": 0,
+      "adviserAssociations": 0
+    },
+    {
+      "id": "nationwide-virgin",
+      "title": "Nationwide / Virgin Money",
+      "sourceLinks": 7,
+      "findings": 3,
+      "adviserAssociations": 2
+    },
+    {
+      "id": "pai-elemis",
+      "title": "PAI Partners / ELEMIS",
+      "sourceLinks": 2,
+      "findings": 0,
+      "adviserAssociations": 1
+    },
+    {
+      "id": "leita-mobico",
+      "title": "Leita Mobility / Mobico Group",
+      "sourceLinks": 2,
+      "findings": 3,
+      "adviserAssociations": 2
+    },
+    {
+      "id": "cary-consortium",
+      "title": "Nordic Capital / CPP Investments / Ontario Teachers’ — Cary Group",
+      "sourceLinks": 3,
+      "findings": 0,
+      "adviserAssociations": 2
+    },
+    {
+      "id": "goldman-celnor",
+      "title": "Goldman Sachs Alternatives / Celnor Group",
+      "sourceLinks": 2,
+      "findings": 0,
+      "adviserAssociations": 1
+    },
+    {
+      "id": "rwe-kkr-vanguard",
+      "title": "RWE / KKR — Vanguard offshore wind projects",
+      "sourceLinks": 2,
+      "findings": 0,
+      "adviserAssociations": 0
+    },
+    {
+      "id": "lseg-octus",
+      "title": "LSEG / Octus",
+      "sourceLinks": 3,
+      "findings": 0,
+      "adviserAssociations": 1
+    },
+    {
+      "id": "abp-ifm",
+      "title": "IFM Investors / Associated British Ports stakes",
+      "sourceLinks": 1,
+      "findings": 0,
+      "adviserAssociations": 1
+    },
+    {
+      "id": "abp-term-facility",
+      "title": "Associated British Ports / £300m infrastructure facility",
+      "sourceLinks": 2,
+      "findings": 0,
+      "adviserAssociations": 1
+    },
+    {
+      "id": "uk-logistics-cmbs",
+      "title": "UK Logistics 2026-3 / £603m CMBS",
+      "sourceLinks": 1,
+      "findings": 0,
+      "adviserAssociations": 1
+    },
+    {
+      "id": "standard-chartered-dnn",
+      "title": "Standard Chartered / US$200m digitally native notes",
+      "sourceLinks": 1,
+      "findings": 0,
+      "adviserAssociations": 1
+    },
+    {
+      "id": "drax-bluefield",
+      "title": "Drax / Bluefield Solar Income Fund",
+      "sourceLinks": 2,
+      "findings": 0,
+      "adviserAssociations": 0
+    },
+    {
+      "id": "vivisol-airliquide",
+      "title": "Vivisol / Air Liquide UK home oxygen business",
+      "sourceLinks": 1,
+      "findings": 0,
+      "adviserAssociations": 0
+    },
+    {
+      "id": "firstcash-ramsdens",
+      "title": "FirstCash / Ramsdens",
+      "sourceLinks": 5,
+      "findings": 5,
+      "adviserAssociations": 3
+    },
+    {
+      "id": "prologis-segro",
+      "title": "Prologis / SEGRO",
+      "sourceLinks": 6,
+      "findings": 4,
+      "adviserAssociations": 1
+    },
+    {
+      "id": "aviva-direct-line",
+      "title": "Aviva / Direct Line",
+      "sourceLinks": 6,
+      "findings": 4,
+      "adviserAssociations": 1
+    },
+    {
+      "id": "carlsberg-britvic",
+      "title": "Carlsberg / Britvic",
+      "sourceLinks": 7,
+      "findings": 4,
+      "adviserAssociations": 2
+    },
+    {
+      "id": "mari-atg",
+      "title": "MARI / ATG Entertainment",
+      "sourceLinks": 1,
+      "findings": 0,
+      "adviserAssociations": 0
+    },
+    {
+      "id": "nexfibre-substantial",
+      "title": "nexfibre / Substantial",
+      "sourceLinks": 1,
+      "findings": 0,
+      "adviserAssociations": 0
+    },
+    {
+      "id": "greencore-bakkavor",
+      "title": "Greencore / Bakkavor",
+      "sourceLinks": 1,
+      "findings": 0,
+      "adviserAssociations": 0
+    },
+    {
+      "id": "synopsys-ansys",
+      "title": "Synopsys / Ansys",
+      "sourceLinks": 2,
+      "findings": 0,
+      "adviserAssociations": 0
+    },
+    {
+      "id": "international-paper-ds-smith",
+      "title": "International Paper / DS Smith",
+      "sourceLinks": 2,
+      "findings": 0,
+      "adviserAssociations": 1
+    },
+    {
+      "id": "adobe-figma",
+      "title": "Adobe / Figma",
+      "sourceLinks": 3,
+      "findings": 0,
+      "adviserAssociations": 0
+    },
+    {
+      "id": "broadcom-vmware",
+      "title": "Broadcom / VMware",
+      "sourceLinks": 2,
+      "findings": 0,
+      "adviserAssociations": 0
+    },
+    {
+      "id": "hpe-juniper",
+      "title": "Hewlett Packard Enterprise / Juniper Networks",
+      "sourceLinks": 2,
+      "findings": 0,
+      "adviserAssociations": 0
+    },
+    {
+      "id": "athora-picg",
+      "title": "Athora / Pension Insurance Corporation Group",
+      "sourceLinks": 5,
+      "findings": 0,
+      "adviserAssociations": 2
+    },
+    {
+      "id": "itm-gbe-equity",
+      "title": "Great British Energy / ITM Power strategic equity investment",
+      "sourceLinks": 3,
+      "findings": 0,
+      "adviserAssociations": 1
+    },
+    {
+      "id": "cip-noriker-kilmarnock",
+      "title": "Copenhagen Infrastructure Partners / Noriker Kilmarnock South BESS",
+      "sourceLinks": 2,
+      "findings": 0,
+      "adviserAssociations": 1
+    },
+    {
+      "id": "aab-kreston-reeves",
+      "title": "AAB / Kreston Reeves",
+      "sourceLinks": 3,
+      "findings": 0,
+      "adviserAssociations": 2
+    },
+    {
+      "id": "tilleghem-saragossa",
+      "title": "Tilleghem Capital / Saragossa",
+      "sourceLinks": 2,
+      "findings": 0,
+      "adviserAssociations": 1
+    },
+    {
+      "id": "boralex-wind2",
+      "title": "Boralex / Wind2",
+      "sourceLinks": 3,
+      "findings": 0,
+      "adviserAssociations": 1
+    },
+    {
+      "id": "chesnara-metlife-uk",
+      "title": "Chesnara / MetLife UK closed-book life business",
+      "sourceLinks": 2,
+      "findings": 4,
+      "adviserAssociations": 1
+    },
+    {
+      "id": "cinven-theramex",
+      "title": "Cinven / Theramex",
+      "sourceLinks": 4,
+      "findings": 3,
+      "adviserAssociations": 3
+    },
+    {
+      "id": "softcat-gdt",
+      "title": "Softcat / General Datatech",
+      "sourceLinks": 4,
+      "findings": 3,
+      "adviserAssociations": 1
+    }
+  ]
+}
