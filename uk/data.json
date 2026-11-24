@@ -307,6 +307,278 @@
         "capital-markets"
       ],
       "verifiedOn": "2026-11-24"
+    },
+    {
+      "jurisdiction": "UK",
+      "verifiedOn": "2026-11-24",
+      "id": "pai-elemis",
+      "category": "Transactions",
+      "title": "PAI Partners / ELEMIS",
+      "eventDate": "2026-11-04",
+      "announcedOn": "2026-11-04",
+      "status": "Agreement announced",
+      "sector": "Consumer / beauty",
+      "fact": "L’Occitane Group and PAI announced an agreement for PAI to acquire British skincare brand ELEMIS. Linklaters subsequently announced its work for the lenders providing acquisition financing.",
+      "analysis": "A sponsor acquisition connects brand valuation and distribution strategy to financing capacity. Counsel must coordinate diligence on IP, distribution and supply arrangements with the financing conditions and acquisition timetable.",
+      "watch": "Completion confirmation and any disclosed financing terms. Do not treat signing as closing.",
+      "sources": [
+        {
+          "name": "PAI announcement",
+          "url": "https://www.paipartners.com/mediaitem/loccitane-group-and-pai-partners-announce-agreement-for-pai-to-acquire-elemis/"
+        },
+        {
+          "name": "Linklaters financing mandate",
+          "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-the-lenders-on-the-financing-of-pais-acquisition-of-elemis-from-loccitane"
+        }
+      ],
+      "related": [
+        "private-equity",
+        "finance"
+      ],
+      "advisers": [
+        {
+          "firm": "Linklaters",
+          "firmId": "linklaters",
+          "client": "Lenders",
+          "scope": "Acquisition financing",
+          "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-the-lenders-on-the-financing-of-pais-acquisition-of-elemis-from-loccitane"
+        }
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "verifiedOn": "2026-11-24",
+      "id": "leita-mobico",
+      "category": "Transactions",
+      "title": "Leita Mobility / Mobico Group",
+      "eventDate": "2026-10-30",
+      "announcedOn": "2026-10-30",
+      "status": "Recommended cash offer announced",
+      "sector": "Transport",
+      "fact": "The recommended cash acquisition of UK-listed Mobico was announced at 46p per share, with an intended scheme of arrangement. The disclosed equity valuation was approximately £308m and enterprise valuation approximately £2.3bn.",
+      "values": [
+        {
+          "label": "Equity value",
+          "amount": "Approximately £308m",
+          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility"
+        },
+        {
+          "label": "Enterprise value",
+          "amount": "Approximately £2.3bn",
+          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility"
+        },
+        {
+          "label": "Offer per share",
+          "amount": "46p",
+          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility"
+        }
+      ],
+      "analysis": "The gap between equity and enterprise valuation makes the capital structure central to the investment thesis. Do not infer net debt from the gap without checking the valuation definitions. A scheme requires its own shareholder and court process; lenders also need certainty on funding and closing.",
+      "watch": "Scheme timetable, applicable approvals and completion announcements.",
+      "sources": [
+        {
+          "name": "Freshfields target mandate",
+          "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility"
+        },
+        {
+          "name": "Clifford Chance financing mandate",
+          "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-on-the-financing-of-cmc-group-and-asterion-industrial-partners-recommended-cash-offer-for-mobico-group.html"
+        }
+      ],
+      "related": [
+        "valuation",
+        "capital-markets",
+        "finance"
+      ],
+      "advisers": [
+        {
+          "firm": "Freshfields",
+          "firmId": "freshfields",
+          "client": "Mobico",
+          "scope": "Recommended acquisition",
+          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility"
+        },
+        {
+          "firm": "Clifford Chance",
+          "firmId": "clifford-chance",
+          "client": "Lenders",
+          "scope": "Acquisition financing",
+          "source": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-on-the-financing-of-cmc-group-and-asterion-industrial-partners-recommended-cash-offer-for-mobico-group.html"
+        }
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "verifiedOn": "2026-11-24",
+      "id": "cary-consortium",
+      "category": "Transactions",
+      "title": "Nordic Capital / CPP Investments / Ontario Teachers’ — Cary Group",
+      "eventDate": "2026-11-17",
+      "announcedOn": "2026-11-17",
+      "status": "Investment agreement announced",
+      "sector": "Automotive services",
+      "fact": "CPP Investments and Ontario Teachers’ agreed to join Nordic Capital as owners of Cary Group, which operates in the UK among other markets. Linklaters disclosed a proposed €545m Ontario Teachers’ investment; this is not the overall transaction value.",
+      "values": [
+        {
+          "label": "Ontario Teachers’ proposed investment only",
+          "amount": "€545m",
+          "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-ontario-teachers-on-its-investment-in-cary-group"
+        }
+      ],
+      "analysis": "A consortium structure raises governance questions distinct from the purchase price: reserved matters, future funding, exit rights and alignment between investors with different investment horizons.",
+      "watch": "Regulatory approvals and confirmation of closing; the announced expectation was the first half of 2027.",
+      "sources": [
+        {
+          "name": "Nordic Capital announcement",
+          "url": "https://www.nordiccapital.com/insights/press-releases/cpp-investments-and-ontario-teachers-to-join-nordic-capital-as-owners-of-cary-group-to-support-its-continued-international-expansion-and-long-term-development/"
+        },
+        {
+          "name": "Freshfields CPP mandate",
+          "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/11/freshfields-advises-cpp-investments-on-the-acquisition-of-cary-group-by-a-consortium-comprised-of-nordic-capital-ontario-teachers-pension-plan-and-cpp-investments"
+        },
+        {
+          "name": "Linklaters Ontario Teachers’ mandate",
+          "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-ontario-teachers-on-its-investment-in-cary-group"
+        }
+      ],
+      "related": [
+        "private-equity",
+        "valuation"
+      ],
+      "advisers": [
+        {
+          "firm": "Freshfields",
+          "firmId": "freshfields",
+          "client": "CPP Investments",
+          "scope": "Consortium acquisition",
+          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/11/freshfields-advises-cpp-investments-on-the-acquisition-of-cary-group-by-a-consortium-comprised-of-nordic-capital-ontario-teachers-pension-plan-and-cpp-investments"
+        },
+        {
+          "firm": "Linklaters",
+          "firmId": "linklaters",
+          "client": "Ontario Teachers’",
+          "scope": "Investment",
+          "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-ontario-teachers-on-its-investment-in-cary-group"
+        }
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "verifiedOn": "2026-11-24",
+      "id": "goldman-celnor",
+      "category": "Transactions",
+      "title": "Goldman Sachs Alternatives / Celnor Group",
+      "eventDate": "2026-10-23",
+      "announcedOn": "2026-10-23",
+      "status": "Majority acquisition agreed",
+      "sector": "Testing, inspection and compliance",
+      "fact": "Inflexion announced an agreement to sell a majority stake in UK-based Celnor to Goldman Sachs Alternatives. Inflexion and management are to reinvest. Linklaters disclosed its advice to Goldman Sachs Alternatives.",
+      "analysis": "Reinvestment can align the seller and management with the buyer’s growth strategy, but the documents must address governance, leaver provisions, future capital needs and exit mechanics. A majority investment does not imply acquisition of every share.",
+      "watch": "Closing, subject to the announced timetable, and any publicly disclosed governance arrangements.",
+      "sources": [
+        {
+          "name": "Inflexion announcement",
+          "url": "https://www.inflexion.com/news-and-insights/news/2026/inflexion-agrees-sale-of-majority-stake-in-celnor-to-goldman-sachs-alternatives/"
+        },
+        {
+          "name": "Linklaters mandate",
+          "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-goldman-sachs-alternatives-on-its-investment-in-celnor-group"
+        }
+      ],
+      "related": [
+        "private-equity"
+      ],
+      "advisers": [
+        {
+          "firm": "Linklaters",
+          "firmId": "linklaters",
+          "client": "Goldman Sachs Alternatives",
+          "scope": "Investment",
+          "source": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/november/linklaters-advises-goldman-sachs-alternatives-on-its-investment-in-celnor-group"
+        }
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "verifiedOn": "2026-11-24",
+      "id": "rwe-kkr-vanguard",
+      "category": "Transactions",
+      "title": "RWE / KKR — Vanguard offshore wind projects",
+      "eventDate": "2026-11-11",
+      "status": "Final investment decision announced",
+      "sector": "Energy / infrastructure",
+      "fact": "RWE announced final investment decisions for the UK Vanguard West and East offshore wind projects. The announced combined project investment is approximately £12bn, not an acquisition price or debt facility.",
+      "values": [
+        {
+          "label": "Combined project investment",
+          "amount": "Approximately £12bn",
+          "source": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/news/news-2026-11-11_a/"
+        }
+      ],
+      "analysis": "Project economics depend on construction cost, revenue arrangements, grid connection and risk allocation. The investment decision does not eliminate construction risk; advisers must distinguish committed funding, drawdown conditions and completion milestones.",
+      "watch": "Construction, grid connection and financing milestones; distinguish investment approval from operational completion.",
+      "sources": [
+        {
+          "name": "RWE investment announcement",
+          "url": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/news/news-2026-11-11_a/"
+        },
+        {
+          "name": "UK government announcement",
+          "url": "https://www.gov.uk/government/news/prime-minister-hails-major-investment-in-uk-renewables"
+        }
+      ],
+      "related": [
+        "project-finance",
+        "finance"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "verifiedOn": "2026-11-24",
+      "id": "clean-power-auction",
+      "category": "Briefing",
+      "title": "New UK renewable power auction",
+      "eventDate": "2026-11-19",
+      "status": "Auction launch announced",
+      "sector": "Energy",
+      "fact": "The UK government announced a new clean-power renewables auction on 19 November.",
+      "analysis": "Revenue support can improve cash flow predictability for qualifying projects, but winning an auction is not equivalent to securing construction funding. Developers need to test bid economics against financing cost, procurement and delivery risk.",
+      "watch": "Auction results, project-specific contracts and subsequent investment decisions.",
+      "sources": [
+        {
+          "name": "Government announcement",
+          "url": "https://www.gov.uk/government/news/new-clean-power-renewables-auction-launched-to-lower-bills"
+        }
+      ],
+      "related": [
+        "project-finance"
+      ]
+    },
+    {
+      "jurisdiction": "UK",
+      "verifiedOn": "2026-11-24",
+      "id": "ch-identity",
+      "category": "Regulation",
+      "title": "Companies House identity verification: enforcement approach",
+      "eventDate": "2026-11-19",
+      "status": "Published enforcement guidance",
+      "sector": "Corporate governance",
+      "fact": "Companies House published its approach to non-compliance with mandatory identity verification. The rollout began in November 2025; applicable deadlines depend on the person’s role and circumstances.",
+      "analysis": "Deal teams should include identity verification and filing readiness in completion and post-completion checklists. A general rollout date is not a substitute for checking the specific statutory deadline and enforcement guidance.",
+      "watch": "Current Companies House guidance for the relevant director or person with significant control.",
+      "sources": [
+        {
+          "name": "Companies House enforcement guidance",
+          "url": "https://www.gov.uk/government/publications/companies-house-approach-to-non-compliance-with-mandatory-identity-verification/companies-house-approach-to-non-compliance-with-mandatory-identity-verification"
+        },
+        {
+          "name": "Identity verification guidance",
+          "url": "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house"
+        }
+      ],
+      "related": [
+        "corporate-governance"
+      ]
     }
   ],
   "lessons": [
@@ -417,6 +689,82 @@
         "name": "CMA guidance",
         "url": "https://www.gov.uk/government/publications/mergers-guidance-on-the-cmas-jurisdiction-and-procedure"
       }
+    },
+    {
+      "id": "private-equity",
+      "title": "Private equity and management rollover",
+      "level": "Intermediate",
+      "body": "Sponsors seek returns through operating improvements, growth, capital structure and eventual exit. Rollover means existing investors or management reinvest some proceeds or retain an interest. Review shareholder rights, dilution, incentives, transfer restrictions and exit arrangements. The investment’s value and the target’s enterprise value are different concepts.",
+      "scenario": "A sponsor buys a majority stake and management reinvests. What is a priority alongside the SPA?",
+      "options": [
+        "Assume management has no continuing rights",
+        "Negotiate governance, incentives and exit rights",
+        "Treat all debt as seller proceeds",
+        "Assume the business has already been sold"
+      ],
+      "answer": 1,
+      "explanation": "Continuing shareholders need a workable governance and exit framework, distinct from the acquisition terms.",
+      "source": {
+        "name": "Celnor transaction example",
+        "url": "https://www.inflexion.com/news-and-insights/news/2026/inflexion-agrees-sale-of-majority-stake-in-celnor-to-goldman-sachs-alternatives/"
+      }
+    },
+    {
+      "id": "project-finance",
+      "title": "Infrastructure and project finance",
+      "level": "Intermediate",
+      "body": "Project finance often relies on cash flows of a project company, with limited or non-recourse structures depending on the agreed financing. Construction, operating, revenue and political risks are allocated across contracts, insurance, security and sponsor support. A final investment decision is not the same as financial close or operational completion.",
+      "scenario": "An offshore wind development has a final investment decision. What can you safely conclude?",
+      "options": [
+        "All turbines are operating",
+        "All borrowing has been drawn",
+        "The investment has been approved; delivery and funding milestones still matter",
+        "No construction risk remains"
+      ],
+      "answer": 2,
+      "explanation": "An investment decision is distinct from completion, drawdown and commissioning.",
+      "source": {
+        "name": "RWE project example",
+        "url": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/news/news-2026-11-11_a/"
+      }
+    },
+    {
+      "id": "corporate-governance",
+      "title": "Corporate governance and completion readiness",
+      "level": "Foundation",
+      "body": "Completion involves more than payment: approvals, executed documents, registers, appointments and filings may matter. In UK transactions the precise obligations depend on company type, structure and the law in force. Check current Companies House identity-verification requirements for directors and persons with significant control rather than applying one deadline to everyone.",
+      "scenario": "A director will be appointed at completion. Which approach is best?",
+      "options": [
+        "Ignore identity verification until a problem occurs",
+        "Check the applicable verification requirement and filing sequence",
+        "Assume all directors had one identical deadline",
+        "Treat verification as a competition-law approval"
+      ],
+      "answer": 1,
+      "explanation": "Verification and filing readiness should be checked against the applicable rules for the individual and transaction.",
+      "source": {
+        "name": "Companies House guidance",
+        "url": "https://www.gov.uk/government/publications/companies-house-approach-to-non-compliance-with-mandatory-identity-verification/companies-house-approach-to-non-compliance-with-mandatory-identity-verification"
+      }
+    },
+    {
+      "id": "national-security",
+      "title": "UK national security screening",
+      "level": "Intermediate",
+      "body": "The National Security and Investment Act creates a distinct national security review regime. Certain qualifying acquisitions of control over entities in specified sectors require mandatory notification. Asset acquisitions are not subject to mandatory notification but may be called in. Competition and national security reviews require separate analysis.",
+      "scenario": "An acquisition is cleared by the CMA on competition grounds. Does that establish NSI clearance?",
+      "options": [
+        "Yes",
+        "No; separately assess NSI jurisdiction and any notification requirement",
+        "Yes if both parties are British",
+        "Only if the deal is a share purchase"
+      ],
+      "answer": 1,
+      "explanation": "The regimes serve different purposes and must be assessed separately.",
+      "source": {
+        "name": "Government NSI guidance",
+        "url": "https://www.gov.uk/guidance/national-security-and-investment-act-guidance-on-acquisitions"
+      }
     }
   ],
   "firms": [
@@ -440,6 +788,27 @@
       "programme": "UK trainee associate programme, vacation schemes and early insight routes.",
       "url": "https://www.freshfields.com/en/your-career/united-kingdom/early-careers",
       "research": "Prepare a merger-control case and explain what a transactional team and competition team would each do."
+    },
+    {
+      "id": "latham",
+      "name": "Latham & Watkins",
+      "programme": "London graduate recruitment FAQs, including application and work-authorisation guidance; verify the current programme-specific terms.",
+      "url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-kingdom/London-Graduate-Recruitment-FAQs",
+      "research": "Practise explaining acquisition financing and why lender and sponsor interests differ."
+    },
+    {
+      "id": "addleshaw",
+      "name": "Addleshaw Goddard",
+      "programme": "Official training contract information; confirm office-specific application windows on the employer site.",
+      "url": "https://earlycareers.addleshawgoddard.com/careers/training-contracts/",
+      "research": "Connect infrastructure investment to construction, financing and commercial contracts."
+    },
+    {
+      "id": "burges",
+      "name": "Burges Salmon",
+      "programme": "Official trainee information; check the jurisdiction and programme details.",
+      "url": "https://www.burges-salmon.com/join-us/emerging-talent/trainees/",
+      "research": "Use the project finance case to identify client risks and relevant practice teams."
     }
   ],
   "registry": [
