@@ -2491,7 +2491,11 @@
       ],
       "answer": 1,
       "explanation": "£120m − £35m + £5m = £90m. The SPA must specify which items count as cash and debt.",
-      "source": null
+      "source": null,
+      "pathway": "Foundations",
+      "practical": "In a transaction, first separate operating-business valuation from the cash paid to shareholders. For example, an enterprise value of £200m and net debt of £45m imply £155m equity value before other adjustments. A target with £10m EBITDA may still need £6m capital expenditure and £3m additional working capital; EBITDA alone is a poor proxy for available debt service. A locked-box price uses a historical balance sheet and leakage protections; completion accounts adjust against agreed closing metrics. Neither mechanism guarantees a particular price without the definitions.",
+      "exercise": "Prepare a one-page bridge from enterprise value to equity consideration, identifying net debt, debt-like items, working capital and leakage. Explain how a disputed debt-like item affects buyer and seller differently.",
+      "version": "2026-11-24-v2"
     },
     {
       "id": "finance",
@@ -2510,7 +2514,11 @@
       "source": {
         "name": "Bank of England policy example",
         "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
-      }
+      },
+      "pathway": "Foundations",
+      "practical": "Suppose £80m of floating debt pays a benchmark plus 300 basis points. A benchmark increase affects interest expense, while the margin may depend on leverage or rating. In a leveraged acquisition, a higher rate can reduce cash available for amortisation or distributions and affect covenant headroom. Review the definition of EBITDA, permitted add-backs, interest coverage, testing periods and cure provisions. A borrower can hedge some benchmark risk, but hedge break costs and mismatched tenors can create new exposure.",
+      "exercise": "Draft a lender diligence checklist: facility amount, tenor, rate, financial covenants, mandatory prepayment, security, hedging and change-of-control terms.",
+      "version": "2026-11-24-v2"
     },
     {
       "id": "merger-control",
@@ -2519,17 +2527,21 @@
       "body": "The UK merger regime is generally voluntary, but the CMA may investigate qualifying anticipated or completed transactions. Review can lead to clearance, commitments, deeper investigation or prohibition. Contractual closing conditions, long-stop dates and risk allocation need to reflect the transaction's particular facts and any separate mandatory regimes.",
       "scenario": "A buyer completes a UK transaction before the CMA reviews it. Which statement is safest?",
       "options": [
-        "Completion removes CMA jurisdiction",
-        "The parties automatically receive clearance",
+        "CMA cannot review because legal ownership has transferred",
+        "Only the contractual long-stop date determines CMA jurisdiction",
         "The CMA may still review a qualifying completed merger",
-        "Only the seller faces regulatory risk"
+        "The CMA may review only if a competitor submits a formal complaint"
       ],
       "answer": 2,
       "explanation": "A qualifying completed merger may still be reviewed; the Co-operative case provides a concrete illustration.",
       "source": {
         "name": "CMA jurisdiction guidance",
         "url": "https://www.gov.uk/government/publications/mergers-guidance-on-the-cmas-jurisdiction-and-procedure"
-      }
+      },
+      "pathway": "Applied transactions",
+      "practical": "Competition analysis begins with the enterprises, control and jurisdictional tests, then considers overlap, market definition and the theory of harm. The UK regime permits voluntary notification in many cases; completion without clearance can still expose parties to investigation and interim measures. In an SPA, a competition condition, cooperation obligations, remedy commitments and long-stop date allocate timing and outcome risk. A divestiture could remove assets the buyer expected to use to achieve synergies. Do not infer clearance merely from the expiry of a privately agreed deadline.",
+      "exercise": "Using the linked dossier, identify the parties, the recorded CMA stage, the next dated milestone and the impact of a potential remedy on deal economics.",
+      "version": "2026-11-24-v2"
     },
     {
       "id": "capital-markets",
@@ -2538,17 +2550,21 @@
       "body": "A public takeover and an equity issuance solve different commercial problems. Before planning a public acquisition, establish whether the Takeover Code applies; before a capital raising, identify the market, admission route, offer and applicable prospectus rules. Regulatory timetables, disclosure and execution risk affect the financing plan.",
       "scenario": "A foreign bidder retains a London law firm to acquire a foreign private company. Does that alone establish Takeover Code jurisdiction?",
       "options": [
-        "Yes, always",
+        "Yes, because English governing law can determine Code jurisdiction",
         "No; test the target and Code scope",
-        "Yes, if consideration is sterling",
-        "Yes, if counsel is Magic Circle"
+        "Yes, if a UK bank arranges acquisition financing",
+        "Yes, if the bidder intends to list the combined business in London"
       ],
       "answer": 1,
       "explanation": "The location of an adviser is not a standalone test of the Code’s applicability.",
       "source": {
         "name": "Panel scope guidance",
         "url": "https://www.takeoverpanel.org.uk/the-code/companies-to-which-the-takeover-code-applies"
-      }
+      },
+      "pathway": "Applied transactions",
+      "practical": "For a takeover, establish the target's status and the applicable scope of the Takeover Code before considering announcement, offer or scheme routes. For an issuance, distinguish primary proceeds received by the issuer from a secondary sale by investors. Publicity and disclosure obligations, underwriting or placing arrangements, investor eligibility, admission and transaction timetable are separate workstreams. The client's funding objective and existing shareholder dilution are central commercial questions. Do not transpose takeover requirements into a capital raising simply because both involve listed securities.",
+      "exercise": "Compare a takeover and a primary equity issuance: client objective, cash flows, principal documents, approvals and timing risk.",
+      "version": "2026-11-24-v2"
     },
     {
       "id": "business-model",
@@ -2557,14 +2573,18 @@
       "body": "Revenue is sales before expenses; profit depends on costs and accounting rules. Operating cash flow also reflects collection and payment timing. A high-growth company can be profitable on paper but short of cash. Ask what customers pay for, what drives costs, how working capital behaves and what regulation constrains the business.",
       "scenario": "Sales rise but customers take much longer to pay. What can happen?",
       "options": [
-        "Cash flow necessarily improves",
+        "Operating cash flow must increase in proportion to recognised revenue",
         "Cash flow can weaken despite higher revenue",
-        "Debt automatically falls",
-        "Revenue becomes equal to cash"
+        "Receivables affect investing cash flow rather than operating cash flow",
+        "A longer collection period necessarily reduces recognised revenue"
       ],
       "answer": 1,
       "explanation": "Receivables tie up cash. A profitable business may still need working-capital finance.",
-      "source": null
+      "source": null,
+      "pathway": "Foundations",
+      "practical": "Trace a company's cash conversion cycle from purchasing inventory to collecting sales. If a business invoices £100m and collection slows by 30 days, the additional receivables balance could be material even if the profit margin is unchanged. Distinguish fixed costs from variable costs, recurring from transactional revenue, and customer concentration from overall sales growth. In diligence, compare contractual payment terms, termination rights and actual collections. A facility may fund a seasonal working-capital gap, but it cannot fix structurally unprofitable operations.",
+      "exercise": "Choose a company and explain its customers, revenue drivers, largest costs, working-capital cycle and two contractual or regulatory risks.",
+      "version": "2026-11-24-v2"
     },
     {
       "id": "interview",
@@ -2573,17 +2593,21 @@
       "body": "Start with a specific, dated fact. Identify the client and its commercial objective, trace the financial or operational impact, identify legal work and risks, then state what evidence could change your view. Avoid pretending that every issue has the same impact on all clients.",
       "scenario": "A buyer is concerned about a competition remedy. Which response demonstrates the strongest reasoning?",
       "options": [
-        "All M&A is risky",
-        "The lawyers should guarantee clearance",
+        "Focus on the possibility of a remedy without discussing its economics",
+        "Assess regulatory approval separately from the agreed acquisition conditions",
         "Test the remedy’s impact on synergies, financing and closing conditions",
-        "Repeat the purchase price"
+        "Compare the headline purchase price with unrelated recent transactions"
       ],
       "answer": 2,
       "explanation": "The best answer links a concrete regulatory outcome to deal economics and legal drafting. This is original practice material, not an employer question.",
       "source": {
         "name": "CMA guidance",
         "url": "https://www.gov.uk/government/publications/mergers-guidance-on-the-cmas-jurisdiction-and-procedure"
-      }
+      },
+      "pathway": "Interview preparation",
+      "practical": "A useful interview answer should connect a dated development to a particular client's decision. A buyer may care about synergies and certainty; lenders may focus on repayment, conditions and security; a seller may care about price and timing. Separate a verified event from your prediction. For a competition remedy, consider whether the asset to be sold is strategically important, what remedy commitments the SPA imposes and whether financing remains available. End with a concrete question or next milestone rather than a generic conclusion.",
+      "exercise": "Deliver a 90-second answer: fact, client objective, commercial effect, legal workstream, uncertainty and next event.",
+      "version": "2026-11-24-v2"
     },
     {
       "id": "private-equity",
@@ -2592,17 +2616,21 @@
       "body": "Sponsors seek returns through operating improvements, growth, capital structure and eventual exit. Rollover means existing investors or management reinvest some proceeds or retain an interest. Review shareholder rights, dilution, incentives, transfer restrictions and exit arrangements. The investment’s value and the target’s enterprise value are different concepts.",
       "scenario": "A sponsor buys a majority stake and management reinvests. What is a priority alongside the SPA?",
       "options": [
-        "Assume management has no continuing rights",
+        "Rely on the SPA alone because it governs the initial acquisition",
         "Negotiate governance, incentives and exit rights",
-        "Treat all debt as seller proceeds",
-        "Assume the business has already been sold"
+        "Prioritise lender security without examining management's equity rights",
+        "Give management veto rights over all decisions irrespective of economics"
       ],
       "answer": 1,
       "explanation": "Continuing shareholders need a workable governance and exit framework, distinct from the acquisition terms.",
       "source": {
         "name": "Celnor transaction example",
         "url": "https://www.inflexion.com/news-and-insights/news/2026/inflexion-agrees-sale-of-majority-stake-in-celnor-to-goldman-sachs-alternatives/"
-      }
+      },
+      "pathway": "Applied transactions",
+      "practical": "Consider a sponsor acquiring 80% while management rolls 20% into the new ownership structure. Management's economics may differ from the sponsor's because of preferred securities, vesting, ratchets or leaver terms. The shareholders' agreement and articles may address reserved matters, board representation, information, transfer restrictions, drag/tag rights and exit. Acquisition financing and distributions interact with equity returns but are not the same as the enterprise valuation. Review conflicts of interest and management incentives as well as the SPA.",
+      "exercise": "Identify five questions to ask about rollover securities, governance, incentives, transfer restrictions and exit economics.",
+      "version": "2026-11-24-v2"
     },
     {
       "id": "project-finance",
@@ -2611,17 +2639,21 @@
       "body": "Project finance often relies on cash flows of a project company, with limited or non-recourse structures depending on the agreed financing. Construction, operating, revenue and political risks are allocated across contracts, insurance, security and sponsor support. A final investment decision is not the same as financial close or operational completion.",
       "scenario": "An offshore wind development has a final investment decision. What can you safely conclude?",
       "options": [
-        "All turbines are operating",
-        "All borrowing has been drawn",
+        "The sponsor decision establishes that all debt commitments are unconditional",
+        "Financial close is deemed to occur when the investment decision is announced",
         "The investment has been approved; delivery and funding milestones still matter",
-        "No construction risk remains"
+        "The revenue contract guarantees that lenders will be repaid"
       ],
       "answer": 2,
       "explanation": "An investment decision is distinct from completion, drawdown and commissioning.",
       "source": {
         "name": "RWE project example",
         "url": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/news/news-2026-11-11_a/"
-      }
+      },
+      "pathway": "Applied transactions",
+      "practical": "A project company's debt service depends on construction completion and operating cash flows. A lender may examine EPC obligations, completion tests, delay damages, revenue arrangements, operating contracts, insurance, reserves and direct agreements. A final investment decision signals sponsor approval; financing documentation, drawdown conditions and construction risk may remain. A contracted revenue stream can mitigate price exposure but creates counterparty and performance risks. Distinguish project investment from the committed facility and actual drawn debt.",
+      "exercise": "Map construction, revenue, operational and refinancing risks to contractual mitigants and identify who bears residual exposure.",
+      "version": "2026-11-24-v2"
     },
     {
       "id": "corporate-governance",
@@ -2630,17 +2662,21 @@
       "body": "Completion involves more than payment: approvals, executed documents, registers, appointments and filings may matter. In UK transactions the precise obligations depend on company type, structure and the law in force. Check current Companies House identity-verification requirements for directors and persons with significant control rather than applying one deadline to everyone.",
       "scenario": "A director will be appointed at completion. Which approach is best?",
       "options": [
-        "Ignore identity verification until a problem occurs",
+        "Record the appointment and treat identity verification as a routine later filing in all cases",
         "Check the applicable verification requirement and filing sequence",
-        "Assume all directors had one identical deadline",
-        "Treat verification as a competition-law approval"
+        "Use the seller's verification status for the incoming director",
+        "Treat the signed SPA as evidence of all corporate authorisations"
       ],
       "answer": 1,
       "explanation": "Verification and filing readiness should be checked against the applicable rules for the individual and transaction.",
       "source": {
         "name": "Companies House guidance",
         "url": "https://www.gov.uk/government/publications/companies-house-approach-to-non-compliance-with-mandatory-identity-verification/companies-house-approach-to-non-compliance-with-mandatory-identity-verification"
-      }
+      },
+      "pathway": "Legal workstreams",
+      "practical": "Prepare a completion agenda that distinguishes documents signed before closing, items delivered at completion and post-closing filings. Verify authority under the company's constitutional documents, board and shareholder approvals, execution capacity, registers and any applicable identity-verification requirements. Director and PSC requirements may have different commencement or transition arrangements. The Companies House process does not replace review of the underlying corporate approvals or transaction-specific conditions. Escalate missing evidence rather than marking a checklist complete prematurely.",
+      "exercise": "Build a completion checklist for a director appointment and share acquisition, with responsible person, dependency and evidence of completion.",
+      "version": "2026-11-24-v2"
     },
     {
       "id": "national-security",
@@ -2649,17 +2685,21 @@
       "body": "The National Security and Investment Act creates a distinct national security review regime. Certain qualifying acquisitions of control over entities in specified sectors require mandatory notification. Asset acquisitions are not subject to mandatory notification but may be called in. Competition and national security reviews require separate analysis.",
       "scenario": "An acquisition is cleared by the CMA on competition grounds. Does that establish NSI clearance?",
       "options": [
-        "Yes",
+        "Yes, provided the CMA considered the same assets",
         "No; separately assess NSI jurisdiction and any notification requirement",
-        "Yes if both parties are British",
-        "Only if the deal is a share purchase"
+        "Only if the CMA clearance expressly discusses foreign investment",
+        "Yes, provided the transaction does not create a competition concern"
       ],
       "answer": 1,
       "explanation": "The regimes serve different purposes and must be assessed separately.",
       "source": {
         "name": "Government NSI guidance",
         "url": "https://www.gov.uk/guidance/national-security-and-investment-act-guidance-on-acquisitions"
-      }
+      },
+      "pathway": "Legal workstreams",
+      "practical": "Distinguish mandatory notification of qualifying acquisitions of entities in specified sectors from the wider call-in power. Analyse the activities of the target, the control threshold and transaction structure, rather than relying only on the buyer's nationality or industry label. Review the regime alongside competition and other sector approvals. A potentially notifiable transaction requires specialist assessment before completion; the SPA should address conditions, information obligations and timing. The government guidance and legislation must be checked for the particular acquisition.",
+      "exercise": "Prepare a screening memo listing target activities, acquired rights, control change, possible mandatory sector, call-in risk and proposed next step.",
+      "version": "2026-11-24-v2"
     },
     {
       "id": "securitisation",
@@ -2668,17 +2708,21 @@
       "body": "A securitisation uses a financing structure in which investors are paid from a pool of underlying exposures, subject to contractual priorities. Analyse asset transfer, security, servicing, cash-flow waterfalls, credit enhancement and insolvency risk. CMBS can expose investors to property cash flow and refinancing risk.",
       "scenario": "A CMBS issuer sells senior and junior notes. Does securitisation eliminate borrower default risk?",
       "options": [
-        "Yes",
+        "Yes, if the assets are transferred to an insolvency-remote vehicle",
         "No; losses are allocated through the contractual structure",
-        "Yes, if notes are listed",
-        "Yes, if property is insured"
+        "Yes, if the senior notes receive an investment-grade rating",
+        "Only junior investors can ever experience a loss"
       ],
       "answer": 1,
       "explanation": "The structure allocates credit risk rather than making the underlying exposure risk-free.",
       "source": {
         "name": "UK logistics CMBS example",
         "url": "https://www.cliffordchance.com/news/news/2026/10/clifford-chance-advises-deutsche-bank-and-standard-chartered-on-603-million-uk-logistics-cmbs.html"
-      }
+      },
+      "pathway": "Applied transactions",
+      "practical": "Consider senior and junior notes backed by a pool of loans. The waterfall allocates available collections according to priorities; junior exposure may absorb losses first, subject to the actual structure. Asset eligibility, transfer or security mechanics, servicing, liquidity support, account control and insolvency remoteness matter. A rating addresses defined credit risks under assumptions, not every legal or market risk. In CMBS, property income, tenant concentration and refinancing of the underlying loans can affect note performance.",
+      "exercise": "Draw a simplified payment waterfall and explain how a missed borrower payment reaches different investors. Identify two legal assumptions that require verification.",
+      "version": "2026-11-24-v2"
     },
     {
       "id": "public-schemes",
@@ -2687,17 +2731,21 @@
       "body": "A scheme of arrangement is a court-supervised process. A public takeover implemented by scheme typically requires the relevant shareholder approvals and court sanction, alongside satisfaction of applicable offer conditions. Check the transaction documents and the relevant Companies Act and Takeover Code provisions.",
       "scenario": "A scheme has shareholder support but merger clearance is outstanding. Which conclusion is sound?",
       "options": [
-        "It must close immediately",
+        "Shareholder approval generally removes all regulatory conditions",
         "A closing condition may remain outstanding",
-        "The CMA has implicitly approved",
-        "Court sanction is unnecessary"
+        "Court sanction may substitute for an outstanding merger decision",
+        "The offer consideration becomes payable immediately upon shareholder approval"
       ],
       "answer": 1,
       "explanation": "Shareholder support is not the same as satisfaction of all conditions or legal completion.",
       "source": {
         "name": "Mitie scheme document",
         "url": "https://www.mitie.com/wp-content/uploads/2026/08/Project-Marlin_Scheme_Document.pdf"
-      }
+      },
+      "pathway": "Legal workstreams",
+      "practical": "A scheme can bind the relevant class when the statutory and procedural requirements are met and the scheme becomes effective. Do not confuse an announcement, shareholder vote, court sanction and effectiveness. Transaction documentation identifies conditions, long-stop arrangements and the required steps. Competition review or sector approvals may remain outstanding even after shareholders vote. Consider whether the consideration, financing arrangements or timetable could be affected by a delay. The governing transaction documents and statutory provisions determine the precise position.",
+      "exercise": "Build a timeline from recommended announcement to shareholder meeting, regulatory decisions, court hearing and effectiveness. Mark the dependencies.",
+      "version": "2026-11-24-v2"
     },
     {
       "id": "due-diligence",
@@ -2706,14 +2754,18 @@
       "body": "Diligence maps material legal risks to commercial responses. A known issue may justify a price adjustment, specific indemnity, closing condition, covenant or decision not to proceed. Warranties allocate contractual risk subject to the negotiated disclosure and liability framework; they are not a substitute for verification.",
       "scenario": "A target's material customer contract requires consent for a change of control. What should counsel prioritise?",
       "options": [
-        "Ignore it if the target is profitable",
+        "Use a general warranty alone to cover the known consent issue",
         "Verify the clause and assess a consent condition or alternative risk allocation",
-        "Always demand a criminal penalty",
-        "Assume signing provides consent"
+        "Request consent after completion in all cases to protect deal confidentiality",
+        "Treat inclusion in the disclosure letter as sufficient to preserve the contract"
       ],
       "answer": 1,
       "explanation": "Verify the clause and quantify the exposure. Depending on materiality, consent may be a condition to completion or another negotiated protection.",
-      "source": null
+      "source": null,
+      "pathway": "Legal workstreams",
+      "practical": "First establish whether the agreement really contains a change-of-control trigger and whether the proposed structure activates it. Identify notice requirements, consent discretion, termination rights and the revenue or operational dependence on that counterparty. A consent condition may be appropriate for a critical contract; for less material contracts, a covenant, price adjustment or targeted protection may suffice. Disclosure can qualify warranties but does not itself obtain consent. Record the issue, evidence, materiality, recommendation and unresolved questions.",
+      "exercise": "Write a short red-flag diligence report for a customer responsible for 35% of revenue, with clause reference, risk, commercial effect and proposed SPA response.",
+      "version": "2026-11-24-v2"
     },
     {
       "id": "data-ip",
@@ -2722,17 +2774,21 @@
       "body": "For a software or data business, distinguish ownership of IP from permission to use third-party content. Review licence scope, assignment and change-of-control clauses, data protection duties, processing arrangements, security and relevant statutory commencement. Commercial value may depend on rights that cannot automatically be transferred.",
       "scenario": "The target uses a third-party data feed under a non-transferable licence. What is the first step?",
       "options": [
-        "Assume share acquisition eliminates every licence restriction",
+        "Conclude that a share acquisition avoids the restriction without reading the agreement",
         "Verify contractual restrictions, change-of-control wording and consent requirements",
-        "Publish the feed publicly",
-        "Ignore it because data is intangible"
+        "Treat a licence renewal as equivalent to consent to the acquisition",
+        "Seek a warranty covering ownership even though the target licenses the feed"
       ],
       "answer": 1,
       "explanation": "The licence and structure determine whether consent is required. Review the actual terms and applicable law rather than applying a universal rule.",
       "source": {
         "name": "UK commencement guidance",
         "url": "https://www.gov.uk/guidance/data-use-and-access-act-2025-plans-for-commencement"
-      }
+      },
+      "pathway": "Legal workstreams",
+      "practical": "Create an inventory distinguishing owned IP, licensed software, third-party data, open-source components and processing activities. A share sale may preserve the contracting entity but can still trigger express change-of-control restrictions. An asset transfer may require assignment or novation. Examine permitted uses, sublicensing, audit, termination, renewal, data transfer and security obligations. If a core licence cannot transfer or remain valid, assess alternative supply, consent, transaction structure or price risk. Verify current applicable legislation and guidance for personal data separately.",
+      "exercise": "Draft five targeted diligence requests covering licence terms, rights chain, data processing, change-of-control and incident history.",
+      "version": "2026-11-24-v2"
     },
     {
       "id": "employment-diligence",
@@ -2741,17 +2797,21 @@
       "body": "Employment risk can arise from accrued liabilities, incentives, pensions, disputes, consultation and transfer rules. In England and Wales, analyse the applicable law and the difference between a share sale, where the employer entity usually remains unchanged, and a qualifying business transfer. Check current commencement and exceptions.",
       "scenario": "A deal involves transfer of an operating business rather than the company's shares. Which is best?",
       "options": [
-        "Assume all employment contracts terminate",
+        "Assume the purchase agreement alone determines whether TUPE applies",
         "Assess whether TUPE applies and identify information, consultation and liability issues",
-        "Assume employment law is irrelevant",
-        "Treat every employee as an independent contractor"
+        "Treat all liabilities as excluded if the buyer purchases assets only",
+        "Rely on the absence of employee objections as proof of compliance"
       ],
       "answer": 1,
       "explanation": "The factual structure determines the legal analysis. TUPE may apply to a qualifying transfer; review scope, obligations and relevant exceptions.",
       "source": {
         "name": "Government TUPE guidance",
         "url": "https://www.gov.uk/transfers-takeovers"
-      }
+      },
+      "pathway": "Legal workstreams",
+      "practical": "Start by identifying the legal employer, the assets and activities transferring, and the affected workforce. A share acquisition normally does not change the employing entity, while a qualifying business transfer may engage TUPE. Analyse information and consultation duties, historic claims, employment terms, incentives and pension issues with specialist input. The parties may allocate some liabilities contractually, but contractual allocation does not necessarily remove statutory rights. Consider proposed integration and restrictions on transfer-related changes.",
+      "exercise": "Compare a share acquisition and a business transfer in a two-column diligence note, with employment, consultation, pension and liability questions.",
+      "version": "2026-11-24-v2"
     },
     {
       "id": "market-methodology",
@@ -2760,17 +2820,21 @@
       "body": "Official series may count completed control acquisitions; a research database may include pending offers, finance and regulatory events. Compare like with like: period, universe, currency, value basis and status. A rising aggregate value can reflect a single large deal rather than broader activity.",
       "scenario": "A tracker includes a £300m facility and an acquisition with £300m equity value. Can you add them to estimate total M&A consideration?",
       "options": [
-        "Yes",
+        "Yes, because both amounts are denominated in the same currency",
         "No; they measure different economic quantities",
-        "Yes if sterling",
-        "Only if the same adviser acted"
+        "Yes, if the loan is intended to fund an acquisition",
+        "Only if the facility has been fully drawn"
       ],
       "answer": 1,
       "explanation": "Facility commitment and equity consideration are not comparable transaction values. Market measures need a consistent definition.",
       "source": {
         "name": "ONS methodology and bulletin",
         "url": "https://www.ons.gov.uk/businessindustryandtrade/changestobusiness/mergersandacquisitions/bulletins/mergersandacquisitionsinvolvingukcompanies/apriltojune2026"
-      }
+      },
+      "pathway": "Foundations",
+      "practical": "A deal count depends on what is counted: completed control acquisitions, announced offers, minority investments, restructurings or financing. A market total is sensitive to currency conversion, transaction value definitions and missing disclosures. Compare periods only on a consistent basis, and do not infer market share from a curated adviser database. A spike in aggregate value may be driven by a single transaction. Report observed mandates separately from independent market statistics, with period, denominator and known limitations.",
+      "exercise": "Write a two-sentence caveat for a chart comparing 20 tracked transactions with an official completed-M&A series.",
+      "version": "2026-11-24-v2"
     },
     {
       "id": "contract-remedies",
@@ -2779,14 +2843,18 @@
       "body": "A warranty is a contractual statement; an indemnity can allocate specified losses under its wording. Liability caps, baskets, exclusions, time limits and mitigation provisions require careful interpretation. A contract's exact terms matter more than labels.",
       "scenario": "A diligence report identifies a particular historic tax exposure. What is the appropriate response?",
       "options": [
-        "A generic warranty necessarily gives complete recovery",
+        "Rely exclusively on a general accounts warranty despite the identified exposure",
         "Assess a specifically negotiated indemnity or other protection, with clear scope and limitations",
-        "Ignore known exposure because the accounts were audited",
-        "Use only an NDA"
+        "Require disclosure alone and assume it preserves a full damages remedy",
+        "Insist on an unlimited indemnity without assessing the estimated exposure"
       ],
       "answer": 1,
       "explanation": "A known issue calls for explicit risk allocation. The choice depends on value, enforceability, bargaining power and the drafting.",
-      "source": null
+      "source": null,
+      "pathway": "Legal workstreams",
+      "practical": "A known risk should be addressed in the transaction economics and contract. A specific indemnity may define the covered event, recoverable loss, procedure, caps, exclusions and survival; a warranty claim may involve different requirements under the negotiated agreement and applicable law. Other responses include escrow, retention, price adjustment, remediation or a closing condition. Consider disclosure, insurance, enforceability, counterparty credit and double recovery. Avoid promising that a label automatically yields full compensation.",
+      "exercise": "Draft a term-sheet-level risk allocation proposal for a known tax dispute, covering trigger, duration, claims process, financial limit and alternative protections.",
+      "version": "2026-11-24-v2"
     },
     {
       "id": "law-firm-economics",
@@ -2795,14 +2863,18 @@
       "body": "A commercial firm sells expertise, judgment and execution capacity. Fee arrangements may include hourly rates, fixed fees or other structures. Profitability depends on utilisation, staffing, realisation and overhead; a high-value matter is not necessarily a high-margin matter. Clients value predictable scope, risk control and timely outcomes.",
       "scenario": "A transaction expands unexpectedly. What demonstrates commercial judgment?",
       "options": [
-        "Keep working without communicating cost",
+        "Continue under the original scope and disclose the cost increase at billing",
         "Explain scope changes, cost impact and options to the client",
-        "Guarantee the transaction closes",
-        "Assign all work to partners"
+        "Automatically convert the whole engagement to hourly billing",
+        "Reduce diligence coverage without discussing the changed risk with the client"
       ],
       "answer": 1,
       "explanation": "Transparent scope management helps the client make a business decision while preserving quality and the professional relationship.",
-      "source": null
+      "source": null,
+      "pathway": "Interview preparation",
+      "practical": "A client chooses counsel for expertise, execution, risk judgment and cost predictability. On a fixed-fee transaction, additional jurisdictions, unexpected diligence or repeated negotiation may change the assumptions underlying scope. A lawyer should identify the change, explain commercial and legal implications, propose options and obtain appropriate agreement before significant out-of-scope work. Efficient delegation, knowledge management and accurate time capture support both service quality and profitability. A large transaction value does not determine the legal fee or margin.",
+      "exercise": "Prepare a concise client update explaining an unexpected diligence workstream, revised options and estimated cost implications without guaranteeing the outcome.",
+      "version": "2026-11-24-v2"
     }
   ],
   "firms": [
