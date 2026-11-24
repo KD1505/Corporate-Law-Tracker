@@ -1,5 +1,5 @@
 {
-  "attemptedAt": "2026-11-24T09:51:26.224Z",
+  "attemptedAt": "2026-11-24T09:59:52.309Z",
   "notice": "Unreviewed issuer-level filing and global counsel news leads; not verified deals, client attributions or evidence of UK relevance. Related dossier IDs are issuer watch links only. Failure retains last successful metadata.",
   "sources": [
     {
@@ -11,7 +11,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0001045609.json",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:51:16.772Z",
+      "checkedAt": "2026-11-24T09:59:42.708Z",
       "items": [
         {
           "title": "8-K · Prologis, Inc.",
@@ -129,7 +129,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0000063754.json",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:51:17.905Z",
+      "checkedAt": "2026-11-24T09:59:43.847Z",
       "items": [
         {
           "title": "10-Q · MCCORMICK & CO INC",
@@ -247,7 +247,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0000840489.json",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:51:19.046Z",
+      "checkedAt": "2026-11-24T09:59:44.988Z",
       "items": [
         {
           "title": "8-K · FirstCash Holdings, Inc.",
@@ -365,7 +365,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0000839923.json",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:51:20.249Z",
+      "checkedAt": "2026-11-24T09:59:46.129Z",
       "items": [
         {
           "title": "6-K · VODAFONE GROUP PUBLIC LTD CO",
@@ -483,7 +483,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0000051434.json",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:51:21.382Z",
+      "checkedAt": "2026-11-24T09:59:47.265Z",
       "items": [
         {
           "title": "8-K · INTERNATIONAL PAPER CO /NEW/",
@@ -601,7 +601,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0000883241.json",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:51:22.541Z",
+      "checkedAt": "2026-11-24T09:59:48.403Z",
       "items": [
         {
           "title": "8-K · SYNOPSYS INC",
@@ -719,7 +719,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0000789019.json",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:51:23.653Z",
+      "checkedAt": "2026-11-24T09:59:49.530Z",
       "items": [
         {
           "title": "8-K · MICROSOFT CORP",
@@ -833,7 +833,7 @@
       "name": "Clifford Chance news",
       "url": "https://www.cliffordchance.com/rss/rss-feed-news.xml",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:51:25.123Z",
+      "checkedAt": "2026-11-24T09:59:51.209Z",
       "items": [
         {
           "title": "Clifford Chance advises Sunco Capital on NAV financing to strengthen renewables platform",
