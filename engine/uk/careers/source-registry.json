@@ -500,6 +500,108 @@
       "url": "https://boards-api.greenhouse.io/v1/boards/gibsondunn/jobs?content=false",
       "kind": "greenhouse",
       "board": "gibsondunn"
+    },
+    {
+      "id": "fact:linklaters:78",
+      "name": "Linklaters",
+      "url": "https://www.linklaters.com/careers/early-careers/training-contracts",
+      "kind": "employer"
+    },
+    {
+      "id": "fact:linklaters:79",
+      "name": "Linklaters",
+      "url": "https://www.linklaters.com/careers/early-careers/training-contracts",
+      "kind": "employer"
+    },
+    {
+      "id": "fact:linklaters:80",
+      "name": "Linklaters",
+      "url": "https://www.linklaters.com/careers/early-careers/vacation-schemes",
+      "kind": "employer"
+    },
+    {
+      "id": "fact:linklaters:81",
+      "name": "Linklaters",
+      "url": "https://www.linklaters.com/careers/early-careers/vacation-schemes",
+      "kind": "employer"
+    },
+    {
+      "id": "fact:clifford-chance:82",
+      "name": "Clifford Chance",
+      "url": "https://jobs.cliffordchance.com/job/trainee-solicitor-in-london-jid-3554",
+      "kind": "employer"
+    },
+    {
+      "id": "fact:clifford-chance:83",
+      "name": "Clifford Chance",
+      "url": "https://jobs.cliffordchance.com/job/trainee-solicitor-in-london-jid-3554",
+      "kind": "employer"
+    },
+    {
+      "id": "fact:clifford-chance:84",
+      "name": "Clifford Chance",
+      "url": "https://jobs.cliffordchance.com/faq-london",
+      "kind": "employer"
+    },
+    {
+      "id": "fact:latham:85",
+      "name": "Latham & Watkins",
+      "url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-kingdom/London-Graduate-Recruitment-FAQs",
+      "kind": "employer"
+    },
+    {
+      "id": "fact:freshfields:86",
+      "name": "Freshfields",
+      "url": "https://www.freshfields.com/en/your-career/united-kingdom/early-careers/trainee-associate-program",
+      "kind": "employer"
+    },
+    {
+      "id": "fact:freshfields:87",
+      "name": "Freshfields",
+      "url": "https://www.freshfields.com/en/your-career/united-kingdom/early-careers/virtual-learning-experiences",
+      "kind": "employer"
+    },
+    {
+      "id": "fact:burges:88",
+      "name": "Burges Salmon",
+      "url": "https://www.burges-salmon.com/join-us/emerging-talent/trainee-application-and-faqs/",
+      "kind": "employer"
+    },
+    {
+      "id": "fact:burges:89",
+      "name": "Burges Salmon",
+      "url": "https://www.burges-salmon.com/join-us/emerging-talent/trainee-application-and-faqs/",
+      "kind": "employer"
+    },
+    {
+      "id": "fact:burges:90",
+      "name": "Burges Salmon",
+      "url": "https://www.burges-salmon.com/join-us/emerging-talent/trainee-application-and-faqs/",
+      "kind": "employer"
+    },
+    {
+      "id": "fact:slaughter-may:91",
+      "name": "Slaughter and May",
+      "url": "https://www.slaughterandmay.com/careers/early-careers/apply/",
+      "kind": "employer"
+    },
+    {
+      "id": "fact:slaughter-may:92",
+      "name": "Slaughter and May",
+      "url": "https://www.slaughterandmay.com/careers/early-careers/apply/the-interview/",
+      "kind": "employer"
+    },
+    {
+      "id": "fact:ao-shearman:93",
+      "name": "A&O Shearman",
+      "url": "https://careers.aoshearman.com/en-gb/london-training-contract",
+      "kind": "employer"
+    },
+    {
+      "id": "fact:ao-shearman:94",
+      "name": "A&O Shearman",
+      "url": "https://careers.aoshearman.com/en-gb/london-vacation-schemes",
+      "kind": "employer"
     }
   ]
 }

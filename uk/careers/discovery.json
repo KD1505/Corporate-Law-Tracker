@@ -1,0 +1,909 @@
+{
+  "attemptedAt": null,
+  "notice": "Not yet collected by the nightly workflow. No retrieval or availability asserted.",
+  "sources": [
+    {
+      "id": "listing:linklaters-tc-2026",
+      "name": "Linklaters",
+      "kind": "listing",
+      "url": "https://www.linklaters.com/careers/early-careers/training-contracts",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:linklaters-vs-2027",
+      "name": "Linklaters",
+      "kind": "listing",
+      "url": "https://www.linklaters.com/careers/early-careers/vacation-schemes",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:latham-vs-2027",
+      "name": "Latham & Watkins",
+      "kind": "listing",
+      "url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-kingdom/our-programmes",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:burges-sector-2029",
+      "name": "Burges Salmon",
+      "kind": "listing",
+      "url": "https://www.burges-salmon.com/jobs/sector-focused-training-contracts-2029-energy-built-environment/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:burges-bristol-2029",
+      "name": "Burges Salmon",
+      "kind": "listing",
+      "url": "https://www.burges-salmon.com/jobs/bristol-direct-training-contract-2029/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:cc-tc-2029",
+      "name": "Clifford Chance",
+      "kind": "listing",
+      "url": "https://jobs.cliffordchance.com/training-contract-london",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:freshfields-tc-2026",
+      "name": "Freshfields",
+      "kind": "listing",
+      "url": "https://www.freshfields.com/en/your-career/united-kingdom/early-careers/trainee-associate-program",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:slaughter-tc-2026",
+      "name": "Slaughter and May",
+      "kind": "listing",
+      "url": "https://www.slaughterandmay.com/careers/early-careers/apply/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:ao-gfm-pa-11504",
+      "name": "A&O Shearman",
+      "kind": "listing",
+      "url": "https://careers.aoshearman.com/en/job/london/legal-pa-gfm-12-month-ftc/3392/47088161728",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:ao-corporate-10959",
+      "name": "A&O Shearman",
+      "kind": "listing",
+      "url": "https://careers.aoshearman.com/en-gb/job/belfast/associate-corporate/3392/40135470336",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:burges-company-secretarial",
+      "name": "Burges Salmon",
+      "kind": "listing",
+      "url": "https://www.burges-salmon.com/jobs/corporate-governance-paralegal/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:cc-legal-tech-jr8002",
+      "name": "Clifford Chance",
+      "kind": "listing",
+      "url": "https://jobs.cliffordchance.com/job/legal-technology-advisor-forward-deployed-in-london-jid-3004",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:wise-legal-counsel-4365",
+      "name": "Wise",
+      "kind": "listing",
+      "url": "https://wise.jobs/job/legal-counsel-uk-in-london-jid-4365",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:entain-corporate-ma-counsel",
+      "name": "Entain",
+      "kind": "listing",
+      "url": "https://jobs.smartrecruiters.com/Entain/744000153712609",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:dechert-spring-2027",
+      "name": "Dechert",
+      "kind": "listing",
+      "url": "https://www.dechert.com/careers/london-training-programme/faqs.html",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:farrer-vs-2027",
+      "name": "Farrer & Co",
+      "kind": "listing",
+      "url": "https://www.farrer.co.uk/careers/early-careers/vacation-scheme/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:covington-summer-2027",
+      "name": "Covington & Burling",
+      "kind": "listing",
+      "url": "https://www.cov.com/en/careers/lawyers/london/our-opportunities/vacation-schemes",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:trowers-vs-2027",
+      "name": "Trowers & Hamlins",
+      "kind": "listing",
+      "url": "https://www.trowers.com/careers/trainee-solicitors",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:trowers-tc-2029",
+      "name": "Trowers & Hamlins",
+      "kind": "listing",
+      "url": "https://www.trowers.com/careers/trainee-solicitors",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:burges-vs-2027",
+      "name": "Burges Salmon",
+      "kind": "listing",
+      "url": "https://www.burges-salmon.com/join-us/emerging-talent/vacation-scheme/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:gt-police-paralegal",
+      "name": "GT Stewart",
+      "kind": "listing",
+      "url": "https://gtstewart.co.uk/vacancies/paralegal-actions-against-the-police-and-public-authorities/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:gt-housing-paralegal",
+      "name": "GT Stewart",
+      "kind": "listing",
+      "url": "https://gtstewart.co.uk/vacancies/housing-paralegal-east-dulwich/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:gt-family-paralegal",
+      "name": "GT Stewart",
+      "kind": "listing",
+      "url": "https://gtstewart.co.uk/vacancies/family-paralegal-hammersmith/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:gt-prison-paralegal",
+      "name": "GT Stewart",
+      "kind": "listing",
+      "url": "https://gtstewart.co.uk/vacancies/prison-law-paralegal-dartford/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:carta-compliance-7980732003",
+      "name": "Carta",
+      "kind": "listing",
+      "url": "https://job-boards.greenhouse.io/carta/jobs/7980732003",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:carta-7798948003",
+      "name": "Carta",
+      "kind": "listing",
+      "url": "https://job-boards.greenhouse.io/carta/jobs/7798948003",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:octopus-legacy-5018965101",
+      "name": "Octopus Legacy",
+      "kind": "listing",
+      "url": "https://job-boards.greenhouse.io/octopuslegacy/jobs/5018965101",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "listing:gibson-secretary-4469300009",
+      "name": "Gibson Dunn",
+      "kind": "listing",
+      "url": "https://job-boards.greenhouse.io/gibsondunn/jobs/4469300009",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:linklaters",
+      "name": "Linklaters",
+      "kind": "employer",
+      "url": "https://www.linklaters.com/careers/early-careers/training-contracts",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:clifford-chance",
+      "name": "Clifford Chance",
+      "kind": "employer",
+      "url": "https://jobs.cliffordchance.com/training-contract-london",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:freshfields",
+      "name": "Freshfields",
+      "kind": "employer",
+      "url": "https://www.freshfields.com/en/your-career/united-kingdom/early-careers",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:latham",
+      "name": "Latham & Watkins",
+      "kind": "employer",
+      "url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-kingdom/London-Graduate-Recruitment-FAQs",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:addleshaw",
+      "name": "Addleshaw Goddard",
+      "kind": "employer",
+      "url": "https://earlycareers.addleshawgoddard.com/careers/training-contracts/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:burges",
+      "name": "Burges Salmon",
+      "kind": "employer",
+      "url": "https://www.burges-salmon.com/join-us/emerging-talent/trainees/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:ao-shearman",
+      "name": "A&O Shearman",
+      "kind": "employer",
+      "url": "https://careers.aoshearman.com/en-gb/london-training-contract",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:slaughter-may",
+      "name": "Slaughter and May",
+      "kind": "employer",
+      "url": "https://www.slaughterandmay.com/careers/early-careers/apply/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:sidley",
+      "name": "Sidley Austin",
+      "kind": "employer",
+      "url": "https://www.sidley.com/en/careers",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:baker-mckenzie",
+      "name": "Baker McKenzie",
+      "kind": "employer",
+      "url": "https://www.bakermckenzie.com/en/careers",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:proskauer",
+      "name": "Proskauer Rose",
+      "kind": "employer",
+      "url": "https://www.proskauer.com/careers",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:hogan-lovells",
+      "name": "Hogan Lovells",
+      "kind": "employer",
+      "url": "https://www.hoganlovells.com/en/careers",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:cleary-gottlieb",
+      "name": "Cleary Gottlieb",
+      "kind": "employer",
+      "url": "https://www.clearygottlieb.com/careers",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:gowling-wlg",
+      "name": "Gowling WLG",
+      "kind": "employer",
+      "url": "https://gowlingwlg.com/en/careers",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:alston-bird",
+      "name": "Alston & Bird",
+      "kind": "employer",
+      "url": "https://www.alston.com/en/careers",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:kirkland-ellis",
+      "name": "Kirkland & Ellis",
+      "kind": "employer",
+      "url": "https://www.kirkland.com/careers",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:mcdermott",
+      "name": "McDermott Will & Schulte",
+      "kind": "employer",
+      "url": "https://www.mcdermottlaw.com/careers/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:simpson-thacher",
+      "name": "Simpson Thacher & Bartlett",
+      "kind": "employer",
+      "url": "https://www.stblaw.com/your-career/london-office-careers/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:skadden",
+      "name": "Skadden",
+      "kind": "employer",
+      "url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-kingdom",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:fenwick",
+      "name": "Fenwick & West",
+      "kind": "employer",
+      "url": "https://www.fenwick.com/careers/experienced-lawyers",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:akin-gump",
+      "name": "Akin Gump",
+      "kind": "employer",
+      "url": "https://www.akingump.com/en/careers/uk-students",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:goodwin",
+      "name": "Goodwin",
+      "kind": "employer",
+      "url": "https://www.goodwinlaw.com/en/careers",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:norton-rose-fulbright",
+      "name": "Norton Rose Fulbright",
+      "kind": "employer",
+      "url": "https://www.nortonrosefulbright.com/en-gb/careers",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:wachtell",
+      "name": "Wachtell, Lipton, Rosen & Katz",
+      "kind": "employer",
+      "url": "https://www.wlrk.com/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "employer:covington",
+      "name": "Covington & Burling",
+      "kind": "employer",
+      "url": "https://www.cov.com/en/careers",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "resource-0",
+      "name": "SRA qualification pathways",
+      "kind": "resource",
+      "url": "https://www.sra.org.uk/pathways",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "resource-1",
+      "name": "SQE assessment structure",
+      "kind": "resource",
+      "url": "https://sqe.sra.org.uk/about/what-is-sqe/what-sqe-involves",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "resource-2",
+      "name": "SRA qualifying work experience",
+      "kind": "resource",
+      "url": "https://www.sra.org.uk/qwe",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "resource-3",
+      "name": "Overseas qualified lawyers",
+      "kind": "resource",
+      "url": "https://www.sra.org.uk/become-solicitor/admission/pathways-qualification/qualified-lawyers/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "resource-4",
+      "name": "Graduate visa",
+      "kind": "resource",
+      "url": "https://www.gov.uk/graduate-visa",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "resource-5",
+      "name": "Appendix Graduate",
+      "kind": "resource",
+      "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-graduate",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "resource-6",
+      "name": "Skilled Worker visa",
+      "kind": "resource",
+      "url": "https://www.gov.uk/skilled-worker-visa",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "resource-7",
+      "name": "Sponsor register",
+      "kind": "resource",
+      "url": "https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "resource-8",
+      "name": "LawWorks",
+      "kind": "resource",
+      "url": "https://www.lawworks.org.uk/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "resource-9",
+      "name": "Aspiring Solicitors",
+      "kind": "resource",
+      "url": "https://www.aspiringsolicitors.co.uk/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "resource-10",
+      "name": "GROW Mentoring",
+      "kind": "resource",
+      "url": "https://www.growmentoring.org/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "resource-11",
+      "name": "Forage",
+      "kind": "resource",
+      "url": "https://www.theforage.com/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "resource-12",
+      "name": "Government Legal Profession",
+      "kind": "resource",
+      "url": "https://www.gov.uk/government/organisations/government-legal-profession",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "resource-13",
+      "name": "Civil Service Jobs",
+      "kind": "resource",
+      "url": "https://www.civilservicejobs.service.gov.uk/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "resource-14",
+      "name": "Find an apprenticeship",
+      "kind": "resource",
+      "url": "https://www.gov.uk/apply-apprenticeship",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "resource-15",
+      "name": "Taylor Root",
+      "kind": "resource",
+      "url": "https://www.taylorroot.com/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "resource-16",
+      "name": "Flex Legal",
+      "kind": "resource",
+      "url": "https://flex.legal/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "resource-17",
+      "name": "Ryder Reid",
+      "kind": "resource",
+      "url": "https://www.ryderreid.com/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "resource-18",
+      "name": "Jameson Legal",
+      "kind": "resource",
+      "url": "https://www.jamesonlegal.com/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "resource-19",
+      "name": "BCL Legal",
+      "kind": "resource",
+      "url": "https://www.bcllegal.com/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "resource-20",
+      "name": "Chadwick Nott",
+      "kind": "resource",
+      "url": "https://www.chadwicknott.co.uk/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "gt-board",
+      "name": "GT Stewart",
+      "kind": "employer",
+      "url": "https://gtstewart.co.uk/careers-with-us/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "carta-board",
+      "name": "Carta",
+      "kind": "greenhouse",
+      "url": "https://boards-api.greenhouse.io/v1/boards/carta/jobs?content=false",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "octopus-board",
+      "name": "Octopus Legacy",
+      "kind": "greenhouse",
+      "url": "https://boards-api.greenhouse.io/v1/boards/octopuslegacy/jobs?content=false",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "gibson-board",
+      "name": "Gibson Dunn",
+      "kind": "greenhouse",
+      "url": "https://boards-api.greenhouse.io/v1/boards/gibsondunn/jobs?content=false",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "fact:linklaters:78",
+      "name": "Linklaters",
+      "kind": "employer",
+      "url": "https://www.linklaters.com/careers/early-careers/training-contracts",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "fact:linklaters:79",
+      "name": "Linklaters",
+      "kind": "employer",
+      "url": "https://www.linklaters.com/careers/early-careers/training-contracts",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "fact:linklaters:80",
+      "name": "Linklaters",
+      "kind": "employer",
+      "url": "https://www.linklaters.com/careers/early-careers/vacation-schemes",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "fact:linklaters:81",
+      "name": "Linklaters",
+      "kind": "employer",
+      "url": "https://www.linklaters.com/careers/early-careers/vacation-schemes",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "fact:clifford-chance:82",
+      "name": "Clifford Chance",
+      "kind": "employer",
+      "url": "https://jobs.cliffordchance.com/job/trainee-solicitor-in-london-jid-3554",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "fact:clifford-chance:83",
+      "name": "Clifford Chance",
+      "kind": "employer",
+      "url": "https://jobs.cliffordchance.com/job/trainee-solicitor-in-london-jid-3554",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "fact:clifford-chance:84",
+      "name": "Clifford Chance",
+      "kind": "employer",
+      "url": "https://jobs.cliffordchance.com/faq-london",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "fact:latham:85",
+      "name": "Latham & Watkins",
+      "kind": "employer",
+      "url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-kingdom/London-Graduate-Recruitment-FAQs",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "fact:freshfields:86",
+      "name": "Freshfields",
+      "kind": "employer",
+      "url": "https://www.freshfields.com/en/your-career/united-kingdom/early-careers/trainee-associate-program",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "fact:freshfields:87",
+      "name": "Freshfields",
+      "kind": "employer",
+      "url": "https://www.freshfields.com/en/your-career/united-kingdom/early-careers/virtual-learning-experiences",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "fact:burges:88",
+      "name": "Burges Salmon",
+      "kind": "employer",
+      "url": "https://www.burges-salmon.com/join-us/emerging-talent/trainee-application-and-faqs/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "fact:burges:89",
+      "name": "Burges Salmon",
+      "kind": "employer",
+      "url": "https://www.burges-salmon.com/join-us/emerging-talent/trainee-application-and-faqs/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "fact:burges:90",
+      "name": "Burges Salmon",
+      "kind": "employer",
+      "url": "https://www.burges-salmon.com/join-us/emerging-talent/trainee-application-and-faqs/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "fact:slaughter-may:91",
+      "name": "Slaughter and May",
+      "kind": "employer",
+      "url": "https://www.slaughterandmay.com/careers/early-careers/apply/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "fact:slaughter-may:92",
+      "name": "Slaughter and May",
+      "kind": "employer",
+      "url": "https://www.slaughterandmay.com/careers/early-careers/apply/the-interview/",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "fact:ao-shearman:93",
+      "name": "A&O Shearman",
+      "kind": "employer",
+      "url": "https://careers.aoshearman.com/en-gb/london-training-contract",
+      "status": "not-checked",
+      "checkedAt": null
+    },
+    {
+      "id": "fact:ao-shearman:94",
+      "name": "A&O Shearman",
+      "kind": "employer",
+      "url": "https://careers.aoshearman.com/en-gb/london-vacation-schemes",
+      "status": "not-checked",
+      "checkedAt": null
+    }
+  ],
+  "leads": [],
+  "reviewTasks": [
+    {
+      "id": "linklaters-tc-2026",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "linklaters-vs-2027",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "latham-vs-2027",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "burges-sector-2029",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "burges-bristol-2029",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "cc-tc-2029",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "freshfields-tc-2026",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "slaughter-tc-2026",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "ao-gfm-pa-11504",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "ao-corporate-10959",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "burges-company-secretarial",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "cc-legal-tech-jr8002",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "wise-legal-counsel-4365",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "entain-corporate-ma-counsel",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "dechert-spring-2027",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "farrer-vs-2027",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "covington-summer-2027",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "trowers-vs-2027",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "trowers-tc-2029",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "burges-vs-2027",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "gt-police-paralegal",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "gt-housing-paralegal",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "gt-family-paralegal",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "gt-prison-paralegal",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "carta-compliance-7980732003",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "carta-7798948003",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "octopus-legacy-5018965101",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    },
+    {
+      "id": "gibson-secretary-4469300009",
+      "priority": 70,
+      "task": "Reconfirm role, requirements, status and sponsorship at official source."
+    }
+  ]
+}

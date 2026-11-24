@@ -16,7 +16,7 @@
       "process": "Online application, online assessment and assessment centre.",
       "employer": "Linklaters",
       "sponsorshipState": "unknown",
-      "experience": "Check criteria",
+      "experience": "Student / graduate",
       "kind": "Programme",
       "evidence": "Existing curated employer listing; reconfirm original source."
     },
@@ -33,7 +33,7 @@
       "type": "Vacation scheme",
       "employer": "Linklaters",
       "sponsorshipState": "unknown",
-      "experience": "Check criteria",
+      "experience": "Student / graduate",
       "kind": "Programme",
       "evidence": "Existing curated employer listing; reconfirm original source."
     },
@@ -46,13 +46,14 @@
       "eligibility": "Employer describes eligibility as second-year students and above; confirm individual eligibility.",
       "url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-kingdom/our-programmes",
       "verifiedOn": "2026-11-24",
-      "sponsorship": "Not verified for this specific programme",
+      "sponsorship": "Vacation scheme sponsorship not offered; existing UK right to work required.",
       "type": "Vacation scheme",
       "employer": "Latham & Watkins",
-      "sponsorshipState": "unknown",
-      "experience": "Check criteria",
+      "sponsorshipState": "not-offered",
+      "experience": "Student / graduate",
       "kind": "Programme",
-      "evidence": "Existing curated employer listing; reconfirm original source."
+      "evidence": "Existing curated employer listing; reconfirm original source.",
+      "sponsorshipSource": "https://www.lwcareers.com/en/beginning-your-legal-career/united-kingdom/London-Graduate-Recruitment-FAQs"
     },
     {
       "id": "burges-sector-2029",
@@ -67,7 +68,7 @@
       "type": "Training contract",
       "employer": "Burges Salmon",
       "sponsorshipState": "unknown",
-      "experience": "Check criteria",
+      "experience": "Student / graduate",
       "kind": "Programme",
       "evidence": "Existing curated employer listing; reconfirm original source."
     },
@@ -85,7 +86,7 @@
       "deadlineTime": "18:00 BST",
       "employer": "Burges Salmon",
       "sponsorshipState": "unknown",
-      "experience": "Check criteria",
+      "experience": "Student / graduate",
       "kind": "Programme",
       "evidence": "Existing curated employer listing; reconfirm original source."
     },
@@ -98,14 +99,15 @@
       "eligibility": "Relevant law/non-law students and graduates; availability for specified intake.",
       "url": "https://jobs.cliffordchance.com/training-contract-london",
       "verifiedOn": "2026-11-24",
-      "sponsorship": "Not verified for this specific programme",
+      "sponsorship": "London trainee sponsorship described in official FAQ; individual eligibility still applies.",
       "type": "Training contract",
       "process": "Application, immersive assessment, Watson Glaser, video interview and assessment day.",
       "employer": "Clifford Chance",
-      "sponsorshipState": "unknown",
-      "experience": "Check criteria",
+      "sponsorshipState": "confirmed",
+      "experience": "Student / graduate",
       "kind": "Programme",
-      "evidence": "Existing curated employer listing; reconfirm original source."
+      "evidence": "Existing curated employer listing; reconfirm original source.",
+      "sponsorshipSource": "https://jobs.cliffordchance.com/faq-london"
     },
     {
       "id": "freshfields-tc-2026",
@@ -120,7 +122,7 @@
       "type": "Training contract",
       "employer": "Freshfields",
       "sponsorshipState": "unknown",
-      "experience": "Check criteria",
+      "experience": "Student / graduate",
       "kind": "Programme",
       "evidence": "Existing curated employer listing; reconfirm original source."
     },
@@ -137,7 +139,7 @@
       "type": "Training contract",
       "employer": "Slaughter and May",
       "sponsorshipState": "unknown",
-      "experience": "Check criteria",
+      "experience": "Student / graduate",
       "kind": "Programme",
       "evidence": "Existing curated employer listing; reconfirm original source."
     },
@@ -595,9 +597,36 @@
           ]
         }
       ],
-      "salary": null,
+      "salary": "£56,000 / £61,000 (trainee)",
       "sponsorshipState": "unknown",
-      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+      "reviewState": "Selected source-backed recruitment facts and observed mandates; full compensation, culture, strategy and eligibility audit outstanding.",
+      "researchFacts": [
+        {
+          "label": "Training rotations",
+          "value": "Four six-month seats over two years.",
+          "url": "https://www.linklaters.com/careers/early-careers/training-contracts",
+          "reviewedOn": "2026-11-24"
+        },
+        {
+          "label": "Published trainee salary",
+          "value": "£56,000 year one; £61,000 year two.",
+          "url": "https://www.linklaters.com/careers/early-careers/training-contracts",
+          "reviewedOn": "2026-11-24"
+        },
+        {
+          "label": "Vacation scheme pay",
+          "value": "£520 weekly; two-week scheme.",
+          "url": "https://www.linklaters.com/careers/early-careers/vacation-schemes",
+          "reviewedOn": "2026-11-24"
+        },
+        {
+          "label": "Vacation scheme academic criteria",
+          "value": "UK or Irish university; consistent 2:1 undergraduate modules and published A-level criteria. Check equivalents and contextual policies.",
+          "url": "https://www.linklaters.com/careers/early-careers/vacation-schemes",
+          "reviewedOn": "2026-11-24"
+        }
+      ],
+      "salarySource": "https://www.linklaters.com/careers/early-careers/training-contracts"
     },
     {
       "id": "clifford-chance",
@@ -644,9 +673,31 @@
           ]
         }
       ],
-      "salary": null,
-      "sponsorshipState": "unknown",
-      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+      "salary": "£56,000 / £61,000; NQ £150,000",
+      "sponsorshipState": "training-contract-confirmed",
+      "reviewState": "Selected source-backed recruitment facts and observed mandates; full compensation, culture, strategy and eligibility audit outstanding.",
+      "researchFacts": [
+        {
+          "label": "Published trainee and NQ salary",
+          "value": "£56,000 year one; £61,000 year two; £150,000 NQ.",
+          "url": "https://jobs.cliffordchance.com/job/trainee-solicitor-in-london-jid-3554",
+          "reviewedOn": "2026-11-24"
+        },
+        {
+          "label": "Training requirement",
+          "value": "At least one seat in a listed global product group; non-qualifying law degrees require PGDL.",
+          "url": "https://jobs.cliffordchance.com/job/trainee-solicitor-in-london-jid-3554",
+          "reviewedOn": "2026-11-24"
+        },
+        {
+          "label": "Training contract sponsorship",
+          "value": "Official FAQ describes Skilled Worker sponsorship process for trainees, not other vacancies.",
+          "url": "https://jobs.cliffordchance.com/faq-london",
+          "reviewedOn": "2026-11-24"
+        }
+      ],
+      "salarySource": "https://jobs.cliffordchance.com/job/trainee-solicitor-in-london-jid-3554",
+      "sponsorshipSource": "https://jobs.cliffordchance.com/faq-london"
     },
     {
       "id": "freshfields",
@@ -723,7 +774,21 @@
       ],
       "salary": null,
       "sponsorshipState": "unknown",
-      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+      "reviewState": "Selected source-backed recruitment facts and observed mandates; full compensation, culture, strategy and eligibility audit outstanding.",
+      "researchFacts": [
+        {
+          "label": "Training rotations",
+          "value": "Eight three-month seats; flexibility to remain in a seat longer.",
+          "url": "https://www.freshfields.com/en/your-career/united-kingdom/early-careers/trainee-associate-program",
+          "reviewedOn": "2026-11-24"
+        },
+        {
+          "label": "Virtual skills practice",
+          "value": "Self-paced virtual learning experiences including private capital auction simulation.",
+          "url": "https://www.freshfields.com/en/your-career/united-kingdom/early-careers/virtual-learning-experiences",
+          "reviewedOn": "2026-11-24"
+        }
+      ]
     },
     {
       "id": "latham",
@@ -750,8 +815,17 @@
         }
       ],
       "salary": null,
-      "sponsorshipState": "unknown",
-      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+      "sponsorshipState": "training-contract-confirmed; vacation-scheme-not-offered",
+      "reviewState": "Selected source-backed recruitment facts and observed mandates; full compensation, culture, strategy and eligibility audit outstanding.",
+      "researchFacts": [
+        {
+          "label": "Programme visa support",
+          "value": "Trainees may receive visa sponsorship; vacation scheme participants must already have UK right to work.",
+          "url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-kingdom/London-Graduate-Recruitment-FAQs",
+          "reviewedOn": "2026-11-24"
+        }
+      ],
+      "sponsorshipSource": "https://www.lwcareers.com/en/beginning-your-legal-career/united-kingdom/London-Graduate-Recruitment-FAQs"
     },
     {
       "id": "addleshaw",
@@ -828,7 +902,27 @@
       ],
       "salary": null,
       "sponsorshipState": "unknown",
-      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+      "reviewState": "Selected source-backed recruitment facts and observed mandates; full compensation, culture, strategy and eligibility audit outstanding.",
+      "researchFacts": [
+        {
+          "label": "First-stage assessment",
+          "value": "Emerging Talent Assessment, online work-related exercise.",
+          "url": "https://www.burges-salmon.com/join-us/emerging-talent/trainee-application-and-faqs/",
+          "reviewedOn": "2026-11-24"
+        },
+        {
+          "label": "Sponsorship",
+          "value": "Available only to candidates who have secured an employment opportunity; individual support must be checked.",
+          "url": "https://www.burges-salmon.com/join-us/emerging-talent/trainee-application-and-faqs/",
+          "reviewedOn": "2026-11-24"
+        },
+        {
+          "label": "AI guidance",
+          "value": "Employer cautions that sole reliance on generative AI may misrepresent candidate qualities.",
+          "url": "https://www.burges-salmon.com/join-us/emerging-talent/trainee-application-and-faqs/",
+          "reviewedOn": "2026-11-24"
+        }
+      ]
     },
     {
       "id": "ao-shearman",
@@ -863,7 +957,21 @@
       ],
       "salary": null,
       "sponsorshipState": "unknown",
-      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+      "reviewState": "Selected source-backed recruitment facts and observed mandates; full compensation, culture, strategy and eligibility audit outstanding.",
+      "researchFacts": [
+        {
+          "label": "Training",
+          "value": "Two-year London programme with practice rotations.",
+          "url": "https://careers.aoshearman.com/en-gb/london-training-contract",
+          "reviewedOn": "2026-11-24"
+        },
+        {
+          "label": "Vacation scheme",
+          "value": "£500 weekly; successful attendees considered for a training contract.",
+          "url": "https://careers.aoshearman.com/en-gb/london-vacation-schemes",
+          "reviewedOn": "2026-11-24"
+        }
+      ]
     },
     {
       "id": "slaughter-may",
@@ -940,7 +1048,21 @@
       ],
       "salary": null,
       "sponsorshipState": "unknown",
-      "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+      "reviewState": "Selected source-backed recruitment facts and observed mandates; full compensation, culture, strategy and eligibility audit outstanding.",
+      "researchFacts": [
+        {
+          "label": "Experience criteria",
+          "value": "Prior legal work experience is not essential; demonstrate informed interest in commercial law.",
+          "url": "https://www.slaughterandmay.com/careers/early-careers/apply/",
+          "reviewedOn": "2026-11-24"
+        },
+        {
+          "label": "Interview",
+          "value": "Published guidance addresses motivation and a written exercise.",
+          "url": "https://www.slaughterandmay.com/careers/early-careers/apply/the-interview/",
+          "reviewedOn": "2026-11-24"
+        }
+      ]
     },
     {
       "id": "sidley",

@@ -1,0 +1,18 @@
+import fs from "node:fs/promises";import crypto from "node:crypto";import {validate,parseGreenhouse,htmlLeads} from "./core.mjs";
+const root=new URL("../../../uk/careers/",import.meta.url),load=async f=>JSON.parse(await fs.readFile(new URL(f,root),"utf8"));
+const [data,learning,registry]=await Promise.all([load("data.json"),load("learning.json"),fs.readFile(new URL("source-registry.json",import.meta.url),"utf8").then(JSON.parse)]);const errors=validate(data,learning,registry);if(errors.length)throw Error(errors.join("\n"));if(process.argv.includes("--check")){console.log("Careers structural quality checks passed. Factual verification remains editorial.");process.exit(0)}
+let prior={sources:[],leads:[]};try{prior=await load("discovery.json")}catch(e){if(e.code!=="ENOENT")throw e}
+const now=new Date().toISOString(),old=new Map(prior.sources.map(s=>[s.id,s])),leads=new Map(prior.leads.filter(x=>x.reviewState==="pending").map(x=>[x.id,x])),results=[];
+const seen=new Map();for(const s of registry.sources){if(seen.has(s.url)){const existing=seen.get(s.url);results.push({...existing,id:s.id,name:s.name,kind:s.kind});continue}let result;try{
+ const r=await fetch(s.url,{redirect:"manual",signal:AbortSignal.timeout(12000),headers:{"User-Agent":"CorpLawTracker research / editor@corplawtracker.com","Accept":s.kind==="greenhouse"?"application/json":"text/html,application/xhtml+xml"}});if(!r.ok)throw Error("HTTP "+r.status+(r.status>=300&&r.status<400?" redirect requires source review":""));
+ const reader=r.body.getReader(),chunks=[];let total=0;try{for(;;){const {done,value}=await reader.read();if(done)break;total+=value.length;if(total>2_000_000)throw Error("Response size limit");chunks.push(value)}}finally{await reader.cancel().catch(()=>{})}
+ const body=Buffer.concat(chunks).toString("utf8");if(!body.trim())throw Error("Empty response");
+ const items=s.kind==="greenhouse"?parseGreenhouse(JSON.parse(body),s):s.kind==="employer"?htmlLeads(body,s):[];
+ const signature=crypto.createHash("sha256").update(body.replace(/\s+/g," ")).digest("hex");
+ result={id:s.id,name:s.name,kind:s.kind,url:s.url,status:"ok",checkedAt:now,signature,changed:!!old.get(s.id)?.signature&&old.get(s.id).signature!==signature,leadCount:items.length,notice:"HTTP retrieval only, not proof of current availability or content accuracy"};
+ for(const x of items)leads.set(x.id,{...x,firstSeen:leads.get(x.id)?.firstSeen||now,lastSeen:now});
+ }catch(e){result={id:s.id,name:s.name,kind:s.kind,url:s.url,status:"failed",checkedAt:old.get(s.id)?.checkedAt||null,attemptedAt:now,error:String(e.message).slice(0,180),signature:old.get(s.id)?.signature||null,leadCount:0}}
+ seen.set(s.url,result);results.push(result);await new Promise(r=>setTimeout(r,350));
+}
+const reviewTasks=data.opportunities.map(o=>({id:o.id,priority:o.deadline&&o.deadline>=now.slice(0,10)&&o.deadline<=new Date(Date.now()+7*86400000).toISOString().slice(0,10)?100:70,task:"Verify current listing status, explicit eligibility and role-specific sponsorship; never infer vacancy from HTTP success."})).sort((a,b)=>b.priority-a.priority);
+const out={attemptedAt:now,notice:"Discovery only. Failed retrieval does not establish closure; successful retrieval does not establish availability. No curated job or employer fact automatically changed.",sources:results,leads:[...leads.values()].sort((a,b)=>String(b.lastSeen).localeCompare(String(a.lastSeen))).slice(0,2000),reviewTasks};const tmp=new URL("discovery.json.tmp",root);await fs.writeFile(tmp,JSON.stringify(out,null,2)+"\n");await fs.rename(tmp,new URL("discovery.json",root));console.log("Careers discovery:",results.filter(x=>x.status==="ok").length,"successful endpoint checks;",out.leads.length,"unreviewed leads");
