@@ -299,7 +299,7 @@
   "citedDomains": [
     {
       "host": "gov.uk",
-      "state": "referenced in corpus; retrieval and independence not certified",
+      "state": "referenced; retrieval and independence not certified",
       "documentUrls": [
         "https://www.gov.uk/cma-cases/ocs-slash-mitie-merger-inquiry",
         "https://www.gov.uk/cma-cases/mccormick-slash-unilever-merger-inquiry",
@@ -329,7 +329,9 @@
         "https://www.gov.uk/government/publications/cma-annual-report-and-accounts-2023-to-2024/annual-report-and-accounts-2023-to-2024",
         "https://www.gov.uk/cma-cases/broadcom-slash-vmware-merger-inquiry",
         "https://www.gov.uk/government/news/cma-clears-broadcom-s-deal-to-buy-vmware",
-        "https://www.gov.uk/cma-cases/hewlett-packard-enterprise-company-slash-juniper-networks-inc-merger-inquiry"
+        "https://www.gov.uk/cma-cases/hewlett-packard-enterprise-company-slash-juniper-networks-inc-merger-inquiry",
+        "https://www.gov.uk/government/news/royal-mail-remains-based-in-uk-in-deal-to-bolster-key-services",
+        "https://www.gov.uk/government/publications/acquisition-of-international-distribution-services-plc-by-ep-uk-bidco-limited-notice-of-final-order/acquisition-of-international-distribution-services-plc-by-ep-uk-bidco-limited-notice-of-final-order"
       ],
       "transactionIds": [
         "ocs-mitie",
@@ -351,15 +353,31 @@
         "synopsys-ansys",
         "adobe-figma",
         "broadcom-vmware",
-        "hpe-juniper"
+        "hpe-juniper",
+        "ep-ids-royal-mail"
       ],
       "lastRetrieval": null,
       "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "mitie.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.mitie.com/investors/recommended-cash-offer-by-ocs-for-mitie/",
+        "https://www.mitie.com/wp-content/uploads/2026/08/Project-Marlin_Scheme_Document.pdf",
+        "https://www.mitie.com/wp-content/uploads/2026/11/Mitie-H1-FY27-Results.pdf"
+      ],
+      "transactionIds": [
+        "ocs-mitie"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
     },
     {
       "host": "linklaters.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
+      "state": "referenced; retrieval and independence not certified",
       "documentUrls": [
         "https://www.linklaters.com/about-us/news-and-deals/deals/2026/august/linklaters-advises-prologis-on-its-recommended-offer-for-segro-plc",
         "https://www.linklaters.com/find-a-lawyer/daniel-cartwright",
@@ -387,37 +405,38 @@
       ],
       "lastRetrieval": null,
       "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
+      "claimUse": "Inspect document and claim before publication"
     },
     {
-      "host": "slaughterandmay.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
+      "host": "unilever.com",
+      "state": "referenced; retrieval and independence not certified",
       "documentUrls": [
-        "https://www.slaughterandmay.com/recent-work/nationwide-building-society-on-its-recommended-all-cash-acquisition-of-virgin-money-uk-plc/",
-        "https://www.slaughterandmay.com/recent-work/clydesdale-bank-plc-and-nationwide-building-society-on-the-part-vii-transfer-of-clydesdale-s-business-to-nationwide/",
-        "https://www.slaughterandmay.com/recent-work/direct-line-group-on-its-recommended-acquisition-by-aviva/",
-        "https://www.slaughterandmay.com/recent-work/aviva-direct-line-group-in-respect-of-the-prudential-regulation-authority-s-investigation-and-enforcement-outcome/",
-        "https://www.slaughterandmay.com/recent-work/greencore-on-its-recommended-acquisition-of-bakkavor/",
-        "https://www.slaughterandmay.com/services/practices/corporate-and-m-a/",
-        "https://www.slaughterandmay.com/recent-work/chesnara-on-its-acquisition-of-metlife-uk-limited-metlife-s-closed-book-life-insurance-company/",
-        "https://www.slaughterandmay.com/recent-work/advised-softcat-on-the-acquisition-of-general-datatech/",
-        "https://www.slaughterandmay.com/insights/client-case-studies/transforming-softcat-into-a-leading-global-it-solutions-business/"
+        "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+        "https://www.unilever.com/news/press-and-media/press-releases/2026/continued-strong-performance-in-the-third-quarter/"
       ],
       "transactionIds": [
-        "nationwide-virgin",
-        "aviva-direct-line",
-        "greencore-bakkavor",
-        "international-paper-ds-smith",
-        "chesnara-metlife-uk",
-        "softcat-gdt"
+        "mccormick-unilever"
       ],
       "lastRetrieval": null,
       "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "ir.mccormick.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://ir.mccormick.com/news-releases/news-release-details/mccormick-combine-unilevers-foods-business-creating-preeminent"
+      ],
+      "transactionIds": [
+        "mccormick-unilever"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
     },
     {
       "host": "cliffordchance.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
+      "state": "referenced; retrieval and independence not certified",
       "documentUrls": [
         "https://www.cliffordchance.com/news/news/2026/03/clifford-chance-advises-unilever-on-the-45bn-combination-of-unilever-foods1-with-mccormick-and-company-inc.html",
         "https://www.cliffordchance.com/news/news/2024/03/clifford-chance-advises-virgin-money-uk-plc-on-its-p2-9-billion-.html",
@@ -434,54 +453,903 @@
       ],
       "lastRetrieval": null,
       "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "hlc.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.hlc.com/en/news/hogan-lovells-advises-mccormick-on-its-landmark-448-billion-acquisition-of-unilevers-food-division"
+      ],
+      "transactionIds": [
+        "mccormick-unilever"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "clearygottlieb.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.clearygottlieb.com/news-and-insights/news-listing/mccormick-in-44-8-billion-merger-with-unilevers-foods-business",
+        "https://www.clearygottlieb.com/news-and-insights/news-listing/synopsys-to-acquire-ansys"
+      ],
+      "transactionIds": [
+        "mccormick-unilever",
+        "synopsys-ansys"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "questions-statements.parliament.uk",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://questions-statements.parliament.uk/written-statements/detail/2026-10-15/HCWS385"
+      ],
+      "transactionIds": [
+        "sky-itv"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "skyanditv.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://skyanditv.com/news/sky-and-itv-respond-to-public-interest-intervention-notice-on-proposed-acquisition-of-itv-media-entertainment"
+      ],
+      "transactionIds": [
+        "sky-itv"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "co-operative.coop",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.co-operative.coop/media/news-releases/co-op-group-and-southern-co-op-to-join-forces"
+      ],
+      "transactionIds": [
+        "coop-southern"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "southern.coop",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://southern.coop/news/members-vote-to-join-forces-with-co-op-group",
+        "https://southern.coop/news/co-op-group-and-southern-co-op-reach-major-transaction-milestone"
+      ],
+      "transactionIds": [
+        "coop-southern"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "vodafone.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.vodafone.com/news/newsroom/corporate-and-financial/completion-of-vodafone-and-three-merger-in-the-uk",
+        "https://www.vodafone.com/news/newsroom/corporate-and-financial/merger-vodafone-uk-three-uk-europe-leading-5g-networks",
+        "https://www.vodafone.com/news/newsroom/corporate-and-financial/vodafone-takes-full-ownership-of-vodafonethree"
+      ],
+      "transactionIds": [
+        "vodafone-three"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
     },
     {
       "host": "freshfields.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
+      "state": "referenced; retrieval and independence not certified",
       "documentUrls": [
         "https://www.freshfields.com/en/our-thinking/news/news-search/2024/12/freshfields-advises-ck-hutchison-on-securing-landmark-cma-merger-approval-for-three-uk-and-vodafone-uk",
         "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility",
         "https://www.freshfields.com/en/our-thinking/news/news-search/2026/11/freshfields-advises-cpp-investments-on-the-acquisition-of-cary-group-by-a-consortium-comprised-of-nordic-capital-ontario-teachers-pension-plan-and-cpp-investments",
         "https://www.freshfields.com/en/our-thinking/news/news-search/2025/05/freshfields-advises-bakkavor-on-its-recommended-acquisition-by-greencore",
         "https://www.freshfields.com/en/find-a-lawyer/w/wade-kat",
-        "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-cinven-on-its-acquisition-of-theramex"
+        "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-cinven-on-its-acquisition-of-theramex",
+        "https://www.freshfields.com/en/our-thinking/news/news-search/2024/08/freshfields-advises-hargreaves-lansdown-on-recommended-final-cash-acquisition-by-a-consortium-comprised-of-cvc-private-equity-funds-nordic-capital-xi-delta-scsp-acting-through-its-general-partner-nordic-capital-xi-delta-gp-sarl-and-platinum-ivy-b-201"
       ],
       "transactionIds": [
         "vodafone-three",
         "leita-mobico",
         "cary-consortium",
         "greencore-bakkavor",
-        "cinven-theramex"
+        "cinven-theramex",
+        "harp-hargreaves-lansdown"
       ],
       "lastRetrieval": null,
       "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "news.microsoft.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://news.microsoft.com/source/2022/01/18/microsoft-to-acquire-activision-blizzard-to-bring-the-joy-and-community-of-gaming-to-everyone-across-every-device/"
+      ],
+      "transactionIds": [
+        "microsoft-activision"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
     },
     {
       "host": "sec.gov",
-      "state": "referenced in corpus; retrieval and independence not certified",
+      "state": "referenced; retrieval and independence not certified",
       "documentUrls": [
         "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
         "https://www.sec.gov/Archives/edgar/data/840489/000110465926076623/tm2618455d1_ex2-1.htm",
+        "https://www.sec.gov/Archives/edgar/data/883241/000088324126000025/snps-20260731.htm",
         "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbe-20231217.htm",
         "https://www.sec.gov/Archives/edgar/data/796343/000079634323000254/adbedecember182023pressrel.htm",
         "https://www.sec.gov/Archives/edgar/data/1579878/000162828026009228/fig-20251231.htm",
-        "https://www.sec.gov/Archives/edgar/data/1730168/000114036123054354/ef20015100_form8k.htm"
+        "https://www.sec.gov/Archives/edgar/data/1730168/000114036123054354/ef20015100_form8k.htm",
+        "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000068/hpe-20250430.htm"
       ],
       "transactionIds": [
         "microsoft-activision",
         "firstcash-ramsdens",
+        "synopsys-ansys",
         "adobe-figma",
+        "broadcom-vmware",
+        "hpe-juniper"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "stblaw.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.stblaw.com/about-us/news/view/2023/10/13/microsoft-closes-$75-billion-acquisition-of-activision-blizzard"
+      ],
+      "transactionIds": [
+        "microsoft-activision"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "uk.virginmoney.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://uk.virginmoney.com/nationwide-and-virginmoney/"
+      ],
+      "transactionIds": [
+        "nationwide-virgin"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "nationwide.co.uk",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.nationwide.co.uk/about-us/the-big-nationwide-thank-you",
+        "https://www.nationwide.co.uk/nationwide-and-virgin-money-transfer"
+      ],
+      "transactionIds": [
+        "nationwide-virgin"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "slaughterandmay.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.slaughterandmay.com/recent-work/nationwide-building-society-on-its-recommended-all-cash-acquisition-of-virgin-money-uk-plc/",
+        "https://www.slaughterandmay.com/recent-work/clydesdale-bank-plc-and-nationwide-building-society-on-the-part-vii-transfer-of-clydesdale-s-business-to-nationwide/",
+        "https://www.slaughterandmay.com/recent-work/direct-line-group-on-its-recommended-acquisition-by-aviva/",
+        "https://www.slaughterandmay.com/recent-work/aviva-direct-line-group-in-respect-of-the-prudential-regulation-authority-s-investigation-and-enforcement-outcome/",
+        "https://www.slaughterandmay.com/recent-work/greencore-on-its-recommended-acquisition-of-bakkavor/",
+        "https://www.slaughterandmay.com/services/practices/corporate-and-m-a/",
+        "https://www.slaughterandmay.com/recent-work/chesnara-on-its-acquisition-of-metlife-uk-limited-metlife-s-closed-book-life-insurance-company/",
+        "https://www.slaughterandmay.com/recent-work/advised-softcat-on-the-acquisition-of-general-datatech/",
+        "https://www.slaughterandmay.com/insights/client-case-studies/transforming-softcat-into-a-leading-global-it-solutions-business/",
+        "https://www.slaughterandmay.com/services/practices/foreign-investment-and-national-security/"
+      ],
+      "transactionIds": [
+        "nationwide-virgin",
+        "aviva-direct-line",
+        "greencore-bakkavor",
+        "international-paper-ds-smith",
+        "chesnara-metlife-uk",
+        "softcat-gdt",
+        "ep-ids-royal-mail"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "paipartners.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.paipartners.com/mediaitem/loccitane-group-and-pai-partners-announce-agreement-for-pai-to-acquire-elemis/"
+      ],
+      "transactionIds": [
+        "pai-elemis"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "nordiccapital.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.nordiccapital.com/insights/press-releases/cpp-investments-and-ontario-teachers-to-join-nordic-capital-as-owners-of-cary-group-to-support-its-continued-international-expansion-and-long-term-development/",
+        "https://www.nordiccapital.com/insights/press-releases/cvc-nordic-capital-and-adia-complete-acquisition-of-hargreaves-lansdown-to-accelerate-and-enhance-its-transformation-plan-and-deliver-on-its-growth-potential/"
+      ],
+      "transactionIds": [
+        "cary-consortium",
+        "harp-hargreaves-lansdown"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "inflexion.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.inflexion.com/news-and-insights/news/2026/inflexion-agrees-sale-of-majority-stake-in-celnor-to-goldman-sachs-alternatives/"
+      ],
+      "transactionIds": [
+        "goldman-celnor"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "rwe.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/news/news-2026-11-11_a/",
+        "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/news/news-2026-01-14/"
+      ],
+      "transactionIds": [
+        "rwe-kkr-vanguard"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "uk.rwe.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://uk.rwe.com/press-and-news/2026-11-11-rwe-and-kkr-join-forces-to-deliver-2-8-gw-of-new-offshore-wind-capacity-in-the-uk/"
+      ],
+      "transactionIds": [
+        "rwe-kkr-vanguard"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "media.kkr.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://media.kkr.com/news-details?linkId=1035438525&news_id=a2cab498-e90d-402d-8c90-58190a850a66"
+      ],
+      "transactionIds": [
+        "rwe-kkr-vanguard"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "kirkland.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.kirkland.com/news/press-release/2026/01/kirkland-advises-kkr-on-strategic-partnership-with-rwe-to-realize-uk-offshore-windfarms",
+        "https://www.kirkland.com/news/press-release/2026/08/kirkland-advises-providence-equity-partners-on-sale-of-atg-to-mari",
+        "https://www.kirkland.com/news/press-release/2024/08/kirkland-advises-consortium-of-cvc-pef-nc-and-adia-on-recommended-cash-acquisition-of-hl"
+      ],
+      "transactionIds": [
+        "rwe-kkr-vanguard",
+        "mari-atg",
+        "harp-hargreaves-lansdown"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "lseg.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.lseg.com/en/media-centre/press-releases/2026/lseg-acquire-octus-public-private-credit-solutions",
+        "https://www.lseg.com/en/investor-relations/regulatory-news/details/announcement/bff8-d7-2b-10-d5-4bdab1"
+      ],
+      "transactionIds": [
+        "lseg-octus"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "lw.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.lw.com/en/news/2026/10/Latham%20Advises%20LSEG%20on%20Acquisition%20of%20Octus"
+      ],
+      "transactionIds": [
+        "lseg-octus"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "permira.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.permira.com/news-and-insights/announcements/permira-agrees-sale-of-octus-to-lseg"
+      ],
+      "transactionIds": [
+        "lseg-octus"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "octus.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://octus.com/company/news/lseg-to-acquire-octus-creating-market-leader-across-public-and-private-credit-solutions/"
+      ],
+      "transactionIds": [
+        "lseg-octus"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "mcdermottlaw.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.mcdermottlaw.com/news/mcdermott-will-schulte-advises-permira-and-octus-on-agreed-3-535-billion-sale-to-lseg/"
+      ],
+      "transactionIds": [
+        "lseg-octus"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "ifminvestors.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.ifminvestors.com/asia/news--insights/media-centre/cpp-investments-and-omers-reach-agreement-to-sell-entire-stakes-in-associated-british-ports-to-a-fund-managed-by-ifm-investors/"
+      ],
+      "transactionIds": [
+        "abp-ifm"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "nationalwealthfund.org.uk",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.nationalwealthfund.org.uk/news-and-publications/news/national-wealth-fund-backs-major-port-infrastructure-projects-with-200m-commitment-to-abp/"
+      ],
+      "transactionIds": [
+        "abp-term-facility"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "kbra.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.kbra.com/publications/mMNVTBgB/kbra-assigns-preliminary-ratings-to-uk-logistics-2026-3-dac?format=web"
+      ],
+      "transactionIds": [
+        "uk-logistics-cmbs"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "spglobal.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.spglobal.com/ratings/de/regulatory/article/-/view/type/HTML/id/3593104"
+      ],
+      "transactionIds": [
+        "uk-logistics-cmbs"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "sc.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.sc.com/en/press-release/standard-chartered-becomes-first-g-sib-to-issue-digitally-native-notes-on-euroclears-d-fmi/"
+      ],
+      "transactionIds": [
+        "standard-chartered-dnn"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "drax.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.drax.com/investors/bsif-acquisition/",
+        "https://www.drax.com/financial-news/trading-update-upgraded-outlook-for-2026-ebitda/",
+        "https://www.drax.com/news/drax-completes-transformational-548-million-acquisition-of-solar-and-wind-assets/"
+      ],
+      "transactionIds": [
+        "drax-bluefield"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "nortonrosefulbright.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.nortonrosefulbright.com/en-gb/news/15fb9249/norton-rose-fulbright-advises-bluefield-solar-income-fund"
+      ],
+      "transactionIds": [
+        "drax-bluefield"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "londonstockexchange.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.londonstockexchange.com/en/news/article/BSIF/scheme-of-arrangement-becomes-effective/17716705"
+      ],
+      "transactionIds": [
+        "drax-bluefield"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "lse.co.uk",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.lse.co.uk/rns/DRX/acquisition-of-bluefield-services-ltd-1o7abi4tld9xhqm.html",
+        "https://www.lse.co.uk/rns/final-recommended-cash-offer-evgpeb59alcpxqd.html",
+        "https://www.lse.co.uk/rns/RFX/update-on-financing-arrangements-40ieyskxea1gbs2.html",
+        "https://www.lse.co.uk/rns/de-listing-and-cancellation-of-trading-2a5rjzmp1h5wajb.html"
+      ],
+      "transactionIds": [
+        "drax-bluefield",
+        "firstcash-ramsdens",
+        "harp-hargreaves-lansdown"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "assets.publishing.service.gov.uk",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://assets.publishing.service.gov.uk/media/6afe99192ee8ec8187b570fa/Summary_of_phase_1_decision.pdf"
+      ],
+      "transactionIds": [
+        "vivisol-airliquide"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "gowlingwlg.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://gowlingwlg.com/en/insights-resources/client-work/2026/capital-markets-team-advises-chess-bidco-limited"
+      ],
+      "transactionIds": [
+        "firstcash-ramsdens"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "ir.prologis.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://ir.prologis.com/news-events/press-releases/detail/1049/prologis-announces-recommended-acquisition-of-segro-plc",
+        "https://ir.prologis.com/financials/sec-filings/content/0001193125-26-436160/pld-20260930.htm",
+        "https://ir.prologis.com/financials/sec-filings/content/0001104659-26-089980/tm2621154d2_ex2-1.htm"
+      ],
+      "transactionIds": [
+        "prologis-segro"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "segro.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.segro.com/en/investors/financial-results-centre/q3-trading-update"
+      ],
+      "transactionIds": [
+        "prologis-segro"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "aviva.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.aviva.com/newsroom/news-and-research-overview/news-releases/2025/07/aviva-completes-acquisition-of-direct-line/",
+        "https://www.aviva.com/investors/strategy-and-performance-overview/acquisition-of-direct-line-insurance-group-plc/"
+      ],
+      "transactionIds": [
+        "aviva-direct-line"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "data.fca.org.uk",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000112476/NI-000112476.pdf",
+        "https://data.fca.org.uk/artefacts/NSM/RNS/ef40df77-6c61-42aa-868a-5d3cbf3548a2.html"
+      ],
+      "transactionIds": [
+        "aviva-direct-line",
+        "softcat-gdt"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "carlsberggroup.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.carlsberggroup.com/newsroom/carlsberg-group-completes-acquisition-of-britvic-plc/"
+      ],
+      "transactionIds": [
+        "carlsberg-britvic"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "britvic.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.britvic.com/our-news/performance/scheme-of-arrangement-becomes-effective/"
+      ],
+      "transactionIds": [
+        "carlsberg-britvic"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "insight.bakermckenzie.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://insight.bakermckenzie.com/carlsberg-case-study"
+      ],
+      "transactionIds": [
+        "carlsberg-britvic"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "bakermckenzie.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.bakermckenzie.com/en/newsroom/2024/10/deal-digest-q3-2024"
+      ],
+      "transactionIds": [
+        "carlsberg-britvic"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "marigrp.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://marigrp.com/press/mari-to-acquire-atg-entertainment"
+      ],
+      "transactionIds": [
+        "mari-atg"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "libertyglobal.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.libertyglobal.com/liberty-global-substantial-group-nexfibre/"
+      ],
+      "transactionIds": [
+        "nexfibre-substantial"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "aoshearman.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.aoshearman.com/en/news/ao-shearman-represents-liberty-global-telefonica-and-virgin-media",
+        "https://www.aoshearman.com/en/news/ao-shearman-advises-athora-on-landmark-gbp5-7-billion-acquisition-of-picg"
+      ],
+      "transactionIds": [
+        "nexfibre-substantial",
+        "athora-picg"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "proskauer.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.proskauer.com/release/proskauer-advises-the-lenders-of-nexfibre-the-infravia-liberty-global-and-telefnica-joint-venture-in-respect-of-the-2-billion-acquisition-of-substantial-group",
+        "https://www.proskauer.com/release/proskauer-advises-financing-sources-on-cinvens-acquisition-of-theramex"
+      ],
+      "transactionIds": [
+        "nexfibre-substantial",
+        "cinven-theramex"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "greencore.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.greencore.com/greencoregroup-plc-h1-interim-results-fy26/"
+      ],
+      "transactionIds": [
+        "greencore-bakkavor"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "news.synopsys.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://news.synopsys.com/2025-07-17-Synopsys-Completes-Acquisition-of-Ansys"
+      ],
+      "transactionIds": [
+        "synopsys-ansys"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "ansys.synopsys.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://ansys.synopsys.com/news-center/press-releases/1-16-24-synopsys-acquires-ansys"
+      ],
+      "transactionIds": [
+        "synopsys-ansys"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "ftc.gov",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.ftc.gov/news-events/news/press-releases/2025/10/ftc-approves-final-divestiture-order-synopsys-ansys-deal"
+      ],
+      "transactionIds": [
+        "synopsys-ansys"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "goodwinlaw.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.goodwinlaw.com/en/news-and-events/news/2025/07/announcements-technology-ma-synopsys-completes-acquisition-of-ansys"
+      ],
+      "transactionIds": [
+        "synopsys-ansys"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "internationalpaper.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.internationalpaper.com/en-gb/about-international-paper"
+      ],
+      "transactionIds": [
+        "international-paper-ds-smith"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "news.adobe.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://news.adobe.com/news/news-details/2023/adobe-and-figma-mutually-agree-to-terminate-merger-agreement",
+        "https://news.adobe.com/news/news-details/2022/adobe-to-acquire-figma"
+      ],
+      "transactionIds": [
+        "adobe-figma"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "investors.broadcom.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-completes-acquisition-vmware",
+        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-acquire-vmware-approximately-61-billion-cash-and-stock"
+      ],
+      "transactionIds": [
         "broadcom-vmware"
       ],
       "lastRetrieval": null,
       "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "hpe.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.hpe.com/us/en/newsroom/press-release/2025/07/hewlett-packard-enterprise-closes-acquisition-of-juniper-networks-to-offer-industry-leading-comprehensive-cloud-native-ai-driven-portfolio.html",
+        "https://www.hpe.com/us/en/newsroom/press-release/2024/01/hpe-to-acquire-juniper-networks-to-accelerate-ai-driven-innovation.html"
+      ],
+      "transactionIds": [
+        "hpe-juniper"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "justice.gov",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.justice.gov/opa/pr/justice-department-requires-divestitures-and-licensing-commitments-hpes-acquisition-juniper"
+      ],
+      "transactionIds": [
+        "hpe-juniper"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "athora.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.athora.com/news/athora-to-acquire-PIC",
+        "https://www.athora.com/news/athora-group-completes-acquisition-pension-insurance-corporation-group-and-announces-plans"
+      ],
+      "transactionIds": [
+        "athora-picg"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "pensioncorporation.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.pensioncorporation.com/news-insights/press-releases/2026/athora-regulatory-approval-acquisition-pic"
+      ],
+      "transactionIds": [
+        "athora-picg"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "sidley.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.sidley.com/en/newslanding/newsannouncements/2025/07/sidley-advises-athora-on-acquisition-of-pension-insurance-corporation-group-limited"
+      ],
+      "transactionIds": [
+        "athora-picg"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "itm-power.com",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://itm-power.com/news/pound86.5-million-equity-and-grant-package-for-chronos-from-the-uk-government",
+        "https://itm-power.com/news/award-of-pound46.5m-desnz-grant"
+      ],
+      "transactionIds": [
+        "itm-gbe-equity"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
     },
     {
       "host": "burges-salmon.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
+      "state": "referenced; retrieval and independence not certified",
       "documentUrls": [
         "https://www.burges-salmon.com/burges-salmon-advises-itm-power-plc-on-40m-strategic-equity-investment-by-great-british-energy/",
         "https://www.burges-salmon.com/burges-salmon-advises-tilleghem-capital-on-acquisition-of-equity-stake-in-saragossa-limited/",
@@ -494,71 +1362,24 @@
       ],
       "lastRetrieval": null,
       "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
+      "claimUse": "Inspect document and claim before publication"
     },
     {
-      "host": "kirkland.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
+      "host": "cip.com",
+      "state": "referenced; retrieval and independence not certified",
       "documentUrls": [
-        "https://www.kirkland.com/news/press-release/2026/01/kirkland-advises-kkr-on-strategic-partnership-with-rwe-to-realize-uk-offshore-windfarms",
-        "https://www.kirkland.com/news/press-release/2026/08/kirkland-advises-providence-equity-partners-on-sale-of-atg-to-mari"
+        "https://www.cip.com/copenhagen-infrastructure-partners-p-s/r/copenhagen-infrastructure-partners-announces-eur-270-million-investment-in-new-scottish-battery-stor,c4388796?nfiid=3297"
       ],
       "transactionIds": [
-        "rwe-kkr-vanguard",
-        "mari-atg"
+        "cip-noriker-kilmarnock"
       ],
       "lastRetrieval": null,
       "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "data.fca.org.uk",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://data.fca.org.uk/artefacts/NSM/Portal/NI-000112476/NI-000112476.pdf",
-        "https://data.fca.org.uk/artefacts/NSM/RNS/ef40df77-6c61-42aa-868a-5d3cbf3548a2.html"
-      ],
-      "transactionIds": [
-        "aviva-direct-line",
-        "softcat-gdt"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "aoshearman.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.aoshearman.com/en/news/ao-shearman-represents-liberty-global-telefonica-and-virgin-media",
-        "https://www.aoshearman.com/en/news/ao-shearman-advises-athora-on-landmark-gbp5-7-billion-acquisition-of-picg"
-      ],
-      "transactionIds": [
-        "nexfibre-substantial",
-        "athora-picg"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "proskauer.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.proskauer.com/release/proskauer-advises-the-lenders-of-nexfibre-the-infravia-liberty-global-and-telefnica-joint-venture-in-respect-of-the-2-billion-acquisition-of-substantial-group",
-        "https://www.proskauer.com/release/proskauer-advises-financing-sources-on-cinvens-acquisition-of-theramex"
-      ],
-      "transactionIds": [
-        "nexfibre-substantial",
-        "cinven-theramex"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
+      "claimUse": "Inspect document and claim before publication"
     },
     {
       "host": "addleshawgoddard.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
+      "state": "referenced; retrieval and independence not certified",
       "documentUrls": [
         "https://www.addleshawgoddard.com/en/news/2026/addleshaw-goddard-advises-noriker-power-major-uk-bess-project/",
         "https://www.addleshawgoddard.com/en/news/2026/ag-advises-aab-investment-kreston-reeves-create-200m-group/"
@@ -569,679 +1390,11 @@
       ],
       "lastRetrieval": null,
       "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "mitie.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.mitie.com/investors/recommended-cash-offer-by-ocs-for-mitie/",
-        "https://www.mitie.com/wp-content/uploads/2026/08/Project-Marlin_Scheme_Document.pdf",
-        "https://www.mitie.com/wp-content/uploads/2026/11/Mitie-H1-FY27-Results.pdf"
-      ],
-      "transactionIds": [
-        "ocs-mitie"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "unilever.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
-        "https://www.unilever.com/news/press-and-media/press-releases/2026/continued-strong-performance-in-the-third-quarter/"
-      ],
-      "transactionIds": [
-        "mccormick-unilever"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "ir.mccormick.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://ir.mccormick.com/news-releases/news-release-details/mccormick-combine-unilevers-foods-business-creating-preeminent"
-      ],
-      "transactionIds": [
-        "mccormick-unilever"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "hlc.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.hlc.com/en/news/hogan-lovells-advises-mccormick-on-its-landmark-448-billion-acquisition-of-unilevers-food-division"
-      ],
-      "transactionIds": [
-        "mccormick-unilever"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "clearygottlieb.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.clearygottlieb.com/news-and-insights/news-listing/mccormick-in-44-8-billion-merger-with-unilevers-foods-business"
-      ],
-      "transactionIds": [
-        "mccormick-unilever"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "questions-statements.parliament.uk",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://questions-statements.parliament.uk/written-statements/detail/2026-10-15/HCWS385"
-      ],
-      "transactionIds": [
-        "sky-itv"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "skyanditv.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://skyanditv.com/news/sky-and-itv-respond-to-public-interest-intervention-notice-on-proposed-acquisition-of-itv-media-entertainment"
-      ],
-      "transactionIds": [
-        "sky-itv"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "co-operative.coop",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.co-operative.coop/media/news-releases/co-op-group-and-southern-co-op-to-join-forces"
-      ],
-      "transactionIds": [
-        "coop-southern"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "southern.coop",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://southern.coop/news/members-vote-to-join-forces-with-co-op-group",
-        "https://southern.coop/news/co-op-group-and-southern-co-op-reach-major-transaction-milestone"
-      ],
-      "transactionIds": [
-        "coop-southern"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "vodafone.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.vodafone.com/news/newsroom/corporate-and-financial/completion-of-vodafone-and-three-merger-in-the-uk",
-        "https://www.vodafone.com/news/newsroom/corporate-and-financial/merger-vodafone-uk-three-uk-europe-leading-5g-networks",
-        "https://www.vodafone.com/news/newsroom/corporate-and-financial/vodafone-takes-full-ownership-of-vodafonethree"
-      ],
-      "transactionIds": [
-        "vodafone-three"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "news.microsoft.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://news.microsoft.com/source/2022/01/18/microsoft-to-acquire-activision-blizzard-to-bring-the-joy-and-community-of-gaming-to-everyone-across-every-device/"
-      ],
-      "transactionIds": [
-        "microsoft-activision"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "stblaw.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.stblaw.com/about-us/news/view/2023/10/13/microsoft-closes-$75-billion-acquisition-of-activision-blizzard"
-      ],
-      "transactionIds": [
-        "microsoft-activision"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "uk.virginmoney.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://uk.virginmoney.com/nationwide-and-virginmoney/"
-      ],
-      "transactionIds": [
-        "nationwide-virgin"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "nationwide.co.uk",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.nationwide.co.uk/about-us/the-big-nationwide-thank-you",
-        "https://www.nationwide.co.uk/nationwide-and-virgin-money-transfer"
-      ],
-      "transactionIds": [
-        "nationwide-virgin"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "paipartners.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.paipartners.com/mediaitem/loccitane-group-and-pai-partners-announce-agreement-for-pai-to-acquire-elemis/"
-      ],
-      "transactionIds": [
-        "pai-elemis"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "nordiccapital.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.nordiccapital.com/insights/press-releases/cpp-investments-and-ontario-teachers-to-join-nordic-capital-as-owners-of-cary-group-to-support-its-continued-international-expansion-and-long-term-development/"
-      ],
-      "transactionIds": [
-        "cary-consortium"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "inflexion.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.inflexion.com/news-and-insights/news/2026/inflexion-agrees-sale-of-majority-stake-in-celnor-to-goldman-sachs-alternatives/"
-      ],
-      "transactionIds": [
-        "goldman-celnor"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "rwe.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/news/news-2026-11-11_a/",
-        "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/news/news-2026-01-14/"
-      ],
-      "transactionIds": [
-        "rwe-kkr-vanguard"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "uk.rwe.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://uk.rwe.com/press-and-news/2026-11-11-rwe-and-kkr-join-forces-to-deliver-2-8-gw-of-new-offshore-wind-capacity-in-the-uk/"
-      ],
-      "transactionIds": [
-        "rwe-kkr-vanguard"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "media.kkr.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://media.kkr.com/news-details?linkId=1035438525&news_id=a2cab498-e90d-402d-8c90-58190a850a66"
-      ],
-      "transactionIds": [
-        "rwe-kkr-vanguard"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "lseg.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.lseg.com/en/media-centre/press-releases/2026/lseg-acquire-octus-public-private-credit-solutions",
-        "https://www.lseg.com/en/investor-relations/regulatory-news/details/announcement/bff8-d7-2b-10-d5-4bdab1"
-      ],
-      "transactionIds": [
-        "lseg-octus"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "lw.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.lw.com/en/news/2026/10/Latham%20Advises%20LSEG%20on%20Acquisition%20of%20Octus"
-      ],
-      "transactionIds": [
-        "lseg-octus"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "permira.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.permira.com/news-and-insights/announcements/permira-agrees-sale-of-octus-to-lseg"
-      ],
-      "transactionIds": [
-        "lseg-octus"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "octus.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://octus.com/company/news/lseg-to-acquire-octus-creating-market-leader-across-public-and-private-credit-solutions/"
-      ],
-      "transactionIds": [
-        "lseg-octus"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "mcdermottlaw.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.mcdermottlaw.com/news/mcdermott-will-schulte-advises-permira-and-octus-on-agreed-3-535-billion-sale-to-lseg/"
-      ],
-      "transactionIds": [
-        "lseg-octus"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "nationalwealthfund.org.uk",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.nationalwealthfund.org.uk/news-and-publications/news/national-wealth-fund-backs-major-port-infrastructure-projects-with-200m-commitment-to-abp/"
-      ],
-      "transactionIds": [
-        "abp-term-facility"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "drax.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.drax.com/investors/bsif-acquisition/",
-        "https://www.drax.com/financial-news/trading-update-upgraded-outlook-for-2026-ebitda/"
-      ],
-      "transactionIds": [
-        "drax-bluefield"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "assets.publishing.service.gov.uk",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://assets.publishing.service.gov.uk/media/6afe99192ee8ec8187b570fa/Summary_of_phase_1_decision.pdf"
-      ],
-      "transactionIds": [
-        "vivisol-airliquide"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "lse.co.uk",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.lse.co.uk/rns/final-recommended-cash-offer-evgpeb59alcpxqd.html",
-        "https://www.lse.co.uk/rns/RFX/update-on-financing-arrangements-40ieyskxea1gbs2.html"
-      ],
-      "transactionIds": [
-        "firstcash-ramsdens"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "gowlingwlg.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://gowlingwlg.com/en/insights-resources/client-work/2026/capital-markets-team-advises-chess-bidco-limited"
-      ],
-      "transactionIds": [
-        "firstcash-ramsdens"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "ir.prologis.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://ir.prologis.com/news-events/press-releases/detail/1049/prologis-announces-recommended-acquisition-of-segro-plc",
-        "https://ir.prologis.com/financials/sec-filings/content/0001193125-26-436160/pld-20260930.htm",
-        "https://ir.prologis.com/financials/sec-filings/content/0001104659-26-089980/tm2621154d2_ex2-1.htm"
-      ],
-      "transactionIds": [
-        "prologis-segro"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "segro.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.segro.com/en/investors/financial-results-centre/q3-trading-update"
-      ],
-      "transactionIds": [
-        "prologis-segro"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "aviva.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.aviva.com/newsroom/news-and-research-overview/news-releases/2025/07/aviva-completes-acquisition-of-direct-line/",
-        "https://www.aviva.com/investors/strategy-and-performance-overview/acquisition-of-direct-line-insurance-group-plc/"
-      ],
-      "transactionIds": [
-        "aviva-direct-line"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "carlsberggroup.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.carlsberggroup.com/newsroom/carlsberg-group-completes-acquisition-of-britvic-plc/"
-      ],
-      "transactionIds": [
-        "carlsberg-britvic"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "britvic.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.britvic.com/our-news/performance/scheme-of-arrangement-becomes-effective/"
-      ],
-      "transactionIds": [
-        "carlsberg-britvic"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "insight.bakermckenzie.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://insight.bakermckenzie.com/carlsberg-case-study"
-      ],
-      "transactionIds": [
-        "carlsberg-britvic"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "bakermckenzie.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.bakermckenzie.com/en/newsroom/2024/10/deal-digest-q3-2024"
-      ],
-      "transactionIds": [
-        "carlsberg-britvic"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "marigrp.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://marigrp.com/press/mari-to-acquire-atg-entertainment"
-      ],
-      "transactionIds": [
-        "mari-atg"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "libertyglobal.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.libertyglobal.com/liberty-global-substantial-group-nexfibre/"
-      ],
-      "transactionIds": [
-        "nexfibre-substantial"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "greencore.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.greencore.com/greencoregroup-plc-h1-interim-results-fy26/"
-      ],
-      "transactionIds": [
-        "greencore-bakkavor"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "news.synopsys.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://news.synopsys.com/2025-07-17-Synopsys-Completes-Acquisition-of-Ansys"
-      ],
-      "transactionIds": [
-        "synopsys-ansys"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "internationalpaper.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.internationalpaper.com/en-gb/about-international-paper"
-      ],
-      "transactionIds": [
-        "international-paper-ds-smith"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "news.adobe.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://news.adobe.com/news/news-details/2023/adobe-and-figma-mutually-agree-to-terminate-merger-agreement",
-        "https://news.adobe.com/news/news-details/2022/adobe-to-acquire-figma"
-      ],
-      "transactionIds": [
-        "adobe-figma"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "investors.broadcom.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-completes-acquisition-vmware",
-        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-acquire-vmware-approximately-61-billion-cash-and-stock"
-      ],
-      "transactionIds": [
-        "broadcom-vmware"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "hpe.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.hpe.com/us/en/newsroom/press-release/2025/07/hewlett-packard-enterprise-closes-acquisition-of-juniper-networks-to-offer-industry-leading-comprehensive-cloud-native-ai-driven-portfolio.html"
-      ],
-      "transactionIds": [
-        "hpe-juniper"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "athora.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.athora.com/news/athora-to-acquire-PIC",
-        "https://www.athora.com/news/athora-group-completes-acquisition-pension-insurance-corporation-group-and-announces-plans"
-      ],
-      "transactionIds": [
-        "athora-picg"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "pensioncorporation.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.pensioncorporation.com/news-insights/press-releases/2026/athora-regulatory-approval-acquisition-pic"
-      ],
-      "transactionIds": [
-        "athora-picg"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "sidley.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.sidley.com/en/newslanding/newsannouncements/2025/07/sidley-advises-athora-on-acquisition-of-pension-insurance-corporation-group-limited"
-      ],
-      "transactionIds": [
-        "athora-picg"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "itm-power.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://itm-power.com/news/pound86.5-million-equity-and-grant-package-for-chronos-from-the-uk-government",
-        "https://itm-power.com/news/award-of-pound46.5m-desnz-grant"
-      ],
-      "transactionIds": [
-        "itm-gbe-equity"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
-    },
-    {
-      "host": "cip.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
-      "documentUrls": [
-        "https://www.cip.com/copenhagen-infrastructure-partners-p-s/r/copenhagen-infrastructure-partners-announces-eur-270-million-investment-in-new-scottish-battery-stor,c4388796?nfiid=3297"
-      ],
-      "transactionIds": [
-        "cip-noriker-kilmarnock"
-      ],
-      "lastRetrieval": null,
-      "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
+      "claimUse": "Inspect document and claim before publication"
     },
     {
       "host": "krestonreeves.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
+      "state": "referenced; retrieval and independence not certified",
       "documentUrls": [
         "https://www.krestonreeves.com/news/joining-forces-with-aab/",
         "https://www.krestonreeves.com/news/we-have-joined-aab/"
@@ -1251,11 +1404,11 @@
       ],
       "lastRetrieval": null,
       "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
+      "claimUse": "Inspect document and claim before publication"
     },
     {
       "host": "saragossa.io",
-      "state": "referenced in corpus; retrieval and independence not certified",
+      "state": "referenced; retrieval and independence not certified",
       "documentUrls": [
         "https://saragossa.io/insights/saragossa-secures-strategic-growth-investment-from-tilleghem-capital/"
       ],
@@ -1264,11 +1417,11 @@
       ],
       "lastRetrieval": null,
       "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
+      "claimUse": "Inspect document and claim before publication"
     },
     {
       "host": "uk.boralex.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
+      "state": "referenced; retrieval and independence not certified",
       "documentUrls": [
         "https://uk.boralex.com/en/press-releases/boralex-accelerates-expansion-united-kingdom-acquisition-wind2"
       ],
@@ -1277,11 +1430,11 @@
       ],
       "lastRetrieval": null,
       "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
+      "claimUse": "Inspect document and claim before publication"
     },
     {
       "host": "wind2.co.uk",
-      "state": "referenced in corpus; retrieval and independence not certified",
+      "state": "referenced; retrieval and independence not certified",
       "documentUrls": [
         "https://wind2.co.uk/news/boralex-accelerates-growth-in-the-united-kingdom-with-the-acquisition-of-wind2-including-a-350-mw-development-platform"
       ],
@@ -1290,11 +1443,11 @@
       ],
       "lastRetrieval": null,
       "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
+      "claimUse": "Inspect document and claim before publication"
     },
     {
       "host": "chesnara.co.uk",
-      "state": "referenced in corpus; retrieval and independence not certified",
+      "state": "referenced; retrieval and independence not certified",
       "documentUrls": [
         "https://www.chesnara.co.uk/news-and-press-releases/news-story-listing/news-year/acquisition-of-metlife-uk-limited"
       ],
@@ -1303,11 +1456,11 @@
       ],
       "lastRetrieval": null,
       "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
+      "claimUse": "Inspect document and claim before publication"
     },
     {
       "host": "cinven.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
+      "state": "referenced; retrieval and independence not certified",
       "documentUrls": [
         "https://www.cinven.com/news-insights/cinven-to-acquire-theramex/"
       ],
@@ -1316,11 +1469,11 @@
       ],
       "lastRetrieval": null,
       "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
+      "claimUse": "Inspect document and claim before publication"
     },
     {
       "host": "softcat.com",
-      "state": "referenced in corpus; retrieval and independence not certified",
+      "state": "referenced; retrieval and independence not certified",
       "documentUrls": [
         "https://www.softcat.com/news/softcat-expands-international-reach-acquisition-gdt"
       ],
@@ -1329,7 +1482,24 @@
       ],
       "lastRetrieval": null,
       "accessReview": "Source-specific review pending",
-      "claimUse": "Review actual document and claim before publication"
+      "claimUse": "Inspect document and claim before publication"
+    },
+    {
+      "host": "investegate.co.uk",
+      "state": "referenced; retrieval and independence not certified",
+      "documentUrls": [
+        "https://www.investegate.co.uk/announcement/rns/hargreaves-lansdown--hl./offer-for-hargreaves-lansdown-plc/8358252",
+        "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/recommended-cash-offer-for-ids-plc/8227019",
+        "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/declaration-of-the-special-dividend/8855268",
+        "https://www.investegate.co.uk/announcement/rns/international-distributions-services--ids/closure-of-the-offer-and-compulsory-acquisition-/8899272"
+      ],
+      "transactionIds": [
+        "harp-hargreaves-lansdown",
+        "ep-ids-royal-mail"
+      ],
+      "lastRetrieval": null,
+      "accessReview": "Source-specific review pending",
+      "claimUse": "Inspect document and claim before publication"
     }
   ],
   "expansionCandidates": [

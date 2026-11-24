@@ -1,205 +1,8 @@
 {
   "asOf": "2026-11-24",
   "scope": "Structural coverage only; neither independence nor factual certification inferred",
-  "count": 40,
+  "count": 42,
   "rows": [
-    {
-      "id": "abp-ifm",
-      "title": "IFM Investors / Associated British Ports stakes",
-      "type": "Infrastructure M&A",
-      "status": "Sale agreement disclosed",
-      "sourceUrls": 1,
-      "distinctHosts": 1,
-      "independentOrigins": null,
-      "claims": 0,
-      "advisers": 1,
-      "financialValues": 0,
-      "announcementDate": null,
-      "eventSourceLinks": 0,
-      "structuralErrors": [],
-      "priority": 15,
-      "researchLeads": [
-        "https://www.linklaters.com/about-us/news-and-deals/deals/2026/october/linklaters-advises-cpp-investments-and-omers-on-associated-british-ports-sale"
-      ],
-      "openQuestions": [],
-      "tasks": [
-        "Deep original-document research; economics, business rationale and legal workstreams",
-        "Search separate source origins; assess corroboration by claim",
-        "Find consideration and valuation basis or log non-disclosure",
-        "Establish announcement date rather than regulator milestone",
-        "Map summary assertions to precise evidence",
-        "Investigate funding and document non-disclosure",
-        "Review project perimeter, financial close, equity/debt and permits",
-        "Review each material claim, original source, independence and current status"
-      ],
-      "qualityScore": null,
-      "reviewState": "structural-screen-complete; independent claim audit pending",
-      "commercialGate": "not-certified"
-    },
-    {
-      "id": "synopsys-ansys",
-      "title": "Synopsys / Ansys",
-      "type": "Cross-border M&A",
-      "status": "Completed; UK remedies",
-      "sourceUrls": 2,
-      "distinctHosts": 2,
-      "independentOrigins": null,
-      "claims": 0,
-      "advisers": 0,
-      "financialValues": 0,
-      "announcementDate": null,
-      "eventSourceLinks": 0,
-      "structuralErrors": [],
-      "priority": 14,
-      "researchLeads": [
-        "https://www.gov.uk/cma-cases/synopsys-slash-ansys-merger-inquiry",
-        "https://news.synopsys.com/2025-07-17-Synopsys-Completes-Acquisition-of-Ansys"
-      ],
-      "openQuestions": [],
-      "tasks": [
-        "Deep original-document research; economics, business rationale and legal workstreams",
-        "Recover buyer, seller and specialist counsel mandates",
-        "Find consideration and valuation basis or log non-disclosure",
-        "Establish announcement date rather than regulator milestone",
-        "Map summary assertions to precise evidence",
-        "Investigate funding and document non-disclosure",
-        "Review agreement, business perimeter, regulatory status and close/withdrawal",
-        "Review each material claim, original source, independence and current status"
-      ],
-      "qualityScore": null,
-      "reviewState": "structural-screen-complete; independent claim audit pending",
-      "commercialGate": "not-certified"
-    },
-    {
-      "id": "standard-chartered-dnn",
-      "title": "Standard Chartered / US$200m digitally native notes",
-      "type": "Debt capital markets",
-      "status": "Notes issued (mandate disclosure)",
-      "sourceUrls": 1,
-      "distinctHosts": 1,
-      "independentOrigins": null,
-      "claims": 0,
-      "advisers": 1,
-      "financialValues": 1,
-      "announcementDate": null,
-      "eventSourceLinks": 0,
-      "structuralErrors": [],
-      "priority": 13,
-      "researchLeads": [
-        "https://www.cliffordchance.com/news/news/2026/08/clifford-chance-advises-on-landmark-digitally-native-note-issuance-for-standard-chartered.html"
-      ],
-      "openQuestions": [],
-      "tasks": [
-        "Deep original-document research; economics, business rationale and legal workstreams",
-        "Search separate source origins; assess corroboration by claim",
-        "Establish announcement date rather than regulator milestone",
-        "Map summary assertions to precise evidence",
-        "Investigate funding and document non-disclosure",
-        "Review issue or facility documents, maturity, security and arrangers",
-        "Review each material claim, original source, independence and current status"
-      ],
-      "qualityScore": null,
-      "reviewState": "structural-screen-complete; independent claim audit pending",
-      "commercialGate": "not-certified"
-    },
-    {
-      "id": "uk-logistics-cmbs",
-      "title": "UK Logistics 2026-3 / £603m CMBS",
-      "type": "Debt capital markets",
-      "status": "Securitisation completed (mandate disclosure)",
-      "sourceUrls": 1,
-      "distinctHosts": 1,
-      "independentOrigins": null,
-      "claims": 0,
-      "advisers": 1,
-      "financialValues": 1,
-      "announcementDate": null,
-      "eventSourceLinks": 0,
-      "structuralErrors": [],
-      "priority": 13,
-      "researchLeads": [
-        "https://www.cliffordchance.com/news/news/2026/10/clifford-chance-advises-deutsche-bank-and-standard-chartered-on-603-million-uk-logistics-cmbs.html"
-      ],
-      "openQuestions": [],
-      "tasks": [
-        "Deep original-document research; economics, business rationale and legal workstreams",
-        "Search separate source origins; assess corroboration by claim",
-        "Establish announcement date rather than regulator milestone",
-        "Map summary assertions to precise evidence",
-        "Investigate funding and document non-disclosure",
-        "Review issue or facility documents, maturity, security and arrangers",
-        "Review each material claim, original source, independence and current status"
-      ],
-      "qualityScore": null,
-      "reviewState": "structural-screen-complete; independent claim audit pending",
-      "commercialGate": "not-certified"
-    },
-    {
-      "id": "drax-bluefield",
-      "title": "Drax / Bluefield Solar Income Fund",
-      "type": "Public M&A",
-      "status": "Completed",
-      "sourceUrls": 2,
-      "distinctHosts": 1,
-      "independentOrigins": null,
-      "claims": 0,
-      "advisers": 0,
-      "financialValues": 2,
-      "announcementDate": null,
-      "eventSourceLinks": 0,
-      "structuralErrors": [],
-      "priority": 12,
-      "researchLeads": [
-        "https://www.drax.com/investors/bsif-acquisition/",
-        "https://www.drax.com/financial-news/trading-update-upgraded-outlook-for-2026-ebitda/"
-      ],
-      "openQuestions": [],
-      "tasks": [
-        "Deep original-document research; economics, business rationale and legal workstreams",
-        "Recover buyer, seller and specialist counsel mandates",
-        "Establish announcement date rather than regulator milestone",
-        "Map summary assertions to precise evidence",
-        "Investigate funding and document non-disclosure",
-        "Review firm offer, conditions, votes, sanction and effective date",
-        "Review each material claim, original source, independence and current status"
-      ],
-      "qualityScore": null,
-      "reviewState": "structural-screen-complete; independent claim audit pending",
-      "commercialGate": "not-certified"
-    },
-    {
-      "id": "hpe-juniper",
-      "title": "Hewlett Packard Enterprise / Juniper Networks",
-      "type": "Cross-border M&A",
-      "status": "Completed",
-      "sourceUrls": 2,
-      "distinctHosts": 2,
-      "independentOrigins": null,
-      "claims": 0,
-      "advisers": 0,
-      "financialValues": 0,
-      "announcementDate": "2024-01-09",
-      "eventSourceLinks": 0,
-      "structuralErrors": [],
-      "priority": 12,
-      "researchLeads": [
-        "https://www.gov.uk/cma-cases/hewlett-packard-enterprise-company-slash-juniper-networks-inc-merger-inquiry",
-        "https://www.hpe.com/us/en/newsroom/press-release/2025/07/hewlett-packard-enterprise-closes-acquisition-of-juniper-networks-to-offer-industry-leading-comprehensive-cloud-native-ai-driven-portfolio.html"
-      ],
-      "openQuestions": [],
-      "tasks": [
-        "Deep original-document research; economics, business rationale and legal workstreams",
-        "Recover buyer, seller and specialist counsel mandates",
-        "Find consideration and valuation basis or log non-disclosure",
-        "Map summary assertions to precise evidence",
-        "Investigate funding and document non-disclosure",
-        "Review agreement, business perimeter, regulatory status and close/withdrawal",
-        "Review each material claim, original source, independence and current status"
-      ],
-      "qualityScore": null,
-      "reviewState": "structural-screen-complete; independent claim audit pending",
-      "commercialGate": "not-certified"
-    },
     {
       "id": "vivisol-airliquide",
       "title": "Vivisol / Air Liquide UK home oxygen business",
@@ -658,6 +461,37 @@
       "commercialGate": "not-certified"
     },
     {
+      "id": "abp-ifm",
+      "title": "IFM Investors / Associated British Ports stakes",
+      "type": "Infrastructure M&A",
+      "status": "Sale agreement disclosed",
+      "sourceUrls": 2,
+      "distinctHosts": 2,
+      "independentOrigins": null,
+      "claims": 3,
+      "advisers": 1,
+      "financialValues": 0,
+      "announcementDate": "2026-10-21",
+      "eventSourceLinks": 2,
+      "structuralErrors": [],
+      "priority": 2,
+      "researchLeads": [
+        "https://www.linklaters.com/about-us/news-and-deals/deals/2026/october/linklaters-advises-cpp-investments-and-omers-on-associated-british-ports-sale",
+        "https://www.ifminvestors.com/asia/news--insights/media-centre/cpp-investments-and-omers-reach-agreement-to-sell-entire-stakes-in-associated-british-ports-to-a-fund-managed-by-ifm-investors/"
+      ],
+      "openQuestions": [
+        "Buyer counsel, price, financing and exact closing conditions not established; joint release explicitly withholds financial terms."
+      ],
+      "tasks": [
+        "Find consideration and valuation basis or log non-disclosure",
+        "Review project perimeter, financial close, equity/debt and permits",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
       "id": "carlsberg-britvic",
       "title": "Carlsberg / Britvic",
       "type": "Public M&A",
@@ -940,6 +774,75 @@
       "commercialGate": "not-certified"
     },
     {
+      "id": "drax-bluefield",
+      "title": "Drax / Bluefield Solar Income Fund",
+      "type": "Public M&A",
+      "status": "Completed",
+      "sourceUrls": 6,
+      "distinctHosts": 4,
+      "independentOrigins": null,
+      "claims": 4,
+      "advisers": 1,
+      "financialValues": 3,
+      "announcementDate": "2026-06-01",
+      "eventSourceLinks": 3,
+      "structuralErrors": [],
+      "priority": 0,
+      "researchLeads": [
+        "https://www.drax.com/investors/bsif-acquisition/",
+        "https://www.drax.com/financial-news/trading-update-upgraded-outlook-for-2026-ebitda/",
+        "https://www.drax.com/news/drax-completes-transformational-548-million-acquisition-of-solar-and-wind-assets/",
+        "https://www.nortonrosefulbright.com/en-gb/news/15fb9249/norton-rose-fulbright-advises-bluefield-solar-income-fund",
+        "https://www.londonstockexchange.com/en/news/article/BSIF/scheme-of-arrangement-becomes-effective/17716705",
+        "https://www.lse.co.uk/rns/DRX/acquisition-of-bluefield-services-ltd-1o7abi4tld9xhqm.html"
+      ],
+      "openQuestions": [
+        "Full scheme price/dividend bridge, bidder and specialist counsel, funding and detailed project liabilities need review."
+      ],
+      "tasks": [
+        "Investigate funding and document non-disclosure",
+        "Review firm offer, conditions, votes, sanction and effective date",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "ep-ids-royal-mail",
+      "title": "EP Group / International Distribution Services (Royal Mail)",
+      "type": "Public M&A",
+      "status": "Offer unconditional; subsequent compulsory acquisition announced",
+      "sourceUrls": 6,
+      "distinctHosts": 3,
+      "independentOrigins": null,
+      "claims": 4,
+      "advisers": 1,
+      "financialValues": 1,
+      "announcementDate": "2024-05-29",
+      "eventSourceLinks": 5,
+      "structuralErrors": [],
+      "priority": 0,
+      "researchLeads": [
+        "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/recommended-cash-offer-for-ids-plc/8227019",
+        "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/declaration-of-the-special-dividend/8855268",
+        "https://www.gov.uk/government/news/royal-mail-remains-based-in-uk-in-deal-to-bolster-key-services",
+        "https://www.gov.uk/government/publications/acquisition-of-international-distribution-services-plc-by-ep-uk-bidco-limited-notice-of-final-order/acquisition-of-international-distribution-services-plc-by-ep-uk-bidco-limited-notice-of-final-order",
+        "https://www.investegate.co.uk/announcement/rns/international-distributions-services--ids/closure-of-the-offer-and-compulsory-acquisition-/8899272",
+        "https://www.slaughterandmay.com/services/practices/foreign-investment-and-national-security/"
+      ],
+      "openQuestions": [
+        "Full offer price and enterprise-value bridge, actual settlement and compulsory-acquisition dates, funding and all other counsel mandates remain for full document review."
+      ],
+      "tasks": [
+        "Review firm offer, conditions, votes, sanction and effective date",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
       "id": "firstcash-ramsdens",
       "title": "FirstCash / Ramsdens",
       "type": "Public M&A",
@@ -1003,6 +906,72 @@
       "tasks": [
         "Investigate funding and document non-disclosure",
         "Review firm offer, conditions, votes, sanction and effective date",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "harp-hargreaves-lansdown",
+      "title": "CVC / Nordic Capital / ADIA — Hargreaves Lansdown",
+      "type": "Private equity / consortium",
+      "status": "Completed; delisted",
+      "sourceUrls": 5,
+      "distinctHosts": 5,
+      "independentOrigins": null,
+      "claims": 4,
+      "advisers": 3,
+      "financialValues": 1,
+      "announcementDate": "2024-08-09",
+      "eventSourceLinks": 3,
+      "structuralErrors": [],
+      "priority": 0,
+      "researchLeads": [
+        "https://www.investegate.co.uk/announcement/rns/hargreaves-lansdown--hl./offer-for-hargreaves-lansdown-plc/8358252",
+        "https://www.lse.co.uk/rns/de-listing-and-cancellation-of-trading-2a5rjzmp1h5wajb.html",
+        "https://www.nordiccapital.com/insights/press-releases/cvc-nordic-capital-and-adia-complete-acquisition-of-hargreaves-lansdown-to-accelerate-and-enhance-its-transformation-plan-and-deliver-on-its-growth-potential/",
+        "https://www.kirkland.com/news/press-release/2024/08/kirkland-advises-consortium-of-cvc-pef-nc-and-adia-on-recommended-cash-acquisition-of-hl",
+        "https://www.freshfields.com/en/our-thinking/news/news-search/2024/08/freshfields-advises-hargreaves-lansdown-on-recommended-final-cash-acquisition-by-a-consortium-comprised-of-cvc-private-equity-funds-nordic-capital-xi-delta-scsp-acting-through-its-general-partner-nordic-capital-xi-delta-gp-sarl-and-platinum-ivy-b-201"
+      ],
+      "openQuestions": [
+        "Exact cash/dividend bridge, rollover cap and actual elections, debt funding and individual regulatory approvals require further document review."
+      ],
+      "tasks": [
+        "Review sponsor, ownership, financing and exit terms",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "hpe-juniper",
+      "title": "Hewlett Packard Enterprise / Juniper Networks",
+      "type": "Cross-border M&A",
+      "status": "Completed",
+      "sourceUrls": 5,
+      "distinctHosts": 4,
+      "independentOrigins": null,
+      "claims": 5,
+      "advisers": 4,
+      "financialValues": 4,
+      "announcementDate": "2024-01-09",
+      "eventSourceLinks": 3,
+      "structuralErrors": [],
+      "priority": 0,
+      "researchLeads": [
+        "https://www.gov.uk/cma-cases/hewlett-packard-enterprise-company-slash-juniper-networks-inc-merger-inquiry",
+        "https://www.hpe.com/us/en/newsroom/press-release/2025/07/hewlett-packard-enterprise-closes-acquisition-of-juniper-networks-to-offer-industry-leading-comprehensive-cloud-native-ai-driven-portfolio.html",
+        "https://www.hpe.com/us/en/newsroom/press-release/2024/01/hpe-to-acquire-juniper-networks-to-accelerate-ai-driven-innovation.html",
+        "https://www.justice.gov/opa/pr/justice-department-requires-divestitures-and-licensing-commitments-hpes-acquisition-juniper",
+        "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000068/hpe-20250430.htm"
+      ],
+      "openQuestions": [
+        "Closing purchase-accounting bridge, actual debt utilisation and final US remedy compliance remain open."
+      ],
+      "tasks": [
+        "Review agreement, business perimeter, regulatory status and close/withdrawal",
         "Review each material claim, original source, independence and current status"
       ],
       "qualityScore": null,
@@ -1326,6 +1295,103 @@
       "commercialGate": "not-certified"
     },
     {
+      "id": "standard-chartered-dnn",
+      "title": "Standard Chartered / US$200m digitally native notes",
+      "type": "Debt capital markets",
+      "status": "Notes issued (mandate disclosure)",
+      "sourceUrls": 2,
+      "distinctHosts": 2,
+      "independentOrigins": null,
+      "claims": 3,
+      "advisers": 1,
+      "financialValues": 1,
+      "announcementDate": "2026-08-20",
+      "eventSourceLinks": 2,
+      "structuralErrors": [],
+      "priority": 0,
+      "researchLeads": [
+        "https://www.cliffordchance.com/news/news/2026/08/clifford-chance-advises-on-landmark-digitally-native-note-issuance-for-standard-chartered.html",
+        "https://www.sc.com/en/press-release/standard-chartered-becomes-first-g-sib-to-issue-digitally-native-notes-on-euroclears-d-fmi/"
+      ],
+      "openQuestions": [
+        "ISIN, coupon spread, ranking, issue price, final terms and admission record remain outstanding."
+      ],
+      "tasks": [
+        "Investigate funding and document non-disclosure",
+        "Review issue or facility documents, maturity, security and arrangers",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "synopsys-ansys",
+      "title": "Synopsys / Ansys",
+      "type": "Cross-border M&A",
+      "status": "Completed; UK remedies",
+      "sourceUrls": 7,
+      "distinctHosts": 7,
+      "independentOrigins": null,
+      "claims": 5,
+      "advisers": 3,
+      "financialValues": 7,
+      "announcementDate": "2024-01-16",
+      "eventSourceLinks": 3,
+      "structuralErrors": [],
+      "priority": 0,
+      "researchLeads": [
+        "https://www.gov.uk/cma-cases/synopsys-slash-ansys-merger-inquiry",
+        "https://news.synopsys.com/2025-07-17-Synopsys-Completes-Acquisition-of-Ansys",
+        "https://ansys.synopsys.com/news-center/press-releases/1-16-24-synopsys-acquires-ansys",
+        "https://www.sec.gov/Archives/edgar/data/883241/000088324126000025/snps-20260731.htm",
+        "https://www.ftc.gov/news-events/news/press-releases/2025/10/ftc-approves-final-divestiture-order-synopsys-ansys-deal",
+        "https://www.clearygottlieb.com/news-and-insights/news-listing/synopsys-to-acquire-ansys",
+        "https://www.goodwinlaw.com/en/news-and-events/news/2025/07/announcements-technology-ma-synopsys-completes-acquisition-of-ansys"
+      ],
+      "openQuestions": [
+        "Detailed UK undertakings text and implementation, actual financing drawdowns, and post-close synergy realisation require further review."
+      ],
+      "tasks": [
+        "Review agreement, business perimeter, regulatory status and close/withdrawal",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
+      "id": "uk-logistics-cmbs",
+      "title": "UK Logistics 2026-3 / £603m CMBS",
+      "type": "Debt capital markets",
+      "status": "Securitisation completed (mandate disclosure)",
+      "sourceUrls": 3,
+      "distinctHosts": 3,
+      "independentOrigins": null,
+      "claims": 3,
+      "advisers": 1,
+      "financialValues": 2,
+      "announcementDate": "2026-07-10",
+      "eventSourceLinks": 3,
+      "structuralErrors": [],
+      "priority": 0,
+      "researchLeads": [
+        "https://www.cliffordchance.com/news/news/2026/10/clifford-chance-advises-deutsche-bank-and-standard-chartered-on-603-million-uk-logistics-cmbs.html",
+        "https://www.kbra.com/publications/mMNVTBgB/kbra-assigns-preliminary-ratings-to-uk-logistics-2026-3-dac?format=web",
+        "https://www.spglobal.com/ratings/de/regulatory/article/-/view/type/HTML/id/3593104"
+      ],
+      "openQuestions": [
+        "July is earliest established public ratings disclosure, not a confirmed formal announcement or closing date; final offering circular, tranche terms and final ratings not yet reviewed."
+      ],
+      "tasks": [
+        "Review issue or facility documents, maturity, security and arrangers",
+        "Review each material claim, original source, independence and current status"
+      ],
+      "qualityScore": null,
+      "reviewState": "structural-screen-complete; independent claim audit pending",
+      "commercialGate": "not-certified"
+    },
+    {
       "id": "vodafone-three",
       "title": "Vodafone UK / Three UK",
       "type": "Joint venture / merger",
@@ -1362,15 +1428,15 @@
     }
   ],
   "metrics": {
-    "deep": 22,
-    "singleSource": 3,
-    "missingAdvisers": 6,
-    "missingValues": 13,
-    "missingAnnouncement": 11,
-    "missingEventEvidence": 11,
-    "sourceReferences": 156,
-    "adviserAssociations": 55,
-    "findings": 88,
+    "deep": 30,
+    "singleSource": 0,
+    "missingAdvisers": 3,
+    "missingValues": 11,
+    "missingAnnouncement": 6,
+    "missingEventEvidence": 5,
+    "sourceReferences": 183,
+    "adviserAssociations": 67,
+    "findings": 119,
     "structuralErrors": 0
   }
 }

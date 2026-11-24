@@ -2984,11 +2984,16 @@
         ]
       ],
       "structure": "Sale of two existing institutional shareholdings: 33.9% and 30%.",
-      "fact": "Linklaters disclosed agreements to sell the CPP Investments and OMERS stakes to an IFM-managed fund. ABP operates 19 UK port facilities; completion was expected in H1 2027 subject to conditions.",
-      "analysis": "Long-life infrastructure assets may appeal to institutional investors seeking cash flows, but capital-intensive port operations create maintenance, concession and environmental exposure.",
+      "fact": "CPP Investments and OMERS agreed to sell their 33.9% and 30% holdings in ABP to an IFM-managed fund. The stakes total 63.9%; terms are undisclosed and completion remains subject to approvals.",
+      "analysis": "The combined 63.9% shareholding implies a majority interest in the port operator, not necessarily unconstrained governance control. Unlike buying individual ports, the stake sale transfers exposure to a portfolio with operating and capital expenditure obligations. The June £300m ABP facility is a separate financing, not evidence of purchase consideration.",
       "legalWork": "Examine shareholder and financing agreements, change-of-control provisions, land and port rights, antitrust and foreign-investment screening. Do not infer that a particular approval is mandatory without reviewing the actual structure.",
       "regulatory": "Conditions disclosed in broad terms only; individual approval status not established.",
       "timeline": [
+        {
+          "date": "2026-10-21",
+          "event": "Stake sale agreement announced",
+          "source": "https://www.ifminvestors.com/asia/news--insights/media-centre/cpp-investments-and-omers-reach-agreement-to-sell-entire-stakes-in-associated-british-ports-to-a-fund-managed-by-ifm-investors/"
+        },
         {
           "date": "2026-10-28",
           "event": "Seller counsel disclosed the agreements",
@@ -3001,6 +3006,10 @@
         {
           "name": "Seller legal adviser disclosure",
           "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/october/linklaters-advises-cpp-investments-and-omers-on-associated-british-ports-sale"
+        },
+        {
+          "name": "IFM Investors — 21 October joint release, first three paragraphs",
+          "url": "https://www.ifminvestors.com/asia/news--insights/media-centre/cpp-investments-and-omers-reach-agreement-to-sell-entire-stakes-in-associated-british-ports-to-a-fund-managed-by-ifm-investors/"
         }
       ],
       "advisers": [
@@ -3016,7 +3025,110 @@
         "private-equity",
         "project-finance",
         "national-security"
-      ]
+      ],
+      "announcedOn": "2026-10-21",
+      "factSources": [
+        "https://www.ifminvestors.com/asia/news--insights/media-centre/cpp-investments-and-omers-reach-agreement-to-sell-entire-stakes-in-associated-british-ports-to-a-fund-managed-by-ifm-investors/",
+        "https://www.linklaters.com/about-us/news-and-deals/deals/2026/october/linklaters-advises-cpp-investments-and-omers-on-associated-british-ports-sale"
+      ],
+      "financing": "Acquisition funding not disclosed; the related ABP term facility is not acquisition consideration.",
+      "evidenceScope": "Targeted public-document research, with claim-specific references and explicit limits; not independently certified in full.",
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Stake and perimeter",
+            "text": "The two existing stakes add to 63.9% (33.9 + 30). The purchaser is a fund managed by IFM rather than necessarily IFM itself; financial terms remain undisclosed.",
+            "evidence": [
+              {
+                "publisher": "IFM Investors",
+                "url": "https://www.ifminvestors.com/asia/news--insights/media-centre/cpp-investments-and-omers-reach-agreement-to-sell-entire-stakes-in-associated-british-ports-to-a-fund-managed-by-ifm-investors/",
+                "locator": "21 October joint release, first three paragraphs"
+              },
+              {
+                "publisher": "Linklaters",
+                "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/october/linklaters-advises-cpp-investments-and-omers-on-associated-british-ports-sale",
+                "locator": "28 October seller mandate"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Business and ownership history",
+            "text": "The issuer-side joint release records CPP investment since 2015 and OMERS since 2006, and describes a network of 19 facilities serving UK seaborne trade.",
+            "evidence": [
+              {
+                "publisher": "IFM Investors",
+                "url": "https://www.ifminvestors.com/asia/news--insights/media-centre/cpp-investments-and-omers-reach-agreement-to-sell-entire-stakes-in-associated-british-ports-to-a-fund-managed-by-ifm-investors/",
+                "locator": "21 October joint release, first three paragraphs"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Mandate and conditions",
+            "text": "Linklaters identifies both selling investors as its clients. The party release conditions closing on stakeholder review and approval processes; specific approvals have not been established.",
+            "evidence": [
+              {
+                "publisher": "IFM Investors",
+                "url": "https://www.ifminvestors.com/asia/news--insights/media-centre/cpp-investments-and-omers-reach-agreement-to-sell-entire-stakes-in-associated-british-ports-to-a-fund-managed-by-ifm-investors/",
+                "locator": "21 October joint release, first three paragraphs"
+              },
+              {
+                "publisher": "Linklaters",
+                "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/october/linklaters-advises-cpp-investments-and-omers-on-associated-british-ports-sale",
+                "locator": "28 October seller mandate"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Governance",
+            "question": "What rights accompany a majority stake?",
+            "why": "Examine reserved matters and remaining shareholder rights, not just percentage ownership.",
+            "documents": "Shareholder agreement if disclosed"
+          },
+          {
+            "name": "Infrastructure",
+            "question": "What assets drive cash flows?",
+            "why": "Assess port leases, concession rights, capex and cargo exposure.",
+            "documents": "ABP reporting"
+          },
+          {
+            "name": "Finance",
+            "question": "Does the June facility fund this sale?",
+            "why": "Separate borrower funding from sponsor acquisition consideration.",
+            "documents": "Facility disclosure and sale documents"
+          },
+          {
+            "name": "Regulatory",
+            "question": "What approvals are actually required?",
+            "why": "Establish applicable screening from deal documents rather than presuming notification.",
+            "documents": "Regulatory and issuer updates"
+          }
+        ],
+        "documents": [
+          {
+            "title": "IFM Investors",
+            "url": "https://www.ifminvestors.com/asia/news--insights/media-centre/cpp-investments-and-omers-reach-agreement-to-sell-entire-stakes-in-associated-british-ports-to-a-fund-managed-by-ifm-investors/",
+            "purpose": "21 October joint release, first three paragraphs"
+          },
+          {
+            "title": "Linklaters",
+            "url": "https://www.linklaters.com/about-us/news-and-deals/deals/2026/october/linklaters-advises-cpp-investments-and-omers-on-associated-british-ports-sale",
+            "purpose": "28 October seller mandate"
+          }
+        ],
+        "openQuestions": [
+          "Buyer counsel, price, financing and exact closing conditions not established; joint release explicitly withholds financial terms."
+        ],
+        "relatedDeals": [
+          "abp-term-facility",
+          "rwe-kkr-vanguard"
+        ]
+      }
     },
     {
       "jurisdiction": "UK",
@@ -3143,28 +3255,47 @@
         [
           "Operator",
           "Indurent"
+        ],
+        [
+          "Additional underlying loan originator",
+          "Qatar National Bank, London Branch"
         ]
       ],
       "structure": "Commercial mortgage-backed notes backed by a portion of a logistics property financing.",
-      "fact": "Clifford Chance disclosed completion of securitisation of £603m of financing secured against 39 logistics and industrial properties in England and Wales.",
+      "fact": "Counsel reported completed note issuance backed by a £603m portion of a £753m first-lien mortgage loan against 39 industrial/logistics properties. Preliminary ratings were announced in July; the actual note closing date remains unestablished.",
       "values": [
         {
-          "label": "Securitised financing portion",
+          "label": "Securitised loan participation",
           "amount": "£603m",
-          "source": "https://www.cliffordchance.com/news/news/2026/10/clifford-chance-advises-deutsche-bank-and-standard-chartered-on-603-million-uk-logistics-cmbs.html",
-          "basis": "financing-commitment",
-          "currency": "GBP",
           "numericAmount": 603000000,
+          "basis": "securitised-loan-portion",
+          "source": "https://www.kbra.com/publications/mMNVTBgB/kbra-assigns-preliminary-ratings-to-uk-logistics-2026-3-dac?format=web",
+          "currency": "GBP",
+          "unit": "currency",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Underlying senior mortgage loan",
+          "amount": "£753m",
+          "numericAmount": 753000000,
+          "basis": "financing-commitment",
+          "source": "https://www.kbra.com/publications/mMNVTBgB/kbra-assigns-preliminary-ratings-to-uk-logistics-2026-3-dac?format=web",
+          "currency": "GBP",
           "unit": "currency",
           "disclosure": "stated"
         }
       ],
-      "financing": "Commercial mortgage-backed note issuance; tranche details not established in this record.",
-      "analysis": "Property cash flows and valuation affect credit risk. Securitisation distributes mortgage exposure to investors, but does not eliminate default or refinancing risks.",
+      "financing": "KBRA describes a floating-rate, limited-recourse first-lien loan with two-year initial maturity and three one-year extension options; these are underlying loan terms, not necessarily note terms.",
+      "analysis": "The £603m participation is approximately 80.1% of the £753m loan (603/753); this is not loan-to-value, nor a separate £603m acquisition. A short floating-rate loan against longer-life properties introduces extension and refinancing risk. The note waterfall, collateral coverage and servicing arrangements govern how underlying borrower risk reaches investors.",
       "legalWork": "Review loan transfer, security, issuer structure, servicing, cash-flow waterfall, disclosure and tax; coordinate UK real estate and securities advice across jurisdictions.",
       "watch": "Note documentation and property performance where publicly available.",
       "interview": "How does a CMBS differ from a direct bilateral property loan?",
       "timeline": [
+        {
+          "date": "2026-07-10",
+          "event": "Preliminary rating announcement",
+          "source": "https://www.kbra.com/publications/mMNVTBgB/kbra-assigns-preliminary-ratings-to-uk-logistics-2026-3-dac?format=web"
+        },
         {
           "date": "2026-10-08",
           "event": "Completed issuance reported by transaction counsel",
@@ -3175,6 +3306,14 @@
         {
           "name": "Clifford Chance mandate",
           "url": "https://www.cliffordchance.com/news/news/2026/10/clifford-chance-advises-deutsche-bank-and-standard-chartered-on-603-million-uk-logistics-cmbs.html"
+        },
+        {
+          "name": "KBRA — 10 July preliminary ratings and underlying loan",
+          "url": "https://www.kbra.com/publications/mMNVTBgB/kbra-assigns-preliminary-ratings-to-uk-logistics-2026-3-dac?format=web"
+        },
+        {
+          "name": "S&P Global Ratings — Preliminary ratings; loan participation",
+          "url": "https://www.spglobal.com/ratings/de/regulatory/article/-/view/type/HTML/id/3593104"
         }
       ],
       "advisers": [
@@ -3190,7 +3329,115 @@
         "finance",
         "capital-markets",
         "securitisation"
-      ]
+      ],
+      "announcedOn": "2026-07-10",
+      "factSources": [
+        "https://www.cliffordchance.com/news/news/2026/10/clifford-chance-advises-deutsche-bank-and-standard-chartered-on-603-million-uk-logistics-cmbs.html",
+        "https://www.kbra.com/publications/mMNVTBgB/kbra-assigns-preliminary-ratings-to-uk-logistics-2026-3-dac?format=web",
+        "https://www.spglobal.com/ratings/de/regulatory/article/-/view/type/HTML/id/3593104"
+      ],
+      "evidenceScope": "Targeted public-document research, with claim-specific references and explicit limits; not independently certified in full.",
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Loan versus securitisation",
+            "text": "The two rating agencies describe the £603m participation in the £753m senior loan; counsel confirms the subsequent issuance. The calculated participation ratio is 80.1%, not LTV.",
+            "evidence": [
+              {
+                "publisher": "KBRA",
+                "url": "https://www.kbra.com/publications/mMNVTBgB/kbra-assigns-preliminary-ratings-to-uk-logistics-2026-3-dac?format=web",
+                "locator": "10 July preliminary ratings and underlying loan"
+              },
+              {
+                "publisher": "S&P Global Ratings",
+                "url": "https://www.spglobal.com/ratings/de/regulatory/article/-/view/type/HTML/id/3593104",
+                "locator": "Preliminary ratings; loan participation"
+              },
+              {
+                "publisher": "Clifford Chance",
+                "url": "https://www.cliffordchance.com/news/news/2026/10/clifford-chance-advises-deutsche-bank-and-standard-chartered-on-603-million-uk-logistics-cmbs.html",
+                "locator": "8 October counsel release"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Loan mechanics",
+            "text": "KBRA describes three originators and a floating-rate, two-year initial loan with three annual extension options. Note maturities and coupons need separate evidence.",
+            "evidence": [
+              {
+                "publisher": "KBRA",
+                "url": "https://www.kbra.com/publications/mMNVTBgB/kbra-assigns-preliminary-ratings-to-uk-logistics-2026-3-dac?format=web",
+                "locator": "10 July preliminary ratings and underlying loan"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Collateral and counsel",
+            "text": "Clifford Chance reports 39 English and Welsh properties and identifies Deutsche Bank and Standard Chartered in arranging, managing, selling and issuer-lending roles.",
+            "evidence": [
+              {
+                "publisher": "Clifford Chance",
+                "url": "https://www.cliffordchance.com/news/news/2026/10/clifford-chance-advises-deutsche-bank-and-standard-chartered-on-603-million-uk-logistics-cmbs.html",
+                "locator": "8 October counsel release"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Securitisation",
+            "question": "How does the loan reach the note issuer?",
+            "why": "Inspect participation, transfer and security documents.",
+            "documents": "Offering circular and loan agreement"
+          },
+          {
+            "name": "Credit",
+            "question": "What happens if refinancing fails?",
+            "why": "Analyse extensions, cash sweep and special servicing, rather than assuming repayment.",
+            "documents": "Loan and servicing documents"
+          },
+          {
+            "name": "Waterfall",
+            "question": "Which note classes absorb losses first?",
+            "why": "Compare priority, triggers and rating assumptions.",
+            "documents": "Final note terms and ratings"
+          },
+          {
+            "name": "Legal",
+            "question": "How is cross-border collateral enforced?",
+            "why": "Check English/Welsh security and Irish issuer law without assuming exact structure.",
+            "documents": "Security and issuer documentation"
+          }
+        ],
+        "documents": [
+          {
+            "title": "Clifford Chance",
+            "url": "https://www.cliffordchance.com/news/news/2026/10/clifford-chance-advises-deutsche-bank-and-standard-chartered-on-603-million-uk-logistics-cmbs.html",
+            "purpose": "8 October counsel release"
+          },
+          {
+            "title": "KBRA",
+            "url": "https://www.kbra.com/publications/mMNVTBgB/kbra-assigns-preliminary-ratings-to-uk-logistics-2026-3-dac?format=web",
+            "purpose": "10 July preliminary ratings and underlying loan"
+          },
+          {
+            "title": "S&P Global Ratings",
+            "url": "https://www.spglobal.com/ratings/de/regulatory/article/-/view/type/HTML/id/3593104",
+            "purpose": "Preliminary ratings; loan participation"
+          }
+        ],
+        "openQuestions": [
+          "July is earliest established public ratings disclosure, not a confirmed formal announcement or closing date; final offering circular, tranche terms and final ratings not yet reviewed."
+        ],
+        "relatedDeals": [
+          "standard-chartered-dnn",
+          "abp-term-facility"
+        ]
+      }
     },
     {
       "jurisdiction": "UK",
@@ -3210,10 +3457,14 @@
         [
           "Infrastructure",
           "Euroclear D-FMI"
+        ],
+        [
+          "Sole dealer",
+          "Standard Chartered"
         ]
       ],
       "structure": "Floating-rate digitally native notes due 2029.",
-      "fact": "Clifford Chance reported the UK bank's US$200m issuance through Euroclear's digital issuance infrastructure; application was made for admission to London's International Securities Market.",
+      "fact": "Standard Chartered announced $200m three-year floating-rate digitally native notes on 20 August 2026 using Euroclear D-FMI. Issuer counsel confirmed maturity in 2029; an application for ISM admission was made, not established as granted.",
       "values": [
         {
           "label": "Note principal",
@@ -3226,11 +3477,16 @@
           "disclosure": "stated"
         }
       ],
-      "analysis": "Digital settlement infrastructure can change operational processes without eliminating ordinary debt and securities-law obligations.",
+      "analysis": "This is a debt funding transaction, not a token investment or equity raising. D-FMI uses distributed ledger infrastructure while connecting to established settlement and servicing workflows. The credit exposure remains to the issuer; digital title, settlement finality and operational continuity require separate diligence.",
       "legalWork": "Examine issuance and settlement arrangements, title and payment mechanics, continuity provisions, disclosure and admission requirements. Distinguish application for admission from actual admission.",
       "watch": "Further issuances and evidence of completed admission.",
       "interview": "What legal and operational risks remain when a bond is issued using distributed ledger infrastructure?",
       "timeline": [
+        {
+          "date": "2026-08-20",
+          "event": "Issuer announced notes issued",
+          "source": "https://www.sc.com/en/press-release/standard-chartered-becomes-first-g-sib-to-issue-digitally-native-notes-on-euroclears-d-fmi/"
+        },
         {
           "date": "2026-08-21",
           "event": "Issuer counsel disclosed issuance",
@@ -3241,6 +3497,10 @@
         {
           "name": "Clifford Chance issuer mandate",
           "url": "https://www.cliffordchance.com/news/news/2026/08/clifford-chance-advises-on-landmark-digitally-native-note-issuance-for-standard-chartered.html"
+        },
+        {
+          "name": "Standard Chartered — 20 August issuer release",
+          "url": "https://www.sc.com/en/press-release/standard-chartered-becomes-first-g-sib-to-issue-digitally-native-notes-on-euroclears-d-fmi/"
         }
       ],
       "advisers": [
@@ -3255,7 +3515,109 @@
       "related": [
         "capital-markets",
         "finance"
-      ]
+      ],
+      "announcedOn": "2026-08-20",
+      "factSources": [
+        "https://www.sc.com/en/press-release/standard-chartered-becomes-first-g-sib-to-issue-digitally-native-notes-on-euroclears-d-fmi/",
+        "https://www.cliffordchance.com/news/news/2026/08/clifford-chance-advises-on-landmark-digitally-native-note-issuance-for-standard-chartered.html"
+      ],
+      "evidenceScope": "Targeted public-document research, with claim-specific references and explicit limits; not independently certified in full.",
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Debt instrument",
+            "text": "Issuer and counsel confirm $200m floating-rate notes with three-year tenor and 2029 maturity; coupon benchmark and spread are not established.",
+            "evidence": [
+              {
+                "publisher": "Standard Chartered",
+                "url": "https://www.sc.com/en/press-release/standard-chartered-becomes-first-g-sib-to-issue-digitally-native-notes-on-euroclears-d-fmi/",
+                "locator": "20 August issuer release"
+              },
+              {
+                "publisher": "Clifford Chance",
+                "url": "https://www.cliffordchance.com/news/news/2026/08/clifford-chance-advises-on-landmark-digitally-native-note-issuance-for-standard-chartered.html",
+                "locator": "21 August mandate and maturity"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Market infrastructure",
+            "text": "Issuer identifies D-FMI distributed ledger issuance and connectivity with existing securities servicing, with Standard Chartered itself acting as sole dealer.",
+            "evidence": [
+              {
+                "publisher": "Standard Chartered",
+                "url": "https://www.sc.com/en/press-release/standard-chartered-becomes-first-g-sib-to-issue-digitally-native-notes-on-euroclears-d-fmi/",
+                "locator": "20 August issuer release"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Admission and mandate",
+            "text": "Both announcements refer to an application for ISM admission. Clifford Chance identifies the issuer as its client; admission itself needs a separate exchange record.",
+            "evidence": [
+              {
+                "publisher": "Standard Chartered",
+                "url": "https://www.sc.com/en/press-release/standard-chartered-becomes-first-g-sib-to-issue-digitally-native-notes-on-euroclears-d-fmi/",
+                "locator": "20 August issuer release"
+              },
+              {
+                "publisher": "Clifford Chance",
+                "url": "https://www.cliffordchance.com/news/news/2026/08/clifford-chance-advises-on-landmark-digitally-native-note-issuance-for-standard-chartered.html",
+                "locator": "21 August mandate and maturity"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Debt terms",
+            "question": "What determines the cash interest payment?",
+            "why": "Verify benchmark, spread, resets and fallbacks in final terms.",
+            "documents": "Final terms"
+          },
+          {
+            "name": "Title",
+            "question": "How is the digital security held and transferred?",
+            "why": "Distinguish DLT infrastructure from governing-law debt rights.",
+            "documents": "Euroclear rules and note documentation"
+          },
+          {
+            "name": "Settlement",
+            "question": "What if the platform becomes unavailable?",
+            "why": "Review business continuity and servicing mechanics.",
+            "documents": "Infrastructure terms"
+          },
+          {
+            "name": "Admission",
+            "question": "Was trading admission granted?",
+            "why": "Verify actual exchange notice separately from application.",
+            "documents": "ISM admission notice"
+          }
+        ],
+        "documents": [
+          {
+            "title": "Standard Chartered",
+            "url": "https://www.sc.com/en/press-release/standard-chartered-becomes-first-g-sib-to-issue-digitally-native-notes-on-euroclears-d-fmi/",
+            "purpose": "20 August issuer release"
+          },
+          {
+            "title": "Clifford Chance",
+            "url": "https://www.cliffordchance.com/news/news/2026/08/clifford-chance-advises-on-landmark-digitally-native-note-issuance-for-standard-chartered.html",
+            "purpose": "21 August mandate and maturity"
+          }
+        ],
+        "openQuestions": [
+          "ISIN, coupon spread, ranking, issue price, final terms and admission record remain outstanding."
+        ],
+        "relatedDeals": [
+          "uk-logistics-cmbs",
+          "abp-term-facility"
+        ]
+      }
     },
     {
       "jurisdiction": "UK",
@@ -3277,9 +3639,19 @@
           "Bluefield Solar Income Fund"
         ]
       ],
-      "structure": "Acquisition of renewable infrastructure investment fund.",
+      "structure": "Court-sanctioned Guernsey scheme under Part VIII of Companies (Guernsey) Law 2008, all-cash acquisition by Drax Smart Generation Holdco Limited.",
       "fact": "Drax confirms completion effective 31 July. Its later trading update reports £561m consideration and £1.082bn enterprise value.",
       "values": [
+        {
+          "label": "Announced headline offer",
+          "amount": "£548m",
+          "numericAmount": 548000000,
+          "basis": "historical-offer-value",
+          "source": "https://www.drax.com/news/drax-completes-transformational-548-million-acquisition-of-solar-and-wind-assets/",
+          "currency": "GBP",
+          "unit": "currency",
+          "disclosure": "stated"
+        },
         {
           "label": "Consideration reported in trading update",
           "amount": "£561m",
@@ -3301,11 +3673,21 @@
           "disclosure": "stated"
         }
       ],
-      "analysis": "Acquiring operating renewable assets changes the buyer's generation mix and introduces portfolio-specific debt, power-price and asset performance exposure.",
+      "analysis": "The fund acquisition adds operating solar and wind generation rather than merely a development pipeline. The £548m announced headline, £561m later consideration and £1.082bn later EV are distinct measures requiring reconciliation. Drax separately agreed a £9.15m services-business acquisition in November, which should not be silently folded into the earlier fund price.",
       "legalWork": "Review project SPV debt, change-of-control provisions, revenue support contracts, generation asset title and integration. Distinguish the acquisition consideration from enterprise valuation.",
-      "watch": "Operating performance and integration disclosures.",
+      "watch": "Monitor operating integration and distinct November Bluefield Services acquisition.",
       "interview": "Why might a renewable portfolio's enterprise value be substantially greater than its equity consideration?",
       "timeline": [
+        {
+          "date": "2026-06-01",
+          "event": "Recommended offer announced",
+          "source": "https://www.drax.com/news/drax-completes-transformational-548-million-acquisition-of-solar-and-wind-assets/"
+        },
+        {
+          "date": "2026-06-29",
+          "event": "Scheme document dated",
+          "source": "https://www.londonstockexchange.com/en/news/article/BSIF/scheme-of-arrangement-becomes-effective/17716705"
+        },
         {
           "date": "2026-07-31",
           "event": "Acquisition effective",
@@ -3320,13 +3702,173 @@
         {
           "name": "Drax trading update",
           "url": "https://www.drax.com/financial-news/trading-update-upgraded-outlook-for-2026-ebitda/"
+        },
+        {
+          "name": "Drax — 31 July completion and 1 June agreement",
+          "url": "https://www.drax.com/news/drax-completes-transformational-548-million-acquisition-of-solar-and-wind-assets/"
+        },
+        {
+          "name": "Norton Rose Fulbright — Target mandate, headline value",
+          "url": "https://www.nortonrosefulbright.com/en-gb/news/15fb9249/norton-rose-fulbright-advises-bluefield-solar-income-fund"
+        },
+        {
+          "name": "BSIF issuer announcement — 31 July scheme effective",
+          "url": "https://www.londonstockexchange.com/en/news/article/BSIF/scheme-of-arrangement-becomes-effective/17716705"
+        },
+        {
+          "name": "Drax issuer announcement — November separate services acquisition and Rule 19.6(b) update",
+          "url": "https://www.lse.co.uk/rns/DRX/acquisition-of-bluefield-services-ltd-1o7abi4tld9xhqm.html"
         }
       ],
       "related": [
         "valuation",
         "project-finance",
         "finance"
-      ]
+      ],
+      "announcedOn": "2026-06-01",
+      "factSources": [
+        "https://www.drax.com/news/drax-completes-transformational-548-million-acquisition-of-solar-and-wind-assets/",
+        "https://www.drax.com/financial-news/trading-update-upgraded-outlook-for-2026-ebitda/",
+        "https://www.londonstockexchange.com/en/news/article/BSIF/scheme-of-arrangement-becomes-effective/17716705"
+      ],
+      "advisers": [
+        {
+          "firm": "Norton Rose Fulbright",
+          "firmId": "norton-rose-fulbright",
+          "client": "Bluefield Solar Income Fund",
+          "scope": "Target counsel",
+          "source": "https://www.nortonrosefulbright.com/en-gb/news/15fb9249/norton-rose-fulbright-advises-bluefield-solar-income-fund"
+        }
+      ],
+      "evidenceScope": "Targeted public-document research, with claim-specific references and explicit limits; not independently certified in full.",
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Structure and closing",
+            "text": "Drax and the target announcement establish an all-cash acquisition, with the Guernsey scheme effective on 31 July after shareholder and court stages.",
+            "evidence": [
+              {
+                "publisher": "Drax",
+                "url": "https://www.drax.com/news/drax-completes-transformational-548-million-acquisition-of-solar-and-wind-assets/",
+                "locator": "31 July completion and 1 June agreement"
+              },
+              {
+                "publisher": "BSIF issuer announcement",
+                "url": "https://www.londonstockexchange.com/en/news/article/BSIF/scheme-of-arrangement-becomes-effective/17716705",
+                "locator": "31 July scheme effective"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Different economic measures",
+            "text": "Drax's completion release describes £548m; its later trading update reports £561m consideration and £1.082bn EV. The different measures must be reconciled before inferring additional purchase cost.",
+            "evidence": [
+              {
+                "publisher": "Drax",
+                "url": "https://www.drax.com/news/drax-completes-transformational-548-million-acquisition-of-solar-and-wind-assets/",
+                "locator": "31 July completion and 1 June agreement"
+              },
+              {
+                "publisher": "Drax",
+                "url": "https://www.drax.com/financial-news/trading-update-upgraded-outlook-for-2026-ebitda/",
+                "locator": "September trading update, completed consideration and EV"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Counsel and operating rationale",
+            "text": "Norton Rose Fulbright identifies its target mandate. Drax presents the combination as diversification into solar and wind; the outcome is not yet demonstrated.",
+            "evidence": [
+              {
+                "publisher": "Norton Rose Fulbright",
+                "url": "https://www.nortonrosefulbright.com/en-gb/news/15fb9249/norton-rose-fulbright-advises-bluefield-solar-income-fund",
+                "locator": "Target mandate, headline value"
+              },
+              {
+                "publisher": "Drax",
+                "url": "https://www.drax.com/news/drax-completes-transformational-548-million-acquisition-of-solar-and-wind-assets/",
+                "locator": "31 July completion and 1 June agreement"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Separate later deal",
+            "text": "November issuer notice describes the separate agreement for Bluefield Services at £9.15m in connection with post-offer intentions; it is not the fund acquisition consideration.",
+            "evidence": [
+              {
+                "publisher": "Drax issuer announcement",
+                "url": "https://www.lse.co.uk/rns/DRX/acquisition-of-bluefield-services-ltd-1o7abi4tld9xhqm.html",
+                "locator": "November separate services acquisition and Rule 19.6(b) update"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Scheme",
+            "question": "Why Guernsey rather than English Part 26?",
+            "why": "Apply the actual incorporation law and scheme mechanism.",
+            "documents": "Scheme circular and effective notice"
+          },
+          {
+            "name": "Economics",
+            "question": "What explains differing values?",
+            "why": "Reconcile consideration, debt and financial reporting dates.",
+            "documents": "Trading update and purchase accounting"
+          },
+          {
+            "name": "Project finance",
+            "question": "What debt and revenue arrangements transfer?",
+            "why": "Inspect asset SPV financing and revenue contracts.",
+            "documents": "Fund and asset reporting"
+          },
+          {
+            "name": "Post-offer intentions",
+            "question": "What happened to external asset management?",
+            "why": "Separate follow-on services transaction from completed acquisition.",
+            "documents": "Rule 19.6(b) notice"
+          }
+        ],
+        "documents": [
+          {
+            "title": "Drax",
+            "url": "https://www.drax.com/news/drax-completes-transformational-548-million-acquisition-of-solar-and-wind-assets/",
+            "purpose": "31 July completion and 1 June agreement"
+          },
+          {
+            "title": "Drax",
+            "url": "https://www.drax.com/financial-news/trading-update-upgraded-outlook-for-2026-ebitda/",
+            "purpose": "September trading update, completed consideration and EV"
+          },
+          {
+            "title": "Norton Rose Fulbright",
+            "url": "https://www.nortonrosefulbright.com/en-gb/news/15fb9249/norton-rose-fulbright-advises-bluefield-solar-income-fund",
+            "purpose": "Target mandate, headline value"
+          },
+          {
+            "title": "BSIF issuer announcement",
+            "url": "https://www.londonstockexchange.com/en/news/article/BSIF/scheme-of-arrangement-becomes-effective/17716705",
+            "purpose": "31 July scheme effective"
+          },
+          {
+            "title": "Drax issuer announcement",
+            "url": "https://www.lse.co.uk/rns/DRX/acquisition-of-bluefield-services-ltd-1o7abi4tld9xhqm.html",
+            "purpose": "November separate services acquisition and Rule 19.6(b) update"
+          }
+        ],
+        "openQuestions": [
+          "Full scheme price/dividend bridge, bidder and specialist counsel, funding and detailed project liabilities need review."
+        ],
+        "relatedDeals": [
+          "rwe-kkr-vanguard",
+          "cip-noriker-kilmarnock"
+        ]
+      }
     },
     {
       "jurisdiction": "UK",
@@ -5430,10 +5972,15 @@
           "ANSYS, Inc."
         ]
       ],
-      "structure": "International software acquisition with UK merger review.",
-      "fact": "Synopsys confirmed the acquisition closed on 17 July 2025. UK competition concerns had been addressed through undertakings accepted on 5 March 2025.",
+      "structure": "Delaware cash-and-stock merger; merger agreement dated 15 January 2024, announced the following day.",
+      "fact": "Synopsys announced a roughly $35bn enterprise-value acquisition of Ansys in January 2024. UK undertakings were accepted on 5 March 2025; closing occurred 17 July 2025. Its later SEC filing records approximately $34.9bn purchase consideration.",
       "regulatory": "UK undertakings in lieu were accepted; other jurisdictions' decisions require separate evidence.",
       "timeline": [
+        {
+          "date": "2024-01-16",
+          "event": "Acquisition announced",
+          "source": "https://ansys.synopsys.com/news-center/press-releases/1-16-24-synopsys-acquires-ansys"
+        },
         {
           "date": "2024-12-20",
           "event": "CMA identified Phase 1 concerns",
@@ -5450,7 +5997,7 @@
           "source": "https://news.synopsys.com/2025-07-17-Synopsys-Completes-Acquisition-of-Ansys"
         }
       ],
-      "analysis": "Complementary engineering software can improve product integration but overlapping tools may create competition issues. Licensing interoperability, customer retention and debt servicing influence value.",
+      "analysis": "Engineering design and simulation are complementary across the chip-to-system workflow, but the divestitures show that complementarity at portfolio level can coexist with rivalry in individual software products. The original EV is tied to the December 2023 stock price; compare it with closing accounting only after reconciling the different basis and stock consideration.",
       "legalWork": "Diligence software licensing, IP and customer concentration; separate remedy assets and ongoing services; coordinate cross-border conditions and transitional arrangements.",
       "interview": "Why can a deal involving two US companies still require UK competition analysis?",
       "watch": "Remedy compliance and integration disclosures.",
@@ -5462,13 +6009,292 @@
         {
           "name": "Buyer completion announcement",
           "url": "https://news.synopsys.com/2025-07-17-Synopsys-Completes-Acquisition-of-Ansys"
+        },
+        {
+          "name": "Synopsys and Ansys — Transaction terms, advisers and stated synergies",
+          "url": "https://ansys.synopsys.com/news-center/press-releases/1-16-24-synopsys-acquires-ansys"
+        },
+        {
+          "name": "Synopsys SEC filing — Business combinations; July 2025 acquisition accounting",
+          "url": "https://www.sec.gov/Archives/edgar/data/883241/000088324126000025/snps-20260731.htm"
+        },
+        {
+          "name": "FTC — Final order; divestment perimeter",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2025/10/ftc-approves-final-divestiture-order-synopsys-ansys-deal"
+        },
+        {
+          "name": "Cleary Gottlieb — Buyer counsel disclosure",
+          "url": "https://www.clearygottlieb.com/news-and-insights/news-listing/synopsys-to-acquire-ansys"
+        },
+        {
+          "name": "Goodwin — Target counsel and closing",
+          "url": "https://www.goodwinlaw.com/en/news-and-events/news/2025/07/announcements-technology-ma-synopsys-completes-acquisition-of-ansys"
         }
       ],
       "related": [
         "merger-control",
         "due-diligence",
         "data-ip"
-      ]
+      ],
+      "announcedOn": "2024-01-16",
+      "factSources": [
+        "https://ansys.synopsys.com/news-center/press-releases/1-16-24-synopsys-acquires-ansys",
+        "https://www.sec.gov/Archives/edgar/data/883241/000088324126000025/snps-20260731.htm",
+        "https://www.gov.uk/cma-cases/synopsys-slash-ansys-merger-inquiry"
+      ],
+      "values": [
+        {
+          "label": "Announced enterprise value",
+          "amount": "Approx. US$35bn",
+          "numericAmount": 35000000000,
+          "basis": "enterprise-value",
+          "source": "https://ansys.synopsys.com/news-center/press-releases/1-16-24-synopsys-acquires-ansys",
+          "currency": "USD",
+          "unit": "currency",
+          "disclosure": "approximate"
+        },
+        {
+          "label": "Cash per Ansys share",
+          "amount": "US$197",
+          "numericAmount": 197,
+          "basis": "cash-per-share",
+          "source": "https://ansys.synopsys.com/news-center/press-releases/1-16-24-synopsys-acquires-ansys",
+          "currency": "USD",
+          "unit": "currency-per-share",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Synopsys shares per Ansys share",
+          "amount": "0.345",
+          "numericAmount": 0.345,
+          "basis": "share-exchange-ratio",
+          "source": "https://ansys.synopsys.com/news-center/press-releases/1-16-24-synopsys-acquires-ansys",
+          "currency": null,
+          "unit": "shares-per-share",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Signing debt commitment",
+          "amount": "US$16bn",
+          "numericAmount": 16000000000,
+          "basis": "financing-commitment",
+          "source": "https://ansys.synopsys.com/news-center/press-releases/1-16-24-synopsys-acquires-ansys",
+          "currency": "USD",
+          "unit": "currency",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Completed purchase consideration",
+          "amount": "Approx. US$34.9bn",
+          "numericAmount": 34900000000,
+          "basis": "acquisition-consideration",
+          "source": "https://www.sec.gov/Archives/edgar/data/883241/000088324126000025/snps-20260731.htm",
+          "currency": "USD",
+          "unit": "currency",
+          "disclosure": "approximate"
+        },
+        {
+          "label": "Cash component at closing",
+          "amount": "US$17.6bn",
+          "numericAmount": 17600000000,
+          "basis": "cash-component",
+          "source": "https://www.sec.gov/Archives/edgar/data/883241/000088324126000025/snps-20260731.htm",
+          "currency": "USD",
+          "unit": "currency",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Fair value of shares at closing",
+          "amount": "US$17.1bn",
+          "numericAmount": 17100000000,
+          "basis": "equity-consideration",
+          "source": "https://www.sec.gov/Archives/edgar/data/883241/000088324126000025/snps-20260731.htm",
+          "currency": "USD",
+          "unit": "currency",
+          "disclosure": "stated"
+        }
+      ],
+      "financing": "Buyer announced cash on hand and committed debt funding of $16bn; the $19bn signing funding requirement included debt refinancing and expenses. Actual acquisition accounting separately measures consideration.",
+      "advisers": [
+        {
+          "firm": "Cleary Gottlieb",
+          "firmId": "cleary-gottlieb",
+          "client": "Synopsys",
+          "scope": "Acquisition counsel",
+          "source": "https://www.clearygottlieb.com/news-and-insights/news-listing/synopsys-to-acquire-ansys"
+        },
+        {
+          "firm": "Skadden",
+          "firmId": "skadden",
+          "client": "Ansys",
+          "scope": "Legal adviser",
+          "source": "https://ansys.synopsys.com/news-center/press-releases/1-16-24-synopsys-acquires-ansys"
+        },
+        {
+          "firm": "Goodwin",
+          "firmId": "goodwin",
+          "client": "Ansys",
+          "scope": "M&A and technology counsel",
+          "source": "https://www.goodwinlaw.com/en/news-and-events/news/2025/07/announcements-technology-ma-synopsys-completes-acquisition-of-ansys"
+        }
+      ],
+      "financialAdvisers": "Evercore for Synopsys; Qatalyst Partners for Ansys (joint announcement).",
+      "evidenceScope": "Targeted public-document research, with claim-specific references and explicit limits; not independently certified in full.",
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Offer economics",
+            "text": "The announced $197 cash plus 0.345 buyer shares produced an implied $390.19 per target share on the 21 December 2023 reference price. Enterprise value was approximately $35bn; the buyer's later accounting shows $34.9bn consideration.",
+            "evidence": [
+              {
+                "publisher": "Synopsys and Ansys",
+                "url": "https://ansys.synopsys.com/news-center/press-releases/1-16-24-synopsys-acquires-ansys",
+                "locator": "Transaction terms, advisers and stated synergies"
+              },
+              {
+                "publisher": "Synopsys SEC filing",
+                "url": "https://www.sec.gov/Archives/edgar/data/883241/000088324126000025/snps-20260731.htm",
+                "locator": "Business combinations; July 2025 acquisition accounting"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Financing and accounting",
+            "text": "The original $16bn committed debt was distinct from consideration. Closing accounting records $17.6bn cash, $17.1bn stock fair value and a balance relating to awards and pre-existing relationships.",
+            "evidence": [
+              {
+                "publisher": "Synopsys and Ansys",
+                "url": "https://ansys.synopsys.com/news-center/press-releases/1-16-24-synopsys-acquires-ansys",
+                "locator": "Transaction terms, advisers and stated synergies"
+              },
+              {
+                "publisher": "Synopsys SEC filing",
+                "url": "https://www.sec.gov/Archives/edgar/data/883241/000088324126000025/snps-20260731.htm",
+                "locator": "Business combinations; July 2025 acquisition accounting"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Regulatory perimeter",
+            "text": "The CMA accepted undertakings in March; the FTC's final order addresses optical and photonic software and Ansys PowerArtist divestitures to Keysight. These are separate authorities' decisions.",
+            "evidence": [
+              {
+                "publisher": "CMA",
+                "url": "https://www.gov.uk/cma-cases/synopsys-slash-ansys-merger-inquiry",
+                "locator": "5 March 2025 undertakings accepted"
+              },
+              {
+                "publisher": "FTC",
+                "url": "https://www.ftc.gov/news-events/news/press-releases/2025/10/ftc-approves-final-divestiture-order-synopsys-ansys-deal",
+                "locator": "Final order; divestment perimeter"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Advisers",
+            "text": "Cleary identifies the buyer; Goodwin identifies the target and the joint release also names Skadden for Ansys.",
+            "evidence": [
+              {
+                "publisher": "Synopsys and Ansys",
+                "url": "https://ansys.synopsys.com/news-center/press-releases/1-16-24-synopsys-acquires-ansys",
+                "locator": "Transaction terms, advisers and stated synergies"
+              },
+              {
+                "publisher": "Cleary Gottlieb",
+                "url": "https://www.clearygottlieb.com/news-and-insights/news-listing/synopsys-to-acquire-ansys",
+                "locator": "Buyer counsel disclosure"
+              },
+              {
+                "publisher": "Goodwin",
+                "url": "https://www.goodwinlaw.com/en/news-and-events/news/2025/07/announcements-technology-ma-synopsys-completes-acquisition-of-ansys",
+                "locator": "Target counsel and closing"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Management rationale",
+            "text": "The announcement projects cost and revenue benefits from combining design and simulation workflows; projected benefits are not realised results.",
+            "evidence": [
+              {
+                "publisher": "Synopsys and Ansys",
+                "url": "https://ansys.synopsys.com/news-center/press-releases/1-16-24-synopsys-acquires-ansys",
+                "locator": "Transaction terms, advisers and stated synergies"
+              }
+            ],
+            "qualification": "party-position"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Valuation",
+            "question": "Why does announcement EV differ from purchase accounting?",
+            "why": "Separate reference-date equity prices and debt treatment from closing fair value.",
+            "documents": "Joint release and SEC filing"
+          },
+          {
+            "name": "Competition",
+            "question": "Which products must remain viable competitors?",
+            "why": "Analyse divested IP, staff, support and customer migration at product level.",
+            "documents": "CMA and FTC decisions"
+          },
+          {
+            "name": "Funding",
+            "question": "What was actually drawn?",
+            "why": "Compare commitments with closing liabilities and funding requirements.",
+            "documents": "SEC debt note and financing exhibits"
+          },
+          {
+            "name": "Technology",
+            "question": "How can integration preserve interoperability?",
+            "why": "Map licenses, interfaces and remedy boundaries before combining product lines.",
+            "documents": "Product licenses and remedy documents"
+          }
+        ],
+        "documents": [
+          {
+            "title": "Synopsys and Ansys",
+            "url": "https://ansys.synopsys.com/news-center/press-releases/1-16-24-synopsys-acquires-ansys",
+            "purpose": "Transaction terms, advisers and stated synergies"
+          },
+          {
+            "title": "Synopsys SEC filing",
+            "url": "https://www.sec.gov/Archives/edgar/data/883241/000088324126000025/snps-20260731.htm",
+            "purpose": "Business combinations; July 2025 acquisition accounting"
+          },
+          {
+            "title": "CMA",
+            "url": "https://www.gov.uk/cma-cases/synopsys-slash-ansys-merger-inquiry",
+            "purpose": "5 March 2025 undertakings accepted"
+          },
+          {
+            "title": "FTC",
+            "url": "https://www.ftc.gov/news-events/news/press-releases/2025/10/ftc-approves-final-divestiture-order-synopsys-ansys-deal",
+            "purpose": "Final order; divestment perimeter"
+          },
+          {
+            "title": "Cleary Gottlieb",
+            "url": "https://www.clearygottlieb.com/news-and-insights/news-listing/synopsys-to-acquire-ansys",
+            "purpose": "Buyer counsel disclosure"
+          },
+          {
+            "title": "Goodwin",
+            "url": "https://www.goodwinlaw.com/en/news-and-events/news/2025/07/announcements-technology-ma-synopsys-completes-acquisition-of-ansys",
+            "purpose": "Target counsel and closing"
+          }
+        ],
+        "openQuestions": [
+          "Detailed UK undertakings text and implementation, actual financing drawdowns, and post-close synergy realisation require further review."
+        ],
+        "relatedDeals": [
+          "broadcom-vmware",
+          "hpe-juniper"
+        ]
+      }
     },
     {
       "jurisdiction": "UK",
@@ -6237,9 +7063,9 @@
           "Juniper Networks, Inc."
         ]
       ],
-      "structure": "Cross-border network technology acquisition.",
+      "structure": "All-cash acquisition of Juniper through HPE merger subsidiary.",
       "fact": "HPE confirmed closing on 2 July 2025. It states the acquisition was announced on 9 January 2024 and approved by Juniper shareholders on 2 April 2024. The CMA case records UK clearance.",
-      "regulatory": "The UK cleared the acquisition; other authorities' outcomes should be established separately.",
+      "regulatory": "UK clearance and US DOJ settlement are distinct. The DOJ settlement announced June 2025 included divestiture and licensing commitments; exact subsequent implementation not established here.",
       "timeline": [
         {
           "date": "2024-01-09",
@@ -6252,12 +7078,17 @@
           "source": "https://www.hpe.com/us/en/newsroom/press-release/2025/07/hewlett-packard-enterprise-closes-acquisition-of-juniper-networks-to-offer-industry-leading-comprehensive-cloud-native-ai-driven-portfolio.html"
         },
         {
+          "date": "2025-06-28",
+          "event": "US settlement announced",
+          "source": "https://www.justice.gov/opa/pr/justice-department-requires-divestitures-and-licensing-commitments-hpes-acquisition-juniper"
+        },
+        {
           "date": "2025-07-02",
           "event": "Completion confirmed",
           "source": "https://www.hpe.com/us/en/newsroom/press-release/2025/07/hewlett-packard-enterprise-closes-acquisition-of-juniper-networks-to-offer-industry-leading-comprehensive-cloud-native-ai-driven-portfolio.html"
         }
       ],
-      "analysis": "Combining enterprise networking products may broaden the buyer's offering but creates integration, support and customer migration challenges. A regulatory clearance in one market does not guarantee completion.",
+      "analysis": "The buyer described networking as a larger and higher-margin part of the combined business. But enterprise wireless competition created a US execution obstacle after UK clearance. The financing redemption trigger connects acquisition timing to debt-market risk: a failed deal could require redemption of bonds even though acquisition consideration was never paid.",
       "legalWork": "Diligence enterprise contracts, software rights, supply chain and customer support obligations. Coordinate deal conditions, cross-border regulatory timelines and integration planning.",
       "interview": "Why should a cross-border acquisition model maintain separate approval workstreams even after UK clearance?",
       "watch": "Historical completed deal; monitor public integration disclosures.",
@@ -6269,13 +7100,245 @@
         {
           "name": "HPE completion",
           "url": "https://www.hpe.com/us/en/newsroom/press-release/2025/07/hewlett-packard-enterprise-closes-acquisition-of-juniper-networks-to-offer-industry-leading-comprehensive-cloud-native-ai-driven-portfolio.html"
+        },
+        {
+          "name": "HPE and Juniper — Transaction details, funding and advisers",
+          "url": "https://www.hpe.com/us/en/newsroom/press-release/2024/01/hpe-to-acquire-juniper-networks-to-accelerate-ai-driven-innovation.html"
+        },
+        {
+          "name": "US DOJ — Settlement remedy terms",
+          "url": "https://www.justice.gov/opa/pr/justice-department-requires-divestitures-and-licensing-commitments-hpes-acquisition-juniper"
+        },
+        {
+          "name": "HPE SEC filing — Juniper acquisition and special mandatory redemption",
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000068/hpe-20250430.htm"
         }
       ],
       "related": [
         "merger-control",
         "data-ip",
         "due-diligence"
-      ]
+      ],
+      "factSources": [
+        "https://www.hpe.com/us/en/newsroom/press-release/2024/01/hpe-to-acquire-juniper-networks-to-accelerate-ai-driven-innovation.html",
+        "https://www.hpe.com/us/en/newsroom/press-release/2025/07/hewlett-packard-enterprise-closes-acquisition-of-juniper-networks-to-offer-industry-leading-comprehensive-cloud-native-ai-driven-portfolio.html",
+        "https://www.gov.uk/cma-cases/hewlett-packard-enterprise-company-slash-juniper-networks-inc-merger-inquiry"
+      ],
+      "values": [
+        {
+          "label": "Announced equity value",
+          "amount": "Approx. US$14bn",
+          "numericAmount": 14000000000,
+          "basis": "equity-value",
+          "source": "https://www.hpe.com/us/en/newsroom/press-release/2024/01/hpe-to-acquire-juniper-networks-to-accelerate-ai-driven-innovation.html",
+          "currency": "USD",
+          "unit": "currency",
+          "disclosure": "approximate"
+        },
+        {
+          "label": "Cash per share",
+          "amount": "US$40",
+          "numericAmount": 40,
+          "basis": "cash-per-share",
+          "source": "https://www.hpe.com/us/en/newsroom/press-release/2024/01/hpe-to-acquire-juniper-networks-to-accelerate-ai-driven-innovation.html",
+          "currency": "USD",
+          "unit": "currency-per-share",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Signing term loan commitments",
+          "amount": "US$14bn",
+          "numericAmount": 14000000000,
+          "basis": "financing-commitment",
+          "source": "https://www.hpe.com/us/en/newsroom/press-release/2024/01/hpe-to-acquire-juniper-networks-to-accelerate-ai-driven-innovation.html",
+          "currency": "USD",
+          "unit": "currency",
+          "disclosure": "stated"
+        },
+        {
+          "label": "Notes subject to specified mandatory redemption trigger",
+          "amount": "US$6.5bn",
+          "numericAmount": 6500000000,
+          "basis": "note-principal",
+          "source": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000068/hpe-20250430.htm",
+          "currency": "USD",
+          "unit": "currency",
+          "disclosure": "stated"
+        }
+      ],
+      "financing": "Signing term loan commitments were expected to be replaced in part by debt, mandatory convertible preferred securities and cash. The April 2025 SEC filing identified $6.5bn senior notes subject to special mandatory redemption if the merger failed to close by the contractual trigger.",
+      "advisers": [
+        {
+          "firm": "Wachtell, Lipton, Rosen & Katz",
+          "firmId": "wachtell",
+          "client": "HPE",
+          "scope": "Legal adviser",
+          "source": "https://www.hpe.com/us/en/newsroom/press-release/2024/01/hpe-to-acquire-juniper-networks-to-accelerate-ai-driven-innovation.html"
+        },
+        {
+          "firm": "Covington & Burling",
+          "firmId": "covington",
+          "client": "HPE",
+          "scope": "Legal adviser",
+          "source": "https://www.hpe.com/us/en/newsroom/press-release/2024/01/hpe-to-acquire-juniper-networks-to-accelerate-ai-driven-innovation.html"
+        },
+        {
+          "firm": "Freshfields",
+          "firmId": "freshfields",
+          "client": "HPE",
+          "scope": "Legal adviser",
+          "source": "https://www.hpe.com/us/en/newsroom/press-release/2024/01/hpe-to-acquire-juniper-networks-to-accelerate-ai-driven-innovation.html"
+        },
+        {
+          "firm": "Skadden",
+          "firmId": "skadden",
+          "client": "Juniper",
+          "scope": "Legal adviser",
+          "source": "https://www.hpe.com/us/en/newsroom/press-release/2024/01/hpe-to-acquire-juniper-networks-to-accelerate-ai-driven-innovation.html"
+        }
+      ],
+      "financialAdvisers": "J.P. Morgan and Qatalyst for HPE; Goldman Sachs for Juniper.",
+      "evidenceScope": "Targeted public-document research, with claim-specific references and explicit limits; not independently certified in full.",
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Price and timing",
+            "text": "The $40 cash offer implied about $14bn equity value; the buyer reported closing on 2 July 2025 after the target shareholder vote.",
+            "evidence": [
+              {
+                "publisher": "HPE and Juniper",
+                "url": "https://www.hpe.com/us/en/newsroom/press-release/2024/01/hpe-to-acquire-juniper-networks-to-accelerate-ai-driven-innovation.html",
+                "locator": "Transaction details, funding and advisers"
+              },
+              {
+                "publisher": "HPE",
+                "url": "https://www.hpe.com/us/en/newsroom/press-release/2025/07/hewlett-packard-enterprise-closes-acquisition-of-juniper-networks-to-offer-industry-leading-comprehensive-cloud-native-ai-driven-portfolio.html",
+                "locator": "2 July 2025 closing"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Funding risk",
+            "text": "Signing financing commitments were $14bn. The April SEC filing specified mandatory redemption terms for $6.5bn of notes if certain closing or abandonment triggers occurred.",
+            "evidence": [
+              {
+                "publisher": "HPE and Juniper",
+                "url": "https://www.hpe.com/us/en/newsroom/press-release/2024/01/hpe-to-acquire-juniper-networks-to-accelerate-ai-driven-innovation.html",
+                "locator": "Transaction details, funding and advisers"
+              },
+              {
+                "publisher": "HPE SEC filing",
+                "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000068/hpe-20250430.htm",
+                "locator": "Juniper acquisition and special mandatory redemption"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Distinct regulatory outcomes",
+            "text": "The UK case cleared; the DOJ settlement addressed Instant On divestiture and licensing of Mist AIOps source code. Clearance in one jurisdiction did not dispose of the other.",
+            "evidence": [
+              {
+                "publisher": "CMA",
+                "url": "https://www.gov.uk/cma-cases/hewlett-packard-enterprise-company-slash-juniper-networks-inc-merger-inquiry",
+                "locator": "UK case decision"
+              },
+              {
+                "publisher": "US DOJ",
+                "url": "https://www.justice.gov/opa/pr/justice-department-requires-divestitures-and-licensing-commitments-hpes-acquisition-juniper",
+                "locator": "Settlement remedy terms"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Adviser allocation",
+            "text": "The signing announcement identifies Wachtell, Covington and Freshfields for HPE and Skadden for Juniper; it does not establish detailed allocation across workstreams.",
+            "evidence": [
+              {
+                "publisher": "HPE and Juniper",
+                "url": "https://www.hpe.com/us/en/newsroom/press-release/2024/01/hpe-to-acquire-juniper-networks-to-accelerate-ai-driven-innovation.html",
+                "locator": "Transaction details, funding and advisers"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Stated commercial thesis",
+            "text": "The buyer anticipated a larger networking revenue mix and $450m annual cost synergies within 36 months; actual achievement requires subsequent evidence.",
+            "evidence": [
+              {
+                "publisher": "HPE and Juniper",
+                "url": "https://www.hpe.com/us/en/newsroom/press-release/2024/01/hpe-to-acquire-juniper-networks-to-accelerate-ai-driven-innovation.html",
+                "locator": "Transaction details, funding and advisers"
+              }
+            ],
+            "qualification": "party-position"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Debt",
+            "question": "How is mandatory redemption triggered?",
+            "why": "Read the special redemption terms against merger deadline extensions.",
+            "documents": "SEC note disclosure"
+          },
+          {
+            "name": "Competition",
+            "question": "Why did US and UK outcomes differ?",
+            "why": "Compare authority-specific products and remedies without assuming inconsistent law.",
+            "documents": "CMA and DOJ decisions"
+          },
+          {
+            "name": "IP",
+            "question": "What makes a software license an effective remedy?",
+            "why": "Assess source code access, maintenance and licensee viability.",
+            "documents": "DOJ remedy terms"
+          },
+          {
+            "name": "Integration",
+            "question": "How should projected savings be tested?",
+            "why": "Separate forecast run rate from realised reported results and integration costs.",
+            "documents": "Post-close reporting"
+          }
+        ],
+        "documents": [
+          {
+            "title": "HPE and Juniper",
+            "url": "https://www.hpe.com/us/en/newsroom/press-release/2024/01/hpe-to-acquire-juniper-networks-to-accelerate-ai-driven-innovation.html",
+            "purpose": "Transaction details, funding and advisers"
+          },
+          {
+            "title": "HPE",
+            "url": "https://www.hpe.com/us/en/newsroom/press-release/2025/07/hewlett-packard-enterprise-closes-acquisition-of-juniper-networks-to-offer-industry-leading-comprehensive-cloud-native-ai-driven-portfolio.html",
+            "purpose": "2 July 2025 closing"
+          },
+          {
+            "title": "US DOJ",
+            "url": "https://www.justice.gov/opa/pr/justice-department-requires-divestitures-and-licensing-commitments-hpes-acquisition-juniper",
+            "purpose": "Settlement remedy terms"
+          },
+          {
+            "title": "HPE SEC filing",
+            "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000068/hpe-20250430.htm",
+            "purpose": "Juniper acquisition and special mandatory redemption"
+          },
+          {
+            "title": "CMA",
+            "url": "https://www.gov.uk/cma-cases/hewlett-packard-enterprise-company-slash-juniper-networks-inc-merger-inquiry",
+            "purpose": "UK case decision"
+          }
+        ],
+        "openQuestions": [
+          "Closing purchase-accounting bridge, actual debt utilisation and final US remedy compliance remain open."
+        ],
+        "relatedDeals": [
+          "synopsys-ansys",
+          "broadcom-vmware"
+        ]
+      }
     },
     {
       "jurisdiction": "UK",
@@ -7460,6 +8523,517 @@
         "https://www.softcat.com/news/softcat-expands-international-reach-acquisition-gdt",
         "https://www.slaughterandmay.com/insights/client-case-studies/transforming-softcat-into-a-leading-global-it-solutions-business/"
       ]
+    },
+    {
+      "id": "harp-hargreaves-lansdown",
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "title": "CVC / Nordic Capital / ADIA — Hargreaves Lansdown",
+      "eventDate": "2025-03-25",
+      "announcedOn": "2024-08-09",
+      "status": "Completed; delisted",
+      "sector": "Wealth management",
+      "dealType": "Private equity / consortium",
+      "parties": [
+        [
+          "Bidder",
+          "Harp Bidco Limited"
+        ],
+        [
+          "Target",
+          "Hargreaves Lansdown plc"
+        ],
+        [
+          "Sponsors",
+          "CVC funds, Nordic Capital XI Delta and Platinum Ivy (ADIA subsidiary)"
+        ]
+      ],
+      "sources": [
+        {
+          "name": "HL and Harp Bidco — 9 August final offer terms",
+          "url": "https://www.investegate.co.uk/announcement/rns/hargreaves-lansdown--hl./offer-for-hargreaves-lansdown-plc/8358252"
+        },
+        {
+          "name": "HL issuer notice — 25 March delisting and 24 March effective date",
+          "url": "https://www.lse.co.uk/rns/de-listing-and-cancellation-of-trading-2a5rjzmp1h5wajb.html"
+        },
+        {
+          "name": "Nordic Capital — 25 March completion",
+          "url": "https://www.nordiccapital.com/insights/press-releases/cvc-nordic-capital-and-adia-complete-acquisition-of-hargreaves-lansdown-to-accelerate-and-enhance-its-transformation-plan-and-deliver-on-its-growth-potential/"
+        },
+        {
+          "name": "Kirkland & Ellis — Consortium counsel",
+          "url": "https://www.kirkland.com/news/press-release/2024/08/kirkland-advises-consortium-of-cvc-pef-nc-and-adia-on-recommended-cash-acquisition-of-hl"
+        },
+        {
+          "name": "Freshfields — Target counsel and approximate fully diluted value",
+          "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2024/08/freshfields-advises-hargreaves-lansdown-on-recommended-final-cash-acquisition-by-a-consortium-comprised-of-cvc-private-equity-funds-nordic-capital-xi-delta-scsp-acting-through-its-general-partner-nordic-capital-xi-delta-gp-sarl-and-platinum-ivy-b-201"
+        }
+      ],
+      "related": [
+        "public-schemes",
+        "private-equity",
+        "valuation"
+      ],
+      "structure": "Recommended final cash acquisition by court-sanctioned scheme, with an alternative rollover equity election subject to offer terms.",
+      "fact": "A consortium agreed a roughly £5.4bn fully diluted acquisition of Hargreaves Lansdown on 9 August 2024. The scheme became effective on 24 March 2025 and listing and trading were cancelled on 25 March.",
+      "analysis": "The rollover election permits exposure to private ownership rather than cash exit, but unlisted shares have different liquidity and governance characteristics. A regulated investment platform's value depends on client assets, net flows, pricing and technology investment; sponsor strategy should be assessed against actual retention rather than forecasts.",
+      "legalWork": "Review scheme conditions, rollover election restrictions, regulated entity change-of-control and post-delisting governance.",
+      "interview": "Why would a shareholder elect rollover rather than cash, and what protections are lost after delisting?",
+      "watch": "Post-acquisition client retention, platform investment and financial disclosures.",
+      "regulatory": "Offer was conditional on shareholder and regulatory approvals; the effective notice establishes completion but does not identify every approval separately.",
+      "financing": "Detailed sponsor and debt financing not yet reconciled.",
+      "factSources": [
+        "https://www.investegate.co.uk/announcement/rns/hargreaves-lansdown--hl./offer-for-hargreaves-lansdown-plc/8358252",
+        "https://www.lse.co.uk/rns/de-listing-and-cancellation-of-trading-2a5rjzmp1h5wajb.html",
+        "https://www.nordiccapital.com/insights/press-releases/cvc-nordic-capital-and-adia-complete-acquisition-of-hargreaves-lansdown-to-accelerate-and-enhance-its-transformation-plan-and-deliver-on-its-growth-potential/"
+      ],
+      "values": [
+        {
+          "label": "Fully diluted headline acquisition value",
+          "amount": "Approx. £5.4bn",
+          "numericAmount": 5400000000,
+          "basis": "equity-value",
+          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2024/08/freshfields-advises-hargreaves-lansdown-on-recommended-final-cash-acquisition-by-a-consortium-comprised-of-cvc-private-equity-funds-nordic-capital-xi-delta-scsp-acting-through-its-general-partner-nordic-capital-xi-delta-gp-sarl-and-platinum-ivy-b-201",
+          "currency": "GBP",
+          "unit": "currency",
+          "disclosure": "approximate"
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "Kirkland & Ellis",
+          "firmId": "kirkland-ellis",
+          "client": "Consortium",
+          "scope": "Acquisition counsel",
+          "source": "https://www.kirkland.com/news/press-release/2024/08/kirkland-advises-consortium-of-cvc-pef-nc-and-adia-on-recommended-cash-acquisition-of-hl"
+        },
+        {
+          "firm": "Freshfields",
+          "firmId": "freshfields",
+          "client": "Hargreaves Lansdown plc",
+          "scope": "Target counsel",
+          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2024/08/freshfields-advises-hargreaves-lansdown-on-recommended-final-cash-acquisition-by-a-consortium-comprised-of-cvc-private-equity-funds-nordic-capital-xi-delta-scsp-acting-through-its-general-partner-nordic-capital-xi-delta-gp-sarl-and-platinum-ivy-b-201"
+        },
+        {
+          "firm": "Latham & Watkins",
+          "firmId": "latham",
+          "client": "CVC",
+          "scope": "Legal adviser",
+          "source": "https://www.lse.co.uk/rns/de-listing-and-cancellation-of-trading-2a5rjzmp1h5wajb.html"
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2024-08-09",
+          "event": "Final recommended acquisition announced",
+          "source": "https://www.investegate.co.uk/announcement/rns/hargreaves-lansdown--hl./offer-for-hargreaves-lansdown-plc/8358252"
+        },
+        {
+          "date": "2025-03-24",
+          "event": "Scheme effective",
+          "source": "https://www.lse.co.uk/rns/de-listing-and-cancellation-of-trading-2a5rjzmp1h5wajb.html"
+        },
+        {
+          "date": "2025-03-25",
+          "event": "Listing and trading cancelled",
+          "source": "https://www.lse.co.uk/rns/de-listing-and-cancellation-of-trading-2a5rjzmp1h5wajb.html"
+        }
+      ],
+      "verifiedOn": "2026-11-24",
+      "evidenceScope": "Targeted public-document research, with claim-specific references and explicit limits; not independently certified in full.",
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Price and transaction form",
+            "text": "The final recommended acquisition valued the fully diluted share capital at about £5.4bn. Target counsel confirms the proposed scheme; subsequent issuer notice confirms effectiveness and delisting.",
+            "evidence": [
+              {
+                "publisher": "HL and Harp Bidco",
+                "url": "https://www.investegate.co.uk/announcement/rns/hargreaves-lansdown--hl./offer-for-hargreaves-lansdown-plc/8358252",
+                "locator": "9 August final offer terms"
+              },
+              {
+                "publisher": "Freshfields",
+                "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2024/08/freshfields-advises-hargreaves-lansdown-on-recommended-final-cash-acquisition-by-a-consortium-comprised-of-cvc-private-equity-funds-nordic-capital-xi-delta-scsp-acting-through-its-general-partner-nordic-capital-xi-delta-gp-sarl-and-platinum-ivy-b-201",
+                "locator": "Target counsel and approximate fully diluted value"
+              },
+              {
+                "publisher": "HL issuer notice",
+                "url": "https://www.lse.co.uk/rns/de-listing-and-cancellation-of-trading-2a5rjzmp1h5wajb.html",
+                "locator": "25 March delisting and 24 March effective date"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Sponsors and commercial thesis",
+            "text": "CVC, Nordic Capital and Platinum Ivy announced completion and describe investment in the platform transformation as the commercial thesis; outcomes remain to be measured.",
+            "evidence": [
+              {
+                "publisher": "Nordic Capital",
+                "url": "https://www.nordiccapital.com/insights/press-releases/cvc-nordic-capital-and-adia-complete-acquisition-of-hargreaves-lansdown-to-accelerate-and-enhance-its-transformation-plan-and-deliver-on-its-growth-potential/",
+                "locator": "25 March completion"
+              }
+            ],
+            "qualification": "party-position"
+          },
+          {
+            "heading": "Mandates",
+            "text": "Kirkland describes consortium advice; Freshfields identifies target advice; the delisting notice names Latham for CVC.",
+            "evidence": [
+              {
+                "publisher": "Kirkland & Ellis",
+                "url": "https://www.kirkland.com/news/press-release/2024/08/kirkland-advises-consortium-of-cvc-pef-nc-and-adia-on-recommended-cash-acquisition-of-hl",
+                "locator": "Consortium counsel"
+              },
+              {
+                "publisher": "Freshfields",
+                "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2024/08/freshfields-advises-hargreaves-lansdown-on-recommended-final-cash-acquisition-by-a-consortium-comprised-of-cvc-private-equity-funds-nordic-capital-xi-delta-scsp-acting-through-its-general-partner-nordic-capital-xi-delta-gp-sarl-and-platinum-ivy-b-201",
+                "locator": "Target counsel and approximate fully diluted value"
+              },
+              {
+                "publisher": "HL issuer notice",
+                "url": "https://www.lse.co.uk/rns/de-listing-and-cancellation-of-trading-2a5rjzmp1h5wajb.html",
+                "locator": "25 March delisting and 24 March effective date"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Exit and rollover",
+            "text": "The cash acquisition and rollover alternative require distinct consideration and governance analysis; the latter is not equivalent to listed shares.",
+            "evidence": [
+              {
+                "publisher": "HL and Harp Bidco",
+                "url": "https://www.investegate.co.uk/announcement/rns/hargreaves-lansdown--hl./offer-for-hargreaves-lansdown-plc/8358252",
+                "locator": "9 August final offer terms"
+              },
+              {
+                "publisher": "HL issuer notice",
+                "url": "https://www.lse.co.uk/rns/de-listing-and-cancellation-of-trading-2a5rjzmp1h5wajb.html",
+                "locator": "25 March delisting and 24 March effective date"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Takeover",
+            "question": "What is the distinction between effectiveness and delisting?",
+            "why": "Trace court sanction and subsequent market cancellation.",
+            "documents": "Offer and effective notice"
+          },
+          {
+            "name": "PE",
+            "question": "How does rollover change investor rights?",
+            "why": "Examine election limits, valuation, restrictions and governance.",
+            "documents": "Offer and rollover documents"
+          },
+          {
+            "name": "Regulation",
+            "question": "Which regulated entities change control?",
+            "why": "Map exact permissions and approvals rather than assuming uniform requirements.",
+            "documents": "Regulated entity and approval records"
+          },
+          {
+            "name": "Commercial",
+            "question": "What determines sponsor returns?",
+            "why": "Track net flows, fee margins, technology spend and leverage.",
+            "documents": "Annual reports and financing documents"
+          }
+        ],
+        "documents": [
+          {
+            "title": "HL and Harp Bidco",
+            "url": "https://www.investegate.co.uk/announcement/rns/hargreaves-lansdown--hl./offer-for-hargreaves-lansdown-plc/8358252",
+            "purpose": "9 August final offer terms"
+          },
+          {
+            "title": "HL issuer notice",
+            "url": "https://www.lse.co.uk/rns/de-listing-and-cancellation-of-trading-2a5rjzmp1h5wajb.html",
+            "purpose": "25 March delisting and 24 March effective date"
+          },
+          {
+            "title": "Nordic Capital",
+            "url": "https://www.nordiccapital.com/insights/press-releases/cvc-nordic-capital-and-adia-complete-acquisition-of-hargreaves-lansdown-to-accelerate-and-enhance-its-transformation-plan-and-deliver-on-its-growth-potential/",
+            "purpose": "25 March completion"
+          },
+          {
+            "title": "Kirkland & Ellis",
+            "url": "https://www.kirkland.com/news/press-release/2024/08/kirkland-advises-consortium-of-cvc-pef-nc-and-adia-on-recommended-cash-acquisition-of-hl",
+            "purpose": "Consortium counsel"
+          },
+          {
+            "title": "Freshfields",
+            "url": "https://www.freshfields.com/en/our-thinking/news/news-search/2024/08/freshfields-advises-hargreaves-lansdown-on-recommended-final-cash-acquisition-by-a-consortium-comprised-of-cvc-private-equity-funds-nordic-capital-xi-delta-scsp-acting-through-its-general-partner-nordic-capital-xi-delta-gp-sarl-and-platinum-ivy-b-201",
+            "purpose": "Target counsel and approximate fully diluted value"
+          }
+        ],
+        "openQuestions": [
+          "Exact cash/dividend bridge, rollover cap and actual elections, debt funding and individual regulatory approvals require further document review."
+        ],
+        "relatedDeals": [
+          "nationwide-virgin",
+          "aviva-direct-line"
+        ]
+      }
+    },
+    {
+      "id": "ep-ids-royal-mail",
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "title": "EP Group / International Distribution Services (Royal Mail)",
+      "eventDate": "2025-04-30",
+      "announcedOn": "2024-05-29",
+      "status": "Offer unconditional; subsequent compulsory acquisition announced",
+      "sector": "Postal and logistics",
+      "dealType": "Public M&A",
+      "parties": [
+        [
+          "Bidder",
+          "EP UK Bidco Limited"
+        ],
+        [
+          "Target",
+          "International Distribution Services plc"
+        ],
+        [
+          "Operating businesses",
+          "Royal Mail and GLS"
+        ]
+      ],
+      "sources": [
+        {
+          "name": "IDS and EP UK Bidco — 29 May 2024 recommended offer",
+          "url": "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/recommended-cash-offer-for-ids-plc/8227019"
+        },
+        {
+          "name": "IDS issuer announcement — 30 April 2025 unconditional offer and dividend",
+          "url": "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/declaration-of-the-special-dividend/8855268"
+        },
+        {
+          "name": "UK Government — 16 December 2024 binding commitments and golden share",
+          "url": "https://www.gov.uk/government/news/royal-mail-remains-based-in-uk-in-deal-to-bolster-key-services"
+        },
+        {
+          "name": "UK Government — 19 December NSI final order",
+          "url": "https://www.gov.uk/government/publications/acquisition-of-international-distribution-services-plc-by-ep-uk-bidco-limited-notice-of-final-order/acquisition-of-international-distribution-services-plc-by-ep-uk-bidco-limited-notice-of-final-order"
+        },
+        {
+          "name": "IDS issuer announcement — Closure and compulsory acquisition",
+          "url": "https://www.investegate.co.uk/announcement/rns/international-distributions-services--ids/closure-of-the-offer-and-compulsory-acquisition-/8899272"
+        },
+        {
+          "name": "Slaughter and May — Representative matter: IDS foreign investment and merger control",
+          "url": "https://www.slaughterandmay.com/services/practices/foreign-investment-and-national-security/"
+        }
+      ],
+      "related": [
+        "national-security",
+        "merger-control",
+        "valuation"
+      ],
+      "structure": "Recommended contractual cash offer for shares not already owned or controlled by VESA Equity Investment; separate government commitments and NSI order.",
+      "fact": "The recommended offer was announced on 29 May 2024 and became unconditional on 30 April 2025. Government commitments on Royal Mail governance were announced separately from the NSI final order. A subsequent issuer notice addresses closure and compulsory acquisition.",
+      "analysis": "The target combines UK postal services and international parcel operations. The government golden share reserves consent rights over specified matters rather than a conventional economic interest. A buyer must distinguish commercially negotiated conditions, statutory national-security protections and contractual undertakings to government.",
+      "legalWork": "Map offer acceptance and compulsory acquisition mechanics, separate NSI conditions from negotiated commitments, review regulated postal obligations and workforce arrangements.",
+      "interview": "How does a golden share differ from an ordinary equity share and from a statutory regulatory condition?",
+      "watch": "Monitor fulfilment of government commitments and future changes to Royal Mail operations.",
+      "financing": "Detailed acquisition financing not yet established.",
+      "regulatory": "The 19 December 2024 final order is under section 26 NSI Act 2021; the 16 December government commitments are distinct.",
+      "factSources": [
+        "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/recommended-cash-offer-for-ids-plc/8227019",
+        "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/declaration-of-the-special-dividend/8855268",
+        "https://www.gov.uk/government/news/royal-mail-remains-based-in-uk-in-deal-to-bolster-key-services",
+        "https://www.gov.uk/government/publications/acquisition-of-international-distribution-services-plc-by-ep-uk-bidco-limited-notice-of-final-order/acquisition-of-international-distribution-services-plc-by-ep-uk-bidco-limited-notice-of-final-order",
+        "https://www.investegate.co.uk/announcement/rns/international-distributions-services--ids/closure-of-the-offer-and-compulsory-acquisition-/8899272"
+      ],
+      "values": [
+        {
+          "label": "Special dividend declared after offer unconditional",
+          "amount": "8p",
+          "numericAmount": 0.08,
+          "basis": "dividend-per-share",
+          "source": "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/declaration-of-the-special-dividend/8855268",
+          "currency": "GBP",
+          "unit": "currency-per-share",
+          "disclosure": "stated"
+        }
+      ],
+      "advisers": [
+        {
+          "firm": "Slaughter and May",
+          "firmId": "slaughter-may",
+          "client": "International Distribution Services",
+          "scope": "Foreign investment and merger control",
+          "source": "https://www.slaughterandmay.com/services/practices/foreign-investment-and-national-security/"
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2024-05-29",
+          "event": "Recommended offer announced",
+          "source": "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/recommended-cash-offer-for-ids-plc/8227019"
+        },
+        {
+          "date": "2024-12-16",
+          "event": "Government undertakings announced",
+          "source": "https://www.gov.uk/government/news/royal-mail-remains-based-in-uk-in-deal-to-bolster-key-services"
+        },
+        {
+          "date": "2024-12-19",
+          "event": "NSI final order effective",
+          "source": "https://www.gov.uk/government/publications/acquisition-of-international-distribution-services-plc-by-ep-uk-bidco-limited-notice-of-final-order/acquisition-of-international-distribution-services-plc-by-ep-uk-bidco-limited-notice-of-final-order"
+        },
+        {
+          "date": "2025-04-30",
+          "event": "Offer unconditional; special dividend declared",
+          "source": "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/declaration-of-the-special-dividend/8855268"
+        }
+      ],
+      "verifiedOn": "2026-11-24",
+      "evidenceScope": "Targeted public-document research, with claim-specific references and explicit limits; not independently certified in full.",
+      "research": {
+        "reviewedOn": "2026-11-24",
+        "claims": [
+          {
+            "heading": "Offer lifecycle",
+            "text": "The bidder's offer excluded existing VESA-controlled shares. The 30 April issuer announcement establishes unconditional status and declaration of the special dividend, while the later notice addresses offer closure and compulsory acquisition.",
+            "evidence": [
+              {
+                "publisher": "IDS and EP UK Bidco",
+                "url": "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/recommended-cash-offer-for-ids-plc/8227019",
+                "locator": "29 May 2024 recommended offer"
+              },
+              {
+                "publisher": "IDS issuer announcement",
+                "url": "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/declaration-of-the-special-dividend/8855268",
+                "locator": "30 April 2025 unconditional offer and dividend"
+              },
+              {
+                "publisher": "IDS issuer announcement",
+                "url": "https://www.investegate.co.uk/announcement/rns/international-distributions-services--ids/closure-of-the-offer-and-compulsory-acquisition-/8899272",
+                "locator": "Closure and compulsory acquisition"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Separate government safeguards",
+            "text": "The government describes golden-share consent rights for headquarters and tax residency. The later NSI final order addresses national security risk relating to Royal Mail's critical services to government.",
+            "evidence": [
+              {
+                "publisher": "UK Government",
+                "url": "https://www.gov.uk/government/news/royal-mail-remains-based-in-uk-in-deal-to-bolster-key-services",
+                "locator": "16 December 2024 binding commitments and golden share"
+              },
+              {
+                "publisher": "UK Government",
+                "url": "https://www.gov.uk/government/publications/acquisition-of-international-distribution-services-plc-by-ep-uk-bidco-limited-notice-of-final-order/acquisition-of-international-distribution-services-plc-by-ep-uk-bidco-limited-notice-of-final-order",
+                "locator": "19 December NSI final order"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Adviser attribution",
+            "text": "Slaughter and May identifies IDS as its client for foreign investment and merger control, not necessarily lead corporate advice.",
+            "evidence": [
+              {
+                "publisher": "Slaughter and May",
+                "url": "https://www.slaughterandmay.com/services/practices/foreign-investment-and-national-security/",
+                "locator": "Representative matter: IDS foreign investment and merger control"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Commercial perimeter",
+            "text": "The deal involves a holding company with Royal Mail and GLS; commitments protecting UK postal operations should not be treated as identical to controls over the entire international parcel business.",
+            "evidence": [
+              {
+                "publisher": "IDS and EP UK Bidco",
+                "url": "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/recommended-cash-offer-for-ids-plc/8227019",
+                "locator": "29 May 2024 recommended offer"
+              },
+              {
+                "publisher": "UK Government",
+                "url": "https://www.gov.uk/government/news/royal-mail-remains-based-in-uk-in-deal-to-bolster-key-services",
+                "locator": "16 December 2024 binding commitments and golden share"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Offer",
+            "question": "What happens after unconditional status?",
+            "why": "Distinguish acceptance, settlement, closure and compulsory acquisition.",
+            "documents": "Offer and closure notices"
+          },
+          {
+            "name": "National security",
+            "question": "What is the scope of the final order?",
+            "why": "Distinguish statutory requirements from negotiated undertakings.",
+            "documents": "NSI order and government commitments"
+          },
+          {
+            "name": "Governance",
+            "question": "What does the golden share protect?",
+            "why": "Identify reserved matters and consent rights rather than assigning ordinary economic ownership.",
+            "documents": "Government release and constitutional documents"
+          },
+          {
+            "name": "Valuation",
+            "question": "How is cash distinguished from dividends?",
+            "why": "Reconcile offer price, dividends and enterprise value from formal terms.",
+            "documents": "Offer document and financial reports"
+          }
+        ],
+        "documents": [
+          {
+            "title": "IDS and EP UK Bidco",
+            "url": "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/recommended-cash-offer-for-ids-plc/8227019",
+            "purpose": "29 May 2024 recommended offer"
+          },
+          {
+            "title": "IDS issuer announcement",
+            "url": "https://www.investegate.co.uk/index.php/announcement/rns/international-distributions-services--ids/declaration-of-the-special-dividend/8855268",
+            "purpose": "30 April 2025 unconditional offer and dividend"
+          },
+          {
+            "title": "UK Government",
+            "url": "https://www.gov.uk/government/news/royal-mail-remains-based-in-uk-in-deal-to-bolster-key-services",
+            "purpose": "16 December 2024 binding commitments and golden share"
+          },
+          {
+            "title": "UK Government",
+            "url": "https://www.gov.uk/government/publications/acquisition-of-international-distribution-services-plc-by-ep-uk-bidco-limited-notice-of-final-order/acquisition-of-international-distribution-services-plc-by-ep-uk-bidco-limited-notice-of-final-order",
+            "purpose": "19 December NSI final order"
+          },
+          {
+            "title": "IDS issuer announcement",
+            "url": "https://www.investegate.co.uk/announcement/rns/international-distributions-services--ids/closure-of-the-offer-and-compulsory-acquisition-/8899272",
+            "purpose": "Closure and compulsory acquisition"
+          },
+          {
+            "title": "Slaughter and May",
+            "url": "https://www.slaughterandmay.com/services/practices/foreign-investment-and-national-security/",
+            "purpose": "Representative matter: IDS foreign investment and merger control"
+          }
+        ],
+        "openQuestions": [
+          "Full offer price and enterprise-value bridge, actual settlement and compulsory-acquisition dates, funding and all other counsel mandates remain for full document review."
+        ],
+        "relatedDeals": [
+          "nationwide-virgin",
+          "harp-hargreaves-lansdown"
+        ]
+      }
     }
   ],
   "lessons": [
@@ -8010,6 +9584,34 @@
       "programme": "Consult the firm's official UK early-careers information.",
       "url": "https://www.akingump.com/en/careers/uk-students",
       "research": "Distinguish buyer counsel from seller counsel using transaction-specific announcements."
+    },
+    {
+      "id": "goodwin",
+      "name": "Goodwin",
+      "url": "https://www.goodwinlaw.com/en/careers",
+      "research": "Technology M&A and acquisition counsel.",
+      "programme": "Consult official careers information; no current vacancy is asserted."
+    },
+    {
+      "id": "norton-rose-fulbright",
+      "name": "Norton Rose Fulbright",
+      "url": "https://www.nortonrosefulbright.com/en-gb/careers",
+      "research": "Energy and infrastructure public M&A.",
+      "programme": "Consult official careers information; no current vacancy is asserted."
+    },
+    {
+      "id": "wachtell",
+      "name": "Wachtell, Lipton, Rosen & Katz",
+      "url": "https://www.wlrk.com/",
+      "research": "US public M&A; UK recruitment not established.",
+      "programme": "Consult official careers information; no current vacancy is asserted."
+    },
+    {
+      "id": "covington",
+      "name": "Covington & Burling",
+      "url": "https://www.cov.com/en/careers",
+      "research": "Cross-border technology and regulatory matters.",
+      "programme": "Consult official careers information; no current vacancy is asserted."
     }
   ],
   "registry": [
