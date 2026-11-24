@@ -1,0 +1,13 @@
+/* CorpLawTracker shared light-mode design tokens. The India dark theme retains its existing overrides. */
+:root {
+  --clt-navy:#172e40; --clt-ink:#26353f; --clt-muted:#53656e;
+  --clt-paper:#f6f7f6; --clt-surface:#ffffff; --clt-surface-subtle:#f9faf9;
+  --clt-line:#dce3e2; --clt-control:#75847f; --clt-accent:#225c57;
+  --clt-selected:#eaf2ef; --clt-focus:#916217; --clt-positive:#24543d; --clt-warning:#745518;
+  --clt-sans:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --clt-serif:Georgia,"Times New Roman",serif;
+  --clt-space-1:4px; --clt-space-2:8px; --clt-space-3:12px; --clt-space-4:16px;
+  --clt-space-6:24px; --clt-space-8:32px; --clt-space-12:48px; --clt-space-16:64px;
+  --clt-radius:7px;
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
