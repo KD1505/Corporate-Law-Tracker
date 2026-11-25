@@ -1,0 +1,3 @@
+# Fresh transaction publication tranche
+
+Two new UK dossiers and one CMA lifecycle update. Source extracts: Complii and Ansor 24 Nov; White & Case 24 Nov; Score 20 Nov, Headway and Dentons 23 Nov; CMA 25 Nov. Direct retrieval of several recent pages failed or returned older content, so dated indexed primary-source extracts are explicitly identified and unknowns retained. Score announcement date differs from mandate date. No inferred values, completion, approval, funding, or independent certification. Two initial employer profiles linked. Original renderer baseline matched byte-for-byte on root, sitemap and coverage before regeneration. Structural quality gate passed; full CI and Vercel preview required. No India changes or expenditure.

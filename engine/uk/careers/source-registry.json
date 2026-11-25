@@ -656,6 +656,20 @@
       "name": "Clifford Chance",
       "url": "https://jobs.cliffordchance.com/",
       "kind": "employer"
+    },
+    {
+      "id": "employer:white-case",
+      "name": "White & Case",
+      "url": "https://www.whitecase.com/careers/locations/uk/early-careers/our-offer/training-contracts",
+      "kind": "employer",
+      "employerId": "white-case"
+    },
+    {
+      "id": "employer:dentons",
+      "name": "Dentons",
+      "url": "https://www.dentons.com/en/careers/careers-in-the-united-kingdom",
+      "kind": "employer",
+      "employerId": "dentons"
     }
   ]
 }
