@@ -32,7 +32,7 @@ jobs:
       - run: node engine/uk/browser-test.mjs
       - run: node engine/uk/quality-browser.mjs
       - run: node engine/uk/careers/browser-test.mjs
-      - run: node --test engine/uk/commercial/health.test.mjs && node engine/uk/commercial/health-browser.mjs
+      - run: node --test engine/uk/commercial/health.test.mjs engine/uk/commercial/publication-observer.test.mjs && node engine/uk/commercial/health-browser.mjs
       - if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -61,13 +61,15 @@ jobs:
       - if: always()
         run: node engine/uk/careers/discover.mjs
       - if: always()
+        run: node engine/uk/commercial/publication-observer.mjs
+      - if: always()
         id: research_quality
         run: node engine/uk/nightly-research.mjs
       - if: always() && steps.research_quality.outcome == 'success'
         run: |
           git config user.name "corporate-law-tracker-bot"
           git config user.email "actions@github.com"
-          git add uk/discovery.json uk/source-dossiers.json uk/policy-feed.json uk/case-archive.json uk/research-queue.json uk/research-quality.json uk/careers/discovery.json
+          git add uk/discovery.json uk/source-dossiers.json uk/policy-feed.json uk/case-archive.json uk/research-queue.json uk/research-quality.json uk/careers/discovery.json uk/publication-observations.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "chore: UK research discovery snapshot"
           git fetch origin main
