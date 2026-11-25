@@ -33,3 +33,6 @@ Generate versioned review inventory using `node engine/uk/commercial/evidence-in
 
 ## Tranche 03 — revision-bound source checks
 Initial six deadline checks: five current regulator extracts support the recorded dates; one PDF could not be retrieved. Register binds exact statement and evidence snapshots, distinguishes stale revisions and blocked retrieval, and does not certify professional review. Next: recheck blocked deadline and extend to atomic financial/adviser claims and rights review.
+
+## Tranche 04 — careers next-action desk
+Add date-based actionable categories and filtering, transparent counts and urgency ordering without inferring live vacancies, applicant eligibility or sponsorship. Stale/inconsistent records require reconfirmation; future windows and elapsed deadlines are distinct. Browser and unit checks required. No underlying recruitment facts changed. Next: direct employer verification and structured eligibility evidence.
