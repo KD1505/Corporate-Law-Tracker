@@ -1,7 +1,208 @@
 {
   "schemaVersion": 5,
-  "editorialAsOf": "2026-11-24",
+  "editorialAsOf": "2026-11-25",
   "records": [
+    {
+      "id": "akzonobel-axalta",
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "title": "AkzoNobel / Axalta",
+      "eventDate": "2026-11-25",
+      "announcedOn": "2025-11-18",
+      "status": "Phase 1; undertakings under consideration",
+      "sector": "Chemicals and coatings",
+      "dealType": "Cross-border M&A",
+      "parties": [
+        [
+          "Merger party",
+          "Akzo Nobel N.V."
+        ],
+        [
+          "Merger party",
+          "Axalta Coating Systems Ltd."
+        ]
+      ],
+      "fact": "On 25 November 2026 the CMA indicated that a proposed disposal of AkzoNobel's vehicle refinish coatings business across the EEA, UK and Switzerland might resolve UK competition concerns. The proposal is not an approval. The parties originally agreed an all-share combination in November 2025.",
+      "analysis": "A multinational remedy must preserve the divested business as a viable competitive constraint. The commercial diligence question is whether separation of intellectual property, supply contracts and personnel alters the original synergy case.",
+      "watch": "Track CMA consultation, purchaser assessment, final undertakings and completion conditions.",
+      "structure": "All-stock merger of equals under the announced Dutch holding company structure; exchange terms stated at signing.",
+      "financing": "The original announcement described share consideration and a conditional special cash dividend; current funding, adjustments and actual leverage have not been reconciled.",
+      "regulatory": "CMA Phase 1 concerns relate to vehicle refinish coatings in the UK. The regulator is considering the offered divestment and will consult; binding acceptance and UK clearance remain outstanding.",
+      "values": [
+        {
+          "label": "Combined company enterprise value at announcement (not target price)",
+          "amount": "Approximately US$25bn",
+          "numericAmount": 25000000000,
+          "basis": "enterprise-value",
+          "currency": "USD",
+          "unit": "currency",
+          "disclosure": "approximate",
+          "source": "https://newsroom.axalta.com/posts/pressreleases/akzonobel-and-axalta-to-combine-in-all-stock"
+        }
+      ],
+      "sources": [
+        {
+          "name": "CMA — case chronology",
+          "url": "https://www.gov.uk/cma-cases/akzonobel-slash-axalta-merger-inquiry"
+        },
+        {
+          "name": "CMA — 25 November remedy proposal",
+          "url": "https://www.gov.uk/government/news/cma-considers-remedies-to-resolve-coatings-merger-concerns"
+        },
+        {
+          "name": "AkzoNobel and Axalta — joint announcement, 18 November 2025",
+          "url": "https://newsroom.axalta.com/posts/pressreleases/akzonobel-and-axalta-to-combine-in-all-stock"
+        },
+        {
+          "name": "SEC — merger agreement summary",
+          "url": "https://www.sec.gov/Archives/edgar/data/1616862/000119312525285356/d45746d425.htm"
+        }
+      ],
+      "factSources": [
+        "https://www.gov.uk/cma-cases/akzonobel-slash-axalta-merger-inquiry",
+        "https://www.gov.uk/government/news/cma-considers-remedies-to-resolve-coatings-merger-concerns",
+        "https://newsroom.axalta.com/posts/pressreleases/akzonobel-and-axalta-to-combine-in-all-stock",
+        "https://www.sec.gov/Archives/edgar/data/1616862/000119312525285356/d45746d425.htm"
+      ],
+      "related": [
+        "merger-control",
+        "valuation"
+      ],
+      "advisers": [],
+      "timeline": [
+        {
+          "date": "2025-11-18",
+          "event": "Merger agreement announced",
+          "source": "https://newsroom.axalta.com/posts/pressreleases/akzonobel-and-axalta-to-combine-in-all-stock"
+        },
+        {
+          "date": "2026-09-16",
+          "event": "CMA formal Phase 1 begins",
+          "source": "https://www.gov.uk/cma-cases/akzonobel-slash-axalta-merger-inquiry"
+        },
+        {
+          "date": "2026-11-11",
+          "event": "CMA identifies competition concerns",
+          "source": "https://www.gov.uk/cma-cases/akzonobel-slash-axalta-merger-inquiry"
+        },
+        {
+          "date": "2026-11-25",
+          "event": "CMA to consider undertakings offered",
+          "source": "https://www.gov.uk/government/news/cma-considers-remedies-to-resolve-coatings-merger-concerns"
+        }
+      ],
+      "legalWork": "Map regulatory remedies, standalone viability, asset separation and approval conditions; check the latest amended transaction documents and share exchange terms.",
+      "interview": "Why can divestment of a viable business be more effective than a promise not to raise prices?",
+      "verifiedOn": "2026-11-25",
+      "research": {
+        "reviewedOn": "2026-11-25",
+        "claims": [
+          {
+            "heading": "Transaction perimeter and initial valuation",
+            "text": "The November 2025 joint release put the enterprise value of the combined business at around US$25bn. This is a valuation of the combination, not a cash price paid for Axalta.",
+            "evidence": [
+              {
+                "url": "https://newsroom.axalta.com/posts/pressreleases/akzonobel-and-axalta-to-combine-in-all-stock",
+                "publisher": "AkzoNobel and Axalta",
+                "locator": "Opening announcement and transaction details"
+              },
+              {
+                "url": "https://www.sec.gov/Archives/edgar/data/1616862/000119312525285356/d45746d425.htm",
+                "publisher": "SEC filing by Axalta",
+                "locator": "Merger agreement summary"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Initial exchange mechanics",
+            "text": "At signing, the parties disclosed 0.6539 AkzoNobel shares for each Axalta share and anticipated 55%/45% ownership for AkzoNobel/Axalta holders. These are original announcement terms, not a verification of subsequent amendments.",
+            "evidence": [
+              {
+                "url": "https://newsroom.axalta.com/posts/pressreleases/akzonobel-and-axalta-to-combine-in-all-stock",
+                "publisher": "AkzoNobel and Axalta",
+                "locator": "Transaction Details"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "UK remedy proposal",
+            "text": "The CMA identified concerns in UK vehicle refinish coatings and is assessing a proposed sale of the relevant AkzoNobel business across the EEA, UK and Switzerland. A suitable purchaser and final acceptance remain outstanding.",
+            "evidence": [
+              {
+                "url": "https://www.gov.uk/government/news/cma-considers-remedies-to-resolve-coatings-merger-concerns",
+                "publisher": "CMA",
+                "locator": "25 November press release: remedy scope and procedure"
+              },
+              {
+                "url": "https://www.gov.uk/cma-cases/akzonobel-slash-axalta-merger-inquiry",
+                "publisher": "CMA",
+                "locator": "Phase 1 chronology"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Disclosed legal advisers at signing",
+            "text": "The joint announcement names De Brauw and Davis Polk for AkzoNobel; Cravath and NautaDutilh for Axalta; and Wakkie+Perrick for the AkzoNobel supervisory board. These are participant-disclosed mandates; firm-level registry links and independent confirmation are outstanding.",
+            "evidence": [
+              {
+                "url": "https://newsroom.axalta.com/posts/pressreleases/akzonobel-and-axalta-to-combine-in-all-stock",
+                "publisher": "AkzoNobel and Axalta",
+                "locator": "Advisors"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Competition remedies",
+            "question": "Can the divested business compete independently?",
+            "why": "Test brands, contracts, staff, manufacturing and access to shared infrastructure.",
+            "documents": "Proposed undertakings and purchaser assessment."
+          },
+          {
+            "name": "Corporate and financing",
+            "question": "How do amended exchange terms, dividend adjustments and closing conditions interact?",
+            "why": "Model shareholder consideration, funding and changes to the combined balance sheet; do not equate combined EV with purchase price.",
+            "documents": "Latest merger agreement, proxy/prospectus and financing disclosures."
+          }
+        ],
+        "documents": [
+          {
+            "title": "Joint announcement",
+            "url": "https://newsroom.axalta.com/posts/pressreleases/akzonobel-and-axalta-to-combine-in-all-stock",
+            "purpose": "Signing terms and adviser disclosures"
+          },
+          {
+            "title": "SEC merger agreement summary",
+            "url": "https://www.sec.gov/Archives/edgar/data/1616862/000119312525285356/d45746d425.htm",
+            "purpose": "Initial agreement mechanics"
+          },
+          {
+            "title": "CMA case",
+            "url": "https://www.gov.uk/cma-cases/akzonobel-slash-axalta-merger-inquiry",
+            "purpose": "Statutory chronology"
+          },
+          {
+            "title": "CMA remedy announcement",
+            "url": "https://www.gov.uk/government/news/cma-considers-remedies-to-resolve-coatings-merger-concerns",
+            "purpose": "Proposed divestment and next steps"
+          }
+        ],
+        "openQuestions": [
+          "Latest amended agreement and current shareholder approvals require inspection.",
+          "Independent corroboration of advisers and firm registry associations outstanding.",
+          "Final purchaser, binding remedies, other jurisdictional outcomes and closing remain unconfirmed."
+        ],
+        "relatedDeals": [
+          "mccormick-unilever",
+          "carlsberg-britvic"
+        ]
+      }
+    },
     {
       "id": "ocs-mitie",
       "jurisdiction": "UK",
@@ -276,12 +477,12 @@
       "jurisdiction": "UK",
       "category": "Transactions",
       "title": "McCormick / Unilever Foods",
-      "eventDate": "2026-11-11",
-      "status": "Phase 1 concerns",
+      "eventDate": "2026-11-25",
+      "status": "Phase 1; undertakings under consideration",
       "sector": "Consumer goods",
-      "fact": "Unilever announced the Foods combination on 31 March. Its October update said the transaction remained on track; on 11 November the CMA found potential competition concerns requiring an acceptable remedy to avoid a Phase 2 referral.",
+      "fact": "On 25 November the CMA said McCormick's proposed sale of the Colman's business could address UK competition concerns in principle. The regulator will assess the remedy and seek feedback; it has not cleared the transaction.",
       "analysis": "The case illustrates how anticipated competition remedies can change the economic perimeter of a deal. A buyer must test whether any divestment would undermine the investment thesis or financing model.",
-      "watch": "Check subsequent decisions and any published commitments; this is not a live status guarantee.",
+      "watch": "Track the consultation, purchaser approval, final undertakings or referral; assess impact on the separation perimeter.",
       "sources": [
         {
           "name": "CMA case",
@@ -310,13 +511,17 @@
         {
           "name": "Cleary Gottlieb mandate",
           "url": "https://www.clearygottlieb.com/news-and-insights/news-listing/mccormick-in-44-8-billion-merger-with-unilevers-foods-business"
+        },
+        {
+          "name": "CMA — remedy proposal, 25 November",
+          "url": "https://www.gov.uk/government/news/mccormick-offers-remedies-to-resolve-competition-concerns-in-unilever-foods-deal"
         }
       ],
       "related": [
         "merger-control",
         "valuation"
       ],
-      "verifiedOn": "2026-11-24",
+      "verifiedOn": "2026-11-25",
       "dealType": "Cross-border M&A",
       "parties": [
         [
@@ -387,7 +592,7 @@
         }
       ],
       "financing": "The announcement identifies Citi, Goldman Sachs Bank USA and Morgan Stanley Senior Funding as bridge financing providers; the intended permanent funding includes new debt and cash.",
-      "regulatory": "CMA Phase 1 concerns are not a prohibition. Shareholder approval, regulatory clearances and separation conditions remain relevant.",
+      "regulatory": "The CMA identified competition concerns in dry ingredient mixes and dry sauces sold to UK retailers. The proposed divestment requires assessment and a suitable purchaser; Phase 2 remains possible.",
       "timeline": [
         {
           "date": "2026-03-31",
@@ -403,6 +608,11 @@
           "date": "2026-11-11",
           "event": "CMA announced competition concerns",
           "source": "https://www.gov.uk/cma-cases/mccormick-slash-unilever-merger-inquiry"
+        },
+        {
+          "date": "2026-11-25",
+          "event": "CMA to consider proposed Colman's divestment",
+          "source": "https://www.gov.uk/government/news/mccormick-offers-remedies-to-resolve-competition-concerns-in-unilever-foods-deal"
         }
       ],
       "legalWork": "Carve-out perimeter, transition services, tax structuring, financing commitments and remedy allocation should be negotiated together. Assess whether a required divestment would undermine the economics of the combined foods business.",
@@ -411,7 +621,8 @@
         "https://www.gov.uk/cma-cases/mccormick-slash-unilever-merger-inquiry",
         "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
         "https://www.unilever.com/news/press-and-media/press-releases/2026/continued-strong-performance-in-the-third-quarter/",
-        "https://ir.mccormick.com/news-releases/news-release-details/mccormick-combine-unilevers-foods-business-creating-preeminent"
+        "https://ir.mccormick.com/news-releases/news-release-details/mccormick-combine-unilevers-foods-business-creating-preeminent",
+        "https://www.gov.uk/government/news/mccormick-offers-remedies-to-resolve-competition-concerns-in-unilever-foods-deal"
       ],
       "advisers": [
         {
@@ -437,7 +648,7 @@
         }
       ],
       "research": {
-        "reviewedOn": "2026-11-24",
+        "reviewedOn": "2026-11-25",
         "claims": [
           {
             "heading": "Perimeter and consideration",
@@ -550,6 +761,23 @@
               }
             ],
             "qualification": "documented"
+          },
+          {
+            "heading": "Proposed UK divestment",
+            "text": "McCormick has proposed disposing of the Colman's brand to a purchaser approved by the regulator. The CMA considers the proposal potentially sufficient, but must evaluate it before accepting binding undertakings.",
+            "evidence": [
+              {
+                "url": "https://www.gov.uk/government/news/mccormick-offers-remedies-to-resolve-competition-concerns-in-unilever-foods-deal",
+                "publisher": "CMA",
+                "locator": "25 November press release: proposed remedy and next steps"
+              },
+              {
+                "url": "https://www.gov.uk/cma-cases/mccormick-slash-unilever-merger-inquiry",
+                "publisher": "CMA",
+                "locator": "Phase 1: 25 November update"
+              }
+            ],
+            "qualification": "documented"
           }
         ],
         "workstreams": [
@@ -608,10 +836,15 @@
             "title": "Cleary Gottlieb mandate",
             "url": "https://www.clearygottlieb.com/news-and-insights/news-listing/mccormick-in-44-8-billion-merger-with-unilevers-foods-business",
             "purpose": "McCormick mandate and specialist workstreams"
+          },
+          {
+            "title": "CMA remedy announcement",
+            "url": "https://www.gov.uk/government/news/mccormick-offers-remedies-to-resolve-competition-concerns-in-unilever-foods-deal",
+            "purpose": "Proposed disposal, affected products and procedure"
           }
         ],
         "openQuestions": [
-          "Full Phase 1 reasons and any remedy package require further review.",
+          "Final remedy perimeter, purchaser, binding terms and implementation timetable are unconfirmed.",
           "Actual debt issuance, final closing adjustment and completed separation remain unknown.",
           "The underlying executed agreement and tax opinions have not been independently inspected in this dossier."
         ],
@@ -2232,15 +2465,15 @@
     },
     {
       "jurisdiction": "UK",
-      "verifiedOn": "2026-11-24",
+      "verifiedOn": "2026-11-25",
       "id": "leita-mobico",
       "category": "Transactions",
       "title": "Leita Mobility / Mobico Group",
-      "eventDate": "2026-10-30",
-      "announcedOn": "2026-10-30",
-      "status": "Recommended cash offer announced",
+      "eventDate": "2026-11-25",
+      "announcedOn": "2026-10-29",
+      "status": "Scheme document published; shareholder meetings scheduled",
       "sector": "Transport",
-      "fact": "The recommended cash acquisition of UK-listed Mobico was announced at 46p per share, with an intended scheme of arrangement. The disclosed equity valuation was approximately £308m and enterprise valuation approximately £2.3bn.",
+      "fact": "Mobico's 25 November company announcement confirmed publication of the scheme document for Leita Mobility's recommended cash acquisition, with shareholder meetings scheduled for 17 December. The previously disclosed equity valuation is approximately £308m; the scheme remains conditional.",
       "values": [
         {
           "label": "Equity value",
@@ -2274,7 +2507,7 @@
         }
       ],
       "analysis": "The gap between equity and enterprise valuation makes the capital structure central to the investment thesis. Do not infer net debt from the gap without checking the valuation definitions. A scheme requires its own shareholder and court process; lenders also need certainty on funding and closing.",
-      "watch": "Scheme timetable, applicable approvals and completion announcements.",
+      "watch": "Check 17 December shareholder votes, court sanction and the operative conditions. Full scheme not inspected in this update.",
       "sources": [
         {
           "name": "Freshfields target mandate",
@@ -2283,6 +2516,14 @@
         {
           "name": "Clifford Chance financing mandate",
           "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-on-the-financing-of-cmc-group-and-asterion-industrial-partners-recommended-cash-offer-for-mobico-group.html"
+        },
+        {
+          "name": "Mobico RNS 5251E — scheme publication announcement (syndicated)",
+          "url": "https://www.tradingview.com/news/reuters.com,2026-11-25:newsml_RSY5251Ea:0-reg-mobico-group-plc-publication-of-scheme-document/"
+        },
+        {
+          "name": "Mobico — offer document access and disclaimer",
+          "url": "https://www.mobicogroup.com/investors/important-disclaimer-offer"
         }
       ],
       "related": [
@@ -2326,15 +2567,20 @@
       "financing": "Clifford Chance disclosed financing work; detailed debt terms not verified. Equity and enterprise valuations are separately disclosed.",
       "timeline": [
         {
-          "date": "2026-10-30",
-          "event": "Recommended acquisition announced",
-          "source": "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility"
+          "date": "2026-10-29",
+          "event": "Recommended cash acquisition agreed (issuer announcement date confirmed in 25 November notice)",
+          "source": "https://www.tradingview.com/news/reuters.com,2026-11-25:newsml_RSY5251Ea:0-reg-mobico-group-plc-publication-of-scheme-document/"
+        },
+        {
+          "date": "2026-11-25",
+          "event": "Issuer announces scheme publication and 17 December meetings",
+          "source": "https://www.tradingview.com/news/reuters.com,2026-11-25:newsml_RSY5251Ea:0-reg-mobico-group-plc-publication-of-scheme-document/"
         }
       ],
       "legalWork": "Model equity bridge and existing debt treatment, test cash confirmation and financing conditions, prepare scheme timetable and coordinate regulatory work. Review change-of-control clauses in transport concessions.",
       "interview": "Why can a £308m equity offer imply a £2.3bn enterprise valuation? Which debt and cash definitions must be checked?",
       "research": {
-        "reviewedOn": "2026-11-24",
+        "reviewedOn": "2026-11-25",
         "claims": [
           {
             "heading": "Bidder ownership and target perimeter",
@@ -2386,6 +2632,18 @@
               }
             ],
             "qualification": "documented"
+          },
+          {
+            "heading": "Shareholder and court process",
+            "text": "The 25 November issuer release says the scheme document was published and sets the Court Meeting and General Meeting for 17 December 2026. A positive vote alone does not make the scheme effective; court sanction and the remaining conditions are also required.",
+            "evidence": [
+              {
+                "url": "https://www.tradingview.com/news/reuters.com,2026-11-25:newsml_RSY5251Ea:0-reg-mobico-group-plc-publication-of-scheme-document/",
+                "publisher": "Mobico (RNS 5251E)",
+                "locator": "Publication of the Scheme Document; Notices of the Court Meeting and General Meeting"
+              }
+            ],
+            "qualification": "documented"
           }
         ],
         "workstreams": [
@@ -2424,10 +2682,20 @@
             "title": "Clifford Chance mandate",
             "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-on-the-financing-of-cmc-group-and-asterion-industrial-partners-recommended-cash-offer-for-mobico-group.html",
             "purpose": "Independent lender-side confirmation of valuations and specialist workstreams"
+          },
+          {
+            "title": "Mobico RNS 5251E",
+            "url": "https://www.tradingview.com/news/reuters.com,2026-11-25:newsml_RSY5251Ea:0-reg-mobico-group-plc-publication-of-scheme-document/",
+            "purpose": "Issuer publication notice and meeting timetable"
+          },
+          {
+            "title": "Mobico offer hub",
+            "url": "https://www.mobicogroup.com/investors/important-disclaimer-offer",
+            "purpose": "Access notice for operative documents; jurisdictional restrictions apply"
           }
         ],
         "openQuestions": [
-          "Obtain the issuer’s Rule 2.7 announcement, scheme, cash confirmation and conditions; neither law firm disclosure substitutes for these.",
+          "The issuer publication notice has been inspected; the full scheme, detailed financing conditions and cash confirmation still require review.",
           "Completion, regulatory approvals and detailed debt amounts remain unestablished in this review."
         ],
         "relatedDeals": [
@@ -2437,8 +2705,16 @@
       },
       "factSources": [
         "https://www.freshfields.com/en/our-thinking/news/news-search/2026/10/freshfields-advises-mobico-on-its-recommended-acquisition-by-leita-mobility",
-        "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-on-the-financing-of-cmc-group-and-asterion-industrial-partners-recommended-cash-offer-for-mobico-group.html"
-      ]
+        "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-on-the-financing-of-cmc-group-and-asterion-industrial-partners-recommended-cash-offer-for-mobico-group.html",
+        "https://www.tradingview.com/news/reuters.com,2026-11-25:newsml_RSY5251Ea:0-reg-mobico-group-plc-publication-of-scheme-document/",
+        "https://www.mobicogroup.com/investors/important-disclaimer-offer"
+      ],
+      "regulatory": "Part 26 scheme requires shareholder approvals, court sanction and satisfaction or permitted waiver of the conditions. The 25 November issuer announcement anticipates effectiveness in the first half of 2027, subject to those conditions.",
+      "deadline": {
+        "date": "2026-12-17",
+        "label": "Court Meeting and General Meeting scheduled",
+        "source": "https://www.tradingview.com/news/reuters.com,2026-11-25:newsml_RSY5251Ea:0-reg-mobico-group-plc-publication-of-scheme-document/"
+      }
     },
     {
       "jurisdiction": "UK",
