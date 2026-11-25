@@ -1,5 +1,5 @@
 {
-  "attemptedAt": "2026-11-24T09:59:52.309Z",
+  "attemptedAt": "2026-11-25T04:34:36.407Z",
   "notice": "Unreviewed issuer-level filing and global counsel news leads; not verified deals, client attributions or evidence of UK relevance. Related dossier IDs are issuer watch links only. Failure retains last successful metadata.",
   "sources": [
     {
@@ -11,7 +11,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0001045609.json",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:59:42.708Z",
+      "checkedAt": "2026-11-25T04:34:21.809Z",
       "items": [
         {
           "title": "8-K · Prologis, Inc.",
@@ -129,7 +129,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0000063754.json",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:59:43.847Z",
+      "checkedAt": "2026-11-25T04:34:23.243Z",
       "items": [
         {
           "title": "10-Q · MCCORMICK & CO INC",
@@ -247,7 +247,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0000840489.json",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:59:44.988Z",
+      "checkedAt": "2026-11-25T04:34:24.759Z",
       "items": [
         {
           "title": "8-K · FirstCash Holdings, Inc.",
@@ -365,7 +365,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0000839923.json",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:59:46.129Z",
+      "checkedAt": "2026-11-25T04:34:25.901Z",
       "items": [
         {
           "title": "6-K · VODAFONE GROUP PUBLIC LTD CO",
@@ -483,7 +483,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0000051434.json",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:59:47.265Z",
+      "checkedAt": "2026-11-25T04:34:27.053Z",
       "items": [
         {
           "title": "8-K · INTERNATIONAL PAPER CO /NEW/",
@@ -601,7 +601,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0000883241.json",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:59:48.403Z",
+      "checkedAt": "2026-11-25T04:34:28.212Z",
       "items": [
         {
           "title": "8-K · SYNOPSYS INC",
@@ -719,7 +719,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0000789019.json",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:59:49.530Z",
+      "checkedAt": "2026-11-25T04:34:29.345Z",
       "items": [
         {
           "title": "8-K · MICROSOFT CORP",
@@ -829,12 +829,517 @@
       ]
     },
     {
+      "id": "sec-1645590",
+      "name": "EDGAR: HPE",
+      "cik": "1645590",
+      "related": [
+        "hpe-juniper"
+      ],
+      "url": "https://data.sec.gov/submissions/CIK0001645590.json",
+      "status": "ok",
+      "checkedAt": "2026-11-25T04:34:30.490Z",
+      "items": [
+        {
+          "title": "8-K · Hewlett Packard Enterprise Co",
+          "date": "2026-11-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000097/hpe-20261123.htm",
+          "accession": "0001645590-26-000097",
+          "items": "2.02,7.01,9.01"
+        },
+        {
+          "title": "8-K · Hewlett Packard Enterprise Co",
+          "date": "2026-11-18",
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000092/hpe-20261118.htm",
+          "accession": "0001645590-26-000092",
+          "items": "1.01,5.02,7.01,9.01"
+        },
+        {
+          "title": "8-K · Hewlett Packard Enterprise Co",
+          "date": "2026-11-04",
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000087/hpe-20261104.htm",
+          "accession": "0001645590-26-000087",
+          "items": "7.01"
+        },
+        {
+          "title": "8-K · Hewlett Packard Enterprise Co",
+          "date": "2026-09-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000084/hpe-20260930.htm",
+          "accession": "0001645590-26-000084",
+          "items": "7.01,9.01"
+        },
+        {
+          "title": "10-Q · Hewlett Packard Enterprise Co",
+          "date": "2026-09-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000080/hpe-20260731.htm",
+          "accession": "0001645590-26-000080",
+          "items": ""
+        },
+        {
+          "title": "8-K · Hewlett Packard Enterprise Co",
+          "date": "2026-09-02",
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000078/hpe-20260902.htm",
+          "accession": "0001645590-26-000078",
+          "items": "2.02,7.01"
+        },
+        {
+          "title": "8-K · Hewlett Packard Enterprise Co",
+          "date": "2026-08-04",
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000074/hpe-20260804.htm",
+          "accession": "0001645590-26-000074",
+          "items": "7.01"
+        },
+        {
+          "title": "8-K · Hewlett Packard Enterprise Co",
+          "date": "2026-07-24",
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000072/hpe-20260724.htm",
+          "accession": "0001645590-26-000072",
+          "items": "5.02,7.01,9.01"
+        },
+        {
+          "title": "10-Q · Hewlett Packard Enterprise Co",
+          "date": "2026-06-02",
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000055/hpe-20260430.htm",
+          "accession": "0001645590-26-000055",
+          "items": ""
+        },
+        {
+          "title": "8-K · Hewlett Packard Enterprise Co",
+          "date": "2026-06-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000052/hpe-20260601.htm",
+          "accession": "0001645590-26-000052",
+          "items": "1.01,2.02,5.02,7.01,9.01"
+        },
+        {
+          "title": "8-K · Hewlett Packard Enterprise Co",
+          "date": "2026-05-14",
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000045/hpe-20260513.htm",
+          "accession": "0001645590-26-000045",
+          "items": "7.01"
+        },
+        {
+          "title": "8-K · Hewlett Packard Enterprise Co",
+          "date": "2026-05-04",
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000040/hpe-20260504.htm",
+          "accession": "0001645590-26-000040",
+          "items": "7.01"
+        },
+        {
+          "title": "8-K · Hewlett Packard Enterprise Co",
+          "date": "2026-04-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000036/hpe-20260401.htm",
+          "accession": "0001645590-26-000036",
+          "items": "5.02,5.07,9.01"
+        },
+        {
+          "title": "8-K · Hewlett Packard Enterprise Co",
+          "date": "2026-03-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000114036126010765/ef20068405_8k.htm",
+          "accession": "0001140361-26-010765",
+          "items": "8.01,9.01"
+        },
+        {
+          "title": "8-K · Hewlett Packard Enterprise Co",
+          "date": "2026-03-18",
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000114036126010222/ef20068126_8k.htm",
+          "accession": "0001140361-26-010222",
+          "items": "8.01,9.01"
+        }
+      ]
+    },
+    {
+      "id": "sec-796343",
+      "name": "EDGAR: Adobe",
+      "cik": "796343",
+      "related": [
+        "adobe-figma"
+      ],
+      "url": "https://data.sec.gov/submissions/CIK0000796343.json",
+      "status": "ok",
+      "checkedAt": "2026-11-25T04:34:31.625Z",
+      "items": [
+        {
+          "title": "10-Q · ADOBE INC.",
+          "date": "2026-09-22",
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000156/adbe-20260828.htm",
+          "accession": "0000796343-26-000156",
+          "items": ""
+        },
+        {
+          "title": "8-K · ADOBE INC.",
+          "date": "2026-09-10",
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbe-20260910.htm",
+          "accession": "0000796343-26-000147",
+          "items": "2.02,9.01"
+        },
+        {
+          "title": "8-K · ADOBE INC.",
+          "date": "2026-09-08",
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000144/adbe-20260902.htm",
+          "accession": "0000796343-26-000144",
+          "items": "5.02,7.01,9.01"
+        },
+        {
+          "title": "8-K · ADOBE INC.",
+          "date": "2026-07-17",
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000120/adbe-20260714.htm",
+          "accession": "0000796343-26-000120",
+          "items": "5.02"
+        },
+        {
+          "title": "10-Q · ADOBE INC.",
+          "date": "2026-06-15",
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000112/adbe-20260529.htm",
+          "accession": "0000796343-26-000112",
+          "items": ""
+        },
+        {
+          "title": "8-K · ADOBE INC.",
+          "date": "2026-06-11",
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000109/adbe-20260608.htm",
+          "accession": "0000796343-26-000109",
+          "items": "2.02,5.02,9.01"
+        },
+        {
+          "title": "8-K · ADOBE INC.",
+          "date": "2026-04-21",
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000101/adbe-20260415.htm",
+          "accession": "0000796343-26-000101",
+          "items": "5.02,5.07,8.01,9.01"
+        },
+        {
+          "title": "10-Q · ADOBE INC.",
+          "date": "2026-03-25",
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000056/adbe-20260227.htm",
+          "accession": "0000796343-26-000056",
+          "items": ""
+        },
+        {
+          "title": "8-K · ADOBE INC.",
+          "date": "2026-03-12",
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000048/adbe-20260309.htm",
+          "accession": "0000796343-26-000048",
+          "items": "2.02,5.02,7.01,9.01"
+        },
+        {
+          "title": "8-K · ADOBE INC.",
+          "date": "2026-01-27",
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000019/adbe-20260126.htm",
+          "accession": "0000796343-26-000019",
+          "items": "5.02,9.01"
+        },
+        {
+          "title": "10-K · ADOBE INC.",
+          "date": "2026-01-15",
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+          "accession": "0000796343-26-000003",
+          "items": ""
+        },
+        {
+          "title": "8-K · ADOBE INC.",
+          "date": "2025-12-10",
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000135/adbe-20251210.htm",
+          "accession": "0000796343-25-000135",
+          "items": "2.02,9.01"
+        },
+        {
+          "title": "10-Q · ADOBE INC.",
+          "date": "2025-09-24",
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000107/adbe-20250829.htm",
+          "accession": "0000796343-25-000107",
+          "items": ""
+        },
+        {
+          "title": "8-K · ADOBE INC.",
+          "date": "2025-09-11",
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000102/adbe-20250911.htm",
+          "accession": "0000796343-25-000102",
+          "items": "2.02,9.01"
+        },
+        {
+          "title": "10-Q · ADOBE INC.",
+          "date": "2025-06-25",
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000073/adbe-20250530.htm",
+          "accession": "0000796343-25-000073",
+          "items": ""
+        }
+      ]
+    },
+    {
+      "id": "sec-1730168",
+      "name": "EDGAR: Broadcom",
+      "cik": "1730168",
+      "related": [
+        "broadcom-vmware"
+      ],
+      "url": "https://data.sec.gov/submissions/CIK0001730168.json",
+      "status": "ok",
+      "checkedAt": "2026-11-25T04:34:32.797Z",
+      "items": [
+        {
+          "title": "8-K · Broadcom Inc.",
+          "date": "2026-10-27",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526434271/d148323d8k.htm",
+          "accession": "0001193125-26-434271",
+          "items": "2.03"
+        },
+        {
+          "title": "S-4 · Broadcom Inc.",
+          "date": "2026-09-10",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526387881/d154803ds4.htm",
+          "accession": "0001193125-26-387881",
+          "items": ""
+        },
+        {
+          "title": "10-Q · Broadcom Inc.",
+          "date": "2026-09-10",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+          "accession": "0001730168-26-000080",
+          "items": ""
+        },
+        {
+          "title": "8-K · Broadcom Inc.",
+          "date": "2026-09-02",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-20260902.htm",
+          "accession": "0001730168-26-000076",
+          "items": "2.02,8.01,9.01"
+        },
+        {
+          "title": "8-K · Broadcom Inc.",
+          "date": "2026-07-06",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526295589/d84378d8k.htm",
+          "accession": "0001193125-26-295589",
+          "items": "8.01"
+        },
+        {
+          "title": "8-K · Broadcom Inc.",
+          "date": "2026-06-18",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526275077/d149683d8k.htm",
+          "accession": "0001193125-26-275077",
+          "items": "8.01,9.01"
+        },
+        {
+          "title": "8-K · Broadcom Inc.",
+          "date": "2026-06-11",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526266777/d152717d8k.htm",
+          "accession": "0001193125-26-266777",
+          "items": "8.01,9.01"
+        },
+        {
+          "title": "S-4 · Broadcom Inc.",
+          "date": "2026-06-09",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526263128/d227938ds4.htm",
+          "accession": "0001193125-26-263128",
+          "items": ""
+        },
+        {
+          "title": "S-4 · Broadcom Inc.",
+          "date": "2026-06-09",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526263125/d227941ds4.htm",
+          "accession": "0001193125-26-263125",
+          "items": ""
+        },
+        {
+          "title": "10-Q · Broadcom Inc.",
+          "date": "2026-06-09",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
+          "accession": "0001730168-26-000054",
+          "items": ""
+        },
+        {
+          "title": "8-K · Broadcom Inc.",
+          "date": "2026-06-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000051/avgo-20260603.htm",
+          "accession": "0001730168-26-000051",
+          "items": "2.02,8.01,9.01"
+        },
+        {
+          "title": "8-K · Broadcom Inc.",
+          "date": "2026-04-21",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000039/avgo-20260420.htm",
+          "accession": "0001730168-26-000039",
+          "items": "5.07"
+        },
+        {
+          "title": "8-K · Broadcom Inc.",
+          "date": "2026-04-06",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526144028/d87999d8k.htm",
+          "accession": "0001193125-26-144028",
+          "items": "8.01"
+        },
+        {
+          "title": "8-K · Broadcom Inc.",
+          "date": "2026-04-02",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526140574/d109450d8k.htm",
+          "accession": "0001193125-26-140574",
+          "items": "5.02"
+        },
+        {
+          "title": "10-Q · Broadcom Inc.",
+          "date": "2026-03-11",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm",
+          "accession": "0001730168-26-000016",
+          "items": ""
+        }
+      ]
+    },
+    {
+      "id": "sec-1579878",
+      "name": "EDGAR: Figma",
+      "cik": "1579878",
+      "related": [
+        "adobe-figma"
+      ],
+      "url": "https://data.sec.gov/submissions/CIK0001579878.json",
+      "status": "ok",
+      "checkedAt": "2026-11-25T04:34:33.932Z",
+      "items": [
+        {
+          "title": "10-Q · Figma, Inc.",
+          "date": "2026-11-04",
+          "url": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026070272/fig-20260930.htm",
+          "accession": "0001628280-26-070272",
+          "items": ""
+        },
+        {
+          "title": "8-K · Figma, Inc.",
+          "date": "2026-11-04",
+          "url": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026070133/fig-20261104.htm",
+          "accession": "0001628280-26-070133",
+          "items": "2.02,9.01"
+        },
+        {
+          "title": "10-Q · Figma, Inc.",
+          "date": "2026-08-05",
+          "url": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026053348/fig-20260630.htm",
+          "accession": "0001628280-26-053348",
+          "items": ""
+        },
+        {
+          "title": "8-K · Figma, Inc.",
+          "date": "2026-08-05",
+          "url": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026053331/fig-20260805.htm",
+          "accession": "0001628280-26-053331",
+          "items": "2.02,9.01"
+        },
+        {
+          "title": "8-K · Figma, Inc.",
+          "date": "2026-06-04",
+          "url": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026040792/fig-20260602.htm",
+          "accession": "0001628280-26-040792",
+          "items": "5.07"
+        },
+        {
+          "title": "10-Q · Figma, Inc.",
+          "date": "2026-05-14",
+          "url": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026035209/fig-20260331.htm",
+          "accession": "0001628280-26-035209",
+          "items": ""
+        },
+        {
+          "title": "8-K · Figma, Inc.",
+          "date": "2026-05-14",
+          "url": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026035087/fig-20260514.htm",
+          "accession": "0001628280-26-035087",
+          "items": "2.02,9.01"
+        },
+        {
+          "title": "8-K · Figma, Inc.",
+          "date": "2026-04-15",
+          "url": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026025127/fig-20260414.htm",
+          "accession": "0001628280-26-025127",
+          "items": "5.02"
+        },
+        {
+          "title": "10-K · Figma, Inc.",
+          "date": "2026-02-18",
+          "url": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026009228/fig-20251231.htm",
+          "accession": "0001628280-26-009228",
+          "items": ""
+        },
+        {
+          "title": "8-K · Figma, Inc.",
+          "date": "2026-02-18",
+          "url": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026009024/fig-20260218.htm",
+          "accession": "0001628280-26-009024",
+          "items": "2.02,9.01"
+        },
+        {
+          "title": "10-Q · Figma, Inc.",
+          "date": "2025-11-05",
+          "url": "https://www.sec.gov/Archives/edgar/data/1579878/000162828025049683/fig-20250930.htm",
+          "accession": "0001628280-25-049683",
+          "items": ""
+        },
+        {
+          "title": "8-K · Figma, Inc.",
+          "date": "2025-11-05",
+          "url": "https://www.sec.gov/Archives/edgar/data/1579878/000162828025049555/fig-20251105.htm",
+          "accession": "0001628280-25-049555",
+          "items": "2.02,9.01"
+        },
+        {
+          "title": "10-Q · Figma, Inc.",
+          "date": "2025-09-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1579878/000157987825000027/fig-20250630.htm",
+          "accession": "0001579878-25-000027",
+          "items": ""
+        },
+        {
+          "title": "8-K · Figma, Inc.",
+          "date": "2025-09-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1579878/000157987825000026/fig-20250903.htm",
+          "accession": "0001579878-25-000026",
+          "items": "2.02,9.01"
+        }
+      ]
+    },
+    {
       "id": "cc-news",
       "name": "Clifford Chance news",
       "url": "https://www.cliffordchance.com/rss/rss-feed-news.xml",
       "status": "ok",
-      "checkedAt": "2026-11-24T09:59:51.209Z",
+      "checkedAt": "2026-11-25T04:34:35.307Z",
       "items": [
+        {
+          "title": "Clifford Chance advises on financing of 2.6GW Taweelah C Power Plant in Abu Dhabi",
+          "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-on-financing-of-26gw-taweelah-c-power-plant-in-abu-dhabi.html",
+          "date": "2026-11-24T14:33:00.000Z"
+        },
+        {
+          "title": "Clifford Chance advises EQT on acquisition of Pickles Auctions",
+          "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-eqt-on-acquisition-of-pickles-auctions0.html",
+          "date": "2026-11-24T07:22:00.000Z"
+        },
+        {
+          "title": "Energy transition: Clifford Chance advises Voltwise on the financing of a 56 MW battery storage project in Germany",
+          "url": "https://www.cliffordchance.com/news/news/2026/11/energy-transition-clifford-chance-advises-voltwise-on-the-financing-of-a-56-mw-battery-storage-project-in-germany.html",
+          "date": "2026-11-20T12:24:00.000Z"
+        },
+        {
+          "title": "Clifford Chance acts as legal adviser to Macquarie Capital on its investment in AGP-backed hyperscale data centre platform Zerra",
+          "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-acts-as-legal-adviser-to-macquarie-capital-on-its-investment-in-agp-backed-hyperscale-data-centre-platform-zerra.html",
+          "date": "2026-11-19T05:15:00.000Z"
+        },
+        {
+          "title": "Clifford Chance has advised NLB on its €350 million AT1 bond issuance",
+          "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-has-advised-nlb-on-its-350-million-at1-bond-issuance.html",
+          "date": "2026-11-18T11:24:00.000Z"
+        },
+        {
+          "title": "Clifford Chance strengthens global Private Capital offering with hire of Viktor Leisnert and Milad Kamali",
+          "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-strengthens-global-private-capital-offering-with-hire-of-viktor-leisnert-and-milad-kamali.html",
+          "date": "2026-11-18T10:56:00.000Z"
+        },
+        {
+          "title": "Clifford Chance advises Joint Global Coordinators on Avantium’s €55 million equity raise",
+          "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-joint-global-coordinators-on-avantiums-55-million-equity-raise.html",
+          "date": "2026-11-17T12:08:00.000Z"
+        },
+        {
+          "title": "Clifford Chance advises SF REIT on proposed disposal of logistics property portfolio and delisting",
+          "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-sf-reit-on-proposed-disposal-of-logistics-property-portfolio-and-delisting.html",
+          "date": "2026-11-17T10:32:00.000Z"
+        },
         {
           "title": "Clifford Chance advises Sunco Capital on NAV financing to strengthen renewables platform",
           "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-sunco-capital-on-nav-financing-to-strengthen-renewables-platform.html",
@@ -864,51 +1369,6 @@
           "title": "Clifford Chance advises Airbus on the establishment of Alpha Component Solutions, joint venture with Air France dedicated to Airbus A350 component support",
           "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-airbus-on-the-establishment-of-alpha-component-solutions-joint-venture-with-air-france-dedicated-to-airbus-a350-component-support.html",
           "date": "2026-11-12T09:22:00.000Z"
-        },
-        {
-          "title": "Clifford Chance advises Amicro Technology on its Chapter 18C listing in Hong Kong",
-          "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-amicro-technology-on-its-chapter-18c-listing-in-hong-kong.html",
-          "date": "2026-11-12T09:16:00.000Z"
-        },
-        {
-          "title": "Clifford Chance advises Colombia's Empresas Públicas de Medellín on its return to the international capital markets with a US$1 billion senior notes issuance",
-          "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-colombias-empresas-pblicas-de-medelln-on-its-return-to-the-international-capital-markets-with-a-us1-billion-senior-notes-issuance.html",
-          "date": "2026-11-11T14:05:00.000Z"
-        },
-        {
-          "title": "Clifford Chance advises KKR on investment in (re)insurer Canopius",
-          "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-kkr-on-investment-in-reinsurer-canopius.html",
-          "date": "2026-11-11T03:45:48.000Z"
-        },
-        {
-          "title": "Clifford Chance Australia further strengthens private capital offering with Andrew Stone",
-          "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-australia-further-strengthens-private-capital-offering-with-andrew-stone.html",
-          "date": "2026-11-11T02:33:00.000Z"
-        },
-        {
-          "title": "Clifford Chance advises on MIGA-backed financing for Bogotá’s first metro line",
-          "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-on-miga-backed-financing-for-bogots-first-metro-line.html",
-          "date": "2026-11-10T22:17:00.000Z"
-        },
-        {
-          "title": "Clifford Chance advises managers on Heineken’s €1 billion dual-tranche bond issuance",
-          "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-managers-on-heinekens-1-billion-dual-tranche-bond-issuance.html",
-          "date": "2026-11-10T10:15:51.000Z"
-        },
-        {
-          "title": "Clifford Chance advises Duvenbeck on sale to L.I.T. Group",
-          "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-duvenbeck-on-sale-to-lit-group.html",
-          "date": "2026-11-10T09:26:00.000Z"
-        },
-        {
-          "title": "Clifford Chance advises Superior Energy Services, Inc. on US$650 million senior unsecured notes offering",
-          "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advises-superior-energy-services-inc-on-us650-million-senior-unsecured-notes-offering.html",
-          "date": "2026-11-09T17:16:00.000Z"
-        },
-        {
-          "title": "Clifford Chance advised VKR Holding on its offer to acquire StellaGroup from PAI Partners and others",
-          "url": "https://www.cliffordchance.com/news/news/2026/11/clifford-chance-advised-vkr-holding-on-its-offer-to-acquire-stellagroup-from-pai-partners-and-others.html",
-          "date": "2026-11-09T11:46:29.000Z"
         }
       ]
     }
@@ -918,210 +1378,56 @@
       "id": "coop-southern",
       "title": "Co-operative Group / Southern Co-operative",
       "reviewedOn": "2026-11-24",
-      "sourceLinks": 1,
-      "findings": 0,
+      "sourceLinks": 5,
+      "findings": 4,
       "adviserAssociations": 0,
-      "priority": 9,
+      "priority": 3,
       "tasks": [
-        "Deep document review and claim-level evidence",
-        "Find separately originating sources",
         "Check bidder, seller, financing and regulatory counsel disclosures",
-        "Establish value basis or explicit non-disclosure"
-      ]
-    },
-    {
-      "id": "greencore-bakkavor",
-      "title": "Greencore / Bakkavor",
-      "reviewedOn": "2026-11-24",
-      "sourceLinks": 1,
-      "findings": 0,
-      "adviserAssociations": 0,
-      "priority": 9,
-      "tasks": [
-        "Deep document review and claim-level evidence",
-        "Find separately originating sources",
-        "Check bidder, seller, financing and regulatory counsel disclosures",
-        "Establish value basis or explicit non-disclosure"
-      ]
-    },
-    {
-      "id": "mari-atg",
-      "title": "MARI / ATG Entertainment",
-      "reviewedOn": "2026-11-24",
-      "sourceLinks": 1,
-      "findings": 0,
-      "adviserAssociations": 0,
-      "priority": 9,
-      "tasks": [
-        "Deep document review and claim-level evidence",
-        "Find separately originating sources",
-        "Check bidder, seller, financing and regulatory counsel disclosures",
-        "Establish value basis or explicit non-disclosure"
-      ]
-    },
-    {
-      "id": "nexfibre-substantial",
-      "title": "nexfibre / Substantial",
-      "reviewedOn": "2026-11-24",
-      "sourceLinks": 1,
-      "findings": 0,
-      "adviserAssociations": 0,
-      "priority": 9,
-      "tasks": [
-        "Deep document review and claim-level evidence",
-        "Find separately originating sources",
-        "Check bidder, seller, financing and regulatory counsel disclosures",
-        "Establish value basis or explicit non-disclosure"
+        "Establish value basis or explicit non-disclosure",
+        "Final binding remedy terms and implementation",
+        "Any disclosed financial terms",
+        "Legal adviser mandates not yet established"
       ]
     },
     {
       "id": "vivisol-airliquide",
       "title": "Vivisol / Air Liquide UK home oxygen business",
       "reviewedOn": "2026-11-24",
-      "sourceLinks": 1,
-      "findings": 0,
+      "sourceLinks": 4,
+      "findings": 4,
       "adviserAssociations": 0,
-      "priority": 9,
+      "priority": 3,
       "tasks": [
-        "Deep document review and claim-level evidence",
-        "Find separately originating sources",
         "Check bidder, seller, financing and regulatory counsel disclosures",
-        "Establish value basis or explicit non-disclosure"
-      ]
-    },
-    {
-      "id": "abp-ifm",
-      "title": "IFM Investors / Associated British Ports stakes",
-      "reviewedOn": "2026-11-24",
-      "sourceLinks": 1,
-      "findings": 0,
-      "adviserAssociations": 1,
-      "priority": 7,
-      "tasks": [
-        "Deep document review and claim-level evidence",
-        "Find separately originating sources",
-        "Establish value basis or explicit non-disclosure"
-      ]
-    },
-    {
-      "id": "broadcom-vmware",
-      "title": "Broadcom / VMware",
-      "reviewedOn": "2026-11-24",
-      "sourceLinks": 2,
-      "findings": 0,
-      "adviserAssociations": 0,
-      "priority": 6,
-      "tasks": [
-        "Deep document review and claim-level evidence",
-        "Check bidder, seller, financing and regulatory counsel disclosures",
-        "Establish value basis or explicit non-disclosure"
-      ]
-    },
-    {
-      "id": "hpe-juniper",
-      "title": "Hewlett Packard Enterprise / Juniper Networks",
-      "reviewedOn": "2026-11-24",
-      "sourceLinks": 2,
-      "findings": 0,
-      "adviserAssociations": 0,
-      "priority": 6,
-      "tasks": [
-        "Deep document review and claim-level evidence",
-        "Check bidder, seller, financing and regulatory counsel disclosures",
-        "Establish value basis or explicit non-disclosure"
-      ]
-    },
-    {
-      "id": "microsoft-activision",
-      "title": "Microsoft / Activision Blizzard (restructured)",
-      "reviewedOn": "2026-11-24",
-      "sourceLinks": 3,
-      "findings": 0,
-      "adviserAssociations": 0,
-      "priority": 6,
-      "tasks": [
-        "Deep document review and claim-level evidence",
-        "Check bidder, seller, financing and regulatory counsel disclosures",
-        "Establish value basis or explicit non-disclosure"
-      ]
-    },
-    {
-      "id": "standard-chartered-dnn",
-      "title": "Standard Chartered / US$200m digitally native notes",
-      "reviewedOn": "2026-11-24",
-      "sourceLinks": 1,
-      "findings": 0,
-      "adviserAssociations": 1,
-      "priority": 6,
-      "tasks": [
-        "Deep document review and claim-level evidence",
-        "Find separately originating sources"
-      ]
-    },
-    {
-      "id": "synopsys-ansys",
-      "title": "Synopsys / Ansys",
-      "reviewedOn": "2026-11-24",
-      "sourceLinks": 2,
-      "findings": 0,
-      "adviserAssociations": 0,
-      "priority": 6,
-      "tasks": [
-        "Deep document review and claim-level evidence",
-        "Check bidder, seller, financing and regulatory counsel disclosures",
-        "Establish value basis or explicit non-disclosure"
-      ]
-    },
-    {
-      "id": "uk-logistics-cmbs",
-      "title": "UK Logistics 2026-3 / £603m CMBS",
-      "reviewedOn": "2026-11-24",
-      "sourceLinks": 1,
-      "findings": 0,
-      "adviserAssociations": 1,
-      "priority": 6,
-      "tasks": [
-        "Deep document review and claim-level evidence",
-        "Find separately originating sources"
-      ]
-    },
-    {
-      "id": "adobe-figma",
-      "title": "Adobe / Figma",
-      "reviewedOn": "2026-11-24",
-      "sourceLinks": 3,
-      "findings": 0,
-      "adviserAssociations": 0,
-      "priority": 5,
-      "tasks": [
-        "Deep document review and claim-level evidence",
-        "Check bidder, seller, financing and regulatory counsel disclosures"
-      ]
-    },
-    {
-      "id": "drax-bluefield",
-      "title": "Drax / Bluefield Solar Income Fund",
-      "reviewedOn": "2026-11-24",
-      "sourceLinks": 2,
-      "findings": 0,
-      "adviserAssociations": 0,
-      "priority": 5,
-      "tasks": [
-        "Deep document review and claim-level evidence",
-        "Check bidder, seller, financing and regulatory counsel disclosures"
+        "Establish value basis or explicit non-disclosure",
+        "Purchase price, funding, transaction announcement date, named buyer/seller counsel and exact contractual consent terms not established. Company material corroborates buyer identity/business context only; trade reporting relies on CMA for the regulatory finding. Monitor 26 November undertakings and subsequent decision."
       ]
     },
     {
       "id": "aab-kreston-reeves",
       "title": "AAB / Kreston Reeves",
       "reviewedOn": "2026-11-24",
-      "sourceLinks": 3,
-      "findings": 0,
+      "sourceLinks": 4,
+      "findings": 4,
       "adviserAssociations": 2,
-      "priority": 4,
+      "priority": 1,
       "tasks": [
-        "Deep document review and claim-level evidence",
-        "Establish value basis or explicit non-disclosure"
+        "Establish value basis or explicit non-disclosure",
+        "Price, ownership, funding and specific approval authorities and terms unverified."
+      ]
+    },
+    {
+      "id": "abp-ifm",
+      "title": "IFM Investors / Associated British Ports stakes",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 2,
+      "findings": 3,
+      "adviserAssociations": 1,
+      "priority": 1,
+      "tasks": [
+        "Establish value basis or explicit non-disclosure",
+        "Buyer counsel, price, financing and exact closing conditions not established; joint release explicitly withholds financial terms."
       ]
     },
     {
@@ -1129,138 +1435,12 @@
       "title": "Boralex / Wind2",
       "reviewedOn": "2026-11-24",
       "sourceLinks": 3,
-      "findings": 0,
-      "adviserAssociations": 1,
-      "priority": 4,
-      "tasks": [
-        "Deep document review and claim-level evidence",
-        "Establish value basis or explicit non-disclosure"
-      ]
-    },
-    {
-      "id": "goldman-celnor",
-      "title": "Goldman Sachs Alternatives / Celnor Group",
-      "reviewedOn": "2026-11-24",
-      "sourceLinks": 2,
-      "findings": 0,
-      "adviserAssociations": 1,
-      "priority": 4,
-      "tasks": [
-        "Deep document review and claim-level evidence",
-        "Establish value basis or explicit non-disclosure"
-      ]
-    },
-    {
-      "id": "pai-elemis",
-      "title": "PAI Partners / ELEMIS",
-      "reviewedOn": "2026-11-24",
-      "sourceLinks": 2,
-      "findings": 0,
-      "adviserAssociations": 1,
-      "priority": 4,
-      "tasks": [
-        "Deep document review and claim-level evidence",
-        "Establish value basis or explicit non-disclosure"
-      ]
-    },
-    {
-      "id": "tilleghem-saragossa",
-      "title": "Tilleghem Capital / Saragossa",
-      "reviewedOn": "2026-11-24",
-      "sourceLinks": 2,
-      "findings": 0,
-      "adviserAssociations": 1,
-      "priority": 4,
-      "tasks": [
-        "Deep document review and claim-level evidence",
-        "Establish value basis or explicit non-disclosure"
-      ]
-    },
-    {
-      "id": "abp-term-facility",
-      "title": "Associated British Ports / £300m infrastructure facility",
-      "reviewedOn": "2026-11-24",
-      "sourceLinks": 2,
-      "findings": 0,
-      "adviserAssociations": 1,
-      "priority": 3,
-      "tasks": [
-        "Deep document review and claim-level evidence"
-      ]
-    },
-    {
-      "id": "athora-picg",
-      "title": "Athora / Pension Insurance Corporation Group",
-      "reviewedOn": "2026-11-24",
-      "sourceLinks": 5,
-      "findings": 0,
-      "adviserAssociations": 2,
-      "priority": 3,
-      "tasks": [
-        "Deep document review and claim-level evidence"
-      ]
-    },
-    {
-      "id": "cary-consortium",
-      "title": "Nordic Capital / CPP Investments / Ontario Teachers’ — Cary Group",
-      "reviewedOn": "2026-11-24",
-      "sourceLinks": 3,
-      "findings": 0,
-      "adviserAssociations": 2,
-      "priority": 3,
-      "tasks": [
-        "Deep document review and claim-level evidence"
-      ]
-    },
-    {
-      "id": "cip-noriker-kilmarnock",
-      "title": "Copenhagen Infrastructure Partners / Noriker Kilmarnock South BESS",
-      "reviewedOn": "2026-11-24",
-      "sourceLinks": 2,
-      "findings": 0,
-      "adviserAssociations": 1,
-      "priority": 3,
-      "tasks": [
-        "Deep document review and claim-level evidence"
-      ]
-    },
-    {
-      "id": "international-paper-ds-smith",
-      "title": "International Paper / DS Smith",
-      "reviewedOn": "2026-11-24",
-      "sourceLinks": 2,
-      "findings": 0,
-      "adviserAssociations": 1,
-      "priority": 3,
-      "tasks": [
-        "Deep document review and claim-level evidence"
-      ]
-    },
-    {
-      "id": "itm-gbe-equity",
-      "title": "Great British Energy / ITM Power strategic equity investment",
-      "reviewedOn": "2026-11-24",
-      "sourceLinks": 3,
-      "findings": 0,
-      "adviserAssociations": 1,
-      "priority": 3,
-      "tasks": [
-        "Deep document review and claim-level evidence"
-      ]
-    },
-    {
-      "id": "sky-itv",
-      "title": "Sky / ITV Media and Entertainment",
-      "reviewedOn": "2026-11-24",
-      "sourceLinks": 4,
       "findings": 4,
-      "adviserAssociations": 0,
-      "priority": 2,
+      "adviserAssociations": 1,
+      "priority": 1,
       "tasks": [
-        "Check bidder, seller, financing and regulatory counsel disclosures",
-        "Executed transaction and content agreements not inspected.",
-        "Named counsel and funding terms not established.",
-        "Regulator reports and final decision outstanding."
+        "Establish value basis or explicit non-disclosure",
+        "Price, funding and project-level ownership and consent status remain unverified."
       ]
     },
     {
@@ -1292,6 +1472,96 @@
       ]
     },
     {
+      "id": "goldman-celnor",
+      "title": "Goldman Sachs Alternatives / Celnor Group",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 4,
+      "findings": 4,
+      "adviserAssociations": 3,
+      "priority": 1,
+      "tasks": [
+        "Establish value basis or explicit non-disclosure",
+        "Price, precise stake, leverage, rollover economics and closing date not established."
+      ]
+    },
+    {
+      "id": "mari-atg",
+      "title": "MARI / ATG Entertainment",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 3,
+      "findings": 4,
+      "adviserAssociations": 2,
+      "priority": 1,
+      "tasks": [
+        "Establish value basis or explicit non-disclosure",
+        "Price, financing and full adviser list",
+        "Formal Phase 1 start and final competition decision",
+        "Definitive structure and conditions beyond announcement"
+      ]
+    },
+    {
+      "id": "pai-elemis",
+      "title": "PAI Partners / ELEMIS",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 3,
+      "findings": 4,
+      "adviserAssociations": 3,
+      "priority": 1,
+      "tasks": [
+        "Establish value basis or explicit non-disclosure",
+        "Price, EBITDA, debt terms, separation schedules and closing date not established."
+      ]
+    },
+    {
+      "id": "tilleghem-saragossa",
+      "title": "Tilleghem Capital / Saragossa",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 4,
+      "findings": 4,
+      "adviserAssociations": 1,
+      "priority": 1,
+      "tasks": [
+        "Establish value basis or explicit non-disclosure",
+        "Price, stake, rights, primary/secondary split, funding and exact closing mechanics not established."
+      ]
+    },
+    {
+      "id": "abp-term-facility",
+      "title": "Associated British Ports / £300m infrastructure facility",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 2,
+      "findings": 4,
+      "adviserAssociations": 1,
+      "priority": 0,
+      "tasks": [
+        "Pricing, tenor, security, covenants, actual drawings and project allocation unverified."
+      ]
+    },
+    {
+      "id": "adobe-figma",
+      "title": "Adobe / Figma",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 7,
+      "findings": 4,
+      "adviserAssociations": 5,
+      "priority": 0,
+      "tasks": [
+        "Wachtell requires a verified firm profile before structured linkage; detailed regulatory scope and original contractual triggers require review."
+      ]
+    },
+    {
+      "id": "athora-picg",
+      "title": "Athora / Pension Insurance Corporation Group",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 6,
+      "findings": 4,
+      "adviserAssociations": 2,
+      "priority": 0,
+      "tasks": [
+        "Funding allocations, detailed capital effects, seller mandates and relocation approvals remain unverified."
+      ]
+    },
+    {
       "id": "aviva-direct-line",
       "title": "Aviva / Direct Line",
       "reviewedOn": "2026-11-24",
@@ -1302,6 +1572,18 @@
       "tasks": [
         "Exact amount drawn under bridge facility and ultimate refinancing terms are not established here.",
         "Post-closing synergy realisation and current capital effects require later results; do not treat projections as achieved."
+      ]
+    },
+    {
+      "id": "broadcom-vmware",
+      "title": "Broadcom / VMware",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 5,
+      "findings": 4,
+      "adviserAssociations": 1,
+      "priority": 0,
+      "tasks": [
+        "Wachtell, O'Melveny and Gibson Dunn need verified entity profiles before structured linkage. Closing debt, elections and foreign approvals remain open."
       ]
     },
     {
@@ -1318,6 +1600,54 @@
       ]
     },
     {
+      "id": "cary-consortium",
+      "title": "Nordic Capital / CPP Investments / Ontario Teachers’ — Cary Group",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 3,
+      "findings": 4,
+      "adviserAssociations": 2,
+      "priority": 0,
+      "tasks": [
+        "Overall price, ownership percentages, Nordic contribution, leverage and approval timetable not established."
+      ]
+    },
+    {
+      "id": "cip-noriker-kilmarnock",
+      "title": "Copenhagen Infrastructure Partners / Noriker Kilmarnock South BESS",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 3,
+      "findings": 4,
+      "adviserAssociations": 1,
+      "priority": 0,
+      "tasks": [
+        "Exact January date, sale price, debt/equity mix, contract terms and grid/revenue agreements not established."
+      ]
+    },
+    {
+      "id": "drax-bluefield",
+      "title": "Drax / Bluefield Solar Income Fund",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 6,
+      "findings": 5,
+      "adviserAssociations": 1,
+      "priority": 0,
+      "tasks": [
+        "Full scheme price/dividend bridge, bidder and specialist counsel, detailed facility terms and project liabilities."
+      ]
+    },
+    {
+      "id": "ep-ids-royal-mail",
+      "title": "EP Group / International Distribution Services (Royal Mail)",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 8,
+      "findings": 7,
+      "adviserAssociations": 1,
+      "priority": 0,
+      "tasks": [
+        "Actual financing and settlement amounts, compulsory acquisition date, bidder and lender counsel, and compliance with government commitments."
+      ]
+    },
+    {
       "id": "firstcash-ramsdens",
       "title": "FirstCash / Ramsdens",
       "reviewedOn": "2026-11-24",
@@ -1329,6 +1659,66 @@
         "Current operative scheme conditions, shareholder votes and closing status need further verification.",
         "The executed credit documentation and final funding draw have not been inspected.",
         "CMA decision and any remedies remain outstanding at review date."
+      ]
+    },
+    {
+      "id": "greencore-bakkavor",
+      "title": "Greencore / Bakkavor",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 6,
+      "findings": 4,
+      "adviserAssociations": 2,
+      "priority": 0,
+      "tasks": [
+        "Full scheme consideration, CVR, financing and final remedy implementation require further document-level research."
+      ]
+    },
+    {
+      "id": "harp-hargreaves-lansdown",
+      "title": "CVC / Nordic Capital / ADIA — Hargreaves Lansdown",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 5,
+      "findings": 6,
+      "adviserAssociations": 3,
+      "priority": 0,
+      "tasks": [
+        "Actual drawdowns, equity syndication, rollover allocation, individual regulatory approvals and post-completion financial performance."
+      ]
+    },
+    {
+      "id": "hpe-juniper",
+      "title": "Hewlett Packard Enterprise / Juniper Networks",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 5,
+      "findings": 5,
+      "adviserAssociations": 4,
+      "priority": 0,
+      "tasks": [
+        "Closing purchase-accounting bridge, actual debt utilisation and final US remedy compliance remain open."
+      ]
+    },
+    {
+      "id": "international-paper-ds-smith",
+      "title": "International Paper / DS Smith",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 8,
+      "findings": 4,
+      "adviserAssociations": 2,
+      "priority": 0,
+      "tasks": [
+        "Accounting acquisition value and other advisers require further reconciliation."
+      ]
+    },
+    {
+      "id": "itm-gbe-equity",
+      "title": "Great British Energy / ITM Power strategic equity investment",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 5,
+      "findings": 4,
+      "adviserAssociations": 1,
+      "priority": 0,
+      "tasks": [
+        "Grant disbursement, milestone terms, governance rights and manufacturing economics not fully verified."
       ]
     },
     {
@@ -1373,6 +1763,18 @@
       ]
     },
     {
+      "id": "microsoft-activision",
+      "title": "Microsoft / Activision Blizzard (restructured)",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 6,
+      "findings": 4,
+      "adviserAssociations": 1,
+      "priority": 0,
+      "tasks": [
+        "Target and specialist counsel, detailed rights agreement and funding reconciliation remain open."
+      ]
+    },
+    {
       "id": "nationwide-virgin",
       "title": "Nationwide / Virgin Money",
       "reviewedOn": "2026-11-24",
@@ -1383,6 +1785,20 @@
       "tasks": [
         "The complete acquisition scheme and funding documentation are not reviewed in this enrichment.",
         "No assertion of realised integration synergies or current capital position."
+      ]
+    },
+    {
+      "id": "nexfibre-substantial",
+      "title": "nexfibre / Substantial",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 5,
+      "findings": 4,
+      "adviserAssociations": 3,
+      "priority": 0,
+      "tasks": [
+        "Actual final clearance or remedy outcome",
+        "Definitive financing terms and seller-side counsel",
+        "Completion dates and final consideration"
       ]
     },
     {
@@ -1426,6 +1842,20 @@
       ]
     },
     {
+      "id": "sky-itv",
+      "title": "Sky / ITV Media and Entertainment",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 6,
+      "findings": 5,
+      "adviserAssociations": 1,
+      "priority": 0,
+      "tasks": [
+        "Executed transaction and content agreements not inspected.",
+        "Buyer counsel and funding terms not established.",
+        "Regulator reports and final decision outstanding."
+      ]
+    },
+    {
       "id": "softcat-gdt",
       "title": "Softcat / General Datatech",
       "reviewedOn": "2026-11-24",
@@ -1436,6 +1866,42 @@
       "tasks": [
         "Actual equity issue proceeds, drawdown, final price adjustments and closing not established by the reviewed accessible sources.",
         "Seller counsel and individual facility terms not established."
+      ]
+    },
+    {
+      "id": "standard-chartered-dnn",
+      "title": "Standard Chartered / US$200m digitally native notes",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 2,
+      "findings": 3,
+      "adviserAssociations": 1,
+      "priority": 0,
+      "tasks": [
+        "ISIN, coupon spread, ranking, issue price, final terms and admission record remain outstanding."
+      ]
+    },
+    {
+      "id": "synopsys-ansys",
+      "title": "Synopsys / Ansys",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 7,
+      "findings": 5,
+      "adviserAssociations": 3,
+      "priority": 0,
+      "tasks": [
+        "Detailed UK undertakings text and implementation, actual financing drawdowns, and post-close synergy realisation require further review."
+      ]
+    },
+    {
+      "id": "uk-logistics-cmbs",
+      "title": "UK Logistics 2026-3 / £603m CMBS",
+      "reviewedOn": "2026-11-24",
+      "sourceLinks": 3,
+      "findings": 3,
+      "adviserAssociations": 1,
+      "priority": 0,
+      "tasks": [
+        "July is earliest established public ratings disclosure, not a confirmed formal announcement or closing date; final offering circular, tranche terms and final ratings not yet reviewed."
       ]
     },
     {

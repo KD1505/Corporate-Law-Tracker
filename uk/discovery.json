@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-24T09:59:29.852Z",
+  "checkedAt": "2026-11-25T04:34:10.948Z",
   "items": [
     {
       "path": "/cma-cases/vivisol-slash-air-liquide-home-oxygen-services-business-merger-inquiry",
@@ -185,11 +185,6 @@
       "path": "/cma-cases/spreadex-slash-sporting-index-merger-inquiry",
       "title": "Spreadex / Sporting Index merger inquiry",
       "sourceUpdated": "2026-06-12T10:01:12Z"
-    },
-    {
-      "path": "/cma-cases/lb-group-slash-venator-uk-tio2-assets-merger-inquiry",
-      "title": "LB Group / Venator UK (TiO2 assets) merger inquiry",
-      "sourceUpdated": "2026-06-04T10:00:28Z"
     }
   ]
 }
