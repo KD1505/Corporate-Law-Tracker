@@ -1139,6 +1139,46 @@
       "model": "Notify supervisor promptly; preserve accurate record; assess confidentiality and scope under policy. Agree correction/recall and communication; document actions and prevent repeat through version controls. Do not conceal or contact recipient contrary to instructions.",
       "rubric": "Prompt escalation; confidentiality; mitigation; prevention.",
       "notice": "Original fictional exercise; not employer assessment, legal advice or work experience."
+    },
+    {
+      "id": "simulation-13",
+      "title": "Completion accounts — equity bridge and dispute",
+      "scenario": "Fictional Northbridge buyer has agreed £120m enterprise value with a completion-accounts mechanism. Prepare a short note for the supervising associate (suggested time: 25 minutes). All amounts are in GBP millions.",
+      "documents": "SPA extract: equity price = EV + cash − debt + (actual working capital − target working capital). Target working capital 14; cash 8; bank debt 25; actual working capital 11 before a disputed £2 overdue supplier invoice; the draft debt definition excludes ordinary trade payables. No other adjustments assumed. Seller excludes the invoice from working capital; buyer includes it as a current liability.",
+      "task": "Calculate both parties' equity price; explain the disputed item and what evidence is needed; suggest the next step and avoid double-counting it as debt and working capital.",
+      "model": "Seller calculation: 120 + 8 − 25 + (11 − 14) = £100m. Buyer calculation: actual working capital £9m after the £2m liability, so 120 + 8 − 25 + (9 − 14) = £98m. Difference £2m. Check whether invoice relates to pre-completion supply, accruals, underlying contracts, ledger and agreed accounting policies; confirm SPA definitions and dispute timetable. An overdue trade payable is not automatically financial debt. Avoid counting it in both categories. Escalate unresolved classification and preserve the disputed amount in the completion-accounts process; do not assert a final price before resolution.",
+      "rubric": "10 points: seller and buyer calculations 4; clear disputed item and double-count prevention 2; relevant evidence and accounting hierarchy 2; procedural next steps and caveat 2.",
+      "notice": "Original fictional exercise; not employer assessment, legal advice, actual work experience or independently reviewed training."
+    },
+    {
+      "id": "simulation-14",
+      "title": "Acquisition financing — covenant headroom and liquidity",
+      "scenario": "Fictional borrower Elm Group is preparing a financing update. Suggested time: 30 minutes. Use only the simplified contractual assumptions provided; no external legal rules are necessary.",
+      "documents": "Facility £80m, £50m drawn; no other debt; unrestricted cash £10m; LTM covenant EBITDA £20m. Net leverage covenant maximum 2.5x. A proposed £15m draw funds an immediate payment, leaving cash unchanged. Downside LTM EBITDA £17m. Facility requires no existing or resulting default at drawdown, subject to the terms. Ignore fees and other adjustments.",
+      "task": "Calculate current leverage, pro forma leverage and downside leverage. Explain whether undrawn commitments equal usable liquidity, then propose a concise escalation plan.",
+      "model": "Current net debt £40m; leverage 2.00x. After draw and spend, debt £65m, cash £10m, net debt £55m; leverage 2.75x, above 2.5x. Downside £55m/£17m = 3.24x. Current theoretical net debt ceiling £50m, headroom £10m before EBITDA changes. Undrawn £30m is not automatically available; verify exact test date, definitions, permitted adjustments, conditions, covenant cure and waivers with counsel. Escalate before draw; model smaller draw, equity injection or negotiated waiver. Do not say default has already occurred absent operative test mechanics.",
+      "rubric": "10 points: three ratios and headroom 4; distinction between commitment and availability 2; timing and documentation caveats 2; realistic mitigations and escalation 2.",
+      "notice": "Original fictional exercise; not employer assessment, legal advice, actual work experience or independently reviewed training."
+    },
+    {
+      "id": "simulation-15",
+      "title": "Legal research — source conflict and event chronology",
+      "scenario": "Fictional retail merger: a partner needs a two-paragraph briefing before a client call. Suggested time: 20 minutes. The excerpts below are invented, not real documents.",
+      "documents": "A. Issuer release 3 March: recommended offer announced, expected completion Q3 subject to conditions. B. Regulator update 4 June: Phase 1 concerns; undertakings may avoid reference. C. Issuer release 12 June: parties submitted remedies. D. Regulator update 18 June: regulator considers remedies potentially acceptable; consultation to follow. E. Trade newsletter 19 June: 'Deal cleared', cites D only.",
+      "task": "Write a verified chronology and short client briefing, identify the misleading claim and explain whether the newsletter independently corroborates clearance.",
+      "model": "3 March announced; 4 June concerns; 12 June remedies submitted per parties; 18 June regulator considers potential acceptability, consultation pending. The latest primary regulator statement does not establish final acceptance or clearance. Newsletter is derivative of D and its interpretation conflicts with the source. Do not advance recorded lifecycle to cleared or completed. Check later official notices, consultation, final undertakings and remaining transaction conditions. Make any Q3 estimate explicitly conditional and distinguish issuer from regulator statements.",
+      "rubric": "10 points: chronology with correct attribution 3; accurate lifecycle distinction 3; shared-origin analysis 2; concise practical follow-up 2.",
+      "notice": "Original fictional exercise; not employer assessment, legal advice, actual work experience or independently reviewed training."
+    },
+    {
+      "id": "simulation-16",
+      "title": "Commercial contracts — obligation and remedy matrix",
+      "scenario": "Fictional customer Finch Ltd is negotiating a software services renewal. Suggested time: 30 minutes. Produce a short negotiation matrix for counsel based on the following invented extracts.",
+      "documents": "Annual fee £240,000. Availability target 99.9% monthly, excluding planned maintenance up to 6 hours. Credit 5% of monthly fee below 99.9%; 10% below 99.5%; credits stated exclusive remedy for availability failure. General liability cap 100% annual fee; confidentiality carve-out unclear. Supplier may appoint subprocessors with 10 days' notice; exit assistance available at unspecified rates. Customer requires data return within 30 days.",
+      "task": "Calculate the credit at 99.4% assuming a full month and non-overlapping bands; identify four risks, proposed amendments, and priority. Explain unresolved points.",
+      "model": "Monthly fee £20,000; 10% credit £2,000 at 99.4%, assuming applicable exclusions and non-cumulative bands. High: exclusive availability remedy may leave repeated material outages inadequately addressed; propose chronic failure termination and clarify bands. High: confidentiality exposure and ambiguous cap carve-out; clarify cap structure and negotiate proportionate treatment. High: subprocessor changes require data protection and contractual controls; propose objection/notification process and compliant terms where applicable. Medium/high: undefined exit fees and data return obligations; agree format, timelines, deletion and reasonable pre-agreed rates. Verify full contract, outage definition, governing law and customer risk appetite. This is negotiation analysis, not a legal enforceability opinion.",
+      "rubric": "10 points: calculation and assumptions 2; four risk-specific amendments 4; prioritisation 2; unresolved facts and caveats 2.",
+      "notice": "Original fictional exercise; not employer assessment, legal advice, actual work experience or independently reviewed training."
     }
   ],
   "notice": "Original practice material including fictional work scenarios; no employer endorsement, psychometric validity or independent practitioner review claimed."
