@@ -1,0 +1,10 @@
+import {test} from "node:test";
+import assert from "node:assert/strict";
+import {inspect} from "./audit.mjs";
+const fixture=()=>{const row={id:"role",kind:"Employment",deadline:"2026-11-24",verifiedOn:"2026-11-24",sponsorshipState:"unknown"};return {uk:{opportunities:[{...row}],records:[{id:"deal",category:"Transactions",sources:[{url:"https://example.com/document"}],research:{claims:[{text:"Sample claim",evidence:[{url:"https://example.com/document",publisher:"Example",locator:"p. 1"}]}]}}]},careers:{opportunities:[{...row}],employers:[],lessons:[]},learning:{modules:[],questions:[],simulations:[]},discovery:{sources:[{id:"source",status:"ok"}],leads:[{id:"lead"}]}}};
+const run=x=>inspect(x,"2026-11-25");
+test("structural success is not certification or live vacancy confirmation",()=>{const r=run(fixture());assert.deepEqual(r.errors,[]);assert.equal(r.careers.elapsedDeadlines,1);assert.equal(r.careers.confirmedLiveVacancies,null);assert.equal(r.discovery.unreviewedLeads,1);assert.match(r.commercialLaunch,/BLOCKED/);});
+test("dataset divergence is rejected even when IDs match",()=>{const f=fixture();f.careers.opportunities[0].deadline=null;assert.match(run(f).errors.join(" "),/divergence/);});
+test("unanchored findings are rejected",()=>{const f=fixture();f.uk.records[0].research.claims[0].evidence=[];assert.match(run(f).errors.join(" "),/Unanchored/);});
+test("non-unknown sponsorship needs a source",()=>{const f=fixture();for(const row of [f.uk.opportunities[0],f.careers.opportunities[0]])row.sponsorshipState="confirmed";assert.match(run(f).errors.join(" "),/Unsubstantiated/);});
+test("invalid calendar dates and duplicate IDs fail",()=>{const f=fixture();for(const row of [f.uk.opportunities[0],f.careers.opportunities[0]])row.deadline="2026-02-30";f.discovery.sources.push({...f.discovery.sources[0]});const r=run(f);assert.match(r.errors.join(" "),/Invalid deadline/);assert.match(r.errors.join(" "),/duplicate/);});
