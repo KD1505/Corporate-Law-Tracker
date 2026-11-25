@@ -4,7 +4,7 @@ export function validate(data,learning,registry){
  for(const f of data.employers){if(!https(f.url)||!f.exercise||!f.reviewState)errors.push("employer "+f.id);for(const x of f.researchFacts||[])if(!https(x.url)||!x.value||!day(x.reviewedOn))errors.push("employer fact "+f.id)}
  for(const r of data.resources)if(!https(r.url)||!r.status||!day(r.reviewedOn))errors.push("resource "+r.id);
  const q=[...data.lessons,...learning.modules,...learning.questions];const seen=new Set();for(const x of q){if(seen.has(x.id)||!x.explanation||!Array.isArray(x.options)||x.options.length<2||new Set(x.options).size!==x.options.length||!Number.isInteger(x.answer)||x.answer<0||x.answer>=x.options.length)errors.push("invalid exercise "+x.id);seen.add(x.id)}
- for(const x of learning.simulations)if(!x.documents||!x.task||!x.model||!x.rubric||!x.notice)errors.push("incomplete simulation "+x.id);
+ const simulationIds=new Set();for(const x of learning.simulations){if(!x.id||simulationIds.has(x.id)||!x.title||!x.scenario||!x.documents||!x.task||!x.model||!x.rubric||!x.notice)errors.push("incomplete or duplicate simulation "+x.id);simulationIds.add(x.id);}
  for(const s of registry.sources)if(!https(s.url)||!s.id||!["listing","employer","resource","greenhouse"].includes(s.kind))errors.push("source "+s.id);
  return errors;
 }

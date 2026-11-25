@@ -32,6 +32,7 @@ jobs:
       - run: node engine/uk/browser-test.mjs
       - run: node engine/uk/quality-browser.mjs
       - run: node engine/uk/careers/browser-test.mjs
+      - run: node --test engine/uk/commercial/health.test.mjs && node engine/uk/commercial/health-browser.mjs
       - if: always()
         uses: actions/upload-artifact@v4
         with:
