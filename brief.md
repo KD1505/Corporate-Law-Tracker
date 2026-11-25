@@ -1,23 +1,14 @@
 # Corporate Law Tracker - Daily Brief
-_24 November 2026_
+_25 November 2026_
 
-2 new development(s).
+1 new development(s).
 
-### Gamco Ltd (540097)
-**MA** · India · ✓ Verified
+### Perry AI raises $2.2 million in seed funding to expand AI-powered legal platform
+**PE** · $2.2 mn · Cross-border · Reported
 
-Gamco Ltd (540097) - The Company has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulation , 2011 from Mrs. Rashi Goenka.
+London-based legal technology startup Perry AI has raised $2.2 million in an oversubscribed seed funding round led by Haatch, with participation from Antler, Arāya Ventures, Syncorp Ventures and other international investors. Founded by…
 
-[Open source ↗](https://www.bseindia.com/xml-data/corpfiling/AttachLive/e98df868-5eec-431b-8b99-189734d15ebe.pdf)
-
----
-
-### Gamco Ltd (540097)
-**MA** · India · ✓ Verified
-
-Gamco Ltd (540097) - The Company has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Sharws & Takeovers) Regulations, 2011 from Mrs. Raj Goenka.
-
-[Open source ↗](https://www.bseindia.com/xml-data/corpfiling/AttachLive/ba22bea3-a115-4226-8669-df701734a49a.pdf)
+[Open source ↗](https://www.barandbench.com/law-firms/dealstreet/perry-ai-raises-22-million-in-seed-funding-to-expand-ai-powered-legal-platform)
 
 ---
 
