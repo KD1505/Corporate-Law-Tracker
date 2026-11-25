@@ -168,6 +168,18 @@
             "question": "How do amended exchange terms, dividend adjustments and closing conditions interact?",
             "why": "Model shareholder consideration, funding and changes to the combined balance sheet; do not equate combined EV with purchase price.",
             "documents": "Latest merger agreement, proxy/prospectus and financing disclosures."
+          },
+          {
+            "name": "Cross-border approvals",
+            "question": "Which separate competition, corporate and listing approvals are still required?",
+            "why": "Maintain jurisdiction-specific conditions and distinguish an offer of undertakings from acceptance or clearance.",
+            "documents": "Regulator decisions, updated merger agreement and approval tracker."
+          },
+          {
+            "name": "Governance and integration",
+            "question": "How should board composition, works council consultation and integration planning be coordinated?",
+            "why": "Check actual governance documents and consultation conditions; assess whether divestment changes the original operating model.",
+            "documents": "Proxy/prospectus, governance documents and integration plan."
           }
         ],
         "documents": [
