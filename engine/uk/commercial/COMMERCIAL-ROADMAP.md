@@ -30,3 +30,6 @@ Create claim-level review inventory with stable claim IDs and source lineage, tr
 
 ## Tranche 02 — evidence review inventory
 Generate versioned review inventory using `node engine/uk/commercial/evidence-inventory.mjs`; see EVIDENCE-REVIEW.md. All items remain pending. Atomic decomposition, source-origin/rights assessment, independent review and review-register integration outstanding.
+
+## Tranche 03 — revision-bound source checks
+Initial six deadline checks: five current regulator extracts support the recorded dates; one PDF could not be retrieved. Register binds exact statement and evidence snapshots, distinguishes stale revisions and blocked retrieval, and does not certify professional review. Next: recheck blocked deadline and extend to atomic financial/adviser claims and rights review.

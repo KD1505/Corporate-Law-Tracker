@@ -1,0 +1,155 @@
+{
+  "scope": "Public CMA source extracts, not independent review or live guarantee. Checked via retrieved search results on 25 November 2026; one source inaccessible.",
+  "entries": [
+    {
+      "id": "ocs-mitie/deadline/current",
+      "snapshot": {
+        "statement": {
+          "date": "2027-01-20",
+          "label": "CMA Phase 1 decision deadline",
+          "source": "https://www.gov.uk/cma-cases/ocs-slash-mitie-merger-inquiry"
+        },
+        "qualification": "recorded-deadline",
+        "evidence": [
+          {
+            "url": "https://www.gov.uk/cma-cases/ocs-slash-mitie-merger-inquiry",
+            "publisher": null,
+            "locator": null
+          }
+        ]
+      },
+      "checkedOn": "2026-11-25",
+      "method": "AI-assisted public-source editorial check",
+      "outcome": "source-extract-support",
+      "source": "https://www.gov.uk/cma-cases/ocs-slash-mitie-merger-inquiry",
+      "locator": "Statutory timetable",
+      "note": "Phase 1 decision due 20 January 2027; possible statutory extension.",
+      "independentReview": false
+    },
+    {
+      "id": "firstcash-ramsdens/deadline/current",
+      "snapshot": {
+        "statement": {
+          "date": "2026-12-22",
+          "label": "CMA Phase 1 decision deadline",
+          "source": "https://www.gov.uk/cma-cases/firstcash-slash-ramsdens-merger-inquiry"
+        },
+        "qualification": "recorded-deadline",
+        "evidence": [
+          {
+            "url": "https://www.gov.uk/cma-cases/firstcash-slash-ramsdens-merger-inquiry",
+            "publisher": null,
+            "locator": null
+          }
+        ]
+      },
+      "checkedOn": "2026-11-25",
+      "method": "AI-assisted public-source editorial check",
+      "outcome": "source-extract-support",
+      "source": "https://www.gov.uk/cma-cases/firstcash-slash-ramsdens-merger-inquiry",
+      "locator": "Statutory timetable",
+      "note": "Phase 1 decision due 22 December 2026; possible statutory extension.",
+      "independentReview": false
+    },
+    {
+      "id": "sky-itv/deadline/current",
+      "snapshot": {
+        "statement": {
+          "date": "2027-01-27",
+          "label": "CMA and Ofcom reports due",
+          "source": "https://www.gov.uk/cma-cases/sky-slash-itv-merger-inquiry"
+        },
+        "qualification": "recorded-deadline",
+        "evidence": [
+          {
+            "url": "https://www.gov.uk/cma-cases/sky-slash-itv-merger-inquiry",
+            "publisher": null,
+            "locator": null
+          }
+        ]
+      },
+      "checkedOn": "2026-11-25",
+      "method": "AI-assisted public-source editorial check",
+      "outcome": "source-extract-support",
+      "source": "https://www.gov.uk/cma-cases/sky-slash-itv-merger-inquiry",
+      "locator": "Statutory timetable",
+      "note": "CMA and Ofcom reports to Secretary of State due 17:00 on 27 January 2027.",
+      "independentReview": false
+    },
+    {
+      "id": "mari-atg/deadline/current",
+      "snapshot": {
+        "statement": {
+          "date": "2026-12-01",
+          "label": "CMA invitation to comment closes",
+          "source": "https://www.gov.uk/cma-cases/mari-slash-atg-entertainment-merger-inquiry"
+        },
+        "qualification": "recorded-deadline",
+        "evidence": [
+          {
+            "url": "https://www.gov.uk/cma-cases/mari-slash-atg-entertainment-merger-inquiry",
+            "publisher": null,
+            "locator": null
+          }
+        ]
+      },
+      "checkedOn": "2026-11-25",
+      "method": "AI-assisted public-source editorial check",
+      "outcome": "source-extract-support",
+      "source": "https://www.gov.uk/cma-cases/mari-slash-atg-entertainment-merger-inquiry",
+      "locator": "Statutory timetable",
+      "note": "Invitation to comment ends 1 December 2026; not a clearance or decision date.",
+      "independentReview": false
+    },
+    {
+      "id": "nexfibre-substantial/deadline/current",
+      "snapshot": {
+        "statement": {
+          "date": "2026-12-15",
+          "label": "CMA Phase 2 statutory deadline",
+          "source": "https://www.gov.uk/cma-cases/nexfibre-slash-substantial-merger-inquiry"
+        },
+        "qualification": "recorded-deadline",
+        "evidence": [
+          {
+            "url": "https://www.gov.uk/cma-cases/nexfibre-slash-substantial-merger-inquiry",
+            "publisher": null,
+            "locator": null
+          }
+        ]
+      },
+      "checkedOn": "2026-11-25",
+      "method": "AI-assisted public-source editorial check",
+      "outcome": "source-extract-support",
+      "source": "https://www.gov.uk/cma-cases/nexfibre-slash-substantial-merger-inquiry",
+      "locator": "Phase 2 administrative timetable",
+      "note": "Statutory deadline listed as 15 December 2026.",
+      "independentReview": false
+    },
+    {
+      "id": "vivisol-airliquide/deadline/current",
+      "snapshot": {
+        "statement": {
+          "date": "2026-11-26",
+          "label": "Deadline for undertakings in lieu",
+          "source": "https://assets.publishing.service.gov.uk/media/6afe99192ee8ec8187b570fa/Summary_of_phase_1_decision.pdf"
+        },
+        "qualification": "recorded-deadline",
+        "evidence": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/6afe99192ee8ec8187b570fa/Summary_of_phase_1_decision.pdf",
+            "publisher": null,
+            "locator": null
+          }
+        ]
+      },
+      "checkedOn": "2026-11-25",
+      "method": "AI-assisted public-source editorial check",
+      "outcome": "retrieval-blocked",
+      "source": "https://assets.publishing.service.gov.uk/media/6afe99192ee8ec8187b570fa/Summary_of_phase_1_decision.pdf",
+      "locator": null,
+      "note": "Original PDF could not be retrieved in this pass; no confirmation or contradiction established.",
+      "independentReview": false
+    }
+  ]
+}

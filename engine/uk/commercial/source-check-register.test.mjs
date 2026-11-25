@@ -1,0 +1,9 @@
+import {test} from "node:test";
+import assert from "node:assert/strict";
+import {evaluate} from "./source-check-register.mjs";
+const fixture=()=>{const url="https://example.com/case";const snapshot={statement:{date:"2026-12-01"},evidence:[{url,publisher:null,locator:null}],qualification:"recorded-deadline"};return {inventory:{rows:[{id:"a/deadline/current",...structuredClone(snapshot),revision:"test"}]},register:{entries:[{id:"a/deadline/current",snapshot,checkedOn:"2026-11-25",method:"AI-assisted public-source editorial check",outcome:"source-extract-support",source:url,locator:"Timetable",note:"Date matches",independentReview:false}]}}};
+test("source match never counts as independent review",()=>{const f=fixture();const r=evaluate(f.inventory,f.register);assert.deepEqual(r.errors,[]);assert.equal(r.supported,1);assert.equal(r.independentReviews,0);});
+test("changed statement invalidates old review",()=>{const f=fixture();f.inventory.rows[0].statement.date="2026-12-02";const r=evaluate(f.inventory,f.register);assert.equal(r.supported,0);assert.equal(r.stale,1);});
+test("changed source invalidates old review",()=>{const f=fixture();f.inventory.rows[0].evidence[0].url="https://example.com/new";assert.equal(evaluate(f.inventory,f.register).stale,1);});
+test("fake independent review and duplicate attempts rejected",()=>{const f=fixture();f.register.entries[0].independentReview=true;f.register.entries.push(structuredClone(f.register.entries[0]));const r=evaluate(f.inventory,f.register);assert.match(r.errors.join(" "),/Invalid/);assert.match(r.errors.join(" "),/Duplicate/);});
+test("blocked retrieval not counted as support",()=>{const f=fixture();f.register.entries[0].outcome="retrieval-blocked";f.register.entries[0].locator=null;const r=evaluate(f.inventory,f.register);assert.equal(r.blocked,1);assert.equal(r.supported,0);});

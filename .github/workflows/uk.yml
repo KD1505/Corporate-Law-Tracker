@@ -24,6 +24,7 @@ jobs:
       - run: node --check uk/app.js && node --check uk/research.js && node --test engine/uk/test.mjs engine/uk/research-audit.test.mjs engine/uk/nightly-research.test.mjs engine/uk/careers/test.mjs && node engine/uk/careers/discover.mjs --check && node --check uk/careers/workspace.js && node engine/uk/nightly-research.mjs --check && node engine/uk/research-audit.mjs > /tmp/uk-research-audit.json && node engine/uk/render.mjs --check
       - run: node --test engine/uk/commercial/audit.test.mjs && node engine/uk/commercial/audit.mjs
       - run: node --test engine/uk/commercial/evidence-inventory.test.mjs && node engine/uk/commercial/evidence-inventory.mjs > /tmp/uk-evidence-review.json
+      - run: node --test engine/uk/commercial/source-check-register.test.mjs && node engine/uk/commercial/source-check-register.mjs
       - run: npm install --no-save --package-lock=false playwright-core@1.51.1 axe-core@4.10.3
       - run: node engine/uk/browser-test.mjs
       - run: node engine/uk/quality-browser.mjs
