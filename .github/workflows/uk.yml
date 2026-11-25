@@ -23,6 +23,7 @@ jobs:
           node-version: '22'
       - run: node --check uk/app.js && node --check uk/research.js && node --test engine/uk/test.mjs engine/uk/research-audit.test.mjs engine/uk/nightly-research.test.mjs engine/uk/careers/test.mjs && node engine/uk/careers/discover.mjs --check && node --check uk/careers/workspace.js && node engine/uk/nightly-research.mjs --check && node engine/uk/research-audit.mjs > /tmp/uk-research-audit.json && node engine/uk/render.mjs --check
       - run: node --test engine/uk/commercial/audit.test.mjs && node engine/uk/commercial/audit.mjs
+      - run: node --check uk/careers/opportunity-status.js && node --test engine/uk/careers/opportunity-status.test.mjs
       - run: node --test engine/uk/commercial/evidence-inventory.test.mjs && node engine/uk/commercial/evidence-inventory.mjs > /tmp/uk-evidence-review.json
       - run: node --test engine/uk/commercial/source-check-register.test.mjs && node engine/uk/commercial/source-check-register.mjs
       - run: node --test engine/uk/commercial/source-rights.test.mjs && node engine/uk/commercial/source-rights.mjs > /tmp/uk-source-rights.json
