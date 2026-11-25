@@ -1,5 +1,5 @@
 {
-  "scope": "Public CMA source extracts, not independent review or live guarantee. Checked via retrieved search results on 25 November 2026; one source inaccessible.",
+  "scope": "AI-assisted source extract checks, not independent review or live guarantee. Includes same-day rechecks with explicit attempt numbers.",
   "entries": [
     {
       "id": "ocs-mitie/deadline/current",
@@ -149,6 +149,179 @@
       "source": "https://assets.publishing.service.gov.uk/media/6afe99192ee8ec8187b570fa/Summary_of_phase_1_decision.pdf",
       "locator": null,
       "note": "Original PDF could not be retrieved in this pass; no confirmation or contradiction established.",
+      "independentReview": false
+    },
+    {
+      "id": "vivisol-airliquide/deadline/current",
+      "snapshot": {
+        "statement": {
+          "date": "2026-11-26",
+          "label": "Deadline for undertakings in lieu",
+          "source": "https://assets.publishing.service.gov.uk/media/6afe99192ee8ec8187b570fa/Summary_of_phase_1_decision.pdf"
+        },
+        "qualification": "recorded-deadline",
+        "evidence": [
+          {
+            "url": "https://assets.publishing.service.gov.uk/media/6afe99192ee8ec8187b570fa/Summary_of_phase_1_decision.pdf",
+            "publisher": null,
+            "locator": null
+          }
+        ]
+      },
+      "checkedOn": "2026-11-25",
+      "method": "AI-assisted public-source editorial check",
+      "outcome": "source-extract-support",
+      "source": "https://assets.publishing.service.gov.uk/media/6afe99192ee8ec8187b570fa/Summary_of_phase_1_decision.pdf",
+      "locator": "Decision summary, paragraphs 3 and 16 (pages 1 and 3)",
+      "note": "Retrieved original PDF text confirms published 26 November 2026 deadline for offering undertakings in lieu. Screenshot unavailable; no clearance or later procedural outcome inferred.",
+      "independentReview": false,
+      "attempt": 2
+    },
+    {
+      "id": "mccormick-unilever/financial-value/announced%20unilever%20foods%20enterprise%20value",
+      "snapshot": {
+        "statement": {
+          "label": "Announced Unilever Foods enterprise value",
+          "amount": "US$44.8bn",
+          "numericAmount": 44800000000,
+          "currency": "USD",
+          "basis": "enterprise-value",
+          "source": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+          "unit": "currency",
+          "disclosure": "approximate"
+        },
+        "qualification": "recorded-value",
+        "evidence": [
+          {
+            "url": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+            "publisher": null,
+            "locator": null
+          }
+        ]
+      },
+      "checkedOn": "2026-11-25",
+      "method": "AI-assisted public-source editorial check",
+      "outcome": "source-extract-support",
+      "source": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+      "locator": "Transaction Highlights / consideration calculation",
+      "note": "Issuer announcement supports approximately USD 44.8 billion enterprise value; not realised closing consideration.",
+      "independentReview": false
+    },
+    {
+      "id": "mccormick-unilever/financial-value/announced%20cash%20component%20(subject%20to%20adjustments)",
+      "snapshot": {
+        "statement": {
+          "label": "Announced cash component (subject to adjustments)",
+          "amount": "US$15.7bn",
+          "source": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+          "basis": "cash-component",
+          "currency": "USD",
+          "numericAmount": 15700000000,
+          "unit": "currency",
+          "disclosure": "stated"
+        },
+        "qualification": "recorded-value",
+        "evidence": [
+          {
+            "url": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+            "publisher": null,
+            "locator": null
+          }
+        ]
+      },
+      "checkedOn": "2026-11-25",
+      "method": "AI-assisted public-source editorial check",
+      "outcome": "source-extract-support",
+      "source": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+      "locator": "Transaction Highlights / consideration calculation",
+      "note": "USD 15.7 billion cash at closing subject to adjustments; not cash already paid.",
+      "independentReview": false
+    },
+    {
+      "id": "mccormick-unilever/financial-value/committed%20bridge%20financing%20(not%20deal%20value)",
+      "snapshot": {
+        "statement": {
+          "label": "Committed bridge financing (not deal value)",
+          "amount": "US$15.7bn",
+          "source": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+          "basis": "financing-commitment",
+          "currency": "USD",
+          "numericAmount": 15700000000,
+          "unit": "currency",
+          "disclosure": "stated"
+        },
+        "qualification": "recorded-value",
+        "evidence": [
+          {
+            "url": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+            "publisher": null,
+            "locator": null
+          }
+        ]
+      },
+      "checkedOn": "2026-11-25",
+      "method": "AI-assisted public-source editorial check",
+      "outcome": "source-extract-support",
+      "source": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+      "locator": "Financing and leverage",
+      "note": "USD 15.7 billion committed bridge financing; separate from acquisition consideration, not a drawdown.",
+      "independentReview": false
+    },
+    {
+      "id": "mccormick-unilever/financial-value/specified%20termination%20fee%20(conditional%2C%20not%20purchase%20price)",
+      "snapshot": {
+        "statement": {
+          "label": "Specified termination fee (conditional, not purchase price)",
+          "amount": "US$420m",
+          "numericAmount": 420000000,
+          "currency": "USD",
+          "basis": "termination-fee",
+          "source": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+          "unit": "currency",
+          "disclosure": "stated"
+        },
+        "qualification": "recorded-value",
+        "evidence": [
+          {
+            "url": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+            "publisher": null,
+            "locator": null
+          }
+        ]
+      },
+      "checkedOn": "2026-11-25",
+      "method": "AI-assisted public-source editorial check",
+      "outcome": "source-extract-support",
+      "source": "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
+      "locator": "Appendix 1 / Merger Agreement",
+      "note": "Conditional USD 420 million termination fee in specified circumstances, not purchase consideration.",
+      "independentReview": false
+    },
+    {
+      "id": "mccormick-unilever/legal-adviser/clifford%20chance/unilever/seller-side%20combination",
+      "snapshot": {
+        "statement": {
+          "firmId": "clifford-chance",
+          "firm": "Clifford Chance",
+          "client": "Unilever",
+          "scope": "Seller-side combination",
+          "source": "https://www.cliffordchance.com/news/news/2026/03/clifford-chance-advises-unilever-on-the-45bn-combination-of-unilever-foods1-with-mccormick-and-company-inc.html"
+        },
+        "qualification": "recorded-attribution",
+        "evidence": [
+          {
+            "url": "https://www.cliffordchance.com/news/news/2026/03/clifford-chance-advises-unilever-on-the-45bn-combination-of-unilever-foods1-with-mccormick-and-company-inc.html",
+            "publisher": null,
+            "locator": null
+          }
+        ]
+      },
+      "checkedOn": "2026-11-25",
+      "method": "AI-assisted public-source editorial check",
+      "outcome": "source-extract-support",
+      "source": "https://www.cliffordchance.com/news/news/2026/03/clifford-chance-advises-unilever-on-the-45bn-combination-of-unilever-foods1-with-mccormick-and-company-inc.html",
+      "locator": "31 March 2026 mandate announcement heading",
+      "note": "Firm's own disclosure identifies Unilever as client for the combination. No exclusivity, exact engagement terms or independent confirmation inferred.",
       "independentReview": false
     }
   ]
