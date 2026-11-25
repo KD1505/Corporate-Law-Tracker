@@ -374,11 +374,11 @@
       "prompt": "Revenue £150m, EBITDA £30m. EBITDA margin?",
       "options": [
         "5%",
-        "20%",
         "30%",
+        "20%",
         "50%"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "30/150=20%."
     },
     {
@@ -386,12 +386,12 @@
       "skill": "Numerical",
       "prompt": "Debt £60m and cash £15m. Net debt, ignoring other items?",
       "options": [
-        "£75m",
         "£45m",
+        "£75m",
         "£15m",
         "£60m"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Net debt is debt less cash."
     },
     {
@@ -401,10 +401,10 @@
       "options": [
         "£90m",
         "£120m",
-        "£150m",
-        "£30m"
+        "£30m",
+        "£150m"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanation": "EV equals equity plus net debt in the simplified model."
     },
     {
@@ -427,10 +427,10 @@
       "options": [
         "£130m",
         "£80m",
-        "£50m",
-        "£30m"
+        "£30m",
+        "£50m"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Commitment minus drawn = 30; availability may depend on terms."
     },
     {
@@ -451,12 +451,12 @@
       "skill": "Numerical",
       "prompt": "An offer pays 90p cash plus a 5p dividend. Total shareholder amount?",
       "options": [
-        "95p",
         "90p",
         "85p",
-        "5p"
+        "5p",
+        "95p"
       ],
-      "answer": 0,
+      "answer": 3,
       "explanation": "Total is 95p; bidder cash is only 90p."
     },
     {
@@ -464,12 +464,12 @@
       "skill": "Numerical",
       "prompt": "A £12m loan bears 5% annual simple interest. Annual interest?",
       "options": [
-        "£60,000",
         "£600,000",
+        "£60,000",
         "£6m",
         "£12.6m"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "12m×0.05=£600k."
     },
     {
@@ -491,11 +491,11 @@
       "prompt": "Every eligible applicant has a degree. Maya has a degree. Is she necessarily eligible?",
       "options": [
         "Yes",
-        "No",
         "Yes, if law degree",
+        "No",
         "Only if a graduate"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Necessary does not imply sufficient."
     },
     {
@@ -503,12 +503,12 @@
       "skill": "Critical reasoning",
       "prompt": "No deal may close before regulatory approval. Approval has been obtained. Must it close?",
       "options": [
-        "Yes",
         "No",
+        "Yes",
         "It already closed",
         "Approval is irrelevant"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Other conditions and decisions may remain."
     },
     {
@@ -529,12 +529,12 @@
       "skill": "Critical reasoning",
       "prompt": "A firm represented a lender on one acquisition. What is established?",
       "options": [
+        "Firm had that lender mandate",
         "Firm advised buyer",
         "Firm advises every lender",
-        "Firm had that lender mandate",
         "Firm is market leader"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": "The specific client and role only."
     },
     {
@@ -543,11 +543,11 @@
       "prompt": "A published deadline has passed. What is established?",
       "options": [
         "All roles are closed forever",
-        "Published deadline passed; check for extensions",
         "Candidate was rejected",
-        "Employer ceased hiring"
+        "Employer ceased hiring",
+        "Published deadline passed; check for extensions"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "An elapsed deadline does not establish any extension or individual status."
     },
     {
@@ -556,11 +556,11 @@
       "prompt": "Two websites reproduce the same issuer release. Independent corroboration?",
       "options": [
         "Yes always",
-        "No, shared origin",
         "Only if different domains",
+        "No, shared origin",
         "Only if both quote price"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Different domains do not establish independent evidence."
     },
     {
@@ -582,11 +582,11 @@
       "prompt": "A conditional offer is announced. Can completion be asserted?",
       "options": [
         "Yes",
-        "No",
         "Only if counsel listed",
-        "If price is known"
+        "If price is known",
+        "No"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Announcement is distinct from completion."
     },
     {
@@ -595,11 +595,11 @@
       "prompt": "A release says the buyer may raise additional debt. Does it say the buyer has drawn it?",
       "options": [
         "Yes",
-        "No",
         "Debt equals consideration",
-        "Not if international"
+        "Not if international",
+        "No"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "May raise is not actual drawing."
     },
     {
@@ -607,12 +607,12 @@
       "skill": "Verbal reasoning",
       "prompt": "A report gives projected capacity in development. Which statement is supported?",
       "options": [
-        "All capacity is operating",
         "Capacity is planned, not necessarily operating",
+        "All capacity is operating",
         "All permits secured",
         "Revenue is guaranteed"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Development status is distinct from operational capacity."
     },
     {
@@ -621,11 +621,11 @@
       "prompt": "The application says experience desirable. Is it explicitly mandatory?",
       "options": [
         "Yes",
-        "No",
         "Only for graduates",
+        "No",
         "Always two years"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Desirable is not the same as mandatory; confirm other criteria."
     },
     {
@@ -646,12 +646,12 @@
       "skill": "Verbal reasoning",
       "prompt": "A role is hybrid; no days specified. What can you infer?",
       "options": [
-        "Exactly two office days",
         "Office location and schedule unknown unless stated",
+        "Exactly two office days",
         "Fully remote",
         "Five office days"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Do not invent attendance frequency."
     },
     {
@@ -673,11 +673,11 @@
       "prompt": "You receive a suspicious email requesting client data. Best action?",
       "options": [
         "Reply with data",
-        "Verify via approved channel and report if appropriate",
         "Forward to personal email",
-        "Ignore all messages forever"
+        "Ignore all messages forever",
+        "Verify via approved channel and report if appropriate"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Avoid unverified disclosure."
     },
     {
@@ -685,12 +685,12 @@
       "skill": "Situational judgement",
       "prompt": "Two sources disagree on acquisition value. Best action?",
       "options": [
-        "Use larger number",
         "Reconcile date, basis and scope; flag unresolved difference",
+        "Use larger number",
         "Average both",
         "Delete both"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Disagreement may arise from distinct valuation bases."
     },
     {
@@ -712,11 +712,11 @@
       "prompt": "A client asks for advice before the supervisor approves it. Best action?",
       "options": [
         "Give definitive advice independently",
-        "Explain timing and obtain appropriate review",
         "Send draft marked final",
+        "Explain timing and obtain appropriate review",
         "Ignore client"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Respect supervision and authority."
     },
     {
@@ -724,12 +724,12 @@
       "skill": "Situational judgement",
       "prompt": "A hearing deadline conflicts with an internal research task. Best action?",
       "options": [
-        "Work on the easier task",
         "Confirm legal deadline and priorities; communicate conflict promptly",
+        "Work on the easier task",
         "Ignore hearing",
         "Promise both without checking"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Assess consequences and escalate."
     },
     {
@@ -738,11 +738,11 @@
       "prompt": "You find an accessibility issue in a practice test. Best action?",
       "options": [
         "Dismiss it",
-        "Report issue, request reasonable adjustment where appropriate",
         "Assume all employers identical",
-        "Share private medical details publicly"
+        "Share private medical details publicly",
+        "Report issue, request reasonable adjustment where appropriate"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Ask relevant provider through appropriate channels."
     },
     {
@@ -751,11 +751,11 @@
       "prompt": "A buyer plans to integrate systems; a remedy requires divestment. What matters?",
       "options": [
         "Only purchase price",
-        "Effect on synergies, separability and closing conditions",
         "Only buyer's logo",
+        "Effect on synergies, separability and closing conditions",
         "None"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "Remedy affects strategic value and execution."
     },
     {
@@ -763,12 +763,12 @@
       "skill": "Commercial reasoning",
       "prompt": "A sponsor uses leverage. What increases vulnerability?",
       "options": [
-        "Lower debt service",
         "Higher debt service with weaker cash flow",
+        "Lower debt service",
         "Better margins",
         "Lower capex"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Debt service and cash generation affect resilience."
     },
     {
@@ -777,11 +777,11 @@
       "prompt": "A firm advises a borrower on financing. Is it necessarily acting for lenders?",
       "options": [
         "Yes",
-        "No",
         "Always both",
-        "Only if syndicated"
+        "Only if syndicated",
+        "No"
       ],
-      "answer": 1,
+      "answer": 3,
       "explanation": "Mandates are client-specific."
     },
     {
@@ -802,12 +802,12 @@
       "skill": "Commercial reasoning",
       "prompt": "A buyer acquires 60% of shares. What still needs review?",
       "options": [
-        "Nothing",
         "Voting, reserved matters and minority rights",
+        "Nothing",
         "Only logo",
         "Only staff names"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanation": "Ownership percentage alone does not establish governance powers."
     },
     {
@@ -816,12 +816,207 @@
       "prompt": "Why distinguish a closing date and delisting date?",
       "options": [
         "They always match",
-        "They are different legal/market milestones",
         "Delisting is a price",
+        "They are different legal/market milestones",
         "Closing means voting"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanation": "A scheme effective date and trading cancellation can differ."
+    },
+    {
+      "id": "q-37",
+      "skill": "Numerical",
+      "prompt": "Enterprise value £240m, cash £18m, debt £52m and agreed debt-like liabilities £6m. Ignoring other adjustments, equity consideration?",
+      "options": [
+        "£206m",
+        "£212m",
+        "£280m",
+        "£200m"
+      ],
+      "answer": 3,
+      "explanation": "240 + 18 − 52 − 6 = £200m."
+    },
+    {
+      "id": "q-38",
+      "skill": "Numerical",
+      "prompt": "Revenue of £160m rises 10%; EBITDA of £24m falls 12.5%. New EBITDA margin, to one decimal?",
+      "options": [
+        "13.1%",
+        "15.0%",
+        "11.9%",
+        "12.5%"
+      ],
+      "answer": 2,
+      "explanation": "Revenue £176m; EBITDA £21m; 21/176 = 11.93%."
+    },
+    {
+      "id": "q-39",
+      "skill": "Numerical",
+      "prompt": "A sponsor invests £60m equity and later sells for £180m EV with £70m net debt. Ignore fees and distributions. Equity multiple?",
+      "options": [
+        "1.83x",
+        "1.20x",
+        "2.00x",
+        "1.50x"
+      ],
+      "answer": 0,
+      "explanation": "Exit equity £110m divided by £60m = 1.83x; not an annualised return."
+    },
+    {
+      "id": "q-40",
+      "skill": "Critical reasoning",
+      "prompt": "A regulator accepts undertakings. The bidder states court sanction remains a condition. What is established?",
+      "options": [
+        "A regulatory milestone, not completion",
+        "All closing conditions satisfied",
+        "Court sanction unnecessary",
+        "Bidder must withdraw"
+      ],
+      "answer": 0,
+      "explanation": "The two sources address separate conditions."
+    },
+    {
+      "id": "q-41",
+      "skill": "Critical reasoning",
+      "prompt": "Two reports cite a release for £400m consideration. The original offer document says £400m is the maximum including contingent payments. What follows?",
+      "options": [
+        "Three independent sources confirm £400m paid",
+        "News reports outweigh the offer document",
+        "Actual payment remains unestablished",
+        "Contingent payment is necessarily zero"
+      ],
+      "answer": 2,
+      "explanation": "Repeated reports share an origin; maximum consideration is not actual payment."
+    },
+    {
+      "id": "q-42",
+      "skill": "Critical reasoning",
+      "prompt": "All shortlisted candidates passed a written test; some passers were not shortlisted. Lina passed. What follows?",
+      "options": [
+        "Lina must be shortlisted",
+        "Shortlisting cannot be inferred",
+        "Lina cannot be shortlisted",
+        "Passing is irrelevant"
+      ],
+      "answer": 1,
+      "explanation": "Passing is necessary, not sufficient."
+    },
+    {
+      "id": "q-43",
+      "skill": "Verbal reasoning",
+      "prompt": "A fictional notice says a borrower may request an advance by 30 June subject to covenant compliance and no continuing default. What follows?",
+      "options": [
+        "The advance has been drawn",
+        "Conditions have been waived",
+        "Requests before 30 June are barred",
+        "A request alone does not establish entitlement"
+      ],
+      "answer": 3,
+      "explanation": "The notice specifies conditions and a deadline, not actual funding."
+    },
+    {
+      "id": "q-44",
+      "skill": "Verbal reasoning",
+      "prompt": "A fictional vacancy requires a degree before starting, welcomes candidates awaiting results and describes document review experience as desirable. What follows?",
+      "options": [
+        "Document review is mandatory",
+        "Candidates awaiting results may apply subject to qualification",
+        "No qualification is necessary",
+        "Applicants must wait until graduation"
+      ],
+      "answer": 1,
+      "explanation": "The degree condition remains; desirable experience is not mandatory."
+    },
+    {
+      "id": "q-45",
+      "skill": "Verbal reasoning",
+      "prompt": "Management expects £8m annual run-rate savings by year three and £5m implementation costs over two years. What follows?",
+      "options": [
+        "£8m savings already realised",
+        "£3m cash guaranteed in year one",
+        "£8m is a forward-looking annual target",
+        "£24m cumulative savings guaranteed"
+      ],
+      "answer": 2,
+      "explanation": "Run-rate targets are not cumulative achieved savings or cash flows."
+    },
+    {
+      "id": "q-46",
+      "skill": "Situational judgement",
+      "prompt": "A diligence summary is due at 4pm. At 2pm you discover material contract schedules are missing. Best response?",
+      "options": [
+        "Wait until 4pm to disclose the gap",
+        "Omit the contract silently",
+        "Flag promptly and propose conditional summary and follow-up",
+        "Substitute terms from a similar contract"
+      ],
+      "answer": 2,
+      "explanation": "Early escalation allows action and avoids presenting incomplete evidence as verified."
+    },
+    {
+      "id": "q-47",
+      "skill": "Situational judgement",
+      "prompt": "A filing due today conflicts with an internal research note. Both supervisors assume you are available. Best first step?",
+      "options": [
+        "Finish the earlier request first",
+        "Confirm external deadline and agree priorities with both",
+        "Work silently on both",
+        "Delegate the filing without checking authority"
+      ],
+      "answer": 1,
+      "explanation": "Communicate conflicts early and prioritise according to confirmed consequences."
+    },
+    {
+      "id": "q-48",
+      "skill": "Situational judgement",
+      "prompt": "A colleague suggests uploading a client contract to an unconfirmed external AI service. Best response?",
+      "options": [
+        "Check approved tools and matter restrictions before disclosure",
+        "Upload only the first page",
+        "Remove names and assume safety",
+        "Use a personal account"
+      ],
+      "answer": 0,
+      "explanation": "Confidential terms may remain sensitive even without client names."
+    },
+    {
+      "id": "q-49",
+      "skill": "Commercial reasoning",
+      "prompt": "A buyer expects £12m annual synergies, £7m dependent on consolidating units. A remedy requires divesting one. Priority?",
+      "options": [
+        "Deduct £7m directly from EV",
+        "Assume all synergies survive",
+        "Treat remedy as unrelated to economics",
+        "Reassess synergies, remedy scope, valuation and closing conditions"
+      ],
+      "answer": 3,
+      "explanation": "The remedy may change operating assumptions; evaluate timing, alternatives and deal terms."
+    },
+    {
+      "id": "q-50",
+      "skill": "Commercial reasoning",
+      "prompt": "A SaaS target's largest customer represents 35% of revenue and can terminate on change of control. Priority?",
+      "options": [
+        "Focus only on historic growth",
+        "Review termination, consent, customer economics and downside valuation",
+        "Assume consent from buyer size",
+        "Assume a 35% EBITDA fall"
+      ],
+      "answer": 1,
+      "explanation": "Concentration and termination create conditional risk, not a guaranteed EBITDA loss."
+    },
+    {
+      "id": "q-51",
+      "skill": "Commercial reasoning",
+      "prompt": "A borrower seeks a £100m revolver for seasonal working capital. What best establishes adequacy?",
+      "options": [
+        "Peak cash needs, liquidity, drawdown conditions and covenant headroom",
+        "Annual revenue alone",
+        "Nominal commitment alone",
+        "Lender market share"
+      ],
+      "answer": 0,
+      "explanation": "Usable liquidity depends on timing, cash needs and actual availability."
     }
   ],
   "simulations": [
@@ -946,5 +1141,5 @@
       "notice": "Original fictional exercise; not employer assessment, legal advice or work experience."
     }
   ],
-  "notice": "Original practice material; no employer endorsement or psychometric validity claimed. Review by qualified practitioners remains outstanding."
+  "notice": "Original practice material including fictional work scenarios; no employer endorsement, psychometric validity or independent practitioner review claimed."
 }
