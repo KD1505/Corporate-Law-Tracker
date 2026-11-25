@@ -1,0 +1,9 @@
+import {test} from "node:test";
+import assert from "node:assert/strict";
+import {buildInventory} from "./evidence-inventory.mjs";
+const url="https://example.com/offer";
+const fixture=()=>({records:[{id:"a",category:"Transactions",sources:[{url,name:"Issuer"}],fact:"Offer announced",factSources:[url],status:"Pending",eventDate:"2026-11-25",values:[{label:"Offer price",amount:"£10",source:url}],research:{claims:[{heading:"Offer",text:"Bid pending",qualification:"documented",evidence:[{url,publisher:"Issuer",locator:"p. 2"}]}]}}]});
+test("recorded evidence does not establish review or source independence",()=>{const a=buildInventory(fixture());assert.deepEqual(a.errors,[]);assert.equal(a.locatorRecorded,1);assert.equal(a.documentOnly,3);assert.equal(a.pending,a.total);assert.equal(a.documents.length,1);assert.equal(a.documents[0].originGroup,null);assert.ok(a.rows.every(r=>r.reviewState==="pending"&&r.independentReview===null&&/^[a-f0-9]{64}$/.test(r.revision)));});
+test("editing text changes revision without changing identity",()=>{const d=fixture(),a=buildInventory(d).rows.find(r=>r.kind==="finding");d.records[0].research.claims[0].text="Different";const b=buildInventory(d).rows.find(r=>r.kind==="finding");assert.equal(a.id,b.id);assert.notEqual(a.revision,b.revision);});
+test("duplicate identities and unregistered links fail",()=>{const d=fixture();d.records[0].research.claims.push({...d.records[0].research.claims[0],evidence:[{url:"https://example.org/other"}]});const r=buildInventory(d);assert.match(r.errors.join(" "),/duplicate/);assert.match(r.errors.join(" "),/Unregistered/);});
+test("unmapped financial adviser narrative remains one pending item, not characters",()=>{const d=fixture();d.records[0].financialAdvisers="Bank advised bidder";const rows=buildInventory(d).rows.filter(x=>x.kind==="financial-adviser");assert.equal(rows.length,1);assert.equal(rows[0].evidenceState,"missing");assert.deepEqual(rows[0].evidence,[]);});

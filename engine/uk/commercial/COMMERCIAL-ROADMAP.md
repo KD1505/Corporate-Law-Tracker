@@ -27,3 +27,6 @@ Counts are ambitions, not publication quotas. Public information is not automati
 
 ## Next tranche
 Create claim-level review inventory with stable claim IDs and source lineage, triage financially and legally material claims, audit the highest-priority employer adverts using direct evidence, and document source rights and actual review responsibility. Real interviews, professional reviewers and commercial infrastructure approvals remain human dependencies.
+
+## Tranche 02 — evidence review inventory
+Generate versioned review inventory using `node engine/uk/commercial/evidence-inventory.mjs`; see EVIDENCE-REVIEW.md. All items remain pending. Atomic decomposition, source-origin/rights assessment, independent review and review-register integration outstanding.
