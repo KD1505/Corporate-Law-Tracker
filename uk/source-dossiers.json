@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-25T04:34:17.139Z",
+  "checkedAt": "2026-11-26T03:46:25.269Z",
   "succeeded": 47,
   "failed": [],
   "items": [
@@ -18,7 +18,7 @@
           "title": "Commencement notice (PDF, 91KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:12.873Z"
+      "retrievedAt": "2026-11-26T03:46:21.528Z"
     },
     {
       "path": "/cma-cases/mari-slash-atg-entertainment-merger-inquiry",
@@ -26,7 +26,7 @@
       "description": "The Competition and Markets Authority (CMA) is seeking views on the anticipated acquisition by MARI Overture Holdings LLC of IE Investments S.à r.l. (ATG Entertainment).",
       "updated": "2026-11-16T12:00:44+00:00",
       "documents": [],
-      "retrievedAt": "2026-11-25T04:34:13.101Z"
+      "retrievedAt": "2026-11-26T03:46:21.988Z"
     },
     {
       "path": "/cma-cases/ocs-slash-mitie-merger-inquiry",
@@ -39,7 +39,7 @@
           "title": "Commencement notice (PDF, 91KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:11.657Z"
+      "retrievedAt": "2026-11-26T03:46:20.709Z"
     },
     {
       "path": "/cma-cases/nexfibre-slash-substantial-merger-inquiry",
@@ -168,13 +168,13 @@
           "title": "Areas of focus (PDF, 204KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:12.991Z"
+      "retrievedAt": "2026-11-26T03:46:21.981Z"
     },
     {
       "path": "/cma-cases/akzonobel-slash-axalta-merger-inquiry",
       "title": "AkzoNobel / Axalta merger inquiry",
       "description": "The Competition and Markets Authority (CMA) is investigating the anticipated merger between Akzo Nobel N.V. and Axalta Coating Systems Ltd.",
-      "updated": "2026-11-11T07:30:31+00:00",
+      "updated": "2026-11-25T07:31:09+00:00",
       "documents": [
         {
           "url": "https://assets.publishing.service.gov.uk/media/6af40960e84419943c0a21c8/Summary_of_phase_1_decision.pdf",
@@ -185,7 +185,7 @@
           "title": "Commencement notice (PDF, 91KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:14.068Z"
+      "retrievedAt": "2026-11-26T03:46:22.218Z"
     },
     {
       "path": "/cma-cases/pilgrims-slash-walkers-deli-and-sausage-co-merger-inquiry",
@@ -193,13 +193,13 @@
       "description": "The Competition and Markets Authority (CMA) is seeking views on the anticipated acquisition by Pilgrim’s Pride Corporation (part of the JBS group) of the sausage, sliced cooked meat, snacking, bacon and pâté business of Samworth Brothers Limited, trading as Walkers Deli & Sausage Co.",
       "updated": "2026-11-11T12:01:14+00:00",
       "documents": [],
-      "retrievedAt": "2026-11-25T04:34:14.061Z"
+      "retrievedAt": "2026-11-26T03:46:22.218Z"
     },
     {
       "path": "/cma-cases/mccormick-slash-unilever-merger-inquiry",
       "title": "McCormick / Unilever merger inquiry",
       "description": "The Competition and Markets Authority (CMA) is investigating the anticipated acquisition by McCormick & Company, Inc. of the majority of the foods business of Unilever plc.",
-      "updated": "2026-11-11T07:02:26+00:00",
+      "updated": "2026-11-25T07:00:26+00:00",
       "documents": [
         {
           "url": "https://assets.publishing.service.gov.uk/media/6af40672b83b3cae0d0a21c3/_Summary_of_phase_1_decision_.pdf",
@@ -210,7 +210,7 @@
           "title": "Commencement notice (PDF, 90KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:11.668Z"
+      "retrievedAt": "2026-11-26T03:46:20.621Z"
     },
     {
       "path": "/cma-cases/co-operative-group-slash-southern-co-operative-merger-inquiry",
@@ -303,7 +303,7 @@
           "title": "Derogation 29 October 2026 (PDF, 178KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:11.245Z"
+      "retrievedAt": "2026-11-26T03:46:20.623Z"
     },
     {
       "path": "/cma-cases/sky-slash-itv-merger-inquiry",
@@ -311,7 +311,7 @@
       "description": "The Competition and Markets Authority (CMA) is investigating the anticipated acquisition of ITV M&E Holdings Limited (ITV) by Sky UK Limited.",
       "updated": "2026-11-04T13:52:01+00:00",
       "documents": [],
-      "retrievedAt": "2026-11-25T04:34:11.243Z"
+      "retrievedAt": "2026-11-26T03:46:20.622Z"
     },
     {
       "path": "/cma-cases/peoplesafe-slash-soloprotect-merger-inquiry",
@@ -319,7 +319,7 @@
       "description": "The Competition and Markets Authority (CMA) is seeking views on the anticipated acquisition by Send for Help Limited and Peoplesafe Inc. of SoloProtect Limited",
       "updated": "2026-10-29T11:01:48+00:00",
       "documents": [],
-      "retrievedAt": "2026-11-25T04:34:14.611Z"
+      "retrievedAt": "2026-11-26T03:46:22.679Z"
     },
     {
       "path": "/cma-cases/nrg-fleet-services-slash-specialist-fleet-services-merger-inquiry",
@@ -356,7 +356,7 @@
           "title": "Derogation 18 September (PDF, 177KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:14.069Z"
+      "retrievedAt": "2026-11-26T03:46:22.228Z"
     },
     {
       "path": "/cma-cases/abp-slash-dovecote-park-merger-inquiry",
@@ -377,7 +377,7 @@
           "title": "Derogation 28 September 2026 (PDF, 189KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:14.067Z"
+      "retrievedAt": "2026-11-26T03:46:22.667Z"
     },
     {
       "path": "/cma-cases/aramark-slash-entier-merger-inquiry",
@@ -506,7 +506,7 @@
           "title": "Derogation 6 February 2026 (PDF, 129KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:14.709Z"
+      "retrievedAt": "2026-11-26T03:46:22.677Z"
     },
     {
       "path": "/cma-cases/firstcash-slash-ramsdens-merger-inquiry",
@@ -519,7 +519,7 @@
           "title": "Commencement notice (PDF, 204KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:12.863Z"
+      "retrievedAt": "2026-11-26T03:46:21.533Z"
     },
     {
       "path": "/cma-cases/prologis-slash-segro-merger-inquiry",
@@ -527,7 +527,7 @@
       "description": "The Competition and Markets Authority (CMA) is seeking views on the anticipated acquisition by Prologis, L.P. of SEGRO plc.",
       "updated": "2026-10-27T07:00:14+00:00",
       "documents": [],
-      "retrievedAt": "2026-11-25T04:34:12.443Z"
+      "retrievedAt": "2026-11-26T03:46:21.613Z"
     },
     {
       "path": "/cma-cases/macquarie-asset-management-slash-energy-assets-group-merger-inquiry",
@@ -548,7 +548,7 @@
           "title": "Commencement notice (PDF, 89KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:14.585Z"
+      "retrievedAt": "2026-11-26T03:46:23.021Z"
     },
     {
       "path": "/cma-cases/bt-slash-talktalk-merger-inquiry",
@@ -565,7 +565,7 @@
           "title": "Derogation 6 October 2026 (PDF, 334KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:14.835Z"
+      "retrievedAt": "2026-11-26T03:46:23.129Z"
     },
     {
       "path": "/cma-cases/intersurgical-slash-teleflex-acute-care-and-interventional-urology-businesses-merger-inquiry",
@@ -573,7 +573,7 @@
       "description": "The Competition and Markets Authority (CMA) is seeking views on the anticipated acquisition by Intersurgical AG of the acute care and interventional urology businesses of Teleflex Incorporated, following which control over Intersurgical AG will be acquired by Armira Beteiligungen GmbH & Co. KG and TA Associates Management, L.P.",
       "updated": "2026-10-20T10:00:42+01:00",
       "documents": [],
-      "retrievedAt": "2026-11-25T04:34:14.184Z"
+      "retrievedAt": "2026-11-26T03:46:23.128Z"
     },
     {
       "path": "/cma-cases/redbird-imi-slash-telegraph-media-group-merger-inquiry",
@@ -581,7 +581,7 @@
       "description": "The Competition and Markets Authority (CMA) investigated the anticipated acquisition by RedBird IMI of Telegraph Media Group. ",
       "updated": "2026-10-16T11:47:28+01:00",
       "documents": [],
-      "retrievedAt": "2026-11-25T04:34:15.259Z"
+      "retrievedAt": "2026-11-26T03:46:23.148Z"
     },
     {
       "path": "/cma-cases/daily-mail-and-general-trust-plc-slash-telegraph-media-group-merger-inquiry",
@@ -598,7 +598,7 @@
           "title": "DCMS letter to Penultimate Investment Holdings Limited on ‘minded to’ decision"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:15.234Z"
+      "retrievedAt": "2026-11-26T03:46:23.139Z"
     },
     {
       "path": "/cma-cases/vandemoortele-slash-delifrance-merger-inquiry",
@@ -727,7 +727,7 @@
           "title": "Derogation 5 June 2026 (PDF, 205KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:15.376Z"
+      "retrievedAt": "2026-11-26T03:46:23.693Z"
     },
     {
       "path": "/cma-cases/eon-slash-ovo-merger-inquiry",
@@ -744,7 +744,7 @@
           "title": "Commencement notice (PDF, 90KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:15.839Z"
+      "retrievedAt": "2026-11-26T03:46:23.271Z"
     },
     {
       "path": "/cma-cases/the-brinks-company-slash-ncr-atleos-corporation-merger-inquiry",
@@ -769,7 +769,7 @@
           "title": "Commencement notice (PDF, 89KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:14.831Z"
+      "retrievedAt": "2026-11-26T03:46:23.271Z"
     },
     {
       "path": "/cma-cases/healthcare-ireland-slash-hutchinson-homes-merger-inquiry",
@@ -814,7 +814,7 @@
           "title": "Derogation 14 July 2026 (PDF, 179KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:15.377Z"
+      "retrievedAt": "2026-11-26T03:46:23.364Z"
     },
     {
       "path": "/cma-cases/kone-slash-tk-elevator-merger-inquiry",
@@ -822,7 +822,7 @@
       "description": "The Competition and Markets Authority (CMA) is seeking views on the anticipated acquisition by KONE Corporation of TK Elevator Topco GmbH.",
       "updated": "2026-09-22T07:00:31+01:00",
       "documents": [],
-      "retrievedAt": "2026-11-25T04:34:15.955Z"
+      "retrievedAt": "2026-11-26T03:46:23.803Z"
     },
     {
       "path": "/cma-cases/gxo-slash-wincanton-merger-inquiry",
@@ -951,7 +951,7 @@
           "title": "Derogation 4 July 2025 (PDF, 132KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:15.501Z"
+      "retrievedAt": "2026-11-26T03:46:23.808Z"
     },
     {
       "path": "/cma-cases/welltower-slash-multiple-care-homes-merger-inquiries",
@@ -1040,7 +1040,7 @@
           "title": "Derogation 29 July 2026 (PDF, 138KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:16.358Z"
+      "retrievedAt": "2026-11-26T03:46:23.802Z"
     },
     {
       "path": "/cma-cases/vodafone-slash-ck-hutchison-jv-merger-inquiry",
@@ -1169,7 +1169,7 @@
           "title": "Remedies working paper (PDF, 1.3MB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:11.800Z"
+      "retrievedAt": "2026-11-26T03:46:21.421Z"
     },
     {
       "path": "/cma-cases/schlumberger-slash-championx-merger-inquiry",
@@ -1222,7 +1222,7 @@
           "title": "Invitation to comment (PDF, 123KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:16.894Z"
+      "retrievedAt": "2026-11-26T03:46:24.316Z"
     },
     {
       "path": "/cma-cases/seras-slash-enva-dedicated-waste-wood-business-merger-inquiry",
@@ -1239,7 +1239,7 @@
           "title": "Commencement notice (PDF, 93KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:16.343Z"
+      "retrievedAt": "2026-11-26T03:46:24.209Z"
     },
     {
       "path": "/cma-cases/paramount-slash-warner-bros-discovery-merger-inquiry",
@@ -1260,7 +1260,7 @@
           "title": "Commencement notice (PDF, 92KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:16.906Z"
+      "retrievedAt": "2026-11-26T03:46:24.316Z"
     },
     {
       "path": "/cma-cases/danone-slash-huel-merger-inquiry",
@@ -1277,7 +1277,7 @@
           "title": "Commencement notice (PDF, 89KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:15.959Z"
+      "retrievedAt": "2026-11-26T03:46:24.724Z"
     },
     {
       "path": "/cma-cases/ebay-slash-depop-merger-inquiry",
@@ -1294,7 +1294,7 @@
           "title": "Commencement notice (PDF, 90KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:16.489Z"
+      "retrievedAt": "2026-11-26T03:46:24.322Z"
     },
     {
       "path": "/cma-cases/suzano-slash-kimberly-clark-jv-merger-inquiry",
@@ -1311,7 +1311,7 @@
           "title": "Commencement notice (PDF, 88KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:17.125Z"
+      "retrievedAt": "2026-11-26T03:46:24.844Z"
     },
     {
       "path": "/cma-cases/getty-images-slash-shutterstock-merger-inquiry",
@@ -1440,7 +1440,7 @@
           "title": "Summary of phase 1 decision (PDF, 146KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:17.007Z"
+      "retrievedAt": "2026-11-26T03:46:25.269Z"
     },
     {
       "path": "/cma-cases/abf-slash-hovis-merger-inquiry",
@@ -1557,136 +1557,7 @@
           "title": "Commencement notice (PDF, 87KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:17.127Z"
-    },
-    {
-      "path": "/cma-cases/spreadex-slash-sporting-index-merger-inquiry",
-      "title": "Spreadex / Sporting Index merger inquiry",
-      "description": "The Competition and Markets Authority (CMA) is investigating the completed acquisition by Spreadex Limited of the B2C business of Sporting Index Limited.",
-      "updated": "2026-06-12T11:01:12+01:00",
-      "documents": [
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/68414b914d433cd95b9fe858/___Administrative_timetable_2.pdf",
-          "title": "Administrative timetable (PDF, 121KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/68df82e7750fcf90fa6ffd88/remittal-notice-of-acceptance-of-final-undertakings.pdf",
-          "title": "Notice of acceptance of undertakings (PDF, 134KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/68df82fdc487360cc70ca0ae/remittal-final-undertakings.pdf",
-          "title": "Final undertakings (PDF, 480KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/69fc95aa8cc72d2f863ea5c8/__Derogation_24_April_2026__.pdf",
-          "title": "Derogation 24 April 2026 (PDF, 123KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/68d3a11dc908572e81248bd9/remittal-notice-of-proposal-to-accept-undertakings.pdf",
-          "title": "Notice of proposal to accept undertakings (PDF, 133KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/68d3a13fca266424b221b1f6/remittal-draft-final-undertakings.pdf",
-          "title": "Draft final undertakings (PDF, 403KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/68cd2f65c908572e81248a5b/Remittal_final_report_1.pdf",
-          "title": "Final report (PDF, 1.2MB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/68cd2f8ac908572e81248a5c/Appendices_and_Glossary.pdf",
-          "title": "Appendices and glossary (PDF, 197KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/68cbdaeeb6d7ea468dbea64a/Summary_of_findings.pdf",
-          "title": "Summary of final report (PDF, 168KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/6880b745f47abf78ca1d3528/_Spreadex_response_to_remittal_provisional_findings_.pdf",
-          "title": "Spreadex response to remittal provisional findings (PDF, 376KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/6880cdcb3f77077624120512/__Spreadex_response_to_the_remittal_notice_of_possible_remedies.pdf",
-          "title": "Spreadex response to the remittal notice of possible remedies (PDF, 171KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/684184e3578282a4b102c07e/Remittal_provisional_findings_.pdf",
-          "title": "Remittal provisional findings (PDF, 1,122KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/684184b641cb2525c1211cc5/_Appendices_and_glossary_2.pdf",
-          "title": "Appendices and glossary (PDF, 173KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/68414c9e1d85c6606009cd81/Summary_of_remittal_provisional_findings_.pdf",
-          "title": "Summary of remittal provisional findings (PDF, 162KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/68414c8439a53c0dca9fe838/Notice_of_provisional_findings_on_remittal_.pdf",
-          "title": "Notice of provisional findings on remittal (PDF, 141KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/68414c6dcb73e8b12647b44e/Notice_of_possible_remedies_.pdf",
-          "title": "Notice of possible remedies (PDF, 246KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/67d3efca1078db33c5dab275/conduct_of_the_remittal.pdf",
-          "title": "Conduct of the remittal (PDF, 120KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/67c863d3d0fba2f1334cf29c/interim-order.pdf",
-          "title": "Interim order (PDF, 249KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/683dc17a1b807cfa6995e083/Spreadex_Sporting_Index_appointment_of_monitoring_trustee.pdf",
-          "title": "Appointment of monitoring trustee (PDF, 119KB"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/6706550292bb81fcdbe7b559/Administrative_timetable_9_October_2024.pdf",
-          "title": "Administrative timetable (PDF, 121KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/67acd37088ce626360cd21d5/notice-of-extension.pdf",
-          "title": "Notice of extension (PDF, 117KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/6788d80893d4eae3088bd29b/Notice_of_proposal_to_accept_undertakings.pdf",
-          "title": "Notice of proposal to accept undertakings (PDF, 128KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/6788d5ca976cb51ae15734bf/Final_undertakings_16_January_2025.pdf",
-          "title": "Draft final undertakings (PDF, 397KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/6740611853373262c0d825d3/_Final_report_2.pdf",
-          "title": "Final report (PDF, 1.7MB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/6740599402bf39539bdee83b/Summary_of_final_report.pdf",
-          "title": "Summary of final report (PDF, 159KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/670537d33b919067bb482e28/Termination_of_extension.pdf",
-          "title": "Termination of extension (PDF, 84KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/66fa6e7d3b919067bb482929/1._Notice_of_extension.pdf",
-          "title": "Notice of extension (PDF, 129KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/66e7e90261763848f429d735/Response_to_the_provisional_findings.pdf",
-          "title": "Spreadex / Sporting Index  response to the provisional findings (PDF, 341KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/66e7e91be47cfc6de429d74c/Annex_1_to_Spreadex_s_Response.pdf",
-          "title": "Annex 1 to Spreadex / Sporting Index response (PDF, 120KB)"
-        },
-        {
-          "url": "https://assets.publishing.service.gov.uk/media/66d962bc608fb761b68110e4/__Spreadex__Sporting_Index_response_to_the_Remedies_Notice__.pdf",
-          "title": "Spreadex / Sporting Index response to the remedies notice (PDF, 199KB)"
-        }
-      ],
-      "retrievedAt": "2026-11-25T04:34:17.139Z"
+      "retrievedAt": "2026-11-26T03:46:24.832Z"
     },
     {
       "path": "/cma-cases/microsoft-slash-activision-blizzard-ex-cloud-streaming-rights-merger-inquiry",
@@ -1735,7 +1606,7 @@
           "title": "Commencement notice (PDF, 101KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:11.790Z"
+      "retrievedAt": "2026-11-26T03:46:20.821Z"
     },
     {
       "path": "/cma-cases/nationwide-building-society-slash-virgin-money-merger-inquiry",
@@ -1756,7 +1627,7 @@
           "title": "Commencement notice (PDF, 92KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:11.792Z"
+      "retrievedAt": "2026-11-26T03:46:20.820Z"
     },
     {
       "path": "/cma-cases/microsoft-slash-activision-blizzard-merger-inquiry",
@@ -1885,7 +1756,7 @@
           "title": "Market participant E’s response to the provisional findings (PDF, 109KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:12.323Z"
+      "retrievedAt": "2026-11-26T03:46:20.837Z"
     },
     {
       "path": "/cma-cases/aviva-slash-direct-line-merger-inquiry",
@@ -1902,7 +1773,7 @@
           "title": "Commencement notice (PDF, 90KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:12.835Z"
+      "retrievedAt": "2026-11-26T03:46:21.871Z"
     },
     {
       "path": "/cma-cases/greencore-slash-bakkavor-merger-inquiry",
@@ -1943,7 +1814,7 @@
           "title": "Commencement notice (PDF, 114KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:13.420Z"
+      "retrievedAt": "2026-11-26T03:46:21.989Z"
     },
     {
       "path": "/cma-cases/carlsberg-slash-britvic-merger-inquiry",
@@ -1960,7 +1831,7 @@
           "title": "Commencement notice (PDF, 79KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:12.987Z"
+      "retrievedAt": "2026-11-26T03:46:21.978Z"
     },
     {
       "path": "/cma-cases/synopsys-slash-ansys-merger-inquiry",
@@ -2005,7 +1876,7 @@
           "title": "Commencement notice (PDF, 90KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:13.543Z"
+      "retrievedAt": "2026-11-26T03:46:22.095Z"
     },
     {
       "path": "/cma-cases/broadcom-slash-vmware-merger-inquiry",
@@ -2090,7 +1961,7 @@
           "title": "Commencement notice (PDF, 93 KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:13.946Z"
+      "retrievedAt": "2026-11-26T03:46:22.097Z"
     },
     {
       "path": "/cma-cases/hewlett-packard-enterprise-company-slash-juniper-networks-inc-merger-inquiry",
@@ -2107,7 +1978,7 @@
           "title": "Commencement notice (PDF, 89KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:13.538Z"
+      "retrievedAt": "2026-11-26T03:46:22.099Z"
     },
     {
       "path": "/cma-cases/adobe-slash-figma-merger-inquiry",
@@ -2192,7 +2063,15 @@
           "title": "Commencement notice (PDF, 82.0 KB)"
         }
       ],
-      "retrievedAt": "2026-11-25T04:34:13.932Z"
+      "retrievedAt": "2026-11-26T03:46:22.110Z"
+    },
+    {
+      "path": "/cma-cases/global-slash-alight-merger-inquiry",
+      "title": "Global / Alight merger inquiry",
+      "description": "The Competition and Markets Authority (CMA) is seeking views on the anticipated acquisition by Global Media & Entertainment Limited of Radiant Holdco Limited (Alight Media).",
+      "updated": "2026-11-25T13:00:26+00:00",
+      "documents": [],
+      "retrievedAt": "2026-11-26T03:46:22.563Z"
     }
   ]
 }

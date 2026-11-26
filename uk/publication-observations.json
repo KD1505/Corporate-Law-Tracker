@@ -1,7 +1,248 @@
 {
   "schemaVersion": 1,
-  "notice": "Awaiting first scheduled public-domain observation; historical publication time and availability unknown.",
-  "lastAttempt": null,
-  "lastSuccessful": null,
-  "history": []
+  "notice": "Periodic public-domain observations, not exact publication times, uptime, or independent accuracy. Baseline is not historical publication. Added/changed IDs were observed between successful samples; review-only timestamps are excluded from fingerprints. History retains 90 attempts; repository git history preserves prior snapshots.",
+  "lastAttempt": {
+    "at": "2026-11-26T03:47:46.727Z",
+    "outcome": "observed",
+    "baseline": true,
+    "count": 42,
+    "latestEvent": "2026-11-19",
+    "previousSuccessfulAt": null,
+    "repositoryParity": true,
+    "added": [],
+    "changed": [],
+    "removed": []
+  },
+  "lastSuccessful": {
+    "at": "2026-11-26T03:47:46.727Z",
+    "transactions": {
+      "aab-kreston-reeves": {
+        "revision": "739378dfb8a4df0ce0f65be633fc46a87b87f8e4555990279cc26dd41e0f0c69",
+        "eventDate": "2026-07-01",
+        "announcedOn": "2026-02-09"
+      },
+      "abp-ifm": {
+        "revision": "ea604895c0fe3db24000a08cf65d6f963768a5fe2f769cbdce1c4e62e33c08b7",
+        "eventDate": "2026-10-28",
+        "announcedOn": "2026-10-21"
+      },
+      "abp-term-facility": {
+        "revision": "9f7f46530985b8d050cbea8a8b46882553ae38c39478e8728f3ad06fed6cafa2",
+        "eventDate": "2026-06-08",
+        "announcedOn": "2026-06-03"
+      },
+      "adobe-figma": {
+        "revision": "10b35d96c9424d81d7696b004ce970a8a248f72f2733bd6e8e85209539c0a84d",
+        "eventDate": "2023-12-18",
+        "announcedOn": "2022-09-15"
+      },
+      "athora-picg": {
+        "revision": "f0e6fbb7b60e81fbc1d7e1c59eb69b60fc6549596b84896933aa976d30c3ed10",
+        "eventDate": "2026-03-27",
+        "announcedOn": "2025-07-03"
+      },
+      "aviva-direct-line": {
+        "revision": "0ff1c9fd74514b32071d531da254a7213b14038a158630b055159bb8e4b02811",
+        "eventDate": "2025-07-01",
+        "announcedOn": "2024-12-23"
+      },
+      "boralex-wind2": {
+        "revision": "0f420772dabe0ce4eb2afc0ee848de34a3cc0674956b2636ffd73c6b892a68df",
+        "eventDate": "2026-11-05",
+        "announcedOn": "2026-10-27"
+      },
+      "broadcom-vmware": {
+        "revision": "54decfcf41dc174ff6125b0db60cc8bd03deb0c1d0197c90f897162bc234bf82",
+        "eventDate": "2023-11-22",
+        "announcedOn": "2022-05-26"
+      },
+      "carlsberg-britvic": {
+        "revision": "b76c4e77e94a72299b30a8760621084974fc221e4ac56a2e6cbea4969e3b5e26",
+        "eventDate": "2025-01-17",
+        "announcedOn": null
+      },
+      "cary-consortium": {
+        "revision": "e0a408dd8d74dc081e7e0150584066945377fe3c0d110389bd1ae2f8abb190a6",
+        "eventDate": "2026-11-17",
+        "announcedOn": "2026-11-17"
+      },
+      "chesnara-metlife-uk": {
+        "revision": "187faf52d416ec6816eb6a30f1593dd88277972e120a6e48c29255def652314d",
+        "eventDate": "2026-11-06",
+        "announcedOn": "2026-11-06"
+      },
+      "cinven-theramex": {
+        "revision": "dec8f0172798b2064ad7136487e92d272742163b8b34cd139c873b9a0eb6f2c3",
+        "eventDate": "2026-11-03",
+        "announcedOn": "2026-11-03"
+      },
+      "cip-noriker-kilmarnock": {
+        "revision": "d65e2a3673aa7fb6b1a6a1d69383d4fdbb6a49e0b75462b17289cbd326f0002e",
+        "eventDate": "2026-10-28",
+        "announcedOn": null
+      },
+      "coop-southern": {
+        "revision": "3f405caaeb08a92438c44220924f5e6258de94fa430f1b518059f528950438da",
+        "eventDate": "2026-11-05",
+        "announcedOn": "2026-04-08"
+      },
+      "drax-bluefield": {
+        "revision": "6b9899510fbb028ba36adb97ebe0812e77619fdd75533b3687d53dd38e72a798",
+        "eventDate": "2026-07-31",
+        "announcedOn": "2026-06-01"
+      },
+      "ep-ids-royal-mail": {
+        "revision": "2b4ffd831dd32b33451a68159cf01617f1c92a12ef2680108875846d60c5debc",
+        "eventDate": "2025-04-30",
+        "announcedOn": "2024-05-29"
+      },
+      "firstcash-ramsdens": {
+        "revision": "7b37b4c10339d7cc01cd9c5871dc26604d752db3ae4db2f46b54d509244b40db",
+        "eventDate": "2026-10-26",
+        "announcedOn": "2026-06-23"
+      },
+      "goldman-celnor": {
+        "revision": "75a67a2ad82d6049fc9aab7645c52d0a9f1f4711ec6948de81800a525639f4fc",
+        "eventDate": "2026-10-23",
+        "announcedOn": "2026-10-23"
+      },
+      "greencore-bakkavor": {
+        "revision": "44216a11e32296d817bac4cec2fb9610918acf903042d05b420c79556c5010dd",
+        "eventDate": "2026-01-16",
+        "announcedOn": "2025-05-15"
+      },
+      "harp-hargreaves-lansdown": {
+        "revision": "638c221de7817980c133b3b10210ad2001bf8813d5184a688842576a689ddd5b",
+        "eventDate": "2025-03-25",
+        "announcedOn": "2024-08-09"
+      },
+      "hpe-juniper": {
+        "revision": "866f0a1333e69fe6c7c87b3d7df475d22e050d6b5bee9502d5bc0a03c244e798",
+        "eventDate": "2025-07-02",
+        "announcedOn": "2024-01-09"
+      },
+      "international-paper-ds-smith": {
+        "revision": "3045f1d3b2420eb1a633791a0213e0cbbe33f15d0a95d21f52df4b142650237c",
+        "eventDate": "2025-01-31",
+        "announcedOn": "2024-04-16"
+      },
+      "itm-gbe-equity": {
+        "revision": "1aadaaaa7ffa7bf1e5fb7cd543cf4498f0e8d718ae63492f0226fb60867d1f0a",
+        "eventDate": "2026-07-09",
+        "announcedOn": "2026-04-09"
+      },
+      "leita-mobico": {
+        "revision": "ce88f03d4980e6c6b44d3b190dae64158c1c9e7a332d3fb917c0102206390ce8",
+        "eventDate": "2026-10-30",
+        "announcedOn": "2026-10-30"
+      },
+      "lseg-octus": {
+        "revision": "162f22b671f5641b069f892134bffa28e3feed1d56e3e4559d1680398d1abfcc",
+        "eventDate": "2026-10-22",
+        "announcedOn": "2026-10-22"
+      },
+      "mari-atg": {
+        "revision": "d5f151752e4ea1a5f939b1f44d119c5338d56e22ce6121cad7c61e774eed2b54",
+        "eventDate": "2026-11-16",
+        "announcedOn": "2026-08-11"
+      },
+      "mccormick-unilever": {
+        "revision": "8544171542b0cfc8d949b793454d0fec534d9a2c029c632acce42833a3085f39",
+        "eventDate": "2026-11-11",
+        "announcedOn": "2026-03-31"
+      },
+      "microsoft-activision": {
+        "revision": "06b05f8843247287b1ba62f16d619c72418d34e56a6b408bd1e387c3fbd192af",
+        "eventDate": "2023-10-13",
+        "announcedOn": "2022-01-18"
+      },
+      "nationwide-virgin": {
+        "revision": "d7d0fde48fa24a86c06b9f0dd434463c34dfa3ecfd8bfe4b848dd7aa58bfdf6d",
+        "eventDate": "2024-10-01",
+        "announcedOn": null
+      },
+      "nexfibre-substantial": {
+        "revision": "379e9e58017bbb0f04005f8bf40d87a4548ec5ebed34462fac97b75b85bf7240",
+        "eventDate": "2026-11-18",
+        "announcedOn": "2026-02-18"
+      },
+      "ocs-mitie": {
+        "revision": "ccd9bd4af8fed3fec633f4c966d332dcbe4a80f0bb037d189c7aa291a51eca53",
+        "eventDate": "2026-11-19",
+        "announcedOn": "2026-07-21"
+      },
+      "pai-elemis": {
+        "revision": "650faa3483a3a99b5e6989e686a625ab026773e56c31b060da36391a0627ee0a",
+        "eventDate": "2026-11-04",
+        "announcedOn": "2026-11-04"
+      },
+      "prologis-segro": {
+        "revision": "645bd98f4a665204c42c17a86c14cf44bddc463ec8f3221cb1b9376a554c3e3d",
+        "eventDate": "2026-10-27",
+        "announcedOn": "2026-08-03"
+      },
+      "rwe-kkr-vanguard": {
+        "revision": "7ea08cbb6118e8e5c43deac0e9f76c6b9702eda22987794ea2e855f89289b69d",
+        "eventDate": "2026-11-11",
+        "announcedOn": "2026-01-14"
+      },
+      "sky-itv": {
+        "revision": "5253c539ca571a6b19c78915bf86ea3c99c9ad7add0d17c7ce8636a7b225b252",
+        "eventDate": "2026-11-04",
+        "announcedOn": "2026-07-06"
+      },
+      "softcat-gdt": {
+        "revision": "8820772fff6d63a4ba994556cce6e79a00d2e05388673ba5474897d6790e692c",
+        "eventDate": "2026-09-17",
+        "announcedOn": "2026-09-17"
+      },
+      "standard-chartered-dnn": {
+        "revision": "121f8b307bc861548e22e0fc18924ea7a872ff6d67674bc951bc1918655e3d1e",
+        "eventDate": "2026-08-21",
+        "announcedOn": "2026-08-20"
+      },
+      "synopsys-ansys": {
+        "revision": "9157ad08964789e5ae5b307f793bd8e4a2b88df89c45149b18510b901e293c01",
+        "eventDate": "2025-07-17",
+        "announcedOn": "2024-01-16"
+      },
+      "tilleghem-saragossa": {
+        "revision": "c21db6610d5628e05be3ce9996af86ffa19fd9c7fe3540b3ac3cffcc6934950d",
+        "eventDate": "2026-10-15",
+        "announcedOn": "2026-09-30"
+      },
+      "uk-logistics-cmbs": {
+        "revision": "9df7754643bbeb7f2418b993e4db0e46118c0a2a24010dcd352db02f640794b1",
+        "eventDate": "2026-10-08",
+        "announcedOn": null
+      },
+      "vivisol-airliquide": {
+        "revision": "d41af031e2c49d35fbad908431f7e9cce0a7bcba1944287bba1f5ac638653569",
+        "eventDate": "2026-11-19",
+        "announcedOn": null
+      },
+      "vodafone-three": {
+        "revision": "75a5a19cb18853dc824f928ea3fbc10556d9bc8520cbd3cfe17624a72fc523b6",
+        "eventDate": "2025-05-31",
+        "announcedOn": "2023-06-14"
+      }
+    },
+    "count": 42,
+    "latestEvent": "2026-11-19",
+    "repositoryParity": true
+  },
+  "history": [
+    {
+      "at": "2026-11-26T03:47:46.727Z",
+      "outcome": "observed",
+      "baseline": true,
+      "count": 42,
+      "latestEvent": "2026-11-19",
+      "previousSuccessfulAt": null,
+      "repositoryParity": true,
+      "added": [],
+      "changed": [],
+      "removed": []
+    }
+  ]
 }

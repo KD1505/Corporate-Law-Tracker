@@ -1,9 +1,24 @@
 {
-  "checkedAt": "2026-11-25T04:34:21.527Z",
+  "checkedAt": "2026-11-26T03:46:29.378Z",
   "query": "CMA case pages updated from 2023-01-01; maximum 600 search rows, merger-title filtered",
   "pages": 5,
-  "sourceRows": 436,
+  "sourceRows": 437,
   "items": [
+    {
+      "path": "/cma-cases/global-slash-alight-merger-inquiry",
+      "title": "Global / Alight merger inquiry",
+      "sourceUpdated": "2026-11-25T13:00:26Z"
+    },
+    {
+      "path": "/cma-cases/akzonobel-slash-axalta-merger-inquiry",
+      "title": "AkzoNobel / Axalta merger inquiry",
+      "sourceUpdated": "2026-11-25T07:31:09Z"
+    },
+    {
+      "path": "/cma-cases/mccormick-slash-unilever-merger-inquiry",
+      "title": "McCormick / Unilever merger inquiry",
+      "sourceUpdated": "2026-11-25T07:00:26Z"
+    },
     {
       "path": "/cma-cases/vivisol-slash-air-liquide-home-oxygen-services-business-merger-inquiry",
       "title": "Vivisol / Air Liquide (home oxygen services business) merger inquiry",
@@ -28,16 +43,6 @@
       "path": "/cma-cases/pilgrims-slash-walkers-deli-and-sausage-co-merger-inquiry",
       "title": "Pilgrim’s / Walkers Deli & Sausage Co merger inquiry",
       "sourceUpdated": "2026-11-11T12:01:14Z"
-    },
-    {
-      "path": "/cma-cases/akzonobel-slash-axalta-merger-inquiry",
-      "title": "AkzoNobel / Axalta merger inquiry",
-      "sourceUpdated": "2026-11-11T07:30:31Z"
-    },
-    {
-      "path": "/cma-cases/mccormick-slash-unilever-merger-inquiry",
-      "title": "McCormick / Unilever merger inquiry",
-      "sourceUpdated": "2026-11-11T07:02:26Z"
     },
     {
       "path": "/cma-cases/co-operative-group-slash-southern-co-operative-merger-inquiry",

@@ -1,11 +1,26 @@
 {
-  "attemptedAt": "2026-11-25T04:34:18.065Z",
+  "attemptedAt": "2026-11-26T03:46:26.445Z",
   "sources": [
     {
       "name": "Treasury",
       "status": "ok",
-      "checkedAt": "2026-11-25T04:34:17.411Z",
+      "checkedAt": "2026-11-26T03:46:25.743Z",
       "items": [
+        {
+          "title": "£100 Household Energy Payment factsheet",
+          "url": "https://www.gov.uk/government/news/100-household-energy-payment-factsheet",
+          "date": "2026-11-25T17:26:39.000Z"
+        },
+        {
+          "title": "Meeting minutes - August 2026",
+          "url": "https://www.gov.uk/government/publications/meeting-minutes-august-2026",
+          "date": "2026-11-25T15:00:02.000Z"
+        },
+        {
+          "title": "Government reappoints AI Champions to drive next phase of AI in financial services",
+          "url": "https://www.gov.uk/government/news/government-reappoints-ai-champions-to-drive-next-phase-of-ai-in-financial-services",
+          "date": "2026-11-25T11:33:31.000Z"
+        },
         {
           "title": "20 million households to receive £100 payment",
           "url": "https://www.gov.uk/government/news/20-million-households-to-receive-100-payment",
@@ -65,29 +80,19 @@
           "title": "Orange Book",
           "url": "https://www.gov.uk/government/publications/orange-book",
           "date": "2026-11-18T10:06:59.000Z"
-        },
-        {
-          "title": "OSCAR annual release: November 2026",
-          "url": "https://www.gov.uk/government/publications/oscar-annual-release-november-2026",
-          "date": "2026-11-18T09:30:02.000Z"
-        },
-        {
-          "title": "Clarifying limitation periods in the Consumer Credit Act 1974",
-          "url": "https://www.gov.uk/government/publications/clarifying-limitation-periods-in-the-consumer-credit-act-1974",
-          "date": "2026-11-17T18:00:02.000Z"
-        },
-        {
-          "title": "Preston guidance: October 2026",
-          "url": "https://www.gov.uk/government/publications/preston-guidance-october-2026",
-          "date": "2026-11-17T13:48:26.000Z"
         }
       ]
     },
     {
       "name": "Companies House",
       "status": "ok",
-      "checkedAt": "2026-11-25T04:34:17.410Z",
+      "checkedAt": "2026-11-26T03:46:25.739Z",
       "items": [
+        {
+          "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
+          "url": "https://www.gov.uk/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
+          "date": "2026-11-25T16:39:01.000Z"
+        },
         {
           "title": "Give notice of subscribers: company not having share capital",
           "url": "https://www.gov.uk/government/publications/give-notice-of-subscribers-company-not-having-share-capital",
@@ -102,11 +107,6 @@
           "title": "Give notice of a resolution",
           "url": "https://www.gov.uk/government/publications/give-notice-of-a-special-written-or-ordinary-resolution",
           "date": "2026-11-24T09:59:40.000Z"
-        },
-        {
-          "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
-          "url": "https://www.gov.uk/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
-          "date": "2026-11-19T16:26:33.000Z"
         },
         {
           "title": "Companies House approach to non-compliance with mandatory identity verification",
@@ -168,8 +168,23 @@
     {
       "name": "CMA policy",
       "status": "ok",
-      "checkedAt": "2026-11-25T04:34:17.406Z",
+      "checkedAt": "2026-11-26T03:46:25.743Z",
       "items": [
+        {
+          "title": "Major fragrance suppliers fined £85 million by the CMA for illegal collusion",
+          "url": "https://www.gov.uk/government/news/major-fragrance-suppliers-fined-85-million-by-the-cma-for-illegal-collusion",
+          "date": "2026-11-25T14:00:13.000Z"
+        },
+        {
+          "title": "CMA considers remedies to resolve coatings merger concerns",
+          "url": "https://www.gov.uk/government/news/cma-considers-remedies-to-resolve-coatings-merger-concerns",
+          "date": "2026-11-25T07:31:35.000Z"
+        },
+        {
+          "title": "McCormick offers remedies to resolve competition concerns in Unilever Foods deal",
+          "url": "https://www.gov.uk/government/news/mccormick-offers-remedies-to-resolve-competition-concerns-in-unilever-foods-deal",
+          "date": "2026-11-25T07:02:33.000Z"
+        },
         {
           "title": "Reviewing the Mobile Radio Network Services Market Investigation Order 2023",
           "url": "https://www.gov.uk/government/consultations/reviewing-the-mobile-radio-network-services-market-investigation-order-2023",
@@ -229,29 +244,49 @@
           "title": "CMA panel member biographies and disclosures of interest",
           "url": "https://www.gov.uk/government/publications/cma-panel-member-biographies-and-disclosures-of-interest",
           "date": "2026-11-12T11:38:24.000Z"
-        },
-        {
-          "title": "Application of the Chapter I prohibition in the Competition Act 1998 to technology transfer agreements",
-          "url": "https://www.gov.uk/government/consultations/application-of-the-chapter-i-prohibition-in-the-competition-act-1998-to-technology-transfer-agreements",
-          "date": "2026-11-10T14:09:28.000Z"
-        },
-        {
-          "title": "Technology transfer agreements and competition law",
-          "url": "https://www.gov.uk/government/publications/technology-transfer-agreements-and-competition-law",
-          "date": "2026-11-10T14:09:13.000Z"
-        },
-        {
-          "title": "CMA response to consultation on equal pay and pay discrimination",
-          "url": "https://www.gov.uk/government/publications/cma-response-to-consultation-on-equal-pay-and-pay-discrimination",
-          "date": "2026-11-10T11:00:41.000Z"
         }
       ]
     },
     {
       "name": "Business department",
       "status": "ok",
-      "checkedAt": "2026-11-25T04:34:18.005Z",
+      "checkedAt": "2026-11-26T03:46:25.891Z",
       "items": [
+        {
+          "title": "Designated standards: pressure equipment",
+          "url": "https://www.gov.uk/government/publications/designated-standards-pressure-equipment",
+          "date": "2026-11-26T00:01:02.000Z"
+        },
+        {
+          "title": "Designated standards: machinery",
+          "url": "https://www.gov.uk/government/publications/designated-standards-machinery",
+          "date": "2026-11-26T00:01:02.000Z"
+        },
+        {
+          "title": "Implementing the Plan to Make Work Pay and Employment Rights Act",
+          "url": "https://www.gov.uk/government/publications/implementing-the-plan-to-make-work-pay-and-employment-rights-act",
+          "date": "2026-11-25T15:24:04.000Z"
+        },
+        {
+          "title": "Public dialogue on the governance of engineering biology",
+          "url": "https://www.gov.uk/government/publications/public-dialogue-on-the-governance-of-engineering-biology",
+          "date": "2026-11-25T14:58:29.000Z"
+        },
+        {
+          "title": "Inform workers of their right to join a trade union: standardised statement",
+          "url": "https://www.gov.uk/government/publications/inform-workers-of-their-right-to-join-a-trade-union-standardised-statement",
+          "date": "2026-11-25T14:33:12.000Z"
+        },
+        {
+          "title": "Employment Rights Act 2025: factsheets",
+          "url": "https://www.gov.uk/government/publications/employment-rights-bill-factsheets",
+          "date": "2026-11-25T14:19:06.000Z"
+        },
+        {
+          "title": "Joint Statement of 15th Meeting of the UK-Viet Nam JETCO",
+          "url": "https://www.gov.uk/government/news/joint-statement-of-15th-meeting-of-the-uk-viet-nam-jetco",
+          "date": "2026-11-25T11:31:00.000Z"
+        },
         {
           "title": "Notice to exporters 2026/25: Cryptographic OIELs will be discontinued",
           "url": "https://www.gov.uk/government/publications/notice-to-exporters-202625-cryptographic-oiels-will-be-discontinued",
@@ -283,11 +318,6 @@
           "date": "2026-11-23T15:34:51.000Z"
         },
         {
-          "title": "Employment Rights Act 2025: factsheets",
-          "url": "https://www.gov.uk/government/publications/employment-rights-bill-factsheets",
-          "date": "2026-11-23T09:33:22.000Z"
-        },
-        {
           "title": "UK reaches for stars with NATO space launch plan",
           "url": "https://www.gov.uk/government/news/uk-reaches-for-stars-with-nato-space-launch-plan",
           "date": "2026-11-22T00:01:05.000Z"
@@ -296,44 +326,19 @@
           "title": "Gangmasters Licensing Appeals results and judgements",
           "url": "https://www.gov.uk/government/publications/gangmasters-licensing-appeals-results-and-judgements",
           "date": "2026-11-20T13:19:09.000Z"
-        },
-        {
-          "title": "Online choice architecture mapping",
-          "url": "https://www.gov.uk/government/publications/online-choice-architecture-mapping",
-          "date": "2026-11-19T16:25:56.000Z"
-        },
-        {
-          "title": "Price personalisation: evidence from the UK online market",
-          "url": "https://www.gov.uk/government/publications/price-personalisation-evidence-from-the-uk-online-market",
-          "date": "2026-11-19T16:25:51.000Z"
-        },
-        {
-          "title": "Horizon Shortfall Scheme: independent assessor privacy notice",
-          "url": "https://www.gov.uk/government/publications/horizon-shortfall-scheme-independent-assessor-privacy-notice",
-          "date": "2026-11-19T14:29:53.000Z"
-        },
-        {
-          "title": "UK confirms participation at Expo 2030 Riyadh",
-          "url": "https://www.gov.uk/government/news/uk-confirms-participation-at-expo-2030-riyadh",
-          "date": "2026-11-19T13:23:22.000Z"
-        },
-        {
-          "title": "British Industrial Competitiveness Scheme: guidance for suppliers",
-          "url": "https://www.gov.uk/government/publications/british-industrial-competitiveness-scheme-guidance-for-suppliers",
-          "date": "2026-11-19T10:00:00.000Z"
-        },
-        {
-          "title": "Trade remedies notices: robot lawn mowers from China (anti-dumping)",
-          "url": "https://www.gov.uk/government/publications/trade-remedies-notices-robot-lawn-mowers-from-china-anti-dumping",
-          "date": "2026-11-18T15:30:03.000Z"
         }
       ]
     },
     {
       "name": "Bank of England",
       "status": "ok",
-      "checkedAt": "2026-11-25T04:34:17.932Z",
+      "checkedAt": "2026-11-26T03:46:26.116Z",
       "items": [
+        {
+          "title": "Regulators implement growth-friendly securitisation reforms",
+          "url": "https://www.bankofengland.co.uk/news/2026/november/regulators-implement-growth-friendly-securitisation-reforms",
+          "date": "2026-11-25T10:00:00.000Z"
+        },
         {
           "title": "Daniel E. Pinto appointed to the Bank of England’s Financial Policy Committee",
           "url": "https://www.bankofengland.co.uk/news/2026/november/daniel-pinto-appointment-fpc",
@@ -403,19 +408,19 @@
           "title": "Minutes of the Securities Lending Committee meeting – September 2026",
           "url": "https://www.bankofengland.co.uk/minutes/2026/september/securities-lending-committee-meeting-september-2026",
           "date": "2026-10-22T15:35:53.000Z"
-        },
-        {
-          "title": "Banknote imagery advisory group minutes – 15 July 2026",
-          "url": "https://www.bankofengland.co.uk/minutes/2026/july/banknote-advisory-minutes-15-july",
-          "date": "2026-10-16T11:00:00.000Z"
         }
       ]
     },
     {
       "name": "PRA",
       "status": "ok",
-      "checkedAt": "2026-11-25T04:34:17.922Z",
+      "checkedAt": "2026-11-26T03:46:26.179Z",
       "items": [
+        {
+          "title": "PS21/26 – Reforms to securitisation requirements",
+          "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2026/november/reforms-to-securitisation-requirements-policy-statement",
+          "date": "2026-11-25T10:00:00.000Z"
+        },
         {
           "title": "Prudential Regulation Authority's statement on IFRS 18 and FINREP reporting",
           "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2026/november/pra-statement-on-ifrs-18-and-finrep-reporting",
@@ -485,19 +490,19 @@
           "title": "PS19/26 – High loan to income lending",
           "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2026/october/high-loan-to-income-lending-policy-statement",
           "date": "2026-10-14T09:00:00.000Z"
-        },
-        {
-          "title": "CP13/26 – The Prudential Regulation Authority’s automatic thresholds indexation framework",
-          "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2026/october/updating-regulatory-thresholds-consultation-paper",
-          "date": "2026-10-07T09:00:00.000Z"
         }
       ]
     },
     {
       "name": "FCA",
       "status": "ok",
-      "checkedAt": "2026-11-25T04:34:18.065Z",
+      "checkedAt": "2026-11-26T03:46:26.445Z",
       "items": [
+        {
+          "title": "How should investors evaluate performance?",
+          "url": "https://www.fca.org.uk/news/blogs/how-should-investors-evaluate-performance",
+          "date": null
+        },
         {
           "title": "Smarter regulation means understanding the trade-offs",
           "url": "https://www.fca.org.uk/news/blogs/smarter-regulation-means-understanding-trade-offs",
@@ -566,11 +571,6 @@
         {
           "title": "Man sentenced over £154m fake takeover bid targeting UK-listed company",
           "url": "https://www.fca.org.uk/news/press-releases/man-sentenced-over-154m-fake-takeover-bid-targeting-uk-listed-company",
-          "date": null
-        },
-        {
-          "title": "The not-so-fine print: making consumer contracts fair",
-          "url": "https://www.fca.org.uk/news/blogs/not-so-fine-print-making-consumer-contracts-fair",
           "date": null
         }
       ]

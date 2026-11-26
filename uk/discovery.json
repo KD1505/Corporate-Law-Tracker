@@ -1,6 +1,21 @@
 {
-  "checkedAt": "2026-11-25T04:34:10.948Z",
+  "checkedAt": "2026-11-26T03:46:20.354Z",
   "items": [
+    {
+      "path": "/cma-cases/global-slash-alight-merger-inquiry",
+      "title": "Global / Alight merger inquiry",
+      "sourceUpdated": "2026-11-25T13:00:26Z"
+    },
+    {
+      "path": "/cma-cases/akzonobel-slash-axalta-merger-inquiry",
+      "title": "AkzoNobel / Axalta merger inquiry",
+      "sourceUpdated": "2026-11-25T07:31:09Z"
+    },
+    {
+      "path": "/cma-cases/mccormick-slash-unilever-merger-inquiry",
+      "title": "McCormick / Unilever merger inquiry",
+      "sourceUpdated": "2026-11-25T07:00:26Z"
+    },
     {
       "path": "/cma-cases/vivisol-slash-air-liquide-home-oxygen-services-business-merger-inquiry",
       "title": "Vivisol / Air Liquide (home oxygen services business) merger inquiry",
@@ -25,16 +40,6 @@
       "path": "/cma-cases/pilgrims-slash-walkers-deli-and-sausage-co-merger-inquiry",
       "title": "Pilgrim’s / Walkers Deli & Sausage Co merger inquiry",
       "sourceUpdated": "2026-11-11T12:01:14Z"
-    },
-    {
-      "path": "/cma-cases/akzonobel-slash-axalta-merger-inquiry",
-      "title": "AkzoNobel / Axalta merger inquiry",
-      "sourceUpdated": "2026-11-11T07:30:31Z"
-    },
-    {
-      "path": "/cma-cases/mccormick-slash-unilever-merger-inquiry",
-      "title": "McCormick / Unilever merger inquiry",
-      "sourceUpdated": "2026-11-11T07:02:26Z"
     },
     {
       "path": "/cma-cases/co-operative-group-slash-southern-co-operative-merger-inquiry",
@@ -180,11 +185,6 @@
       "path": "/cma-cases/abf-slash-hovis-merger-inquiry",
       "title": "ABF / Hovis merger inquiry",
       "sourceUpdated": "2026-06-16T10:01:13Z"
-    },
-    {
-      "path": "/cma-cases/spreadex-slash-sporting-index-merger-inquiry",
-      "title": "Spreadex / Sporting Index merger inquiry",
-      "sourceUpdated": "2026-06-12T10:01:12Z"
     }
   ]
 }
