@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-11-24T09:07:50.360Z",
+  "generatedAt": "2026-11-26T01:14:02.531Z",
   "algorithm": "material-change-only-v1",
   "updates": [
+    {
+      "id": "academy-2026-11-26-0-rajani-associates-saraf-and-partners-act-on-redb",
+      "sourceId": "rajani-associates-saraf-and-partners-act-on-redbrick-offices-530-crore-fundraise",
+      "date": "25 Nov 2026",
+      "category": "Competition / CCI",
+      "headline": "Rajani Associates, Saraf and Partners act on Redbrick Offices ₹530 crore fundraise",
+      "why": "Redbrick Offices Limited has raised ₹530 crore through a combination of primary and secondary investments from a fundraise led by Abakkus Four2Eight Opportunities Fund, with participation from India SME, IIFL, Evolvence and UTI. Rajani…",
+      "interviewPrompt": "Explain the trigger, whether standstill applies, and how the point changes conditions precedent, long-stop date or remedies drafting.",
+      "source": "https://www.barandbench.com/law-firms/dealstreet/rajani-associates-saraf-and-partners-act-on-redbrick-offices-530-crore-fundraise",
+      "sourceName": "Bar & Bench - Dealstreet"
+    },
     {
       "id": "academy-2026-11-24-0-bse-rss-e728a14e867636d35873f9",
       "sourceId": "bse-rss-e728a14e867636d35873f9",
@@ -430,17 +441,6 @@
       "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
       "source": "https://nsearchives.nseindia.com/corporate/APOLLO_02112026080444_AMS_Update_on_Open_Offer.pdf",
       "sourceName": "NSE filing - Apollo Micro Systems Limited"
-    },
-    {
-      "id": "academy-2026-11-03-2-nse-rswm-02-nov-2026182431",
-      "sourceId": "nse-rswm-02-nov-2026182431",
-      "date": "2 Nov 2026",
-      "category": "Listed M&A / SEBI",
-      "headline": "RSWM Limited: General Updates",
-      "why": "General Updates - Pursuant to Regulation 30 & 33 of the SEBI (Listing Obligations and Disclosure Requirements)Regulations, 2015, the Board of Directors of the Company at its Meeting held today, i.e., 2ndNovember, 2026 have inter alia…",
-      "interviewPrompt": "Identify the SAST/LODR/PIT trigger, disclosure or open-offer consequence, and the timetable impact.",
-      "source": "https://nsearchives.nseindia.com/corporate/RSWM_02112026182422_Financial_Results30092026.pdf",
-      "sourceName": "NSE filing - RSWM Limited"
     }
   ]
 }
