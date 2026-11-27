@@ -1,11 +1,31 @@
 {
-  "attemptedAt": "2026-11-26T03:46:26.445Z",
+  "attemptedAt": "2026-11-27T03:47:37.576Z",
   "sources": [
     {
       "name": "Treasury",
       "status": "ok",
-      "checkedAt": "2026-11-26T03:46:25.743Z",
+      "checkedAt": "2026-11-27T03:47:36.909Z",
       "items": [
+        {
+          "title": "Treasury Minutes – November 2026",
+          "url": "https://www.gov.uk/government/publications/treasury-minutes-november-2026",
+          "date": "2026-11-26T14:03:07.000Z"
+        },
+        {
+          "title": "Future regulatory regime for benchmarks and benchmark administrators",
+          "url": "https://www.gov.uk/government/consultations/future-regulatory-regime-for-benchmarks-and-benchmark-administrators",
+          "date": "2026-11-26T11:00:00.000Z"
+        },
+        {
+          "title": "Tariffs cut to give breathing space to families with the food shop",
+          "url": "https://www.gov.uk/government/news/tariffs-cut-to-give-breathing-space-to-families-with-the-food-shop",
+          "date": "2026-11-26T10:58:04.000Z"
+        },
+        {
+          "title": "CMA correspondence in relation to private provision in the dentistry market",
+          "url": "https://www.gov.uk/government/publications/cma-correspondence-in-relation-to-private-provision-in-the-dentistry-market",
+          "date": "2026-11-26T07:00:26.000Z"
+        },
         {
           "title": "£100 Household Energy Payment factsheet",
           "url": "https://www.gov.uk/government/news/100-household-energy-payment-factsheet",
@@ -60,34 +80,19 @@
           "title": "Methodology: Economic Impact of the UK–EU Youth Experience Scheme",
           "url": "https://www.gov.uk/government/publications/methodology-economic-impact-of-the-uk-eu-youth-experience-scheme",
           "date": "2026-11-20T13:09:59.000Z"
-        },
-        {
-          "title": "HM Treasury Market Engagement Group summary minutes – November 2026",
-          "url": "https://www.gov.uk/government/publications/hm-treasury-market-engagement-group-summary-minutes-november-2026",
-          "date": "2026-11-19T07:30:00.000Z"
-        },
-        {
-          "title": "Study to examine skills retention in UK financial services",
-          "url": "https://www.gov.uk/government/publications/study-to-examine-skills-retention-in-uk-financial-services",
-          "date": "2026-11-18T11:00:08.000Z"
-        },
-        {
-          "title": "HMT workforce management information: October 2026",
-          "url": "https://www.gov.uk/government/publications/hmt-workforce-management-information-october-2026",
-          "date": "2026-11-18T10:16:06.000Z"
-        },
-        {
-          "title": "Orange Book",
-          "url": "https://www.gov.uk/government/publications/orange-book",
-          "date": "2026-11-18T10:06:59.000Z"
         }
       ]
     },
     {
       "name": "Companies House",
       "status": "ok",
-      "checkedAt": "2026-11-26T03:46:25.739Z",
+      "checkedAt": "2026-11-27T03:47:36.893Z",
       "items": [
+        {
+          "title": "List of Authorised Corporate Service Providers (ACSPs)",
+          "url": "https://www.gov.uk/government/publications/list-of-authorised-corporate-service-providers-acsps",
+          "date": "2026-11-26T11:48:24.000Z"
+        },
         {
           "title": "Ceased or suspended Authorised Corporate Service Providers (ACSPs)",
           "url": "https://www.gov.uk/government/publications/ceased-or-suspended-authorised-corporate-service-providers-acsps",
@@ -117,11 +122,6 @@
           "title": "Identity verification is making the UK's company register more trustworthy",
           "url": "https://www.gov.uk/government/news/identity-verification-is-making-the-uks-company-register-more-trustworthy",
           "date": "2026-11-18T09:00:07.000Z"
-        },
-        {
-          "title": "List of Authorised Corporate Service Providers (ACSPs)",
-          "url": "https://www.gov.uk/government/publications/list-of-authorised-corporate-service-providers-acsps",
-          "date": "2026-11-12T13:43:19.000Z"
         },
         {
           "title": "Technical interface specifications for Companies House software",
@@ -168,8 +168,23 @@
     {
       "name": "CMA policy",
       "status": "ok",
-      "checkedAt": "2026-11-26T03:46:25.743Z",
+      "checkedAt": "2026-11-27T03:47:36.896Z",
       "items": [
+        {
+          "title": "CMA correspondence in relation to private provision in the dentistry market",
+          "url": "https://www.gov.uk/government/publications/cma-correspondence-in-relation-to-private-provision-in-the-dentistry-market",
+          "date": "2026-11-26T07:00:26.000Z"
+        },
+        {
+          "title": "Private dental services market study: interim report",
+          "url": "https://www.gov.uk/government/consultations/private-dental-services-market-study-interim-report",
+          "date": "2026-11-26T07:00:20.000Z"
+        },
+        {
+          "title": "CMA study reveals catalogue of concerns in private dentistry market",
+          "url": "https://www.gov.uk/government/news/cma-study-reveals-catalogue-of-concerns-in-private-dentistry-market",
+          "date": "2026-11-26T07:00:20.000Z"
+        },
         {
           "title": "Major fragrance suppliers fined £85 million by the CMA for illegal collusion",
           "url": "https://www.gov.uk/government/news/major-fragrance-suppliers-fined-85-million-by-the-cma-for-illegal-collusion",
@@ -229,111 +244,111 @@
           "title": "Travel and leisure businesses investigated over pricing practices",
           "url": "https://www.gov.uk/government/news/travel-and-leisure-businesses-investigated-over-pricing-practices",
           "date": "2026-11-18T11:00:00.000Z"
-        },
-        {
-          "title": "Provisional decision: strategic review of CMA markets remedies",
-          "url": "https://www.gov.uk/government/consultations/provisional-decision-strategic-review-of-cma-markets-remedies",
-          "date": "2026-11-16T14:02:25.000Z"
-        },
-        {
-          "title": "Supplementary provisional decision: strategic review of CMA markets remedies",
-          "url": "https://www.gov.uk/government/consultations/supplementary-provisional-decision-strategic-review-of-cma-markets-remedies",
-          "date": "2026-11-16T14:01:18.000Z"
-        },
-        {
-          "title": "CMA panel member biographies and disclosures of interest",
-          "url": "https://www.gov.uk/government/publications/cma-panel-member-biographies-and-disclosures-of-interest",
-          "date": "2026-11-12T11:38:24.000Z"
         }
       ]
     },
     {
       "name": "Business department",
       "status": "ok",
-      "checkedAt": "2026-11-26T03:46:25.891Z",
+      "checkedAt": "2026-11-27T03:47:37.493Z",
       "items": [
         {
-          "title": "Designated standards: pressure equipment",
-          "url": "https://www.gov.uk/government/publications/designated-standards-pressure-equipment",
-          "date": "2026-11-26T00:01:02.000Z"
+          "title": "Joint Ministerial Statement on the occasion of the second Trade and Investment Dialogue between the Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP) and the Member States of the Association of Southeast Asian Nations (ASEAN)",
+          "url": "https://www.gov.uk/government/publications/joint-ministerial-statement-on-the-occasion-of-the-second-trade-and-investment-dialogue-between-the-comprehensive-and-progressive-agreement-for-trans---2",
+          "date": "2026-11-26T17:15:20.000Z"
         },
         {
-          "title": "Designated standards: machinery",
-          "url": "https://www.gov.uk/government/publications/designated-standards-machinery",
-          "date": "2026-11-26T00:01:02.000Z"
+          "title": "Joint Ministerial Statement on the occasion of the second Trade and Investment Dialogue between the Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP) and the European Union (EU)",
+          "url": "https://www.gov.uk/government/publications/joint-ministerial-statement-on-the-occasion-of-the-second-trade-and-investment-dialogue-between-the-comprehensive-and-progressive-agreement-for-trans-",
+          "date": "2026-11-26T17:15:17.000Z"
         },
         {
-          "title": "Implementing the Plan to Make Work Pay and Employment Rights Act",
-          "url": "https://www.gov.uk/government/publications/implementing-the-plan-to-make-work-pay-and-employment-rights-act",
-          "date": "2026-11-25T15:24:04.000Z"
+          "title": "HSS fixed sum offer permission to appeal process: tariff of reasonable legal costs",
+          "url": "https://www.gov.uk/government/publications/hss-fixed-sum-offer-permission-to-appeal-process-tariff-of-reasonable-legal-costs",
+          "date": "2026-11-26T16:04:10.000Z"
         },
         {
-          "title": "Public dialogue on the governance of engineering biology",
-          "url": "https://www.gov.uk/government/publications/public-dialogue-on-the-governance-of-engineering-biology",
-          "date": "2026-11-25T14:58:29.000Z"
+          "title": "UK AI compute benefits realisation report",
+          "url": "https://www.gov.uk/government/publications/uk-ai-compute-benefits-realisation-report",
+          "date": "2026-11-26T15:44:58.000Z"
         },
         {
-          "title": "Inform workers of their right to join a trade union: standardised statement",
-          "url": "https://www.gov.uk/government/publications/inform-workers-of-their-right-to-join-a-trade-union-standardised-statement",
-          "date": "2026-11-25T14:33:12.000Z"
+          "title": "Quantifying artificial intelligence (AI) compute user demand",
+          "url": "https://www.gov.uk/government/publications/quantifying-artificial-intelligence-ai-compute-user-demand",
+          "date": "2026-11-26T15:37:38.000Z"
         },
         {
-          "title": "Employment Rights Act 2025: factsheets",
-          "url": "https://www.gov.uk/government/publications/employment-rights-bill-factsheets",
-          "date": "2026-11-25T14:19:06.000Z"
+          "title": "Baseline evaluation of the AI Research Resource (AIRR)",
+          "url": "https://www.gov.uk/government/publications/baseline-evaluation-of-the-ai-research-resource-airr",
+          "date": "2026-11-26T15:00:52.000Z"
         },
         {
-          "title": "Joint Statement of 15th Meeting of the UK-Viet Nam JETCO",
-          "url": "https://www.gov.uk/government/news/joint-statement-of-15th-meeting-of-the-uk-viet-nam-jetco",
-          "date": "2026-11-25T11:31:00.000Z"
+          "title": "DBT: spending over £500, September 2026",
+          "url": "https://www.gov.uk/government/publications/dbt-spending-over-500-september-2026",
+          "date": "2026-11-26T10:00:02.000Z"
         },
         {
-          "title": "Notice to exporters 2026/25: Cryptographic OIELs will be discontinued",
-          "url": "https://www.gov.uk/government/publications/notice-to-exporters-202625-cryptographic-oiels-will-be-discontinued",
-          "date": "2026-11-24T16:39:49.000Z"
+          "title": "DBT: spending over £25,000, October 2026",
+          "url": "https://www.gov.uk/government/publications/dbt-spending-over-25000-october-2026",
+          "date": "2026-11-26T10:00:02.000Z"
         },
         {
-          "title": "Government response to the CMA’s Civil Engineering Market Study",
-          "url": "https://www.gov.uk/government/publications/government-response-to-the-cmas-civil-engineering-market-study",
-          "date": "2026-11-24T10:00:04.000Z"
+          "title": "Export control licensing management information for Israel",
+          "url": "https://www.gov.uk/government/publications/export-control-licensing-management-information-for-israel",
+          "date": "2026-11-26T09:30:22.000Z"
         },
         {
-          "title": "UK launches consultation on potential FTA with Thailand",
-          "url": "https://www.gov.uk/government/news/uk-launches-consultation-on-potential-fta-with-thailand",
-          "date": "2026-11-24T09:59:45.000Z"
+          "title": "Licensing statistics quality and methodology information",
+          "url": "https://www.gov.uk/government/publications/strategic-export-controls-quality-and-methodology-report",
+          "date": "2026-11-26T09:30:17.000Z"
         },
         {
-          "title": "Potential UK-Thailand free trade agreement",
-          "url": "https://www.gov.uk/government/consultations/potential-uk-thailand-free-trade-agreement",
-          "date": "2026-11-24T09:50:00.000Z"
+          "title": "Licensing statistics revisions policy",
+          "url": "https://www.gov.uk/government/publications/strategic-export-controls-licensing-statistics-revisions-policy",
+          "date": "2026-11-26T09:30:17.000Z"
         },
         {
-          "title": "British Industrial Competitiveness Scheme: funding information",
-          "url": "https://www.gov.uk/government/publications/british-industrial-competitiveness-scheme-funding-information",
-          "date": "2026-11-23T17:22:24.000Z"
+          "title": "International buyers and investors study 2024",
+          "url": "https://www.gov.uk/government/publications/international-buyers-and-investors-study-2024",
+          "date": "2026-11-26T09:30:07.000Z"
         },
         {
-          "title": "DBT: workforce management information October 2026",
-          "url": "https://www.gov.uk/government/publications/dbt-workforce-management-information-october-2026",
-          "date": "2026-11-23T15:34:51.000Z"
+          "title": "International buyers and investors study 2023",
+          "url": "https://www.gov.uk/government/publications/international-buyers-and-investors-study-2023",
+          "date": "2026-11-26T09:30:07.000Z"
         },
         {
-          "title": "UK reaches for stars with NATO space launch plan",
-          "url": "https://www.gov.uk/government/news/uk-reaches-for-stars-with-nato-space-launch-plan",
-          "date": "2026-11-22T00:01:05.000Z"
+          "title": "International traders and investors study 2019",
+          "url": "https://www.gov.uk/government/publications/international-traders-and-investors-study-2019",
+          "date": "2026-11-26T09:30:06.000Z"
         },
         {
-          "title": "Gangmasters Licensing Appeals results and judgements",
-          "url": "https://www.gov.uk/government/publications/gangmasters-licensing-appeals-results-and-judgements",
-          "date": "2026-11-20T13:19:09.000Z"
+          "title": "International traders and investors study 2020",
+          "url": "https://www.gov.uk/government/publications/international-traders-and-investors-study-2020",
+          "date": "2026-11-26T09:30:06.000Z"
         }
       ]
     },
     {
       "name": "Bank of England",
       "status": "ok",
-      "checkedAt": "2026-11-26T03:46:26.116Z",
+      "checkedAt": "2026-11-27T03:47:37.267Z",
       "items": [
+        {
+          "title": "Payments systems Memorandum of Understanding",
+          "url": "https://www.bankofengland.co.uk/news/2024/march/payment-systems-memorandum-of-understanding",
+          "date": "2026-11-26T15:00:00.000Z"
+        },
+        {
+          "title": "Statistical Notice 2026/09 - Update to the classification of accounts guide",
+          "url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-09",
+          "date": "2026-11-26T12:33:57.000Z"
+        },
+        {
+          "title": "Financial Policy Committee Record – November 2026",
+          "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/november-2026",
+          "date": "2026-11-26T10:30:00.000Z"
+        },
         {
           "title": "Regulators implement growth-friendly securitisation reforms",
           "url": "https://www.bankofengland.co.uk/news/2026/november/regulators-implement-growth-friendly-securitisation-reforms",
@@ -393,28 +408,13 @@
           "title": "Bank of England sets out approach to tokenised collateral in central clearing",
           "url": "https://www.bankofengland.co.uk/news/2026/october/bank-of-england-sets-out-approach-to-tokenised-collateral-in-central-clearing",
           "date": "2026-10-29T10:00:00.000Z"
-        },
-        {
-          "title": "Remit for the Monetary Policy Committee - October 2026",
-          "url": "https://www.bankofengland.co.uk/letter/2026/mpc-remit-2026",
-          "date": "2026-10-28T14:16:49.000Z"
-        },
-        {
-          "title": "Regulators unveil plans to simplify Senior Manager and Certification Regime",
-          "url": "https://www.bankofengland.co.uk/news/2026/october/regulators-unveil-plans-to-simplify-senior-manager-and-certification-regime",
-          "date": "2026-10-22T20:00:00.000Z"
-        },
-        {
-          "title": "Minutes of the Securities Lending Committee meeting – September 2026",
-          "url": "https://www.bankofengland.co.uk/minutes/2026/september/securities-lending-committee-meeting-september-2026",
-          "date": "2026-10-22T15:35:53.000Z"
         }
       ]
     },
     {
       "name": "PRA",
       "status": "ok",
-      "checkedAt": "2026-11-26T03:46:26.179Z",
+      "checkedAt": "2026-11-27T03:47:37.425Z",
       "items": [
         {
           "title": "PS21/26 – Reforms to securitisation requirements",
@@ -496,8 +496,23 @@
     {
       "name": "FCA",
       "status": "ok",
-      "checkedAt": "2026-11-26T03:46:26.445Z",
+      "checkedAt": "2026-11-27T03:47:37.576Z",
       "items": [
+        {
+          "title": "Authorities complete 2026 review of payments Memorandum of Understanding",
+          "url": "https://www.fca.org.uk/news/statements/payments-authorities-mou-review-2026",
+          "date": null
+        },
+        {
+          "title": "Check the firm before you invest, FCA warns, as AI scams rise",
+          "url": "https://www.fca.org.uk/news/press-releases/check-firm-you-invest-fca-warns-ai-scams-rise",
+          "date": null
+        },
+        {
+          "title": "Motor finance compensation scheme calculation",
+          "url": "https://www.fca.org.uk/news/statements/motor-finance-compensation-scheme-calculation",
+          "date": null
+        },
         {
           "title": "How should investors evaluate performance?",
           "url": "https://www.fca.org.uk/news/blogs/how-should-investors-evaluate-performance",
@@ -556,21 +571,6 @@
         {
           "title": "Getting the full picture of trading in UK shares",
           "url": "https://www.fca.org.uk/news/blogs/getting-full-picture-trading-uk-shares",
-          "date": null
-        },
-        {
-          "title": "What we’re learning from firms engaging with our innovation services",
-          "url": "https://www.fca.org.uk/news/blogs/what-were-learning-firms-engaging-our-innovation-services",
-          "date": null
-        },
-        {
-          "title": "FCA proposes greater pension investment flexibility to support long-term value for savers",
-          "url": "https://www.fca.org.uk/news/press-releases/fca-proposes-greater-pension-investment-flexibility-support-long-term-value-savers",
-          "date": null
-        },
-        {
-          "title": "Man sentenced over £154m fake takeover bid targeting UK-listed company",
-          "url": "https://www.fca.org.uk/news/press-releases/man-sentenced-over-154m-fake-takeover-bid-targeting-uk-listed-company",
           "date": null
         }
       ]

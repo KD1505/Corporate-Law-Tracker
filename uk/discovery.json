@@ -1,6 +1,11 @@
 {
-  "checkedAt": "2026-11-26T03:46:20.354Z",
+  "checkedAt": "2026-11-27T03:47:30.181Z",
   "items": [
+    {
+      "path": "/cma-cases/the-brinks-company-slash-ncr-atleos-corporation-merger-inquiry",
+      "title": "The Brink’s Company / NCR Atleos Corporation merger inquiry",
+      "sourceUpdated": "2026-11-26T14:00:42Z"
+    },
     {
       "path": "/cma-cases/global-slash-alight-merger-inquiry",
       "title": "Global / Alight merger inquiry",
@@ -107,11 +112,6 @@
       "sourceUpdated": "2026-10-16T10:47:28Z"
     },
     {
-      "path": "/cma-cases/the-brinks-company-slash-ncr-atleos-corporation-merger-inquiry",
-      "title": "The Brink’s Company / NCR Atleos Corporation merger inquiry",
-      "sourceUpdated": "2026-10-14T10:00:45Z"
-    },
-    {
       "path": "/cma-cases/vandemoortele-slash-delifrance-merger-inquiry",
       "title": "Vandemoortele / Délifrance merger inquiry",
       "sourceUpdated": "2026-10-07T11:59:54Z"
@@ -175,16 +175,6 @@
       "path": "/cma-cases/getty-images-slash-shutterstock-merger-inquiry",
       "title": "Getty Images / Shutterstock merger inquiry",
       "sourceUpdated": "2026-07-08T11:26:49Z"
-    },
-    {
-      "path": "/cma-cases/suzano-slash-kimberly-clark-jv-merger-inquiry",
-      "title": "Suzano / Kimberly-Clark JV merger inquiry",
-      "sourceUpdated": "2026-06-19T09:00:38Z"
-    },
-    {
-      "path": "/cma-cases/abf-slash-hovis-merger-inquiry",
-      "title": "ABF / Hovis merger inquiry",
-      "sourceUpdated": "2026-06-16T10:01:13Z"
     }
   ]
 }
