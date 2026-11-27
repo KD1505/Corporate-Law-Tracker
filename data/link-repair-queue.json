@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-26T01:14:02.935Z",
-  "sourceCheckAt": "2026-11-26",
-  "flaggedURLs": 222,
-  "queuedURLs": 222,
+  "generatedAt": "2026-11-27T01:14:24.152Z",
+  "sourceCheckAt": "2026-11-27",
+  "flaggedURLs": 223,
+  "queuedURLs": 223,
   "note": "Historical automated 404/410 observations require independent reconfirmation, especially on regulator websites.",
   "items": [
     {
@@ -1526,6 +1526,14 @@
       "httpStatus": 404,
       "affectedRecords": [
         "nse-GATECH-17-Aug-2026181542"
+      ],
+      "maxPriority": 17
+    },
+    {
+      "url": "https://www.voltas.com/investors",
+      "httpStatus": 404,
+      "affectedRecords": [
+        "nse-VOLTAS-14-Aug-2026172619"
       ],
       "maxPriority": 17
     },
