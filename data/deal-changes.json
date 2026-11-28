@@ -1,6 +1,51 @@
 {
-  "updatedAt": "2026-11-27T01:14:26.684Z",
+  "updatedAt": "2026-11-28T00:47:07.306Z",
   "events": [
+    {
+      "id": "BSE-rss-6c377a40ca7dc119f36aa9",
+      "headline": "Quality Power Electrical Equipments Ltd (544367)",
+      "date": "2026-11-28T00:47:07.304Z",
+      "kind": "record-added",
+      "changes": [
+        "New transaction record published"
+      ]
+    },
+    {
+      "id": "shardul-amarchand-mangaldas-advises-grid-india-on-acquisition-of-central-transmission-utility-of-india-from-powergrid",
+      "headline": "Shardul Amarchand Mangaldas advises GRID-INDIA on acquisition of Central Transmission Utility of India from POWERGRID",
+      "date": "2026-11-28T00:47:07.304Z",
+      "kind": "record-added",
+      "changes": [
+        "New transaction record published"
+      ]
+    },
+    {
+      "id": "khaitan-co-acts-on-carbon-resources-druk-green-power-corp-104mw-hydropower-project-in-bhutan",
+      "headline": "Khaitan & Co acts on Carbon Resources - Druk Green Power Corp 104MW hydropower project in Bhutan",
+      "date": "2026-11-28T00:47:07.304Z",
+      "kind": "record-added",
+      "changes": [
+        "New transaction record published"
+      ]
+    },
+    {
+      "id": "elp-advises-ihcl-on-multi-hotel-operating-arrangement-with-adani-airports",
+      "headline": "ELP advises IHCL on multi-hotel operating arrangement with Adani Airports",
+      "date": "2026-11-28T00:47:07.304Z",
+      "kind": "record-added",
+      "changes": [
+        "New transaction record published"
+      ]
+    },
+    {
+      "id": "trilegal-jsa-act-on-infineon-technologies-acquisition-of-c2i-semiconductors",
+      "headline": "Trilegal, JSA act on Infineon Technologies' acquisition of C2i Semiconductors",
+      "date": "2026-11-28T00:47:07.304Z",
+      "kind": "record-added",
+      "changes": [
+        "New transaction record published"
+      ]
+    },
     {
       "id": "khaitan-co-advises-dbs-bank-on-24-million-acquisition-financing-extended-to-delhi-international-cargo-terminal",
       "headline": "Khaitan & Co advises DBS Bank on $24 million acquisition financing extended to Delhi International Cargo Terminal",
