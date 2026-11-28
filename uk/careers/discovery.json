@@ -1,5 +1,5 @@
 {
-  "attemptedAt": "2026-11-27T03:47:54.416Z",
+  "attemptedAt": "2026-11-28T03:32:16.394Z",
   "notice": "Discovery only. Failed retrieval does not establish closure; successful retrieval does not establish availability. No curated job or employer fact automatically changed.",
   "sources": [
     {
@@ -8,8 +8,8 @@
       "kind": "listing",
       "url": "https://www.linklaters.com/careers/early-careers/training-contracts",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "0f51f9c28fbe011b8535a04885e36e4587b50e63b50e83a72dda6c4996b64453",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "872ef51d57d13dc6a36b423bd445951023a784e5a320b14ebdac5c5e61cb70bf",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -20,8 +20,8 @@
       "kind": "listing",
       "url": "https://www.linklaters.com/careers/early-careers/vacation-schemes",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "b6215c60dd6e8495e4d7203f1defea5b858e07ed289135f80f54d1a92aaa8e5f",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "dbf8024964c6ce10aaa6b103753bdbcef2859c863cc9b8dd2668b9976ed99219",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -32,8 +32,8 @@
       "kind": "listing",
       "url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-kingdom/our-programmes",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "82a3e8c48e102c19f9bae00fb40c8d7526b384cc58c039aa825c77057da21d4e",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "d2fd54f579220761de57f6fb53d5d227ddf5099f97db28c9cc051581d052d479",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -44,8 +44,8 @@
       "kind": "listing",
       "url": "https://www.burges-salmon.com/jobs/sector-focused-training-contracts-2029-energy-built-environment/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "d8c7a842937d071b099d74e47437d0055d17896122985dd11d48291deed575fe",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "4a3cd81ae9f9e56d0bdbab1a7a66eb7fe7e2dfbc77482751bfcafc57148c1f17",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -56,8 +56,8 @@
       "kind": "listing",
       "url": "https://www.burges-salmon.com/jobs/bristol-direct-training-contract-2029/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "335647c503b01bd8554f52c6f8fe27c28761e983c2b7c728550a7d29f7ec8d02",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "f20ca5b799dc84ad84ffdc72720b258b70b7efab5daf99c27d79580baa9b3b2d",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -68,8 +68,8 @@
       "kind": "listing",
       "url": "https://jobs.cliffordchance.com/training-contract-london",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "2f6e9c75d72fe8309b3de5138799831bb6b554f12d6a8e77dc9bbf3d8e9d85cb",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "2181f5617da25b16c3c7b11de4b4683a8a997cebeaa5ae4bb242b7f027963229",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -80,8 +80,8 @@
       "kind": "listing",
       "url": "https://www.freshfields.com/en/your-career/united-kingdom/early-careers/trainee-associate-program",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "86638e9bff766510f1e5ede10102fab219d70badf1cb38870a2772aa9f626b19",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "9a3422a9362daced26a12a0c056d0012bb9bfe10c6425fd673519eaceee9dd74",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -92,8 +92,8 @@
       "kind": "listing",
       "url": "https://www.slaughterandmay.com/careers/early-careers/apply/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "a6bfb38f6dc7685e5ce98a0afa1853ae325bd38dc2d46dca3f9afc54858da188",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "ccf9edf3daa144a0579aca7694eaebc9122e8443ff4e5da6dd8cd388ecd6523a",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -104,8 +104,8 @@
       "kind": "listing",
       "url": "https://careers.aoshearman.com/en/job/london/legal-pa-gfm-12-month-ftc/3392/47088161728",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "804bede4641e4990f1ca388fa025ac51b54f2b583d229a26fb8d8465fd92afc2",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "2a4a2b6061c689ffe0c2db0ae73b4e3b8290493ce65c0bd77e48125ef368a5dd",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -117,7 +117,7 @@
       "url": "https://careers.aoshearman.com/en-gb/job/belfast/associate-corporate/3392/40135470336",
       "status": "failed",
       "checkedAt": "2026-11-26T03:46:43.497Z",
-      "attemptedAt": "2026-11-27T03:47:54.416Z",
+      "attemptedAt": "2026-11-28T03:32:16.394Z",
       "error": "HTTP 404",
       "signature": "191865c545176c90b266bfacc12e2ac2ac22f340a2309f72cf3f940eed75c03c",
       "leadCount": 0
@@ -128,8 +128,8 @@
       "kind": "listing",
       "url": "https://www.burges-salmon.com/jobs/corporate-governance-paralegal/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "f91be82f96fcd9f77f89574b9f057b3bc885a9d0985993fb4ce357f0cdb5c09c",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "670135df250cb95eec04267e0da5fa500cd213d6b94dd3858e98c8cdca30c989",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -140,8 +140,8 @@
       "kind": "listing",
       "url": "https://jobs.cliffordchance.com/job/legal-technology-advisor-forward-deployed-in-london-jid-3004",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "40fe95d52ed08d410410677729ec41b943e4ef40e2cfe316915da911e12655af",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "6a62de071f39559ebfecc1499a04858a95fdc63d83d4a67308c00e896e80a425",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -152,8 +152,8 @@
       "kind": "listing",
       "url": "https://wise.jobs/job/legal-counsel-uk-in-london-jid-4365",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "c9e4cb0495dcae897842582f7bb9f0b50c4fbd2e665f65e0705973e802847abd",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "1f69d250c0d4d71fb8f26a8218fd8d980c455f9565291b22158cd99381f2783f",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -164,8 +164,8 @@
       "kind": "listing",
       "url": "https://jobs.smartrecruiters.com/Entain/744000153712609",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "9c1c545c564c2439c326f21d9874403b3293849386287a7e14f6a0a7ec2d952f",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "f1b8901fa3bbfab33b4755268b834ebb4780ca52cf2842316d6f46e326f84556",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -176,8 +176,8 @@
       "kind": "listing",
       "url": "https://www.dechert.com/careers/london-training-programme/faqs.html",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "de7fff460bba8445d7782c1ecda4f50211214d27e293fbe9e1b1683c913c687f",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "1c6f81a45c76786f1f383e0a9df3734c29ea944188697941a984a7e116080fe3",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -189,7 +189,7 @@
       "url": "https://www.farrer.co.uk/careers/early-careers/vacation-scheme/",
       "status": "failed",
       "checkedAt": null,
-      "attemptedAt": "2026-11-27T03:47:54.416Z",
+      "attemptedAt": "2026-11-28T03:32:16.394Z",
       "error": "HTTP 403",
       "signature": null,
       "leadCount": 0
@@ -200,8 +200,8 @@
       "kind": "listing",
       "url": "https://www.cov.com/en/careers/lawyers/london/our-opportunities/vacation-schemes",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "1f9bc4acc64a6b915227cf49614cf81f85af5b371ca5f327e75267375db7b5ec",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "1a95580ccdcac70505be25b098989c247a6e2a88e9349e5a341f6d92e43915fd",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -212,8 +212,8 @@
       "kind": "listing",
       "url": "https://www.trowers.com/careers/trainee-solicitors",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "fab58c43c4a1bc63bd01be628cd2c98c6c9f5c5c0206e9b87bc47b42f1e116ca",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "146f93a6e2af8725644a33c8eccb6157478636bcf970366ed7341092b94773a9",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -224,8 +224,8 @@
       "kind": "listing",
       "url": "https://www.trowers.com/careers/trainee-solicitors",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "fab58c43c4a1bc63bd01be628cd2c98c6c9f5c5c0206e9b87bc47b42f1e116ca",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "146f93a6e2af8725644a33c8eccb6157478636bcf970366ed7341092b94773a9",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -236,8 +236,8 @@
       "kind": "listing",
       "url": "https://www.burges-salmon.com/join-us/emerging-talent/vacation-scheme/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "7f30d1cc1be3f0d79e8727746402239a1374ea5c2dc6d084a260855147a9391a",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "736615da54da8303e7146f854ce110e77271f9d35281f4c2398b9b6157111e2c",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -248,8 +248,8 @@
       "kind": "listing",
       "url": "https://gtstewart.co.uk/vacancies/paralegal-actions-against-the-police-and-public-authorities/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "629bca9bedc5668f87f66e271d80f712491364d8e319646e6e3b1590cc36bd51",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "50ee75a17dc7da0950083ab723c5c35d436b55430684f49c989ff3b7e34d75b0",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -260,8 +260,8 @@
       "kind": "listing",
       "url": "https://gtstewart.co.uk/vacancies/housing-paralegal-east-dulwich/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "a0e0dd04fa21885d99de0bcf302bf3854141965c28580992de3abdd994a1acfe",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "61d8d9c21502d141331b62024eb9a841635905cf0b7ad1163cd877fd3cbf60c7",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -272,8 +272,8 @@
       "kind": "listing",
       "url": "https://gtstewart.co.uk/vacancies/family-paralegal-hammersmith/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "438f9d4e42d4b82b1b855e619b6cc88e3e0018346e4d2f09cf0bd39cfbc75f7e",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "468fb7c875c250524c33f00c77698e6db73d0aca6b212e515efb0fc9abf471bf",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -284,8 +284,8 @@
       "kind": "listing",
       "url": "https://gtstewart.co.uk/vacancies/prison-law-paralegal-dartford/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "9136286d558017fbbd2f44feb8b4c789d737826a775fc88b9a7cc00ba6cb0785",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "b29485d8bb5ad97c8f96bbf61f6382cd0bbb2b924e4609c1119c64f432b8f7b1",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -296,7 +296,7 @@
       "kind": "listing",
       "url": "https://job-boards.greenhouse.io/carta/jobs/7980732003",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
       "signature": "ebf0599eea77b3059f00493cf18cac730d519c1127fd61629bdae28500e62faa",
       "changed": false,
       "leadCount": 0,
@@ -308,7 +308,7 @@
       "kind": "listing",
       "url": "https://job-boards.greenhouse.io/carta/jobs/7798948003",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
       "signature": "58bec14097a616f8d811b98a428c228653791dcf04ad9a9f4a21d9426e729c1d",
       "changed": false,
       "leadCount": 0,
@@ -320,7 +320,7 @@
       "kind": "listing",
       "url": "https://job-boards.greenhouse.io/octopuslegacy/jobs/5018965101",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
       "signature": "d35a0fb0dec1ec14be55afd8b13ae18b9d107dd869caa5ea4e9157eaad093820",
       "changed": false,
       "leadCount": 0,
@@ -332,9 +332,9 @@
       "kind": "listing",
       "url": "https://job-boards.greenhouse.io/gibsondunn/jobs/4469300009",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "f00d47a47f0a2df553653bb36b37ab76bacb794cee1c8e176de8f3928a259171",
-      "changed": false,
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "08ad242d794bec623c1540cf12192609d5e663dbf7527c0a32662eb5c8932bd9",
+      "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
     },
@@ -344,8 +344,8 @@
       "kind": "employer",
       "url": "https://www.linklaters.com/careers/early-careers/training-contracts",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "0f51f9c28fbe011b8535a04885e36e4587b50e63b50e83a72dda6c4996b64453",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "872ef51d57d13dc6a36b423bd445951023a784e5a320b14ebdac5c5e61cb70bf",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -356,8 +356,8 @@
       "kind": "employer",
       "url": "https://jobs.cliffordchance.com/training-contract-london",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "2f6e9c75d72fe8309b3de5138799831bb6b554f12d6a8e77dc9bbf3d8e9d85cb",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "2181f5617da25b16c3c7b11de4b4683a8a997cebeaa5ae4bb242b7f027963229",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -368,8 +368,8 @@
       "kind": "employer",
       "url": "https://www.freshfields.com/en/your-career/united-kingdom/early-careers",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "e0a4b673f58fc6bc14f5633998c649e1e5bb1d385b6dec13532b57c7259a08b3",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "3d8c25e6a939a92bfb7e393cb241bb4510820d5d1c758b67a686be95b2274aa4",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -380,8 +380,8 @@
       "kind": "employer",
       "url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-kingdom/London-Graduate-Recruitment-FAQs",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "38945247b8637151663a3e34f0abe4a218b7a545f68edb9e723cee7ed02e658c",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "09bec045b735db8d5db7ccc08ee14d3808e5ad11adab388a05febad1b9a34636",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -392,7 +392,7 @@
       "kind": "employer",
       "url": "https://earlycareers.addleshawgoddard.com/careers/training-contracts/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
       "signature": "51345c5a6695e8f8b9d89d091297e84cadd3df8aabc4fa0221ea4bb65d8f6e83",
       "changed": false,
       "leadCount": 0,
@@ -404,8 +404,8 @@
       "kind": "employer",
       "url": "https://www.burges-salmon.com/join-us/emerging-talent/trainees/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "606bfba4504c5d19dcc624f28fc2914a56c6933aa3126ca7c8935a510be87c79",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "64f7639f6f8e0a3072ac2c8dcd68bf75cf410d706bf4de32343f6d5bf5e287d6",
       "changed": true,
       "leadCount": 2,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -416,8 +416,8 @@
       "kind": "employer",
       "url": "https://careers.aoshearman.com/en-gb/london-training-contract",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "befff534b9d2670a15b86704e9d29ab33905199b5c16a701a97117daca5620a7",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "b3417252934f7bbe9bc4012e154189557a5a48aa82f017699a679cbe6b5b0101",
       "changed": true,
       "leadCount": 2,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -428,8 +428,8 @@
       "kind": "employer",
       "url": "https://www.slaughterandmay.com/careers/early-careers/apply/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "a6bfb38f6dc7685e5ce98a0afa1853ae325bd38dc2d46dca3f9afc54858da188",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "ccf9edf3daa144a0579aca7694eaebc9122e8443ff4e5da6dd8cd388ecd6523a",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -440,8 +440,8 @@
       "kind": "employer",
       "url": "https://www.sidley.com/en/careers",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "83cfb57186d20fbbbfa157c0cedf38c663bd4a0a35f8c94f656cce7bae2ef6a1",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "5931ace65562eff7d0a9ad06c0e7377397ca7b941a3ed98e9eb926e99a92f6ea",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -452,8 +452,8 @@
       "kind": "employer",
       "url": "https://www.bakermckenzie.com/en/careers",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "782417aebdc9dae62bc9e079050ad057883deec94cfc91a61bc55b165d450990",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "4caff73f0efcc0af9e2a8b42f935ddc0e0ed22752e22786c4b8963c54b393a6e",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -464,7 +464,7 @@
       "kind": "employer",
       "url": "https://www.proskauer.com/careers",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
       "signature": "f9071df4f19d57bc49eed155e9e9066229cf918472ed109bae448bd86b6cfe0e",
       "changed": false,
       "leadCount": 0,
@@ -477,7 +477,7 @@
       "url": "https://www.hoganlovells.com/en/careers",
       "status": "failed",
       "checkedAt": null,
-      "attemptedAt": "2026-11-27T03:47:54.416Z",
+      "attemptedAt": "2026-11-28T03:32:16.394Z",
       "error": "HTTP 301 redirect requires source review",
       "signature": null,
       "leadCount": 0
@@ -489,7 +489,7 @@
       "url": "https://www.clearygottlieb.com/careers",
       "status": "failed",
       "checkedAt": null,
-      "attemptedAt": "2026-11-27T03:47:54.416Z",
+      "attemptedAt": "2026-11-28T03:32:16.394Z",
       "error": "HTTP 301 redirect requires source review",
       "signature": null,
       "leadCount": 0
@@ -500,8 +500,8 @@
       "kind": "employer",
       "url": "https://gowlingwlg.com/en/careers",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "96e58098f5391363658f505827b15fac2a11e894f433cbc425d3106d71a00463",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "1168a34a4eb8e667387bd7ef90cc73cc7daae366ae0d8d9d20d81f7e083d4c65",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -512,7 +512,7 @@
       "kind": "employer",
       "url": "https://www.alston.com/en/careers",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
       "signature": "8fc45dd88b74ae59d1b74d4e4ec0f29a6b18fc927caee77cc6a5e0b6c7c6f414",
       "changed": false,
       "leadCount": 0,
@@ -524,7 +524,7 @@
       "kind": "employer",
       "url": "https://www.kirkland.com/careers",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
       "signature": "a0cd410883d66fac9ebf8dbcb2179e828470e580c533ed0556dbd92b5e4b4192",
       "changed": false,
       "leadCount": 0,
@@ -536,8 +536,8 @@
       "kind": "employer",
       "url": "https://www.mcdermottlaw.com/careers/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "cfbc9eaf2c277b75da65075b5b539719d4a92f41965547e51368ecfe6ea4e82a",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "14fad38e099dcadc5ad18e7e6d33ed02575c6b45441f09cdf971d42baa3de834",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -548,8 +548,8 @@
       "kind": "employer",
       "url": "https://www.stblaw.com/your-career/london-office-careers/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "31aac7f9ecb82f90ff817a0f9a8db8fa01eca55c16e19894eae9b2557531b559",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "134eb0ce482e4cb0529d2609742b86d8de07571bbb429505f6f269622ea90a58",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -560,7 +560,7 @@
       "kind": "employer",
       "url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-kingdom",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
       "signature": "c60db9af15f2e7480ae759f2a7db0a5eb0110a5e15f88012db5f26a7289e000e",
       "changed": false,
       "leadCount": 0,
@@ -573,7 +573,7 @@
       "url": "https://www.fenwick.com/careers/experienced-lawyers",
       "status": "failed",
       "checkedAt": null,
-      "attemptedAt": "2026-11-27T03:47:54.416Z",
+      "attemptedAt": "2026-11-28T03:32:16.394Z",
       "error": "HTTP 403",
       "signature": null,
       "leadCount": 0
@@ -585,7 +585,7 @@
       "url": "https://www.akingump.com/en/careers/uk-students",
       "status": "failed",
       "checkedAt": null,
-      "attemptedAt": "2026-11-27T03:47:54.416Z",
+      "attemptedAt": "2026-11-28T03:32:16.394Z",
       "error": "HTTP 403",
       "signature": null,
       "leadCount": 0
@@ -597,7 +597,7 @@
       "url": "https://www.goodwinlaw.com/en/careers",
       "status": "failed",
       "checkedAt": null,
-      "attemptedAt": "2026-11-27T03:47:54.416Z",
+      "attemptedAt": "2026-11-28T03:32:16.394Z",
       "error": "HTTP 301 redirect requires source review",
       "signature": null,
       "leadCount": 0
@@ -608,9 +608,9 @@
       "kind": "employer",
       "url": "https://www.nortonrosefulbright.com/en-gb/careers",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
       "signature": "e38f548ce1350e194f14b7ee48c9c9a257241a03b4316f4eb9b71c96dfca8896",
-      "changed": true,
+      "changed": false,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
     },
@@ -621,7 +621,7 @@
       "url": "https://www.wlrk.com/",
       "status": "failed",
       "checkedAt": null,
-      "attemptedAt": "2026-11-27T03:47:54.416Z",
+      "attemptedAt": "2026-11-28T03:32:16.394Z",
       "error": "HTTP 403",
       "signature": null,
       "leadCount": 0
@@ -632,8 +632,8 @@
       "kind": "employer",
       "url": "https://www.cov.com/en/careers",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "691070fe1365f9275883a3134a1cb85ecd85e822a2395dfa662c0775e5b9f79d",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "377511d588ed1f32d54bd16e6c770ba5289dc57e68a59d10aa10be1921bd4cb2",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -644,8 +644,8 @@
       "kind": "resource",
       "url": "https://www.sra.org.uk/pathways",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "72e7b763b4bc0a62f3e361bfc7b0dba4e550f3fe5656fc485378308c24ca7a92",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "06ce3908552321e9043693cf5e9279eaae9efec465790b5d15ffb78be407d46c",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -656,8 +656,8 @@
       "kind": "resource",
       "url": "https://sqe.sra.org.uk/about/what-is-sqe/what-sqe-involves",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "b61fb6583f2ff57065c118932d51f49902bf466d329ebe6588122db60688fecb",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "f87e9252fda6224a742debd04d64daac6fa9d653fc9eb34b1113ce3c6ba8d4a0",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -668,8 +668,8 @@
       "kind": "resource",
       "url": "https://www.sra.org.uk/qwe",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "61c9092547dd2e1f0836c81bb7339be0879ea1e4f108f4915604b86cc48ccdcb",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "a6e696cebc445c31a0c5088dac6d16f0dfe263b60c4232b47c47f77a509ea676",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -680,8 +680,8 @@
       "kind": "resource",
       "url": "https://www.sra.org.uk/become-solicitor/admission/pathways-qualification/qualified-lawyers/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "c03efed51a5bd1da09e11585581ed9cae7656d3757fc94120582bfe201662504",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "caada5347fbe8a301c8639d681a326da2cc744260d445b60941d6fe22a33137b",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -692,8 +692,8 @@
       "kind": "resource",
       "url": "https://www.gov.uk/graduate-visa",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "d1ef3d7ef3f29401072cf50087898fa49b8a410deba18b1895b42753b50f2c66",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "64520f1a726aeb7166e33305c2abd14f0b1c2b5ceb22030e21d3315ecc0aee8c",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -704,8 +704,8 @@
       "kind": "resource",
       "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-graduate",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "1403400ce37c9877dcec8e77551e441e3ea1bff8136af8fcbfc75e023050c870",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "0275033da31fe36f999218e82dc324d02637375d8f61745c082f8aeaee7a976b",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -716,8 +716,8 @@
       "kind": "resource",
       "url": "https://www.gov.uk/skilled-worker-visa",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "c518fa9b57c67d1aecd5d8703e4a166bcbf53a451293164033f954db6f998527",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "53ca171fe42e2d607c7d6a4302a51a1b1dcde156bed5e3209d2f4c980d78705f",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -728,8 +728,8 @@
       "kind": "resource",
       "url": "https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "77afd929864167f537936966ecfd053b93f2ffec88da293766203b0964cbdfaa",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "80484b783b7bc62ab9bb1b34365eff786d4ddcc063ec3e0700de1dde4ff5e10d",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -740,7 +740,7 @@
       "kind": "resource",
       "url": "https://www.lawworks.org.uk/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
       "signature": "7d67ce1412f6e69d4e5122840ac73cdff39926489b74383a492765d07df2ea46",
       "changed": false,
       "leadCount": 0,
@@ -753,7 +753,7 @@
       "url": "https://www.aspiringsolicitors.co.uk/",
       "status": "failed",
       "checkedAt": null,
-      "attemptedAt": "2026-11-27T03:47:54.416Z",
+      "attemptedAt": "2026-11-28T03:32:16.394Z",
       "error": "HTTP 403",
       "signature": null,
       "leadCount": 0
@@ -764,8 +764,8 @@
       "kind": "resource",
       "url": "https://www.growmentoring.org/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "9946f58ee62845e6ac53ef35ab7787e1283123b154878bfc38a30c90ae453851",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "f7db92ad6662a6c849198d695dec7bf188e54edf632dcb94baea7c6755146822",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -776,8 +776,8 @@
       "kind": "resource",
       "url": "https://www.theforage.com/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "8071393685deface91941f6529a7bc80672beed46fbb46def977f73f02b45adc",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "8eaba080d74d652b0e8d4dbc99f8c5ffbd0a187ba7657c5237ccd1ec47f27dc9",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -789,7 +789,7 @@
       "url": "https://www.gov.uk/government/organisations/government-legal-profession",
       "status": "failed",
       "checkedAt": null,
-      "attemptedAt": "2026-11-27T03:47:54.416Z",
+      "attemptedAt": "2026-11-28T03:32:16.394Z",
       "error": "HTTP 404",
       "signature": null,
       "leadCount": 0
@@ -801,7 +801,7 @@
       "url": "https://www.civilservicejobs.service.gov.uk/",
       "status": "failed",
       "checkedAt": null,
-      "attemptedAt": "2026-11-27T03:47:54.416Z",
+      "attemptedAt": "2026-11-28T03:32:16.394Z",
       "error": "HTTP 301 redirect requires source review",
       "signature": null,
       "leadCount": 0
@@ -812,8 +812,8 @@
       "kind": "resource",
       "url": "https://www.gov.uk/apply-apprenticeship",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "9700df61458f767d32f59dc6407c0c9f95aa2d0861bdd5939121b5a0020a4e4a",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "de9b084e73e38f990f8f47018cb7f9ed940bc36ea529b6389b65b69d8e12ea1d",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -824,8 +824,8 @@
       "kind": "resource",
       "url": "https://www.taylorroot.com/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "598624fa2acb51f1682db5a521834222063c386bbb648d7d3f51fa61c347b41a",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "a23311b1dca73dff636bb937bf51b7f56c144c77792eb010c94427adb846aa92",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -836,8 +836,8 @@
       "kind": "resource",
       "url": "https://flex.legal/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "bbb90782df72a45cb93cff7204409365ae6026534c1a4463ca79af5a89f63bf2",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "b88691a7a4e2738f032c50aa66101bf69e2a23cc9b5aeaaa8d99d1c297d6dc4a",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -848,8 +848,8 @@
       "kind": "resource",
       "url": "https://www.ryderreid.com/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "a64429f8ee4f13ce5717ff850b4c8b7dc52a6e82be46c558548d6f69f2a55946",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "63bea7de5f4d5f60166e4c073d0bfb642811c161e11da9ce0f63e42a1b818d6e",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -861,7 +861,7 @@
       "url": "https://www.jamesonlegal.com/",
       "status": "failed",
       "checkedAt": null,
-      "attemptedAt": "2026-11-27T03:47:54.416Z",
+      "attemptedAt": "2026-11-28T03:32:16.394Z",
       "error": "HTTP 403",
       "signature": null,
       "leadCount": 0
@@ -872,8 +872,8 @@
       "kind": "resource",
       "url": "https://www.bcllegal.com/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "7ad9ae8c291f3bd223316494cdb18ef851895c7e3eed84c305859a884df74cba",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "a47d3ded2540a52d25d461cfd916d5ee026f79d15baa6c81b84919c2d2d94a27",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -884,9 +884,9 @@
       "kind": "resource",
       "url": "https://www.chadwicknott.co.uk/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "7636840c87951496263c9ef40434f7517b1f09262ef6d069417dcba3b43bc714",
-      "changed": false,
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "9b70ff1fbff0c1fdae704bcf662998270d7447b11ec24ac3e477b75b3f13da60",
+      "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
     },
@@ -896,8 +896,8 @@
       "kind": "employer",
       "url": "https://gtstewart.co.uk/careers-with-us/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "91fe50be4e23f42cdee7df3c5ac4702c7af526d3ebd40dde4dfbaed07e43bc74",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "74eeb4ff8d2e869727d28c3e5e15bcb662f6af5e0a1ecfcaa6d4f4a83ce9e6b9",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -908,9 +908,9 @@
       "kind": "greenhouse",
       "url": "https://boards-api.greenhouse.io/v1/boards/carta/jobs?content=false",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "171656b5e1945641ec2f293bdf7e9e8dffd0994414cd954883f98bc306523a62",
-      "changed": false,
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "7c38dceb31e9b80c41c041d6cacd257e164497781ee38a906e472eeaf5ffae95",
+      "changed": true,
       "leadCount": 12,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
     },
@@ -920,8 +920,8 @@
       "kind": "greenhouse",
       "url": "https://boards-api.greenhouse.io/v1/boards/octopuslegacy/jobs?content=false",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "4944094f58dba985552a9f6b1b8155f96b26f7779073e4c77737e7e950bd9725",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "d35e459e0a70f6709246535f00f301bebc9a7b23ca5856b290c035544651a3f3",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -932,8 +932,8 @@
       "kind": "greenhouse",
       "url": "https://boards-api.greenhouse.io/v1/boards/gibsondunn/jobs?content=false",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "64fbd5ed5c9e6ca7d126d3c29ab1d5537141412380d25a0eb8c7039d6677ddf3",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "dc0d183e4ba37d4a0586b7ccb5fea541f293e0e9bac8fd6dff156212d80ff2bd",
       "changed": true,
       "leadCount": 3,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -944,8 +944,8 @@
       "kind": "employer",
       "url": "https://www.linklaters.com/careers/early-careers/training-contracts",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "0f51f9c28fbe011b8535a04885e36e4587b50e63b50e83a72dda6c4996b64453",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "872ef51d57d13dc6a36b423bd445951023a784e5a320b14ebdac5c5e61cb70bf",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -956,8 +956,8 @@
       "kind": "employer",
       "url": "https://www.linklaters.com/careers/early-careers/training-contracts",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "0f51f9c28fbe011b8535a04885e36e4587b50e63b50e83a72dda6c4996b64453",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "872ef51d57d13dc6a36b423bd445951023a784e5a320b14ebdac5c5e61cb70bf",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -968,8 +968,8 @@
       "kind": "employer",
       "url": "https://www.linklaters.com/careers/early-careers/vacation-schemes",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "b6215c60dd6e8495e4d7203f1defea5b858e07ed289135f80f54d1a92aaa8e5f",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "dbf8024964c6ce10aaa6b103753bdbcef2859c863cc9b8dd2668b9976ed99219",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -980,8 +980,8 @@
       "kind": "employer",
       "url": "https://www.linklaters.com/careers/early-careers/vacation-schemes",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "b6215c60dd6e8495e4d7203f1defea5b858e07ed289135f80f54d1a92aaa8e5f",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "dbf8024964c6ce10aaa6b103753bdbcef2859c863cc9b8dd2668b9976ed99219",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -992,8 +992,8 @@
       "kind": "employer",
       "url": "https://jobs.cliffordchance.com/job/trainee-solicitor-in-london-jid-3554",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "0c51255d6fcddef501693c82b1817cba53d819de15e703dd7b3d59cae98f9257",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "2fc7977a76d1ea7c0811d5ec5b2303fb701109e608981a7bfa1145e252219531",
       "changed": true,
       "leadCount": 1,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -1004,8 +1004,8 @@
       "kind": "employer",
       "url": "https://jobs.cliffordchance.com/job/trainee-solicitor-in-london-jid-3554",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "0c51255d6fcddef501693c82b1817cba53d819de15e703dd7b3d59cae98f9257",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "2fc7977a76d1ea7c0811d5ec5b2303fb701109e608981a7bfa1145e252219531",
       "changed": true,
       "leadCount": 1,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -1016,8 +1016,8 @@
       "kind": "employer",
       "url": "https://jobs.cliffordchance.com/faq-london",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "34bc303f8f802a41d42bdd8b5375ca3818ddf3338b64bf486b3d0073399c274a",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "95c0d224141683589ff49f4d9e13716e3a41ae668f76f69860016693934f30c8",
       "changed": true,
       "leadCount": 1,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -1028,8 +1028,8 @@
       "kind": "employer",
       "url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-kingdom/London-Graduate-Recruitment-FAQs",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "38945247b8637151663a3e34f0abe4a218b7a545f68edb9e723cee7ed02e658c",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "09bec045b735db8d5db7ccc08ee14d3808e5ad11adab388a05febad1b9a34636",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -1040,8 +1040,8 @@
       "kind": "employer",
       "url": "https://www.freshfields.com/en/your-career/united-kingdom/early-careers/trainee-associate-program",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "86638e9bff766510f1e5ede10102fab219d70badf1cb38870a2772aa9f626b19",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "9a3422a9362daced26a12a0c056d0012bb9bfe10c6425fd673519eaceee9dd74",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -1052,8 +1052,8 @@
       "kind": "employer",
       "url": "https://www.freshfields.com/en/your-career/united-kingdom/early-careers/virtual-learning-experiences",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "37e523896e37002e9824f6bcef422a4a8cde5bccf8393f0ec2bda963444b1aa9",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "52631f2751e2cc4af5643d820ae112aa4da2a069f99f9f841190ee7ffff57e74",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -1064,8 +1064,8 @@
       "kind": "employer",
       "url": "https://www.burges-salmon.com/join-us/emerging-talent/trainee-application-and-faqs/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "39f67a0b48565b065a385b600a134bf66f01f833e668b667dea8434947f3460c",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "447cbb478d694f54b6633fe6ce49fc637d352e9abcadf2045c1046e7def109d7",
       "changed": true,
       "leadCount": 2,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -1076,8 +1076,8 @@
       "kind": "employer",
       "url": "https://www.burges-salmon.com/join-us/emerging-talent/trainee-application-and-faqs/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "39f67a0b48565b065a385b600a134bf66f01f833e668b667dea8434947f3460c",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "447cbb478d694f54b6633fe6ce49fc637d352e9abcadf2045c1046e7def109d7",
       "changed": true,
       "leadCount": 2,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -1088,8 +1088,8 @@
       "kind": "employer",
       "url": "https://www.burges-salmon.com/join-us/emerging-talent/trainee-application-and-faqs/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "39f67a0b48565b065a385b600a134bf66f01f833e668b667dea8434947f3460c",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "447cbb478d694f54b6633fe6ce49fc637d352e9abcadf2045c1046e7def109d7",
       "changed": true,
       "leadCount": 2,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -1100,8 +1100,8 @@
       "kind": "employer",
       "url": "https://www.slaughterandmay.com/careers/early-careers/apply/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "a6bfb38f6dc7685e5ce98a0afa1853ae325bd38dc2d46dca3f9afc54858da188",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "ccf9edf3daa144a0579aca7694eaebc9122e8443ff4e5da6dd8cd388ecd6523a",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -1112,8 +1112,8 @@
       "kind": "employer",
       "url": "https://www.slaughterandmay.com/careers/early-careers/apply/the-interview/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "5610b121bc8ddc24e0c88dbcc0bbedfe6bd70d055b943710a48b6bd6ee8eb5c2",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "8adfd244edc4e605e5b189164c09ec9fe1b9744fe1088134a32b06ca6e12f186",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -1124,8 +1124,8 @@
       "kind": "employer",
       "url": "https://careers.aoshearman.com/en-gb/london-training-contract",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "befff534b9d2670a15b86704e9d29ab33905199b5c16a701a97117daca5620a7",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "b3417252934f7bbe9bc4012e154189557a5a48aa82f017699a679cbe6b5b0101",
       "changed": true,
       "leadCount": 2,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -1136,8 +1136,8 @@
       "kind": "employer",
       "url": "https://careers.aoshearman.com/en-gb/london-vacation-schemes",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "d2aa3daf33162d35b1408044bea9a56bacec27d4451ca0776ad2fc16c7d936b8",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "7905db765dc9a36d544f6a30e5a656e5b7977c5df5aa196e8d0de31828a30638",
       "changed": true,
       "leadCount": 3,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -1148,8 +1148,8 @@
       "kind": "listing",
       "url": "https://www.forsters.co.uk/early-careers/vacation-schemes",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "8fccb73f511941f3373166544c497ae5837be645015716405747a093164caf08",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "81f54950a8fb5eefa21813f562c9538318c11279d13dfbac102fb1d77b6411db",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -1160,8 +1160,8 @@
       "kind": "listing",
       "url": "https://www.forsters.co.uk/early-careers/vacation-schemes",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "8fccb73f511941f3373166544c497ae5837be645015716405747a093164caf08",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "81f54950a8fb5eefa21813f562c9538318c11279d13dfbac102fb1d77b6411db",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -1173,7 +1173,7 @@
       "url": "https://www.akingump.com/en/careers/uk-students",
       "status": "failed",
       "checkedAt": null,
-      "attemptedAt": "2026-11-27T03:47:54.416Z",
+      "attemptedAt": "2026-11-28T03:32:16.394Z",
       "error": "HTTP 403",
       "signature": null,
       "leadCount": 0
@@ -1184,8 +1184,8 @@
       "kind": "listing",
       "url": "https://earlycareers.wfw.com/what-we-offer/vacation-schemes/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "723a421d57e5dbdace21c83a223d0ab5d8d65743aca39106c947a37b118d65cb",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "5a792a1d9e510a17996290a07389527db4fd78098faf49698095aeb550672450",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -1196,8 +1196,8 @@
       "kind": "listing",
       "url": "https://ukearlycareers.hlc.com/what-we-offer/vacation-scheme",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "c8d73af18bd6df2389cc3937f9a4c8d68ba1fb6976d1661fa5c4aeea401212b1",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "34beafdfeb9b186f19eabb6d5c68d355cd30984938d7a4139351ea98c2b64dc4",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -1209,7 +1209,7 @@
       "url": "https://careers.aoshearman.com/en/job/belfast/paralegal/3392/46389448320",
       "status": "failed",
       "checkedAt": "2026-11-26T03:46:43.497Z",
-      "attemptedAt": "2026-11-27T03:47:54.416Z",
+      "attemptedAt": "2026-11-28T03:32:16.394Z",
       "error": "HTTP 404",
       "signature": "d3621eef91f1ef43bfbadec7e0a8a6ea5d846f0648db9cc62af38f81de9445d6",
       "leadCount": 0
@@ -1220,8 +1220,8 @@
       "kind": "employer",
       "url": "https://careers.aoshearman.com/en-gb/search_jobs",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "63f10194a15665b752660002b5db1e8e0b338932e7b968040b0ff939d42cba56",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "bf19d50b006f0a4e8dd2a5445454d051346fbf3845d19114443853f78b309a1c",
       "changed": true,
       "leadCount": 0,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -1232,8 +1232,8 @@
       "kind": "employer",
       "url": "https://jobs.cliffordchance.com/",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:54.416Z",
-      "signature": "77d60c55ef0f7af50b0f7642bf90a59efdaedf266b3e319f10ce4501a6631848",
+      "checkedAt": "2026-11-28T03:32:16.394Z",
+      "signature": "2432eb99ae363ee0fa6f0f22f89f278a9c23e1d9cb9c46daa55810e418750ace",
       "changed": true,
       "leadCount": 1,
       "notice": "HTTP retrieval only, not proof of current availability or content accuracy"
@@ -1248,7 +1248,7 @@
       "kind": "unreviewed employer page link",
       "reviewState": "pending",
       "firstSeen": "2026-11-25T04:34:36.456Z",
-      "lastSeen": "2026-11-27T03:47:54.416Z"
+      "lastSeen": "2026-11-28T03:32:16.394Z"
     },
     {
       "id": "html:https://www.burges-salmon.com/burges-salmon-puts-sector-expertise-at-the-heart-of-innovative-new-training-contract/",
@@ -1258,7 +1258,7 @@
       "kind": "unreviewed employer page link",
       "reviewState": "pending",
       "firstSeen": "2026-11-25T04:34:36.456Z",
-      "lastSeen": "2026-11-27T03:47:54.416Z"
+      "lastSeen": "2026-11-28T03:32:16.394Z"
     },
     {
       "id": "html:https://careers.aoshearman.com/en-gb/job/london/march-2028-training-contract/3392/43859038208",
@@ -1268,7 +1268,7 @@
       "kind": "unreviewed employer page link",
       "reviewState": "pending",
       "firstSeen": "2026-11-25T04:34:36.456Z",
-      "lastSeen": "2026-11-27T03:47:54.416Z"
+      "lastSeen": "2026-11-28T03:32:16.394Z"
     },
     {
       "id": "html:https://careers.aoshearman.com/en-gb/belfast-summer-vacation-scheme",
@@ -1278,7 +1278,7 @@
       "kind": "unreviewed employer page link",
       "reviewState": "pending",
       "firstSeen": "2026-11-25T04:34:36.456Z",
-      "lastSeen": "2026-11-27T03:47:54.416Z"
+      "lastSeen": "2026-11-28T03:32:16.394Z"
     },
     {
       "id": "greenhouse:carta:7822002003",
@@ -1290,7 +1290,7 @@
       "updated": "2026-11-23T14:05:32-05:00",
       "reviewState": "pending",
       "firstSeen": "2026-11-25T04:34:36.456Z",
-      "lastSeen": "2026-11-27T03:47:54.416Z"
+      "lastSeen": "2026-11-28T03:32:16.394Z"
     },
     {
       "id": "greenhouse:carta:7980732003",
@@ -1302,7 +1302,7 @@
       "updated": "2026-11-23T14:05:32-05:00",
       "reviewState": "pending",
       "firstSeen": "2026-11-25T04:34:36.456Z",
-      "lastSeen": "2026-11-27T03:47:54.416Z"
+      "lastSeen": "2026-11-28T03:32:16.394Z"
     },
     {
       "id": "greenhouse:carta:7805107003",
@@ -1314,7 +1314,7 @@
       "updated": "2026-11-23T14:05:32-05:00",
       "reviewState": "pending",
       "firstSeen": "2026-11-25T04:34:36.456Z",
-      "lastSeen": "2026-11-27T03:47:54.416Z"
+      "lastSeen": "2026-11-28T03:32:16.394Z"
     },
     {
       "id": "greenhouse:carta:8210452003",
@@ -1326,7 +1326,7 @@
       "updated": "2026-11-23T14:05:32-05:00",
       "reviewState": "pending",
       "firstSeen": "2026-11-25T04:34:36.456Z",
-      "lastSeen": "2026-11-27T03:47:54.416Z"
+      "lastSeen": "2026-11-28T03:32:16.394Z"
     },
     {
       "id": "greenhouse:carta:8035094003",
@@ -1338,7 +1338,7 @@
       "updated": "2026-11-23T14:05:32-05:00",
       "reviewState": "pending",
       "firstSeen": "2026-11-25T04:34:36.456Z",
-      "lastSeen": "2026-11-27T03:47:54.416Z"
+      "lastSeen": "2026-11-28T03:32:16.394Z"
     },
     {
       "id": "greenhouse:carta:7805125003",
@@ -1350,7 +1350,7 @@
       "updated": "2026-11-23T14:05:32-05:00",
       "reviewState": "pending",
       "firstSeen": "2026-11-25T04:34:36.456Z",
-      "lastSeen": "2026-11-27T03:47:54.416Z"
+      "lastSeen": "2026-11-28T03:32:16.394Z"
     },
     {
       "id": "greenhouse:carta:7805411003",
@@ -1362,7 +1362,7 @@
       "updated": "2026-11-23T14:05:32-05:00",
       "reviewState": "pending",
       "firstSeen": "2026-11-25T04:34:36.456Z",
-      "lastSeen": "2026-11-27T03:47:54.416Z"
+      "lastSeen": "2026-11-28T03:32:16.394Z"
     },
     {
       "id": "greenhouse:carta:7798948003",
@@ -1374,7 +1374,7 @@
       "updated": "2026-11-23T14:05:32-05:00",
       "reviewState": "pending",
       "firstSeen": "2026-11-25T04:34:36.456Z",
-      "lastSeen": "2026-11-27T03:47:54.416Z"
+      "lastSeen": "2026-11-28T03:32:16.394Z"
     },
     {
       "id": "greenhouse:carta:7805109003",
@@ -1386,7 +1386,7 @@
       "updated": "2026-11-23T14:05:32-05:00",
       "reviewState": "pending",
       "firstSeen": "2026-11-25T04:34:36.456Z",
-      "lastSeen": "2026-11-27T03:47:54.416Z"
+      "lastSeen": "2026-11-28T03:32:16.394Z"
     },
     {
       "id": "greenhouse:carta:7991968003",
@@ -1398,7 +1398,7 @@
       "updated": "2026-11-23T14:05:32-05:00",
       "reviewState": "pending",
       "firstSeen": "2026-11-25T04:34:36.456Z",
-      "lastSeen": "2026-11-27T03:47:54.416Z"
+      "lastSeen": "2026-11-28T03:32:16.394Z"
     },
     {
       "id": "greenhouse:carta:7994782003",
@@ -1410,7 +1410,7 @@
       "updated": "2026-11-23T14:05:32-05:00",
       "reviewState": "pending",
       "firstSeen": "2026-11-25T04:34:36.456Z",
-      "lastSeen": "2026-11-27T03:47:54.416Z"
+      "lastSeen": "2026-11-28T03:32:16.394Z"
     },
     {
       "id": "greenhouse:carta:7805133003",
@@ -1422,7 +1422,7 @@
       "updated": "2026-11-23T14:05:32-05:00",
       "reviewState": "pending",
       "firstSeen": "2026-11-25T04:34:36.456Z",
-      "lastSeen": "2026-11-27T03:47:54.416Z"
+      "lastSeen": "2026-11-28T03:32:16.394Z"
     },
     {
       "id": "greenhouse:gibsondunn:4469300009",
@@ -1434,7 +1434,7 @@
       "updated": "2026-10-27T13:22:41-04:00",
       "reviewState": "pending",
       "firstSeen": "2026-11-25T04:34:36.456Z",
-      "lastSeen": "2026-11-27T03:47:54.416Z"
+      "lastSeen": "2026-11-28T03:32:16.394Z"
     },
     {
       "id": "greenhouse:gibsondunn:4375775009",
@@ -1446,7 +1446,7 @@
       "updated": "2026-08-20T12:31:23-04:00",
       "reviewState": "pending",
       "firstSeen": "2026-11-25T04:34:36.456Z",
-      "lastSeen": "2026-11-27T03:47:54.416Z"
+      "lastSeen": "2026-11-28T03:32:16.394Z"
     },
     {
       "id": "greenhouse:gibsondunn:4519442009",
@@ -1458,7 +1458,7 @@
       "updated": "2026-11-23T19:43:09-05:00",
       "reviewState": "pending",
       "firstSeen": "2026-11-25T04:34:36.456Z",
-      "lastSeen": "2026-11-27T03:47:54.416Z"
+      "lastSeen": "2026-11-28T03:32:16.394Z"
     },
     {
       "id": "html:https://jobs.cliffordchance.com/jobs?options=241&page=1",
@@ -1468,7 +1468,7 @@
       "kind": "unreviewed employer page link",
       "reviewState": "pending",
       "firstSeen": "2026-11-25T04:34:36.456Z",
-      "lastSeen": "2026-11-27T03:47:54.416Z"
+      "lastSeen": "2026-11-28T03:32:16.394Z"
     },
     {
       "id": "html:https://careers.aoshearman.com/en-gb/job/london/summer-vacation-scheme-2027/3392/44630125376",
@@ -1478,7 +1478,7 @@
       "kind": "unreviewed employer page link",
       "reviewState": "pending",
       "firstSeen": "2026-11-25T04:34:36.456Z",
-      "lastSeen": "2026-11-27T03:47:54.416Z"
+      "lastSeen": "2026-11-28T03:32:16.394Z"
     },
     {
       "id": "html:https://careers.aoshearman.com/en-gb/london-training-contract",
@@ -1488,7 +1488,7 @@
       "kind": "unreviewed employer page link",
       "reviewState": "pending",
       "firstSeen": "2026-11-25T04:34:36.456Z",
-      "lastSeen": "2026-11-27T03:47:54.416Z"
+      "lastSeen": "2026-11-28T03:32:16.394Z"
     },
     {
       "id": "html:https://jobs.cliffordchance.com/job/legal-analyst-beijing-office-in-beijing-jid-3040",

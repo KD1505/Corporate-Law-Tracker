@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "notice": "Periodic public-domain observations, not exact publication times, uptime, or independent accuracy. Baseline is not historical publication. Added/changed IDs were observed between successful samples; review-only timestamps are excluded from fingerprints. History retains 90 attempts; repository git history preserves prior snapshots.",
   "lastAttempt": {
-    "at": "2026-11-27T03:49:11.701Z",
+    "at": "2026-11-28T03:33:32.425Z",
     "outcome": "observed",
     "baseline": false,
     "count": 42,
     "latestEvent": "2026-11-19",
-    "previousSuccessfulAt": "2026-11-26T03:47:46.727Z",
+    "previousSuccessfulAt": "2026-11-27T03:49:11.701Z",
     "repositoryParity": true,
     "added": [],
     "changed": [],
     "removed": []
   },
   "lastSuccessful": {
-    "at": "2026-11-27T03:49:11.701Z",
+    "at": "2026-11-28T03:33:32.425Z",
     "transactions": {
       "aab-kreston-reeves": {
         "revision": "739378dfb8a4df0ce0f65be633fc46a87b87f8e4555990279cc26dd41e0f0c69",
@@ -251,6 +251,18 @@
       "count": 42,
       "latestEvent": "2026-11-19",
       "previousSuccessfulAt": "2026-11-26T03:47:46.727Z",
+      "repositoryParity": true,
+      "added": [],
+      "changed": [],
+      "removed": []
+    },
+    {
+      "at": "2026-11-28T03:33:32.425Z",
+      "outcome": "observed",
+      "baseline": false,
+      "count": 42,
+      "latestEvent": "2026-11-19",
+      "previousSuccessfulAt": "2026-11-27T03:49:11.701Z",
       "repositoryParity": true,
       "added": [],
       "changed": [],

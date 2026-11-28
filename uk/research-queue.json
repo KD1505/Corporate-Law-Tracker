@@ -1,5 +1,5 @@
 {
-  "attemptedAt": "2026-11-27T03:47:54.376Z",
+  "attemptedAt": "2026-11-28T03:32:16.333Z",
   "notice": "Unreviewed issuer-level filing and global counsel news leads; not verified deals, client attributions or evidence of UK relevance. Related dossier IDs are issuer watch links only. Failure retains last successful metadata.",
   "sources": [
     {
@@ -11,7 +11,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0001045609.json",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:40.206Z",
+      "checkedAt": "2026-11-28T03:32:00.086Z",
       "items": [
         {
           "title": "8-K · Prologis, Inc.",
@@ -129,7 +129,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0000063754.json",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:41.334Z",
+      "checkedAt": "2026-11-28T03:32:01.287Z",
       "items": [
         {
           "title": "10-Q · MCCORMICK & CO INC",
@@ -247,7 +247,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0000840489.json",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:42.544Z",
+      "checkedAt": "2026-11-28T03:32:02.494Z",
       "items": [
         {
           "title": "8-K · FirstCash Holdings, Inc.",
@@ -365,7 +365,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0000839923.json",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:43.679Z",
+      "checkedAt": "2026-11-28T03:32:03.714Z",
       "items": [
         {
           "title": "6-K · VODAFONE GROUP PUBLIC LTD CO",
@@ -483,7 +483,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0000051434.json",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:44.865Z",
+      "checkedAt": "2026-11-28T03:32:04.909Z",
       "items": [
         {
           "title": "8-K · INTERNATIONAL PAPER CO /NEW/",
@@ -601,7 +601,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0000883241.json",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:45.983Z",
+      "checkedAt": "2026-11-28T03:32:06.117Z",
       "items": [
         {
           "title": "8-K · SYNOPSYS INC",
@@ -719,7 +719,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0000789019.json",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:47.111Z",
+      "checkedAt": "2026-11-28T03:32:07.279Z",
       "items": [
         {
           "title": "8-K · MICROSOFT CORP",
@@ -837,7 +837,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0001645590.json",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:48.228Z",
+      "checkedAt": "2026-11-28T03:32:08.455Z",
       "items": [
         {
           "title": "8-K · Hewlett Packard Enterprise Co",
@@ -955,7 +955,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0000796343.json",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:49.356Z",
+      "checkedAt": "2026-11-28T03:32:09.617Z",
       "items": [
         {
           "title": "10-Q · ADOBE INC.",
@@ -1073,7 +1073,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0001730168.json",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:50.475Z",
+      "checkedAt": "2026-11-28T03:32:10.811Z",
       "items": [
         {
           "title": "8-K · Broadcom Inc.",
@@ -1191,7 +1191,7 @@
       ],
       "url": "https://data.sec.gov/submissions/CIK0001579878.json",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:51.670Z",
+      "checkedAt": "2026-11-28T03:32:11.964Z",
       "items": [
         {
           "title": "10-Q · Figma, Inc.",
@@ -1298,7 +1298,7 @@
       "name": "Clifford Chance news",
       "url": "https://www.cliffordchance.com/rss/rss-feed-news.xml",
       "status": "ok",
-      "checkedAt": "2026-11-27T03:47:53.276Z",
+      "checkedAt": "2026-11-28T03:32:15.232Z",
       "items": [
         {
           "title": "Clifford Chance advises on financing of 2.6GW Taweelah C Power Plant in Abu Dhabi",
