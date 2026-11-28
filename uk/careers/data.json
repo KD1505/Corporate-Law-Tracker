@@ -1599,6 +1599,66 @@
       "salary": null,
       "sponsorshipState": "unknown",
       "reviewState": "Partial profile; compensation, culture, seats and programme details require source-specific research."
+    },
+    {
+      "id": "white-case",
+      "name": "White & Case",
+      "url": "https://www.whitecase.com/careers/locations/uk/early-careers/our-offer/training-contracts",
+      "programme": "London training contract; official programme page describes graduate eligibility and SQE/QWE route. Check current intake.",
+      "research": "Use the Complii mandate to explain majority investments and compliance-sector diligence.",
+      "focus": "Observed private equity acquisition counsel",
+      "exercise": "Build a diligence plan for Complii; distinguish target compliance risk from deal approvals.",
+      "preparation": "Use the Complii mandate to explain majority investments and compliance-sector diligence.",
+      "mandates": [
+        {
+          "id": "bridgepoint-complii",
+          "title": "Bridgepoint / Complii",
+          "roles": [
+            "Bridgepoint — Buyer-side acquisition advice"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Initial source-linked recruitment directory and one observed mandate; compensation, current vacancies and eligibility not established.",
+      "researchFacts": [
+        {
+          "label": "Training route",
+          "value": "The official programme describes a two-year training contract after SQE study; check current application criteria.",
+          "url": "https://www.whitecase.com/careers/locations/uk/early-careers/our-offer/training-contracts",
+          "reviewedOn": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "id": "dentons",
+      "name": "Dentons",
+      "url": "https://www.dentons.com/en/careers/careers-in-the-united-kingdom",
+      "programme": "UK and Ireland careers directory includes graduate and business services recruitment; check current vacancies.",
+      "research": "Use the Score Group mandate to discuss seller-side diligence, transaction perimeter and sponsor exits.",
+      "focus": "Observed seller-side private equity mandate",
+      "exercise": "Identify SCF, D2Zero, Score and buyer consortium; build a seller disclosure checklist.",
+      "preparation": "Use the Score Group mandate to discuss seller-side diligence, transaction perimeter and sponsor exits.",
+      "mandates": [
+        {
+          "id": "orbenovo-stellex-score",
+          "title": "OrbeNovo Capital / Stellex Capital Management — Score Group",
+          "roles": [
+            "SCF Partners — Advice on sale of Score Group"
+          ]
+        }
+      ],
+      "salary": null,
+      "sponsorshipState": "unknown",
+      "reviewState": "Initial source-linked recruitment directory and one observed mandate; compensation, current vacancies and eligibility not established.",
+      "researchFacts": [
+        {
+          "label": "Career routes",
+          "value": "Official UK and Ireland careers directory includes graduates, apprentices and business services.",
+          "url": "https://www.dentons.com/en/careers/careers-in-the-united-kingdom",
+          "reviewedOn": "2026-11-25"
+        }
+      ]
     }
   ],
   "resources": [
@@ -2159,6 +2219,43 @@
   ],
   "deals": [
     {
+      "id": "mccormick-unilever",
+      "title": "McCormick / Unilever Foods",
+      "fact": "The CMA said on 25 November that McCormick's proposed disposal of the Colman's brand to an approved purchaser could address its competition concerns. It is considering the undertakings; clearance has not been established. The Foods combination was announced on 31 March.",
+      "analysis": "The case illustrates how anticipated competition remedies can change the economic perimeter of a deal. A buyer must test whether any divestment would undermine the investment thesis or financing model.",
+      "interview": "How does a carve-out differ from a simple share acquisition, and what happens to the financing case if competition remedies remove profitable brands?",
+      "related": [
+        "merger-control",
+        "valuation"
+      ],
+      "eventDate": "2026-11-25"
+    },
+    {
+      "id": "bridgepoint-complii",
+      "title": "Bridgepoint / Complii",
+      "fact": "Bridgepoint agreed to acquire majority control of Complii, a UK building safety and compliance services business. Seller Ansor announced that it would exit its entire shareholding. White & Case disclosed its buyer-side mandate.",
+      "analysis": "This is a sponsor-backed control acquisition in a compliance-driven services sector. Recurring demand is an investment hypothesis, not established profitability. Test revenue quality, accreditation, liability exposures and integration capability before assessing the valuation.",
+      "interview": "Why is a building-safety compliance platform attractive to private equity, and which diligence findings could change the price or contractual protection?",
+      "related": [
+        "private-equity",
+        "due-diligence",
+        "valuation"
+      ],
+      "eventDate": "2026-11-24"
+    },
+    {
+      "id": "orbenovo-stellex-score",
+      "title": "OrbeNovo Capital / Stellex Capital Management — Score Group",
+      "fact": "On 20 November Score Group announced SCF Partners' agreed sale to OrbeNovo Capital and Stellex. A 23 November investment disclosure identifies SCF-backed D2Zero as the selling business owner; Dentons disclosed its advice to SCF.",
+      "analysis": "Critical infrastructure engineering services may generate repeat work, but asset exposure, safety compliance, customer concentration and cyclicality matter. Sponsor alignment and seller perimeter require document-level diligence.",
+      "interview": "How would you distinguish the exiting sponsor, selling legal entity and buyer consortium, and what risks arise when engineering services support critical assets?",
+      "related": [
+        "private-equity",
+        "due-diligence"
+      ],
+      "eventDate": "2026-11-23"
+    },
+    {
       "id": "ocs-mitie",
       "title": "OCS / Mitie",
       "fact": "OCS agreed a cash acquisition of Mitie in July. Mitie's 19 November interim results reported 99.7% shareholder support and two of three regulatory clearances. CMA Phase 1 began on 18 November; the decision deadline is 20 January 2027.",
@@ -2216,18 +2313,6 @@
         "due-diligence"
       ],
       "eventDate": "2026-11-16"
-    },
-    {
-      "id": "mccormick-unilever",
-      "title": "McCormick / Unilever Foods",
-      "fact": "Unilever announced the Foods combination on 31 March. Its October update said the transaction remained on track; on 11 November the CMA found potential competition concerns requiring an acceptable remedy to avoid a Phase 2 referral.",
-      "analysis": "The case illustrates how anticipated competition remedies can change the economic perimeter of a deal. A buyer must test whether any divestment would undermine the investment thesis or financing model.",
-      "interview": "How does a carve-out differ from a simple share acquisition, and what happens to the financing case if competition remedies remove profitable brands?",
-      "related": [
-        "merger-control",
-        "valuation"
-      ],
-      "eventDate": "2026-11-11"
     },
     {
       "id": "rwe-kkr-vanguard",

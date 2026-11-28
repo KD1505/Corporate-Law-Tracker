@@ -337,10 +337,28 @@
       "minClaims": 7,
       "minAdvisers": 1,
       "mappedEvent": true
+    },
+    {
+      "id": "bridgepoint-complii",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 4,
+      "minAdvisers": 1,
+      "mappedEvent": true
+    },
+    {
+      "id": "orbenovo-stellex-score",
+      "minSources": 2,
+      "deep": true,
+      "minClaims": 4,
+      "minAdvisers": 1,
+      "mappedEvent": true
     }
   ],
   "strictIds": [
     "harp-hargreaves-lansdown",
-    "ep-ids-royal-mail"
+    "ep-ids-royal-mail",
+    "bridgepoint-complii",
+    "orbenovo-stellex-score"
   ]
 }

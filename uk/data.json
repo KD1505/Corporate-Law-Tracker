@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "editorialAsOf": "2026-11-24",
+  "editorialAsOf": "2026-11-25",
   "records": [
     {
       "id": "ocs-mitie",
@@ -276,12 +276,12 @@
       "jurisdiction": "UK",
       "category": "Transactions",
       "title": "McCormick / Unilever Foods",
-      "eventDate": "2026-11-11",
-      "status": "Phase 1 concerns",
+      "eventDate": "2026-11-25",
+      "status": "Phase 1 — proposed undertakings under consideration",
       "sector": "Consumer goods",
-      "fact": "Unilever announced the Foods combination on 31 March. Its October update said the transaction remained on track; on 11 November the CMA found potential competition concerns requiring an acceptable remedy to avoid a Phase 2 referral.",
+      "fact": "The CMA said on 25 November that McCormick's proposed disposal of the Colman's brand to an approved purchaser could address its competition concerns. It is considering the undertakings; clearance has not been established. The Foods combination was announced on 31 March.",
       "analysis": "The case illustrates how anticipated competition remedies can change the economic perimeter of a deal. A buyer must test whether any divestment would undermine the investment thesis or financing model.",
-      "watch": "Check subsequent decisions and any published commitments; this is not a live status guarantee.",
+      "watch": "Check the CMA for consultation, final acceptance or referral, purchaser approval and any subsequent changes to the deal perimeter.",
       "sources": [
         {
           "name": "CMA case",
@@ -310,13 +310,17 @@
         {
           "name": "Cleary Gottlieb mandate",
           "url": "https://www.clearygottlieb.com/news-and-insights/news-listing/mccormick-in-44-8-billion-merger-with-unilevers-foods-business"
+        },
+        {
+          "name": "CMA remedy announcement — 25 November",
+          "url": "https://www.gov.uk/government/news/mccormick-offers-remedies-to-resolve-competition-concerns-in-unilever-foods-deal"
         }
       ],
       "related": [
         "merger-control",
         "valuation"
       ],
-      "verifiedOn": "2026-11-24",
+      "verifiedOn": "2026-11-25",
       "dealType": "Cross-border M&A",
       "parties": [
         [
@@ -387,7 +391,7 @@
         }
       ],
       "financing": "The announcement identifies Citi, Goldman Sachs Bank USA and Morgan Stanley Senior Funding as bridge financing providers; the intended permanent funding includes new debt and cash.",
-      "regulatory": "CMA Phase 1 concerns are not a prohibition. Shareholder approval, regulatory clearances and separation conditions remain relevant.",
+      "regulatory": "The CMA considers proposed undertakings potentially acceptable; final acceptance or Phase 2 referral remains to be established. Other regulatory and transaction conditions remain relevant.",
       "timeline": [
         {
           "date": "2026-03-31",
@@ -403,11 +407,17 @@
           "date": "2026-11-11",
           "event": "CMA announced competition concerns",
           "source": "https://www.gov.uk/cma-cases/mccormick-slash-unilever-merger-inquiry"
+        },
+        {
+          "date": "2026-11-25",
+          "event": "CMA said the proposed undertakings may address competition concerns; no final acceptance established",
+          "source": "https://www.gov.uk/government/news/mccormick-offers-remedies-to-resolve-competition-concerns-in-unilever-foods-deal"
         }
       ],
       "legalWork": "Carve-out perimeter, transition services, tax structuring, financing commitments and remedy allocation should be negotiated together. Assess whether a required divestment would undermine the economics of the combined foods business.",
       "interview": "How does a carve-out differ from a simple share acquisition, and what happens to the financing case if competition remedies remove profitable brands?",
       "factSources": [
+        "https://www.gov.uk/government/news/mccormick-offers-remedies-to-resolve-competition-concerns-in-unilever-foods-deal",
         "https://www.gov.uk/cma-cases/mccormick-slash-unilever-merger-inquiry",
         "https://www.unilever.com/news/press-and-media/press-releases/2026/unilever-announces-the-combination-of-unilever-foods-with-mccormick/",
         "https://www.unilever.com/news/press-and-media/press-releases/2026/continued-strong-performance-in-the-third-quarter/",
@@ -437,7 +447,7 @@
         }
       ],
       "research": {
-        "reviewedOn": "2026-11-24",
+        "reviewedOn": "2026-11-25",
         "claims": [
           {
             "heading": "Perimeter and consideration",
@@ -514,17 +524,17 @@
           },
           {
             "heading": "Current competition procedure",
-            "text": "CMA opened formal Phase 1 on 16 September and on 11 November identified potential substantial lessening of competition. An in-depth referral can be avoided if acceptable undertakings are offered. The published case has not established clearance. The parties' mid-2027 closing expectation remains conditional.",
+            "text": "After identifying concerns on 11 November, the CMA stated on 25 November that the offered undertakings, potentially with modifications, might be acceptable. Final acceptance is not established. The proposed sale of the Colman's brand to an approved purchaser is a remedy proposal, not an agreed disposal or completed merger.",
             "evidence": [
+              {
+                "url": "https://www.gov.uk/government/news/mccormick-offers-remedies-to-resolve-competition-concerns-in-unilever-foods-deal",
+                "publisher": "CMA",
+                "locator": "25 November announcement — proposed divestment and conditional clearance"
+              },
               {
                 "url": "https://www.gov.uk/cma-cases/mccormick-slash-unilever-merger-inquiry",
                 "publisher": "CMA",
-                "locator": "Phase 1 / decision and timetable"
-              },
-              {
-                "url": "https://www.clearygottlieb.com/news-and-insights/news-listing/mccormick-in-44-8-billion-merger-with-unilevers-foods-business",
-                "publisher": "Cleary Gottlieb",
-                "locator": "Expected closing subject to approvals"
+                "locator": "25 November case update (indexed official extract; direct open returned older snapshot)"
               }
             ],
             "qualification": "documented"
@@ -608,10 +618,15 @@
             "title": "Cleary Gottlieb mandate",
             "url": "https://www.clearygottlieb.com/news-and-insights/news-listing/mccormick-in-44-8-billion-merger-with-unilevers-foods-business",
             "purpose": "McCormick mandate and specialist workstreams"
+          },
+          {
+            "title": "CMA remedy announcement",
+            "url": "https://www.gov.uk/government/news/mccormick-offers-remedies-to-resolve-competition-concerns-in-unilever-foods-deal",
+            "purpose": "Proposed Colman's disposal and next procedural stage"
           }
         ],
         "openQuestions": [
-          "Full Phase 1 reasons and any remedy package require further review.",
+          "Review final undertakings, remedy perimeter, approved purchaser and any subsequent CMA decision; indexed 25 November source extract reviewed, full live page retrieval incomplete.",
           "Actual debt issuance, final closing adjustment and completed separation remain unknown.",
           "The underlying executed agreement and tax opinions have not been independently inspected in this dossier."
         ],
@@ -619,7 +634,8 @@
           "carlsberg-britvic",
           "greencore-bakkavor"
         ]
-      }
+      },
+      "evidenceScope": "25 November lifecycle update based on dated official indexed extracts; direct case-page retrieval returned an older snapshot. Prior dossier evidence retained; this is not independent certification."
     },
     {
       "id": "sky-itv",
@@ -11073,6 +11089,392 @@
         ]
       },
       "financialAdvisers": "J.P. Morgan for Bidco; Barclays, BofA Securities and Goldman Sachs providing Rule 3 advice to IDS directors."
+    },
+    {
+      "id": "bridgepoint-complii",
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "title": "Bridgepoint / Complii",
+      "eventDate": "2026-11-24",
+      "announcedOn": "2026-11-24",
+      "verifiedOn": "2026-11-25",
+      "status": "Majority acquisition agreed",
+      "sector": "Testing, inspection and compliance",
+      "dealType": "Private equity M&A",
+      "fact": "Bridgepoint agreed to acquire majority control of Complii, a UK building safety and compliance services business. Seller Ansor announced that it would exit its entire shareholding. White & Case disclosed its buyer-side mandate.",
+      "analysis": "This is a sponsor-backed control acquisition in a compliance-driven services sector. Recurring demand is an investment hypothesis, not established profitability. Test revenue quality, accreditation, liability exposures and integration capability before assessing the valuation.",
+      "watch": "Completion and any disclosures on price, funding, minority interests and approvals.",
+      "sources": [
+        {
+          "name": "Complii announcement",
+          "url": "https://www.complii.com/news-and-insights/bridgepoint-backs-complii-mission-to-keep-britains-buildings-safe"
+        },
+        {
+          "name": "Ansor announcement",
+          "url": "https://ansor.com/news-insights/portfolio-news-ansor-agrees-sale-of-complii-the-uk-building-safety-platform-to-bridgepoint/"
+        },
+        {
+          "name": "White & Case mandate",
+          "url": "https://www.whitecase.com/news/press-release/white-case-advises-bridgepoint-acquisition-complii"
+        }
+      ],
+      "factSources": [
+        "https://www.complii.com/news-and-insights/bridgepoint-backs-complii-mission-to-keep-britains-buildings-safe",
+        "https://ansor.com/news-insights/portfolio-news-ansor-agrees-sale-of-complii-the-uk-building-safety-platform-to-bridgepoint/",
+        "https://www.whitecase.com/news/press-release/white-case-advises-bridgepoint-acquisition-complii"
+      ],
+      "related": [
+        "private-equity",
+        "due-diligence",
+        "valuation"
+      ],
+      "parties": [
+        [
+          "Buyer",
+          "Bridgepoint"
+        ],
+        [
+          "Seller",
+          "Ansor"
+        ],
+        [
+          "Target",
+          "Complii"
+        ]
+      ],
+      "structure": "Agreed majority stake acquisition; Ansor to dispose of its entire shareholding. Precise percentage and remaining ownership not established.",
+      "values": [],
+      "advisers": [
+        {
+          "firmId": "white-case",
+          "firm": "White & Case",
+          "client": "Bridgepoint",
+          "scope": "Buyer-side acquisition advice",
+          "source": "https://www.whitecase.com/news/press-release/white-case-advises-bridgepoint-acquisition-complii"
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-11-24",
+          "event": "Target and seller announced agreed majority investment",
+          "source": "https://www.complii.com/news-and-insights/bridgepoint-backs-complii-mission-to-keep-britains-buildings-safe"
+        },
+        {
+          "date": "2026-11-24",
+          "event": "White & Case disclosed buyer mandate",
+          "source": "https://www.whitecase.com/news/press-release/white-case-advises-bridgepoint-acquisition-complii"
+        }
+      ],
+      "legalWork": "Review sale and investment documentation, continuing ownership rights, quality of earnings, compliance credentials, historical claims, financing conditions and required consents.",
+      "interview": "Why is a building-safety compliance platform attractive to private equity, and which diligence findings could change the price or contractual protection?",
+      "evidenceScope": "Dated target, seller and counsel indexed extracts; full underlying pages or agreements not independently inspected. No independent certification.",
+      "research": {
+        "reviewedOn": "2026-11-25",
+        "claims": [
+          {
+            "heading": "Majority acquisition",
+            "text": "The target announcement identifies Bridgepoint's agreed majority investment; this is not evidence of completion.",
+            "evidence": [
+              {
+                "url": "https://www.complii.com/news-and-insights/bridgepoint-backs-complii-mission-to-keep-britains-buildings-safe",
+                "publisher": "Complii",
+                "locator": "24 November announcement — majority stake"
+              },
+              {
+                "url": "https://www.whitecase.com/news/press-release/white-case-advises-bridgepoint-acquisition-complii",
+                "publisher": "White & Case",
+                "locator": "24 November mandate — agreement"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Seller exit",
+            "text": "Ansor states that it intends to dispose of its entire holding. The exact percentage of target shares owned by Ansor is not established.",
+            "evidence": [
+              {
+                "url": "https://ansor.com/news-insights/portfolio-news-ansor-agrees-sale-of-complii-the-uk-building-safety-platform-to-bridgepoint/",
+                "publisher": "Ansor",
+                "locator": "24 November announcement — transaction terms"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Business perimeter",
+            "text": "The target provides building safety and regulatory compliance services in the UK; specific contracts, earnings and operating subsidiaries remain unverified.",
+            "evidence": [
+              {
+                "url": "https://www.complii.com/news-and-insights/bridgepoint-backs-complii-mission-to-keep-britains-buildings-safe",
+                "publisher": "Complii",
+                "locator": "24 November announcement — target description"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Buyer counsel",
+            "text": "White & Case identifies Bridgepoint as the client on the agreed acquisition. Other legal advisers and specialist allocations are not established.",
+            "evidence": [
+              {
+                "url": "https://www.whitecase.com/news/press-release/white-case-advises-bridgepoint-acquisition-complii",
+                "publisher": "White & Case",
+                "locator": "24 November mandate — client and transaction"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Corporate structure",
+            "question": "Which entities and equity interests transfer?",
+            "why": "Clarify seller title, control rights and minority arrangements.",
+            "documents": "SPA; cap table; shareholder agreements"
+          },
+          {
+            "name": "Operational diligence",
+            "question": "Which certifications and customer contracts are material?",
+            "why": "Verify accreditation, renewal conditions, change-of-control provisions and historic liabilities.",
+            "documents": "Accreditation register; contracts; insurance"
+          },
+          {
+            "name": "Financing and valuation",
+            "question": "How resilient are earnings and cash conversion?",
+            "why": "Assess recurring versus project revenue and downside funding rather than assuming a disclosed leverage level.",
+            "documents": "Financial diligence report; financing commitments"
+          },
+          {
+            "name": "Risk allocation",
+            "question": "Which issues require specific protection or conditions?",
+            "why": "Evaluate warranties, indemnities, disclosures and approval dependencies.",
+            "documents": "SPA; disclosure letter; conditions checklist"
+          }
+        ],
+        "documents": [
+          {
+            "title": "Complii announcement",
+            "url": "https://www.complii.com/news-and-insights/bridgepoint-backs-complii-mission-to-keep-britains-buildings-safe",
+            "purpose": "Agreement and UK business description"
+          },
+          {
+            "title": "Ansor announcement",
+            "url": "https://ansor.com/news-insights/portfolio-news-ansor-agrees-sale-of-complii-the-uk-building-safety-platform-to-bridgepoint/",
+            "purpose": "Seller's proposed exit"
+          },
+          {
+            "title": "White & Case mandate",
+            "url": "https://www.whitecase.com/news/press-release/white-case-advises-bridgepoint-acquisition-complii",
+            "purpose": "Buyer adviser attribution"
+          }
+        ],
+        "openQuestions": [
+          "Price, enterprise value, consideration, exact ownership and financing terms not established in reviewed primary extracts.",
+          "Completion conditions, approvals and completion date not established.",
+          "Seller counsel, management equity terms and underlying agreements require further review."
+        ],
+        "relatedDeals": [
+          "goldman-celnor",
+          "cary-consortium"
+        ]
+      }
+    },
+    {
+      "id": "orbenovo-stellex-score",
+      "jurisdiction": "UK",
+      "category": "Transactions",
+      "title": "OrbeNovo Capital / Stellex Capital Management — Score Group",
+      "eventDate": "2026-11-23",
+      "announcedOn": "2026-11-20",
+      "verifiedOn": "2026-11-25",
+      "status": "Sale agreement announced",
+      "sector": "Industrial services",
+      "dealType": "Private equity M&A",
+      "fact": "On 20 November Score Group announced SCF Partners' agreed sale to OrbeNovo Capital and Stellex. A 23 November investment disclosure identifies SCF-backed D2Zero as the selling business owner; Dentons disclosed its advice to SCF.",
+      "analysis": "Critical infrastructure engineering services may generate repeat work, but asset exposure, safety compliance, customer concentration and cyclicality matter. Sponsor alignment and seller perimeter require document-level diligence.",
+      "watch": "Confirm closing, acquisition vehicle, approvals, adviser allocation and any disclosed consideration.",
+      "sources": [
+        {
+          "name": "Score Group announcement",
+          "url": "https://score-group.com/news-media/scf-agrees-sale-of-score-group/"
+        },
+        {
+          "name": "Headway investment disclosure",
+          "url": "https://www.headwaycap.com/headway-backs-orbenovo-capital-to-acquire-score-group/"
+        },
+        {
+          "name": "Dentons mandate",
+          "url": "https://www.dentons.com/en/about-dentons/news-events-and-awards/news/2026/november/dentons-advises-scf-partners-on-the-sale-of-score-group"
+        }
+      ],
+      "factSources": [
+        "https://score-group.com/news-media/scf-agrees-sale-of-score-group/",
+        "https://www.headwaycap.com/headway-backs-orbenovo-capital-to-acquire-score-group/",
+        "https://www.dentons.com/en/about-dentons/news-events-and-awards/news/2026/november/dentons-advises-scf-partners-on-the-sale-of-score-group"
+      ],
+      "related": [
+        "private-equity",
+        "due-diligence"
+      ],
+      "parties": [
+        [
+          "Buyers",
+          "OrbeNovo Capital and Stellex Capital Management"
+        ],
+        [
+          "Seller platform",
+          "D2Zero Limited (SCF-backed)"
+        ],
+        [
+          "Target",
+          "Score Group Limited"
+        ],
+        [
+          "Exiting sponsor",
+          "SCF Partners"
+        ]
+      ],
+      "structure": "Definitive agreement for investment/acquisition of Score from the SCF-backed D2Zero platform; exact ownership and acquisition vehicle not established.",
+      "values": [],
+      "advisers": [
+        {
+          "firmId": "dentons",
+          "firm": "Dentons",
+          "client": "SCF Partners",
+          "scope": "Advice on sale of Score Group",
+          "source": "https://www.dentons.com/en/about-dentons/news-events-and-awards/news/2026/november/dentons-advises-scf-partners-on-the-sale-of-score-group"
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-11-20",
+          "event": "Score published agreed sale announcement",
+          "source": "https://score-group.com/news-media/scf-agrees-sale-of-score-group/"
+        },
+        {
+          "date": "2026-11-23",
+          "event": "Headway disclosed investment via OrbeNovo-managed vehicle",
+          "source": "https://www.headwaycap.com/headway-backs-orbenovo-capital-to-acquire-score-group/"
+        },
+        {
+          "date": "2026-11-23",
+          "event": "Dentons disclosed SCF sale mandate",
+          "source": "https://www.dentons.com/en/about-dentons/news-events-and-awards/news/2026/november/dentons-advises-scf-partners-on-the-sale-of-score-group"
+        }
+      ],
+      "legalWork": "Map seller and target entity perimeter, investigate contracts and safety claims, assess sponsor governance and acquisition finance, and check consents and closing conditions.",
+      "interview": "How would you distinguish the exiting sponsor, selling legal entity and buyer consortium, and what risks arise when engineering services support critical assets?",
+      "evidenceScope": "Dated target, investor and law-firm indexed extracts; Headway repeats a buyer announcement and is not independent corroboration of its underlying terms. Full transaction agreements not inspected.",
+      "research": {
+        "reviewedOn": "2026-11-25",
+        "claims": [
+          {
+            "heading": "Agreement date",
+            "text": "The target published the agreed sale on 20 November. The later counsel disclosure is not the original announcement date.",
+            "evidence": [
+              {
+                "url": "https://score-group.com/news-media/scf-agrees-sale-of-score-group/",
+                "publisher": "Score Group",
+                "locator": "20 November release — agreed sale"
+              },
+              {
+                "url": "https://www.dentons.com/en/about-dentons/news-events-and-awards/news/2026/november/dentons-advises-scf-partners-on-the-sale-of-score-group",
+                "publisher": "Dentons",
+                "locator": "23 November release — sale mandate"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Seller perimeter",
+            "text": "The buyer announcement reproduced by Headway identifies D2Zero as the entity from which Score is being acquired and describes D2Zero as SCF-backed.",
+            "evidence": [
+              {
+                "url": "https://www.headwaycap.com/headway-backs-orbenovo-capital-to-acquire-score-group/",
+                "publisher": "Headway Capital Partners / buyer release",
+                "locator": "23 November investment disclosure — first paragraph"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Investment vehicle and activity",
+            "text": "Headway describes investing through an OrbeNovo-managed vehicle. The company supplies engineering technology services for critical infrastructure assets; exact ownership proportions not established.",
+            "evidence": [
+              {
+                "url": "https://www.headwaycap.com/headway-backs-orbenovo-capital-to-acquire-score-group/",
+                "publisher": "Headway Capital Partners",
+                "locator": "23 November introduction and buyer release"
+              }
+            ],
+            "qualification": "documented"
+          },
+          {
+            "heading": "Disclosed legal mandate",
+            "text": "Dentons names SCF Partners as the client on the sale to OrbeNovo and Stellex. Buyer-side counsel and the precise specialist workstreams remain unknown.",
+            "evidence": [
+              {
+                "url": "https://www.dentons.com/en/about-dentons/news-events-and-awards/news/2026/november/dentons-advises-scf-partners-on-the-sale-of-score-group",
+                "publisher": "Dentons",
+                "locator": "23 November mandate title and announcement"
+              }
+            ],
+            "qualification": "documented"
+          }
+        ],
+        "workstreams": [
+          {
+            "name": "Transaction perimeter",
+            "question": "What is included in Score and what remains with D2Zero?",
+            "why": "Map group boundaries, shared contracts and any transition services.",
+            "documents": "Group chart; SPA; separation schedules"
+          },
+          {
+            "name": "Operational risk",
+            "question": "Which engineering contracts create material liabilities?",
+            "why": "Review performance guarantees, warranty claims, safety and insurance.",
+            "documents": "Material contracts; HSE records; claims register"
+          },
+          {
+            "name": "Investor governance",
+            "question": "How do multiple sponsors allocate decisions?",
+            "why": "Assess board rights, reserved matters, funding and exits.",
+            "documents": "Shareholders’ agreement; equity commitment letters"
+          },
+          {
+            "name": "Finance and execution",
+            "question": "Can the deal close on the disclosed agreement?",
+            "why": "Identify approvals, financing conditions, change-of-control notices and timetable.",
+            "documents": "SPA conditions; financing documents; consent checklist"
+          }
+        ],
+        "documents": [
+          {
+            "title": "Score announcement",
+            "url": "https://score-group.com/news-media/scf-agrees-sale-of-score-group/",
+            "purpose": "Original announcement date and transaction"
+          },
+          {
+            "title": "Headway disclosure",
+            "url": "https://www.headwaycap.com/headway-backs-orbenovo-capital-to-acquire-score-group/",
+            "purpose": "Investment vehicle and buyer disclosure"
+          },
+          {
+            "title": "Dentons mandate",
+            "url": "https://www.dentons.com/en/about-dentons/news-events-and-awards/news/2026/november/dentons-advises-scf-partners-on-the-sale-of-score-group",
+            "purpose": "Seller sponsor legal adviser"
+          }
+        ],
+        "openQuestions": [
+          "Price, enterprise value, consideration, financing and stake percentages not established.",
+          "Exact seller entity chain, closing conditions and completion date require verification.",
+          "Buyer counsel and specialist adviser roles not established."
+        ],
+        "relatedDeals": [
+          "cary-consortium",
+          "goldman-celnor"
+        ]
+      }
     }
   ],
   "lessons": [
@@ -11651,6 +12053,20 @@
       "url": "https://www.cov.com/en/careers",
       "research": "Cross-border technology and regulatory matters.",
       "programme": "Consult official careers information; no current vacancy is asserted."
+    },
+    {
+      "id": "white-case",
+      "name": "White & Case",
+      "url": "https://www.whitecase.com/careers/locations/uk/early-careers/our-offer/training-contracts",
+      "programme": "London training contract; official programme page describes graduate eligibility and SQE/QWE route. Check current intake.",
+      "research": "Use the Complii mandate to explain majority investments and compliance-sector diligence."
+    },
+    {
+      "id": "dentons",
+      "name": "Dentons",
+      "url": "https://www.dentons.com/en/careers/careers-in-the-united-kingdom",
+      "programme": "UK and Ireland careers directory includes graduate and business services recruitment; check current vacancies.",
+      "research": "Use the Score Group mandate to discuss seller-side diligence, transaction perimeter and sponsor exits."
     }
   ],
   "registry": [
