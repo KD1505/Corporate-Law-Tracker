@@ -656,6 +656,48 @@
       "name": "Clifford Chance",
       "url": "https://jobs.cliffordchance.com/",
       "kind": "employer"
+    },
+    {
+      "id": "listing:lw-pro-bono-11461",
+      "name": "Latham & Watkins",
+      "url": "https://ukcareers-lw.icims.com/jobs/11461/pro-bono-assistant-%E2%80%93-intake-%26-compliance/job?mobile=true&needsRedirect=false",
+      "kind": "listing",
+      "listingId": "lw-pro-bono-11461"
+    },
+    {
+      "id": "listing:lw-corporate-paralegal-11145",
+      "name": "Latham & Watkins",
+      "url": "https://ukcareers-lw.icims.com/jobs/11145/paralegal---corporate-%286-month-fixed-term-contract%29/job?mobile=true&needsRedirect=false",
+      "kind": "listing",
+      "listingId": "lw-corporate-paralegal-11145"
+    },
+    {
+      "id": "listing:lw-finance-paralegal-12103",
+      "name": "Latham & Watkins",
+      "url": "https://ukcareers-lw.icims.com/jobs/12103/paralegal---finance/job?in_iframe=1",
+      "kind": "listing",
+      "listingId": "lw-finance-paralegal-12103"
+    },
+    {
+      "id": "listing:linklaters-nda-support-r00016156",
+      "name": "Linklaters",
+      "url": "https://linklaters.wd3.myworkdayjobs.com/en-US/Linklaters/job/Paralegal-Support-Lawyer--NDA--Remote-UK-based-_R00016156",
+      "kind": "listing",
+      "listingId": "linklaters-nda-support-r00016156"
+    },
+    {
+      "id": "listing:bristows-paralegal-pool-202611",
+      "name": "Bristows",
+      "url": "https://www.bristows.com/careers/current-opportunities/paralegal-4/",
+      "kind": "listing",
+      "listingId": "bristows-paralegal-pool-202611"
+    },
+    {
+      "id": "listing:gt-administrator-hammersmith-202611",
+      "name": "GT Stewart",
+      "url": "https://gtstewart.co.uk/vacancies/administrator-hammersmith/",
+      "kind": "listing",
+      "listingId": "gt-administrator-hammersmith-202611"
     }
   ]
 }
